@@ -1,6 +1,8 @@
 # YousList
 
-Adblock Plus filter.
+[Adblock Plus][] filter.
+
+[Adblock Plus]: https://adblockplus.org/
 
 # License
 
