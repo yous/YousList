@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: +1VPRvGSlteyDuXWGVaV7Q
-! Version: 20141022
+! Checksum: 1aIEHoSj/3zcP7iQzEJuww
+! Version: 20141023
 
 ! General element hiding rules
 ##a[href^="http://www.bizon.kr/click.php?type=adon"]
@@ -51,6 +51,7 @@
 ##iframe[src^="http://adx.naonmedia.net/adx/"]
 ##iframe[src^="http://agate.opap.co.kr/html/"]
 ##iframe[src^="http://aitg.widerplanet.com/"]
+##iframe[src^="http://cas.criteo.com/delivery/"]
 ##iframe[src^="http://cdn04.sndkorea.co.kr/"]
 ##iframe[src^="http://cm.interworksmedia.co.kr/adTagRequest.htm"]
 ##iframe[src^="http://plugin.2beon.co.kr/"]
@@ -367,19 +368,26 @@ asiatoday.co.kr##p.main_ad2
 bbs2.ruliweb.daum.net##div.bnr_info
 bgmstore.net##div.adBox
 biz.chosun.com##div#art_promotion
-biz.heraldcorp.com##div#HB_COMMOM_TOPINT001
-biz.heraldcorp.com##div#HB_LEFTSLIDER001
-biz.heraldcorp.com##div#HB_SUB_SIDEER001
-biz.heraldcorp.com##div#HB_SUB_TOP001
-biz.heraldcorp.com##div#HB_Sub_MIDTOP02
-biz.heraldcorp.com##div#HB_Sub_MidEnd01
-biz.heraldcorp.com##div#HBSUB_ABOUTAD001
-biz.heraldcorp.com##div.news_content>div[style="padding-left:20px"]
-biz.heraldcorp.com##div.nnews_bottomadlist_area
-biz.heraldcorp.com##div.subpg_news_body>div[style="float:right; margin-left:10px;border:1px solid #DED7D7;width:200px;height:200px;"]
-biz.heraldcorp.com##div[class="mt_15 clear"][style="border-bottom:0;"]
-biz.heraldcorp.com##iframe#ficm_iframe
-biz.heraldcorp.com##iframe[src^="http://ad"]
+biz.heraldcorp.com,news.heraldcorp.com##div#CmAdContent>div.subpg_news_body>div[style="float:right; margin-left:10px;border:1px solid #DED7D7;width:200px;height:200px;"]
+biz.heraldcorp.com,news.heraldcorp.com##div#HB_COMMOM_TOPINT001
+biz.heraldcorp.com,news.heraldcorp.com##div#HB_LEFTSLIDER001
+biz.heraldcorp.com,news.heraldcorp.com##div#HB_SUB_SIDEER001
+biz.heraldcorp.com,news.heraldcorp.com##div#HB_SUB_TOP001
+biz.heraldcorp.com,news.heraldcorp.com##div#HB_Sub_MIDTOP02
+biz.heraldcorp.com,news.heraldcorp.com##div#HB_Sub_MidEnd01
+biz.heraldcorp.com,news.heraldcorp.com##div#HB_Sub_Right3_105
+biz.heraldcorp.com,news.heraldcorp.com##div#HB_Sub_Right4_105
+biz.heraldcorp.com,news.heraldcorp.com##div#HB_Sub_Top_253
+biz.heraldcorp.com,news.heraldcorp.com##div#HBSUB_ABOUTAD001
+biz.heraldcorp.com,news.heraldcorp.com##div.news_content>div[style="padding-left:20px"]
+biz.heraldcorp.com,news.heraldcorp.com##div.nnews_bottomadlist_area
+biz.heraldcorp.com,news.heraldcorp.com##div.subpg_news_body>div[style="float:right; margin-left:10px;border:1px solid #DED7D7;width:200px;height:200px;"]
+biz.heraldcorp.com,news.heraldcorp.com##div.subtop_webzinestyle_hd
+biz.heraldcorp.com,news.heraldcorp.com##div[class="mt_15 clear"][style="border-bottom:0;"]
+biz.heraldcorp.com,news.heraldcorp.com##iframe#ficm_iframe
+biz.heraldcorp.com,news.heraldcorp.com##iframe[src^="http://adw.heraldm.com/"]
+biz.heraldcorp.com,news.heraldcorp.com##iframe[src^="http://cadvv.heraldm.com/nbiz/"]
+biz.heraldcorp.com,news.heraldcorp.com##iframe[src^="http://res.heraldm.com/iframe/"]
 bizn.khan.co.kr##div.topright_bn
 blog.musictank.net##div#floating
 blog.naver.com##td.adpost_con
