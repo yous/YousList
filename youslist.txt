@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: INW1rfMCmPd10xMFfqJfTA
+! Checksum: BkPQ55F2PQHtQ/vOTAYxxA
 ! Version: 20141027
 
 ! General element hiding rules
@@ -56,6 +56,7 @@
 ##iframe[src^="http://cdn04.sndkorea.co.kr/"]
 ##iframe[src^="http://chie8oo.com/afr.php"]
 ##iframe[src^="http://cm.interworksmedia.co.kr/adTagRequest.htm"]
+##iframe[src^="http://dgate.joins.com/hc.aspx"]
 ##iframe[src^="http://plugin.2beon.co.kr/"]
 ##iframe[src^="http://ra.ntwoad.co.kr/"]
 ##iframe[src^="http://www.ad-playstore.com/"]
@@ -571,8 +572,10 @@ news.hankooki.com##div[id^="adText"]
 news.inews24.com##div#divrightbiz
 news.inews24.com##div.main_top_banner
 news.inews24.com##iframe#ifrmTopTotal
-news.jtbc.co.kr##div.ad
-news.jtbc.co.kr##div.sponsor_link_area
+news.jtbc.joins.com##div.ad
+news.jtbc.joins.com##div.articleadnetworkbanner
+news.jtbc.joins.com##div.sponsor_link_area
+news.jtbc.joins.com##div.sponsor_link_combine
 news.khan.co.kr##div.scroll
 news.kmib.co.kr##div#content>div.NwsCon>div[style="border-bottom:1px solid #ddd;padding:0 0 20px;margin-bottom:20px;"]
 news.kmib.co.kr##div#content>div.NwsCon>div[style="margin:15px 0;"]
