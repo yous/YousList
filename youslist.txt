@@ -3,10 +3,11 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: BkPQ55F2PQHtQ/vOTAYxxA
-! Version: 20141027
+! Checksum: 8hPA/k5+FRv0ng6euV2tUw
+! Version: 20141030
 
 ! General element hiding rules
+###banner_ad
 ##a[href^="http://www.bizon.kr/click.php?type=adon"]
 ##div#adMedia
 ##div#adbay_adExpandDiv
@@ -21,6 +22,7 @@
 ##div#uniqubeFirstDiv
 ##div#wiseAd
 ##div.ad-box
+##div.gpt_ad_container
 ~sports.donga.com##div[class$="_AD"]
 ##div[class$="_ad"]
 ##div[class$="_ads"]
@@ -37,6 +39,7 @@
 ##div[id^="div-gpt-ad-"]
 ##div[id^="google_ads_iframe_"]
 ##div[id^="sbaAbout"]
+##iframe[id^="google_ads_iframe_"]
 ##iframe[id^="nad_"]
 ##iframe[name="ifrad"]
 ##iframe[src*="/RealMedia/ads/"]
@@ -394,6 +397,7 @@ biz.heraldcorp.com,news.heraldcorp.com##iframe[src^="http://res.heraldm.com/ifra
 bizn.khan.co.kr##div.topright_bn
 blog.musictank.net##div#floating
 blog.naver.com##td.adpost_con
+businessweek.com##div#promo
 consumernews.co.kr##span.brn
 dailian.co.kr##div[class^="banner"]
 dailian.co.kr##iframe[name="adv"]
