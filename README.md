@@ -6,11 +6,21 @@
 
 ## Usage
 
-Install its browser plugin of Adblock Plus and add an subscription as 'YousList' with the url:
+Install its browser plugin of Adblock Plus and add a subscription as 'YousList' with the url:
 
 ```
 https://github.com/yous/YousList/raw/master/youslist.txt
 ```
+
+## Testing
+
+For the tests of your filter, make a temporary subscription served by your local machine by:
+
+``` sh
+ruby server.rb
+```
+
+Add a subscription using `http://localhost:8000/youslist.txt`.
 
 ## Contributing
 
