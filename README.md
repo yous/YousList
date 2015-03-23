@@ -1,6 +1,6 @@
 # YousList
 
-Block filter for [Adblock Plus][] and [µBlock][].
+Block filter for [Adblock Plus][] and [uBlock][].
 
 [Adblock Plus]: https://adblockplus.org/
 [µBlock]: https://github.com/gorhill/uBlock
@@ -15,7 +15,7 @@ https://github.com/yous/YousList/raw/master/youslist.txt
 
 Install the browser plugin of Adblock Plus and add a subscription as 'YousList' with the above URL.
 
-### µBlock
+### uBlock
 
 Install the browser plugin of µBlock and add a custom filter with the above URL.
 
