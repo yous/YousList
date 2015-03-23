@@ -3,7 +3,7 @@
 Block filter for [Adblock Plus][] and [uBlock][].
 
 [Adblock Plus]: https://adblockplus.org/
-[µBlock]: https://github.com/gorhill/uBlock
+[uBlock]: https://github.com/gorhill/uBlock
 
 ## Usage
 
