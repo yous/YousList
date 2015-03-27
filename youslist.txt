@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: F2OYhUuzolrlNnp1V2kCcQ
-! Version: 20150318
+! Checksum: ClG7NGHugyZkUNK5ZaTDGA
+! Version: 20150327
 
 ! General element hiding rules
 ###banner_ad
@@ -47,6 +47,7 @@
 ##iframe[src^="http://a1.dp25.kr/"]
 ##iframe[src^="http://ad.about.co.kr/"]
 ##iframe[src^="http://ad.ad4989.co.kr/"]
+##iframe[src^="http://ad.owra.net/"]
 ##iframe[src^="http://ad.priel.co.kr/"]
 ##iframe[src^="http://ad.xc.nis.nitmus.com/"]
 ##iframe[src^="http://ad1.eventmanager.co.kr/"]
@@ -63,13 +64,16 @@
 ##iframe[src^="http://agate.opap.co.kr/html/"]
 ##iframe[src^="http://aitg.widerplanet.com/"]
 ##iframe[src^="http://bayabar.com/adworking/"]
+##iframe[src^="http://candy.ad9.kr/"]
 ##iframe[src^="http://cas.criteo.com/delivery/"]
 ##iframe[src^="http://cdn04.sndkorea.co.kr/"]
 ##iframe[src^="http://chie8oo.com/afr.php"]
 ##iframe[src^="http://cm.interworksmedia.co.kr/adTagRequest.htm"]
 ##iframe[src^="http://dgate.joins.com/hc.aspx"]
 ##iframe[src^="http://joy-adstore.co.kr/ad/"]
+##iframe[src^="http://mobi.luxad.net/ad/"]
 ##iframe[src^="http://mtab.clickmon.co.kr/pop/"]
+##iframe[src^="http://nws.lumieyes.com/"]
 ##iframe[src^="http://p.lumieyes.com/"]
 ##iframe[src^="http://plugin.2beon.co.kr/"]
 ##iframe[src^="http://provider.hiadone.com/cgi-bin/conad_hi.fcgi/"]
@@ -119,6 +123,7 @@ ad.naver.com/adshow
 ad.nsonmedia.com/media/
 ad.openmatch.co.kr/
 ad.osen.co.kr/
+ad.owra.net/
 ad.pickple.net/
 ad.priel.co.kr/
 ad.reople.co.kr/
@@ -182,6 +187,7 @@ bizon.kr/bizon_ad/
 bohumlife.edaily.co.kr/iframe_starin.html
 cad.donga.com/netBanners/
 cadvv.heraldm.com/hb/imad/
+candy.ad9.kr/
 cas.criteo.com/delivery/ajs.php
 castbox.shopping.naver.com/index.nhn
 cdn.c-team.jp/tags/dokojs/ad*.js
@@ -209,6 +215,7 @@ eto.co.kr/Data/Xml/localuser/adv/
 eto.co.kr/adv/
 ex.mdtoday.co.kr/
 feeltong.hani.co.kr/common/banner.html
+file.osen.co.kr/web2/js/mobitree_osen*.js
 file.thisisgame.com/inc/PBPage*.js
 fnnews.com/control
 fnnews.com/include2011/section/google.jsp
@@ -264,6 +271,7 @@ miz-diet.co.kr/cnb.html
 miz-diet.co.kr/jose.html
 miz-diet.co.kr/view*.html
 mktag.mt.co.kr/event.ems/
+mobi.luxad.net/ad/
 mp.mmnneo.com
 mt.co.kr/ad/
 munhwa.com/skin/inc_right/inc_denta_ad_iframe.html
@@ -304,7 +312,7 @@ newsway.kr/bannerManager/
 nocutnews.co.kr/banner/2012/ad_right_*.asp
 npian.com/nbox/ad*.swf
 nson.encock.com/media/
-nws.lumieyes.com/show/media/
+nws.lumieyes.com/show*/media/
 ojsimg.ohmynews.com/*_ad_rolling.htm
 op.mmnneo.com/banner.widget.asp
 op.neoad.co.kr/adsearch*
@@ -623,6 +631,9 @@ media.daum.net##div#daum-ad-root
 media.daum.net##iframe#daum-ad-root-ifrm
 mediaus.co.kr##div[style="position:relative;width:250px;height:139px;overflow:hidden;"]
 mediaus.co.kr##iframe[src^="/banner/"]
+mosen.mt.co.kr##div#mobitree
+mosen.mt.co.kr##div#mobitreeP
+mosen.mt.co.kr##div[id^="adList"]
 mt.co.kr##div#art_ad_top1
 mt.co.kr##div#news_banner1
 mt.co.kr##div#news_banner2
