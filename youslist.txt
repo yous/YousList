@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: ClG7NGHugyZkUNK5ZaTDGA
-! Version: 20150327
+! Checksum: QdXFR8TKP/V1DKvWGjCXJg
+! Version: 20150406
 
 ! General element hiding rules
 ###banner_ad
@@ -80,6 +80,7 @@
 ##iframe[src^="http://ra.ntwoad.co.kr/"]
 ##iframe[src^="http://tab2.clickmon.co.kr/pop/"]
 ##iframe[src^="http://www.ad-playstore.com/"]
+##iframe[src^="http://www.koreadaily.com/_ui/ad/"]
 ##ins.adsbygoogle
 ##ins.daum_ddn_area
 
@@ -257,6 +258,7 @@ js.keywordsconnect.com/
 js2.keywordsconnect.com/
 jshoppingbox.joinsmsn.com/
 khan.co.kr/ad/
+koreadaily.com/_ui/ad/
 lightad.co.kr/Lightcoms/
 lightasp.dmcmedia.co.kr/adixs/
 maxmovie.com/banner/img/lotte630x88.jpg
@@ -604,6 +606,11 @@ kookje.co.kr##div#bnr_newsmiddlebottomArea
 kookje.co.kr##div#bnr_newstopArea
 kookje.co.kr##div#bnr_rightmiddleArea
 kookje.co.kr##div[id^="flow_banner"]
+koreadaily.com##div#google_ad1
+koreadaily.com##div.right_b_banner
+koreadaily.com##div.shopping2
+koreadaily.com##div.top>div[style="width:970px;margin-top:15px;overflow:hidden;border:solid 1px #e5e5e5;"]
+koreadaily.com##td#frame_center>table>tbody>tr>td>div[style="width:680px;height:95px;margin-top:20px;position:relative;text-align:right;"]
 koreaherald.com##aside.rsnb>div[class^="ad"]
 koreaherald.com##div.banner_1024_1024
 koreaherald.com##div.content>div[style=" margin:20px 0 20px 0; width:670px; height:130px; background:#f0f0f0;"]
