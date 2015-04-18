@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: W3OWjvqoIXn+HmMIL0Vumg
-! Version: 20150416
+! Checksum: Sjr/kuGMNLK9fo307EGiYw
+! Version: 20150418
 
 ! General element hiding rules
 ###banner_ad
@@ -47,6 +47,7 @@
 ##iframe[src^="http://a1.dp25.kr/"]
 ##iframe[src^="http://ad.about.co.kr/"]
 ##iframe[src^="http://ad.ad4989.co.kr/"]
+##iframe[src^="http://ad.mediatoday.co.kr/"]
 ##iframe[src^="http://ad.owra.net/"]
 ##iframe[src^="http://ad.priel.co.kr/"]
 ##iframe[src^="http://ad.xc.nis.nitmus.com/"]
@@ -122,6 +123,7 @@ ad.ingfac.co.kr/
 ad.kmib.co.kr/
 ad.koreadaily.com/
 ad.linkprice.com/stlink.php
+ad.mediatoday.co.kr/
 ad.naver.com/adshow
 ad.nsonmedia.com/media/
 ad.openmatch.co.kr/
@@ -355,6 +357,7 @@ sndkorea.nowcdn.co.kr/media/
 sndkorea.nowcdn.co.kr/xml/
 sosa.semanticrep.com/soea/
 sosa.semanticrep.com/spacead/
+sp1.jssearch.net/
 sports.chosun.com/ad/
 sports.chosun.com/ads/
 sports.chosun.com/banner/240_140_100208.swf
@@ -643,6 +646,8 @@ mbn.mk.co.kr##div.mbn11_top_banner
 media.daum.net##div#banner250
 media.daum.net##div#daum-ad-root
 media.daum.net##iframe#daum-ad-root-ifrm
+mediatoday.co.kr##div#adbnFloating
+mediatoday.co.kr##iframe[src*="/adItem/"]
 mediaus.co.kr##div[style="position:relative;width:250px;height:139px;overflow:hidden;"]
 mediaus.co.kr##iframe[src^="/banner/"]
 mosen.mt.co.kr##div#mobitree
