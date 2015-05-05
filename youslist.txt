@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: MNHjZmF8PJDlhVLhkMemwQ
-! Version: 20150426
+! Checksum: Y9CIGkb2/AFzEsc3PrYLIw
+! Version: 20150505
 
 ! General element hiding rules
 ###banner_ad
@@ -25,7 +25,7 @@
 ##div.ezAdsense
 ##div.gpt_ad_container
 ~sports.donga.com##div[class$="_AD"]
-##div[class$="_ad"]
+~sports.news.naver.com##div[class$="_ad"]
 ##div[class$="_ads"]
 ##div[class^="AD_"]
 ~donga.com##div[class^="ad_"]
@@ -124,7 +124,6 @@ ad.kmib.co.kr/
 ad.koreadaily.com/
 ad.linkprice.com/stlink.php
 ad.mediatoday.co.kr/
-ad.naver.com/adshow
 ad.nsonmedia.com/media/
 ad.openmatch.co.kr/
 ad.osen.co.kr/
