@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: jVyx/iEl9DQiCm6yDUN0Bw
-! Version: 20150523
+! Checksum: 078Zc5gZNVuQxcMwjUKw8w
+! Version: 20150606
 
 ! General element hiding rules
 ###banner_ad
@@ -61,6 +61,7 @@
 ##iframe[src^="http://ads.mangouni.com/mad/"]
 ##iframe[src^="http://ads.mncmedia.co.kr/"]
 ##iframe[src^="http://adserver.sbtrustmedia.com/"]
+##iframe[src^="http://adsvc2.wisenut.co.kr/"]
 ##iframe[src^="http://adtg.widerplanet.com/"]
 ##iframe[src^="http://adv.imadrep.co.kr/"]
 ##iframe[src^="http://adx.naonmedia.net/adx/"]
@@ -150,6 +151,7 @@ adexview.new-star.co.kr/adimage.php
 adf.send.microad.jp/
 adget.co.kr/
 adimg.nateimg.co.kr/
+adimg.wisenut.co.kr/common/js/amc/wiseAdSvc.pj
 adimg1.adinc.co.kr/
 adin.ad4980.kr/
 adinc.co.kr/
@@ -171,6 +173,7 @@ ads1.playforum.net:8080/
 ads3.adinc.co.kr/
 adserver.sbtrustmedia.com/
 adserver.uniqube.tv/
+adsvc2.wisenut.co.kr/
 adtg.widerplanet.com/
 adv.imadrep.co.kr/
 adv.mediaharbor.co.kr/nad/
@@ -518,6 +521,9 @@ economy.hankooki.com##div[id^="adtive_"]
 economy.hankooki.com##iframe#frm_StockNewsSearch
 economy.hankooki.com##iframe#frm_ThemeSpecial
 economy.hankooki.com##span#AD_GISA_PHOTO_LINE
+econovill.com##td#articleBody>div[style="float:right; margin-left: 10px; margin-bottom: 5px;"]
+econovill.com##ul#floating_banner_left
+econovill.com##ul#floating_banner_right
 edaily.co.kr##div.topbanner
 edaily.co.kr##div[class^="viewcontent_ad"]
 edaily.co.kr##iframe[src^="/adview/"]
