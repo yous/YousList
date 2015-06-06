@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 078Zc5gZNVuQxcMwjUKw8w
+! Checksum: zKWrG32GOaR5ap4pqqgEMA
 ! Version: 20150606
 
 ! General element hiding rules
@@ -14,6 +14,8 @@
 ##div#adbay_adExpandIframe
 ##div#adya_area
 ##div#div_ad
+##div#mobitree
+##div#mobitreeP
 ##div#quick_adon_bizon
 ##div#real_pop_bnr_adop32
 ##div#uniqubeAd_area
@@ -93,6 +95,7 @@
 */RealMedia/ads/
 */about_*_shopbox.*
 */ad/realclick*.html
+*/mobitree_*.js
 */nad/media/*
 */naon_*.html
 */naon_*.jsp
@@ -225,7 +228,6 @@ eto.co.kr/Data/Xml/localuser/adv/
 eto.co.kr/adv/
 ex.mdtoday.co.kr/
 feeltong.hani.co.kr/common/banner.html
-file.osen.co.kr/web2/js/mobitree_osen*.js
 file.thisisgame.com/inc/PBPage*.js
 fnnews.com/control
 fnnews.com/include2011/section/google.jsp
@@ -656,8 +658,6 @@ mediatoday.co.kr##div#adbnFloating
 mediatoday.co.kr##iframe[src*="/adItem/"]
 mediaus.co.kr##div[style="position:relative;width:250px;height:139px;overflow:hidden;"]
 mediaus.co.kr##iframe[src^="/banner/"]
-mosen.mt.co.kr##div#mobitree
-mosen.mt.co.kr##div#mobitreeP
 mosen.mt.co.kr##div[id^="adList"]
 mt.co.kr##div#art_ad_top1
 mt.co.kr##div#news_banner1
@@ -807,8 +807,6 @@ seoul.co.kr##iframe[src^="/ad/"]
 seoul.co.kr##table#googleAdTable
 sisainlive.com##div#TopBanners2
 sisainlive.com##div#layerBanner
-sisainlive.com##div#mobitree
-sisainlive.com##div#mobitreeP
 sisainlive.com##td#articleBody>table[align="right"][width="320"][height="265"]
 skyscanner.co.kr##div.mpu-advert
 sportalkorea.com##div#topAdBox
