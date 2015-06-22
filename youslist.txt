@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: L8GZ9nK9OI8QvwvuLb4UVQ
+! Checksum: vpncII61MihmFnV4OFceQQ
 ! Version: 20150622
 
 ! General element hiding rules
@@ -27,7 +27,7 @@
 ##div.ezAdsense
 ##div.gpt_ad_container
 ~sports.donga.com##div[class$="_AD"]
-~sports.news.naver.com##div[class$="_ad"]
+~fnnews.com,~sports.news.naver.com##div[class$="_ad"]
 ##div[class$="_ads"]
 ##div[class^="AD_"]
 ~donga.com##div[class^="ad_"]
@@ -547,7 +547,11 @@ facebook.com##div[data-ad]
 facebook.com##i[class~="adsCategoryIcon"]
 facebook.com##span[class="adsCategoryTitleLink"]
 facebook.com##span[id="egoRefreshAds"]
+fnnews.com##div#bylineaAd1
 fnnews.com##div#hotnews_list
+fnnews.com##div.fn_ad_part
+fnnews.com##div.fn_view_bot_ad
+fnnews.com##div.tit_banner
 fnnews.com##div[class^="AD"-content]
 fnnews.com##div[id^="right_wing"]
 gall.dcinside.com##div#dc_advertisement
