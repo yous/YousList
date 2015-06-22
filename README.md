@@ -3,7 +3,7 @@
 Block filter for [Adblock Plus][] and [uBlock][].
 
 [Adblock Plus]: https://adblockplus.org/
-[uBlock]: https://github.com/gorhill/uBlock
+[uBlock]: https://github.com/chrisaljoudi/uBlock
 
 ## Usage
 
@@ -17,7 +17,7 @@ Install the browser plugin of Adblock Plus and add a subscription as 'YousList' 
 
 ### uBlock
 
-Install the browser plugin of µBlock and add a custom filter with the above URL.
+Install the browser plugin of uBlock and add a custom filter with the above URL.
 
 ## Testing
 
