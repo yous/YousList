@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: vpncII61MihmFnV4OFceQQ
-! Version: 20150622
+! Checksum: 73p+r0lIKG5JXkFQj/JISQ
+! Version: 20150629
 
 ! General element hiding rules
 ###banner_ad
@@ -49,6 +49,8 @@
 ##iframe[src^="http://a1.dp25.kr/"]
 ##iframe[src^="http://ad.about.co.kr/"]
 ##iframe[src^="http://ad.ad4989.co.kr/"]
+##iframe[src^="http://ad.adinc.kr/"]
+##iframe[src^="http://ad.ilikesponsorad.co.kr/"]
 ##iframe[src^="http://ad.mediatoday.co.kr/"]
 ##iframe[src^="http://ad.naver.com/adshow"]
 ##iframe[src^="http://ad.owra.net/"]
@@ -76,6 +78,7 @@
 ##iframe[src^="http://chie8oo.com/afr.php"]
 ##iframe[src^="http://cm.interworksmedia.co.kr/adTagRequest.htm"]
 ##iframe[src^="http://dgate.joins.com/hc.aspx"]
+##iframe[src^="http://exttag.about.co.kr/cgi-bin/PelicanC.dll"]
 ##iframe[src^="http://joy-adstore.co.kr/ad/"]
 ##iframe[src^="http://mobi.luxad.net/ad/"]
 ##iframe[src^="http://mtab.clickmon.co.kr/pop/"]
@@ -113,7 +116,9 @@
 ||ad.about.co.kr^
 ||ad.ad-ya.net^
 ||ad.ad4989.co.kr^
+||ad.adinc.kr^
 ||ad.adlike.co.kr^
+||ad.adnmore.co.kr^
 ||ad.adop.co.kr/mad/
 ||ad.aeonad.co.kr^
 ||ad.aeonad.net^
@@ -123,6 +128,8 @@
 ||ad.dt.co.kr^
 ||ad.hankooki.com^
 ||ad.hooniad.com^
+||ad.ilikesponsorad.co.kr^
+||ad.ilikesponsorad.com^
 ||ad.ingfac.co.kr^
 ||ad.kmib.co.kr^
 ||ad.koreadaily.com^
@@ -219,13 +226,14 @@
 ||dgate.*/hc.aspx^
 ||dgate.*/hciw.aspx^
 ||dlv.hooniad.com^
-||dreamsearch.or.kr/servlet/adbn^
+||dreamsearch.or.kr/servlet/adbn*
 ||economy.hankooki.com/ad/
 ||edaily.co.kr/adview/
 ||etnews.com/ek_js/detail_ad_combinepop.js^
 ||eto.co.kr/Data/Xml/localuser/adv/
 ||eto.co.kr/adv/
 ||ex.mdtoday.co.kr^
+||exttag.about.co.kr/cgi-bin/PellicanC.dll^
 ||feeltong.hani.co.kr/common/banner.html^
 ||file.thisisgame.com/inc/PBPage*.js^
 ||fnnews.com/control^
@@ -253,6 +261,7 @@
 ||image.wownet.co.kr/static/banner/*/flash/
 ||image2.inews24.com/ad*
 ||img.appstory.co.kr/@files/human_banner/
+||img.asiatoday.co.kr/adver/
 ||img.dt.co.kr/unse/
 ||img.mbn.co.kr/ad/
 ||img.sportsseoul.com/ad/
@@ -424,10 +433,17 @@ asiatoday.co.kr##div#MainAdLeftDown
 asiatoday.co.kr##div#banner_A
 asiatoday.co.kr##div#banner_N
 asiatoday.co.kr##div#bmRightViewAD
+asiatoday.co.kr##div#contents_left>div[style="width:638px;border:1px solid #E3E3E3;height:148px;margin-top:15px;padding-left:20px"]
 asiatoday.co.kr##div#divNewsstandEvent
 asiatoday.co.kr##div#full>div[style="margin: 0 auto; width: 728px; height: 90px;"]
+asiatoday.co.kr##div#headline_ad_wrap
+asiatoday.co.kr##div#scrolling_banner
+asiatoday.co.kr##div#scrolling_left_banner
 asiatoday.co.kr##div#star_hot
 asiatoday.co.kr##div#wingBannerLeft
+asiatoday.co.kr##div#wingBnLeft
+asiatoday.co.kr##div#wingBnRight
+asiatoday.co.kr##div#wrapper>div[style="margin: 0 auto; width: 728px; height: 90px;"]
 asiatoday.co.kr##div#wrapper>font>div[style="position:absolute; top:1610px; left:-129px;"]
 asiatoday.co.kr##div.character_wrap
 asiatoday.co.kr##div.cont_left>div[style="padding-top:10px; clear:both;"]
@@ -442,6 +458,7 @@ asiatoday.co.kr##div.cont_right>div[style="margin: 0px 0 10px 0;"]
 asiatoday.co.kr##div.cont_right>div[style="margin:0px;"]
 asiatoday.co.kr##div.cont_right>div[style="margin:10px 0 0 0;"]
 asiatoday.co.kr##div.cont_right>div[style="margin:20px 0 0 0;"]
+asiatoday.co.kr##div.mask_div
 asiatoday.co.kr##[class^="bm_ad"]
 asiatoday.co.kr##[class^="main_ad"]
 bbs2.ruliweb.daum.net##div.bnr_info
