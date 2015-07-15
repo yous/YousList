@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 0HNkM+34dIpQITaOZRKJXg
-! Version: 20150709
+! Checksum: yBbQm4WUEvr/iIQcWbv/yA
+! Version: 20150715
 
 ! General element hiding rules
 ###banner_ad
@@ -30,7 +30,7 @@
 ~fnnews.com,~sports.news.naver.com##div[class$="_ad"]
 ##div[class$="_ads"]
 ##div[class^="AD_"]
-~donga.com##div[class^="ad_"]
+~donga.com,~sports.news.naver.com##div[class^="ad_"]
 ##div[class^="ads"]
 ##div[class^="imagead-"]
 ##div[id$="_AD"]
