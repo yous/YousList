@@ -24,7 +24,7 @@ Install the browser plugin of uBlock and add a custom filter with the above URL.
 For the tests of your filter, make a temporary subscription served by your local machine by:
 
 ``` sh
-ruby server.rb
+ruby -run -ehttpd . -p8000
 ```
 
 Add a filter using `http://localhost:8000/youslist.txt`.
