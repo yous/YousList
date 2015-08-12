@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 0AjNAW9wHzKp+/xAvT8lLw
-! Version: 20150728
+! Checksum: +ainh56VHaQezd1tz0L0mg
+! Version: 20150812
 
 ! General element hiding rules
 ###banner_ad
@@ -78,6 +78,7 @@
 ##iframe[src^="http://cdn04.sndkorea.co.kr/"]
 ##iframe[src^="http://chie8oo.com/afr.php"]
 ##iframe[src^="http://cm.interworksmedia.co.kr/adTagRequest.htm"]
+##iframe[src^="http://daily.hankooki.com/ad/"]
 ##iframe[src^="http://dgate.joins.com/hc.aspx"]
 ##iframe[src^="http://exttag.about.co.kr/cgi-bin/PelicanC.dll"]
 ##iframe[src^="http://joy-adstore.co.kr/ad/"]
@@ -228,6 +229,7 @@
 ||cwdata.itplay.co.kr/ol/
 ||cwdata.itsearch.co.kr^
 ||cwstatic.heraldm.com/adcont/
+||daily.hankooki.com/ad/
 ||dgate.*/hc.aspx^
 ||dgate.*/hciw.aspx^
 ||dlv.hooniad.com^
@@ -511,6 +513,12 @@ comic.naver.com##div#adpostArea
 consumernews.co.kr##span.brn
 dailian.co.kr##div[class^="banner"]
 dailian.co.kr##iframe[name="adv"]
+daily.hankooki.com##div#MobileLink
+daily.hankooki.com##div#montvLayer
+daily.hankooki.com##div#Page_NewsSponsor
+daily.hankooki.com##div.bantop
+daily.hankooki.com##div[id^="Ad_"]
+daily.hankooki.com##div[id^="adText"]
 daum.net##div#adBrandingStation
 daum.net##div#adMain
 daum.net##div#adTimeSponsor
