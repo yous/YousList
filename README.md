@@ -24,7 +24,7 @@ Install the browser plugin of uBlock and add a custom filter with the above URL.
 
 Download [Rules.1blockpkg][] and select 1Blocker from the "Open In" menu.
 
-[Rules.1blockpkg]: https://github.com/yous/YousList/releases/download/v20150901/Rules.1blockpkg
+[Rules.1blockpkg]: https://github.com/yous/YousList/raw/master/Rules.1blockpkg
 
 ## Testing
 
