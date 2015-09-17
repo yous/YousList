@@ -22,9 +22,9 @@ Install the browser plugin of uBlock and add a custom filter with the above URL.
 
 ### 1Blocker
 
-Download [Rules.1blockpkg][] and select 1Blocker from the "Open In" menu.
+Open [Rules.1blockpkg][] and select 1Blocker from the "Open In" menu.
 
-[Rules.1blockpkg]: https://github.com/yous/YousList/raw/master/Rules.1blockpkg
+[Rules.1blockpkg]: https://cdn.rawgit.com/yous/YousList/master/Rules.1blockpkg
 
 ## Testing
 
