@@ -1,9 +1,10 @@
 # YousList
 
-Block filter for [Adblock Plus][] and [uBlock][].
+Block filter for [Adblock Plus][], [uBlock][] and [1Blocker][].
 
 [Adblock Plus]: https://adblockplus.org/
 [uBlock]: https://github.com/chrisaljoudi/uBlock
+[1Blocker]: http://1blocker.com/
 
 ## Usage
 
@@ -18,6 +19,10 @@ Install the browser plugin of Adblock Plus and add a subscription as 'YousList' 
 ### uBlock
 
 Install the browser plugin of uBlock and add a custom filter with the above URL.
+
+### 1Blocker
+
+Open <https://github.com/yous/YousList/raw/master/Rules.1blockpkg> and select 1Blocker from the "Open In" menu.
 
 ## Testing
 
