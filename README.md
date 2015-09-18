@@ -22,7 +22,8 @@ Install the browser plugin of uBlock and add a custom filter with the above URL.
 
 ### 1Blocker
 
-Open [Rules.1blockpkg][] and select 1Blocker from the "Open In" menu.
+Open [Rules.1blockpkg][] and select 1Blocker from the "Open In" menu. To track
+the latest version, you can add the link as a bookmark to Safari.
 
 [Rules.1blockpkg]: https://cdn.rawgit.com/yous/YousList/master/Rules.1blockpkg
 
