@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: vgGxuHDavUNahwAu1SivvA
-! Version: 20150919
+! Checksum: oMMCa93i+fulsX0GK7iPZA
+! Version: 20150920
 
 ! General element hiding rules
 ###banner_ad
@@ -50,6 +50,7 @@
 ##iframe[src^="http://ad.about.co.kr/"]
 ##iframe[src^="http://ad.ad4989.co.kr/"]
 ##iframe[src^="http://ad.adinc.kr/"]
+##iframe[src^="http://ad.ezday.co.kr/NetInsight/"]
 ##iframe[src^="http://ad.ilikesponsorad.co.kr/"]
 ##iframe[src^="http://ad.mediatoday.co.kr/"]
 ##iframe[src^="http://ad.naver.com/adshow"]
@@ -129,6 +130,7 @@
 ||ad.daum.net^
 ||ad.doubleclick.net^
 ||ad.dt.co.kr^
+||ad.ezday.co.kr/NetInsight/
 ||ad.hankooki.com^
 ||ad.hooniad.com^
 ||ad.ilikesponsorad.co.kr^
@@ -379,6 +381,7 @@
 ||sh.adingo.jp^
 ||shop.nate.com/shopbox/news.htm^
 ||shoppingbox.joinsmsn.com^
+||smartposting.net/keyword/api/
 ||sndkorea.nowcdn.co.kr/emart/
 ||sndkorea.nowcdn.co.kr/media/
 ||sndkorea.nowcdn.co.kr/xml/
@@ -579,7 +582,9 @@ etnews.com##div.text_Ad
 etnews.com##div[class^="right_ad"]
 etnews.com##ul[class^="ad_list"]
 eto.co.kr##div.tvSideAd
+ezday.co.kr##div#bodyContainer>div[style="width:278px; padding-left:1px; float:left;"]>div[style="width:100%;padding-left:15px;height:250px;"]
 ezday.co.kr##div#idPigEvent
+ezday.co.kr##div.topr_banner
 facebook.com##div#hoverZoomAd
 facebook.com##div[data-ad]
 facebook.com##i[class~="adsCategoryIcon"]
