@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: yg56cvVard3heFEbTrbpDQ
-! Version: 20151025
+! Checksum: HT/ujqqZzbFR28Z87OyEqA
+! Version: 20151026
 
 ! General element hiding rules
 ###banner_ad
@@ -46,6 +46,7 @@
 ##iframe[id^="nad_"]
 ##iframe[name="ifrad"]
 ##iframe[src*="/RealMedia/ads/"]
+##iframe[src^="//adx-exchange.toast.com/a_request"]
 ##iframe[src^="http://a1.dp25.kr/"]
 ##iframe[src^="http://ad.about.co.kr/"]
 ##iframe[src^="http://ad.ad4989.co.kr/"]
@@ -202,6 +203,7 @@
 ||adver.clickmon.co.kr^
 ||adw.heraldm.com/cgi-bin/conad.fcgi/
 ||adx.naonmedia.net/adx/
+||adx-exchange.toast.com/a_request^
 ||agate.opap.co.kr/html/
 ||amsv2.daum.net/ad/
 ||api.wiseclick.co.kr/api/web_directad/
@@ -815,6 +817,13 @@ news.sportsseoul.com##ul[class^="topAd"]
 newsen.com##div#ad250
 newshankuk.com##div.bannerBottomR
 newshankuk.com##div.bannerTopR
+newspim.com##body>div[style="position:absolute; top:170px; z-index:1000; margin-left:500px; left:50%;"]
+newspim.com##body>div[style="position:absolute; top:180px; z-index:1000; margin-left:-620px; left:50%;"]
+newspim.com##body>div[style="position:absolute; top:780px; z-index:1000; margin-left:500px; left:50%;"]
+newspim.com##body>div[style="width:120px; height:600px;position:absolute; top:790px; z-index:1000; margin-left:-620px; left:50%;"]
+newspim.com##div#newscenter_wrap2>div[style="width:300px; height:250px; margin-left:25px; float:left;"]
+newspim.com##div#newscenter_wrap2>div[style="width:300px; height:250px; margin-right:25px; float:right;"]
+newspim.com##div#topview_allwrap>div[style="text-align:center; float:left; width:100%;"]
 newsway.kr##div#float_1002
 newsway.kr##div#google_banner
 newsway.kr##div[id^="NMN_BANNER_WIDGET_"]
