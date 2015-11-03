@@ -22,11 +22,11 @@ Install the browser plugin of uBlock and add a custom filter with the above URL.
 
 ### 1Blocker
 
-Open [Rules.1blockpkg (v20151029)][Rules.1blockpkg] and select 1Blocker from the
+Open [Rules.1blockpkg (v20151103)][Rules.1blockpkg] and select 1Blocker from the
 "Open In" menu. To update to the latest version, you have to remove previous
 rules and then import the new rules.
 
-[Rules.1blockpkg]: https://cdn.rawgit.com/yous/YousList/v20151029/Rules.1blockpkg
+[Rules.1blockpkg]: https://cdn.rawgit.com/yous/YousList/v20151103/Rules.1blockpkg
 
 ## Testing
 
