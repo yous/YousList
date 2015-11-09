@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: pQgEwluK//4GbfMmmt3OmA
-! Version: 20151107
+! Checksum: lPbMDPtTRmz0DzLO6LsTIw
+! Version: 20151109
 
 ! General element hiding rules
 ###banner_ad
@@ -101,6 +101,7 @@
 ##iframe[src^="http://sin1.g.adnxs.com/if"]
 ##iframe[src^="http://tab2.clickmon.co.kr/pop/"]
 ##iframe[src^="http://www.ad-playstore.com/"]
+##iframe[src^="http://www.dreamsearch.or.kr/ad/"]
 ##iframe[src^="http://www.inven.co.kr/ad/"]
 ##iframe[src^="http://www.koreadaily.com/_ui/ad/"]
 ##ins.adsbygoogle
@@ -253,7 +254,11 @@
 ||dgate.*/hciw.aspx^
 ||display.ad.daum.net/imp^
 ||dlv.hooniad.com^
+||dreamsearch.or.kr/ad/
+||dreamsearch.or.kr/servlet/adBanner^
+||dreamsearch.or.kr/servlet/adBannerFloating^
 ||dreamsearch.or.kr/servlet/adbn*
+||dreamsearch.or.kr/servlet/sadbn^
 ||economy.hankooki.com/ad/
 ||edaily.co.kr/adview/
 ||etnews.com/ek_js/detail_ad_combinepop.js^
@@ -286,6 +291,7 @@
 ||imaeil.com/image/banner/ad*.swf^
 ||imaeil.com/wec/
 ||image.melon.com/svc/images/main/floatingBanner/floatingBanner_*.swf^
+||image.news1.kr/system/ads/ad_banner/
 ||image.wownet.co.kr/static/banner/*/flash/
 ||image2.inews24.com/ad*
 ||img.appstory.co.kr/@files/human_banner/
@@ -830,6 +836,9 @@ news.sportsseoul.com##ul.pad_top20
 news.sportsseoul.com##ul[class^="bottomAd"]
 news.sportsseoul.com##ul[class^="readAd"]
 news.sportsseoul.com##ul[class^="topAd"]
+news1.kr##div#article_body_content>div[style="margin:0 auto; padding-bottom:10px;"]
+news1.kr##div.link_news.s_news_list>ul>div[style="padding:5px; background:#EBEBEB; margin-top:-200px; right:0; position:absolute; width:200px; height:200px;"]
+news1.kr##div.aside>div.adBlock
 newsen.com##div#ad250
 newshankuk.com##div.bannerBottomR
 newshankuk.com##div.bannerTopR
