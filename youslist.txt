@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: U83/Jil1A4C0XQo2ueDWwA
-! Version: 20151110
+! Checksum: wqggwE8Hv9TCa5M13NYj7A
+! Version: 20151111
 
 ! General element hiding rules
 ###banner_ad
@@ -86,6 +86,7 @@
 ##iframe[src^="http://dgate.joins.com/hc.aspx"]
 ##iframe[src^="http://display.ad.daum.net/imp"]
 ##iframe[src^="http://exttag.about.co.kr/cgi-bin/PelicanC.dll"]
+##iframe[src^="http://fs.jtbc.joins.com/common/ui/ad/"]
 ##iframe[src^="http://joy-adstore.co.kr/ad/"]
 ##iframe[src^="http://longkeyone.co.kr/"]
 ##iframe[src^="http://mobi.luxad.net/ad/"]
@@ -272,6 +273,7 @@
 ||fnnews.com/control^
 ||fnnews.com/include2011/section/google.jsp^
 ||fs.jtbc.co.kr/common/ui/ad/
+||fs.jtbc.joins.com/common/ui/ad/
 ||gaihn.co.kr/eventbanner/
 ||gall.dcinside.com/dc_ad_*_JH.php^
 ||get.keywordsconnect.com^
@@ -791,6 +793,8 @@ news.inews24.com##div.main_top_banner
 news.inews24.com##iframe#ifrmTopTotal
 news.jtbc.joins.com##div.ad
 news.jtbc.joins.com##div.articleadnetworkbanner
+news.jtbc.joins.com##div.netizen_link_area
+news.jtbc.joins.com##div.right_banner250_area
 news.jtbc.joins.com##div.sponsor_link_area
 news.jtbc.joins.com##div.sponsor_link_combine
 news.khan.co.kr##div.scroll
