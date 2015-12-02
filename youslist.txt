@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: nfJqvsAehVuBDb+OmHp+Qw
+! Checksum: lAZzOkuCdHqpeh4GM4uj1g
 ! Version: 20151202
 
 ! General element hiding rules
@@ -30,7 +30,7 @@
 ~fnnews.com,~sports.news.naver.com##div[class$="_ad"]
 ##div[class$="_ads"]
 ##div[class^="AD_"]
-~daum.net,~donga.com,~sports.news.naver.com##div[class^="ad_"]
+~daum.net,~donga.com,~news.mk.co.kr,~sports.news.naver.com##div[class^="ad_"]
 ##div[class^="ads"]
 ##div[class^="imagead-"]
 ##div[id$="_AD"]
@@ -831,6 +831,7 @@ news.kukinews.com##div.bnr_370_60
 news.kukinews.com##div.vw_ad_700
 news.maxmovie.com##ul.news_right_ad
 news.mk.co.kr##div#viewShopDiv
+news.mk.co.kr##div.ad_viewrolling
 news.mk.co.kr##div.container_left>table>tbody>tr>td>table[style="margin-bottom:30px"]
 news.mt.co.kr##div#banner_big
 news.mt.co.kr##div#mjDiv
