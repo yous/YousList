@@ -1,8 +1,9 @@
 # YousList
 
-Block filter for [Adblock Plus][], [uBlock][] and [1Blocker][].
+Block filter for [Adblock Plus][], [uBlock Origin][], [uBlock][] and [1Blocker][].
 
 [Adblock Plus]: https://adblockplus.org/
+[uBlock Origin]: https://github.com/gorhill/uBlock
 [uBlock]: https://github.com/chrisaljoudi/uBlock
 [1Blocker]: http://1blocker.com/
 
@@ -15,6 +16,10 @@ https://github.com/yous/YousList/raw/master/youslist.txt
 ### Adblock Plus
 
 Install the browser plugin of Adblock Plus and add a subscription as 'YousList' with the above URL.
+
+### uBlock Origin
+
+Install the browser plugin of uBlock Origin and enable 'KOR: YousList' by checking it.
 
 ### uBlock
 
