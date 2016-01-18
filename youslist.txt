@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: /jwuF3msCD9kkfKIsYp84w
-! Version: 20160110
+! Checksum: dcsILdFsLIB/VaEkMosEig
+! Version: 20160119
 
 ! General element hiding rules
 ###banner_ad
@@ -119,6 +119,8 @@
 ||115.68.75.10/banner_*.php^
 ||211.234.119.116/pront/default.asp^
 ||218.153.11.175^
+||a.tribalfusion.com/displayAd.js^
+||a.tribalfusion.com/j.ad^
 ||a.wyzmob.com^
 ||a1.ationnet.co.kr/a01/
 ||a1.dp25.kr^
@@ -196,6 +198,7 @@
 ||ads.gamemeca.com^
 ||ads.mangouni.com/mad/
 ||ads.mncmedia.co.kr^
+||ads.pubmatic.com/AdServer/js/showad.js^
 ||ads.rubiconproject.com/ad/
 ||ads.tlvmedia.com^
 ||ads.yahoo.com^
@@ -203,6 +206,7 @@
 ||ads2.contentabc.com/ads^
 ||ads3.adinc.co.kr^
 ||adserve.postrelease.com/init.js^
+||adserver.adtechus.com^
 ||adserver.sbtrustmedia.com^
 ||adserver.uniqube.tv^
 ||adsvc2.wisenut.co.kr^
@@ -237,6 +241,7 @@
 ||cas.criteo.com/delivery/ajs.php^
 ||castbox.shopping.naver.com/index.nhn^
 ||cdn.c-team.jp/tags/dokojs/ad*.js^
+||cdn.carbonads.com/carbon.js^
 ||cdn03.sndkorea.co.kr^
 ||cdn04.sndkorea.co.kr^
 ||celeb.nann.co.kr^
@@ -908,6 +913,7 @@ pann.nate.com##div#psypannAd
 pann.nate.com##div.sidebar.ad
 pann.nate.com##div.sidebar_banner
 pann.nate.com##div.view_banner
+pastebin.com##iframe[id^="tfasyncframe_"]
 pixiv.net##div.cool-ad-footer
 pixiv.net##span.multi-ads-area
 ppomppu.co.kr##div#emart_banner
