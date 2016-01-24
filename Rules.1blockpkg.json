@@ -1325,6 +1325,19 @@
                 }
             },
             {
+                "id": "c7c98935-26d9-40d3-9f4c-639f51b2c747",
+                "name": "ad.ilbe.com/files2/ad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ad\\.ilbe\\.com/files2/ad/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4d4b9f79-7054-4c8c-9535-79bf81b86114",
                 "name": "ad.ilikesponsorad.co.kr",
                 "content": {
@@ -3325,6 +3338,45 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?iicdn\\.com/www/delivery/afr\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3c66d127-b951-4bb3-860b-f1d2b05bf8b4",
+                "name": "ilbe.com/layouts/elkha_ilbe/js/board_top.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ilbe\\.com/layouts/elkha_ilbe/js/board_top\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5d79489b-d1ad-4c9e-a4c3-007d33a908fa",
+                "name": "ilbe.com/layouts/elkha_ilbe/js/new_comment.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ilbe\\.com/layouts/elkha_ilbe/js/new_comment\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d89340ba-11db-4c8a-9295-5860427ad504",
+                "name": "ilbe.com/layouts/elkha_ilbe/js/new_sky.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ilbe\\.com/layouts/elkha_ilbe/js/new_sky\\.js",
                         "load-type": []
                     },
                     "action": {
