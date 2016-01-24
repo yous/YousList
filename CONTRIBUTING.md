@@ -12,3 +12,5 @@
 - Update the version with the format `yyyyMMdd`.
 - Alphabetically order every entry.
 - Do not add extra empty line.
+- Make sure that `Rules.1blockpkg` is up to date when you add a filter for addresses. Use <http://my.1blocker.com> for editing.
+- After updating `Rules.1blockpkg`, update `Rules.1blockpkg.json`, to make easy to see diff, by running `./bin/prettify_pkg.py`
