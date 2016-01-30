@@ -592,6 +592,20 @@
                 }
             },
             {
+                "id": "5417ff91-462b-4df2-8811-877c5a0dc6d1",
+                "name": "##iframe[src^=\"http://imp.mklaud.com/ad\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://imp.mklaud.com/ad\"]"
+                    }
+                }
+            },
+            {
                 "id": "3ae24768-3f12-48bd-b11c-586e0f5a2edd",
                 "name": "##iframe[src^=\"http://joy-adstore.co.kr/ad/\"]",
                 "content": {
@@ -826,6 +840,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://www.inven.co.kr/ad/\"]"
+                    }
+                }
+            },
+            {
+                "id": "1ee30a29-84c9-47e4-b125-4deec650549f",
+                "name": "##iframe[src^=\"http://www.kmib.co.kr/cp/realclick/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.kmib.co.kr/cp/realclick/\"]"
                     }
                 }
             },
@@ -1949,6 +1977,19 @@
                 }
             },
             {
+                "id": "bf45be08-79db-478a-a0e3-bc0d10f45aae",
+                "name": "ads-optima.com/www/delivery/ajs.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ads-optima\\.com/www/delivery/ajs\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4a649f72-6ff1-4544-98f9-75d68763d71a",
                 "name": "ads.contextweb.com/TagPublish/GetAd.aspx",
                 "content": {
@@ -2162,6 +2203,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adsvc2\\.wisenut\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c54e7163-91d7-4cd8-86df-502236438425",
+                "name": "adsvr.kmib.co.kr/NetInsight/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adsvr\\.kmib\\.co\\.kr/NetInsight/",
                         "load-type": []
                     },
                     "action": {
@@ -3541,6 +3595,19 @@
                 }
             },
             {
+                "id": "86d00e7a-374d-4343-96c2-191be2cdc184",
+                "name": "imp.mklaud.com/ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?imp\\.mklaud\\.com/ad",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "04b8f9b2-76c2-4dd9-ba46-8de5823dc185",
                 "name": "inven.co.kr/ad/",
                 "content": {
@@ -3793,6 +3860,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?khan\\.co\\.kr/ad/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "955429e3-cbee-4b78-92ef-53f459c6c5fc",
+                "name": "kmib.co.kr/cp/realclick/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?kmib\\.co\\.kr/cp/realclick/",
                         "load-type": []
                     },
                     "action": {
