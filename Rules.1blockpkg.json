@@ -1340,6 +1340,19 @@
                 }
             },
             {
+                "id": "878f8038-f619-406b-9076-683d92ea59a1",
+                "name": "ad.hankookilbo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "ad\\.hankookilbo\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4f0c5f7d-bbdd-45a6-b5d9-0b78e5532cd2",
                 "name": "ad.hooniad.com",
                 "content": {
@@ -1787,6 +1800,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adget\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c4813d88-e032-4211-9982-f0afc5c21307",
+                "name": "adimage.hankookilbo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "adimage\\.hankookilbo\\.com",
                         "load-type": []
                     },
                     "action": {
