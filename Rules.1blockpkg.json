@@ -4,6 +4,551 @@
         "name": "YousList",
         "rules": [
             {
+                "id": "2ecd0087-eabf-4c57-b50a-c6c0453a5205",
+                "name": "###banner_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "#banner_ad"
+                    }
+                }
+            },
+            {
+                "id": "f0016c67-a459-40e9-a448-10b55c973bf8",
+                "name": "##a[href^=\"http://www.bizon.kr/click.php?type=adon\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"http://www.bizon.kr/click.php?type=adon\"]"
+                    }
+                }
+            },
+            {
+                "id": "b51d383b-ab58-40d4-8f1c-4e62342af14d",
+                "name": "##div#adMedia",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adMedia"
+                    }
+                }
+            },
+            {
+                "id": "94620f06-a8f1-4785-aa74-93735def9d1a",
+                "name": "##div#adbay_adExpandDiv",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adbay_adExpandDiv"
+                    }
+                }
+            },
+            {
+                "id": "25c4abf4-254f-4f10-9227-491effd6d1b2",
+                "name": "##div#adbay_adExpandIframe",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adbay_adExpandIframe"
+                    }
+                }
+            },
+            {
+                "id": "f0584998-9f7f-487f-b15e-2dc143917125",
+                "name": "##div#adya_area",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adya_area"
+                    }
+                }
+            },
+            {
+                "id": "f56f01bc-79a2-47fd-85a3-440037799e21",
+                "name": "##div#div_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#div_ad"
+                    }
+                }
+            },
+            {
+                "id": "3da37343-0cd2-40ca-96c0-04bccfb446f6",
+                "name": "##div#mobitree",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mobitree"
+                    }
+                }
+            },
+            {
+                "id": "9ca6a609-e2f3-4152-80b5-fc891b4df4b2",
+                "name": "##div#mobitreeP",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mobitreeP"
+                    }
+                }
+            },
+            {
+                "id": "568429d5-e646-4830-8b9c-afaf0e35ab34",
+                "name": "##div#quick_adon_bizon",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#quick_adon_bizon"
+                    }
+                }
+            },
+            {
+                "id": "c67d8734-a02e-4b4d-971e-b08b0458e8a9",
+                "name": "##div#real_pop_bnr_adop32",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#real_pop_bnr_adop32"
+                    }
+                }
+            },
+            {
+                "id": "23141b19-4b63-4ec9-beae-a1afa84dcad5",
+                "name": "##div#uniqubeAd_area",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#uniqubeAd_area"
+                    }
+                }
+            },
+            {
+                "id": "ac9a10ba-9049-4442-9256-6b943b018343",
+                "name": "##div#uniqubeAd_area_iframe",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#uniqubeAd_area_iframe"
+                    }
+                }
+            },
+            {
+                "id": "07049f38-f3fa-48d2-8017-7e1ddc028061",
+                "name": "##div#uniqubeAd_area_text",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#uniqubeAd_area_text"
+                    }
+                }
+            },
+            {
+                "id": "6d78078c-17bc-4d92-ae09-7e7fb33c0720",
+                "name": "##div#uniqubeFirstDiv",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#uniqubeFirstDiv"
+                    }
+                }
+            },
+            {
+                "id": "1eec03da-1820-4669-a81f-48cfd2303ecc",
+                "name": "##div#wiseAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wiseAd"
+                    }
+                }
+            },
+            {
+                "id": "7cdfe3ca-c1de-468e-973b-e0374b748bdb",
+                "name": "##div.ad-box",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-box"
+                    }
+                }
+            },
+            {
+                "id": "fff4fdb1-866b-4766-98e6-55b2b5951e77",
+                "name": "##div.ezAdsense",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ezAdsense"
+                    }
+                }
+            },
+            {
+                "id": "0ffcdbd1-cf18-42b5-8824-cac7bcbae2da",
+                "name": "##div.gpt_ad_container",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.gpt_ad_container"
+                    }
+                }
+            },
+            {
+                "id": "232c3352-ad1f-4397-a457-652735a8964a",
+                "name": "~sports.donga.com##div[class$=\"_AD\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": [],
+                        "unless-domain": [
+                            "sports.donga.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class$=\"_AD\"]"
+                    }
+                }
+            },
+            {
+                "id": "e4c5c2e2-32f8-44c1-99f1-bc05cdc4ea52",
+                "name": "~fnnews.com,~sports.news.naver.com##div[class$=\"_ad\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": [],
+                        "unless-domain": [
+                            "fnnews.com",
+                            "sports.news.naver.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class$=\"_ad\"]"
+                    }
+                }
+            },
+            {
+                "id": "3caec8a3-b25b-416e-9182-bffb5f9b1993",
+                "name": "##div[class$=\"_ads\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class$=\"_ads\"]"
+                    }
+                }
+            },
+            {
+                "id": "b176c523-3593-432a-94d7-d54f705200ba",
+                "name": "##div[class^=\"AD_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"AD_\"]"
+                    }
+                }
+            },
+            {
+                "id": "f22accd1-9738-4c36-8af7-75c62fb23f45",
+                "name": "~daum.net,~donga.com,~news.mk.co.kr,~sports.news.naver.com##div[class^=\"ad_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": [],
+                        "unless-domain": [
+                            "daum.net",
+                            "donga.com",
+                            "news.mk.co.kr",
+                            "sports.news.naver.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"ad_\"]"
+                    }
+                }
+            },
+            {
+                "id": "49bcd277-4bed-4a53-a30d-b760516e859c",
+                "name": "##div[class^=\"ads\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"ads\"]"
+                    }
+                }
+            },
+            {
+                "id": "ecf31d5b-c961-439d-b5a4-4d35ec507f90",
+                "name": "##div[class^=\"imagead-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"imagead-\"]"
+                    }
+                }
+            },
+            {
+                "id": "a11bcc0a-3f36-4b7f-abdb-4080b0cbd4bb",
+                "name": "##div[id$=\"_AD\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id$=\"_AD\"]"
+                    }
+                }
+            },
+            {
+                "id": "28515a7f-c0fa-46fe-aa9e-dfed427c22af",
+                "name": "##div[id$=\"_ad\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id$=\"_ad\"]"
+                    }
+                }
+            },
+            {
+                "id": "8645676a-0ee3-48f3-b643-c21341f2ec82",
+                "name": "##div[id$=\"_ads\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id$=\"_ads\"]"
+                    }
+                }
+            },
+            {
+                "id": "fb20fd49-b3ee-4b29-b050-7fba8cb77b7d",
+                "name": "##div[id^=\"AD_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"AD_\"]"
+                    }
+                }
+            },
+            {
+                "id": "8d81515e-c498-4efa-83d0-781ca3d8c0c8",
+                "name": "##div[id^=\"ad_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"ad_\"]"
+                    }
+                }
+            },
+            {
+                "id": "21718a87-cb80-4627-884b-9a2d856b1fd8",
+                "name": "##div[id^=\"ads\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"ads\"]"
+                    }
+                }
+            },
+            {
+                "id": "010b8450-86da-472c-8dfe-9d8289095b93",
+                "name": "##div[id^=\"div-gpt-ad-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"div-gpt-ad-\"]"
+                    }
+                }
+            },
+            {
+                "id": "23092df8-5961-4ace-9e34-a5137017b863",
+                "name": "##div[id^=\"google_ads_iframe_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"google_ads_iframe_\"]"
+                    }
+                }
+            },
+            {
+                "id": "7d5da6cd-6ebe-419b-a5ea-1f1cff8d3f9a",
+                "name": "##div[id^=\"sbaAbout\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"sbaAbout\"]"
+                    }
+                }
+            },
+            {
+                "id": "7f9cdd21-e192-4f34-bc9f-3ffc37d1d2d8",
+                "name": "##iframe[id^=\"google_ads_iframe_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[id^=\"google_ads_iframe_\"]"
+                    }
+                }
+            },
+            {
+                "id": "d2fe437f-568a-43ed-98e0-4635d9143484",
+                "name": "##iframe[id^=\"nad_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[id^=\"nad_\"]"
+                    }
+                }
+            },
+            {
+                "id": "1139a0c1-57ae-4aa6-8e39-5b5d031b0fbf",
+                "name": "##iframe[name=\"ifrad\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[name=\"ifrad\"]"
+                    }
+                }
+            },
+            {
                 "id": "0e979076-d2fb-4b94-afd0-daf1d9d84400",
                 "name": "##iframe[src*=\"/RealMedia/ads/\"]",
                 "content": {
@@ -868,6 +1413,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://www.koreadaily.com/_ui/ad/\"]"
+                    }
+                }
+            },
+            {
+                "id": "45c69c28-94ef-4ba1-b145-9cb461e91e2f",
+                "name": "##ins.adsbygoogle",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins.adsbygoogle"
+                    }
+                }
+            },
+            {
+                "id": "354e9931-360b-4a9c-a099-d4e8acd2a791",
+                "name": "##ins.daum_ddn_area",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins.daum_ddn_area"
                     }
                 }
             },
