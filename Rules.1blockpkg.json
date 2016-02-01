@@ -1319,6 +1319,20 @@
                 }
             },
             {
+                "id": "ad351727-e4c9-40f6-a5fc-8f82e9ce7913",
+                "name": "##iframe[src^=\"http://rsense-ad.realclick.co.kr/rsense/view_ad_adcrm.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://rsense-ad.realclick.co.kr/rsense/view_ad_adcrm.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "143e6566-bf2b-4e9a-9be7-ba94f9ee31bf",
                 "name": "##iframe[src^=\"http://sin1.g.adnxs.com/if\"]",
                 "content": {
@@ -5559,6 +5573,32 @@
                 }
             },
             {
+                "id": "18bc6d14-b148-4045-a283-7d29ac92321c",
+                "name": "rsense-ad.realclick.co.kr/rsense/rsense_ad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?rsense-ad\\.realclick\\.co\\.kr/rsense/rsense_ad\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a94d8b7f-40bf-4ebd-a584-f80f0b3a0388",
+                "name": "rsense-ad.realclick.co.kr/rsense/view_ad_adcrm.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?rsense-ad\\.realclick\\.co\\.kr/rsense/view_ad_adcrm\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0219f677-7b9a-4c13-a883-de5bcde17d41",
                 "name": "sba.about.co.kr/SbaExpose.aspx",
                 "content": {
@@ -6374,6 +6414,40 @@
                     },
                     "action": {
                         "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cdf2c599-d119-4262-80aa-1f70b7d2dc26",
+                "name": "marumaru.in##div#fbanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": [],
+                        "if-domain": [
+                            "marumaru.in"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#fbanner"
+                    }
+                }
+            },
+            {
+                "id": "e41258d3-484a-4ab7-89c7-e64ce9bee258",
+                "name": "marumaru.in##div.mobfloat",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": [],
+                        "if-domain": [
+                            "marumaru.in"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobfloat"
                     }
                 }
             }

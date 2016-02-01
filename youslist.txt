@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: /2oDVVEKMZKCQ/UvhPh+dQ
-! Version: 20160131
+! Checksum: B0nrLLE9VlAvaC4WreTsoA
+! Version: 20160201
 
 ! General element hiding rules
 ###banner_ad
@@ -100,6 +100,7 @@
 ##iframe[src^="http://provider.hiadone.com/cgi-bin/conad_hi.fcgi/"]
 ##iframe[src^="http://ra.ntwoad.co.kr/"]
 ##iframe[src^="http://res.heraldm.com/iframe/"]
+##iframe[src^="http://rsense-ad.realclick.co.kr/rsense/view_ad_adcrm.html"]
 ##iframe[src^="http://sin1.g.adnxs.com/if"]
 ##iframe[src^="http://tab2.clickmon.co.kr/pop/"]
 ##iframe[src^="http://www.ad-playstore.com/"]
@@ -427,6 +428,8 @@
 ||rcm-na.amazon-adsystem.com/e/cm^
 ||res.heraldm.com/js/ad/
 ||reviewstar.hankooki.com/ad/
+||rsense-ad.realclick.co.kr/rsense/rsense_ad.js^
+||rsense-ad.realclick.co.kr/rsense/view_ad_adcrm.html^
 ||sba.about.co.kr/SbaExpose.aspx^
 ||sba.about.co.kr/dbaExpose.aspx^
 ||script.adsquare.co.kr/script/
@@ -776,7 +779,9 @@ m.chosun.com##div[id^="floatingAd_"]
 m.chosun.com##div[id^="floatingWrap_"]
 mangafox.me##div.ad
 mangaumaru.com##div#fbanner
+marumaru.in##div#fbanner
 marumaru.in##div#responsive-banner
+marumaru.in##div.mobfloat
 mbn.mk.co.kr##div#adZone_banner
 mbn.mk.co.kr##div#bottomad
 mbn.mk.co.kr##div#c_ebay
