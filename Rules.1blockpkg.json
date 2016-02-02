@@ -6422,11 +6422,8 @@
                 "name": "mangaumaru.com##div#fbanner",
                 "content": {
                     "trigger": {
-                        "url-filter": ".*",
-                        "load-type": [],
-                        "if-domain": [
-                            "mangaumaru.com"
-                        ]
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mangaumaru\\.com",
+                        "load-type": []
                     },
                     "action": {
                         "type": "css-display-none",
@@ -6439,11 +6436,8 @@
                 "name": "marumaru.in##div.mobfloat",
                 "content": {
                     "trigger": {
-                        "url-filter": ".*",
-                        "load-type": [],
-                        "if-domain": [
-                            "marumaru.in"
-                        ]
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?marumaru\\.in",
+                        "load-type": []
                     },
                     "action": {
                         "type": "css-display-none",
