@@ -759,6 +759,20 @@
                 }
             },
             {
+                "id": "b260886c-d268-4ce7-986e-f17585d15697",
+                "name": "##iframe[src^=\"http://adexview.new-star.co.kr/adimage_mobile.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adexview.new-star.co.kr/adimage_mobile.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "8e3b50fd-f4bc-42c1-94b9-b2f4b1c47314",
                 "name": "##iframe[src^=\"http://adin.ad4980.kr/\"]",
                 "content": {
@@ -2361,6 +2375,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adexview\\.new-star\\.co\\.kr/adimage\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7a64b61e-f60a-4ee2-9b37-fe3aebdb503a",
+                "name": "adexview.new-star.co.kr/adimage_mobile.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adexview\\.new-star\\.co\\.kr/adimage_mobile\\.php",
                         "load-type": []
                     },
                     "action": {
@@ -6456,6 +6483,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.mobfloat"
+                    }
+                }
+            },
+            {
+                "id": "eea5ddce-53ec-4a78-ab49-86508887ec5a",
+                "name": "zangsisi.net##body>center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?zangsisi\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>center"
+                    }
+                }
+            },
+            {
+                "id": "97b76e7a-5529-4fca-87bb-64b13710ca35",
+                "name": "zangsisi.net##div.fixed-top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?zangsisi\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.fixed-top"
                     }
                 }
             }
