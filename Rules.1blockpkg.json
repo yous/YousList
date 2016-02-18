@@ -1445,6 +1445,20 @@
                 }
             },
             {
+                "id": "b2591251-bbea-47ae-95d0-3004f2570baf",
+                "name": "##iframe[src^=\"http://www.mediamixad.com/ad/liveAd\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.mediamixad.com/ad/liveAd\"]"
+                    }
+                }
+            },
+            {
                 "id": "45c69c28-94ef-4ba1-b145-9cb461e91e2f",
                 "name": "##ins.adsbygoogle",
                 "content": {
@@ -4604,6 +4618,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mbn\\.mk\\.co\\.kr/pages/ad/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "25f50f08-fe8f-418a-a53b-10c59e9115c6",
+                "name": "mediamixad.com/ad/liveAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mediamixad\\.com/ad/liveAd",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "56594fbd-993f-45ff-90b7-776c6f42100e",
+                "name": "mediamixad.com/ad/webad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mediamixad\\.com/ad/webad",
                         "load-type": []
                     },
                     "action": {

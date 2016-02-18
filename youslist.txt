@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: stIQjrYqqVnmnqp7tHf7Yw
-! Version: 20160218
+! Checksum: VnP8oTBF89gQCwswjkuymQ
+! Version: 20160219
 
 ! General element hiding rules
 ###banner_ad
@@ -109,6 +109,7 @@
 ##iframe[src^="http://www.inven.co.kr/ad/"]
 ##iframe[src^="http://www.kmib.co.kr/cp/realclick/"]
 ##iframe[src^="http://www.koreadaily.com/_ui/ad/"]
+##iframe[src^="http://www.mediamixad.com/ad/liveAd"]
 ##ins.adsbygoogle
 ##ins.daum_ddn_area
 
@@ -354,6 +355,8 @@
 ||m.11st.co.kr/MW/html/allianceAd/
 ||maxmovie.com/banner/img/lotte630x88.jpg^
 ||mbn.mk.co.kr/pages/ad/
+||mediamixad.com/ad/liveAd^
+||mediamixad.com/ad/webad^
 ||mediarichad.com/adbanner/
 ||mediaus.co.kr/bannerManager/inc/
 ||menu.mt.co.kr/banner/adPlayer.swf^
@@ -1114,6 +1117,7 @@ vop.co.kr##div.top-ad
 washingtonpost.com##div.has-subscribe-promo
 washingtonpost.com##div[class*="-ad-"]
 wikitree.co.kr##iframe[src^="/_tpl/default/ad/"]
+womennews.co.kr##iframe[src^="/news/sidebar_banner_realclick01.html"]
 wowtv.co.kr##div#absBannerRight
 wowtv.co.kr##div#article_cont>div[style="clear:both; float:left; width:650px; margin:30px auto 0"]
 wowtv.co.kr##div#bottomWrap>div[style="margin-top: 15px;"]
