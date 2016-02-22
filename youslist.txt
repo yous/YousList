@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/youslist#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: VnP8oTBF89gQCwswjkuymQ
-! Version: 20160219
+! Checksum: fIapM1saQnwA2KsBxUUYwA
+! Version: 20160222
 
 ! General element hiding rules
 ###banner_ad
@@ -99,6 +99,7 @@
 ##iframe[src^="http://p.lumieyes.com/"]
 ##iframe[src^="http://plugin.2beon.co.kr/"]
 ##iframe[src^="http://provider.hiadone.com/cgi-bin/conad_hi.fcgi/"]
+##iframe[src^="http://pub.adpnut.com/"]
 ##iframe[src^="http://ra.ntwoad.co.kr/"]
 ##iframe[src^="http://res.heraldm.com/iframe/"]
 ##iframe[src^="http://rsense-ad.realclick.co.kr/rsense/view_ad_adcrm.html"]
@@ -424,6 +425,7 @@
 ||performix.co.kr/cgi-bin/conad.fcgi/
 ||plugin.2beon.co.kr^
 ||provider.hiadone.com/cgi-bin/conad_hi.fcgi/
+||pub.adpnut.com^
 ||pubads.g.doubleclick.net^
 ||pv.ntomap.com/bin/imp^
 ||pv.tag.ntomap.com/bin/query^
@@ -766,7 +768,14 @@ kookje.co.kr##div#bnr_newsmiddleArea
 kookje.co.kr##div#bnr_newsmiddlebottomArea
 kookje.co.kr##div#bnr_newstopArea
 kookje.co.kr##div#bnr_rightmiddleArea
+kookje.co.kr##div#bnr_rightTopArea
+kookje.co.kr##div#news_relGisa2>p[style="width:250px;height:250px;border:1px solid #ddd"]
+kookje.co.kr##div#news_textArea>div[style="clear:both;position:relative;width:468px;height:60px;background:#FFF;border:1px solid #999999;margin:10px auto;z-index:0"]
+kookje.co.kr##div#news_textArea>div[style="float:right;width:300px;height:255px;margin-left:10px;"]
+kookje.co.kr##div#top>div[style="margin:10px auto 0;width:728px;"]
+kookje.co.kr##div.leftArea>div[style="padding:10px 49px 0px"]
 kookje.co.kr##div[id^="flow_banner"]
+kookje.co.kr##iframe[src^="/service/banner/"]
 koreadaily.com##div#google_ad1
 koreadaily.com##div.right_b_banner
 koreadaily.com##div.shopping2

@@ -1305,6 +1305,20 @@
                 }
             },
             {
+                "id": "1b267197-5ea3-4cc5-82bb-fc0402b845a1",
+                "name": "##iframe[src^=\"http://pub.adpnut.com/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://pub.adpnut.com/\"]"
+                    }
+                }
+            },
+            {
                 "id": "46b71ad4-99db-4309-aee6-23e769b53bf5",
                 "name": "##iframe[src^=\"http://ra.ntwoad.co.kr/\"]",
                 "content": {
@@ -5515,6 +5529,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?provider\\.hiadone\\.com/cgi-bin/conad_hi\\.fcgi/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "277631a2-3d12-44c0-bb20-c2602c9cee65",
+                "name": "pub.adpnut.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?pub\\.adpnut\\.com",
                         "load-type": []
                     },
                     "action": {
