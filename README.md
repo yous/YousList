@@ -1,11 +1,13 @@
 # YousList
 
-Block filter for [Adblock Plus][], [uBlock Origin][], [uBlock][] and [1Blocker][].
+Block filter for [Adblock Plus][], [uBlock Origin][], [uBlock][], [1Blocker][],
+and [AdAway][].
 
 [Adblock Plus]: https://adblockplus.org/
 [uBlock Origin]: https://github.com/gorhill/uBlock
 [uBlock]: https://github.com/chrisaljoudi/uBlock
 [1Blocker]: http://1blocker.com/
+[AdAway]: https://github.com/Free-Software-for-Android/AdAway
 
 ## Usage
 
@@ -32,6 +34,14 @@ Open [Rules.1blockpkg (v20160222)][Rules.1blockpkg] and select 1Blocker from the
 rules and then import the new rules.
 
 [Rules.1blockpkg]: https://cdn.rawgit.com/yous/YousList/v20160222/Rules.1blockpkg
+
+### AdAway
+
+Add the following URL as a host source.
+
+```
+https://github.com/yous/YousList/raw/master/hosts.txt
+```
 
 ## Testing
 
