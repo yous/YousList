@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: S0mDKVpKgWRnKUzY6H/+Fg
-! Version: 20160223
+! Checksum: Z9j4XrIXG/svLfX2xoQGhQ
+! Version: 20160225
 
 ! General element hiding rules
 ###banner_ad
@@ -130,7 +130,7 @@
 ||a.wyzmob.com^
 ||a1.ationnet.co.kr/a01/
 ||a1.dp25.kr^
-||ad*.*/event.ems/
+||ad*.*/event.ems/$domain=~interpark.com
 ||ad*.inews24.com^
 ||ad*.netshelter.net/adj/
 ||ad*.realclick.co.kr^
@@ -739,6 +739,8 @@ instiz.net##div.mainad
 instiz.net##div.powerad
 instiz.net##div.powerlink
 instiz.net##span#powerlink
+interpark.com##div#powerLinkBox
+interpark.com##div#searchSponsorAd
 inven.co.kr##div[id$="AdTop"]
 iphone-apps-ipa.com##div[id^="default_adp"]
 iphone-apps-ipa.com##div[id^="meerkat-wrap"]

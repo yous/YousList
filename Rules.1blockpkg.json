@@ -1701,7 +1701,10 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ad.*\\..*/event.ems/",
-                        "load-type": []
+                        "load-type": [],
+                        "unless-domain": [
+                            "interpark.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
