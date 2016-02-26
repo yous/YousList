@@ -6454,6 +6454,48 @@
                 }
             },
             {
+                "id": "97a96fe3-5614-4ad5-9641-ff54ccf7cb51",
+                "name": "mnews.joins.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mnews\\.joins\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "336b6129-3975-4f81-b91e-91999869d929",
+                "name": "mnews.joins.com##div.ad_h100",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mnews\\.joins\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_h100"
+                    }
+                }
+            },
+            {
+                "id": "b4ef9132-7f2a-4c25-93be-d0c0e91a02a4",
+                "name": "mnews.joins.com##div.adlink",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mnews\\.joins\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adlink"
+                    }
+                }
+            },
+            {
                 "id": "f65583d4-eb05-40b7-849a-da4ffa5ab948",
                 "name": "shencomics.com##aside.EzAdsWidget",
                 "content": {
