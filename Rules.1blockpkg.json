@@ -6342,6 +6342,20 @@
                 }
             },
             {
+                "id": "9b2854d6-e56e-4016-8e16-30bb502fa21e",
+                "name": "forums.macrumors.com##div.funbox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?forums\\.macrumors\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.funbox"
+                    }
+                }
+            },
+            {
                 "id": "18749afd-490a-4602-a9d3-b8af893d1b1b",
                 "name": "m.focus.kr##div#article_Content>div[style=\"margin-top:20px;\"]",
                 "content": {
