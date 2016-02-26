@@ -1921,6 +1921,19 @@
                 }
             },
             {
+                "id": "632147c9-fde5-47f9-9784-63ee971518f6",
+                "name": "ad.altervista.org/js*.ad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ad\\.altervista\\.org/js.*\\.ad/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a0417384-ec29-4274-a77b-4137c300895f",
                 "name": "ad.applead.co.kr",
                 "content": {
@@ -3486,6 +3499,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cm2\\.cjmooter\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b1b842a5-89ef-44e4-a22f-0f2416a84e34",
+                "name": "coolsoft.altervista.org/sites/all/themes/coolsoft/js/coolsoft.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?coolsoft\\.altervista\\.org/sites/all/themes/coolsoft/js/coolsoft\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -6564,6 +6590,20 @@
                     },
                     "action": {
                         "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "20175768-9160-471b-8c2a-335d4ff45dab",
+                "name": "coolsoft.altervista.org##div._pb",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?coolsoft\\.altervista\\.org",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div._pb"
                     }
                 }
             },
