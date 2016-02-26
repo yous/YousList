@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: O9pYe964MpqoWd48E5SR+w
+! Checksum: lAgLj7YRl8YINmlXpja1DA
 ! Version: 20160227
 
 ! General element hiding rules
@@ -39,6 +39,7 @@
 ##iframe[src^="http://ad.priel.co.kr/"]
 ##iframe[src^="http://ad.xc.nis.nitmus.com/"]
 ##iframe[src^="http://ad1.eventmanager.co.kr/"]
+##iframe[src^="http://adexpert.ad4989.co.kr/"]
 ##iframe[src^="http://adexview.new-star.co.kr/adimage.php"]
 ##iframe[src^="http://adexview.new-star.co.kr/adimage_mobile.php"]
 ##iframe[src^="http://adin.ad4980.kr/"]
@@ -72,6 +73,7 @@
 ##iframe[src^="http://imp.mklaud.com/ad"]
 ##iframe[src^="http://joy-adstore.co.kr/ad/"]
 ##iframe[src^="http://longkeyone.co.kr/"]
+##iframe[src^="http://m.hankooki.com/ad/"]
 ##iframe[src^="http://mobi.luxad.net/ad/"]
 ##iframe[src^="http://mtab.clickmon.co.kr/pop/"]
 ##iframe[src^="http://nad1.mklaud.com/ad"]
@@ -167,6 +169,7 @@
 ||adcrm.co.kr/md/
 ||addc.dcinside.com/NetInsight/
 ||adddn.adotsolution.com/contents/sdk/js/tad.min.js^
+||adexpert.ad4989.co.kr^
 ||adexview.neoebiz.co.kr^
 ||adexview.new-star.co.kr/adimage.php^
 ||adexview.new-star.co.kr/adimage_mobile.php^
@@ -339,6 +342,7 @@
 ||lightasp.dmcmedia.co.kr/adixs/
 ||longkeyone.co.kr^
 ||m.11st.co.kr/MW/html/allianceAd/
+||m.hankooki.com/ad/
 ||maxmovie.com/banner/img/lotte630x88.jpg^
 ||mbn.mk.co.kr/pages/ad/
 ||mediamixad.com/ad/liveAd^
@@ -802,6 +806,9 @@ m.chosun.com##div[id^="floatingAd_"]
 m.chosun.com##div[id^="floatingWrap_"]
 m.focus.kr##div#article_Content>div[style="margin-top:20px;"]
 m.focus.kr##iframe[id^="adv_banner"]
+m.hankooki.com##div#ad_img_div
+m.hankooki.com##div.adpromotion
+m.hankooki.com##div[class^="ads_"]
 mangafox.me##div.ad
 mangaumaru.com##div#fbanner
 marumaru.in##div#responsive-banner
