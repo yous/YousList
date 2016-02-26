@@ -1096,6 +1096,20 @@
                 }
             },
             {
+                "id": "a49338b7-55fc-4820-b460-19389df4501d",
+                "name": "##iframe[src^=\"http://static.joins.com/isplus/ui/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://static.joins.com/isplus/ui/ad/\"]"
+                    }
+                }
+            },
+            {
                 "id": "25ff1298-7c28-4270-91d1-4ef6884aec17",
                 "name": "##iframe[src^=\"http://tab2.clickmon.co.kr/pop/\"]",
                 "content": {
@@ -5916,6 +5930,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?st\\.keywordsconnect\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6554d5e0-7ba9-4c4f-86b9-f7bab1ef6088",
+                "name": "static.joins.com/isplus/ui/ad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?static\\.joins\\.com/isplus/ui/ad/",
                         "load-type": []
                     },
                     "action": {

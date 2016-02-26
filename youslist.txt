@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: sNsb4eRLxlPkcso6uCBjIQ
+! Checksum: VWsvLbfwmnoF+XJxAxLVEg
 ! Version: 20160226
 
 ! General element hiding rules
@@ -85,6 +85,7 @@
 ##iframe[src^="http://res.heraldm.com/iframe/"]
 ##iframe[src^="http://rsense-ad.realclick.co.kr/rsense/view_ad_adcrm.html"]
 ##iframe[src^="http://sin1.g.adnxs.com/if"]
+##iframe[src^="http://static.joins.com/isplus/ui/ad/"]
 ##iframe[src^="http://tab2.clickmon.co.kr/pop/"]
 ##iframe[src^="http://www.ad-playstore.com/"]
 ##iframe[src^="http://www.dreamsearch.or.kr/ad/"]
@@ -456,6 +457,7 @@
 ||sports.chosun.com/news/sports_chosun_hns.js^
 ||sports.hankooki.com/ad/
 ||st.keywordsconnect.com^
+||static.joins.com/isplus/ui/ad/
 ||static.joinsmsn.com/common/ui/ad/
 ||swf.adget.co.kr/ads/
 ||tab.clickmon.co.kr/ad_img/
@@ -735,7 +737,13 @@ interpark.com##div#searchSponsorAd
 inven.co.kr##div[id$="AdTop"]
 iphone-apps-ipa.com##div[id^="default_adp"]
 iphone-apps-ipa.com##div[id^="meerkat-wrap"]
-isplus.joins.com##div#topTextAd
+isplus.joins.com##div.ad_area
+isplus.joins.com##div.ad_article_bottom1text
+isplus.joins.com##div.ad_v300
+isplus.joins.com##div.sec_buzzlink
+isplus.joins.com##div[class^="ad_thum"]
+isplus.joins.com##div[class^="banner_1024_1024"]
+isplus.joins.com##span[id^="realclick_view2"]
 isplus.joinsmsn.com##div#topTextAd
 isplus.joinsmsn.com##div[class^="biz_link_area"]
 isplus.joinsmsn.com##div[class^="sponsor_link_area"]
