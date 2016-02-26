@@ -4,48 +4,6 @@
         "name": "YousList",
         "rules": [
             {
-                "id": "2ecd0087-eabf-4c57-b50a-c6c0453a5205",
-                "name": "###banner_ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "#banner_ad"
-                    }
-                }
-            },
-            {
-                "id": "f0016c67-a459-40e9-a448-10b55c973bf8",
-                "name": "##a[href^=\"http://www.bizon.kr/click.php?type=adon\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "a[href^=\"http://www.bizon.kr/click.php?type=adon\"]"
-                    }
-                }
-            },
-            {
-                "id": "b51d383b-ab58-40d4-8f1c-4e62342af14d",
-                "name": "##div#adMedia",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#adMedia"
-                    }
-                }
-            },
-            {
                 "id": "94620f06-a8f1-4785-aa74-93735def9d1a",
                 "name": "##div#adbay_adExpandDiv",
                 "content": {
@@ -88,20 +46,6 @@
                 }
             },
             {
-                "id": "f56f01bc-79a2-47fd-85a3-440037799e21",
-                "name": "##div#div_ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#div_ad"
-                    }
-                }
-            },
-            {
                 "id": "3da37343-0cd2-40ca-96c0-04bccfb446f6",
                 "name": "##div#mobitree",
                 "content": {
@@ -126,34 +70,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#mobitreeP"
-                    }
-                }
-            },
-            {
-                "id": "568429d5-e646-4830-8b9c-afaf0e35ab34",
-                "name": "##div#quick_adon_bizon",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#quick_adon_bizon"
-                    }
-                }
-            },
-            {
-                "id": "c67d8734-a02e-4b4d-971e-b08b0458e8a9",
-                "name": "##div#real_pop_bnr_adop32",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#real_pop_bnr_adop32"
                     }
                 }
             },
@@ -228,20 +144,6 @@
                 }
             },
             {
-                "id": "7cdfe3ca-c1de-468e-973b-e0374b748bdb",
-                "name": "##div.ad-box",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad-box"
-                    }
-                }
-            },
-            {
                 "id": "fff4fdb1-866b-4766-98e6-55b2b5951e77",
                 "name": "##div.ezAdsense",
                 "content": {
@@ -266,201 +168,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.gpt_ad_container"
-                    }
-                }
-            },
-            {
-                "id": "232c3352-ad1f-4397-a457-652735a8964a",
-                "name": "~sports.donga.com##div[class$=\"_AD\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": [],
-                        "unless-domain": [
-                            "sports.donga.com"
-                        ]
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[class$=\"_AD\"]"
-                    }
-                }
-            },
-            {
-                "id": "e4c5c2e2-32f8-44c1-99f1-bc05cdc4ea52",
-                "name": "~fnnews.com,~sports.news.naver.com##div[class$=\"_ad\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": [],
-                        "unless-domain": [
-                            "fnnews.com",
-                            "sports.news.naver.com"
-                        ]
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[class$=\"_ad\"]"
-                    }
-                }
-            },
-            {
-                "id": "3caec8a3-b25b-416e-9182-bffb5f9b1993",
-                "name": "##div[class$=\"_ads\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[class$=\"_ads\"]"
-                    }
-                }
-            },
-            {
-                "id": "b176c523-3593-432a-94d7-d54f705200ba",
-                "name": "##div[class^=\"AD_\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[class^=\"AD_\"]"
-                    }
-                }
-            },
-            {
-                "id": "f22accd1-9738-4c36-8af7-75c62fb23f45",
-                "name": "~daum.net,~donga.com,~news.mk.co.kr,~sports.news.naver.com##div[class^=\"ad_\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": [],
-                        "unless-domain": [
-                            "daum.net",
-                            "donga.com",
-                            "news.mk.co.kr",
-                            "sports.news.naver.com"
-                        ]
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[class^=\"ad_\"]"
-                    }
-                }
-            },
-            {
-                "id": "49bcd277-4bed-4a53-a30d-b760516e859c",
-                "name": "##div[class^=\"ads\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[class^=\"ads\"]"
-                    }
-                }
-            },
-            {
-                "id": "ecf31d5b-c961-439d-b5a4-4d35ec507f90",
-                "name": "##div[class^=\"imagead-\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[class^=\"imagead-\"]"
-                    }
-                }
-            },
-            {
-                "id": "a11bcc0a-3f36-4b7f-abdb-4080b0cbd4bb",
-                "name": "##div[id$=\"_AD\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[id$=\"_AD\"]"
-                    }
-                }
-            },
-            {
-                "id": "28515a7f-c0fa-46fe-aa9e-dfed427c22af",
-                "name": "##div[id$=\"_ad\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[id$=\"_ad\"]"
-                    }
-                }
-            },
-            {
-                "id": "8645676a-0ee3-48f3-b643-c21341f2ec82",
-                "name": "##div[id$=\"_ads\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[id$=\"_ads\"]"
-                    }
-                }
-            },
-            {
-                "id": "fb20fd49-b3ee-4b29-b050-7fba8cb77b7d",
-                "name": "##div[id^=\"AD_\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[id^=\"AD_\"]"
-                    }
-                }
-            },
-            {
-                "id": "8d81515e-c498-4efa-83d0-781ca3d8c0c8",
-                "name": "##div[id^=\"ad_\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[id^=\"ad_\"]"
-                    }
-                }
-            },
-            {
-                "id": "21718a87-cb80-4627-884b-9a2d856b1fd8",
-                "name": "##div[id^=\"ads\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[id^=\"ads\"]"
                     }
                 }
             },
