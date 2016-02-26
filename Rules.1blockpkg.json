@@ -1025,6 +1025,20 @@
                 }
             },
             {
+                "id": "b4eb99cd-85fa-47b5-bf96-a704ed6b73c5",
+                "name": "##iframe[src^=\"http://care-health.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://care-health.co.kr/\"]"
+                    }
+                }
+            },
+            {
                 "id": "30b78a56-74d2-4e94-9617-84d9c2e9d8f8",
                 "name": "##iframe[src^=\"http://cas.criteo.com/delivery/\"]",
                 "content": {
@@ -3264,6 +3278,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?candy\\.ad9\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "54a9ac32-3cd6-461a-ad7c-9804150dffc3",
+                "name": "care-health.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?care-health\\.co\\.kr",
                         "load-type": []
                     },
                     "action": {
@@ -6537,6 +6564,34 @@
                     },
                     "action": {
                         "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "18749afd-490a-4602-a9d3-b8af893d1b1b",
+                "name": "m.focus.kr##div#article_Content>div[style=\"margin-top:20px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.focus\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article_Content>div[style=\"margin-top:20px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "41db5a12-b571-4f68-a9f9-807e43f70b01",
+                "name": "m.focus.kr##iframe[id^=\"adv_banner\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.focus\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[id^=\"adv_banner\"]"
                     }
                 }
             },
