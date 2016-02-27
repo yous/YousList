@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: EDpiGT7jEGWoI7xLPoQHxw
+! Checksum: 51VDqB0QozJICpGV91A4jQ
 ! Version: 20160227
 
 ! General element hiding rules
@@ -75,6 +75,8 @@
 ##iframe[src^="http://joy-adstore.co.kr/ad/"]
 ##iframe[src^="http://longkeyone.co.kr/"]
 ##iframe[src^="http://m.hankooki.com/ad/"]
+##iframe[src^="http://m.joyninfo.com/yna/yna_m_new.asp"]
+##iframe[src^="http://mobi.luxad.kr/ad/"]
 ##iframe[src^="http://mobi.luxad.net/ad/"]
 ##iframe[src^="http://mtab.clickmon.co.kr/pop/"]
 ##iframe[src^="http://nad1.mklaud.com/ad"]
@@ -97,6 +99,7 @@
 ##iframe[src^="http://www.kmib.co.kr/cp/realclick/"]
 ##iframe[src^="http://www.koreadaily.com/_ui/ad/"]
 ##iframe[src^="http://www.mediamixad.com/ad/liveAd"]
+##iframe[src^="http://www.sunnyworks.co.kr/data/SW"][src$=".html"]
 ##ins.adsbygoogle
 ##ins.daum_ddn_area
 
@@ -311,6 +314,8 @@
 ||ilbe.com/layouts/elkha_ilbe/js/new_sky.js^
 ||imaeil.com/image/banner/ad*.swf^
 ||imaeil.com/wec/
+||image.cauly.co.kr/websdk/multi_mini_ads/ads.js^
+||image.cauly.co.kr:15151/websdk/caulyad.min.js^
 ||image.melon.com/svc/images/main/floatingBanner/floatingBanner_*.swf^
 ||image.news1.kr/system/ads/ad_banner/
 ||image.wownet.co.kr/static/banner/*/flash/
@@ -349,6 +354,7 @@
 ||longkeyone.co.kr^
 ||m.11st.co.kr/MW/html/allianceAd/
 ||m.hankooki.com/ad/
+||m.joyninfo.com/yna/yna_m_new.asp^
 ||maxmovie.com/banner/img/lotte630x88.jpg^
 ||mbn.mk.co.kr/pages/ad/
 ||mediamixad.com/ad/liveAd^
@@ -365,9 +371,11 @@
 ||miz-diet.co.kr/jose.html^
 ||miz-diet.co.kr/view*.html^
 ||mktag.mt.co.kr/event.ems/
+||mobi.luxad.kr/ad/
 ||mobi.luxad.net/ad/
 ||mp.mmnneo.com^
 ||mt.co.kr/ad/
+||mtag.mman.kr/js.mezzo/
 ||munhwa.com/skin/inc_right/inc_denta_ad_iframe.html^
 ||mydaily.co.kr/news/ad_news*.htm^
 ||myvip.feeldmc.com/code.ems/
@@ -438,6 +446,7 @@
 ||s.pubmine.com/adj/
 ||sba.about.co.kr/SbaExpose.aspx^
 ||sba.about.co.kr/dbaExpose.aspx^
+||scr.nsmartad.com/admixer/admixer.js^
 ||script.adsquare.co.kr/script/
 ||script.keywordlink.co.kr^
 ||scripts.chitika.net^
@@ -472,6 +481,7 @@
 ||st.keywordsconnect.com^
 ||static.joins.com/isplus/ui/ad/
 ||static.joinsmsn.com/common/ui/ad/
+||sunnyworks.co.kr/data/SW*.html^
 ||swf.adget.co.kr/ads/
 ||tab.clickmon.co.kr/ad_img/
 *tab*.clickmon.co.kr/pop/
@@ -818,6 +828,12 @@ m.focus.kr##iframe[id^="adv_banner"]
 m.hankooki.com##div#ad_img_div
 m.hankooki.com##div.adpromotion
 m.hankooki.com##div[class^="ads_"]
+m.yna.co.kr##div.ad-Cauly-wrap
+m.yna.co.kr##div.section-txt>div[style="display:inline-block;width:150px;height:150px;float:right;margin-left:10px;border:1px solid #f2ebd6"]
+m.yna.co.kr##section.section-ad-adtive
+m.yna.co.kr##section.section-ad-hi
+m.yna.co.kr##section.section-ad-joyinfo
+m.yna.co.kr##section.section-ad-lumi
 mangafox.me##div.ad
 mangaumaru.com##div#fbanner
 marumaru.in##div#responsive-banner

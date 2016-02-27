@@ -956,6 +956,34 @@
                 }
             },
             {
+                "id": "fac96fa5-29e9-4654-b11f-6c7fae318d41",
+                "name": "##iframe[src^=\"http://m.joyninfo.com/yna/yna_m_new.asp\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://m.joyninfo.com/yna/yna_m_new.asp\"]"
+                    }
+                }
+            },
+            {
+                "id": "2a0e3fea-d332-4237-9287-67a86772ccf2",
+                "name": "##iframe[src^=\"http://mobi.luxad.kr/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://mobi.luxad.kr/ad/\"]"
+                    }
+                }
+            },
+            {
                 "id": "98f806e0-e876-4d18-90da-c545e2de5152",
                 "name": "##iframe[src^=\"http://mobi.luxad.net/ad/\"]",
                 "content": {
@@ -1260,6 +1288,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://www.mediamixad.com/ad/liveAd\"]"
+                    }
+                }
+            },
+            {
+                "id": "e2466e4b-1420-4543-af69-e2707a022a1d",
+                "name": "##iframe[src^=\"http://www.sunnyworks.co.kr/data/SW\"][src$=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.sunnyworks.co.kr/data/SW\"][src$=\".html\"]"
                     }
                 }
             },
@@ -4031,6 +4073,32 @@
                 }
             },
             {
+                "id": "fba7dee5-5716-457a-8e99-58ec681ccbb1",
+                "name": "image.cauly.co.kr/websdk/multi_mini_ads/ads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?image\\.cauly\\.co\\.kr/websdk/multi_mini_ads/ads\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fe51e308-00a7-4ea9-88c7-25782bcd5c66",
+                "name": "image.cauly.co.kr:15151/websdk/caulyad.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?image\\.cauly\\.co\\.kr:15151/websdk/caulyad\\.min\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8334b453-368d-4263-a6ef-8a431ec64b13",
                 "name": "image.melon.com/svc/images/main/floatingBanner/floatingBanner_*.swf",
                 "content": {
@@ -4538,6 +4606,19 @@
                 }
             },
             {
+                "id": "9178b07a-d707-4dab-ba2e-6571d2d94eef",
+                "name": "m.joyninfo.com/yna/yna_m_new.asp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.joyninfo\\.com/yna/yna_m_new\\.asp",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "43ef98a4-3828-43b6-a5f5-d6f0daa82f39",
                 "name": "maxmovie.com/banner/img/lotte630x88.jpg",
                 "content": {
@@ -4746,6 +4827,19 @@
                 }
             },
             {
+                "id": "35bbfe32-c30a-4ea0-9409-ebee380443af",
+                "name": "mobi.luxad.kr/ad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mobi\\.luxad\\.kr/ad/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "32d0a644-aeb0-49ad-9191-2a9cbb4e2943",
                 "name": "mobi.luxad.net/ad/",
                 "content": {
@@ -4777,6 +4871,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mt\\.co\\.kr/ad/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6b87afd7-d04f-4e62-8782-975852ab550a",
+                "name": "mtag.mman.kr/js.mezzo/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mtag\\.mman\\.kr/js\\.mezzo/",
                         "load-type": []
                     },
                     "action": {
@@ -5695,6 +5802,19 @@
                 }
             },
             {
+                "id": "834d9761-c4d6-4655-814b-24cab3b8501d",
+                "name": "scr.nsmartad.com/admixer/admixer.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?scr\\.nsmartad\\.com/admixer/admixer\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "bd113778-b5c8-47fe-83c3-51e49d0ea56e",
                 "name": "script.adsquare.co.kr/script/",
                 "content": {
@@ -6129,6 +6249,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?static\\.joinsmsn\\.com/common/ui/ad/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f0a88447-19c3-49fd-837f-c55ef32c13b1",
+                "name": "sunnyworks.co.kr/data/SW*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sunnyworks\\.co\\.kr/data/SW.*\\.html",
                         "load-type": []
                     },
                     "action": {
@@ -6595,6 +6728,90 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"ads_\"]"
+                    }
+                }
+            },
+            {
+                "id": "12f133bd-8c88-47d8-a4b3-ef25ad8b77cd",
+                "name": "m.yna.co.kr##div.ad-Cauly-wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.yna\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-Cauly-wrap"
+                    }
+                }
+            },
+            {
+                "id": "7d17c9c8-7aa0-446f-9a2f-549c516db7d7",
+                "name": "m.yna.co.kr##div.section-txt>div[style=\"display:inline-block;width:150px;height:150px;float:right;margin-left:10px;border:1px solid #f2ebd6\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.yna\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.section-txt>div[style=\"display:inline-block;width:150px;height:150px;float:right;margin-left:10px;border:1px solid #f2ebd6\"]"
+                    }
+                }
+            },
+            {
+                "id": "7ebecc98-b8fb-4437-9bbe-fc50b6e583c0",
+                "name": "m.yna.co.kr##section.section-ad-adtive",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.yna\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.section-ad-adtive"
+                    }
+                }
+            },
+            {
+                "id": "1aaca386-26c5-4ca6-b87b-e7a088fa9f26",
+                "name": "m.yna.co.kr##section.section-ad-hi",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.yna\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.section-ad-hi"
+                    }
+                }
+            },
+            {
+                "id": "ac978143-8ddd-45f6-9123-22d63e4afcdd",
+                "name": "m.yna.co.kr##section.section-ad-joyinfo",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.yna\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.section-ad-joyinfo"
+                    }
+                }
+            },
+            {
+                "id": "7d3758ba-7baf-4729-bbce-79028f846927",
+                "name": "m.yna.co.kr##section.section-ad-lumi",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.yna\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.section-ad-lumi"
                     }
                 }
             },
