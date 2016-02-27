@@ -578,6 +578,20 @@
                 }
             },
             {
+                "id": "e9c4cd32-9c58-4f76-9ab5-f9a15fc60686",
+                "name": "##iframe[src^=\"http://ads.priel.co.kr/cgi-bin/PelicanC.dll\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ads.priel.co.kr/cgi-bin/PelicanC.dll\"]"
+                    }
+                }
+            },
+            {
                 "id": "8eeac286-eb1b-4180-a7c9-51e5a8f4f617",
                 "name": "##iframe[src^=\"http://ads2.contentabc.com/ads\"]",
                 "content": {
@@ -2542,6 +2556,19 @@
                 }
             },
             {
+                "id": "4dfe87b7-0719-46a0-bbb8-3bbbedb9d4d1",
+                "name": "ads.priel.co.kr/cgi-bin/PelicanC.dll",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ads\\.priel\\.co\\.kr/cgi-bin/PelicanC\\.dll",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "35354b25-2821-4226-a090-f67b0fb06745",
                 "name": "ads.pubmatic.com/AdServer/js/showad.js",
                 "content": {
@@ -4147,6 +4174,19 @@
                 }
             },
             {
+                "id": "2afe2a74-805b-4338-89a1-57ee6e30b7e1",
+                "name": "interface.interworksmedia.co.kr/js/mobitree.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?interface\\.interworksmedia\\.co\\.kr/js/mobitree\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "04b8f9b2-76c2-4dd9-ba46-8de5823dc185",
                 "name": "inven.co.kr/ad/",
                 "content": {
@@ -5551,6 +5591,19 @@
                 }
             },
             {
+                "id": "7567593e-57f3-48a0-8e4a-87ba33cbf3e1",
+                "name": "res.heraldm.com/iframe/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?res\\.heraldm\\.com/iframe/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "beae245c-bc1d-483c-8493-82fe1227192b",
                 "name": "res.heraldm.com/js/ad/",
                 "content": {
@@ -6584,6 +6637,132 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.mobfloat"
+                    }
+                }
+            },
+            {
+                "id": "cb7cf448-309c-41a8-8f44-7222d87f8b05",
+                "name": "mbiz.heraldcorp.com##div.ad_2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mbiz\\.heraldcorp\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_2"
+                    }
+                }
+            },
+            {
+                "id": "b4a53bf7-746d-4a22-a45c-29353561a9b8",
+                "name": "mbiz.heraldcorp.com##div.ad_4",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mbiz\\.heraldcorp\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_4"
+                    }
+                }
+            },
+            {
+                "id": "c7365766-03a6-442d-a9ff-85f2dc19ee15",
+                "name": "mbiz.heraldcorp.com##li[id^=\"adsmnc_t_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mbiz\\.heraldcorp\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li[id^=\"adsmnc_t_\"]"
+                    }
+                }
+            },
+            {
+                "id": "2ed5994a-f1d2-4ad5-807b-4b699b0fa075",
+                "name": "mbiz.heraldcorp.com##li[id^=\"suscat_t_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mbiz\\.heraldcorp\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li[id^=\"suscat_t_\"]"
+                    }
+                }
+            },
+            {
+                "id": "df48b169-0b11-42ce-899c-4d34da1b11e4",
+                "name": "mbiz.heraldcorp.com##span#lumiText1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mbiz\\.heraldcorp\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span#lumiText1"
+                    }
+                }
+            },
+            {
+                "id": "10c2feff-65ba-4a64-8314-2894b629edf6",
+                "name": "mbiz.heraldcorp.com##span[id^=\"adsmnc_t_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mbiz\\.heraldcorp\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span[id^=\"adsmnc_t_\"]"
+                    }
+                }
+            },
+            {
+                "id": "f2e8f941-626b-4217-9dac-9ff614974cb8",
+                "name": "mbiz.heraldcorp.com##span[id^=\"suscat_t_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mbiz\\.heraldcorp\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span[id^=\"suscat_t_\"]"
+                    }
+                }
+            },
+            {
+                "id": "904208bc-737b-400f-96a9-92f20f2202dd",
+                "name": "mbiz.heraldcorp.com##ul#adsmnctext",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mbiz\\.heraldcorp\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul#adsmnctext"
+                    }
+                }
+            },
+            {
+                "id": "3e9e230f-8b8f-41d7-b6a4-ce309a15c565",
+                "name": "mbiz.heraldcorp.com##ul.text_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mbiz\\.heraldcorp\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.text_ad"
                     }
                 }
             },
