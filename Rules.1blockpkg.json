@@ -1180,6 +1180,20 @@
                 }
             },
             {
+                "id": "3d960d41-85b3-43f1-99c0-9f1ee7b1b7d0",
+                "name": "##iframe[src^=\"http://www.dreamsearch.or.kr/servlet/iadbn\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.dreamsearch.or.kr/servlet/iadbn\"]"
+                    }
+                }
+            },
+            {
                 "id": "553ba046-5258-4d83-9c51-15a52e353a6c",
                 "name": "##iframe[src^=\"http://www.inven.co.kr/ad/\"]",
                 "content": {
@@ -3425,6 +3439,19 @@
                 }
             },
             {
+                "id": "23e85fb1-d347-4cfd-990a-abf467ae1a9f",
+                "name": "dreamsearch.or.kr/adnet/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?dreamsearch\\.or\\.kr/adnet/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1924cceb-d64a-481b-8b61-202ea77a8fcd",
                 "name": "dreamsearch.or.kr/servlet/adBanner",
                 "content": {
@@ -3456,6 +3483,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?dreamsearch\\.or\\.kr/servlet/adbn",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "66415b5c-7230-44f5-8f05-9432ac769e8f",
+                "name": "dreamsearch.or.kr/servlet/iadbn",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?dreamsearch\\.or\\.kr/servlet/iadbn",
                         "load-type": []
                     },
                     "action": {
@@ -4528,6 +4568,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mediaus\\.co\\.kr/bannerManager/inc/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "04a05764-cdf2-4226-83a4-7482f97920f8",
+                "name": "mediaview.co.kr/ad_Viewer.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mediaview\\.co\\.kr/ad_Viewer\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1d618b7b-aba7-486f-971f-3de0ad25e8c4",
+                "name": "mediaview.co.kr/ad_Viewer2.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mediaview\\.co\\.kr/ad_Viewer2\\.php",
                         "load-type": []
                     },
                     "action": {

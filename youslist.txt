@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: lAgLj7YRl8YINmlXpja1DA
+! Checksum: YEU1Cus6gMeeWjgwjFg52g
 ! Version: 20160227
 
 ! General element hiding rules
@@ -91,6 +91,7 @@
 ##iframe[src^="http://tab2.clickmon.co.kr/pop/"]
 ##iframe[src^="http://www.ad-playstore.com/"]
 ##iframe[src^="http://www.dreamsearch.or.kr/ad/"]
+##iframe[src^="http://www.dreamsearch.or.kr/servlet/iadbn"]
 ##iframe[src^="http://www.inven.co.kr/ad/"]
 ##iframe[src^="http://www.kmib.co.kr/cp/realclick/"]
 ##iframe[src^="http://www.koreadaily.com/_ui/ad/"]
@@ -265,9 +266,11 @@
 ||display.ad.daum.net/imp^
 ||dlv.hooniad.com^
 ||dreamsearch.or.kr/ad/
+||dreamsearch.or.kr/adnet/
 ||dreamsearch.or.kr/servlet/adBanner^
 ||dreamsearch.or.kr/servlet/adBannerFloating^
 ||dreamsearch.or.kr/servlet/adbn*
+||dreamsearch.or.kr/servlet/iadbn^
 ||dreamsearch.or.kr/servlet/sadbn^
 ||economy.hankooki.com/ad/
 ||edaily.co.kr/adview/
@@ -349,6 +352,8 @@
 ||mediamixad.com/ad/webad^
 ||mediarichad.com/adbanner/
 ||mediaus.co.kr/bannerManager/inc/
+||mediaview.co.kr/ad_Viewer.js^
+||mediaview.co.kr/ad_Viewer2.php^
 ||menu.mt.co.kr/banner/adPlayer.swf^
 ||microopenpop.com/banner/
 ||minishop.linkprice.com/minishop*.php^
@@ -561,7 +566,6 @@ biz.chosun.com##div#right_AD2011
 biz.chosun.com##div.h_banner
 biz.chosun.com##div[class^="banner_1024_1024"]
 biz.chosun.com##div[id^="realclick"]
-biz.heraldcorp.com,news.heraldcorp.com##div#CmAdContent>div.subpg_news_body>div[style="float:right; margin-left:10px;border:1px solid #DED7D7;width:200px;height:200px;"]
 biz.heraldcorp.com,news.heraldcorp.com##div#HB_COMMOM_TOPINT001
 biz.heraldcorp.com,news.heraldcorp.com##div#HB_LEFTSLIDER001
 biz.heraldcorp.com,news.heraldcorp.com##div#HB_SUB_SIDEER001
@@ -572,6 +576,7 @@ biz.heraldcorp.com,news.heraldcorp.com##div#HB_Sub_Right3_105
 biz.heraldcorp.com,news.heraldcorp.com##div#HB_Sub_Right4_105
 biz.heraldcorp.com,news.heraldcorp.com##div#HB_Sub_Top_253
 biz.heraldcorp.com,news.heraldcorp.com##div#HBSUB_ABOUTAD001
+biz.heraldcorp.com,news.heraldcorp.com##div#adshow
 biz.heraldcorp.com,news.heraldcorp.com##div#articleText span[style="width:640px; height:70px; text-align:center; margin:0 10px; padding:10px 10px 15px 10px; clear:both;"]
 biz.heraldcorp.com,news.heraldcorp.com##div#photo_ad_left
 biz.heraldcorp.com,news.heraldcorp.com##div#photo_ad_right
