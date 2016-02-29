@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: xLYP6yRxdUG/1lbAPrixRw
+! Checksum: ZEziFTmpMN6fU/llWxICgA
 ! Version: 20160301
 
 ! General element hiding rules
@@ -42,6 +42,7 @@
 ##iframe[src^="http://adexpert.ad4989.co.kr/"]
 ##iframe[src^="http://adexview.new-star.co.kr/adimage.php"]
 ##iframe[src^="http://adexview.new-star.co.kr/adimage_mobile.php"]
+##iframe[src^="http://adexview.new-star.co.kr/adtext.php"]
 ##iframe[src^="http://adin.ad4980.kr/"]
 ##iframe[src^="http://adn.inven.co.kr/"]
 ##iframe[src^="http://ads-optima.com/www/delivery/afr.php"]
@@ -178,6 +179,7 @@
 ||adexview.neoebiz.co.kr^
 ||adexview.new-star.co.kr/adimage.php^
 ||adexview.new-star.co.kr/adimage_mobile.php^
+||adexview.new-star.co.kr/adtext.php^
 ||adf.send.microad.jp^
 ||adget.co.kr^
 ||adimage.hankookilbo.com^
@@ -923,7 +925,20 @@ news.jtbc.joins.com##div.netizen_link_area
 news.jtbc.joins.com##div.right_banner250_area
 news.jtbc.joins.com##div.sponsor_link_area
 news.jtbc.joins.com##div.sponsor_link_combine
-news.khan.co.kr##div.scroll
+news.khan.co.kr##div#photoAD
+news.khan.co.kr##div#topLeft
+news.khan.co.kr##div.ad_about
+news.khan.co.kr##div.ad_adFlex
+news.khan.co.kr##div.ad_hotIssue
+news.khan.co.kr##div.ad_interestInfo
+news.khan.co.kr##div.ad_popularInfo
+news.khan.co.kr##div.ad_subwing_mid
+news.khan.co.kr##div.ad_subwing_wrap
+news.khan.co.kr##div.ad_todayFocus
+news.khan.co.kr##div.ad_top
+news.khan.co.kr##div.ad_two
+news.khan.co.kr##div.ad_two_top
+news.khan.co.kr##div[class^="ad_movFocus"]
 news.kmib.co.kr##body>div[style="height:150px;margin:5px 0 0;"]
 news.kmib.co.kr##body>div[style="height:250px;margin:0px 0 0;"]
 news.kmib.co.kr##body>div[style="height:250px;margin:5px 0 0;"]
