@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: ZEziFTmpMN6fU/llWxICgA
+! Checksum: J2K0bNGNEpXHC999YbGJew
 ! Version: 20160301
 
 ! General element hiding rules
@@ -40,9 +40,7 @@
 ##iframe[src^="http://ad.xc.nis.nitmus.com/"]
 ##iframe[src^="http://ad1.eventmanager.co.kr/"]
 ##iframe[src^="http://adexpert.ad4989.co.kr/"]
-##iframe[src^="http://adexview.new-star.co.kr/adimage.php"]
-##iframe[src^="http://adexview.new-star.co.kr/adimage_mobile.php"]
-##iframe[src^="http://adexview.new-star.co.kr/adtext.php"]
+##iframe[src^="http://adexview.new-star.co.kr/"]
 ##iframe[src^="http://adin.ad4980.kr/"]
 ##iframe[src^="http://adn.inven.co.kr/"]
 ##iframe[src^="http://ads-optima.com/www/delivery/afr.php"]
@@ -72,6 +70,7 @@
 ##iframe[src^="http://display.ad.daum.net/imp"]
 ##iframe[src^="http://exttag.about.co.kr/cgi-bin/PelicanC.dll"]
 ##iframe[src^="http://fs.jtbc.joins.com/common/ui/ad/"]
+##iframe[src^="http://im.obel.kr/file/"]
 ##iframe[src^="http://imp.mklaud.com/ad"]
 ##iframe[src^="http://joy-adstore.co.kr/ad/"]
 ##iframe[src^="http://longkeyone.co.kr/"]
@@ -177,9 +176,7 @@
 ||adddn.adotsolution.com/contents/sdk/js/tad.min.js^
 ||adexpert.ad4989.co.kr^
 ||adexview.neoebiz.co.kr^
-||adexview.new-star.co.kr/adimage.php^
-||adexview.new-star.co.kr/adimage_mobile.php^
-||adexview.new-star.co.kr/adtext.php^
+||adexview.new-star.co.kr^
 ||adf.send.microad.jp^
 ||adget.co.kr^
 ||adimage.hankookilbo.com^
@@ -314,6 +311,7 @@
 ||ilbe.com/layouts/elkha_ilbe/js/board_top.js^
 ||ilbe.com/layouts/elkha_ilbe/js/new_comment.js^
 ||ilbe.com/layouts/elkha_ilbe/js/new_sky.js^
+||im.obel.kr/file/
 ||imaeil.com/image/banner/ad*.swf^
 ||imaeil.com/wec/
 ||image.cauly.co.kr/websdk/multi_mini_ads/ads.js^
@@ -830,6 +828,13 @@ m.focus.kr##iframe[id^="adv_banner"]
 m.hankooki.com##div#ad_img_div
 m.hankooki.com##div.adpromotion
 m.hankooki.com##div[class^="ads_"]
+m.khan.co.kr##div#article_bottom_ad
+m.khan.co.kr##div#mezzo_ad
+m.khan.co.kr##div#photoAD
+m.khan.co.kr##div.ad_area
+m.khan.co.kr##div.ad_thumb_btm
+m.khan.co.kr##div.contBn
+m.khan.co.kr##div.contBn_foot
 m.yna.co.kr##div.ad-Cauly-wrap
 m.yna.co.kr##div.section-txt>div[style="display:inline-block;width:150px;height:150px;float:right;margin-left:10px;border:1px solid #f2ebd6"]
 m.yna.co.kr##section.section-ad-adtive
