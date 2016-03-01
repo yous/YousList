@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: IpZ4ZLM0b2cFyQlhpUFEJA
+! Checksum: 1ekT+pF2ntralhjJpz9pmQ
 ! Version: 20160301
 
 ! General element hiding rules
@@ -280,6 +280,9 @@
 ||economy.hankooki.com/ad/
 ||edaily.co.kr/adview/
 ||etnews.com/ek_js/detail_ad_combinepop.js^
+||etnews.com/tools/etnews_hns.js^
+||etnews.com/tools/ict_highlight.js^
+||etnews.com/tools/ict_terms.js^
 ||eto.co.kr/Data/Xml/localuser/adv/
 ||eto.co.kr/adv/
 ||event.liveg.co.kr/banner/*.gif^
@@ -676,12 +679,21 @@ ent.joseilbo.com##div.read_banner
 ent.joseilbo.com##div[class^="adya_shopping"]
 ent.joseilbo.com##div[class^="banner_area"]
 ent.joseilbo.com##li.rank_banner
+etnews.com##div#RightWingBanner
+etnews.com##div#articleBody>div[style="margin-top:15px;margin-bottom:5px;"]
+etnews.com##div#articleBody>div[style="text-align:center"]
 etnews.com##div#bannerTopmostBox
+etnews.com##div#livere_ad
 etnews.com##div#promotionBanner
-etnews.com##div.article_img240
-etnews.com##div.text_Ad
+etnews.com##div#right>div[style="margin-left:0px;"]
+etnews.com##div#talklink_chatAd
+etnews.com##div#wingLeftSticky
+etnews.com##div.ad_txt
+etnews.com##div.box_type1
+etnews.com##div.box_type2
+etnews.com##div.left_ad_div
+etnews.com##div.top_ad_art
 etnews.com##div[class^="right_ad"]
-etnews.com##ul[class^="ad_list"]
 eto.co.kr##div.tvSideAd
 ezday.co.kr##div#bodyContainer>div[style="width:278px; padding-left:1px; float:left;"]>div[style="width:100%;padding-left:15px;height:250px;"]
 ezday.co.kr##div#idPigEvent
