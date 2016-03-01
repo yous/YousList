@@ -6795,6 +6795,90 @@
                 }
             },
             {
+                "id": "293e932e-bd60-4688-a059-d24d455748bf",
+                "name": "m.etnews.com##div#bottomBigBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.etnews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bottomBigBanner"
+                    }
+                }
+            },
+            {
+                "id": "1b7fc949-2988-422c-bba5-45b2ceded31e",
+                "name": "m.etnews.com##div#boxContent>div[style=\"margin-top:20px;border:0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.etnews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#boxContent>div[style=\"margin-top:20px;border:0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "38132024-4a4f-4c25-aa97-dde6cb384b9d",
+                "name": "m.etnews.com##div.inlineAdBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.etnews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.inlineAdBanner"
+                    }
+                }
+            },
+            {
+                "id": "bc391fe5-fc5d-4629-ab7e-23a51d491481",
+                "name": "m.etnews.com##div.newsView>div[style=\"margin-top:10px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.etnews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.newsView>div[style=\"margin-top:10px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "cdf4e4a2-757b-41b2-ae12-31b49b6e0b1b",
+                "name": "m.etnews.com##section.relBottom>section>div.defNewList>div[style=\"margin:4px 0 4px 0px;padding:0px;height:99px;border:0px;overflow:hidden;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.etnews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.relBottom>section>div.defNewList>div[style=\"margin:4px 0 4px 0px;padding:0px;height:99px;border:0px;overflow:hidden;\"]"
+                    }
+                }
+            },
+            {
+                "id": "3aad6912-a242-4035-9f5b-19d927fff39e",
+                "name": "m.etnews.com##section.relBottom>section[style=\"margin-left:8px;margin-right:8px;margin-top:7px;background-color:#fff;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.etnews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.relBottom>section[style=\"margin-left:8px;margin-right:8px;margin-top:7px;background-color:#fff;\"]"
+                    }
+                }
+            },
+            {
                 "id": "18749afd-490a-4602-a9d3-b8af893d1b1b",
                 "name": "m.focus.kr##div#article_Content>div[style=\"margin-top:20px;\"]",
                 "content": {
