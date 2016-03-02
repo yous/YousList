@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: rq8mBworsWQDhcLr+bRjJg
+! Checksum: 6ku3+GLlcgvmbDI1fOnR4A
 ! Version: 20160302
 
 ! General element hiding rules
@@ -72,6 +72,7 @@
 ##iframe[src^="http://fs.jtbc.joins.com/common/ui/ad/"]
 ##iframe[src^="http://im.obel.kr/file/"]
 ##iframe[src^="http://imp.mklaud.com/ad"]
+##iframe[src^="http://imp.sndkorea.co.kr/php/m.php"]
 ##iframe[src^="http://joy-adstore.co.kr/ad/"]
 ##iframe[src^="http://longkeyone.co.kr/"]
 ##iframe[src^="http://m.hankooki.com/ad/"]
@@ -331,6 +332,7 @@
 ||img.sportsseoul.com/ad/
 ||img2.keywordsconnect.com/iconAdImg*.gif^
 ||imp.mklaud.com/ad^
+||imp.sndkorea.co.kr/php/m.php^
 ||interface.interworksmedia.co.kr/js/iwmads.min.js^
 ||interface.interworksmedia.co.kr/js/mobitree.js^
 ||inven.co.kr/ad/
@@ -885,6 +887,14 @@ minitoon.net##div.s_banner
 mnews.joins.com##div.ad
 mnews.joins.com##div.ad_h100
 mnews.joins.com##div.adlink
+mnews.jtbc.joins.com##div#player_bottom_ad
+mnews.jtbc.joins.com##div.ad_highlight_270
+mnews.jtbc.joins.com##div.ad_text_2line
+mnews.jtbc.joins.com##div.footer_ad
+mnews.jtbc.joins.com##div.footer_google
+mnews.jtbc.joins.com##div.text_ad
+mnews.jtbc.joins.com##section.shopping.right
+mnews.jtbc.joins.com##section.shopping_box
 mosen.mt.co.kr##div[id^="adList"]
 mt.co.kr##div#art_ad_top1
 mt.co.kr##div#news_banner1

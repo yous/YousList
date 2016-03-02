@@ -914,6 +914,20 @@
                 }
             },
             {
+                "id": "979f5eac-3689-456e-99f5-89c1074d4471",
+                "name": "##iframe[src^=\"http://imp.sndkorea.co.kr/php/m.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://imp.sndkorea.co.kr/php/m.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "3ae24768-3f12-48bd-b11c-586e0f5a2edd",
                 "name": "##iframe[src^=\"http://joy-adstore.co.kr/ad/\"]",
                 "content": {
@@ -4307,6 +4321,19 @@
                 }
             },
             {
+                "id": "7ec7f434-fc7c-42ed-a2d5-a3fd18c028c0",
+                "name": "imp.sndkorea.co.kr/php/m.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?imp\\.sndkorea\\.co\\.kr/php/m\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d940525c-2962-42ae-85a3-3de932d1d54e",
                 "name": "interface.interworksmedia.co.kr/js/iwmads.min.js",
                 "content": {
@@ -7379,6 +7406,118 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.adlink"
+                    }
+                }
+            },
+            {
+                "id": "f856ff98-d58c-483e-bd96-c4efee262f85",
+                "name": "mnews.jtbc.joins.com##div#player_bottom_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mnews\\.jtbc\\.joins\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#player_bottom_ad"
+                    }
+                }
+            },
+            {
+                "id": "133739a1-b342-4e77-8417-e8d775d00cb9",
+                "name": "mnews.jtbc.joins.com##div.ad_highlight_270",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mnews\\.jtbc\\.joins\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_highlight_270"
+                    }
+                }
+            },
+            {
+                "id": "74037bcd-e6be-41f4-95a3-2d7b0381caf4",
+                "name": "mnews.jtbc.joins.com##div.ad_text_2line",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mnews\\.jtbc\\.joins\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_text_2line"
+                    }
+                }
+            },
+            {
+                "id": "e5afcc3d-444f-42e8-850c-f6f8d26ac3b1",
+                "name": "mnews.jtbc.joins.com##div.footer_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mnews\\.jtbc\\.joins\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.footer_ad"
+                    }
+                }
+            },
+            {
+                "id": "2b47d6fd-c668-45c5-9d39-f65e14d16f2a",
+                "name": "mnews.jtbc.joins.com##div.footer_google",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mnews\\.jtbc\\.joins\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.footer_google"
+                    }
+                }
+            },
+            {
+                "id": "7a69f10b-6a12-4fca-a878-22a874aeb779",
+                "name": "mnews.jtbc.joins.com##div.text_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mnews\\.jtbc\\.joins\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.text_ad"
+                    }
+                }
+            },
+            {
+                "id": "5b8592fb-3779-4cf4-8b96-ec99c4edf217",
+                "name": "mnews.jtbc.joins.com##section.shopping.right",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mnews\\.jtbc\\.joins\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.shopping.right"
+                    }
+                }
+            },
+            {
+                "id": "c2206faa-182d-4254-b43a-10e03c73387c",
+                "name": "mnews.jtbc.joins.com##section.shopping_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mnews\\.jtbc\\.joins\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.shopping_box"
                     }
                 }
             },
