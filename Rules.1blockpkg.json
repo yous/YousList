@@ -2989,6 +2989,19 @@
                 }
             },
             {
+                "id": "039e22dd-dd45-45fd-8096-6af6da8139b9",
+                "name": "assets.gunosy.com/adnet/gunosy_ads.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?assets\\.gunosy\\.com/adnet/gunosy_ads\\.min\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "60c813a7-f586-4e63-8dbc-6ee0257d5a91",
                 "name": "assoc-amazon.com/s/ads.js",
                 "content": {
@@ -4048,6 +4061,19 @@
                 }
             },
             {
+                "id": "646eec9c-973a-4465-9b95-221a104e4a76",
+                "name": "i.yimg.jp/images/listing/tool/yads/uadf/yads_vimps-*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?i\\.yimg\\.jp/images/listing/tool/yads/uadf/yads_vimps-.*\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "7cbfa5a9-63cc-44f4-a07c-fb1ee2654105",
                 "name": "ichannela.com/ch/*adpost",
                 "content": {
@@ -4560,6 +4586,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?js\\.keywordsconnect\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f2dcd772-4367-41c3-b482-eca0874d8b24",
+                "name": "js.mtburn.com/advs-instream.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?js\\.mtburn\\.com/advs-instream\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -6661,6 +6700,32 @@
                 }
             },
             {
+                "id": "e95dd634-e608-48f0-96df-7cb81db63f8d",
+                "name": "yads.c.yimg.jp/yads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?yads\\.c\\.yimg\\.jp/yads\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b8aa74ee-c5ba-42f4-82dd-967edd8cd446",
+                "name": "yads.yahoo.co.jp/tag",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?yads\\.yahoo\\.co\\.jp/tag",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "73c932b8-ffc8-4716-8812-e998019eefb7",
                 "name": "ytn.co.kr/_comm/*ad*",
                 "content": {
@@ -7560,6 +7625,62 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.mobfloat"
+                    }
+                }
+            },
+            {
+                "id": "fce700c7-6eb6-4346-b337-a118f5dbd1cf",
+                "name": "touch.pixiv.net##body>div>div[style=\"height: 80px; position: fixed; z-index: 998; bottom: 0; width: 100%; display: block; text-align: center; background-color: rgba(0,0,0,1);\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?touch\\.pixiv\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div>div[style=\"height: 80px; position: fixed; z-index: 998; bottom: 0; width: 100%; display: block; text-align: center; background-color: rgba(0,0,0,1);\"]"
+                    }
+                }
+            },
+            {
+                "id": "5f384648-9229-4d6b-8cc7-5d6bf427eee3",
+                "name": "touch.pixiv.net##body>div>div[style=\"height: 80px; position: fixed; z-index: 998; bottom: 0px; width: 100%; text-align: center; background-color: rgb(0, 0, 0);\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?touch\\.pixiv\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div>div[style=\"height: 80px; position: fixed; z-index: 998; bottom: 0px; width: 100%; text-align: center; background-color: rgb(0, 0, 0);\"]"
+                    }
+                }
+            },
+            {
+                "id": "e97eb57a-0324-49f5-b9b8-d5971c5f67e4",
+                "name": "touch.pixiv.net##div.ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?touch\\.pixiv\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container"
+                    }
+                }
+            },
+            {
+                "id": "39d11e78-64fb-4d3c-b360-43cb51d2ba3e",
+                "name": "touch.pixiv.net##div.ad-topmost-header",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?touch\\.pixiv\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-topmost-header"
                     }
                 }
             },
