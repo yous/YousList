@@ -1082,6 +1082,20 @@
                 }
             },
             {
+                "id": "2d748b15-4dbe-454e-b601-6490f15bd374",
+                "name": "##iframe[src^=\"http://ojsfile.ohmynews.com/AD_FILE/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ojsfile.ohmynews.com/AD_FILE/\"]"
+                    }
+                }
+            },
+            {
                 "id": "346963aa-517d-4e19-b857-93c7a92f8104",
                 "name": "##iframe[src^=\"http://p.lumieyes.com/\"]",
                 "content": {
@@ -5648,6 +5662,19 @@
                 }
             },
             {
+                "id": "04018a90-8c10-441b-819c-95678966566d",
+                "name": "ojsfile.ohmynews.com/AD_FILE/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ojsfile\\.ohmynews\\.com/AD_FILE/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "11fcef1f-a316-4add-a66c-c1c946934e06",
                 "name": "ojsimg.ohmynews.com/*_ad_rolling.htm",
                 "content": {
@@ -7176,6 +7203,62 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.contBn_foot"
+                    }
+                }
+            },
+            {
+                "id": "88e94d2c-05fa-4d99-a1e8-a2e617fc7f1f",
+                "name": "m.ohmynews.com##div#adDaum",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.ohmynews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adDaum"
+                    }
+                }
+            },
+            {
+                "id": "044d7cbe-1e0b-433c-a89c-44dd866c1592",
+                "name": "m.ohmynews.com##div#adDaum_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.ohmynews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adDaum_top"
+                    }
+                }
+            },
+            {
+                "id": "78057acf-c897-4c22-abcd-7c442a29df2f",
+                "name": "m.ohmynews.com##div#ad_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.ohmynews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_box"
+                    }
+                }
+            },
+            {
+                "id": "64ee2500-9e24-44a6-a97d-3e9c21993a94",
+                "name": "m.ohmynews.com##div.ad_box_outline",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.ohmynews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_box_outline"
                     }
                 }
             },

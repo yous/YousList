@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: XYKqxPO3ZRtkMcnX3x691w
+! Checksum: /+CSSoqiINjPrg1iB97URQ
 ! Version: 20160303
 
 ! General element hiding rules
@@ -84,6 +84,7 @@
 ##iframe[src^="http://nad1.mklaud.com/ad"]
 ##iframe[src^="http://nads.lumieyes.com/show/media/"]
 ##iframe[src^="http://nws.lumieyes.com/"]
+##iframe[src^="http://ojsfile.ohmynews.com/AD_FILE/"]
 ##iframe[src^="http://p.lumieyes.com/"]
 ##iframe[src^="http://plugin.2beon.co.kr/"]
 ##iframe[src^="http://provider.hiadone.com/cgi-bin/conad_hi.fcgi/"]
@@ -434,6 +435,7 @@
 ||nson.encock.com/media/
 ||nv*.veta.naver.com/dr^
 ||nws.lumieyes.com/show*/media/
+||ojsfile.ohmynews.com/AD_FILE/
 ||ojsimg.ohmynews.com/*_ad_rolling.htm^
 ||op.mmnneo.com/banner.widget.asp^
 ||op.neoad.co.kr/adsearch*
@@ -859,6 +861,10 @@ m.khan.co.kr##div.ad_area
 m.khan.co.kr##div.ad_thumb_btm
 m.khan.co.kr##div.contBn
 m.khan.co.kr##div.contBn_foot
+m.ohmynews.com##div#adDaum
+m.ohmynews.com##div#adDaum_top
+m.ohmynews.com##div#ad_box
+m.ohmynews.com##div.ad_box_outline
 m.yna.co.kr##div.ad-Cauly-wrap
 m.yna.co.kr##div.section-txt>div[style="display:inline-block;width:150px;height:150px;float:right;margin-left:10px;border:1px solid #f2ebd6"]
 m.yna.co.kr##section.section-ad-adtive
