@@ -452,6 +452,20 @@
                 }
             },
             {
+                "id": "6e44a082-930b-41cb-9a1c-d93b16b00a18",
+                "name": "##iframe[src^=\"http://adc.ohmynews.com/NetInsight/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adc.ohmynews.com/NetInsight/\"]"
+                    }
+                }
+            },
+            {
                 "id": "c66db1f2-c210-4138-9c95-492b0d4e4790",
                 "name": "##iframe[src^=\"http://adexpert.ad4989.co.kr/\"]",
                 "content": {
@@ -2201,6 +2215,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ad2\\.thisisgame\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f32b8599-ff5c-4732-8733-ea7f48f5134d",
+                "name": "adc.ohmynews.com/NetInsight/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adc\\.ohmynews\\.com/NetInsight/",
                         "load-type": []
                     },
                     "action": {
@@ -6813,6 +6840,20 @@
                     },
                     "action": {
                         "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1ffa6b5d-cde2-4e78-9676-911b358a1330",
+                "name": "api.dable.io##div.item-sp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?api\\.dable\\.io",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.item-sp"
                     }
                 }
             },

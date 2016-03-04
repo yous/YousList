@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 2wzPBpY4ILcgbmxaY+xzFQ
+! Checksum: XYKqxPO3ZRtkMcnX3x691w
 ! Version: 20160303
 
 ! General element hiding rules
@@ -39,6 +39,7 @@
 ##iframe[src^="http://ad.priel.co.kr/"]
 ##iframe[src^="http://ad.xc.nis.nitmus.com/"]
 ##iframe[src^="http://ad1.eventmanager.co.kr/"]
+##iframe[src^="http://adc.ohmynews.com/NetInsight/"]
 ##iframe[src^="http://adexpert.ad4989.co.kr/"]
 ##iframe[src^="http://adexview.new-star.co.kr/"]
 ##iframe[src^="http://adin.ad4980.kr/"]
@@ -171,6 +172,7 @@
 ||ad1.sportschosun.com^
 ||ad1.sportsseoul.com^
 ||ad2.thisisgame.com^
+||adc.ohmynews.com/NetInsight/
 ||adcreative.hani.naver.net/ad^
 ||adcrm.co.kr/md/
 ||addc.dcinside.com/NetInsight/
@@ -528,6 +530,7 @@
 ! Site element hiding rules
 9to5mac.com##div#author-ad
 9to5mac.com##div.widget_ninetofive_netshelter_ad
+api.dable.io##div.item-sp
 appleblog.co.kr##ins.adsbygoogle
 artsnews.mk.co.kr##div#IDFloatingNZ99
 artsnews.mk.co.kr##div#IDSiteLeftFloatBanner
@@ -1074,10 +1077,14 @@ nytimes.com##div.ad
 nytimes.com##div.text-ad
 nytimes.com##li.ad
 nytimes.com##li.ribbon-ad-container
-ohmynews.com##div.adTop
+ohmynews.com##div.ad_area620
+ohmynews.com##div.ad_footer
+ohmynews.com##div.ad_scroll
+ohmynews.com##div.ad_scroll_rt
+ohmynews.com##div.aside_google_ad
+ohmynews.com##div.wing_gallery_banner
 ohmynews.com##div[class^="aside_ad"]
 ohmynews.com##div[class^="m_ad"]
-ohmynews.com##div[class^="promotion_area"]
 ohmynews.com##ul.ad_area
 osen.mt.co.kr##div.advertising
 osen.mt.co.kr##div.detailTitle>p.obj>iframe
