@@ -6955,6 +6955,20 @@
                 }
             },
             {
+                "id": "2f40f2ed-005d-4bdd-93e6-ddb5017bf1bf",
+                "name": "m.cafe.naver.com##div.area_sa",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.cafe\\.naver\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.area_sa"
+                    }
+                }
+            },
+            {
                 "id": "293e932e-bd60-4688-a059-d24d455748bf",
                 "name": "m.etnews.com##div#bottomBigBanner",
                 "content": {
