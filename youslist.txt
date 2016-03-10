@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: EoTdUhvNYtVZhwz3miqkjQ
+! Checksum: 9PKpuV7nLsZk63mvsAVCEQ
 ! Version: 20160310
 
 ! General element hiding rules
@@ -70,6 +70,7 @@
 ##iframe[src^="http://dgate.joins.com/hc.aspx"]
 ##iframe[src^="http://display.ad.daum.net/imp"]
 ##iframe[src^="http://exttag.about.co.kr/cgi-bin/PelicanC.dll"]
+##iframe[src^="http://file.osen.co.kr/web2/html/realclick_ad.html"]
 ##iframe[src^="http://fs.jtbc.joins.com/common/ui/ad/"]
 ##iframe[src^="http://im.obel.kr/file/"]
 ##iframe[src^="http://imp.mklaud.com/ad"]
@@ -78,6 +79,7 @@
 ##iframe[src^="http://longkeyone.co.kr/"]
 ##iframe[src^="http://m.hankooki.com/ad/"]
 ##iframe[src^="http://m.joyninfo.com/yna/yna_m_new.asp"]
+##iframe[src^="http://mktag.mt.co.kr/code.ems/"]
 ##iframe[src^="http://mobi.luxad.kr/ad/"]
 ##iframe[src^="http://mobi.luxad.net/ad/"]
 ##iframe[src^="http://mtab.clickmon.co.kr/pop/"]
@@ -296,6 +298,7 @@
 ||ex.mdtoday.co.kr^
 ||exttag.about.co.kr/cgi-bin/PellicanC.dll^
 ||feeltong.hani.co.kr/common/banner.html^
+||file.osen.co.kr/web2/html/realclick_ad.html^
 ||file.thisisgame.com/inc/PBPage*.js^
 ||fnnews.com/control^
 ||fnnews.com/include2011/section/google.jsp^
@@ -387,6 +390,7 @@
 ||miz-diet.co.kr/cnb.html^
 ||miz-diet.co.kr/jose.html^
 ||miz-diet.co.kr/view*.html^
+||mktag.mt.co.kr/code.ems/
 ||mktag.mt.co.kr/event.ems/
 ||mobi.luxad.kr/ad/
 ||mobi.luxad.net/ad/
@@ -1107,10 +1111,22 @@ ohmynews.com##div.wing_gallery_banner
 ohmynews.com##div[class^="aside_ad"]
 ohmynews.com##div[class^="m_ad"]
 ohmynews.com##ul.ad_area
+osen.mt.co.kr##div#aside2>div[style="background:#fafafa;height:244px;width:280px;overflow:hidden;"]
+osen.mt.co.kr##div#aside2>div[style="border:1px solid rgb(214, 214, 214); border-top:0px; margin-top:10px; margin-bottom:10px; overflow:hidden;"]
+osen.mt.co.kr##div#aside2>div[style="clear:both;margin:0px 1px 0px 1px;overflow:hidden;margin-top:10px;"]
+osen.mt.co.kr##div#aside2>div[style="float:left;background:#fafafa;height:240px;width:280px;overflow:hidden;"]
+osen.mt.co.kr##div#aside2>div[style="margin:0px 1px 0px 1px;overflow:hidden;"]
+osen.mt.co.kr##div#left_wing_ad
+osen.mt.co.kr##div#right_wing_ad
 osen.mt.co.kr##div.advertising
-osen.mt.co.kr##div.detailTitle>p.obj>iframe
+osen.mt.co.kr##div.content-inner__banner
+osen.mt.co.kr##div.detailBox>div[style="margin-top:40px;"]
+osen.mt.co.kr##div.detailBox>div[style="width:0px; height:0px; position:relative;"]
+osen.mt.co.kr##div.detailBox>div[style="width:100%;text-align:center;margin-top:25px;"]
+osen.mt.co.kr##div.detailBox>div[style="width:652px;height:240px;overflow:hidden;margin-top:20px;margin-bottom:20px;"]
+osen.mt.co.kr##div.detailView>ul.articleList
+osen.mt.co.kr##div.divBox
 osen.mt.co.kr##div.mask_div
-osen.mt.co.kr##iframe#ifrm_google_ad
 pann.nate.com##div#pann_brandAdWrap
 pann.nate.com##div#psypannAd
 pann.nate.com##div.sidebar.ad

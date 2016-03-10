@@ -886,6 +886,20 @@
                 }
             },
             {
+                "id": "c5410f2d-244b-433e-b593-28345b7510bc",
+                "name": "##iframe[src^=\"http://file.osen.co.kr/web2/html/realclick_ad.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://file.osen.co.kr/web2/html/realclick_ad.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "2bbad5c4-8fcc-4d1f-b482-f3c1e5a8f302",
                 "name": "##iframe[src^=\"http://fs.jtbc.joins.com/common/ui/ad/\"]",
                 "content": {
@@ -994,6 +1008,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://m.joyninfo.com/yna/yna_m_new.asp\"]"
+                    }
+                }
+            },
+            {
+                "id": "fc827a50-9713-4a12-a79d-4bf4bff5b5d2",
+                "name": "##iframe[src^=\"http://mktag.mt.co.kr/code.ems/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://mktag.mt.co.kr/code.ems/\"]"
                     }
                 }
             },
@@ -3837,6 +3865,19 @@
                 }
             },
             {
+                "id": "6a258cba-7e67-4766-bd01-b8cbdc1aeeeb",
+                "name": "file.osen.co.kr/web2/html/realclick_ad.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?file\\.osen\\.co\\.kr/web2/html/realclick_ad\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "98e2b56b-5a09-41ba-9bec-6807233c0c0f",
                 "name": "file.thisisgame.com/inc/PBPage*.js",
                 "content": {
@@ -5031,6 +5072,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?miz-diet\\.co\\.kr/view.*\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8b66c414-ed5c-4f7c-9c4b-b60d0e7a1f1f",
+                "name": "mktag.mt.co.kr/code.ems/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mktag\\.mt\\.co\\.kr/code\\.ems/",
                         "load-type": []
                     },
                     "action": {
