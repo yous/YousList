@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 5/KZSlz5t+CgUbrf9GoyhQ
+! Checksum: +SunBAvz3CJLXQemtGuJ/g
 ! Version: 20160310
 
 ! General element hiding rules
@@ -369,6 +369,7 @@
 ||m.11st.co.kr/MW/html/allianceAd/
 ||m.hankooki.com/ad/
 ||m.joyninfo.com/yna/yna_m_new.asp^
+||m.news1.kr/ads/
 ||m1.daumcdn.net/adtc/js/mobilead.js^
 ||maxmovie.com/banner/img/lotte630x88.jpg^
 ||mbn.mk.co.kr/pages/ad/
@@ -864,6 +865,10 @@ m.khan.co.kr##div.ad_area
 m.khan.co.kr##div.ad_thumb_btm
 m.khan.co.kr##div.contBn
 m.khan.co.kr##div.contBn_foot
+m.news1.kr##div#article_content>div[style="width:150px;height:150px;float:right;margin:10px 0 10px 10px;"]
+m.news1.kr##div[data-role="main"]>div[style="z-index:10; position:fixed; bottom:0; height:49px; width:100%;"]
+m.news1.kr##iframe[src^="../../ads/"]
+m.news1.kr##ul.txt_padding_box
 m.ohmynews.com##div#adDaum
 m.ohmynews.com##div#adDaum_top
 m.ohmynews.com##div#ad_box
