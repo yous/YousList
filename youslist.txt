@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: +SunBAvz3CJLXQemtGuJ/g
+! Checksum: EoTdUhvNYtVZhwz3miqkjQ
 ! Version: 20160310
 
 ! General element hiding rules
@@ -97,6 +97,7 @@
 ##iframe[src^="http://tab2.clickmon.co.kr/pop/"]
 ##iframe[src^="http://www.ad-playstore.com/"]
 ##iframe[src^="http://www.dreamsearch.or.kr/ad/"]
+##iframe[src^="http://www.dreamsearch.or.kr/servlet/adBanner"]
 ##iframe[src^="http://www.dreamsearch.or.kr/servlet/iadbn"]
 ##iframe[src^="http://www.inven.co.kr/ad/"]
 ##iframe[src^="http://www.kmib.co.kr/cp/realclick/"]
@@ -423,6 +424,7 @@
 ||news.sportsseoul.com/ad/
 ||news.sportsseoul.com/public_new4/ad/
 ||news.sportsseoul.com/public/ad/
+||news1.kr/iframe/ad/
 ||newscomm.nate.com/Etc/SocialAD^
 ||newswave.kr/ad/
 ||newsway.kr/ad/
@@ -1050,9 +1052,14 @@ news.sportsseoul.com##ul.pad_top20
 news.sportsseoul.com##ul[class^="bottomAd"]
 news.sportsseoul.com##ul[class^="readAd"]
 news.sportsseoul.com##ul[class^="topAd"]
+news1.kr##a.stat_check_link
 news1.kr##div#article_body_content>div[style="margin:0 auto; padding-bottom:10px;"]
-news1.kr##div.link_news.s_news_list>ul>div[style="padding:5px; background:#EBEBEB; margin-top:-200px; right:0; position:absolute; width:200px; height:200px;"]
+news1.kr##div.ad_content
+news1.kr##div.ad_wing_l
+news1.kr##div.ad_wing_r
+news1.kr##div.article>div[style="margin: 0 auto; padding-bottom: 10px;"]
 news1.kr##div.aside>div.adBlock
+news1.kr##div.link_news.s_news_list>ul>div[style="padding:5px; background:#EBEBEB; margin-top:-200px; right:0; position:absolute; width:200px; height:200px;"]
 newsen.com##div#ad250
 newshankuk.com##div.bannerBottomR
 newshankuk.com##div.bannerTopR

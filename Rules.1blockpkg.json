@@ -1264,6 +1264,20 @@
                 }
             },
             {
+                "id": "e169ebca-46ca-430e-801f-01af36f8eca2",
+                "name": "##iframe[src^=\"http://www.dreamsearch.or.kr/servlet/adBanner\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.dreamsearch.or.kr/servlet/adBanner\"]"
+                    }
+                }
+            },
+            {
                 "id": "3d960d41-85b3-43f1-99c0-9f1ee7b1b7d0",
                 "name": "##iframe[src^=\"http://www.dreamsearch.or.kr/servlet/iadbn\"]",
                 "content": {
@@ -5498,6 +5512,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?news\\.sportsseoul\\.com/public/ad/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "66026286-db56-47cb-abe8-cb973fe9b8b6",
+                "name": "news1.kr/iframe/ad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?news1\\.kr/iframe/ad/",
                         "load-type": []
                     },
                     "action": {
