@@ -7187,6 +7187,48 @@
                 }
             },
             {
+                "id": "12f8e688-6afb-4fbe-b8cd-e01ce29cd8b3",
+                "name": "m.etoday.co.kr##div#Share_bn",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.etoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#Share_bn"
+                    }
+                }
+            },
+            {
+                "id": "d9586191-61ad-4a26-a352-c77fcca19c14",
+                "name": "m.etoday.co.kr##div.news_adinn",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.etoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.news_adinn"
+                    }
+                }
+            },
+            {
+                "id": "90511211-aa32-4506-89e5-f8b9e5fb477d",
+                "name": "m.etoday.co.kr##div.title_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.etoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.title_ad"
+                    }
+                }
+            },
+            {
                 "id": "18749afd-490a-4602-a9d3-b8af893d1b1b",
                 "name": "m.focus.kr##div#article_Content>div[style=\"margin-top:20px;\"]",
                 "content": {
