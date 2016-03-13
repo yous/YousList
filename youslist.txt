@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: /3nYDJnOcjputmEChEFjQQ
+! Checksum: kyQYYzZk/hkGlc3o4T85fg
 ! Version: 20160319
 
 ! General element hiding rules
@@ -78,6 +78,7 @@
 ##iframe[src^="http://imp.sndkorea.co.kr/php/m.php"]
 ##iframe[src^="http://joy-adstore.co.kr/ad/"]
 ##iframe[src^="http://longkeyone.co.kr/"]
+##iframe[src^="http://m.chosun.com/tad.html"]
 ##iframe[src^="http://m.hankooki.com/ad/"]
 ##iframe[src^="http://m.joyninfo.com/yna/yna_m_new.asp"]
 ##iframe[src^="http://mktag.mt.co.kr/code.ems/"]
@@ -373,6 +374,7 @@
 ||lightasp.dmcmedia.co.kr/adixs/
 ||longkeyone.co.kr^
 ||m.11st.co.kr/MW/html/allianceAd/
+||m.chosun.com/tad.html^
 ||m.hankooki.com/ad/
 ||m.joyninfo.com/yna/yna_m_new.asp^
 ||m.news1.kr/ads/
@@ -865,8 +867,10 @@ kukinews.com##div[class^="bnr_290_"]
 live.joinsmsn.com##div.shopping_v2
 login.daum.net##div.login_ad
 m.cafe.naver.com##div.area_sa
-m.chosun.com##div[id^="floatingAd_"]
-m.chosun.com##div[id^="floatingWrap_"]
+m.chosun.com##div.ad_img
+m.chosun.com##div.ad_txt
+m.chosun.com##div.art_sub_news_box
+m.chosun.com##div.txt_ad_box
 m.etnews.com##div#bottomBigBanner
 m.etnews.com##div#boxContent>div[style="margin-top:20px;border:0;"]
 m.etnews.com##div.inlineAdBanner

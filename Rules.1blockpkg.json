@@ -998,6 +998,20 @@
                 }
             },
             {
+                "id": "a32b17d6-b0fe-487d-bcb7-aee52250959e",
+                "name": "##iframe[src^=\"http://m.chosun.com/tad.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://m.chosun.com/tad.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "0d505cd5-546b-4d30-b8a4-4464ec38953f",
                 "name": "##iframe[src^=\"http://m.hankooki.com/ad/\"]",
                 "content": {
@@ -4860,6 +4874,19 @@
                 }
             },
             {
+                "id": "5d6568bb-d13b-4a66-ac36-6b0a72701d2a",
+                "name": "m.chosun.com/tad.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.chosun\\.com/tad\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d16c5aff-463e-4a57-8e56-5edc57d0da4a",
                 "name": "m.hankooki.com/ad/",
                 "content": {
@@ -7099,6 +7126,62 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.area_sa"
+                    }
+                }
+            },
+            {
+                "id": "edf053bd-2805-4326-a0d6-9a1f8b6c9521",
+                "name": "m.chosun.com##div.ad_img",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.chosun\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_img"
+                    }
+                }
+            },
+            {
+                "id": "ed92e68b-e2df-45d3-a7d4-8b1b965e6bd1",
+                "name": "m.chosun.com##div.ad_txt",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.chosun\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_txt"
+                    }
+                }
+            },
+            {
+                "id": "1237e50f-fafb-4348-b226-8d1ca8b2f487",
+                "name": "m.chosun.com##div.art_sub_news_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.chosun\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_sub_news_box"
+                    }
+                }
+            },
+            {
+                "id": "4ee2e433-33be-4584-b4a2-bebcec817263",
+                "name": "m.chosun.com##div.txt_ad_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.chosun\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.txt_ad_box"
                     }
                 }
             },
