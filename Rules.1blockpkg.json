@@ -872,6 +872,20 @@
                 }
             },
             {
+                "id": "34feb626-df42-46fa-b73d-8b3b8af76c8b",
+                "name": "##iframe[src^=\"http://etc.gamechosun.co.kr/banner/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://etc.gamechosun.co.kr/banner/\"]"
+                    }
+                }
+            },
+            {
                 "id": "9a4c1337-35a3-435c-af82-c7453e48ec48",
                 "name": "##iframe[src^=\"http://exttag.about.co.kr/cgi-bin/PelicanC.dll\"]",
                 "content": {
@@ -3714,6 +3728,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?edaily\\.co\\.kr/adview/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6b0ddf2a-4bd5-43ca-8598-1a2878694e95",
+                "name": "etc.gamechosun.co.kr/banner/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?etc\\.gamechosun\\.co\\.kr/banner/",
                         "load-type": []
                     },
                     "action": {
