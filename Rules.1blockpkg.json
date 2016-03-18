@@ -5082,6 +5082,19 @@
                 }
             },
             {
+                "id": "d51f9886-a829-4fca-b256-a357839280fb",
+                "name": "minitoon.net/js/adblockblock.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?minitoon\\.net/js/adblockblock\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8aee331b-8906-498a-a64a-bd4bff6f0954",
                 "name": "miz-diet.co.kr/artz130.html",
                 "content": {
@@ -7910,6 +7923,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.g_banner"
+                    }
+                }
+            },
+            {
+                "id": "86ad32e0-841d-44b5-a5fc-4c253e37f82b",
+                "name": "minitoon.net##div.m_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?minitoon\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m_banner"
+                    }
+                }
+            },
+            {
+                "id": "085c1649-51c9-41c7-9e8d-902779e86d68",
+                "name": "minitoon.net##div.n_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?minitoon\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.n_banner"
                     }
                 }
             },
