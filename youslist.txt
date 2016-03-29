@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 9OluMVuBc1iVPAVNpMG4IQ
+! Checksum: 9jr36OaU0kne7+yZEZv4gQ
 ! Version: 20160329
 
 ! General element hiding rules
@@ -84,6 +84,7 @@
 ##iframe[src^="http://mktag.mt.co.kr/code.ems/"]
 ##iframe[src^="http://mobi.luxad.kr/ad/"]
 ##iframe[src^="http://mobi.luxad.net/ad/"]
+##iframe[src^="http://mobs.luxad.kr/media/"]
 ##iframe[src^="http://mtab.clickmon.co.kr/pop/"]
 ##iframe[src^="http://nad1.mklaud.com/ad"]
 ##iframe[src^="http://nads.lumieyes.com/show/media/"]
@@ -399,6 +400,7 @@
 ||mktag.mt.co.kr/event.ems/
 ||mobi.luxad.kr/ad/
 ||mobi.luxad.net/ad/
+||mobs.luxad.kr/media/
 ||mp.mmnneo.com^
 ||mt.co.kr/ad/
 ||mtag.mman.kr/js.mezzo/
@@ -1151,12 +1153,9 @@ ohmynews.com##div.wing_gallery_banner
 ohmynews.com##div[class^="aside_ad"]
 ohmynews.com##div[class^="m_ad"]
 ohmynews.com##ul.ad_area
-osen.mt.co.kr##div#aside2>div[style="background:#fafafa;height:244px;width:280px;overflow:hidden;"]
-osen.mt.co.kr##div#aside2>div[style="border:1px solid rgb(214, 214, 214); border-top:0px; margin-top:10px; margin-bottom:10px; overflow:hidden;"]
-osen.mt.co.kr##div#aside2>div[style="clear:both;margin:0px 1px 0px 1px;overflow:hidden;margin-top:10px;"]
-osen.mt.co.kr##div#aside2>div[style="float:left;background:#fafafa;height:240px;width:280px;overflow:hidden;"]
 osen.mt.co.kr##div#aside2>div[style="margin:0px 1px 0px 1px;overflow:hidden;"]
 osen.mt.co.kr##div#left_wing_ad
+osen.mt.co.kr##div#mask
 osen.mt.co.kr##div#right_wing_ad
 osen.mt.co.kr##div.advertising
 osen.mt.co.kr##div.content-inner__banner
@@ -1167,6 +1166,7 @@ osen.mt.co.kr##div.detailBox>div[style="width:652px;height:240px;overflow:hidden
 osen.mt.co.kr##div.detailView>ul.articleList
 osen.mt.co.kr##div.divBox
 osen.mt.co.kr##div.mask_div
+osen.mt.co.kr##div.topBanner
 pann.nate.com##div#pann_brandAdWrap
 pann.nate.com##div#psypannAd
 pann.nate.com##div.sidebar.ad

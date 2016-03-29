@@ -1082,6 +1082,20 @@
                 }
             },
             {
+                "id": "df50a18b-79a5-4784-a334-ba5d8cbc7236",
+                "name": "##iframe[src^=\"http://mobs.luxad.kr/media/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://mobs.luxad.kr/media/\"]"
+                    }
+                }
+            },
+            {
                 "id": "52500c84-a7ee-4e42-bd08-2703c311b67f",
                 "name": "##iframe[src^=\"http://mtab.clickmon.co.kr/pop/\"]",
                 "content": {
@@ -5191,6 +5205,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mobi\\.luxad\\.net/ad/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fea1360a-3771-4432-8a46-f007c2464ccf",
+                "name": "mobs.luxad.kr/media/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mobs\\.luxad\\.kr/media/",
                         "load-type": []
                     },
                     "action": {
