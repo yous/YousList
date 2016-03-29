@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: M6DYQEbTlwdk9k8rl+VgNg
+! Checksum: Gmq0+VKejLLqI6XguEsr5w
 ! Version: 20160329
 
 ! General element hiding rules
@@ -74,6 +74,7 @@
 ##iframe[src^="http://file.osen.co.kr/web2/html/realclick_ad.html"]
 ##iframe[src^="http://fs.jtbc.joins.com/common/ui/ad/"]
 ##iframe[src^="http://im.obel.kr/file/"]
+##iframe[src^="http://img.sbs.co.kr/news/ad/delay_redirect_mobile.html"]
 ##iframe[src^="http://imp.mklaud.com/ad"]
 ##iframe[src^="http://imp.sndkorea.co.kr/php/m.php"]
 ##iframe[src^="http://joy-adstore.co.kr/ad/"]
@@ -342,6 +343,7 @@
 ||img.appstory.co.kr/@files/human_banner/
 ||img.asiatoday.co.kr/adver/
 ||img.dt.co.kr/unse/
+||img.sbs.co.kr/news/ad/delay_redirect_mobile.html^
 ||img.sportsseoul.com/ad/
 ||img2.keywordsconnect.com/iconAdImg*.gif^
 ||imp.mklaud.com/ad^
@@ -375,6 +377,7 @@
 ||lightasp.dmcmedia.co.kr/adixs/
 ||longkeyone.co.kr^
 ||m.11st.co.kr/MW/html/allianceAd/
+||m.adtc.daum.net/js/mobilead.js^
 ||m.chosun.com/tad.html^
 ||m.hankooki.com/ad/
 ||m.joyninfo.com/yna/yna_m_new.asp^
@@ -965,6 +968,10 @@ mnews.jtbc.joins.com##div.footer_google
 mnews.jtbc.joins.com##div.text_ad
 mnews.jtbc.joins.com##section.shopping.right
 mnews.jtbc.joins.com##section.shopping_box
+mnews.sbs.co.kr##div#ggadsense1
+mnews.sbs.co.kr##div#ggadsense2
+mnews.sbs.co.kr##div#sbsMobileAdArea
+mnews.sbs.co.kr##div.efoot_bnr_ad
 mosen.mt.co.kr##div[id^="adList"]
 mt.co.kr##div#art_ad_top1
 mt.co.kr##div#news_banner1

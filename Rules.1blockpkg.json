@@ -942,6 +942,20 @@
                 }
             },
             {
+                "id": "696fbdde-b519-4172-a315-ad1d1133e7f4",
+                "name": "##iframe[src^=\"http://img.sbs.co.kr/news/ad/delay_redirect_mobile.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://img.sbs.co.kr/news/ad/delay_redirect_mobile.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "5417ff91-462b-4df2-8811-877c5a0dc6d1",
                 "name": "##iframe[src^=\"http://imp.mklaud.com/ad\"]",
                 "content": {
@@ -4459,6 +4473,19 @@
                 }
             },
             {
+                "id": "a34fc55c-f0cf-42a3-af4c-5b87c43ad5bd",
+                "name": "img.sbs.co.kr/news/ad/delay_redirect_mobile.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?img\\.sbs\\.co\\.kr/news/ad/delay_redirect_mobile\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a054c147-569e-44ff-b401-9f517c4d581d",
                 "name": "img.sportsseoul.com/ad/",
                 "content": {
@@ -4880,6 +4907,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.11st\\.co\\.kr/MW/html/allianceAd/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "56a9f74c-4f32-4820-9746-0f3066fa347a",
+                "name": "m.adtc.daum.net/js/mobilead.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.adtc\\.daum\\.net/js/mobilead\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -8324,6 +8364,62 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "section.shopping_box"
+                    }
+                }
+            },
+            {
+                "id": "365aea64-c691-44ae-aaf8-a0e132c52467",
+                "name": "mnews.sbs.co.kr##div#ggadsense1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mnews\\.sbs\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ggadsense1"
+                    }
+                }
+            },
+            {
+                "id": "476faea8-7cf0-4cd5-a112-dc0f9754a1fa",
+                "name": "mnews.sbs.co.kr##div#ggadsense2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mnews\\.sbs\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ggadsense2"
+                    }
+                }
+            },
+            {
+                "id": "c81ce4e9-c7c2-4065-af1e-b3f477650cbf",
+                "name": "mnews.sbs.co.kr##div#sbsMobileAdArea",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mnews\\.sbs\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sbsMobileAdArea"
+                    }
+                }
+            },
+            {
+                "id": "28429c92-e378-423c-af56-5c3257e6d099",
+                "name": "mnews.sbs.co.kr##div.efoot_bnr_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mnews\\.sbs\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.efoot_bnr_ad"
                     }
                 }
             },
