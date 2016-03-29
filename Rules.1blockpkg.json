@@ -6070,6 +6070,19 @@
                 }
             },
             {
+                "id": "0761a57e-5654-4ad9-90df-370c1f2ad34a",
+                "name": "redir.adap.tv/redir/javascript/adaptvInfo.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?redir\\.adap\\.tv/redir/javascript/adaptvInfo\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "7567593e-57f3-48a0-8e4a-87ba33cbf3e1",
                 "name": "res.heraldm.com/iframe/",
                 "content": {
@@ -6140,6 +6153,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?s\\.pubmine\\.com/adj/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "30c657a9-3f26-4542-b0fa-4b097a9f133e",
+                "name": "s*.algovid.com/player/gpv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?s.*\\.algovid\\.com/player/gpv",
                         "load-type": []
                     },
                     "action": {
@@ -6803,6 +6829,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?viewsnnews\\.com/image/advert/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c975d79f-8756-4196-be67-f4f18d814593",
+                "name": "watchcartoononline.com/ads*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?watchcartoononline\\.com/ads.*\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "245763bc-e034-48b5-bcdb-34466718b879",
+                "name": "watchcartoononline.com/inc/reklam/*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?watchcartoononline\\.com/inc/reklam/.*\\.html",
                         "load-type": []
                     },
                     "action": {
@@ -8343,6 +8395,118 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-topmost-header"
+                    }
+                }
+            },
+            {
+                "id": "385121dc-7c8e-43d7-8c4b-f618fdc01c95",
+                "name": "watchcartoononline.com##body>div[style=\"position: fixed; top: 0px; left: 0px; z-index: 100; width: 100%; height: 768px; overflow: hidden; visibility: hidden;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?watchcartoononline\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"position: fixed; top: 0px; left: 0px; z-index: 100; width: 100%; height: 768px; overflow: hidden; visibility: hidden;\"]"
+                    }
+                }
+            },
+            {
+                "id": "e895def4-b0df-4a63-a68a-f5ff6a7c11a3",
+                "name": "watchcartoononline.com##body>div[style=\"position: fixed; top: 0px; right: 0px; z-index: 100; width: 100%; height: 768px; overflow: hidden; visibility: hidden;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?watchcartoononline\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"position: fixed; top: 0px; right: 0px; z-index: 100; width: 100%; height: 768px; overflow: hidden; visibility: hidden;\"]"
+                    }
+                }
+            },
+            {
+                "id": "869fc5fb-6724-4d98-9576-fc3f24649e61",
+                "name": "watchcartoononline.com##div#leftBannerOut",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?watchcartoononline\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#leftBannerOut"
+                    }
+                }
+            },
+            {
+                "id": "50213e3a-d016-4f52-a979-77646a9f0486",
+                "name": "watchcartoononline.com##div#rightBannerOut",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?watchcartoononline\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#rightBannerOut"
+                    }
+                }
+            },
+            {
+                "id": "ddc2e1d0-03c3-427c-907a-b82152309456",
+                "name": "watchcartoononline.com##iframe[src^=\"http://watchcartoononline.com/ads_\"][src$=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?watchcartoononline\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://watchcartoononline.com/ads_\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
+                "id": "053d7ff6-4f2b-459e-b934-0a604b4ff76c",
+                "name": "watchcartoononline.com##iframe[src^=\"http://www.watchcartoononline.com/ads\"][src$=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?watchcartoononline\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.watchcartoononline.com/ads\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
+                "id": "f2ab8599-c203-4f36-912d-90225a667bbe",
+                "name": "watchcartoononline.com##iframe[src^=\"http://www.watchcartoononline.com/inc/reklam/\"][src$=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?watchcartoononline\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.watchcartoononline.com/inc/reklam/\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
+                "id": "4306c648-9ebc-42ef-a118-beeaf0b7a4d2",
+                "name": "watchcartoononline.com##td.larkax>div[style=\"float:right; padding-bottom:10px; padding-left:5px; padding-right:10px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?watchcartoononline\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "td.larkax>div[style=\"float:right; padding-bottom:10px; padding-left:5px; padding-right:10px\"]"
                     }
                 }
             },

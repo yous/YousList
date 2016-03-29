@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: CKx/nC4t795+IFpLFif8iw
-! Version: 20160325
+! Checksum: 9OluMVuBc1iVPAVNpMG4IQ
+! Version: 20160329
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -466,12 +466,14 @@
 ||ra.ntwoad.co.kr^
 ||rcm.amazon.com/e/cm^
 ||rcm-na.amazon-adsystem.com/e/cm^
+||redir.adap.tv/redir/javascript/adaptvInfo.js^
 ||res.heraldm.com/iframe/
 ||res.heraldm.com/js/ad/
 ||reviewstar.hankooki.com/ad/
 ||rsense-ad.realclick.co.kr/rsense/rsense_ad.js^
 ||rsense-ad.realclick.co.kr/rsense/view_ad_adcrm.html^
 ||s.pubmine.com/adj/
+||s*.algovid.com/player/gpv^
 ||sba.about.co.kr/SbaExpose.aspx^
 ||sba.about.co.kr/dbaExpose.aspx^
 ||scr.nsmartad.com/admixer/admixer.js^
@@ -523,6 +525,8 @@
 ||unionpress.co.kr/news/master/banner/3d69ca2f12c09759924d8be0a89a4259^
 ||view.asiae.co.kr/common/ad/
 ||viewsnnews.com/image/advert/
+||watchcartoononline.com/ads*.html^
+||watchcartoononline.com/inc/reklam/*.html
 ||web.n2s.co.kr^
 ||wec.co.kr/banner/
 ||wikitree.co.kr/_tpl/default/ad/
@@ -1341,6 +1345,14 @@ vop.co.kr##div.listAD
 vop.co.kr##div.top-ad
 washingtonpost.com##div.has-subscribe-promo
 washingtonpost.com##div[class*="-ad-"]
+watchcartoononline.com##body>div[style="position: fixed; top: 0px; left: 0px; z-index: 100; width: 100%; height: 768px; overflow: hidden; visibility: hidden;"]
+watchcartoononline.com##body>div[style="position: fixed; top: 0px; right: 0px; z-index: 100; width: 100%; height: 768px; overflow: hidden; visibility: hidden;"]
+watchcartoononline.com##div#leftBannerOut
+watchcartoononline.com##div#rightBannerOut
+watchcartoononline.com##iframe[src^="http://watchcartoononline.com/ads_"][src$=".html"]
+watchcartoononline.com##iframe[src^="http://www.watchcartoononline.com/ads"][src$=".html"]
+watchcartoononline.com##iframe[src^="http://www.watchcartoononline.com/inc/reklam/"][src$=".html"]
+watchcartoononline.com##td.larkax>div[style="float:right; padding-bottom:10px; padding-left:5px; padding-right:10px"]
 wikitree.co.kr##iframe[src^="/_tpl/default/ad/"]
 womennews.co.kr##iframe[src^="/news/sidebar_banner_realclick01.html"]
 wordpress.com##div.wpcnt
