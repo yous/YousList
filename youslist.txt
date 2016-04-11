@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 9b77bUUUK5nxqlWRUsTukg
-! Version: 20160402
+! Checksum: SE4fWeJCR1ZUSJuYLnJiXQ
+! Version: 20160411
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -82,6 +82,7 @@
 ##iframe[src^="http://m.chosun.com/tad.html"]
 ##iframe[src^="http://m.hankooki.com/ad/"]
 ##iframe[src^="http://m.joyninfo.com/yna/yna_m_new.asp"]
+##iframe[src^="http://m.kmib.co.kr/banner/"]
 ##iframe[src^="http://mktag.mt.co.kr/code.ems/"]
 ##iframe[src^="http://mobi.luxad.kr/ad/"]
 ##iframe[src^="http://mobi.luxad.net/ad/"]
@@ -381,6 +382,7 @@
 ||m.chosun.com/tad.html^
 ||m.hankooki.com/ad/
 ||m.joyninfo.com/yna/yna_m_new.asp^
+||m.kmib.co.kr/banner/
 ||m.news1.kr/ads/
 ||m1.daumcdn.net/adtc/js/mobilead.js^
 ||maxmovie.com/banner/img/lotte630x88.jpg^
@@ -905,6 +907,12 @@ m.khan.co.kr##div.ad_area
 m.khan.co.kr##div.ad_thumb_btm
 m.khan.co.kr##div.contBn
 m.khan.co.kr##div.contBn_foot
+m.kmib.co.kr##body>div[style="wdith:100%;height:50px;"]
+m.kmib.co.kr##div.css_remon_wiki1
+m.kmib.co.kr##div.dw_cnt>div.ban
+m.kmib.co.kr##div.kmib_txbnr
+m.kmib.co.kr##div.tp_cnt>div[style="margin:0 auto;text-align:center;overflow:hidden;padding:10px 0;border-bottom:1px solid #ebebeb;"]
+m.kmib.co.kr##div.vw_txad
 m.news1.kr##div#article_content>div[style="width:150px;height:150px;float:right;margin:10px 0 10px 10px;"]
 m.news1.kr##div[data-role="main"]>div[style="z-index:10; position:fixed; bottom:0; height:49px; width:100%;"]
 m.news1.kr##iframe[src^="../../ads/"]

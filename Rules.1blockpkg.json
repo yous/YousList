@@ -1054,6 +1054,20 @@
                 }
             },
             {
+                "id": "eef71c73-36b7-42d0-8cb5-d9d834f6d12d",
+                "name": "##iframe[src^=\"http://m.kmib.co.kr/banner/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://m.kmib.co.kr/banner/\"]"
+                    }
+                }
+            },
+            {
                 "id": "fc827a50-9713-4a12-a79d-4bf4bff5b5d2",
                 "name": "##iframe[src^=\"http://mktag.mt.co.kr/code.ems/\"]",
                 "content": {
@@ -4967,6 +4981,19 @@
                 }
             },
             {
+                "id": "b830dadb-f4cf-47fb-a2ab-4e9533a65a8e",
+                "name": "m.kmib.co.kr/banner/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.kmib\\.co\\.kr/banner/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c52080ef-c332-493d-a536-615ba17ac851",
                 "name": "m.news1.kr/ads/",
                 "content": {
@@ -7650,6 +7677,90 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.contBn_foot"
+                    }
+                }
+            },
+            {
+                "id": "2616005c-d5cd-45bf-a440-560b6ad381dd",
+                "name": "m.kmib.co.kr##body>div[style=\"wdith:100%;height:50px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.kmib\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"wdith:100%;height:50px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "8be3d43b-ccf8-4c77-b6e4-1f5b1286bc23",
+                "name": "m.kmib.co.kr##div.css_remon_wiki1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.kmib\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.css_remon_wiki1"
+                    }
+                }
+            },
+            {
+                "id": "73060889-e5e1-4f17-bcf2-c3c3bd002e52",
+                "name": "m.kmib.co.kr##div.dw_cnt>div.ban",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.kmib\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.dw_cnt>div.ban"
+                    }
+                }
+            },
+            {
+                "id": "00d214bc-8745-44c5-be63-46ba87942034",
+                "name": "m.kmib.co.kr##div.kmib_txbnr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.kmib\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.kmib_txbnr"
+                    }
+                }
+            },
+            {
+                "id": "fce17ac3-175f-414f-a4bf-4871e48f70f0",
+                "name": "m.kmib.co.kr##div.tp_cnt>div[style=\"margin:0 auto;text-align:center;overflow:hidden;padding:10px 0;border-bottom:1px solid #ebebeb;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.kmib\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.tp_cnt>div[style=\"margin:0 auto;text-align:center;overflow:hidden;padding:10px 0;border-bottom:1px solid #ebebeb;\"]"
+                    }
+                }
+            },
+            {
+                "id": "7fb8b7ba-1e8a-4695-864b-f696df06a593",
+                "name": "m.kmib.co.kr##div.vw_txad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.kmib\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.vw_txad"
                     }
                 }
             },
