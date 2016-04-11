@@ -8522,6 +8522,20 @@
                 }
             },
             {
+                "id": "4d985794-347a-4424-b5a4-ec7c73009469",
+                "name": "viewsnnews.com##aside.ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?viewsnnews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.ads"
+                    }
+                }
+            },
+            {
                 "id": "385121dc-7c8e-43d7-8c4b-f618fdc01c95",
                 "name": "watchcartoononline.com##body>div[style=\"position: fixed; top: 0px; left: 0px; z-index: 100; width: 100%; height: 768px; overflow: hidden; visibility: hidden;\"]",
                 "content": {
