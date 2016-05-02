@@ -4579,6 +4579,48 @@
                 }
             },
             {
+                "id": "8e96e890-76d5-4926-859f-8112e14b5551",
+                "name": "instiz.net##body>div[style=\"width:100%;text-align:center;background-color:#fafafa;height:100px;overflow-y:hidden\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?instiz\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"width:100%;text-align:center;background-color:#fafafa;height:100px;overflow-y:hidden\"]"
+                    }
+                }
+            },
+            {
+                "id": "39a1376d-2476-4048-8c5c-647ef404048a",
+                "name": "instiz.net##div.naverbox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?instiz\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.naverbox"
+                    }
+                }
+            },
+            {
+                "id": "526f938b-8035-4652-977b-67b8b5bd7de8",
+                "name": "instiz.net##table[itemtype=\"http://schema.org/Article\"]>tr>td[style=\"border-top:1px solid #dbdbdb\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?instiz\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "table[itemtype=\"http://schema.org/Article\"]>tr>td[style=\"border-top:1px solid #dbdbdb\"]"
+                    }
+                }
+            },
+            {
                 "id": "d940525c-2962-42ae-85a3-3de932d1d54e",
                 "name": "interface.interworksmedia.co.kr/js/iwmads.min.js",
                 "content": {
