@@ -522,6 +522,20 @@
                 }
             },
             {
+                "id": "3ad35517-b03d-443c-bad0-7c3d3372a08f",
+                "name": "##iframe[src^=\"http://adpingpong1.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adpingpong1.co.kr/\"]"
+                    }
+                }
+            },
+            {
                 "id": "0d58b538-817c-4164-a0f6-2c644ecc71b7",
                 "name": "##iframe[src^=\"http://ads-optima.com/www/delivery/afr.php\"]",
                 "content": {
@@ -2640,6 +2654,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adneo\\.encock\\.com/media/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f9d887b7-8cda-4bca-8ed2-a303b0d0f1e0",
+                "name": "adpingpong1.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adpingpong1\\.co\\.kr",
                         "load-type": []
                     },
                     "action": {
@@ -4838,6 +4865,19 @@
                 }
             },
             {
+                "id": "d4ccaf3d-fb22-4cda-8585-554b3b52b662",
+                "name": "jtbc.joins.com/common/json2XMLvast.aspx",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?jtbc\\.joins\\.com/common/json2XMLvast\\.aspx",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0468e1cd-aadb-4dcf-bec1-05765ae42679",
                 "name": "khan.co.kr/ad/",
                 "content": {
@@ -5974,6 +6014,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?outbanner\\.hu\\.co\\.kr/@files/human_banner/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9c89f70a-80e8-4857-907b-54c2d5c93031",
+                "name": "p.jwpcdn.com/*/vast.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?p\\.jwpcdn\\.com/.*/vast\\.js",
                         "load-type": []
                     },
                     "action": {
