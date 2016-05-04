@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: dWbpXguDpkAyDM5jcV2v4g
+! Checksum: v3U0CqoPQgCiREddd4oX1A
 ! Version: 20160504
 
 ! General element hiding rules
@@ -104,6 +104,8 @@
 ##iframe[src^="http://static.joins.com/isplus/ui/ad/"]
 ##iframe[src^="http://tab2.clickmon.co.kr/pop/"]
 ##iframe[src^="http://www.ad-playstore.com/"]
+##iframe[src^="http://www.animefreak.tv/sites/all/modules/custom/anime/ads/"]
+##iframe[src^="http://www.animefreak.tv/sites/all/modules/custom/anime/yanone.html"]
 ##iframe[src^="http://www.dreamsearch.or.kr/ad/"]
 ##iframe[src^="http://www.dreamsearch.or.kr/servlet/adBanner"]
 ##iframe[src^="http://www.dreamsearch.or.kr/servlet/iadbn"]
@@ -240,6 +242,8 @@
 ||agate.opap.co.kr/html/
 ||alea.adam.ad.daum.net/mobilead^
 ||amsv2.daum.net/ad/
+||animefreak.tv/sites/all/modules/custom/anime/ads/
+||animefreak.tv/sites/all/modules/custom/anime/yanone.html^
 ||api.wiseclick.co.kr/api/web_directad/
 ||as.dc.impact-ad.jp^
 ||asiae.co.kr/include/real_ad/
@@ -520,6 +524,7 @@
 ||sports.chosun.com/lphoto3.htm^
 ||sports.chosun.com/news/sports_chosun_hns.js^
 ||sports.hankooki.com/ad/
+||srv.bebi.com/public/js/bebi_v1.js^
 ||st.keywordsconnect.com^
 ||static.joins.com/isplus/ui/ad/
 ||static.joinsmsn.com/common/ui/ad/
@@ -561,6 +566,7 @@
 ! Site element hiding rules
 9to5mac.com##div#author-ad
 9to5mac.com##div.widget_ninetofive_netshelter_ad
+animefreak.tv##body>div>div[style="width:100%;height:768px;position:fixed;left:0;top:0px;overflow:hidden;visibility:hidden"]
 api.dable.io##div.item-sp
 appleblog.co.kr##ins.adsbygoogle
 artsnews.mk.co.kr##div#IDFloatingNZ99

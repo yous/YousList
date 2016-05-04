@@ -1362,6 +1362,34 @@
                 }
             },
             {
+                "id": "c243b593-f505-4237-8270-0133c05181bc",
+                "name": "##iframe[src^=\"http://www.animefreak.tv/sites/all/modules/custom/anime/ads/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.animefreak.tv/sites/all/modules/custom/anime/ads/\"]"
+                    }
+                }
+            },
+            {
+                "id": "b7834d9c-4f7f-4509-987e-eb724680c4fe",
+                "name": "##iframe[src^=\"http://www.animefreak.tv/sites/all/modules/custom/anime/yanone.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.animefreak.tv/sites/all/modules/custom/anime/yanone.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "daf6a724-d6e6-49c9-ad30-9656403c5621",
                 "name": "##iframe[src^=\"http://www.dreamsearch.or.kr/ad/\"]",
                 "content": {
@@ -3109,6 +3137,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?amsv2\\.daum\\.net/ad/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6686793e-bb80-44fe-b8aa-ae7c782edd35",
+                "name": "animefreak.tv/sites/all/modules/custom/anime/ads/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?animefreak\\.tv/sites/all/modules/custom/anime/ads/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "bc1cd4e5-48bc-456e-b496-399a9b8f123d",
+                "name": "animefreak.tv/sites/all/modules/custom/anime/yanone.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?animefreak\\.tv/sites/all/modules/custom/anime/yanone\\.html",
                         "load-type": []
                     },
                     "action": {
@@ -6821,6 +6875,19 @@
                 }
             },
             {
+                "id": "58646556-654f-4351-acef-34a66af6d702",
+                "name": "srv.bebi.com/public/js/bebi_v1.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?srv\\.bebi\\.com/public/js/bebi_v1\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ff5d0016-27cd-48a9-923a-d09820436dda",
                 "name": "st.keywordsconnect.com",
                 "content": {
@@ -7298,6 +7365,20 @@
                     },
                     "action": {
                         "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f4b2a316-4bd2-4cd2-9147-44b869d7726c",
+                "name": "animefreak.tv##body>div>div[style=\"width:100%;height:768px;position:fixed;left:0;top:0px;overflow:hidden;visibility:hidden\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?animefreak\\.tv",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div>div[style=\"width:100%;height:768px;position:fixed;left:0;top:0px;overflow:hidden;visibility:hidden\"]"
                     }
                 }
             },
