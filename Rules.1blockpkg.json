@@ -8755,6 +8755,48 @@
                 }
             },
             {
+                "id": "393c051e-f2b6-4adf-a08d-96aee02c189b",
+                "name": "nyaa.se##div#main>div[style=\"float:left;margin-bottom:6px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?nyaa\\.se",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#main>div[style=\"float:left;margin-bottom:6px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "ad8400e9-a4c5-4fee-be7f-b93eb72e84c6",
+                "name": "nyaa.se##div#main>div[style=\"float:left;width:100%;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?nyaa\\.se",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#main>div[style=\"float:left;width:100%;\"]"
+                    }
+                }
+            },
+            {
+                "id": "0ca4cc9b-d330-4267-8e2c-c6bffbb73f8f",
+                "name": "nyaa.se##div#main>div[style=\"float:right;margin-top:4px;width:12%;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?nyaa\\.se",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#main>div[style=\"float:right;margin-top:4px;width:12%;\"]"
+                    }
+                }
+            },
+            {
                 "id": "f65583d4-eb05-40b7-849a-da4ffa5ab948",
                 "name": "shencomics.com##aside.EzAdsWidget",
                 "content": {
