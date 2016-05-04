@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: mPt8EF8g45QD3XOb8pkjvw
-! Version: 20160502
+! Checksum: dWbpXguDpkAyDM5jcV2v4g
+! Version: 20160504
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -464,7 +464,8 @@
 ||outbanner.hu.co.kr/@files/human_banner/
 ||p.jwpcdn.com/*/vast.js^
 ||p.lumieyes.com^
-||pagead2.googlesyndication.com/pagead/
+||pagead2.googlesyndication.com/pagead/$domain=~hackintosh.zone
+||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js^
 ||partner.googleadservices.com/gpt/pubads_impl_*.js^
 ||performix.co.kr/cgi-bin/conad.fcgi/
 ||plugin.2beon.co.kr^
@@ -781,6 +782,8 @@ gamemeca.com##div.pb32
 gamemeca.com##div.rBannerMain
 gamemeca.com##div.rBtmBanner
 gamemeca.com##div[class^="ad"]
+hackintosh.zone##div#ipsLayout_mainArea>div[align="center"]
+hackintosh.zone##ins#aswift_3_expand
 hani.co.kr##div#power-link2
 hani.co.kr##div#visual-ad
 hani.co.kr##div.overflow-ad

@@ -6091,10 +6091,26 @@
             },
             {
                 "id": "75188cac-a3cb-40c6-a49c-c01ccb72a083",
-                "name": "pagead2.googlesyndication.com/pagead/",
+                "name": "pagead2.googlesyndication.com/pagead/$domain=~hackintosh.zone",
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?pagead2\\.googlesyndication\\.com/pagead/",
+                        "load-type": [],
+                        "unless-domain": [
+                            "hackintosh.zone"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "868de889-7eac-4035-9f9f-4084241a92cc",
+                "name": "pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?pagead2\\.googlesyndication\\.com/pagead/js/.*/show_ads_impl\\.js",
                         "load-type": []
                     },
                     "action": {
