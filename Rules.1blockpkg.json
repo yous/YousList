@@ -634,6 +634,20 @@
                 }
             },
             {
+                "id": "e8e939ff-501f-4777-98b0-543cfe6a7b42",
+                "name": "##iframe[src^=\"http://adstract.adk2x.com/imp\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adstract.adk2x.com/imp\"]"
+                    }
+                }
+            },
+            {
                 "id": "740e2283-78c3-44f2-a077-ab5ae9a71878",
                 "name": "##iframe[src^=\"http://adsvc2.wisenut.co.kr/\"]",
                 "content": {
@@ -2963,6 +2977,19 @@
                 }
             },
             {
+                "id": "f27c909e-ea46-45da-bab8-34cf81bfa645",
+                "name": "adstract.adk2x.com/imp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adstract\\.adk2x\\.com/imp",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "acc11a7a-e2c2-4c69-a9bd-970a03de2043",
                 "name": "adsvc2.wisenut.co.kr",
                 "content": {
@@ -3436,6 +3463,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?castbox\\.shopping\\.naver\\.com/index\\.nhn",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cda92512-d131-4d9d-beca-0fb2c023aa27",
+                "name": "cdn.adstract.com/adstract/tags/xbanner/xbanner.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cdn\\.adstract\\.com/adstract/tags/xbanner/xbanner\\.js",
                         "load-type": []
                     },
                     "action": {
