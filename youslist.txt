@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: CbV7o7FlJIjcnNbyR3J8Zw
-! Version: 20160506
+! Checksum: LOqtgke7cmlaEsy3WF5SeQ
+! Version: 20160507
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -90,6 +90,7 @@
 ##iframe[src^="http://mobi.luxad.net/ad/"]
 ##iframe[src^="http://mobs.luxad.kr/media/"]
 ##iframe[src^="http://mtab.clickmon.co.kr/pop/"]
+##iframe[src^="http://mymyad.co.kr/"]
 ##iframe[src^="http://nad1.mklaud.com/ad"]
 ##iframe[src^="http://nads.lumieyes.com/show/media/"]
 ##iframe[src^="http://nws.lumieyes.com/"]
@@ -421,6 +422,7 @@
 ||mtag.mman.kr/js.mezzo/
 ||munhwa.com/skin/inc_right/inc_denta_ad_iframe.html^
 ||mydaily.co.kr/news/ad_news*.htm^
+||mymyad.co.kr^
 ||myvip.feeldmc.com/code.ems/
 ||n25.nsmartad.com/click^
 ||n45.nsmartad.com/imp^
@@ -558,11 +560,8 @@
 ||xportsnews.hankyung.com/contents/upload/pds/2012/0425/1335335866605.jpg^
 ||yads.c.yimg.jp/yads.js^
 ||yads.yahoo.co.jp/tag^
-||ytn.co.kr/_comm/*ad*
 ||ytn.co.kr/img/ad/
-||ytn.co.kr/inc_banner/ifa_240x240_right.php^
-||ytn.co.kr/inc_banner/ifa_fusence.php^
-||ytn.co.kr/inc_banner/ifa_gisa_img*_new.html^
+||ytn.co.kr/inc_banner/AdServerChange.php^
 ||zdnet.co.kr/ads/
 ||zdnet.co.kr/pixel2/pixel_top.htm^
 
@@ -1435,13 +1434,17 @@ youtube.com##div#footer-ads
 youtube.com##div#video-masthead
 youtube.com##div.ad-div
 ytn.co.kr##div#CmAdContent>div[style="overflow:hidden;width:420px;height:45px;border:1px solid #cbcccf;background-color: #fafafa;margin:20px auto 0 auto;padding:10px 30px;"]
+ytn.co.kr##div#CmAdContent>div[style="overflow:hidden;width:420px;height:45px;border:1px solid #cbcccf;background-color: #fafafa;margin:20px auto 0 auto;padding:10px 30px;position:relative;"]
 ytn.co.kr##div#Fusence
 ytn.co.kr##div#hns_mask
 ytn.co.kr##div#zone1>div[style="width:628px;border:1px solid #cbcccf;padding:10px 5px 10px 15px;margin-bottom:10px;overflow:hidden;"]
+ytn.co.kr##div.adright_box
+ytn.co.kr##div.articleAd_marketing
 ytn.co.kr##div.articleAd_new
 ytn.co.kr##div.YTN_CSA_headline>div>div[style="clear:both;width:;648px;height:140px;padding:10px 0 0 0;margin:0 0 -10px 0;overflow:hidden"]
-ytn.co.kr##div[class^="ad"]
+ytn.co.kr##div[class^="ad_zone"]
 ytn.co.kr##div[class^="sub_adbox"]
+ytn.co.kr##iframe[name="AdtopBanner"]
 ytn.co.kr##ul[class^="adnew"]
 zangsisi.net##body>center
 zangsisi.net##div.fixed-top

@@ -1166,6 +1166,20 @@
                 }
             },
             {
+                "id": "4708bb01-6a4d-454e-951b-aeeb54e57ad1",
+                "name": "##iframe[src^=\"http://mymyad.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://mymyad.co.kr/\"]"
+                    }
+                }
+            },
+            {
                 "id": "7fcfdfac-faf6-4a91-92b0-81c7f3c6424b",
                 "name": "##iframe[src^=\"http://nad1.mklaud.com/ad\"]",
                 "content": {
@@ -5534,6 +5548,19 @@
                 }
             },
             {
+                "id": "fd944941-971d-4242-a460-2609afe37360",
+                "name": "mymyad.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mymyad\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "947f3772-be1c-498b-aada-6a68be3226cd",
                 "name": "myvip.feeldmc.com/code.ems/",
                 "content": {
@@ -7318,19 +7345,6 @@
                 }
             },
             {
-                "id": "73c932b8-ffc8-4716-8812-e998019eefb7",
-                "name": "ytn.co.kr/_comm/*ad*",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ytn\\.co\\.kr/_comm/.*ad",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "00e60688-80aa-4136-b446-ed70e852b850",
                 "name": "ytn.co.kr/img/ad/",
                 "content": {
@@ -7344,37 +7358,11 @@
                 }
             },
             {
-                "id": "48f965d8-fac5-4920-8bf8-6863932dd4e9",
-                "name": "ytn.co.kr/inc_banner/ifa_240x240_right.php",
+                "id": "9800c1f2-b561-412c-a2a4-e88c510c6b9e",
+                "name": "ytn.co.kr/inc_banner/AdServerChange.php",
                 "content": {
                     "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ytn\\.co\\.kr/inc_banner/ifa_240x240_right\\.php",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "487a5ea2-c26f-454f-a624-53423b4a01d4",
-                "name": "ytn.co.kr/inc_banner/ifa_fusence.php",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ytn\\.co\\.kr/inc_banner/ifa_fusence\\.php",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "2dbdaee5-e9b5-432c-90c5-f4fb0e417097",
-                "name": "ytn.co.kr/inc_banner/ifa_gisa_img*_new.html",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ytn\\.co\\.kr/inc_banner/ifa_gisa_img.*_new\\.html",
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ytn\\.co\\.kr/inc_banner/AdServerChange\\.php",
                         "load-type": []
                     },
                     "action": {
