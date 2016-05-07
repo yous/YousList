@@ -1096,6 +1096,20 @@
                 }
             },
             {
+                "id": "8f9c3006-645e-4d79-bcac-f4e1525c3e14",
+                "name": "##iframe[src^=\"http://m.ytn.co.kr/ad/ad_\"][src$=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://m.ytn.co.kr/ad/ad_\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
                 "id": "fc827a50-9713-4a12-a79d-4bf4bff5b5d2",
                 "name": "##iframe[src^=\"http://mktag.mt.co.kr/code.ems/\"]",
                 "content": {
@@ -5197,6 +5211,19 @@
                 }
             },
             {
+                "id": "7b8c51de-4257-4848-b29a-027da75a4a5a",
+                "name": "m.ytn.co.kr/ad/ad_*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.ytn\\.co\\.kr/ad/ad_.*\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d9963d78-34d0-474b-afe5-34bf24ed75f4",
                 "name": "m1.daumcdn.net/adtc/js/mobilead.js",
                 "content": {
@@ -8331,6 +8358,48 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "section.section-add"
+                    }
+                }
+            },
+            {
+                "id": "21c2573c-94e1-4f91-86da-bdf389493ca8",
+                "name": "m.ytn.co.kr##div.newsview_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.ytn\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.newsview_ad"
+                    }
+                }
+            },
+            {
+                "id": "371a6d19-2573-40df-8a4b-a7a831366600",
+                "name": "m.ytn.co.kr##div.newsview_ad_bnr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.ytn\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.newsview_ad_bnr"
+                    }
+                }
+            },
+            {
+                "id": "693c92c1-5ffd-4e4c-9fcb-9f3cf3ecde71",
+                "name": "m.ytn.co.kr##div.photo_bottom_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.ytn\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.photo_bottom_ad"
                     }
                 }
             },

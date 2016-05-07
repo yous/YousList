@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: LOqtgke7cmlaEsy3WF5SeQ
+! Checksum: uSVt5BK3JsgqSLVJQK2h5Q
 ! Version: 20160507
 
 ! General element hiding rules
@@ -85,6 +85,7 @@
 ##iframe[src^="http://m.hankooki.com/ad/"]
 ##iframe[src^="http://m.joyninfo.com/yna/yna_m_new.asp"]
 ##iframe[src^="http://m.kmib.co.kr/banner/"]
+##iframe[src^="http://m.ytn.co.kr/ad/ad_"][src$=".html"]
 ##iframe[src^="http://mktag.mt.co.kr/code.ems/"]
 ##iframe[src^="http://mobi.luxad.kr/ad/"]
 ##iframe[src^="http://mobi.luxad.net/ad/"]
@@ -395,6 +396,7 @@
 ||m.joyninfo.com/yna/yna_m_new.asp^
 ||m.kmib.co.kr/banner/
 ||m.news1.kr/ads/
+||m.ytn.co.kr/ad/ad_*.html^
 ||m1.daumcdn.net/adtc/js/mobilead.js^
 ||maxmovie.com/banner/img/lotte630x88.jpg^
 ||mbn.mk.co.kr/pages/ad/
@@ -958,6 +960,9 @@ m.yna.co.kr##section.section-ad-hi
 m.yna.co.kr##section.section-ad-joyinfo
 m.yna.co.kr##section.section-ad-lumi
 m.yna.co.kr##section.section-add
+m.ytn.co.kr##div.newsview_ad
+m.ytn.co.kr##div.newsview_ad_bnr
+m.ytn.co.kr##div.photo_bottom_ad
 mangafox.me##div.ad
 mangaumaru.com##div#fbanner
 marumaru.in##div#responsive-banner
