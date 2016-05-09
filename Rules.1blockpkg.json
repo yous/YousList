@@ -7452,6 +7452,20 @@
                 }
             },
             {
+                "id": "dea2bcda-ea9d-4a52-b63d-f86bbe5aff18",
+                "name": "comic.naver.com##div#adpostArea",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?comic\\.naver\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adpostArea"
+                    }
+                }
+            },
+            {
                 "id": "20175768-9160-471b-8c2a-335d4ff45dab",
                 "name": "coolsoft.altervista.org##div._pb",
                 "content": {
