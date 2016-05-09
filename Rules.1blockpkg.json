@@ -8012,6 +8012,20 @@
                 }
             },
             {
+                "id": "f522539f-60be-492e-be83-861172f4b4d2",
+                "name": "m.naver.com##div.grid_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.naver\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.grid_ad"
+                    }
+                }
+            },
+            {
                 "id": "c60bba45-732e-4c67-8841-3f9d54432a1b",
                 "name": "m.news1.kr##div#article_content>div[style=\"width:150px;height:150px;float:right;margin:10px 0 10px 10px;\"]",
                 "content": {
