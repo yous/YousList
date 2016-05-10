@@ -7099,6 +7099,32 @@
                 }
             },
             {
+                "id": "8a125599-b4ef-484a-9e44-34be22cdb1e9",
+                "name": "torrentmade.com/data/zn_banner/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?torrentmade\\.com/data/zn_banner/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "40077894-60ea-4ccc-93e1-c74278c26810",
+                "name": "torrentmade.com/js/bpopup/scripting.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?torrentmade\\.com/js/bpopup/scripting\\.min\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a6cb369a-3b8a-456f-8e1b-c05b3fdaeb6e",
                 "name": "torrentmoa.com/addons/popup/js/popup_layer.js",
                 "content": {
@@ -9098,6 +9124,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.mobfloat"
+                    }
+                }
+            },
+            {
+                "id": "1871cccf-d0b9-4a7f-b33e-65bd880b2d60",
+                "name": "torrentmade.com##div.hiddenpage",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?torrentmade\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.hiddenpage"
+                    }
+                }
+            },
+            {
+                "id": "3a479b7f-53a0-465b-b7d3-ceaaf5fae237",
+                "name": "torrentmade.com##div.top_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?torrentmade\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top_banner"
                     }
                 }
             },
