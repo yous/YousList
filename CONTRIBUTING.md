@@ -4,6 +4,7 @@
 
 - Check that the issue has not already been reported.
 - Check that the issue has not already been fixed in the latest code (`master`).
+- Specify the problematic URL on which the issue can be reproduced.
 
 ## Pull requests
 
