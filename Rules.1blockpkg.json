@@ -858,6 +858,20 @@
                 }
             },
             {
+                "id": "cfbd2c13-8b49-4cf1-9a3f-7cb56dd404c7",
+                "name": "##iframe[src^=\"http://cpv.ad.naver.com/adshow\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://cpv.ad.naver.com/adshow\"]"
+                    }
+                }
+            },
+            {
                 "id": "9a4e348c-697c-4c44-94e3-02eeee7c0dba",
                 "name": "##iframe[src^=\"http://daily.hankooki.com/ad/\"]",
                 "content": {
@@ -3699,6 +3713,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?coolsoft\\.altervista\\.org/sites/all/themes/coolsoft/js/coolsoft\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b1d527f8-3ef3-42eb-aab7-63320e3a0c03",
+                "name": "cpv.ad.naver.com/adshow",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cpv\\.ad\\.naver\\.com/adshow",
                         "load-type": []
                     },
                     "action": {
