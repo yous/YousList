@@ -7190,6 +7190,19 @@
                 }
             },
             {
+                "id": "4d98c24f-958b-469e-8fc7-360a8f75a8a5",
+                "name": "uplus.kr/cd/cdNavi/retreieveHtml3JS.dmd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?uplus\\.kr/cd/cdNavi/retreieveHtml3JS\\.dmd",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f7e7718f-1879-4402-b469-2d3004bd2ab1",
                 "name": "view.asiae.co.kr/common/ad/",
                 "content": {
@@ -7643,6 +7656,62 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ads_sc"
+                    }
+                }
+            },
+            {
+                "id": "5c40c4d3-2a2c-4b87-a3e1-979944dfa10d",
+                "name": "m.dcinside.com##div#div_adnmore_area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.dcinside\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#div_adnmore_area"
+                    }
+                }
+            },
+            {
+                "id": "cddde174-5089-470f-bad4-6892a565590a",
+                "name": "m.dcinside.com##div#lguplus_ad_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.dcinside\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#lguplus_ad_banner"
+                    }
+                }
+            },
+            {
+                "id": "f91dbcb3-736e-4cd2-9921-96154302f31f",
+                "name": "m.dcinside.com##div#mmaDisplay",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.dcinside\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mmaDisplay"
+                    }
+                }
+            },
+            {
+                "id": "12d99227-6cc2-491d-9266-d15ac40f5619",
+                "name": "m.dcinside.com##div[data-adam-elem=\"banner_wrapper\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.dcinside\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-adam-elem=\"banner_wrapper\"]"
                     }
                 }
             },
