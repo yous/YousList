@@ -7452,6 +7452,20 @@
                 }
             },
             {
+                "id": "b4a16650-e98c-4db0-ab03-f2261ed90bcf",
+                "name": "api.dable.io##td.item-sp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?api\\.dable\\.io",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "td.item-sp"
+                    }
+                }
+            },
+            {
                 "id": "dea2bcda-ea9d-4a52-b63d-f86bbe5aff18",
                 "name": "comic.naver.com##div#adpostArea",
                 "content": {
