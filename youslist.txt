@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 8wYB64wyvUwJRKb3lyWhnA
+! Checksum: BAFg81L8PQxpIGg8ZGnLvA
 ! Version: 20160512
 
 ! General element hiding rules
@@ -30,6 +30,7 @@
 ##iframe[src^="http://a1.dp25.kr/"]
 ##iframe[src^="http://ad.about.co.kr/"]
 ##iframe[src^="http://ad.ad4989.co.kr/"]
+##iframe[src^="http://ad.adkova.com/media/"]
 ##iframe[src^="http://ad.adinc.kr/"]
 ##iframe[src^="http://ad.ezday.co.kr/NetInsight/"]
 ##iframe[src^="http://ad.ilikesponsorad.co.kr/"]
@@ -50,6 +51,7 @@
 ##iframe[src^="http://ads.mangouni.com/mad/"]
 ##iframe[src^="http://ads.mncmedia.co.kr/"]
 ##iframe[src^="http://ads.priel.co.kr/cgi-bin/PelicanC.dll"]
+##iframe[src^="http://ads.realclick.co.kr/ad_headcopy/criteo_rta.html"]
 ##iframe[src^="http://ads2.contentabc.com/ads"]
 ##iframe[src^="http://adserver.sbtrustmedia.com/"]
 ##iframe[src^="http://adstract.adk2x.com/imp"]
@@ -223,6 +225,9 @@
 ||ads.mncmedia.co.kr^
 ||ads.priel.co.kr/cgi-bin/PelicanC.dll^
 ||ads.pubmatic.com/AdServer/js/showad.js^
+||ads.realclick.co.kr/ad_headcopy/criteo_rta.html^
+||ads.realclick.co.kr/ad_tpl/back_criteo_rta.rc^
+||ads.realclick.co.kr/ad_tpl/headcopy.rc^
 ||ads.rubiconproject.com/ad/
 ||ads.tlvmedia.com^
 ||ads.yahoo.com^
@@ -233,6 +238,7 @@
 ||adserver.adtechus.com^
 ||adserver.sbtrustmedia.com^
 ||adserver.uniqube.tv^
+||adserver.viewgames.co.kr/adi/adiPage.php^
 ||adstract.adk2x.com/imp^
 ||adsvc2.wisenut.co.kr^
 ||adsvr.kmib.co.kr/NetInsight/
@@ -294,6 +300,9 @@
 ||d.adroll.com^
 ||d.pixiv.org/show^
 ||daily.hankooki.com/ad/
+||dailygame.co.kr/ad/dispad_bot.html^
+||dailygame.co.kr/ad/dispad_right.html^
+||dailygame.co.kr/ad/dispad_top.html^
 ||dgate.*/hc.aspx^
 ||dgate.*/hciw.aspx^
 ||display.ad.daum.net/imp^
@@ -307,6 +316,7 @@
 ||dreamsearch.or.kr/servlet/sadbn^
 ||economy.hankooki.com/ad/
 ||edaily.co.kr/adview/
+||esports.dailygame.co.kr/comment/ad_realclick.php^
 ||etc.gamechosun.co.kr/banner/
 ||etnews.com/ek_js/detail_ad_combinepop.js^
 ||etnews.com/tools/etnews_hns.js^
@@ -745,6 +755,16 @@ ent.joseilbo.com##div.read_banner
 ent.joseilbo.com##div[class^="adya_shopping"]
 ent.joseilbo.com##div[class^="banner_area"]
 ent.joseilbo.com##li.rank_banner
+esports.dailygame.co.kr##div#talklink_chatAd
+esports.dailygame.co.kr##div#wrap>div[style="clear:both;width: 900px;margin: 10px auto;"]
+esports.dailygame.co.kr##div.banner_1024_1024
+esports.dailygame.co.kr##div.header>div[style="position: absolute;margin-top: -64px;margin-left: 167px;"]
+esports.dailygame.co.kr##div.sub_rightbox>div[style="margin:0px auto;width:290px;"]
+esports.dailygame.co.kr##div.sub_rightbox>div[style="margin:0px auto;width:290px;padding-top:15px;"]
+esports.dailygame.co.kr##iframe[src^="/comment/ad_readclick.php"]
+esports.dailygame.co.kr##iframe[src^="http://www.dailygame.co.kr/ad/dispad_bot.html"]
+esports.dailygame.co.kr##iframe[src^="http://www.dailygame.co.kr/ad/dispad_right.html"]
+esports.dailygame.co.kr##iframe[src^="http://www.dailygame.co.kr/ad/dispad_top.html"]
 etnews.com##div#RightWingBanner
 etnews.com##div#articleBody>div[style="margin-top:15px;margin-bottom:5px;"]
 etnews.com##div#articleBody>div[style="text-align:center"]

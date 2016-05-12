@@ -326,6 +326,20 @@
                 }
             },
             {
+                "id": "1b0911f1-4d73-476b-b480-94cf3c7a00c6",
+                "name": "##iframe[src^=\"http://ad.adkova.com/media/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ad.adkova.com/media/\"]"
+                    }
+                }
+            },
+            {
                 "id": "099c73bf-0133-4c2b-b67e-f04e9a41cdd4",
                 "name": "##iframe[src^=\"http://ad.adinc.kr/\"]",
                 "content": {
@@ -602,6 +616,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://ads.priel.co.kr/cgi-bin/PelicanC.dll\"]"
+                    }
+                }
+            },
+            {
+                "id": "a4759211-b79e-482a-abae-30a8744b752f",
+                "name": "##iframe[src^=\"http://ads.realclick.co.kr/ad_headcopy/criteo_rta.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ads.realclick.co.kr/ad_headcopy/criteo_rta.html\"]"
                     }
                 }
             },
@@ -2902,6 +2930,45 @@
                 }
             },
             {
+                "id": "20893da3-8a74-4751-bf79-b40105c19187",
+                "name": "ads.realclick.co.kr/ad_headcopy/criteo_rta.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ads\\.realclick\\.co\\.kr/ad_headcopy/criteo_rta\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "65c8a9fd-d6f3-4424-8db8-28ec596c74d5",
+                "name": "ads.realclick.co.kr/ad_tpl/back_criteo_rta.rc",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ads\\.realclick\\.co\\.kr/ad_tpl/back_criteo_rta\\.rc",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "786bff81-781e-44e7-a492-3ead45b0342d",
+                "name": "ads.realclick.co.kr/ad_tpl/headcopy.rc",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ads\\.realclick\\.co\\.kr/ad_tpl/headcopy\\.rc",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "73005b82-9128-499f-b4cb-60d6f0027c24",
                 "name": "ads.rubiconproject.com/ad/",
                 "content": {
@@ -3024,6 +3091,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adserver\\.uniqube\\.tv",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "eb26562d-6d47-4661-aca1-be15eb25e234",
+                "name": "adserver.viewgames.co.kr/adi/adiPage.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adserver\\.viewgames\\.co\\.kr/adi/adiPage\\.php",
                         "load-type": []
                     },
                     "action": {
@@ -3825,6 +3905,45 @@
                 }
             },
             {
+                "id": "499391f5-5d82-4fb4-8fb5-6fbed39cbd52",
+                "name": "dailygame.co.kr/ad/dispad_bot.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?dailygame\\.co\\.kr/ad/dispad_bot\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "bd366e48-4e2d-4701-bd61-98c0f8945132",
+                "name": "dailygame.co.kr/ad/dispad_right.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?dailygame\\.co\\.kr/ad/dispad_right\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5c05f5c7-1cdc-494a-9dca-18691683a748",
+                "name": "dailygame.co.kr/ad/dispad_top.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?dailygame\\.co\\.kr/ad/dispad_top\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2b51cfe8-2e13-4dff-84cb-096831a8ac18",
                 "name": "dgate.*/hc.aspx",
                 "content": {
@@ -3986,6 +4105,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?edaily\\.co\\.kr/adview/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e8dc7109-20d5-4e2c-a6ea-54be6c914f97",
+                "name": "esports.dailygame.co.kr/comment/ad_realclick.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?esports\\.dailygame\\.co\\.kr/comment/ad_realclick\\.php",
                         "load-type": []
                     },
                     "action": {
