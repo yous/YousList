@@ -1362,6 +1362,20 @@
                 }
             },
             {
+                "id": "9703ddce-5123-4add-9cda-8e2187aa69dd",
+                "name": "##iframe[src^=\"http://redir.adap.tv/redir/mobile/mobile-ad-source.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://redir.adap.tv/redir/mobile/mobile-ad-source.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "f4b6704c-7527-40a7-92b0-9c301a4e1918",
                 "name": "##iframe[src^=\"http://res.heraldm.com/iframe/\"]",
                 "content": {
@@ -5539,6 +5553,19 @@
                 }
             },
             {
+                "id": "946d6188-33c2-4315-97d8-e84734edea30",
+                "name": "microbizit.com/admaru/codes/js/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?microbizit\\.com/admaru/codes/js/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8e893df3-4313-4e24-bdee-fa66d6a0a8f3",
                 "name": "microopenpop.com/banner/",
                 "content": {
@@ -6608,11 +6635,24 @@
                 }
             },
             {
-                "id": "0761a57e-5654-4ad9-90df-370c1f2ad34a",
-                "name": "redir.adap.tv/redir/javascript/adaptvInfo.js",
+                "id": "43003a79-a599-458c-99a2-72542cc40860",
+                "name": "redir.adap.tv/redir/javascript/ad_source.js",
                 "content": {
                     "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?redir\\.adap\\.tv/redir/javascript/adaptvInfo\\.js",
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?redir\\.adap\\.tv/redir/javascript/ad_source\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e736cfcb-2023-4901-9af7-0a46513d453b",
+                "name": "redir.adap.tv/redir/mobile/mobile-ad-source.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?redir\\.adap\\.tv/redir/mobile/mobile-ad-source\\.html",
                         "load-type": []
                     },
                     "action": {
