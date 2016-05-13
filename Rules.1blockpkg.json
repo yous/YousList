@@ -8446,6 +8446,20 @@
                 }
             },
             {
+                "id": "707eb70b-1329-4df8-9b0f-afae0e618a61",
+                "name": "m.nocutnews.co.kr##div.con_b>div.ct_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.nocutnews\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.con_b>div.ct_box"
+                    }
+                }
+            },
+            {
                 "id": "88e94d2c-05fa-4d99-a1e8-a2e617fc7f1f",
                 "name": "m.ohmynews.com##div#adDaum",
                 "content": {
