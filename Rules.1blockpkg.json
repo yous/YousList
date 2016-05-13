@@ -7731,10 +7731,10 @@
             },
             {
                 "id": "32d700d0-953d-4dae-8ed1-d198a792f02e",
-                "name": "bbs1.ruliweb.daum.net,bbs2.ruliweb.daum.net##div#daumAd",
+                "name": "bbs1.ruliweb.daum.net##div#daumAd",
                 "content": {
                     "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?(?:bbs1\\.ruliweb\\.daum\\.net|bbs2\\.ruliweb\\.daum\\.net)",
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?bbs1\\.ruliweb\\.daum\\.net",
                         "load-type": []
                     },
                     "action": {
@@ -7745,10 +7745,38 @@
             },
             {
                 "id": "2281ee55-ee7b-4f84-885d-d0e884499e8f",
-                "name": "bbs1.ruliweb.daum.net,bbs2.ruliweb.daum.net##div.bnr_mobile",
+                "name": "bbs1.ruliweb.daum.net##div.bnr_mobile",
                 "content": {
                     "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?(?:bbs1\\.ruliweb\\.daum\\.net|bbs2\\.ruliweb\\.daum\\.net)",
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?bbs1\\.ruliweb\\.daum\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bnr_mobile"
+                    }
+                }
+            },
+            {
+                "id": "c52916d6-1f3f-4bbf-a18c-58fd87967ad1",
+                "name": "bbs2.ruliweb.daum.net##div#daumAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?bbs2\\.ruliweb\\.daum\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#daumAd"
+                    }
+                }
+            },
+            {
+                "id": "dbcb651a-6d8c-4536-b571-8e1c90bc7eaf",
+                "name": "bbs2.ruliweb.daum.net##div.bnr_mobile",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?bbs2\\.ruliweb\\.daum\\.net",
                         "load-type": []
                     },
                     "action": {
@@ -8906,48 +8934,6 @@
                 }
             },
             {
-                "id": "f65583d4-eb05-40b7-849a-da4ffa5ab948",
-                "name": "mangaumaru.com,shencomics.com,yuncomics.com##aside.EzAdsWidget",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?(?:mangaumaru\\.com|shencomics\\.com|yuncomics\\.com)",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "aside.EzAdsWidget"
-                    }
-                }
-            },
-            {
-                "id": "220b4146-ecb6-4ddc-958d-8abcdb898414",
-                "name": "mangaumaru.com,shencomics.com,yuncomics.com##div#fbanner",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?(?:mangaumaru\\.com|shencomics\\.com|yuncomics\\.com)",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#fbanner"
-                    }
-                }
-            },
-            {
-                "id": "2f15a57a-438f-463a-8cd5-0eeedaffae08",
-                "name": "mangaumaru.com,shencomics.com,yuncomics.com##div.mobfloat",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?(?:mangaumaru\\.com|shencomics\\.com|yuncomics\\.com)",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.mobfloat"
-                    }
-                }
-            },
-            {
                 "id": "e41258d3-484a-4ab7-89c7-e64ce9bee258",
                 "name": "marumaru.in##div.mobfloat",
                 "content": {
@@ -9616,6 +9602,48 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "td.larkax>div[style=\"float:right; padding-bottom:10px; padding-left:5px; padding-right:10px\"]"
+                    }
+                }
+            },
+            {
+                "id": "f65583d4-eb05-40b7-849a-da4ffa5ab948",
+                "name": "yuncomics.com##aside.EzAdsWidget",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?yuncomics\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.EzAdsWidget"
+                    }
+                }
+            },
+            {
+                "id": "220b4146-ecb6-4ddc-958d-8abcdb898414",
+                "name": "yuncomics.com##div#fbanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?yuncomics\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#fbanner"
+                    }
+                }
+            },
+            {
+                "id": "2f15a57a-438f-463a-8cd5-0eeedaffae08",
+                "name": "yuncomics.com##div.mobfloat",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?yuncomics\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobfloat"
                     }
                 }
             },
