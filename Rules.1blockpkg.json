@@ -8234,6 +8234,48 @@
                 }
             },
             {
+                "id": "51a21c0a-9f11-4767-90a2-be6ba2fc4d88",
+                "name": "m.huffpost.com##div.advertisement.mobileweb_article_bottom_refresh div.trc_rbox_container div.trc_rbox_outer div.syndicatedItem",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.huffpost\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advertisement.mobileweb_article_bottom_refresh div.trc_rbox_container div.trc_rbox_outer div.syndicatedItem"
+                    }
+                }
+            },
+            {
+                "id": "fd7dc581-fca9-471c-a28e-4103df685d70",
+                "name": "m.huffpost.com##div.advertisement.mobileweb_taboola",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.huffpost\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advertisement.mobileweb_taboola"
+                    }
+                }
+            },
+            {
+                "id": "4417f07d-16a1-421b-8960-1ebb2d8ca37e",
+                "name": "m.huffpost.com##div.advertisement.mobileweb_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.huffpost\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advertisement.mobileweb_top"
+                    }
+                }
+            },
+            {
                 "id": "6d80f466-43dd-4670-bf91-8f42217880da",
                 "name": "m.khan.co.kr##div#article_bottom_ad",
                 "content": {
