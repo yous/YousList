@@ -7690,6 +7690,34 @@
                 }
             },
             {
+                "id": "32d700d0-953d-4dae-8ed1-d198a792f02e",
+                "name": "bbs1.ruliweb.daum.net,bbs2.ruliweb.daum.net##div#daumAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?(?:bbs1\\.ruliweb\\.daum\\.net|bbs2\\.ruliweb\\.daum\\.net)",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#daumAd"
+                    }
+                }
+            },
+            {
+                "id": "2281ee55-ee7b-4f84-885d-d0e884499e8f",
+                "name": "bbs1.ruliweb.daum.net,bbs2.ruliweb.daum.net##div.bnr_mobile",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?(?:bbs1\\.ruliweb\\.daum\\.net|bbs2\\.ruliweb\\.daum\\.net)",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bnr_mobile"
+                    }
+                }
+            },
+            {
                 "id": "dea2bcda-ea9d-4a52-b63d-f86bbe5aff18",
                 "name": "comic.naver.com##div#adpostArea",
                 "content": {
