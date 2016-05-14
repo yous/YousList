@@ -1082,6 +1082,20 @@
                 }
             },
             {
+                "id": "457ed225-dcf1-4151-93f2-cfe48ff4d96b",
+                "name": "##iframe[src^=\"http://js.hnscom.com/etc/hns/hnsIframe_\"][src$=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://js.hnscom.com/etc/hns/hnsIframe_\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
                 "id": "7f8d5c84-b9a7-44d6-89db-4a4225bc5ac8",
                 "name": "##iframe[src^=\"http://longkeyone.co.kr/\"]",
                 "content": {
@@ -5203,6 +5217,19 @@
                 }
             },
             {
+                "id": "4ea2eb90-1ffb-4648-92a8-35c88e6b355d",
+                "name": "js.hnscom.com/etc/hns/hnsIframe_*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?js\\.hnscom\\.com/etc/hns/hnsIframe_.*\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8f343edc-2d02-4070-a941-f212248d03f2",
                 "name": "js.keywordsconnect.com",
                 "content": {
@@ -6940,6 +6967,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?seoul\\.co\\.kr/ad/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "dda8da26-3bb6-4087-881b-6a4913193a52",
+                "name": "seoul.co.kr/news/datawaveAD.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?seoul\\.co\\.kr/news/datawaveAD\\.php",
                         "load-type": []
                     },
                     "action": {

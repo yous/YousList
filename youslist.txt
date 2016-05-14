@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: fhSXZ1iEpvXYQI9+vrtayQ
+! Checksum: /A1EiMzGIf4RkptS8uKkfQ
 ! Version: 20160514
 
 ! General element hiding rules
@@ -84,6 +84,7 @@
 ##iframe[src^="http://imp.mklaud.com/ad"]
 ##iframe[src^="http://imp.sndkorea.co.kr/php/m.php"]
 ##iframe[src^="http://joy-adstore.co.kr/ad/"]
+##iframe[src^="http://js.hnscom.com/etc/hns/hnsIframe_"][src$=".html"]
 ##iframe[src^="http://longkeyone.co.kr/"]
 ##iframe[src^="http://m.chosun.com/tad.html"]
 ##iframe[src^="http://m.hankooki.com/ad/"]
@@ -395,6 +396,7 @@
 ||js.ad4989.co.kr/etc/tjtune/toast/m_common.js^
 ||js.ad4989.co.kr/etc/tjtune/toast/m_tost_common2.js^
 ||js.ad4989.co.kr/etc/tjtune/under/under_photo.js^
+||js.hnscom.com/etc/hns/hnsIframe_*.html^
 ||js.keywordsconnect.com^
 ||js.mtburn.com/advs-instream.js^
 ||js.theprimead.co.kr^
@@ -529,6 +531,7 @@
 ||search.n2s.co.kr/_n2s_adop_adinfo.php^
 ||segye.com/Articles/Components/Ad/
 ||seoul.co.kr/ad/
+||seoul.co.kr/news/datawaveAD.php^
 ||serv.ads.pixiv.org^
 ||sgate.opap.co.kr/view/
 ||sh.adingo.jp^
@@ -1337,13 +1340,22 @@ segye.com##div[class^="txtad_W"]
 segye.com##div[id^="ClickStory_ViewAD"]
 segye.com##div[id^="ClickStory_ViewRightAD"]
 segye.com##ul.hotnewsAD
-seoul.co.kr##div#HnAModule
+seoul.co.kr##div#CLink
 seoul.co.kr##div#criteo_div
-seoul.co.kr##div#leftPhotoListDiv
-seoul.co.kr##iframe#googleAdView
+seoul.co.kr##div#eMartDiv
+seoul.co.kr##div#seoulAdTable
+seoul.co.kr##div.aside>div[style="margin-bottom:20px"]
+seoul.co.kr##div.atic_banner
+seoul.co.kr##div.atic_cnt>div[style="clear:both;width:545px;float:right;margin-top:10px;"]
+seoul.co.kr##div.atic_cnt>div[style="float:right;margin-bottom:20px;"]
+seoul.co.kr##div.atic_cnt>div[style="margin-bottom:20px;float:right;"]
+seoul.co.kr##div.cnt_footer
+seoul.co.kr##div.content>table[style="margin-top:10px;"]
+seoul.co.kr##div.hed_ad
+seoul.co.kr##iframe#InbnetInspaceAdFrame
 seoul.co.kr##iframe#iwm_expand_iframe
 seoul.co.kr##iframe[src^="/ad/"]
-seoul.co.kr##table#googleAdTable
+seoul.co.kr##iframe[src^="/news/datawaveAD.php"]
 sisainlive.com##div#TopBanners2
 sisainlive.com##div#layerBanner
 sisainlive.com##td#articleBody>table[align="right"][width="320"][height="265"]
