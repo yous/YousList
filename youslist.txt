@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: /A1EiMzGIf4RkptS8uKkfQ
+! Checksum: KQkhYccIxWwZBkr5uUAOmw
 ! Version: 20160514
 
 ! General element hiding rules
@@ -34,6 +34,7 @@
 ##iframe[src^="http://ad.adinc.kr/"]
 ##iframe[src^="http://ad.ezday.co.kr/NetInsight/"]
 ##iframe[src^="http://ad.ilikesponsorad.co.kr/"]
+##iframe[src^="http://ad.mediafarm.co.kr/mad/"]
 ##iframe[src^="http://ad.mediatoday.co.kr/"]
 ##iframe[src^="http://ad.naver.com/adshow"]
 ##iframe[src^="http://ad.owra.net/"]
@@ -174,6 +175,7 @@
 ||ad.kmib.co.kr^
 ||ad.koreadaily.com^
 ||ad.linkprice.com/stlink.php^
+||ad.mediafarm.co.kr/mad/
 ||ad.mediatoday.co.kr^
 ||ad.nsonmedia.com/media/
 ||ad.openmatch.co.kr^
@@ -1026,6 +1028,17 @@ m.ohmynews.com##div#adDaum
 m.ohmynews.com##div#adDaum_top
 m.ohmynews.com##div#ad_box
 m.ohmynews.com##div.ad_box_outline
+m.seoul.co.kr##div#popAdDiv
+m.seoul.co.kr##div#rollingAdDiv
+m.seoul.co.kr##div.Acon>div[style="width:100%;margin-top:15px;margin-bottom:15px"]
+m.seoul.co.kr##div.Acon>table[align="right"][style="margin-left:5px;"][width="200px"]
+m.seoul.co.kr##div.react_left_v>div[style="clear:both; float:left; padding:23px 8px;"]
+m.seoul.co.kr##div.react_left_v>div[style="margin-bottom:20px;float:left;"]
+m.seoul.co.kr##div.react_right_v>div:not([alt]):not([class])[style="width:100%;margin-bottom:10px;float:left;"]
+m.seoul.co.kr##div.react_right_v>div:not([alt]):not([class])[style="width:100%;margin-bottom:10px;float:left;overflow-x:hidden;"]
+m.seoul.co.kr##div.react_right_v>div:not([alt]):not([class])[style="width:100%;margin-bottom:20px;float:left;"]
+m.seoul.co.kr##div.react_right_v>div:not([alt]):not([class])[style="width:100%;margin-bottom:20px;float:left;overflow-x:hidden;"]
+m.seoul.co.kr##div.react_right_v>div:not([alt]):not([class])[style="width:100%;margin-bottom:20px;float:left;text-align:center;"]
 m.star.mt.co.kr##body>div[style="height:80px; background:#424242"]
 m.star.mt.co.kr##div#ad_lumieyes_new
 m.star.mt.co.kr##div#ad_sclist

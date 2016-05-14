@@ -382,6 +382,20 @@
                 }
             },
             {
+                "id": "3fd8a313-d045-473e-9720-1583902f6c5e",
+                "name": "##iframe[src^=\"http://ad.mediafarm.co.kr/mad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ad.mediafarm.co.kr/mad/\"]"
+                    }
+                }
+            },
+            {
                 "id": "63779d5e-0b00-434c-96ce-662ff21fa375",
                 "name": "##iframe[src^=\"http://ad.mediatoday.co.kr/\"]",
                 "content": {
@@ -2262,6 +2276,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ad\\.linkprice\\.com/stlink.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "240785d7-9b7b-4c69-83a2-3b558af6fce6",
+                "name": "ad.mediafarm.co.kr/mad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ad\\.mediafarm\\.co\\.kr/mad/",
                         "load-type": []
                     },
                     "action": {
@@ -8923,6 +8950,160 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_box_outline"
+                    }
+                }
+            },
+            {
+                "id": "eb7b4c19-5cff-4846-9ec5-9e22260e2c31",
+                "name": "m.seoul.co.kr##div#popAdDiv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.seoul\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#popAdDiv"
+                    }
+                }
+            },
+            {
+                "id": "3b8e0f15-041a-472e-ad9e-1ae7621cf446",
+                "name": "m.seoul.co.kr##div#rollingAdDiv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.seoul\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#rollingAdDiv"
+                    }
+                }
+            },
+            {
+                "id": "c96b13f3-f226-48e3-bbf1-05a5a47fa3ca",
+                "name": "m.seoul.co.kr##div.Acon>div[style=\"width:100%;margin-top:15px;margin-bottom:15px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.seoul\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.Acon>div[style=\"width:100%;margin-top:15px;margin-bottom:15px\"]"
+                    }
+                }
+            },
+            {
+                "id": "b8d42d20-7129-41d0-8837-49d57abcfcad",
+                "name": "m.seoul.co.kr##div.Acon>table[align=\"right\"][style=\"margin-left:5px;\"][width=\"200px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.seoul\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.Acon>table[align=\"right\"][style=\"margin-left:5px;\"][width=\"200px\"]"
+                    }
+                }
+            },
+            {
+                "id": "26f3f21b-e621-452c-ae9c-deaf8b8e2e01",
+                "name": "m.seoul.co.kr##div.react_left_v>div[style=\"clear:both; float:left; padding:23px 8px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.seoul\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.react_left_v>div[style=\"clear:both; float:left; padding:23px 8px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "d014c455-6bbb-401a-9eaa-49bbda834ac3",
+                "name": "m.seoul.co.kr##div.react_left_v>div[style=\"margin-bottom:20px;float:left;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.seoul\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.react_left_v>div[style=\"margin-bottom:20px;float:left;\"]"
+                    }
+                }
+            },
+            {
+                "id": "61f02ccb-09ed-44a0-9de4-03d110873c6a",
+                "name": "m.seoul.co.kr##div.react_right_v>div:not([alt]):not([class])[style=\"width:100%;margin-bottom:10px;float:left;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.seoul\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.react_right_v>div:not([alt]):not([class])[style=\"width:100%;margin-bottom:10px;float:left;\"]"
+                    }
+                }
+            },
+            {
+                "id": "b507212c-f390-4671-8288-29f43f689be2",
+                "name": "m.seoul.co.kr##div.react_right_v>div:not([alt]):not([class])[style=\"width:100%;margin-bottom:10px;float:left;overflow-x:hidden;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.seoul\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.react_right_v>div:not([alt]):not([class])[style=\"width:100%;margin-bottom:10px;float:left;overflow-x:hidden;\"]"
+                    }
+                }
+            },
+            {
+                "id": "8d6e7972-a1f3-4e76-9a53-37ed34fde480",
+                "name": "m.seoul.co.kr##div.react_right_v>div:not([alt]):not([class])[style=\"width:100%;margin-bottom:20px;float:left;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.seoul\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.react_right_v>div:not([alt]):not([class])[style=\"width:100%;margin-bottom:20px;float:left;\"]"
+                    }
+                }
+            },
+            {
+                "id": "eff7ebc5-1975-4503-9e79-1cecb07b79fc",
+                "name": "m.seoul.co.kr##div.react_right_v>div:not([alt]):not([class])[style=\"width:100%;margin-bottom:20px;float:left;overflow-x:hidden;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.seoul\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.react_right_v>div:not([alt]):not([class])[style=\"width:100%;margin-bottom:20px;float:left;overflow-x:hidden;\"]"
+                    }
+                }
+            },
+            {
+                "id": "11ed9568-2420-4a5f-93ee-0eef2abcbaee",
+                "name": "m.seoul.co.kr##div.react_right_v>div:not([alt]):not([class])[style=\"width:100%;margin-bottom:20px;float:left;text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.seoul\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.react_right_v>div:not([alt]):not([class])[style=\"width:100%;margin-bottom:20px;float:left;text-align:center;\"]"
                     }
                 }
             },
