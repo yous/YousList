@@ -4284,10 +4284,10 @@
             },
             {
                 "id": "f4bfb6b1-936f-4d97-afe6-c8bea270d5b0",
-                "name": "exttag.about.co.kr/cgi-bin/PellicanC.dll",
+                "name": "exttag.about.co.kr/cgi-bin/PelicanC.dll",
                 "content": {
                     "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?exttag\\.about\\.co\\.kr/cgi-bin/PellicanC\\.dll",
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?exttag\\.about\\.co\\.kr/cgi-bin/PelicanC\\.dll",
                         "load-type": []
                     },
                     "action": {
@@ -5792,6 +5792,45 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mydaily\\.co\\.kr/news/ad_news.*\\.htm",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8a828108-00a8-4ea2-b942-1ba6e0052670",
+                "name": "mydaily.co.kr/ad/ad_*.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mydaily\\.co\\.kr/ad/ad_.*\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5f3f498e-e712-4bcf-ab8b-1abaf7700d45",
+                "name": "mydaily.co.kr/ad/center_ad*.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mydaily\\.co\\.kr/ad/center_ad.*\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "68c7e095-7284-4783-90b6-88ee71daa056",
+                "name": "mydaily.co.kr/ad/right_ad*.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mydaily\\.co\\.kr/ad/right_ad.*\\.php",
                         "load-type": []
                     },
                     "action": {
