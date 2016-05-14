@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: u9YrGTI42ANvoDN0/z/r7w
+! Checksum: fhSXZ1iEpvXYQI9+vrtayQ
 ! Version: 20160514
 
 ! General element hiding rules
@@ -71,6 +71,7 @@
 ##iframe[src^="http://chie8oo.com/afr.php"]
 ##iframe[src^="http://cm.interworksmedia.co.kr/adTagRequest.htm"]
 ##iframe[src^="http://cpv.ad.naver.com/adshow"]
+##iframe[src^="http://d.a1comm.co.kr/"]
 ##iframe[src^="http://daily.hankooki.com/ad/"]
 ##iframe[src^="http://dgate.joins.com/hc.aspx"]
 ##iframe[src^="http://display.ad.daum.net/imp"]
@@ -299,6 +300,7 @@
 ||cwdata.itplay.co.kr/ol/
 ||cwdata.itsearch.co.kr^
 ||cwstatic.heraldm.com/adcont/
+||d.a1comm.co.kr^
 ||d.adroll.com^
 ||d.pixiv.org/show^
 ||daily.hankooki.com/ad/
@@ -998,6 +1000,17 @@ m.kmib.co.kr##div.dw_cnt>div.ban
 m.kmib.co.kr##div.kmib_txbnr
 m.kmib.co.kr##div.tp_cnt>div[style="margin:0 auto;text-align:center;overflow:hidden;padding:10px 0;border-bottom:1px solid #ebebeb;"]
 m.kmib.co.kr##div.vw_txad
+m.mydaily.co.kr##body>div>div[style="background:#fff; padding-top:10px; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; margin:10px 0"]
+m.mydaily.co.kr##body>div>div[style="border-bottom:1px dashed #ccc; padding:10px;"]
+m.mydaily.co.kr##body>div[align="center"][style="background:#fff; padding-top:10px; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; margin:10px 0;"]
+m.mydaily.co.kr##body>div[align="center"][style="background:#fff; padding-top:15px; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; margin:10px 0;"]
+m.mydaily.co.kr##body>div[style="background:#fff; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd;"]
+m.mydaily.co.kr##body>div[style="background:#fff; padding-top:5px; border-bottom:1px solid #dddddd;"]
+m.mydaily.co.kr##div.read_view>div[style="float:right; width:202px; height:202px; margin:0 !important; padding:0 !important; background:#fff; border:1px solid #ccc;"]
+m.mydaily.co.kr##div.read_view>div[style="margin-top:10px; margin-bottom:10px; text-align:center;"]
+m.mydaily.co.kr##div.read_view>div[style="text-align:left; margin:-20px 0 -10px; -30px;"]
+m.mydaily.co.kr##div.read_wrap>div[style="background:#fff; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; "]
+m.mydaily.co.kr##p.mobitree
 m.naver.com##div.grid_ad
 m.news.naver.com##div.ad_area
 m.news.naver.com##div.ad_box

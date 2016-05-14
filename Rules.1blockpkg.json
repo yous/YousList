@@ -900,6 +900,20 @@
                 }
             },
             {
+                "id": "b5eda1da-27db-41fa-a004-ef20efe49700",
+                "name": "##iframe[src^=\"http://d.a1comm.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://d.a1comm.co.kr/\"]"
+                    }
+                }
+            },
+            {
                 "id": "9a4e348c-697c-4c44-94e3-02eeee7c0dba",
                 "name": "##iframe[src^=\"http://daily.hankooki.com/ad/\"]",
                 "content": {
@@ -3885,6 +3899,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cwstatic\\.heraldm\\.com/adcont/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "4b0e9621-e613-43d9-9c69-4fbab72a74a7",
+                "name": "d.a1comm.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?d\\.a1comm\\.co\\.kr",
                         "load-type": []
                     },
                     "action": {
@@ -8534,6 +8561,160 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.vw_txad"
+                    }
+                }
+            },
+            {
+                "id": "9a37f854-4d67-4fe1-9968-c9f2abe3b41f",
+                "name": "m.mydaily.co.kr##body>div>div[style=\"background:#fff; padding-top:10px; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; margin:10px 0\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.mydaily\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div>div[style=\"background:#fff; padding-top:10px; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; margin:10px 0\"]"
+                    }
+                }
+            },
+            {
+                "id": "74f89e56-70de-49fd-812c-2a36057116fc",
+                "name": "m.mydaily.co.kr##body>div>div[style=\"border-bottom:1px dashed #ccc; padding:10px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.mydaily\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div>div[style=\"border-bottom:1px dashed #ccc; padding:10px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "41f90293-881d-4192-a7a6-3ebc816b74b0",
+                "name": "m.mydaily.co.kr##body>div[align=\"center\"][style=\"background:#fff; padding-top:10px; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; margin:10px 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.mydaily\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[align=\"center\"][style=\"background:#fff; padding-top:10px; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; margin:10px 0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "d6bd7f80-b60d-4dff-a31f-a9d90758fb1b",
+                "name": "m.mydaily.co.kr##body>div[align=\"center\"][style=\"background:#fff; padding-top:15px; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; margin:10px 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.mydaily\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[align=\"center\"][style=\"background:#fff; padding-top:15px; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; margin:10px 0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "53c79fd4-b6b4-471e-aaa6-918e35bfb5ea",
+                "name": "m.mydaily.co.kr##body>div[style=\"background:#fff; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.mydaily\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"background:#fff; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd;\"]"
+                    }
+                }
+            },
+            {
+                "id": "34b6c172-fc4b-4576-8d4c-a1bbbd38f932",
+                "name": "m.mydaily.co.kr##body>div[style=\"background:#fff; padding-top:5px; border-bottom:1px solid #dddddd;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.mydaily\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"background:#fff; padding-top:5px; border-bottom:1px solid #dddddd;\"]"
+                    }
+                }
+            },
+            {
+                "id": "480fb525-3b5e-420a-8105-aa28e71a8d1b",
+                "name": "m.mydaily.co.kr##div.read_view>div[style=\"float:right; width:202px; height:202px; margin:0 !important; padding:0 !important; background:#fff; border:1px solid #ccc;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.mydaily\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.read_view>div[style=\"float:right; width:202px; height:202px; margin:0 !important; padding:0 !important; background:#fff; border:1px solid #ccc;\"]"
+                    }
+                }
+            },
+            {
+                "id": "1c271fe3-0142-4c18-93dc-90d394fcdb73",
+                "name": "m.mydaily.co.kr##div.read_view>div[style=\"margin-top:10px; margin-bottom:10px; text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.mydaily\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.read_view>div[style=\"margin-top:10px; margin-bottom:10px; text-align:center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "7eb99054-23b9-45b8-90d6-7e843409459a",
+                "name": "m.mydaily.co.kr##div.read_view>div[style=\"text-align:left; margin:-20px 0 -10px; -30px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.mydaily\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.read_view>div[style=\"text-align:left; margin:-20px 0 -10px; -30px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "2fb96af6-6679-4869-b93f-efde707c4ff0",
+                "name": "m.mydaily.co.kr##div.read_wrap>div[style=\"background:#fff; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; \"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.mydaily\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.read_wrap>div[style=\"background:#fff; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; \"]"
+                    }
+                }
+            },
+            {
+                "id": "b7a67e85-a231-4976-826a-6b58ed7844b6",
+                "name": "m.mydaily.co.kr##p.mobitree",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.mydaily\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "p.mobitree"
                     }
                 }
             },
