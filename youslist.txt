@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: Ubldlld1ZAWG8ThwCQUOJw
+! Checksum: 9Ios2asyumAk3KxhHbr+oQ
 ! Version: 20160514
 
 ! General element hiding rules
@@ -589,6 +589,8 @@
 ||viewsnnews.com/image/advert/
 ||watchcartoononline.com/ads*.html^
 ||watchcartoononline.com/inc/reklam/*.html
+||web.humoruniv.com/ads/banner.html^
+||web.humoruniv.com/banner/cm/datawave_cm_read.html^
 ||web.n2s.co.kr^
 ||wec.co.kr/banner/
 ||wikitree.co.kr/_tpl/default/ad/
@@ -1525,6 +1527,10 @@ watchcartoononline.com##iframe[src^="http://watchcartoononline.com/ads_"][src$="
 watchcartoononline.com##iframe[src^="http://www.watchcartoononline.com/ads"][src$=".html"]
 watchcartoononline.com##iframe[src^="http://www.watchcartoononline.com/inc/reklam/"][src$=".html"]
 watchcartoononline.com##td.larkax>div[style="float:right; padding-bottom:10px; padding-left:5px; padding-right:10px"]
+web.humoruniv.com##div#CmAdView2
+web.humoruniv.com##div#ad_240
+web.humoruniv.com##div#ad_700
+web.humoruniv.com##div#ad_adture
 wikitree.co.kr##iframe[src^="/_tpl/default/ad/"]
 womennews.co.kr##iframe[src^="/news/sidebar_banner_realclick01.html"]
 wordpress.com##div.wpcnt
