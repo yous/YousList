@@ -5465,6 +5465,71 @@
                 }
             },
             {
+                "id": "f2abbc2d-40d6-496d-bc63-5effcebc5140",
+                "name": "m.humoruniv.com/cauly_iframe.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.humoruniv\\.com/cauly_iframe\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8f8199cd-6766-439c-b3a3-0f582f35076f",
+                "name": "m.humoruniv.com/ddn_300x250.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.humoruniv\\.com/ddn_300x250\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "77661764-9614-4494-b868-e96ada4da16c",
+                "name": "m.humoruniv.com/facebook_iframe_native.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.humoruniv\\.com/facebook_iframe_native\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "55938a6e-f91e-4bcf-b5bf-85ea2d1a0004",
+                "name": "m.humoruniv.com/microad_iframe_300x250.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.humoruniv\\.com/microad_iframe_300x250\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "74871981-fec2-4e71-9314-abda88d00adf",
+                "name": "m.humoruniv.com/uad_iframe.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.humoruniv\\.com/uad_iframe\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9178b07a-d707-4dab-ba2e-6571d2d94eef",
                 "name": "m.joyninfo.com/yna/yna_m_new.asp",
                 "content": {
@@ -6885,6 +6950,19 @@
                 }
             },
             {
+                "id": "74291765-8492-4c76-9d4c-63fc4ebdcb77",
+                "name": "s1.daumcdn.net/svc/original/U03/commonjs/ddn/common/js/ad.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?s1\\.daumcdn\\.net/svc/original/U03/commonjs/ddn/common/js/ad\\.min\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0219f677-7b9a-4c13-a883-de5bcde17d41",
                 "name": "sba.about.co.kr/SbaExpose.aspx",
                 "content": {
@@ -7579,6 +7657,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?uplus\\.kr/cd/cdNavi/retreieveHtml3JS\\.dmd",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3db4bdd4-eab0-4739-bc01-e9a58e8c5aec",
+                "name": "uplus.kr/common/m_js/mobile_html_web4.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?uplus\\.kr/common/m_js/mobile_html_web4\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -8446,6 +8537,118 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.advertisement.mobileweb_top"
+                    }
+                }
+            },
+            {
+                "id": "52871243-c219-4f88-8325-11eb67b1d02a",
+                "name": "m.humoruniv.com##div#cauly_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.humoruniv\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#cauly_ad"
+                    }
+                }
+            },
+            {
+                "id": "88ffbc31-3734-4dd9-8668-d89427bcc046",
+                "name": "m.humoruniv.com##div#ddn_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.humoruniv\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ddn_ad"
+                    }
+                }
+            },
+            {
+                "id": "252fe176-e297-40d4-8905-925ec7583b60",
+                "name": "m.humoruniv.com##div#uad_iframe",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.humoruniv\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#uad_iframe"
+                    }
+                }
+            },
+            {
+                "id": "5db82971-0887-452e-8312-19933c285566",
+                "name": "m.humoruniv.com##iframe[src^=\"/cauly_iframe.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.humoruniv\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/cauly_iframe.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "b98a48b2-82d3-4782-9cef-aa4c1a64c849",
+                "name": "m.humoruniv.com##iframe[src^=\"/uad_iframe.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.humoruniv\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/uad_iframe.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "502d5551-4d7e-4342-b536-e1cc91ccf24e",
+                "name": "m.humoruniv.com##iframe[src^=\"http://m.humoruniv.com/ddn_300x250.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.humoruniv\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://m.humoruniv.com/ddn_300x250.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "f088ab8b-f1b1-4c87-87ee-a03b6a1ceb3d",
+                "name": "m.humoruniv.com##iframe[src^=\"http://m.humoruniv.com/facebook_iframe_native.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.humoruniv\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://m.humoruniv.com/facebook_iframe_native.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "abf7a1f4-8a4e-4a57-89cb-740e67bcb344",
+                "name": "m.humoruniv.com##iframe[src^=\"http://m.humoruniv.com/microad_iframe_300x250.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.humoruniv\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://m.humoruniv.com/microad_iframe_300x250.html\"]"
                     }
                 }
             },

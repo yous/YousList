@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: tLbfzyEirOr0IU4khATe6g
+! Checksum: Ubldlld1ZAWG8ThwCQUOJw
 ! Version: 20160514
 
 ! General element hiding rules
@@ -415,6 +415,11 @@
 ||m.adtc.daum.net/js/mobilead.js^
 ||m.chosun.com/tad.html^
 ||m.hankooki.com/ad/
+||m.humoruniv.com/cauly_iframe.html^
+||m.humoruniv.com/ddn_300x250.html^
+||m.humoruniv.com/facebook_iframe_native.html^
+||m.humoruniv.com/microad_iframe_300x250.html^
+||m.humoruniv.com/uad_iframe.html^
 ||m.joyninfo.com/yna/yna_m_new.asp^
 ||m.kmib.co.kr/banner/
 ||m.news1.kr/ads/
@@ -524,6 +529,7 @@
 ||rsense-ad.realclick.co.kr/rsense/view_ad_adcrm.html^
 ||s.pubmine.com/adj/
 ||s*.algovid.com/player/gpv^
+||s1.daumcdn.net/svc/original/U03/commonjs/ddn/common/js/ad.min.js^
 ||sba.about.co.kr/SbaExpose.aspx^
 ||sba.about.co.kr/dbaExpose.aspx^
 ||scr.nsmartad.com/admixer/admixer.js^
@@ -578,6 +584,7 @@
 ||unionpress.co.kr/news/html_tpl/pr_ad.php^
 ||unionpress.co.kr/news/master/banner/3d69ca2f12c09759924d8be0a89a4259^
 ||uplus.kr/cd/cdNavi/retreieveHtml3JS.dmd^
+||uplus.kr/common/m_js/mobile_html_web4.js^
 ||view.asiae.co.kr/common/ad/
 ||viewsnnews.com/image/advert/
 ||watchcartoononline.com/ads*.html^
@@ -992,6 +999,14 @@ m.hankooki.com##div[class^="ads_"]
 m.huffpost.com##div.advertisement.mobileweb_article_bottom_refresh div.trc_rbox_container div.trc_rbox_outer div.syndicatedItem
 m.huffpost.com##div.advertisement.mobileweb_taboola
 m.huffpost.com##div.advertisement.mobileweb_top
+m.humoruniv.com##div#cauly_ad
+m.humoruniv.com##div#ddn_ad
+m.humoruniv.com##div#uad_iframe
+m.humoruniv.com##iframe[src^="/cauly_iframe.html"]
+m.humoruniv.com##iframe[src^="/uad_iframe.html"]
+m.humoruniv.com##iframe[src^="http://m.humoruniv.com/ddn_300x250.html"]
+m.humoruniv.com##iframe[src^="http://m.humoruniv.com/facebook_iframe_native.html"]
+m.humoruniv.com##iframe[src^="http://m.humoruniv.com/microad_iframe_300x250.html"]
 m.khan.co.kr##div#article_bottom_ad
 m.khan.co.kr##div#mezzo_ad
 m.khan.co.kr##div#photoAD
