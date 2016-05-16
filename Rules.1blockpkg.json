@@ -788,6 +788,20 @@
                 }
             },
             {
+                "id": "761414c9-9bd5-4f63-b1ea-c991b9222b09",
+                "name": "##iframe[src^=\"http://api.adns.contentlink.co.kr/adserver/delivery/iframe.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://api.adns.contentlink.co.kr/adserver/delivery/iframe.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "c0390a2e-52e8-4bef-ac08-849411091317",
                 "name": "##iframe[src^=\"http://bayabar.com/adworking/\"]",
                 "content": {
@@ -1358,6 +1372,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://plugin.2beon.co.kr/\"]"
+                    }
+                }
+            },
+            {
+                "id": "c5b7cc23-06aa-4694-8ca6-f595a6b24fe5",
+                "name": "##iframe[src^=\"http://polltest.azurewebsites.net/Polls/Ads\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://polltest.azurewebsites.net/Polls/Ads\"]"
                     }
                 }
             },
@@ -3415,6 +3443,32 @@
                 }
             },
             {
+                "id": "30a54c65-9381-49b2-8b46-314c275bc6db",
+                "name": "api.adns.contentlink.co.kr/adserver/delivery/dwad.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?api\\.adns\\.contentlink\\.co\\.kr/adserver/delivery/dwad\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f71b08f9-7703-4781-9458-e44620bc32ce",
+                "name": "api.adns.contentlink.co.kr/adserver/delivery/iframe.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?api\\.adns\\.contentlink\\.co\\.kr/adserver/delivery/iframe\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ea99062b-2408-4023-a2fe-cc6e2e125bf6",
                 "name": "api.wiseclick.co.kr/api/web_directad/",
                 "content": {
@@ -4622,6 +4676,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hankooki\\.com/common/mobilelink/mobile_sk\\.htm",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1bbe93c0-6cf5-4b96-8891-aeb1531ef582",
+                "name": "hankookilbo.com/newsad250x250.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hankookilbo\\.com/newsad250x250\\.html",
                         "load-type": []
                     },
                     "action": {
@@ -6708,6 +6775,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?plugin\\.2beon\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cc37aee6-50b9-4aaa-b32f-e6bdf17bcf2b",
+                "name": "polltest.azurewebsites.net/Polls/Ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?polltest\\.azurewebsites\\.net/Polls/Ads",
                         "load-type": []
                     },
                     "action": {

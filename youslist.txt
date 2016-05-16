@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 9Ios2asyumAk3KxhHbr+oQ
-! Version: 20160514
+! Checksum: 19NrCboscdo0F36R5u68HA
+! Version: 20160516
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -63,6 +63,7 @@
 ##iframe[src^="http://adx.naonmedia.net/adx/"]
 ##iframe[src^="http://agate.opap.co.kr/html/"]
 ##iframe[src^="http://aitg.widerplanet.com/"]
+##iframe[src^="http://api.adns.contentlink.co.kr/adserver/delivery/iframe.php"]
 ##iframe[src^="http://bayabar.com/adworking/"]
 ##iframe[src^="http://cadvv.heraldm.com/nbiz/"]
 ##iframe[src^="http://candy.ad9.kr/"]
@@ -104,6 +105,7 @@
 ##iframe[src^="http://ojsfile.ohmynews.com/AD_FILE/"]
 ##iframe[src^="http://p.lumieyes.com/"]
 ##iframe[src^="http://plugin.2beon.co.kr/"]
+##iframe[src^="http://polltest.azurewebsites.net/Polls/Ads"]
 ##iframe[src^="http://provider.hiadone.com/cgi-bin/conad_hi.fcgi/"]
 ##iframe[src^="http://pub.adpnut.com/"]
 ##iframe[src^="http://ra.ntwoad.co.kr/"]
@@ -262,6 +264,8 @@
 ||amsv2.daum.net/ad/
 ||animefreak.tv/sites/all/modules/custom/anime/ads/
 ||animefreak.tv/sites/all/modules/custom/anime/yanone.html^
+||api.adns.contentlink.co.kr/adserver/delivery/dwad.php^
+||api.adns.contentlink.co.kr/adserver/delivery/iframe.php^
 ||api.wiseclick.co.kr/api/web_directad/
 ||as.dc.impact-ad.jp^
 ||asiae.co.kr/include/real_ad/
@@ -355,6 +359,7 @@
 ||hani.co.kr/section-adv/
 ||hankooki.com/common/mobilelink/mobile_hk.htm^
 ||hankooki.com/common/mobilelink/mobile_sk.htm^
+||hankookilbo.com/newsad250x250.html^
 ||hankyung.com/m/inc/fixed_mobile_ad_area_view.html^
 ||humor.hani.co.kr/common/banner.html^
 ||hungryapp.co.kr/banner/banner_*.php^
@@ -511,6 +516,7 @@
 ||partner.googleadservices.com/gpt/pubads_impl_*.js^
 ||performix.co.kr/cgi-bin/conad.fcgi/
 ||plugin.2beon.co.kr^
+||polltest.azurewebsites.net/Polls/Ads^
 ||provider.hiadone.com/cgi-bin/conad_hi.fcgi/
 ||pub.adpnut.com^
 ||pubads.g.doubleclick.net^
@@ -863,8 +869,11 @@ hani.co.kr##div.ttalk150_banner
 hani.co.kr##div[class^="hani-advertise"]
 hani.co.kr##iframe[src^="/section-adv/"]
 hankookilbo.com##div.article-ad-align-left
+hankookilbo.com##div.poll_ad_div
+hankookilbo.com##div.shoppingIframe
 hankookilbo.com##div.side-ad
 hankookilbo.com##iframe[src="/sidead300x250.html"]
+hankookilbo.com##iframe[src^="/newsad250x250.html"]
 hankyung.com##aside.ad-newsview
 hankyung.com##aside.ad-top-wide
 hankyung.com##div#ad_ti
