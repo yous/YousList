@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: AdIaHKtMn9o9Y2SdM4SwXQ
+! Checksum: dckE1a9prvHJICQZ0efsXQ
 ! Version: 20160524
 
 ! General element hiding rules
@@ -428,6 +428,7 @@
 ||m.humoruniv.com/uad_iframe.html^
 ||m.joyninfo.com/yna/yna_m_new.asp^
 ||m.kmib.co.kr/banner/
+||m.metroseoul.co.kr/common/js/custom/script_*_ad.js^
 ||m.news1.kr/ads/
 ||m.ytn.co.kr/ad/ad_*.html^
 ||m1.daumcdn.net/adtc/js/mobilead.js^
@@ -1033,6 +1034,13 @@ m.kmib.co.kr##div.dw_cnt>div.ban
 m.kmib.co.kr##div.kmib_txbnr
 m.kmib.co.kr##div.tp_cnt>div[style="margin:0 auto;text-align:center;overflow:hidden;padding:10px 0;border-bottom:1px solid #ebebeb;"]
 m.kmib.co.kr##div.vw_txad
+m.metroseoul.co.kr##div#ad_1
+m.metroseoul.co.kr##div#ad_2
+m.metroseoul.co.kr##div#ad_3
+m.metroseoul.co.kr##div#ad_4
+m.metroseoul.co.kr##div.ad_box
+m.metroseoul.co.kr##div.middle_ad
+m.metroseoul.co.kr##div.right_ad
 m.mydaily.co.kr##body>div>div[style="background:#fff; padding-top:10px; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; margin:10px 0"]
 m.mydaily.co.kr##body>div>div[style="border-bottom:1px dashed #ccc; padding:10px;"]
 m.mydaily.co.kr##body>div[align="center"][style="background:#fff; padding-top:10px; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; margin:10px 0;"]
