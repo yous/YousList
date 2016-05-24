@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 1RwMqvtrwseHhcM3nMjhYg
+! Checksum: AdIaHKtMn9o9Y2SdM4SwXQ
 ! Version: 20160524
 
 ! General element hiding rules
@@ -226,6 +226,7 @@
 ||ads-optima.com/www/delivery/afr.php^
 ||ads-optima.com/www/delivery/ajs.php^
 ||ads.contextweb.com/TagPublish/GetAd.aspx^
+||ads.emetro.co.kr/www/delivery/ajs.php^
 *ads.g.doubleclick.net/pagead/
 ||ads.gamemeca.com^
 ||ads.mangouni.com/mad/
@@ -1118,6 +1119,11 @@ mediatoday.co.kr##div#adbnFloating
 mediatoday.co.kr##iframe[src*="/adItem/"]
 mediaus.co.kr##div[style="position:relative;width:250px;height:139px;overflow:hidden;"]
 mediaus.co.kr##iframe[src^="/banner/"]
+metroseoul.co.kr##div#adop_top_banner
+metroseoul.co.kr##div.ad-box
+metroseoul.co.kr##div.body-right-box>div[style="margin-bottom:15px;"]
+metroseoul.co.kr##div.body-right-box>div[style="margin-bottom:15px; margin-top:15px;background-color: #eaeaea;"]
+metroseoul.co.kr##div.sideADBox
 minitoon.net##div.fixed-top
 minitoon.net##div.g_banner
 minitoon.net##div.m_banner
