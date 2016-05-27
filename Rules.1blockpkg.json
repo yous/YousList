@@ -8772,6 +8772,62 @@
                 }
             },
             {
+                "id": "8e58e183-325c-4d79-9daa-a2dfe8f4cf1b",
+                "name": "m.inven.co.kr##div#mobileTailAd_Layer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.inven\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mobileTailAd_Layer"
+                    }
+                }
+            },
+            {
+                "id": "12f33acb-f8b4-4bb6-8310-110409611bb7",
+                "name": "m.inven.co.kr##div#mobileTailAd_LayerDummy",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.inven\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mobileTailAd_LayerDummy"
+                    }
+                }
+            },
+            {
+                "id": "9cb841f7-86be-49b0-bbb5-7856522067ab",
+                "name": "m.inven.co.kr##div#page>div[style=\"text-align:center;height:50px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.inven\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#page>div[style=\"text-align:center;height:50px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "5f26fccf-bdb5-4904-8d7e-b113df58c514",
+                "name": "m.inven.co.kr##body>div[style=\"text-align:center;margin-top:8px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.inven\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"text-align:center;margin-top:8px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "6d80f466-43dd-4670-bf91-8f42217880da",
                 "name": "m.khan.co.kr##div#article_bottom_ad",
                 "content": {
