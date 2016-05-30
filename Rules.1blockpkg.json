@@ -1906,6 +1906,19 @@
                 }
             },
             {
+                "id": "ec6c9862-2e2c-4e9e-8cec-a1b5a5e5e68d",
+                "name": "acdn.adnxs.com/ast/ast.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?acdn\\.adnxs\\.com/ast/ast\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "51de30f5-76d2-4cd0-9ce6-2f6cd9e0f236",
                 "name": "ad*.*/event.ems/",
                 "content": {
@@ -10516,6 +10529,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.efoot_bnr_ad"
+                    }
+                }
+            },
+            {
+                "id": "8734dbb8-3d47-47f9-8d7b-4b1f0fc62fbb",
+                "name": "msn.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?msn\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "9e74a448-cb64-422d-9dcf-ca89ce1de5c8",
+                "name": "msn.com##div.widead",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?msn\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.widead"
                     }
                 }
             },
