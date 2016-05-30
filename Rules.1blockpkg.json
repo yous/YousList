@@ -3833,6 +3833,19 @@
                 }
             },
             {
+                "id": "408d7892-ac7b-41a8-8e0d-f23e52037b0b",
+                "name": "cdnprisms.pandora.tv/_adv_img/prism_ad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cdnprisms\\.pandora\\.tv/_adv_img/prism_ad/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "81c72115-46cd-4dcc-9777-ea1d4b919d44",
                 "name": "celeb.nann.co.kr",
                 "content": {
@@ -6814,6 +6827,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?polltest\\.azurewebsites\\.net/Polls/Ads",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7f673b6a-3123-4c6d-8d6a-555482c7e20b",
+                "name": "prism.pandora.tv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?prism\\.pandora\\.tv",
                         "load-type": []
                     },
                     "action": {
