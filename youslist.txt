@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: craykz5b0PwxAubjvHSK6Q
+! Checksum: 3Ps75c+7qUEsrVUbnuE0Fg
 ! Version: 20160530
 
 ! General element hiding rules
@@ -81,6 +81,7 @@
 ##iframe[src^="http://exttag.about.co.kr/cgi-bin/PelicanC.dll"]
 ##iframe[src^="http://file.osen.co.kr/web2/html/realclick_ad.html"]
 ##iframe[src^="http://fs.jtbc.joins.com/common/ui/ad/"]
+##iframe[src^="http://hankyung.bohumplaza.com/_chann/"]
 ##iframe[src^="http://im.obel.kr/file/"]
 ##iframe[src^="http://img.sbs.co.kr/news/ad/delay_redirect_mobile.html"]
 ##iframe[src^="http://imp.mklaud.com/ad"]
@@ -329,6 +330,7 @@
 ||dreamsearch.or.kr/servlet/adbn*
 ||dreamsearch.or.kr/servlet/iadbn^
 ||dreamsearch.or.kr/servlet/sadbn^
+||dt.co.kr/js/top_ad.js^
 ||economy.hankooki.com/ad/
 ||edaily.co.kr/adview/
 ||esports.dailygame.co.kr/comment/ad_realclick.php^
@@ -364,6 +366,7 @@
 ||hankooki.com/common/mobilelink/mobile_hk.htm^
 ||hankooki.com/common/mobilelink/mobile_sk.htm^
 ||hankookilbo.com/newsad250x250.html^
+||hankyung.bohumplaza.com/_chann/
 ||hankyung.com/m/inc/fixed_mobile_ad_area_view.html^
 ||humor.hani.co.kr/common/banner.html^
 ||hungryapp.co.kr/banner/banner_*.php^
@@ -764,19 +767,18 @@ ddanzi.com##div.right_banner
 deviantart.com##div.squareBrowsead
 diodeo.com##div#newsFloatingBanner
 dkbnews.donga.com##div#idol_ban
-dt.co.kr##div#box_01
-dt.co.kr##div#dt_banner_layout
 dt.co.kr##div#gisa>table
-dt.co.kr##div#popup
-dt.co.kr##div#premiumlink
+dt.co.kr##div#left_skyWingBanner
+dt.co.kr##div#right_skyWingBanner
 dt.co.kr##div#side_content>div[style="margin-top:10px;"]
 dt.co.kr##div#side_content>div[style="margin-top:20px;"]
+dt.co.kr##div#top_ad
+dt.co.kr##div#topad
+dt.co.kr##div.ad_view04
 dt.co.kr##div.cntWrap>div[style="margin-top:10px;"]
 dt.co.kr##div.cntWrap>div[style="padding-top:10px "]
 dt.co.kr##div.cntWrap>div[style="padding-top:10px;"]
 dt.co.kr##div.cntWrap>div[style="text-align:left;margin-left:5px;"]
-dt.co.kr##div.enter_group3
-dt.co.kr##table#tabTable1
 economy.hankooki.com##div#ad2uShop
 economy.hankooki.com##div#ad690100
 economy.hankooki.com##div#ad690120

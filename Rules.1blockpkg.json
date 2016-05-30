@@ -1040,6 +1040,19 @@
                 }
             },
             {
+                "id": "6b6eb2ee-a323-49ad-bb3f-312c7961e6a5",
+                "name": "##iframe[src^=\"http://hankyung.bohumplaza.com/_chann/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "iframe[src^=\"http://hankyung.bohumplaza.com/_chann/\"]",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b571911c-0ea0-4d6a-8060-443bd22d13eb",
                 "name": "##iframe[src^=\"http://im.obel.kr/file/\"]",
                 "content": {
@@ -4289,6 +4302,19 @@
                 }
             },
             {
+                "id": "f18d930f-b3d5-46fc-bf36-b5c125eccd55",
+                "name": "dt.co.kr/js/top_ad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?dt\\.co\\.kr/js/top_ad\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "13ec5f46-acdb-4a9d-bf99-461d5db64743",
                 "name": "economy.hankooki.com/ad/",
                 "content": {
@@ -4742,6 +4768,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hankookilbo\\.com/newsad250x250\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f46e40a2-5f27-4540-addd-cb6e9f0b2ac0",
+                "name": "hankyung.bohumplaza.com/_chann/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hankyung\\.bohumplaza\\.com/_chann/",
                         "load-type": []
                     },
                     "action": {
