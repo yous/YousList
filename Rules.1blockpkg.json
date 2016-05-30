@@ -1614,6 +1614,20 @@
                 }
             },
             {
+                "id": "6d11a3a2-e175-4db7-b9f4-d7eadc9a5e60",
+                "name": "##iframe[src^=\"http://www.jjan.kr/banner/ad_banner_\"][src$=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.jjan.kr/banner/ad_banner_\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
                 "id": "1ee30a29-84c9-47e4-b125-4deec650549f",
                 "name": "##iframe[src^=\"http://www.kmib.co.kr/cp/realclick/\"]",
                 "content": {
@@ -5199,6 +5213,45 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ir-na\\.amazon-adsystem\\.com/s/ads-common\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "470d3ddd-1b64-449f-8ace-f19243a52d18",
+                "name": "jjan.kr/adNdsoft/adWise*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?jjan\\.kr/adNdsoft/adWise.*\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ebc923e3-5151-4199-b3f0-319e40bb98d0",
+                "name": "jjan.kr/banner/ad_banner_*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?jjan\\.kr/banner/ad_banner_.*\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "22402303-80d3-4238-8cb7-b2aef4528b32",
+                "name": "jjan.kr/bannerManager/inc/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?jjan\\.kr/bannerManager/inc/",
                         "load-type": []
                     },
                     "action": {

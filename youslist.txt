@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: kdvQfwLr19RYf56nTlwdEQ
+! Checksum: craykz5b0PwxAubjvHSK6Q
 ! Version: 20160530
 
 ! General element hiding rules
@@ -122,6 +122,7 @@
 ##iframe[src^="http://www.dreamsearch.or.kr/servlet/adBanner"]
 ##iframe[src^="http://www.dreamsearch.or.kr/servlet/iadbn"]
 ##iframe[src^="http://www.inven.co.kr/ad/"]
+##iframe[src^="http://www.jjan.kr/banner/ad_banner_"][src$=".html"]
 ##iframe[src^="http://www.kmib.co.kr/cp/realclick/"]
 ##iframe[src^="http://www.koreadaily.com/_ui/ad/"]
 ##iframe[src^="http://www.mediamixad.com/ad/liveAd"]
@@ -395,6 +396,9 @@
 ||inven.co.kr/common/lib/js/ad.slot.js^
 ||inven.co.kr/common/lib/js/adns.js^
 ||ir-na.amazon-adsystem.com/s/ads-common.js^
+||jjan.kr/adNdsoft/adWise*.html^
+||jjan.kr/banner/ad_banner_*.html^
+||jjan.kr/bannerManager/inc/
 ||jjanglive.com/flash/AdShowClient.swf^
 ||jjanglive.com/flash/webClient.swf^
 ||joinsmsn.com/_ui/ad/
@@ -942,6 +946,9 @@ isplus.joinsmsn.com##div#topTextAd
 isplus.joinsmsn.com##div[class^="biz_link_area"]
 isplus.joinsmsn.com##div[class^="sponsor_link_area"]
 ittoday.co.kr##dl[class$="top-banner"]
+jjan.kr##div#LayerWarp2>div[style="z-index:3; float:right;"]
+jjan.kr##div#livere_ad
+jjan.kr##iframe[src^="/adNdsoft/adWise"][src$=".html"]
 jobplanet.co.kr##article#viewReviewsList section>div[style="padding:0;margin:0;background-color:#ddd;text-align:center"]
 jobplanet.co.kr##div#prism_displayAD
 joins.com##div#divArticleAdnetworkBanner
