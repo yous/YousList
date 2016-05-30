@@ -4536,6 +4536,32 @@
                 }
             },
             {
+                "id": "c85f713f-6bde-4479-80e7-8fbfaa28b9cf",
+                "name": "fm1.jssearch.net/Farman",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?fm1\\.jssearch\\.net/Farman",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f0cb9aff-db53-4984-876e-8fb5af84b5d8",
+                "name": "fm1.jssearch.net/lib/JSAP_SlideLibs_v1.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?fm1\\.jssearch\\.net/lib/JSAP_SlideLibs_v1\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "57944317-9307-4520-9706-a845b6472c33",
                 "name": "fnnews.com/control",
                 "content": {
@@ -8675,6 +8701,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[id^=\"adv_banner\"]"
+                    }
+                }
+            },
+            {
+                "id": "370e2138-4c11-4a74-ab3a-74d9b7f26dbf",
+                "name": "m.game.xportsnews.com##div.in_200_200",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.game\\.xportsnews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.in_200_200"
                     }
                 }
             },
