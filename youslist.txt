@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: O1NrVLzyyuym/Xj7awhlog
-! Version: 20160530
+! Checksum: X6H2f+r+/VxEKsfz9BE0mQ
+! Version: 20160606
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -500,6 +500,7 @@
 ||news.nate.com/Etc/AdRectangleBanner^
 ||news.nate.com/Etc/ViewAD^
 ||news.nate.com/etc/ad*
+||news.sbs.co.kr/ad/delay_redirect.jsp^
 ||news.sportsseoul.com/ad/
 ||news.sportsseoul.com/public_new4/ad/
 ||news.sportsseoul.com/public/ad/
@@ -1321,6 +1322,8 @@ news.nate.com##div[class^="smartLink"]
 news.nate.com##iframe#AdShopSearch
 news.nate.com##iframe#socialAD
 news.sbs.co.kr##div#all_vod_banner
+news.sbs.co.kr##div.sn_banner
+news.sbs.co.kr##div.sn_banner_edcb
 news.sportsseoul.com##div#ntomapDiv
 news.sportsseoul.com##div#style_250ad9
 news.sportsseoul.com##div.ad250

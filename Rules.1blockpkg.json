@@ -6573,6 +6573,19 @@
                 }
             },
             {
+                "id": "2e5a8ed2-daf9-4600-82b3-f87448b91007",
+                "name": "news.sbs.co.kr/ad/delay_redirect.jsp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?news\\.sbs\\.co\\.kr/ad/delay_redirect\\.jsp",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4542972f-1909-446b-9200-95b271cec1c6",
                 "name": "news.sportsseoul.com/ad/",
                 "content": {
