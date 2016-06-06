@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: EcmXvsSsGNvg8sSgxTjm5g
+! Checksum: H9u8LRKO+1Ua5+hStl0PGw
 ! Version: 20160606
 
 ! General element hiding rules
@@ -361,6 +361,7 @@
 ||gametoc.hankyung.com/banner/*.html^
 ||get.keywordsconnect.com^
 ||get2.keywordsconnect.com^
+||gigglehd.com/banner/*.jpg^
 ||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
 ||googleads.g.doubleclick.net/pagead/
 ||googletagservices.com/tag/js/gpt.js^
@@ -891,6 +892,14 @@ gamemeca.com##div.rBannerMain
 gamemeca.com##div.rBtmBanner
 gamemeca.com##div[class^="ad"]
 gametoc.hankyung.com##iframe[src^="/banner/"][src$=".html"]
+gigglehd.com##div#column>a
+gigglehd.com##div#column>div:not([style])
+gigglehd.com##div#column>div[style="overflow:hidden;"]
+gigglehd.com##div#content>div>div:nth-of-type(3)[style="overflow:hidden;BACKGROUND-IMAGE: none; BORDER-BOTTOM: rgb(255,255,255) 0px solid; BORDER-LEFT: rgb(255,255,255) 0px solid; BACKGROUND-COLOR: transparent; MARGIN: 0px 0px 10px; WIDTH: 400px; BACKGROUND-POSITION: 0px 0px; FLOAT: left; HEIGHT: 60px; BORDER-TOP: rgb(255,255,255) 0px solid; BORDER-RIGHT: rgb(255,255,255) 0px solid;"]
+gigglehd.com##div#content>div>div:nth-of-type(4)[style="overflow:hidden;BACKGROUND-IMAGE: none; BORDER-BOTTOM: rgb(255,255,255) 0px solid; BORDER-LEFT: rgb(255,255,255) 0px solid; BACKGROUND-COLOR: transparent; MARGIN: 0px 0px 10px; WIDTH: 400px; BACKGROUND-POSITION: 0px 0px; FLOAT: right; HEIGHT: 60px; BORDER-TOP: rgb(255,255,255) 0px solid; BORDER-RIGHT: rgb(255,255,255) 0px solid;"]
+gigglehd.com##div#content>div>div:nth-of-type(8)[style="overflow:hidden;BACKGROUND-IMAGE: none; BORDER-BOTTOM: rgb(255,255,255) 0px solid; BORDER-LEFT: rgb(255,255,255) 0px solid; BACKGROUND-COLOR: transparent; MARGIN: 10px 0px; WIDTH: 400px; BACKGROUND-POSITION: 0px 0px; FLOAT: right; HEIGHT: 60px; BORDER-TOP: rgb(255,255,255) 0px solid; BORDER-RIGHT: rgb(255,255,255) 0px solid;"]
+gigglehd.com##div#content>div>div:nth-of-type(9)[style="overflow:hidden;BACKGROUND-IMAGE: none; BORDER-BOTTOM: rgb(255,255,255) 0px solid; BORDER-LEFT: rgb(255,255,255) 0px solid; BACKGROUND-COLOR: transparent; MARGIN: 10px 0px; WIDTH: 400px; BACKGROUND-POSITION: 0px 0px; FLOAT: left; HEIGHT: 60px; BORDER-TOP: rgb(255,255,255) 0px solid; BORDER-RIGHT: rgb(255,255,255) 0px solid;"]
+gigglehd.com##div.viewDocument>div[align="center"]>a
 hackintosh.zone##div#ipsLayout_mainArea>div[align="center"]
 hackintosh.zone##ins#aswift_3_expand
 hani.co.kr##div#power-link2

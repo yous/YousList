@@ -4705,6 +4705,19 @@
                 }
             },
             {
+                "id": "5c9c5fc0-9a16-4a03-b4ef-7bdbc10761e6",
+                "name": "gigglehd.com/banner/*.jpg",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?gigglehd\\.com/banner/.*\\.jpg",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b5e64fff-152f-4367-ab43-d8f455ab408e",
                 "name": "google.com/jsapi?autoload=*%22ads%22",
                 "content": {
