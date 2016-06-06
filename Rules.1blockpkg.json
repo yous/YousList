@@ -1933,6 +1933,32 @@
                 }
             },
             {
+                "id": "4351d844-af6f-482d-875d-b0ac076b7ef5",
+                "name": "a2.acrosspf.com/js/_a_adnf_bottompop_*.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?a2\\.acrosspf\\.com/js/_a_adnf_bottompop_.*\\.min\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "638ae156-a252-40f3-91a2-0de016bc26e6",
+                "name": "a2.acrosspf.com/js/_a_adnf_overlay_*.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?a2\\.acrosspf\\.com/js/_a_adnf_overlay_.*\\.min\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ec6c9862-2e2c-4e9e-8cec-a1b5a5e5e68d",
                 "name": "acdn.adnxs.com/ast/ast.js",
                 "content": {
@@ -7759,6 +7785,19 @@
                 }
             },
             {
+                "id": "95a6fd66-3154-4fe8-8708-f2425407a688",
+                "name": "static.tpmn.co.kr/sf/v2/smart.icon.ad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?static\\.tpmn\\.co\\.kr/sf/v2/smart\\.icon\\.ad\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f0a88447-19c3-49fd-837f-c55ef32c13b1",
                 "name": "sunnyworks.co.kr/data/SW*.html",
                 "content": {
@@ -8783,6 +8822,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.left_menuAd"
+                    }
+                }
+            },
+            {
+                "id": "703b131d-f76e-4c73-afcd-5dae8938b8cb",
+                "name": "m.gametoc.hankyung.com##section.advertisment",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.gametoc\\.hankyung\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.advertisment"
                     }
                 }
             },
