@@ -8497,6 +8497,20 @@
                 }
             },
             {
+                "id": "e5e0f5c0-2a04-4fe6-9d3f-75e69ccdd883",
+                "name": "dailymotion.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?dailymotion\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
                 "id": "9b2854d6-e56e-4016-8e16-30bb502fa21e",
                 "name": "forums.macrumors.com##div.funbox",
                 "content": {
