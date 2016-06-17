@@ -984,6 +984,20 @@
                 }
             },
             {
+                "id": "62df9e0a-4241-452b-b5a9-b6c76d803938",
+                "name": "##iframe[src^=\"http://ea.slrclub.com/NetInsight/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ea.slrclub.com/NetInsight/\"]"
+                    }
+                }
+            },
+            {
                 "id": "34feb626-df42-46fa-b73d-8b3b8af76c8b",
                 "name": "##iframe[src^=\"http://etc.gamechosun.co.kr/banner/\"]",
                 "content": {
@@ -4333,6 +4347,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?dt\\.co\\.kr/js/top_ad\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5f1e3aa2-58e4-42c1-9072-5492b86bd56a",
+                "name": "ea.slrclub.com/NetInsight/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ea\\.slrclub\\.com/NetInsight/",
                         "load-type": []
                     },
                     "action": {
