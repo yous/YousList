@@ -1058,11 +1058,12 @@
                 "name": "##iframe[src^=\"http://hankyung.bohumplaza.com/_chann/\"]",
                 "content": {
                     "trigger": {
-                        "url-filter": "iframe[src^=\"http://hankyung.bohumplaza.com/_chann/\"]",
+                        "url-filter": ".*",
                         "load-type": []
                     },
                     "action": {
-                        "type": "block"
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://hankyung.bohumplaza.com/_chann/\"]"
                     }
                 }
             },
