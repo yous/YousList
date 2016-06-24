@@ -9492,6 +9492,20 @@
                 }
             },
             {
+                "id": "af5e411f-7ef7-4a46-8f25-ac1a116b29b6",
+                "name": "m.media.daum.net##div#daumAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.media\\.daum\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#daumAd"
+                    }
+                }
+            },
+            {
                 "id": "f3f291a1-2cc1-40df-bab2-640e44372683",
                 "name": "m.metroseoul.co.kr##div#ad_1",
                 "content": {
