@@ -10780,6 +10780,34 @@
                 }
             },
             {
+                "id": "2c732b9e-bdf2-463d-9042-0c562aafb274",
+                "name": "m.zdnet.co.kr##div.sub_view_cont>div[style=\"top:0px; position:relative; float:right; width:200px; height:200px; padding:0 0 10px 10px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.zdnet\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sub_view_cont>div[style=\"top:0px; position:relative; float:right; width:200px; height:200px; padding:0 0 10px 10px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "73f82ed6-a7cb-4cbe-9994-d405b199b847",
+                "name": "m.zdnet.co.kr##div.view_ad_1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.zdnet\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view_ad_1"
+                    }
+                }
+            },
+            {
                 "id": "83972184-c6c0-4dae-99e4-37c2a2795c4f",
                 "name": "macrumors.com##div#adUnder_mobile",
                 "content": {
