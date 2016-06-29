@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: RhkjuMlDvf4i0uMH0CDsVA
+! Checksum: jARRXCSYPQlHov2tLNBF0Q
 ! Version: 20160629
 
 ! General element hiding rules
@@ -517,6 +517,7 @@
 ||news.sportsseoul.com/ad/
 ||news.sportsseoul.com/public_new4/ad/
 ||news.sportsseoul.com/public/ad/
+||news.tf.co.kr/public/ad/*/read/*.html^
 ||news1.kr/iframe/ad/
 ||newscomm.nate.com/Etc/SocialAD^
 ||newswave.kr/ad/
@@ -1414,6 +1415,9 @@ news.sportsseoul.com##ul.pad_top20
 news.sportsseoul.com##ul[class^="bottomAd"]
 news.sportsseoul.com##ul[class^="readAd"]
 news.sportsseoul.com##ul[class^="topAd"]
+news.tf.co.kr##div#taboola-below-article-thumbnails
+news.tf.co.kr##div.readAd
+news.tf.co.kr##span#rectingle_spanTag_ad
 news1.kr##a.stat_check_link
 news1.kr##div#article_body_content>div[style="margin:0 auto; padding-bottom:10px;"]
 news1.kr##div.ad_content

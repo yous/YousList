@@ -6796,6 +6796,19 @@
                 }
             },
             {
+                "id": "ec8190ff-eaec-4ad5-aabf-5ebceb5f1bb3",
+                "name": "news.tf.co.kr/public/ad/*/read/*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?news\\.tf\\.co\\.kr/public/ad/.*/read/.*\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "66026286-db56-47cb-abe8-cb973fe9b8b6",
                 "name": "news1.kr/iframe/ad/",
                 "content": {
