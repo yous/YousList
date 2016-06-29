@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: jARRXCSYPQlHov2tLNBF0Q
+! Checksum: p7HICOScJlypTXp0z6oj/Q
 ! Version: 20160629
 
 ! General element hiding rules
@@ -375,7 +375,9 @@
 ||hani.co.kr/section-adv/
 ||hankooki.com/common/mobilelink/mobile_hk.htm^
 ||hankooki.com/common/mobilelink/mobile_sk.htm^
+||hankookilbo.com/mainad300x250.html^
 ||hankookilbo.com/newsad250x250.html^
+||hankookilbo.com/sidead300x250.html^
 ||hankyung.bohumplaza.com/_chann/
 ||hankyung.com/m/inc/fixed_mobile_ad_area_view.html^
 ||humor.hani.co.kr/common/banner.html^
@@ -929,6 +931,8 @@ hankookilbo.com##div.article-ad-align-left
 hankookilbo.com##div.poll_ad_div
 hankookilbo.com##div.shoppingIframe
 hankookilbo.com##div.side-ad
+hankookilbo.com##iframe[class^="adiframe"]
+hankookilbo.com##iframe[src="/mainad300x250.html"]
 hankookilbo.com##iframe[src="/sidead300x250.html"]
 hankookilbo.com##iframe[src^="/newsad250x250.html"]
 hankyung.com##aside.ad-newsview
