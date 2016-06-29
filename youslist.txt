@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: IsbhMDedQlWanWIRAY2vaQ
+! Checksum: RhkjuMlDvf4i0uMH0CDsVA
 ! Version: 20160629
 
 ! General element hiding rules
@@ -192,6 +192,7 @@
 ||ad.pickple.net^
 ||ad.priel.co.kr^
 ||ad.reople.co.kr^
+||ad.tf.co.kr:8080/js.kti/
 ||ad.touchwise.co.kr^
 ||ad.turn.com/server/ads.js^
 ||ad.wowtv.co.kr^
@@ -423,6 +424,7 @@
 ||js.ad4989.co.kr/etc/tjtune/toast/m_tost_common2.js^
 ||js.ad4989.co.kr/etc/tjtune/under/under_photo.js^
 ||js.hnscom.com/etc/hns/hnsIframe_*.html^
+||js.hnscom.com/etc/hns/hook_*.js^
 ||js.keywordsconnect.com^
 ||js.mtburn.com/advs-instream.js^
 ||js.theprimead.co.kr^
@@ -450,6 +452,7 @@
 ||m.metroseoul.co.kr/common/js/custom/script_*_ad.js^
 ||m.news1.kr/ads/
 ||m.sportsseoul.com/application/views/ad/*.html^
+||m.tf.co.kr/public/*/ad/ad_read_content*.html^
 ||m.ytn.co.kr/ad/ad_*.html^
 ||m1.daumcdn.net/adtc/js/mobilead.js^
 ||maxmovie.com/banner/img/lotte630x88.jpg^
@@ -1182,6 +1185,13 @@ m.star.mt.co.kr##div#content>div[style="text-align:center;"]
 m.star.mt.co.kr##div#content>div[style="text-align:center; background:#fff"]
 m.star.mt.co.kr##section.bxcn4>div[style="width:300px;height:250px;position:relative;margin:0 auto;"]
 m.star.mt.co.kr##ul#flick-ad
+m.tf.co.kr##div#waveAd
+m.tf.co.kr##div#waveP
+m.tf.co.kr##div.AD_box
+m.tf.co.kr##div.adbox
+m.tf.co.kr##div.tbRight>div[style="height:84px; position:relative; left:0px; top:0px; "]
+m.tf.co.kr##span#rectingle_spanTag_ad
+m.tf.co.kr##ul.scTitleWrap div.trc-content-sponsored
 m.wikitree.co.kr##div#contentMidBanner
 m.wikitree.co.kr##div.ad230
 m.wikitree.co.kr##div.ad250
