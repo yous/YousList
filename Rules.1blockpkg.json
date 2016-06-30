@@ -10479,6 +10479,20 @@
                 }
             },
             {
+                "id": "909a1879-116b-46a2-a033-a1a693343047",
+                "name": "m.sports.media.daum.net##div#daumAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.sports\\.media\\.daum\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#daumAd"
+                    }
+                }
+            },
+            {
                 "id": "81379323-da3c-4901-ae19-64446cd5f9e6",
                 "name": "m.sports.naver.com##div.home_ad_group",
                 "content": {
