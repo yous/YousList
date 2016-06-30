@@ -11333,6 +11333,20 @@
                 }
             },
             {
+                "id": "e5cd7cd3-7216-4b7c-9e08-e688c60e6204",
+                "name": "media.daum.net##div.bnr_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?media\\.daum\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bnr_ad"
+                    }
+                }
+            },
+            {
                 "id": "85c62829-49db-4917-b156-f135194b7700",
                 "name": "minitoon.net##div.fixed-top",
                 "content": {
