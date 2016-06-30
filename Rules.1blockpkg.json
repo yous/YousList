@@ -10087,6 +10087,20 @@
                 }
             },
             {
+                "id": "a0d7b678-e8e5-4880-8af4-6114de1d007c",
+                "name": "m.naver.com##div.id_uio_cd_fbanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.naver\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.id_uio_cd_fbanner"
+                    }
+                }
+            },
+            {
                 "id": "80c06342-fbf0-4dd4-8117-8288bec2d159",
                 "name": "m.news.naver.com##div.ad_area",
                 "content": {
