@@ -8505,20 +8505,6 @@
                 }
             },
             {
-                "id": "32d700d0-953d-4dae-8ed1-d198a792f02e",
-                "name": "bbs1.ruliweb.daum.net##div#daumAd",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?bbs1\\.ruliweb\\.daum\\.net",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#daumAd"
-                    }
-                }
-            },
-            {
                 "id": "2281ee55-ee7b-4f84-885d-d0e884499e8f",
                 "name": "bbs1.ruliweb.daum.net##div.bnr_mobile",
                 "content": {
@@ -8529,20 +8515,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.bnr_mobile"
-                    }
-                }
-            },
-            {
-                "id": "c52916d6-1f3f-4bbf-a18c-58fd87967ad1",
-                "name": "bbs2.ruliweb.daum.net##div#daumAd",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?bbs2\\.ruliweb\\.daum\\.net",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#daumAd"
                     }
                 }
             },
@@ -8599,6 +8571,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "7e7c704f-106f-42da-9d64-6a6d44cefc9c",
+                "name": "daum.net##div#daumAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?daum\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#daumAd"
                     }
                 }
             },
@@ -9765,20 +9751,6 @@
                 }
             },
             {
-                "id": "af5e411f-7ef7-4a46-8f25-ac1a116b29b6",
-                "name": "m.media.daum.net##div#daumAd",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.media\\.daum\\.net",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#daumAd"
-                    }
-                }
-            },
-            {
                 "id": "aaa92bea-1799-4d3b-8dc6-6fea03b80e14",
                 "name": "m.media.daum.net##div.bnr_ad",
                 "content": {
@@ -10475,20 +10447,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.react_right_v>div:not([alt]):not([class])[style=\"width:100%;margin-bottom:20px;float:left;text-align:center;\"]"
-                    }
-                }
-            },
-            {
-                "id": "909a1879-116b-46a2-a033-a1a693343047",
-                "name": "m.sports.media.daum.net##div#daumAd",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.sports\\.media\\.daum\\.net",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#daumAd"
                     }
                 }
             },
