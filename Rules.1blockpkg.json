@@ -8673,6 +8673,20 @@
                 }
             },
             {
+                "id": "0234429c-40e8-4014-b0f7-5951e8d87f05",
+                "name": "m.bbs1.agora.media.daum.net##a.bnr_livboard",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.bbs1\\.agora\\.media\\.daum\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a.bnr_livboard"
+                    }
+                }
+            },
+            {
                 "id": "2f40f2ed-005d-4bdd-93e6-ddb5017bf1bf",
                 "name": "m.cafe.naver.com##div.area_sa",
                 "content": {
