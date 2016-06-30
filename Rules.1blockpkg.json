@@ -9065,6 +9065,20 @@
                 }
             },
             {
+                "id": "4cedcada-3119-4560-917a-787112894c88",
+                "name": "m.gamechosun.co.kr##body>div[style=\"overflow:hidden;width:100%;height:0;padding-bottom:16%;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.gamechosun\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"overflow:hidden;width:100%;height:0;padding-bottom:16%;\"]"
+                    }
+                }
+            },
+            {
                 "id": "89eb42de-25fc-4626-8a6d-1ef0df2a1888",
                 "name": "m.gamechosun.co.kr##div.ad_com_bener",
                 "content": {
@@ -9103,6 +9117,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.left_menuAd"
+                    }
+                }
+            },
+            {
+                "id": "b9e4d1dc-c776-45d1-9a15-4edeb0b9ecbe",
+                "name": "m.gamechosun.co.kr##div.sky_bn_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.gamechosun\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sky_bn_wrap"
+                    }
+                }
+            },
+            {
+                "id": "ea6d5676-4343-47b7-bce9-dd1483ccea6b",
+                "name": "m.gamechosun.co.kr##p.sky_btn_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.gamechosun\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "p.sky_btn_wrap"
                     }
                 }
             },
