@@ -9709,6 +9709,48 @@
                 }
             },
             {
+                "id": "aaa92bea-1799-4d3b-8dc6-6fea03b80e14",
+                "name": "m.media.daum.net##div.bnr_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.media\\.daum\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bnr_ad"
+                    }
+                }
+            },
+            {
+                "id": "42a5cf1c-1525-4b1d-810a-ca87f8db33e7",
+                "name": "m.media.daum.net##div.bnr_service",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.media\\.daum\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bnr_service"
+                    }
+                }
+            },
+            {
+                "id": "234d22d3-2f63-4122-957e-7afdec47966b",
+                "name": "m.media.daum.net##div.rolling_banner_list",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.media\\.daum\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rolling_banner_list"
+                    }
+                }
+            },
+            {
                 "id": "f3f291a1-2cc1-40df-bab2-640e44372683",
                 "name": "m.metroseoul.co.kr##div#ad_1",
                 "content": {
