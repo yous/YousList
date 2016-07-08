@@ -5821,6 +5821,19 @@
                 }
             },
             {
+                "id": "78fb3ec5-c4f3-4423-bb33-1f88d9739081",
+                "name": "m.chosun.com/200.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.chosun\\.com/200\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "5d6568bb-d13b-4a66-ac36-6b0a72701d2a",
                 "name": "m.chosun.com/tad.html",
                 "content": {
@@ -8687,6 +8700,20 @@
                 }
             },
             {
+                "id": "476962ba-874f-4e94-8cec-7b682d78fada",
+                "name": "m.chosun.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.chosun\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
                 "id": "edf053bd-2805-4326-a0d6-9a1f8b6c9521",
                 "name": "m.chosun.com##div.ad_img",
                 "content": {
@@ -8739,6 +8766,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.txt_ad_box"
+                    }
+                }
+            },
+            {
+                "id": "ef84b051-bc89-4a05-82dd-6c326ceb7dcd",
+                "name": "m.chosun.com##iframe[src^=\"http://m.chosun.com/200.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.chosun\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://m.chosun.com/200.html\"]"
                     }
                 }
             },

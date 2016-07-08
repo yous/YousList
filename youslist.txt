@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: vC1RYB3ftyo0iisalg5KgQ
+! Checksum: 5jpFyGA4CIzx0F9qt+5aeQ
 ! Version: 20160708
 
 ! General element hiding rules
@@ -442,6 +442,7 @@
 ||longkeyone.co.kr^
 ||m.11st.co.kr/MW/html/allianceAd/
 ||m.adtc.daum.net/js/mobilead.js^
+||m.chosun.com/200.html^
 ||m.chosun.com/tad.html^
 ||m.hankooki.com/ad/
 ||m.humoruniv.com/cauly_iframe.html^
@@ -1053,10 +1054,12 @@ login.daum.net##div.info_etc
 m.agora.daum.net##a.bnr_livboard
 m.bbs1.agora.media.daum.net##a.bnr_livboard
 m.cafe.naver.com##div.area_sa
+m.chosun.com##div.ad
 m.chosun.com##div.ad_img
 m.chosun.com##div.ad_txt
 m.chosun.com##div.art_sub_news_box
 m.chosun.com##div.txt_ad_box
+m.chosun.com##iframe[src^="http://m.chosun.com/200.html"]
 m.comic.naver.com##div.ads_sc
 m.daum.net##div.bnr_add
 m.daum.net##div.box_bnr
