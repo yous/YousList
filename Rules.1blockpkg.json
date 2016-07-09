@@ -5116,6 +5116,19 @@
                 }
             },
             {
+                "id": "c2c30a92-7235-4a24-9e6c-31537cad58d8",
+                "name": "image.cauly.co.kr/websdk/common/lasted/ads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?image\\.cauly\\.co\\.kr/websdk/common/lasted/ads\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "fba7dee5-5716-457a-8e99-58ec681ccbb1",
                 "name": "image.cauly.co.kr/websdk/multi_mini_ads/ads.js",
                 "content": {
@@ -11962,6 +11975,48 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-topmost-header"
+                    }
+                }
+            },
+            {
+                "id": "9133fcd8-e0c6-4540-8363-7ee2772c3b0f",
+                "name": "unnya.com##div#bottom_floating_100x100",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?unnya\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bottom_floating_100x100"
+                    }
+                }
+            },
+            {
+                "id": "48543421-9d7f-4a3e-b10a-6d5449db6936",
+                "name": "unnya.com##div#bottom_floating_320x50",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?unnya\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bottom_floating_320x50"
+                    }
+                }
+            },
+            {
+                "id": "e8e36c9a-00a9-4fd6-9a23-defd6632f819",
+                "name": "unnya.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?unnya\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
                     }
                 }
             },
