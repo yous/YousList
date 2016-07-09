@@ -2302,6 +2302,19 @@
                 }
             },
             {
+                "id": "cee39cf4-9c66-4b54-9381-8d910260ffb0",
+                "name": "ad.idnad.co.kr/ad/idn.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ad\\.idnad\\.co\\.kr/ad/idn\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c7c98935-26d9-40d3-9f4c-639f51b2c747",
                 "name": "ad.ilbe.com/files2/ad/",
                 "content": {
@@ -9121,6 +9134,48 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#article_Content>div[style=\"margin-top:20px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "fca89500-557b-4aa4-921d-81c3a0090b89",
+                "name": "m.focus.kr##div.adv_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.focus\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adv_bottom"
+                    }
+                }
+            },
+            {
+                "id": "d4057818-5d97-443c-9fc1-ed398c3e085d",
+                "name": "m.focus.kr##div.inner_article_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.focus\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.inner_article_banner"
+                    }
+                }
+            },
+            {
+                "id": "86a84549-59b9-4841-ad87-45f72361953b",
+                "name": "m.focus.kr##div.left_wrapper>div[style=\"width:100%;text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.focus\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.left_wrapper>div[style=\"width:100%;text-align:center;\"]"
                     }
                 }
             },
