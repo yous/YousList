@@ -7017,6 +7017,19 @@
                 }
             },
             {
+                "id": "d06d7a71-7c40-4501-989a-b071e516d47d",
+                "name": "nw.realssp.co.kr/realclickssp.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?nw\\.realssp\\.co\\.kr/realclickssp\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "77e0774e-8d01-4024-9063-dff47aedcd60",
                 "name": "nws.lumieyes.com/show*/media/",
                 "content": {
@@ -7754,6 +7767,54 @@
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sp1\\.jssearch\\.net",
                         "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fb1e59b1-4427-42bf-8b91-a41a63972a45",
+                "name": "spojoy.com/_html/_js/event/bscroll_left_160x600.js$domain=spojoy.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?spojoy\\.com/_html/_js/event/bscroll_left_160x600\\.js",
+                        "load-type": [],
+                        "if-domain": [
+                            "spojoy.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3bbaed24-c885-4b87-ba9c-701eb2d8b407",
+                "name": "spojoy.com/_html/_js/event/bscroll_right_down.js$domain=spojoy.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?spojoy\\.com/_html/_js/event/bscroll_right_down\\.js",
+                        "load-type": [],
+                        "if-domain": [
+                            "spojoy.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "43984a68-8a75-45c0-a9b7-6c1dc0d2df1b",
+                "name": "spojoy.com/_html/_js/event/fluting_scroll.js$domain=spojoy.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?spojoy\\.com/_html/_js/event/fluting_scroll\\.js",
+                        "load-type": [],
+                        "if-domain": [
+                            "spojoy.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
