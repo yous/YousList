@@ -8734,7 +8734,7 @@
             },
             {
                 "id": "f4b2a316-4bd2-4cd2-9147-44b869d7726c",
-                "name": "animefreak.tv##body>div>div[style=\"width:100%;height:768px;position:fixed;left:0;top:0px;overflow:hidden;visibility:hidden\"]",
+                "name": "animefreak.tv##body>div>div[style=\"width:100%;height:768px;position:fixed;left:0;top:0px;overflow:hidden;visibility:hidden;z-index:0\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?animefreak\\.tv",
@@ -8742,7 +8742,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "body>div>div[style=\"width:100%;height:768px;position:fixed;left:0;top:0px;overflow:hidden;visibility:hidden\"]"
+                        "selector": "body>div>div[style=\"width:100%;height:768px;position:fixed;left:0;top:0px;overflow:hidden;visibility:hidden;z-index:0\"]"
                     }
                 }
             },
