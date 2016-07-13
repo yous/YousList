@@ -4187,6 +4187,32 @@
                 }
             },
             {
+                "id": "f6bed258-6dc0-48f5-83f9-a8f744c9e3d4",
+                "name": "d1swklt9res5jr.cloudfront.net/static/packed/mezzoADv*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?d1swklt9res5jr\\.cloudfront\\.net/static/packed/mezzoADv.*\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3d0e36a4-537a-45a7-8a1e-2120ec4969ab",
+                "name": "d1swklt9res5jr.cloudfront.net/static/packed/tvple.ad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?d1swklt9res5jr\\.cloudfront\\.net/static/packed/tvple\\.ad\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "af4005d7-b79d-4133-8115-fe1c7160bef1",
                 "name": "daily.hankooki.com/ad/",
                 "content": {
@@ -4848,6 +4874,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?guide\\.allblet\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e667e06b-d6fb-40d3-9b79-6a9967a71966",
+                "name": "gwk.adlibr.com/script/web/smart/banner_ad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?gwk\\.adlibr\\.com/script/web/smart/banner_ad\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -8251,6 +8290,70 @@
                 }
             },
             {
+                "id": "0548874f-3d69-4053-b8f4-958b849cd19e",
+                "name": "tvple.com/ab/MW-B-*$domain=tvple.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?tvple\\.com/ab/MW-B-.*",
+                        "load-type": [],
+                        "if-domain": [
+                            "tvple.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0e07a411-ee73-47b5-8195-116fc805b09a",
+                "name": "tvple.com/ab/MW-O-*$domain=tvple.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?tvple\\.com/ab/MW-O-.*",
+                        "load-type": [],
+                        "if-domain": [
+                            "tvple.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "459e1de3-5790-464c-987d-eede955da5f3",
+                "name": "tvple.com/ab/PC-B-*$domain=tvple.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?tvple\\.com/ab/PC-B-.*",
+                        "load-type": [],
+                        "if-domain": [
+                            "tvple.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cd196a4d-eeef-4670-ae92-cc00404e8f61",
+                "name": "tvple.com/ab/PC-O-*$domain=tvple.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?tvple\\.com/ab/PC-O-.*",
+                        "load-type": [],
+                        "if-domain": [
+                            "tvple.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2e1985da-4749-4407-a571-234975a1cdd0",
                 "name": "unionpress.co.kr/news/html_tpl/pr_ad.php",
                 "content": {
@@ -8321,6 +8424,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?viewsnnews\\.com/image/advert/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c14a0b4d-ac6c-4a07-ae0a-3a8efa4efdb9",
+                "name": "vplayer.dawin.tv/js/*/dawinapi.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?vplayer\\.dawin\\.tv/js/.*/dawinapi\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -11975,6 +12091,132 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-topmost-header"
+                    }
+                }
+            },
+            {
+                "id": "2ccf93f1-8198-42c8-89f6-bb2f9b0d2187",
+                "name": "tvple.com##div#video-player>div.video-player-overlay",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?tvple\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#video-player>div.video-player-overlay"
+                    }
+                }
+            },
+            {
+                "id": "36ba3f64-9b35-4aed-bd02-13b7188702bb",
+                "name": "tvple.com##div.container-fluid>div.text-center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?tvple\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.container-fluid>div.text-center"
+                    }
+                }
+            },
+            {
+                "id": "08880b72-906a-4e51-ad26-d1be666c0668",
+                "name": "tvple.com##div.container>div.text-center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?tvple\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.container>div.text-center"
+                    }
+                }
+            },
+            {
+                "id": "affc9666-e35b-4fbf-8de7-b0ea6dac428e",
+                "name": "tvple.com##iframe[src^=\"/ab/MW-B-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?tvple\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ab/MW-B-\"]"
+                    }
+                }
+            },
+            {
+                "id": "af55e2bc-1dd2-4f10-a754-a31699e78bb7",
+                "name": "tvple.com##iframe[src^=\"/ab/MW-O-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?tvple\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ab/MW-O-\"]"
+                    }
+                }
+            },
+            {
+                "id": "ff706578-cc49-4323-9b5b-d8c0646beb07",
+                "name": "tvple.com##iframe[src^=\"/ab/PC-B-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?tvple\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ab/PC-B-\"]"
+                    }
+                }
+            },
+            {
+                "id": "e71c40e4-2375-4eb6-b657-91d713d51af2",
+                "name": "tvple.com##iframe[src^=\"/ab/PC-O-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?tvple\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ab/PC-O-\"]"
+                    }
+                }
+            },
+            {
+                "id": "6987d199-299b-430b-8862-bc85c52e3b1a",
+                "name": "tvple.com##section.col-playlist div.visible-box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?tvple\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.col-playlist div.visible-box"
+                    }
+                }
+            },
+            {
+                "id": "032e920f-bab4-456b-ba98-11f73538977d",
+                "name": "tvple.com##section.col-playlist>div.text-center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?tvple\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.col-playlist>div.text-center"
                     }
                 }
             },

@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 8/+OOmO3kelAfhYFAAnutg
-! Version: 20160709
+! Checksum: z2Dg4+REwUchGgu6TCzIlQ
+! Version: 20160714
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -321,6 +321,8 @@
 ||d.a1comm.co.kr^
 ||d.adroll.com^
 ||d.pixiv.org/show^
+||d1swklt9res5jr.cloudfront.net/static/packed/mezzoADv*.js^
+||d1swklt9res5jr.cloudfront.net/static/packed/tvple.ad.js^
 ||daily.hankooki.com/ad/
 ||dailygame.co.kr/ad/dispad_bot.html^
 ||dailygame.co.kr/ad/dispad_right.html^
@@ -372,6 +374,7 @@
 ||googletagservices.com/tag/js/gpt.js^
 ||gsad.gameshot.net^
 ||guide.allblet.net^
+||gwk.adlibr.com/script/web/smart/banner_ad.js^
 ||h*.adscope.co.kr^
 ||hani.co.kr/section-adv/
 ||hankooki.com/common/mobilelink/mobile_hk.htm^
@@ -628,12 +631,17 @@
 ||tv.sbs.co.kr/common/common_ad.jsp^
 ||tvdaily.mk.co.kr/ad/
 ||tvdaily.mk.co.kr/include/flash.php^
+||tvple.com/ab/MW-B-*^$domain=tvple.com
+||tvple.com/ab/MW-O-*^$domain=tvple.com
+||tvple.com/ab/PC-B-*^$domain=tvple.com
+||tvple.com/ab/PC-O-*^$domain=tvple.com
 ||unionpress.co.kr/news/html_tpl/pr_ad.php^
 ||unionpress.co.kr/news/master/banner/3d69ca2f12c09759924d8be0a89a4259^
 ||uplus.kr/cd/cdNavi/retreieveHtml3JS.dmd^
 ||uplus.kr/common/m_js/mobile_html_web4.js^
 ||view.asiae.co.kr/common/ad/
 ||viewsnnews.com/image/advert/
+||vplayer.dawin.tv/js/*/dawinapi.js^
 ||watchcartoononline.com/ads*.html^
 ||watchcartoononline.com/inc/reklam/*.html
 ||web.humoruniv.com/ads/banner.html^
@@ -1694,6 +1702,15 @@ tvdaily.mk.co.kr##div#STATICMENU
 tvdaily.mk.co.kr##div#readtopad
 tvdaily.mk.co.kr##div[class="read"]>table
 tvdaily.mk.co.kr##div[id="joinskmbox"]>table
+tvple.com##div#video-player>div.video-player-overlay
+tvple.com##div.container-fluid>div.text-center
+tvple.com##div.container>div.text-center
+tvple.com##iframe[src^="/ab/MW-B-"]
+tvple.com##iframe[src^="/ab/MW-O-"]
+tvple.com##iframe[src^="/ab/PC-B-"]
+tvple.com##iframe[src^="/ab/PC-O-"]
+tvple.com##section.col-playlist div.visible-box
+tvple.com##section.col-playlist>div.text-center
 tvreport.co.kr##div.advertise_02
 twilog.org##div#ad-side-bottom
 twilog.org##div#ad-text
