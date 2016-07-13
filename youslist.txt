@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: z2Dg4+REwUchGgu6TCzIlQ
+! Checksum: 5laRsbJ38RzMdgoLfjaQ3Q
 ! Version: 20160714
 
 ! General element hiding rules
@@ -19,6 +19,7 @@
 ##div#wiseAd
 ##div.ezAdsense
 ##div.gpt_ad_container
+##div[id^="MarketGidScriptRootC"]
 ##div[id^="div-gpt-ad-"]
 ##div[id^="google_ads_iframe_"]
 ##div[id^="sbaAbout"]
@@ -129,6 +130,7 @@
 ##iframe[src^="http://www.koreadaily.com/_ui/ad/"]
 ##iframe[src^="http://www.mediamixad.com/ad/liveAd"]
 ##iframe[src^="http://www.sunnyworks.co.kr/data/SW"][src$=".html"]
+##iframe[src^="https://creative.wwwpromoter.com/"]
 ##ins.adsbygoogle
 ##ins.daum_ddn_area
 
@@ -315,6 +317,7 @@
 ||cm2.cjmooter.com^
 ||coolsoft.altervista.org/sites/all/themes/coolsoft/js/coolsoft.js^
 ||cpv.ad.naver.com/adshow^
+||creative.wwwpromoter.com^
 ||cwdata.itplay.co.kr/ol/
 ||cwdata.itsearch.co.kr^
 ||cwstatic.heraldm.com/adcont/
@@ -436,6 +439,7 @@
 ||js.mtburn.com/advs-instream.js^
 ||js.theprimead.co.kr^
 ||js2.keywordsconnect.com^
+||jsc.mgid.com/k/a/
 ||jshoppingbox.joinsmsn.com^
 ||jtbc.joins.com/common/json2XMLvast.aspx^
 ||keyword.ad4989.co.kr^
@@ -1039,6 +1043,7 @@ joinsmsn.com##div[class$="ad_link_area"]
 joongang.joins.com##div[data-widget-type="Ad"]
 joongdo.co.kr##div#id_header_R
 joynews.inews24.com##iframe[name^="rollingFrameTop"]
+kat.cr##div.spareBlock
 kookje.co.kr##div#bnr_newsmiddleArea
 kookje.co.kr##div#bnr_newsmiddlebottomArea
 kookje.co.kr##div#bnr_newstopArea
