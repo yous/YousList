@@ -6619,6 +6619,19 @@
                 }
             },
             {
+                "id": "5ef38dca-ddce-4b4a-ae5c-b4bc407fa953",
+                "name": "mv.ad.naver.com/adshow",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mv\\.ad\\.naver\\.com/adshow",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "cf8fa99a-e6e2-4bd8-a74b-070b5a93b25e",
                 "name": "mydaily.co.kr/news/ad_news*.htm",
                 "content": {
@@ -10151,6 +10164,48 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.contBn_foot"
+                    }
+                }
+            },
+            {
+                "id": "795725b3-0fd2-4a93-9028-55574e95840f",
+                "name": "m.kin.naver.com##div#adContextMobile",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.kin\\.naver\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adContextMobile"
+                    }
+                }
+            },
+            {
+                "id": "753a49c2-5819-4830-9959-163d6de58d2f",
+                "name": "m.kin.naver.com##div#da_kin",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.kin\\.naver\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#da_kin"
+                    }
+                }
+            },
+            {
+                "id": "3159dab7-75be-4231-9423-a0566a229cf1",
+                "name": "m.kin.naver.com##div#kin_common_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.kin\\.naver\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#kin_common_banner"
                     }
                 }
             },
