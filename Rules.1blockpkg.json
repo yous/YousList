@@ -4203,6 +4203,54 @@
                 }
             },
             {
+                "id": "b1d9bfbc-56cf-4752-aca2-1b4fb7d56380",
+                "name": "cyad1.nate.com/js.kti/mnate/mob@pannback_Top3$domain=m.pann.nate.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cyad1\\.nate\\.com/js\\.kti/mnate/mob@pannback_Top3",
+                        "load-type": [],
+                        "if-domain": [
+                            "m.pann.nate.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "005e4b19-506f-4deb-9b13-f8fe1043bc26",
+                "name": "cyad1.nate.com/js.kti/mnate/pann@rt_Middle1$domain=m.pann.nate.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cyad1\\.nate\\.com/js\\.kti/mnate/pann@rt_Middle1",
+                        "load-type": [],
+                        "if-domain": [
+                            "m.pann.nate.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ac57b3d1-350b-4cc7-9704-69bc2e04e637",
+                "name": "cyad1.nate.com/js.kti/mnate/pann@spsbt_Top3$domain=m.pann.nate.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cyad1\\.nate\\.com/js\\.kti/mnate/pann@spsbt_Top3",
+                        "load-type": [],
+                        "if-domain": [
+                            "m.pann.nate.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4b0e9621-e613-43d9-9c69-4fbab72a74a7",
                 "name": "d.a1comm.co.kr",
                 "content": {
@@ -4455,6 +4503,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?dreamsearch\\.or\\.kr/servlet/iadbn",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "4ff75109-47be-477e-8be8-0e6530ef77d1",
+                "name": "dreamsearch.or.kr/servlet/nateMobileServlet",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?dreamsearch\\.or\\.kr/servlet/nateMobileServlet",
                         "load-type": []
                     },
                     "action": {
@@ -6123,6 +6184,38 @@
                 }
             },
             {
+                "id": "179ebe97-42c3-4a72-b6f9-2f673a8b6062",
+                "name": "m.pann.nate.com/da/AdBigBanner$domain=m.pann.nate.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.pann\\.nate\\.com/da/AdBigBanner",
+                        "load-type": [],
+                        "if-domain": [
+                            "m.pann.nate.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "47379b79-bf44-423d-8515-da9b0129d37e",
+                "name": "m.pann.nate.com/da/shopbox$domain=m.pann.nate.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.pann\\.nate\\.com/da/shopbox",
+                        "load-type": [],
+                        "if-domain": [
+                            "m.pann.nate.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a2838ebe-5987-4427-81cd-4baec8b4c94d",
                 "name": "m.sportsseoul.com/application/views/ad/*.html",
                 "content": {
@@ -6766,6 +6859,22 @@
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?nate\\.com/main/srv/shop_11st/",
                         "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f38023f5-a35a-4b49-80b8-857adf985627",
+                "name": "networkad.nate.com/nate/mobile_pann.html$domain=m.pann.nate.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?networkad\\.nate\\.com/nate/mobile_pann\\.html",
+                        "load-type": [],
+                        "if-domain": [
+                            "m.pann.nate.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -10632,6 +10741,118 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_box_outline"
+                    }
+                }
+            },
+            {
+                "id": "cc18ce70-37f6-4da5-bd4c-665fa4350519",
+                "name": "m.pann.nate.com##div.ad_area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.pann\\.nate\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_area"
+                    }
+                }
+            },
+            {
+                "id": "1812f902-b8ff-40e0-a493-943aa7b052cc",
+                "name": "m.pann.nate.com##div.ad_box_text",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.pann\\.nate\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_box_text"
+                    }
+                }
+            },
+            {
+                "id": "4a55d148-3bc3-4e3b-b9a3-534b2f224d82",
+                "name": "m.pann.nate.com##div.adtive_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.pann\\.nate\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adtive_box"
+                    }
+                }
+            },
+            {
+                "id": "108901b6-a169-4a3e-b21f-a6ae483d8490",
+                "name": "m.pann.nate.com##div.bannerBtm",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.pann\\.nate\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bannerBtm"
+                    }
+                }
+            },
+            {
+                "id": "68bb0329-45a0-4178-9e62-dbd59720758e",
+                "name": "m.pann.nate.com##div.bannerNate",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.pann\\.nate\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bannerNate"
+                    }
+                }
+            },
+            {
+                "id": "50fe27cb-c21e-4f50-9216-8b3c4a2ddd50",
+                "name": "m.pann.nate.com##iframe[src^=\"/da/AdBigBanner\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.pann\\.nate\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/da/AdBigBanner\"]"
+                    }
+                }
+            },
+            {
+                "id": "601e4a0e-cd73-4572-bbfe-2d81364b4202",
+                "name": "m.pann.nate.com##iframe[src^=\"/da/shopbox\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.pann\\.nate\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/da/shopbox\"]"
+                    }
+                }
+            },
+            {
+                "id": "b35374a7-0457-41b9-90cf-65ce0ace0e14",
+                "name": "m.pann.nate.com##iframe[src^=\"http://networkad.nate.com/nate/mobile_pann.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.pann\\.nate\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://networkad.nate.com/nate/mobile_pann.html\"]"
                     }
                 }
             },

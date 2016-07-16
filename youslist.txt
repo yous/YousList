@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: WnpX1sxy6S6ag0SmCaMpTg
+! Checksum: WTCMgLoPBHKheF6sNHdZig
 ! Version: 20160716
 
 ! General element hiding rules
@@ -322,6 +322,9 @@
 ||cwdata.itplay.co.kr/ol/
 ||cwdata.itsearch.co.kr^
 ||cwstatic.heraldm.com/adcont/
+||cyad1.nate.com/js.kti/mnate/mob@pannback_Top3^$domain=m.pann.nate.com
+||cyad1.nate.com/js.kti/mnate/pann@rt_Middle1^$domain=m.pann.nate.com
+||cyad1.nate.com/js.kti/mnate/pann@spsbt_Top3^$domain=m.pann.nate.com
 ||d.a1comm.co.kr^
 ||d.adroll.com^
 ||d.pixiv.org/show^
@@ -342,6 +345,7 @@
 ||dreamsearch.or.kr/servlet/adbn^
 ||dreamsearch.or.kr/servlet/adbnMobileBanner^
 ||dreamsearch.or.kr/servlet/iadbn^
+||dreamsearch.or.kr/servlet/nateMobileServlet^
 ||dreamsearch.or.kr/servlet/sadbn^
 ||dt.co.kr/js/top_ad.js^
 ||ea.slrclub.com/NetInsight/
@@ -465,6 +469,8 @@
 ||m.kmib.co.kr/banner/
 ||m.metroseoul.co.kr/common/js/custom/script_*_ad.js^
 ||m.news1.kr/ads/
+||m.pann.nate.com/da/AdBigBanner^$domain=m.pann.nate.com
+||m.pann.nate.com/da/shopbox^$domain=m.pann.nate.com
 ||m.sportsseoul.com/application/views/ad/*.html^
 ||m.tf.co.kr/public/*/ad/ad_read_content*.html^
 ||m.ytn.co.kr/ad/ad_*.html^
@@ -515,6 +521,7 @@
 ||nanumnews.com/data/nanumnews_com/upload/bn_2012/mireco.gif^
 ||nanumnews.com/news_skin/nanumnews_com/main/nanum_ad_*.html^
 ||nate.com/main/srv/shop_11st/
+||networkad.nate.com/nate/mobile_pann.html^$domain=m.pann.nate.com
 ||new.jshopbox.com/sbox/box/
 ||news.chosun.com/chosun/chosunad.html^
 ||news.chosun.com/dhtm/js/art/*/cs_art_ad_*.js^
@@ -1201,6 +1208,14 @@ m.ohmynews.com##div#adDaum
 m.ohmynews.com##div#adDaum_top
 m.ohmynews.com##div#ad_box
 m.ohmynews.com##div.ad_box_outline
+m.pann.nate.com##div.ad_area
+m.pann.nate.com##div.ad_box_text
+m.pann.nate.com##div.adtive_box
+m.pann.nate.com##div.bannerBtm
+m.pann.nate.com##div.bannerNate
+m.pann.nate.com##iframe[src^="/da/AdBigBanner"]
+m.pann.nate.com##iframe[src^="/da/shopbox"]
+m.pann.nate.com##iframe[src^="http://networkad.nate.com/nate/mobile_pann.html"]
 m.ruliweb.com##div.ad_wrapper
 m.ruliweb.com##div.fixed_ad_wrapper
 m.segye.com##div#textbanner
