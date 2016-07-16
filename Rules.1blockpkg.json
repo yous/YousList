@@ -1628,6 +1628,20 @@
                 }
             },
             {
+                "id": "6fae803d-b967-4bbc-b870-2555ec66ba70",
+                "name": "##iframe[src^=\"http://www.dreamsearch.or.kr/servlet/adbnMobileBanner\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.dreamsearch.or.kr/servlet/adbnMobileBanner\"]"
+                    }
+                }
+            },
+            {
                 "id": "3d960d41-85b3-43f1-99c0-9f1ee7b1b7d0",
                 "name": "##iframe[src^=\"http://www.dreamsearch.or.kr/servlet/iadbn\"]",
                 "content": {
@@ -4415,6 +4429,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?dreamsearch\\.or\\.kr/servlet/adbn",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "53cc9e83-2b62-42e3-a3f9-f1724b714481",
+                "name": "dreamsearch.or.kr/servlet/adbnMobileBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?dreamsearch\\.or\\.kr/servlet/adbnMobileBanner",
                         "load-type": []
                     },
                     "action": {
@@ -10045,6 +10072,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.kmib_txbnr"
+                    }
+                }
+            },
+            {
+                "id": "c96eecf3-cd18-4e18-9e6f-4f4e4b64a135",
+                "name": "m.kmib.co.kr##div.mo_bnr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.kmib\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mo_bnr"
                     }
                 }
             },

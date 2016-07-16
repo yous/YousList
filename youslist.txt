@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: tK+CfphNt5LL7b/HKgSQww
+! Checksum: 1KFCFG8n7F+Xm1AXnR/KLQ
 ! Version: 20160716
 
 ! General element hiding rules
@@ -123,6 +123,7 @@
 ##iframe[src^="http://www.animefreak.tv/sites/all/modules/custom/anime/yanone.html"]
 ##iframe[src^="http://www.dreamsearch.or.kr/ad/"]
 ##iframe[src^="http://www.dreamsearch.or.kr/servlet/adBanner"]
+##iframe[src^="http://www.dreamsearch.or.kr/servlet/adbnMobileBanner"]
 ##iframe[src^="http://www.dreamsearch.or.kr/servlet/iadbn"]
 ##iframe[src^="http://www.inven.co.kr/ad/"]
 ##iframe[src^="http://www.jjan.kr/banner/ad_banner_"][src$=".html"]
@@ -338,7 +339,8 @@
 ||dreamsearch.or.kr/adnet/
 ||dreamsearch.or.kr/servlet/adBanner^
 ||dreamsearch.or.kr/servlet/adBannerFloating^
-||dreamsearch.or.kr/servlet/adbn*
+||dreamsearch.or.kr/servlet/adbn^
+||dreamsearch.or.kr/servlet/adbnMobileBanner^
 ||dreamsearch.or.kr/servlet/iadbn^
 ||dreamsearch.or.kr/servlet/sadbn^
 ||dt.co.kr/js/top_ad.js^
@@ -1159,6 +1161,7 @@ m.kmib.co.kr##body>div[style="wdith:100%;height:50px;"]
 m.kmib.co.kr##div.css_remon_wiki1
 m.kmib.co.kr##div.dw_cnt>div.ban
 m.kmib.co.kr##div.kmib_txbnr
+m.kmib.co.kr##div.mo_bnr
 m.kmib.co.kr##div.tp_cnt>div[style="margin:0 auto;text-align:center;overflow:hidden;padding:10px 0;border-bottom:1px solid #ebebeb;"]
 m.kmib.co.kr##div.vw_txad
 m.kukinews.com##div.bnr
