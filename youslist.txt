@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: QOxmwm9yi1Xedbpg8Nsa6A
+! Checksum: BmPooK4Ex/jSa1XxEL4I+Q
 ! Version: 20160718
 
 ! General element hiding rules
@@ -43,6 +43,7 @@
 ##iframe[src^="http://ad.xc.nis.nitmus.com/"]
 ##iframe[src^="http://ad1.eventmanager.co.kr/"]
 ##iframe[src^="http://adc.ohmynews.com/NetInsight/"]
+##iframe[src^="http://adex.ednplus.com/"]
 ##iframe[src^="http://adexpert.ad4989.co.kr/"]
 ##iframe[src^="http://adexview.new-star.co.kr/"]
 ##iframe[src^="http://adin.ad4980.kr/"]
@@ -215,6 +216,7 @@
 ||adcrm.co.kr/md/
 ||addc.dcinside.com/NetInsight/
 ||adddn.adotsolution.com/contents/sdk/js/tad.min.js^
+||adex.ednplus.com^
 ||adexpert.ad4989.co.kr^
 ||adexview.neoebiz.co.kr^
 ||adexview.new-star.co.kr^
@@ -300,6 +302,9 @@
 ||bs.serving-sys.com/BurstingPipe/adServer.bs^
 ||c.betrad.com/surly.js^
 ||cache.ssend.microad.jp/js/adfunnel-sp-load.js^
+||cad.donga.com/M/view_ad*.js^
+||cad.donga.com/M/view_body_inspace_*.js^
+||cad.donga.com/M/view_body_middle_*.js^
 ||cad.donga.com/netBanners/
 ||cadvv.heraldm.com/hb/imad/
 ||candy.ad9.kr^
@@ -1402,10 +1407,15 @@ news.chosun.com##div.art_ad_ss_right
 news.chosun.com##div.art_ad_top
 news.chosun.com##div.art_aisde_ads
 news.cnbnews.com##div[class^="top_bn"]
+news.donga.com##body>div[style="height:50px; width:100%;align:center;position:fixed; bottom:0;z-index:9999;"]
 news.donga.com##div#__news.donga.com_aq2
+news.donga.com##div#_popIn_recommend div._popIn_recommend_article_ad
+news.donga.com##div#top_AD
+news.donga.com##div#view_body_middle_iframe1
 news.donga.com##div.clArticleAd
 news.donga.com##div[id^="left_AD_"]
 news.donga.com##div[id^="right_AD_"]
+news.donga.com##div[class^="adView"]
 news.donga.com##div[class^="aside_AD"]
 news.donga.com##div[class^="sub_cont_AD"]
 news.hankooki.com##div#DrBox

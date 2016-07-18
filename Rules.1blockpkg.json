@@ -508,6 +508,20 @@
                 }
             },
             {
+                "id": "b95b8d5d-c8a8-43f2-a48b-2f6dfa9056ba",
+                "name": "##iframe[src^=\"http://adex.ednplus.com/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adex.ednplus.com/\"]"
+                    }
+                }
+            },
+            {
                 "id": "c66db1f2-c210-4138-9c95-492b0d4e4790",
                 "name": "##iframe[src^=\"http://adexpert.ad4989.co.kr/\"]",
                 "content": {
@@ -2814,6 +2828,19 @@
                 }
             },
             {
+                "id": "09a65ba3-c232-42a6-8cd4-a43fa792d859",
+                "name": "adex.ednplus.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adex\\.ednplus\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d5bdbb55-7adb-4ae7-98ee-d0b3f81bfd02",
                 "name": "adexpert.ad4989.co.kr",
                 "content": {
@@ -3911,6 +3938,45 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cache\\.ssend\\.microad\\.jp/js/adfunnel-sp-load\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "93633f48-f274-4eb2-824c-fc5ca919924a",
+                "name": "cad.donga.com/M/view_ad*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cad\\.donga\\.com/M/view_ad.*\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b47a1225-c9f1-4130-a78f-436635997a5b",
+                "name": "cad.donga.com/M/view_body_inspace_*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cad\\.donga\\.com/M/view_body_inspace_.*\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e0bb55b3-e26a-44f9-8e58-e06268190dd8",
+                "name": "cad.donga.com/M/view_body_middle_*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cad\\.donga\\.com/M/view_body_middle_.*\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -12544,6 +12610,76 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.widead"
+                    }
+                }
+            },
+            {
+                "id": "2660c31b-21e7-4009-b79b-b342e270ed74",
+                "name": "news.donga.com##body>div[style=\"height:50px; width:100%;align:center;position:fixed; bottom:0;z-index:9999;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?news\\.donga\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"height:50px; width:100%;align:center;position:fixed; bottom:0;z-index:9999;\"]"
+                    }
+                }
+            },
+            {
+                "id": "0c4abe06-6a7f-42a9-ae1d-8f0254bb0653",
+                "name": "news.donga.com##div#_popIn_recommend div._popIn_recommend_article_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?news\\.donga\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#_popIn_recommend div._popIn_recommend_article_ad"
+                    }
+                }
+            },
+            {
+                "id": "ac97e39c-fbb0-44ff-bc0d-8437dfe01592",
+                "name": "news.donga.com##div#top_AD",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?news\\.donga\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#top_AD"
+                    }
+                }
+            },
+            {
+                "id": "0daf7d75-132b-4a27-87ec-0514222ab75c",
+                "name": "news.donga.com##div#view_body_middle_iframe1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?news\\.donga\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#view_body_middle_iframe1"
+                    }
+                }
+            },
+            {
+                "id": "8f5bbf8a-61dd-4b4f-8f56-8300964e3b95",
+                "name": "news.donga.com##div[class^=\"adView\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?news\\.donga\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"adView\"]"
                     }
                 }
             },
