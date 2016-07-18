@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: e4s5Lq4W63u4SgzGnQ/v5A
-! Version: 20160716
+! Checksum: mGCZN+5hf2E8rgpMOHzq2A
+! Version: 20160718
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -47,6 +47,7 @@
 ##iframe[src^="http://adexview.new-star.co.kr/"]
 ##iframe[src^="http://adin.ad4980.kr/"]
 ##iframe[src^="http://adn.inven.co.kr/"]
+##iframe[src^="http://adpingpong.co.kr/"]
 ##iframe[src^="http://adpingpong1.co.kr/"]
 ##iframe[src^="http://ads-optima.com/www/delivery/afr.php"]
 ##iframe[src^="http://ads.ecoadproject.co.kr/"]
@@ -119,6 +120,7 @@
 ##iframe[src^="http://static.joins.com/isplus/ui/ad/"]
 ##iframe[src^="http://tab2.clickmon.co.kr/pop/"]
 ##iframe[src^="http://www.ad-playstore.com/"]
+##iframe[src^="http://www.adpingpong.co.kr/"]
 ##iframe[src^="http://www.animefreak.tv/sites/all/modules/custom/anime/ads/"]
 ##iframe[src^="http://www.animefreak.tv/sites/all/modules/custom/anime/yanone.html"]
 ##iframe[src^="http://www.dreamsearch.or.kr/ad/"]
@@ -233,6 +235,7 @@
 ||adn.inven.co.kr^
 ||adn.nsmartad.com^
 ||adneo.encock.com/media/
+||adpingpong.co.kr^
 ||adpingpong1.co.kr^
 ||ads-by.yieldselect.com^
 ||ads-optima.com/www/delivery/afr.php^
@@ -542,6 +545,7 @@
 ||news.sportsseoul.com/public/ad/
 ||news.tf.co.kr/public/ad/*/read/*.html^
 ||news1.kr/iframe/ad/
+||newsis.com/ad/view_banner.html^$domain=newsis.com
 ||newscomm.nate.com/Etc/SocialAD^
 ||newswave.kr/ad/
 ||newsway.kr/ad/
@@ -1509,6 +1513,7 @@ newshankuk.com##div.bannerBottomR
 newshankuk.com##div.bannerTopR
 newsis.com##div#div_ad1
 newsis.com##div#div_ad2
+newsis.com##iframe[src^="/ad/view_banner.html"]
 newspim.com##body>div[style="position:absolute; top:170px; z-index:1000; margin-left:500px; left:50%;"]
 newspim.com##body>div[style="position:absolute; top:180px; z-index:1000; margin-left:-620px; left:50%;"]
 newspim.com##body>div[style="position:absolute; top:780px; z-index:1000; margin-left:500px; left:50%;"]

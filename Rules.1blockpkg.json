@@ -564,6 +564,20 @@
                 }
             },
             {
+                "id": "0b278c6f-60bc-40ec-b1ac-57d10125102c",
+                "name": "##iframe[src^=\"http://adpingpong.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adpingpong.co.kr/\"]"
+                    }
+                }
+            },
+            {
                 "id": "3ad35517-b03d-443c-bad0-7c3d3372a08f",
                 "name": "##iframe[src^=\"http://adpingpong1.co.kr/\"]",
                 "content": {
@@ -1568,6 +1582,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://www.ad-playstore.com/\"]"
+                    }
+                }
+            },
+            {
+                "id": "d9d34b8a-0586-487e-b2b9-0095715ba100",
+                "name": "##iframe[src^=\"http://www.adpingpong.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.adpingpong.co.kr/\"]"
                     }
                 }
             },
@@ -3038,6 +3066,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adneo\\.encock\\.com/media/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "57946e4d-5a98-486a-a58d-81dbc6eede3f",
+                "name": "adpingpong.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adpingpong\\.co\\.kr",
                         "load-type": []
                     },
                     "action": {
@@ -7148,6 +7189,22 @@
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?newscomm\\.nate\\.com/Etc/SocialAD",
                         "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1dab15cb-13b5-4cc9-8016-020f59799b87",
+                "name": "newsis.com/ad/view_banner.html$domain=newsis.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?newsis\\.com/ad/view_banner\\.html",
+                        "load-type": [],
+                        "if-domain": [
+                            "newsis.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -12362,6 +12419,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.widead"
+                    }
+                }
+            },
+            {
+                "id": "6996d294-a583-41a3-898f-f51533e6c0b5",
+                "name": "newsis.com##iframe[src^=\"/ad/view_banner.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?newsis\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ad/view_banner.html\"]"
                     }
                 }
             },
