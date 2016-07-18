@@ -10626,6 +10626,20 @@
                 }
             },
             {
+                "id": "51d4b3a9-5c3d-4494-aadd-070c24d2d69f",
+                "name": "m.moneyweek.co.kr##div#ad_div_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.moneyweek\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_div_bottom"
+                    }
+                }
+            },
+            {
                 "id": "9a37f854-4d67-4fe1-9968-c9f2abe3b41f",
                 "name": "m.mydaily.co.kr##body>div>div[style=\"background:#fff; padding-top:10px; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; margin:10px 0\"]",
                 "content": {
