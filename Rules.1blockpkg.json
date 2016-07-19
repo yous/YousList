@@ -7395,6 +7395,54 @@
                 }
             },
             {
+                "id": "f740b9dc-f5e1-4d7b-a2d0-a4d42bf4b259",
+                "name": "newsworker.co.kr/adNdsoft/$domain=newsworker.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?newsworker\\.co\\.kr/adNdsoft/",
+                        "load-type": [],
+                        "if-domain": [
+                            "newsworker.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d887873e-40fb-42be-a474-1e60db299644",
+                "name": "newsworker.co.kr/bannerManager/$domain=newsworker.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?newsworker\\.co\\.kr/bannerManager/",
+                        "load-type": [],
+                        "if-domain": [
+                            "newsworker.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6b19107e-a5c5-45a9-bad2-aae87b8e7333",
+                "name": "newsworker.co.kr/script/ad_flow1.js$domain=newsworker.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?newsworker\\.co\\.kr/script/ad_flow1\\.js",
+                        "load-type": [],
+                        "if-domain": [
+                            "newsworker.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "bab00818-69fe-4fc9-b7f4-45443858272e",
                 "name": "nocutnews.co.kr/banner/2012/ad_right_*.asp",
                 "content": {
@@ -12902,6 +12950,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/ad/view_banner.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "d132eba3-2556-4e1b-bc3d-17f7cda538e2",
+                "name": "newsworker.co.kr##div#ad_scrollB",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?newsworker\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_scrollB"
+                    }
+                }
+            },
+            {
+                "id": "dcaa7862-5706-4b16-b9c8-130ed857a151",
+                "name": "newsworker.co.kr##div#floating_banner_body",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?newsworker\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#floating_banner_body"
                     }
                 }
             },

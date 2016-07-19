@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: x+QxL6UcZuWsLexGu8A+1g
+! Checksum: ysy92APLhLIW47edUL/4yg
 ! Version: 20160719
 
 ! General element hiding rules
@@ -561,6 +561,9 @@
 ||newsway.kr/banner/left_banner.html^
 ||newsway.kr/banner/overture.html^
 ||newsway.kr/bannerManager/
+||newsworker.co.kr/adNdsoft/$domain=newsworker.co.kr
+||newsworker.co.kr/bannerManager/$domain=newsworker.co.kr
+||newsworker.co.kr/script/ad_flow1.js^$domain=newsworker.co.kr
 ||nocutnews.co.kr/banner/2012/ad_right_*.asp^
 ||npian.com/nbox/ad*.swf^
 ||nscreen.neoebiz.co.kr/xJqScreen.php^
@@ -1561,6 +1564,8 @@ newspim.com##div#topview_allwrap>div[style="text-align:center; float:left; width
 newsway.kr##div#float_1002
 newsway.kr##div#google_banner
 newsway.kr##div[id^="NMN_BANNER_WIDGET_"]
+newsworker.co.kr##div#ad_scrollB
+newsworker.co.kr##div#floating_banner_body
 noblesse.com##div#top_banner
 noblesse.com##div.bannerwrap
 nocutnews.co.kr##div.ad1
