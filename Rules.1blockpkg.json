@@ -2958,6 +2958,19 @@
                 }
             },
             {
+                "id": "ba7cd9d8-098d-4b0b-a3fe-9312fc4196a8",
+                "name": "adimg3.search.naver.net/adpost/js/ad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adimg3\\.search\\.naver\\.net/adpost/js/ad\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d884e878-6274-4c2e-b998-fdcc616ed166",
                 "name": "adimg3.search.naver.net/adpost/kin/js/naver.searchad.tooltip.js",
                 "content": {
@@ -9333,6 +9346,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a.bnr_livboard"
+                    }
+                }
+            },
+            {
+                "id": "d1dfa8d7-e84e-410e-ab2a-818878634061",
+                "name": "m.blog.naver.com##div._adPost",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.blog\\.naver\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div._adPost"
                     }
                 }
             },
