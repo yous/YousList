@@ -11086,6 +11086,20 @@
                 }
             },
             {
+                "id": "3c71bd13-ff68-4391-a625-c76be25bb0ea",
+                "name": "m.newsworker.co.kr##section.advertisment",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.newsworker\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.advertisment"
+                    }
+                }
+            },
+            {
                 "id": "707eb70b-1329-4df8-9b0f-afae0e618a61",
                 "name": "m.nocutnews.co.kr##div.con_b>div.ct_box",
                 "content": {
