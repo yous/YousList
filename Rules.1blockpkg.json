@@ -9192,6 +9192,20 @@
                 }
             },
             {
+                "id": "b6f9573b-1b03-4def-8872-be95c6642975",
+                "name": "ask.fm##div.askfm-ad-slot",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ask\\.fm",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.askfm-ad-slot"
+                    }
+                }
+            },
+            {
                 "id": "4d36c849-8bea-4bf8-9dd4-93429971a699",
                 "name": "avdbs.com##div#banner_bottom",
                 "content": {
