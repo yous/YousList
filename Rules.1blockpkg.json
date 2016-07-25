@@ -1222,20 +1222,6 @@
                 }
             },
             {
-                "id": "a32b17d6-b0fe-487d-bcb7-aee52250959e",
-                "name": "##iframe[src^=\"http://m.chosun.com/tad.html\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"http://m.chosun.com/tad.html\"]"
-                    }
-                }
-            },
-            {
                 "id": "0d505cd5-546b-4d30-b8a4-4464ec38953f",
                 "name": "##iframe[src^=\"http://m.hankooki.com/ad/\"]",
                 "content": {
@@ -6205,11 +6191,30 @@
             },
             {
                 "id": "78fb3ec5-c4f3-4423-bb33-1f88d9739081",
-                "name": "m.chosun.com/200.html",
+                "name": "m.chosun.com/200.html$domain=m.chosun.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.chosun\\.com/200\\.html",
-                        "load-type": []
+                        "load-type": [],
+                        "if-domain": [
+                            "m.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3d4e1e4b-15a9-4711-992a-629b94ce3f2a",
+                "name": "m.chosun.com/itad.html$domain=m.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.chosun\\.com/itad\\.html",
+                        "load-type": [],
+                        "if-domain": [
+                            "m.chosun.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -6218,11 +6223,14 @@
             },
             {
                 "id": "5d6568bb-d13b-4a66-ac36-6b0a72701d2a",
-                "name": "m.chosun.com/tad.html",
+                "name": "m.chosun.com/tad.html$domain=m.chosun.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.chosun\\.com/tad\\.html",
-                        "load-type": []
+                        "load-type": [],
+                        "if-domain": [
+                            "m.chosun.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -10261,6 +10269,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://m.chosun.com/200.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "bc9fe610-d6d0-4196-a9ee-e17cde63b25e",
+                "name": "m.chosun.com##iframe[src^=\"http://m.chosun.com/itad.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.chosun\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://m.chosun.com/itad.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "a32b17d6-b0fe-487d-bcb7-aee52250959e",
+                "name": "m.chosun.com##iframe[src^=\"http://m.chosun.com/tad.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.chosun\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://m.chosun.com/tad.html\"]"
                     }
                 }
             },

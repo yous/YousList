@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: fgNO+qc2J8pzl9Uu3NU8+Q
+! Checksum: d2xYEOMfJ8+pVf7k4bg//w
 ! Version: 20160726
 
 ! General element hiding rules
@@ -94,7 +94,6 @@
 ##iframe[src^="http://joy-adstore.co.kr/ad/"]
 ##iframe[src^="http://js.hnscom.com/etc/hns/hnsIframe_"][src$=".html"]
 ##iframe[src^="http://longkeyone.co.kr/"]
-##iframe[src^="http://m.chosun.com/tad.html"]
 ##iframe[src^="http://m.hankooki.com/ad/"]
 ##iframe[src^="http://m.joyninfo.com/yna/yna_m_new.asp"]
 ##iframe[src^="http://m.kmib.co.kr/banner/"]
@@ -473,8 +472,9 @@
 ||longkeyone.co.kr^
 ||m.11st.co.kr/MW/html/allianceAd/
 ||m.adtc.daum.net/js/mobilead.js^
-||m.chosun.com/200.html^
-||m.chosun.com/tad.html^
+||m.chosun.com/200.html^$domain=m.chosun.com
+||m.chosun.com/itad.html^$domain=m.chosun.com
+||m.chosun.com/tad.html^$domain=m.chosun.com
 ||m.edaily.co.kr/html/ad/ad_*.html^$domain=m.edaily.co.kr
 ||m.edaily.co.kr/html/ad/edailyTouch.js^$domain=m.edaily.co.kr
 ||m.hankooki.com/ad/
@@ -1170,6 +1170,8 @@ m.chosun.com##div.ad_txt
 m.chosun.com##div.art_sub_news_box
 m.chosun.com##div.txt_ad_box
 m.chosun.com##iframe[src^="http://m.chosun.com/200.html"]
+m.chosun.com##iframe[src^="http://m.chosun.com/itad.html"]
+m.chosun.com##iframe[src^="http://m.chosun.com/tad.html"]
 m.comic.naver.com##div.ads_sc
 m.daum.net##div.bnr_add
 m.daum.net##div.box_bnr
