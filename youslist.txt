@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: aQwz4TELN5qG7if8SIBgJg
+! Checksum: fgNO+qc2J8pzl9Uu3NU8+Q
 ! Version: 20160726
 
 ! General element hiding rules
@@ -87,6 +87,7 @@
 ##iframe[src^="http://fs.jtbc.joins.com/common/ui/ad/"]
 ##iframe[src^="http://hankyung.bohumplaza.com/_chann/"]
 ##iframe[src^="http://im.obel.kr/file/"]
+##iframe[src^="http://image.lsinfo.co.kr/lottorich/partnership/"]
 ##iframe[src^="http://img.sbs.co.kr/news/ad/delay_redirect_mobile.html"]
 ##iframe[src^="http://imp.mklaud.com/ad"]
 ##iframe[src^="http://imp.sndkorea.co.kr/php/m.php"]
@@ -419,6 +420,7 @@
 ||image.cauly.co.kr/websdk/common/lasted/ads.js^
 ||image.cauly.co.kr/websdk/multi_mini_ads/ads.js^
 ||image.cauly.co.kr:15151/websdk/caulyad.min.js^
+||image.lsinfo.co.kr/lottorich/partnership/
 ||image.melon.com/svc/images/main/floatingBanner/floatingBanner_*.swf^
 ||image.news1.kr/system/ads/ad_banner/
 ||image.wownet.co.kr/static/banner/*/flash/
@@ -431,6 +433,8 @@
 ||img2.keywordsconnect.com/iconAdImg*.gif^
 ||imp.mklaud.com/ad^
 ||imp.sndkorea.co.kr/php/m.php^
+||inews24.com/news/ad_right.php^$domain=news.inews24.com
+||inews24.com/tools/adpresso/$domain=news.inews24.com
 ||interface.interworksmedia.co.kr/js/iwmads.min.js^
 ||interface.interworksmedia.co.kr/js/mobitree.js^
 ||inven.co.kr/ad/
@@ -543,6 +547,9 @@
 ||news.chosun.com/dhtm/js/common/ad_news.js^
 ||news.hankooki.com/ad/
 ||news.hankooki.com/service/v04/frm_photoScroll.htm^
+||news.inews24.com/inc/right_file_banner.php^$domain=news.inews24.com
+||news.inews24.com/inc/right_file_banner_125.php^$domain=news.inews24.com
+||news.inews24.com/util/inc_top_banner.php^$domain=news.inews24.com
 ||news.kukinews.com/inc/ifm_sub_right.asp^
 ||news.maxmovie.com/movie_info/Realclick/
 ||news.maxmovie.com/movie_info/sha_news_view_tlinkAD.asp^
@@ -1503,9 +1510,20 @@ news.hankooki.com##div#bnn_26080
 news.hankooki.com##div#keyword_link
 news.hankooki.com##div[id^="Ad"]
 news.hankooki.com##div[id^="adText"]
-news.inews24.com##div#divrightbiz
-news.inews24.com##div.main_top_banner
-news.inews24.com##iframe#ifrmTopTotal
+news.inews24.com##div#adcom_right_banner
+news.inews24.com##div#joynews_7th
+news.inews24.com##div#kt_100
+news.inews24.com##div#specialBanner
+news.inews24.com##div#topAD
+news.inews24.com##div.news_content>div[style="float:right; width:200px; height:200px; margin-left:10px;  margin-bottom:10px;overflow:hidden;"]
+news.inews24.com##div.news_content>div[itemprop="articleBody"]>div[style="margin-left:20px;margin-top:20px"]
+news.inews24.com##div[class^="ma_w_"]
+news.inews24.com##div[id^="ma_w_"]
+news.inews24.com##iframe[src^="/inc/right_file_banner.php"]
+news.inews24.com##iframe[src^="/inc/right_file_banner_125.php"]
+news.inews24.com##iframe[src^="http://inews24.com/news/ad_right.php"]
+news.inews24.com##iframe[src^="http://inews24.com/tools/adpresso/"]
+news.inews24.com##td.main_top_banner
 news.joins.com##div#criteo_network
 news.joins.com##div.ab_adtxt
 news.joins.com##div.ad
