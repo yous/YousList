@@ -9333,6 +9333,20 @@
                 }
             },
             {
+                "id": "490edff6-86d3-4bc0-b603-3f9df7acd818",
+                "name": "animoe.me##div#hd_pop",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?animoe\\.me",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#hd_pop"
+                    }
+                }
+            },
+            {
                 "id": "1ffa6b5d-cde2-4e78-9676-911b358a1330",
                 "name": "api.dable.io##div.item-sp",
                 "content": {
