@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: d2xYEOMfJ8+pVf7k4bg//w
-! Version: 20160726
+! Checksum: klKu9Q+Lb5BHCYXjUMwcCA
+! Version: 20160727
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -27,6 +27,8 @@
 ##iframe[id^="nad_"]
 ##iframe[name="ifrad"]
 ##iframe[src*="/RealMedia/ads/"]
+##iframe[src^="//adclickservice.com"]
+##iframe[src^="//ads.exoclick.com/iframe.php"]
 ##iframe[src^="//adx-exchange.toast.com/a_request"]
 ##iframe[src^="http://a1.dp25.kr/"]
 ##iframe[src^="http://ad.about.co.kr/"]
@@ -212,6 +214,7 @@
 ||ad1.sportsseoul.com^
 ||ad2.thisisgame.com^
 ||adc.ohmynews.com/NetInsight/
+||adclickservice.com^
 ||adcreative.hani.naver.net/ad^
 ||adcrm.co.kr/md/
 ||addc.dcinside.com/NetInsight/
@@ -246,6 +249,8 @@
 ||ads.ad7942.co.kr/adx/data/NAONMP6060.js^
 ||ads.contextweb.com/TagPublish/GetAd.aspx^
 ||ads.emetro.co.kr/www/delivery/ajs.php^
+||ads.exoclick.com/ads.js^
+||ads.exoclick.com/iframe.php^
 *ads.g.doubleclick.net/pagead/
 ||ads.gamemeca.com^
 ||ads.mangouni.com/mad/
@@ -663,10 +668,12 @@
 ||swf.adget.co.kr/ads/
 ||tab.clickmon.co.kr/ad_img/
 *tab*.clickmon.co.kr/pop/
+||thepiratebay.org/static/ads/$domain=thepiratebay.org
 ||tl.mmnneo.com/neovcm.js^
 ||torrentmade.com/data/zn_banner/
 ||torrentmade.com/js/bpopup/scripting.min.js^
 ||torrentmoa.com/addons/popup/js/popup_layer.js^
+||traffic.adxprts.com^
 ||ts.2beon.co.kr/nad/media/
 ||tv.sbs.co.kr/common/common_ad.jsp^
 ||tvdaily.mk.co.kr/ad/
@@ -1817,6 +1824,10 @@ theappl.com##div#pop_layer_banner
 theappl.com##div#rt_banner1
 theappl.com##div#rt_banner2
 theguardian.com##div.ad-slot
+thepiratebay.org##div#sky-banner
+thepiratebay.org##div#sky-center
+thepiratebay.org##div#sky-right
+thepiratebay.org##iframe[src^="//thepiratebay.org/static/ads/"]
 theverge.com##div.m-ad
 theverge.com##div.m-feature__intro>aside
 thisisgame.com##div#divMsnAD

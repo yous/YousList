@@ -284,6 +284,34 @@
                 }
             },
             {
+                "id": "027202ad-eb54-4c99-8255-c1a7106bb036",
+                "name": "##iframe[src^=\"//adclickservice.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//adclickservice.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "9bc7e722-6430-498c-b5bb-e8f7077c64fe",
+                "name": "##iframe[src^=\"//ads.exoclick.com/iframe.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//ads.exoclick.com/iframe.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "1b2160d6-af00-4c88-8518-7401601f2ceb",
                 "name": "##iframe[src^=\"//adx-exchange.toast.com/a_request\"]",
                 "content": {
@@ -2776,6 +2804,19 @@
                 }
             },
             {
+                "id": "e0b0e9df-7efc-4781-8483-c321dba05114",
+                "name": "adclickservice.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adclickservice\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "19e502f5-d35e-475a-b52d-a702e3b5f456",
                 "name": "adcreative.hani.naver.net/ad",
                 "content": {
@@ -3210,6 +3251,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ads\\.emetro\\.co\\.kr/www/delivery/ajs\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d2b0d738-496c-4b57-b1e3-8a7a023643a7",
+                "name": "ads.exoclick.com/ads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ads\\.exoclick\\.com/ads\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8b64e7fd-18b6-4372-90c1-63e2e99df565",
+                "name": "ads.exoclick.com/iframe.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ads\\.exoclick\\.com/iframe\\.php",
                         "load-type": []
                     },
                     "action": {
@@ -8730,6 +8797,22 @@
                 }
             },
             {
+                "id": "f7f902be-683a-478b-bb8c-9d7bfa05cf24",
+                "name": "thepiratebay.org/static/ads/$domain=thepiratebay.org",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?thepiratebay\\.org/static/ads/",
+                        "load-type": [],
+                        "if-domain": [
+                            "thepiratebay.org"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ce302d6c-3783-4b89-b41d-2fb4b4f9408d",
                 "name": "tl.mmnneo.com/neovcm.js",
                 "content": {
@@ -8774,6 +8857,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?torrentmoa\\.com/addons/popup/js/popup_layer\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c6089fc5-b9da-4157-8cfb-e136bfe3a42b",
+                "name": "traffic.adxprts.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?traffic\\.adxprts\\.com",
                         "load-type": []
                     },
                     "action": {
@@ -14665,6 +14761,62 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "acc2935d-a6e7-46c6-8baa-57a349309730",
+                "name": "thepiratebay.org##div#sky-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?thepiratebay\\.org",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sky-banner"
+                    }
+                }
+            },
+            {
+                "id": "9a2cd5cc-482e-4923-84ff-43eaa352cf0a",
+                "name": "thepiratebay.org##div#sky-center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?thepiratebay\\.org",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sky-center"
+                    }
+                }
+            },
+            {
+                "id": "3ee90d42-e31b-4a37-a95d-6fdb45129a35",
+                "name": "thepiratebay.org##div#sky-right",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?thepiratebay\\.org",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sky-right"
+                    }
+                }
+            },
+            {
+                "id": "e45e8d9a-f9b2-41cb-ae0d-fb81f6d6f6a5",
+                "name": "thepiratebay.org##iframe[src^=\"//thepiratebay.org/static/ads/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?thepiratebay\\.org",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//thepiratebay.org/static/ads/\"]"
                     }
                 }
             },
