@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 2PfjhGe1Tbyf9cmdbcqM7w
+! Checksum: D3MWtOGx63VSJgbxBUsFpg
 ! Version: 20160728
 
 ! General element hiding rules
@@ -332,6 +332,7 @@
 ||cm*.jssearch.net^
 ||cm.interworksmedia.co.kr/adTagRequest.htm^
 ||cm.keywordsconnect.com^
+||cm1.icontact.kr/script/cm_fadein_*.js^
 ||cm2.cjmooter.com^
 ||coolsoft.altervista.org/sites/all/themes/coolsoft/js/coolsoft.js^
 ||cpv.ad.naver.com/adshow^
@@ -416,6 +417,8 @@
 ||i.yimg.jp/images/listing/tool/yads/uadf/yads_vimps-*.js^
 ||ichannela.com/ch/*adpost*
 ||iicdn.com/www/delivery/afr.php^
+||ikoreadaily.co.kr/bannerManager/inc/$domain=ikoreadaily.co.kr
+||ikoreadaily.co.kr/script/ikoreadaily_hns.js^$domain=ikoreadaily.co.kr
 ||ilbe.com/layouts/elkha_ilbe/js/board_top.js^
 ||ilbe.com/layouts/elkha_ilbe/js/new_comment.js^
 ||ilbe.com/layouts/elkha_ilbe/js/new_sky.js^
@@ -1065,6 +1068,10 @@ ibabynews.com##div#divContentBanner
 ibabynews.com##div.LeftDiv>div[style="zoom:1; border:1px solid #DDD; height:150px; padding-top:10px;"]
 ibabynews.com##div.TopDiv>div[style="position:absolute; top: 40px; right:0px; width:230px; height:55px;"]
 ibabynews.com##div.TotalDiv>div[style="right: 50%; margin-right: 500px; top:110px; position:absolute; z-index:3; width:85px ; height:140px; text-align:center"]
+ikoreadaily.co.kr##div#CmAdContent>div[style="float:left; margin-right:10px; text-align:center; width:100%;"]
+ikoreadaily.co.kr##div#CmAdContent>div[style="float:right; margin-left: 10px; margin-bottom: 5px;"]
+ikoreadaily.co.kr##div#CmAdContent>div[style="float:right; padding:10px 0 10px 10px;"]
+ikoreadaily.co.kr##div#floating_banner_body
 ilbe.com##div#board_top_dummy
 ilbe.com##div#layer_left
 insight.co.kr##div.container-banner-left
