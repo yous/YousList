@@ -5607,6 +5607,19 @@
                 }
             },
             {
+                "id": "d76f1862-37ee-47d4-998a-dffde0eea285",
+                "name": "image.cauly.co.kr:15151/richad/partnerApp/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?image\\.cauly\\.co\\.kr:15151/richad/partnerApp/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "fe51e308-00a7-4ea9-88c7-25782bcd5c66",
                 "name": "image.cauly.co.kr:15151/websdk/caulyad.min.js",
                 "content": {
@@ -11667,6 +11680,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "li.page-more-ad"
+                    }
+                }
+            },
+            {
+                "id": "79d4200e-98c1-4878-9583-53b0fe67985d",
+                "name": "m.inven.co.kr##div#cauly_ad_area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.inven\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#cauly_ad_area"
+                    }
+                }
+            },
+            {
+                "id": "81ac8ffc-a0e9-4873-8b37-7523ee3366a7",
+                "name": "m.inven.co.kr##div#cauly_ad_area3",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.inven\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#cauly_ad_area3"
                     }
                 }
             },
