@@ -13006,6 +13006,76 @@
                 }
             },
             {
+                "id": "96beed82-5556-4c74-b9ef-c2f2fa329313",
+                "name": "m.sisainlive.com##div#ad_fix",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.sisainlive\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_fix"
+                    }
+                }
+            },
+            {
+                "id": "cdca3bbf-699a-4675-90b3-d546d8c987b4",
+                "name": "m.sisainlive.com##div.ad_phone",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.sisainlive\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_phone"
+                    }
+                }
+            },
+            {
+                "id": "e8a40835-55f7-47a7-9ea6-eee3f9bdcc15",
+                "name": "m.sisainlive.com##div.ad_tablet",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.sisainlive\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_tablet"
+                    }
+                }
+            },
+            {
+                "id": "c57482d9-7d63-4711-aabd-02429595b249",
+                "name": "m.sisainlive.com##div.aritcle_line_box>div[style=\"text-align:center; \"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.sisainlive\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.aritcle_line_box>div[style=\"text-align:center; \"]"
+                    }
+                }
+            },
+            {
+                "id": "36fa80dd-8a7c-4445-92d1-ca7f7e5be23c",
+                "name": "m.sisainlive.com##div.aritcle_line_box>div[style=\"width:100%; text-align:center\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.sisainlive\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.aritcle_line_box>div[style=\"width:100%; text-align:center\"]"
+                    }
+                }
+            },
+            {
                 "id": "81379323-da3c-4901-ae19-64446cd5f9e6",
                 "name": "m.sports.naver.com##div.home_ad_group",
                 "content": {
