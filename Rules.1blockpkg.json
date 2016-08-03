@@ -8459,6 +8459,38 @@
                 }
             },
             {
+                "id": "c54d45d5-ec00-4245-be6a-5c838a04cbbd",
+                "name": "sisainlive.com/script/ad_flow2.js$domain=sisainlive.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sisainlive\\.com/script/ad_flow2\\.js",
+                        "load-type": [],
+                        "if-domain": [
+                            "sisainlive.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9752092d-3c20-4eb9-87ab-5e757a618c7b",
+                "name": "sisainlive.com/script/ad_flow_2.js$domain=sisainlive.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sisainlive\\.com/script/ad_flow_2\\.js",
+                        "load-type": [],
+                        "if-domain": [
+                            "sisainlive.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f382cc09-d648-4366-9ce8-990dd59fd9a6",
                 "name": "smartposting.net/keyword/api/",
                 "content": {
@@ -15154,6 +15186,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "56e4f5b3-48bd-4ca8-a403-5b6ae36c471f",
+                "name": "sisainlive.com##div#TopBanners2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sisainlive\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#TopBanners2"
+                    }
+                }
+            },
+            {
+                "id": "b337e51b-c94c-40f0-b437-d3a0afb2c9f3",
+                "name": "sisainlive.com##td#articleBody>div[itemprop=\"articleBody\"]>table[align=\"right\"][width=\"320\"][height=\"265\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sisainlive\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "td#articleBody>div[itemprop=\"articleBody\"]>table[align=\"right\"][width=\"320\"][height=\"265\"]"
                     }
                 }
             },

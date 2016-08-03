@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: isWEROBwDWddmpntPZ01hA
+! Checksum: lvH/mICR94Q2I02ATqbrgQ
 ! Version: 20160803
 
 ! General element hiding rules
@@ -642,6 +642,8 @@
 ||shop.nate.com/shopbox/news.htm^
 ||shoppingbox.joinsmsn.com^
 ||sin1.g.adnxs.com/ab^
+||sisainlive.com/script/ad_flow2.js^$domain=sisainlive.com
+||sisainlive.com/script/ad_flow_2.js^$domain=sisainlive.com
 ||smartposting.net/keyword/api/
 ||sndkorea.nowcdn.co.kr/emart/
 ||sndkorea.nowcdn.co.kr/media/
@@ -1769,8 +1771,7 @@ seoul.co.kr##iframe#iwm_expand_iframe
 seoul.co.kr##iframe[src^="/ad/"]
 seoul.co.kr##iframe[src^="/news/datawaveAD.php"]
 sisainlive.com##div#TopBanners2
-sisainlive.com##div#layerBanner
-sisainlive.com##td#articleBody>table[align="right"][width="320"][height="265"]
+sisainlive.com##td#articleBody>div[itemprop="articleBody"]>table[align="right"][width="320"][height="265"]
 skyscanner.co.kr##div.mpu-advert
 slrclub.com##div#ad1
 slrclub.com##div#ad_sk
