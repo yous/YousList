@@ -4815,6 +4815,22 @@
                 }
             },
             {
+                "id": "59c8a029-bf3c-4f87-bd5b-f1ecdc97c886",
+                "name": "e-cdn-files.deezer.com/ads/$domain=deezer.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?e-cdn-files\\.deezer\\.com/ads/",
+                        "load-type": [],
+                        "if-domain": [
+                            "deezer.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "5f1e3aa2-58e4-42c1-9072-5492b86bd56a",
                 "name": "ea.slrclub.com/NetInsight/",
                 "content": {
@@ -9888,6 +9904,48 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#daumAd"
+                    }
+                }
+            },
+            {
+                "id": "3867762c-dc72-4cd3-8560-c04281c2928d",
+                "name": "deezer.com##div#ads_banner_left",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?deezer\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ads_banner_left"
+                    }
+                }
+            },
+            {
+                "id": "42bcf02b-dd84-4dab-b59a-6bc2584b372e",
+                "name": "deezer.com##div.ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?deezer\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ads"
+                    }
+                }
+            },
+            {
+                "id": "49f72224-afc7-425a-8d2d-d0ca31bd510d",
+                "name": "deezer.com##section#ads_expand",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?deezer\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section#ads_expand"
                     }
                 }
             },
