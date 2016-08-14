@@ -5435,19 +5435,6 @@
                 }
             },
             {
-                "id": "11c3d75e-90b6-4587-aa66-9a6b8fafef72",
-                "name": "hungryapp.co.kr/banner/banner_*.php",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hungryapp\\.co\\.kr/banner/banner_.*\\.php",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "646eec9c-973a-4465-9b95-221a104e4a76",
                 "name": "i.yimg.jp/images/listing/tool/yads/uadf/yads_vimps-*.js",
                 "content": {
@@ -6521,6 +6508,22 @@
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.humoruniv\\.com/uad_iframe\\.html",
                         "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9dc316f8-c126-4b4c-8ee6-85096fbcaea2",
+                "name": "m.hungryapp.co.kr/bbs/js/jquery.blockUI.js$domain=m.hungryapp.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.hungryapp\\.co\\.kr/bbs/js/jquery\\.blockUI\\.js",
+                        "load-type": [],
+                        "if-domain": [
+                            "m.hungryapp.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
