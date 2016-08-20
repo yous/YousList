@@ -592,6 +592,20 @@
                 }
             },
             {
+                "id": "733c52f9-7873-4275-be47-23cf7db91749",
+                "name": "##iframe[src^=\"http://adkpf.newscloud.or.kr/NetInsight/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adkpf.newscloud.or.kr/NetInsight/\"]"
+                    }
+                }
+            },
+            {
                 "id": "aa330c2d-6044-4252-8a54-ed499821e32f",
                 "name": "##iframe[src^=\"http://adn.inven.co.kr/\"]",
                 "content": {
@@ -8859,6 +8873,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?static\\.tpmn\\.co\\.kr/sf/tpmn\\.smartframe\\.loader\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fa1fd589-f82d-4c07-912f-b3399d958987",
+                "name": "static.tpmn.co.kr/sf/v2/sfplus_async.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?static\\.tpmn\\.co\\.kr/sf/v2/sfplus_async\\.js",
                         "load-type": []
                     },
                     "action": {
