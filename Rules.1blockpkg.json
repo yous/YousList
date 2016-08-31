@@ -1614,6 +1614,20 @@
                 }
             },
             {
+                "id": "82be5f58-b04d-41ec-be88-2b3584f02176",
+                "name": "##iframe[src^=\"http://syndication.exoclick.com/ads-iframe-display.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://syndication.exoclick.com/ads-iframe-display.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "25ff1298-7c28-4270-91d1-4ef6884aec17",
                 "name": "##iframe[src^=\"http://tab2.clickmon.co.kr/pop/\"]",
                 "content": {
@@ -1834,6 +1848,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"https://creative.wwwpromoter.com/\"]"
+                    }
+                }
+            },
+            {
+                "id": "3831a191-b9b4-4f9b-be54-52192c0f89af",
+                "name": "##iframe[src^=\"https://syndication.exoclick.com/ads-iframe-display.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://syndication.exoclick.com/ads-iframe-display.php\"]"
                     }
                 }
             },
@@ -8969,6 +8997,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?swf\\.adget\\.co\\.kr/ads/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d6f0e268-f0af-4911-aeae-0fce8681878b",
+                "name": "syndication.exoclick.com/ads-iframe-display.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?syndication\\.exoclick\\.com/ads-iframe-display\\.php",
                         "load-type": []
                     },
                     "action": {
