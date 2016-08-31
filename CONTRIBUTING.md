@@ -13,5 +13,6 @@
 - Update the version with the format `yyyyMMdd`.
 - Alphabetically order every entry.
 - Do not add extra empty line.
-- Make sure that `Rules.1blockpkg` is up to date when you add a filter for addresses. Use <http://my.1blocker.com> for editing.
-- After updating `Rules.1blockpkg`, update `Rules.1blockpkg.json`, to make easy to see diff, by running `./bin/prettify_pkg.py`
+- Make sure that `Rules.1blockpkg` is up to date when you add a filter for addresses. Use `./bin/generate_rules.py youslist.txt > Rules.1blockpkg.json` to update. You should install `six` module using `pip install six`.
+- After updating `Rules.1blockpkg.json`, update `Rules.1blockpkg` by running `./bin/minify_pkg.py`.
+- To update `Rules.1blockpkg.json` with the content of `Rules.1blockpkg`, run `./bin/prettify_pkg.py`.
