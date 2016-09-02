@@ -21464,6 +21464,20 @@
                 }
             },
             {
+                "id": "3210f120-0a13-4bc2-80c2-28d2713d987a",
+                "name": "msn.com##div#taboola-right-rail-thumbnails-multi-story-layout",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?msn\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#taboola-right-rail-thumbnails-multi-story-layout"
+                    }
+                }
+            },
+            {
                 "id": "8734dbb8-3d47-47f9-8d7b-4b1f0fc62fbb",
                 "name": "msn.com##div.ad",
                 "content": {
