@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: jnqZB59CjH9Ig1O5m+oJYQ
+! Checksum: e2Q+HX8RgMFseoWKvO40tg
 ! Version: 20160904
 
 ! General element hiding rules
@@ -392,6 +392,7 @@
 ||file.thisisgame.com/inc/PBPage*.js^
 ||fm1.jssearch.net/Farman^
 ||fm1.jssearch.net/lib/JSAP_SlideLibs_v1.js^
+||fmkorea.com/_adpage/$domain=fmkorea.com
 ||fnnews.com/control^
 ||fnnews.com/include2011/section/google.jsp^
 ||fow.tv/criteo_iframe_top_tv.php^$domain=fow.tv
@@ -1008,6 +1009,8 @@ facebook.com##div[data-ad]
 facebook.com##i[class~="adsCategoryIcon"]
 facebook.com##span[class="adsCategoryTitleLink"]
 facebook.com##span[id="egoRefreshAds"]
+fmkorea.com##div#banner3
+fmkorea.com##iframe[src^="/_adpage/"]
 fnnews.com##div#ad_body
 fnnews.com##div#bylineaAd1
 fnnews.com##div.fn_ad_part

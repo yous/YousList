@@ -5133,6 +5133,22 @@
                 }
             },
             {
+                "id": "76c38101-68b0-414d-b6af-999f50a90490",
+                "name": "fmkorea.com/_adpage/$domain=fmkorea.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?fmkorea\\.com/_adpage/",
+                        "load-type": [],
+                        "if-domain": [
+                            "fmkorea.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "57944317-9307-4520-9706-a845b6472c33",
                 "name": "fnnews.com/control",
                 "content": {
@@ -14056,6 +14072,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "span[id=\"egoRefreshAds\"]"
+                    }
+                }
+            },
+            {
+                "id": "832f7331-5ea0-401c-ba72-d3c7b14e1801",
+                "name": "fmkorea.com##div#banner3",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?fmkorea\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner3"
+                    }
+                }
+            },
+            {
+                "id": "7941044b-2772-48e6-a477-05c65c146177",
+                "name": "fmkorea.com##iframe[src^=\"/_adpage/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?fmkorea\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/_adpage/\"]"
                     }
                 }
             },
