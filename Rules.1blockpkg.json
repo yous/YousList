@@ -5159,6 +5159,22 @@
                 }
             },
             {
+                "id": "bff091ec-e6df-4776-8102-9fc33eb76fd9",
+                "name": "fow.tv/criteo_iframe_top_tv.php$domain=fow.tv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?fow\\.tv/criteo_iframe_top_tv\\.php",
+                        "load-type": [],
+                        "if-domain": [
+                            "fow.tv"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4b9d41ee-a665-4922-864c-e34a2d2cf345",
                 "name": "fs.jtbc.co.kr/common/ui/ad/",
                 "content": {
@@ -14306,6 +14322,48 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.funbox"
+                    }
+                }
+            },
+            {
+                "id": "7deb614b-5398-4d64-95f4-7e9b2c9fab52",
+                "name": "fow.tv##div#top_pr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?fow\\.tv",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#top_pr"
+                    }
+                }
+            },
+            {
+                "id": "e83191f8-7706-4d7c-98a4-1f12e5ba9ea1",
+                "name": "fow.tv##div.div_main>div[style=\"padding:0 10px 30px 10px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?fow\\.tv",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.div_main>div[style=\"padding:0 10px 30px 10px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "7170643f-46ac-437d-8c8f-0c69301989cc",
+                "name": "fow.tv##iframe[src^=\"/criteo_iframe_top_tv.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?fow\\.tv",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/criteo_iframe_top_tv.php\"]"
                     }
                 }
             },

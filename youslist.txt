@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: jvVg45BxCMpC4Lqc85kF2w
-! Version: 20160902
+! Checksum: jnqZB59CjH9Ig1O5m+oJYQ
+! Version: 20160904
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -394,6 +394,7 @@
 ||fm1.jssearch.net/lib/JSAP_SlideLibs_v1.js^
 ||fnnews.com/control^
 ||fnnews.com/include2011/section/google.jsp^
+||fow.tv/criteo_iframe_top_tv.php^$domain=fow.tv
 ||fs.jtbc.co.kr/common/ui/ad/
 ||fs.jtbc.joins.com/common/ui/ad/
 ||gaihn.co.kr/eventbanner/
@@ -1026,6 +1027,9 @@ focus.kr##div.g_area>div[style="width:314px;height:188px;background-color:white;
 focus.kr##div.g_area>div[style="width:314px;height:258px;background-color:white;text-align:center;padding-top:7px;margin-bottom:25px;"]
 focus.kr##div.header>div.wrap>div[style="position:absolute;right: 0px;bottom: 16px;width: 270px;height: 77px;background-color: white;z-index:10000"]
 forums.macrumors.com##div.funbox
+fow.tv##div#top_pr
+fow.tv##div.div_main>div[style="padding:0 10px 30px 10px;"]
+fow.tv##iframe[src^="/criteo_iframe_top_tv.php"]
 gall.dcinside.com##div#dc_advertisement
 gall.dcinside.com##div#zzbang_div
 gall.dcinside.com##div._BTN_AD_
