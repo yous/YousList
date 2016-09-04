@@ -6498,6 +6498,22 @@
                 }
             },
             {
+                "id": "9cc0ab2a-9502-4477-a9e9-697d32b7d070",
+                "name": "m.fmkorea.com/_adpage/$domain=m.fmkorea.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.fmkorea\\.com/_adpage/",
+                        "load-type": [],
+                        "if-domain": [
+                            "m.fmkorea.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d16c5aff-463e-4a57-8e56-5edc57d0da4a",
                 "name": "m.hankooki.com/ad/",
                 "content": {
@@ -17586,6 +17602,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.title_ad"
+                    }
+                }
+            },
+            {
+                "id": "e130492b-3b46-4cfe-9ab3-9d661b5d0095",
+                "name": "m.fmkorea.com##iframe[src^=\"/_adpage/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.fmkorea\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/_adpage/\"]"
                     }
                 }
             },

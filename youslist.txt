@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: e2Q+HX8RgMFseoWKvO40tg
+! Checksum: ns2Qr13Q34ER1ooS3hnqtg
 ! Version: 20160904
 
 ! General element hiding rules
@@ -494,6 +494,7 @@
 ||m.chosun.com/tad.html^$domain=m.chosun.com
 ||m.edaily.co.kr/html/ad/ad_*.html^$domain=m.edaily.co.kr
 ||m.edaily.co.kr/html/ad/edailyTouch.js^$domain=m.edaily.co.kr
+||m.fmkorea.com/_adpage/$domain=m.fmkorea.com
 ||m.hankooki.com/ad/
 ||m.humoruniv.com/cauly_iframe.html^$domain=m.humoruniv.com
 ||m.humoruniv.com/ddn_300x250.html^$domain=m.humoruniv.com
@@ -1253,6 +1254,7 @@ m.etnews.com##section.relBottom>section[style="margin-left:8px;margin-right:8px;
 m.etoday.co.kr##div#Share_bn
 m.etoday.co.kr##div.news_adinn
 m.etoday.co.kr##div.title_ad
+m.fmkorea.com##iframe[src^="/_adpage/"]
 m.focus.kr##div#article_Content>div[style="margin-top:20px;"]
 m.focus.kr##div.adv_bottom
 m.focus.kr##div.inner_article_banner
