@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: ns2Qr13Q34ER1ooS3hnqtg
-! Version: 20160904
+! Checksum: iaUlwkovruF/oKclK9yfcQ
+! Version: 20160908
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -492,6 +492,7 @@
 ||m.chosun.com/200.html^$domain=m.chosun.com
 ||m.chosun.com/itad.html^$domain=m.chosun.com
 ||m.chosun.com/tad.html^$domain=m.chosun.com
+||m.clien.net/cs3/nbpad/viewMiddle^$domain=m.clien.net
 ||m.edaily.co.kr/html/ad/ad_*.html^$domain=m.edaily.co.kr
 ||m.edaily.co.kr/html/ad/edailyTouch.js^$domain=m.edaily.co.kr
 ||m.fmkorea.com/_adpage/$domain=m.fmkorea.com
@@ -1229,6 +1230,8 @@ m.chosun.com##div.txt_ad_box
 m.chosun.com##iframe[src^="http://m.chosun.com/200.html"]
 m.chosun.com##iframe[src^="http://m.chosun.com/itad.html"]
 m.chosun.com##iframe[src^="http://m.chosun.com/tad.html"]
+m.clien.net##div#ct>section>div[style="clear:both;width:90%; margin:0 auto;"]
+m.clien.net##div#ct>section>div[style="width:92%; height:84px; margin:0 auto; background-color:#eaf3e8;  padding:16px 12px 16px 12px;"]
 m.comic.naver.com##div.ads_sc
 m.daum.net##div.bnr_add
 m.daum.net##div.box_bnr

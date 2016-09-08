@@ -6466,6 +6466,22 @@
                 }
             },
             {
+                "id": "b86b5fdd-b9ec-4279-ac95-9654c84c9f72",
+                "name": "m.clien.net/cs3/nbpad/viewMiddle$domain=m.clien.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.clien\\.net/cs3/nbpad/viewMiddle",
+                        "load-type": [],
+                        "if-domain": [
+                            "m.clien.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d85db696-fe65-4722-bfbb-8414b12d57ce",
                 "name": "m.edaily.co.kr/html/ad/ad_*.html$domain=m.edaily.co.kr",
                 "content": {
@@ -17252,6 +17268,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://m.chosun.com/tad.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "c3a8cc62-5502-4a42-9e25-0121be8ce588",
+                "name": "m.clien.net##div#ct>section>div[style=\"clear:both;width:90%; margin:0 auto;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.clien\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ct>section>div[style=\"clear:both;width:90%; margin:0 auto;\"]"
+                    }
+                }
+            },
+            {
+                "id": "bab63354-b208-486b-9470-25ecec71498e",
+                "name": "m.clien.net##div#ct>section>div[style=\"width:92%; height:84px; margin:0 auto; background-color:#eaf3e8;  padding:16px 12px 16px 12px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.clien\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ct>section>div[style=\"width:92%; height:84px; margin:0 auto; background-color:#eaf3e8;  padding:16px 12px 16px 12px;\"]"
                     }
                 }
             },
