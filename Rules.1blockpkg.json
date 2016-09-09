@@ -326,6 +326,20 @@
                 }
             },
             {
+                "id": "20fc96a2-aade-4638-8aed-00bf5bd150e8",
+                "name": "##iframe[src^=\"//ax-d.pixfuture.net/w/1.0/afr\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//ax-d.pixfuture.net/w/1.0/afr\"]"
+                    }
+                }
+            },
+            {
                 "id": "4fb14ea5-2943-45b0-aad7-a6b27b8c14b3",
                 "name": "##iframe[src^=\"http://a1.dp25.kr/\"]",
                 "content": {
@@ -3943,6 +3957,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?assoc-amazon\\.com/s/ads\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ae2d9834-384b-4f52-8d12-fd578c7532f2",
+                "name": "ax-d.pixfuture.net/w/1.0/afr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ax-d\\.pixfuture\\.net/w/1\\.0/afr",
                         "load-type": []
                     },
                     "action": {
@@ -22084,6 +22111,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#veta_top"
+                    }
+                }
+            },
+            {
+                "id": "60f38b84-63ad-4ef9-8596-0d0b38ebacdf",
+                "name": "net.hr##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?net\\.hr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
+                    }
+                }
+            },
+            {
+                "id": "9db0769d-1a52-40b5-93b5-6d8842e6ee77",
+                "name": "net.hr##div.banner_adsense",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?net\\.hr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_adsense"
                     }
                 }
             },
