@@ -9631,6 +9631,22 @@
                 }
             },
             {
+                "id": "9b91d261-6efd-4675-af72-0ac1233e4778",
+                "name": "youtube.com/get_video_info?*el=adunit$domain=youtube.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?youtube\\.com/get_video_info\\?.*el=adunit",
+                        "load-type": [],
+                        "if-domain": [
+                            "youtube.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "00e60688-80aa-4136-b446-ed70e852b850",
                 "name": "ytn.co.kr/img/ad/",
                 "content": {
