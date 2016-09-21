@@ -5854,6 +5854,22 @@
                 }
             },
             {
+                "id": "9bea750d-6391-43e9-95d3-2e7d9a46e09d",
+                "name": "img.luukku.com/st/static/javascripts/external-js/ad-layout/$domain=luukku.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?img\\.luukku\\.com/st/static/javascripts/external-js/ad-layout/",
+                        "load-type": [],
+                        "if-domain": [
+                            "luukku.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a34fc55c-f0cf-42a3-af4c-5b87c43ad5bd",
                 "name": "img.sbs.co.kr/news/ad/delay_redirect_mobile.html",
                 "content": {
@@ -16988,6 +17004,62 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.info_etc"
+                    }
+                }
+            },
+            {
+                "id": "647fb79c-3607-4c74-844b-7d17f122ee2e",
+                "name": "luukku.com##div.ad_content",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?luukku\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_content"
+                    }
+                }
+            },
+            {
+                "id": "36f20d20-253c-4827-a3c1-3812f242bf8c",
+                "name": "luukku.com##iframe[src^=\"http://img.luukku.com/st/asset/luukku/partner/keskiosa.shtml\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?luukku\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://img.luukku.com/st/asset/luukku/partner/keskiosa.shtml\"]"
+                    }
+                }
+            },
+            {
+                "id": "04adf7a6-cb93-4b65-95ec-353752ce9309",
+                "name": "luukku.com##section.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?luukku\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.ad"
+                    }
+                }
+            },
+            {
+                "id": "d224f586-377a-499e-9d52-7258963308fc",
+                "name": "luukku.com##table.contentwrapper>tbody>tr>td.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?luukku\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "table.contentwrapper>tbody>tr>td.banner"
                     }
                 }
             },

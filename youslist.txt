@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: KuT/FHD7oCDwcNL2IZQ8ng
+! Checksum: Em9gaUqbEpPVRpP5YhAOoA
 ! Version: 20160921
 
 ! General element hiding rules
@@ -446,6 +446,7 @@
 ||img.appstory.co.kr/@files/human_banner/
 ||img.asiatoday.co.kr/adver/
 ||img.dt.co.kr/unse/
+||img.luukku.com/st/static/javascripts/external-js/ad-layout/$domain=luukku.com
 ||img.sbs.co.kr/news/ad/delay_redirect_mobile.html^
 ||img.sportsseoul.com/ad/
 ||img2.keywordsconnect.com/iconAdImg*.gif^
@@ -1217,6 +1218,10 @@ lifehacker.com##div.ad-wide
 live.joinsmsn.com##div.shopping_v2
 liverex.net##div.adsenseTopHeaderContent
 login.daum.net##div.info_etc
+luukku.com##div.ad_content
+luukku.com##iframe[src^="http://img.luukku.com/st/asset/luukku/partner/keskiosa.shtml"]
+luukku.com##section.ad
+luukku.com##table.contentwrapper>tbody>tr>td.banner
 m.agora.daum.net##a.bnr_livboard
 m.bbs1.agora.media.daum.net##a.bnr_livboard
 m.biz.khan.co.kr,m.khan.co.kr##div#article_bottom_ad
