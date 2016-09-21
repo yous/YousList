@@ -16126,6 +16126,20 @@
                 }
             },
             {
+                "id": "1be4e064-aae6-4a62-8277-03ada65bffbf",
+                "name": "itsupportguides.com##div.adblock_wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?itsupportguides\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adblock_wrapper"
+                    }
+                }
+            },
+            {
                 "id": "a8c2cfcb-f828-4255-82a1-a2cafbc136f2",
                 "name": "ittoday.co.kr##dl[class$=\"top-banner\"]",
                 "content": {
