@@ -25814,6 +25814,34 @@
                 }
             },
             {
+                "id": "1b84cf1e-024b-4551-ab17-99e82f0f69a7",
+                "name": "skidkaonline.ru##div.ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?skidkaonline\\.ru",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ads"
+                    }
+                }
+            },
+            {
+                "id": "116d5e85-bf8d-4986-98c3-1c7be87e2d42",
+                "name": "skidkaonline.ru##div.ads-item",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?skidkaonline\\.ru",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ads-item"
+                    }
+                }
+            },
+            {
                 "id": "899198d8-90c1-457d-8b2f-4bfdc1793b42",
                 "name": "skyscanner.co.kr##div.mpu-advert",
                 "content": {
