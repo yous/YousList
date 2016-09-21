@@ -5380,6 +5380,19 @@
                 }
             },
             {
+                "id": "a43a0b4f-7802-4cc9-9d8e-da34690d2acc",
+                "name": "gstatic.com/swiffy/v*/runtime.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?gstatic\\.com/swiffy/v.*/runtime\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "905123dd-c395-42bb-975c-6649d7127959",
                 "name": "guide.allblet.net",
                 "content": {
@@ -14483,6 +14496,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/criteo_iframe_top_tv.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "ce799bf6-a55e-4c6b-9aca-bd974b92c206",
+                "name": "france2.fr##div#eShowPubTop",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?france2\\.fr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#eShowPubTop"
+                    }
+                }
+            },
+            {
+                "id": "2caa638f-da79-4676-b6f4-685248038a6b",
+                "name": "france2.fr##div.adCtnt",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?france2\\.fr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adCtnt"
                     }
                 }
             },
