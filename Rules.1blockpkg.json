@@ -15328,6 +15328,34 @@
                 }
             },
             {
+                "id": "8131561b-20e6-4d9c-b1eb-0251bcc88e54",
+                "name": "horo.mail.ru##div.p-top-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?horo\\.mail\\.ru",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.p-top-banner"
+                    }
+                }
+            },
+            {
+                "id": "5eee2f5a-10c0-4ae1-8661-12615ae489fd",
+                "name": "horo.mail.ru##div.rb_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?horo\\.mail\\.ru",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rb_banner"
+                    }
+                }
+            },
+            {
                 "id": "83d9c95c-aa6e-4bbc-a097-b5b4d68d9bc7",
                 "name": "huffingtonpost.kr##div#modulous_article_bottom",
                 "content": {
