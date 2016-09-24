@@ -16182,6 +16182,20 @@
                 }
             },
             {
+                "id": "63abd256-35ce-4310-bddf-afb68203a12e",
+                "name": "itworld.co.kr##div#youtube_div",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?itworld\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#youtube_div"
+                    }
+                }
+            },
+            {
                 "id": "420fcac5-f7ce-4549-b0f2-f442db8feac8",
                 "name": "jjan.kr##div#LayerWarp2>div[style=\"z-index:3; float:right;\"]",
                 "content": {
