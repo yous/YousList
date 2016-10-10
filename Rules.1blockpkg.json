@@ -2103,6 +2103,32 @@
                 }
             },
             {
+                "id": "e46184fc-01d3-41b6-89d2-841beaa29f15",
+                "name": "aax-fe-retail-rtb.amazon.com/e/xsp/getAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?aax-fe-retail-rtb\\.amazon\\.com/e/xsp/getAd",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a0b749b4-296b-4670-a792-73cdec3fb1ef",
+                "name": "aax-fe.amazon-adsystem.com/x/getad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?aax-fe\\.amazon-adsystem\\.com/x/getad",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f3503ee5-ec9f-4d41-9a48-46c98b4eb04c",
                 "name": "a1.ationnet.co.kr/a01/",
                 "content": {
@@ -9795,6 +9821,76 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#div_video_ad_banner"
+                    }
+                }
+            },
+            {
+                "id": "0b853376-bfb1-4297-9bd9-213ccdd21836",
+                "name": "amazon.co.jp##div#ape_Detail_dp-ads-center-promo_Desktop_placement",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?amazon\\.co\\.jp",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ape_Detail_dp-ads-center-promo_Desktop_placement"
+                    }
+                }
+            },
+            {
+                "id": "2aa113e8-abc6-45f6-b7f0-06ae7cfcd214",
+                "name": "amazon.co.jp##div#ape_Gateway_right-2_desktop_placement",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?amazon\\.co\\.jp",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ape_Gateway_right-2_desktop_placement"
+                    }
+                }
+            },
+            {
+                "id": "5d2b0b33-5f4e-45a4-8d29-aaaab772388d",
+                "name": "amazon.co.jp##div#ape_detail_btf_detail-mWeb_text-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?amazon\\.co\\.jp",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ape_detail_btf_detail-mWeb_text-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "b63aa527-1ee3-4d5e-b8b2-eda18d8200ea",
+                "name": "amazon.co.jp##div#ape_detail_btf_detail-mWeb_wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?amazon\\.co\\.jp",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ape_detail_btf_detail-mWeb_wrapper"
+                    }
+                }
+            },
+            {
+                "id": "59b3a25d-0845-4ecc-81ab-ab4ebbc4a482",
+                "name": "amazon.co.jp##div#ape_gateway_atf_gateway-mWeb_wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?amazon\\.co\\.jp",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ape_gateway_atf_gateway-mWeb_wrapper"
                     }
                 }
             },
