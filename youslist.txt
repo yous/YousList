@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: Dz7yRpHy4LiMQ4hWXwdiHQ
+! Checksum: XgE/LdQ5jnqkGzIzRTXV8g
 ! Version: 20161010
 
 ! General element hiding rules
@@ -162,6 +162,8 @@
 ||a.wyzmob.com^
 ||aax-fe-retail-rtb.amazon.com/e/xsp/getAd^
 ||aax-fe.amazon-adsystem.com/x/getad^
+||aax-us-east.amazon-adsystem.com/e/xsp/getAd^
+||aax-us-east.amazon-adsystem.com/x/getad^
 ||a1.ationnet.co.kr/a01/
 ||a1.dp25.kr^
 ||a2.acrosspf.com/js/_a_adnf_bottompop_*.min.js^
@@ -745,10 +747,13 @@
 9to5mac.com##div.widget_ninetofive_netshelter_ad
 afbbs.afreecatv.com##div#div_video_ad_banner
 amazon.co.jp##div#ape_Detail_dp-ads-center-promo_Desktop_placement
-amazon.co.jp##div#ape_Gateway_right-2_desktop_placement
-amazon.co.jp##div#ape_detail_btf_detail-mWeb_text-wrapper
-amazon.co.jp##div#ape_detail_btf_detail-mWeb_wrapper
-amazon.co.jp##div#ape_gateway_atf_gateway-mWeb_wrapper
+amazon.co.jp,amazon.com##div#ape_Gateway_right-2_desktop_placement
+amazon.co.jp,amazon.com##div#ape_detail_btf_detail-mWeb_text-wrapper
+amazon.co.jp,amazon.com##div#ape_detail_btf_detail-mWeb_wrapper
+amazon.co.jp,amazon.com##div#ape_gateway_atf_gateway-mWeb_wrapper
+amazon.com##div#ape_Gateway_right-7_desktop_placement
+amazon.com##div#ape_gateway_btf_gateway-mWeb_text-wrapper
+amazon.com##div#ape_gateway_btf_gateway-mWeb_wrapper
 animefreak.tv##body>div>div[style="width:100%;height:768px;position:fixed;left:0;top:0px;overflow:hidden;visibility:hidden;z-index:0"]
 animoe.me##div#hd_pop
 api.dable.io##div.item-sp

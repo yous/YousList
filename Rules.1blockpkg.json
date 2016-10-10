@@ -2129,6 +2129,32 @@
                 }
             },
             {
+                "id": "30a66516-5a8c-41e1-a7ad-fbcc4a10076a",
+                "name": "aax-us-east.amazon-adsystem.com/e/xsp/getAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?aax-us-east\\.amazon-adsystem\\.com/e/xsp/getAd",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "56761d0e-aac7-4acd-9887-3bfb843bd31e",
+                "name": "aax-us-east.amazon-adsystem.com/x/getad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?aax-us-east\\.amazon-adsystem\\.com/x/getad",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f3503ee5-ec9f-4d41-9a48-46c98b4eb04c",
                 "name": "a1.ationnet.co.kr/a01/",
                 "content": {
@@ -9853,11 +9879,39 @@
                 }
             },
             {
+                "id": "ae0ad38e-bf46-494e-94d9-14661335cabb",
+                "name": "amazon.com##div#ape_Gateway_right-2_desktop_placement",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?amazon\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ape_Gateway_right-2_desktop_placement"
+                    }
+                }
+            },
+            {
                 "id": "5d2b0b33-5f4e-45a4-8d29-aaaab772388d",
                 "name": "amazon.co.jp##div#ape_detail_btf_detail-mWeb_text-wrapper",
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?amazon\\.co\\.jp",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ape_detail_btf_detail-mWeb_text-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "9a38c537-52f1-48d0-91cf-2c8c060c3b12",
+                "name": "amazon.com##div#ape_detail_btf_detail-mWeb_text-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?amazon\\.com",
                         "load-type": []
                     },
                     "action": {
@@ -9881,6 +9935,20 @@
                 }
             },
             {
+                "id": "ac02f083-412a-42fa-934b-03191340fc64",
+                "name": "amazon.com##div#ape_detail_btf_detail-mWeb_wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?amazon\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ape_detail_btf_detail-mWeb_wrapper"
+                    }
+                }
+            },
+            {
                 "id": "59b3a25d-0845-4ecc-81ab-ab4ebbc4a482",
                 "name": "amazon.co.jp##div#ape_gateway_atf_gateway-mWeb_wrapper",
                 "content": {
@@ -9891,6 +9959,62 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#ape_gateway_atf_gateway-mWeb_wrapper"
+                    }
+                }
+            },
+            {
+                "id": "19d64c98-e7aa-47f2-b22e-5af5a17acf56",
+                "name": "amazon.com##div#ape_gateway_atf_gateway-mWeb_wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?amazon\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ape_gateway_atf_gateway-mWeb_wrapper"
+                    }
+                }
+            },
+            {
+                "id": "e3bfdfda-913b-4e6c-a41c-32531fdb4340",
+                "name": "amazon.com##div#ape_Gateway_right-7_desktop_placement",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?amazon\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ape_Gateway_right-7_desktop_placement"
+                    }
+                }
+            },
+            {
+                "id": "921c164d-0a3f-4d9e-ae8e-b22f804cf1b1",
+                "name": "amazon.com##div#ape_gateway_btf_gateway-mWeb_text-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?amazon\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ape_gateway_btf_gateway-mWeb_text-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "1eefce56-2bde-4b34-b2f5-a3fbb937fa66",
+                "name": "amazon.com##div#ape_gateway_btf_gateway-mWeb_wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?amazon\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ape_gateway_btf_gateway-mWeb_wrapper"
                     }
                 }
             },
