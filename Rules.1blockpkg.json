@@ -8995,6 +8995,22 @@
                 }
             },
             {
+                "id": "cefa9e78-c0fc-4663-8abb-ff18a98812ff",
+                "name": "sportsseoul.com/js/jquery.topline.banner.js$domain=sportsseoul.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sportsseoul\\.com/js/jquery\\.topline\\.banner\\.js",
+                        "load-type": [],
+                        "if-domain": [
+                            "sportsseoul.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "58646556-654f-4351-acef-34a66af6d702",
                 "name": "srv.bebi.com/public/js/bebi_v1.js",
                 "content": {
@@ -26667,8 +26683,8 @@
                 }
             },
             {
-                "id": "d5166fed-de4f-44cc-99ce-539eca4501c4",
-                "name": "sportsseoul.com##div#aside>div[style=\"width:250px;height:60px;\"]",
+                "id": "bc294304-4d52-40e0-85e9-d94d98e56e5e",
+                "name": "sportsseoul.com##div#SS_slides",
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sportsseoul\\.com",
@@ -26676,13 +26692,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#aside>div[style=\"width:250px;height:60px;\"]"
+                        "selector": "div#SS_slides"
                     }
                 }
             },
             {
-                "id": "c11c9beb-3df4-4a24-b7f9-f97727bb8b91",
-                "name": "sportsseoul.com##div#article_viewWrap>div[style=\"margin-bottom:20px;width: 100%; height: 23px;font-family:맑은 고딕,Malgun Gothic,굴림; font-size:16px; font-weight:bold; padding-top:5px;\"]",
+                "id": "44ab6f5d-ba2c-46c1-b844-514d3bc3c5cd",
+                "name": "sportsseoul.com##div#VIEW_LEFT1",
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sportsseoul\\.com",
@@ -26690,13 +26706,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#article_viewWrap>div[style=\"margin-bottom:20px;width: 100%; height: 23px;font-family:맑은 고딕,Malgun Gothic,굴림; font-size:16px; font-weight:bold; padding-top:5px;\"]"
+                        "selector": "div#VIEW_LEFT1"
                     }
                 }
             },
             {
-                "id": "7e567044-b767-40f7-ba15-c7bd03c0a94a",
-                "name": "sportsseoul.com##iframe[src^=\"http://ad1.sportsseoul.com/\"]",
+                "id": "11c0e220-590d-4294-bc42-103f4b84a5d6",
+                "name": "sportsseoul.com##div#VIEW_RIGHT1",
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sportsseoul\\.com",
@@ -26704,7 +26720,105 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "iframe[src^=\"http://ad1.sportsseoul.com/\"]"
+                        "selector": "div#VIEW_RIGHT1"
+                    }
+                }
+            },
+            {
+                "id": "e46b80f1-a430-4d80-a587-cb54b44dc5f9",
+                "name": "sportsseoul.com##div#ad_read_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sportsseoul\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_read_top"
+                    }
+                }
+            },
+            {
+                "id": "fb567db9-3fd1-4d49-a7d6-bfd5db37fca5",
+                "name": "sportsseoul.com##div#article_viewWrap>div[id^=\"ad_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sportsseoul\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article_viewWrap>div[id^=\"ad_\"]"
+                    }
+                }
+            },
+            {
+                "id": "40211a0e-f95a-4fd5-98bf-9cdaf3567e38",
+                "name": "sportsseoul.com##div#article_viewWrap>div[style=\"width:100%;height:90px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sportsseoul\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article_viewWrap>div[style=\"width:100%;height:90px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "0d8814fe-6229-4642-96aa-23acd6a082b2",
+                "name": "sportsseoul.com##div#aside>div[id^=\"ad_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sportsseoul\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#aside>div[id^=\"ad_\"]"
+                    }
+                }
+            },
+            {
+                "id": "400f7d5c-db16-4c13-a0d0-e879e4860825",
+                "name": "sportsseoul.com##div#pop_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sportsseoul\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#pop_ad"
+                    }
+                }
+            },
+            {
+                "id": "d4992288-9ade-43d1-be28-b8a0c26caee5",
+                "name": "sportsseoul.com##div#vod_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sportsseoul\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#vod_banner"
+                    }
+                }
+            },
+            {
+                "id": "d695ff92-93b8-4cbf-ac84-c473ba39f110",
+                "name": "sportsseoul.com##div.mask_div",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sportsseoul\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mask_div"
                     }
                 }
             },
