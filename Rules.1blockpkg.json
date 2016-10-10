@@ -3068,6 +3068,19 @@
                 }
             },
             {
+                "id": "ed838339-bb88-40eb-a129-2328ccb468f0",
+                "name": "adimg3.search.naver.net/adpost/adpost_show_ads_min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adimg3\\.search\\.naver\\.net/adpost/adpost_show_ads_min\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ba7cd9d8-098d-4b0b-a3fe-9312fc4196a8",
                 "name": "adimg3.search.naver.net/adpost/js/ad.js",
                 "content": {
@@ -16164,6 +16177,48 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"sponsor_link_area\"]"
+                    }
+                }
+            },
+            {
+                "id": "24ec7432-b48e-48eb-b411-2a2e04549f8a",
+                "name": "it.chosun.com##div#POWER_LINK_NAVER",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?it\\.chosun\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#POWER_LINK_NAVER"
+                    }
+                }
+            },
+            {
+                "id": "70bf6104-f889-4806-891e-8ebd6b6f1426",
+                "name": "it.chosun.com##div#banner_1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?it\\.chosun\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_1"
+                    }
+                }
+            },
+            {
+                "id": "58980bc4-76aa-41d9-8d81-4a242192dd03",
+                "name": "it.chosun.com##div.section_h123>div[style=\"width:160px; height:600px;position:absolute;right:50%;margin-right:-660px;top:200px;z-index:1;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?it\\.chosun\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.section_h123>div[style=\"width:160px; height:600px;position:absolute;right:50%;margin-right:-660px;top:200px;z-index:1;\"]"
                     }
                 }
             },
