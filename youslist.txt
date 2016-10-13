@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: XgE/LdQ5jnqkGzIzRTXV8g
-! Version: 20161010
+! Checksum: L7hI0X0Strx/ddU8kSzkgg
+! Version: 20161013
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -319,9 +319,16 @@
 ||bs.serving-sys.com/BurstingPipe/adServer.bs^
 ||c.betrad.com/surly.js^
 ||cache.ssend.microad.jp/js/adfunnel-sp-load.js^
+||cad.donga.com/DKBNEWS/dkb_view_right_adin_*.js^$domain=dkbnews.donga.com
+||cad.donga.com/DKBNEWS/dkb_view_right_banner_*.js^$domain=dkbnews.donga.com
+||cad.donga.com/DKBNEWS/dkb_view_right_imad_*.js^$domain=dkbnews.donga.com
+||cad.donga.com/DKBNEWS/dkb_view_right_sunny_*.js^$domain=dkbnews.donga.com
+||cad.donga.com/DKBNEWS/dkbnews_floating_*.js^$domain=dkbnews.donga.com
 ||cad.donga.com/M/view_ad*.js^
 ||cad.donga.com/M/view_body_inspace_*.js^
 ||cad.donga.com/M/view_body_middle_*.js^
+||cad.donga.com/SPORTS/sports_dkbnews_video.js^$domain=dkbnews.donga.com
+||cad.donga.com/SPORTS/view_left_wisenut.js^
 ||cad.donga.com/netBanners/
 ||cadvv.heraldm.com/hb/imad/
 ||candy.ad9.kr^
@@ -695,6 +702,7 @@
 ||static.tpmn.co.kr/sf/v2/smart.icon.ad.js^
 ||static.tpmn.co.kr/sf/v2/tpmn.smartframe.client.js^
 ||sunnyworks.co.kr/data/SW*.html^
+||sunnyworks.co.kr/data/js/
 ||swf.adget.co.kr/ads/
 ||syndication.exoclick.com/ads-iframe-display.php^
 ||tab.clickmon.co.kr/ad_img/
@@ -946,7 +954,9 @@ digitaltrends.com##div.m-blockboard
 digitaltrends.com##div.m-leaderboard
 digitaltrends.com##div.m-mpu-widget
 diodeo.com##div#newsFloatingBanner
-dkbnews.donga.com##div#idol_ban
+dkbnews.donga.com##div#_popIn_recommend div._popIn_recommend_article_ad
+dkbnews.donga.com##div.aside_ad
+dkbnews.donga.com##div.boardAD01
 dt.co.kr##div#gisa>table
 dt.co.kr##div#left_skyWingBanner
 dt.co.kr##div#right_skyWingBanner
@@ -1621,7 +1631,6 @@ news.donga.com##div.clArticleAd
 news.donga.com##div[id^="left_AD_"]
 news.donga.com##div[id^="right_AD_"]
 news.donga.com##div[class^="adView"]
-news.donga.com##div[class^="aside_AD"]
 news.donga.com##div[class^="sub_cont_AD"]
 news.hankooki.com##div#DrBox
 news.hankooki.com##div#SponsorLink
