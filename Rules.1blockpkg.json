@@ -676,6 +676,20 @@
                 }
             },
             {
+                "id": "a8f3a410-0053-4d01-825d-fb893dc599c7",
+                "name": "##iframe[src^=\"http://adpingpong2.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adpingpong2.co.kr/\"]"
+                    }
+                }
+            },
+            {
                 "id": "0d58b538-817c-4164-a0f6-2c644ecc71b7",
                 "name": "##iframe[src^=\"http://ads-optima.com/www/delivery/afr.php\"]",
                 "content": {
@@ -3334,6 +3348,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adpingpong1\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7e671776-4d42-409c-97fa-a93eddc33050",
+                "name": "adpingpong2.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adpingpong2\\.co\\.kr",
                         "load-type": []
                     },
                     "action": {
