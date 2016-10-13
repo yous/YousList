@@ -8111,11 +8111,37 @@
                 }
             },
             {
+                "id": "efa6b10e-69f6-45db-9ab3-5077b7143fa0",
+                "name": "nscreen.neoebiz.co.kr/screenView.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?nscreen\\.neoebiz\\.co\\.kr/screenView\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "caeb6894-89fa-4ad6-a6de-763c30ba6f2b",
                 "name": "nscreen.neoebiz.co.kr/xJqScreen.php",
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?nscreen\\.neoebiz\\.co\\.kr/xJqScreen\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "900c0a99-9639-4d4a-aa55-011c8058e2a2",
+                "name": "nscreen.neoebiz.co.kr/xJqScreenView.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?nscreen\\.neoebiz\\.co\\.kr/xJqScreenView\\.php",
                         "load-type": []
                     },
                     "action": {
@@ -9898,6 +9924,22 @@
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ytn\\.co\\.kr/inc_banner/AdServerChange\\.php",
                         "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a27f6cf6-7d01-4496-b578-6feed1b77fcc",
+                "name": "zbn.donga.com/2015/banner/ad_read_*.asp$domain=zbn.donga.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?zbn\\.donga\\.com/2015/banner/ad_read_.*\\.asp",
+                        "load-type": [],
+                        "if-domain": [
+                            "zbn.donga.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -31459,6 +31501,48 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.fixed-top>center"
+                    }
+                }
+            },
+            {
+                "id": "985856cb-1856-4ef0-ac83-69e99ec5ff2c",
+                "name": "zbn.donga.com##div#iwm_fsa_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?zbn\\.donga\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#iwm_fsa_wrap"
+                    }
+                }
+            },
+            {
+                "id": "266b6bbd-1d6f-4f97-be90-fe0653ab2fd1",
+                "name": "zbn.donga.com##div.realssp_dv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?zbn\\.donga\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.realssp_dv"
+                    }
+                }
+            },
+            {
+                "id": "9993552d-0585-47e7-b78d-9442dc688630",
+                "name": "zbn.donga.com##iframe[src^=\"/2015/banner/ad_real_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?zbn\\.donga\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/2015/banner/ad_real_\"]"
                     }
                 }
             },

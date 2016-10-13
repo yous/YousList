@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: L7hI0X0Strx/ddU8kSzkgg
+! Checksum: O4QSEy92gJrM/YxCMtZsEg
 ! Version: 20161013
 
 ! General element hiding rules
@@ -612,7 +612,9 @@
 ||newsworker.co.kr/script/ad_flow1.js^$domain=newsworker.co.kr
 ||nocutnews.co.kr/banner/2012/ad_right_*.asp^
 ||npian.com/nbox/ad*.swf^
+||nscreen.neoebiz.co.kr/screenView.js^
 ||nscreen.neoebiz.co.kr/xJqScreen.php^
+||nscreen.neoebiz.co.kr/xJqScreenView.php^
 ||nson.encock.com/media/
 ||nv*.veta.naver.com/dr^
 ||nw.realssp.co.kr/realclickssp.js^
@@ -747,6 +749,7 @@
 ||youtube.com/get_video_info?*el=adunit$domain=youtube.com
 ||ytn.co.kr/img/ad/
 ||ytn.co.kr/inc_banner/AdServerChange.php^
+||zbn.donga.com/2015/banner/ad_read_*.asp^$domain=zbn.donga.com
 ||zdnet.co.kr/ads/
 ||zdnet.co.kr/pixel2/pixel_top.htm^
 
@@ -2127,6 +2130,9 @@ ytn.co.kr##ul[class^="adnew"]
 zangsisi.net##body>center
 zangsisi.net##div#fixed-top
 zangsisi.net##div.fixed-top>center
+zbn.donga.com##div#iwm_fsa_wrap
+zbn.donga.com##div.realssp_dv
+zbn.donga.com##iframe[src^="/2015/banner/ad_real_"]
 zdnet.co.kr##div#main_right_Floating_banner
 zdnet.co.kr##div.ad
 zdnet.co.kr##div.ad_txt
