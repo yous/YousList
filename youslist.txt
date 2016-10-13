@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: T9HFa9rfrAHYa2fCBzrpvA
+! Checksum: klMS3ED3b7UEJ/XQHWT4Dg
 ! Version: 20161013
 
 ! General element hiding rules
@@ -329,9 +329,41 @@
 ||cad.donga.com/M/view_ad*.js^
 ||cad.donga.com/M/view_body_inspace_*.js^
 ||cad.donga.com/M/view_body_middle_*.js^
-||cad.donga.com/SPORTS/sports_dkbnews_video.js^$domain=dkbnews.donga.com
+||cad.donga.com/SPORTS/m/sports_m_main_top.js^$domain=sports.donga.com
+||cad.donga.com/SPORTS/m/sports_m_view_ad4989_*.js^$domain=sports.donga.com
+||cad.donga.com/SPORTS/m/sports_m_view_bridge_*.js^$domain=sports.donga.com
+||cad.donga.com/SPORTS/m/sports_m_view_byline.js^$domain=sports.donga.com
+||cad.donga.com/SPORTS/m/sports_m_view_hiadone_*.js^$domain=sports.donga.com
+||cad.donga.com/SPORTS/m/sports_m_view_lumieyes_under.js^$domain=sports.donga.com
+||cad.donga.com/SPORTS/m/sports_m_view_newsbanner_*.js^$domain=sports.donga.com
+||cad.donga.com/SPORTS/sports_all_east_bottom_adstream_*.js^$domain=sports.donga.com
+||cad.donga.com/SPORTS/sports_dkbnews_video.js^$domain=dkbnews.donga.com|sports.donga.com
+||cad.donga.com/SPORTS/sports_m_view_naonmp5984.js^$domain=sports.donga.com
+||cad.donga.com/SPORTS/sports_view_bottom_*.js^$domain=sports.donga.com
+||cad.donga.com/SPORTS/view_left_w.js^
 ||cad.donga.com/SPORTS/view_left_wisenut.js^
 ||cad.donga.com/netBanners/
+||cad.donga.com/sports_mobile_byline.js^$domain=sports.donga.com
+||cad.donga.com/sports_mobile_hooniad2.js^$domain=sports.donga.com
+||cad.donga.com/sports_mobile_imad_text3_*.js^$domain=sports.donga.com
+||cad.donga.com/sports_mobile_imad_thumb.js^$domain=sports.donga.com
+||cad.donga.com/sports_mobile_lumieyes.js^$domain=sports.donga.com
+||cad.donga.com/sports_mobile_text_lotto.js^$domain=sports.donga.com
+||cad.donga.com/sports_mobile_text_unse.js^$domain=sports.donga.com
+||cad.donga.com/sports_mobile_view.js^$domain=sports.donga.com
+||cad.donga.com/sports_view_BottomRight.js^$domain=sports.donga.com
+||cad.donga.com/sports_view_adtive_right_*.js^$domain=sports.donga.com
+||cad.donga.com/sports_view_bottom_right_*.js^$domain=sports.donga.com
+||cad.donga.com/sports_view_bottom_thumb_*.js^$domain=sports.donga.com
+||cad.donga.com/sports_view_right_adin_*.js^$domain=sports.donga.com
+||cad.donga.com/sports_view_right_imad_*.js^$domain=sports.donga.com
+||cad.donga.com/sports_view_right_sunny_*.js^$domain=sports.donga.com
+||cad.donga.com/sports_view_right_topthumb_*.js^$domain=sports.donga.com
+||cad.donga.com/sports_view_rightbanner_*.js^$domain=sports.donga.com
+||cad.donga.com/sports_view_rightthumb_popularshop_*.js^$domain=sports.donga.com
+||cad.donga.com/sports_view_top.js^$domain=sports.donga.com
+||cad.donga.com/sports_view_top_right_*.js^$domain=sports.donga.com
+||cad.donga.com/sports_view_topright_reople_*.js^$domain=sports.donga.com
 ||cadvv.heraldm.com/hb/imad/
 ||candy.ad9.kr^
 ||care-health.co.kr^
@@ -391,6 +423,7 @@
 ||ea.slrclub.com/NetInsight/
 ||economy.hankooki.com/ad/
 ||edaily.co.kr/adview/
+||eimg.donga.com/home2011/js/scrollBanner.js^
 ||esports.dailygame.co.kr/comment/ad_realclick.php^
 ||etc.gamechosun.co.kr/banner/
 ||etnews.com/ek_js/detail_ad_combinepop.js^
@@ -1902,12 +1935,25 @@ sports.chosun.com##div.thum8_box
 sports.chosun.com##div.top_banner
 sports.chosun.com##p.ad
 sports.chosun.com##p.m_btn
-sports.donga.com##div.left_AD_list
+sports.donga.com##div#_popIn_recommend div._popIn_recommend_article_ad
+sports.donga.com##div#top_AD_Wrap
+sports.donga.com##div#view_body_middle_iframe1
+sports.donga.com##div.ad_toady_hot
+sports.donga.com##div.ad_top
+sports.donga.com##div.ad_zone01
+sports.donga.com##div.aside_AD01
+sports.donga.com##div.aside_AD02
+sports.donga.com##div.aside_AD03
+sports.donga.com##div.aside_AD04
+sports.donga.com##div.aside_AD05
+sports.donga.com##div.aside_AD06
+sports.donga.com##div.aside_AD07
+sports.donga.com##div.aside_AD08
+sports.donga.com##div.aside_AD10
+sports.donga.com##div.display_box
 sports.donga.com##div.middle_AD
-sports.donga.com##div.top_sport_AD
-sports.donga.com##div.ttalk_ad_list
-sports.donga.com##div[class^="ad"]
-sports.donga.com##div[class^="aside_AD"]
+sports.donga.com##div[class^="left_ad_"]
+sports.donga.com##div[class^="right_ad_"]
 sports.donga.com##div[class^="subCont_AD"]
 sports.hankooki.com##div#SponsorLink
 sports.hankooki.com##div#_popIn_recommend div._popIn_recommend_article_ad
