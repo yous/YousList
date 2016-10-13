@@ -340,6 +340,20 @@
                 }
             },
             {
+                "id": "88a5f5ce-d51a-40a0-b03a-60495f2d6a92",
+                "name": "##iframe[src^=\"//ssp.advg.jp/ssp/p/iframe\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//ssp.advg.jp/ssp/p/iframe\"]"
+                    }
+                }
+            },
+            {
                 "id": "4fb14ea5-2943-45b0-aad7-a6b27b8c14b3",
                 "name": "##iframe[src^=\"http://a1.dp25.kr/\"]",
                 "content": {
@@ -602,6 +616,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://adexview.new-star.co.kr/\"]"
+                    }
+                }
+            },
+            {
+                "id": "bda82ca3-e8a3-4732-963a-fa0851702713",
+                "name": "##iframe[src^=\"http://adf.send.microad.jp/afr.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adf.send.microad.jp/afr.php\"]"
                     }
                 }
             },
@@ -1680,6 +1708,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://tab2.clickmon.co.kr/pop/\"]"
+                    }
+                }
+            },
+            {
+                "id": "1add0083-8c96-48d1-8465-050a3fb3939c",
+                "name": "##iframe[src^=\"http://vsc.send.microad.jp/delivery/afr.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://vsc.send.microad.jp/delivery/afr.php\"]"
                     }
                 }
             },
@@ -4963,6 +5005,19 @@
                 }
             },
             {
+                "id": "d6e25ef0-744a-4ad2-986c-86d4bcdbb76f",
+                "name": "cdn.ad.maist.jp/ad/js/pjs.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cdn\\.ad\\.maist\\.jp/ad/js/pjs\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "cda92512-d131-4d9d-beca-0fb2c023aa27",
                 "name": "cdn.adstract.com/adstract/tags/xbanner/xbanner.js",
                 "content": {
@@ -4994,6 +5049,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cdn\\.carbonads\\.com/carbon\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d4eb4fa7-6385-4142-80eb-c093db885be1",
+                "name": "cdn.gmossp-sp.jp/ads/loader.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cdn\\.gmossp-sp\\.jp/ads/loader\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -8847,6 +8915,19 @@
                 }
             },
             {
+                "id": "b9078945-748e-4a53-8785-afd6c6efb99d",
+                "name": "openxjapan-d.openx.net/w/1.0/jstag",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?openxjapan-d\\.openx\\.net/w/1\\.0/jstag",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "5994145a-3267-449f-be7f-2c9d69701288",
                 "name": "outbanner.hu.co.kr/@files/human_banner/",
                 "content": {
@@ -9558,11 +9639,37 @@
                 }
             },
             {
+                "id": "799d4a7f-3f5a-4853-81c8-ba3dc3b246a2",
+                "name": "sp.gmossp-sp.jp/ads/loader.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sp\\.gmossp-sp\\.jp/ads/loader\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "dbff60f4-d611-4250-9906-13a7e3b43e88",
                 "name": "sp1.jssearch.net",
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?sp1\\.jssearch\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "51a94042-b7f9-49dc-8107-16f9db6d28a0",
+                "name": "spdeliver.i-mobile.co.jp/script/ads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?spdeliver\\.i-mobile\\.co\\.jp/script/ads\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -9796,6 +9903,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?srv\\.bebi\\.com/public/js/bebi_v1\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2b367f2f-6e95-44f2-983e-8d088f744bb7",
+                "name": "ssp.advg.jp/ssp/p/iframe",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ssp\\.advg\\.jp/ssp/p/iframe",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "41cf73cb-695a-4fd0-9d68-d971c1be76ab",
+                "name": "ssp.advg.jp/ssp/p/js1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ssp\\.advg\\.jp/ssp/p/js1",
                         "load-type": []
                     },
                     "action": {
@@ -10266,6 +10399,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?vplayer\\.dawin\\.tv/js/.*/dawinapi\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "94a75b2f-bf01-41fb-9871-1a695fca6578",
+                "name": "vsc.send.microad.jp/delivery/afr.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?vsc\\.send\\.microad\\.jp/delivery/afr\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e98e626c-8b98-4ed8-9810-272ac0019d2e",
+                "name": "vsc.send.microad.jp/delivery/ajs.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?vsc\\.send\\.microad\\.jp/delivery/ajs\\.php",
                         "load-type": []
                     },
                     "action": {
