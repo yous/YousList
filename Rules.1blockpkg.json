@@ -508,6 +508,20 @@
                 }
             },
             {
+                "id": "fd09ad6c-2906-4f54-b7b5-31a2261c4970",
+                "name": "##iframe[src^=\"http://ad.tpmn.co.kr/adReqSb.tpmn\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ad.tpmn.co.kr/adReqSb.tpmn\"]"
+                    }
+                }
+            },
+            {
                 "id": "bb669e89-8b0b-45a6-84e7-6caf6d02fd77",
                 "name": "##iframe[src^=\"http://ad.xc.nis.nitmus.com/\"]",
                 "content": {
@@ -2774,6 +2788,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ad\\.touchwise\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d8c8c9bb-5a55-42a0-bc0f-854a1f008d7f",
+                "name": "ad.tpmn.co.kr/adReqSb.tpmn",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ad\\.tpmn\\.co\\.kr/adReqSb\\.tpmn",
                         "load-type": []
                     },
                     "action": {
@@ -7001,6 +7028,22 @@
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.ytn\\.co\\.kr/ad/ad_.*\\.html",
                         "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "43b306ae-45a8-4a18-a5c8-49fb0e5175c1",
+                "name": "m.zbn.donga.com/banner/ad_cauly_hotnews.asp$domain=m.zbn.donga.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.zbn\\.donga\\.com/banner/ad_cauly_hotnews\\.asp",
+                        "load-type": [],
+                        "if-domain": [
+                            "m.zbn.donga.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -21127,6 +21170,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.photo_bottom_ad"
+                    }
+                }
+            },
+            {
+                "id": "e6283919-4c77-4087-83f4-6671a1f419c4",
+                "name": "m.zbn.donga.com##iframe[src^=\"/banner/ad_cauly_hotnews.asp\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.zbn\\.donga\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/banner/ad_cauly_hotnews.asp\"]"
                     }
                 }
             },

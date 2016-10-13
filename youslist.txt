@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: O4QSEy92gJrM/YxCMtZsEg
+! Checksum: T9HFa9rfrAHYa2fCBzrpvA
 ! Version: 20161013
 
 ! General element hiding rules
@@ -43,6 +43,7 @@
 ##iframe[src^="http://ad.naver.com/adshow"]
 ##iframe[src^="http://ad.owra.net/"]
 ##iframe[src^="http://ad.priel.co.kr/"]
+##iframe[src^="http://ad.tpmn.co.kr/adReqSb.tpmn"]
 ##iframe[src^="http://ad.xc.nis.nitmus.com/"]
 ##iframe[src^="http://ad1.eventmanager.co.kr/"]
 ##iframe[src^="http://adc.ohmynews.com/NetInsight/"]
@@ -212,6 +213,7 @@
 ||ad.reople.co.kr^
 ||ad.tf.co.kr:8080/js.kti/
 ||ad.touchwise.co.kr^
+||ad.tpmn.co.kr/adReqSb.tpmn^
 ||ad.turn.com/server/ads.js^
 ||ad.wowtv.co.kr^
 ||ad.xc.nis.nitmus.com^
@@ -529,6 +531,7 @@
 ||m.sportsseoul.com/application/views/ad/*.html^
 ||m.tf.co.kr/public/*/ad/ad_read_content*.html^
 ||m.ytn.co.kr/ad/ad_*.html^
+||m.zbn.donga.com/banner/ad_cauly_hotnews.asp^$domain=m.zbn.donga.com
 ||m1.daumcdn.net/adtc/js/mobilead.js^
 ||maxmovie.com/banner/img/lotte630x88.jpg^
 ||mbn.mk.co.kr/pages/ad/
@@ -1501,6 +1504,7 @@ m.yna.co.kr##section.section-add
 m.ytn.co.kr##div.newsview_ad
 m.ytn.co.kr##div.newsview_ad_bnr
 m.ytn.co.kr##div.photo_bottom_ad
+m.zbn.donga.com##iframe[src^="/banner/ad_cauly_hotnews.asp"]
 m.zdnet.co.kr##div.sub_view_cont>div[style="top:0px; position:relative; float:right; width:200px; height:200px; padding:0 0 10px 10px;"]
 m.zdnet.co.kr##div.view_ad_1
 macnn.com##div.ad-slot
