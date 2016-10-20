@@ -28393,6 +28393,48 @@
                 }
             },
             {
+                "id": "00c17639-c13d-4683-ac73-cd91d37c6b30",
+                "name": "star.ohmynews.com##aside.ad-side",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?star\\.ohmynews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.ad-side"
+                    }
+                }
+            },
+            {
+                "id": "9fdd251b-7c01-4c7a-a088-df962a17caa2",
+                "name": "star.ohmynews.com##aside.ad-top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?star\\.ohmynews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.ad-top"
+                    }
+                }
+            },
+            {
+                "id": "79d077c9-e403-42d7-b5bf-209a529388f3",
+                "name": "star.ohmynews.com##div.ad-250x250",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?star\\.ohmynews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-250x250"
+                    }
+                }
+            },
+            {
                 "id": "da65bdb9-be59-4bdc-a9f5-f94451a4ee65",
                 "name": "starin.edaily.co.kr##div.View_TPAd",
                 "content": {
