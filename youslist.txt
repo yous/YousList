@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: xub+RVmVmb3McAYaL7QAdQ
-! Version: 20161021
+! Checksum: OBLloNHFLGB6u1fUYV7GMA
+! Version: 20161022
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -465,7 +465,7 @@
 ||get2.keywordsconnect.com^
 ||gigglehd.com/banner/*.jpg^
 ||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
-||googleads.g.doubleclick.net/pagead/
+||googleads.g.doubleclick.net/pagead/$domain=~youtube.com
 ||googletagservices.com/tag/js/gpt.js^
 ||gsad.gameshot.net^
 ||gstatic.com/swiffy/v*/runtime.js^
@@ -2189,6 +2189,8 @@ youtube.com##div#feed-pyv-container
 youtube.com##div#footer-ads
 youtube.com##div#video-masthead
 youtube.com##div.ad-div
+youtube.com##div.video-ads
+youtube.com##ytd-search-pyv-renderer
 ytn.co.kr##div#CmAdContent>div[style="overflow:hidden;width:420px;height:45px;border:1px solid #cbcccf;background-color: #fafafa;margin:20px auto 0 auto;padding:10px 30px;"]
 ytn.co.kr##div#CmAdContent>div[style="overflow:hidden;width:420px;height:45px;border:1px solid #cbcccf;background-color: #fafafa;margin:20px auto 0 auto;padding:10px 30px;position:relative;"]
 ytn.co.kr##div#Fusence
