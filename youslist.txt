@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: ZYOlpEaRZysQCl6Q/9zEUg
+! Checksum: ZV7tNevAgr/174zGr/U0GA
 ! Version: 20161021
 
 ! General element hiding rules
@@ -312,6 +312,7 @@
 ||api.wiseclick.co.kr/api/web_directad/
 ||as.dc.impact-ad.jp^
 ||asiae.co.kr/include/real_ad/
+||asiatoday.co.kr/common_js/ad.js^$domain=asiatoday.co.kr
 ||ask.nate.com/iframe/sponsor.html^
 ||assets.gunosy.com/adnet/gunosy_ads.min.js^
 ||assoc-amazon.com/s/ads.js^
@@ -835,43 +836,16 @@ asiae.co.kr##div#view_adtop
 asiae.co.kr##div[class^="view_ad"]
 asiae.co.kr##div[id^="ad"]
 asiae.co.kr##span#realclick_view
-asiatoday.co.kr##body>div[style="width:100%;margin:0 auto"]
-asiatoday.co.kr##div#MainAdLeftDown
-asiatoday.co.kr##div#banner_A
-asiatoday.co.kr##div#banner_N
-asiatoday.co.kr##div#bmRightViewAD
-asiatoday.co.kr##div#contents_left>div[style="width:638px;border:1px solid #E3E3E3;height:148px;margin-top:15px;padding-left:20px"]
-asiatoday.co.kr##div#divNewsstandEvent
-asiatoday.co.kr##div#full>div[style="margin: 0 auto; width: 728px; height: 90px;"]
-asiatoday.co.kr##div#headline_ad_wrap
+asiatoday.co.kr##div#ad_optima_wrap
 asiatoday.co.kr##div#scrolling_banner
 asiatoday.co.kr##div#scrolling_left_banner
-asiatoday.co.kr##div#section_aside>div[class^="aside_google_"]
-asiatoday.co.kr##div#section_main>div[class^="view_ad_"]
-asiatoday.co.kr##div#star_hot
-asiatoday.co.kr##div#wingBannerLeft
+asiatoday.co.kr##div#section_aside div[class^="aside_google_"]
 asiatoday.co.kr##div#wingBnLeft
 asiatoday.co.kr##div#wingBnRight
-asiatoday.co.kr##div#wrapper>div[style="margin: 0 auto; width: 728px; height: 90px;"]
-asiatoday.co.kr##div#wrapper>font>div[style="position:absolute; top:1610px; left:-129px;"]
-asiatoday.co.kr##div.character_wrap
-asiatoday.co.kr##div.cont_left>div[style="padding-top:10px; clear:both;"]
-asiatoday.co.kr##div.cont_left>div[style="padding-top:10px; padding-bottom: 15px; clear:both;"]
-asiatoday.co.kr##div.cont_left>div[style="width:600px; margin:0px 0 10px 45px;"]
-asiatoday.co.kr##div.cont_left>div[style="width:600px; margin:0px 10px 10px 45px; display:inline-block;"]
-asiatoday.co.kr##div.cont_left>div[style="width:640px;border-bottom:1px solid #DFDFDF"]
-asiatoday.co.kr##div.cont_left>div[style="width:658px; height:128px; margin-bottom:10px; clear:both;"]
-asiatoday.co.kr##div.cont_left>div[style="width:658px; height:130px;margin-bottom:10px; clear:both;"]
-asiatoday.co.kr##div.cont_right>div[style="margin-top:3px;"]
-asiatoday.co.kr##div.cont_right>div[style="margin: 0px 0 10px 0;"]
-asiatoday.co.kr##div.cont_right>div[style="margin:0px;"]
-asiatoday.co.kr##div.cont_right>div[style="margin:10px 0 0 0;"]
-asiatoday.co.kr##div.cont_right>div[style="margin:20px 0 0 0;"]
+asiatoday.co.kr##div.gad_wrap
 asiatoday.co.kr##div.mask_div
-asiatoday.co.kr##div.news_info_box>div[style="width:636px;border:1px solid #E3E3E3;height:148px;margin-top:15px;padding-left:20px"]
+asiatoday.co.kr##dl.article_body>div[style="width:456px;height:148px;overflow:hidden;float:left;margin-top:24px"]
 asiatoday.co.kr##iframe[src^="/comm/ads/"]
-asiatoday.co.kr##[class^="bm_ad"]
-asiatoday.co.kr##[class^="main_ad"]
 ask.fm##div.askfm-ad-slot
 avdbs.com##div#banner_bottom
 avdbs.com##div.banner_left
