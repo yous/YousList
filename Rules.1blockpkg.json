@@ -1936,6 +1936,20 @@
                 }
             },
             {
+                "id": "5066ae43-22cb-4fa9-b06f-6d3c25cbd317",
+                "name": "##iframe[src^=\"http://www.ti-center.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.ti-center.co.kr/\"]"
+                    }
+                }
+            },
+            {
                 "id": "c48ccae8-7b0f-47c7-bbca-5531cfd5366d",
                 "name": "##iframe[src^=\"https://creative.wwwpromoter.com/\"]",
                 "content": {
@@ -10219,6 +10233,19 @@
                         "if-domain": [
                             "thepiratebay.org"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cb90c113-0910-4210-ac45-f98a7ab82e39",
+                "name": "ti-center.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ti-center\\.co\\.kr",
+                        "load-type": []
                     },
                     "action": {
                         "type": "block"
@@ -18722,6 +18749,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ads_sc"
+                    }
+                }
+            },
+            {
+                "id": "71d60077-e579-40e9-ba32-ef6556a046fa",
+                "name": "m.dailian.co.kr##div#ad_layer110",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.dailian\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_layer110"
                     }
                 }
             },

@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: kWgPPdMX3ALOzicsP1pBgg
+! Checksum: xub+RVmVmb3McAYaL7QAdQ
 ! Version: 20161021
 
 ! General element hiding rules
@@ -145,6 +145,7 @@
 ##iframe[src^="http://www.koreadaily.com/_ui/ad/"]
 ##iframe[src^="http://www.mediamixad.com/ad/liveAd"]
 ##iframe[src^="http://www.sunnyworks.co.kr/data/SW"][src$=".html"]
+##iframe[src^="http://www.ti-center.co.kr/"]
 ##iframe[src^="https://creative.wwwpromoter.com/"]
 ##iframe[src^="https://syndication.exoclick.com/ads-iframe-display.php"]
 ##ins.adsbygoogle
@@ -764,6 +765,7 @@
 ||tab.clickmon.co.kr/ad_img/
 *tab*.clickmon.co.kr/pop/
 ||thepiratebay.org/static/ads/$domain=thepiratebay.org
+||ti-center.co.kr^
 ||tl.mmnneo.com/neovcm.js^
 ||torrentmade.com/data/zn_banner/
 ||torrentmade.com/js/bpopup/scripting.min.js^
@@ -1325,6 +1327,7 @@ m.chosun.com##iframe[src^="http://m.chosun.com/tad.html"]
 m.clien.net##div#ct>section>div[style="clear:both;width:90%; margin:0 auto;"]
 m.clien.net##div#ct>section>div[style="width:92%; height:84px; margin:0 auto; background-color:#eaf3e8;  padding:16px 12px 16px 12px;"]
 m.comic.naver.com##div.ads_sc
+m.dailian.co.kr##div#ad_layer110
 m.daum.net##div.bnr_add
 m.daum.net##div.box_bnr
 m.daum.net##div.float_acm_banner
