@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: ZV7tNevAgr/174zGr/U0GA
+! Checksum: WthrtQR7AR4I7V1PBZtCdg
 ! Version: 20161021
 
 ! General element hiding rules
@@ -37,6 +37,7 @@
 ##iframe[src^="http://ad.ad4989.co.kr/"]
 ##iframe[src^="http://ad.adkova.com/media/"]
 ##iframe[src^="http://ad.adinc.kr/"]
+##iframe[src^="http://ad.adixs.co.kr/"]
 ##iframe[src^="http://ad.ezday.co.kr/NetInsight/"]
 ##iframe[src^="http://ad.ilikesponsorad.co.kr/"]
 ##iframe[src^="http://ad.mediafarm.co.kr/mad/"]
@@ -183,6 +184,7 @@
 ||ad.ad-ya.net^
 ||ad.ad4989.co.kr^
 ||ad.adinc.kr^
+||ad.adixs.co.kr^
 ||ad.adkova.com/media/
 ||ad.adlike.co.kr^
 ||ad.adnmore.co.kr^
@@ -548,6 +550,9 @@
 ||longkeyone.co.kr^
 ||m.11st.co.kr/MW/html/allianceAd/
 ||m.adtc.daum.net/js/mobilead.js^
+||m.asiatoday.co.kr/kn/ad/$domain=m.asiatoday.co.kr
+||m.asiatoday.co.kr/kn/adop2.js^$domain=m.asiatoday.co.kr
+||m.asiatoday.co.kr/kn/inbnet.html^$domain=m.asiatoday.co.kr
 ||m.chosun.com/200.html^$domain=m.chosun.com
 ||m.chosun.com/itad.html^$domain=m.chosun.com
 ||m.chosun.com/tad.html^$domain=m.chosun.com
@@ -1284,6 +1289,18 @@ luukku.com##iframe[src^="http://img.luukku.com/st/asset/luukku/partner/keskiosa.
 luukku.com##section.ad
 luukku.com##table.contentwrapper>tbody>tr>td.banner
 m.agora.daum.net##a.bnr_livboard
+m.asiatoday.co.kr##div#btm
+m.asiatoday.co.kr##div.a5>div.bbs_d.bbw_thin.bts_d.btw_thin.pb_2.pt_5
+m.asiatoday.co.kr##div.ad7
+m.asiatoday.co.kr##div.ad8
+m.asiatoday.co.kr##div.ad9
+m.asiatoday.co.kr##div.ad10
+m.asiatoday.co.kr##div.ad14
+m.asiatoday.co.kr##div.ad15
+m.asiatoday.co.kr##div.news_bm>table[style="width:218px !important; height:218px; float:right !important; margin:2px 0 0 0;"]
+m.asiatoday.co.kr##div[id^="div-lumi_"][style="height:80px;margin-top:15px"]
+m.asiatoday.co.kr##iframe[src^="/kn/ad/"]
+m.asiatoday.co.kr##iframe[src^="inbnet.html"]
 m.bbs1.agora.media.daum.net##a.bnr_livboard
 m.biz.khan.co.kr,m.khan.co.kr##div#article_bottom_ad
 m.biz.khan.co.kr,m.khan.co.kr##div#mezzo_ad

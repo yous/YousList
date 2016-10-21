@@ -424,6 +424,20 @@
                 }
             },
             {
+                "id": "e71fdd72-e995-4d74-b046-fc89f8da248c",
+                "name": "##iframe[src^=\"http://ad.adixs.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ad.adixs.co.kr/\"]"
+                    }
+                }
+            },
+            {
                 "id": "77b21a9c-69b9-4f12-b128-57b4de687282",
                 "name": "##iframe[src^=\"http://ad.ezday.co.kr/NetInsight/\"]",
                 "content": {
@@ -2402,6 +2416,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ad\\.adinc\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "bb30493b-b4dc-43bd-af42-65dcc4d39ba4",
+                "name": "ad.adixs.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ad\\.adixs\\.co\\.kr",
                         "load-type": []
                     },
                     "action": {
@@ -7302,6 +7329,54 @@
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.adtc\\.daum\\.net/js/mobilead\\.js",
                         "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c535b83a-0ca1-4f25-a00c-2974091a55ba",
+                "name": "m.asiatoday.co.kr/kn/ad/$domain=m.asiatoday.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.asiatoday\\.co\\.kr/kn/ad/",
+                        "load-type": [],
+                        "if-domain": [
+                            "m.asiatoday.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "676eabe8-6d55-457e-ae02-b415a2e43e01",
+                "name": "m.asiatoday.co.kr/kn/adop2.js$domain=m.asiatoday.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.asiatoday\\.co\\.kr/kn/adop2\\.js",
+                        "load-type": [],
+                        "if-domain": [
+                            "m.asiatoday.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "107f0afc-4cc1-486e-9db1-2b84b019b8c6",
+                "name": "m.asiatoday.co.kr/kn/inbnet.html$domain=m.asiatoday.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.asiatoday\\.co\\.kr/kn/inbnet\\.html",
+                        "load-type": [],
+                        "if-domain": [
+                            "m.asiatoday.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -18045,6 +18120,174 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a.bnr_livboard"
+                    }
+                }
+            },
+            {
+                "id": "f1aaeb4a-099d-42c4-866b-4a3fc1894040",
+                "name": "m.asiatoday.co.kr##div#btm",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.asiatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#btm"
+                    }
+                }
+            },
+            {
+                "id": "f3b05a92-00cc-4e8a-b671-05bcc98fe2e4",
+                "name": "m.asiatoday.co.kr##div.a5>div.bbs_d.bbw_thin.bts_d.btw_thin.pb_2.pt_5",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.asiatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.a5>div.bbs_d.bbw_thin.bts_d.btw_thin.pb_2.pt_5"
+                    }
+                }
+            },
+            {
+                "id": "a90dc032-baf8-48d1-9e59-619b4e4b7405",
+                "name": "m.asiatoday.co.kr##div.ad7",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.asiatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad7"
+                    }
+                }
+            },
+            {
+                "id": "f2d0f499-6981-4d3e-88de-bf4cbfa0ca91",
+                "name": "m.asiatoday.co.kr##div.ad8",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.asiatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad8"
+                    }
+                }
+            },
+            {
+                "id": "cdbabc64-bf37-4f36-94b2-51e2bb464754",
+                "name": "m.asiatoday.co.kr##div.ad9",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.asiatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad9"
+                    }
+                }
+            },
+            {
+                "id": "bee7106c-1b75-4d0b-b8c4-f40e75e56869",
+                "name": "m.asiatoday.co.kr##div.ad10",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.asiatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad10"
+                    }
+                }
+            },
+            {
+                "id": "f4337cde-42f9-44ab-bb53-ba29420b1099",
+                "name": "m.asiatoday.co.kr##div.ad14",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.asiatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad14"
+                    }
+                }
+            },
+            {
+                "id": "4758e675-0722-4392-a8de-737769c82ad8",
+                "name": "m.asiatoday.co.kr##div.ad15",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.asiatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad15"
+                    }
+                }
+            },
+            {
+                "id": "a9981768-3727-4536-89e6-08b99b85b149",
+                "name": "m.asiatoday.co.kr##div.news_bm>table[style=\"width:218px !important; height:218px; float:right !important; margin:2px 0 0 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.asiatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.news_bm>table[style=\"width:218px !important; height:218px; float:right !important; margin:2px 0 0 0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "f92ef037-6968-42c8-9ddc-ce0b33eb04ab",
+                "name": "m.asiatoday.co.kr##div[id^=\"div-lumi_\"][style=\"height:80px;margin-top:15px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.asiatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"div-lumi_\"][style=\"height:80px;margin-top:15px\"]"
+                    }
+                }
+            },
+            {
+                "id": "8f400ec4-93a1-446a-8827-fadd97e85d96",
+                "name": "m.asiatoday.co.kr##iframe[src^=\"/kn/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.asiatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/kn/ad/\"]"
+                    }
+                }
+            },
+            {
+                "id": "34ab2cfd-ab43-4770-8733-2f4cb80212bc",
+                "name": "m.asiatoday.co.kr##iframe[src^=\"inbnet.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.asiatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"inbnet.html\"]"
                     }
                 }
             },
