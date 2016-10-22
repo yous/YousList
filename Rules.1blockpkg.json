@@ -9130,6 +9130,38 @@
                 }
             },
             {
+                "id": "c0e7b1cc-3d6e-4584-bf3f-a90300663daa",
+                "name": "pinaya.center/addons/document_contents_blind_advertise/css/blind.min.css$domain=pinaya.center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?pinaya\\.center/addons/document_contents_blind_advertise/css/blind\\.min\\.css",
+                        "load-type": [],
+                        "if-domain": [
+                            "pinaya.center"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "da4b53fa-ea5d-485c-981a-56adc28440a4",
+                "name": "pinaya.center/addons/document_contents_blind_advertise/js/blind.min.js$domain=pinaya.center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?pinaya\\.center/addons/document_contents_blind_advertise/js/blind\\.min\\.js",
+                        "load-type": [],
+                        "if-domain": [
+                            "pinaya.center"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c820541b-2900-4fea-8755-3b87eb3f7aa4",
                 "name": "plugin.2beon.co.kr",
                 "content": {
@@ -26452,6 +26484,90 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[id^=\"tfasyncframe_\"]"
+                    }
+                }
+            },
+            {
+                "id": "213593b7-d149-49b5-8e61-051ba5620af3",
+                "name": "pinaya.center##div#side_left",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?pinaya\\.center",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#side_left"
+                    }
+                }
+            },
+            {
+                "id": "48979147-5d29-4cdc-99b7-6bb4e7aad91e",
+                "name": "pinaya.center##div#side_right",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?pinaya\\.center",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#side_right"
+                    }
+                }
+            },
+            {
+                "id": "dd60c03a-da41-4fd6-ae3f-523cce714fe8",
+                "name": "pinaya.center##div.custom_html_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?pinaya\\.center",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.custom_html_wrap"
+                    }
+                }
+            },
+            {
+                "id": "adb05d02-4f5d-4dae-8455-e79977dfc518",
+                "name": "pinaya.center##div.rd_body>a[href^=\"http://filecast.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?pinaya\\.center",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rd_body>a[href^=\"http://filecast.co.kr/\"]"
+                    }
+                }
+            },
+            {
+                "id": "396a0ad4-20c9-458b-9c7e-aeeb4e197322",
+                "name": "pinaya.center##div.slider_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?pinaya\\.center",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.slider_wrap"
+                    }
+                }
+            },
+            {
+                "id": "77f9b58b-19e9-41fa-9f8e-5a4a29ce298c",
+                "name": "pinaya.center##div.ss_ad_center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?pinaya\\.center",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ss_ad_center"
                     }
                 }
             },

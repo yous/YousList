@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: OBLloNHFLGB6u1fUYV7GMA
+! Checksum: OxHtlaIE9UGW+Vv52R8x2Q
 ! Version: 20161022
 
 ! General element hiding rules
@@ -681,6 +681,8 @@
 ||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js^
 ||partner.googleadservices.com/gpt/pubads_impl_*.js^
 ||performix.co.kr/cgi-bin/conad.fcgi/
+||pinaya.center/addons/document_contents_blind_advertise/css/blind.min.css^$domain=pinaya.center
+||pinaya.center/addons/document_contents_blind_advertise/js/blind.min.js^$domain=pinaya.center
 ||plugin.2beon.co.kr^
 ||polltest.azurewebsites.net/Polls/Ads^
 ||prism.pandora.tv^
@@ -1871,6 +1873,12 @@ pann.nate.com##div.sidebar.ad
 pann.nate.com##div.sidebar_banner
 pann.nate.com##div.view_banner
 pastebin.com##iframe[id^="tfasyncframe_"]
+pinaya.center##div#side_left
+pinaya.center##div#side_right
+pinaya.center##div.custom_html_wrap
+pinaya.center##div.rd_body>a[href^="http://filecast.co.kr/"]
+pinaya.center##div.slider_wrap
+pinaya.center##div.ss_ad_center
 pixiv.net##a.ads_anchor
 pixiv.net##div#header-banner
 pixiv.net##div.ad
