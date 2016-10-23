@@ -1376,6 +1376,20 @@
                 }
             },
             {
+                "id": "adbced40-efb8-415b-b8bc-00907c8a6a93",
+                "name": "##iframe[src^=\"http://m.joyninfo.com/yna/yna_w2.asp\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://m.joyninfo.com/yna/yna_w2.asp\"]"
+                    }
+                }
+            },
+            {
                 "id": "eef71c73-36b7-42d0-8cb5-d9d834f6d12d",
                 "name": "##iframe[src^=\"http://m.kmib.co.kr/banner/\"]",
                 "content": {
@@ -7643,6 +7657,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.joyninfo\\.com/yna/yna_m_new\\.asp",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3a7a6b0e-cc26-451d-adb8-42df4872834b",
+                "name": "m.joyninfo.com/yna/yna_w2.asp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.joyninfo\\.com/yna/yna_w2\\.asp",
                         "load-type": []
                     },
                     "action": {
