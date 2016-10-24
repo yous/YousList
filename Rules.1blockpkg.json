@@ -5618,6 +5618,19 @@
                 }
             },
             {
+                "id": "48fff038-ae76-4bc8-9286-639330fba5cc",
+                "name": "dotcomconsultancy.advertserve.com/servlet/view/banner/javascript/ajax/crossdomain/zone",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?dotcomconsultancy\\.advertserve\\.com/servlet/view/banner/javascript/ajax/crossdomain/zone",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f4ba997c-5729-4937-af50-32b24e3304fe",
                 "name": "dreamsearch.or.kr/ad/",
                 "content": {
@@ -12959,6 +12972,90 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.topright_bn"
+                    }
+                }
+            },
+            {
+                "id": "a62a3673-65de-40c0-b3b1-48bb37fa5433",
+                "name": "blackhatworld.com##div.ad_below_bottom_breadcrumb",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?blackhatworld\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_below_bottom_breadcrumb"
+                    }
+                }
+            },
+            {
+                "id": "e9f5457c-00e4-4862-a637-5af92252ad97",
+                "name": "blackhatworld.com##div.ad_below_top_breadcrumb",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?blackhatworld\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_below_top_breadcrumb"
+                    }
+                }
+            },
+            {
+                "id": "74ab3474-6ae2-42ca-aa83-c040c1f558d3",
+                "name": "blackhatworld.com##div.ad_header",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?blackhatworld\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_header"
+                    }
+                }
+            },
+            {
+                "id": "d258a8d8-dad2-4735-a503-87e44d91add9",
+                "name": "blackhatworld.com##div.ad_message_below_first",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?blackhatworld\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_message_below_first"
+                    }
+                }
+            },
+            {
+                "id": "fc3f5c0c-fad9-403f-a8ac-6e2ca79e2bfb",
+                "name": "blackhatworld.com##div.ad_message_below_last",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?blackhatworld\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_message_below_last"
+                    }
+                }
+            },
+            {
+                "id": "b395e054-c685-43c5-99cc-4b240474cf37",
+                "name": "blackhatworld.com##div.ad_sidebar_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?blackhatworld\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_sidebar_bottom"
                     }
                 }
             },
