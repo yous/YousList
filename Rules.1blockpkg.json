@@ -25045,6 +25045,20 @@
                 }
             },
             {
+                "id": "fc70b26f-85f7-474b-b130-4fe26f75dedf",
+                "name": "news.naver.com##div.article_body>table[width=\"252\"][align=\"right\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?news\\.naver\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article_body>table[width=\"252\"][align=\"right\"]"
+                    }
+                }
+            },
+            {
                 "id": "bfaaf120-d4ee-4f1b-bbda-f25e009b2e71",
                 "name": "news.sbs.co.kr##div#all_vod_banner",
                 "content": {
