@@ -284,6 +284,20 @@
                 }
             },
             {
+                "id": "00937db8-7f96-4ff8-9f8b-df3f8db02873",
+                "name": "##iframe[src^=\"//ad.vkoad.com/showads.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//ad.vkoad.com/showads.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "027202ad-eb54-4c99-8255-c1a7106bb036",
                 "name": "##iframe[src^=\"//adclickservice.com\"]",
                 "content": {
@@ -2925,6 +2939,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ad\\.turn\\.com/server/ads\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6ff42de6-f97f-4ec3-ba2e-1ea7fa1603e4",
+                "name": "ad.vkoad.com/showads.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ad\\.vkoad\\.com/showads\\.php",
                         "load-type": []
                     },
                     "action": {
@@ -6225,6 +6252,19 @@
                 }
             },
             {
+                "id": "6514e7ef-d38b-421c-8cb8-804b5a3ca5b3",
+                "name": "go.onclasrv.com/apu.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?go\\.onclasrv\\.com/apu\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b5e64fff-152f-4367-ab43-d8f455ab408e",
                 "name": "google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com",
                 "content": {
@@ -7229,6 +7269,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?jsc\\.mgid\\.com/k/a/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "44fc8929-3724-42d1-9d3a-2dedce898479",
+                "name": "jsc.mgid.com/n/o/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?jsc\\.mgid\\.com/n/o/",
                         "load-type": []
                     },
                     "action": {
@@ -9037,6 +9090,19 @@
                 }
             },
             {
+                "id": "07e77671-ec05-4258-a8ed-cce0f1117fe0",
+                "name": "onclickads.net/apu.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?onclickads\\.net/apu\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1cee9946-5dc3-47eb-8678-226cae73c8ab",
                 "name": "op.mmnneo.com/banner.widget.asp",
                 "content": {
@@ -9195,6 +9261,19 @@
                         "if-domain": [
                             "pinaya.center"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "066c3575-0d13-41ff-9840-3546790be245",
+                "name": "pl134211.puhtml.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?pl134211\\.puhtml\\.com",
+                        "load-type": []
                     },
                     "action": {
                         "type": "block"
