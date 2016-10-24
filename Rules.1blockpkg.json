@@ -6521,6 +6521,38 @@
                 }
             },
             {
+                "id": "c7245159-0f1b-455b-a74e-48fe245b01d5",
+                "name": "hitomi.la/hitomi.js$domain=hitomi.la",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hitomi\\.la/hitomi\\.js",
+                        "load-type": [],
+                        "if-domain": [
+                            "hitomi.la"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c96f0d97-731a-475d-a3a6-bdda99d8e4a9",
+                "name": "hitomi.la/hitomi/exoclickcode-*-*.js$domain=hitomi.la",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hitomi\\.la/hitomi/exoclickcode-.*-.*\\.js",
+                        "load-type": [],
+                        "if-domain": [
+                            "hitomi.la"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d943d5b9-ba4e-4704-8b42-f416266c059b",
                 "name": "humor.hani.co.kr/common/banner.html",
                 "content": {
@@ -9334,10 +9366,10 @@
             },
             {
                 "id": "066c3575-0d13-41ff-9840-3546790be245",
-                "name": "pl134211.puhtml.com",
+                "name": "pl*.puhtml.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?pl134211\\.puhtml\\.com",
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?pl.*\\.puhtml\\.com",
                         "load-type": []
                     },
                     "action": {
@@ -10422,6 +10454,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?syndication\\.exoclick\\.com/ads-iframe-display\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "40d1dc8e-82ee-499b-ab1a-84ecbfce52e5",
+                "name": "syndication.exoclick.com/splash.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?syndication\\.exoclick\\.com/splash\\.php",
                         "load-type": []
                     },
                     "action": {
