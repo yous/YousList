@@ -1054,6 +1054,20 @@
                 }
             },
             {
+                "id": "99a2a70b-725f-4d07-979b-432d962842fe",
+                "name": "##iframe[src^=\"http://cdn.optmd.com/V2/PSA/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://cdn.optmd.com/V2/PSA/\"]"
+                    }
+                }
+            },
+            {
                 "id": "30c244e7-d381-4f5b-af3e-6bdfb6ea3b06",
                 "name": "##iframe[src^=\"http://cdn04.sndkorea.co.kr/\"]",
                 "content": {
@@ -1754,6 +1768,20 @@
                 }
             },
             {
+                "id": "c941ade7-c0ba-4564-b709-fcc51312fe45",
+                "name": "##iframe[src^=\"http://us-ads.openx.net/w/1.0/afr\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://us-ads.openx.net/w/1.0/afr\"]"
+                    }
+                }
+            },
+            {
                 "id": "1add0083-8c96-48d1-8465-050a3fb3939c",
                 "name": "##iframe[src^=\"http://vsc.send.microad.jp/delivery/afr.php\"]",
                 "content": {
@@ -2325,6 +2353,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?a2\\.acrosspf\\.com/js/_a_adnf_overlay_.*\\.min\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e2b8d9db-3fea-4987-8f8e-ecf76f70c7c6",
+                "name": "a870.casalemedia.com/pcreative",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?a870\\.casalemedia\\.com/pcreative",
                         "load-type": []
                     },
                     "action": {
@@ -3719,6 +3760,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ads\\.rubiconproject\\.com/ad/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "878d183b-d2e7-46a0-93e5-33754ee39bed",
+                "name": "ads.rubiconproject.com/header/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ads\\.rubiconproject\\.com/header/.*\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -5181,6 +5235,19 @@
                 }
             },
             {
+                "id": "b145a88a-c19f-4d99-9411-6c61806c8d66",
+                "name": "cdn.optmd.com/V2/PSA/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cdn\\.optmd\\.com/V2/PSA/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b2303083-974f-44b5-bf3b-e3952d6da920",
                 "name": "cdn03.sndkorea.co.kr",
                 "content": {
@@ -5559,6 +5626,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?d1swklt9res5jr\\.cloudfront\\.net/static/packed/tvple\\.ad\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fe252d79-97af-4074-9ff8-ce4bc45a6adc",
+                "name": "d3pkae9owd2lcf.cloudfront.net/pb92c.gz.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?d3pkae9owd2lcf\\.cloudfront\\.net/pb92c\\.gz\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -8240,6 +8320,19 @@
                 }
             },
             {
+                "id": "c6d5f439-4c30-45e4-8cf9-bf07bf0a1249",
+                "name": "monkey-broker-d.openx.net/w/1.0/jstag",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?monkey-broker-d\\.openx\\.net/w/1\\.0/jstag",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "93e4d23d-1134-43ca-9ab3-ae1c97817e86",
                 "name": "mp.mmnneo.com",
                 "content": {
@@ -9768,6 +9861,19 @@
                 }
             },
             {
+                "id": "ca8230b9-ecae-4786-8955-e332f7c00241",
+                "name": "secure-ads.pictela.net/rm/marketplace/pubtaglib/0_4_0/pubtaglib_0_4_0.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?secure-ads\\.pictela\\.net/rm/marketplace/pubtaglib/0_4_0/pubtaglib_0_4_0\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0a7a6dd9-607c-4613-8819-cfdde8d2e952",
                 "name": "segye.com/Articles/Components/Ad/",
                 "content": {
@@ -10755,6 +10861,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?uplus\\.kr/common/m_js/mobile_html_web4\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ddc80d7d-8bd7-4dca-b029-b043ebcb3311",
+                "name": "us-ads.openx.net/w/1.0/afr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?us-ads\\.openx\\.net/w/1\\.0/afr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8ca9173f-208f-4ea2-bd08-1fa42b4c601a",
+                "name": "us-ads.openx.net/w/1.0/jstag",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?us-ads\\.openx\\.net/w/1\\.0/jstag",
                         "load-type": []
                     },
                     "action": {
@@ -16730,6 +16862,76 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.rb_banner"
+                    }
+                }
+            },
+            {
+                "id": "16901d97-fc66-4268-b60f-ae49a8f6e602",
+                "name": "hotslogs.com##div#advertisementBannerMonkeyBrokerBottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hotslogs\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#advertisementBannerMonkeyBrokerBottom"
+                    }
+                }
+            },
+            {
+                "id": "3343f6ed-2129-44ef-8660-272133c5818e",
+                "name": "hotslogs.com##div#advertisementBannerMonkeyBrokerRight",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hotslogs\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#advertisementBannerMonkeyBrokerRight"
+                    }
+                }
+            },
+            {
+                "id": "29e92ed7-b610-4f2c-a483-a406d71ec835",
+                "name": "hotslogs.com##div#advertisementBannerMonkeyBrokerRightThin",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hotslogs\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#advertisementBannerMonkeyBrokerRightThin"
+                    }
+                }
+            },
+            {
+                "id": "b6769830-11f3-43f3-ac72-be3c2f3d957d",
+                "name": "hotslogs.com##div#advertisementPlaceholder",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hotslogs\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#advertisementPlaceholder"
+                    }
+                }
+            },
+            {
+                "id": "1c57c9fc-c695-4321-b49f-08e9d9fdf904",
+                "name": "hotslogs.com##div.advertisementBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hotslogs\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advertisementBanner"
                     }
                 }
             },

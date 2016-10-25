@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 5QTWWhYXw2lLDHrlk7LnEA
-! Version: 20161024
+! Checksum: pK8EjRWkui/XVuPlG6ArSQ
+! Version: 20161025
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -82,6 +82,7 @@
 ##iframe[src^="http://candy.ad9.kr/"]
 ##iframe[src^="http://care-health.co.kr/"]
 ##iframe[src^="http://cas.criteo.com/delivery/"]
+##iframe[src^="http://cdn.optmd.com/V2/PSA/"]
 ##iframe[src^="http://cdn04.sndkorea.co.kr/"]
 ##iframe[src^="http://chie8oo.com/afr.php"]
 ##iframe[src^="http://cm.interworksmedia.co.kr/adTagRequest.htm"]
@@ -132,6 +133,7 @@
 ##iframe[src^="http://static.joins.com/isplus/ui/ad/"]
 ##iframe[src^="http://syndication.exoclick.com/ads-iframe-display.php"]
 ##iframe[src^="http://tab2.clickmon.co.kr/pop/"]
+##iframe[src^="http://us-ads.openx.net/w/1.0/afr"]
 ##iframe[src^="http://vsc.send.microad.jp/delivery/afr.php"]
 ##iframe[src^="http://www.ad-playstore.com/"]
 ##iframe[src^="http://www.adpingpong.co.kr/"]
@@ -177,6 +179,7 @@
 ||a1.dp25.kr^
 ||a2.acrosspf.com/js/_a_adnf_bottompop_*.min.js^
 ||a2.acrosspf.com/js/_a_adnf_overlay_*.min.js^
+||a870.casalemedia.com/pcreative^
 ||acdn.adnxs.com/ast/ast.js^
 ||ad*.*/event.ems/$domain=~interpark.com
 ||ad*.inews24.com^
@@ -284,6 +287,7 @@
 ||ads.realclick.co.kr/ad_tpl/back_criteo_rta.rc^
 ||ads.realclick.co.kr/ad_tpl/headcopy.rc^
 ||ads.rubiconproject.com/ad/
+||ads.rubiconproject.com/header/*.js^
 ||ads.tlvmedia.com^
 ||ads.yahoo.com^
 ||ads1.playforum.net:8080^
@@ -387,6 +391,7 @@
 ||cdn.c-team.jp/tags/dokojs/ad*.js^
 ||cdn.carbonads.com/carbon.js^
 ||cdn.gmossp-sp.jp/ads/loader.js^
+||cdn.optmd.com/V2/PSA/
 ||cdn03.sndkorea.co.kr^
 ||cdn04.sndkorea.co.kr^
 ||cdnprism.pandora.tv/_adv_img/prism_ad/
@@ -416,6 +421,7 @@
 ||d.pixiv.org/show^
 ||d1swklt9res5jr.cloudfront.net/static/packed/mezzoADv*.js^
 ||d1swklt9res5jr.cloudfront.net/static/packed/tvple.ad.js^
+||d3pkae9owd2lcf.cloudfront.net/pb92c.gz.js^
 ||daily.hankooki.com/ad/
 ||dailygame.co.kr/ad/dispad_bot.html^
 ||dailygame.co.kr/ad/dispad_right.html^
@@ -614,6 +620,7 @@
 ||mobi.luxad.kr/ad/
 ||mobi.luxad.net/ad/
 ||mobs.luxad.kr/media/
+||monkey-broker-d.openx.net/w/1.0/jstag^
 ||mp.mmnneo.com^
 ||mt.co.kr/ad/
 ||mtag.mman.kr/js.mezzo/
@@ -729,6 +736,7 @@
 ||script.keywordlink.co.kr^
 ||scripts.chitika.net^
 ||search.n2s.co.kr/_n2s_adop_adinfo.php^
+||secure-ads.pictela.net/rm/marketplace/pubtaglib/0_4_0/pubtaglib_0_4_0.js^
 ||segye.com/Articles/Components/Ad/
 ||seoul.co.kr/ad/
 ||seoul.co.kr/news/datawaveAD.php^
@@ -803,6 +811,8 @@
 ||unionpress.co.kr/news/master/banner/3d69ca2f12c09759924d8be0a89a4259^
 ||uplus.kr/cd/cdNavi/retreieveHtml3JS.dmd^
 ||uplus.kr/common/m_js/mobile_html_web4.js^
+||us-ads.openx.net/w/1.0/afr^
+||us-ads.openx.net/w/1.0/jstag^
 ||view.asiae.co.kr/common/ad/
 ||viewsnnews.com/image/advert/
 ||vplayer.dawin.tv/js/*/dawinapi.js^
@@ -1190,6 +1200,11 @@ hankyung.com##iframe[src^="/m/inc/fixed_mobile_ad_area_view.html"]
 healthmedi.net##div.imagead-taskbar-anchor
 horo.mail.ru##div.p-top-banner
 horo.mail.ru##div.rb_banner
+hotslogs.com##div#advertisementBannerMonkeyBrokerBottom
+hotslogs.com##div#advertisementBannerMonkeyBrokerRight
+hotslogs.com##div#advertisementBannerMonkeyBrokerRightThin
+hotslogs.com##div#advertisementPlaceholder
+hotslogs.com##div.advertisementBanner
 huffingtonpost.kr##div#modulous_article_bottom
 huffingtonpost.kr##div#modulous_leaderboard_flex
 huffingtonpost.kr##div#modulous_mid_article
