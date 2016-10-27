@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: B03XSMz3Epdymb5mZfs6AA
-! Version: 20161025
+! Checksum: 3JKNYMSWNt0n+ZbG/w3GHA
+! Version: 20161027
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -801,6 +801,8 @@
 ||traffic.adxprts.com^
 ||ts.2beon.co.kr/nad/media/
 ||tv.sbs.co.kr/common/common_ad.jsp^
+||tvchosun.com/front/ad/$domain=news.tvchosun.com
+||tvchosun.com/front/rnbAdplex2.html^$domain=news.tvchosun.com
 ||tvdaily.mk.co.kr/ad/
 ||tvdaily.mk.co.kr/include/flash.php^
 ||tvple.com/ab/MW-B-*^$domain=tvple.com
@@ -1831,6 +1833,9 @@ news.sportsseoul.com##ul[class^="topAd"]
 news.tf.co.kr##div#taboola-below-article-thumbnails
 news.tf.co.kr##div.readAd
 news.tf.co.kr##span#rectingle_spanTag_ad
+news.tvchosun.com##div.native_box
+news.tvchosun.com##iframe[src^="http://tvchosun.com/front/ad/"]
+news.tvchosun.com##iframe[src^="http://www.tvchosun.com/front/rnbAdplex2.html"]
 news1.kr##a.stat_check_link
 news1.kr##div#article_body_content>div[style="margin:0 auto; padding-bottom:10px;"]
 news1.kr##div.ad_content
