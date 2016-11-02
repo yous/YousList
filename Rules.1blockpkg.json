@@ -1180,6 +1180,20 @@
                 }
             },
             {
+                "id": "b7a1a60f-8dd5-4e4d-a9af-058dd07dfe05",
+                "name": "##iframe[src^=\"http://disqusads.com/ads-iframe/adsnative/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://disqusads.com/ads-iframe/adsnative/\"]"
+                    }
+                }
+            },
+            {
                 "id": "62df9e0a-4241-452b-b5a9-b6c76d803938",
                 "name": "##iframe[src^=\"http://ea.slrclub.com/NetInsight/\"]",
                 "content": {
@@ -5730,6 +5744,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?display\\.ad\\.daum\\.net/imp",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "92960aa0-4d3c-4c3f-a350-6611e950be04",
+                "name": "disqusads.com/ads-iframe/adsnative/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?disqusads\\.com/ads-iframe/adsnative/",
                         "load-type": []
                     },
                     "action": {
