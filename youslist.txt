@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 3wDZYdwS1I48T3XsUH+oGw
-! Version: 20161102
+! Checksum: +3qVWt1zqlH2FnfAK77Dcw
+! Version: 20161103
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -874,10 +874,11 @@ artsnews.mk.co.kr##div[id="IDContents"]>div>table
 artsnews.mk.co.kr##div[id="joinskmbox"]>div[class="NEWSCONTENT"]>div:last-of-type
 artsnews.mk.co.kr##iframe#about_asiae_shopbox
 artsnews.mk.co.kr##iframe#ad-fist
-asiae.co.kr##div#view_adtop
-asiae.co.kr##div[class^="view_ad"]
-asiae.co.kr##div[id^="ad"]
-asiae.co.kr##span#realclick_view
+asiae.co.kr,view.asiae.co.kr##div#aside>div.aside_view_ad
+asiae.co.kr,view.asiae.co.kr##div.google_ad
+asiae.co.kr,view.asiae.co.kr##div.news_view_ad
+asiae.co.kr,view.asiae.co.kr##div[class^="ad_"]
+asiae.co.kr,view.asiae.co.kr##div[class^="view_ad"]
 asiatoday.co.kr##div#ad_optima_wrap
 asiatoday.co.kr##div#scrolling_banner
 asiatoday.co.kr##div#scrolling_left_banner

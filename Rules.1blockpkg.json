@@ -11758,8 +11758,8 @@
                 }
             },
             {
-                "id": "b4bb539c-7352-4d32-8d6a-8ac876164448",
-                "name": "asiae.co.kr##div#view_adtop",
+                "id": "8ee79989-9c0b-4741-8980-b6eef2e3cbf9",
+                "name": "asiae.co.kr##div#aside>div.aside_view_ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?asiae\\.co\\.kr",
@@ -11767,7 +11767,105 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#view_adtop"
+                        "selector": "div#aside>div.aside_view_ad"
+                    }
+                }
+            },
+            {
+                "id": "a4c12df8-cc19-48a8-b4d5-0515a5b22226",
+                "name": "view.asiae.co.kr##div#aside>div.aside_view_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?view\\.asiae\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#aside>div.aside_view_ad"
+                    }
+                }
+            },
+            {
+                "id": "34996a14-4a53-4858-9572-cf1f5b789dd6",
+                "name": "asiae.co.kr##div.google_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?asiae\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.google_ad"
+                    }
+                }
+            },
+            {
+                "id": "d183bbf5-6f8b-4acf-a7c9-48fbe9ec80dd",
+                "name": "view.asiae.co.kr##div.google_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?view\\.asiae\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.google_ad"
+                    }
+                }
+            },
+            {
+                "id": "72debb0a-d097-4e04-8159-f1eeee6fc302",
+                "name": "asiae.co.kr##div.news_view_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?asiae\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.news_view_ad"
+                    }
+                }
+            },
+            {
+                "id": "2eae05f8-3b04-42e1-87f2-ab638c83dadb",
+                "name": "view.asiae.co.kr##div.news_view_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?view\\.asiae\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.news_view_ad"
+                    }
+                }
+            },
+            {
+                "id": "8b5f5c2c-1619-4331-a9d8-84b9741e934e",
+                "name": "asiae.co.kr##div[class^=\"ad_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?asiae\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"ad_\"]"
+                    }
+                }
+            },
+            {
+                "id": "3e782c2b-1489-43a9-8ef3-a7d97f1b916e",
+                "name": "view.asiae.co.kr##div[class^=\"ad_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?view\\.asiae\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"ad_\"]"
                     }
                 }
             },
@@ -11786,30 +11884,16 @@
                 }
             },
             {
-                "id": "be841ba5-6007-4623-a742-8d9a87b385bf",
-                "name": "asiae.co.kr##div[id^=\"ad\"]",
+                "id": "ab46d6f9-830e-4aaa-8f0a-ddfe383e91c4",
+                "name": "view.asiae.co.kr##div[class^=\"view_ad\"]",
                 "content": {
                     "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?asiae\\.co\\.kr",
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?view\\.asiae\\.co\\.kr",
                         "load-type": []
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div[id^=\"ad\"]"
-                    }
-                }
-            },
-            {
-                "id": "a6b3305c-7b57-4604-9fe2-92965db1676d",
-                "name": "asiae.co.kr##span#realclick_view",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?asiae\\.co\\.kr",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "span#realclick_view"
+                        "selector": "div[class^=\"view_ad\"]"
                     }
                 }
             },
