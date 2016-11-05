@@ -21025,6 +21025,20 @@
                 }
             },
             {
+                "id": "72ed36d8-6303-48f0-befd-4f2adc0ec1d3",
+                "name": "m.inven.co.kr##div.mobileAdNs",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.inven\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobileAdNs"
+                    }
+                }
+            },
+            {
                 "id": "5f26fccf-bdb5-4904-8d7e-b113df58c514",
                 "name": "m.inven.co.kr##body>div[style=\"text-align:center;margin-top:8px;\"]",
                 "content": {
