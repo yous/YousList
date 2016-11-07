@@ -5275,6 +5275,32 @@
                 }
             },
             {
+                "id": "8524b4ba-5f18-4515-ad5e-0cda30a7f9f6",
+                "name": "cdn.teads.tv/js/all-v1.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cdn\\.teads\\.tv/js/all-v1\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8f0a5e58-6abe-43b1-92bc-b5aa21fd4317",
+                "name": "cdn.teads.tv/media/format/v3/teads-format.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cdn\\.teads\\.tv/media/format/v3/teads-format\\.min\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b2303083-974f-44b5-bf3b-e3952d6da920",
                 "name": "cdn03.sndkorea.co.kr",
                 "content": {
@@ -6647,6 +6673,38 @@
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hankyung\\.com/m/inc/fixed_mobile_ad_area_view\\.html",
                         "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "21eed1b5-b8cf-477f-901d-241688737b38",
+                "name": "hei.hankyung.com/js/ad/iconad_hankyung_heien.js$domain=hei.hankyung.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hei\\.hankyung\\.com/js/ad/iconad_hankyung_heien\\.js",
+                        "load-type": [],
+                        "if-domain": [
+                            "hei.hankyung.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cde0e99b-b92c-4ddb-b347-b912da6706f8",
+                "name": "hei.hankyung.com/js/ad/inspace_hankyung_hei.js$domain=hei.hankyung.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hei\\.hankyung\\.com/js/ad/inspace_hankyung_hei\\.js",
+                        "load-type": [],
+                        "if-domain": [
+                            "hei.hankyung.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
