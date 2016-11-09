@@ -6744,6 +6744,22 @@
                 }
             },
             {
+                "id": "827b2b8a-2e57-494a-912e-3e93721858c5",
+                "name": "hpr.outbrain.com/utils/get?*fbk=foxHpNative$domain=foxnews.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hpr\\.outbrain\\.com/utils/get\\?.*fbk=foxHpNative",
+                        "load-type": [],
+                        "if-domain": [
+                            "foxnews.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d943d5b9-ba4e-4704-8b42-f416266c059b",
                 "name": "humor.hani.co.kr/common/banner.html",
                 "content": {
@@ -11527,6 +11543,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ytn\\.co\\.kr/inc_banner/AdServerChange\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "542b622f-729e-40f4-9079-d90543074fe3",
+                "name": "z.moatads.com/*/moatcontent.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?z\\.moatads\\.com/.*/moatcontent\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -16417,6 +16446,48 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/criteo_iframe_top_tv.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "5792da26-4fa5-4c98-8ca5-4525eabf5a70",
+                "name": "foxnews.com##div#sponsored-stories",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?foxnews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sponsored-stories"
+                    }
+                }
+            },
+            {
+                "id": "d4a766f4-8dff-42a3-ad4a-13a8bf5f5652",
+                "name": "foxnews.com##div.ad-unit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?foxnews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-unit"
+                    }
+                }
+            },
+            {
+                "id": "20c85aaa-035a-4f1d-a441-ec33eaa74470",
+                "name": "foxnews.com##div.advert",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?foxnews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advert"
                     }
                 }
             },

@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: gzEvjASRwItOYNIkcayj2w
-! Version: 20161105
+! Checksum: 5A7rU0g8WdKOBEq+hEqOVQ
+! Version: 20161109
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -504,6 +504,7 @@
 ||hei.hankyung.com/js/ad/inspace_hankyung_hei.js^$domain=hei.hankyung.com
 ||hitomi.la/hitomi.js^$domain=hitomi.la
 ||hitomi.la/hitomi/exoclickcode-*-*.js^$domain=hitomi.la
+||hpr.outbrain.com/utils/get?*fbk=foxHpNative$domain=foxnews.com
 ||humor.hani.co.kr/common/banner.html^
 ||i.yimg.jp/images/listing/tool/yads/uadf/yads_vimps-*.js^
 ||ichannela.com/ch/*adpost*
@@ -861,6 +862,7 @@
 ||youtube.com/get_video_info?*el=adunit$domain=youtube.com
 ||ytn.co.kr/img/ad/
 ||ytn.co.kr/inc_banner/AdServerChange.php^
+||z.moatads.com/*/moatcontent.js^
 ||zbn.donga.com/2015/banner/ad_read_*.asp^$domain=zbn.donga.com
 ||zdnet.co.kr/ads/
 ||zdnet.co.kr/pixel2/pixel_top.htm^
@@ -1164,6 +1166,9 @@ forums.macrumors.com##div.funbox
 fow.tv##div#top_pr
 fow.tv##div.div_main>div[style="padding:0 10px 30px 10px;"]
 fow.tv##iframe[src^="/criteo_iframe_top_tv.php"]
+foxnews.com##div#sponsored-stories
+foxnews.com##div.ad-unit
+foxnews.com##div.advert
 france2.fr##div#eShowPubTop
 france2.fr##div.adCtnt
 gall.dcinside.com##div#dc_advertisement
