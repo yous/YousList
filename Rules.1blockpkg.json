@@ -17780,6 +17780,20 @@
                 }
             },
             {
+                "id": "c8580608-7858-47dd-8d71-e9c02b467682",
+                "name": "insight.co.kr##div.trc-content-sponsored",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?insight\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.trc-content-sponsored"
+                    }
+                }
+            },
+            {
                 "id": "8e96e890-76d5-4926-859f-8112e14b5551",
                 "name": "instiz.net##body>div[style=\"width:100%;text-align:center;background-color:#fafafa;height:100px;overflow-y:hidden\"]",
                 "content": {
