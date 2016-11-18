@@ -228,6 +228,20 @@
                 }
             },
             {
+                "id": "b54b5c9a-8e48-4841-8c12-519bb1707029",
+                "name": "##iframe[data-src^=\"http://nw.realssp.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[data-src^=\"http://nw.realssp.co.kr/\"]"
+                    }
+                }
+            },
+            {
                 "id": "7f9cdd21-e192-4f34-bc9f-3ffc37d1d2d8",
                 "name": "##iframe[id^=\"google_ads_iframe_\"]",
                 "content": {
@@ -1680,6 +1694,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://ra.ntwoad.co.kr/\"]"
+                    }
+                }
+            },
+            {
+                "id": "c2fd3216-617f-4b83-a5ed-df61e7127e95",
+                "name": "##iframe[src^=\"http://realdsp.realclick.co.kr/real_ad_dsp.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://realdsp.realclick.co.kr/real_ad_dsp.html\"]"
                     }
                 }
             },
@@ -5514,6 +5542,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cm2\\.cjmooter\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "260619d4-bfb6-4734-a46e-93851942b7de",
+                "name": "connect.facebook.net/en_US/fbadnw.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?connect\\.facebook\\.net/en_US/fbadnw\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -9420,11 +9461,11 @@
                 }
             },
             {
-                "id": "d06d7a71-7c40-4501-989a-b071e516d47d",
-                "name": "nw.realssp.co.kr/realclickssp.js",
+                "id": "67bf6db8-4f56-4e44-bae8-b914d39f126e",
+                "name": "nw.realssp.co.kr",
                 "content": {
                     "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?nw\\.realssp\\.co\\.kr/realclickssp\\.js",
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?nw\\.realssp\\.co\\.kr",
                         "load-type": []
                     },
                     "action": {
@@ -9863,6 +9904,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?rcm-na\\.amazon-adsystem\\.com/e/cm",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8f2d6a09-66c4-4609-b505-b967dad4bc07",
+                "name": "realdsp.realclick.co.kr/real_ad_dsp.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?realdsp\\.realclick\\.co\\.kr/real_ad_dsp\\.html",
                         "load-type": []
                     },
                     "action": {
@@ -11397,6 +11451,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?watchcartoononline\\.com/inc/reklam/.*\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "4391ab13-fc4f-4e3b-a72b-e91d4897f4fa",
+                "name": "web-sdk.shallweadcorp.com:10500/initAdRequest",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?web-sdk\\.shallweadcorp\\.com:10500/initAdRequest",
                         "load-type": []
                     },
                     "action": {
@@ -17406,6 +17473,76 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.imagead-taskbar-anchor"
+                    }
+                }
+            },
+            {
+                "id": "b9cd06de-914f-43b3-89fd-2aae53432b4b",
+                "name": "hellmoney.kr##div#shallwead_div",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hellmoney\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#shallwead_div"
+                    }
+                }
+            },
+            {
+                "id": "15b83379-cab0-4d21-82b5-7a20231bfc83",
+                "name": "hellmoney.kr##div.banner-view.widget",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hellmoney\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-view.widget"
+                    }
+                }
+            },
+            {
+                "id": "9208a116-8abf-4458-b568-79990e773571",
+                "name": "hellmoney.kr##div.banner.widget",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hellmoney\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner.widget"
+                    }
+                }
+            },
+            {
+                "id": "81574d4f-3e8c-41f9-b0bb-fa9bd9aeeec0",
+                "name": "hellmoney.kr##div.leftSide>div[style=\"margin-top: 150px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hellmoney\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.leftSide>div[style=\"margin-top: 150px\"]"
+                    }
+                }
+            },
+            {
+                "id": "36b41caf-76ad-4cf1-84e1-3452c32632cc",
+                "name": "hellmoney.kr##div.widthFixed",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?hellmoney\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.widthFixed"
                     }
                 }
             },

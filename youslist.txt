@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: IfX/bFmb84xy37J+xKUKnQ
+! Checksum: XevQwoUaqGbq5TRDmroZEQ
 ! Version: 20161118
 
 ! General element hiding rules
@@ -23,6 +23,7 @@
 ##div[id^="div-gpt-ad-"]
 ##div[id^="google_ads_iframe_"]
 ##div[id^="sbaAbout"]
+##iframe[data-src^="http://nw.realssp.co.kr/"]
 ##iframe[id^="google_ads_iframe_"]
 ##iframe[id^="nad_"]
 ##iframe[name="ifrad"]
@@ -127,6 +128,7 @@
 ##iframe[src^="http://provider.hiadone.com/cgi-bin/conad_hi.fcgi/"]
 ##iframe[src^="http://pub.adpnut.com/"]
 ##iframe[src^="http://ra.ntwoad.co.kr/"]
+##iframe[src^="http://realdsp.realclick.co.kr/real_ad_dsp.html"]
 ##iframe[src^="http://redir.adap.tv/redir/mobile/mobile-ad-source.html"]
 ##iframe[src^="http://res.heraldm.com/iframe/"]
 ##iframe[src^="http://rsense-ad.realclick.co.kr/rsense/view_ad_adcrm.html"]
@@ -413,6 +415,7 @@
 ||cm.keywordsconnect.com^
 ||cm1.icontact.kr/script/cm_fadein_*.js^
 ||cm2.cjmooter.com^
+||connect.facebook.net/en_US/fbadnw.js^
 ||coolsoft.altervista.org/sites/all/themes/coolsoft/js/coolsoft.js^
 ||cpv.ad.naver.com/adshow^
 ||creative.wwwpromoter.com^
@@ -702,7 +705,7 @@
 ||nscreen.neoebiz.co.kr/xJqScreenView.php^
 ||nson.encock.com/media/
 ||nv*.veta.naver.com/dr^
-||nw.realssp.co.kr/realclickssp.js^
+||nw.realssp.co.kr^
 ||nws.lumieyes.com/show*/media/
 ||ojsfile.ohmynews.com/AD_FILE/
 ||ojsimg.ohmynews.com/*_ad_rolling.htm^
@@ -736,6 +739,7 @@
 ||ra.ntwoad.co.kr^
 ||rcm.amazon.com/e/cm^
 ||rcm-na.amazon-adsystem.com/e/cm^
+||realdsp.realclick.co.kr/real_ad_dsp.html^
 ||redir.adap.tv/redir/javascript/ad_source.js^
 ||redir.adap.tv/redir/javascript/adaptvAdPlayer.js^
 ||redir.adap.tv/redir/mobile/mobile-ad-source.html^
@@ -851,6 +855,7 @@
 ||vsc.send.microad.jp/delivery/ajs.php^
 ||watchcartoononline.com/ads*.html^
 ||watchcartoononline.com/inc/reklam/*.html
+||web-sdk.shallweadcorp.com:10500/initAdRequest^
 ||web.humoruniv.com/ads/banner.html^
 ||web.humoruniv.com/banner/cm/datawave_cm_read.html^
 ||web.n2s.co.kr^
@@ -1235,6 +1240,11 @@ hankyung.com##div.ft_ad
 hankyung.com##div.r_ad_rec300
 hankyung.com##iframe[src^="/m/inc/fixed_mobile_ad_area_view.html"]
 healthmedi.net##div.imagead-taskbar-anchor
+hellmoney.kr##div#shallwead_div
+hellmoney.kr##div.banner-view.widget
+hellmoney.kr##div.banner.widget
+hellmoney.kr##div.leftSide>div[style="margin-top: 150px"]
+hellmoney.kr##div.widthFixed
 horo.mail.ru##div.p-top-banner
 horo.mail.ru##div.rb_banner
 hotslogs.com##div#advertisementBannerMonkeyBrokerBottom
