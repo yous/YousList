@@ -5791,6 +5791,19 @@
                 }
             },
             {
+                "id": "a159de08-684b-48e2-b455-25c319eddfa7",
+                "name": "dev.ezadsystem.com/static/js/ezad-1.0.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?dev\\.ezadsystem\\.com/static/js/ezad-1\\.0\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2b51cfe8-2e13-4dff-84cb-096831a8ac18",
                 "name": "dgate.*/hc.aspx",
                 "content": {
@@ -9618,6 +9631,19 @@
                 }
             },
             {
+                "id": "53aa1b7a-5b4d-4238-bd14-48bfc23eaa87",
+                "name": "pd4-imp.revsci.net/rtbads/pq",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?pd4-imp\\.revsci\\.net/rtbads/pq",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "31f6b50a-f595-4b29-8937-5ec88f6edd2e",
                 "name": "performix.co.kr/cgi-bin/conad.fcgi/",
                 "content": {
@@ -9694,6 +9720,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?polltest\\.azurewebsites\\.net/Polls/Ads",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "959fd2df-42b7-4ef3-86cf-bba9d01fbb28",
+                "name": "pq-direct.revsci.net/pql",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?pq-direct\\.revsci\\.net/pql",
                         "load-type": []
                     },
                     "action": {
@@ -20279,6 +20318,90 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.title_ad"
+                    }
+                }
+            },
+            {
+                "id": "f97822cb-4c4a-4abd-9b34-35c132ca8e2e",
+                "name": "m.ezday.co.kr##div#EZAD-root",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.ezday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#EZAD-root"
+                    }
+                }
+            },
+            {
+                "id": "a26330c8-f83f-42bc-8457-e7a2adeb769c",
+                "name": "m.ezday.co.kr##div#divEzdayBannerAD",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.ezday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#divEzdayBannerAD"
+                    }
+                }
+            },
+            {
+                "id": "1a6054aa-586d-43cb-9430-5898273b832f",
+                "name": "m.ezday.co.kr##div.m_2016_view>div[align=\"center\"][style=\"margin-top:10px;padding-top:10px;border:1px solid #bababa\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.ezday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m_2016_view>div[align=\"center\"][style=\"margin-top:10px;padding-top:10px;border:1px solid #bababa\"]"
+                    }
+                }
+            },
+            {
+                "id": "044e447e-5351-4d00-a739-b897af941ea2",
+                "name": "m.ezday.co.kr##div.m_2016_view>div[style=\"margin: 0px;padding: 15px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.ezday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m_2016_view>div[style=\"margin: 0px;padding: 15px\"]"
+                    }
+                }
+            },
+            {
+                "id": "ddfa5f49-97c5-4d26-a2d1-cf7a476fee04",
+                "name": "m.ezday.co.kr##div.m_2016_view>div[style=\"width:100%;text-align:center;margin-top:10px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.ezday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m_2016_view>div[style=\"width:100%;text-align:center;margin-top:10px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "d33ea6d7-b9a3-448e-a86c-8943fef4e366",
+                "name": "m.ezday.co.kr##div.m_2016_view>div[style=\"width:100%;text-align:center;margin:5px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.ezday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m_2016_view>div[style=\"width:100%;text-align:center;margin:5px;\"]"
                     }
                 }
             },

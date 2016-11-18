@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: HMK6vhqvgMYp2+ahwru83Q
-! Version: 20161109
+! Checksum: IfX/bFmb84xy37J+xKUKnQ
+! Version: 20161118
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -433,6 +433,7 @@
 ||dailygame.co.kr/ad/dispad_bot.html^
 ||dailygame.co.kr/ad/dispad_right.html^
 ||dailygame.co.kr/ad/dispad_top.html^
+||dev.ezadsystem.com/static/js/ezad-1.0.js^
 ||dgate.*/hc.aspx^
 ||dgate.*/hciw.aspx^
 ||display.ad.daum.net/imp^
@@ -717,12 +718,14 @@
 ||pagead2.googlesyndication.com/pagead/$domain=~hackintosh.zone
 ||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js^
 ||partner.googleadservices.com/gpt/pubads_impl_*.js^
+||pd4-imp.revsci.net/rtbads/pq^
 ||performix.co.kr/cgi-bin/conad.fcgi/
 ||pinaya.center/addons/document_contents_blind_advertise/css/blind.min.css^$domain=pinaya.center
 ||pinaya.center/addons/document_contents_blind_advertise/js/blind.min.js^$domain=pinaya.center
 ||pl*.puhtml.com^
 ||plugin.2beon.co.kr^
 ||polltest.azurewebsites.net/Polls/Ads^
+||pq-direct.revsci.net/pql^
 ||prism.pandora.tv^
 ||provider.hiadone.com/cgi-bin/conad_hi.fcgi/
 ||pub.adpnut.com^
@@ -1433,6 +1436,12 @@ m.etnews.com##section.relBottom>section[style="margin-left:8px;margin-right:8px;
 m.etoday.co.kr##div#Share_bn
 m.etoday.co.kr##div.news_adinn
 m.etoday.co.kr##div.title_ad
+m.ezday.co.kr##div#EZAD-root
+m.ezday.co.kr##div#divEzdayBannerAD
+m.ezday.co.kr##div.m_2016_view>div[align="center"][style="margin-top:10px;padding-top:10px;border:1px solid #bababa"]
+m.ezday.co.kr##div.m_2016_view>div[style="margin: 0px;padding: 15px"]
+m.ezday.co.kr##div.m_2016_view>div[style="width:100%;text-align:center;margin-top:10px;"]
+m.ezday.co.kr##div.m_2016_view>div[style="width:100%;text-align:center;margin:5px;"]
 m.fmkorea.com##iframe[src^="/_adpage/"]
 m.focus.kr##div#article_Content>div[style="margin-top:20px;"]
 m.focus.kr##div.adv_bottom
