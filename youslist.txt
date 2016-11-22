@@ -3,10 +3,11 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: XevQwoUaqGbq5TRDmroZEQ
-! Version: 20161118
+! Checksum: 1aUGJ8q5ITyfkt5Zux3spA
+! Version: 20161122
 
 ! General element hiding rules
+##div#_popIn_recommend div._popIn_recommend_article_ad
 ##div#adbay_adExpandDiv
 ##div#adbay_adExpandIframe
 ##div#adya_area
@@ -336,6 +337,8 @@
 ||bdv.bidvertiser.com^
 ||biz.chosun.com/ad/
 ||biz.chosun.com/dhtm/js/2012_ad_biz.js^
+||biz.heraldcorp.com/advertisement/ad_fadein_*.php^$domain=biz.heraldcorp.com
+||biz.heraldcorp.com/extcont/keywordlink_herald_new_*.html^$domain=biz.heraldcorp.com
 ||bizon.kr/bar/adon_banner.js^
 ||bizon.kr/bizon_ad/
 ||bohumlife.edaily.co.kr/iframe_starin.html^
@@ -414,6 +417,7 @@
 ||cm.interworksmedia.co.kr/adTagRequest.htm^
 ||cm.keywordsconnect.com^
 ||cm1.icontact.kr/script/cm_fadein_*.js^
+||cm1.icontact.kr/script/cm_keywordlink_*.js^
 ||cm2.cjmooter.com^
 ||connect.facebook.net/en_US/fbadnw.js^
 ||coolsoft.altervista.org/sites/all/themes/coolsoft/js/coolsoft.js^
@@ -672,6 +676,8 @@
 ||news.chosun.com/dhtm/js/common/ad_news.js^
 ||news.hankooki.com/ad/
 ||news.hankooki.com/service/v04/frm_photoScroll.htm^
+||news.heraldcorp.com/advertisement/ad_fadein_*.php^$domain=news.heraldcorp.com
+||news.heraldcorp.com/extcont/keywordlink_herald_new_*.html^$domain=news.heraldcorp.com
 ||news.inews24.com/inc/right_file_banner.php^$domain=news.inews24.com
 ||news.inews24.com/inc/right_file_banner_125.php^$domain=news.inews24.com
 ||news.inews24.com/util/inc_top_banner.php^$domain=news.inews24.com
@@ -944,29 +950,19 @@ biz.chosun.com##div.h_banner
 biz.chosun.com##div[id^="realclick"]
 biz.chosun.com##div[style="margin:0px 0 0px 0px;width:100%; text-align:center;"]
 biz.chosun.com##div[style="padding:20px 0 0 0; width:298px;text-align:center;"]
-biz.heraldcorp.com,news.heraldcorp.com##div#HB_COMMOM_TOPINT001
-biz.heraldcorp.com,news.heraldcorp.com##div#HB_LEFTSLIDER001
-biz.heraldcorp.com,news.heraldcorp.com##div#HB_SUB_SIDEER001
-biz.heraldcorp.com,news.heraldcorp.com##div#HB_SUB_TOP001
-biz.heraldcorp.com,news.heraldcorp.com##div#HB_Sub_MIDTOP02
-biz.heraldcorp.com,news.heraldcorp.com##div#HB_Sub_MidEnd01
-biz.heraldcorp.com,news.heraldcorp.com##div#HB_Sub_Right3_105
-biz.heraldcorp.com,news.heraldcorp.com##div#HB_Sub_Right4_105
-biz.heraldcorp.com,news.heraldcorp.com##div#HB_Sub_Top_253
-biz.heraldcorp.com,news.heraldcorp.com##div#HBSUB_ABOUTAD001
-biz.heraldcorp.com,news.heraldcorp.com##div#adshow
-biz.heraldcorp.com,news.heraldcorp.com##div#articleText span[style="width:640px; height:70px; text-align:center; margin:0 10px; padding:10px 10px 15px 10px; clear:both;"]
 biz.heraldcorp.com,news.heraldcorp.com##div#photo_ad_left
 biz.heraldcorp.com,news.heraldcorp.com##div#photo_ad_right
-biz.heraldcorp.com,news.heraldcorp.com##div.news_content>div[style="padding-left:20px"]
-biz.heraldcorp.com,news.heraldcorp.com##div.news_detail_area>div[style="margin:0 auto; width:699px; height:250px; margin:20px 0px; "]
-biz.heraldcorp.com,news.heraldcorp.com##div.nnews_bottomadlist_area
-biz.heraldcorp.com,news.heraldcorp.com##div.right_side_section>div[class="clear pt_15"]
+biz.heraldcorp.com,news.heraldcorp.com##div.ad_1
+biz.heraldcorp.com,news.heraldcorp.com##div.ad_10
+biz.heraldcorp.com,news.heraldcorp.com##div.ad_2
+biz.heraldcorp.com,news.heraldcorp.com##div.ad_5
+biz.heraldcorp.com,news.heraldcorp.com##div.ad_7:not([style])
+biz.heraldcorp.com,news.heraldcorp.com##div.ad_8
+biz.heraldcorp.com,news.heraldcorp.com##div.ad_9
 biz.heraldcorp.com,news.heraldcorp.com##div.subpg_news_body>div[style="float:right; margin-left:10px;border:1px solid #DED7D7;width:200px;height:200px;"]
-biz.heraldcorp.com,news.heraldcorp.com##div.subtop_webzinestyle_hd
-biz.heraldcorp.com,news.heraldcorp.com##div[class="mt_15 clear"][style="border-bottom:0;"]
-biz.heraldcorp.com,news.heraldcorp.com##div[id^="g20150812Herald"]
-biz.heraldcorp.com,news.heraldcorp.com##iframe#ficm_iframe
+biz.heraldcorp.com,news.heraldcorp.com##div.wrap>div[style="position:absolute;left:50%;margin-left:-680px"]
+biz.heraldcorp.com,news.heraldcorp.com##iframe[src^="/advertisement/ad_fadein_"][src*=".php"]
+biz.heraldcorp.com,news.heraldcorp.com##iframe[src^="/extcont/keywordlink_herald_new_"][src*=".html"]
 biz.khan.co.kr,news.khan.co.kr##div#adtive
 biz.khan.co.kr,news.khan.co.kr##div#photoAD
 biz.khan.co.kr,news.khan.co.kr##div.ad_about
@@ -1066,7 +1062,6 @@ digitaltrends.com##div.m-blockboard
 digitaltrends.com##div.m-leaderboard
 digitaltrends.com##div.m-mpu-widget
 diodeo.com##div#newsFloatingBanner
-dkbnews.donga.com##div#_popIn_recommend div._popIn_recommend_article_ad
 dkbnews.donga.com##div.aside_ad
 dkbnews.donga.com##div.boardAD01
 dt.co.kr##div#gisa>table
@@ -1776,7 +1771,6 @@ news.chosun.com##div.art_aisde_ads
 news.cnbnews.com##div[class^="top_bn"]
 news.donga.com##body>div[style="height:50px; width:100%;align:center;position:fixed; bottom:0;z-index:9999;"]
 news.donga.com##div#__news.donga.com_aq2
-news.donga.com##div#_popIn_recommend div._popIn_recommend_article_ad
 news.donga.com##div#top_AD
 news.donga.com##div#view_body_middle_iframe1
 news.donga.com##div.clArticleAd
@@ -2091,7 +2085,6 @@ sports.chosun.com##div.thum8_box
 sports.chosun.com##div.top_banner
 sports.chosun.com##p.ad
 sports.chosun.com##p.m_btn
-sports.donga.com##div#_popIn_recommend div._popIn_recommend_article_ad
 sports.donga.com##div#top_AD_Wrap
 sports.donga.com##div#view_body_middle_iframe1
 sports.donga.com##div.ad_toady_hot
@@ -2112,7 +2105,6 @@ sports.donga.com##div[class^="left_ad_"]
 sports.donga.com##div[class^="right_ad_"]
 sports.donga.com##div[class^="subCont_AD"]
 sports.hankooki.com##div#SponsorLink
-sports.hankooki.com##div#_popIn_recommend div._popIn_recommend_article_ad
 sports.hankooki.com##div#ad2LineText02
 sports.hankooki.com##div#adIssueTrend
 sports.hankooki.com##div#listLifeSponsor
