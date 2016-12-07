@@ -16403,6 +16403,34 @@
                 }
             },
             {
+                "id": "dd8ea717-c5fb-435a-8c42-fc1cc704afa8",
+                "name": "fomos.kr##div#top_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?fomos\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#top_banner"
+                    }
+                }
+            },
+            {
+                "id": "251891ea-f899-4e10-9d59-0af3592d3eb5",
+                "name": "fomos.kr##div.banner_area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?fomos\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_area"
+                    }
+                }
+            },
+            {
                 "id": "9b2854d6-e56e-4016-8e16-30bb502fa21e",
                 "name": "forums.macrumors.com##div.funbox",
                 "content": {
