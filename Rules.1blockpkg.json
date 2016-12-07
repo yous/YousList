@@ -550,6 +550,20 @@
                 }
             },
             {
+                "id": "1546a434-bc7b-4210-8ab4-886a14cedecf",
+                "name": "##iframe[src^=\"http://ad.naver.com/fxshow\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ad.naver.com/fxshow\"]"
+                    }
+                }
+            },
+            {
                 "id": "ac3afbd7-3928-4c41-a47f-af5c8eed5c06",
                 "name": "##iframe[src^=\"http://ad.owra.net/\"]",
                 "content": {
@@ -2907,6 +2921,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ad\\.mediatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "12499ab3-3eb0-49a7-bcb1-e1d47032dc3b",
+                "name": "ad.naver.com/fxshow",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ad\\.naver\\.com/fxshow",
                         "load-type": []
                     },
                     "action": {
