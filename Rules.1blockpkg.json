@@ -970,6 +970,20 @@
                 }
             },
             {
+                "id": "e7df4e33-c1d9-4243-b62c-87285c2bac8c",
+                "name": "##iframe[src^=\"http://adx.turl.co.kr/pick.wif\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adx.turl.co.kr/pick.wif\"]"
+                    }
+                }
+            },
+            {
                 "id": "6e425377-32e2-4df8-b02b-05f7b30575dc",
                 "name": "##iframe[src^=\"http://agate.opap.co.kr/html/\"]",
                 "content": {
@@ -4128,6 +4142,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adx\\.naonmedia\\.net/adx/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ac0b7d7c-5de5-4158-870d-895674a4ac79",
+                "name": "adx.turl.co.kr/adx.wif",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adx\\.turl\\.co\\.kr/adx\\.wif",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "4f319128-3b1d-4464-ba78-25eaea17704d",
+                "name": "adx.turl.co.kr/pick.wif",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adx\\.turl\\.co\\.kr/pick\\.wif",
                         "load-type": []
                     },
                     "action": {
