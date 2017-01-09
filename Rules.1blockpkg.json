@@ -354,6 +354,34 @@
                 }
             },
             {
+                "id": "fcdb29fa-a51b-47aa-853e-c197b546c492",
+                "name": "##iframe[src^=\"//ads.acrosspf.com/adinfo.ad\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//ads.acrosspf.com/adinfo.ad\"]"
+                    }
+                }
+            },
+            {
+                "id": "4295b346-781a-4bf4-b221-b9b4dfacd8f0",
+                "name": "##iframe[src^=\"//ads.acrosspf.com/opf/original.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//ads.acrosspf.com/opf/original.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "9bc7e722-6430-498c-b5bb-e8f7077c64fe",
                 "name": "##iframe[src^=\"//ads.exoclick.com/iframe.php\"]",
                 "content": {
@@ -3676,6 +3704,45 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ads-optima\\.com/www/delivery/ajs\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "65d152a1-51d0-40dd-9f94-ab864213008c",
+                "name": "ads.acrosspf.com/adinfo.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ads\\.acrosspf\\.com/adinfo\\.ad",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "788dddf6-477a-42ec-937d-a2dae48b3df1",
+                "name": "ads.acrosspf.com/js/acrossadx.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ads\\.acrosspf\\.com/js/acrossadx\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ece22fcf-fb90-45e7-9d04-846fee209409",
+                "name": "ads.acrosspf.com/opf/original.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ads\\.acrosspf\\.com/opf/original\\.html",
                         "load-type": []
                     },
                     "action": {
@@ -10323,6 +10390,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?search\\.n2s\\.co\\.kr/_n2s_adop_adinfo\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "80723725-bbe6-446b-adb7-24d20568a805",
+                "name": "search.n2s.co.kr/_n2s_rainbod_adinfo_js.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?search\\.n2s\\.co\\.kr/_n2s_rainbod_adinfo_js\\.php",
                         "load-type": []
                     },
                     "action": {
@@ -30361,6 +30441,20 @@
                 }
             },
             {
+                "id": "92a51a34-08ef-4c5d-8e46-80ad067ee88f",
+                "name": "star.ohmynews.com##div#adDaum",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?star\\.ohmynews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adDaum"
+                    }
+                }
+            },
+            {
                 "id": "79d077c9-e403-42d7-b5bf-209a529388f3",
                 "name": "star.ohmynews.com##div.ad-250x250",
                 "content": {
@@ -30371,6 +30465,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-250x250"
+                    }
+                }
+            },
+            {
+                "id": "c8ec6e40-9c10-4fa5-b832-b20165cbf943",
+                "name": "star.ohmynews.com##section.M-atc>div.ad_box_outline",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?star\\.ohmynews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.M-atc>div.ad_box_outline"
+                    }
+                }
+            },
+            {
+                "id": "6e1e3736-57dc-4f8b-b740-bbc2e024af6d",
+                "name": "star.ohmynews.com##td.at_contents>table[align=\"center\"][style=\"padding-top:10px; padding-bottom:20px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?star\\.ohmynews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "td.at_contents>table[align=\"center\"][style=\"padding-top:10px; padding-bottom:20px;\"]"
                     }
                 }
             },

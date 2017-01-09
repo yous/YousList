@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: poU4bwFRWTmBnzU5ypWIJQ
+! Checksum: kZSNMR03eCIfkRprQOl+9Q
 ! Version: 20170109
 
 ! General element hiding rules
@@ -32,6 +32,8 @@
 ##iframe[src*="/RealMedia/ads/"]
 ##iframe[src^="//ad.vkoad.com/showads.php"]
 ##iframe[src^="//adclickservice.com"]
+##iframe[src^="//ads.acrosspf.com/adinfo.ad"]
+##iframe[src^="//ads.acrosspf.com/opf/original.html"]
 ##iframe[src^="//ads.exoclick.com/iframe.php"]
 ##iframe[src^="//adx-exchange.toast.com/a_request"]
 ##iframe[src^="//ax-d.pixfuture.net/w/1.0/afr"]
@@ -280,6 +282,9 @@
 ||ads-by.yieldselect.com^
 ||ads-optima.com/www/delivery/afr.php^
 ||ads-optima.com/www/delivery/ajs.php^
+||ads.acrosspf.com/adinfo.ad^
+||ads.acrosspf.com/js/acrossadx.js^
+||ads.acrosspf.com/opf/original.html^
 ||ads.ad7942.co.kr/adx/data/NAONMP6060.js^
 ||ads.contextweb.com/TagPublish/GetAd.aspx^
 ||ads.emetro.co.kr/www/delivery/ajs.php^
@@ -770,6 +775,7 @@
 ||script.keywordlink.co.kr^
 ||scripts.chitika.net^
 ||search.n2s.co.kr/_n2s_adop_adinfo.php^
+||search.n2s.co.kr/_n2s_rainbod_adinfo_js.php^
 ||secure-ads.pictela.net/rm/marketplace/pubtaglib/0_4_0/pubtaglib_0_4_0.js^
 ||segye.com/Articles/Components/Ad/
 ||seoul.co.kr/ad/
@@ -2157,7 +2163,10 @@ star.mt.co.kr##div.article_area>div[style="margin-top:40px;"]
 star.mt.co.kr##ul.text_ad
 star.ohmynews.com##aside.ad-side
 star.ohmynews.com##aside.ad-top
+star.ohmynews.com##div#adDaum
 star.ohmynews.com##div.ad-250x250
+star.ohmynews.com##section.M-atc>div.ad_box_outline
+star.ohmynews.com##td.at_contents>table[align="center"][style="padding-top:10px; padding-bottom:20px;"]
 starin.edaily.co.kr##div.View_TPAd
 tcafe.net,tcafeaa.com,tcafeby.com,tcafegg.com,tcafego.com,tcafeh.com,tcafek.com,tcafemm.com,tcafen.com,tcafeon.com,tcafex.com,tcafez.net##div#divpop
 tcafe.net,tcafeaa.com,tcafeby.com,tcafegg.com,tcafego.com,tcafeh.com,tcafek.com,tcafemm.com,tcafen.com,tcafeon.com,tcafex.com,tcafez.net##div#s_word>div.section_ol>ol>li>center
