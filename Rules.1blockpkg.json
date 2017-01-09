@@ -2146,6 +2146,34 @@
                 }
             },
             {
+                "id": "2f83ed55-0707-4674-8b80-f466386f289e",
+                "name": "##iframe[src^=\"https://mycdn.co/adServe/imgBanner\"][src*=\"_image-banner.cib\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://mycdn.co/adServe/imgBanner\"][src*=\"_image-banner.cib\"]"
+                    }
+                }
+            },
+            {
+                "id": "1500320c-b72b-4426-9a13-b61ac4b490b3",
+                "name": "##iframe[src^=\"https://syndication.exdynsrv.com/ads-iframe-display.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://syndication.exdynsrv.com/ads-iframe-display.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "3831a191-b9b4-4f9b-be54-52192c0f89af",
                 "name": "##iframe[src^=\"https://syndication.exoclick.com/ads-iframe-display.php\"]",
                 "content": {
@@ -3782,6 +3810,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ads\\.emetro\\.co\\.kr/www/delivery/ajs\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "4e7482fc-7934-497f-94d6-d9eaad2f5cac",
+                "name": "ads.exdynsrv.com/ads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ads\\.exdynsrv\\.com/ads\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -8864,6 +8905,19 @@
                 }
             },
             {
+                "id": "dc2937b5-c8bd-43a2-888d-8f952320558e",
+                "name": "mycdn.co/adServe/imgBanner*/*_image-banner.cib",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?mycdn\\.co/adServe/imgBanner.*/.*_image-banner\\.cib",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "cf8fa99a-e6e2-4bd8-a74b-070b5a93b25e",
                 "name": "mydaily.co.kr/news/ad_news*.htm",
                 "content": {
@@ -9861,6 +9915,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?p\\.lumieyes\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6bd79d15-e41c-47e5-b547-24c731fd51fe",
+                "name": "p187443.clksite.com/adServe/banners",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?p187443\\.clksite\\.com/adServe/banners",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "58465172-ac62-42bb-a3e7-7351632826e0",
+                "name": "p187443.mycdn.co/banners/script/bnr-tag_*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?p187443\\.mycdn\\.co/banners/script/bnr-tag_.*\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -11248,6 +11328,19 @@
                 }
             },
             {
+                "id": "c97f932e-aaa0-47c5-b05f-1e477d2b21d9",
+                "name": "syndication.exdynsrv.com/ads-iframe-display.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?syndication\\.exdynsrv\\.com/ads-iframe-display\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d6f0e268-f0af-4911-aeae-0fce8681878b",
                 "name": "syndication.exoclick.com/ads-iframe-display.php",
                 "content": {
@@ -12209,6 +12302,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#ape_gateway_btf_gateway-mWeb_wrapper"
+                    }
+                }
+            },
+            {
+                "id": "e6b267db-afb4-429c-8d5c-0ba8e8d4722b",
+                "name": "anigod.com##div.episode-video-ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?anigod\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.episode-video-ad-container"
+                    }
+                }
+            },
+            {
+                "id": "1f7e5559-6c18-4cbd-8fae-9ab3c97cb59f",
+                "name": "anigod.com##div.footer-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?anigod\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.footer-ad"
                     }
                 }
             },

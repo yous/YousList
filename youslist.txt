@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: kZSNMR03eCIfkRprQOl+9Q
+! Checksum: 0FEgaE93lB70zB8K4DqjKw
 ! Version: 20170109
 
 ! General element hiding rules
@@ -160,6 +160,8 @@
 ##iframe[src^="http://www.sunnyworks.co.kr/data/SW"][src$=".html"]
 ##iframe[src^="http://www.ti-center.co.kr/"]
 ##iframe[src^="https://creative.wwwpromoter.com/"]
+##iframe[src^="https://mycdn.co/adServe/imgBanner"][src*="_image-banner.cib"]
+##iframe[src^="https://syndication.exdynsrv.com/ads-iframe-display.php"]
 ##iframe[src^="https://syndication.exoclick.com/ads-iframe-display.php"]
 ##ins.adsbygoogle
 ##ins.daum_ddn_area
@@ -288,6 +290,7 @@
 ||ads.ad7942.co.kr/adx/data/NAONMP6060.js^
 ||ads.contextweb.com/TagPublish/GetAd.aspx^
 ||ads.emetro.co.kr/www/delivery/ajs.php^
+||ads.exdynsrv.com/ads.js^
 ||ads.exoclick.com/ads.js^
 ||ads.exoclick.com/iframe.php^
 *ads.g.doubleclick.net/pagead/
@@ -660,6 +663,7 @@
 ||mtag.mman.kr/js.mezzo/
 ||munhwa.com/skin/inc_right/inc_denta_ad_iframe.html^
 ||mv.ad.naver.com/adshow^
+||mycdn.co/adServe/imgBanner*/*_image-banner.cib^
 ||mydaily.co.kr/news/ad_news*.htm^
 ||mydaily.co.kr/ad/ad_*.php^
 ||mydaily.co.kr/ad/center_ad*.php^
@@ -735,6 +739,8 @@
 ||outbanner.hu.co.kr/@files/human_banner/
 ||p.jwpcdn.com/*/vast.js^
 ||p.lumieyes.com^
+||p187443.clksite.com/adServe/banners^
+||p187443.mycdn.co/banners/script/bnr-tag_*.js^
 ||pagead2.googlesyndication.com/pagead/$domain=~hackintosh.zone
 ||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js^
 ||partner.googleadservices.com/gpt/pubads_impl_*.js^
@@ -839,6 +845,7 @@
 ||sunnyworks.co.kr/data/SW*.html^
 ||sunnyworks.co.kr/data/js/
 ||swf.adget.co.kr/ads/
+||syndication.exdynsrv.com/ads-iframe-display.php^
 ||syndication.exoclick.com/ads-iframe-display.php^
 ||syndication.exoclick.com/splash.php^
 ||tab.clickmon.co.kr/ad_img/
@@ -908,6 +915,8 @@ amazon.co.jp,amazon.com##div#ape_gateway_atf_gateway-mWeb_wrapper
 amazon.com##div#ape_Gateway_right-7_desktop_placement
 amazon.com##div#ape_gateway_btf_gateway-mWeb_text-wrapper
 amazon.com##div#ape_gateway_btf_gateway-mWeb_wrapper
+anigod.com##div.episode-video-ad-container
+anigod.com##div.footer-ad
 animefreak.tv##body>div>div[style="width:100%;height:768px;position:fixed;left:0;top:0px;overflow:hidden;visibility:hidden;z-index:0"]
 animoe.me##div#hd_pop
 api.dable.io##div.item-sp
