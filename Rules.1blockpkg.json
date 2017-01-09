@@ -186,6 +186,20 @@
                 }
             },
             {
+                "id": "93439e17-ec59-4e3b-a51f-3aa173410088",
+                "name": "##div.trc_rbox_container div.trc_rbox_outer div.syndicatedItem",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.trc_rbox_container div.trc_rbox_outer div.syndicatedItem"
+                    }
+                }
+            },
+            {
                 "id": "46f6315b-bbd5-44fd-a54e-c709e37ba522",
                 "name": "##div[id^=\"MarketGidScriptRootC\"]",
                 "content": {
@@ -20309,8 +20323,8 @@
                 }
             },
             {
-                "id": "12f8e688-6afb-4fbe-b8cd-e01ce29cd8b3",
-                "name": "m.etoday.co.kr##div#Share_bn",
+                "id": "dd7d706b-c6fa-48b1-8aa3-65bac2018461",
+                "name": "m.etoday.co.kr##div#View_box>div.box[style=\"height:100px;margin-top:0;padding: 10px 0 10px 0\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.etoday\\.co\\.kr",
@@ -20318,13 +20332,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#Share_bn"
+                        "selector": "div#View_box>div.box[style=\"height:100px;margin-top:0;padding: 10px 0 10px 0\"]"
                     }
                 }
             },
             {
-                "id": "d9586191-61ad-4a26-a352-c77fcca19c14",
-                "name": "m.etoday.co.kr##div.news_adinn",
+                "id": "d5ebec5f-0de7-4bf8-a619-af5fb066f86a",
+                "name": "m.etoday.co.kr##div#main_wrap_L>div.box[style=\"padding: 10px 0 10px 0;text-align:center\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.etoday\\.co\\.kr",
@@ -20332,13 +20346,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.news_adinn"
+                        "selector": "div#main_wrap_L>div.box[style=\"padding: 10px 0 10px 0;text-align:center\"]"
                     }
                 }
             },
             {
-                "id": "90511211-aa32-4506-89e5-f8b9e5fb477d",
-                "name": "m.etoday.co.kr##div.title_ad",
+                "id": "f162e6da-c1b2-4345-876e-dbbbb682f99e",
+                "name": "m.etoday.co.kr##div#main_wrap_R>div.box[style=\"wdith: 100%;padding: 10px 0 10px 0;text-align:center;background-color: #fff\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.etoday\\.co\\.kr",
@@ -20346,7 +20360,49 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.title_ad"
+                        "selector": "div#main_wrap_R>div.box[style=\"wdith: 100%;padding: 10px 0 10px 0;text-align:center;background-color: #fff\"]"
+                    }
+                }
+            },
+            {
+                "id": "9337dc57-f314-41ec-bde3-6a8ac812aa25",
+                "name": "m.etoday.co.kr##div#view_bottom_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.etoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#view_bottom_ad"
+                    }
+                }
+            },
+            {
+                "id": "873d3afe-9e04-4497-8749-0f2dd4c3da57",
+                "name": "m.etoday.co.kr##div#view_contents>div[style=\"float:right;width:200px;height:200px;margin:5px 0 5px 15px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.etoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#view_contents>div[style=\"float:right;width:200px;height:200px;margin:5px 0 5px 15px\"]"
+                    }
+                }
+            },
+            {
+                "id": "2f51ab41-9aae-4dd4-8f08-5c08b66d804c",
+                "name": "m.etoday.co.kr##div.ad_text_dot",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.etoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_text_dot"
                     }
                 }
             },
@@ -20767,20 +20823,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "section.promotion.ranking li.rank_ad"
-                    }
-                }
-            },
-            {
-                "id": "51a21c0a-9f11-4767-90a2-be6ba2fc4d88",
-                "name": "m.huffpost.com##div.advertisement.mobileweb_article_bottom_refresh div.trc_rbox_container div.trc_rbox_outer div.syndicatedItem",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?m\\.huffpost\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.advertisement.mobileweb_article_bottom_refresh div.trc_rbox_container div.trc_rbox_outer div.syndicatedItem"
                     }
                 }
             },
