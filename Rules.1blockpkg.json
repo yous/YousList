@@ -23823,6 +23823,48 @@
                 }
             },
             {
+                "id": "889db3cf-1a29-4932-a015-1f514b18f9c6",
+                "name": "media.daum.net##div#EXTENSIBLE_WING_WRAP",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?media\\.daum\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#EXTENSIBLE_WING_WRAP"
+                    }
+                }
+            },
+            {
+                "id": "528dee3d-238f-4033-b8ab-e6ab8b49fa7b",
+                "name": "media.daum.net##div#RIGHT_SPACE_BANNER",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?media\\.daum\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#RIGHT_SPACE_BANNER"
+                    }
+                }
+            },
+            {
+                "id": "c76099ac-a6c5-44b2-a019-ce21711a901c",
+                "name": "media.daum.net##div#SponsorBarWrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?media\\.daum\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#SponsorBarWrap"
+                    }
+                }
+            },
+            {
                 "id": "e728095f-f248-483b-a23a-496770f51812",
                 "name": "media.daum.net##div#banner250",
                 "content": {
@@ -23851,8 +23893,8 @@
                 }
             },
             {
-                "id": "35fa5e14-10b6-4111-9daa-3dce4fbf06bc",
-                "name": "media.daum.net##div#mappingAd",
+                "id": "70b5444e-a524-4b41-a926-f46882308176",
+                "name": "media.daum.net##div.wing_bnr3",
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?media\\.daum\\.net",
@@ -23860,35 +23902,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#mappingAd"
-                    }
-                }
-            },
-            {
-                "id": "e5cd7cd3-7216-4b7c-9e08-e688c60e6204",
-                "name": "media.daum.net##div.bnr_ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?media\\.daum\\.net",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.bnr_ad"
-                    }
-                }
-            },
-            {
-                "id": "4aaf144d-f708-4c59-be20-404fb4b35b4c",
-                "name": "media.daum.net##div.newsview_ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?media\\.daum\\.net",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.newsview_ad"
+                        "selector": "div.wing_bnr3"
                     }
                 }
             },
