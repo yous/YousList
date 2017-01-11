@@ -4404,6 +4404,19 @@
                 }
             },
             {
+                "id": "65f65582-a4ae-4304-9f3b-a3432bf5a657",
+                "name": "ak-gb.marketgid.com/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ak-gb\\.marketgid\\.com/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b9911674-42a8-492c-aff9-64e9c71f3133",
                 "name": "alea.adam.ad.daum.net/mobilead",
                 "content": {
@@ -4422,6 +4435,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?amsv2\\.daum\\.net/ad/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c7c2555a-07b5-4704-b703-5ca8ced7948d",
+                "name": "an.yandex.ru/system/context.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?an\\.yandex\\.ru/system/context\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -6474,6 +6500,19 @@
                 }
             },
             {
+                "id": "7f984c2f-ee35-4b8f-8bc1-edd4ff51b97e",
+                "name": "et-code.ru/code/show.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?et-code\\.ru/code/show\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6b0ddf2a-4bd5-43ca-8598-1a2878694e95",
                 "name": "etc.gamechosun.co.kr/banner/",
                 "content": {
@@ -6771,6 +6810,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?fs\\.jtbc\\.joins\\.com/common/ui/ad/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "885f69a4-60b1-48fb-966e-0527280ccabd",
+                "name": "g.novostimira.biz/j/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?g\\.novostimira\\.biz/j/",
                         "load-type": []
                     },
                     "action": {
@@ -10349,6 +10401,19 @@
                 }
             },
             {
+                "id": "5074540d-b935-4165-b962-b8f30993f3a2",
+                "name": "recreativ.ru/tizers.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?recreativ\\.ru/tizers\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "43003a79-a599-458c-99a2-72542cc40860",
                 "name": "redir.adap.tv/redir/javascript/ad_source.js",
                 "content": {
@@ -10445,6 +10510,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?rsense-ad\\.realclick\\.co\\.kr/rsense/view_ad_adcrm\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "165c15eb-6e9d-4357-b4ae-19b3334766a1",
+                "name": "s.mixadvert.com/show_json/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?s\\.mixadvert\\.com/show_json/",
                         "load-type": []
                     },
                     "action": {
@@ -11584,6 +11662,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?traffic\\.adxprts\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "030551fb-6d1a-4cdc-a79e-3bfdd6ea4323",
+                "name": "trafmag.com/jsarrayposters.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?trafmag\\.com/jsarrayposters\\.php",
                         "load-type": []
                     },
                     "action": {
@@ -33323,6 +33414,104 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#real_pop_bnr_floating"
+                    }
+                }
+            },
+            {
+                "id": "669be6e6-4af8-45c4-9b61-dc0ffe2809c4",
+                "name": "ukr.net##div#adriver_190x180_ukrnet",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ukr\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adriver_190x180_ukrnet"
+                    }
+                }
+            },
+            {
+                "id": "5243c2e5-2712-4075-880a-bfe9fa31cea9",
+                "name": "ukr.net##div#adriver_300x100_ukrnet",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ukr\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adriver_300x100_ukrnet"
+                    }
+                }
+            },
+            {
+                "id": "4db55999-5b6e-4241-a07e-47984fe6661a",
+                "name": "ukr.net##div#adriver_728x90_ukrnet",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ukr\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adriver_728x90_ukrnet"
+                    }
+                }
+            },
+            {
+                "id": "11a04e2f-5fc2-4d2c-8763-a896dc963ac0",
+                "name": "ukr.net##div[data-side=\"left\"][id^=\"ecbr-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ukr\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-side=\"left\"][id^=\"ecbr-\"]"
+                    }
+                }
+            },
+            {
+                "id": "d1ab5c4d-0ed5-404a-8917-8ed16263ad36",
+                "name": "ukr.net##div[data-side=\"right\"][id^=\"ecbr-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ukr\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-side=\"right\"][id^=\"ecbr-\"]"
+                    }
+                }
+            },
+            {
+                "id": "17a945a8-8a21-45dc-90f3-aa0c558921aa",
+                "name": "ukr.net##section.commercial-left-block",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ukr\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.commercial-left-block"
+                    }
+                }
+            },
+            {
+                "id": "e21afc04-1a54-4288-9147-84b8d819b213",
+                "name": "ukr.net##section.commercial-right-block",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?ukr\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.commercial-right-block"
                     }
                 }
             },
