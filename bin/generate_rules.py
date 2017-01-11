@@ -12,7 +12,8 @@ pwd = os.path.dirname(os.path.abspath(__file__))
 root = os.path.dirname(pwd)
 
 class FilterParser:
-    DOMAIN_PREFIX = '^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?'
+    # For scheme, see Appendix A of http://www.ietf.org/rfc/rfc2396.txt
+    DOMAIN_PREFIX = '^[a-z0-9+_.]+:/+(?:[^/]+\\.)?'
 
     def __init__(self, name='Generated Package', basepkg=None):
         self.pkg = collections.OrderedDict()
