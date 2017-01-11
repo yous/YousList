@@ -1012,6 +1012,20 @@
                 }
             },
             {
+                "id": "bf0b32ac-942e-41fe-9da5-88f4f0acb0bf",
+                "name": "##iframe[src^=\"http://adx.bibl.uk/ra/www/delivery/afr.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adx.bibl.uk/ra/www/delivery/afr.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "8b222a2c-ac96-4f16-a61d-cdd529576eba",
                 "name": "##iframe[src^=\"http://adx.naonmedia.net/adx/\"]",
                 "content": {
@@ -4286,6 +4300,19 @@
                 }
             },
             {
+                "id": "9a2ee0a9-1672-4902-b823-fcc41c8854ce",
+                "name": "adx.bibl.uk/ra/www/delivery/afr.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?adx\\.bibl\\.uk/ra/www/delivery/afr\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "af825644-4dc6-4d11-8d49-fb04954ef10b",
                 "name": "adx.naonmedia.net/adx/",
                 "content": {
@@ -5504,6 +5531,58 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cdn\\.ad\\.maist\\.jp/ad/js/pjs\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f9a72ad3-a8a1-448a-92ec-b6fe5526e533",
+                "name": "cdn.admixer.net/scriptlib/asm2.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cdn\\.admixer\\.net/scriptlib/asm2\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1f48e9c7-5afe-4f57-958f-09a14e3dfd79",
+                "name": "cdn.admixer.net/scripts3/r/require-apsm.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cdn\\.admixer\\.net/scripts3/r/require-apsm\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "683d9da3-8126-4f89-bb24-7d03661fd7d9",
+                "name": "cdn.admixer.net/tscripts/apsm.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cdn\\.admixer\\.net/tscripts/apsm\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "da10d134-5fce-45d1-bed1-25834a13050a",
+                "name": "cdn.admixer.net/tscripts/teasers.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?cdn\\.admixer\\.net/tscripts/teasers\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -7550,6 +7629,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?interface\\.interworksmedia\\.co\\.kr/js/mobitree\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f4aae46e-5bdd-4dea-887d-ba4418b072f5",
+                "name": "inv-nets.admixer.net/dsp.aspx",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?inv-nets\\.admixer\\.net/dsp\\.aspx",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9b6931c9-40e8-4eff-885a-e4ada3c71268",
+                "name": "inv-t-node.admixer.net/dsp.aspx",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?inv-t-node\\.admixer\\.net/dsp\\.aspx",
                         "load-type": []
                     },
                     "action": {
@@ -16208,6 +16313,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3):not([width])[valign=\"top\"]>table:nth-of-type(5)"
+                    }
+                }
+            },
+            {
+                "id": "2c42562f-f85d-4ec1-a2ff-86133b5a2f8d",
+                "name": "expres.ua##div#rbTopLeaderboard",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?expres\\.ua",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#rbTopLeaderboard"
+                    }
+                }
+            },
+            {
+                "id": "7ea7f564-59b3-4aa1-8399-1744d87362f8",
+                "name": "expres.ua##div.AdxRB",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^(?:[^:/?#]+:)?(?://(?:[^/?#]*\\.)?)?expres\\.ua",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.AdxRB"
                     }
                 }
             },
