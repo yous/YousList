@@ -58,6 +58,9 @@ class FilterParser:
         if '##' in line:
             # Element hiding rule
             self._parse_hiding_rule(line)
+        elif '#@#' in line:
+            # Element hiding exception rule
+            raise ValueError('Cannot handle this rule: ' + line)
         else:
             # Blocking rule
             self._parse_blocking_rule(line)
@@ -112,16 +115,21 @@ class FilterParser:
         rule['name'] = name
 
         trigger = {}
-        if url.startswith('||'):
-            trigger['url-filter'] = self.DOMAIN_PREFIX + url.lstrip('||') \
-                .replace('.', '\\.') \
-                .replace('*', '.*') \
-                .replace('?', '\\?')
-        else:
-            trigger['url-filter'] = url \
-                .replace('.', '\\.') \
-                .replace('*', '.*') \
-                .replace('?', '\\?')
+
+        # * Adblock Plus' filterToRegExp:
+        #   https://github.com/adblockplus/adblockpluscore/blob/master/lib/common.js
+        # * uBlock Origin's strToRegex:
+        #   https://github.com/gorhill/uBlock/blob/master/src/js/static-net-filtering.js
+        url_regex = url
+        for search, replace in [[r'\*+', '*'],
+                                [r'\^\|$', '^'],
+                                [r'[.+?${}()|[\]\\]', r'\\\g<0>'],
+                                ['\*', '.*'],
+                                [r'^\\\|\\\|', self.DOMAIN_PREFIX],
+                                [r'^\\\|', '^'],
+                                [r'\\\|$', '$']]:
+            url_regex = re.sub(search, replace, url_regex)
+        trigger['url-filter'] = url_regex
         trigger['load-type'] = []
 
         opt_dict = self._parse_options(options)
@@ -166,7 +174,7 @@ class FilterParser:
                     else:
                         if_domain.append(domain)
                 if len(if_domain) and len(unless_domain):
-                    raise ValueError('Cannot handle this domains: ' + opt_val)
+                    raise ValueError('Cannot handle these domains: ' + opt_val)
                 elif len(if_domain):
                     opt_dict['if-domain'] = if_domain
                 elif len(unless_domain):
