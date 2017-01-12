@@ -33124,6 +33124,20 @@
                 }
             },
             {
+                "id": "48affc88-5849-49bd-85ca-22695493a8bb",
+                "name": "tutsplus.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tutsplus\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
                 "id": "d00c2235-dc2d-487a-b4f7-f3ce4828a85c",
                 "name": "tvdaily.mk.co.kr##body>table>tbody>tr>td:first-of-type>table>tbody>tr>td>table:nth-of-type(4)>tbody>tr>td:first-of-type>table:nth-of-type(2)>tbody>tr>td:first-of-type",
                 "content": {
