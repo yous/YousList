@@ -34747,20 +34747,6 @@
                 }
             },
             {
-                "id": "1b5a61ed-012c-412e-92e8-3e22ab5c03f3",
-                "name": "yonhapnews.co.kr##div.aside-top-banner",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.aside-top-banner"
-                    }
-                }
-            },
-            {
                 "id": "57c94cb9-b030-44b6-8577-2198e89ba10a",
                 "name": "yonhapnews.co.kr##div.banner-0-wrap",
                 "content": {
@@ -34771,20 +34757,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.banner-0-wrap"
-                    }
-                }
-            },
-            {
-                "id": "f99567c5-0714-453f-bdea-1d7c1fd9fe53",
-                "name": "yonhapnews.co.kr##div.banner-box07",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.banner-box07"
                     }
                 }
             },
@@ -34827,6 +34799,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.view-ad-wrap"
+                    }
+                }
+            },
+            {
+                "id": "7bf971dd-12fe-43d9-8aaa-d38f9189d31d",
+                "name": "yonhapnews.co.kr##div[class^=\"ad-box\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"ad-box\"]"
                     }
                 }
             },
@@ -34887,8 +34873,8 @@
                 }
             },
             {
-                "id": "9a4364f4-6ad3-46a4-83f8-db67448342f6",
-                "name": "yonhapnews.co.kr##li[class^=\"ad-para\"]",
+                "id": "18c85ad6-febe-4fec-b561-024f4fea5392",
+                "name": "yonhapnews.co.kr##li.list-ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr",
@@ -34896,7 +34882,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "li[class^=\"ad-para\"]"
+                        "selector": "li.list-ad"
                     }
                 }
             },
