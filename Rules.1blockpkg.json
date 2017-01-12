@@ -1460,6 +1460,20 @@
                 }
             },
             {
+                "id": "c04a9b66-06ac-42fe-9ebc-1889de0b7a42",
+                "name": "##iframe[src^=\"http://jdaily.co.kr/frame/jad-bin.do\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://jdaily.co.kr/frame/jad-bin.do\"]"
+                    }
+                }
+            },
+            {
                 "id": "3ae24768-3f12-48bd-b11c-586e0f5a2edd",
                 "name": "##iframe[src^=\"http://joy-adstore.co.kr/ad/\"]",
                 "content": {
@@ -7772,6 +7786,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?j\\.microad\\.net/js/compass\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d9b6d6fe-e191-41c1-a112-75bb7943eb95",
+                "name": "jdaily.co.kr/frame/jad-bin.do",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jdaily\\.co\\.kr/frame/jad-bin\\.do",
                         "load-type": []
                     },
                     "action": {
