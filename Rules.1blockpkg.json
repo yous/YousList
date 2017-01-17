@@ -32297,6 +32297,48 @@
                 }
             },
             {
+                "id": "10c650cd-98c7-4b6e-ab11-829f38b7fc03",
+                "name": "torrentkim5.net##div#rb",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentkim5\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#rb"
+                    }
+                }
+            },
+            {
+                "id": "85e87fad-0f44-40c2-a0a7-304b12dc5371",
+                "name": "torrentkim5.net##div#side1>a[href^=\"/to_toy.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentkim5\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#side1>a[href^=\"/to_toy.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "6ac0840e-7a25-43c8-8d7c-001168070217",
+                "name": "torrentkim5.net##div#toto",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentkim5\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#toto"
+                    }
+                }
+            },
+            {
                 "id": "1871cccf-d0b9-4a7f-b33e-65bd880b2d60",
                 "name": "torrentmade.com##div.hiddenpage",
                 "content": {
