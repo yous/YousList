@@ -8683,6 +8683,19 @@
                 }
             },
             {
+                "id": "42f19bba-8a0d-46f1-a1af-c4cee51698c3",
+                "name": "m.torrentkim5.net/js/banner0122.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.torrentkim5\\.net/js/banner0122\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "7b8c51de-4257-4848-b29a-027da75a4a5a",
                 "name": "m.ytn.co.kr/ad/ad_*.html",
                 "content": {
@@ -23375,6 +23388,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "ul.scTitleWrap div.trc-content-sponsored"
+                    }
+                }
+            },
+            {
+                "id": "4db6fa12-f08f-41ff-bd26-60946920ffb1",
+                "name": "m.torrentkim5.net##a[href^=\"/to_toto.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.torrentkim5\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"/to_toto.html\"]"
                     }
                 }
             },

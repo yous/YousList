@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 8OqBAuBb/QVJkVqJrcOnaw
+! Checksum: dkDPaqznd6+B0xZY5BjGUQ
 ! Version: 20170117
 
 ! General element hiding rules
@@ -646,6 +646,7 @@
 ||m.pann.nate.com/da/shopbox^$domain=m.pann.nate.com
 ||m.sportsseoul.com/application/views/ad/*.html^
 ||m.tf.co.kr/public/*/ad/ad_read_content*.html^
+||m.torrentkim5.net/js/banner0122.js^
 ||m.ytn.co.kr/ad/ad_*.html^
 ||m.zbn.donga.com/banner/ad_cauly_hotnews.asp^$domain=m.zbn.donga.com
 ||m1.daumcdn.net/adtc/js/mobilead.js^
@@ -1666,6 +1667,7 @@ m.tf.co.kr##div.adbox
 m.tf.co.kr##div.tbRight>div[style="height:84px; position:relative; left:0px; top:0px; "]
 m.tf.co.kr##span#rectingle_spanTag_ad
 m.tf.co.kr##ul.scTitleWrap div.trc-content-sponsored
+m.torrentkim5.net##a[href^="/to_toto.html"]
 m.wikitree.co.kr##div#contentMidBanner
 m.wikitree.co.kr##div.ad230
 m.wikitree.co.kr##div.ad250
