@@ -480,20 +480,6 @@
                 }
             },
             {
-                "id": "1b0911f1-4d73-476b-b480-94cf3c7a00c6",
-                "name": "##iframe[src^=\"http://ad.adkova.com/media/\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"http://ad.adkova.com/media/\"]"
-                    }
-                }
-            },
-            {
                 "id": "099c73bf-0133-4c2b-b67e-f04e9a41cdd4",
                 "name": "##iframe[src^=\"http://ad.adinc.kr/\"]",
                 "content": {
@@ -518,6 +504,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://ad.adixs.co.kr/\"]"
+                    }
+                }
+            },
+            {
+                "id": "1b0911f1-4d73-476b-b480-94cf3c7a00c6",
+                "name": "##iframe[src^=\"http://ad.adkova.com/media/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ad.adkova.com/media/\"]"
                     }
                 }
             },
@@ -2335,6 +2335,32 @@
                 }
             },
             {
+                "id": "d25b77a8-2e9b-45e4-b210-d8ad66ab323b",
+                "name": "*ads.g.doubleclick.net/pagead/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "ads\\.g\\.doubleclick\\.net/pagead/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0e2a5c22-64bf-49d8-837c-6a3b0d8e3cd8",
+                "name": "*tab*.clickmon.co.kr/pop/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "tab.*\\.clickmon\\.co\\.kr/pop/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c7d34238-0fed-4fae-8f6a-f50e5eb0b6a5",
                 "name": "1.227.58.23/event.ems/",
                 "content": {
@@ -2624,11 +2650,37 @@
                 }
             },
             {
+                "id": "9793836d-20ab-429b-b775-60e680efb1a5",
+                "name": "ad-cdn.technoratimedia.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad-cdn\\.technoratimedia\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "feb628bb-f04d-4cf9-b04b-725ac7b5bcdd",
                 "name": "ad-first.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad-first\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "766defa2-9c2e-4e82-bb43-3c23abb25c2c",
+                "name": "ad-playstore.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad-playstore\\.com",
                         "load-type": []
                     },
                     "action": {
@@ -3227,32 +3279,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.yieldmanager\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "9793836d-20ab-429b-b775-60e680efb1a5",
-                "name": "ad-cdn.technoratimedia.com",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad-cdn\\.technoratimedia\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "766defa2-9c2e-4e82-bb43-3c23abb25c2c",
-                "name": "ad-playstore.com",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad-playstore\\.com",
                         "load-type": []
                     },
                     "action": {
@@ -3885,19 +3911,6 @@
                 }
             },
             {
-                "id": "d25b77a8-2e9b-45e4-b210-d8ad66ab323b",
-                "name": "*ads.g.doubleclick.net/pagead/",
-                "content": {
-                    "trigger": {
-                        "url-filter": "ads\\.g\\.doubleclick\\.net/pagead/",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "cde2aa28-ec07-43bc-9cdc-99ee47916235",
                 "name": "ads.gamemeca.com",
                 "content": {
@@ -4314,6 +4327,19 @@
                 }
             },
             {
+                "id": "42651258-7301-4d4f-b63f-ff0fbf970909",
+                "name": "adx-exchange.toast.com/a_request",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adx-exchange\\.toast\\.com/a_request",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9a2ee0a9-1672-4902-b823-fcc41c8854ce",
                 "name": "adx.bibl.uk/ra/www/delivery/afr.php",
                 "content": {
@@ -4371,19 +4397,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adx\\.turl\\.co\\.kr/toast\\.wif",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "42651258-7301-4d4f-b63f-ff0fbf970909",
-                "name": "adx-exchange.toast.com/a_request",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adx-exchange\\.toast\\.com/a_request",
                         "load-type": []
                     },
                     "action": {
@@ -5956,11 +5969,11 @@
                 }
             },
             {
-                "id": "2add41dc-cad6-41fa-8db2-89ba672cf75f",
-                "name": "creative.wwwpromoter.com",
+                "id": "591c8aae-cf04-4f36-bdf4-31d3d585e5c7",
+                "name": "creative.speednetwork*.com/speednetwork*/tags/xbanner/xbanner.js",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?creative\\.wwwpromoter\\.com",
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?creative\\.speednetwork.*\\.com/speednetwork.*/tags/xbanner/xbanner\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -5969,11 +5982,11 @@
                 }
             },
             {
-                "id": "591c8aae-cf04-4f36-bdf4-31d3d585e5c7",
-                "name": "creative.speednetwork*.com/speednetwork*/tags/xbanner/xbanner.js",
+                "id": "2add41dc-cad6-41fa-8db2-89ba672cf75f",
+                "name": "creative.wwwpromoter.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?creative\\.speednetwork.*\\.com/speednetwork.*/tags/xbanner/xbanner\\.js",
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?creative\\.wwwpromoter\\.com",
                         "load-type": []
                     },
                     "action": {
@@ -6316,19 +6329,6 @@
                 }
             },
             {
-                "id": "1924cceb-d64a-481b-8b61-202ea77a8fcd",
-                "name": "dreamsearch.or.kr/servlet/adBanner",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dreamsearch\\.or\\.kr/servlet/adBanner",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "ea5bac62-30b8-4a18-9a20-b11d3d7aaed2",
                 "name": "dreamsearch.or.kr/servlet/adBannerFloating",
                 "content": {
@@ -6342,11 +6342,11 @@
                 }
             },
             {
-                "id": "7da0d49e-138e-478d-95c2-cd7b81f43e68",
-                "name": "dreamsearch.or.kr/servlet/adbn",
+                "id": "1924cceb-d64a-481b-8b61-202ea77a8fcd",
+                "name": "dreamsearch.or.kr/servlet/adBanner",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dreamsearch\\.or\\.kr/servlet/adbn",
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dreamsearch\\.or\\.kr/servlet/adBanner",
                         "load-type": []
                     },
                     "action": {
@@ -6360,6 +6360,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dreamsearch\\.or\\.kr/servlet/adbnMobileBanner",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7da0d49e-138e-478d-95c2-cd7b81f43e68",
+                "name": "dreamsearch.or.kr/servlet/adbn",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dreamsearch\\.or\\.kr/servlet/adbn",
                         "load-type": []
                     },
                     "action": {
@@ -9167,19 +9180,6 @@
                 }
             },
             {
-                "id": "cf8fa99a-e6e2-4bd8-a74b-070b5a93b25e",
-                "name": "mydaily.co.kr/news/ad_news*.htm",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mydaily\\.co\\.kr/news/ad_news.*\\.htm",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "8a828108-00a8-4ea2-b942-1ba6e0052670",
                 "name": "mydaily.co.kr/ad/ad_*.php",
                 "content": {
@@ -9211,6 +9211,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mydaily\\.co\\.kr/ad/right_ad.*\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cf8fa99a-e6e2-4bd8-a74b-070b5a93b25e",
+                "name": "mydaily.co.kr/news/ad_news*.htm",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mydaily\\.co\\.kr/news/ad_news.*\\.htm",
                         "load-type": []
                     },
                     "action": {
@@ -9705,11 +9718,11 @@
                 }
             },
             {
-                "id": "d5ff2b3e-c678-41e1-93cf-f3230cbb895f",
-                "name": "news.sportsseoul.com/public_new4/ad/",
+                "id": "a14f0237-e2d0-4c50-b82e-bbc27198b293",
+                "name": "news.sportsseoul.com/public/ad/",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.sportsseoul\\.com/public_new4/ad/",
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.sportsseoul\\.com/public/ad/",
                         "load-type": []
                     },
                     "action": {
@@ -9718,11 +9731,11 @@
                 }
             },
             {
-                "id": "a14f0237-e2d0-4c50-b82e-bbc27198b293",
-                "name": "news.sportsseoul.com/public/ad/",
+                "id": "d5ff2b3e-c678-41e1-93cf-f3230cbb895f",
+                "name": "news.sportsseoul.com/public_new4/ad/",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.sportsseoul\\.com/public/ad/",
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.sportsseoul\\.com/public_new4/ad/",
                         "load-type": []
                     },
                     "action": {
@@ -10454,11 +10467,11 @@
                 }
             },
             {
-                "id": "df745563-403b-46cc-9ec0-88de1ceac8ef",
-                "name": "rcm.amazon.com/e/cm",
+                "id": "f166c8b3-b4ae-45a9-a350-793ad86f2d17",
+                "name": "rcm-na.amazon-adsystem.com/e/cm",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?rcm\\.amazon\\.com/e/cm",
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?rcm-na\\.amazon-adsystem\\.com/e/cm",
                         "load-type": []
                     },
                     "action": {
@@ -10467,11 +10480,11 @@
                 }
             },
             {
-                "id": "f166c8b3-b4ae-45a9-a350-793ad86f2d17",
-                "name": "rcm-na.amazon-adsystem.com/e/cm",
+                "id": "df745563-403b-46cc-9ec0-88de1ceac8ef",
+                "name": "rcm.amazon.com/e/cm",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?rcm-na\\.amazon-adsystem\\.com/e/cm",
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?rcm\\.amazon\\.com/e/cm",
                         "load-type": []
                     },
                     "action": {
@@ -10610,6 +10623,19 @@
                 }
             },
             {
+                "id": "30c657a9-3f26-4542-b0fa-4b097a9f133e",
+                "name": "s*.algovid.com/player/gpv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?s.*\\.algovid\\.com/player/gpv",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "165c15eb-6e9d-4357-b4ae-19b3334766a1",
                 "name": "s.mixadvert.com/show_json/",
                 "content": {
@@ -10628,19 +10654,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?s\\.pubmine\\.com/adj/",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "30c657a9-3f26-4542-b0fa-4b097a9f133e",
-                "name": "s*.algovid.com/player/gpv",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?s.*\\.algovid\\.com/player/gpv",
                         "load-type": []
                     },
                     "action": {
@@ -11647,19 +11660,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tab\\.clickmon\\.co\\.kr/ad_img/",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "0e2a5c22-64bf-49d8-837c-6a3b0d8e3cd8",
-                "name": "*tab*.clickmon.co.kr/pop/",
-                "content": {
-                    "trigger": {
-                        "url-filter": "tab.*\\.clickmon\\.co\\.kr/pop/",
                         "load-type": []
                     },
                     "action": {
@@ -14400,20 +14400,6 @@
                 }
             },
             {
-                "id": "df986d70-7088-42f4-83e6-be94632f128e",
-                "name": "bloomberg.com##div.header-ad-container",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloomberg\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.header-ad-container"
-                    }
-                }
-            },
-            {
                 "id": "e99942fd-e812-42bc-9851-71c1b174e96c",
                 "name": "bloomberg.com##div.article-rail-module-container[style^=\"z-index: 3;\"]",
                 "content": {
@@ -14424,6 +14410,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.article-rail-module-container[style^=\"z-index: 3;\"]"
+                    }
+                }
+            },
+            {
+                "id": "df986d70-7088-42f4-83e6-be94632f128e",
+                "name": "bloomberg.com##div.header-ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloomberg\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.header-ad-container"
                     }
                 }
             },
@@ -15016,20 +15016,6 @@
                 }
             },
             {
-                "id": "a9363975-00c0-460c-bf2f-17cfe1d52a81",
-                "name": "daily.hankooki.com##div#montvLayer",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?daily\\.hankooki\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#montvLayer"
-                    }
-                }
-            },
-            {
                 "id": "67785bd8-314c-4c83-b87b-a28e501865b2",
                 "name": "daily.hankooki.com##div#Page_NewsSponsor",
                 "content": {
@@ -15040,6 +15026,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#Page_NewsSponsor"
+                    }
+                }
+            },
+            {
+                "id": "a9363975-00c0-460c-bf2f-17cfe1d52a81",
+                "name": "daily.hankooki.com##div#montvLayer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?daily\\.hankooki\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#montvLayer"
                     }
                 }
             },
@@ -19440,20 +19440,6 @@
                 }
             },
             {
-                "id": "020bed2e-a11c-4322-8048-afec0ff3b3a8",
-                "name": "kookje.co.kr##div#bnr_rightmiddleArea",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kookje\\.co\\.kr",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#bnr_rightmiddleArea"
-                    }
-                }
-            },
-            {
                 "id": "82c7a297-5612-4b35-b81f-aa4cb0b9de13",
                 "name": "kookje.co.kr##div#bnr_rightTopArea",
                 "content": {
@@ -19464,6 +19450,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#bnr_rightTopArea"
+                    }
+                }
+            },
+            {
+                "id": "020bed2e-a11c-4322-8048-afec0ff3b3a8",
+                "name": "kookje.co.kr##div#bnr_rightmiddleArea",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kookje\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bnr_rightmiddleArea"
                     }
                 }
             },
@@ -20084,48 +20084,6 @@
                 }
             },
             {
-                "id": "a90dc032-baf8-48d1-9e59-619b4e4b7405",
-                "name": "m.asiatoday.co.kr##div.ad7",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.asiatoday\\.co\\.kr",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad7"
-                    }
-                }
-            },
-            {
-                "id": "f2d0f499-6981-4d3e-88de-bf4cbfa0ca91",
-                "name": "m.asiatoday.co.kr##div.ad8",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.asiatoday\\.co\\.kr",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad8"
-                    }
-                }
-            },
-            {
-                "id": "cdbabc64-bf37-4f36-94b2-51e2bb464754",
-                "name": "m.asiatoday.co.kr##div.ad9",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.asiatoday\\.co\\.kr",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad9"
-                    }
-                }
-            },
-            {
                 "id": "bee7106c-1b75-4d0b-b8c4-f40e75e56869",
                 "name": "m.asiatoday.co.kr##div.ad10",
                 "content": {
@@ -20164,6 +20122,48 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad15"
+                    }
+                }
+            },
+            {
+                "id": "a90dc032-baf8-48d1-9e59-619b4e4b7405",
+                "name": "m.asiatoday.co.kr##div.ad7",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.asiatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad7"
+                    }
+                }
+            },
+            {
+                "id": "f2d0f499-6981-4d3e-88de-bf4cbfa0ca91",
+                "name": "m.asiatoday.co.kr##div.ad8",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.asiatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad8"
+                    }
+                }
+            },
+            {
+                "id": "cdbabc64-bf37-4f36-94b2-51e2bb464754",
+                "name": "m.asiatoday.co.kr##div.ad9",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.asiatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad9"
                     }
                 }
             },
@@ -21932,6 +21932,20 @@
                 }
             },
             {
+                "id": "5f26fccf-bdb5-4904-8d7e-b113df58c514",
+                "name": "m.inven.co.kr##body>div[style=\"text-align:center;margin-top:8px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.inven\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"text-align:center;margin-top:8px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "79d4200e-98c1-4878-9583-53b0fe67985d",
                 "name": "m.inven.co.kr##div#cauly_ad_area",
                 "content": {
@@ -22012,20 +22026,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.mobileAdNs"
-                    }
-                }
-            },
-            {
-                "id": "5f26fccf-bdb5-4904-8d7e-b113df58c514",
-                "name": "m.inven.co.kr##body>div[style=\"text-align:center;margin-top:8px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.inven\\.co\\.kr",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "body>div[style=\"text-align:center;margin-top:8px;\"]"
                     }
                 }
             },
@@ -23388,20 +23388,6 @@
                 }
             },
             {
-                "id": "f8907695-6bb7-4ccf-a5c5-30dc82ffa865",
-                "name": "m.star.mt.co.kr##div#content>div[style=\"text-align:center;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.star\\.mt\\.co\\.kr",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#content>div[style=\"text-align:center;\"]"
-                    }
-                }
-            },
-            {
                 "id": "50f73733-e1da-4638-9621-a716950f70cd",
                 "name": "m.star.mt.co.kr##div#content>div[style=\"text-align:center; background:#fff\"]",
                 "content": {
@@ -23412,6 +23398,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#content>div[style=\"text-align:center; background:#fff\"]"
+                    }
+                }
+            },
+            {
+                "id": "f8907695-6bb7-4ccf-a5c5-30dc82ffa865",
+                "name": "m.star.mt.co.kr##div#content>div[style=\"text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.star\\.mt\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#content>div[style=\"text-align:center;\"]"
                     }
                 }
             },
@@ -24676,20 +24676,6 @@
                 }
             },
             {
-                "id": "7d2f8ba4-293e-4d6e-aca6-850107558945",
-                "name": "metroseoul.co.kr##div.body-right-box>div[style=\"margin-bottom:15px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?metroseoul\\.co\\.kr",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.body-right-box>div[style=\"margin-bottom:15px;\"]"
-                    }
-                }
-            },
-            {
                 "id": "d06bced2-fe3c-4dc5-8e15-3610c8b2ca20",
                 "name": "metroseoul.co.kr##div.body-right-box>div[style=\"margin-bottom:15px; margin-top:15px;background-color: #eaeaea;\"]",
                 "content": {
@@ -24700,6 +24686,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.body-right-box>div[style=\"margin-bottom:15px; margin-top:15px;background-color: #eaeaea;\"]"
+                    }
+                }
+            },
+            {
+                "id": "7d2f8ba4-293e-4d6e-aca6-850107558945",
+                "name": "metroseoul.co.kr##div.body-right-box>div[style=\"margin-bottom:15px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?metroseoul\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.body-right-box>div[style=\"margin-bottom:15px;\"]"
                     }
                 }
             },
@@ -25068,20 +25068,6 @@
                 }
             },
             {
-                "id": "8489bc63-7717-436c-923c-c47500a9fb59",
-                "name": "mobile.newsis.com##div#content>section>div.bxcn[style=\"padding:8px 0 0 8px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mobile\\.newsis\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#content>section>div.bxcn[style=\"padding:8px 0 0 8px;\"]"
-                    }
-                }
-            },
-            {
                 "id": "93aa21cd-fd01-401c-bd0f-56128e8a4a47",
                 "name": "mobile.newsis.com##div#content>section>div.bxcn[style=\"padding:10px 0 0 10px; height:160px;\"]",
                 "content": {
@@ -25106,6 +25092,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#content>section>div.bxcn[style=\"padding:10px 0 0 10px; height:180px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "8489bc63-7717-436c-923c-c47500a9fb59",
+                "name": "mobile.newsis.com##div#content>section>div.bxcn[style=\"padding:8px 0 0 8px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mobile\\.newsis\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#content>section>div.bxcn[style=\"padding:8px 0 0 8px;\"]"
                     }
                 }
             },
@@ -25446,20 +25446,6 @@
                 }
             },
             {
-                "id": "1274fe3f-8a47-4507-95b0-80b7706f7074",
-                "name": "mydaily.co.kr##div[id^=\"AD_LIVE_AREA_\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mydaily\\.co\\.kr",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[id^=\"AD_LIVE_AREA_\"]"
-                    }
-                }
-            },
-            {
                 "id": "921b06c8-fb51-47bd-9918-8e89c7d0e69e",
                 "name": "mydaily.co.kr##div[class^=\"banner_1024_1024_\"]",
                 "content": {
@@ -25470,6 +25456,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"banner_1024_1024_\"]"
+                    }
+                }
+            },
+            {
+                "id": "1274fe3f-8a47-4507-95b0-80b7706f7074",
+                "name": "mydaily.co.kr##div[id^=\"AD_LIVE_AREA_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mydaily\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"AD_LIVE_AREA_\"]"
                     }
                 }
             },
@@ -25796,34 +25796,6 @@
                 }
             },
             {
-                "id": "dafde1c7-d55f-4e66-bd76-dda2fe13f233",
-                "name": "news.donga.com##div[id^=\"left_AD_\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.donga\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[id^=\"left_AD_\"]"
-                    }
-                }
-            },
-            {
-                "id": "c91ae0bf-5231-45a7-8d55-c087ec8e3444",
-                "name": "news.donga.com##div[id^=\"right_AD_\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.donga\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[id^=\"right_AD_\"]"
-                    }
-                }
-            },
-            {
                 "id": "8f5bbf8a-61dd-4b4f-8f56-8300964e3b95",
                 "name": "news.donga.com##div[class^=\"adView\"]",
                 "content": {
@@ -25848,6 +25820,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"sub_cont_AD\"]"
+                    }
+                }
+            },
+            {
+                "id": "dafde1c7-d55f-4e66-bd76-dda2fe13f233",
+                "name": "news.donga.com##div[id^=\"left_AD_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.donga\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"left_AD_\"]"
+                    }
+                }
+            },
+            {
+                "id": "c91ae0bf-5231-45a7-8d55-c087ec8e3444",
+                "name": "news.donga.com##div[id^=\"right_AD_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.donga\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"right_AD_\"]"
                     }
                 }
             },
@@ -26020,20 +26020,6 @@
                 }
             },
             {
-                "id": "69eeb1a3-7a8b-4ee6-90e0-c410c17fcf62",
-                "name": "news.inews24.com##div.news_content>div[style=\"float:right; width:200px; height:200px; margin-left:10px;  margin-bottom:10px;overflow:hidden;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.inews24\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.news_content>div[style=\"float:right; width:200px; height:200px; margin-left:10px;  margin-bottom:10px;overflow:hidden;\"]"
-                    }
-                }
-            },
-            {
                 "id": "767193fc-93b4-4aea-a099-5fb36bd73128",
                 "name": "news.inews24.com##div.news_content>div[itemprop=\"articleBody\"]>div[style=\"margin-left:20px;margin-top:20px\"]",
                 "content": {
@@ -26044,6 +26030,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.news_content>div[itemprop=\"articleBody\"]>div[style=\"margin-left:20px;margin-top:20px\"]"
+                    }
+                }
+            },
+            {
+                "id": "69eeb1a3-7a8b-4ee6-90e0-c410c17fcf62",
+                "name": "news.inews24.com##div.news_content>div[style=\"float:right; width:200px; height:200px; margin-left:10px;  margin-bottom:10px;overflow:hidden;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.inews24\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.news_content>div[style=\"float:right; width:200px; height:200px; margin-left:10px;  margin-bottom:10px;overflow:hidden;\"]"
                     }
                 }
             },
@@ -32404,314 +32404,6 @@
                 }
             },
             {
-                "id": "1ced84a8-f2bc-4b54-95c2-be6a5cbeaf36",
-                "name": "todayhumor.co.kr##div.under_ad_div",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?todayhumor\\.co\\.kr",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.under_ad_div"
-                    }
-                }
-            },
-            {
-                "id": "f3d72175-4bfb-4d37-9ef3-e8ba9da0ea38",
-                "name": "todown.net##div.at-content>div.container>div.row>div.contentArea>div[style=\"text-align:center;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?todown\\.net",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.at-content>div.container>div.row>div.contentArea>div[style=\"text-align:center;\"]"
-                    }
-                }
-            },
-            {
-                "id": "685246f1-32f4-4982-8f06-6085eb44a287",
-                "name": "todown.net##div.at-content>div.container>div.row>div.sideArea>div[style=\"width:100%; height:100;text-align:center; background:#f5f5f5;margin-bottom:5px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?todown\\.net",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.at-content>div.container>div.row>div.sideArea>div[style=\"width:100%; height:100;text-align:center; background:#f5f5f5;margin-bottom:5px;\"]"
-                    }
-                }
-            },
-            {
-                "id": "98e30ab5-30da-440e-8321-3ba73cfd9713",
-                "name": "todown.net##div.at-content>div.container>div.row>div.sideArea>div[style=\"width:100%; height:250px; line-height:280px; text-align:center; background:#f5f5f5;margin-bottom:30px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?todown\\.net",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.at-content>div.container>div.row>div.sideArea>div[style=\"width:100%; height:250px; line-height:280px; text-align:center; background:#f5f5f5;margin-bottom:30px;\"]"
-                    }
-                }
-            },
-            {
-                "id": "38577666-4320-4d98-9834-8e0743aa1db9",
-                "name": "todown.net##div.at-content>div.container>div.row>div.sideArea>div[style=\"width:100%; height:250px; line-height:280px; text-align:center; background:#f5f5f5;margin-bottom:5px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?todown\\.net",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.at-content>div.container>div.row>div.sideArea>div[style=\"width:100%; height:250px; line-height:280px; text-align:center; background:#f5f5f5;margin-bottom:5px;\"]"
-                    }
-                }
-            },
-            {
-                "id": "5ade6d41-e078-479c-856d-be7a04c2b6f8",
-                "name": "torrentgirl2.com##div.background>div.wrapper>div[style=\"position:absolute; margin-left:-130px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentgirl2\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.background>div.wrapper>div[style=\"position:absolute; margin-left:-130px;\"]"
-                    }
-                }
-            },
-            {
-                "id": "c3d0b681-75c1-4ec8-ba1b-ab3d39d35011",
-                "name": "torrentgirl2.com##div.sidebar>div.sidebar-nav>ul>a[href^=\"https://torrentgirl2.com/page/partner_jump\"][href*=\".php\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentgirl2\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.sidebar>div.sidebar-nav>ul>a[href^=\"https://torrentgirl2.com/page/partner_jump\"][href*=\".php\"]"
-                    }
-                }
-            },
-            {
-                "id": "10c650cd-98c7-4b6e-ab11-829f38b7fc03",
-                "name": "torrentkim5.net##div#rb",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentkim5\\.net",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#rb"
-                    }
-                }
-            },
-            {
-                "id": "85e87fad-0f44-40c2-a0a7-304b12dc5371",
-                "name": "torrentkim5.net##div#side1>a[href^=\"/to_toy.html\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentkim5\\.net",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#side1>a[href^=\"/to_toy.html\"]"
-                    }
-                }
-            },
-            {
-                "id": "6ac0840e-7a25-43c8-8d7c-001168070217",
-                "name": "torrentkim5.net##div#toto",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentkim5\\.net",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#toto"
-                    }
-                }
-            },
-            {
-                "id": "1871cccf-d0b9-4a7f-b33e-65bd880b2d60",
-                "name": "torrentmade.com##div.hiddenpage",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmade\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.hiddenpage"
-                    }
-                }
-            },
-            {
-                "id": "3a479b7f-53a0-465b-b7d3-ceaaf5fae237",
-                "name": "torrentmade.com##div.top_banner",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmade\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.top_banner"
-                    }
-                }
-            },
-            {
-                "id": "6b9cf6d2-8955-4017-8816-7c7ef97a7290",
-                "name": "torrentmoa.com##body>b",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoa\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "body>b"
-                    }
-                }
-            },
-            {
-                "id": "313e6b91-7c9e-4e11-903f-f08907d55ed8",
-                "name": "torrentmoa.com##body>center",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoa\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "body>center"
-                    }
-                }
-            },
-            {
-                "id": "776c687b-31dc-4c88-b92b-6a6b99faf485",
-                "name": "torrentmoa.com##div.content_widget_bar",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoa\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.content_widget_bar"
-                    }
-                }
-            },
-            {
-                "id": "11bf6f86-6de1-4c57-8681-0a7e9419a94c",
-                "name": "torrentmoa.com##div.footer_text",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoa\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.footer_text"
-                    }
-                }
-            },
-            {
-                "id": "040e3017-c72b-4bd5-9dc3-b8c93e667f52",
-                "name": "torrentmoa.com##div.lnb_widget",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoa\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.lnb_widget"
-                    }
-                }
-            },
-            {
-                "id": "f8fbc214-d3ff-401a-9afe-a0503d02cbb1",
-                "name": "torrentmoa.com##div.rd_ft>b>b>center",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoa\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.rd_ft>b>b>center"
-                    }
-                }
-            },
-            {
-                "id": "f445f125-8604-4210-bfe6-06771989f204",
-                "name": "torrentmoatv.com##div.contents>div.xe_content>div[style=\"padding:0px 0px 0px 0px !important;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoatv\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.contents>div.xe_content>div[style=\"padding:0px 0px 0px 0px !important;\"]"
-                    }
-                }
-            },
-            {
-                "id": "fe9337b2-3d90-46b4-ac79-2a19854e7d42",
-                "name": "torrentmoatv.com##div.contents>div>center",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoatv\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.contents>div>center"
-                    }
-                }
-            },
-            {
-                "id": "7f4faba3-4db2-446f-9f51-4c9c18be2985",
-                "name": "torrentmoatv.com##div.left_widget_wrap",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoatv\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.left_widget_wrap"
-                    }
-                }
-            },
-            {
-                "id": "8af0af78-a464-4e42-8953-0e8d847ee859",
-                "name": "torrentmoatv.com##div.rd_ft>b>b>center",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoatv\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.rd_ft>b>b>center"
-                    }
-                }
-            },
-            {
                 "id": "09ebe84e-bc80-459e-9a84-7a7fe365f8bf",
                 "name": "tobest2.net##div#left>div:not([class]):not([id]):not([style])>a",
                 "content": {
@@ -33338,6 +33030,314 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.analytics_google"
+                    }
+                }
+            },
+            {
+                "id": "1ced84a8-f2bc-4b54-95c2-be6a5cbeaf36",
+                "name": "todayhumor.co.kr##div.under_ad_div",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?todayhumor\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.under_ad_div"
+                    }
+                }
+            },
+            {
+                "id": "f3d72175-4bfb-4d37-9ef3-e8ba9da0ea38",
+                "name": "todown.net##div.at-content>div.container>div.row>div.contentArea>div[style=\"text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?todown\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.at-content>div.container>div.row>div.contentArea>div[style=\"text-align:center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "685246f1-32f4-4982-8f06-6085eb44a287",
+                "name": "todown.net##div.at-content>div.container>div.row>div.sideArea>div[style=\"width:100%; height:100;text-align:center; background:#f5f5f5;margin-bottom:5px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?todown\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.at-content>div.container>div.row>div.sideArea>div[style=\"width:100%; height:100;text-align:center; background:#f5f5f5;margin-bottom:5px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "98e30ab5-30da-440e-8321-3ba73cfd9713",
+                "name": "todown.net##div.at-content>div.container>div.row>div.sideArea>div[style=\"width:100%; height:250px; line-height:280px; text-align:center; background:#f5f5f5;margin-bottom:30px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?todown\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.at-content>div.container>div.row>div.sideArea>div[style=\"width:100%; height:250px; line-height:280px; text-align:center; background:#f5f5f5;margin-bottom:30px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "38577666-4320-4d98-9834-8e0743aa1db9",
+                "name": "todown.net##div.at-content>div.container>div.row>div.sideArea>div[style=\"width:100%; height:250px; line-height:280px; text-align:center; background:#f5f5f5;margin-bottom:5px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?todown\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.at-content>div.container>div.row>div.sideArea>div[style=\"width:100%; height:250px; line-height:280px; text-align:center; background:#f5f5f5;margin-bottom:5px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "5ade6d41-e078-479c-856d-be7a04c2b6f8",
+                "name": "torrentgirl2.com##div.background>div.wrapper>div[style=\"position:absolute; margin-left:-130px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentgirl2\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.background>div.wrapper>div[style=\"position:absolute; margin-left:-130px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "c3d0b681-75c1-4ec8-ba1b-ab3d39d35011",
+                "name": "torrentgirl2.com##div.sidebar>div.sidebar-nav>ul>a[href^=\"https://torrentgirl2.com/page/partner_jump\"][href*=\".php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentgirl2\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sidebar>div.sidebar-nav>ul>a[href^=\"https://torrentgirl2.com/page/partner_jump\"][href*=\".php\"]"
+                    }
+                }
+            },
+            {
+                "id": "10c650cd-98c7-4b6e-ab11-829f38b7fc03",
+                "name": "torrentkim5.net##div#rb",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentkim5\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#rb"
+                    }
+                }
+            },
+            {
+                "id": "85e87fad-0f44-40c2-a0a7-304b12dc5371",
+                "name": "torrentkim5.net##div#side1>a[href^=\"/to_toy.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentkim5\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#side1>a[href^=\"/to_toy.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "6ac0840e-7a25-43c8-8d7c-001168070217",
+                "name": "torrentkim5.net##div#toto",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentkim5\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#toto"
+                    }
+                }
+            },
+            {
+                "id": "1871cccf-d0b9-4a7f-b33e-65bd880b2d60",
+                "name": "torrentmade.com##div.hiddenpage",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmade\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.hiddenpage"
+                    }
+                }
+            },
+            {
+                "id": "3a479b7f-53a0-465b-b7d3-ceaaf5fae237",
+                "name": "torrentmade.com##div.top_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmade\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top_banner"
+                    }
+                }
+            },
+            {
+                "id": "6b9cf6d2-8955-4017-8816-7c7ef97a7290",
+                "name": "torrentmoa.com##body>b",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoa\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>b"
+                    }
+                }
+            },
+            {
+                "id": "313e6b91-7c9e-4e11-903f-f08907d55ed8",
+                "name": "torrentmoa.com##body>center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoa\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>center"
+                    }
+                }
+            },
+            {
+                "id": "776c687b-31dc-4c88-b92b-6a6b99faf485",
+                "name": "torrentmoa.com##div.content_widget_bar",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoa\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.content_widget_bar"
+                    }
+                }
+            },
+            {
+                "id": "11bf6f86-6de1-4c57-8681-0a7e9419a94c",
+                "name": "torrentmoa.com##div.footer_text",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoa\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.footer_text"
+                    }
+                }
+            },
+            {
+                "id": "040e3017-c72b-4bd5-9dc3-b8c93e667f52",
+                "name": "torrentmoa.com##div.lnb_widget",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoa\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.lnb_widget"
+                    }
+                }
+            },
+            {
+                "id": "f8fbc214-d3ff-401a-9afe-a0503d02cbb1",
+                "name": "torrentmoa.com##div.rd_ft>b>b>center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoa\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rd_ft>b>b>center"
+                    }
+                }
+            },
+            {
+                "id": "f445f125-8604-4210-bfe6-06771989f204",
+                "name": "torrentmoatv.com##div.contents>div.xe_content>div[style=\"padding:0px 0px 0px 0px !important;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoatv\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contents>div.xe_content>div[style=\"padding:0px 0px 0px 0px !important;\"]"
+                    }
+                }
+            },
+            {
+                "id": "fe9337b2-3d90-46b4-ac79-2a19854e7d42",
+                "name": "torrentmoatv.com##div.contents>div>center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoatv\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contents>div>center"
+                    }
+                }
+            },
+            {
+                "id": "7f4faba3-4db2-446f-9f51-4c9c18be2985",
+                "name": "torrentmoatv.com##div.left_widget_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoatv\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.left_widget_wrap"
+                    }
+                }
+            },
+            {
+                "id": "8af0af78-a464-4e42-8953-0e8d847ee859",
+                "name": "torrentmoatv.com##div.rd_ft>b>b>center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoatv\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rd_ft>b>b>center"
                     }
                 }
             },
@@ -35288,6 +35288,20 @@
                 }
             },
             {
+                "id": "ac4e87a9-6120-4f9f-9c1a-8d9d1a618fbc",
+                "name": "ytn.co.kr##div.YTN_CSA_headline>div>div[style=\"clear:both;width:;648px;height:140px;padding:10px 0 0 0;margin:0 0 -10px 0;overflow:hidden\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ytn\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.YTN_CSA_headline>div>div[style=\"clear:both;width:;648px;height:140px;padding:10px 0 0 0;margin:0 0 -10px 0;overflow:hidden\"]"
+                    }
+                }
+            },
+            {
                 "id": "ed3ab44e-97f9-434f-a2ef-31e8ef0acfe4",
                 "name": "ytn.co.kr##div.adright_box",
                 "content": {
@@ -35326,20 +35340,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.articleAd_new"
-                    }
-                }
-            },
-            {
-                "id": "ac4e87a9-6120-4f9f-9c1a-8d9d1a618fbc",
-                "name": "ytn.co.kr##div.YTN_CSA_headline>div>div[style=\"clear:both;width:;648px;height:140px;padding:10px 0 0 0;margin:0 0 -10px 0;overflow:hidden\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ytn\\.co\\.kr",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.YTN_CSA_headline>div>div[style=\"clear:both;width:;648px;height:140px;padding:10px 0 0 0;margin:0 0 -10px 0;overflow:hidden\"]"
                     }
                 }
             },
