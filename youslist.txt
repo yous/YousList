@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: LEpRHjH8v5kV+4/uYW4K/g
+! Checksum: p2ZvsKnMA1B5lII9cZSFEw
 ! Version: 20170117
 
 ! General element hiding rules
@@ -514,6 +514,10 @@
 ||g.novostimira.biz/j/
 ||gaihn.co.kr/eventbanner/
 ||gall.dcinside.com/dc_ad_*_JH.php^
+||gamefocus.co.kr/bncode2/banner_left.html^
+||gamefocus.co.kr/bncode2/banner_mainflash.html^
+||gamefocus.co.kr/bncode2/banner_right.html^
+||gamefocus.co.kr/bncode2/banner_top.html^
 ||gametoc.hankyung.com/banner/*.html^
 ||get.keywordsconnect.com^
 ||get2.keywordsconnect.com^
@@ -1231,6 +1235,12 @@ gamechosun.co.kr##div#over_articleB
 gamechosun.co.kr##div#slideBanner
 gamechosun.co.kr##div#topLayoutRight
 gamechosun.co.kr##div.banner_wrap
+gamefocus.co.kr##body>center>center>table[width="940"]:first-of-type>tbody>tr>td:last-of-type[align="left"][bgcolor="#FFFFFF"][valign="top"][width="260"]>div[style="width:258; height=234; border-style:solid; border-width:1px; border-color:#c0c0c0;"]
+gamefocus.co.kr##body>center>table[width="940"]>tbody>tr>td>table[width="940"]>tbody>tr:nth-of-type(2)>td>table[width="100%"]>tbody>tr>td:nth-of-type(2)[align="left"]>div[style="width:450; height=80; border-style:solid; border-width:1px; border-color:#C0C0C0;"]
+gamefocus.co.kr##iframe[src^="bncode2/banner_left.html"]
+gamefocus.co.kr##iframe[src^="bncode2/banner_mainflash.html"]
+gamefocus.co.kr##iframe[src^="bncode2/banner_right.html"]
+gamefocus.co.kr##iframe[src^="bncode2/banner_top.html"]
 gamemeca.com##div.btmBannerTwo
 gamemeca.com##div.goggle_ad_bottom_728x90
 gamemeca.com##div.pb32

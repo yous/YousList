@@ -6871,6 +6871,58 @@
                 }
             },
             {
+                "id": "7d647926-fcbe-4729-9ae7-88659f33e385",
+                "name": "gamefocus.co.kr/bncode2/banner_left.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamefocus\\.co\\.kr/bncode2/banner_left\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "65377000-47d3-4002-bb11-c65d23eb046e",
+                "name": "gamefocus.co.kr/bncode2/banner_mainflash.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamefocus\\.co\\.kr/bncode2/banner_mainflash\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3e79120e-1db7-4480-8825-27de87f56d48",
+                "name": "gamefocus.co.kr/bncode2/banner_right.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamefocus\\.co\\.kr/bncode2/banner_right\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "75c99fde-e620-4740-b085-2e4a5c91bf5b",
+                "name": "gamefocus.co.kr/bncode2/banner_top.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamefocus\\.co\\.kr/bncode2/banner_top\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4d980a57-25cc-4939-bdf7-a7416df7584b",
                 "name": "gametoc.hankyung.com/banner/*.html",
                 "content": {
@@ -17186,6 +17238,90 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.banner_wrap"
+                    }
+                }
+            },
+            {
+                "id": "f4ef57c2-84aa-4486-acec-84cd0518ed86",
+                "name": "gamefocus.co.kr##body>center>center>table[width=\"940\"]:first-of-type>tbody>tr>td:last-of-type[align=\"left\"][bgcolor=\"#FFFFFF\"][valign=\"top\"][width=\"260\"]>div[style=\"width:258; height=234; border-style:solid; border-width:1px; border-color:#c0c0c0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamefocus\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>center>center>table[width=\"940\"]:first-of-type>tbody>tr>td:last-of-type[align=\"left\"][bgcolor=\"#FFFFFF\"][valign=\"top\"][width=\"260\"]>div[style=\"width:258; height=234; border-style:solid; border-width:1px; border-color:#c0c0c0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "1ec344db-0d11-4a96-8936-ef605655ae73",
+                "name": "gamefocus.co.kr##body>center>table[width=\"940\"]>tbody>tr>td>table[width=\"940\"]>tbody>tr:nth-of-type(2)>td>table[width=\"100%\"]>tbody>tr>td:nth-of-type(2)[align=\"left\"]>div[style=\"width:450; height=80; border-style:solid; border-width:1px; border-color:#C0C0C0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamefocus\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>center>table[width=\"940\"]>tbody>tr>td>table[width=\"940\"]>tbody>tr:nth-of-type(2)>td>table[width=\"100%\"]>tbody>tr>td:nth-of-type(2)[align=\"left\"]>div[style=\"width:450; height=80; border-style:solid; border-width:1px; border-color:#C0C0C0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "2fef78ae-14ed-4cf1-9bd8-eee5d3584b0f",
+                "name": "gamefocus.co.kr##iframe[src^=\"bncode2/banner_left.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamefocus\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"bncode2/banner_left.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "e9ed1e58-85bc-4107-ba2e-f56d6dbc9742",
+                "name": "gamefocus.co.kr##iframe[src^=\"bncode2/banner_mainflash.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamefocus\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"bncode2/banner_mainflash.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "6bbf3589-de31-488d-806f-48208cee5b8b",
+                "name": "gamefocus.co.kr##iframe[src^=\"bncode2/banner_right.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamefocus\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"bncode2/banner_right.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "7b2bd464-bfcd-4909-8276-38a6c4fecf03",
+                "name": "gamefocus.co.kr##iframe[src^=\"bncode2/banner_top.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamefocus\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"bncode2/banner_top.html\"]"
                     }
                 }
             },
