@@ -1,5 +1,7 @@
 # YousList
 
+[![Build Status](https://travis-ci.org/yous/YousList.svg?branch=master)](https://travis-ci.org/yous/YousList)
+
 Block filter for [Adblock Plus][], [uBlock Origin][], [uBlock][], [1Blocker][],
 and [AdAway][].
 
