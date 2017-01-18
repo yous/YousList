@@ -6251,6 +6251,134 @@
                 }
             },
             {
+                "id": "48ab9aca-7fa6-400d-843f-7517c2397f0a",
+                "name": "dispatch.co.kr/ad/ad7Cover-*.html$domain=dispatch.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr/ad/ad7Cover-.*\\.html",
+                        "load-type": [],
+                        "if-domain": [
+                            "dispatch.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "bc7f3ba6-ccf6-47e8-98a9-f21bbba549cc",
+                "name": "dispatch.co.kr/ad/ad8/$domain=dispatch.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr/ad/ad8/",
+                        "load-type": [],
+                        "if-domain": [
+                            "dispatch.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a0556499-1dbb-4129-85dd-94bd0326e1c9",
+                "name": "dispatch.co.kr/ad/adm11/$domain=dispatch.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr/ad/adm11/",
+                        "load-type": [],
+                        "if-domain": [
+                            "dispatch.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f0d682b0-8bae-438e-bb54-df77dcbf6d4c",
+                "name": "dispatch.co.kr/ad/adm12_3.html$domain=dispatch.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr/ad/adm12_3\\.html",
+                        "load-type": [],
+                        "if-domain": [
+                            "dispatch.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "90d56597-a61a-4370-94e1-459512f0e7d8",
+                "name": "dispatch.co.kr/ad/adside02/$domain=dispatch.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr/ad/adside02/",
+                        "load-type": [],
+                        "if-domain": [
+                            "dispatch.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "456eff59-a9bd-43e1-93ae-5cbd6d25d3fa",
+                "name": "dispatch.co.kr/ad/adside03/$domain=dispatch.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr/ad/adside03/",
+                        "load-type": [],
+                        "if-domain": [
+                            "dispatch.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ee28032e-1203-41d3-9a9e-7d50d23e47ed",
+                "name": "dispatch.co.kr/ad/bottomAD.html$domain=dispatch.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr/ad/bottomAD\\.html",
+                        "load-type": [],
+                        "if-domain": [
+                            "dispatch.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6e5b6bb4-500f-4320-9a4c-026564704b2b",
+                "name": "dispatch.co.kr/ad/innerNewsAD.html$domain=dispatch.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr/ad/innerNewsAD\\.html",
+                        "load-type": [],
+                        "if-domain": [
+                            "dispatch.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0905e860-c2e9-4ebd-8ec6-3b9c5994903f",
                 "name": "display.ad.daum.net/imp",
                 "content": {
@@ -15418,6 +15546,356 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#newsFloatingBanner"
+                    }
+                }
+            },
+            {
+                "id": "ea22b2ac-70f7-4980-a4c4-118408b81dd5",
+                "name": "dispatch.co.kr##div#ad11Cover",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad11Cover"
+                    }
+                }
+            },
+            {
+                "id": "1f54053d-dcd6-44c0-8181-f98ffd3692ca",
+                "name": "dispatch.co.kr##div#ad4-1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad4-1"
+                    }
+                }
+            },
+            {
+                "id": "4f05dcea-5891-4a9c-a275-c3917e39ba0d",
+                "name": "dispatch.co.kr##div#ad4-2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad4-2"
+                    }
+                }
+            },
+            {
+                "id": "4706fe9f-f67b-45f2-a63a-61b094bc61f3",
+                "name": "dispatch.co.kr##div#ad7Cover",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad7Cover"
+                    }
+                }
+            },
+            {
+                "id": "46ec9b33-51af-478c-9b2b-28c3df33dab1",
+                "name": "dispatch.co.kr##div#ad8Cover",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad8Cover"
+                    }
+                }
+            },
+            {
+                "id": "a94598bd-c7d1-40a3-9c9b-217c608106ab",
+                "name": "dispatch.co.kr##div#adm12",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adm12"
+                    }
+                }
+            },
+            {
+                "id": "179f6207-de70-498d-9429-2828c6649779",
+                "name": "dispatch.co.kr##div#adm1Cover",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adm1Cover"
+                    }
+                }
+            },
+            {
+                "id": "e6dc0acd-d5f9-472b-89d0-7f74b1312d13",
+                "name": "dispatch.co.kr##div#adm1CoverAd1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adm1CoverAd1"
+                    }
+                }
+            },
+            {
+                "id": "4e4ef17e-c1fc-4216-b42c-1c567b1f5144",
+                "name": "dispatch.co.kr##div#adm1CoverAd2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adm1CoverAd2"
+                    }
+                }
+            },
+            {
+                "id": "c1e14d75-b378-48a0-9459-7ccde013aa35",
+                "name": "dispatch.co.kr##div#adm5Cover",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adm5Cover"
+                    }
+                }
+            },
+            {
+                "id": "615b87b7-aa0b-474c-b2bd-bc270b94f9ca",
+                "name": "dispatch.co.kr##div#dp-news-bottom-00",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#dp-news-bottom-00"
+                    }
+                }
+            },
+            {
+                "id": "faebfcad-9086-498b-8f8c-c1e31522623b",
+                "name": "dispatch.co.kr##div#side-widget-bottom00",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#side-widget-bottom00"
+                    }
+                }
+            },
+            {
+                "id": "88d3215c-5902-41e6-8dc3-1cae5d14d3af",
+                "name": "dispatch.co.kr##div#sidebarad02",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sidebarad02"
+                    }
+                }
+            },
+            {
+                "id": "69a7fb1a-c109-4ce3-94ab-449f6ed0852d",
+                "name": "dispatch.co.kr##div#sidebarad03",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sidebarad03"
+                    }
+                }
+            },
+            {
+                "id": "a0b27593-3e10-4b14-9712-50ac92cbe1af",
+                "name": "dispatch.co.kr##div.article_bottom div[style=\"padding:10px;background:#fff;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article_bottom div[style=\"padding:10px;background:#fff;\"]"
+                    }
+                }
+            },
+            {
+                "id": "b6de40dd-38f6-4a8f-aa4e-d3e5b1bd68f4",
+                "name": "dispatch.co.kr##div.leftAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.leftAd"
+                    }
+                }
+            },
+            {
+                "id": "007c10ef-54d2-4395-b031-8cdc8d0a32e2",
+                "name": "dispatch.co.kr##div.rightAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rightAd"
+                    }
+                }
+            },
+            {
+                "id": "410c83ae-fbf7-4097-8ea5-d036c5dcdc57",
+                "name": "dispatch.co.kr##iframe[src^=\"/ad/ad7Cover-\"][src*=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ad/ad7Cover-\"][src*=\".html\"]"
+                    }
+                }
+            },
+            {
+                "id": "2cccf923-6a4f-46ea-b633-bc6547262e5b",
+                "name": "dispatch.co.kr##iframe[src^=\"/ad/ad8/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ad/ad8/\"]"
+                    }
+                }
+            },
+            {
+                "id": "4f2ec608-e0c7-4f07-8710-e2cf75dbc031",
+                "name": "dispatch.co.kr##iframe[src^=\"/ad/adm11/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ad/adm11/\"]"
+                    }
+                }
+            },
+            {
+                "id": "7275e5a1-0cb0-42b7-862a-1bc7f85a375f",
+                "name": "dispatch.co.kr##iframe[src^=\"/ad/adm12_3.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ad/adm12_3.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "2a2e94ee-4fc6-499a-8eeb-ff7a927c305d",
+                "name": "dispatch.co.kr##iframe[src^=\"/ad/bottomAD.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ad/bottomAD.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "47c5b52b-2905-4c80-bd42-bfc0e5c41666",
+                "name": "dispatch.co.kr##iframe[src^=\"/ad/innerNewsAD.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ad/innerNewsAD.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "46bea9d7-f656-492f-991d-321fc8d640dd",
+                "name": "dispatch.co.kr##span.header-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span.header-ad"
+                    }
+                }
+            },
+            {
+                "id": "924b2bc2-0fb4-4093-a310-581cf7436aed",
+                "name": "dispatch.co.kr##span.innerNewsAD",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span.innerNewsAD"
                     }
                 }
             },

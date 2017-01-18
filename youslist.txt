@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: GOXIrRWqJLhGhxLSVWkNfQ
-! Version: 20170117
+! Checksum: rn3ZV0RRD0Qvm0wdhUupqQ
+! Version: 20170118
 
 ! General element hiding rules
 ##div#_popIn_recommend div._popIn_recommend_article_ad
@@ -467,6 +467,14 @@
 ||dev.ezadsystem.com/static/js/ezad-1.0.js^
 ||dgate.*/hc.aspx^
 ||dgate.*/hciw.aspx^
+||dispatch.co.kr/ad/ad7Cover-*.html^$domain=dispatch.co.kr
+||dispatch.co.kr/ad/ad8/$domain=dispatch.co.kr
+||dispatch.co.kr/ad/adm11/$domain=dispatch.co.kr
+||dispatch.co.kr/ad/adm12_3.html^$domain=dispatch.co.kr
+||dispatch.co.kr/ad/adside02/$domain=dispatch.co.kr
+||dispatch.co.kr/ad/adside03/$domain=dispatch.co.kr
+||dispatch.co.kr/ad/bottomAD.html^$domain=dispatch.co.kr
+||dispatch.co.kr/ad/innerNewsAD.html^$domain=dispatch.co.kr
 ||display.ad.daum.net/imp^
 ||disqusads.com/ads-iframe/adsnative/
 ||dlv.hooniad.com^
@@ -1105,6 +1113,31 @@ digitaltrends.com##div.m-blockboard
 digitaltrends.com##div.m-leaderboard
 digitaltrends.com##div.m-mpu-widget
 diodeo.com##div#newsFloatingBanner
+dispatch.co.kr##div#ad11Cover
+dispatch.co.kr##div#ad4-1
+dispatch.co.kr##div#ad4-2
+dispatch.co.kr##div#ad7Cover
+dispatch.co.kr##div#ad8Cover
+dispatch.co.kr##div#adm12
+dispatch.co.kr##div#adm1Cover
+dispatch.co.kr##div#adm1CoverAd1
+dispatch.co.kr##div#adm1CoverAd2
+dispatch.co.kr##div#adm5Cover
+dispatch.co.kr##div#dp-news-bottom-00
+dispatch.co.kr##div#side-widget-bottom00
+dispatch.co.kr##div#sidebarad02
+dispatch.co.kr##div#sidebarad03
+dispatch.co.kr##div.article_bottom div[style="padding:10px;background:#fff;"]
+dispatch.co.kr##div.leftAd
+dispatch.co.kr##div.rightAd
+dispatch.co.kr##iframe[src^="/ad/ad7Cover-"][src*=".html"]
+dispatch.co.kr##iframe[src^="/ad/ad8/"]
+dispatch.co.kr##iframe[src^="/ad/adm11/"]
+dispatch.co.kr##iframe[src^="/ad/adm12_3.html"]
+dispatch.co.kr##iframe[src^="/ad/bottomAD.html"]
+dispatch.co.kr##iframe[src^="/ad/innerNewsAD.html"]
+dispatch.co.kr##span.header-ad
+dispatch.co.kr##span.innerNewsAD
 dkbnews.donga.com##div.aside_ad
 dkbnews.donga.com##div.boardAD01
 dt.co.kr##div#gisa>table
