@@ -13366,6 +13366,48 @@
                 }
             },
             {
+                "id": "3811f11b-e511-400b-84e2-b3daa9d9bef1",
+                "name": "avsnoop.co.uk##div#adArea",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?avsnoop\\.co\\.uk",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adArea"
+                    }
+                }
+            },
+            {
+                "id": "7ab17430-1cc8-4b45-8aac-e83606e42084",
+                "name": "avsnoop.co.uk##div#bbsview>div.inner>div.viewbox>div.adbox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?avsnoop\\.co\\.uk",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bbsview>div.inner>div.viewbox>div.adbox"
+                    }
+                }
+            },
+            {
+                "id": "39ef4449-b442-4d75-9206-bfee76488ed8",
+                "name": "avsnoop.co.uk##div#side>div.inner>div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?avsnoop\\.co\\.uk",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#side>div.inner>div.banner"
+                    }
+                }
+            },
+            {
                 "id": "d840c658-ac46-4bfe-9e0d-60cbfe84dcd5",
                 "name": "bbs.danawa.com##div#danawa-community-bbsView-powerLink-self",
                 "content": {
