@@ -61,7 +61,7 @@ class FilterParser:
             self._parse_hiding_rule(line)
         elif '#@#' in line:
             # Element hiding exception rule
-            raise ValueError('Cannot handle this rule: ' + line)
+            raise Exception('Cannot handle this rule: ' + line)
         else:
             # Blocking rule
             self._parse_blocking_rule(line)
@@ -175,7 +175,7 @@ class FilterParser:
                     else:
                         if_domain.append(domain)
                 if len(if_domain) and len(unless_domain):
-                    raise ValueError('Cannot handle these domains: ' + opt_val)
+                    raise Exception('Cannot handle these domains: ' + opt_val)
                 elif len(if_domain):
                     opt_dict['if-domain'] = if_domain
                 elif len(unless_domain):
@@ -183,7 +183,7 @@ class FilterParser:
             elif opt_key == 'script':
                 opt_dict['resource-type'] = ['script']
             else:
-                raise ValueError('Cannot handle this option: ' + opt_key)
+                raise Exception('Cannot handle this option: ' + opt_key)
         return opt_dict
 
 orig_pkg = os.path.join(root, 'Rules.1blockpkg')
