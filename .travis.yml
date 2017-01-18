@@ -1,0 +1,11 @@
+language: python
+sudo: false
+python:
+  - 2.7
+  - 3.6
+install:
+  - pip install six
+script:
+  - python bin/validate_checksum.py youslist.txt
+  - python bin/check_sorted.py youslist.txt
+  - python bin/generate_rules.py youslist.txt >/dev/null
