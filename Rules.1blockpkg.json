@@ -28017,8 +28017,8 @@
                 }
             },
             {
-                "id": "88db2c2d-b8e6-4ada-b5f0-54e144b50559",
-                "name": "news1.kr##a.stat_check_link",
+                "id": "0a33e4b9-e3e9-4407-9e41-c70a46aca7f7",
+                "name": "news1.kr##div#adiBanner",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news1\\.kr",
@@ -28026,13 +28026,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "a.stat_check_link"
+                        "selector": "div#adiBanner"
                     }
                 }
             },
             {
-                "id": "60d95041-2b9f-433e-99e7-1c25b94b6644",
-                "name": "news1.kr##div#article_body_content>div[style=\"margin:0 auto; padding-bottom:10px;\"]",
+                "id": "d16a1615-2d38-4d4e-9004-35eb9f694390",
+                "name": "news1.kr##div#article_body_content>div[align=\"center\"][style=\"margin: 0 auto; height: 270px; display: block; padding-top: 10px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news1\\.kr",
@@ -28040,7 +28040,35 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#article_body_content>div[style=\"margin:0 auto; padding-bottom:10px;\"]"
+                        "selector": "div#article_body_content>div[align=\"center\"][style=\"margin: 0 auto; height: 270px; display: block; padding-top: 10px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "6c8792b4-c8fd-468d-b4ca-42e4bec4ee97",
+                "name": "news1.kr##div#articles_detail>div[style=\"float:right;width:300px;height:250px;margin-bottom:12px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news1\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#articles_detail>div[style=\"float:right;width:300px;height:250px;margin-bottom:12px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "c0623655-add5-4c0a-a766-78f2c13759ac",
+                "name": "news1.kr##div#prism_displayAD",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news1\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#prism_displayAD"
                     }
                 }
             },
@@ -28087,8 +28115,8 @@
                 }
             },
             {
-                "id": "ede38229-63e8-41b6-a8ab-678472d8e023",
-                "name": "news1.kr##div.article>div[style=\"margin: 0 auto; padding-bottom: 10px;\"]",
+                "id": "4c59a5d5-d072-4a42-8537-8b7471a5a628",
+                "name": "news1.kr##div.aside>div.ad_w300.sideBlock",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news1\\.kr",
@@ -28096,35 +28124,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.article>div[style=\"margin: 0 auto; padding-bottom: 10px;\"]"
-                    }
-                }
-            },
-            {
-                "id": "d6f08e44-214e-4a87-b1af-c4d6a94d65dd",
-                "name": "news1.kr##div.aside>div.adBlock",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news1\\.kr",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.aside>div.adBlock"
-                    }
-                }
-            },
-            {
-                "id": "236a31c4-f286-4943-bb7c-605cbd123964",
-                "name": "news1.kr##div.link_news.s_news_list>ul>div[style=\"padding:5px; background:#EBEBEB; margin-top:-200px; right:0; position:absolute; width:200px; height:200px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news1\\.kr",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.link_news.s_news_list>ul>div[style=\"padding:5px; background:#EBEBEB; margin-top:-200px; right:0; position:absolute; width:200px; height:200px;\"]"
+                        "selector": "div.aside>div.ad_w300.sideBlock"
                     }
                 }
             },
