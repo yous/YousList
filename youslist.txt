@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: xmV507gn9PwHxgf1aiUl8A
+! Checksum: DmNX8q3iI8I3W5OBRxn1Iw
 ! Version: 20170119
 
 ! General element hiding rules
@@ -657,7 +657,7 @@
 ||m.joyninfo.com/yna/yna_w2.asp^
 ||m.kmib.co.kr/banner/
 ||m.metroseoul.co.kr/common/js/custom/script_*_ad.js^
-||m.news1.kr/ads/
+||m.news1.kr/template/ads/$domain=m.news1.kr
 ||m.pann.nate.com/da/AdBigBanner^$domain=m.pann.nate.com
 ||m.pann.nate.com/da/shopbox^$domain=m.pann.nate.com
 ||m.sportsseoul.com/application/views/ad/*.html^
@@ -1653,10 +1653,18 @@ m.naver.com##div.grid_ad
 m.naver.com##div.id_uio_cd_fbanner
 m.news.naver.com##div.ad_area
 m.news.naver.com##div.ad_box
-m.news1.kr##div#article_content>div[style="width:150px;height:150px;float:right;margin:10px 0 10px 10px;"]
-m.news1.kr##div[data-role="main"]>div[style="z-index:10; position:fixed; bottom:0; height:49px; width:100%;"]
-m.news1.kr##iframe[src^="../../ads/"]
-m.news1.kr##ul.txt_padding_box
+m.news1.kr##div.ads_article1
+m.news1.kr##div.ads_article2
+m.news1.kr##div.ads_article3
+m.news1.kr##div.ads_article4
+m.news1.kr##div.ads_article_content
+m.news1.kr##div.ads_bottom_fixed
+m.news1.kr##div.ads_dreamsearch1
+m.news1.kr##div.ads_livere
+m.news1.kr##div.ads_shoppingbox
+m.news1.kr##div.ads_text_banner
+m.news1.kr##div.ads_zone
+m.news1.kr##iframe[src^="/template/ads/"]
 m.newsworker.co.kr##section.advertisment
 m.nocutnews.co.kr##div.con_b>div.ct_box
 m.ohmynews.com##div#adDaum
