@@ -1012,6 +1012,20 @@
                 }
             },
             {
+                "id": "a81f13f4-8137-4f96-88c5-9e8171dfa924",
+                "name": "##iframe[src^=\"http://adx-exchange.toast.com/html/integration.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adx-exchange.toast.com/html/integration.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "bf0b32ac-942e-41fe-9da5-88f4f0acb0bf",
                 "name": "##iframe[src^=\"http://adx.bibl.uk/ra/www/delivery/afr.php\"]",
                 "content": {
@@ -4345,6 +4359,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adx-exchange\\.toast\\.com/a_request",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e98005e1-56d5-4ecb-9634-356ed28740cb",
+                "name": "adx-exchange.toast.com/html/integration.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adx-exchange\\.toast\\.com/html/integration\\.html",
                         "load-type": []
                     },
                     "action": {
@@ -24308,6 +24335,20 @@
                 }
             },
             {
+                "id": "c23747e2-3f31-4ac4-bc13-5c8a0eb8a1ad",
+                "name": "m.yna.co.kr##div#change-inner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.yna\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#change-inner"
+                    }
+                }
+            },
+            {
                 "id": "12f133bd-8c88-47d8-a4b3-ef25ad8b77cd",
                 "name": "m.yna.co.kr##div.ad-Cauly-wrap",
                 "content": {
@@ -24322,8 +24363,8 @@
                 }
             },
             {
-                "id": "7d17c9c8-7aa0-446f-9a2f-549c516db7d7",
-                "name": "m.yna.co.kr##div.section-txt>div[style=\"display:inline-block;width:150px;height:150px;float:right;margin-left:10px;border:1px solid #f2ebd6\"]",
+                "id": "10ee6177-bf05-419c-a3d7-1be7f96ce6cf",
+                "name": "m.yna.co.kr##div.section-txt>span.article-boxad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.yna\\.co\\.kr",
@@ -24331,7 +24372,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.section-txt>div[style=\"display:inline-block;width:150px;height:150px;float:right;margin-left:10px;border:1px solid #f2ebd6\"]"
+                        "selector": "div.section-txt>span.article-boxad"
                     }
                 }
             },
@@ -24374,20 +24415,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "section.section-ad-joyinfo"
-                    }
-                }
-            },
-            {
-                "id": "7d3758ba-7baf-4729-bbce-79028f846927",
-                "name": "m.yna.co.kr##section.section-ad-lumi",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.yna\\.co\\.kr",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "section.section-ad-lumi"
                     }
                 }
             },

@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: ZmHV8asDKESkIrqGCFLkbA
-! Version: 20170118
+! Checksum: MOugCKkijqLsWYpc5gND3A
+! Version: 20170119
 
 ! General element hiding rules
 ##div#_popIn_recommend div._popIn_recommend_article_ad
@@ -79,6 +79,7 @@
 ##iframe[src^="http://adtg.widerplanet.com/"]
 ##iframe[src^="http://adv.imadrep.co.kr/"]
 ##iframe[src^="http://adw.heraldm.com/"]
+##iframe[src^="http://adx-exchange.toast.com/html/integration.html"]
 ##iframe[src^="http://adx.bibl.uk/ra/www/delivery/afr.php"]
 ##iframe[src^="http://adx.naonmedia.net/adx/"]
 ##iframe[src^="http://adx.turl.co.kr/pick.wif"]
@@ -331,6 +332,7 @@
 ||adver.clickmon.co.kr^
 ||adw.heraldm.com/cgi-bin/conad.fcgi/
 ||adx-exchange.toast.com/a_request^
+||adx-exchange.toast.com/html/integration.html^
 ||adx.bibl.uk/ra/www/delivery/afr.php^
 ||adx.naonmedia.net/adx/
 ||adx.turl.co.kr/adx.wif^
@@ -1732,12 +1734,12 @@ m.wikitree.co.kr##div.ad_bottom
 m.wikitree.co.kr##div.contBanner
 m.wikitree.co.kr##iframe[src^="/ad/"]
 m.yna.co.kr##aside.section-article-add>div.section-ad
+m.yna.co.kr##div#change-inner
 m.yna.co.kr##div.ad-Cauly-wrap
-m.yna.co.kr##div.section-txt>div[style="display:inline-block;width:150px;height:150px;float:right;margin-left:10px;border:1px solid #f2ebd6"]
+m.yna.co.kr##div.section-txt>span.article-boxad
 m.yna.co.kr##section.section-ad-adtive
 m.yna.co.kr##section.section-ad-hi
 m.yna.co.kr##section.section-ad-joyinfo
-m.yna.co.kr##section.section-ad-lumi
 m.yna.co.kr##section.section-add
 m.ytn.co.kr##div.newsview_ad
 m.ytn.co.kr##div.newsview_ad_bnr
