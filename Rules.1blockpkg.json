@@ -4,20 +4,6 @@
         "name": "YousList",
         "rules": [
             {
-                "id": "a20d6c4e-436a-4065-b3d5-00f306cd9f55",
-                "name": "##div#_popIn_recommend div._popIn_recommend_article_ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#_popIn_recommend div._popIn_recommend_article_ad"
-                    }
-                }
-            },
-            {
                 "id": "94620f06-a8f1-4785-aa74-93735def9d1a",
                 "name": "##div#adbay_adExpandDiv",
                 "content": {
@@ -154,6 +140,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#wiseAd"
+                    }
+                }
+            },
+            {
+                "id": "2bd9a7c5-4fa9-412a-949f-44345f29caa9",
+                "name": "##div._popIn_recommend_container div._popIn_recommend_article_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div._popIn_recommend_container div._popIn_recommend_article_ad"
                     }
                 }
             },
@@ -742,6 +742,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://adexview.new-star.co.kr/\"]"
+                    }
+                }
+            },
+            {
+                "id": "15123dec-b9ef-48e9-aed2-1e7772d5421d",
+                "name": "##iframe[src^=\"http://adf.acrosspf.com/adifr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adf.acrosspf.com/adifr/\"]"
                     }
                 }
             },
@@ -3488,6 +3502,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adexview\\.new-star\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "138fd070-51c6-46ca-9ace-cb89eca26268",
+                "name": "adf.acrosspf.com/adifr/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adf\\.acrosspf\\.com/adifr/",
                         "load-type": []
                     },
                     "action": {

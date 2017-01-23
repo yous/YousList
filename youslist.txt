@@ -3,11 +3,10 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: I7G7EZd+Ar6KZg64a4EzWQ
+! Checksum: Q5GVXDQzZ5H1Qo7UjzadJQ
 ! Version: 20170123
 
 ! General element hiding rules
-##div#_popIn_recommend div._popIn_recommend_article_ad
 ##div#adbay_adExpandDiv
 ##div#adbay_adExpandIframe
 ##div#adya_area
@@ -18,6 +17,7 @@
 ##div#uniqubeAd_area_text
 ##div#uniqubeFirstDiv
 ##div#wiseAd
+##div._popIn_recommend_container div._popIn_recommend_article_ad
 ##div.ezAdsense
 ##div.gpt_ad_container
 ##div.trc_rbox_container div.trc_rbox_outer div.syndicatedItem
@@ -60,6 +60,7 @@
 ##iframe[src^="http://adex.ednplus.com/"]
 ##iframe[src^="http://adexpert.ad4989.co.kr/"]
 ##iframe[src^="http://adexview.new-star.co.kr/"]
+##iframe[src^="http://adf.acrosspf.com/adifr/"]
 ##iframe[src^="http://adf.send.microad.jp/afr.php"]
 ##iframe[src^="http://adin.ad4980.kr/"]
 ##iframe[src^="http://adkpf.newscloud.or.kr/NetInsight/"]
@@ -265,6 +266,7 @@
 ||adexpert.ad4989.co.kr^
 ||adexview.neoebiz.co.kr^
 ||adexview.new-star.co.kr^
+||adf.acrosspf.com/adifr/
 ||adf.send.microad.jp^
 ||adget.co.kr^
 ||adimage.hankookilbo.com^
