@@ -31520,20 +31520,6 @@
                 }
             },
             {
-                "id": "40dc08ca-6619-4963-bbef-f4a70c54e7d5",
-                "name": "sports.hankooki.com##div#SponsorLink",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.hankooki\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#SponsorLink"
-                    }
-                }
-            },
-            {
                 "id": "81d8e5b0-3494-4183-a3f3-069562c52fe9",
                 "name": "sports.hankooki.com##div#ad2LineText02",
                 "content": {
@@ -31562,8 +31548,8 @@
                 }
             },
             {
-                "id": "cde75cf2-6ed0-4509-b6d5-f9c20cdd3037",
-                "name": "sports.hankooki.com##div#listLifeSponsor",
+                "id": "d7b63563-ccaf-4ed8-9dec-61c012b27092",
+                "name": "sports.hankooki.com##div#contents>div.br_l.w690>div.left.pt25.w690>div.brt25.contents_bottom.pos_r",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.hankooki\\.com",
@@ -31571,7 +31557,49 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#listLifeSponsor"
+                        "selector": "div#contents>div.br_l.w690>div.left.pt25.w690>div.brt25.contents_bottom.pos_r"
+                    }
+                }
+            },
+            {
+                "id": "8c9ef04f-36fc-41c2-928f-735d86e80a51",
+                "name": "sports.hankooki.com##div#contents>div.br_l.w690>div[style=\"width:670px; float:left; margin-top:24px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.hankooki\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#contents>div.br_l.w690>div[style=\"width:670px; float:left; margin-top:24px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "392c74f4-9048-40be-a35f-08c67d408c47",
+                "name": "sports.hankooki.com##div#contents>div.w325>div.pl25_300[style=\"width:300px; float:right; padding-top:30px; height:600px; padding-bottom:30px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.hankooki\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#contents>div.w325>div.pl25_300[style=\"width:300px; float:right; padding-top:30px; height:600px; padding-bottom:30px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "80d070d1-0fe0-4e2e-80cf-534d71b46047",
+                "name": "sports.hankooki.com##div._banner300",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.hankooki\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div._banner300"
                     }
                 }
             },
@@ -31600,6 +31628,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.banner300"
+                    }
+                }
+            },
+            {
+                "id": "e96e50f6-fdea-4fb7-99f6-ab61d8424a0e",
+                "name": "sports.hankooki.com##div.banner690_m",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.hankooki\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner690_m"
                     }
                 }
             },
@@ -31642,6 +31684,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.wrap_over_72890"
+                    }
+                }
+            },
+            {
+                "id": "7fb4b64e-7cef-4323-9496-59bfb732a4cc",
+                "name": "sports.hankooki.com##iframe[src^=\"http://sports.hankooki.com/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.hankooki\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://sports.hankooki.com/ad/\"]"
                     }
                 }
             },
