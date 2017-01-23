@@ -1278,20 +1278,6 @@
                 }
             },
             {
-                "id": "9a4e348c-697c-4c44-94e3-02eeee7c0dba",
-                "name": "##iframe[src^=\"http://daily.hankooki.com/ad/\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"http://daily.hankooki.com/ad/\"]"
-                    }
-                }
-            },
-            {
                 "id": "beb0ad83-daa8-439a-bcaa-4a550c3f6ba6",
                 "name": "##iframe[src^=\"http://dgate.joins.com/hc.aspx\"]",
                 "content": {
@@ -6227,12 +6213,15 @@
                 }
             },
             {
-                "id": "af4005d7-b79d-4133-8115-fe1c7160bef1",
-                "name": "daily.hankooki.com/ad/",
+                "id": "6930e398-95f0-4b3e-9d02-6bb3d519a915",
+                "name": "daily.hankooki.com/ad/$domain=daily.hankooki.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?daily\\.hankooki\\.com/ad/",
-                        "load-type": []
+                        "load-type": [],
+                        "if-domain": [
+                            "daily.hankooki.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -15330,8 +15319,8 @@
                 }
             },
             {
-                "id": "67785bd8-314c-4c83-b87b-a28e501865b2",
-                "name": "daily.hankooki.com##div#Page_NewsSponsor",
+                "id": "85ff86a0-e4d7-40fa-a303-c1c35997ff7f",
+                "name": "daily.hankooki.com##div#adIssueTrend",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?daily\\.hankooki\\.com",
@@ -15339,13 +15328,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#Page_NewsSponsor"
+                        "selector": "div#adIssueTrend"
                     }
                 }
             },
             {
-                "id": "a9363975-00c0-460c-bf2f-17cfe1d52a81",
-                "name": "daily.hankooki.com##div#montvLayer",
+                "id": "c3e3d190-4738-4383-9ba7-08a964a8ca76",
+                "name": "daily.hankooki.com##div#luminous",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?daily\\.hankooki\\.com",
@@ -15353,13 +15342,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#montvLayer"
+                        "selector": "div#luminous"
                     }
                 }
             },
             {
-                "id": "696480d8-806b-43a4-9d60-2577070bf9c0",
-                "name": "daily.hankooki.com##div.bantop",
+                "id": "f11c07a8-a405-40af-aa14-3b92f48eba85",
+                "name": "daily.hankooki.com##div#slot02",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?daily\\.hankooki\\.com",
@@ -15367,7 +15356,49 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.bantop"
+                        "selector": "div#slot02"
+                    }
+                }
+            },
+            {
+                "id": "50a25ba4-d23f-436d-9a80-ffb79cb29232",
+                "name": "daily.hankooki.com##div#slot06",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?daily\\.hankooki\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#slot06"
+                    }
+                }
+            },
+            {
+                "id": "11a9a61a-cafb-4b91-80db-1d96d5dfeb30",
+                "name": "daily.hankooki.com##div.banner300",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?daily\\.hankooki\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner300"
+                    }
+                }
+            },
+            {
+                "id": "fe72ee97-ccd5-420c-94ba-9277b2c365b1",
+                "name": "daily.hankooki.com##div.banner728",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?daily\\.hankooki\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner728"
                     }
                 }
             },
@@ -15396,6 +15427,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[id^=\"adText\"]"
+                    }
+                }
+            },
+            {
+                "id": "ce52406e-53a8-4352-b1ce-db1902a1b82c",
+                "name": "daily.hankooki.com##iframe[src^=\"http://daily.hankooki.com/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?daily\\.hankooki\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://daily.hankooki.com/ad/\"]"
+                    }
+                }
+            },
+            {
+                "id": "1091173b-9bac-44ab-ac25-93ba48a2f9b0",
+                "name": "daily.hankooki.com##span#AD_GISA_PHOTO_LINE",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?daily\\.hankooki\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span#AD_GISA_PHOTO_LINE"
                     }
                 }
             },

@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: mST766+e0l+AsxRpDffvOw
+! Checksum: I7G7EZd+Ar6KZg64a4EzWQ
 ! Version: 20170123
 
 ! General element hiding rules
@@ -98,7 +98,6 @@
 ##iframe[src^="http://cm.interworksmedia.co.kr/adTagRequest.htm"]
 ##iframe[src^="http://cpv.ad.naver.com/adshow"]
 ##iframe[src^="http://d.a1comm.co.kr/"]
-##iframe[src^="http://daily.hankooki.com/ad/"]
 ##iframe[src^="http://dgate.joins.com/hc.aspx"]
 ##iframe[src^="http://display.ad.daum.net/imp"]
 ##iframe[src^="http://disqusads.com/ads-iframe/adsnative/"]
@@ -465,7 +464,7 @@
 ||d1swklt9res5jr.cloudfront.net/static/packed/mezzoADv*.js^
 ||d1swklt9res5jr.cloudfront.net/static/packed/tvple.ad.js^
 ||d3pkae9owd2lcf.cloudfront.net/pb92c.gz.js^
-||daily.hankooki.com/ad/
+||daily.hankooki.com/ad/$domain=daily.hankooki.com
 ||dailygame.co.kr/ad/dispad_bot.html^
 ||dailygame.co.kr/ad/dispad_right.html^
 ||dailygame.co.kr/ad/dispad_top.html^
@@ -1097,11 +1096,16 @@ dailian.co.kr##div#right_scrollbanner
 dailian.co.kr##div[class^="banner"]
 dailian.co.kr##iframe[name="adv"]
 daily.hankooki.com##div#MobileLink
-daily.hankooki.com##div#Page_NewsSponsor
-daily.hankooki.com##div#montvLayer
-daily.hankooki.com##div.bantop
+daily.hankooki.com##div#adIssueTrend
+daily.hankooki.com##div#luminous
+daily.hankooki.com##div#slot02
+daily.hankooki.com##div#slot06
+daily.hankooki.com##div.banner300
+daily.hankooki.com##div.banner728
 daily.hankooki.com##div[id^="Ad_"]
 daily.hankooki.com##div[id^="adText"]
+daily.hankooki.com##iframe[src^="http://daily.hankooki.com/ad/"]
+daily.hankooki.com##span#AD_GISA_PHOTO_LINE
 dailymotion.com##div#bottom_banner
 dailymotion.com##div.ad
 dailymotion.com##div.mc
