@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: DmNX8q3iI8I3W5OBRxn1Iw
-! Version: 20170119
+! Checksum: BZw5JDNZaCK0OluSahmWEw
+! Version: 20170123
 
 ! General element hiding rules
 ##div#_popIn_recommend div._popIn_recommend_article_ad
@@ -41,6 +41,7 @@
 ##iframe[src^="http://a1.dp25.kr/"]
 ##iframe[src^="http://ad.about.co.kr/"]
 ##iframe[src^="http://ad.ad4989.co.kr/"]
+##iframe[src^="http://ad.adenc.co.kr/media/"]
 ##iframe[src^="http://ad.adinc.kr/"]
 ##iframe[src^="http://ad.adixs.co.kr/"]
 ##iframe[src^="http://ad.adkova.com/media/"]
@@ -207,6 +208,7 @@
 ||ad.about.co.kr^
 ||ad.ad-ya.net^
 ||ad.ad4989.co.kr^
+||ad.adenc.co.kr/media/
 ||ad.adinc.kr^
 ||ad.adixs.co.kr^
 ||ad.adkova.com/media/
@@ -547,9 +549,9 @@
 ||hani.co.kr/section-adv/
 ||hankooki.com/common/mobilelink/mobile_hk.htm^
 ||hankooki.com/common/mobilelink/mobile_sk.htm^
-||hankookilbo.com/mainad300x250.html^
-||hankookilbo.com/newsad250x250.html^
-||hankookilbo.com/sidead300x250.html^
+||hankookilbo.com/mainad300x250.html^$domain=hankookilbo.com
+||hankookilbo.com/newsad250x250.html^$domain=hankookilbo.com
+||hankookilbo.com/sidead300x250.html^$domain=hankookilbo.com
 ||hankyung.bohumplaza.com/_chann/
 ||hankyung.com/m/inc/fixed_mobile_ad_area_view.html^
 ||hei.hankyung.com/js/ad/iconad_hankyung_heien.js^$domain=hei.hankyung.com

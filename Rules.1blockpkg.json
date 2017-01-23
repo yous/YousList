@@ -480,6 +480,20 @@
                 }
             },
             {
+                "id": "fe751e95-df05-409c-ab33-7eb0588f9962",
+                "name": "##iframe[src^=\"http://ad.adenc.co.kr/media/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ad.adenc.co.kr/media/\"]"
+                    }
+                }
+            },
+            {
                 "id": "099c73bf-0133-4c2b-b67e-f04e9a41cdd4",
                 "name": "##iframe[src^=\"http://ad.adinc.kr/\"]",
                 "content": {
@@ -2734,6 +2748,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.ad4989\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e37b5163-41f6-4624-b6f0-851d3acacd30",
+                "name": "ad.adenc.co.kr/media/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.adenc\\.co\\.kr/media/",
                         "load-type": []
                     },
                     "action": {
@@ -7334,12 +7361,15 @@
                 }
             },
             {
-                "id": "4cc9782f-b6e0-4bd8-b417-cfbdfd959a77",
-                "name": "hankookilbo.com/mainad300x250.html",
+                "id": "8e2ae77c-46df-47aa-a9df-a8719e76d1df",
+                "name": "hankookilbo.com/mainad300x250.html$domain=hankookilbo.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankookilbo\\.com/mainad300x250\\.html",
-                        "load-type": []
+                        "load-type": [],
+                        "if-domain": [
+                            "hankookilbo.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -7347,12 +7377,15 @@
                 }
             },
             {
-                "id": "1bbe93c0-6cf5-4b96-8891-aeb1531ef582",
-                "name": "hankookilbo.com/newsad250x250.html",
+                "id": "81990cba-142b-4e51-a0f0-e71dadc9497b",
+                "name": "hankookilbo.com/newsad250x250.html$domain=hankookilbo.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankookilbo\\.com/newsad250x250\\.html",
-                        "load-type": []
+                        "load-type": [],
+                        "if-domain": [
+                            "hankookilbo.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -7360,12 +7393,15 @@
                 }
             },
             {
-                "id": "c9848fca-70b3-4886-963d-cda5bfbb22ce",
-                "name": "hankookilbo.com/sidead300x250.html",
+                "id": "62f5bec4-9e35-418c-bc94-8651fcffff2c",
+                "name": "hankookilbo.com/sidead300x250.html$domain=hankookilbo.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankookilbo\\.com/sidead300x250\\.html",
-                        "load-type": []
+                        "load-type": [],
+                        "if-domain": [
+                            "hankookilbo.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
