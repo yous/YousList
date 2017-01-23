@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: Q5GVXDQzZ5H1Qo7UjzadJQ
+! Checksum: mL8wlvdCtVJ993OY/PNQtw
 ! Version: 20170123
 
 ! General element hiding rules
@@ -868,7 +868,7 @@
 ||sports.chosun.com/js2/popup_ad.js^
 ||sports.chosun.com/lphoto3.htm^
 ||sports.chosun.com/news/sports_chosun_hns.js^
-||sports.hankooki.com/ad/
+||sports.hankooki.com/ad/$domain=eyenews.hankooki.com|sports.hankooki.com
 ||sportsseoul.com/js/jquery.topline.banner.js^$domain=sportsseoul.com
 ||srv.bebi.com/public/js/bebi_v1.js^
 ||ssp.advg.jp/ssp/p/iframe^
@@ -1236,6 +1236,13 @@ etorrent.kr##body>table:nth-of-type(3)[width="1000"]>tbody>tr:nth-of-type(1)>td:
 etorrent.kr##body>table:nth-of-type(3)[width="1000"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3):not([width])[valign="top"]>table:nth-of-type(5)
 expres.ua##div#rbTopLeaderboard
 expres.ua##div.AdxRB
+eyenews.hankooki.com##div#adIssueTrend
+eyenews.hankooki.com##div#lifeSpnosor
+eyenews.hankooki.com##div#shoppingBox
+eyenews.hankooki.com##div#slot06
+eyenews.hankooki.com##div.banner300
+eyenews.hankooki.com##div.banner580
+eyenews.hankooki.com##iframe[src^="http://sports.hankooki.com/ad/"]
 ezday.co.kr##div#bodyContainer>div[style="width:278px; padding-left:1px; float:left;"]>div[style="width:100%;padding-left:15px;height:250px;"]
 ezday.co.kr##div#idPigEvent
 ezday.co.kr##div.topr_banner

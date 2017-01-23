@@ -11667,12 +11667,16 @@
                 }
             },
             {
-                "id": "27f39a2a-684d-4758-a7d6-725f1165678b",
-                "name": "sports.hankooki.com/ad/",
+                "id": "e10e4e2f-d02b-43eb-8dce-03150db90d98",
+                "name": "sports.hankooki.com/ad/$domain=eyenews.hankooki.com|sports.hankooki.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.hankooki\\.com/ad/",
-                        "load-type": []
+                        "load-type": [],
+                        "if-domain": [
+                            "eyenews.hankooki.com",
+                            "sports.hankooki.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -17274,6 +17278,104 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.AdxRB"
+                    }
+                }
+            },
+            {
+                "id": "108b813f-65d6-426f-ae8f-b49ea9a09919",
+                "name": "eyenews.hankooki.com##div#adIssueTrend",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?eyenews\\.hankooki\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adIssueTrend"
+                    }
+                }
+            },
+            {
+                "id": "dd6d0263-cf1b-4cca-99c1-575853c92052",
+                "name": "eyenews.hankooki.com##div#lifeSpnosor",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?eyenews\\.hankooki\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#lifeSpnosor"
+                    }
+                }
+            },
+            {
+                "id": "2ea1c01d-72be-4b6c-aadf-069bd0bc7ddf",
+                "name": "eyenews.hankooki.com##div#shoppingBox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?eyenews\\.hankooki\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#shoppingBox"
+                    }
+                }
+            },
+            {
+                "id": "b8a49ab4-7f76-4ac6-a0cf-55c1291b6edb",
+                "name": "eyenews.hankooki.com##div#slot06",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?eyenews\\.hankooki\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#slot06"
+                    }
+                }
+            },
+            {
+                "id": "0793fdff-5fc7-4c07-9e3a-c41856ba1fad",
+                "name": "eyenews.hankooki.com##div.banner300",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?eyenews\\.hankooki\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner300"
+                    }
+                }
+            },
+            {
+                "id": "62304da8-ebeb-4109-afb5-7966fecdbf98",
+                "name": "eyenews.hankooki.com##div.banner580",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?eyenews\\.hankooki\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner580"
+                    }
+                }
+            },
+            {
+                "id": "208423d5-c503-4298-b3b7-2249c159e3fd",
+                "name": "eyenews.hankooki.com##iframe[src^=\"http://sports.hankooki.com/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?eyenews\\.hankooki\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://sports.hankooki.com/ad/\"]"
                     }
                 }
             },
