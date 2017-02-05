@@ -22000,6 +22000,48 @@
                 }
             },
             {
+                "id": "58210ade-29de-4f9a-bbcf-605da87d3068",
+                "name": "m.dtnews24.com##body>div[style=\"width:100%; text-align:center; position:fixed; bottom:0px; z-index:15000;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtnews24\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"width:100%; text-align:center; position:fixed; bottom:0px; z-index:15000;\"]"
+                    }
+                }
+            },
+            {
+                "id": "d9013089-af6a-424c-825f-3fa9fc9747ea",
+                "name": "m.dtnews24.com##div.m_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtnews24\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m_bottom"
+                    }
+                }
+            },
+            {
+                "id": "b9699fa4-9b7b-44b5-bd96-b359d959c3d2",
+                "name": "m.dtnews24.com##div.m_line_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtnews24\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m_line_top"
+                    }
+                }
+            },
+            {
                 "id": "85fd5f56-b525-4aa5-b1e0-550f0f010bdd",
                 "name": "m.edaily.co.kr##div#ad_adin_etc",
                 "content": {
