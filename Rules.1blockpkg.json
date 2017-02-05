@@ -17717,7 +17717,7 @@
             },
             {
                 "id": "429cba83-b683-4908-ab32-eba199aaeb9f",
-                "name": "facebook.com##i[class~=\"adsCategoryIcon\"]",
+                "name": "facebook.com##i.adsCategoryIcon",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?facebook\\.com",
@@ -17725,7 +17725,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "i[class~=\"adsCategoryIcon\"]"
+                        "selector": "i.adsCategoryIcon"
                     }
                 }
             },
