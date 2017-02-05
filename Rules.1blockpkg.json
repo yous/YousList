@@ -1418,6 +1418,20 @@
                 }
             },
             {
+                "id": "3a2fc006-56ee-44a3-9be9-ed223a51d06b",
+                "name": "##iframe[src^=\"http://i.yimg.jp/images/listing/tool/yads/yads-iframe.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://i.yimg.jp/images/listing/tool/yads/yads-iframe.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "b571911c-0ea0-4d6a-8060-443bd22d13eb",
                 "name": "##iframe[src^=\"http://im.obel.kr/file/\"]",
                 "content": {
@@ -7549,6 +7563,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?i\\.yimg\\.jp/images/listing/tool/yads/uadf/yads_vimps-.*\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1efcc4a0-5e1c-4b3d-bad8-b402930d0ace",
+                "name": "i.yimg.jp/images/listing/tool/yads/yads-iframe.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?i\\.yimg\\.jp/images/listing/tool/yads/yads-iframe\\.html",
                         "load-type": []
                     },
                     "action": {
