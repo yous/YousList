@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: gKB+0PHYFBzTJmSHqGrZPg
+! Checksum: kxbXh4EpzQXjYbjBqmXJSQ
 ! Version: 20170210
 
 ! General element hiding rules
@@ -30,6 +30,7 @@
 ##iframe[id^="nad_"]
 ##iframe[name="ifrad"]
 ##iframe[src*="/RealMedia/ads/"]
+##iframe[src^="//acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html"]
 ##iframe[src^="//ad.vkoad.com/showads.php"]
 ##iframe[src^="//adclickservice.com"]
 ##iframe[src^="//ads.acrosspf.com/adinfo.ad"]
@@ -199,6 +200,7 @@
 ||aax-us-east.amazon-adsystem.com/e/xsp/getAd^
 ||aax-us-east.amazon-adsystem.com/x/getad^
 ||acdn.adnxs.com/ast/ast.js^
+||acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html^
 ||ad*.*/event.ems/$domain=~interpark.com
 ||ad*.inews24.com^
 ||ad*.netshelter.net/adj/
@@ -499,6 +501,7 @@
 ||dt.co.kr/js/top_ad.js^
 ||e-cdn-files.deezer.com/ads/$domain=deezer.com
 ||ea.slrclub.com/NetInsight/
+||ebdr3.com/serve^
 ||economy.hankooki.com/ad/
 ||edaily.co.kr/adview/
 ||eimg.donga.com/home2011/js/scrollBanner.js^
@@ -544,6 +547,7 @@
 ||get.keywordsconnect.com^
 ||get2.keywordsconnect.com^
 ||gigglehd.com/banner/*.jpg^
+||go.ezoic.net/ezoic/epbfull5.js^
 ||go.onclasrv.com/apu.php^
 ||go.pub2srv.com/apu.php^
 ||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
@@ -570,6 +574,8 @@
 ||humor.hani.co.kr/common/banner.html^
 ||i.yimg.jp/images/listing/tool/yads/uadf/yads_vimps-*.js^
 ||i.yimg.jp/images/listing/tool/yads/yads-iframe.html^
+||ib.adnxs.com/async_usersync^
+||ib.adnxs.com/jpt^
 ||ichannela.com/ch/*adpost*
 ||iicdn.com/www/delivery/afr.php^
 ||ikoreadaily.co.kr/bannerManager/inc/$domain=ikoreadaily.co.kr
@@ -882,6 +888,7 @@
 ||ssp.advg.jp/ssp/p/iframe^
 ||ssp.advg.jp/ssp/p/js1^
 ||st.keywordsconnect.com^
+||static.criteo.net/js/ld/publishertag.js^
 ||static.joins.com/isplus/ui/ad/
 ||static.joinsmsn.com/common/ui/ad/
 ||static.kin.naver.net/static/*/js/min/naver.kin.Banner.js^
@@ -2183,6 +2190,9 @@ pressian.com##div#ad1
 pressian.com##div.c011_arv_event>div[style="padding-bottom:20px;"]
 pressian.com##div.c011_arv_event>div[style="width:336px; height:280px; float:right; margin-bottom:15px;"]
 pressian.com##iframe[src^="http://ad"]
+readmanga.today##div.ezo_ad
+readmanga.today##div.ezoic-ad
+readmanga.today##span.ezoic-ad
 readwrite.com##phx-advertisement
 rec.netinsight.co.kr##div.side_ifm_area>div.side_nw>div[style="border:1px solid #000; width:200px; height:200px;margin:15px 0 5px 4px;text-align:center;"]
 redstate.com##article.large-card>div.ad

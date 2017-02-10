@@ -326,6 +326,20 @@
                 }
             },
             {
+                "id": "b7b84c3a-14f9-4f44-aa06-ab69b43b47ce",
+                "name": "##iframe[src^=\"//acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "00937db8-7f96-4ff8-9f8b-df3f8db02873",
                 "name": "##iframe[src^=\"//ad.vkoad.com/showads.php\"]",
                 "content": {
@@ -2629,6 +2643,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?acdn\\.adnxs\\.com/ast/ast\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2ad21c6e-bd10-45d0-825a-28d6bea45e6b",
+                "name": "acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?acdn\\.adnxs\\.com/ib/static/usersync/v3/async_usersync\\.html",
                         "load-type": []
                     },
                     "action": {
@@ -6700,6 +6727,19 @@
                 }
             },
             {
+                "id": "d96789a0-03ab-4ea9-a81c-888da4fdbd9a",
+                "name": "ebdr3.com/serve",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ebdr3\\.com/serve",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "13ec5f46-acdb-4a9d-bf99-461d5db64743",
                 "name": "economy.hankooki.com/ad/",
                 "content": {
@@ -7309,6 +7349,19 @@
                 }
             },
             {
+                "id": "cfa3198f-e1b1-4c0b-a719-c58ed6f39e5f",
+                "name": "go.ezoic.net/ezoic/epbfull5.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?go\\.ezoic\\.net/ezoic/epbfull5\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6514e7ef-d38b-421c-8cb8-804b5a3ca5b3",
                 "name": "go.onclasrv.com/apu.php",
                 "content": {
@@ -7672,6 +7725,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?i\\.yimg\\.jp/images/listing/tool/yads/yads-iframe\\.html",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a712c632-4cf8-4a44-aeb5-9b777cd4a774",
+                "name": "ib.adnxs.com/async_usersync",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ib\\.adnxs\\.com/async_usersync",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2cb14532-165e-41cd-acba-999cc77568d2",
+                "name": "ib.adnxs.com/jpt",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ib\\.adnxs\\.com/jpt",
                         "load-type": []
                     },
                     "action": {
@@ -11867,6 +11946,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?st\\.keywordsconnect\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3b7b284b-9464-41e1-90ee-583ba31a3a11",
+                "name": "static.criteo.net/js/ld/publishertag.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?static\\.criteo\\.net/js/ld/publishertag\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -30785,6 +30877,48 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://ad\"]"
+                    }
+                }
+            },
+            {
+                "id": "aed1a8f0-ae0a-45df-9673-e927efd92f66",
+                "name": "readmanga.today##div.ezo_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?readmanga\\.today",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ezo_ad"
+                    }
+                }
+            },
+            {
+                "id": "11ecfe8f-1a1c-4b50-8a86-27293388ac0f",
+                "name": "readmanga.today##div.ezoic-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?readmanga\\.today",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ezoic-ad"
+                    }
+                }
+            },
+            {
+                "id": "a14eed8d-645a-401f-917e-09e0c81f1452",
+                "name": "readmanga.today##span.ezoic-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?readmanga\\.today",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span.ezoic-ad"
                     }
                 }
             },
