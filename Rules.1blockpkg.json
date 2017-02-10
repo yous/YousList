@@ -34947,6 +34947,20 @@
                 }
             },
             {
+                "id": "533f1372-7a08-488e-a7d1-3762bebd08f9",
+                "name": "torrentkim5.net##div#side1>a[href^=\"/to_cheonseo.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentkim5\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#side1>a[href^=\"/to_cheonseo.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "85e87fad-0f44-40c2-a0a7-304b12dc5371",
                 "name": "torrentkim5.net##div#side1>a[href^=\"/to_toy.html\"]",
                 "content": {
@@ -34957,6 +34971,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#side1>a[href^=\"/to_toy.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "3f803085-e764-4fb5-ad7e-d7a41abda646",
+                "name": "torrentkim5.net##div#side2>div>a[href^=\"/to_toto2.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentkim5\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#side2>div>a[href^=\"/to_toto2.html\"]"
                     }
                 }
             },
