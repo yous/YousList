@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 7Ja8ipMQxOLd5MRHmYZxuw
+! Checksum: 2Bmwrq1sLOnBBJ4pk25Ftg
 ! Version: 20170210
 
 ! General element hiding rules
@@ -511,6 +511,12 @@
 ||etnews.com/tools/ict_terms.js^
 ||eto.co.kr/Data/Xml/localuser/adv/
 ||eto.co.kr/adv/
+||etorrent.co.kr/etorrent/300_250.php^$domain=etorrent.co.kr
+||etorrent.co.kr/etorrent/728_90.php^$domain=etorrent.co.kr
+||etorrent.co.kr/etorrent/728_90_2.php^$domain=etorrent.co.kr
+||etorrent.kr/etorrent/300_250.php^$domain=etorrent.kr
+||etorrent.kr/etorrent/728_90.php^$domain=etorrent.kr
+||etorrent.kr/etorrent/728_90_2.php^$domain=etorrent.kr
 ||event.liveg.co.kr/banner/*.gif^
 ||event.mtoon.com/banner/*.gif^
 ||ex.mdtoday.co.kr^
@@ -1250,8 +1256,10 @@ etoday.co.kr##div.cont_left_article_w>div[style="position:relative;margin: 40px 
 etoday.co.kr##div.cont_right_wrap>div.e_real_time_w.e_right_wrap
 etoday.co.kr##div.e_header>div[style="position:absolute;top:20px;left:0;"]
 etoday.co.kr##div.sectionAD
-etorrent.kr##body>table:nth-of-type(3)[width="1000"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3):not([width])[valign="top"]>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign="top"][width="300"]
-etorrent.kr##body>table:nth-of-type(3)[width="1000"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3):not([width])[valign="top"]>table:nth-of-type(5)
+etorrent.co.kr,etorrent.kr##body>table:nth-of-type(3)[width="1000"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3):not([width])[valign="top"]>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign="top"][width="300"]
+etorrent.co.kr,etorrent.kr##body>table:nth-of-type(3)[width="1000"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3):not([width])[valign="top"]>table:nth-of-type(5)
+etorrent.co.kr,etorrent.kr##iframe[src^="./etorrent/728_90_2.php"]
+etorrent.co.kr,etorrent.kr##iframe[src^="etorrent/300_250.php"]
 expres.ua##div#rbTopLeaderboard
 expres.ua##div.AdxRB
 eyenews.hankooki.com##div#ad2LineText02

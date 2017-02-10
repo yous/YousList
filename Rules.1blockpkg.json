@@ -6856,6 +6856,102 @@
                 }
             },
             {
+                "id": "9a1be148-e092-4de0-8e6e-4d1ff4a11770",
+                "name": "etorrent.co.kr/etorrent/300_250.php$domain=etorrent.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etorrent\\.co\\.kr/etorrent/300_250\\.php",
+                        "load-type": [],
+                        "if-domain": [
+                            "etorrent.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d721f108-1162-4dac-8001-ab7029b6d17c",
+                "name": "etorrent.co.kr/etorrent/728_90.php$domain=etorrent.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etorrent\\.co\\.kr/etorrent/728_90\\.php",
+                        "load-type": [],
+                        "if-domain": [
+                            "etorrent.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e8051d2c-1e34-4684-9cd8-63fdb1e7efe1",
+                "name": "etorrent.co.kr/etorrent/728_90_2.php$domain=etorrent.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etorrent\\.co\\.kr/etorrent/728_90_2\\.php",
+                        "load-type": [],
+                        "if-domain": [
+                            "etorrent.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "628601fa-437b-4246-863e-f13f5f08575b",
+                "name": "etorrent.kr/etorrent/300_250.php$domain=etorrent.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etorrent\\.kr/etorrent/300_250\\.php",
+                        "load-type": [],
+                        "if-domain": [
+                            "etorrent.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e09579f4-25ab-4f3b-91f9-8a51bbce6b4a",
+                "name": "etorrent.kr/etorrent/728_90.php$domain=etorrent.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etorrent\\.kr/etorrent/728_90\\.php",
+                        "load-type": [],
+                        "if-domain": [
+                            "etorrent.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "60984966-886c-40c0-936b-70a4ef85cf38",
+                "name": "etorrent.kr/etorrent/728_90_2.php$domain=etorrent.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etorrent\\.kr/etorrent/728_90_2\\.php",
+                        "load-type": [],
+                        "if-domain": [
+                            "etorrent.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "17a65cc0-eeaf-48f7-98ad-d9dbb9437025",
                 "name": "event.liveg.co.kr/banner/*.gif",
                 "content": {
@@ -17477,6 +17573,20 @@
                 }
             },
             {
+                "id": "87b852d8-2edc-41db-8c04-0b83c23b65bb",
+                "name": "etorrent.co.kr##body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3):not([width])[valign=\"top\"]>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"][width=\"300\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etorrent\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3):not([width])[valign=\"top\"]>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"][width=\"300\"]"
+                    }
+                }
+            },
+            {
                 "id": "f3441978-214b-46cd-847c-cf12dc8b19b6",
                 "name": "etorrent.kr##body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3):not([width])[valign=\"top\"]>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"][width=\"300\"]",
                 "content": {
@@ -17491,6 +17601,20 @@
                 }
             },
             {
+                "id": "63d3de81-84d8-4461-b30b-554e42a48b1b",
+                "name": "etorrent.co.kr##body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3):not([width])[valign=\"top\"]>table:nth-of-type(5)",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etorrent\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3):not([width])[valign=\"top\"]>table:nth-of-type(5)"
+                    }
+                }
+            },
+            {
                 "id": "70ad9bce-97be-4c6f-8bbf-96b4e0c1e055",
                 "name": "etorrent.kr##body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3):not([width])[valign=\"top\"]>table:nth-of-type(5)",
                 "content": {
@@ -17501,6 +17625,62 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3):not([width])[valign=\"top\"]>table:nth-of-type(5)"
+                    }
+                }
+            },
+            {
+                "id": "81890a56-607f-4e7d-b541-d69ef8a83aa8",
+                "name": "etorrent.co.kr##iframe[src^=\"./etorrent/728_90_2.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etorrent\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"./etorrent/728_90_2.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "3ab00ce2-f019-4c83-b31a-ce27d18a90e4",
+                "name": "etorrent.kr##iframe[src^=\"./etorrent/728_90_2.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etorrent\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"./etorrent/728_90_2.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "1c3b833b-82e0-41f4-b491-e61d60b9bc66",
+                "name": "etorrent.co.kr##iframe[src^=\"etorrent/300_250.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etorrent\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"etorrent/300_250.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "40a80604-c154-4b63-ae39-12dbfc18379d",
+                "name": "etorrent.kr##iframe[src^=\"etorrent/300_250.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etorrent\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"etorrent/300_250.php\"]"
                     }
                 }
             },
