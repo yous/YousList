@@ -35585,6 +35585,20 @@
                 }
             },
             {
+                "id": "f879f8cb-c38f-451d-97fd-8a10d11ea9fa",
+                "name": "torrentkim5.net##table#file_table>tbody>tr:nth-of-type(1)",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentkim5\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "table#file_table>tbody>tr:nth-of-type(1)"
+                    }
+                }
+            },
+            {
                 "id": "1871cccf-d0b9-4a7f-b33e-65bd880b2d60",
                 "name": "torrentmade.com##div.hiddenpage",
                 "content": {
