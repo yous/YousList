@@ -18855,6 +18855,20 @@
                 }
             },
             {
+                "id": "70fbe863-2534-4ca4-8aa3-9fd90e7e3f47",
+                "name": "gigglehd.com##div#container>div.section>div.xe-widget-wrapper>div>div.nw_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gigglehd\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#container>div.section>div.xe-widget-wrapper>div>div.nw_box"
+                    }
+                }
+            },
+            {
                 "id": "182ade75-5c95-4b6f-99cf-7ffc7330c673",
                 "name": "gigglehd.com##div#gap>div:nth-of-type(4)[style=\"BACKGROUND-IMAGE: none; BORDER-BOTTOM: rgb(0,0,0) 0px solid; BORDER-LEFT: rgb(0,0,0) 0px solid; MARGIN: 0px; WIDTH: 820px; BACKGROUND-REPEAT: repeat; BACKGROUND-POSITION: 0% 0%; FLOAT: left; HEIGHT: 60px; BORDER-TOP: rgb(0,0,0) 0px solid; BORDER-RIGHT: rgb(0,0,0) 0px solid;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;\"]",
                 "content": {
@@ -18879,20 +18893,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#gap>div:nth-of-type(9)[style=\"float: left; width: 100%; border-width: 0px; border-style: solid; border-color: rgb(0, 0, 0); margin: 0px; background-color: transparent; background-image: none; background-repeat: repeat; background-position: 0% 0%;;;;;;;;;;;;;\"]"
-                    }
-                }
-            },
-            {
-                "id": "60aad81e-ba3d-4c63-af26-fa4e73b5654e",
-                "name": "gigglehd.com##div.nw_box",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gigglehd\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.nw_box"
                     }
                 }
             },
