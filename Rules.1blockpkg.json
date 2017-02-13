@@ -22397,6 +22397,20 @@
                 }
             },
             {
+                "id": "6b0fda84-55f2-4150-9c84-1b7eb988546f",
+                "name": "m.dcinside.com##div#set_list_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#set_list_bottom"
+                    }
+                }
+            },
+            {
                 "id": "12d99227-6cc2-491d-9266-d15ac40f5619",
                 "name": "m.dcinside.com##div[data-adam-elem=\"banner_wrapper\"]",
                 "content": {
@@ -22407,6 +22421,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[data-adam-elem=\"banner_wrapper\"]"
+                    }
+                }
+            },
+            {
+                "id": "f942c03d-1be1-4fa1-86cc-e5f94e450403",
+                "name": "m.dcinside.com##li#set_list_middle_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li#set_list_middle_ad"
                     }
                 }
             },
