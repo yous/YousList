@@ -25785,6 +25785,34 @@
                 }
             },
             {
+                "id": "3e18e216-ee35-44f4-81fb-942ff5edd197",
+                "name": "m.zdnet.co.kr##body>div[style=\"padding:50px 0px 0px 0px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.zdnet\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"padding:50px 0px 0px 0px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "d2ba5868-4eb6-43cf-84a9-8a1d9a16fe0b",
+                "name": "m.zdnet.co.kr##div#lumi_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.zdnet\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#lumi_ad"
+                    }
+                }
+            },
+            {
                 "id": "2c732b9e-bdf2-463d-9042-0c562aafb274",
                 "name": "m.zdnet.co.kr##div.sub_view_cont>div[style=\"top:0px; position:relative; float:right; width:200px; height:200px; padding:0 0 10px 10px;\"]",
                 "content": {
