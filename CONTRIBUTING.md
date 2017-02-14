@@ -16,5 +16,6 @@
 - Make sure that `Rules.1blockpkg` is up to date when you add a filter for addresses.
   Use `./bin/generate_rules.py youslist.txt > Rules.1blockpkg.json` to update.
   You should install dependencies by running `pip install -r requirements.txt`.
+  If you're using Python older than or equal to 2.6, than you should run `pip install -r requirements26.txt` too.
 - After updating `Rules.1blockpkg.json`, update `Rules.1blockpkg` by running `./bin/minify_pkg.py`.
 - To update `Rules.1blockpkg.json` with the content of `Rules.1blockpkg`, run `./bin/prettify_pkg.py`.

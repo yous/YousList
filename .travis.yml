@@ -1,10 +1,14 @@
 language: python
 sudo: false
 python:
+  - 2.6
   - 2.7
   - 3.6
 install:
   - pip install -r requirements.txt
+  - if [[ "$TRAVIS_PYTHON_VERSION" == '2.6' ]]; then
+      pip install -r requirements26.txt
+    fi
 script:
   - python bin/validate_checksum.py youslist.txt
   - python bin/check_sorted.py youslist.txt

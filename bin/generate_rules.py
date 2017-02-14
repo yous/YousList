@@ -2,11 +2,16 @@
 import os
 import sys
 import fileinput
-import json
-import collections
 import re
 import uuid
 import six
+
+if sys.version_info[:2] >= (2, 7):
+    import json
+    from collections import OrderedDict
+else:
+    import simplejson as json
+    from ordereddict import OrderedDict
 
 pwd = os.path.dirname(os.path.abspath(__file__))
 root = os.path.dirname(pwd)
@@ -16,13 +21,13 @@ class FilterParser:
     DOMAIN_PREFIX = '^[a-z0-9+_.]+:/+(?:[^/]+\\.)?'
 
     def __init__(self, name='Generated Package', basepkg=None):
-        self.pkg = collections.OrderedDict()
+        self.pkg = OrderedDict()
         self.id_dict = {}
         self.rules = []
         if basepkg:
             try:
                 f = open(basepkg)
-                obj = json.load(f, object_pairs_hook=collections.OrderedDict)
+                obj = json.load(f, object_pairs_hook=OrderedDict)
                 orig_pkg = obj[0]
                 self.pkg['id'] = orig_pkg['id']
                 self.pkg['name'] = orig_pkg['name']
@@ -67,7 +72,7 @@ class FilterParser:
             self._parse_blocking_rule(line)
 
     def _parse_hiding_rule(self, line):
-        rule = collections.OrderedDict()
+        rule = OrderedDict()
         name = line
         if name in self.id_dict:
             rule['id'] = self.id_dict[name]
@@ -82,25 +87,25 @@ class FilterParser:
                 self._parse_hiding_rule(url + '##' + css)
             return
         url = urls
-        trigger = collections.OrderedDict()
+        trigger = OrderedDict()
         if url:
             trigger['url-filter'] = self.DOMAIN_PREFIX + url.replace('.', '\\.')
         else:
             trigger['url-filter'] = '.*'
         trigger['load-type'] = []
 
-        action = collections.OrderedDict()
+        action = OrderedDict()
         action['type'] = 'css-display-none'
         action['selector'] = css
 
-        content = collections.OrderedDict()
+        content = OrderedDict()
         content['trigger'] = trigger
         content['action'] = action
         rule['content'] = content
         self.rules.append(rule)
 
     def _parse_blocking_rule(self, line):
-        rule = collections.OrderedDict()
+        rule = OrderedDict()
         splits = line.split('$', 2)
         if len(splits) < 2:
             splits.append('')
@@ -140,15 +145,15 @@ class FilterParser:
                                 'load-type',
                                 'if-domain',
                                 'unless-domain']
-        trigger_ordered_dict = collections.OrderedDict()
+        trigger_ordered_dict = OrderedDict()
         for key in trigger_ordered_keys:
             if key in trigger:
                 trigger_ordered_dict[key] = trigger[key]
 
-        action = collections.OrderedDict()
+        action = OrderedDict()
         action['type'] = 'block'
 
-        content = collections.OrderedDict()
+        content = OrderedDict()
         content['trigger'] = trigger_ordered_dict
         content['action'] = action
         rule['content'] = content
