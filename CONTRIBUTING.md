@@ -13,6 +13,8 @@
 - Update the version with the format `yyyyMMdd`.
 - Alphabetically order every entry. Check it by running `./bin/check_sorted.py youslist.txt`.
 - Do not add extra empty line.
-- Make sure that `Rules.1blockpkg` is up to date when you add a filter for addresses. Use `./bin/generate_rules.py youslist.txt > Rules.1blockpkg.json` to update. You should install `six` module by `pip install six`.
+- Make sure that `Rules.1blockpkg` is up to date when you add a filter for addresses.
+  Use `./bin/generate_rules.py youslist.txt > Rules.1blockpkg.json` to update.
+  You should install dependencies by running `pip install -r requirements.txt`.
 - After updating `Rules.1blockpkg.json`, update `Rules.1blockpkg` by running `./bin/minify_pkg.py`.
 - To update `Rules.1blockpkg.json` with the content of `Rules.1blockpkg`, run `./bin/prettify_pkg.py`.

@@ -4,7 +4,7 @@ python:
   - 2.7
   - 3.6
 install:
-  - pip install six
+  - pip install -r requirements.txt
 script:
   - python bin/validate_checksum.py youslist.txt
   - python bin/check_sorted.py youslist.txt
