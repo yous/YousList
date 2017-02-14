@@ -22355,8 +22355,8 @@
                 }
             },
             {
-                "id": "5c40c4d3-2a2c-4b87-a3e1-979944dfa10d",
-                "name": "m.dcinside.com##div#div_adnmore_area",
+                "id": "9a17422b-5f2e-41f1-9e08-f3b26405142f",
+                "name": "m.dcinside.com##div#search_layer>div[style=\"margin-top:1px;margin-bottom:1px;text-align:center;height:100px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com",
@@ -22364,13 +22364,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#div_adnmore_area"
+                        "selector": "div#search_layer>div[style=\"margin-top:1px;margin-bottom:1px;text-align:center;height:100px;\"]"
                     }
                 }
             },
             {
-                "id": "cddde174-5089-470f-bad4-6892a565590a",
-                "name": "m.dcinside.com##div#lguplus_ad_banner",
+                "id": "67ec31e6-5749-467d-8b3b-fed020a72176",
+                "name": "m.dcinside.com##div#search_layer>div[style=\"margin-top:1px;margin-bottom:1px;text-align:center;height:50px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com",
@@ -22378,13 +22378,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#lguplus_ad_banner"
+                        "selector": "div#search_layer>div[style=\"margin-top:1px;margin-bottom:1px;text-align:center;height:50px;\"]"
                     }
                 }
             },
             {
-                "id": "f91dbcb3-736e-4cd2-9921-96154302f31f",
-                "name": "m.dcinside.com##div#mmaDisplay",
+                "id": "f8f01e0a-e8f2-4485-9aa0-d1452adbddfc",
+                "name": "m.dcinside.com##div#search_layer>section.gall_sec_theme>div.sec_concept_gallery>div.list_concept>div[style=\"margin-top:1px;margin-bottom:1px;text-align:center;height:100px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com",
@@ -22392,7 +22392,21 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#mmaDisplay"
+                        "selector": "div#search_layer>section.gall_sec_theme>div.sec_concept_gallery>div.list_concept>div[style=\"margin-top:1px;margin-bottom:1px;text-align:center;height:100px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "269b7979-1698-47f3-84c1-a8202b30beef",
+                "name": "m.dcinside.com##div#search_layer>section.gall_sec_theme>div.sec_concept_gallery>div[style=\"margin-top:1px;margin-bottom:1px;text-align:center;height:50px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#search_layer>section.gall_sec_theme>div.sec_concept_gallery>div[style=\"margin-top:1px;margin-bottom:1px;text-align:center;height:50px;\"]"
                     }
                 }
             },
@@ -22411,8 +22425,8 @@
                 }
             },
             {
-                "id": "12d99227-6cc2-491d-9266-d15ac40f5619",
-                "name": "m.dcinside.com##div[data-adam-elem=\"banner_wrapper\"]",
+                "id": "5c919d11-48fe-4ed8-9059-624d7fc7ff82",
+                "name": "m.dcinside.com##div#set_list_top",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com",
@@ -22420,7 +22434,63 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div[data-adam-elem=\"banner_wrapper\"]"
+                        "selector": "div#set_list_top"
+                    }
+                }
+            },
+            {
+                "id": "c8ee1580-9b7b-47a6-bc25-a764993e1127",
+                "name": "m.dcinside.com##div#set_prevNextList_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#set_prevNextList_bottom"
+                    }
+                }
+            },
+            {
+                "id": "98de0270-b7a7-426a-9b9f-2276f415a274",
+                "name": "m.dcinside.com##div#set_view_middle",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#set_view_middle"
+                    }
+                }
+            },
+            {
+                "id": "e6c48de0-5031-483a-ab82-efd479de470d",
+                "name": "m.dcinside.com##div#set_view_recomm",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#set_view_recomm"
+                    }
+                }
+            },
+            {
+                "id": "68b05bb4-c9e8-41e9-9d08-fd16d5e4938b",
+                "name": "m.dcinside.com##div#set_view_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#set_view_top"
                     }
                 }
             },
