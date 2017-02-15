@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: yJdZtNvA3JWuqsPL5C9cAw
-! Version: 20170214
+! Checksum: 5M3aM/gj1iSui6nJJSDb9A
+! Version: 20170215
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -692,6 +692,7 @@
 ||mediaview.co.kr/ad_Viewer.js^
 ||mediaview.co.kr/ad_Viewer2.php^
 ||menu.mt.co.kr/banner/adPlayer.swf^
+||menu.mt.co.kr/js/AdsDispatcher.js^
 ||microbizit.com/admaru/codes/js/
 ||microopenpop.com/banner/
 ||minishop.linkprice.com/minishop*.php^
@@ -2038,15 +2039,16 @@ news.mk.co.kr##div#viewShopDiv
 news.mk.co.kr##div.ad_viewrolling
 news.mk.co.kr##div.container_left>table>tbody>tr>td>table[style="margin-bottom:30px"]
 news.mt.co.kr##div#TI_BANNER
-news.mt.co.kr##div#banner_big
 news.mt.co.kr##div#bn_rightside2
-news.mt.co.kr##div#mjDiv
+news.mt.co.kr##div#container>div[style="position:absolute; right:-150px; top:968px; z-index:0;"]
+news.mt.co.kr##div#leftViewSlideBannerArea
 news.mt.co.kr##div#mt_header>div>div[style="position:absolute; right:-150px; top:202px; z-index:1;"]
-news.mt.co.kr##div.art_todayfocus
+news.mt.co.kr##div#viewBtmTodayFocusAdsArea
+news.mt.co.kr##div#viewPopularAreaAds
+news.mt.co.kr##div.ad
+news.mt.co.kr##div.art_topad_area
 news.mt.co.kr##div.aside_bundle>div.mgt16
-news.mt.co.kr##div.mt_books
-news.mt.co.kr##div.mtflash
-news.mt.co.kr##div[id^="art_ad_top"]
+news.mt.co.kr##div[id^="viewBtmThumbAds"]
 news.nate.com##div#newsmediaBanner
 news.nate.com##div#spaceBanner
 news.nate.com##div[class$="socialAD"]
