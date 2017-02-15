@@ -14990,8 +14990,8 @@
                 }
             },
             {
-                "id": "8e417443-6d75-41ef-884c-4ae0be618e47",
-                "name": "bloter.net##div.banner-top",
+                "id": "22dbb984-0939-42f5-8f4b-c9b11697c7df",
+                "name": "bloter.net##a.inline-google-ads",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloter\\.net",
@@ -14999,13 +14999,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.banner-top"
+                        "selector": "a.inline-google-ads"
                     }
                 }
             },
             {
-                "id": "2ab20b04-386f-4c41-9d5b-ec2ff007d86b",
-                "name": "bloter.net##div.bloter-news-ad",
+                "id": "eb4333d1-aa75-4c2d-b413-ff4236f7c6a9",
+                "name": "bloter.net##div.article--content-ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloter\\.net",
@@ -15013,13 +15013,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.bloter-news-ad"
+                        "selector": "div.article--content-ad"
                     }
                 }
             },
             {
-                "id": "f381d5ab-2724-47bd-a993-35a9ad4d411d",
-                "name": "bloter.net##div.bottomad",
+                "id": "6f4bd26a-cbde-413f-bbc3-794f8ad0819a",
+                "name": "bloter.net##div.network-ad__wrapper",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloter\\.net",
@@ -15027,13 +15027,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.bottomad"
+                        "selector": "div.network-ad__wrapper"
                     }
                 }
             },
             {
-                "id": "e00cc0d5-cc9d-4959-a7ac-eef81c9aefa0",
-                "name": "bloter.net##div.header-ad-container",
+                "id": "551dc3c2-4218-4ad2-ba73-24ec0e31d3a5",
+                "name": "bloter.net##div.plus-ad__container",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloter\\.net",
@@ -15041,13 +15041,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.header-ad-container"
+                        "selector": "div.plus-ad__container"
                     }
                 }
             },
             {
-                "id": "fc443b1a-abb1-4c12-85be-f3991af4e453",
-                "name": "bloter.net##section.fixed-side-banner",
+                "id": "8bcf1eb8-ed6d-4d19-bb2c-1174647ea285",
+                "name": "bloter.net##div.plus-position-bloter-bottom-ad--container",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloter\\.net",
@@ -15055,7 +15055,49 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "section.fixed-side-banner"
+                        "selector": "div.plus-position-bloter-bottom-ad--container"
+                    }
+                }
+            },
+            {
+                "id": "f854ac63-e608-4ff6-a71f-fbce21a8b826",
+                "name": "bloter.net##img.udemy-ad-img",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloter\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "img.udemy-ad-img"
+                    }
+                }
+            },
+            {
+                "id": "db9269d4-13de-444f-8325-b8171921e854",
+                "name": "bloter.net##section.article-ad--mobile",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloter\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.article-ad--mobile"
+                    }
+                }
+            },
+            {
+                "id": "fbaabd25-c066-4aa2-b44b-342b04a5dc2e",
+                "name": "bloter.net##section.article-ad__container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloter\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.article-ad__container"
                     }
                 }
             },
