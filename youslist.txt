@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: FVEKbqWXm1qaKwuIuqaw4w
-! Version: 20170215
+! Checksum: 0wPfruJ7wUhW4WuBZmXmfQ
+! Version: 20170216
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -38,6 +38,7 @@
 ##iframe[src^="//ads.exoclick.com/iframe.php"]
 ##iframe[src^="//adx-exchange.toast.com/a_request"]
 ##iframe[src^="//ax-d.pixfuture.net/w/1.0/afr"]
+##iframe[src^="//ssp.adpies.com/ssp/request"]
 ##iframe[src^="//ssp.advg.jp/ssp/p/iframe"]
 ##iframe[src^="http://a1.dp25.kr/"]
 ##iframe[src^="http://ad.about.co.kr/"]
@@ -886,6 +887,7 @@
 ||sports.hankooki.com/ad/$domain=eyenews.hankooki.com|sports.hankooki.com
 ||sportsseoul.com/js/jquery.topline.banner.js^$domain=sportsseoul.com
 ||srv.bebi.com/public/js/bebi_v1.js^
+||ssp.adpies.com/ssp/request^
 ||ssp.advg.jp/ssp/p/iframe^
 ||ssp.advg.jp/ssp/p/js1^
 ||st.keywordsconnect.com^
@@ -1631,10 +1633,11 @@ m.ezday.co.kr##div.m_2016_view>div[style="margin: 0px;padding: 15px"]
 m.ezday.co.kr##div.m_2016_view>div[style="width:100%;text-align:center;margin-top:10px;"]
 m.ezday.co.kr##div.m_2016_view>div[style="width:100%;text-align:center;margin:5px;"]
 m.fmkorea.com##iframe[src^="/_adpage/"]
-m.focus.kr##div#article_Content>div[style="margin-top:20px;"]
+m.focus.kr##div#f_UX_ad
+m.focus.kr##div#sb-site>div[style="display:block;position:relative;width:100%;overflow:hidden;text-align:center;z-index: 100000;background-color:#fff;"]
+m.focus.kr##div.ad-box
 m.focus.kr##div.adv_bottom
-m.focus.kr##div.inner_article_banner
-m.focus.kr##div.left_wrapper>div[style="width:100%;text-align:center;"]
+m.focus.kr##div.fixed_ad
 m.focus.kr##iframe[id^="adv_banner"]
 m.game.xportsnews.com##div.in_200_200
 m.gamechosun.co.kr##body>div[style="overflow:hidden;width:100%;height:0;padding-bottom:16%;"]

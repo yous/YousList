@@ -438,6 +438,20 @@
                 }
             },
             {
+                "id": "c4f6a8af-4611-44d6-86b7-cfae162b1cdd",
+                "name": "##iframe[src^=\"//ssp.adpies.com/ssp/request\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//ssp.adpies.com/ssp/request\"]"
+                    }
+                }
+            },
+            {
                 "id": "88a5f5ce-d51a-40a0-b03a-60495f2d6a92",
                 "name": "##iframe[src^=\"//ssp.advg.jp/ssp/p/iframe\"]",
                 "content": {
@@ -11928,6 +11942,19 @@
                 }
             },
             {
+                "id": "1369931b-08d2-47b1-92f5-1e23dbbd8fe5",
+                "name": "ssp.adpies.com/ssp/request",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ssp\\.adpies\\.com/ssp/request",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2b367f2f-6e95-44f2-983e-8d088f744bb7",
                 "name": "ssp.advg.jp/ssp/p/iframe",
                 "content": {
@@ -22970,8 +22997,8 @@
                 }
             },
             {
-                "id": "18749afd-490a-4602-a9d3-b8af893d1b1b",
-                "name": "m.focus.kr##div#article_Content>div[style=\"margin-top:20px;\"]",
+                "id": "9bab818f-5706-445e-973d-5702590744b9",
+                "name": "m.focus.kr##div#f_UX_ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.focus\\.kr",
@@ -22979,7 +23006,35 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#article_Content>div[style=\"margin-top:20px;\"]"
+                        "selector": "div#f_UX_ad"
+                    }
+                }
+            },
+            {
+                "id": "c083972d-64ac-4910-b365-f450699fc983",
+                "name": "m.focus.kr##div#sb-site>div[style=\"display:block;position:relative;width:100%;overflow:hidden;text-align:center;z-index: 100000;background-color:#fff;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.focus\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sb-site>div[style=\"display:block;position:relative;width:100%;overflow:hidden;text-align:center;z-index: 100000;background-color:#fff;\"]"
+                    }
+                }
+            },
+            {
+                "id": "484037fc-2746-4df6-86fc-0b55bbf8485c",
+                "name": "m.focus.kr##div.ad-box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.focus\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-box"
                     }
                 }
             },
@@ -22998,8 +23053,8 @@
                 }
             },
             {
-                "id": "d4057818-5d97-443c-9fc1-ed398c3e085d",
-                "name": "m.focus.kr##div.inner_article_banner",
+                "id": "3ba66e0d-bd5b-484a-a861-4dddcd36d717",
+                "name": "m.focus.kr##div.fixed_ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.focus\\.kr",
@@ -23007,21 +23062,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.inner_article_banner"
-                    }
-                }
-            },
-            {
-                "id": "86a84549-59b9-4841-ad87-45f72361953b",
-                "name": "m.focus.kr##div.left_wrapper>div[style=\"width:100%;text-align:center;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.focus\\.kr",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.left_wrapper>div[style=\"width:100%;text-align:center;\"]"
+                        "selector": "div.fixed_ad"
                     }
                 }
             },
