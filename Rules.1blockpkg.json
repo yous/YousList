@@ -29465,8 +29465,8 @@
                 }
             },
             {
-                "id": "d16a1615-2d38-4d4e-9004-35eb9f694390",
-                "name": "news1.kr##div#article_body_content>div[align=\"center\"][style=\"margin: 0 auto; height: 270px; display: block; padding-top: 10px;\"]",
+                "id": "8f82f31d-cbf3-4b74-a3cf-96f290b5046f",
+                "name": "news1.kr##div#article_body_content>div[align=\"center\"][style=\"margin: 0 auto; padding-bottom: 10px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news1\\.kr",
@@ -29474,13 +29474,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#article_body_content>div[align=\"center\"][style=\"margin: 0 auto; height: 270px; display: block; padding-top: 10px;\"]"
+                        "selector": "div#article_body_content>div[align=\"center\"][style=\"margin: 0 auto; padding-bottom: 10px;\"]"
                     }
                 }
             },
             {
-                "id": "6c8792b4-c8fd-468d-b4ca-42e4bec4ee97",
-                "name": "news1.kr##div#articles_detail>div[style=\"float:right;width:300px;height:250px;margin-bottom:12px;\"]",
+                "id": "5c9cc809-3dff-4501-a6a8-b0d738f88f1a",
+                "name": "news1.kr##div.adBlock",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news1\\.kr",
@@ -29488,21 +29488,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#articles_detail>div[style=\"float:right;width:300px;height:250px;margin-bottom:12px;\"]"
-                    }
-                }
-            },
-            {
-                "id": "c0623655-add5-4c0a-a766-78f2c13759ac",
-                "name": "news1.kr##div#prism_displayAD",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news1\\.kr",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#prism_displayAD"
+                        "selector": "div.adBlock"
                     }
                 }
             },
@@ -29549,8 +29535,8 @@
                 }
             },
             {
-                "id": "4c59a5d5-d072-4a42-8537-8b7471a5a628",
-                "name": "news1.kr##div.aside>div.ad_w300.sideBlock",
+                "id": "79ad0d53-3426-4836-89aa-79b3cb7cbe7e",
+                "name": "news1.kr##div.rollingAds",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news1\\.kr",
@@ -29558,7 +29544,21 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.aside>div.ad_w300.sideBlock"
+                        "selector": "div.rollingAds"
+                    }
+                }
+            },
+            {
+                "id": "37dbeeaf-3176-4d9a-ab49-c4583d0fe21c",
+                "name": "news1.kr##div.s_news_list>ul>div[style=\"padding:5px; background:#EBEBEB; margin-top:-200px; right:0; position:absolute; width:200px; height:200px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news1\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.s_news_list>ul>div[style=\"padding:5px; background:#EBEBEB; margin-top:-200px; right:0; position:absolute; width:200px; height:200px;\"]"
                     }
                 }
             },
