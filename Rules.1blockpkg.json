@@ -31229,6 +31229,20 @@
                 }
             },
             {
+                "id": "e7e1e1b4-b5f6-4ffa-82e7-eaf2a169abda",
+                "name": "qz.com##div.inline-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?qz\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.inline-ad"
+                    }
+                }
+            },
+            {
                 "id": "aed1a8f0-ae0a-45df-9673-e927efd92f66",
                 "name": "readmanga.today##div.ezo_ad",
                 "content": {
