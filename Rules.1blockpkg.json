@@ -23193,6 +23193,34 @@
                 }
             },
             {
+                "id": "1543d8cf-efe6-4e61-a5a0-850799ce033b",
+                "name": "m.hani.co.kr##div.news-box-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.hani\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.news-box-ad"
+                    }
+                }
+            },
+            {
+                "id": "a4b4fcab-1995-436e-af46-083a445ec446",
+                "name": "m.hani.co.kr##section.adBox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.hani\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.adBox"
+                    }
+                }
+            },
+            {
                 "id": "fa508fe7-4695-4370-a4a5-a6549a229b02",
                 "name": "m.hankooki.com##div#ad_img_div",
                 "content": {
