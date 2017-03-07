@@ -18601,6 +18601,20 @@
                 }
             },
             {
+                "id": "df892cc8-ada6-476c-ba5d-0698478a5cf9",
+                "name": "gall.dcinside.com##div#zzbang_div",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gall\\.dcinside\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#zzbang_div"
+                    }
+                }
+            },
+            {
                 "id": "dd5f974c-3555-4a16-bd93-b57b4e8b87d4",
                 "name": "gall.dcinside.com##div._BTN_AD_",
                 "content": {
@@ -18611,6 +18625,34 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div._BTN_AD_"
+                    }
+                }
+            },
+            {
+                "id": "05410ca0-0861-4193-b1f3-404078b86299",
+                "name": "gall.dcinside.com##span#zzbang_img",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gall\\.dcinside\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span#zzbang_img"
+                    }
+                }
+            },
+            {
+                "id": "61f65b28-a270-464b-ae2e-5015a76d4430",
+                "name": "gall.dcinside.com##span._BTN_AD_",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gall\\.dcinside\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span._BTN_AD_"
                     }
                 }
             },
