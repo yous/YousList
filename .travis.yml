@@ -10,6 +10,4 @@ install:
       pip install -r requirements26.txt;
     fi
 script:
-  - python bin/validate_checksum.py youslist.txt
-  - python bin/check_sorted.py youslist.txt
-  - python bin/generate_rules.py youslist.txt >/dev/null
+  - bin/test
