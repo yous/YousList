@@ -1544,6 +1544,20 @@
                 }
             },
             {
+                "id": "649a7430-1a5f-41d6-99c9-a42886c84851",
+                "name": "##iframe[src^=\"http://imp.valuepotion.com/mimp\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://imp.valuepotion.com/mimp\"]"
+                    }
+                }
+            },
+            {
                 "id": "c04a9b66-06ac-42fe-9ebc-1889de0b7a42",
                 "name": "##iframe[src^=\"http://jdaily.co.kr/frame/jad-bin.do\"]",
                 "content": {
@@ -5650,6 +5664,19 @@
                 }
             },
             {
+                "id": "1242cd9b-f144-48b4-8dab-a2babc2eadce",
+                "name": "campaigns-assets-vp.daumcdn.net/websdk/vp-latest.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?campaigns-assets-vp\\.daumcdn\\.net/websdk/vp-latest\\.min\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "57e5c55a-9bbf-4f11-991a-d8b9c7438cdc",
                 "name": "candy.ad9.kr",
                 "content": {
@@ -8165,6 +8192,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?imp\\.sndkorea\\.co\\.kr/php/m\\.php",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9b3379e5-43a1-4d50-a0cf-bf29aec7cc26",
+                "name": "imp.valuepotion.com/mimp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?imp\\.valuepotion\\.com/mimp",
                         "load-type": []
                     },
                     "action": {
@@ -23258,6 +23298,48 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "p.sky_btn_wrap"
+                    }
+                }
+            },
+            {
+                "id": "25f4141e-5fca-4c84-b68b-c6ed61af68d9",
+                "name": "m.gamemeca.com##article#wrapper>div[style=\"position:fixed;bottom:0;text-align:center;width:100%;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.gamemeca\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "article#wrapper>div[style=\"position:fixed;bottom:0;text-align:center;width:100%;\"]"
+                    }
+                }
+            },
+            {
+                "id": "cf5096af-93ed-4d9b-9eac-405d5f5a0d79",
+                "name": "m.gamemeca.com##div.mobile_tib_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.gamemeca\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobile_tib_ad"
+                    }
+                }
+            },
+            {
+                "id": "38a4a2ff-f823-49a5-b99a-cb2231953ad5",
+                "name": "m.gamemeca.com##div.mobile_top_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.gamemeca\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobile_top_ad"
                     }
                 }
             },

@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: BNftFVNmfpGGmmlmQNLhJw
+! Checksum: qRKN0jKFNAlL7R8yldM9Lg
 ! Version: 20170308
 
 ! General element hiding rules
@@ -117,6 +117,7 @@
 ##iframe[src^="http://img.sbs.co.kr/news/ad/delay_redirect_mobile.html"]
 ##iframe[src^="http://imp.mklaud.com/ad"]
 ##iframe[src^="http://imp.sndkorea.co.kr/php/m.php"]
+##iframe[src^="http://imp.valuepotion.com/mimp"]
 ##iframe[src^="http://jdaily.co.kr/frame/jad-bin.do"]
 ##iframe[src^="http://joy-adstore.co.kr/ad/"]
 ##iframe[src^="http://js.hnscom.com/etc/hns/hnsIframe_"][src$=".html"]
@@ -421,6 +422,7 @@
 ||cad.donga.com/sports_view_top_right_*.js^$domain=sports.donga.com
 ||cad.donga.com/sports_view_topright_reople_*.js^$domain=sports.donga.com
 ||cadvv.heraldm.com/hb/imad/
+||campaigns-assets-vp.daumcdn.net/websdk/vp-latest.min.js^
 ||candy.ad9.kr^
 ||care-health.co.kr^
 ||cas.criteo.com/delivery/ajs.php^
@@ -607,6 +609,7 @@
 ||img2.keywordsconnect.com/iconAdImg*.gif^
 ||imp.mklaud.com/ad^
 ||imp.sndkorea.co.kr/php/m.php^
+||imp.valuepotion.com/mimp^
 ||inews24.com/news/ad_right.php^$domain=news.inews24.com
 ||inews24.com/tools/adpresso/$domain=news.inews24.com
 ||interface.interworksmedia.co.kr/js/iwmads.min.js^
@@ -1652,6 +1655,9 @@ m.gamechosun.co.kr##div.banner_wrap
 m.gamechosun.co.kr##div.left_menuAd
 m.gamechosun.co.kr##div.sky_bn_wrap
 m.gamechosun.co.kr##p.sky_btn_wrap
+m.gamemeca.com##article#wrapper>div[style="position:fixed;bottom:0;text-align:center;width:100%;"]
+m.gamemeca.com##div.mobile_tib_ad
+m.gamemeca.com##div.mobile_top_ad
 m.gametoc.hankyung.com##section.advertisment
 m.hani.co.kr##div.news-box-ad
 m.hani.co.kr##section.adBox
