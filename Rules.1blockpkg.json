@@ -1432,6 +1432,20 @@
                 }
             },
             {
+                "id": "dca33263-9ecb-4d23-8b7e-8834b8ceb7c6",
+                "name": "##iframe[src^=\"http://gm-adkpf.ncloud.or.kr/NetInsight/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://gm-adkpf.ncloud.or.kr/NetInsight/\"]"
+                    }
+                }
+            },
+            {
                 "id": "6b6eb2ee-a323-49ad-bb3f-312c7961e6a5",
                 "name": "##iframe[src^=\"http://hankyung.bohumplaza.com/_chann/\"]",
                 "content": {
@@ -7355,6 +7369,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gigglehd\\.com/banner/.*\\.jpg",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1874e27a-3386-4f84-9927-d2e8056f550f",
+                "name": "gm-adkpf.ncloud.or.kr/NetInsight/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gm-adkpf\\.ncloud\\.or\\.kr/NetInsight/",
                         "load-type": []
                     },
                     "action": {
@@ -18947,6 +18974,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "ul.ads_title_bottom"
+                    }
+                }
+            },
+            {
+                "id": "df4813dc-abbe-429d-aacc-8aa18b8f06e2",
+                "name": "gamemeca.com##ul>li.mecaEvent",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul>li.mecaEvent"
                     }
                 }
             },

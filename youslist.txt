@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: fHe2Ss/1BWYdrFkqEuNuvQ
-! Version: 20170307
+! Checksum: BNftFVNmfpGGmmlmQNLhJw
+! Version: 20170308
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -109,6 +109,7 @@
 ##iframe[src^="http://exttag.about.co.kr/cgi-bin/PelicanC.dll"]
 ##iframe[src^="http://file.osen.co.kr/web2/html/realclick_ad.html"]
 ##iframe[src^="http://fs.jtbc.joins.com/common/ui/ad/"]
+##iframe[src^="http://gm-adkpf.ncloud.or.kr/NetInsight/"]
 ##iframe[src^="http://hankyung.bohumplaza.com/_chann/"]
 ##iframe[src^="http://i.yimg.jp/images/listing/tool/yads/yads-iframe.html"]
 ##iframe[src^="http://im.obel.kr/file/"]
@@ -548,6 +549,7 @@
 ||get.keywordsconnect.com^
 ||get2.keywordsconnect.com^
 ||gigglehd.com/banner/*.jpg^
+||gm-adkpf.ncloud.or.kr/NetInsight/
 ||go.ezoic.net/ezoic/epbfull5.js^
 ||go.onclasrv.com/apu.php^
 ||go.pub2srv.com/apu.php^
@@ -1351,6 +1353,7 @@ gamemeca.com##div.rBannerMain
 gamemeca.com##div.rBtmBanner
 gamemeca.com##div.toastBanner
 gamemeca.com##ul.ads_title_bottom
+gamemeca.com##ul>li.mecaEvent
 gametoc.hankyung.com##iframe[src^="/banner/"][src$=".html"]
 gigglehd.com##div#container>div.section>div.xe-widget-wrapper>div>div.nw_box
 gigglehd.com##div#gap>div:nth-of-type(4)[style="BACKGROUND-IMAGE: none; BORDER-BOTTOM: rgb(0,0,0) 0px solid; BORDER-LEFT: rgb(0,0,0) 0px solid; MARGIN: 0px; WIDTH: 820px; BACKGROUND-REPEAT: repeat; BACKGROUND-POSITION: 0% 0%; FLOAT: left; HEIGHT: 60px; BORDER-TOP: rgb(0,0,0) 0px solid; BORDER-RIGHT: rgb(0,0,0) 0px solid;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"]
