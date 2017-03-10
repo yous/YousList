@@ -12998,6 +12998,20 @@
                 }
             },
             {
+                "id": "e37c8303-0da2-485b-9339-33c853f37ffb",
+                "name": "47news.jp##div#gAds_detailPage",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?47news\\.jp",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#gAds_detailPage"
+                    }
+                }
+            },
+            {
                 "id": "68544ca4-9f3e-41c6-8f50-80459d37dc08",
                 "name": "9to5mac.com##div#author-ad",
                 "content": {
