@@ -10535,6 +10535,22 @@
                 }
             },
             {
+                "id": "7e517f14-0b1e-4eb3-938c-70195423a1bb",
+                "name": "nv.veta.naver.com/fxshow$domain=naver.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nv\\.veta\\.naver\\.com/fxshow",
+                        "load-type": [],
+                        "if-domain": [
+                            "naver.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "67bf6db8-4f56-4e44-bae8-b914d39f126e",
                 "name": "nw.realssp.co.kr",
                 "content": {
@@ -27988,6 +28004,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#veta_top"
+                    }
+                }
+            },
+            {
+                "id": "d71fcdfb-de87-4b97-b688-7fffccb36b5e",
+                "name": "naver.com##iframe[src^=\"http://nv.veta.naver.com/fxshow\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?naver\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://nv.veta.naver.com/fxshow\"]"
                     }
                 }
             },
