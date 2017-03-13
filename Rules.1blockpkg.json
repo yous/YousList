@@ -19872,8 +19872,8 @@
                 }
             },
             {
-                "id": "1c57c9fc-c695-4321-b49f-08e9d9fdf904",
-                "name": "hotslogs.com##div.advertisementBanner",
+                "id": "beb7a401-aaec-4bc7-b233-dec16ded7663",
+                "name": "hotslogs.com##div[id^=\"mb_adslot_\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hotslogs\\.com",
@@ -19881,7 +19881,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.advertisementBanner"
+                        "selector": "div[id^=\"mb_adslot_\"]"
                     }
                 }
             },
