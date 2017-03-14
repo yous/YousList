@@ -39264,6 +39264,34 @@
                 }
             },
             {
+                "id": "fe5011ba-e7fe-4c90-a59c-a1bedb827669",
+                "name": "yonhapnews.co.kr##div.ad-box01",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-box01"
+                    }
+                }
+            },
+            {
+                "id": "385dfac5-d587-4adc-b73a-9be7dc05e493",
+                "name": "yonhapnews.co.kr##div.ad-box03",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-box03"
+                    }
+                }
+            },
+            {
                 "id": "05174f42-c21b-42ba-b3ff-6329aadfc162",
                 "name": "yonhapnews.co.kr##div.article-ad-box",
                 "content": {
@@ -39288,6 +39316,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.aside-banner"
+                    }
+                }
+            },
+            {
+                "id": "ed5f7ad4-9249-4e25-9ccc-b56c7d4223ed",
+                "name": "yonhapnews.co.kr##div.aside-top-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.aside-top-banner"
                     }
                 }
             },
