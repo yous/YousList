@@ -1964,6 +1964,20 @@
                 }
             },
             {
+                "id": "87e94af1-cd6e-42ef-85f2-fed47b05d25b",
+                "name": "##iframe[src^=\"http://server.cpmstar.com/view.aspx\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://server.cpmstar.com/view.aspx\"]"
+                    }
+                }
+            },
+            {
                 "id": "143e6566-bf2b-4e9a-9be7-ba94f9ee31bf",
                 "name": "##iframe[src^=\"http://sin1.g.adnxs.com/if\"]",
                 "content": {
@@ -4797,6 +4811,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ax-d\\.pixfuture\\.net/w/1\\.0/afr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cfbd2bf0-07e4-49d9-88a2-838a8a11be49",
+                "name": "b.a2gw.com/b/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?b\\.a2gw\\.com/b/.*\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -8703,24 +8730,11 @@
                 }
             },
             {
-                "id": "133cdc39-190f-4dd3-9a94-301060efb4ec",
-                "name": "jsc.mgid.com/k/a/",
+                "id": "2ba58332-36ed-430b-8535-598cc485ff63",
+                "name": "jsc.mgid.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jsc\\.mgid\\.com/k/a/",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "44fc8929-3724-42d1-9d3a-2dedce898479",
-                "name": "jsc.mgid.com/n/o/",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jsc\\.mgid\\.com/n/o/",
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jsc\\.mgid\\.com",
                         "load-type": []
                     },
                     "action": {
@@ -11478,6 +11492,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?serve\\.popads\\.net/c",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "794b3dd7-d072-4238-85a9-1e63a09b00e6",
+                "name": "server.cpmstar.com/view.aspx",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?server\\.cpmstar\\.com/view\\.aspx",
                         "load-type": []
                     },
                     "action": {
@@ -39030,6 +39057,76 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?watchcartoononline\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "td.larkax>div[style=\"float:right; padding-bottom:10px; padding-left:5px; padding-right:10px\"]"
+                    }
+                }
+            },
+            {
+                "id": "11a860fa-f189-4c92-b5a6-20cfe33d7a55",
+                "name": "watchcartoononline.io##div#alt-550-220",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?watchcartoononline\\.io",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#alt-550-220"
+                    }
+                }
+            },
+            {
+                "id": "97515ff7-fd5d-4224-bb74-92469bca9f5f",
+                "name": "watchcartoononline.io##div#iki-player-arasi",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?watchcartoononline\\.io",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#iki-player-arasi"
+                    }
+                }
+            },
+            {
+                "id": "cf6898c3-6485-4f9e-bbd9-ed1873364d34",
+                "name": "watchcartoononline.io##div#reklam_mgid",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?watchcartoononline\\.io",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#reklam_mgid"
+                    }
+                }
+            },
+            {
+                "id": "2a5b42ce-6b34-4bfa-87cd-c11e5f39a776",
+                "name": "watchcartoononline.io##div.anti-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?watchcartoononline\\.io",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.anti-ad"
+                    }
+                }
+            },
+            {
+                "id": "593da83b-afc2-4aa5-8725-833758999b2e",
+                "name": "watchcartoononline.io##td.larkax>div[style=\"float:right; padding-bottom:10px; padding-left:5px; padding-right:10px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?watchcartoononline\\.io",
                         "load-type": []
                     },
                     "action": {

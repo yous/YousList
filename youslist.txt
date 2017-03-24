@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: d8wLi0JRz77NT779DkBaww
+! Checksum: uNYVrjRNK/HEk7Tgmw1ayg
 ! Version: 20170324
 
 ! General element hiding rules
@@ -147,6 +147,7 @@
 ##iframe[src^="http://redir.adap.tv/redir/mobile/mobile-ad-source.html"]
 ##iframe[src^="http://res.heraldm.com/iframe/"]
 ##iframe[src^="http://rsense-ad.realclick.co.kr/rsense/view_ad_adcrm.html"]
+##iframe[src^="http://server.cpmstar.com/view.aspx"]
 ##iframe[src^="http://sin1.g.adnxs.com/if"]
 ##iframe[src^="http://static.joins.com/isplus/ui/ad/"]
 ##iframe[src^="http://syndication.exoclick.com/ads-iframe-display.php"]
@@ -365,6 +366,7 @@
 ||assets.gunosy.com/adnet/gunosy_ads.min.js^
 ||assoc-amazon.com/s/ads.js^
 ||ax-d.pixfuture.net/w/1.0/afr^
+||b.a2gw.com/b/*.js^
 ||bayabar.com/adworking/
 ||bdv.bidvertiser.com^
 ||biz.chosun.com/ad/
@@ -647,8 +649,7 @@
 ||js.mtburn.com/advs-instream.js^
 ||js.theprimead.co.kr^
 ||js2.keywordsconnect.com^
-||jsc.mgid.com/k/a/
-||jsc.mgid.com/n/o/
+||jsc.mgid.com^
 ||jshoppingbox.joinsmsn.com^
 ||jtbc.joins.com/common/json2XMLvast.aspx^
 ||keyword.ad4989.co.kr^
@@ -853,6 +854,7 @@
 ||seoul.co.kr/news/datawaveAD.php^
 ||serv.ads.pixiv.org^
 ||serve.popads.net/c^
+||server.cpmstar.com/view.aspx^
 ||sgate.opap.co.kr/view/
 ||sh.adingo.jp^
 ||shop.nate.com/shopbox/news.htm^
@@ -2559,6 +2561,11 @@ watchcartoononline.com##iframe[src^="http://watchcartoononline.com/ads_"][src$="
 watchcartoononline.com##iframe[src^="http://www.watchcartoononline.com/ads"][src$=".html"]
 watchcartoononline.com##iframe[src^="http://www.watchcartoononline.com/inc/reklam/"][src$=".html"]
 watchcartoononline.com##td.larkax>div[style="float:right; padding-bottom:10px; padding-left:5px; padding-right:10px"]
+watchcartoononline.io##div#alt-550-220
+watchcartoononline.io##div#iki-player-arasi
+watchcartoononline.io##div#reklam_mgid
+watchcartoononline.io##div.anti-ad
+watchcartoononline.io##td.larkax>div[style="float:right; padding-bottom:10px; padding-left:5px; padding-right:10px"]
 web.humoruniv.com##div#CmAdView2
 web.humoruniv.com##div#ad_240
 web.humoruniv.com##div#ad_700
