@@ -39192,6 +39192,20 @@
                 }
             },
             {
+                "id": "b0efd012-1cff-4dc2-92fe-ee017926ff74",
+                "name": "wikia.com##div.wikia-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikia\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wikia-ad"
+                    }
+                }
+            },
+            {
                 "id": "c73cbdb7-d858-4a47-a41c-4386e699f44c",
                 "name": "wikitree.co.kr##div#id_right_criteo_ad",
                 "content": {
