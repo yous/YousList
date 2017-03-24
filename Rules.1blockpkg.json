@@ -6015,6 +6015,19 @@
                 }
             },
             {
+                "id": "ca06165d-b952-4850-84c3-7e1528e33159",
+                "name": "clksite.com/adServe/banners",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?clksite\\.com/adServe/banners",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "5d2e94f0-b6d6-4197-8dd1-ce26765f8e39",
                 "name": "cm*.joins.com",
                 "content": {
@@ -10710,6 +10723,58 @@
                 }
             },
             {
+                "id": "fa450dba-049e-4ec3-9f7a-b10b07eacfae",
+                "name": "p*.clksite.com/adServe/banners",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?p.*\\.clksite\\.com/adServe/banners",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d2f52f42-233e-4436-b64a-2e04f369c3ba",
+                "name": "p*.mycdn.co/banners/bounce/bnr-tag_*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?p.*\\.mycdn\\.co/banners/bounce/bnr-tag_.*\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d9d46589-7e1b-4a2e-9c60-87343d62d0cf",
+                "name": "p*.mycdn.co/banners/script/bnr-tag_*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?p.*\\.mycdn\\.co/banners/script/bnr-tag_.*\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "4aeedc76-835f-434e-8023-6ae999393d1d",
+                "name": "p*.mycdn.co/banners/script/bnr-wrp_*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?p.*\\.mycdn\\.co/banners/script/bnr-wrp_.*\\.js",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9c89f70a-80e8-4857-907b-54c2d5c93031",
                 "name": "p.jwpcdn.com/*/vast.js",
                 "content": {
@@ -10728,32 +10793,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?p\\.lumieyes\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "6bd79d15-e41c-47e5-b547-24c731fd51fe",
-                "name": "p187443.clksite.com/adServe/banners",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?p187443\\.clksite\\.com/adServe/banners",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "58465172-ac62-42bb-a3e7-7351632826e0",
-                "name": "p187443.mycdn.co/banners/script/bnr-tag_*.js",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?p187443\\.mycdn\\.co/banners/script/bnr-tag_.*\\.js",
                         "load-type": []
                     },
                     "action": {
