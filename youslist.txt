@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: eFR5EIHCdV6VqdP7lY908Q
-! Version: 20170314
+! Checksum: UzVF1+mL0+jfyPmUGNYxzg
+! Version: 20170324
 
 ! General element hiding rules
 ##div#adbay_adExpandDiv
@@ -477,6 +477,7 @@
 ||dailygame.co.kr/ad/dispad_bot.html^
 ||dailygame.co.kr/ad/dispad_right.html^
 ||dailygame.co.kr/ad/dispad_top.html^
+||danawa.com/NBP/powerLink.php^$domain=prod.danawa.com
 ||dev.ezadsystem.com/static/js/ezad-1.0.js^
 ||dgate.*/hc.aspx^
 ||dgate.*/hciw.aspx^
@@ -2232,6 +2233,11 @@ pressian.com##div#ad1
 pressian.com##div.c011_arv_event>div[style="padding-bottom:20px;"]
 pressian.com##div.c011_arv_event>div[style="width:336px; height:280px; float:right; margin-bottom:15px;"]
 pressian.com##iframe[src^="http://ad"]
+prod.danawa.com##div#floatAdLayer
+prod.danawa.com##div.ad_wide_slide
+prod.danawa.com##div.popup_ad_floating
+prod.danawa.com##div.power_link
+prod.danawa.com##iframe[src^="http://www.danawa.com/NBP/powerLink.php"]
 qz.com##div.inline-ad
 readmanga.today##div.ezo_ad
 readmanga.today##div.ezoic-ad

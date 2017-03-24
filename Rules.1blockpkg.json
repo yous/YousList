@@ -6391,6 +6391,22 @@
                 }
             },
             {
+                "id": "31097829-db63-4a33-bdc3-8677259d6bd3",
+                "name": "danawa.com/NBP/powerLink.php$domain=prod.danawa.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?danawa\\.com/NBP/powerLink\\.php",
+                        "load-type": [],
+                        "if-domain": [
+                            "prod.danawa.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a159de08-684b-48e2-b455-25c319eddfa7",
                 "name": "dev.ezadsystem.com/static/js/ezad-1.0.js",
                 "content": {
@@ -31462,6 +31478,76 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://ad\"]"
+                    }
+                }
+            },
+            {
+                "id": "18eee181-33e2-4b7a-b600-777df1ff830e",
+                "name": "prod.danawa.com##div#floatAdLayer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?prod\\.danawa\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#floatAdLayer"
+                    }
+                }
+            },
+            {
+                "id": "29019d62-af56-4817-ad2b-4a3b222ed3a1",
+                "name": "prod.danawa.com##div.ad_wide_slide",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?prod\\.danawa\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_wide_slide"
+                    }
+                }
+            },
+            {
+                "id": "1c374926-23d9-44f7-afd0-8d99d3e7ccbc",
+                "name": "prod.danawa.com##div.popup_ad_floating",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?prod\\.danawa\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.popup_ad_floating"
+                    }
+                }
+            },
+            {
+                "id": "e4301f34-76d2-48f0-b512-b4ea8889aedb",
+                "name": "prod.danawa.com##div.power_link",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?prod\\.danawa\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.power_link"
+                    }
+                }
+            },
+            {
+                "id": "58963dbe-ba95-428c-bfdb-292a0ecd34fc",
+                "name": "prod.danawa.com##iframe[src^=\"http://www.danawa.com/NBP/powerLink.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?prod\\.danawa\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.danawa.com/NBP/powerLink.php\"]"
                     }
                 }
             },
