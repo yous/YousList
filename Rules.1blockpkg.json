@@ -718,6 +718,20 @@
                 }
             },
             {
+                "id": "c5ebe670-4c65-4517-a4e5-56d886804030",
+                "name": "##iframe[src^=\"http://adbiz.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adbiz.co.kr/\"]"
+                    }
+                }
+            },
+            {
                 "id": "6e44a082-930b-41cb-9a1c-d93b16b00a18",
                 "name": "##iframe[src^=\"http://adc.ohmynews.com/NetInsight/\"]",
                 "content": {
@@ -3477,6 +3491,19 @@
                 }
             },
             {
+                "id": "f8c47246-5843-4a83-a4d2-6af096ec8a0d",
+                "name": "adbiz.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adbiz\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f32b8599-ff5c-4732-8733-ea7f48f5134d",
                 "name": "adc.ohmynews.com/NetInsight/",
                 "content": {
@@ -5904,6 +5931,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.optmd\\.com/V2/PSA/",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6d677546-ba7d-4ce8-a3e8-c2f3c21babdf",
+                "name": "cdn.scrollads.co.kr/scrollads.*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.scrollads\\.co\\.kr/scrollads\\..*\\.js",
                         "load-type": []
                     },
                     "action": {
@@ -8411,6 +8451,22 @@
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?j\\.microad\\.net/js/compass\\.js",
                         "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a4f7ea27-3e08-457d-88f3-3a3656756ab1",
+                "name": "jbnews.com/bannerManager/inc/*.html$domain=jbnews.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jbnews\\.com/bannerManager/inc/.*\\.html",
+                        "load-type": [],
+                        "if-domain": [
+                            "jbnews.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
