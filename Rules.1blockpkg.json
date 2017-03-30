@@ -9353,12 +9353,31 @@
                 }
             },
             {
-                "id": "42f19bba-8a0d-46f1-a1af-c4cee51698c3",
-                "name": "m.torrentkim5.net/js/banner0122.js",
+                "id": "79305560-f354-449e-9ced-842e47fcc79a",
+                "name": "m.torrentkim10.net/js/banner0122.js$domain=m.torrentkim10.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.torrentkim10\\.net/js/banner0122\\.js",
+                        "load-type": [],
+                        "if-domain": [
+                            "m.torrentkim10.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "edef2021-7da8-48ea-8b4c-2bbe70a3d4bb",
+                "name": "m.torrentkim5.net/js/banner0122.js$domain=m.torrentkim5.net",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.torrentkim5\\.net/js/banner0122\\.js",
-                        "load-type": []
+                        "load-type": [],
+                        "if-domain": [
+                            "m.torrentkim5.net"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -26102,11 +26121,81 @@
                 }
             },
             {
+                "id": "6dbedfee-0765-47f0-b5f0-87846783c393",
+                "name": "m.torrentcup.net##a[href^=\"/to_toto.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.torrentcup\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"/to_toto.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "76793965-c883-40ce-8c66-703c16099a54",
+                "name": "m.torrentkim.com##a[href^=\"/to_toto.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.torrentkim\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"/to_toto.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "0e84183e-ed7b-4c61-8a8b-07964eff5e26",
+                "name": "m.torrentkim1.net##a[href^=\"/to_toto.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.torrentkim1\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"/to_toto.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "4ca16ba7-71af-429b-b8ee-f0fdd7428b29",
+                "name": "m.torrentkim10.net##a[href^=\"/to_toto.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.torrentkim10\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"/to_toto.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "4db6fa12-f08f-41ff-bd26-60946920ffb1",
                 "name": "m.torrentkim5.net##a[href^=\"/to_toto.html\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.torrentkim5\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"/to_toto.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "58a1a578-ebf5-4fc1-bf66-6421ba59d120",
+                "name": "m.torrentman.net##a[href^=\"/to_toto.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.torrentman\\.net",
                         "load-type": []
                     },
                     "action": {
