@@ -41801,6 +41801,48 @@
                 }
             },
             {
+                "id": "83a4a5f9-6a1d-4c95-97f9-00b34e955e35",
+                "name": "zdnet.co.kr##div.con_bn_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zdnet\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.con_bn_box"
+                    }
+                }
+            },
+            {
+                "id": "fd3a455a-355a-4fb2-a3c4-114fa666c235",
+                "name": "zdnet.co.kr##div.hide_bk",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zdnet\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.hide_bk"
+                    }
+                }
+            },
+            {
+                "id": "107b7b55-4772-4fee-aba5-6021c77f712f",
+                "name": "zdnet.co.kr##div.hide_bt",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zdnet\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.hide_bt"
+                    }
+                }
+            },
+            {
                 "id": "703b10a8-56cd-4447-897b-0750f6589862",
                 "name": "zdnet.co.kr##div.power_center",
                 "content": {
