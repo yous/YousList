@@ -27269,8 +27269,8 @@
                 }
             },
             {
-                "id": "9c14765f-f22a-4333-96ed-c01ed684ce29",
-                "name": "mediatoday.co.kr##div#adbnFloating",
+                "id": "d2ccc153-b0ce-4f46-9aa7-4ac2bff0c1cd",
+                "name": "mediatoday.co.kr##div#ad_www_normal_24",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediatoday\\.co\\.kr",
@@ -27278,7 +27278,35 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#adbnFloating"
+                        "selector": "div#ad_www_normal_24"
+                    }
+                }
+            },
+            {
+                "id": "c71276e2-fda7-4670-afcb-ea249f9b1aa2",
+                "name": "mediatoday.co.kr##div#banner_header_wide",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_header_wide"
+                    }
+                }
+            },
+            {
+                "id": "f1641bea-5faf-43d6-97d2-30a6d054544b",
+                "name": "mediatoday.co.kr##div#talklink_contents>div.not_print[style=\"float:right;margin:0 0 15px 15px;width:300px;height:250px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#talklink_contents>div.not_print[style=\"float:right;margin:0 0 15px 15px;width:300px;height:250px;\"]"
                     }
                 }
             },
