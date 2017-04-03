@@ -24595,6 +24595,76 @@
                 }
             },
             {
+                "id": "1875fa0c-a1d0-4c0f-8f32-e97c25df1975",
+                "name": "m.mediatoday.co.kr##div#div_share_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mediatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#div_share_ad"
+                    }
+                }
+            },
+            {
+                "id": "3adc4c1c-bc95-4d41-a792-e6ff17aa298d",
+                "name": "m.mediatoday.co.kr##div#m_a_content>div.m_min_size>div[style=\"float:left;margin:.3em 1em .2em 0;width:200px;height:200px;background-color:#f4f4f4\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mediatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#m_a_content>div.m_min_size>div[style=\"float:left;margin:.3em 1em .2em 0;width:200px;height:200px;background-color:#f4f4f4\"]"
+                    }
+                }
+            },
+            {
+                "id": "7ff4c93e-4e83-4d8d-aa86-a0d94292362e",
+                "name": "m.mediatoday.co.kr##div#m_a_content>div.m_min_size>div[style=\"float:right;margin:0 0 10px 10px;width:200px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mediatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#m_a_content>div.m_min_size>div[style=\"float:right;margin:0 0 10px 10px;width:200px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "732cb36a-ad05-427b-9608-02df6f4156bb",
+                "name": "m.mediatoday.co.kr##div.pushADMiddle",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mediatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pushADMiddle"
+                    }
+                }
+            },
+            {
+                "id": "20069488-ac0f-4631-a75b-7689dd2c3f6a",
+                "name": "m.mediatoday.co.kr##div[id^=\"AD_LIVE_AREA_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mediatoday\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"AD_LIVE_AREA_\"]"
+                    }
+                }
+            },
+            {
                 "id": "f3f291a1-2cc1-40df-bab2-640e44372683",
                 "name": "m.metroseoul.co.kr##div#ad_1",
                 "content": {
