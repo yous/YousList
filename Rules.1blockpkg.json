@@ -13395,6 +13395,34 @@
                 }
             },
             {
+                "id": "c3a03b72-04d0-4fc8-8370-f24e8f0960a6",
+                "name": "amp.businessinsider.com##amp-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amp\\.businessinsider\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "amp-ad"
+                    }
+                }
+            },
+            {
+                "id": "00e020de-2e59-41f4-af0b-42ea70727c7a",
+                "name": "amp.businessinsider.com##main div.ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amp\\.businessinsider\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "main div.ad-container"
+                    }
+                }
+            },
+            {
                 "id": "e6b267db-afb4-429c-8d5c-0ba8e8d4722b",
                 "name": "anigod.com##div.episode-video-ad-container",
                 "content": {
