@@ -32001,6 +32001,34 @@
                 }
             },
             {
+                "id": "234465a8-4c84-4a4c-854e-ece54c7097b8",
+                "name": "recode.net##amp-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?recode\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "amp-ad"
+                    }
+                }
+            },
+            {
+                "id": "1242ac63-72d6-4150-9c12-01df584cdff8",
+                "name": "recode.net##div.ad-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?recode\\.net",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-wrapper"
+                    }
+                }
+            },
+            {
                 "id": "efd298f8-3593-4fb1-8119-bb65b312ca82",
                 "name": "redstate.com##article.large-card>div.ad",
                 "content": {
