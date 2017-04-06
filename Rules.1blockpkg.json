@@ -25393,6 +25393,20 @@
                 }
             },
             {
+                "id": "4b1a77bd-cc53-4d66-9065-1c72816732a5",
+                "name": "m.ohmynews.com##main>div.ad:not([id])",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.ohmynews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "main>div.ad:not([id])"
+                    }
+                }
+            },
+            {
                 "id": "cc18ce70-37f6-4da5-bd4c-665fa4350519",
                 "name": "m.pann.nate.com##div.ad_area",
                 "content": {
