@@ -17932,6 +17932,20 @@
                 }
             },
             {
+                "id": "3ee0aaa1-8329-4658-a390-e24a31c534f1",
+                "name": "etnews.com##ul.ad_thumb_newsview",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.ad_thumb_newsview"
+                    }
+                }
+            },
+            {
                 "id": "c2a1e3f3-cf1c-4b38-a3fc-645a737861ac",
                 "name": "eto.co.kr##div.tvSideAd",
                 "content": {
