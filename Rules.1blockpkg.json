@@ -6956,25 +6956,15 @@
                 }
             },
             {
-                "id": "ff58f2cb-a79b-4497-b959-fa336470f8a6",
-                "name": "etnews.com/ek_js/detail_ad_combinepop.js",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com/ek_js/detail_ad_combinepop\\.js",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "d2d900de-c809-4f51-a5ba-23772a733a0a",
-                "name": "etnews.com/tools/etnews_hns.js",
+                "name": "etnews.com/tools/etnews_hns.js$domain=etnews.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com/tools/etnews_hns\\.js",
-                        "load-type": []
+                        "load-type": [],
+                        "if-domain": [
+                            "etnews.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -6983,11 +6973,14 @@
             },
             {
                 "id": "a31c4beb-1ce5-4e2c-86a7-86857ecb8446",
-                "name": "etnews.com/tools/ict_highlight.js",
+                "name": "etnews.com/tools/ict_highlight.js$domain=etnews.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com/tools/ict_highlight\\.js",
-                        "load-type": []
+                        "load-type": [],
+                        "if-domain": [
+                            "etnews.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -6996,11 +6989,30 @@
             },
             {
                 "id": "42efad19-60a5-406e-b564-8cde1ca16077",
-                "name": "etnews.com/tools/ict_terms.js",
+                "name": "etnews.com/tools/ict_terms.js$domain=etnews.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com/tools/ict_terms\\.js",
-                        "load-type": []
+                        "load-type": [],
+                        "if-domain": [
+                            "etnews.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "063aa7ed-7433-4bac-9956-5f93c2adc404",
+                "name": "etnews.com/tools/refresh_script.html$domain=etnews.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com/tools/refresh_script\\.html",
+                        "load-type": [],
+                        "if-domain": [
+                            "etnews.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -17722,8 +17734,8 @@
                 }
             },
             {
-                "id": "9b568010-5289-402f-9ad1-f2c1ac1f6b59",
-                "name": "etnews.com##div#RightWingBanner",
+                "id": "fd1aca59-b999-499b-bc5a-8d97c9469062",
+                "name": "etnews.com##aside.ad_300x250",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com",
@@ -17731,13 +17743,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#RightWingBanner"
+                        "selector": "aside.ad_300x250"
                     }
                 }
             },
             {
-                "id": "64780be2-6eb0-4d9a-b84e-a41a4065c348",
-                "name": "etnews.com##div#articleBody>div[style=\"margin-top:15px;margin-bottom:5px;\"]",
+                "id": "1157ecff-1048-4240-ab3f-a2e55b236171",
+                "name": "etnews.com##aside.ad_ic",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com",
@@ -17745,13 +17757,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#articleBody>div[style=\"margin-top:15px;margin-bottom:5px;\"]"
+                        "selector": "aside.ad_ic"
                     }
                 }
             },
             {
-                "id": "65be085c-9f7a-43cf-90cc-3fde52b1fdb8",
-                "name": "etnews.com##div#articleBody>div[style=\"text-align:center\"]",
+                "id": "6bd7ffd5-2cc3-45e8-8748-6a7d4cd8a15b",
+                "name": "etnews.com##aside.ad_text",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com",
@@ -17759,13 +17771,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#articleBody>div[style=\"text-align:center\"]"
+                        "selector": "aside.ad_text"
                     }
                 }
             },
             {
-                "id": "abe34bd8-91de-45dd-8ee4-a30426a205ef",
-                "name": "etnews.com##div#bannerTopmostBox",
+                "id": "aa74b4b0-b915-4ec4-91fa-17b6489e1ba8",
+                "name": "etnews.com##div#FloatLayer1",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com",
@@ -17773,7 +17785,21 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#bannerTopmostBox"
+                        "selector": "div#FloatLayer1"
+                    }
+                }
+            },
+            {
+                "id": "bb57a252-b747-4627-83fc-d1e80f2dd642",
+                "name": "etnews.com##div#FloatLayer2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#FloatLayer2"
                     }
                 }
             },
@@ -17792,8 +17818,8 @@
                 }
             },
             {
-                "id": "cb6ca40a-47d9-44ee-95fc-1c690bea2ffc",
-                "name": "etnews.com##div#promotionBanner",
+                "id": "6b5f0ae1-2014-48be-bffd-9b70184f12df",
+                "name": "etnews.com##div#wingBanner",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com",
@@ -17801,13 +17827,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#promotionBanner"
+                        "selector": "div#wingBanner"
                     }
                 }
             },
             {
-                "id": "b703f03c-c71e-474e-8683-9425aa659ee3",
-                "name": "etnews.com##div#right>div[style=\"margin-left:0px;\"]",
+                "id": "7beebcfb-fa37-42be-84ee-ebb6f2e5c836",
+                "name": "etnews.com##div.ad_250x180",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com",
@@ -17815,13 +17841,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#right>div[style=\"margin-left:0px;\"]"
+                        "selector": "div.ad_250x180"
                     }
                 }
             },
             {
-                "id": "8601ee90-666a-4dda-9ee1-86b480746add",
-                "name": "etnews.com##div#talklink_chatAd",
+                "id": "0079d1c3-f16b-4db0-8423-2cfdb25584b0",
+                "name": "etnews.com##div.ad_355x220",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com",
@@ -17829,13 +17855,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#talklink_chatAd"
+                        "selector": "div.ad_355x220"
                     }
                 }
             },
             {
-                "id": "f9f2048a-f3e0-442d-9883-834c5523aaff",
-                "name": "etnews.com##div#wingLeftSticky",
+                "id": "ed26b40f-8d07-40d7-a136-c3cf527c8c09",
+                "name": "etnews.com##div.ad_90x90",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com",
@@ -17843,13 +17869,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#wingLeftSticky"
+                        "selector": "div.ad_90x90"
                     }
                 }
             },
             {
-                "id": "5dcbdac8-9927-4673-95d7-b94337a5f16d",
-                "name": "etnews.com##div.ad_txt",
+                "id": "e497aae3-3dca-4b84-99e5-bb48f1366405",
+                "name": "etnews.com##div.ad_news_text",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com",
@@ -17857,13 +17883,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad_txt"
+                        "selector": "div.ad_news_text"
                     }
                 }
             },
             {
-                "id": "65060b6e-5729-42d7-b5a9-ba7a5fa30826",
-                "name": "etnews.com##div.box_type1",
+                "id": "f30810a6-9a41-4448-b028-d8d9b1d9afe5",
+                "name": "etnews.com##div.et_sub_wrap>div[style=\"position:absolute; width:160px; height:600px; left: -160px; top:178px; z-index:999;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com",
@@ -17871,13 +17897,13 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.box_type1"
+                        "selector": "div.et_sub_wrap>div[style=\"position:absolute; width:160px; height:600px; left: -160px; top:178px; z-index:999;\"]"
                     }
                 }
             },
             {
-                "id": "88487d48-b4e9-4fba-b8d1-ceb17be15618",
-                "name": "etnews.com##div.box_type2",
+                "id": "1dd92698-0e36-41b6-8ac7-235e0873dac5",
+                "name": "etnews.com##iframe[src^=\"http://www.etnews.com/tools/refresh_script.html\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com",
@@ -17885,49 +17911,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.box_type2"
-                    }
-                }
-            },
-            {
-                "id": "b3066f16-161e-4501-96e3-edaf9cc52e8d",
-                "name": "etnews.com##div.left_ad_div",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.left_ad_div"
-                    }
-                }
-            },
-            {
-                "id": "053265a1-5f8f-470f-bc90-a5436e46e363",
-                "name": "etnews.com##div.top_ad_art",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.top_ad_art"
-                    }
-                }
-            },
-            {
-                "id": "634f8a7b-1dc2-42e8-9665-9de837ac33a0",
-                "name": "etnews.com##div[class^=\"right_ad\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[class^=\"right_ad\"]"
+                        "selector": "iframe[src^=\"http://www.etnews.com/tools/refresh_script.html\"]"
                     }
                 }
             },

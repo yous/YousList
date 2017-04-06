@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 2t8qud9uj5md7taf0Yx+9A
+! Checksum: GXnyvg/lK6v39ivO8BMX6g
 ! Version: 20170406
 
 ! General element hiding rules
@@ -518,10 +518,10 @@
 ||esports.dailygame.co.kr/comment/ad_realclick.php^
 ||et-code.ru/code/show.php^
 ||etc.gamechosun.co.kr/banner/
-||etnews.com/ek_js/detail_ad_combinepop.js^
-||etnews.com/tools/etnews_hns.js^
-||etnews.com/tools/ict_highlight.js^
-||etnews.com/tools/ict_terms.js^
+||etnews.com/tools/etnews_hns.js^$domain=etnews.com
+||etnews.com/tools/ict_highlight.js^$domain=etnews.com
+||etnews.com/tools/ict_terms.js^$domain=etnews.com
+||etnews.com/tools/refresh_script.html^$domain=etnews.com
 ||eto.co.kr/Data/Xml/localuser/adv/
 ||eto.co.kr/adv/
 ||etorrent.co.kr/etorrent/300_250.php^$domain=etorrent.co.kr
@@ -1267,21 +1267,19 @@ esports.dailygame.co.kr##iframe[src^="/comment/ad_readclick.php"]
 esports.dailygame.co.kr##iframe[src^="http://www.dailygame.co.kr/ad/dispad_bot.html"]
 esports.dailygame.co.kr##iframe[src^="http://www.dailygame.co.kr/ad/dispad_right.html"]
 esports.dailygame.co.kr##iframe[src^="http://www.dailygame.co.kr/ad/dispad_top.html"]
-etnews.com##div#RightWingBanner
-etnews.com##div#articleBody>div[style="margin-top:15px;margin-bottom:5px;"]
-etnews.com##div#articleBody>div[style="text-align:center"]
-etnews.com##div#bannerTopmostBox
+etnews.com##aside.ad_300x250
+etnews.com##aside.ad_ic
+etnews.com##aside.ad_text
+etnews.com##div#FloatLayer1
+etnews.com##div#FloatLayer2
 etnews.com##div#livere_ad
-etnews.com##div#promotionBanner
-etnews.com##div#right>div[style="margin-left:0px;"]
-etnews.com##div#talklink_chatAd
-etnews.com##div#wingLeftSticky
-etnews.com##div.ad_txt
-etnews.com##div.box_type1
-etnews.com##div.box_type2
-etnews.com##div.left_ad_div
-etnews.com##div.top_ad_art
-etnews.com##div[class^="right_ad"]
+etnews.com##div#wingBanner
+etnews.com##div.ad_250x180
+etnews.com##div.ad_355x220
+etnews.com##div.ad_90x90
+etnews.com##div.ad_news_text
+etnews.com##div.et_sub_wrap>div[style="position:absolute; width:160px; height:600px; left: -160px; top:178px; z-index:999;"]
+etnews.com##iframe[src^="http://www.etnews.com/tools/refresh_script.html"]
 eto.co.kr##div.tvSideAd
 etoday.co.kr##div#ad_site_top
 etoday.co.kr##div.cont_left_article_w>div[style="position:relative;margin: 40px 0 0 25px;width:500px;height:120px;"]
