@@ -15808,6 +15808,20 @@
                 }
             },
             {
+                "id": "ab20afa5-8e7a-46d1-a96c-a64e00dc9691",
+                "name": "code.tutsplus.com##div.avert",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?code\\.tutsplus\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.avert"
+                    }
+                }
+            },
+            {
                 "id": "a44366fe-bb07-4047-b738-f2a24463190f",
                 "name": "codeyarns.com##div.wpcnt",
                 "content": {
