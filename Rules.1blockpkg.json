@@ -578,6 +578,20 @@
                 }
             },
             {
+                "id": "fbdb443f-ef06-4cb5-a9ff-155ea43a63e2",
+                "name": "##iframe[src^=\"http://ad.atdmt.com/d/a.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ad.atdmt.com/d/a.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "77b21a9c-69b9-4f12-b128-57b4de687282",
                 "name": "##iframe[src^=\"http://ad.ezday.co.kr/NetInsight/\"]",
                 "content": {
@@ -3003,6 +3017,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.applead\\.co\\.kr",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f770836c-a2f6-40d8-a28b-9b5201490a85",
+                "name": "ad.atdmt.com/d/a.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.atdmt\\.com/d/a\\.html",
                         "load-type": []
                     },
                     "action": {
@@ -36916,6 +36943,20 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-slot"
+                    }
+                }
+            },
+            {
+                "id": "a54a8ca5-f663-4138-a4f2-b39c907ea676",
+                "name": "thenounproject.com##section.advertisement",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thenounproject\\.com",
+                        "load-type": []
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.advertisement"
                     }
                 }
             },
