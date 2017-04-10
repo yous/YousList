@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: xKvxXpRfUMkk6XayYChqrw
+! Checksum: nfqty6HT0HYhhEZEjJSZGg
 ! Version: 20170410
 
 ! General element hiding rules
@@ -102,6 +102,7 @@
 ##iframe[src^="http://cdn04.sndkorea.co.kr/"]
 ##iframe[src^="http://chie8oo.com/afr.php"]
 ##iframe[src^="http://cm.interworksmedia.co.kr/adTagRequest.htm"]
+##iframe[src^="http://compass.adop.cc/RD/"]
 ##iframe[src^="http://cpv.ad.naver.com/adshow"]
 ##iframe[src^="http://d.a1comm.co.kr/"]
 ##iframe[src^="http://dgate.joins.com/hc.aspx"]
@@ -465,6 +466,7 @@
 ||cm1.icontact.kr/script/cm_fadein_*.js^
 ||cm1.icontact.kr/script/cm_keywordlink_*.js^
 ||cm2.cjmooter.com^
+||compass.adop.cc/RD/
 ||connect.facebook.net/en_US/fbadnw.js^
 ||coolsoft.altervista.org/sites/all/themes/coolsoft/js/coolsoft.js^
 ||cpv.ad.naver.com/adshow^
@@ -2160,9 +2162,19 @@ news1.kr##div.s_news_list>ul>div[style="padding:5px; background:#EBEBEB; margin-
 newsen.com##div#ad250
 newshankuk.com##div.bannerBottomR
 newshankuk.com##div.bannerTopR
-newsis.com##div#div_ad1
-newsis.com##div#div_ad2
+newsis.com##div#detail1-1
+newsis.com##div#detail3-1
+newsis.com##div#detail3-2
+newsis.com##div#detail3-3
+newsis.com##div#shuffle
+newsis.com##div.ad_border_bottom
+newsis.com##div.ad_border_in
+newsis.com##div.ad_border_top
+newsis.com##div[class^="banner_1024_1024_"]
 newsis.com##iframe[src^="/ad/view_banner.html"]
+newsis.com##li#detail2-11
+newsis.com##span#header_left_ad
+newsis.com##span#header_right_ad
 newspim.com##body>div[style="position:absolute; top:170px; z-index:1000; margin-left:500px; left:50%;"]
 newspim.com##body>div[style="position:absolute; top:180px; z-index:1000; margin-left:-620px; left:50%;"]
 newspim.com##body>div[style="position:absolute; top:780px; z-index:1000; margin-left:500px; left:50%;"]
