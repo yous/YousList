@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: nfqty6HT0HYhhEZEjJSZGg
+! Checksum: YFkwniLXtiBl25GdFkovIQ
 ! Version: 20170410
 
 ! General element hiding rules
@@ -726,6 +726,8 @@
 ||mktag.mt.co.kr/event.ems/
 ||mobi.luxad.kr/ad/
 ||mobi.luxad.net/ad/
+||mobile.newsis.com/ad_list/ad.html^$domain=mobile.newsis.com
+||mobile.newsis.com/direct_copy2.html^$domain=mobile.newsis.com
 ||mobs.luxad.kr/media/
 ||monkey-broker-d.openx.net/w/1.0/jstag^
 ||mp.mmnneo.com^
@@ -1980,11 +1982,15 @@ mnews.sbs.co.kr##div.efoot_bnr_ad
 mobile.newsis.com##body>div[style="height:30px;"]
 mobile.newsis.com##body>div[style="position:fixed;bottom:0px;width:100%;z-index:2001"]
 mobile.newsis.com##body>div[style="width:100%;position:fixed;bottom:0;background:transparent;z-index:2"]
-mobile.newsis.com##div#article>div[style="padding:30px 0 0 12px;"]
+mobile.newsis.com##div#ad_layer_con
+mobile.newsis.com##div#article>div[style="padding:10px 0 0 12px;"]
 mobile.newsis.com##div#article>div[style="text-align:center;"]
-mobile.newsis.com##div#content>section>div.bxcn[style="padding:10px 0 0 10px; height:160px;"]
+mobile.newsis.com##div#content>section>div.bxcn[style="padding:10px 0 0 10px; height:172px;"]
 mobile.newsis.com##div#content>section>div.bxcn[style="padding:10px 0 0 10px; height:180px;"]
+mobile.newsis.com##div#content>section>div.bxcn[style="padding:8px 0 0 8px; text-align: center;"]
 mobile.newsis.com##div#content>section>div.bxcn[style="padding:8px 0 0 8px;"]
+mobile.newsis.com##div#content>section>div.bxcn[style="text-align:center;"]
+mobile.newsis.com##iframe[src^="/ad_list/ad.html"]
 moneyweek.co.kr##div#adsentop
 moneyweek.co.kr##div#aside>div.ad_banner
 moneyweek.co.kr##div.related>div[style="position:absolute; top:0; right:0px; width:200px; height:200px;"]
