@@ -18307,6 +18307,45 @@
                 }
             },
             {
+                "id": "c68b2747-0e2f-4adc-ad80-b577fc6301ea",
+                "name": "drmola.com##div.ad_aside1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?drmola\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_aside1"
+                    }
+                }
+            },
+            {
+                "id": "c5a56679-4fe2-44e2-ac7c-3ee1c426aa85",
+                "name": "drmola.com##div.aside_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?drmola\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.aside_ad"
+                    }
+                }
+            },
+            {
+                "id": "d4ef7797-e760-4717-a220-0229da161d60",
+                "name": "drmola.com##div.fancybox-wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?drmola\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.fancybox-wrap"
+                    }
+                }
+            },
+            {
                 "id": "b92ba372-6642-4971-9467-87b797216486",
                 "name": "dt.co.kr##div#gisa>table",
                 "content": {
