@@ -92,7 +92,6 @@ class FilterParser:
             trigger['url-filter'] = self.DOMAIN_PREFIX + url.replace('.', '\\.')
         else:
             trigger['url-filter'] = '.*'
-        trigger['load-type'] = []
 
         action = OrderedDict()
         action['type'] = 'css-display-none'
@@ -136,7 +135,6 @@ class FilterParser:
                                 [r'\\\|$', '$']]:
             url_regex = re.sub(search, replace, url_regex)
         trigger['url-filter'] = url_regex
-        trigger['load-type'] = []
 
         opt_dict = self._parse_options(options)
         trigger.update(opt_dict)
