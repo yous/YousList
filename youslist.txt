@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: R9koRmZca+IhARvNyI4+Cw
+! Checksum: Y85y9G4mvlNU8suP/79geQ
 ! Version: 20170411
 
 ! General element hiding rules
@@ -1358,10 +1358,8 @@ foxnews.com##div.ad-unit
 foxnews.com##div.advert
 france2.fr##div#eShowPubTop
 france2.fr##div.adCtnt
-gall.dcinside.com##div#dc_advertisement
-gall.dcinside.com##div#list_right_ad
 gall.dcinside.com##div#zzbang_div
-gall.dcinside.com##div._BTN_AD_
+gall.dcinside.com##div._BTN_AD_:not([id="dc_advertisement"])
 gall.dcinside.com##span#zzbang_img
 gall.dcinside.com##span._BTN_AD_
 game.xportsnews.com##div.ad_1

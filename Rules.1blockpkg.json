@@ -19072,34 +19072,6 @@
                 }
             },
             {
-                "id": "3e01fba8-96b0-4268-86f1-e27208491548",
-                "name": "gall.dcinside.com##div#dc_advertisement",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gall\\.dcinside\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#dc_advertisement"
-                    }
-                }
-            },
-            {
-                "id": "6505a7ac-836c-4996-b864-01a1dea102a7",
-                "name": "gall.dcinside.com##div#list_right_ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gall\\.dcinside\\.com",
-                        "load-type": []
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#list_right_ad"
-                    }
-                }
-            },
-            {
                 "id": "df892cc8-ada6-476c-ba5d-0698478a5cf9",
                 "name": "gall.dcinside.com##div#zzbang_div",
                 "content": {
@@ -19114,8 +19086,8 @@
                 }
             },
             {
-                "id": "dd5f974c-3555-4a16-bd93-b57b4e8b87d4",
-                "name": "gall.dcinside.com##div._BTN_AD_",
+                "id": "e5f2e980-d6c0-4188-973f-ac737be15ac7",
+                "name": "gall.dcinside.com##div._BTN_AD_:not([id=\"dc_advertisement\"])",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gall\\.dcinside\\.com",
@@ -19123,7 +19095,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div._BTN_AD_"
+                        "selector": "div._BTN_AD_:not([id=\"dc_advertisement\"])"
                     }
                 }
             },
