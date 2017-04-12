@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: lf1wVBxtf6ROSImhp4K/UQ
+! Checksum: SdXDVKjGxOdtt82TyUl2cg
 ! Version: 20170412
 
 ! General element hiding rules
@@ -555,6 +555,7 @@
 ||fs.jtbc.joins.com/common/ui/ad/
 ||g.novostimira.biz/j/
 ||gaihn.co.kr/eventbanner/
+||gall.dcinside.com/_js/blockadblock.js^
 ||gall.dcinside.com/dc_ad_*_JH.php^
 ||gamefocus.co.kr/bncode2/banner_left.html^
 ||gamefocus.co.kr/bncode2/banner_mainflash.html^
@@ -798,6 +799,8 @@
 ||nscreen.neoebiz.co.kr/xJqScreen.php^
 ||nscreen.neoebiz.co.kr/xJqScreenView.php^
 ||nson.encock.com/media/
+||nstatic.dcinside.com/dgn/gallery/images/popup/addblock^
+||nstatic.dcinside.com/dgn/gallery/images/popup/zze/*.png^
 ||nv*.veta.naver.com/dr^
 ||nv.veta.naver.com/fxshow^$domain=naver.com
 ||nw.realssp.co.kr^
@@ -1377,6 +1380,7 @@ france2.fr##div#eShowPubTop
 france2.fr##div.adCtnt
 gall.dcinside.com##div#zzbang_div
 gall.dcinside.com##div._BTN_AD_:not([id="dc_advertisement"]):not([id="list_right_ad"])
+gall.dcinside.com##div:has(img[src^="http://nstatic.dcinside.com/dgn/gallery/images/popup/addblock"])
 gall.dcinside.com##span#zzbang_img
 gall.dcinside.com##span._BTN_AD_
 game.xportsnews.com##div.ad_1

@@ -6933,6 +6933,18 @@
                 }
             },
             {
+                "id": "e9d25b79-ed04-4ffa-bfc3-70037b9744f4",
+                "name": "gall.dcinside.com/_js/blockadblock.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gall\\.dcinside\\.com/_js/blockadblock\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "bb04cc47-4176-4337-8a1e-98d3e5f2c819",
                 "name": "gall.dcinside.com/dc_ad_*_JH.php",
                 "content": {
@@ -10004,6 +10016,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nson\\.encock\\.com/media/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "953cbb3a-8abc-42b3-aeef-a9db291151ad",
+                "name": "nstatic.dcinside.com/dgn/gallery/images/popup/addblock",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nstatic\\.dcinside\\.com/dgn/gallery/images/popup/addblock"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "138d709a-c841-4bec-888a-816be832e165",
+                "name": "nstatic.dcinside.com/dgn/gallery/images/popup/zze/*.png",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nstatic\\.dcinside\\.com/dgn/gallery/images/popup/zze/.*\\.png"
                     },
                     "action": {
                         "type": "block"
@@ -20291,6 +20327,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div._BTN_AD_:not([id=\"dc_advertisement\"]):not([id=\"list_right_ad\"])"
+                    }
+                }
+            },
+            {
+                "id": "7efbb8a1-1944-4b8e-af96-1fd9461c6829",
+                "name": "gall.dcinside.com##div:has(img[src^=\"http://nstatic.dcinside.com/dgn/gallery/images/popup/addblock\"])",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gall\\.dcinside\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div:has(img[src^=\"http://nstatic.dcinside.com/dgn/gallery/images/popup/addblock\"])"
                     }
                 }
             },
