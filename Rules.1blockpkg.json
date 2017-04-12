@@ -23922,6 +23922,32 @@
                 }
             },
             {
+                "id": "83c2a7aa-05fe-4579-840f-6542ea7004b4",
+                "name": "m.dcinside.com##article.cont_gall>div[style=\"margin-top:1px;margin-bottom:1px;padding-bottom:0px;text-align:center;height:50px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "article.cont_gall>div[style=\"margin-top:1px;margin-bottom:1px;padding-bottom:0px;text-align:center;height:50px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "9cd62043-6b26-417b-9503-19b3edf8fa53",
+                "name": "m.dcinside.com##div#list_more_foot>div[style=\"margin-top:10px;margin-bottom:10px;padding-bottom:0px;text-align:center;height:250px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#list_more_foot>div[style=\"margin-top:10px;margin-bottom:10px;padding-bottom:0px;text-align:center;height:250px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "9a17422b-5f2e-41f1-9e08-f3b26405142f",
                 "name": "m.dcinside.com##div#search_layer>div[style=\"margin-top:1px;margin-bottom:1px;text-align:center;height:100px;\"]",
                 "content": {
