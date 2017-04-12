@@ -64,6 +64,8 @@ class FilterParser:
         if '##' in line:
             # Element hiding rule
             self._parse_hiding_rule(line)
+        elif line.startswith('#@#'):
+            sys.stderr.write('Skipping this rule: ' + line + '\n')
         elif '#@#' in line:
             # Element hiding exception rule
             raise Exception('Cannot handle this rule: ' + line)
