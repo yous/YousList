@@ -4415,6 +4415,18 @@
                 }
             },
             {
+                "id": "7f4da467-e89a-4fc3-b6e3-37bb0afac75f",
+                "name": "ap.lijit.com/www/delivery/fpi.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ap\\.lijit\\.com/www/delivery/fpi\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "30a54c65-9381-49b2-8b46-314c275bc6db",
                 "name": "api.adns.contentlink.co.kr/adserver/delivery/dwad.php",
                 "content": {
@@ -4432,6 +4444,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?api\\.adns\\.contentlink\\.co\\.kr/adserver/delivery/iframe\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a09efd50-d22f-49c8-9ac4-04abf5522a3b",
+                "name": "api.content.ad/Scripts/widget2.aspx",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?api\\.content\\.ad/Scripts/widget2\\.aspx"
                     },
                     "action": {
                         "type": "block"
@@ -6083,6 +6107,18 @@
                         "if-domain": [
                             "prod.danawa.com"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "86b3e377-dd2a-4913-b9f4-2af45948a106",
+                "name": "delivery.amessagewithabottle.com/www/delivery/ajs.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?delivery\\.amessagewithabottle\\.com/www/delivery/ajs\\.php"
                     },
                     "action": {
                         "type": "block"
