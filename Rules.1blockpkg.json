@@ -27208,6 +27208,58 @@
                 }
             },
             {
+                "id": "7ac30a30-d02e-4eb5-9ef3-6ddab2d58895",
+                "name": "m.thisisgame.com##div#ad_new_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.thisisgame\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_new_bottom"
+                    }
+                }
+            },
+            {
+                "id": "71a80ff0-ea6a-4f53-9d05-5185cbb1a9e3",
+                "name": "m.thisisgame.com##div.article-content>div[style=\"text-align: center;margin:10px auto 0 auto;width:350px;height:120px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.thisisgame\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article-content>div[style=\"text-align: center;margin:10px auto 0 auto;width:350px;height:120px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "d8f3c900-ed37-466a-846a-8f0c75dffc31",
+                "name": "m.thisisgame.com##div.google-ad-part",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.thisisgame\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.google-ad-part"
+                    }
+                }
+            },
+            {
+                "id": "e6fbb0ba-6ea6-4334-bfde-c7d98665c05e",
+                "name": "m.thisisgame.com##div[id^=\"ad_layer\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.thisisgame\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"ad_layer\"]"
+                    }
+                }
+            },
+            {
                 "id": "6dbedfee-0765-47f0-b5f0-87846783c393",
                 "name": "m.torrentcup.net##a[href^=\"/to_toto.html\"]",
                 "content": {
