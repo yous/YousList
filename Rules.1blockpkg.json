@@ -35151,6 +35151,19 @@
                 }
             },
             {
+                "id": "17552dd5-7e7f-40d1-aa72-ae4975199eb7",
+                "name": "thisisgame.com##div#ad-ti",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thisisgame\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad-ti"
+                    }
+                }
+            },
+            {
                 "id": "ddb75164-836f-494d-8753-5e5c176335ea",
                 "name": "thisisgame.com##div#divMsnAD",
                 "content": {
@@ -35177,6 +35190,32 @@
                 }
             },
             {
+                "id": "7f2cfb9f-bfd0-473b-bb7a-f9b952f216f9",
+                "name": "thisisgame.com##div.ad-wing-linker",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thisisgame\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-wing-linker"
+                    }
+                }
+            },
+            {
+                "id": "ae15a8d3-eb99-4139-9372-a8c14438a2a4",
+                "name": "thisisgame.com##div.article-subpart>div[style=\"text-align:center; padding-top:20px; padding-bottom:10px; \"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thisisgame\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article-subpart>div[style=\"text-align:center; padding-top:20px; padding-bottom:10px; \"]"
+                    }
+                }
+            },
+            {
                 "id": "906b55cf-312f-43fb-a155-0277da78b282",
                 "name": "thisisgame.com##div.mid-ad-part",
                 "content": {
@@ -35186,6 +35225,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.mid-ad-part"
+                    }
+                }
+            },
+            {
+                "id": "3d8cda8f-7ad2-4abe-bb4c-8710fa1bfc8e",
+                "name": "thisisgame.com##div[id^=\"ad_layer\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thisisgame\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"ad_layer\"]"
                     }
                 }
             },
