@@ -23814,6 +23814,71 @@
                 }
             },
             {
+                "id": "0df1dd65-fe5b-4385-a88b-489a3e417cdb",
+                "name": "m.breaknews.com##div#bottom_src",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.breaknews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bottom_src"
+                    }
+                }
+            },
+            {
+                "id": "734f0054-4f09-4286-937c-de3cf499aac2",
+                "name": "m.breaknews.com##div#treer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.breaknews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#treer"
+                    }
+                }
+            },
+            {
+                "id": "a2aa22da-599f-437f-83c3-6b8f6d8d2841",
+                "name": "m.breaknews.com##div#treer3",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.breaknews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#treer3"
+                    }
+                }
+            },
+            {
+                "id": "72c489bc-58c3-4a7d-bfdd-9a0b5cad64bf",
+                "name": "m.breaknews.com##div.container_le>div[style=\"margin: 10px 0 10px 0\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.breaknews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.container_le>div[style=\"margin: 10px 0 10px 0\"]"
+                    }
+                }
+            },
+            {
+                "id": "14cf3942-04b9-4957-9e1c-8d58792eeebc",
+                "name": "m.breaknews.com##div.container_le>div[style=\"margin: 10px 0 10px 0; text-align: center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.breaknews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.container_le>div[style=\"margin: 10px 0 10px 0; text-align: center;\"]"
+                    }
+                }
+            },
+            {
                 "id": "2f40f2ed-005d-4bdd-93e6-ddb5017bf1bf",
                 "name": "m.cafe.naver.com##div.area_sa",
                 "content": {
