@@ -39944,6 +39944,19 @@
                 }
             },
             {
+                "id": "911cf3f9-f78b-4c9c-9cbc-436fc1bb681a",
+                "name": "youtube.com##ytd-compact-promoted-video-renderer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?youtube\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ytd-compact-promoted-video-renderer"
+                    }
+                }
+            },
+            {
                 "id": "bfc608a4-0c96-4877-a427-e11f74814e4a",
                 "name": "youtube.com##ytd-search-pyv-renderer",
                 "content": {
