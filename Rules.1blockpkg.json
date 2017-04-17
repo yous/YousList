@@ -4700,6 +4700,18 @@
                 }
             },
             {
+                "id": "3c261221-acee-4a54-80aa-bc43941e0cbd",
+                "name": "c.amazon-adsystem.com/aax2/amzn_ads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?c\\.amazon-adsystem\\.com/aax2/amzn_ads\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "fd598e9e-7e18-4a6f-a8b8-aadda37913ad",
                 "name": "c.betrad.com/surly.js",
                 "content": {
@@ -8120,6 +8132,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joynews\\.inews24\\.com/php/ad/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "47a1d9ec-051e-4730-ae77-825ff5a6713e",
+                "name": "js-sec.indexww.com/ht/htw-gawker.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?js-sec\\.indexww\\.com/ht/htw-gawker\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -12267,6 +12291,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wstatic\\.dcinside\\.com/gallery/top/ad_top/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c0deb14e-e74c-474b-a39a-fc0eb8599e2d",
+                "name": "x.kinja-static.com/assets/packaged-js/dollars.*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?x\\.kinja-static\\.com/assets/packaged-js/dollars\\..*\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -20768,6 +20804,149 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.widget_banner_skin"
+                    }
+                }
+            },
+            {
+                "id": "71bfea03-0543-4e99-bf46-bfac6f7a9bfc",
+                "name": "gizmodo.com##div#taboola-top-banner-abp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gizmodo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#taboola-top-banner-abp"
+                    }
+                }
+            },
+            {
+                "id": "8ba4f0f4-7651-4afe-a2e0-380325f33f4a",
+                "name": "gizmodo.com##div.ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gizmodo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container"
+                    }
+                }
+            },
+            {
+                "id": "af6e4afd-145d-4795-b3ae-c76b2b68d9f2",
+                "name": "gizmodo.com##div.ad-infinite-promotion",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gizmodo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-infinite-promotion"
+                    }
+                }
+            },
+            {
+                "id": "ff7afc2d-7a87-416d-a6e1-a028bcd74f2b",
+                "name": "gizmodo.com##div.ad-mobile",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gizmodo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-mobile"
+                    }
+                }
+            },
+            {
+                "id": "dd1c84ca-6700-46d3-8471-82ff902e82da",
+                "name": "gizmodo.com##div.ad-promotions-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gizmodo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-promotions-container"
+                    }
+                }
+            },
+            {
+                "id": "898a53ff-c6b2-4cf0-9435-d2766ae9170e",
+                "name": "gizmodo.com##div.ad-starter-pageview",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gizmodo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-starter-pageview"
+                    }
+                }
+            },
+            {
+                "id": "f83d49ed-8acc-45d9-8938-66f6ce1395f0",
+                "name": "gizmodo.com##div.ad-top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gizmodo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-top"
+                    }
+                }
+            },
+            {
+                "id": "2d35215c-b9f4-48c9-9969-34ee6022717e",
+                "name": "gizmodo.com##div.ad-unit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gizmodo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-unit"
+                    }
+                }
+            },
+            {
+                "id": "fef53d6c-c0a6-4f59-93e3-bf96aab423ad",
+                "name": "gizmodo.com##div.ad-wide",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gizmodo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-wide"
+                    }
+                }
+            },
+            {
+                "id": "d39eda68-b39f-40c1-a529-67674122f89c",
+                "name": "gizmodo.com##div.js_ad-dynamic",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gizmodo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.js_ad-dynamic"
+                    }
+                }
+            },
+            {
+                "id": "6ca27bab-1854-4318-a7d7-09335bc1f979",
+                "name": "gizmodo.com##div.splashy-ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gizmodo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.splashy-ad-container"
                     }
                 }
             },
