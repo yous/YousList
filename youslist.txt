@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: zpBAF2sxLaH7byFZPnyDVw
+! Checksum: 2o2a2XzmodwFmyINCrN4Pw
 ! Version: 20170417
 
 ! Workaround for BlockAdBlock
@@ -150,6 +150,7 @@
 ##iframe[src^="http://mymyad.co.kr/"]
 ##iframe[src^="http://nad1.mklaud.com/ad"]
 ##iframe[src^="http://nads.lumieyes.com/show/media/"]
+##iframe[src^="http://news.nate.com/etc/AD"]
 ##iframe[src^="http://nws.lumieyes.com/"]
 ##iframe[src^="http://ojsfile.ohmynews.com/AD_FILE/"]
 ##iframe[src^="http://p.lumieyes.com/"]
@@ -163,6 +164,7 @@
 ##iframe[src^="http://res.heraldm.com/iframe/"]
 ##iframe[src^="http://rsense-ad.realclick.co.kr/rsense/view_ad_adcrm.html"]
 ##iframe[src^="http://server.cpmstar.com/view.aspx"]
+##iframe[src^="http://shop.nate.com/shopbox/shopbox.htm"]
 ##iframe[src^="http://sin1.g.adnxs.com/if"]
 ##iframe[src^="http://static.joins.com/isplus/ui/ad/"]
 ##iframe[src^="http://syndication.exoclick.com/ads-iframe-display.php"]
@@ -791,6 +793,7 @@
 ||news.maxmovie.com/movie_info/sha_news_view_tlinkAD.asp^
 ||news.nate.com/Etc/AdRectangleBanner^
 ||news.nate.com/Etc/ViewAD^
+||news.nate.com/etc/AD^
 ||news.nate.com/etc/ad*
 ||news.sbs.co.kr/ad/delay_redirect.jsp^
 ||news.sportsseoul.com/ad/
@@ -890,6 +893,7 @@
 ||sgate.opap.co.kr/view/
 ||sh.adingo.jp^
 ||shop.nate.com/shopbox/news.htm^
+||shop.nate.com/shopbox/shopbox.htm^
 ||shoppingbox.joinsmsn.com^
 ||sin1.g.adnxs.com/ab^
 ||sisainlive.com/script/ad_flow2.js^$domain=sisainlive.com
@@ -2196,10 +2200,15 @@ news.mt.co.kr##div.ad
 news.mt.co.kr##div.art_topad_area
 news.mt.co.kr##div.aside_bundle>div.mgt16
 news.mt.co.kr##div[id^="viewBtmThumbAds"]
+news.nate.com##div#ad_sponsorBar
 news.nate.com##div#newsmediaBanner
 news.nate.com##div#spaceBanner
-news.nate.com##div[class$="socialAD"]
-news.nate.com##div[class^="smartLink"]
+news.nate.com##div.ad290x330
+news.nate.com##div.bn300
+news.nate.com##div.newsMainBanner
+news.nate.com##div.sidebar_banner
+news.nate.com##div.socialAD
+news.nate.com##iframe#AdCommerce
 news.nate.com##iframe#AdShopSearch
 news.nate.com##iframe#socialAD
 news.naver.com##div.article_body>table[width="252"][align="right"]
