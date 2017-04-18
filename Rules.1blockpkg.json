@@ -9017,11 +9017,29 @@
                 }
             },
             {
-                "id": "dff59714-4d46-4516-b2ef-372f5440c8ce",
-                "name": "mediaus.co.kr/bannerManager/inc/",
+                "id": "f709037d-e329-4d01-9c12-d6271a378e01",
+                "name": "mediaus.co.kr/banner/$domain=mediaus.co.kr",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediaus\\.co\\.kr/bannerManager/inc/"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediaus\\.co\\.kr/banner/",
+                        "if-domain": [
+                            "mediaus.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d3578587-9858-4d83-8e60-5ce8b8e0f8dc",
+                "name": "mediaus.co.kr/bannerManager/inc/$domain=mediaus.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediaus\\.co\\.kr/bannerManager/inc/",
+                        "if-domain": [
+                            "mediaus.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -9419,11 +9437,11 @@
                 }
             },
             {
-                "id": "ffd62bdb-1b57-434b-b26e-7f39fd323c21",
-                "name": "n25.nsmartad.com/click",
+                "id": "aa4070ca-41ea-4627-ac9c-dfb25f7dd340",
+                "name": "n*.nsmartad.com/click",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?n25\\.nsmartad\\.com/click"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?n.*\\.nsmartad\\.com/click"
                     },
                     "action": {
                         "type": "block"
@@ -9431,11 +9449,11 @@
                 }
             },
             {
-                "id": "a0adcb77-c86d-4c9b-9834-10f29ac5ba44",
-                "name": "n45.nsmartad.com/imp",
+                "id": "5c2441c5-7904-411f-99c1-e44f1669523e",
+                "name": "n*.nsmartad.com/imp",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?n45\\.nsmartad\\.com/imp"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?n.*\\.nsmartad\\.com/imp"
                     },
                     "action": {
                         "type": "block"
@@ -28829,19 +28847,6 @@
                 }
             },
             {
-                "id": "729f96f3-19de-425f-922b-0e37c7ad3402",
-                "name": "mediaus.co.kr##div[style=\"position:relative;width:250px;height:139px;overflow:hidden;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediaus\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[style=\"position:relative;width:250px;height:139px;overflow:hidden;\"]"
-                    }
-                }
-            },
-            {
                 "id": "bbc11510-1cd9-4c24-a620-06013713739f",
                 "name": "mediaus.co.kr##iframe[src^=\"/banner/\"]",
                 "content": {
@@ -28851,6 +28856,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/banner/\"]"
+                    }
+                }
+            },
+            {
+                "id": "e966d484-009d-49e5-9c4b-27b7088892ee",
+                "name": "mediaus.co.kr##iframe[src^=\"http://www.mediaus.co.kr/banner/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediaus\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.mediaus.co.kr/banner/\"]"
                     }
                 }
             },

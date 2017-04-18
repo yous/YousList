@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: IG+Zylz1NFwqicEVPIKHnw
-! Version: 20170417
+! Checksum: 14sv50lnGA03+qpr+0SoUQ
+! Version: 20170418
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -729,7 +729,8 @@
 ||mediamixad.com/ad/liveAd^
 ||mediamixad.com/ad/webad^
 ||mediarichad.com/adbanner/
-||mediaus.co.kr/bannerManager/inc/
+||mediaus.co.kr/banner/^$domain=mediaus.co.kr
+||mediaus.co.kr/bannerManager/inc/$domain=mediaus.co.kr
 ||mediaview.co.kr/ad_Viewer.js^
 ||mediaview.co.kr/ad_Viewer2.php^
 ||menu.mt.co.kr/banner/adPlayer.swf^
@@ -762,8 +763,8 @@
 ||mydaily.co.kr/news/ad_news*.htm^
 ||mymyad.co.kr^
 ||myvip.feeldmc.com/code.ems/
-||n25.nsmartad.com/click^
-||n45.nsmartad.com/imp^
+||n*.nsmartad.com/click^
+||n*.nsmartad.com/imp^
 ||na.mmnneo.com/*neoad*.js^
 ||na.mmnneo.com/banner.widget.asp^
 ||nad1.mklaud.com/ad^
@@ -2027,8 +2028,8 @@ mediatoday.co.kr##div#ad_www_normal_24
 mediatoday.co.kr##div#banner_header_wide
 mediatoday.co.kr##div#talklink_contents>div.not_print[style="float:right;margin:0 0 15px 15px;width:300px;height:250px;"]
 mediatoday.co.kr##iframe[src*="/adItem/"]
-mediaus.co.kr##div[style="position:relative;width:250px;height:139px;overflow:hidden;"]
 mediaus.co.kr##iframe[src^="/banner/"]
+mediaus.co.kr##iframe[src^="http://www.mediaus.co.kr/banner/"]
 metroseoul.co.kr##div#adop_top_banner
 metroseoul.co.kr##div.ad-box
 metroseoul.co.kr##div.body-right-box>div[style="margin-bottom:15px; margin-top:15px;background-color: #eaeaea;"]
