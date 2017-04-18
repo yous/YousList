@@ -26169,6 +26169,32 @@
                 }
             },
             {
+                "id": "e1d76e65-ee30-431b-936a-f45d3f815484",
+                "name": "m.mediaus.co.kr##div.advertisementItem",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mediaus\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advertisementItem"
+                    }
+                }
+            },
+            {
+                "id": "2e5639b5-7fb9-4af6-a90a-a3cf7206054a",
+                "name": "m.mediaus.co.kr##section.advertisment",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mediaus\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.advertisment"
+                    }
+                }
+            },
+            {
                 "id": "f3f291a1-2cc1-40df-bab2-640e44372683",
                 "name": "m.metroseoul.co.kr##div#ad_1",
                 "content": {
