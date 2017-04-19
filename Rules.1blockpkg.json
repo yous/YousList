@@ -17160,6 +17160,19 @@
                 }
             },
             {
+                "id": "20baf8d2-99f9-4490-9966-7621caf0a50a",
+                "name": "boannews.com##div#powerbiz",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?boannews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#powerbiz"
+                    }
+                }
+            },
+            {
                 "id": "64deb0a4-9c92-475f-b557-0af953d5d2f1",
                 "name": "boannews.com##div#powerbiz_area",
                 "content": {
@@ -17169,6 +17182,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#powerbiz_area"
+                    }
+                }
+            },
+            {
+                "id": "a97206c4-4c46-4552-bf29-88fe0800c827",
+                "name": "boannews.com##div#right_top_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?boannews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#right_top_banner"
                     }
                 }
             },
@@ -17195,6 +17221,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#scroll_banner2"
+                    }
+                }
+            },
+            {
+                "id": "b9feb8c5-9b6e-4985-a8d2-ff9bbc71f7c0",
+                "name": "boannews.com##iframe#bottom_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?boannews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe#bottom_banner"
+                    }
+                }
+            },
+            {
+                "id": "ba35ad5d-938c-4295-957e-3a5f16503bea",
+                "name": "boannews.com##iframe#main_banner_A",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?boannews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe#main_banner_A"
+                    }
+                }
+            },
+            {
+                "id": "0df1de54-3075-4f72-a8c7-8d4c1104fad6",
+                "name": "boannews.com##iframe#main_banner_B",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?boannews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe#main_banner_B"
                     }
                 }
             },
@@ -17299,6 +17364,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "table.searchad"
+                    }
+                }
+            },
+            {
+                "id": "f527d45c-5013-4427-aedc-3ecb1892c3d9",
+                "name": "cdn-city.livere.com##ul.contents-list>li.tenping-title",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn-city\\.livere\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.contents-list>li.tenping-title"
                     }
                 }
             },
