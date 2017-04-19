@@ -24141,6 +24141,19 @@
                 }
             },
             {
+                "id": "ae05a9ed-db70-44da-a69f-072b2f3d66e1",
+                "name": "m.boannews.com##section.banner-zone",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.boannews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.banner-zone"
+                    }
+                }
+            },
+            {
                 "id": "0df1dd65-fe5b-4385-a88b-489a3e417cdb",
                 "name": "m.breaknews.com##div#bottom_src",
                 "content": {
