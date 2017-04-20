@@ -2266,6 +2266,18 @@
                 }
             },
             {
+                "id": "e62f434d-76d8-41c8-b685-2f6adac3341e",
+                "name": "*-adkpf.newscloud.or.kr/NetInsight/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "-adkpf\\.newscloud\\.or\\.kr/NetInsight/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b9609bec-d1b1-4b51-8659-7b5ef14957ab",
                 "name": "*/RealMedia/ads/",
                 "content": {
@@ -20865,6 +20877,45 @@
                 }
             },
             {
+                "id": "f5613281-2d57-44d7-a74c-aecc359721cb",
+                "name": "gamemeca.com##div#ad_background",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_background"
+                    }
+                }
+            },
+            {
+                "id": "f96cb22a-8981-4fb6-8525-02d2764a4ad0",
+                "name": "gamemeca.com##div#ad_topScroll",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_topScroll"
+                    }
+                }
+            },
+            {
+                "id": "68d46ad4-dde2-4f11-9049-8fcf7df9a000",
+                "name": "gamemeca.com##div#bg_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bg_ad"
+                    }
+                }
+            },
+            {
                 "id": "e2a97b06-a154-408e-8e3e-2d634ca64498",
                 "name": "gamemeca.com##div.btmBannerTwo",
                 "content": {
@@ -20887,6 +20938,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.goggle_ad_bottom_728x90"
+                    }
+                }
+            },
+            {
+                "id": "a711044f-9227-4641-ae6d-2bb7f6db7123",
+                "name": "gamemeca.com##div.mainListRight1>div.pb10",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mainListRight1>div.pb10"
+                    }
+                }
+            },
+            {
+                "id": "3c2bfab6-68d0-498c-97f4-6578653073d0",
+                "name": "gamemeca.com##div.mainListRight1>div.pt0",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mainListRight1>div.pt0"
+                    }
+                }
+            },
+            {
+                "id": "1b17fd20-e027-470a-a13f-9ecc5c5cfa0b",
+                "name": "gamemeca.com##div.midBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.midBanner"
                     }
                 }
             },
