@@ -27273,6 +27273,19 @@
                 }
             },
             {
+                "id": "6c484104-6e8a-4465-9dde-71a405da360e",
+                "name": "m.podbbang.com##p.banner-podcast",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.podbbang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "p.banner-podcast"
+                    }
+                }
+            },
+            {
                 "id": "f68ac93d-903d-46c5-bb40-2c7d10016a26",
                 "name": "m.ruliweb.com##div.ad_wrapper",
                 "content": {
