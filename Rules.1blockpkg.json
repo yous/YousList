@@ -4393,6 +4393,30 @@
                 }
             },
             {
+                "id": "edf52d5a-bb36-4721-a851-8fdc1b6ac0bd",
+                "name": "aka-cdn-ns.adtechus.com/media/moat/adtechbrands*/moatad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?aka-cdn-ns\\.adtechus\\.com/media/moat/adtechbrands.*/moatad\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b2a57628-8029-4b26-a903-752da1ad2202",
+                "name": "aka-cdn.adtechus.com/media/moat/adtechbrands*/moatad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?aka-cdn\\.adtechus\\.com/media/moat/adtechbrands.*/moatad\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b9911674-42a8-492c-aff9-64e9c71f3133",
                 "name": "alea.adam.ad.daum.net/mobilead",
                 "content": {
@@ -4581,6 +4605,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?assoc-amazon\\.com/s/ads\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "af304db0-835e-4ed1-b9b6-7deec0d53a9d",
+                "name": "at.atwola.com/addyn/3.0/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?at\\.atwola\\.com/addyn/3\\.0/"
                     },
                     "action": {
                         "type": "block"
@@ -10970,6 +11006,18 @@
                 }
             },
             {
+                "id": "7296bafe-f52d-436f-acc4-46654569149d",
+                "name": "secure.uac.advertising.com/wrapper/aceUAC.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?secure\\.uac\\.advertising\\.com/wrapper/aceUAC\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0a7a6dd9-607c-4613-8819-cfdde8d2e952",
                 "name": "segye.com/Articles/Components/Ad/",
                 "content": {
@@ -11849,6 +11897,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tab\\.clickmon\\.co\\.kr/ad_img/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e2aa0616-f7bb-4602-81f7-4d8f16f593ae",
+                "name": "tags.mathtag.com/notify/js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tags\\.mathtag\\.com/notify/js"
                     },
                     "action": {
                         "type": "block"
@@ -35810,6 +35870,123 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"bd_\"][class*=\"_m\"][class$=\"_2\"][style=\"position:relative;text-align:center;margin:-10px 0 5px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "2514f110-57da-42a6-a230-257f847ca928",
+                "name": "techcrunch.com##div#acc-native-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?techcrunch\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#acc-native-ad"
+                    }
+                }
+            },
+            {
+                "id": "afcccd35-c05f-404f-91ec-082365fd081b",
+                "name": "techcrunch.com##div.ad-300x250",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?techcrunch\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-300x250"
+                    }
+                }
+            },
+            {
+                "id": "c93a96d8-4ba7-40e5-ab55-e82877659579",
+                "name": "techcrunch.com##div.ad-cluster-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?techcrunch\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-cluster-container"
+                    }
+                }
+            },
+            {
+                "id": "dcba340a-2356-45ff-aa1b-a72ced850221",
+                "name": "techcrunch.com##div.ad-top-mobile",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?techcrunch\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-top-mobile"
+                    }
+                }
+            },
+            {
+                "id": "8bfda88b-cb57-4153-881d-7879ed97dd8a",
+                "name": "techcrunch.com##div.ad-unit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?techcrunch\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-unit"
+                    }
+                }
+            },
+            {
+                "id": "7cce39c5-dc7b-406d-9992-867f6103e11c",
+                "name": "techcrunch.com##div.header-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?techcrunch\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.header-ad"
+                    }
+                }
+            },
+            {
+                "id": "3387a2f9-9c34-4ee0-bdda-6059eb691603",
+                "name": "techcrunch.com##div[id^=\"adsDiv\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?techcrunch\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"adsDiv\"]"
+                    }
+                }
+            },
+            {
+                "id": "810a1003-bb55-42b5-8177-66e0d573bc11",
+                "name": "techcrunch.com##div[id^=\"atwAdFrame\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?techcrunch\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"atwAdFrame\"]"
+                    }
+                }
+            },
+            {
+                "id": "9b8f4fec-1de1-4d8c-a16f-959e109725b5",
+                "name": "techcrunch.com##iframe[id^=\"atwAdFrame\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?techcrunch\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[id^=\"atwAdFrame\"]"
                     }
                 }
             },
