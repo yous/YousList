@@ -641,6 +641,19 @@
                 }
             },
             {
+                "id": "5da83b0f-c925-4294-ad83-7d028a4178aa",
+                "name": "##iframe[src^=\"http://ad.pitta.ne.jp/ads/show/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ad.pitta.ne.jp/ads/show/\"]"
+                    }
+                }
+            },
+            {
                 "id": "c374f5b5-beb8-4d9b-bb7c-7922e1c40042",
                 "name": "##iframe[src^=\"http://ad.priel.co.kr/\"]",
                 "content": {
@@ -2701,6 +2714,18 @@
                 }
             },
             {
+                "id": "98eb83d4-8929-4050-9669-1872924bf0d7",
+                "name": "ad.ad-stir.com/ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.ad-stir\\.com/ad"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "81491890-22bb-4b9e-b601-ea007c5cd0e6",
                 "name": "ad.ad-ya.net",
                 "content": {
@@ -3138,6 +3163,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.pickple\\.net"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "10cfee28-9c91-4390-8b02-574102b45ffd",
+                "name": "ad.pitta.ne.jp/ads/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.pitta\\.ne\\.jp/ads/"
                     },
                     "action": {
                         "type": "block"
@@ -8218,6 +8255,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?js-sec\\.indexww\\.com/ht/htw-gawker\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c2b9a284-22a0-457e-abcd-278920b55417",
+                "name": "js.ad-stir.com/js/adstir.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?js\\.ad-stir\\.com/js/adstir\\.js"
                     },
                     "action": {
                         "type": "block"
