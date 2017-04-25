@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: Fn+fKaPAzkTL1TruRwnqtQ
+! Checksum: a38Aa2lFZh1FTwXRdG/n5A
 ! Version: 20170425
 
 ! Workaround for BlockAdBlock
@@ -1721,7 +1721,14 @@ m.chosun.com##iframe[src^="http://m.chosun.com/tad.html"]
 m.clien.net##div#ct>section>div[style="clear:both;width:90%; margin:0 auto;"]
 m.clien.net##div#ct>section>div[style="width:92%; height:84px; margin:0 auto; background-color:#eaf3e8;  padding:16px 12px 16px 12px;"]
 m.comic.naver.com##div.ads_sc
-m.dailian.co.kr##div#ad_layer110
+m.dailian.co.kr##body>div[data-type="scroll"][style="position:fixed;width:100%;height:80px;bottom:0;left:0;z-index:999;"]
+m.dailian.co.kr##body>div[style="height:80px;"]
+m.dailian.co.kr##div#newsct_body>div[style="width:100%;text-align:center;padding-left:10px;"]
+m.dailian.co.kr##div#newsct_body>div[style="width:200px;height:200px;padding:25px 0 10px 15px;float:right;"]
+m.dailian.co.kr##div.responsive_col2>div[style="width:100%;padding:5px 0 5px;text-align:center;"]
+m.dailian.co.kr##div.responsive_col2>div[style="width:100%;text-align:center; padding-top:5px"]
+m.dailian.co.kr##div.responsive_col2>div[style="width:100%;text-align:center;padding:5px 0 5px 0;"]
+m.dailian.co.kr##div[id^="AD_LIVE_AREA_"]
 m.daum.net##div.bnr_add
 m.daum.net##div.box_bnr
 m.daum.net##div.float_acm_banner
