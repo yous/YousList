@@ -22624,6 +22624,19 @@
                 }
             },
             {
+                "id": "dc89809a-7833-491e-b4cd-cc638c5fb97e",
+                "name": "insight.co.kr##a.adsbyinsight",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?insight\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a.adsbyinsight"
+                    }
+                }
+            },
+            {
                 "id": "0c17e1d2-b008-44ca-a8a8-f8f58c9f6277",
                 "name": "insight.co.kr##div.container-banner-left",
                 "content": {
