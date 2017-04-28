@@ -40538,6 +40538,58 @@
                 }
             },
             {
+                "id": "a926651f-d67e-4498-8952-3eda3cc207f6",
+                "name": "whatis.techtarget.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?whatis\\.techtarget\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "ac81436d-9dbc-49e8-81be-8d52efc16760",
+                "name": "whatis.techtarget.com##div.ad-embedded",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?whatis\\.techtarget\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-embedded"
+                    }
+                }
+            },
+            {
+                "id": "52279fac-46a2-4637-b0b0-c463f59acc84",
+                "name": "whatis.techtarget.com##div.ad-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?whatis\\.techtarget\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "c9f7ec11-2481-43b7-a725-398f3bc1aa43",
+                "name": "whatis.techtarget.com##section.ads-by-google",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?whatis\\.techtarget\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.ads-by-google"
+                    }
+                }
+            },
+            {
                 "id": "b0efd012-1cff-4dc2-92fe-ee017926ff74",
                 "name": "wikia.com##div.wikia-ad",
                 "content": {
