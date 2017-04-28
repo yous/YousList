@@ -11869,6 +11869,21 @@
                 }
             },
             {
+                "id": "cf0c3e79-4d62-49d1-a1fe-0080582f81dc",
+                "name": "story369.com/ad/$domain=story369.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?story369\\.com/ad/",
+                        "if-domain": [
+                            "story369.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f0a88447-19c3-49fd-837f-c55ef32c13b1",
                 "name": "sunnyworks.co.kr/data/SW*.html",
                 "content": {
@@ -36283,6 +36298,110 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.View_TPAd"
+                    }
+                }
+            },
+            {
+                "id": "2d2d1ff7-b4c2-4f17-873b-663943a2c214",
+                "name": "story369.com##div#frm>div[style=\"position:absolute;top:635px;left:-190px;width:120px;height:600px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?story369\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#frm>div[style=\"position:absolute;top:635px;left:-190px;width:120px;height:600px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "900d3299-f145-4b25-b867-1b1c46aaa6c4",
+                "name": "story369.com##div#frm>div[style=\"position:absolute;top:635px;right:-140px;width:120px;height:600px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?story369\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#frm>div[style=\"position:absolute;top:635px;right:-140px;width:120px;height:600px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "576e84b2-cfcd-442f-83a7-5fe8bbba630f",
+                "name": "story369.com##div.ad300",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?story369\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad300"
+                    }
+                }
+            },
+            {
+                "id": "d2fd9dfd-69a4-441f-b514-0cdcc0f154e3",
+                "name": "story369.com##div.ad46860",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?story369\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad46860"
+                    }
+                }
+            },
+            {
+                "id": "ff1558ec-58da-48b3-a32c-2fbb6cbbad97",
+                "name": "story369.com##div.adpromotion",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?story369\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adpromotion"
+                    }
+                }
+            },
+            {
+                "id": "4a3d69b0-68c5-4ae8-b667-70a83013d8c9",
+                "name": "story369.com##div.ads_t5",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?story369\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ads_t5"
+                    }
+                }
+            },
+            {
+                "id": "a8c60d63-05c8-4c3f-920b-e522d9e256bf",
+                "name": "story369.com##div.promotion",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?story369\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.promotion"
+                    }
+                }
+            },
+            {
+                "id": "d7ccd25d-24b1-4afa-8974-fd329e964d3a",
+                "name": "story369.com##iframe[src^=\"../ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?story369\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"../ad/\"]"
                     }
                 }
             },
