@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: wK1X842maVjX8YFG9Rthlw
-! Version: 20170428
+! Checksum: dxLt9Xfh+5antOn2RxcX2g
+! Version: 20170507
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -705,7 +705,6 @@
 ||m.chosun.com/200.html^$domain=m.chosun.com
 ||m.chosun.com/itad.html^$domain=m.chosun.com
 ||m.chosun.com/tad.html^$domain=m.chosun.com
-||m.clien.net/cs3/nbpad/viewMiddle^$domain=m.clien.net
 ||m.edaily.co.kr/html/ad/ad_*.html^$domain=m.edaily.co.kr
 ||m.edaily.co.kr/html/ad/edailyTouch.js^$domain=m.edaily.co.kr
 ||m.etnews.com/tools/refresh_script.html^$domain=m.etnews.com
@@ -1198,12 +1197,19 @@ christiantoday.co.kr##div.container>div[style="position:absolute;width:160px;hei
 christiantoday.co.kr##div.container>div[style="position:absolute;width:160px;height:600px;margin-left:1065px;margin-top:256px;text-align:right;"]
 christiantoday.co.kr##div.unit-banner
 christiantoday.co.kr##section.bk-contents>div[style="margin-top:10px;"]
-clien.net##div#Recent>div.RecentWrap[style="text-align:center;margin:0 auto;"]
-clien.net##div.aside_sponser
-clien.net##div.board_main div[style="clear:both;width:780px; height:115px; padding:0px; text-align:center;padding-left:5px;"]
-clien.net##div.board_main>div[style="padding-top:15px; text-align:center; margin:0 auto;"]
-clien.net##p.ad_area1
-clien.net##ul.srch>li>div[style="clear:both;width:780px; padding:0px; text-align:center;padding:0 3px 5px 5px;"]
+clien.net##div#div-main-center
+clien.net##div#div-main-top
+clien.net##div#div-mw-list-center
+clien.net##div#div-mw-under
+clien.net##div#div-pc-list-top
+clien.net##div#div-pc-list-under
+clien.net##div#div-pc-side
+clien.net##div#div-pc-view-center
+clien.net##div#m_naverAd
+clien.net##div#naverAd
+clien.net##div.ad-row
+clien.net##div.header-banner
+clien.net##div.list-banner
 code.tutsplus.com##div.avert
 codeyarns.com##div.wpcnt
 comic.naver.com##div#adpostArea
@@ -1721,8 +1727,6 @@ m.chosun.com##div.txt_ad_box
 m.chosun.com##iframe[src^="http://m.chosun.com/200.html"]
 m.chosun.com##iframe[src^="http://m.chosun.com/itad.html"]
 m.chosun.com##iframe[src^="http://m.chosun.com/tad.html"]
-m.clien.net##div#ct>section>div[style="clear:both;width:90%; margin:0 auto;"]
-m.clien.net##div#ct>section>div[style="width:92%; height:84px; margin:0 auto; background-color:#eaf3e8;  padding:16px 12px 16px 12px;"]
 m.comic.naver.com##div.ads_sc
 m.dailian.co.kr##body>div[data-type="scroll"][style="position:fixed;width:100%;height:80px;bottom:0;left:0;z-index:999;"]
 m.dailian.co.kr##body>div[style="height:80px;"]
