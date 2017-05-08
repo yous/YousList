@@ -2654,18 +2654,6 @@
                 }
             },
             {
-                "id": "48b948f0-c470-4d44-9359-c0f8ff3c170f",
-                "name": "ad*.realclick.co.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad.*\\.realclick\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "9793836d-20ab-429b-b775-60e680efb1a5",
                 "name": "ad-cdn.technoratimedia.com",
                 "content": {
@@ -3434,6 +3422,18 @@
                 }
             },
             {
+                "id": "7dabb788-0363-4043-85be-86d37f542d26",
+                "name": "ade.realclick.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ade\\.realclick\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "09a65ba3-c232-42a6-8cd4-a43fa792d859",
                 "name": "adex.ednplus.com",
                 "content": {
@@ -3770,6 +3770,18 @@
                 }
             },
             {
+                "id": "a33b6b53-a641-4cb5-b641-2b84c621b73b",
+                "name": "adr.realclick.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adr\\.realclick\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4dcc037a-9306-4147-89a0-36f1e254fc63",
                 "name": "adrequisitor-af.lp.uol.com.br/uolaf.js",
                 "content": {
@@ -3998,35 +4010,11 @@
                 }
             },
             {
-                "id": "20893da3-8a74-4751-bf79-b40105c19187",
-                "name": "ads.realclick.co.kr/ad_headcopy/criteo_rta.html",
+                "id": "469fc4c3-0a0a-4e4f-9977-b85f30457116",
+                "name": "ads.realclick.co.kr",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.realclick\\.co\\.kr/ad_headcopy/criteo_rta\\.html"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "65c8a9fd-d6f3-4424-8db8-28ec596c74d5",
-                "name": "ads.realclick.co.kr/ad_tpl/back_criteo_rta.rc",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.realclick\\.co\\.kr/ad_tpl/back_criteo_rta\\.rc"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "786bff81-781e-44e7-a492-3ead45b0342d",
-                "name": "ads.realclick.co.kr/ad_tpl/headcopy.rc",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.realclick\\.co\\.kr/ad_tpl/headcopy\\.rc"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.realclick\\.co\\.kr"
                     },
                     "action": {
                         "type": "block"
@@ -4267,6 +4255,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adv\\.mediakeep\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0be1cd5c-2aea-4a2b-b97a-e6e86159a82f",
+                "name": "adv.realclick.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adv\\.realclick\\.co\\.kr"
                     },
                     "action": {
                         "type": "block"
@@ -9119,6 +9119,51 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediaus\\.co\\.kr/bannerManager/inc/",
+                        "if-domain": [
+                            "mediaus.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d3ce468a-0f00-483b-bc64-87c8d93f6856",
+                "name": "mediaus.co.kr/script/ad.control.js$domain=mediaus.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediaus\\.co\\.kr/script/ad\\.control\\.js",
+                        "if-domain": [
+                            "mediaus.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "342c0a39-b170-4583-90df-104f56c4df79",
+                "name": "mediaus.co.kr/script/banner.js$domain=mediaus.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediaus\\.co\\.kr/script/banner\\.js",
+                        "if-domain": [
+                            "mediaus.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d02c982b-ce8a-4f53-8c17-fbc8cbbe066f",
+                "name": "mediaus.co.kr/script/floating.banner.js$domain=mediaus.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediaus\\.co\\.kr/script/floating\\.banner\\.js",
                         "if-domain": [
                             "mediaus.co.kr"
                         ]
