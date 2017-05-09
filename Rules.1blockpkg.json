@@ -41519,6 +41519,19 @@
                 }
             },
             {
+                "id": "c4f9914c-3577-48ec-a0cb-2bb45a0fdb00",
+                "name": "youtube.com##div#masthead-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?youtube\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#masthead-ad"
+                    }
+                }
+            },
+            {
                 "id": "8a03d563-db22-4c64-97e3-6b0aea4643c2",
                 "name": "youtube.com##div#video-masthead",
                 "content": {
@@ -41580,6 +41593,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "ytd-search-pyv-renderer"
+                    }
+                }
+            },
+            {
+                "id": "5876e973-212c-4b96-9875-17ab04c436dd",
+                "name": "youtube.com##ytd-video-masthead-ad-renderer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?youtube\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ytd-video-masthead-ad-renderer"
                     }
                 }
             },
