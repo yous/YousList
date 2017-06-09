@@ -28078,6 +28078,19 @@
                 }
             },
             {
+                "id": "86acda4e-04af-4b9a-85eb-74565aaef2f7",
+                "name": "m.ruliweb.com##div.mo_ad_main_ti_wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.ruliweb\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mo_ad_main_ti_wrapper"
+                    }
+                }
+            },
+            {
                 "id": "375d02c5-5344-4bf6-8030-5650b45c4aa2",
                 "name": "m.segye.com##div#textbanner",
                 "content": {
