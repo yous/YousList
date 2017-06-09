@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 2AU/HlsIN8KpZViCHhrj8g
+! Checksum: 4ISTlOP5HNgUZ9gs7U9dAQ
 ! Version: 20170609
 
 ! Workaround for BlockAdBlock
@@ -856,6 +856,7 @@
 ||partner.googleadservices.com/gpt/pubads_impl_*.js^
 ||pd4-imp.revsci.net/rtbads/pq^
 ||performix.co.kr/cgi-bin/conad.fcgi/
+||ph.mediatoday.co.kr/adcontent/script/*.js^$domain=mediatoday.co.kr
 ||pinaya.center/addons/document_contents_blind_advertise/css/blind.min.css^$domain=pinaya.center
 ||pinaya.center/addons/document_contents_blind_advertise/js/blind.min.js^$domain=pinaya.center
 ||pl*.puhtml.com^
@@ -2104,7 +2105,12 @@ media.daum.net##div#banner250
 media.daum.net##div#daum-ad-root
 media.daum.net##div.wing_bnr3
 media.daum.net##iframe#daum-ad-root-ifrm
+mediatoday.co.kr##div#ad_www_left1
+mediatoday.co.kr##div#ad_www_left2
 mediatoday.co.kr##div#ad_www_normal_24
+mediatoday.co.kr##div#ad_www_normal_25
+mediatoday.co.kr##div#ad_www_normal_26
+mediatoday.co.kr##div#ad_www_right1
 mediatoday.co.kr##div#banner_header_wide
 mediatoday.co.kr##div#talklink_contents>div.not_print[style="float:right;margin:0 0 15px 15px;width:300px;height:250px;"]
 mediatoday.co.kr##iframe[src*="/adItem/"]
