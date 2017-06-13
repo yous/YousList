@@ -5803,6 +5803,18 @@
                 }
             },
             {
+                "id": "7d01fd97-9ff7-4eb1-a394-ecee59987227",
+                "name": "cdnjs.cloudflare.com/ajax/libs/lazyad-loader/*/lazyad-loader.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdnjs\\.cloudflare\\.com/ajax/libs/lazyad-loader/.*/lazyad-loader\\.min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "17ffee09-407f-460d-a9fa-4c3385ae8ca7",
                 "name": "cdnprism.pandora.tv/_adv_img/prism_ad/",
                 "content": {
@@ -7383,6 +7395,36 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?h.*\\.adscope\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "659ac152-1ada-42f4-af8f-5b520e82eca1",
+                "name": "hackintosh.computer/doubleclick/show_ads.js$domain=hackintosh.computer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hackintosh\\.computer/doubleclick/show_ads\\.js",
+                        "if-domain": [
+                            "hackintosh.computer"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "10676273-8bdf-442a-86ff-fdca2d2d6783",
+                "name": "hackintosh.computer/wp-external/lazyadloader.js$domain=hackintosh.computer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hackintosh\\.computer/wp-external/lazyadloader\\.js",
+                        "if-domain": [
+                            "hackintosh.computer"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -10537,26 +10579,11 @@
                 }
             },
             {
-                "id": "75188cac-a3cb-40c6-a49c-c01ccb72a083",
-                "name": "pagead2.googlesyndication.com/pagead/$domain=~hackintosh.zone",
+                "id": "093fae71-ecc8-4f30-8c76-88e543b26e80",
+                "name": "pagead2.googlesyndication.com/pagead/",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pagead2\\.googlesyndication\\.com/pagead/",
-                        "unless-domain": [
-                            "hackintosh.zone"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "868de889-7eac-4035-9f9f-4084241a92cc",
-                "name": "pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pagead2\\.googlesyndication\\.com/pagead/js/.*/show_ads_impl\\.js"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pagead2\\.googlesyndication\\.com/pagead/"
                     },
                     "action": {
                         "type": "block"
