@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: d68TtRvcaEOgshrIgje8tQ
+! Checksum: HW667uJZH7c8aV1UJ1UwUQ
 ! Version: 20170614
 
 ! Workaround for BlockAdBlock
@@ -708,6 +708,9 @@
 ||m.asiatoday.co.kr/kn/adop2.js^$domain=m.asiatoday.co.kr
 ||m.asiatoday.co.kr/kn/inbnet.html^$domain=m.asiatoday.co.kr
 ||m.chosun.com/200.html^$domain=m.chosun.com
+||m.chosun.com/gnc1.html^$domain=m.chosun.com
+||m.chosun.com/gnc2.html^$domain=m.chosun.com
+||m.chosun.com/gnc3.html^$domain=m.chosun.com
 ||m.chosun.com/itad.html^$domain=m.chosun.com
 ||m.chosun.com/tad.html^$domain=m.chosun.com
 ||m.edaily.co.kr/html/ad/ad_*.html^$domain=m.edaily.co.kr
@@ -1740,6 +1743,9 @@ m.chosun.com##div.ad_txt
 m.chosun.com##div.art_sub_news_box
 m.chosun.com##div.txt_ad_box
 m.chosun.com##iframe[src^="http://m.chosun.com/200.html"]
+m.chosun.com##iframe[src^="http://m.chosun.com/gnc1.html"]
+m.chosun.com##iframe[src^="http://m.chosun.com/gnc2.html"]
+m.chosun.com##iframe[src^="http://m.chosun.com/gnc3.html"]
 m.chosun.com##iframe[src^="http://m.chosun.com/itad.html"]
 m.chosun.com##iframe[src^="http://m.chosun.com/tad.html"]
 m.comic.naver.com##div.ads_sc

@@ -8713,6 +8713,51 @@
                 }
             },
             {
+                "id": "1ee91e2b-0bdb-4943-837e-104a36171eec",
+                "name": "m.chosun.com/gnc1.html$domain=m.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.chosun\\.com/gnc1\\.html",
+                        "if-domain": [
+                            "m.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2711b3ba-5c23-4054-9362-dc597ffe4af3",
+                "name": "m.chosun.com/gnc2.html$domain=m.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.chosun\\.com/gnc2\\.html",
+                        "if-domain": [
+                            "m.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b9a19178-e498-418a-a1e5-a7efb149071e",
+                "name": "m.chosun.com/gnc3.html$domain=m.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.chosun\\.com/gnc3\\.html",
+                        "if-domain": [
+                            "m.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "3d4e1e4b-15a9-4711-992a-629b94ce3f2a",
                 "name": "m.chosun.com/itad.html$domain=m.chosun.com",
                 "content": {
@@ -25124,6 +25169,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://m.chosun.com/200.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "f1b9b9bc-13c1-4225-b042-8965cbe04cbd",
+                "name": "m.chosun.com##iframe[src^=\"http://m.chosun.com/gnc1.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://m.chosun.com/gnc1.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "0604d9ff-5845-44dd-9d7b-bf25cc0e292f",
+                "name": "m.chosun.com##iframe[src^=\"http://m.chosun.com/gnc2.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://m.chosun.com/gnc2.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "5d59eef4-2443-4df4-a878-72bc038df553",
+                "name": "m.chosun.com##iframe[src^=\"http://m.chosun.com/gnc3.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://m.chosun.com/gnc3.html\"]"
                     }
                 }
             },
