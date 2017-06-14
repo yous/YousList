@@ -34930,6 +34930,19 @@
                 }
             },
             {
+                "id": "e90f392b-8885-4164-909c-5cd97d785ab4",
+                "name": "pri.org##aside.promo-box--promo",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pri\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.promo-box--promo"
+                    }
+                }
+            },
+            {
                 "id": "18eee181-33e2-4b7a-b600-777df1ff830e",
                 "name": "prod.danawa.com##div#floatAdLayer",
                 "content": {
