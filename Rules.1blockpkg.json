@@ -26538,6 +26538,19 @@
                 }
             },
             {
+                "id": "da8a3f6f-6e04-4133-8bb2-0764cea199e4",
+                "name": "m.hungryapp.co.kr##div#popUP_ZONE",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.hungryapp\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#popUP_ZONE"
+                    }
+                }
+            },
+            {
                 "id": "fff6f016-ac58-4814-89e2-526443cda53a",
                 "name": "m.hungryapp.co.kr##div.Btm-banner",
                 "content": {
