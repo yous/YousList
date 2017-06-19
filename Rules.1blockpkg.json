@@ -37614,6 +37614,19 @@
                 }
             },
             {
+                "id": "ca5acfbf-2abc-4861-998d-1b4a0877e47e",
+                "name": "thisisgame.com##div#gatewayBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thisisgame\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#gatewayBanner"
+                    }
+                }
+            },
+            {
                 "id": "9be7925d-0258-4f4d-bdb5-20fd923f1a8f",
                 "name": "thisisgame.com##div.ad",
                 "content": {
