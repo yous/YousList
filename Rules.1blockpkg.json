@@ -2424,6 +2424,18 @@
                 }
             },
             {
+                "id": "3c2290b5-2db2-4704-b827-308466ad3259",
+                "name": "178.175.132.130/script/ad.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?178\\.175\\.132\\.130/script/ad\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8e288590-d3ad-43ad-8291-d164785dff68",
                 "name": "211.234.119.116/pront/default.asp",
                 "content": {
@@ -5983,6 +5995,30 @@
                 }
             },
             {
+                "id": "a516a0fa-aef0-435e-9122-24527ef39f3d",
+                "name": "cmbestsrv.com/vpaid/units/*/creatives/creative_js.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cmbestsrv\\.com/vpaid/units/.*/creatives/creative_js\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e282eae0-1305-4a77-968f-46fef502702b",
+                "name": "cmbestsrv.com/vpaid/units/*/infra/cmTagSLIDER_INSTREAM.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cmbestsrv\\.com/vpaid/units/.*/infra/cmTagSLIDER_INSTREAM\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2eea1496-f714-4f08-8310-39d3766c22de",
                 "name": "compass.adop.cc/RD/",
                 "content": {
@@ -6627,6 +6663,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dt\\.co\\.kr/js/top_ad\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6c3e9400-f3af-43e9-a2c6-273aa4e44c67",
+                "name": "dyn.loolav.space/plyclosablebanner/pclosablebanner.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dyn\\.loolav\\.space/plyclosablebanner/pclosablebanner\\.min\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -10492,6 +10540,18 @@
                 }
             },
             {
+                "id": "ad93b4c1-8da8-4167-ad24-cbf94e88581a",
+                "name": "onclkds.com/apu.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?onclkds\\.com/apu\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d9d47086-bbf3-442e-840d-8f0a104a4b71",
                 "name": "onshowit.com/apu.php",
                 "content": {
@@ -12103,6 +12163,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?syndication\\.exoclick\\.com/splash\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "4472a0e9-df4f-4a9d-8c78-678b33d86a41",
+                "name": "t.mdn2015x1.com/build/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?t\\.mdn2015x1\\.com/build/"
                     },
                     "action": {
                         "type": "block"
@@ -21996,6 +22068,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.topad"
+                    }
+                }
+            },
+            {
+                "id": "fc12183c-ac14-4f02-b8b9-e96dcf7b95ba",
+                "name": "gorillavid.in##div#video_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gorillavid\\.in"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#video_ad"
+                    }
+                }
+            },
+            {
+                "id": "22a626a9-ae1c-47fb-9e11-1a4888eb5202",
+                "name": "gorillavid.in##div#wrad_container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gorillavid\\.in"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wrad_container"
                     }
                 }
             },
