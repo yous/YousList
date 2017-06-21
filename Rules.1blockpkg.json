@@ -11209,6 +11209,18 @@
                 }
             },
             {
+                "id": "5f7b9232-85b8-49f7-8203-dae201bc1c66",
+                "name": "securite.01net.com/ac",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?securite\\.01net\\.com/ac"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0a7a6dd9-607c-4613-8819-cfdde8d2e952",
                 "name": "segye.com/Articles/Components/Ad/",
                 "content": {
@@ -16420,6 +16432,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ttop_ad_banner"
+                    }
+                }
+            },
+            {
+                "id": "29735b2b-2ea6-45fb-83c6-1323537b6ced",
+                "name": "bfmtv.com##div.onf-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bfmtv\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.onf-ad"
+                    }
+                }
+            },
+            {
+                "id": "6c227d63-1492-483d-945c-d1add12ce7f0",
+                "name": "bfmtv.com##div.pubbanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bfmtv\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pubbanner"
                     }
                 }
             },
