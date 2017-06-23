@@ -1759,6 +1759,19 @@
                 }
             },
             {
+                "id": "bba2977b-3a12-4c4a-a95e-ba379e7f446f",
+                "name": "##iframe[src^=\"http://newsbanner.co.kr/newsad/advertiser/ad_blank.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://newsbanner.co.kr/newsad/advertiser/ad_blank.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "f819bd1b-c128-42ad-84c4-c75164c375a8",
                 "name": "##iframe[src^=\"http://nws.lumieyes.com/\"]",
                 "content": {
@@ -10218,6 +10231,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news1\\.kr/iframe/ad/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f3574936-08bb-4967-a450-252977818ed2",
+                "name": "newsbanner.co.kr/newsad/advertiser/ad_blank.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newsbanner\\.co\\.kr/newsad/advertiser/ad_blank\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -29192,6 +29217,97 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href^=\"/to_toto.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "5e4ce52c-cf5c-47f5-9736-d5dc6d5dd74e",
+                "name": "m.viva100.com##div.bm_box>div[style=\"width:360px; height:65px; margin:5px 0px 5px 0px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.viva100\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bm_box>div[style=\"width:360px; height:65px; margin:5px 0px 5px 0px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "b6766906-6bf3-4b5b-8d23-5039961e2bf5",
+                "name": "m.viva100.com##div.m_view_ad01",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.viva100\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m_view_ad01"
+                    }
+                }
+            },
+            {
+                "id": "7bdce3d3-38b6-4bdf-b388-8ac5e17ede8f",
+                "name": "m.viva100.com##div.m_view_ad05",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.viva100\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m_view_ad05"
+                    }
+                }
+            },
+            {
+                "id": "de306865-1e59-440d-8d8e-9ad7d638dfd1",
+                "name": "m.viva100.com##div.moblie_ad01",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.viva100\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.moblie_ad01"
+                    }
+                }
+            },
+            {
+                "id": "2d49beb3-f087-4e64-ada4-111c8d38abb4",
+                "name": "m.viva100.com##section.content>div[style=\"width:100%;height:190px;text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.viva100\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.content>div[style=\"width:100%;height:190px;text-align:center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "e8c8edc4-9f5f-469c-abfb-cc5ad3515aeb",
+                "name": "m.viva100.com##section.content>div[style=\"width:100%;height:250px;text-align:center;margin-bottom:10px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.viva100\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.content>div[style=\"width:100%;height:250px;text-align:center;margin-bottom:10px\"]"
+                    }
+                }
+            },
+            {
+                "id": "5ad3ce7d-dc9b-4e57-8f73-937439a1a337",
+                "name": "m.viva100.com##section.content>div[style=\"width:100%;height:260px;text-align:center\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.viva100\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.content>div[style=\"width:100%;height:260px;text-align:center\"]"
                     }
                 }
             },
