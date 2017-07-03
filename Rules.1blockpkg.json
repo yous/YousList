@@ -446,6 +446,19 @@
                 }
             },
             {
+                "id": "de243eb3-adf1-4ad6-b7df-9c8fa6e2217e",
+                "name": "##iframe[src^=\"//urldelivery.com/watch.\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//urldelivery.com/watch.\"]"
+                    }
+                }
+            },
+            {
                 "id": "4fb14ea5-2943-45b0-aad7-a6b27b8c14b3",
                 "name": "##iframe[src^=\"http://a1.dp25.kr/\"]",
                 "content": {
@@ -4830,6 +4843,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bizon\\.kr/bizon_ad/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e5fcd652-72cd-4a12-92c6-85fd701d4487",
+                "name": "bnhtml.com/invoke.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bnhtml\\.com/invoke\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -12108,6 +12133,21 @@
                 }
             },
             {
+                "id": "dbb5ddc4-e83d-4de5-871d-5c398ed3b10d",
+                "name": "static2.vidto.me/b8/b4/50/*.js$domain=vidto.me",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?static2\\.vidto\\.me/b8/b4/50/.*\\.js",
+                        "if-domain": [
+                            "vidto.me"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "cf0c3e79-4d62-49d1-a1fe-0080582f81dc",
                 "name": "story369.com/ad/$domain=story369.com",
                 "content": {
@@ -12509,6 +12549,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?uplus\\.kr/common/m_js/mobile_html_web4\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f1205b6d-9cd6-4ea1-8110-3f1445a66cc5",
+                "name": "urldelivery.com/watch.",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?urldelivery\\.com/watch\\."
                     },
                     "action": {
                         "type": "block"
