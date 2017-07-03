@@ -29442,6 +29442,32 @@
                 }
             },
             {
+                "id": "82e0097f-2303-42d3-9edd-961cb6ef9728",
+                "name": "m.womennews.co.kr##div.ad_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.womennews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_banner"
+                    }
+                }
+            },
+            {
+                "id": "61835f84-438c-4354-a5dd-433bde8176db",
+                "name": "m.womennews.co.kr##div.container>div.tcenter",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.womennews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.container>div.tcenter"
+                    }
+                }
+            },
+            {
                 "id": "0ee51ee1-d5d8-4968-b6d5-07bcae8980d2",
                 "name": "m.xportsnews.com##div#article-ad-area",
                 "content": {
