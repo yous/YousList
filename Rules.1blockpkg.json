@@ -15987,6 +15987,32 @@
                 }
             },
             {
+                "id": "99ba0c62-6a75-4eea-af91-d1810107dd66",
+                "name": "arstechnica.com##aside.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?arstechnica\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.ad"
+                    }
+                }
+            },
+            {
+                "id": "85888ce6-484c-4920-95f9-03731627d39d",
+                "name": "arstechnica.com##aside.ad_native",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?arstechnica\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.ad_native"
+                    }
+                }
+            },
+            {
                 "id": "f7748708-f626-4779-a6bf-7d3004c57417",
                 "name": "artsnews.mk.co.kr##div#IDFloatingNZ99",
                 "content": {
