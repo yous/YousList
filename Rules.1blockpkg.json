@@ -17625,41 +17625,80 @@
                 }
             },
             {
-                "id": "5ac71957-7811-44c9-93a5-fdf646b3a96d",
-                "name": "bloomberg.com##div.ad-v2",
+                "id": "d4f088b4-d6de-4e37-ba21-a1b089f7fa90",
+                "name": "bloomberg.com##div.bb-ads__ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloomberg\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad-v2"
+                        "selector": "div.bb-ads__ad"
                     }
                 }
             },
             {
-                "id": "e99942fd-e812-42bc-9851-71c1b174e96c",
-                "name": "bloomberg.com##div.article-rail-module-container[style^=\"z-index: 3;\"]",
+                "id": "124e006a-f148-47bd-9ab0-98d874fed6c0",
+                "name": "bloomberg.com##div.in-article-ad-dummy",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloomberg\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.article-rail-module-container[style^=\"z-index: 3;\"]"
+                        "selector": "div.in-article-ad-dummy"
                     }
                 }
             },
             {
-                "id": "df986d70-7088-42f4-83e6-be94632f128e",
-                "name": "bloomberg.com##div.header-ad-container",
+                "id": "7b3e22e3-a506-4c60-bc69-b660fd8dc3fb",
+                "name": "bloomberg.com##div.leaderboard-ad-dummy",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloomberg\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.header-ad-container"
+                        "selector": "div.leaderboard-ad-dummy"
+                    }
+                }
+            },
+            {
+                "id": "e4e65b39-0e62-45d3-9ee3-b2940b882a2b",
+                "name": "bloomberg.com##div.leaderboard-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloomberg\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.leaderboard-container"
+                    }
+                }
+            },
+            {
+                "id": "dcbb734b-2035-4480-9ba7-5ee03bdec083",
+                "name": "bloomberg.com##div.mobile-box-ad-dummy",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloomberg\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobile-box-ad-dummy"
+                    }
+                }
+            },
+            {
+                "id": "060a4e7a-d8e1-4990-8e01-32fde9d12959",
+                "name": "bloomberg.com##div.page-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloomberg\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.page-ad"
                     }
                 }
             },
