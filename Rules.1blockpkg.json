@@ -1941,6 +1941,19 @@
                 }
             },
             {
+                "id": "97cfaf16-614b-45c5-99c2-143752f2c915",
+                "name": "##iframe[src^=\"http://sc2.appldp.com/publisher-show-ads.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://sc2.appldp.com/publisher-show-ads.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "87e94af1-cd6e-42ef-85f2-fed47b05d25b",
                 "name": "##iframe[src^=\"http://server.cpmstar.com/view.aspx\"]",
                 "content": {
@@ -11216,6 +11229,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sba\\.about\\.co\\.kr/dbaExpose\\.aspx"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7a882db9-7ef9-4ad2-8839-5b00d68c51c9",
+                "name": "sc2.appldp.com/publisher-show-ads.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sc2\\.appldp\\.com/publisher-show-ads\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ade7d66c-9ed9-4374-985b-487372fa4779",
+                "name": "sc2.appldp.com/show-ads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sc2\\.appldp\\.com/show-ads\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -25629,6 +25666,84 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[id^=\"AD_LIVE_AREA_\"]"
+                    }
+                }
+            },
+            {
+                "id": "1dcae9ee-2ca7-489c-a711-1e643b860450",
+                "name": "m.dailysecu.com##div#m_article_content>div.m_min_size>div[style=\"margin:1em auto 0;height:200px;overflow:hidden;text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dailysecu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#m_article_content>div.m_min_size>div[style=\"margin:1em auto 0;height:200px;overflow:hidden;text-align:center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "848c5dbe-f83c-4e51-a8c6-631dea82e31e",
+                "name": "m.dailysecu.com##div.banner_article_inner_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dailysecu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_article_inner_box"
+                    }
+                }
+            },
+            {
+                "id": "de95212c-6195-4a85-9af7-65fb97ea853b",
+                "name": "m.dailysecu.com##div.m_aside>div.drag_mobile>div.edit_inner_content>div.align_center[style=\"margin:0 0 10px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dailysecu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m_aside>div.drag_mobile>div.edit_inner_content>div.align_center[style=\"margin:0 0 10px\"]"
+                    }
+                }
+            },
+            {
+                "id": "5b4c7121-67ca-4e8a-a25f-f7af95bc7b89",
+                "name": "m.dailysecu.com##div.m_aside>div.drag_mobile>div.edit_inner_content>div.align_center[style=\"margin:0 0 20px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dailysecu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m_aside>div.drag_mobile>div.edit_inner_content>div.align_center[style=\"margin:0 0 20px\"]"
+                    }
+                }
+            },
+            {
+                "id": "610a1d0f-2e6f-4a43-b647-79baec5d456f",
+                "name": "m.dailysecu.com##div.m_aside>div.drag_mobile>div.edit_inner_content>div.align_center[style=\"margin:10px 0 20px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dailysecu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m_aside>div.drag_mobile>div.edit_inner_content>div.align_center[style=\"margin:10px 0 20px\"]"
+                    }
+                }
+            },
+            {
+                "id": "e7cf1cb5-07c0-493c-bd9d-b43b86c800cf",
+                "name": "m.dailysecu.com##div.m_aside>div.drag_mobile>div.edit_inner_content>div.align_center[style=\"margin:20px 0 10px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dailysecu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m_aside>div.drag_mobile>div.edit_inner_content>div.align_center[style=\"margin:20px 0 10px\"]"
                     }
                 }
             },

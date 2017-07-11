@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: jucr3zM9Kumc6JXx28H/Tg
-! Version: 20170707
+! Checksum: tufEXHjYfr0YZe5zXzmcbw
+! Version: 20170711
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -167,6 +167,7 @@
 ##iframe[src^="http://redir.adap.tv/redir/mobile/mobile-ad-source.html"]
 ##iframe[src^="http://res.heraldm.com/iframe/"]
 ##iframe[src^="http://rsense-ad.realclick.co.kr/rsense/view_ad_adcrm.html"]
+##iframe[src^="http://sc2.appldp.com/publisher-show-ads.php"]
 ##iframe[src^="http://server.cpmstar.com/view.aspx"]
 ##iframe[src^="http://shop.nate.com/shopbox/shopbox.htm"]
 ##iframe[src^="http://sin1.g.adnxs.com/if"]
@@ -906,6 +907,8 @@
 ||s1.daumcdn.net/svc/original/U03/commonjs/ddn/common/js/ad.min.js^
 ||sba.about.co.kr/SbaExpose.aspx^
 ||sba.about.co.kr/dbaExpose.aspx^
+||sc2.appldp.com/publisher-show-ads.php^
+||sc2.appldp.com/show-ads.js^
 ||scr.nsmartad.com/admixer/admixer.js^
 ||script.adsquare.co.kr/script/
 ||script.keywordlink.co.kr^
@@ -1779,6 +1782,12 @@ m.dailian.co.kr##div.responsive_col2>div[style="width:100%;padding:5px 0 5px;tex
 m.dailian.co.kr##div.responsive_col2>div[style="width:100%;text-align:center; padding-top:5px"]
 m.dailian.co.kr##div.responsive_col2>div[style="width:100%;text-align:center;padding:5px 0 5px 0;"]
 m.dailian.co.kr##div[id^="AD_LIVE_AREA_"]
+m.dailysecu.com##div#m_article_content>div.m_min_size>div[style="margin:1em auto 0;height:200px;overflow:hidden;text-align:center;"]
+m.dailysecu.com##div.banner_article_inner_box
+m.dailysecu.com##div.m_aside>div.drag_mobile>div.edit_inner_content>div.align_center[style="margin:0 0 10px"]
+m.dailysecu.com##div.m_aside>div.drag_mobile>div.edit_inner_content>div.align_center[style="margin:0 0 20px"]
+m.dailysecu.com##div.m_aside>div.drag_mobile>div.edit_inner_content>div.align_center[style="margin:10px 0 20px"]
+m.dailysecu.com##div.m_aside>div.drag_mobile>div.edit_inner_content>div.align_center[style="margin:20px 0 10px"]
 m.daum.net##div.bnr_add
 m.daum.net##div.box_bnr
 m.daum.net##div.float_acm_banner
