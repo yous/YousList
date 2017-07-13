@@ -23707,6 +23707,19 @@
                 }
             },
             {
+                "id": "5fb71877-ac82-44c9-95a7-a2f8fd0399b3",
+                "name": "inven.co.kr##body>div[style=\"text-align:center;margin-top:8px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?inven\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"text-align:center;margin-top:8px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "4863323f-fa8c-4537-bdca-b2c3b5fb2b02",
                 "name": "inven.co.kr##div#adHomeTop",
                 "content": {
@@ -23716,6 +23729,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#adHomeTop"
+                    }
+                }
+            },
+            {
+                "id": "a8f333de-16ef-4702-a8a9-f5b5534ca33f",
+                "name": "inven.co.kr##div#articleView>div[style=\"height:41px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?inven\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#articleView>div[style=\"height:41px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "70e06ccf-e70f-4787-8406-78328142c60d",
+                "name": "inven.co.kr##div#mobileTailAd_Layer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?inven\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mobileTailAd_Layer"
+                    }
+                }
+            },
+            {
+                "id": "0281cdee-209c-4c0b-a4be-d2eb725a595c",
+                "name": "inven.co.kr##div#mobileTailAd_LayerDummy",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?inven\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mobileTailAd_LayerDummy"
+                    }
+                }
+            },
+            {
+                "id": "6b3e6d96-4f23-4114-b4a9-0c26344b13f2",
+                "name": "inven.co.kr##div#page>div[style=\"text-align:center;height:50px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?inven\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#page>div[style=\"text-align:center;height:50px;\"]"
                     }
                 }
             },
@@ -23742,6 +23807,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.googleSubjectAd"
+                    }
+                }
+            },
+            {
+                "id": "2bc5cc30-342e-4b4b-bdbc-0851d4ae59bd",
+                "name": "inven.co.kr##div.mobileDaNs1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?inven\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobileDaNs1"
                     }
                 }
             },
@@ -27360,19 +27438,6 @@
                 }
             },
             {
-                "id": "5f26fccf-bdb5-4904-8d7e-b113df58c514",
-                "name": "m.inven.co.kr##body>div[style=\"text-align:center;margin-top:8px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.inven\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "body>div[style=\"text-align:center;margin-top:8px;\"]"
-                    }
-                }
-            },
-            {
                 "id": "79d4200e-98c1-4878-9583-53b0fe67985d",
                 "name": "m.inven.co.kr##div#cauly_ad_area",
                 "content": {
@@ -27395,45 +27460,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#cauly_ad_area3"
-                    }
-                }
-            },
-            {
-                "id": "8e58e183-325c-4d79-9daa-a2dfe8f4cf1b",
-                "name": "m.inven.co.kr##div#mobileTailAd_Layer",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.inven\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#mobileTailAd_Layer"
-                    }
-                }
-            },
-            {
-                "id": "12f33acb-f8b4-4bb6-8310-110409611bb7",
-                "name": "m.inven.co.kr##div#mobileTailAd_LayerDummy",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.inven\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#mobileTailAd_LayerDummy"
-                    }
-                }
-            },
-            {
-                "id": "9cb841f7-86be-49b0-bbb5-7856522067ab",
-                "name": "m.inven.co.kr##div#page>div[style=\"text-align:center;height:50px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.inven\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#page>div[style=\"text-align:center;height:50px;\"]"
                     }
                 }
             },
