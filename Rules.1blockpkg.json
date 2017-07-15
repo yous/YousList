@@ -2305,6 +2305,19 @@
                 }
             },
             {
+                "id": "97072017-0f97-4182-b254-b87b235a557a",
+                "name": "##iframe[src^=\"https://search2.nuriclick.co.kr/banner.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://search2.nuriclick.co.kr/banner.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "1500320c-b72b-4426-9a13-b61ac4b490b3",
                 "name": "##iframe[src^=\"https://syndication.exdynsrv.com/ads-iframe-display.php\"]",
                 "content": {
@@ -11363,6 +11376,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?search\\.n2s\\.co\\.kr/_n2s_rainbod_adinfo_js\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "94692008-b01c-4652-94b0-2d525aa6fb42",
+                "name": "search2.nuriclick.co.kr/banner.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?search2\\.nuriclick\\.co\\.kr/banner\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5428c7a1-dbc1-4254-8f58-9b614d515b84",
+                "name": "search2.nuriclick.co.kr/search.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?search2\\.nuriclick\\.co\\.kr/search\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -24925,6 +24962,253 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "section.nview>div[style=\"margin-bottom: 20px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "f9b352f9-f3bd-4969-b53e-7dc057b703e9",
+                "name": "koreanz.com.au##div#divScroll",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#divScroll"
+                    }
+                }
+            },
+            {
+                "id": "9cfa8617-1099-49c5-a9f0-fca24a2717f7",
+                "name": "koreanz.com.au##div.ad-right",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-right"
+                    }
+                }
+            },
+            {
+                "id": "69e39ec4-08f9-45f8-9300-1f831c90b12c",
+                "name": "koreanz.com.au##div.content-view a[href^=\"http://albarich.com/pt/Gw1fDhkOEg\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.content-view a[href^=\"http://albarich.com/pt/Gw1fDhkOEg\"]"
+                    }
+                }
+            },
+            {
+                "id": "e1a861a9-089e-4dc3-b959-4800dc08746a",
+                "name": "koreanz.com.au##div.content-view a[href^=\"http://cv-cb.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.content-view a[href^=\"http://cv-cb.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "2f25d899-a02f-42ba-b51e-8708acb1396a",
+                "name": "koreanz.com.au##div.content-view a[href^=\"http://dntv24.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.content-view a[href^=\"http://dntv24.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "16b75a02-2b23-4765-9aff-eb133e53b6d5",
+                "name": "koreanz.com.au##div.content-view a[href^=\"http://event.filewang.com/gate.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.content-view a[href^=\"http://event.filewang.com/gate.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "0510fb20-e346-4743-8d42-ba1e8d0c951c",
+                "name": "koreanz.com.au##div.content-view a[href^=\"http://event.scoregame.co.kr/join.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.content-view a[href^=\"http://event.scoregame.co.kr/join.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "7d06bd05-fb66-4ce8-9e8d-e0bf080e8864",
+                "name": "koreanz.com.au##div.content-view a[href^=\"http://gt-kkk.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.content-view a[href^=\"http://gt-kkk.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "0e0f4d5b-0c78-40af-b060-2a597f6c984f",
+                "name": "koreanz.com.au##div.content-view a[href^=\"https://bst-77.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.content-view a[href^=\"https://bst-77.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "4c8dec4f-d701-45b7-9c6b-70a8307adad5",
+                "name": "koreanz.com.au##div.content-view a[href^=\"https://goo.gl/3ja9Ye\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.content-view a[href^=\"https://goo.gl/3ja9Ye\"]"
+                    }
+                }
+            },
+            {
+                "id": "b2478560-102a-4645-888c-530859853087",
+                "name": "koreanz.com.au##div.content-view a[href^=\"https://goo.gl/TDtAq5\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.content-view a[href^=\"https://goo.gl/TDtAq5\"]"
+                    }
+                }
+            },
+            {
+                "id": "cf0d2e6a-26a3-4d60-94b4-d5f555ef5ac1",
+                "name": "koreanz.com.au##div.content-view a[href^=\"https://gt-www.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.content-view a[href^=\"https://gt-www.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "6e22ee43-7c1b-4412-bd4a-61d2aeb364a5",
+                "name": "koreanz.com.au##div.header-bottom>div[style=\"padding:10px 0;overflow:hidden;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.header-bottom>div[style=\"padding:10px 0;overflow:hidden;\"]"
+                    }
+                }
+            },
+            {
+                "id": "d75bca48-51d7-4c9a-8458-a1979bdb2179",
+                "name": "koreanz.com.au##div.page-content a[href^=\"http://cv-cb.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.page-content a[href^=\"http://cv-cb.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "92bfe1d3-b4bd-4d64-8eca-c142ee074226",
+                "name": "koreanz.com.au##div.page-content a[href^=\"http://event.scoregame.co.kr/index.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.page-content a[href^=\"http://event.scoregame.co.kr/index.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "85462da8-c501-4f1d-8d8a-828d7598f022",
+                "name": "koreanz.com.au##div.page-content a[href^=\"http://oen.kr\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.page-content a[href^=\"http://oen.kr\"]"
+                    }
+                }
+            },
+            {
+                "id": "13987899-0e87-4a84-b1ce-8360aeb97589",
+                "name": "koreanz.com.au##div.page-content a[href^=\"http://www.10000w.co.kr/main\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.page-content a[href^=\"http://www.10000w.co.kr/main\"]"
+                    }
+                }
+            },
+            {
+                "id": "030b36ca-27f8-4fb3-953b-0179104ba5ec",
+                "name": "koreanz.com.au##div.page-content a[href^=\"https://goo.gl/3ja9Ye\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.page-content a[href^=\"https://goo.gl/3ja9Ye\"]"
+                    }
+                }
+            },
+            {
+                "id": "213f2a3f-9ef1-46ae-afe7-6dcfefc6b1bd",
+                "name": "koreanz.com.au##div.page-content a[href^=\"https://yat58.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanz\\.com\\.au"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.page-content a[href^=\"https://yat58.com\"]"
                     }
                 }
             },

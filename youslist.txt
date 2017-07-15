@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: yBfPEhZBz6sq47R7PT37Uw
+! Checksum: BdWvxYOJ4nAoZSN9bYjSIA
 ! Version: 20170715
 
 ! Workaround for BlockAdBlock
@@ -195,6 +195,7 @@
 ##iframe[src^="http://www.ti-center.co.kr/"]
 ##iframe[src^="https://creative.wwwpromoter.com/"]
 ##iframe[src^="https://mycdn.co/adServe/imgBanner"][src*="_image-banner.cib"]
+##iframe[src^="https://search2.nuriclick.co.kr/banner.php"]
 ##iframe[src^="https://syndication.exdynsrv.com/ads-iframe-display.php"]
 ##iframe[src^="https://syndication.exoclick.com/ads-iframe-display.php"]
 ##ins.adsbygoogle
@@ -918,6 +919,8 @@
 ||scripts.chitika.net^
 ||search.n2s.co.kr/_n2s_adop_adinfo.php^
 ||search.n2s.co.kr/_n2s_rainbod_adinfo_js.php^
+||search2.nuriclick.co.kr/banner.php^
+||search2.nuriclick.co.kr/search.php^
 ||secure-ads.pictela.net/rm/marketplace/pubtaglib/0_4_0/pubtaglib_0_4_0.js^
 ||secure.uac.advertising.com/wrapper/aceUAC.js^
 ||securite.01net.com/ac^
@@ -1731,6 +1734,25 @@ koreaherald.com##div.newslist>iframe
 koreaherald.com##div.tbanner
 koreaherald.com##section.gallrym
 koreaherald.com##section.nview>div[style="margin-bottom: 20px;"]
+koreanz.com.au##div#divScroll
+koreanz.com.au##div.ad-right
+koreanz.com.au##div.content-view a[href^="http://albarich.com/pt/Gw1fDhkOEg"]
+koreanz.com.au##div.content-view a[href^="http://cv-cb.com"]
+koreanz.com.au##div.content-view a[href^="http://dntv24.com"]
+koreanz.com.au##div.content-view a[href^="http://event.filewang.com/gate.php"]
+koreanz.com.au##div.content-view a[href^="http://event.scoregame.co.kr/join.html"]
+koreanz.com.au##div.content-view a[href^="http://gt-kkk.com"]
+koreanz.com.au##div.content-view a[href^="https://bst-77.com"]
+koreanz.com.au##div.content-view a[href^="https://goo.gl/3ja9Ye"]
+koreanz.com.au##div.content-view a[href^="https://goo.gl/TDtAq5"]
+koreanz.com.au##div.content-view a[href^="https://gt-www.com"]
+koreanz.com.au##div.header-bottom>div[style="padding:10px 0;overflow:hidden;"]
+koreanz.com.au##div.page-content a[href^="http://cv-cb.com"]
+koreanz.com.au##div.page-content a[href^="http://event.scoregame.co.kr/index.html"]
+koreanz.com.au##div.page-content a[href^="http://oen.kr"]
+koreanz.com.au##div.page-content a[href^="http://www.10000w.co.kr/main"]
+koreanz.com.au##div.page-content a[href^="https://goo.gl/3ja9Ye"]
+koreanz.com.au##div.page-content a[href^="https://yat58.com"]
 kotaku.com##div.ad-wide
 kr.celeb.yahoo.com##div#leftClickButton
 kr.celeb.yahoo.com##div#rightClickButton
