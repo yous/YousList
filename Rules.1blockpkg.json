@@ -25226,6 +25226,19 @@
                 }
             },
             {
+                "id": "1c486d5f-a68e-444a-9464-a6664537c356",
+                "name": "koreanzaus.com##div.basic-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreanzaus\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.basic-banner"
+                    }
+                }
+            },
+            {
                 "id": "107b4f97-71aa-414c-af8e-41443fbc32bc",
                 "name": "kotaku.com##div.ad-wide",
                 "content": {
