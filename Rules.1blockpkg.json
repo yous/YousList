@@ -2006,6 +2006,19 @@
                 }
             },
             {
+                "id": "993f5a56-22f2-43eb-bf98-277d7fc64571",
+                "name": "##iframe[src^=\"http://sweetgo.kr/adv/top.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://sweetgo.kr/adv/top.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "82be5f58-b04d-41ec-be88-2b3584f02176",
                 "name": "##iframe[src^=\"http://syndication.exoclick.com/ads-iframe-display.php\"]",
                 "content": {
@@ -2054,6 +2067,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://vsc.send.microad.jp/delivery/afr.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "96985676-b956-4043-9028-74c2dd9b0464",
+                "name": "##iframe[src^=\"http://vse-spravki.bid/aclk/banner_click.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://vse-spravki.bid/aclk/banner_click.php\"]"
                     }
                 }
             },
@@ -12236,6 +12262,18 @@
                 }
             },
             {
+                "id": "92d81fae-85c1-4060-83ed-9e39e8b178cb",
+                "name": "sweetgo.kr/adv/top.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sweetgo\\.kr/adv/top\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4153bbf1-8faf-4e84-9a5b-da74f1905c2c",
                 "name": "swf.adget.co.kr/ads/",
                 "content": {
@@ -12497,6 +12535,126 @@
                 }
             },
             {
+                "id": "162bd3c6-6d39-4f89-8a99-b1447c025f2a",
+                "name": "tvnamu.com/public/adv/tvnamu_bottom.html$domain=tvnamu.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com/public/adv/tvnamu_bottom\\.html",
+                        "if-domain": [
+                            "tvnamu.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e83d927e-80d7-424b-87a6-6d4acb2e37a7",
+                "name": "tvnamu.com/public/adv/tvnamu_left1.html$domain=tvnamu.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com/public/adv/tvnamu_left1\\.html",
+                        "if-domain": [
+                            "tvnamu.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a6a95437-ed1b-4687-bebb-f521aa94cf60",
+                "name": "tvnamu.com/public/adv/tvnamu_left2.html$domain=tvnamu.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com/public/adv/tvnamu_left2\\.html",
+                        "if-domain": [
+                            "tvnamu.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "05e5d11d-aca5-42ee-beba-a36d5c9f333c",
+                "name": "tvnamu.com/public/adv/tvnamu_left3.html$domain=tvnamu.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com/public/adv/tvnamu_left3\\.html",
+                        "if-domain": [
+                            "tvnamu.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "37534f73-2017-4f6d-a6e1-60714172c9cc",
+                "name": "tvnamu.com/public/adv/tvnamu_right1.html$domain=tvnamu.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com/public/adv/tvnamu_right1\\.html",
+                        "if-domain": [
+                            "tvnamu.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ced62a36-27b7-471b-b83d-11abfec4bbf1",
+                "name": "tvnamu.com/public/adv/tvnamu_right2.html$domain=tvnamu.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com/public/adv/tvnamu_right2\\.html",
+                        "if-domain": [
+                            "tvnamu.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6b14685f-c89e-4f08-a42a-b80822f2a196",
+                "name": "tvnamu.com/public/adv/tvnamu_right3.html$domain=tvnamu.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com/public/adv/tvnamu_right3\\.html",
+                        "if-domain": [
+                            "tvnamu.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "614b6a71-ff41-454d-b80c-c6a5d3758c02",
+                "name": "tvnamu.com/public/adv/tvnamu_top.html$domain=tvnamu.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com/public/adv/tvnamu_top\\.html",
+                        "if-domain": [
+                            "tvnamu.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0548874f-3d69-4053-b8f4-958b849cd19e",
                 "name": "tvple.com/ab/MW-B-*$domain=tvple.com",
                 "content": {
@@ -12694,6 +12852,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vsc\\.send\\.microad\\.jp/delivery/ajs\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e823f633-a6a8-42e0-ad07-7a96c2236871",
+                "name": "vse-spravki.bid/aclk/banner_click.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vse-spravki\\.bid/aclk/banner_click\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -41005,6 +41175,123 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[id=\"joinskmbox\"]>table"
+                    }
+                }
+            },
+            {
+                "id": "449a6029-b069-4897-9cdd-36a7c51d39f7",
+                "name": "tvnamu.com##div.each_adv_center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.each_adv_center"
+                    }
+                }
+            },
+            {
+                "id": "3c7ee29b-e6e0-43f6-80ec-fc591c160aa1",
+                "name": "tvnamu.com##iframe[src^=\"http://www.tvnamu.com/public/adv/tvnamu_bottom.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.tvnamu.com/public/adv/tvnamu_bottom.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "b43da841-321b-4c0f-9844-6afa9cfcb2f1",
+                "name": "tvnamu.com##iframe[src^=\"http://www.tvnamu.com/public/adv/tvnamu_left1.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.tvnamu.com/public/adv/tvnamu_left1.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "cf7b9616-3544-4815-9de1-187d71b41736",
+                "name": "tvnamu.com##iframe[src^=\"http://www.tvnamu.com/public/adv/tvnamu_left2.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.tvnamu.com/public/adv/tvnamu_left2.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "28de68b9-38b1-432d-a66e-1795183a6150",
+                "name": "tvnamu.com##iframe[src^=\"http://www.tvnamu.com/public/adv/tvnamu_left3.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.tvnamu.com/public/adv/tvnamu_left3.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "1f2bccb7-7623-403e-9ab4-a981de7a883c",
+                "name": "tvnamu.com##iframe[src^=\"http://www.tvnamu.com/public/adv/tvnamu_right1.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.tvnamu.com/public/adv/tvnamu_right1.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "60d8f816-ffce-465f-a61d-d31da062f597",
+                "name": "tvnamu.com##iframe[src^=\"http://www.tvnamu.com/public/adv/tvnamu_right2.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.tvnamu.com/public/adv/tvnamu_right2.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "8000ce2e-4d7e-4db0-bf15-e4cfb063104c",
+                "name": "tvnamu.com##iframe[src^=\"http://www.tvnamu.com/public/adv/tvnamu_right3.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.tvnamu.com/public/adv/tvnamu_right3.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "a15729f1-c421-4a98-88fc-5d0765565868",
+                "name": "tvnamu.com##iframe[src^=\"http://www.tvnamu.com/public/adv/tvnamu_top.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.tvnamu.com/public/adv/tvnamu_top.html\"]"
                     }
                 }
             },

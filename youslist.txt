@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 0OuCjblm+rEEmyeqM8h1Dg
+! Checksum: yBfPEhZBz6sq47R7PT37Uw
 ! Version: 20170715
 
 ! Workaround for BlockAdBlock
@@ -172,10 +172,12 @@
 ##iframe[src^="http://shop.nate.com/shopbox/shopbox.htm"]
 ##iframe[src^="http://sin1.g.adnxs.com/if"]
 ##iframe[src^="http://static.joins.com/isplus/ui/ad/"]
+##iframe[src^="http://sweetgo.kr/adv/top.php"]
 ##iframe[src^="http://syndication.exoclick.com/ads-iframe-display.php"]
 ##iframe[src^="http://tab2.clickmon.co.kr/pop/"]
 ##iframe[src^="http://us-ads.openx.net/w/1.0/afr"]
 ##iframe[src^="http://vsc.send.microad.jp/delivery/afr.php"]
+##iframe[src^="http://vse-spravki.bid/aclk/banner_click.php"]
 ##iframe[src^="http://www.ad-playstore.com/"]
 ##iframe[src^="http://www.adpingpong.co.kr/"]
 ##iframe[src^="http://www.animefreak.tv/sites/all/modules/custom/anime/ads/"]
@@ -988,6 +990,7 @@
 ||story369.com/ad/$domain=story369.com
 ||sunnyworks.co.kr/data/SW*.html^
 ||sunnyworks.co.kr/data/js/
+||sweetgo.kr/adv/top.php^
 ||swf.adget.co.kr/ads/
 ||syndication.exdynsrv.com/ads-iframe-display.php^
 ||syndication.exoclick.com/ads-iframe-display.php^
@@ -1009,6 +1012,14 @@
 ||tvchosun.com/front/rnbAdplex2.html^$domain=news.tvchosun.com
 ||tvdaily.mk.co.kr/ad/
 ||tvdaily.mk.co.kr/include/flash.php^
+||tvnamu.com/public/adv/tvnamu_bottom.html^$domain=tvnamu.com
+||tvnamu.com/public/adv/tvnamu_left1.html^$domain=tvnamu.com
+||tvnamu.com/public/adv/tvnamu_left2.html^$domain=tvnamu.com
+||tvnamu.com/public/adv/tvnamu_left3.html^$domain=tvnamu.com
+||tvnamu.com/public/adv/tvnamu_right1.html^$domain=tvnamu.com
+||tvnamu.com/public/adv/tvnamu_right2.html^$domain=tvnamu.com
+||tvnamu.com/public/adv/tvnamu_right3.html^$domain=tvnamu.com
+||tvnamu.com/public/adv/tvnamu_top.html^$domain=tvnamu.com
 ||tvple.com/ab/MW-B-*^$domain=tvple.com
 ||tvple.com/ab/MW-O-*^$domain=tvple.com
 ||tvple.com/ab/PC-B-*^$domain=tvple.com
@@ -1025,6 +1036,7 @@
 ||vplayer.dawin.tv/js/*/dawinapi.js^
 ||vsc.send.microad.jp/delivery/afr.php^
 ||vsc.send.microad.jp/delivery/ajs.php^
+||vse-spravki.bid/aclk/banner_click.php^
 ||watchcartoononline.com/ads*.html^
 ||watchcartoononline.com/inc/reklam/*.html
 ||web-sdk.shallweadcorp.com:10500/initAdRequest^
@@ -2804,6 +2816,15 @@ tvdaily.mk.co.kr##div#STATICMENU
 tvdaily.mk.co.kr##div#readtopad
 tvdaily.mk.co.kr##div[class="read"]>table
 tvdaily.mk.co.kr##div[id="joinskmbox"]>table
+tvnamu.com##div.each_adv_center
+tvnamu.com##iframe[src^="http://www.tvnamu.com/public/adv/tvnamu_bottom.html"]
+tvnamu.com##iframe[src^="http://www.tvnamu.com/public/adv/tvnamu_left1.html"]
+tvnamu.com##iframe[src^="http://www.tvnamu.com/public/adv/tvnamu_left2.html"]
+tvnamu.com##iframe[src^="http://www.tvnamu.com/public/adv/tvnamu_left3.html"]
+tvnamu.com##iframe[src^="http://www.tvnamu.com/public/adv/tvnamu_right1.html"]
+tvnamu.com##iframe[src^="http://www.tvnamu.com/public/adv/tvnamu_right2.html"]
+tvnamu.com##iframe[src^="http://www.tvnamu.com/public/adv/tvnamu_right3.html"]
+tvnamu.com##iframe[src^="http://www.tvnamu.com/public/adv/tvnamu_top.html"]
 tvple.com##div#video-player>div.video-player-overlay
 tvple.com##div.container-fluid>div.text-center
 tvple.com##div.container>div.text-center
