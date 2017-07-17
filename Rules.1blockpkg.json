@@ -446,6 +446,19 @@
                 }
             },
             {
+                "id": "18e6516f-1143-4951-8ecc-0350a7154319",
+                "name": "##iframe[src^=\"//ubh-d.openx.net/w/1.0/afr\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//ubh-d.openx.net/w/1.0/afr\"]"
+                    }
+                }
+            },
+            {
                 "id": "de243eb3-adf1-4ad6-b7df-9c8fa6e2217e",
                 "name": "##iframe[src^=\"//urldelivery.com/watch.\"]",
                 "content": {
@@ -6193,6 +6206,18 @@
                 }
             },
             {
+                "id": "17dcb26c-a4fd-4c34-b610-c77f917cf13c",
+                "name": "cs.gssprt.jp/yie/ld/eg",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cs\\.gssprt\\.jp/yie/ld/eg"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b7d694e1-ef3b-4f4e-a7c7-c77c600dbe83",
                 "name": "cwdata.itplay.co.kr/ol/",
                 "content": {
@@ -7865,10 +7890,13 @@
             },
             {
                 "id": "3c66d127-b951-4bb3-860b-f1d2b05bf8b4",
-                "name": "ilbe.com/layouts/elkha_ilbe/js/board_top.js",
+                "name": "ilbe.com/layouts/elkha_ilbe/js/board_top.js$domain=ilbe.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com/layouts/elkha_ilbe/js/board_top\\.js"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com/layouts/elkha_ilbe/js/board_top\\.js",
+                        "if-domain": [
+                            "ilbe.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -7877,10 +7905,13 @@
             },
             {
                 "id": "5d79489b-d1ad-4c9e-a4c3-007d33a908fa",
-                "name": "ilbe.com/layouts/elkha_ilbe/js/new_comment.js",
+                "name": "ilbe.com/layouts/elkha_ilbe/js/new_comment.js$domain=ilbe.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com/layouts/elkha_ilbe/js/new_comment\\.js"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com/layouts/elkha_ilbe/js/new_comment\\.js",
+                        "if-domain": [
+                            "ilbe.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -7889,10 +7920,43 @@
             },
             {
                 "id": "d89340ba-11db-4c8a-9295-5860427ad504",
-                "name": "ilbe.com/layouts/elkha_ilbe/js/new_sky.js",
+                "name": "ilbe.com/layouts/elkha_ilbe/js/new_sky.js$domain=ilbe.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com/layouts/elkha_ilbe/js/new_sky\\.js"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com/layouts/elkha_ilbe/js/new_sky\\.js",
+                        "if-domain": [
+                            "ilbe.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5343fcaa-1516-490a-bce4-b964329cfab3",
+                "name": "ilbe.com/m.layouts/default_modify/mobileTopAd.js$domain=ilbe.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com/m\\.layouts/default_modify/mobileTopAd\\.js",
+                        "if-domain": [
+                            "ilbe.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "dbcae416-e871-45a3-901f-9abeb241b3c9",
+                "name": "ilbe.com/myads/openX_passback*.html$domain=ilbe.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com/myads/openX_passback.*\\.html",
+                        "if-domain": [
+                            "ilbe.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -8611,6 +8675,18 @@
                 }
             },
             {
+                "id": "5945bea4-180c-43a4-8265-383be00a095c",
+                "name": "js.medi-8.net/t/*/*/a*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?js\\.medi-8\\.net/t/.*/.*/a.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f2dcd772-4367-41c3-b482-eca0874d8b24",
                 "name": "js.mtburn.com/advs-instream.js",
                 "content": {
@@ -9306,6 +9382,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbn\\.mk\\.co\\.kr/pages/ad/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "51ea4a39-5a2f-46b0-b2e2-95c4ce34ac73",
+                "name": "medi8.genieesspv.jp/yie/ld/jsk",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?medi8\\.genieesspv\\.jp/yie/ld/jsk"
                     },
                     "action": {
                         "type": "block"
@@ -12745,6 +12833,30 @@
                         "if-domain": [
                             "tvple.com"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f175ae62-f56a-4ea9-b8f7-770bf94d867b",
+                "name": "ubh-d.openx.net/w/1.0/afr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ubh-d\\.openx\\.net/w/1\\.0/afr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9add7b1b-1161-4d2b-829a-bb96af118f4f",
+                "name": "ubh-d.openx.net/w/1.0/jstag",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ubh-d\\.openx\\.net/w/1\\.0/jstag"
                     },
                     "action": {
                         "type": "block"
@@ -23640,15 +23752,67 @@
                 }
             },
             {
-                "id": "6d3042c0-81fc-46f3-b235-df98698405ec",
-                "name": "ilbe.com##div#board_top_dummy",
+                "id": "b2d2523a-30c5-40be-8bb9-aabdcbee5c19",
+                "name": "ilbe.com##body>div[style=\"width:100%; text-align:center;margin-bottom:5px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#board_top_dummy"
+                        "selector": "body>div[style=\"width:100%; text-align:center;margin-bottom:5px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "8ed1e482-7e82-44c8-a3a4-661d5adbd727",
+                "name": "ilbe.com##div#ad_all_mobile_board",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_all_mobile_board"
+                    }
+                }
+            },
+            {
+                "id": "cff60e8e-b898-40d1-95a5-20dff521a069",
+                "name": "ilbe.com##div#ad_all_mobile_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_all_mobile_top"
+                    }
+                }
+            },
+            {
+                "id": "af64dfee-79ec-4853-bb15-6ca2d30f76a4",
+                "name": "ilbe.com##div#ad_sticky_footer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_sticky_footer"
+                    }
+                }
+            },
+            {
+                "id": "07bc1bee-2646-47e8-93fb-c2e5cb0b4517",
+                "name": "ilbe.com##div#ad_sticky_footer1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_sticky_footer1"
                     }
                 }
             },
@@ -23662,6 +23826,84 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#layer_left"
+                    }
+                }
+            },
+            {
+                "id": "8fcf3549-ce30-47a9-aa6c-259e929227b5",
+                "name": "ilbe.com##div#madlayer_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#madlayer_top"
+                    }
+                }
+            },
+            {
+                "id": "2f566c72-29d5-4440-94c6-0ab18bde093a",
+                "name": "ilbe.com##div#madlayer_top2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#madlayer_top2"
+                    }
+                }
+            },
+            {
+                "id": "597b920a-c406-4dcd-9f15-1afb82a7f8f3",
+                "name": "ilbe.com##div.tCenter>div[style=\"width:300px;height:250px;margin:0;padding:0\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.tCenter>div[style=\"width:300px;height:250px;margin:0;padding:0\"]"
+                    }
+                }
+            },
+            {
+                "id": "ffcd66b8-adcd-40da-b3c0-9864d28ce7ab",
+                "name": "ilbe.com##div[id^=\"openXdummy_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"openXdummy_\"]"
+                    }
+                }
+            },
+            {
+                "id": "16c943a4-8e15-4578-bec6-d28f0e8c3629",
+                "name": "ilbe.com##div[id^=\"teamcsp_ad_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"teamcsp_ad_\"]"
+                    }
+                }
+            },
+            {
+                "id": "c5dd77ee-802f-414b-8a90-4176dd4475ac",
+                "name": "ilbe.com##iframe[src^=\"//www.ilbe.com/myads/openX_passback*.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//www.ilbe.com/myads/openX_passback*.html\"]"
                     }
                 }
             },

@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 5FkNx8E9yNqQsaXekhGyeA
+! Checksum: 1T55gtXIKWp02QwJb+VaLg
 ! Version: 20170717
 
 ! Workaround for BlockAdBlock
@@ -52,6 +52,7 @@
 ##iframe[src^="//ax-d.pixfuture.net/w/1.0/afr"]
 ##iframe[src^="//ssp.adpies.com/ssp/request"]
 ##iframe[src^="//ssp.advg.jp/ssp/p/iframe"]
+##iframe[src^="//ubh-d.openx.net/w/1.0/afr"]
 ##iframe[src^="//urldelivery.com/watch."]
 ##iframe[src^="http://a1.dp25.kr/"]
 ##iframe[src^="http://ad.about.co.kr/"]
@@ -510,6 +511,7 @@
 ||cpv.ad.naver.com/adshow^
 ||creative.speednetwork*.com/speednetwork*/tags/xbanner/xbanner.js^
 ||creative.wwwpromoter.com^
+||cs.gssprt.jp/yie/ld/eg^
 ||cwdata.itplay.co.kr/ol/
 ||cwdata.itsearch.co.kr^
 ||cwstatic.heraldm.com/adcont/
@@ -639,9 +641,11 @@
 ||iicdn.com/www/delivery/afr.php^
 ||ikoreadaily.co.kr/bannerManager/inc/$domain=ikoreadaily.co.kr
 ||ikoreadaily.co.kr/script/ikoreadaily_hns.js^$domain=ikoreadaily.co.kr
-||ilbe.com/layouts/elkha_ilbe/js/board_top.js^
-||ilbe.com/layouts/elkha_ilbe/js/new_comment.js^
-||ilbe.com/layouts/elkha_ilbe/js/new_sky.js^
+||ilbe.com/layouts/elkha_ilbe/js/board_top.js^$domain=ilbe.com
+||ilbe.com/layouts/elkha_ilbe/js/new_comment.js^$domain=ilbe.com
+||ilbe.com/layouts/elkha_ilbe/js/new_sky.js^$domain=ilbe.com
+||ilbe.com/m.layouts/default_modify/mobileTopAd.js^$domain=ilbe.com
+||ilbe.com/myads/openX_passback*.html^$domain=ilbe.com
 ||im.obel.kr/file/
 ||imaeil.com/image/banner/ad*.swf^
 ||imaeil.com/wec/
@@ -700,6 +704,7 @@
 ||js.hnscom.com/etc/hns/hook_*.js^
 ||js.hnscom.com/etc/hns/mobitree_*.js^
 ||js.keywordsconnect.com^
+||js.medi-8.net/t/*/*/a*.js
 ||js.mtburn.com/advs-instream.js^
 ||js.theprimead.co.kr^
 ||js2.keywordsconnect.com^
@@ -752,6 +757,7 @@
 ||m1.daumcdn.net/adtc/js/mobilead.js^
 ||maxmovie.com/banner/img/lotte630x88.jpg^
 ||mbn.mk.co.kr/pages/ad/
+||medi8.genieesspv.jp/yie/ld/jsk^
 ||mediamixad.com/ad/liveAd^
 ||mediamixad.com/ad/webad^
 ||mediarichad.com/adbanner/
@@ -1027,6 +1033,8 @@
 ||tvple.com/ab/MW-O-*^$domain=tvple.com
 ||tvple.com/ab/PC-B-*^$domain=tvple.com
 ||tvple.com/ab/PC-O-*^$domain=tvple.com
+||ubh-d.openx.net/w/1.0/afr^
+||ubh-d.openx.net/w/1.0/jstag^
 ||unionpress.co.kr/news/html_tpl/pr_ad.php^
 ||unionpress.co.kr/news/master/banner/3d69ca2f12c09759924d8be0a89a4259^
 ||uplus.kr/cd/cdNavi/retreieveHtml3JS.dmd^
@@ -1632,8 +1640,18 @@ ikoreadaily.co.kr##div#CmAdContent>div[style="float:left; margin-right:10px; tex
 ikoreadaily.co.kr##div#CmAdContent>div[style="float:right; margin-left: 10px; margin-bottom: 5px;"]
 ikoreadaily.co.kr##div#CmAdContent>div[style="float:right; padding:10px 0 10px 10px;"]
 ikoreadaily.co.kr##div#floating_banner_body
-ilbe.com##div#board_top_dummy
+ilbe.com##body>div[style="width:100%; text-align:center;margin-bottom:5px;"]
+ilbe.com##div#ad_all_mobile_board
+ilbe.com##div#ad_all_mobile_top
+ilbe.com##div#ad_sticky_footer
+ilbe.com##div#ad_sticky_footer1
 ilbe.com##div#layer_left
+ilbe.com##div#madlayer_top
+ilbe.com##div#madlayer_top2
+ilbe.com##div.tCenter>div[style="width:300px;height:250px;margin:0;padding:0"]
+ilbe.com##div[id^="openXdummy_"]
+ilbe.com##div[id^="teamcsp_ad_"]
+ilbe.com##iframe[src^="//www.ilbe.com/myads/openX_passback*.html"]
 ildaro.com##div#contents_wrap_sub2>table>tbody>tr>td[align="center"][style="padding-top:25"]
 insight.co.kr##a.adsbyinsight
 insight.co.kr##div.container-banner-left
