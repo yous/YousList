@@ -16979,6 +16979,32 @@
                 }
             },
             {
+                "id": "6a99231a-326c-414c-8733-f61bd62eb8d9",
+                "name": "bbs.ruliweb.com##div.board_main_top>div.right_wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bbs\\.ruliweb\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.board_main_top>div.right_wrapper"
+                    }
+                }
+            },
+            {
+                "id": "80075afc-4056-45e9-b7a8-12cadba67647",
+                "name": "bbs.ruliweb.com##div.nbp_container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bbs\\.ruliweb\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.nbp_container"
+                    }
+                }
+            },
+            {
                 "id": "29735b2b-2ea6-45fb-83c6-1323537b6ced",
                 "name": "bfmtv.com##div.onf-ad",
                 "content": {
