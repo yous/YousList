@@ -199,6 +199,19 @@
                 }
             },
             {
+                "id": "6feecb4b-e4ba-4d20-ba85-6f01415e522e",
+                "name": "##div[id^=\"AD_LIVE_AREA_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"AD_LIVE_AREA_\"]"
+                    }
+                }
+            },
+            {
                 "id": "46f6315b-bbd5-44fd-a54e-c709e37ba522",
                 "name": "##div[id^=\"MarketGidScriptRootC\"]",
                 "content": {
@@ -9242,6 +9255,21 @@
                 }
             },
             {
+                "id": "0e0320e8-8aca-4753-85b4-956f5bd3ae97",
+                "name": "m.nocutnews.co.kr/ad/adnca.html$domain=m.nocutnews.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.nocutnews\\.co\\.kr/ad/adnca\\.html",
+                        "if-domain": [
+                            "m.nocutnews.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "179ebe97-42c3-4a72-b6f9-2f673a8b6062",
                 "name": "m.pann.nate.com/da/AdBigBanner$domain=m.pann.nate.com",
                 "content": {
@@ -12278,6 +12306,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?static\\.pdn-1\\.com/tag/display\\.toplevel\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6f2106e0-2144-417c-abb0-d783891feab0",
+                "name": "static.tpmn.co.kr/sb/connector_ad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?static\\.tpmn\\.co\\.kr/sb/connector_ad\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -23609,19 +23649,6 @@
                 }
             },
             {
-                "id": "b9ec45e5-d5b7-42f8-9659-192709004686",
-                "name": "humorbot.net##div[id^=\"AD_LIVE_AREA_\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?humorbot\\.net"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[id^=\"AD_LIVE_AREA_\"]"
-                    }
-                }
-            },
-            {
                 "id": "9c981697-a8d7-4296-b080-d5f75448a6b5",
                 "name": "hungryapp.co.kr##div#banner_11",
                 "content": {
@@ -26495,19 +26522,6 @@
                 }
             },
             {
-                "id": "995b9bb7-f5bf-4f57-b0a7-9279460d407e",
-                "name": "m.dailian.co.kr##div[id^=\"AD_LIVE_AREA_\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dailian\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[id^=\"AD_LIVE_AREA_\"]"
-                    }
-                }
-            },
-            {
                 "id": "1dcae9ee-2ca7-489c-a711-1e643b860450",
                 "name": "m.dailysecu.com##div#m_article_content>div.m_min_size>div[style=\"margin:1em auto 0;height:200px;overflow:hidden;text-align:center;\"]",
                 "content": {
@@ -28523,19 +28537,6 @@
                 }
             },
             {
-                "id": "20069488-ac0f-4631-a75b-7689dd2c3f6a",
-                "name": "m.mediatoday.co.kr##div[id^=\"AD_LIVE_AREA_\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mediatoday\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[id^=\"AD_LIVE_AREA_\"]"
-                    }
-                }
-            },
-            {
                 "id": "e1d76e65-ee30-431b-936a-f45d3f815484",
                 "name": "m.mediaus.co.kr##div.advertisementItem",
                 "content": {
@@ -29212,6 +29213,19 @@
                 }
             },
             {
+                "id": "56b25bfd-a508-4114-95a0-86e4de689c65",
+                "name": "m.nocutnews.co.kr##div#divContent>div[style=\"width:200px; height:200px;float:right; padding:5px 0 0 5px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.nocutnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#divContent>div[style=\"width:200px; height:200px;float:right; padding:5px 0 0 5px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "707eb70b-1329-4df8-9b0f-afae0e618a61",
                 "name": "m.nocutnews.co.kr##div.con_b>div.ct_box",
                 "content": {
@@ -29221,6 +29235,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.con_b>div.ct_box"
+                    }
+                }
+            },
+            {
+                "id": "244465bc-68ff-46d4-b0c7-22a3f15b280f",
+                "name": "m.nocutnews.co.kr##div.view_ct>div[style=\"width:90%; padding-left:10px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.nocutnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view_ct>div[style=\"width:90%; padding-left:10px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "5e328753-c14f-48d4-a285-6fb9f444d048",
+                "name": "m.nocutnews.co.kr##div.viewpic>div[style=\"text-align:center; margin-top:10px;height:60px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.nocutnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.viewpic>div[style=\"text-align:center; margin-top:10px;height:60px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "decf0968-31af-482b-a1c9-050e15cedb00",
+                "name": "m.nocutnews.co.kr##iframe[src^=\"/ad/adnca.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.nocutnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ad/adnca.html\"]"
                     }
                 }
             },
@@ -32497,19 +32550,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"banner_1024_1024_\"]"
-                    }
-                }
-            },
-            {
-                "id": "1274fe3f-8a47-4507-95b0-80b7706f7074",
-                "name": "mydaily.co.kr##div[id^=\"AD_LIVE_AREA_\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mydaily\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[id^=\"AD_LIVE_AREA_\"]"
                     }
                 }
             },
@@ -36046,19 +36086,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.sboxAD"
-                    }
-                }
-            },
-            {
-                "id": "4a8333fd-297e-4f34-97c2-eef6fe6ffd61",
-                "name": "pickis.co.kr##div[id^=\"AD_LIVE_AREA_\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pickis\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[id^=\"AD_LIVE_AREA_\"]"
                     }
                 }
             },
