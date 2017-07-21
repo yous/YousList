@@ -69,6 +69,19 @@
                 }
             },
             {
+                "id": "3062f99d-1c43-4800-82a9-d9b8f1f12dc6",
+                "name": "##div#prism_displayAD",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#prism_displayAD"
+                    }
+                }
+            },
+            {
                 "id": "23141b19-4b63-4ec9-beae-a1afa84dcad5",
                 "name": "##div#uniqubeAd_area",
                 "content": {
@@ -19138,19 +19151,6 @@
                 }
             },
             {
-                "id": "0384e9a6-3554-4e57-9c70-f975d1ac455e",
-                "name": "dailian.co.kr##div#prism_displayAD",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailian\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#prism_displayAD"
-                    }
-                }
-            },
-            {
                 "id": "2b8eabbe-2684-4489-96a6-d18e2d2d656e",
                 "name": "dailian.co.kr##div#prism_displayAD_space",
                 "content": {
@@ -24659,19 +24659,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "article#viewReviewsList section>div[style=\"padding:0;margin:0;background-color:#ddd;text-align:center\"]"
-                    }
-                }
-            },
-            {
-                "id": "718d7d64-f83e-48f0-b577-83df2e85b882",
-                "name": "jobplanet.co.kr##div#prism_displayAD",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jobplanet\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#prism_displayAD"
                     }
                 }
             },
@@ -34933,15 +34920,15 @@
                 }
             },
             {
-                "id": "37dbeeaf-3176-4d9a-ab49-c4583d0fe21c",
-                "name": "news1.kr##div.s_news_list>ul>div[style=\"padding:5px; background:#EBEBEB; margin-top:-200px; right:0; position:absolute; width:200px; height:200px;\"]",
+                "id": "0c5e7cfb-c5b8-4ed8-88fe-a8cad03fb668",
+                "name": "news1.kr##div.s_news_list>ul>div[style=\"display:block;bottom:0;padding:5px; background:#EBEBEB; margin-top:-156px; right:0; position:absolute; width:200px; height:200px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news1\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.s_news_list>ul>div[style=\"padding:5px; background:#EBEBEB; margin-top:-200px; right:0; position:absolute; width:200px; height:200px;\"]"
+                        "selector": "div.s_news_list>ul>div[style=\"display:block;bottom:0;padding:5px; background:#EBEBEB; margin-top:-156px; right:0; position:absolute; width:200px; height:200px;\"]"
                     }
                 }
             },
