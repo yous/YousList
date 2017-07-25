@@ -24013,6 +24013,19 @@
                 }
             },
             {
+                "id": "707ff6ba-dca2-4ac9-9f8c-f2db12106e4c",
+                "name": "insight.co.kr##div.container-news>div[style=\"display: block;margin-top: 20px;width: 700px;height: 400px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?insight\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.container-news>div[style=\"display: block;margin-top: 20px;width: 700px;height: 400px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "5f1935db-5e77-458d-91d6-96df19638b6f",
                 "name": "insight.co.kr##div.google-ad-container",
                 "content": {
