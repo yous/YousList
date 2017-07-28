@@ -18475,6 +18475,58 @@
                 }
             },
             {
+                "id": "1ae16bbe-c366-46a3-89a6-62f229f1c779",
+                "name": "businessinsider.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?businessinsider\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "2aa0b6f4-884e-4ba8-8321-c40c5b7f4947",
+                "name": "businessinsider.com##div.ad-subnav-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?businessinsider\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-subnav-container"
+                    }
+                }
+            },
+            {
+                "id": "dbb3bfe9-402f-4ecc-ad08-c19575b44d53",
+                "name": "businessinsider.com##div.right-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?businessinsider\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.right-ad"
+                    }
+                }
+            },
+            {
+                "id": "a4def306-1d5c-4b2a-95d2-fdb5737824ed",
+                "name": "businessinsider.com##div[data-ad-container]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?businessinsider\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-ad-container]"
+                    }
+                }
+            },
+            {
                 "id": "21c3239c-7e23-4949-a90f-60b540e66850",
                 "name": "businessweek.com##div#promo",
                 "content": {
