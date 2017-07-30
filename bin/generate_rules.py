@@ -187,6 +187,8 @@ class FilterParser:
                     opt_dict['unless-domain'] = unless_domain
             elif opt_key == 'script':
                 opt_dict['resource-type'] = ['script']
+            elif opt_key == 'third-party':
+                opt_dict['load-type'] = ['third-party']
             else:
                 raise Exception('Cannot handle this option: ' + opt_key)
         return opt_dict
