@@ -4145,12 +4145,13 @@
             },
             {
                 "id": "4ae90d2a-cc45-424f-9263-8ca15ed4e7f9",
-                "name": "ads.nicovideo.jp/assets/js/ads-*.min.js$domain=embed.nicovideo.jp",
+                "name": "ads.nicovideo.jp/assets/js/ads-*.min.js$domain=embed.nicovideo.jp|nicovideo.jp",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.nicovideo\\.jp/assets/js/ads-.*\\.min\\.js",
                         "if-domain": [
-                            "embed.nicovideo.jp"
+                            "embed.nicovideo.jp",
+                            "nicovideo.jp"
                         ]
                     },
                     "action": {
@@ -4160,12 +4161,13 @@
             },
             {
                 "id": "acaa6248-9a32-4a7b-a7ae-94a8e6988e1e",
-                "name": "ads.nicovideo.jp/bannertext$domain=embed.nicovideo.jp",
+                "name": "ads.nicovideo.jp/bannertext$domain=embed.nicovideo.jp|nicovideo.jp",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.nicovideo\\.jp/bannertext",
                         "if-domain": [
-                            "embed.nicovideo.jp"
+                            "embed.nicovideo.jp",
+                            "nicovideo.jp"
                         ]
                     },
                     "action": {
@@ -10650,6 +10652,21 @@
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newsworker\\.co\\.kr/script/ad_flow1\\.js",
                         "if-domain": [
                             "newsworker.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "31f82473-bac5-4dfa-83cc-a2851e0ce4eb",
+                "name": "nicovideo.cdn.nimg.jp/web/js/ads.js$domain=nicovideo.jp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nicovideo\\.cdn\\.nimg\\.jp/web/js/ads\\.js",
+                        "if-domain": [
+                            "nicovideo.jp"
                         ]
                     },
                     "action": {
@@ -35588,6 +35605,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#floating_banner_body"
+                    }
+                }
+            },
+            {
+                "id": "24afb45c-aee3-428d-9d0a-e637fb08413c",
+                "name": "nicovideo.jp##div#head_ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nicovideo\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#head_ads"
+                    }
+                }
+            },
+            {
+                "id": "2589bf4a-5b88-4856-b892-90376b8e1d60",
+                "name": "nicovideo.jp##iframe[src^=\"https://ads.nicovideo.jp/bannertext\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nicovideo\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://ads.nicovideo.jp/bannertext\"]"
                     }
                 }
             },
