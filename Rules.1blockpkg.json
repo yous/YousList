@@ -4455,6 +4455,18 @@
                 }
             },
             {
+                "id": "7f595614-08e1-421d-b0c5-63d64c6d9470",
+                "name": "advert.livesportmedia.eu/rotating-advert/right.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?advert\\.livesportmedia\\.eu/rotating-advert/right\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0ddae1dc-442d-4fbf-ad3d-8f7611c55d29",
                 "name": "adw.heraldm.com/cgi-bin/conad.fcgi/",
                 "content": {
@@ -21633,6 +21645,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ego_unit_container"
+                    }
+                }
+            },
+            {
+                "id": "2b6605b1-8479-45e5-86c2-b72b8859c6f1",
+                "name": "flashscore.pl##div.adscontent",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?flashscore\\.pl"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adscontent"
+                    }
+                }
+            },
+            {
+                "id": "516cfb64-4170-4301-bab4-addf67a9ae95",
+                "name": "flashscore.pl##div.adsenvelope",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?flashscore\\.pl"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adsenvelope"
+                    }
+                }
+            },
+            {
+                "id": "15c2e019-92cd-49e2-a3fb-f1430ef6b818",
+                "name": "flashscore.pl##div.adstextpad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?flashscore\\.pl"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adstextpad"
+                    }
+                }
+            },
+            {
+                "id": "6774c568-26bc-44d9-8d61-d1dd27644fb6",
+                "name": "flashscore.pl##div.scrolling-banner-wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?flashscore\\.pl"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.scrolling-banner-wrap"
+                    }
+                }
+            },
+            {
+                "id": "12075c67-031a-4da5-bf7c-18cb8cd64855",
+                "name": "flashscore.pl##li.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?flashscore\\.pl"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.banner"
                     }
                 }
             },
