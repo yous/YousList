@@ -4144,6 +4144,36 @@
                 }
             },
             {
+                "id": "4ae90d2a-cc45-424f-9263-8ca15ed4e7f9",
+                "name": "ads.nicovideo.jp/assets/js/ads-*.min.js$domain=embed.nicovideo.jp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.nicovideo\\.jp/assets/js/ads-.*\\.min\\.js",
+                        "if-domain": [
+                            "embed.nicovideo.jp"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "acaa6248-9a32-4a7b-a7ae-94a8e6988e1e",
+                "name": "ads.nicovideo.jp/bannertext$domain=embed.nicovideo.jp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.nicovideo\\.jp/bannertext",
+                        "if-domain": [
+                            "embed.nicovideo.jp"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4dfe87b7-0719-46a0-bbb8-3bbbedb9d4d1",
                 "name": "ads.priel.co.kr/cgi-bin/PelicanC.dll",
                 "content": {
@@ -20868,6 +20898,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/adview/\"]"
+                    }
+                }
+            },
+            {
+                "id": "63b7f587-dd9e-4768-b86c-b66b925f5143",
+                "name": "embed.nicovideo.jp##div#overlayBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?embed\\.nicovideo\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#overlayBanner"
+                    }
+                }
+            },
+            {
+                "id": "b64fb748-5c9b-482e-ba55-2de269310810",
+                "name": "embed.nicovideo.jp##iframe[src^=\"https://ads.nicovideo.jp/bannertext\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?embed\\.nicovideo\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://ads.nicovideo.jp/bannertext\"]"
                     }
                 }
             },

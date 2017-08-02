@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 3ptT0PTGO+9Wb+UB8ubARg
+! Checksum: jS2nHSsvT/Cszn0YPlJbjw
 ! Version: 20170802
 
 ! Workaround for BlockAdBlock
@@ -349,6 +349,8 @@
 ||ads.gamemeca.com^
 ||ads.mangouni.com/mad/
 ||ads.mncmedia.co.kr^
+||ads.nicovideo.jp/assets/js/ads-*.min.js^$domain=embed.nicovideo.jp
+||ads.nicovideo.jp/bannertext^$domain=embed.nicovideo.jp
 ||ads.priel.co.kr/cgi-bin/PelicanC.dll^
 ||ads.priel.co.kr/js/
 ||ads.pubmatic.com/AdServer/js/showad.js^
@@ -1422,6 +1424,8 @@ edaily.co.kr##div[class^="viewcontent_ad"]
 edaily.co.kr##div[id^="w_read_x"]
 edaily.co.kr##div[id^="wreadx"]
 edaily.co.kr##iframe[src^="/adview/"]
+embed.nicovideo.jp##div#overlayBanner
+embed.nicovideo.jp##iframe[src^="https://ads.nicovideo.jp/bannertext"]
 ent.joseilbo.com##div.adplus_banner
 ent.joseilbo.com##div.news_txt_banner
 ent.joseilbo.com##div.read_banner
