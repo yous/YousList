@@ -446,6 +446,19 @@
                 }
             },
             {
+                "id": "ad2d2a17-9af0-43db-a3d7-f94412661d27",
+                "name": "##iframe[src^=\"//onedrive.su/code/swf_banner.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//onedrive.su/code/swf_banner.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "c4f6a8af-4611-44d6-86b7-cfae162b1cdd",
                 "name": "##iframe[src^=\"//ssp.adpies.com/ssp/request\"]",
                 "content": {
@@ -10791,6 +10804,48 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?onclkds\\.com/apu\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8d2c04a2-0f82-4885-9d93-f0b882060997",
+                "name": "onedrive.su/code/swf_banner.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?onedrive\\.su/code/swf_banner\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b9c9902f-5931-4927-9429-dedde86d4a9c",
+                "name": "online.anidub.com/uploads/fotos/240_400_tera_black_shinobi_do300kb_v6.html$domain=online.anidub.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?online\\.anidub\\.com/uploads/fotos/240_400_tera_black_shinobi_do300kb_v6\\.html",
+                        "if-domain": [
+                            "online.anidub.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ecdff621-1a7c-4f78-b305-b896975062f4",
+                "name": "online.anidub.com/uploads/fotos/eggs_anidub.html$domain=online.anidub.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?online\\.anidub\\.com/uploads/fotos/eggs_anidub\\.html",
+                        "if-domain": [
+                            "online.anidub.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -35841,6 +35896,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "ul.ad_area"
+                    }
+                }
+            },
+            {
+                "id": "2cbfc383-7f71-4ef3-a64d-b698494eafe1",
+                "name": "online.anidub.com##div#banner_post2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?online\\.anidub\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_post2"
+                    }
+                }
+            },
+            {
+                "id": "d291a37f-5fba-47d7-8ab8-0e65ea9de0d4",
+                "name": "online.anidub.com##div#banner_test",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?online\\.anidub\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_test"
+                    }
+                }
+            },
+            {
+                "id": "f5ffd865-c85e-49ba-8a4a-1feb9e56427f",
+                "name": "online.anidub.com##div.left_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?online\\.anidub\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.left_banner"
+                    }
+                }
+            },
+            {
+                "id": "7a8c9e02-0787-47f1-bf01-29d4cea44576",
+                "name": "online.anidub.com##iframe[src^=\"/uploads/fotos/240_400_tera_black_shinobi_do300kb_v6.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?online\\.anidub\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/uploads/fotos/240_400_tera_black_shinobi_do300kb_v6.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "ce7c1d3f-3794-48a3-8bd5-e678cfd0b275",
+                "name": "online.anidub.com##iframe[src^=\"/uploads/fotos/eggs_anidub.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?online\\.anidub\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/uploads/fotos/eggs_anidub.html\"]"
                     }
                 }
             },

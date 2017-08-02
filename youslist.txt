@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: UYP7Jy2rxdtpwRD81z3hEg
+! Checksum: 8n69ysjG2QLwQ7olsqQI7g
 ! Version: 20170802
 
 ! Workaround for BlockAdBlock
@@ -52,6 +52,7 @@
 ##iframe[src^="//ads.exoclick.com/iframe.php"]
 ##iframe[src^="//adx-exchange.toast.com/a_request"]
 ##iframe[src^="//ax-d.pixfuture.net/w/1.0/afr"]
+##iframe[src^="//onedrive.su/code/swf_banner.php"]
 ##iframe[src^="//ssp.adpies.com/ssp/request"]
 ##iframe[src^="//ssp.advg.jp/ssp/p/iframe"]
 ##iframe[src^="//ubh-d.openx.net/w/1.0/afr"]
@@ -869,6 +870,9 @@
 ||onclickads.net/apu.php^
 ||onclicktop.com/a/display.php^
 ||onclkds.com/apu.php^
+||onedrive.su/code/swf_banner.php^
+||online.anidub.com/uploads/fotos/240_400_tera_black_shinobi_do300kb_v6.html^$domain=online.anidub.com
+||online.anidub.com/uploads/fotos/eggs_anidub.html^$domain=online.anidub.com
 ||onshowit.com/apu.php^
 ||op.mmnneo.com/banner.widget.asp^
 ||op.neoad.co.kr/adsearch*
@@ -2552,6 +2556,11 @@ ohmynews.com##div.wing_gallery_banner
 ohmynews.com##div[class^="aside_ad"]
 ohmynews.com##div[class^="m_ad"]
 ohmynews.com##ul.ad_area
+online.anidub.com##div#banner_post2
+online.anidub.com##div#banner_test
+online.anidub.com##div.left_banner
+online.anidub.com##iframe[src^="/uploads/fotos/240_400_tera_black_shinobi_do300kb_v6.html"]
+online.anidub.com##iframe[src^="/uploads/fotos/eggs_anidub.html"]
 osen.mt.co.kr##div#aside2>div[style="background:#fafafa;height:244px;width:280px;overflow:hidden;"]
 osen.mt.co.kr##div#aside2>div[style="float:left;background:#fafafa;height:240px;width:280px;overflow:hidden;"]
 osen.mt.co.kr##div#aside2>div[style="margin:0px 1px 0px 1px;overflow:hidden;"]
