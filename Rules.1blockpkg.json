@@ -8809,6 +8809,18 @@
                 }
             },
             {
+                "id": "4944cbb3-e6dc-4822-846e-e168405473f7",
+                "name": "jsc.marketgid.com/*/*/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jsc\\.marketgid\\.com/.*/.*/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2ba58332-36ed-430b-8535-598cc485ff63",
                 "name": "jsc.mgid.com",
                 "content": {
@@ -11754,6 +11766,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?server\\.cpmstar\\.com/view\\.aspx"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "03af44e7-52e8-40d5-a9dc-2bf761862c63",
+                "name": "servicer.marketgid.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?servicer\\.marketgid\\.com"
                     },
                     "action": {
                         "type": "block"
@@ -32940,6 +32964,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.sp-leader"
+                    }
+                }
+            },
+            {
+                "id": "5412b814-024b-42d6-baae-a3b6d8bf1bcc",
+                "name": "naitimp3.ru##div#M306352Composite624079",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?naitimp3\\.ru"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#M306352Composite624079"
                     }
                 }
             },
