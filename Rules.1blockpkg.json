@@ -11430,6 +11430,18 @@
                 }
             },
             {
+                "id": "1c0f209a-6700-48b7-9b13-cc2418f106fa",
+                "name": "quick.1rtl.info/init.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?quick\\.1rtl\\.info/init\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "78b4fbed-b716-4d80-865f-b6c957e86a5d",
                 "name": "ra.ntwoad.co.kr",
                 "content": {
@@ -26051,6 +26063,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.yom-ad"
+                    }
+                }
+            },
+            {
+                "id": "8a11ce8c-333d-49a7-a3a0-b5b5ebce8626",
+                "name": "krugznaniy.ru##div.GAdvert",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?krugznaniy\\.ru"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.GAdvert"
+                    }
+                }
+            },
+            {
+                "id": "4bd09a09-c45a-4f5f-9233-89085eb63309",
+                "name": "krugznaniy.ru##div.GoogleAdsenceSideBar",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?krugznaniy\\.ru"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.GoogleAdsenceSideBar"
                     }
                 }
             },
