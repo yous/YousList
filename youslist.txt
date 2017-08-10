@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: wVphazZfSarr7mYajtx4xA
+! Checksum: b76O6Qo6mPofWqYP/32XZg
 ! Version: 20170810
 
 ! Workaround for BlockAdBlock
@@ -795,6 +795,11 @@
 ||mobs.luxad.kr/media/
 ||monkey-broker-d.openx.net/w/1.0/jstag^
 ||mp.mmnneo.com^
+||mp3cc.com/api/iframe/footer^$domain=mp3cc.com
+||mp3cc.com/api/iframe/header^$domain=mp3cc.com
+||mp3cc.com/api/iframe/in_playlist_1^$domain=mp3cc.com
+||mp3cc.com/api/iframe/in_playlist_2^$domain=mp3cc.com
+||mp3cc.com/api/iframe/stickyblock^$domain=mp3cc.com
 ||mt.co.kr/ad/
 ||mtag.mman.kr/js.mezzo/
 ||munhwa.com/skin/inc_right/inc_denta_ad_iframe.html^
@@ -1056,6 +1061,7 @@
 ||urldelivery.com/watch.
 ||us-ads.openx.net/w/1.0/afr^
 ||us-ads.openx.net/w/1.0/jstag^
+||v5.actionteaser.ru/news.php^
 ||view.asiae.co.kr/common/ad/
 ||viewsnnews.com/image/advert/
 ||vplayer.dawin.tv/js/*/dawinapi.js^
@@ -2302,6 +2308,15 @@ moneyweek.co.kr##div#adsentop
 moneyweek.co.kr##div#aside>div.ad_banner
 moneyweek.co.kr##div.related>div[style="position:absolute; top:0; right:0px; width:200px; height:200px;"]
 mosen.mt.co.kr##div[id^="adList"]
+mp3cc.com##div#footerBanner
+mp3cc.com##div#headerBanner
+mp3cc.com##div#stickyblock
+mp3cc.com##iframe[src^="/api/iframe/footer"]
+mp3cc.com##iframe[src^="/api/iframe/header"]
+mp3cc.com##iframe[src^="/api/iframe/in_playlist_1"]
+mp3cc.com##iframe[src^="/api/iframe/in_playlist_2"]
+mp3cc.com##iframe[src^="/api/iframe/stickyblock"]
+mp3cc.com##li.playlist-ad
 msn.com##div#taboola-right-rail-thumbnails-multi-story-layout
 msn.com##div.ad
 msn.com##div.widead

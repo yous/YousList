@@ -9883,6 +9883,81 @@
                 }
             },
             {
+                "id": "c6fd41e1-caff-4566-a6e7-cfe627127453",
+                "name": "mp3cc.com/api/iframe/footer$domain=mp3cc.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mp3cc\\.com/api/iframe/footer",
+                        "if-domain": [
+                            "mp3cc.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "938a7af3-ed42-4443-958c-fbd5967e74cb",
+                "name": "mp3cc.com/api/iframe/header$domain=mp3cc.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mp3cc\\.com/api/iframe/header",
+                        "if-domain": [
+                            "mp3cc.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5a46ce40-45ae-4f73-b43b-bbd1db9b8afd",
+                "name": "mp3cc.com/api/iframe/in_playlist_1$domain=mp3cc.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mp3cc\\.com/api/iframe/in_playlist_1",
+                        "if-domain": [
+                            "mp3cc.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "bd57c971-56c3-4f50-b8c3-1c4d609067d3",
+                "name": "mp3cc.com/api/iframe/in_playlist_2$domain=mp3cc.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mp3cc\\.com/api/iframe/in_playlist_2",
+                        "if-domain": [
+                            "mp3cc.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "06f66ee7-97b3-4d43-8557-ca727352fecb",
+                "name": "mp3cc.com/api/iframe/stickyblock$domain=mp3cc.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mp3cc\\.com/api/iframe/stickyblock",
+                        "if-domain": [
+                            "mp3cc.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "29b30a45-55ed-4cef-bd0c-6f9a3c1f8223",
                 "name": "mt.co.kr/ad/",
                 "content": {
@@ -13135,6 +13210,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?us-ads\\.openx\\.net/w/1\\.0/jstag"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fe20d74a-13db-413e-8af5-16fb0b29aa0e",
+                "name": "v5.actionteaser.ru/news.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?v5\\.actionteaser\\.ru/news\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -32600,6 +32687,123 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[id^=\"adList\"]"
+                    }
+                }
+            },
+            {
+                "id": "6702bf7f-9c81-44cf-a392-a293d76032f2",
+                "name": "mp3cc.com##div#footerBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mp3cc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#footerBanner"
+                    }
+                }
+            },
+            {
+                "id": "0e9b29b9-bee7-478c-a04a-62b2d2fdc648",
+                "name": "mp3cc.com##div#headerBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mp3cc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#headerBanner"
+                    }
+                }
+            },
+            {
+                "id": "3774881f-03a6-4ec3-bc16-45f477d64b72",
+                "name": "mp3cc.com##div#stickyblock",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mp3cc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#stickyblock"
+                    }
+                }
+            },
+            {
+                "id": "5c5983a7-354d-4324-95e5-08d4e5f0fc54",
+                "name": "mp3cc.com##iframe[src^=\"/api/iframe/footer\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mp3cc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/api/iframe/footer\"]"
+                    }
+                }
+            },
+            {
+                "id": "b3f6bc44-dcbb-480d-8a21-1c2b301fce6e",
+                "name": "mp3cc.com##iframe[src^=\"/api/iframe/header\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mp3cc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/api/iframe/header\"]"
+                    }
+                }
+            },
+            {
+                "id": "28c40173-50ab-408c-9cd8-1fbb8b5af8c3",
+                "name": "mp3cc.com##iframe[src^=\"/api/iframe/in_playlist_1\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mp3cc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/api/iframe/in_playlist_1\"]"
+                    }
+                }
+            },
+            {
+                "id": "12cf6393-b377-4d89-925f-54ff548fea9e",
+                "name": "mp3cc.com##iframe[src^=\"/api/iframe/in_playlist_2\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mp3cc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/api/iframe/in_playlist_2\"]"
+                    }
+                }
+            },
+            {
+                "id": "16234063-e7bf-46c6-822a-9b118d3daa0d",
+                "name": "mp3cc.com##iframe[src^=\"/api/iframe/stickyblock\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mp3cc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/api/iframe/stickyblock\"]"
+                    }
+                }
+            },
+            {
+                "id": "3fe21b40-1b25-4a58-81b7-e28269c446ea",
+                "name": "mp3cc.com##li.playlist-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mp3cc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.playlist-ad"
                     }
                 }
             },
