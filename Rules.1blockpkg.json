@@ -433,6 +433,19 @@
                 }
             },
             {
+                "id": "c7ddb8a4-4290-4773-8c08-b7ce06af2fef",
+                "name": "##iframe[src^=\"//am15.net/ssp/banner\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//am15.net/ssp/banner\"]"
+                    }
+                }
+            },
+            {
                 "id": "20fc96a2-aade-4638-8aed-00bf5bd150e8",
                 "name": "##iframe[src^=\"//ax-d.pixfuture.net/w/1.0/afr\"]",
                 "content": {
@@ -455,6 +468,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"//onedrive.su/code/swf_banner.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "f029e2ab-05a7-4993-9246-ab6f587bbecd",
+                "name": "##iframe[src^=\"//searchmaster.pro/b.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//searchmaster.pro/b.php\"]"
                     }
                 }
             },
@@ -4673,6 +4699,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?alea\\.adam\\.ad\\.daum\\.net/mobilead"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9b19febf-1924-4c3d-9f85-cad79b5a1e5e",
+                "name": "am15.net/bn.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?am15\\.net/bn\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c5584fed-0abf-4860-adac-5148d2e03b57",
+                "name": "am15.net/ssp/banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?am15\\.net/ssp/banner"
                     },
                     "action": {
                         "type": "block"
@@ -11404,6 +11454,18 @@
                 }
             },
             {
+                "id": "9a694391-f33c-4b9c-974f-8da97f09e68b",
+                "name": "rebevengwas.com/news.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?rebevengwas\\.com/news\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "5074540d-b935-4165-b962-b8f30993f3a2",
                 "name": "recreativ.ru/tizers.php",
                 "content": {
@@ -11733,6 +11795,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?search2\\.nuriclick\\.co\\.kr/search\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5438b92e-3dba-4764-9435-caea27355cb5",
+                "name": "searchmaster.pro/b.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?searchmaster\\.pro/b\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -32284,6 +32358,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.s_banner"
+                    }
+                }
+            },
+            {
+                "id": "7f4f61d8-89be-4f01-9c7a-ee1f07ee6dad",
+                "name": "mmboxru.net##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mmboxru\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
                     }
                 }
             },
