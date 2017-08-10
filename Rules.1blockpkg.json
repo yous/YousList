@@ -28474,6 +28474,19 @@
                 }
             },
             {
+                "id": "63cd463e-0f40-4137-a3aa-24b023a0ed3b",
+                "name": "m.ilyosisa.co.kr##section.advertisment",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.ilyosisa\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.advertisment"
+                    }
+                }
+            },
+            {
                 "id": "8c752dfb-9520-4eb3-8245-14c6fa0aca4d",
                 "name": "m.imaeil.com##div#ad1",
                 "content": {
