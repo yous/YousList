@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: mqlm/64mc8ZqIUXbRTPTXA
+! Checksum: Bsimoy82xrAnChOgZb6G/w
 ! Version: 20170810
 
 ! Workaround for BlockAdBlock
@@ -21,6 +21,7 @@
 ##div#adbay_adExpandDiv
 ##div#adbay_adExpandIframe
 ##div#adya_area
+##div#livere_ad
 ##div#mobitree
 ##div#mobitreeP
 ##div#prism_displayAD
@@ -726,6 +727,8 @@
 ||keyword.ad4989.co.kr^
 ||khan.co.kr/ad/
 ||kmib.co.kr/cp/realclick/
+||kookje.co.kr/news2011/sephtml/main_mediclub6.htm^$domain=kookje.co.kr
+||kookje.co.kr/service/banner/$domain=kookje.co.kr
 ||koreadaily.com/_ui/ad/
 ||lightad.co.kr/Lightcoms/
 ||lightasp.dmcmedia.co.kr/adixs/
@@ -1465,7 +1468,6 @@ etnews.com##aside.ad_ic
 etnews.com##aside.ad_text
 etnews.com##div#FloatLayer1
 etnews.com##div#FloatLayer2
-etnews.com##div#livere_ad
 etnews.com##div#wingBanner
 etnews.com##div.ad_250x180
 etnews.com##div.ad_355x220
@@ -1744,7 +1746,6 @@ itsupportguides.com##div.adblock_wrapper
 ittoday.co.kr##dl[class$="top-banner"]
 itworld.co.kr##div#youtube_div
 jjan.kr##div#LayerWarp2>div[style="z-index:3; float:right;"]
-jjan.kr##div#livere_ad
 jjan.kr##iframe[src^="/adNdsoft/adWise"][src$=".html"]
 jobplanet.co.kr##article#viewReviewsList section>div[style="padding:0;margin:0;background-color:#ddd;text-align:center"]
 joins.com##div#divArticleAdnetworkBanner
@@ -1769,16 +1770,17 @@ keybr.com##div.Supporter
 kin.naver.com##div.broadcast_kin
 kin.naver.com##div.end_bnr_appinfo
 kookje.co.kr##div#bnr_newsmiddleArea
-kookje.co.kr##div#bnr_newsmiddlebottomArea
-kookje.co.kr##div#bnr_newstopArea
-kookje.co.kr##div#bnr_rightTopArea
 kookje.co.kr##div#bnr_rightmiddleArea
+kookje.co.kr##div#flow_banner_left
+kookje.co.kr##div#flow_banner_right
+kookje.co.kr##div#main_site
 kookje.co.kr##div#news_relGisa2>p[style="width:250px;height:250px;border:1px solid #ddd"]
 kookje.co.kr##div#news_textArea>div[style="clear:both;position:relative;width:468px;height:60px;background:#FFF;border:1px solid #999999;margin:10px auto;z-index:0"]
 kookje.co.kr##div#news_textArea>div[style="float:right;width:300px;height:255px;margin-left:10px;"]
-kookje.co.kr##div#top>div[style="margin:10px auto 0;width:728px;"]
-kookje.co.kr##div.leftArea>div[style="padding:10px 49px 0px"]
-kookje.co.kr##div[id^="flow_banner"]
+kookje.co.kr##div.leftArea>div.center[style="padding-top:10px;"]
+kookje.co.kr##div.leftArea>div[style="clear:both;margin:0 10px;"]
+kookje.co.kr##div.right_margin_div:not([id])
+kookje.co.kr##iframe[src^="/news2011/sephtml/main_mediclub6.htm"]
 kookje.co.kr##iframe[src^="/service/banner/"]
 koreadaily.com##div#google_ad1
 koreadaily.com##div.right_b_banner
@@ -2706,7 +2708,6 @@ ruliweb.com##div.ad
 search.daum.net##div.ad_sch
 search.daum.net##div.wing_sponsor
 search.naver.com##div.ad_section
-sedaily.com##div#livere_ad
 sedaily.com##div.sub_ad_banner3
 sedaily.com##div.sub_ad_banner3_2
 sedaily.com##div.sub_ad_banner5_wrap

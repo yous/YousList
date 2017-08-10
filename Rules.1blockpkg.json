@@ -43,6 +43,19 @@
                 }
             },
             {
+                "id": "fc016519-7c18-463d-86b8-576e4edc2d99",
+                "name": "##div#livere_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#livere_ad"
+                    }
+                }
+            },
+            {
                 "id": "3da37343-0cd2-40ca-96c0-04bccfb446f6",
                 "name": "##div#mobitree",
                 "content": {
@@ -8948,6 +8961,36 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kmib\\.co\\.kr/cp/realclick/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3f26911a-01a0-453e-8072-fdf458435296",
+                "name": "kookje.co.kr/news2011/sephtml/main_mediclub6.htm$domain=kookje.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kookje\\.co\\.kr/news2011/sephtml/main_mediclub6\\.htm",
+                        "if-domain": [
+                            "kookje.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "92658245-429f-4af0-ad7f-c1ae73b81891",
+                "name": "kookje.co.kr/service/banner/$domain=kookje.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kookje\\.co\\.kr/service/banner/",
+                        "if-domain": [
+                            "kookje.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -21439,19 +21482,6 @@
                 }
             },
             {
-                "id": "02eedfbd-689d-456e-ba73-fe2b1e8032d8",
-                "name": "etnews.com##div#livere_ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#livere_ad"
-                    }
-                }
-            },
-            {
                 "id": "6b5f0ae1-2014-48be-bffd-9b70184f12df",
                 "name": "etnews.com##div#wingBanner",
                 "content": {
@@ -25118,19 +25148,6 @@
                 }
             },
             {
-                "id": "213ca06d-4111-40a2-b9cb-c8eafecabb1c",
-                "name": "jjan.kr##div#livere_ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jjan\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#livere_ad"
-                    }
-                }
-            },
-            {
                 "id": "d4de951d-ce8f-4df7-b209-c1aadd4c1c76",
                 "name": "jjan.kr##iframe[src^=\"/adNdsoft/adWise\"][src$=\".html\"]",
                 "content": {
@@ -25443,45 +25460,6 @@
                 }
             },
             {
-                "id": "9d5da21f-a767-4d72-9be1-ea5dbd7991a6",
-                "name": "kookje.co.kr##div#bnr_newsmiddlebottomArea",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kookje\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#bnr_newsmiddlebottomArea"
-                    }
-                }
-            },
-            {
-                "id": "1eb331b9-543c-40d1-abd4-ff80c58e5354",
-                "name": "kookje.co.kr##div#bnr_newstopArea",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kookje\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#bnr_newstopArea"
-                    }
-                }
-            },
-            {
-                "id": "82c7a297-5612-4b35-b81f-aa4cb0b9de13",
-                "name": "kookje.co.kr##div#bnr_rightTopArea",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kookje\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#bnr_rightTopArea"
-                    }
-                }
-            },
-            {
                 "id": "020bed2e-a11c-4322-8048-afec0ff3b3a8",
                 "name": "kookje.co.kr##div#bnr_rightmiddleArea",
                 "content": {
@@ -25491,6 +25469,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#bnr_rightmiddleArea"
+                    }
+                }
+            },
+            {
+                "id": "cd0054bd-9b16-4dd2-be8b-de79e328d45f",
+                "name": "kookje.co.kr##div#flow_banner_left",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kookje\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#flow_banner_left"
+                    }
+                }
+            },
+            {
+                "id": "86b75d33-668c-48f3-9248-90b42f2709ae",
+                "name": "kookje.co.kr##div#flow_banner_right",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kookje\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#flow_banner_right"
+                    }
+                }
+            },
+            {
+                "id": "6616d5a2-7596-4973-9ae6-3090ebd54469",
+                "name": "kookje.co.kr##div#main_site",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kookje\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#main_site"
                     }
                 }
             },
@@ -25534,41 +25551,54 @@
                 }
             },
             {
-                "id": "67968882-5f99-4d3f-9fcd-79854ff4d2bb",
-                "name": "kookje.co.kr##div#top>div[style=\"margin:10px auto 0;width:728px;\"]",
+                "id": "ed16dded-4581-4750-9f28-d9fccca12d36",
+                "name": "kookje.co.kr##div.leftArea>div.center[style=\"padding-top:10px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kookje\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#top>div[style=\"margin:10px auto 0;width:728px;\"]"
+                        "selector": "div.leftArea>div.center[style=\"padding-top:10px;\"]"
                     }
                 }
             },
             {
-                "id": "30a437d6-a833-4284-a1fc-656c2248a115",
-                "name": "kookje.co.kr##div.leftArea>div[style=\"padding:10px 49px 0px\"]",
+                "id": "dea6f84e-2f89-4e5c-b19d-65f2ad0b7798",
+                "name": "kookje.co.kr##div.leftArea>div[style=\"clear:both;margin:0 10px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kookje\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.leftArea>div[style=\"padding:10px 49px 0px\"]"
+                        "selector": "div.leftArea>div[style=\"clear:both;margin:0 10px;\"]"
                     }
                 }
             },
             {
-                "id": "634021c3-16e4-49e2-ac19-69fdc87df24a",
-                "name": "kookje.co.kr##div[id^=\"flow_banner\"]",
+                "id": "fa22e04e-db50-4172-b27e-d2d761b59317",
+                "name": "kookje.co.kr##div.right_margin_div:not([id])",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kookje\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div[id^=\"flow_banner\"]"
+                        "selector": "div.right_margin_div:not([id])"
+                    }
+                }
+            },
+            {
+                "id": "465ee151-a83f-4189-9e80-965b9f4f1ef0",
+                "name": "kookje.co.kr##iframe[src^=\"/news2011/sephtml/main_mediclub6.htm\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kookje\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/news2011/sephtml/main_mediclub6.htm\"]"
                     }
                 }
             },
@@ -37854,19 +37884,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_section"
-                    }
-                }
-            },
-            {
-                "id": "d7fbeed4-0f6b-4a2c-9a2a-5a5ef31a02b9",
-                "name": "sedaily.com##div#livere_ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sedaily\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#livere_ad"
                     }
                 }
             },
