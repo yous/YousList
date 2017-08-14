@@ -13016,6 +13016,21 @@
                 }
             },
             {
+                "id": "dc07a662-a773-46ba-86d3-82f9992fcc7e",
+                "name": "ttocorps.com/page/board_ad.php$domain=ttocorps.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ttocorps\\.com/page/board_ad\\.php",
+                        "if-domain": [
+                            "ttocorps.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a56ad1c2-2748-4354-9e77-53c5663c4ee5",
                 "name": "tv.sbs.co.kr/common/common_ad.jsp",
                 "content": {
@@ -42863,6 +42878,97 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-topmost-header"
+                    }
+                }
+            },
+            {
+                "id": "adeea491-6eff-4009-a160-736afbde9c26",
+                "name": "ttocorps.com##a[href^=\"../page/ad.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ttocorps\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"../page/ad.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "a127f95b-1549-44b7-ace3-3d8e30f313ef",
+                "name": "ttocorps.com##a[href^=\"./page/ad.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ttocorps\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"./page/ad.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "d642658c-3b42-49f9-8050-d943af917eac",
+                "name": "ttocorps.com##a[href^=\"/page/ad.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ttocorps\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"/page/ad.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "fd4f9c6c-09aa-4522-a0b7-3830c004449c",
+                "name": "ttocorps.com##div#left_l",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ttocorps\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#left_l"
+                    }
+                }
+            },
+            {
+                "id": "9b8a6ebe-66c8-4504-b2b7-8beea399f54b",
+                "name": "ttocorps.com##div#leftw_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ttocorps\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#leftw_banner"
+                    }
+                }
+            },
+            {
+                "id": "95c27312-53c4-4b57-ada4-b4e601679087",
+                "name": "ttocorps.com##div#right_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ttocorps\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#right_banner"
+                    }
+                }
+            },
+            {
+                "id": "d657f80c-b421-4169-a04f-a8cfe918b211",
+                "name": "ttocorps.com##iframe[src^=\"../page/board_ad.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ttocorps\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"../page/board_ad.php\"]"
                     }
                 }
             },
