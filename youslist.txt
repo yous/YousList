@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: xgP4KhLFrxEUDCTShcIUtw
+! Checksum: x99aQugW0m2uzA60t+LJUg
 ! Version: 20170816
 
 ! Workaround for BlockAdBlock
@@ -677,6 +677,7 @@
 ||img.luukku.com/st/static/javascripts/external-js/ad-layout/$domain=luukku.com
 ||img.sbs.co.kr/news/ad/delay_redirect_mobile.html^
 ||img.sportsseoul.com/ad/
+||img.yonhapnews.co.kr/basic/svc/00_ko/resources/js/main_youtube.js^$domain=yonhapnews.co.kr
 ||img2.keywordsconnect.com/iconAdImg*.gif^
 ||imp.mklaud.com/ad^
 ||imp.sndkorea.co.kr/php/m.php^
@@ -3113,21 +3114,17 @@ ygosu.com##div.ad700
 ygosu.com##div.alliance_ad
 ygosu.com##div.main_event
 ygosu.com##div.powerlink_ad
-yonhapnews.co.kr##div.ad-box01
-yonhapnews.co.kr##div.ad-box03
-yonhapnews.co.kr##div.article-ad-box
+yonhapnews.co.kr##div.ad-box-popin
 yonhapnews.co.kr##div.aside-banner
-yonhapnews.co.kr##div.aside-top-banner
 yonhapnews.co.kr##div.banner-0-wrap
-yonhapnews.co.kr##div.goolge-banner
+yonhapnews.co.kr##div.box-youtube
+yonhapnews.co.kr##div.contents-box.view-wrap03
 yonhapnews.co.kr##div.top-banner
 yonhapnews.co.kr##div.view-ad-wrap
-yonhapnews.co.kr##div[class^="ad-box"]
 yonhapnews.co.kr##div[class^="ad-ifm"]
 yonhapnews.co.kr##div[class^="contents-box ad-wrap"]
 yonhapnews.co.kr##div[class^="contents-box list-style02 banner-box"]
 yonhapnews.co.kr##div[class^="floating-banner"]
-yonhapnews.co.kr##li.list-ad
 youtube.com##div#feed-pyv-container
 youtube.com##div#footer-ads
 youtube.com##div#masthead-ad

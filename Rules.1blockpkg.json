@@ -8359,6 +8359,21 @@
                 }
             },
             {
+                "id": "8f3b2a45-89c7-4bbf-bea1-d105d628bf0f",
+                "name": "img.yonhapnews.co.kr/basic/svc/00_ko/resources/js/main_youtube.js$domain=yonhapnews.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?img\\.yonhapnews\\.co\\.kr/basic/svc/00_ko/resources/js/main_youtube\\.js",
+                        "if-domain": [
+                            "yonhapnews.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "843ae0d6-cd4d-4455-bb96-63d953f4a930",
                 "name": "img2.keywordsconnect.com/iconAdImg*.gif",
                 "content": {
@@ -45064,41 +45079,15 @@
                 }
             },
             {
-                "id": "fe5011ba-e7fe-4c90-a59c-a1bedb827669",
-                "name": "yonhapnews.co.kr##div.ad-box01",
+                "id": "82531276-a563-4955-ae2b-7a1b946ac5ee",
+                "name": "yonhapnews.co.kr##div.ad-box-popin",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad-box01"
-                    }
-                }
-            },
-            {
-                "id": "385dfac5-d587-4adc-b73a-9be7dc05e493",
-                "name": "yonhapnews.co.kr##div.ad-box03",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad-box03"
-                    }
-                }
-            },
-            {
-                "id": "05174f42-c21b-42ba-b3ff-6329aadfc162",
-                "name": "yonhapnews.co.kr##div.article-ad-box",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.article-ad-box"
+                        "selector": "div.ad-box-popin"
                     }
                 }
             },
@@ -45116,19 +45105,6 @@
                 }
             },
             {
-                "id": "ed5f7ad4-9249-4e25-9ccc-b56c7d4223ed",
-                "name": "yonhapnews.co.kr##div.aside-top-banner",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.aside-top-banner"
-                    }
-                }
-            },
-            {
                 "id": "57c94cb9-b030-44b6-8577-2198e89ba10a",
                 "name": "yonhapnews.co.kr##div.banner-0-wrap",
                 "content": {
@@ -45142,15 +45118,28 @@
                 }
             },
             {
-                "id": "e4642a5b-9802-4b0d-8700-d439bf55a5e2",
-                "name": "yonhapnews.co.kr##div.goolge-banner",
+                "id": "8d971ffe-dfc3-4e55-8949-87fef17f1f31",
+                "name": "yonhapnews.co.kr##div.box-youtube",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.goolge-banner"
+                        "selector": "div.box-youtube"
+                    }
+                }
+            },
+            {
+                "id": "ee52e59b-7d36-4218-af64-95a5177d09c6",
+                "name": "yonhapnews.co.kr##div.contents-box.view-wrap03",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contents-box.view-wrap03"
                     }
                 }
             },
@@ -45177,19 +45166,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.view-ad-wrap"
-                    }
-                }
-            },
-            {
-                "id": "7bf971dd-12fe-43d9-8aaa-d38f9189d31d",
-                "name": "yonhapnews.co.kr##div[class^=\"ad-box\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[class^=\"ad-box\"]"
                     }
                 }
             },
@@ -45242,19 +45218,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"floating-banner\"]"
-                    }
-                }
-            },
-            {
-                "id": "18c85ad6-febe-4fec-b561-024f4fea5392",
-                "name": "yonhapnews.co.kr##li.list-ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "li.list-ad"
                     }
                 }
             },
