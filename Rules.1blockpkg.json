@@ -42513,6 +42513,32 @@
                 }
             },
             {
+                "id": "a797c894-5055-4d89-82e8-66a79d3acf38",
+                "name": "torrenthaja.com##div.main-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrenthaja\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.main-banner"
+                    }
+                }
+            },
+            {
+                "id": "196bbf39-e709-4410-90d5-eb4bbf42fc33",
+                "name": "torrenthaja.com##div.side-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrenthaja\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.side-banner"
+                    }
+                }
+            },
+            {
                 "id": "1871cccf-d0b9-4a7f-b33e-65bd880b2d60",
                 "name": "torrentmade.com##div.hiddenpage",
                 "content": {
