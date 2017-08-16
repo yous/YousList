@@ -43721,6 +43721,32 @@
                 }
             },
             {
+                "id": "3c00e19d-3521-4f05-b660-aa069fe9eb0d",
+                "name": "uk.yahoo.com##div#Billboard-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?uk\\.yahoo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#Billboard-ad"
+                    }
+                }
+            },
+            {
+                "id": "56bff558-06b7-4a4c-be3c-8039324ed60a",
+                "name": "uk.yahoo.com##div[id^=\"my-ads\"][id$=\"-base\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?uk\\.yahoo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"my-ads\"][id$=\"-base\"]"
+                    }
+                }
+            },
+            {
                 "id": "669be6e6-4af8-45c4-9b61-dc0ffe2809c4",
                 "name": "ukr.net##div#adriver_190x180_ukrnet",
                 "content": {
