@@ -12611,6 +12611,18 @@
                 }
             },
             {
+                "id": "c6d25c61-1adc-486e-840a-9db64c1680ee",
+                "name": "ssp.rambler.ru/acp/capirs_main.*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ssp\\.rambler\\.ru/acp/capirs_main\\..*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ff5d0016-27cd-48a9-923a-d09820436dda",
                 "name": "st.keywordsconnect.com",
                 "content": {
@@ -13717,6 +13729,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ytn\\.co\\.kr/inc_banner/AdServerChange\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fdf8b112-4042-468f-86cf-6de04cc42bca",
+                "name": "z.moatads.com/*/moatad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?z\\.moatads\\.com/.*/moatad\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -26173,6 +26197,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.wing_right"
+                    }
+                }
+            },
+            {
+                "id": "9c10b0fa-49ce-4275-bf90-76f233734d2f",
+                "name": "lenta.ru##div.b-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?lenta\\.ru"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.b-banner"
+                    }
+                }
+            },
+            {
+                "id": "d7a1aeae-d788-4918-ba35-25602df9054a",
+                "name": "lenta.ru##section.b-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?lenta\\.ru"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.b-banner"
                     }
                 }
             },
