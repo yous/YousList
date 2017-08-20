@@ -27418,6 +27418,19 @@
                 }
             },
             {
+                "id": "5cea295d-eaf9-4ffe-818c-28b7d9e00768",
+                "name": "m.comic.naver.com##div#adPostArea",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.comic\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adPostArea"
+                    }
+                }
+            },
+            {
                 "id": "b55a7ec1-b8ce-45e8-bcc4-ffddc5eaf457",
                 "name": "m.comic.naver.com##div.ads_sc",
                 "content": {
@@ -27427,6 +27440,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ads_sc"
+                    }
+                }
+            },
+            {
+                "id": "68ab0bd4-1161-47d7-824f-d2cd9454dedc",
+                "name": "m.comic.naver.com##div.band_banner.v2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.comic\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.band_banner.v2"
+                    }
+                }
+            },
+            {
+                "id": "566f2ebc-8e86-4717-b9aa-beb18e13f9da",
+                "name": "m.comic.naver.com##li.ads_sc",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.comic\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.ads_sc"
                     }
                 }
             },
