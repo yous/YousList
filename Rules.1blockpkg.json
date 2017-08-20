@@ -2149,6 +2149,19 @@
                 }
             },
             {
+                "id": "c4753e66-2888-4165-ab35-fb94553e53a6",
+                "name": "##iframe[src^=\"http://veta.naver.com/fxshow\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://veta.naver.com/fxshow\"]"
+                    }
+                }
+            },
+            {
                 "id": "1add0083-8c96-48d1-8465-050a3fb3939c",
                 "name": "##iframe[src^=\"http://vsc.send.microad.jp/delivery/afr.php\"]",
                 "content": {
@@ -13652,6 +13665,18 @@
                 }
             },
             {
+                "id": "ce1addac-2296-4d0b-a4a7-07c5eaa2d61b",
+                "name": "veta.naver.com/fxshow",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?veta\\.naver\\.com/fxshow"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f7e7718f-1879-4402-b469-2d3004bd2ab1",
                 "name": "view.asiae.co.kr/common/ad/",
                 "content": {
@@ -19745,6 +19770,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.wpcnt"
+                    }
+                }
+            },
+            {
+                "id": "1dd1f149-4a42-48c9-b693-f668ea726e0d",
+                "name": "comic.naver.com##div#addiv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?comic\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#addiv"
                     }
                 }
             },
