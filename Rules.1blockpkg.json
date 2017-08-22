@@ -27418,6 +27418,19 @@
                 }
             },
             {
+                "id": "50f5d44e-ed86-4bc1-bd8e-959a438314e0",
+                "name": "m.comic.naver.com##div#AD_WEBTOON_MOBILEWEB_UP",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.comic\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#AD_WEBTOON_MOBILEWEB_UP"
+                    }
+                }
+            },
+            {
                 "id": "5cea295d-eaf9-4ffe-818c-28b7d9e00768",
                 "name": "m.comic.naver.com##div#adPostArea",
                 "content": {
