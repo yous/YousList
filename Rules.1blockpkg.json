@@ -31448,6 +31448,32 @@
                 }
             },
             {
+                "id": "7fc93153-5b36-48b3-9b60-decce6d6eb64",
+                "name": "m.webtoon.daum.net##div#bnrHori",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.webtoon\\.daum\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bnrHori"
+                    }
+                }
+            },
+            {
+                "id": "1764a761-07f1-4692-823c-bef21d44fa5b",
+                "name": "m.webtoon.daum.net##div.wrap_valuepotion",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.webtoon\\.daum\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wrap_valuepotion"
+                    }
+                }
+            },
+            {
                 "id": "3cfc152a-9d63-4096-ba17-9a01d083b06a",
                 "name": "m.wikitree.co.kr##div#contentMidBanner",
                 "content": {
