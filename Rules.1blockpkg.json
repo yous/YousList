@@ -40616,6 +40616,45 @@
                 }
             },
             {
+                "id": "79246eaf-be94-4b01-ac89-fb283ebcae4c",
+                "name": "tfnews.co.kr##div.banner_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tfnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_wrap"
+                    }
+                }
+            },
+            {
+                "id": "a3e94b8b-ca82-4123-b9c3-ddecf6f5e45f",
+                "name": "tfnews.co.kr##div.com_ban",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tfnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.com_ban"
+                    }
+                }
+            },
+            {
+                "id": "d57b7897-76f7-4a72-aaa1-30b180c84dca",
+                "name": "tfnews.co.kr##div.top_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tfnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top_banner"
+                    }
+                }
+            },
+            {
                 "id": "7066425b-7d23-4ab3-8881-d57217817446",
                 "name": "theappl.com##div#pop_layer_banner",
                 "content": {
