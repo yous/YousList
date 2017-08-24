@@ -784,6 +784,19 @@
                 }
             },
             {
+                "id": "852e829e-18de-4e07-8be8-3a20b0d1b8d7",
+                "name": "##iframe[src^=\"http://ad.wowtv.co.kr/NetInsight/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ad.wowtv.co.kr/NetInsight/\"]"
+                    }
+                }
+            },
+            {
                 "id": "bb669e89-8b0b-45a6-84e7-6caf6d02fd77",
                 "name": "##iframe[src^=\"http://ad.xc.nis.nitmus.com/\"]",
                 "content": {
@@ -45202,6 +45215,19 @@
                 }
             },
             {
+                "id": "6e3949ba-6ffe-479a-a184-6815f057837e",
+                "name": "wowtv.co.kr##div#ad_div",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wowtv\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_div"
+                    }
+                }
+            },
+            {
                 "id": "955d5033-6c48-47f2-b024-e8d999fc4d61",
                 "name": "wowtv.co.kr##div#article_cont>div[style=\"clear:both; float:left; width:650px; margin:30px auto 0\"]",
                 "content": {
@@ -45280,15 +45306,80 @@
                 }
             },
             {
-                "id": "2530f5eb-90e7-465c-80f4-2e812a0dd8eb",
-                "name": "wowtv.co.kr##div.spot-ad",
+                "id": "ee97d528-502d-405a-b11d-d4deac57da71",
+                "name": "wowtv.co.kr##div.ad120731",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wowtv\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.spot-ad"
+                        "selector": "div.ad120731"
+                    }
+                }
+            },
+            {
+                "id": "757fc33a-94a4-4e62-8785-abc59d6a1a70",
+                "name": "wowtv.co.kr##div.ad250w280",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wowtv\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad250w280"
+                    }
+                }
+            },
+            {
+                "id": "c2e757ea-472c-4a2c-a843-cf11e627cff1",
+                "name": "wowtv.co.kr##div.ad_areaHeadline",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wowtv\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_areaHeadline"
+                    }
+                }
+            },
+            {
+                "id": "8c95f220-3270-4076-85a0-df550623a115",
+                "name": "wowtv.co.kr##div.ad_tab_AllInOne",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wowtv\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_tab_AllInOne"
+                    }
+                }
+            },
+            {
+                "id": "89d917a7-cdec-4f11-ba4b-517d9073bf2a",
+                "name": "wowtv.co.kr##div.adbaner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wowtv\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adbaner"
+                    }
+                }
+            },
+            {
+                "id": "6975b520-d35d-4d4e-8108-7f8794ab8425",
+                "name": "wowtv.co.kr##div.article_view>div[style=\"clear:both; width:100%; height:275px; margin:15px auto 0\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wowtv\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article_view>div[style=\"clear:both; width:100%; height:275px; margin:15px auto 0\"]"
                     }
                 }
             },
@@ -45328,6 +45419,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.topbanner"
+                    }
+                }
+            },
+            {
+                "id": "1ce321a8-0924-437d-baee-770529dee65d",
+                "name": "wowtv.co.kr##div.view-AD-area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wowtv\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view-AD-area"
+                    }
+                }
+            },
+            {
+                "id": "e61ab645-54df-4da5-8a3c-63d1800f2cf6",
+                "name": "wowtv.co.kr##div.wrap-bottomad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wowtv\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wrap-bottomad"
                     }
                 }
             },
