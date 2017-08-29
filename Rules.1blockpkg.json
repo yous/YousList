@@ -31750,6 +31750,32 @@
                 }
             },
             {
+                "id": "8d4138f8-18ee-4826-8087-0927581adc6f",
+                "name": "m.yna.co.kr##amp-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.yna\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "amp-ad"
+                    }
+                }
+            },
+            {
+                "id": "802e1611-658c-4d94-8b83-2cd0a8dbe0fa",
+                "name": "m.yna.co.kr##aside.amp-ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.yna\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.amp-ad-container"
+                    }
+                }
+            },
+            {
                 "id": "963d92f8-24c7-4061-885c-cdab5c3df474",
                 "name": "m.yna.co.kr##aside.section-article-add>div.section-ad",
                 "content": {
@@ -31776,6 +31802,19 @@
                 }
             },
             {
+                "id": "80cb9ccf-4e70-4a27-9e46-c6d642500c0a",
+                "name": "m.yna.co.kr##div#tx_insert",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.yna\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#tx_insert"
+                    }
+                }
+            },
+            {
                 "id": "12f133bd-8c88-47d8-a4b3-ef25ad8b77cd",
                 "name": "m.yna.co.kr##div.ad-Cauly-wrap",
                 "content": {
@@ -31789,6 +31828,19 @@
                 }
             },
             {
+                "id": "2d2c8fa6-ea1f-4073-9563-bc791d400c46",
+                "name": "m.yna.co.kr##div.amp-ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.yna\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.amp-ad-container"
+                    }
+                }
+            },
+            {
                 "id": "10ee6177-bf05-419c-a3d7-1be7f96ce6cf",
                 "name": "m.yna.co.kr##div.section-txt>span.article-boxad",
                 "content": {
@@ -31798,6 +31850,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.section-txt>span.article-boxad"
+                    }
+                }
+            },
+            {
+                "id": "6625cbc8-55fc-4563-8af2-3f1af0fc8af0",
+                "name": "m.yna.co.kr##div.wrap-ticker4",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.yna\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wrap-ticker4"
                     }
                 }
             },
