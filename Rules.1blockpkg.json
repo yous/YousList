@@ -3646,6 +3646,18 @@
                 }
             },
             {
+                "id": "0f4e7fb4-436f-4534-8dc6-466376f6a205",
+                "name": "adcode.rontar.com/rontar2_async.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adcode\\.rontar\\.com/rontar2_async\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "19e502f5-d35e-475a-b52d-a702e3b5f456",
                 "name": "adcreative.hani.naver.net/ad",
                 "content": {
@@ -6545,6 +6557,18 @@
                 }
             },
             {
+                "id": "237056f9-b8e1-4944-b11d-85bbefbd284c",
+                "name": "cse.google.com/adsense/search/async-ads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cse\\.google\\.com/adsense/search/async-ads\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b7d694e1-ef3b-4f4e-a7c7-c77c600dbe83",
                 "name": "cwdata.itplay.co.kr/ol/",
                 "content": {
@@ -8909,6 +8933,18 @@
                 }
             },
             {
+                "id": "cbb88fe0-f908-477b-80bd-7cb6700333ec",
+                "name": "js-goods.redtram.com/ticker_*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?js-goods\\.redtram\\.com/ticker_.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "47a1d9ec-051e-4730-ae77-825ff5a6713e",
                 "name": "js-sec.indexww.com/ht/htw-gawker.js",
                 "content": {
@@ -10894,6 +10930,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.sbs\\.co\\.kr/ad/delay_redirect\\.jsp"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7d00e471-a9db-4936-bdfd-7e4a859ceb1b",
+                "name": "news.smi2.ru/data/js/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.smi2\\.ru/data/js/.*\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -17095,6 +17143,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#ape_gateway_btf_gateway-mWeb_wrapper"
+                    }
+                }
+            },
+            {
+                "id": "d517efef-0347-4046-b27e-0344ea893f82",
+                "name": "amic.ru##div.adv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amic\\.ru"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adv"
+                    }
+                }
+            },
+            {
+                "id": "c6aa60f7-f77b-4cd2-adfe-092c7973189c",
+                "name": "amic.ru##div.amic_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amic\\.ru"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.amic_banner"
+                    }
+                }
+            },
+            {
+                "id": "23d0bddf-b4dd-4de6-bbbf-f16c3cbe3615",
+                "name": "amic.ru##div[id^=\"amic_banner_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amic\\.ru"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"amic_banner_\"]"
                     }
                 }
             },
