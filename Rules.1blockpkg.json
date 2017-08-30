@@ -19543,6 +19543,32 @@
                 }
             },
             {
+                "id": "7b915c60-29c8-40fc-bd45-8aa055c2fbda",
+                "name": "ciokorea.com##div#banner_bg",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ciokorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_bg"
+                    }
+                }
+            },
+            {
+                "id": "340338c8-9b11-41e2-8c56-582927a96a57",
+                "name": "ciokorea.com##div#banner_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ciokorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_top"
+                    }
+                }
+            },
+            {
                 "id": "4591423d-5268-4256-8e69-c9d0e8bd28f1",
                 "name": "clien.net##div#div-mw-list-center",
                 "content": {
