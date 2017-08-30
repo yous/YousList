@@ -7643,6 +7643,18 @@
                 }
             },
             {
+                "id": "ccd9ae1b-fed0-455d-a142-2ec50bd9b7f1",
+                "name": "franecki.net/js/lib.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?franecki\\.net/js/lib\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4b9d41ee-a665-4922-864c-e34a2d2cf345",
                 "name": "fs.jtbc.co.kr/common/ui/ad/",
                 "content": {
@@ -12403,6 +12415,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?servicer\\.marketgid\\.com"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6a96c702-9825-4191-a799-8d149529e28b",
+                "name": "serving.adbetclickin.pink/js/libcode3.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?serving\\.adbetclickin\\.pink/js/libcode3\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -23643,6 +23667,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/banner/\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
+                "id": "515cf0cf-d6a5-46ad-bd2b-a52dabc61f1f",
+                "name": "gidonline.club##div#tbn",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gidonline\\.club"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#tbn"
+                    }
+                }
+            },
+            {
+                "id": "9e7def23-da27-45f2-b36d-4b9709e86f77",
+                "name": "gidonline.club##div.tiznews",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gidonline\\.club"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.tiznews"
+                    }
+                }
+            },
+            {
+                "id": "7906832a-dbad-4405-aaf9-8f6ebce710a7",
+                "name": "gidonline.club##div.zbin",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gidonline\\.club"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.zbin"
                     }
                 }
             },
