@@ -13215,6 +13215,21 @@
                 }
             },
             {
+                "id": "46a830ce-a0b2-4a13-8f21-aabaad04d1d8",
+                "name": "thepiratebay.bid/static/ads/$domain=thepiratebay.bid",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thepiratebay\\.bid/static/ads/",
+                        "if-domain": [
+                            "thepiratebay.bid"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f7f902be-683a-478b-bb8c-9d7bfa05cf24",
                 "name": "thepiratebay.org/static/ads/$domain=thepiratebay.org",
                 "content": {
