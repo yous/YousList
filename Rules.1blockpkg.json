@@ -4842,6 +4842,21 @@
                 }
             },
             {
+                "id": "e4c0a735-d5f3-4248-a57f-4fdbb28915b9",
+                "name": "ani119.com/public/adv/$domain=ani119.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ani119\\.com/public/adv/",
+                        "if-domain": [
+                            "ani119.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6686793e-bb80-44fe-b8aa-ae7c782edd35",
                 "name": "animefreak.tv/sites/all/modules/custom/anime/ads/",
                 "content": {
@@ -4907,6 +4922,54 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?api\\.content\\.ad/Scripts/widget2\\.aspx"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "727aa67b-455c-4b70-a4eb-52e7b45393e7",
+                "name": "api.megamouth.kr/pu_con.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?api\\.megamouth\\.kr/pu_con\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "45b979e8-1a4f-44a7-b5cf-d28d8df9f0c8",
+                "name": "api.megamouth.kr/pu_li.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?api\\.megamouth\\.kr/pu_li\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "238b2f30-017f-4900-9fca-6ce3fd7f7aba",
+                "name": "api.megamouth.kr/pu_script.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?api\\.megamouth\\.kr/pu_script\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "33400d9b-3723-4dda-a534-2ded47bf087c",
+                "name": "api.megamouth.kr/pucs.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?api\\.megamouth\\.kr/pucs\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -17058,6 +17121,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "main div.ad-container"
+                    }
+                }
+            },
+            {
+                "id": "82a041b8-41ee-4860-b019-bc20f9771e48",
+                "name": "ani119.com##div.each_adv_center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ani119\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.each_adv_center"
+                    }
+                }
+            },
+            {
+                "id": "2cc79d32-29d8-4383-8ec6-05cf5d94b488",
+                "name": "ani119.com##iframe[src^=\"http://www.ani119.com/public/adv/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ani119\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.ani119.com/public/adv/\"]"
                     }
                 }
             },

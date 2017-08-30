@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: Vkm7ZfihQus70SbQJs529A
+! Checksum: Q0you3AXtPe4rvMYrNdbIg
 ! Version: 20170830
 
 ! Workaround for BlockAdBlock
@@ -406,12 +406,17 @@
 ||am15.net/ssp/banner^
 ||amsv2.daum.net/ad/
 ||an.yandex.ru/system/context.js^
+||ani119.com/public/adv/$domain=ani119.com
 ||animefreak.tv/sites/all/modules/custom/anime/ads/
 ||animefreak.tv/sites/all/modules/custom/anime/yanone.html^
 ||ap.lijit.com/www/delivery/fpi.js^
 ||api.adns.contentlink.co.kr/adserver/delivery/dwad.php^
 ||api.adns.contentlink.co.kr/adserver/delivery/iframe.php^
 ||api.content.ad/Scripts/widget2.aspx^
+||api.megamouth.kr/pu_con.php^
+||api.megamouth.kr/pu_li.php^
+||api.megamouth.kr/pu_script.php^
+||api.megamouth.kr/pucs.js^
 ||api.wiseclick.co.kr/api/web_directad/
 ||apis.naver.com/rmcnmv/rmcams/item/create/2010/SMR^$domain=m.tv.naver.com|tv.naver.com
 ||as.dc.impact-ad.jp^
@@ -1163,6 +1168,8 @@ amazon.com##div#ape_gateway_btf_gateway-mWeb_text-wrapper
 amazon.com##div#ape_gateway_btf_gateway-mWeb_wrapper
 amp.businessinsider.com##amp-ad
 amp.businessinsider.com##main div.ad-container
+ani119.com##div.each_adv_center
+ani119.com##iframe[src^="http://www.ani119.com/public/adv/"]
 anigod.com##div.episode-video-ad-container
 anigod.com##div.footer-ad
 animefreak.tv##body>div>div[style="width:100%;height:768px;position:fixed;left:0;top:0px;overflow:hidden;visibility:hidden;z-index:0"]
