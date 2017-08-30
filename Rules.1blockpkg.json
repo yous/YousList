@@ -27694,15 +27694,28 @@
                 }
             },
             {
-                "id": "83c2a7aa-05fe-4579-840f-6542ea7004b4",
-                "name": "m.dcinside.com##article.cont_gall>div[style=\"margin-top:1px;margin-bottom:1px;padding-bottom:0px;text-align:center;height:50px;\"]",
+                "id": "a6359566-0c92-4894-84f2-b10d92715f0d",
+                "name": "m.dcinside.com##div#Minor_view_middle",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "article.cont_gall>div[style=\"margin-top:1px;margin-bottom:1px;padding-bottom:0px;text-align:center;height:50px;\"]"
+                        "selector": "div#Minor_view_middle"
+                    }
+                }
+            },
+            {
+                "id": "a254bb3d-bd50-49e7-b781-ee7b59db3cff",
+                "name": "m.dcinside.com##div#Minor_view_recomm",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#Minor_view_recomm"
                     }
                 }
             },
@@ -27720,54 +27733,67 @@
                 }
             },
             {
-                "id": "9a17422b-5f2e-41f1-9e08-f3b26405142f",
-                "name": "m.dcinside.com##div#search_layer>div[style=\"margin-top:1px;margin-bottom:1px;text-align:center;height:100px;\"]",
+                "id": "8745d639-0f8b-451b-955c-45e42ff99917",
+                "name": "m.dcinside.com##div#minor_list_top",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#search_layer>div[style=\"margin-top:1px;margin-bottom:1px;text-align:center;height:100px;\"]"
+                        "selector": "div#minor_list_top"
                     }
                 }
             },
             {
-                "id": "67ec31e6-5749-467d-8b3b-fed020a72176",
-                "name": "m.dcinside.com##div#search_layer>div[style=\"margin-top:1px;margin-bottom:1px;text-align:center;height:50px;\"]",
+                "id": "93bc2c55-e320-4ddc-a41d-c5c52b3f21e6",
+                "name": "m.dcinside.com##div#minor_view_top",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#search_layer>div[style=\"margin-top:1px;margin-bottom:1px;text-align:center;height:50px;\"]"
+                        "selector": "div#minor_view_top"
                     }
                 }
             },
             {
-                "id": "f8f01e0a-e8f2-4485-9aa0-d1452adbddfc",
-                "name": "m.dcinside.com##div#search_layer>section.gall_sec_theme>div.sec_concept_gallery>div.list_concept>div[style=\"margin-top:1px;margin-bottom:1px;text-align:center;height:100px;\"]",
+                "id": "a5082131-3029-4247-afdb-aa5a15381a11",
+                "name": "m.dcinside.com##div#program_ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#search_layer>section.gall_sec_theme>div.sec_concept_gallery>div.list_concept>div[style=\"margin-top:1px;margin-bottom:1px;text-align:center;height:100px;\"]"
+                        "selector": "div#program_ad"
                     }
                 }
             },
             {
-                "id": "269b7979-1698-47f3-84c1-a8202b30beef",
-                "name": "m.dcinside.com##div#search_layer>section.gall_sec_theme>div.sec_concept_gallery>div[style=\"margin-top:1px;margin-bottom:1px;text-align:center;height:50px;\"]",
+                "id": "fafd8599-c819-4119-ac13-cb9b8d580ef3",
+                "name": "m.dcinside.com##div#search_layer>div.article_list>div[style=\"text-align: center; height:100px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#search_layer>section.gall_sec_theme>div.sec_concept_gallery>div[style=\"margin-top:1px;margin-bottom:1px;text-align:center;height:50px;\"]"
+                        "selector": "div#search_layer>div.article_list>div[style=\"text-align: center; height:100px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "f5191ccc-4992-4e85-9379-ae8537f2c475",
+                "name": "m.dcinside.com##div#set_comment_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#set_comment_bottom"
                     }
                 }
             },
