@@ -21112,6 +21112,32 @@
                 }
             },
             {
+                "id": "55e12260-33d0-4a5e-abaa-f5c918cb5cb0",
+                "name": "drspark.net##a[href^=\"http://cashmerekorea.com/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?drspark\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"http://cashmerekorea.com/\"]"
+                    }
+                }
+            },
+            {
+                "id": "5cdcff36-c6d3-4f69-9d59-be12deb072e6",
+                "name": "drspark.net##div#tadzone",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?drspark\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#tadzone"
+                    }
+                }
+            },
+            {
                 "id": "b92ba372-6642-4971-9467-87b797216486",
                 "name": "dt.co.kr##div#gisa>table",
                 "content": {
