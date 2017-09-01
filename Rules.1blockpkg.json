@@ -23385,6 +23385,19 @@
                 }
             },
             {
+                "id": "62db322a-1b35-4df0-8bcf-91899a0f6d3d",
+                "name": "gall.dcinside.com##tr.comment_mandu",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gall\\.dcinside\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "tr.comment_mandu"
+                    }
+                }
+            },
+            {
                 "id": "194394dd-ba1f-4a23-a172-d4eddf366f2e",
                 "name": "game.xportsnews.com##div.ad_1",
                 "content": {
