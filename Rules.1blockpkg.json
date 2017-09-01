@@ -24009,6 +24009,19 @@
                 }
             },
             {
+                "id": "713fc0b5-e78b-4083-b075-1e1d7645ba0f",
+                "name": "hani.co.kr##div#a-left-scroll-in>div[style=\"text-align:center; padding: 0 0 25px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hani\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#a-left-scroll-in>div[style=\"text-align:center; padding: 0 0 25px\"]"
+                    }
+                }
+            },
+            {
                 "id": "efa9bf7e-6dc4-4409-aefc-a92029aa0279",
                 "name": "hani.co.kr##div#laAdArea",
                 "content": {
@@ -24018,6 +24031,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#laAdArea"
+                    }
+                }
+            },
+            {
+                "id": "0a632df9-2bfb-461b-88db-38dc7461b63b",
+                "name": "hani.co.kr##div.ad-300x180-area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hani\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-300x180-area"
                     }
                 }
             },
