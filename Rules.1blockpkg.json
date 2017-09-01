@@ -2947,6 +2947,18 @@
                 }
             },
             {
+                "id": "7b420a0b-5367-4bac-a59d-9cde2b332625",
+                "name": "ad.3dpop.kr/web/gate.pop",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.3dpop\\.kr/web/gate\\.pop"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1741b3b1-f6cc-41c9-9748-553735851ecd",
                 "name": "ad.about.co.kr",
                 "content": {
@@ -29998,6 +30010,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#m_a_content>div.m_min_size>div[style=\"float:right;margin:0 0 10px 10px;width:200px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "e0d86932-a242-4628-8c14-5edacda607cf",
+                "name": "m.mediatoday.co.kr##div.float_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mediatoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.float_banner"
                     }
                 }
             },
