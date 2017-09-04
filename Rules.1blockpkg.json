@@ -1434,6 +1434,19 @@
                 }
             },
             {
+                "id": "ae2d0d50-a96d-4f42-9bc2-5304d2b0b690",
+                "name": "##iframe[src^=\"http://deliverys.n2s.co.kr/afm.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://deliverys.n2s.co.kr/afm.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "beb0ad83-daa8-439a-bcaa-4a550c3f6ba6",
                 "name": "##iframe[src^=\"http://dgate.joins.com/hc.aspx\"]",
                 "content": {
@@ -6805,6 +6818,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?delivery\\.amessagewithabottle\\.com/www/delivery/ajs\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8eda8de8-6944-4c68-8a4c-98730432ef73",
+                "name": "deliverys.n2s.co.kr/afm.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?deliverys\\.n2s\\.co\\.kr/afm\\.php"
                     },
                     "action": {
                         "type": "block"
