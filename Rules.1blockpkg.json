@@ -22902,6 +22902,32 @@
                 }
             },
             {
+                "id": "2d90601a-9b66-4f25-a4d0-2593cfb67e47",
+                "name": "fastcodesign.com##div.ad-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fastcodesign\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "8ffef498-8e45-452e-bf64-ab18fe459722",
+                "name": "fastcodesign.com##div.post__article-top-ad-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fastcodesign\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.post__article-top-ad-wrapper"
+                    }
+                }
+            },
+            {
                 "id": "2b6605b1-8479-45e5-86c2-b72b8859c6f1",
                 "name": "flashscore.pl##div.adscontent",
                 "content": {
