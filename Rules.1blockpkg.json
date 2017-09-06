@@ -485,6 +485,19 @@
                 }
             },
             {
+                "id": "216de843-977c-46af-b89d-3482f278424d",
+                "name": "##iframe[src^=\"//mrelko.com/bnrs/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//mrelko.com/bnrs/\"]"
+                    }
+                }
+            },
+            {
                 "id": "ad2d2a17-9af0-43db-a3d7-f94412661d27",
                 "name": "##iframe[src^=\"//onedrive.su/code/swf_banner.php\"]",
                 "content": {
@@ -7332,6 +7345,18 @@
                 }
             },
             {
+                "id": "63f524b3-bad0-47f3-96d6-1b5b977b772a",
+                "name": "etcodes.com/bens/vinos.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etcodes\\.com/bens/vinos\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d2d900de-c809-4f51-a5ba-23772a733a0a",
                 "name": "etnews.com/tools/etnews_hns.js$domain=etnews.com",
                 "content": {
@@ -10425,6 +10450,18 @@
                 }
             },
             {
+                "id": "abff0d7d-ad48-4294-896c-4ac219294a3a",
+                "name": "mrelko.com/bnrs/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mrelko\\.com/bnrs/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "29b30a45-55ed-4cef-bd0c-6f9a3c1f8223",
                 "name": "mt.co.kr/ad/",
                 "content": {
@@ -11900,6 +11937,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ra\\.ntwoad\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "805c4733-f769-4022-a492-1abc045e158e",
+                "name": "rarenok.biz/img/r/i/208/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?rarenok\\.biz/img/r/i/208/"
                     },
                     "action": {
                         "type": "block"
@@ -39121,6 +39170,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "c2952e10-da11-4a1b-8344-404075999373",
+                "name": "rutor.info##div.sideblock2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?rutor\\.info"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sideblock2"
                     }
                 }
             },
