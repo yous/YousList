@@ -953,6 +953,19 @@
                 }
             },
             {
+                "id": "7607add6-b04a-49de-97f5-b4e06d07b8db",
+                "name": "##iframe[src^=\"http://adgrp1.ad4989.co.kr/cgi-bin/PelicanC.dll\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adgrp1.ad4989.co.kr/cgi-bin/PelicanC.dll\"]"
+                    }
+                }
+            },
+            {
                 "id": "8e3b50fd-f4bc-42c1-94b9-b2f4b1c47314",
                 "name": "##iframe[src^=\"http://adin.ad4980.kr/\"]",
                 "content": {
@@ -3820,6 +3833,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adget\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "953f686a-02fa-4a1d-a257-dba5695074bb",
+                "name": "adgrp1.ad4989.co.kr/cgi-bin/PelicanC.dll",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adgrp1\\.ad4989\\.co\\.kr/cgi-bin/PelicanC\\.dll"
                     },
                     "action": {
                         "type": "block"
