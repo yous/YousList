@@ -28296,6 +28296,19 @@
                 }
             },
             {
+                "id": "2a180859-1ca6-48e5-a34b-8dd09f10777a",
+                "name": "m.dcinside.com##div#comment_first ul.list_best>li:not([id])",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#comment_first ul.list_best>li:not([id])"
+                    }
+                }
+            },
+            {
                 "id": "9cd62043-6b26-417b-9503-19b3edf8fa53",
                 "name": "m.dcinside.com##div#list_more_foot>div[style=\"margin-top:10px;margin-bottom:10px;padding-bottom:0px;text-align:center;height:250px;\"]",
                 "content": {
