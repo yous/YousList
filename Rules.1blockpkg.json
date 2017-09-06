@@ -2383,19 +2383,6 @@
                 }
             },
             {
-                "id": "06128bec-90dc-43e9-95f0-e1ff58c22626",
-                "name": "##iframe[src^=\"http://www.koreadaily.com/_ui/ad/\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"http://www.koreadaily.com/_ui/ad/\"]"
-                    }
-                }
-            },
-            {
                 "id": "b2591251-bbea-47ae-95d0-3004f2570baf",
                 "name": "##iframe[src^=\"http://www.mediamixad.com/ad/liveAd\"]",
                 "content": {
@@ -9373,11 +9360,14 @@
                 }
             },
             {
-                "id": "24bb5d94-41ac-45b0-b8df-6657143b4a91",
-                "name": "koreadaily.com/_ui/ad/",
+                "id": "5bdcfc3a-8520-42b2-8b0c-ed48cdc2e8ac",
+                "name": "koreadaily.com/_ui/ad/$domain=koreadaily.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com/_ui/ad/"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com/_ui/ad/",
+                        "if-domain": [
+                            "koreadaily.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -26681,6 +26671,32 @@
                 }
             },
             {
+                "id": "5ad8118f-88c4-4135-b56d-42551763c8ab",
+                "name": "koreadaily.com##div#divLayerAd_HOME",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#divLayerAd_HOME"
+                    }
+                }
+            },
+            {
+                "id": "c3f37e1e-a201-4c37-abb5-fefb535c1184",
+                "name": "koreadaily.com##div#frame_right>div[style=\"margin-top:12px;border:solid 9px #e5e5e5\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#frame_right>div[style=\"margin-top:12px;border:solid 9px #e5e5e5\"]"
+                    }
+                }
+            },
+            {
                 "id": "a43ab140-7438-4015-8567-a42feefbf0fc",
                 "name": "koreadaily.com##div#google_ad1",
                 "content": {
@@ -26690,6 +26706,123 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#google_ad1"
+                    }
+                }
+            },
+            {
+                "id": "dac35256-3c00-48a3-a8fc-4c9794c74717",
+                "name": "koreadaily.com##div#google_ad2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#google_ad2"
+                    }
+                }
+            },
+            {
+                "id": "83313176-fe0d-4229-9f2a-69453dd693de",
+                "name": "koreadaily.com##div.banner01",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner01"
+                    }
+                }
+            },
+            {
+                "id": "afa9bac9-73c0-4257-8b36-22a2c5082d64",
+                "name": "koreadaily.com##div.banner1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner1"
+                    }
+                }
+            },
+            {
+                "id": "06cbb759-0913-44e4-af51-397d91ecf608",
+                "name": "koreadaily.com##div.banner2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner2"
+                    }
+                }
+            },
+            {
+                "id": "d6128653-5f03-4f51-a551-6367e06de14d",
+                "name": "koreadaily.com##div.footer>table[height=\"90\"][width=\"970\"][style=\"text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.footer>table[height=\"90\"][width=\"970\"][style=\"text-align:center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "70156078-3b6e-40f0-863c-eb27efd99e7d",
+                "name": "koreadaily.com##div.left_banner2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.left_banner2"
+                    }
+                }
+            },
+            {
+                "id": "91d30a0c-d781-42e7-9ef5-e187f101e727",
+                "name": "koreadaily.com##div.left_banner3",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.left_banner3"
+                    }
+                }
+            },
+            {
+                "id": "d25313c3-bc2d-4ebe-8061-4e96bd617e31",
+                "name": "koreadaily.com##div.new_ad1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.new_ad1"
+                    }
+                }
+            },
+            {
+                "id": "1abea093-39fb-4f03-9b67-393cb398bfef",
+                "name": "koreadaily.com##div.new_ad2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.new_ad2"
                     }
                 }
             },
@@ -26707,6 +26840,19 @@
                 }
             },
             {
+                "id": "87adf9bc-b3ef-4f0f-8f0a-7c1085ceafd1",
+                "name": "koreadaily.com##div.right_b_dfp_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.right_b_dfp_banner"
+                    }
+                }
+            },
+            {
                 "id": "7a4a359e-e9f7-42e3-89c5-1d5358a2a9d8",
                 "name": "koreadaily.com##div.shopping2",
                 "content": {
@@ -26720,6 +26866,19 @@
                 }
             },
             {
+                "id": "a83a50b1-c077-4d27-b169-efcdc313a611",
+                "name": "koreadaily.com##div.subhotdeal",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.subhotdeal"
+                    }
+                }
+            },
+            {
                 "id": "f2a51e03-7fa6-4724-bdc0-39dae932ab15",
                 "name": "koreadaily.com##div.top>div[style=\"width:970px;margin-top:15px;overflow:hidden;border:solid 1px #e5e5e5;\"]",
                 "content": {
@@ -26729,6 +26888,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.top>div[style=\"width:970px;margin-top:15px;overflow:hidden;border:solid 1px #e5e5e5;\"]"
+                    }
+                }
+            },
+            {
+                "id": "cbbea476-2077-4121-a170-0544e2c90e9c",
+                "name": "koreadaily.com##div[id^=\"divLayerAd_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"divLayerAd_\"]"
+                    }
+                }
+            },
+            {
+                "id": "9c8cd61a-3b75-4489-b3e6-3cf410252530",
+                "name": "koreadaily.com##iframe[src^=\"http://www.koreadaily.com/_ui/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.koreadaily.com/_ui/ad/\"]"
+                    }
+                }
+            },
+            {
+                "id": "f0616609-1bf1-47c4-b0ec-9ec9f70a1ad4",
+                "name": "koreadaily.com##li.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.banner"
                     }
                 }
             },

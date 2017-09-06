@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: EdbFIWfPF1W+ImHNF6M/1w
+! Checksum: er6HmkPctr16CbdaWt6b1Q
 ! Version: 20170906
 
 ! Workaround for BlockAdBlock
@@ -201,7 +201,6 @@
 ##iframe[src^="http://www.inven.co.kr/ad/"]
 ##iframe[src^="http://www.jjan.kr/banner/ad_banner_"][src$=".html"]
 ##iframe[src^="http://www.kmib.co.kr/cp/realclick/"]
-##iframe[src^="http://www.koreadaily.com/_ui/ad/"]
 ##iframe[src^="http://www.mediamixad.com/ad/liveAd"]
 ##iframe[src^="http://www.sunnyworks.co.kr/data/SW"][src$=".html"]
 ##iframe[src^="http://www.ti-center.co.kr/"]
@@ -759,7 +758,7 @@
 ||kmib.co.kr/cp/realclick/
 ||kookje.co.kr/news2011/sephtml/main_mediclub6.htm^$domain=kookje.co.kr
 ||kookje.co.kr/service/banner/$domain=kookje.co.kr
-||koreadaily.com/_ui/ad/
+||koreadaily.com/_ui/ad/$domain=koreadaily.com
 ||lightad.co.kr/Lightcoms/
 ||lightasp.dmcmedia.co.kr/adixs/
 ||longkeyone.co.kr^
@@ -1866,10 +1865,26 @@ kookje.co.kr##div.leftArea>div[style="clear:both;margin:0 10px;"]
 kookje.co.kr##div.right_margin_div:not([id])
 kookje.co.kr##iframe[src^="/news2011/sephtml/main_mediclub6.htm"]
 kookje.co.kr##iframe[src^="/service/banner/"]
+koreadaily.com##div#divLayerAd_HOME
+koreadaily.com##div#frame_right>div[style="margin-top:12px;border:solid 9px #e5e5e5"]
 koreadaily.com##div#google_ad1
+koreadaily.com##div#google_ad2
+koreadaily.com##div.banner01
+koreadaily.com##div.banner1
+koreadaily.com##div.banner2
+koreadaily.com##div.footer>table[height="90"][width="970"][style="text-align:center;"]
+koreadaily.com##div.left_banner2
+koreadaily.com##div.left_banner3
+koreadaily.com##div.new_ad1
+koreadaily.com##div.new_ad2
 koreadaily.com##div.right_b_banner
+koreadaily.com##div.right_b_dfp_banner
 koreadaily.com##div.shopping2
+koreadaily.com##div.subhotdeal
 koreadaily.com##div.top>div[style="width:970px;margin-top:15px;overflow:hidden;border:solid 1px #e5e5e5;"]
+koreadaily.com##div[id^="divLayerAd_"]
+koreadaily.com##iframe[src^="http://www.koreadaily.com/_ui/ad/"]
+koreadaily.com##li.banner
 koreadaily.com##td#frame_center>table>tbody>tr>td>div[style="width:680px;height:95px;margin-top:20px;position:relative;text-align:right;"]
 koreaherald.com##aside.rsnb>div[class^="ad"]
 koreaherald.com##div.banner_1024_1024
