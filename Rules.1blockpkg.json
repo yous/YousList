@@ -6210,6 +6210,18 @@
                 }
             },
             {
+                "id": "4df89ad9-39a0-46d8-9571-65f66fa1e7ff",
+                "name": "cdn.kixer.com/ad/load.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.kixer\\.com/ad/load\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b145a88a-c19f-4d99-9411-6c61806c8d66",
                 "name": "cdn.optmd.com/V2/PSA/",
                 "content": {
@@ -20571,6 +20583,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "span#AD_GISA_PHOTO_LINE"
+                    }
+                }
+            },
+            {
+                "id": "781734ce-d1ba-4116-8caf-53bc3e18e5cc",
+                "name": "dailymail.co.uk##div.billboard_wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailymail\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.billboard_wrapper"
+                    }
+                }
+            },
+            {
+                "id": "c781dfd2-7262-412e-9ad0-e52d11c2ba0a",
+                "name": "dailymail.co.uk##div.trc-content-sponsored",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailymail\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.trc-content-sponsored"
+                    }
+                }
+            },
+            {
+                "id": "b6efe829-f8d5-44dc-a65f-3a68ad069ad8",
+                "name": "dailymail.co.uk##div[data-adverts-ad]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailymail\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-adverts-ad]"
                     }
                 }
             },

@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: U318VG2DmwLc9CxnWB1FWA
-! Version: 20170905
+! Checksum: +O+l/ofj46wxriFZCtv+3w
+! Version: 20170906
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -509,6 +509,7 @@
 ||cdn.c-team.jp/tags/dokojs/ad*.js^
 ||cdn.carbonads.com/carbon.js^
 ||cdn.gmossp-sp.jp/ads/loader.js^
+||cdn.kixer.com/ad/load.js^
 ||cdn.optmd.com/V2/PSA/
 ||cdn.scrollads.co.kr/scrollads.*.js^
 ||cdn.teads.tv/js/all-v1.js^
@@ -1400,6 +1401,9 @@ daily.hankooki.com##div[id^="Ad_"]
 daily.hankooki.com##div[id^="adText"]
 daily.hankooki.com##iframe[src^="http://daily.hankooki.com/ad/"]
 daily.hankooki.com##span#AD_GISA_PHOTO_LINE
+dailymail.co.uk##div.billboard_wrapper
+dailymail.co.uk##div.trc-content-sponsored
+dailymail.co.uk##div[data-adverts-ad]
 dailymotion.com##div#bottom_banner
 dailymotion.com##div.ad
 dailymotion.com##div.mc
