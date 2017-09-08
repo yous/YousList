@@ -576,6 +576,19 @@
                 }
             },
             {
+                "id": "6a05be38-f433-4e12-8f75-06adbe9374be",
+                "name": "##iframe[src^=\"//x.jd.com/exsites\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//x.jd.com/exsites\"]"
+                    }
+                }
+            },
+            {
                 "id": "4fb14ea5-2943-45b0-aad7-a6b27b8c14b3",
                 "name": "##iframe[src^=\"http://a1.dp25.kr/\"]",
                 "content": {
@@ -9413,6 +9426,21 @@
                 }
             },
             {
+                "id": "07ea52e3-41c6-4b1f-a80e-5426d99827c3",
+                "name": "l.qq.com/lview$domain=qq.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?l\\.qq\\.com/lview",
+                        "if-domain": [
+                            "qq.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "737ad2b3-214c-4b86-8c4c-94aea044b2a0",
                 "name": "lightad.co.kr/Lightcoms/",
                 "content": {
@@ -14228,6 +14256,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wstatic\\.dcinside\\.com/gallery/top/ad_top/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1360e20f-ad63-41fc-b778-3e6d158154f8",
+                "name": "x.jd.com/exsites",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?x\\.jd\\.com/exsites"
                     },
                     "action": {
                         "type": "block"
@@ -39211,6 +39251,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://www.danawa.com/NBP/powerLink.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "1bd5b08e-3dc6-4f54-8a4b-94eae0eb883a",
+                "name": "qq.com##div.adLeft",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?qq\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adLeft"
+                    }
+                }
+            },
+            {
+                "id": "3f0c10ad-277f-455f-ac91-3728004a7a68",
+                "name": "qq.com##div.adLeft700",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?qq\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adLeft700"
+                    }
+                }
+            },
+            {
+                "id": "fa97aa60-18c4-4446-bf09-fd9b6b4f43eb",
+                "name": "qq.com##div.adRight",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?qq\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adRight"
+                    }
+                }
+            },
+            {
+                "id": "2e95363b-f502-463c-a2f6-d3ba5d693d1b",
+                "name": "qq.com##div.adRight280",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?qq\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adRight280"
+                    }
+                }
+            },
+            {
+                "id": "8f6e8380-1b01-4013-98f3-b0f2a4592e4a",
+                "name": "qq.com##div.l_qq_com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?qq\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.l_qq_com"
                     }
                 }
             },

@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: +6D2NED/MKmIFteKEipOkg
+! Checksum: IuMhN9scEIgKYAQHLLLlHg
 ! Version: 20170908
 
 ! Workaround for BlockAdBlock
@@ -62,6 +62,7 @@
 ##iframe[src^="//ssp.advg.jp/ssp/p/iframe"]
 ##iframe[src^="//ubh-d.openx.net/w/1.0/afr"]
 ##iframe[src^="//urldelivery.com/watch."]
+##iframe[src^="//x.jd.com/exsites"]
 ##iframe[src^="http://a1.dp25.kr/"]
 ##iframe[src^="http://ad.about.co.kr/"]
 ##iframe[src^="http://ad.ad4989.co.kr/"]
@@ -762,6 +763,7 @@
 ||kookje.co.kr/news2011/sephtml/main_mediclub6.htm^$domain=kookje.co.kr
 ||kookje.co.kr/service/banner/$domain=kookje.co.kr
 ||koreadaily.com/_ui/ad/$domain=koreadaily.com
+||l.qq.com/lview^$domain=qq.com
 ||lightad.co.kr/Lightcoms/
 ||lightasp.dmcmedia.co.kr/adixs/
 ||longkeyone.co.kr^
@@ -1143,6 +1145,7 @@
 ||wowtv.co.kr/AD/
 ||wstatic.dcinside.com/ad/
 ||wstatic.dcinside.com/gallery/top/ad_top/
+||x.jd.com/exsites^
 ||x.kinja-static.com/assets/packaged-js/dollars.*.js^
 ||xportsnews.hankyung.com/contents/upload/pds/2012/0425/1335335866605.jpg^
 ||yads.c.yimg.jp/yads.js^
@@ -2812,6 +2815,11 @@ prod.danawa.com##div.ad_wide_slide
 prod.danawa.com##div.popup_ad_floating
 prod.danawa.com##div.power_link
 prod.danawa.com##iframe[src^="http://www.danawa.com/NBP/powerLink.php"]
+qq.com##div.adLeft
+qq.com##div.adLeft700
+qq.com##div.adRight
+qq.com##div.adRight280
+qq.com##div.l_qq_com
 qz.com##div.inline-ad
 readmanga.today##div.ezo_ad
 readmanga.today##div.ezoic-ad
