@@ -862,6 +862,19 @@
                 }
             },
             {
+                "id": "5cd7705c-0a58-4f71-ba8f-9968e6a2b9a0",
+                "name": "##iframe[src^=\"http://ad2.thisisgame.com/ad\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ad2.thisisgame.com/ad\"]"
+                    }
+                }
+            },
+            {
                 "id": "c5ebe670-4c65-4517-a4e5-56d886804030",
                 "name": "##iframe[src^=\"http://adbiz.co.kr/\"]",
                 "content": {
@@ -41880,6 +41893,19 @@
                 }
             },
             {
+                "id": "e5ae7392-f352-43be-b24f-e941bef0a9aa",
+                "name": "thisisgame.com##div#ad_new_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thisisgame\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_new_bottom"
+                    }
+                }
+            },
+            {
                 "id": "ddb75164-836f-494d-8753-5e5c176335ea",
                 "name": "thisisgame.com##div#divMsnAD",
                 "content": {
@@ -41932,6 +41958,19 @@
                 }
             },
             {
+                "id": "41a82e6d-56c6-4494-99fc-437cc4aa8ca2",
+                "name": "thisisgame.com##div.article-subpart>div[style=\"text-align:center; padding-top:10px; padding-bottom:0px; \"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thisisgame\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article-subpart>div[style=\"text-align:center; padding-top:10px; padding-bottom:0px; \"]"
+                    }
+                }
+            },
+            {
                 "id": "ae15a8d3-eb99-4139-9372-a8c14438a2a4",
                 "name": "thisisgame.com##div.article-subpart>div[style=\"text-align:center; padding-top:20px; padding-bottom:10px; \"]",
                 "content": {
@@ -41941,6 +41980,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.article-subpart>div[style=\"text-align:center; padding-top:20px; padding-bottom:10px; \"]"
+                    }
+                }
+            },
+            {
+                "id": "0f7e5155-cf03-4490-ac79-52dd1b0d1d55",
+                "name": "thisisgame.com##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thisisgame\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
                     }
                 }
             },
