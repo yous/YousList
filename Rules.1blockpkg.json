@@ -39319,6 +39319,19 @@
                 }
             },
             {
+                "id": "dcfef2be-8739-4a0a-aa44-d64b27313a06",
+                "name": "reddit.com##div.dfp-ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?reddit\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.dfp-ad-container"
+                    }
+                }
+            },
+            {
                 "id": "efd298f8-3593-4fb1-8119-bb65b312ca82",
                 "name": "redstate.com##article.large-card>div.ad",
                 "content": {
