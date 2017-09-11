@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: IuMhN9scEIgKYAQHLLLlHg
-! Version: 20170908
+! Checksum: SOvSRmWS0tXtWWlh3Lpi2A
+! Version: 20170911
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -35,6 +35,9 @@
 ##div.ezAdsense
 ##div.gpt_ad_container
 ##div.js-relap__item>div.js-relap__item-inner>a[data-ad-link="true"]
+##div.ob-widget-section>ul.ob-widget-items-container>li.ob-p
+##div.ob_box_cont>ul>li.ob-p
+##div.ob_container>a.ob-p
 ##div.trc_rbox_container div.trc_rbox_outer div.syndicatedItem
 ##div[id^="AD_LIVE_AREA_"]
 ##div[id^="MarketGidScriptRootC"]
@@ -63,6 +66,7 @@
 ##iframe[src^="//ubh-d.openx.net/w/1.0/afr"]
 ##iframe[src^="//urldelivery.com/watch."]
 ##iframe[src^="//x.jd.com/exsites"]
+##iframe[src^="//y.one.impact-ad.jp/imp"]
 ##iframe[src^="http://a1.dp25.kr/"]
 ##iframe[src^="http://ad.about.co.kr/"]
 ##iframe[src^="http://ad.ad4989.co.kr/"]
@@ -207,6 +211,7 @@
 ##iframe[src^="http://www.mediamixad.com/ad/liveAd"]
 ##iframe[src^="http://www.sunnyworks.co.kr/data/SW"][src$=".html"]
 ##iframe[src^="http://www.ti-center.co.kr/"]
+##iframe[src^="https://ads.adjust-net.jp/adserver/ads"]
 ##iframe[src^="https://creative.wwwpromoter.com/"]
 ##iframe[src^="https://mycdn.co/adServe/imgBanner"][src*="_image-banner.cib"]
 ##iframe[src^="https://search2.nuriclick.co.kr/banner.php"]
@@ -356,6 +361,8 @@
 ||ads.acrosspf.com/js/acrossadx.js^
 ||ads.acrosspf.com/opf/original.html^
 ||ads.ad7942.co.kr/adx/data/NAONMP6060.js^
+||ads.adjust-net.jp/adserver/ad/ads.js^
+||ads.adjust-net.jp/adserver/ads^
 ||ads.contextweb.com/TagPublish/GetAd.aspx^
 ||ads.emetro.co.kr/www/delivery/ajs.php^
 ||ads.exdynsrv.com/ads.js^
@@ -427,6 +434,7 @@
 ||api.wiseclick.co.kr/api/web_directad/
 ||apis.naver.com/rmcnmv/rmcams/item/create/2010/SMR^$domain=m.tv.naver.com|tv.naver.com
 ||as.dc.impact-ad.jp^
+||asahicom.jp/ad/js/$domain=asahi.com
 ||asiae.co.kr/include/real_ad/
 ||asiatoday.co.kr/common_js/ad.js^$domain=asiatoday.co.kr
 ||ask.nate.com/iframe/sponsor.html^
@@ -700,6 +708,8 @@
 ||image.news1.kr/system/ads/ad_banner/
 ||image.wownet.co.kr/static/banner/*/flash/
 ||image2.inews24.com/ad*
+||img.ak.impact-ad.jp/ic/pone/commonjs/yone_viewable_iframe_min.js^
+||img.ak.impact-ad.jp/ic/pone/tags/*/*.js^
 ||img.appstory.co.kr/@files/human_banner/
 ||img.asiatoday.co.kr/adver/
 ||img.dt.co.kr/unse/
@@ -708,6 +718,7 @@
 ||img.sportsseoul.com/ad/
 ||img.yonhapnews.co.kr/basic/svc/00_ko/resources/js/main_youtube.js^$domain=yonhapnews.co.kr
 ||img2.keywordsconnect.com/iconAdImg*.gif^
+||imp.asahi.com/bservers/AAMALL/$domain=asahi.com
 ||imp.mklaud.com/ad^
 ||imp.sndkorea.co.kr/php/m.php^
 ||imp.valuepotion.com/mimp^
@@ -1148,6 +1159,7 @@
 ||x.jd.com/exsites^
 ||x.kinja-static.com/assets/packaged-js/dollars.*.js^
 ||xportsnews.hankyung.com/contents/upload/pds/2012/0425/1335335866605.jpg^
+||y.one.impact-ad.jp/imp^
 ||yads.c.yimg.jp/yads.js^
 ||yads.yahoo.co.jp/tag^
 ||youtube.com/get_video_info?*el=adunit$domain=youtube.com
@@ -1212,6 +1224,12 @@ artsnews.mk.co.kr##div[id="IDContents"]>div>table
 artsnews.mk.co.kr##div[id="joinskmbox"]>div[class="NEWSCONTENT"]>div:last-of-type
 artsnews.mk.co.kr##iframe#about_asiae_shopbox
 artsnews.mk.co.kr##iframe#ad-fist
+asahi.com##div.Ad
+asahi.com##div.AdMod
+asahi.com##div.OutbrainAdMod
+asahi.com##div.PrInfoBlock
+asahi.com##div.RectangleAd
+asahi.com##ul.BannerBlock
 asiae.co.kr,view.asiae.co.kr##div#aside>div.aside_view_ad
 asiae.co.kr,view.asiae.co.kr##div.google_ad
 asiae.co.kr,view.asiae.co.kr##div.news_view_ad

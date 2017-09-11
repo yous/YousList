@@ -225,6 +225,45 @@
                 }
             },
             {
+                "id": "03a6f1ae-0e69-4850-ae33-93263b2a3629",
+                "name": "##div.ob-widget-section>ul.ob-widget-items-container>li.ob-p",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ob-widget-section>ul.ob-widget-items-container>li.ob-p"
+                    }
+                }
+            },
+            {
+                "id": "0494b0f5-c409-4fa7-926b-142f05b53b42",
+                "name": "##div.ob_box_cont>ul>li.ob-p",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ob_box_cont>ul>li.ob-p"
+                    }
+                }
+            },
+            {
+                "id": "ef567891-6a67-4208-881c-6c86dfeace6c",
+                "name": "##div.ob_container>a.ob-p",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ob_container>a.ob-p"
+                    }
+                }
+            },
+            {
                 "id": "93439e17-ec59-4e3b-a51f-3aa173410088",
                 "name": "##div.trc_rbox_container div.trc_rbox_outer div.syndicatedItem",
                 "content": {
@@ -585,6 +624,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"//x.jd.com/exsites\"]"
+                    }
+                }
+            },
+            {
+                "id": "eb22f596-8f50-4fe6-a6fe-505022860d99",
+                "name": "##iframe[src^=\"//y.one.impact-ad.jp/imp\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//y.one.impact-ad.jp/imp\"]"
                     }
                 }
             },
@@ -2461,6 +2513,19 @@
                 }
             },
             {
+                "id": "cb8c6752-3acc-4c31-b63c-198a28f86712",
+                "name": "##iframe[src^=\"https://ads.adjust-net.jp/adserver/ads\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://ads.adjust-net.jp/adserver/ads\"]"
+                    }
+                }
+            },
+            {
                 "id": "c48ccae8-7b0f-47c7-bbca-5531cfd5366d",
                 "name": "##iframe[src^=\"https://creative.wwwpromoter.com/\"]",
                 "content": {
@@ -4238,6 +4303,30 @@
                 }
             },
             {
+                "id": "ef21092e-d71d-42b1-b0e4-403cd852d332",
+                "name": "ads.adjust-net.jp/adserver/ad/ads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.adjust-net\\.jp/adserver/ad/ads\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cef8c37c-eda3-4b2b-88e1-9a207116c374",
+                "name": "ads.adjust-net.jp/adserver/ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.adjust-net\\.jp/adserver/ads"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4a649f72-6ff1-4544-98f9-75d68763d71a",
                 "name": "ads.contextweb.com/TagPublish/GetAd.aspx",
                 "content": {
@@ -5098,6 +5187,21 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?as\\.dc\\.impact-ad\\.jp"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6b2a2b71-406a-4a62-bbdf-b44a1279ee16",
+                "name": "asahicom.jp/ad/js/$domain=asahi.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?asahicom\\.jp/ad/js/",
+                        "if-domain": [
+                            "asahi.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -8646,6 +8750,30 @@
                 }
             },
             {
+                "id": "d10cbaef-f516-4e26-983e-543171ce7f4c",
+                "name": "img.ak.impact-ad.jp/ic/pone/commonjs/yone_viewable_iframe_min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?img\\.ak\\.impact-ad\\.jp/ic/pone/commonjs/yone_viewable_iframe_min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "992ba63b-bd51-4e57-8477-82ad7abadc89",
+                "name": "img.ak.impact-ad.jp/ic/pone/tags/*/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?img\\.ak\\.impact-ad\\.jp/ic/pone/tags/.*/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "379f099c-8c72-4558-9ec2-2ae33d1a9b02",
                 "name": "img.appstory.co.kr/@files/human_banner/",
                 "content": {
@@ -8741,6 +8869,21 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?img2\\.keywordsconnect\\.com/iconAdImg.*\\.gif"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7e7824ae-125b-4e0e-89e1-156db246cf2e",
+                "name": "imp.asahi.com/bservers/AAMALL/$domain=asahi.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?imp\\.asahi\\.com/bservers/AAMALL/",
+                        "if-domain": [
+                            "asahi.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -14299,6 +14442,18 @@
                 }
             },
             {
+                "id": "fb4ce76f-dc12-4d7e-81df-74aa2634e953",
+                "name": "y.one.impact-ad.jp/imp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?y\\.one\\.impact-ad\\.jp/imp"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "e95dd634-e608-48f0-96df-7cb81db63f8d",
                 "name": "yads.c.yimg.jp/yads.js",
                 "content": {
@@ -17684,6 +17839,84 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe#ad-fist"
+                    }
+                }
+            },
+            {
+                "id": "6d52d123-1144-435c-b90e-d2a72594e985",
+                "name": "asahi.com##div.Ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?asahi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.Ad"
+                    }
+                }
+            },
+            {
+                "id": "2fcb3d98-a373-4e4d-a650-26d6cbf60533",
+                "name": "asahi.com##div.AdMod",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?asahi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.AdMod"
+                    }
+                }
+            },
+            {
+                "id": "53053dac-ab7a-453c-a8fd-41d4d7abc620",
+                "name": "asahi.com##div.OutbrainAdMod",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?asahi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.OutbrainAdMod"
+                    }
+                }
+            },
+            {
+                "id": "9f1344d3-379c-43fd-84d5-5cb109521120",
+                "name": "asahi.com##div.PrInfoBlock",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?asahi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.PrInfoBlock"
+                    }
+                }
+            },
+            {
+                "id": "0ffe272d-6a7d-425f-8c9d-9a16a248bead",
+                "name": "asahi.com##div.RectangleAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?asahi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.RectangleAd"
+                    }
+                }
+            },
+            {
+                "id": "3d719409-902b-4dce-9df9-6f3fad8828a9",
+                "name": "asahi.com##ul.BannerBlock",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?asahi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.BannerBlock"
                     }
                 }
             },
