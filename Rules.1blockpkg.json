@@ -11564,6 +11564,21 @@
                 }
             },
             {
+                "id": "44f5e3ef-7c8c-4c6f-8aa6-19c16e678dcd",
+                "name": "newsworks.co.kr/bannerManager/inc/*.html$domain=newsworks.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newsworks\\.co\\.kr/bannerManager/inc/.*\\.html",
+                        "if-domain": [
+                            "newsworks.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "31f82473-bac5-4dfa-83cc-a2851e0ce4eb",
                 "name": "nicovideo.cdn.nimg.jp/web/js/ads.js$domain=nicovideo.jp",
                 "content": {
