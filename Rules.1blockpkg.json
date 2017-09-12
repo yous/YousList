@@ -27958,15 +27958,41 @@
                 }
             },
             {
-                "id": "f4c5a3b8-373b-4a7e-9474-f116f821e670",
-                "name": "liverex.net##div.adsenseTopHeaderContent",
+                "id": "b913dea2-977d-4316-9f2a-1b05b564d1c9",
+                "name": "liverex.net##div#googleADX",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?liverex\\.net"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.adsenseTopHeaderContent"
+                        "selector": "div#googleADX"
+                    }
+                }
+            },
+            {
+                "id": "2ef4004b-6c7f-4aad-82b9-52def34d2fb2",
+                "name": "liverex.net##div#googleAD_2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?liverex\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#googleAD_2"
+                    }
+                }
+            },
+            {
+                "id": "a76d1055-4218-42f0-b5eb-20b19f8c4d39",
+                "name": "liverex.net##div#googleTop",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?liverex\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#googleTop"
                     }
                 }
             },
