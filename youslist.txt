@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 7LiEnKbKYVLXukPnbGEufw
+! Checksum: 9+46hcHT9rAeIgkrQbCnVg
 ! Version: 20170912
 
 ! Workaround for BlockAdBlock
@@ -683,6 +683,7 @@
 ||hitomi.la/hitomi/exoclickcode-*-*.js^$domain=hitomi.la
 ||hpr.outbrain.com/utils/get?*fbk=foxHpNative$domain=foxnews.com
 ||humor.hani.co.kr/common/banner.html^
+||hungryapp.co.kr/banner/banner_*.php^$domain=hungryapp.co.kr
 ||i.ligatus.com/angular_front/tags/it/notizie/tags/angular-tag.js^
 ||i.yimg.jp/images/listing/tool/yads/uadf/yads_vimps-*.js^
 ||i.yimg.jp/images/listing/tool/yads/yads-iframe.html^
@@ -1788,10 +1789,13 @@ humorbot.net##div.luAD
 humorbot.net##div.mrank_banner
 humorbot.net##div.pc_banner
 humorbot.net##div.sboxAD
+hungryapp.co.kr##div#banner9_iframe
 hungryapp.co.kr##div#banner_11
 hungryapp.co.kr##div#banner_new
+hungryapp.co.kr##div.RightBnr
 hungryapp.co.kr##div.bannersww
 hungryapp.co.kr##div.header_menu
+hungryapp.co.kr##iframe[src^="/banner/banner_"][src$=".php"]
 ibabynews.com##div#divContentBanner
 ibabynews.com##div.LeftDiv>div[style="zoom:1; border:1px solid #DDD; height:150px; padding-top:10px;"]
 ibabynews.com##div.TopDiv>div[style="position:absolute; top: 40px; right:0px; width:230px; height:55px;"]

@@ -8427,6 +8427,21 @@
                 }
             },
             {
+                "id": "98e74c7f-cff9-453a-a5f7-fdaa5b704409",
+                "name": "hungryapp.co.kr/banner/banner_*.php$domain=hungryapp.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hungryapp\\.co\\.kr/banner/banner_.*\\.php",
+                        "if-domain": [
+                            "hungryapp.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "26dc77e6-1d35-499d-8a76-1f08da4a8818",
                 "name": "i.ligatus.com/angular_front/tags/it/notizie/tags/angular-tag.js",
                 "content": {
@@ -25668,6 +25683,19 @@
                 }
             },
             {
+                "id": "3ba0bb35-9cb2-42bb-83df-173448e88cbd",
+                "name": "hungryapp.co.kr##div#banner9_iframe",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hungryapp\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner9_iframe"
+                    }
+                }
+            },
+            {
                 "id": "9c981697-a8d7-4296-b080-d5f75448a6b5",
                 "name": "hungryapp.co.kr##div#banner_11",
                 "content": {
@@ -25694,6 +25722,19 @@
                 }
             },
             {
+                "id": "b761b926-eb21-4944-a25c-436eece1300a",
+                "name": "hungryapp.co.kr##div.RightBnr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hungryapp\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.RightBnr"
+                    }
+                }
+            },
+            {
                 "id": "ed85ef6c-85d3-4630-9c48-75540e7c42ad",
                 "name": "hungryapp.co.kr##div.bannersww",
                 "content": {
@@ -25716,6 +25757,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.header_menu"
+                    }
+                }
+            },
+            {
+                "id": "4116fb4c-be58-4188-b03d-8cef9dbddd92",
+                "name": "hungryapp.co.kr##iframe[src^=\"/banner/banner_\"][src$=\".php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hungryapp\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/banner/banner_\"][src$=\".php\"]"
                     }
                 }
             },
