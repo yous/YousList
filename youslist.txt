@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: hzp4P6z6oeD0nytEuJVZOw
+! Checksum: puqFFIhNRzOvSUcLr7eq7g
 ! Version: 20170912
 
 ! Workaround for BlockAdBlock
@@ -58,6 +58,7 @@
 ##iframe[src^="//adx-exchange.toast.com/a_request"]
 ##iframe[src^="//am15.net/ssp/banner"]
 ##iframe[src^="//ax-d.pixfuture.net/w/1.0/afr"]
+##iframe[src^="//disqusads.com/ads-iframe/prebid/"]
 ##iframe[src^="//mrelko.com/bnrs/"]
 ##iframe[src^="//onedrive.su/code/swf_banner.php"]
 ##iframe[src^="//searchmaster.pro/b.php"]
@@ -586,6 +587,7 @@
 ||dispatch.co.kr/ad/innerNewsAD.html^$domain=dispatch.co.kr
 ||display.ad.daum.net/imp^
 ||disqusads.com/ads-iframe/adsnative/
+||disqusads.com/ads-iframe/prebid/
 ||dlv.hooniad.com^
 ||dotcomconsultancy.advertserve.com/servlet/view/banner/javascript/ajax/crossdomain/zone^
 ||dreamsearch.or.kr/ad/
@@ -1186,6 +1188,8 @@
 1tcafe.com,2tcafe.com,tcafe.net,tcafe3.com,tcafe4.com,tcafeaa.com,tcafeby.com,tcafegg.com,tcafego.com,tcafeh.com,tcafek.com,tcafemm.com,tcafen.com,tcafeon.com,tcafex.com,tcafez.net##td#mw_basic>table:nth-of-type(2)>tbody>tr:last-of-type>td>table>tbody>tr>td:first-of-type
 1tcafe.com,2tcafe.com,tcafe.net,tcafe3.com,tcafe4.com,tcafeaa.com,tcafeby.com,tcafegg.com,tcafego.com,tcafeh.com,tcafek.com,tcafemm.com,tcafen.com,tcafeon.com,tcafex.com,tcafez.net##td#mw_basic>table:nth-of-type(2)>tbody>tr>td>table[width="100%"]>tbody>tr>td>li
 47news.jp##div#gAds_detailPage
+9to5google.com##div.tha4673a86
+9to5google.com##img[data-orig-file^="https://9to5google.files.wordpress.com/"][data-orig-file*="/native_banner.jpg"]
 9to5mac.com##div.tha4673a86
 9to5mac.com##div.widget_ninetofive_netshelter_ad
 9to5mac.com##img[data-image-title="NativeBanner750by150"]

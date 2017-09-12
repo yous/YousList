@@ -524,6 +524,19 @@
                 }
             },
             {
+                "id": "39d65726-04a8-48b1-a77a-1c6618c7d3d5",
+                "name": "##iframe[src^=\"//disqusads.com/ads-iframe/prebid/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//disqusads.com/ads-iframe/prebid/\"]"
+                    }
+                }
+            },
+            {
                 "id": "216de843-977c-46af-b89d-3482f278424d",
                 "name": "##iframe[src^=\"//mrelko.com/bnrs/\"]",
                 "content": {
@@ -7177,6 +7190,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?disqusads\\.com/ads-iframe/adsnative/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1101c175-919b-4aef-b6fc-81648cd97f7a",
+                "name": "disqusads.com/ads-iframe/prebid/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?disqusads\\.com/ads-iframe/prebid/"
                     },
                     "action": {
                         "type": "block"
@@ -17293,6 +17318,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#gAds_detailPage"
+                    }
+                }
+            },
+            {
+                "id": "0349d392-2e38-4966-a7dd-377ebcd34768",
+                "name": "9to5google.com##div.tha4673a86",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?9to5google\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.tha4673a86"
+                    }
+                }
+            },
+            {
+                "id": "6f6fddc5-5e2c-4b1a-a6af-e00ad43446fb",
+                "name": "9to5google.com##img[data-orig-file^=\"https://9to5google.files.wordpress.com/\"][data-orig-file*=\"/native_banner.jpg\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?9to5google\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "img[data-orig-file^=\"https://9to5google.files.wordpress.com/\"][data-orig-file*=\"/native_banner.jpg\"]"
                     }
                 }
             },
