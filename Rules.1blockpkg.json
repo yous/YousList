@@ -31716,6 +31716,58 @@
                 }
             },
             {
+                "id": "69823bfd-3a48-4593-a0bc-8a66dc4b5024",
+                "name": "m.newsworks.co.kr##div.body>center[style=\"margin:15px 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.newsworks\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.body>center[style=\"margin:15px 0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "bda6a410-106f-4b4d-95b7-fdf1f88e8d8f",
+                "name": "m.newsworks.co.kr##div.body>div[style=\"float:right; padding:10px 0 15px 15px; width:200px; height:200px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.newsworks\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.body>div[style=\"float:right; padding:10px 0 15px 15px; width:200px; height:200px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "13ce87c7-ae9b-4f78-9216-3a5613b2b0cb",
+                "name": "m.newsworks.co.kr##div.body>div[style=\"height:60px !important\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.newsworks\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.body>div[style=\"height:60px !important\"]"
+                    }
+                }
+            },
+            {
+                "id": "10807909-ce24-4ca9-8634-0a85213580b5",
+                "name": "m.newsworks.co.kr##section.advertisment",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.newsworks\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.advertisment"
+                    }
+                }
+            },
+            {
                 "id": "56b25bfd-a508-4114-95a0-86e4de689c65",
                 "name": "m.nocutnews.co.kr##div#divContent>div[style=\"width:200px; height:200px;float:right; padding:5px 0 0 5px;\"]",
                 "content": {
