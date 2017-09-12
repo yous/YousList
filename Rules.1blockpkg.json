@@ -34457,6 +34457,19 @@
                 }
             },
             {
+                "id": "058c9b2c-07d4-420f-84f0-839537011c45",
+                "name": "mobiinside.com##divtd-header-sp-ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mobiinside\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "divtd-header-sp-ads"
+                    }
+                }
+            },
+            {
                 "id": "6887d415-32c1-451c-88bf-0b098b3c2055",
                 "name": "mobile.newsis.com##body>div[style=\"height:30px;\"]",
                 "content": {
