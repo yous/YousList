@@ -30233,6 +30233,45 @@
                 }
             },
             {
+                "id": "f8d46284-3834-40fb-9973-458813735d64",
+                "name": "m.hungryapp.co.kr##body>div[style^=\"display:block;overflow:hidden;width:100%;height:85px;text-align:center;background:#\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.hungryapp\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style^=\"display:block;overflow:hidden;width:100%;height:85px;text-align:center;background:#\"]"
+                    }
+                }
+            },
+            {
+                "id": "87720f37-8a1e-4a96-8ee1-b8e828c7abc3",
+                "name": "m.hungryapp.co.kr##div#Mha15_header>div[style^=\"display:block;overflow:hidden;width:100%;height:85px;text-align:center;background:#\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.hungryapp\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#Mha15_header>div[style^=\"display:block;overflow:hidden;width:100%;height:85px;text-align:center;background:#\"]"
+                    }
+                }
+            },
+            {
+                "id": "71045418-6f8e-437d-b0cc-b991440c1a89",
+                "name": "m.hungryapp.co.kr##div#mainWrap>div[style^=\"display:block;overflow:hidden;width:100%;height:85px;text-align:center;background:#\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.hungryapp\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mainWrap>div[style^=\"display:block;overflow:hidden;width:100%;height:85px;text-align:center;background:#\"]"
+                    }
+                }
+            },
+            {
                 "id": "da8a3f6f-6e04-4133-8bb2-0764cea199e4",
                 "name": "m.hungryapp.co.kr##div#popUP_ZONE",
                 "content": {
@@ -30242,19 +30281,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#popUP_ZONE"
-                    }
-                }
-            },
-            {
-                "id": "fff6f016-ac58-4814-89e2-526443cda53a",
-                "name": "m.hungryapp.co.kr##div.Btm-banner",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.hungryapp\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.Btm-banner"
                     }
                 }
             },
@@ -30294,19 +30320,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.banner_cnt"
-                    }
-                }
-            },
-            {
-                "id": "c9d6f064-05d9-41fc-8146-ffa899637f81",
-                "name": "m.hungryapp.co.kr##div.blockUI",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.hungryapp\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.blockUI"
                     }
                 }
             },
