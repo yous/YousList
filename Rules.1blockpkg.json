@@ -17297,15 +17297,15 @@
                 }
             },
             {
-                "id": "68544ca4-9f3e-41c6-8f50-80459d37dc08",
-                "name": "9to5mac.com##div#author-ad",
+                "id": "b3832d2d-4a2f-4f53-ba51-8eb6c4c5e705",
+                "name": "9to5mac.com##div.tha4673a86",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?9to5mac\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#author-ad"
+                        "selector": "div.tha4673a86"
                     }
                 }
             },
@@ -17319,6 +17319,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.widget_ninetofive_netshelter_ad"
+                    }
+                }
+            },
+            {
+                "id": "31ca4c33-1c17-4b08-887b-2b32d233cbf4",
+                "name": "9to5mac.com##img[data-image-title=\"NativeBanner750by150\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?9to5mac\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "img[data-image-title=\"NativeBanner750by150\"]"
                     }
                 }
             },
