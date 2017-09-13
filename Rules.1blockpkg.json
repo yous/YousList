@@ -42584,6 +42584,19 @@
                 }
             },
             {
+                "id": "3705f0ec-726a-4d78-ba4c-61b07b53c320",
+                "name": "theverge.com##div.ad__athena_internal",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?theverge\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad__athena_internal"
+                    }
+                }
+            },
+            {
                 "id": "9e562b15-0c60-4644-8190-776550386059",
                 "name": "theverge.com##div.m-ad",
                 "content": {
