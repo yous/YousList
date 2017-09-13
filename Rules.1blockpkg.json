@@ -34864,6 +34864,32 @@
                 }
             },
             {
+                "id": "d90dcf64-2d03-4e96-a6f3-17ac293bab73",
+                "name": "mobile.gmarket.co.kr##div#layer_hmBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mobile\\.gmarket\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#layer_hmBanner"
+                    }
+                }
+            },
+            {
+                "id": "0e6a93d7-8bd6-4615-8c80-d989a01b4783",
+                "name": "mobile.gmarket.co.kr##div#layer_lgUBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mobile\\.gmarket\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#layer_lgUBanner"
+                    }
+                }
+            },
+            {
                 "id": "6887d415-32c1-451c-88bf-0b098b3c2055",
                 "name": "mobile.newsis.com##body>div[style=\"height:30px;\"]",
                 "content": {
