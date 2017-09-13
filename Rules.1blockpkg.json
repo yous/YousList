@@ -6320,6 +6320,21 @@
                 }
             },
             {
+                "id": "7fc7f482-fe21-4bcc-ba26-abaa2bd74b52",
+                "name": "cdn.adgtw.orangeads.fr/build/oan_common-async-*.min.js$domain=sports.orange.fr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.adgtw\\.orangeads\\.fr/build/oan_common-async-.*\\.min\\.js",
+                        "if-domain": [
+                            "sports.orange.fr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f9a72ad3-a8a1-448a-92ec-b6fe5526e533",
                 "name": "cdn.admixer.net/scriptlib/asm2.js",
                 "content": {
@@ -41553,6 +41568,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[id^=\"spttb_\"]"
+                    }
+                }
+            },
+            {
+                "id": "3b78c457-9b89-4fc5-a1d1-57d954458c9a",
+                "name": "sports.orange.fr##div#commercial-links",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.orange\\.fr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#commercial-links"
+                    }
+                }
+            },
+            {
+                "id": "aca3c9d8-cda8-43f7-8057-9149865bb677",
+                "name": "sports.orange.fr##div.pave_pub",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.orange\\.fr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pave_pub"
                     }
                 }
             },
