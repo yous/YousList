@@ -26713,6 +26713,19 @@
                 }
             },
             {
+                "id": "384a4752-04e6-4dc7-bba8-050e2a52128e",
+                "name": "item.gmarket.co.kr##div#adlinks",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?item\\.gmarket\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adlinks"
+                    }
+                }
+            },
+            {
                 "id": "1be4e064-aae6-4a62-8277-03ada65bffbf",
                 "name": "itsupportguides.com##div.adblock_wrapper",
                 "content": {
