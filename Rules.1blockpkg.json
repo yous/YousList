@@ -12965,6 +12965,18 @@
                 }
             },
             {
+                "id": "dc6339f4-9236-41c5-bb43-8f606b2dbba9",
+                "name": "site3.co.kr/applad.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?site3\\.co\\.kr/applad\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f382cc09-d648-4366-9ce8-990dd59fd9a6",
                 "name": "smartposting.net/keyword/api/",
                 "content": {
@@ -32418,6 +32430,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "aside.menuBanner"
+                    }
+                }
+            },
+            {
+                "id": "4219977a-59b6-4607-b5f0-bfbff790b171",
+                "name": "m.speconomy.com##div.advertisementItem",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.speconomy\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advertisementItem"
                     }
                 }
             },
