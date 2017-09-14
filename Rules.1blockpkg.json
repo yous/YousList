@@ -13205,6 +13205,21 @@
                 }
             },
             {
+                "id": "5f162296-0b11-4494-9978-aeacd114dbf4",
+                "name": "speconomy.com/bannerManager/inc/*.html$domain=speconomy.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?speconomy\\.com/bannerManager/inc/.*\\.html",
+                        "if-domain": [
+                            "speconomy.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "fb1e59b1-4427-42bf-8b91-a41a63972a45",
                 "name": "spojoy.com/_html/_js/event/bscroll_left_160x600.js$domain=spojoy.com",
                 "content": {
@@ -40801,6 +40816,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad2"
+                    }
+                }
+            },
+            {
+                "id": "76f62415-2390-4bac-a32b-7e7734ae0728",
+                "name": "speconomy.com##div#article-control>table>tbody>tr:nth-of-type(2)>td:first-of-type>center[style=\"padding:30px 0; clear:both;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?speconomy\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article-control>table>tbody>tr:nth-of-type(2)>td:first-of-type>center[style=\"padding:30px 0; clear:both;\"]"
+                    }
+                }
+            },
+            {
+                "id": "1853fb34-2283-44a6-91c5-46f2cf68cdfb",
+                "name": "speconomy.com##div#article-control>table>tbody>tr:nth-of-type(2)>td:first-of-type>div[style=\"padding:30px 0; clear:both;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?speconomy\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article-control>table>tbody>tr:nth-of-type(2)>td:first-of-type>div[style=\"padding:30px 0; clear:both;\"]"
                     }
                 }
             },
