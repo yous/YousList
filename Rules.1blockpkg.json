@@ -524,6 +524,19 @@
                 }
             },
             {
+                "id": "07235da8-bca1-4f5e-8672-44d38c1a0d43",
+                "name": "##iframe[src^=\"//d3u5zn5k9864p0.cloudfront.net/br\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//d3u5zn5k9864p0.cloudfront.net/br\"]"
+                    }
+                }
+            },
+            {
                 "id": "39d65726-04a8-48b1-a77a-1c6618c7d3d5",
                 "name": "##iframe[src^=\"//disqusads.com/ads-iframe/prebid/\"]",
                 "content": {
@@ -6997,6 +7010,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?d3pkae9owd2lcf\\.cloudfront\\.net/pb92c\\.gz\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5aa4ab3d-d0f9-47ef-82a7-5e5efdfa07e7",
+                "name": "d3u5zn5k9864p0.cloudfront.net/br",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?d3u5zn5k9864p0\\.cloudfront\\.net/br"
                     },
                     "action": {
                         "type": "block"
@@ -47250,6 +47275,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/_tpl/default/ad/\"]"
+                    }
+                }
+            },
+            {
+                "id": "c4464784-649c-4201-bda7-f246f4479796",
+                "name": "womad.me##div#sticky",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?womad\\.me"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sticky"
                     }
                 }
             },
