@@ -41050,6 +41050,19 @@
                 }
             },
             {
+                "id": "af94e730-6e4d-440c-804f-52c823792401",
+                "name": "sports.chosun.com##a.gisa_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a.gisa_banner"
+                    }
+                }
+            },
+            {
                 "id": "b4abe21c-680e-4982-991f-90fc670f9425",
                 "name": "sports.chosun.com##div#rad",
                 "content": {
@@ -41059,6 +41072,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#rad"
+                    }
+                }
+            },
+            {
+                "id": "71be2985-ddf5-47bf-b9af-ef84fdf2dbce",
+                "name": "sports.chosun.com##div.ad_box2014",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_box2014"
                     }
                 }
             },
@@ -41124,6 +41150,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.gisa_banner"
+                    }
+                }
+            },
+            {
+                "id": "f0f942e5-6279-48f6-8eca-d7cf183bb3a8",
+                "name": "sports.chosun.com##div.sc_floating",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sc_floating"
                     }
                 }
             },
