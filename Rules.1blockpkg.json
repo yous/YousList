@@ -12075,6 +12075,21 @@
                 }
             },
             {
+                "id": "f042a62d-a33f-4129-acc5-6e81556d914a",
+                "name": "parts.blog.livedoor.jp/ad/$domain=blog.livedoor.jp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?parts\\.blog\\.livedoor\\.jp/ad/",
+                        "if-domain": [
+                            "blog.livedoor.jp"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "53aa1b7a-5b4d-4238-bd14-48bfc23eaa87",
                 "name": "pd4-imp.revsci.net/rtbads/pq",
                 "content": {
@@ -19726,6 +19741,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_sidebar_bottom"
+                    }
+                }
+            },
+            {
+                "id": "a07100b4-5424-4011-8bbf-e97b894c68b7",
+                "name": "blog.livedoor.jp##div#ad2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?blog\\.livedoor\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad2"
+                    }
+                }
+            },
+            {
+                "id": "5a9f5883-806a-479e-b143-7d57d6104c20",
+                "name": "blog.livedoor.jp##iframe[src^=\"http://parts.blog.livedoor.jp/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?blog\\.livedoor\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://parts.blog.livedoor.jp/ad/\"]"
                     }
                 }
             },
