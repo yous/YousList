@@ -22915,6 +22915,32 @@
                 }
             },
             {
+                "id": "455663fb-e251-4f7e-9d29-e3859923a2b2",
+                "name": "engadget.com##aside[role=\"banner\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?engadget\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside[role=\"banner\"]"
+                    }
+                }
+            },
+            {
+                "id": "b160b87d-25d8-43ca-b082-8ddad620e657",
+                "name": "engadget.com##div#right-ads-rail",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?engadget\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#right-ads-rail"
+                    }
+                }
+            },
+            {
                 "id": "2d902301-3480-4e61-8c4d-5732f874dbdc",
                 "name": "ent.joseilbo.com##div.adplus_banner",
                 "content": {
