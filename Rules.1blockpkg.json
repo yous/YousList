@@ -19654,6 +19654,32 @@
                 }
             },
             {
+                "id": "0dc13ed7-86c7-436e-a072-20042d909068",
+                "name": "biz.khan.co.kr##div.article_bottom_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article_bottom_ad"
+                    }
+                }
+            },
+            {
+                "id": "80a282c0-1c14-465d-a666-d9c7ead5a6fb",
+                "name": "news.khan.co.kr##div.article_bottom_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article_bottom_ad"
+                    }
+                }
+            },
+            {
                 "id": "0ca58a22-f875-4280-85af-a2c90e7a5cf4",
                 "name": "bizn.khan.co.kr##div.topright_bn",
                 "content": {
@@ -36875,19 +36901,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.wing_wrap"
-                    }
-                }
-            },
-            {
-                "id": "8462f4dd-6203-43fb-b7f2-4402305c6bb8",
-                "name": "news.khan.co.kr##div#topLeft",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.khan\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#topLeft"
                     }
                 }
             },
