@@ -30925,6 +30925,19 @@
                 }
             },
             {
+                "id": "6d90778a-1a7c-4a03-aebd-d1d36f3529f4",
+                "name": "m.khan.co.kr##div.social_btm",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.social_btm"
+                    }
+                }
+            },
+            {
                 "id": "795725b3-0fd2-4a93-9028-55574e95840f",
                 "name": "m.kin.naver.com##div#adContextMobile",
                 "content": {
