@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: Jbeu5uyn3Qd67+RSawBKoA
+! Checksum: fwImDRDeX+aEZiFtNcKUbw
 ! Version: 20170921
 
 ! Workaround for BlockAdBlock
@@ -808,11 +808,13 @@
 ||m.etnews.com/tools/refresh_script.html^$domain=m.etnews.com
 ||m.fmkorea.com/_adpage/$domain=m.fmkorea.com
 ||m.hankooki.com/ad/
+||m.humoruniv.com/banner/*.html^$domain=m.humoruniv.com
 ||m.humoruniv.com/cauly_iframe.html^$domain=m.humoruniv.com
 ||m.humoruniv.com/ddn_300x250.html^$domain=m.humoruniv.com
 ||m.humoruniv.com/facebook_iframe.html^$domain=m.humoruniv.com
 ||m.humoruniv.com/facebook_iframe_native.html^$domain=m.humoruniv.com
 ||m.humoruniv.com/microad_iframe_300x250.html^$domain=m.humoruniv.com
+||m.humoruniv.com/tad_iframe.html^$domain=m.humoruniv.com
 ||m.humoruniv.com/uad_iframe.html^$domain=m.humoruniv.com
 ||m.hungryapp.co.kr/bbs/js/jquery.blockUI.js^$domain=m.hungryapp.co.kr
 ||m.joyninfo.com/yna/yna_m_new.asp^
@@ -2157,7 +2159,9 @@ m.humoruniv.com##div#cauly_ad
 m.humoruniv.com##div#comment>ul>table>tbody>tr>td>div[style="display:block;width:320px;height:50px;overflow:hidden;"]
 m.humoruniv.com##div#ddn_ad
 m.humoruniv.com##div#uad_iframe
+m.humoruniv.com##iframe[src^="/banner/"]
 m.humoruniv.com##iframe[src^="/cauly_iframe.html"]
+m.humoruniv.com##iframe[src^="/tad_iframe.html"]
 m.humoruniv.com##iframe[src^="/uad_iframe.html"]
 m.humoruniv.com##iframe[src^="http://m.humoruniv.com/ddn_300x250.html"]
 m.humoruniv.com##iframe[src^="http://m.humoruniv.com/facebook_iframe.html"]
