@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: Yz8b0aKWlbVqYUgoOIo2ow
+! Checksum: VOYI14vfPFIYR3AK+EOiOA
 ! Version: 20170921
 
 ! Workaround for BlockAdBlock
@@ -218,6 +218,7 @@
 ##iframe[src^="https://ads.adjust-net.jp/adserver/ads"]
 ##iframe[src^="https://creative.wwwpromoter.com/"]
 ##iframe[src^="https://mycdn.co/adServe/imgBanner"][src*="_image-banner.cib"]
+##iframe[src^="https://s.yimg.jp/images/listing/tool/yads/yads-iframe.html"]
 ##iframe[src^="https://search2.nuriclick.co.kr/banner.php"]
 ##iframe[src^="https://syndication.exdynsrv.com/ads-iframe-display.php"]
 ##iframe[src^="https://syndication.exoclick.com/ads-iframe-display.php"]
@@ -1012,6 +1013,7 @@
 ||s.atemda.com/Admeta.js^
 ||s.mixadvert.com/show_json/
 ||s.pubmine.com/adj/
+||s.yimg.jp/images/listing/tool/yads/yads-iframe.html^
 ||s1.daumcdn.net/svc/original/U03/commonjs/ddn/common/js/ad.min.js^
 ||sba.about.co.kr/SbaExpose.aspx^
 ||sba.about.co.kr/dbaExpose.aspx^
@@ -1180,6 +1182,7 @@
 ||y.one.impact-ad.jp/imp^
 ||yads.c.yimg.jp/yads.js^
 ||yads.yahoo.co.jp/tag^
+||yads.yjtag.yahoo.co.jp/tag^
 ||youtube.com/get_video_info?*el=adunit$domain=youtube.com
 ||ytn.co.kr/img/ad/
 ||ytn.co.kr/inc_banner/AdServerChange.php^

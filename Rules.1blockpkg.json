@@ -2604,6 +2604,19 @@
                 }
             },
             {
+                "id": "335183aa-ffaf-40bb-8c17-d43343a258d8",
+                "name": "##iframe[src^=\"https://s.yimg.jp/images/listing/tool/yads/yads-iframe.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://s.yimg.jp/images/listing/tool/yads/yads-iframe.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "97072017-0f97-4182-b254-b87b235a557a",
                 "name": "##iframe[src^=\"https://search2.nuriclick.co.kr/banner.php\"]",
                 "content": {
@@ -12615,6 +12628,18 @@
                 }
             },
             {
+                "id": "0fdc5f36-a930-441f-8a6c-d76b8aec480b",
+                "name": "s.yimg.jp/images/listing/tool/yads/yads-iframe.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?s\\.yimg\\.jp/images/listing/tool/yads/yads-iframe\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "74291765-8492-4c76-9d4c-63fc4ebdcb77",
                 "name": "s1.daumcdn.net/svc/original/U03/commonjs/ddn/common/js/ad.min.js",
                 "content": {
@@ -14709,6 +14734,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yads\\.yahoo\\.co\\.jp/tag"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "68185aa0-8b3c-4a03-8690-1c66f8b0c6b3",
+                "name": "yads.yjtag.yahoo.co.jp/tag",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yads\\.yjtag\\.yahoo\\.co\\.jp/tag"
                     },
                     "action": {
                         "type": "block"
