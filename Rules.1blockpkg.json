@@ -7984,6 +7984,21 @@
                 }
             },
             {
+                "id": "0951a7d9-d5ec-4a92-99a0-36cd11156a15",
+                "name": "fmkorea.com/_loader/loader.php$domain=fmkorea.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fmkorea\\.com/_loader/loader\\.php",
+                        "if-domain": [
+                            "fmkorea.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "57944317-9307-4520-9706-a845b6472c33",
                 "name": "fnnews.com/control",
                 "content": {
@@ -23890,6 +23905,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#banner3"
+                    }
+                }
+            },
+            {
+                "id": "bfec1a8e-4dae-4fdb-9cf1-95f5fedc83cd",
+                "name": "fmkorea.com##iframe[src^=\"//www.fmkorea.com/_loader/loader.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fmkorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//www.fmkorea.com/_loader/loader.php\"]"
                     }
                 }
             },

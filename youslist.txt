@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: fwImDRDeX+aEZiFtNcKUbw
+! Checksum: S4sR32ECweAkTiMktxUa0A
 ! Version: 20170921
 
 ! Workaround for BlockAdBlock
@@ -649,6 +649,7 @@
 ||fm1.jssearch.net/Farman^
 ||fm1.jssearch.net/lib/JSAP_SlideLibs_v1.js^
 ||fmkorea.com/_adpage/$domain=fmkorea.com
+||fmkorea.com/_loader/loader.php^$domain=fmkorea.com
 ||fnnews.com/control^
 ||fnnews.com/include2011/section/google.jsp^
 ||fow.tv/criteo_iframe_top_tv.php^$domain=fow.tv
@@ -1650,6 +1651,7 @@ flashscore.pl##div.adstextpad
 flashscore.pl##div.scrolling-banner-wrap
 flashscore.pl##li.banner
 fmkorea.com##div#banner3
+fmkorea.com##iframe[src^="//www.fmkorea.com/_loader/loader.php"]
 fmkorea.com##iframe[src^="/_adpage/"]
 fnnews.com##div#ad_body
 fnnews.com##div#bylineaAd1
