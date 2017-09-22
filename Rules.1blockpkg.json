@@ -20893,6 +20893,19 @@
                 }
             },
             {
+                "id": "e5ce53fa-f9b6-490b-bb77-30c028190b10",
+                "name": "cnet.com##div[data-ad]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cnet\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-ad]"
+                    }
+                }
+            },
+            {
                 "id": "ab20afa5-8e7a-46d1-a96c-a64e00dc9691",
                 "name": "code.tutsplus.com##div.avert",
                 "content": {
