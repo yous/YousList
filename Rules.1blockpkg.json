@@ -1746,6 +1746,19 @@
                 }
             },
             {
+                "id": "3edafacb-09e0-4579-b6f7-4097531ae51c",
+                "name": "##iframe[src^=\"http://ilikeview.com/aclk\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ilikeview.com/aclk\"]"
+                    }
+                }
+            },
+            {
                 "id": "b571911c-0ea0-4d6a-8060-443bd22d13eb",
                 "name": "##iframe[src^=\"http://im.obel.kr/file/\"]",
                 "content": {
@@ -2340,6 +2353,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://us-ads.openx.net/w/1.0/afr\"]"
+                    }
+                }
+            },
+            {
+                "id": "75378f58-ed7b-4c78-bb40-58ed43b5c014",
+                "name": "##iframe[src^=\"http://utildown.co.kr/adv/adv.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://utildown.co.kr/adv/adv.php\"]"
                     }
                 }
             },
@@ -8785,6 +8811,18 @@
                 }
             },
             {
+                "id": "c330a1af-1e65-4f07-96a9-a12824f68f2c",
+                "name": "ilikeview.com/aclk",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilikeview\\.com/aclk"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "805ebd9a-e1ab-4250-9dfa-4e35ca156b3c",
                 "name": "im.obel.kr/file/",
                 "content": {
@@ -14443,6 +14481,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?us-ads\\.openx\\.net/w/1\\.0/jstag"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "87a4779f-0380-49fe-bb75-3b9862205b80",
+                "name": "utildown.co.kr/adv/adv.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?utildown\\.co\\.kr/adv/adv\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -46109,6 +46159,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[id=\"joinskmbox\"]>table"
+                    }
+                }
+            },
+            {
+                "id": "470a750d-c790-4333-91af-ac8b3f35cf17",
+                "name": "tvnamu.com##div#left_out>div[style=\"margin:5px 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#left_out>div[style=\"margin:5px 0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "c71d3fec-014b-4c02-ad8e-c3a94a764251",
+                "name": "tvnamu.com##div#right_out>div[style=\"margin:5px 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#right_out>div[style=\"margin:5px 0;\"]"
                     }
                 }
             },

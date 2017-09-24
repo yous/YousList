@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: EYbO5ZMlnfxJswLI4bI1Eg
-! Version: 20170922
+! Checksum: 1SPrIMqB2fdqNx94ZR90zw
+! Version: 20170924
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -152,6 +152,7 @@
 ##iframe[src^="http://gm-adkpf.ncloud.or.kr/NetInsight/"]
 ##iframe[src^="http://hankyung.bohumplaza.com/_chann/"]
 ##iframe[src^="http://i.yimg.jp/images/listing/tool/yads/yads-iframe.html"]
+##iframe[src^="http://ilikeview.com/aclk"]
 ##iframe[src^="http://im.obel.kr/file/"]
 ##iframe[src^="http://image.lsinfo.co.kr/lottorich/partnership/"]
 ##iframe[src^="http://img.sbs.co.kr/news/ad/delay_redirect_mobile.html"]
@@ -198,6 +199,7 @@
 ##iframe[src^="http://syndication.exoclick.com/ads-iframe-display.php"]
 ##iframe[src^="http://tab2.clickmon.co.kr/pop/"]
 ##iframe[src^="http://us-ads.openx.net/w/1.0/afr"]
+##iframe[src^="http://utildown.co.kr/adv/adv.php"]
 ##iframe[src^="http://veta.naver.com/fxshow"]
 ##iframe[src^="http://vsc.send.microad.jp/delivery/afr.php"]
 ##iframe[src^="http://vse-spravki.bid/aclk/banner_click.php"]
@@ -710,6 +712,7 @@
 ||ilbe.com/layouts/elkha_ilbe/js/new_sky.js^$domain=ilbe.com
 ||ilbe.com/m.layouts/default_modify/mobileTopAd.js^$domain=ilbe.com
 ||ilbe.com/myads/openX_passback*.html^$domain=ilbe.com
+||ilikeview.com/aclk^
 ||im.obel.kr/file/
 ||imaeil.com/image/banner/ad*.swf^
 ||imaeil.com/wec/
@@ -1157,6 +1160,7 @@
 ||urldelivery.com/watch.
 ||us-ads.openx.net/w/1.0/afr^
 ||us-ads.openx.net/w/1.0/jstag^
+||utildown.co.kr/adv/adv.php^
 ||v5.actionteaser.ru/news.php^
 ||veta.naver.com/fxshow^
 ||view.asiae.co.kr/common/ad/
@@ -3194,6 +3198,8 @@ tvdaily.mk.co.kr##div#STATICMENU
 tvdaily.mk.co.kr##div#readtopad
 tvdaily.mk.co.kr##div[class="read"]>table
 tvdaily.mk.co.kr##div[id="joinskmbox"]>table
+tvnamu.com##div#left_out>div[style="margin:5px 0;"]
+tvnamu.com##div#right_out>div[style="margin:5px 0;"]
 tvnamu.com##div.each_adv_center
 tvnamu.com##iframe[src^="http://www.tvnamu.com/public/adv/tvnamu_bottom.html"]
 tvnamu.com##iframe[src^="http://www.tvnamu.com/public/adv/tvnamu_left1.html"]
