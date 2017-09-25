@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 1SPrIMqB2fdqNx94ZR90zw
-! Version: 20170924
+! Checksum: h7RmJ7zc621sBT6cpmb14g
+! Version: 20170925
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -95,6 +95,7 @@
 ##iframe[src^="http://ad2.thisisgame.com/ad"]
 ##iframe[src^="http://adbiz.co.kr/"]
 ##iframe[src^="http://adc.ohmynews.com/NetInsight/"]
+##iframe[src^="http://adddn.adotsolution.com/contents/html5/"][src*="/adbay_inline_sdk/default.html"]
 ##iframe[src^="http://adex.ednplus.com/"]
 ##iframe[src^="http://adexpert.ad4989.co.kr/"]
 ##iframe[src^="http://adexview.new-star.co.kr/"]
@@ -140,6 +141,7 @@
 ##iframe[src^="http://compass.adop.cc/RD/"]
 ##iframe[src^="http://cpv.ad.naver.com/adshow"]
 ##iframe[src^="http://d.a1comm.co.kr/"]
+##iframe[src^="http://dcd.adotsolution.com/dcd/creative.skp"]
 ##iframe[src^="http://deliverys.n2s.co.kr/afm.php"]
 ##iframe[src^="http://dgate.joins.com/hc.aspx"]
 ##iframe[src^="http://display.ad.daum.net/imp"]
@@ -277,6 +279,7 @@
 ||ad.adlike.co.kr^
 ||ad.adnmore.co.kr^
 ||ad.adop.co.kr/mad/
+||ad.adotsolution.com:15000/mweb/ad_request^
 ||ad.aeonad.co.kr^
 ||ad.aeonad.net^
 ||ad.altervista.org/js*.ad/
@@ -330,7 +333,9 @@
 ||adcreative.hani.naver.net/ad^
 ||adcrm.co.kr/md/
 ||addc.dcinside.com/NetInsight/
+||adddn.adotsolution.com/contents/html5/*/adbay_inline_sdk/default.html^
 ||adddn.adotsolution.com/contents/sdk/js/tad.min.js^
+||adddn.adotsolution.com/contents/sdk/js/tadcreative_mweb.min.js^
 ||ade.realclick.co.kr^
 ||adex.ednplus.com^
 ||adexpert.ad4989.co.kr^
@@ -585,6 +590,7 @@
 ||dailygame.co.kr/ad/dispad_right.html^
 ||dailygame.co.kr/ad/dispad_top.html^
 ||danawa.com/NBP/powerLink.php^$domain=prod.danawa.com
+||dcd.adotsolution.com/dcd/creative.skp^
 ||delivery.amessagewithabottle.com/www/delivery/ajs.php^
 ||deliverys.n2s.co.kr/afm.php^
 ||dev.ezadsystem.com/static/js/ezad-1.0.js^
@@ -2411,6 +2417,7 @@ m.yna.co.kr##section.section-ad-adtive
 m.yna.co.kr##section.section-ad-hi
 m.yna.co.kr##section.section-ad-joyinfo
 m.yna.co.kr##section.section-add
+m.yonhapnewstv.co.kr##div#main_banner
 m.ytn.co.kr##div.newsview_ad
 m.ytn.co.kr##div.newsview_ad_bnr
 m.ytn.co.kr##div.photo_bottom_ad

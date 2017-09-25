@@ -1005,6 +1005,19 @@
                 }
             },
             {
+                "id": "270ab0ee-0597-47df-b133-166fd4caeae4",
+                "name": "##iframe[src^=\"http://adddn.adotsolution.com/contents/html5/\"][src*=\"/adbay_inline_sdk/default.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adddn.adotsolution.com/contents/html5/\"][src*=\"/adbay_inline_sdk/default.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "b95b8d5d-c8a8-43f2-a48b-2f6dfa9056ba",
                 "name": "##iframe[src^=\"http://adex.ednplus.com/\"]",
                 "content": {
@@ -1586,6 +1599,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://d.a1comm.co.kr/\"]"
+                    }
+                }
+            },
+            {
+                "id": "552a32dc-8134-4c21-abb6-c2ec5eb9ff76",
+                "name": "##iframe[src^=\"http://dcd.adotsolution.com/dcd/creative.skp\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://dcd.adotsolution.com/dcd/creative.skp\"]"
                     }
                 }
             },
@@ -3299,6 +3325,18 @@
                 }
             },
             {
+                "id": "2a5e7db3-9708-458f-80b8-1e89f603045e",
+                "name": "ad.adotsolution.com:15000/mweb/ad_request",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.adotsolution\\.com:15000/mweb/ad_request"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6120cec0-bb1c-4de6-817a-1ef98195a142",
                 "name": "ad.aeonad.co.kr",
                 "content": {
@@ -3938,11 +3976,35 @@
                 }
             },
             {
+                "id": "bb48df9f-416b-46ec-83c2-519aafaf2bf1",
+                "name": "adddn.adotsolution.com/contents/html5/*/adbay_inline_sdk/default.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adddn\\.adotsolution\\.com/contents/html5/.*/adbay_inline_sdk/default\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2b587372-1ff7-4d4c-8c40-bfb3db21da67",
                 "name": "adddn.adotsolution.com/contents/sdk/js/tad.min.js",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adddn\\.adotsolution\\.com/contents/sdk/js/tad\\.min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7b650dc9-e994-41f7-a2ce-f300f36b0067",
+                "name": "adddn.adotsolution.com/contents/sdk/js/tadcreative_mweb.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adddn\\.adotsolution\\.com/contents/sdk/js/tadcreative_mweb\\.min\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -7151,6 +7213,18 @@
                         "if-domain": [
                             "prod.danawa.com"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7c187112-8e4f-4546-85f6-a97c51c3bec8",
+                "name": "dcd.adotsolution.com/dcd/creative.skp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dcd\\.adotsolution\\.com/dcd/creative\\.skp"
                     },
                     "action": {
                         "type": "block"
@@ -33939,6 +34013,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "section.section-add"
+                    }
+                }
+            },
+            {
+                "id": "8f4a6f4d-c397-4e45-a292-1da9a50acb8c",
+                "name": "m.yonhapnewstv.co.kr##div#main_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.yonhapnewstv\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#main_banner"
                     }
                 }
             },
