@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 5ylbK8yIUZH/BH4aaOX6hw
-! Version: 20170926
+! Checksum: uEsHpQNOBUDrgV2IsEY+eQ
+! Version: 20170929
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -164,6 +164,7 @@
 ##iframe[src^="http://jdaily.co.kr/frame/jad-bin.do"]
 ##iframe[src^="http://joy-adstore.co.kr/ad/"]
 ##iframe[src^="http://js.hnscom.com/etc/hns/hnsIframe_"][src$=".html"]
+##iframe[src^="http://jtpress.kr/ShareMaxBanner"][src*=".php"]
 ##iframe[src^="http://longkeyone.co.kr/"]
 ##iframe[src^="http://m.hankooki.com/ad/"]
 ##iframe[src^="http://m.joyninfo.com/yna/yna_m_new.asp"]
@@ -234,6 +235,7 @@
 */RealMedia/ads/
 */about_*_shopbox.*
 */ad/realclick*.html^
+*/bannerManager/inc/*.html^
 */mobitree_*.js^
 */nad/media/
 */naon_*.html^
@@ -711,7 +713,6 @@
 ||ib.adnxs.com/jpt^
 ||ichannela.com/ch/*adpost*
 ||iicdn.com/www/delivery/afr.php^
-||ikoreadaily.co.kr/bannerManager/inc/$domain=ikoreadaily.co.kr
 ||ikoreadaily.co.kr/script/ikoreadaily_hns.js^$domain=ikoreadaily.co.kr
 ||ilbe.com/layouts/elkha_ilbe/js/board_top.js^$domain=ilbe.com
 ||ilbe.com/layouts/elkha_ilbe/js/new_comment.js^$domain=ilbe.com
@@ -757,11 +758,9 @@
 ||inven.co.kr/common/lib/js/adns.js^
 ||ir-na.amazon-adsystem.com/s/ads-common.js^
 ||j.microad.net/js/compass.js^
-||jbnews.com/bannerManager/inc/*.html^$domain=jbnews.com
 ||jdaily.co.kr/frame/jad-bin.do^
 ||jjan.kr/adNdsoft/adWise*.html^
 ||jjan.kr/banner/ad_banner_*.html^
-||jjan.kr/bannerManager/inc/
 ||jjanglive.com/flash/AdShowClient.swf^
 ||jjanglive.com/flash/webClient.swf^
 ||joinsmsn.com/_ui/ad/
@@ -792,6 +791,7 @@
 ||jsc.mgid.com^
 ||jshoppingbox.joinsmsn.com^
 ||jtbc.joins.com/common/json2XMLvast.aspx^
+||jtpress.kr/ShareMaxBanner*.php^
 ||keyword.ad4989.co.kr^
 ||khan.co.kr/ad/
 ||kmib.co.kr/cp/realclick/
@@ -850,7 +850,6 @@
 ||mediamixad.com/ad/webad^
 ||mediarichad.com/adbanner/
 ||mediaus.co.kr/banner/^$domain=mediaus.co.kr
-||mediaus.co.kr/bannerManager/inc/$domain=mediaus.co.kr
 ||mediaus.co.kr/script/ad.control.js^$domain=mediaus.co.kr
 ||mediaus.co.kr/script/banner.js^$domain=mediaus.co.kr
 ||mediaus.co.kr/script/floating.banner.js^$domain=mediaus.co.kr
@@ -941,11 +940,8 @@
 ||newsway.kr/banner/banner_110323.html^
 ||newsway.kr/banner/left_banner.html^
 ||newsway.kr/banner/overture.html^
-||newsway.kr/bannerManager/
 ||newsworker.co.kr/adNdsoft/$domain=newsworker.co.kr
-||newsworker.co.kr/bannerManager/$domain=newsworker.co.kr
 ||newsworker.co.kr/script/ad_flow1.js^$domain=newsworker.co.kr
-||newsworks.co.kr/bannerManager/inc/*.html^$domain=newsworks.co.kr
 ||nicovideo.cdn.nimg.jp/web/js/ads.js^$domain=nicovideo.jp
 ||nocutnews.co.kr/banner/2012/ad_right_*.asp^
 ||npian.com/nbox/ad*.swf^
@@ -1081,7 +1077,6 @@
 ||spdeliver.i-mobile.co.jp/script/ads.js^
 ||spdeliver.i-mobile.co.jp/script/adsnativepc.js^
 ||spdeliverp.i-mobile.co.jp/script/ads_premium.js^
-||speconomy.com/bannerManager/inc/*.html^$domain=speconomy.com
 ||spojoy.com/_html/_js/event/bscroll_left_160x600.js^$domain=spojoy.com
 ||spojoy.com/_html/_js/event/bscroll_right_down.js^$domain=spojoy.com
 ||spojoy.com/_html/_js/event/fluting_scroll.js^$domain=spojoy.com
@@ -1807,6 +1802,7 @@ hellmoney.kr##div.widthFixed
 hellodd.com##div#ctsrt_adarea
 hellodd.com##div.newsheader_ad
 hellodd.com##div.newslt_bt_ad
+hkbs.co.kr##div.ad-control-articlemiddle
 horo.mail.ru##div.p-top-banner
 horo.mail.ru##div.rb_banner
 hotslogs.com##div#advertisementBannerMonkeyBrokerBottom

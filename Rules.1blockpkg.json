@@ -1902,6 +1902,19 @@
                 }
             },
             {
+                "id": "959acde7-67da-4d0b-9a38-4449d32eb469",
+                "name": "##iframe[src^=\"http://jtpress.kr/ShareMaxBanner\"][src*=\".php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://jtpress.kr/ShareMaxBanner\"][src*=\".php\"]"
+                    }
+                }
+            },
+            {
                 "id": "7f8d5c84-b9a7-44d6-89db-4a4225bc5ac8",
                 "name": "##iframe[src^=\"http://longkeyone.co.kr/\"]",
                 "content": {
@@ -2775,6 +2788,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "/ad/realclick.*\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "836aa366-97dc-484c-a9b8-db49e83b9839",
+                "name": "*/bannerManager/inc/*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "/bannerManager/inc/.*\\.html"
                     },
                     "action": {
                         "type": "block"
@@ -8780,21 +8805,6 @@
                 }
             },
             {
-                "id": "20c807e6-dc2e-416e-8e68-5e819cd50469",
-                "name": "ikoreadaily.co.kr/bannerManager/inc/$domain=ikoreadaily.co.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ikoreadaily\\.co\\.kr/bannerManager/inc/",
-                        "if-domain": [
-                            "ikoreadaily.co.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "a1b8e02d-b264-4302-ba57-93a050d75990",
                 "name": "ikoreadaily.co.kr/script/ikoreadaily_hns.js$domain=ikoreadaily.co.kr",
                 "content": {
@@ -9371,21 +9381,6 @@
                 }
             },
             {
-                "id": "a4f7ea27-3e08-457d-88f3-3a3656756ab1",
-                "name": "jbnews.com/bannerManager/inc/*.html$domain=jbnews.com",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jbnews\\.com/bannerManager/inc/.*\\.html",
-                        "if-domain": [
-                            "jbnews.com"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "d9b6d6fe-e191-41c1-a112-75bb7943eb95",
                 "name": "jdaily.co.kr/frame/jad-bin.do",
                 "content": {
@@ -9415,18 +9410,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jjan\\.kr/banner/ad_banner_.*\\.html"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "22402303-80d3-4238-8cb7-b2aef4528b32",
-                "name": "jjan.kr/bannerManager/inc/",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jjan\\.kr/bannerManager/inc/"
                     },
                     "action": {
                         "type": "block"
@@ -9787,6 +9770,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jtbc\\.joins\\.com/common/json2XMLvast\\.aspx"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3e8f3ed7-5818-4d3f-96e1-202898c1d473",
+                "name": "jtpress.kr/ShareMaxBanner*.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jtpress\\.kr/ShareMaxBanner.*\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -10582,21 +10577,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediaus\\.co\\.kr/banner/",
-                        "if-domain": [
-                            "mediaus.co.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "d3578587-9858-4d83-8e60-5ce8b8e0f8dc",
-                "name": "mediaus.co.kr/bannerManager/inc/$domain=mediaus.co.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediaus\\.co\\.kr/bannerManager/inc/",
                         "if-domain": [
                             "mediaus.co.kr"
                         ]
@@ -11741,38 +11721,11 @@
                 }
             },
             {
-                "id": "3e444e01-e77b-44ca-848c-0f18f6e6824b",
-                "name": "newsway.kr/bannerManager/",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newsway\\.kr/bannerManager/"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "f740b9dc-f5e1-4d7b-a2d0-a4d42bf4b259",
                 "name": "newsworker.co.kr/adNdsoft/$domain=newsworker.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newsworker\\.co\\.kr/adNdsoft/",
-                        "if-domain": [
-                            "newsworker.co.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "d887873e-40fb-42be-a474-1e60db299644",
-                "name": "newsworker.co.kr/bannerManager/$domain=newsworker.co.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newsworker\\.co\\.kr/bannerManager/",
                         "if-domain": [
                             "newsworker.co.kr"
                         ]
@@ -11790,21 +11743,6 @@
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newsworker\\.co\\.kr/script/ad_flow1\\.js",
                         "if-domain": [
                             "newsworker.co.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "44f5e3ef-7c8c-4c6f-8aa6-19c16e678dcd",
-                "name": "newsworks.co.kr/bannerManager/inc/*.html$domain=newsworks.co.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newsworks\\.co\\.kr/bannerManager/inc/.*\\.html",
-                        "if-domain": [
-                            "newsworks.co.kr"
                         ]
                     },
                     "action": {
@@ -13456,21 +13394,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?spdeliverp\\.i-mobile\\.co\\.jp/script/ads_premium\\.js"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "5f162296-0b11-4494-9978-aeacd114dbf4",
-                "name": "speconomy.com/bannerManager/inc/*.html$domain=speconomy.com",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?speconomy\\.com/bannerManager/inc/.*\\.html",
-                        "if-domain": [
-                            "speconomy.com"
-                        ]
                     },
                     "action": {
                         "type": "block"
@@ -25927,6 +25850,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.newslt_bt_ad"
+                    }
+                }
+            },
+            {
+                "id": "2cf42d0a-5c4a-4bbd-a775-afb262187944",
+                "name": "hkbs.co.kr##div.ad-control-articlemiddle",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hkbs\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-control-articlemiddle"
                     }
                 }
             },
