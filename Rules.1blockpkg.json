@@ -30677,6 +30677,32 @@
                 }
             },
             {
+                "id": "fa0c5b6d-4acc-4aa0-9262-f91f981ce5f6",
+                "name": "m.hkbs.co.kr##body>div[style=\"height:60px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.hkbs\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"height:60px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "a67d39d3-421b-4db0-bff6-18e277bb497d",
+                "name": "m.hkbs.co.kr##section.advertisment",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.hkbs\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.advertisment"
+                    }
+                }
+            },
+            {
                 "id": "fd7dc581-fca9-471c-a28e-4103df685d70",
                 "name": "m.huffpost.com##div.advertisement.mobileweb_taboola",
                 "content": {
