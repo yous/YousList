@@ -550,6 +550,19 @@
                 }
             },
             {
+                "id": "e7d17993-c2fc-457d-8f07-785c5af17250",
+                "name": "##iframe[src^=\"//jpmarket-d.openx.net/w/1.0/afr\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//jpmarket-d.openx.net/w/1.0/afr\"]"
+                    }
+                }
+            },
+            {
                 "id": "216de843-977c-46af-b89d-3482f278424d",
                 "name": "##iframe[src^=\"//mrelko.com/bnrs/\"]",
                 "content": {
@@ -3934,6 +3947,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adc\\.ohmynews\\.com/NetInsight/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c0240b1b-909a-40da-a2e9-b37ebf7b8982",
+                "name": "adcdn.goo.ne.jp/images/js/smarttag-oshiete-osgoocon.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adcdn\\.goo\\.ne\\.jp/images/js/smarttag-oshiete-osgoocon\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -9482,6 +9507,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joynews\\.inews24\\.com/php/ad/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "84d330fb-67b8-424a-82ee-601193a5668e",
+                "name": "jpmarket-d.openx.net/w/1.0/afr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jpmarket-d\\.openx\\.net/w/1\\.0/afr"
                     },
                     "action": {
                         "type": "block"
@@ -39578,6 +39615,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.topBanner"
+                    }
+                }
+            },
+            {
+                "id": "01048363-5e72-472d-ab2d-e5df2be5e288",
+                "name": "oshiete.goo.ne.jp##div#gheader",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?oshiete\\.goo\\.ne\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#gheader"
+                    }
+                }
+            },
+            {
+                "id": "c6757824-7e50-48e5-b23b-026050b86b28",
+                "name": "oshiete.goo.ne.jp##div.pr-unit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?oshiete\\.goo\\.ne\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pr-unit"
                     }
                 }
             },
