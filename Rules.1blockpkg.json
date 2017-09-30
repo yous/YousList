@@ -47393,41 +47393,54 @@
                 }
             },
             {
-                "id": "0ee01e97-6879-4e35-92e5-bfca409a197a",
-                "name": "wasabisyrup.com##div.bottom-group>div[style=\"display:inline-block;width:300px;height:250px;max-width:100%;overflow:hidden\"]",
+                "id": "7358ce54-799d-4b07-a711-a9601103ed1b",
+                "name": "wasabisyrup.com##div.article-gallery>div.article-gallery-group",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wasabisyrup\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.bottom-group>div[style=\"display:inline-block;width:300px;height:250px;max-width:100%;overflow:hidden\"]"
+                        "selector": "div.article-gallery>div.article-gallery-group"
                     }
                 }
             },
             {
-                "id": "3456a902-3445-46e7-817c-e0a34c99d116",
-                "name": "wasabisyrup.com##div.bottom-group>div[style=\"display:inline-block;width:594px;height:250px;max-width:100%;overflow:hidden\"]",
+                "id": "30aa456b-33fd-4da3-8ef1-bc36422c1929",
+                "name": "wasabisyrup.com##div.bottom-group>div.content-group",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wasabisyrup\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.bottom-group>div[style=\"display:inline-block;width:594px;height:250px;max-width:100%;overflow:hidden\"]"
+                        "selector": "div.bottom-group>div.content-group"
                     }
                 }
             },
             {
-                "id": "fba6887d-3287-42b3-9340-55f7756ddf7f",
-                "name": "wasabisyrup.com##div.top-group>div[style=\"display:inline-block;width:300px;height:250px;max-width:100%;overflow:hidden\"]",
+                "id": "b2ad4d7d-3fd5-4caf-985d-84b0e1ff03cb",
+                "name": "wasabisyrup.com##div.top-group>div.content-group",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wasabisyrup\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.top-group>div[style=\"display:inline-block;width:300px;height:250px;max-width:100%;overflow:hidden\"]"
+                        "selector": "div.top-group>div.content-group"
+                    }
+                }
+            },
+            {
+                "id": "48ad7caf-b5bd-4582-9fe4-903d6b8d5555",
+                "name": "wasabisyrup.com##section#main>div.tracking",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wasabisyrup\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section#main>div.tracking"
                     }
                 }
             },
