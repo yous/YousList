@@ -485,6 +485,19 @@
                 }
             },
             {
+                "id": "659954b4-d7bd-44fe-adb6-c8764029c859",
+                "name": "##iframe[src^=\"//adspaces.ero-advertising.com/banads/view.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//adspaces.ero-advertising.com/banads/view.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "1b2160d6-af00-4c88-8518-7401601f2ceb",
                 "name": "##iframe[src^=\"//adx-exchange.toast.com/a_request\"]",
                 "content": {
@@ -4867,6 +4880,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adserver\\.viewgames\\.co\\.kr/adi/adiPage\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9125b3cd-78ae-43b1-9f69-d1eedcbd256d",
+                "name": "adspaces.ero-advertising.com/adspace/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adspaces\\.ero-advertising\\.com/adspace/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1c1ba30c-641d-44db-a337-4597e37e804f",
+                "name": "adspaces.ero-advertising.com/banads/view.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adspaces\\.ero-advertising\\.com/banads/view\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -12381,6 +12418,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?provider\\.hiadone\\.com/cgi-bin/conad_hi\\.fcgi/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ccb3e5e4-ceae-4b34-a08b-31e6503236a1",
+                "name": "prwidgets.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?prwidgets\\.com"
                     },
                     "action": {
                         "type": "block"
