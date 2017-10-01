@@ -2019,6 +2019,19 @@
                 }
             },
             {
+                "id": "dd2230d7-40f4-47eb-859b-bf85be8b833e",
+                "name": "##iframe[src^=\"http://mienisa.co.kr/api/bn1\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://mienisa.co.kr/api/bn1\"]"
+                    }
+                }
+            },
+            {
                 "id": "fc827a50-9713-4a12-a79d-4bf4bff5b5d2",
                 "name": "##iframe[src^=\"http://mktag.mt.co.kr/code.ems/\"]",
                 "content": {
@@ -2353,6 +2366,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://sin1.g.adnxs.com/if\"]"
+                    }
+                }
+            },
+            {
+                "id": "93ec07e2-2fc6-4de6-897a-935203da9a03",
+                "name": "##iframe[src^=\"http://smartitphone.co.kr/bn/bn2.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://smartitphone.co.kr/bn/bn2.php\"]"
                     }
                 }
             },
@@ -10778,6 +10804,18 @@
                 }
             },
             {
+                "id": "876eb64e-c5fa-4e98-8c6b-f52a5b92ac35",
+                "name": "mienisa.co.kr/api/bn1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mienisa\\.co\\.kr/api/bn1"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d998b1e9-298a-497d-a9a2-a187c7bce0b8",
                 "name": "minishop.linkprice.com/minishop*.php",
                 "content": {
@@ -13240,6 +13278,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?site3\\.co\\.kr/applad\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5c4f70a1-96e5-4a06-bb66-d83c75ce49c9",
+                "name": "smartitphone.co.kr/bn/bn1.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?smartitphone\\.co\\.kr/bn/bn1\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a98d3765-c1bb-4d04-b4fc-ec24a9c2fe5a",
+                "name": "smartitphone.co.kr/bn/bn2.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?smartitphone\\.co\\.kr/bn/bn2\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -18738,93 +18800,41 @@
                 }
             },
             {
-                "id": "4d36c849-8bea-4bf8-9dd4-93429971a699",
-                "name": "avdbs.com##div#banner_bottom",
+                "id": "072e87e3-7702-4b0f-a347-a2215b772fe8",
+                "name": "avdbs.com##a[onclick^=\"av_api.bnr_log(\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?avdbs\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#banner_bottom"
+                        "selector": "a[onclick^=\"av_api.bnr_log(\"]"
                     }
                 }
             },
             {
-                "id": "a6ff0360-2fd2-43b4-ae53-60b2672bb515",
-                "name": "avdbs.com##div.banner_left",
+                "id": "a9b12a7e-80a0-4016-962b-d87b2f3565d7",
+                "name": "avdbs.com##div#ad_sense_area",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?avdbs\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.banner_left"
+                        "selector": "div#ad_sense_area"
                     }
                 }
             },
             {
-                "id": "6d6a5fcd-f931-47ea-a1b6-d716b14c556f",
-                "name": "avdbs.com##div.banner_right",
+                "id": "098ff19a-dff8-4c53-ad78-389c05f0bfda",
+                "name": "avdbs.com##div#ad_sense_area_top",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?avdbs\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.banner_right"
-                    }
-                }
-            },
-            {
-                "id": "d62eb055-ed35-4433-b7d1-628fa5b03811",
-                "name": "avdbs.com##div.banner_tab",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?avdbs\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.banner_tab"
-                    }
-                }
-            },
-            {
-                "id": "4356905a-ddaf-4eae-8059-138fe9b16dc0",
-                "name": "avdbs.com##div.banner_tab_mid",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?avdbs\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.banner_tab_mid"
-                    }
-                }
-            },
-            {
-                "id": "3284993e-6866-477c-b3cc-327a183be54e",
-                "name": "avdbs.com##div.banner_tab_mobile",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?avdbs\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.banner_tab_mobile"
-                    }
-                }
-            },
-            {
-                "id": "57493154-79d5-4be4-a5e8-5e411f067027",
-                "name": "avdbs.com##div.banner_tab_mobile_bottom",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?avdbs\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.banner_tab_mobile_bottom"
+                        "selector": "div#ad_sense_area_top"
                     }
                 }
             },

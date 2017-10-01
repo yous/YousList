@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: FLJX9JcmbWy9eWqJSnM93g
+! Checksum: EhRFEBdFtVzkGykQdRdhJg
 ! Version: 20171001
 
 ! Workaround for BlockAdBlock
@@ -173,6 +173,7 @@
 ##iframe[src^="http://m.joyninfo.com/yna/yna_w2.asp"]
 ##iframe[src^="http://m.kmib.co.kr/banner/"]
 ##iframe[src^="http://m.ytn.co.kr/ad/ad_"][src$=".html"]
+##iframe[src^="http://mienisa.co.kr/api/bn1"]
 ##iframe[src^="http://mktag.mt.co.kr/code.ems/"]
 ##iframe[src^="http://mobi.luxad.kr/ad/"]
 ##iframe[src^="http://mobi.luxad.net/ad/"]
@@ -199,6 +200,7 @@
 ##iframe[src^="http://server.cpmstar.com/view.aspx"]
 ##iframe[src^="http://shop.nate.com/shopbox/shopbox.htm"]
 ##iframe[src^="http://sin1.g.adnxs.com/if"]
+##iframe[src^="http://smartitphone.co.kr/bn/bn2.php"]
 ##iframe[src^="http://static.joins.com/isplus/ui/ad/"]
 ##iframe[src^="http://sweetgo.kr/adv/top.php"]
 ##iframe[src^="http://syndication.exoclick.com/ads-iframe-display.php"]
@@ -865,6 +867,7 @@
 ||menu.mt.co.kr/js/AdsDispatcher.js^
 ||microbizit.com/admaru/codes/js/
 ||microopenpop.com/banner/
+||mienisa.co.kr/api/bn1^
 ||minishop.linkprice.com/minishop*.php^
 ||minitoon.net/js/adblockblock.js^
 ||miz-diet.co.kr/artz130.html^
@@ -1064,6 +1067,8 @@
 ||sisainlive.com/script/ad_flow2.js^$domain=sisainlive.com
 ||sisainlive.com/script/ad_flow_2.js^$domain=sisainlive.com
 ||site3.co.kr/applad.php^
+||smartitphone.co.kr/bn/bn1.php^
+||smartitphone.co.kr/bn/bn2.php^
 ||smartposting.net/keyword/api/
 ||sndkorea.nowcdn.co.kr/emart/
 ||sndkorea.nowcdn.co.kr/media/
@@ -1289,13 +1294,9 @@ ask.fm##div.askfm-ad-slot
 atlasobscura.com##div.ad-background
 atlasobscura.com##div.ad-background-intra-body
 atlasobscura.com##div.ad-wrapper
-avdbs.com##div#banner_bottom
-avdbs.com##div.banner_left
-avdbs.com##div.banner_right
-avdbs.com##div.banner_tab
-avdbs.com##div.banner_tab_mid
-avdbs.com##div.banner_tab_mobile
-avdbs.com##div.banner_tab_mobile_bottom
+avdbs.com##a[onclick^="av_api.bnr_log("]
+avdbs.com##div#ad_sense_area
+avdbs.com##div#ad_sense_area_top
 avsnoop.co.uk##div#adArea
 avsnoop.co.uk##div#bbsview>div.inner>div.viewbox>div.adbox
 avsnoop.co.uk##div#side>div.inner>div.banner
