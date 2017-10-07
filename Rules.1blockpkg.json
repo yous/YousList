@@ -42855,6 +42855,32 @@
                 }
             },
             {
+                "id": "85509554-f210-48b2-8619-0b6f17b435b6",
+                "name": "tczoa.info##a[href^=\"https://tczoa.info/widgets/okad/click.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tczoa\\.info"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"https://tczoa.info/widgets/okad/click.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "038e23c5-e407-4461-a6b1-31fdf77913e7",
+                "name": "tczoa.info##div.AD02",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tczoa\\.info"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.AD02"
+                    }
+                }
+            },
+            {
                 "id": "2514f110-57da-42a6-a230-257f847ca928",
                 "name": "techcrunch.com##div#acc-native-ad",
                 "content": {
