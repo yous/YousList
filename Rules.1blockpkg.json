@@ -8098,6 +8098,18 @@
                 }
             },
             {
+                "id": "13994fa2-ecf2-467d-8fd9-4abb51bbc223",
+                "name": "ext.apbox.nbp-corp.com/*/adunit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ext\\.apbox\\.nbp-corp\\.com/.*/adunit"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f4bfb6b1-936f-4d97-afe6-c8bea270d5b0",
                 "name": "exttag.about.co.kr/cgi-bin/PelicanC.dll",
                 "content": {
@@ -21785,6 +21797,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.senseWrap"
+                    }
+                }
+            },
+            {
+                "id": "a831db57-20ad-485b-9a34-3e29dc1a966c",
+                "name": "deal.11st.co.kr##div.sponsor_link_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?deal\\.11st\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sponsor_link_wrap"
                     }
                 }
             },
