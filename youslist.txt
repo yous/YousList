@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: hXvj/ZR8aY2IxFeoF4K49A
+! Checksum: T6/RDm4d2ELX87ejcXwAqw
 ! Version: 20171007
 
 ! Workaround for BlockAdBlock
@@ -48,6 +48,7 @@
 ##iframe[id^="google_ads_iframe_"]
 ##iframe[id^="nad_"]
 ##iframe[name="ifrad"]
+##iframe[src*="/NetInsight/"]
 ##iframe[src*="/RealMedia/ads/"]
 ##iframe[src^="//acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html"]
 ##iframe[src^="//ad.vkoad.com/showads.php"]
@@ -79,7 +80,6 @@
 ##iframe[src^="http://ad.adixs.co.kr/"]
 ##iframe[src^="http://ad.adkova.com/media/"]
 ##iframe[src^="http://ad.atdmt.com/d/a.html"]
-##iframe[src^="http://ad.ezday.co.kr/NetInsight/"]
 ##iframe[src^="http://ad.ilikesponsorad.co.kr/"]
 ##iframe[src^="http://ad.mediafarm.co.kr/mad/"]
 ##iframe[src^="http://ad.mediatoday.co.kr/"]
@@ -90,13 +90,11 @@
 ##iframe[src^="http://ad.pitta.ne.jp/ads/show/"]
 ##iframe[src^="http://ad.priel.co.kr/"]
 ##iframe[src^="http://ad.tpmn.co.kr/adReqSb.tpmn"]
-##iframe[src^="http://ad.wowtv.co.kr/NetInsight/"]
 ##iframe[src^="http://ad.xc.nis.nitmus.com/"]
 ##iframe[src^="http://ad1.adenc.co.kr/media/"]
 ##iframe[src^="http://ad1.eventmanager.co.kr/"]
 ##iframe[src^="http://ad2.thisisgame.com/ad"]
 ##iframe[src^="http://adbiz.co.kr/"]
-##iframe[src^="http://adc.ohmynews.com/NetInsight/"]
 ##iframe[src^="http://adddn.adotsolution.com/contents/html5/"][src*="/adbay_inline_sdk/default.html"]
 ##iframe[src^="http://adex.ednplus.com/"]
 ##iframe[src^="http://adexpert.ad4989.co.kr/"]
@@ -105,7 +103,6 @@
 ##iframe[src^="http://adf.send.microad.jp/afr.php"]
 ##iframe[src^="http://adgrp1.ad4989.co.kr/cgi-bin/PelicanC.dll"]
 ##iframe[src^="http://adin.ad4980.kr/"]
-##iframe[src^="http://adkpf.newscloud.or.kr/NetInsight/"]
 ##iframe[src^="http://adn.inven.co.kr/"]
 ##iframe[src^="http://adpingpong.co.kr/"]
 ##iframe[src^="http://adpingpong1.co.kr/"]
@@ -148,12 +145,10 @@
 ##iframe[src^="http://dgate.joins.com/hc.aspx"]
 ##iframe[src^="http://display.ad.daum.net/imp"]
 ##iframe[src^="http://disqusads.com/ads-iframe/adsnative/"]
-##iframe[src^="http://ea.slrclub.com/NetInsight/"]
 ##iframe[src^="http://etc.gamechosun.co.kr/banner/"]
 ##iframe[src^="http://exttag.about.co.kr/cgi-bin/PelicanC.dll"]
 ##iframe[src^="http://file.osen.co.kr/web2/html/realclick_ad.html"]
 ##iframe[src^="http://fs.jtbc.joins.com/common/ui/ad/"]
-##iframe[src^="http://gm-adkpf.ncloud.or.kr/NetInsight/"]
 ##iframe[src^="http://hankyung.bohumplaza.com/_chann/"]
 ##iframe[src^="http://i.yimg.jp/images/listing/tool/yads/yads-iframe.html"]
 ##iframe[src^="http://ilikeview.com/aclk"]
@@ -235,7 +230,7 @@
 ##ins.daum_ddn_area
 
 ! URL filters
-*-adkpf.newscloud.or.kr/NetInsight/
+*/NetInsight/
 */RealMedia/ads/
 */about_*_shopbox.*
 */ad/realclick*.html^
@@ -294,7 +289,6 @@
 ||ad.daum.net^
 ||ad.doubleclick.net^$third-party
 ||ad.dt.co.kr^
-||ad.ezday.co.kr/NetInsight/
 ||ad.hankooki.com^
 ||ad.hankookilbo.com^
 ||ad.hooniad.com^
@@ -333,13 +327,11 @@
 ||ad1.sportsseoul.com^
 ||ad2.thisisgame.com^
 ||adbiz.co.kr^
-||adc.ohmynews.com/NetInsight/
 ||adcdn.goo.ne.jp/images/js/smarttag-oshiete-osgoocon.js^
 ||adclickservice.com^
 ||adcode.rontar.com/rontar2_async.js^
 ||adcreative.hani.naver.net/ad^
 ||adcrm.co.kr/md/
-||addc.dcinside.com/NetInsight/
 ||adddn.adotsolution.com/contents/html5/*/adbay_inline_sdk/default.html^
 ||adddn.adotsolution.com/contents/sdk/js/tad.min.js^
 ||adddn.adotsolution.com/contents/sdk/js/tadcreative_mweb.min.js^
@@ -364,7 +356,6 @@
 ||adinc.co.kr^
 ||adixs-ad.co.kr/code.ems/
 ||adixs.net^
-||adkpf.newscloud.or.kr/NetInsight/
 ||adn.adneo.co.kr^
 ||adn.inven.co.kr^
 ||adn.nsmartad.com^
@@ -414,7 +405,6 @@
 ||adspaces.ero-advertising.com/banads/view.php^
 ||adstract.adk2x.com/imp^
 ||adsvc2.wisenut.co.kr^
-||adsvr.kmib.co.kr/NetInsight/
 ||adtg.widerplanet.com^
 ||adtradradservices.com/adassets/*/adtradr-ad-tag-*.js^
 ||adv.imadrep.co.kr^
@@ -632,7 +622,6 @@
 ||dt.co.kr/js/top_ad.js^
 ||dyn.loolav.space/plyclosablebanner/pclosablebanner.min.js^
 ||e-cdn-files.deezer.com/ads/$domain=deezer.com
-||ea.slrclub.com/NetInsight/
 ||ebdr3.com/serve^
 ||economy.hankooki.com/ad/
 ||edaily.co.kr/adview/
@@ -686,7 +675,6 @@
 ||get.keywordsconnect.com^
 ||get2.keywordsconnect.com^
 ||gigglehd.com/banner/*.jpg^
-||gm-adkpf.ncloud.or.kr/NetInsight/
 ||go.ezoic.net/ezoic/epbfull5.js^
 ||go.onclasrv.com/apu.php^
 ||go.pub2srv.com/apu.php^
@@ -1215,6 +1203,7 @@
 ||zdnet.co.kr/pixel2/pixel_top.htm^
 
 ! Site element hiding rules
+11st.co.kr##div#newFooterAdArea
 1tcafe.com,2tcafe.com,tcafe.net,tcafe3.com,tcafe4.com,tcafeaa.com,tcafeby.com,tcafegg.com,tcafego.com,tcafeh.com,tcafek.com,tcafemm.com,tcafen.com,tcafeon.com,tcafex.com,tcafez.net##a[href^="http://smartfile.co.kr/"]
 1tcafe.com,2tcafe.com,tcafe.net,tcafe3.com,tcafe4.com,tcafeaa.com,tcafeby.com,tcafegg.com,tcafego.com,tcafeh.com,tcafek.com,tcafemm.com,tcafen.com,tcafeon.com,tcafex.com,tcafez.net##a[href^="http://t801.linkoooo.com/"]
 1tcafe.com,2tcafe.com,tcafe.net,tcafe3.com,tcafe4.com,tcafeaa.com,tcafeby.com,tcafegg.com,tcafego.com,tcafeh.com,tcafek.com,tcafemm.com,tcafen.com,tcafeon.com,tcafex.com,tcafez.net##div#divpop

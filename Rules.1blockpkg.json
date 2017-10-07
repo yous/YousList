@@ -394,6 +394,19 @@
                 }
             },
             {
+                "id": "261c1a1c-780f-4f40-ad5b-11bd040825dc",
+                "name": "##iframe[src*=\"/NetInsight/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"/NetInsight/\"]"
+                    }
+                }
+            },
+            {
                 "id": "0e979076-d2fb-4b94-afd0-daf1d9d84400",
                 "name": "##iframe[src*=\"/RealMedia/ads/\"]",
                 "content": {
@@ -797,19 +810,6 @@
                 }
             },
             {
-                "id": "77b21a9c-69b9-4f12-b128-57b4de687282",
-                "name": "##iframe[src^=\"http://ad.ezday.co.kr/NetInsight/\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"http://ad.ezday.co.kr/NetInsight/\"]"
-                    }
-                }
-            },
-            {
                 "id": "34221740-9385-448a-8478-98d9e551b6ff",
                 "name": "##iframe[src^=\"http://ad.ilikesponsorad.co.kr/\"]",
                 "content": {
@@ -940,19 +940,6 @@
                 }
             },
             {
-                "id": "852e829e-18de-4e07-8be8-3a20b0d1b8d7",
-                "name": "##iframe[src^=\"http://ad.wowtv.co.kr/NetInsight/\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"http://ad.wowtv.co.kr/NetInsight/\"]"
-                    }
-                }
-            },
-            {
                 "id": "bb669e89-8b0b-45a6-84e7-6caf6d02fd77",
                 "name": "##iframe[src^=\"http://ad.xc.nis.nitmus.com/\"]",
                 "content": {
@@ -1014,19 +1001,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://adbiz.co.kr/\"]"
-                    }
-                }
-            },
-            {
-                "id": "6e44a082-930b-41cb-9a1c-d93b16b00a18",
-                "name": "##iframe[src^=\"http://adc.ohmynews.com/NetInsight/\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"http://adc.ohmynews.com/NetInsight/\"]"
                     }
                 }
             },
@@ -1131,19 +1105,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://adin.ad4980.kr/\"]"
-                    }
-                }
-            },
-            {
-                "id": "733c52f9-7873-4275-be47-23cf7db91749",
-                "name": "##iframe[src^=\"http://adkpf.newscloud.or.kr/NetInsight/\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"http://adkpf.newscloud.or.kr/NetInsight/\"]"
                     }
                 }
             },
@@ -1694,19 +1655,6 @@
                 }
             },
             {
-                "id": "62df9e0a-4241-452b-b5a9-b6c76d803938",
-                "name": "##iframe[src^=\"http://ea.slrclub.com/NetInsight/\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"http://ea.slrclub.com/NetInsight/\"]"
-                    }
-                }
-            },
-            {
                 "id": "34feb626-df42-46fa-b73d-8b3b8af76c8b",
                 "name": "##iframe[src^=\"http://etc.gamechosun.co.kr/banner/\"]",
                 "content": {
@@ -1755,19 +1703,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://fs.jtbc.joins.com/common/ui/ad/\"]"
-                    }
-                }
-            },
-            {
-                "id": "dca33263-9ecb-4d23-8b7e-8834b8ceb7c6",
-                "name": "##iframe[src^=\"http://gm-adkpf.ncloud.or.kr/NetInsight/\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"http://gm-adkpf.ncloud.or.kr/NetInsight/\"]"
                     }
                 }
             },
@@ -2799,11 +2734,11 @@
                 }
             },
             {
-                "id": "e62f434d-76d8-41c8-b685-2f6adac3341e",
-                "name": "*-adkpf.newscloud.or.kr/NetInsight/",
+                "id": "32bd18ad-c272-4640-994d-940f96096a9c",
+                "name": "*/NetInsight/",
                 "content": {
                     "trigger": {
-                        "url-filter": "-adkpf\\.newscloud\\.or\\.kr/NetInsight/"
+                        "url-filter": "/NetInsight/"
                     },
                     "action": {
                         "type": "block"
@@ -3513,18 +3448,6 @@
                 }
             },
             {
-                "id": "8a70cc9c-4684-4a77-b719-2010d642cd47",
-                "name": "ad.ezday.co.kr/NetInsight/",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.ezday\\.co\\.kr/NetInsight/"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "d78e4ecd-19a9-4aec-8948-96dfa093f98c",
                 "name": "ad.hankooki.com",
                 "content": {
@@ -3981,18 +3904,6 @@
                 }
             },
             {
-                "id": "f32b8599-ff5c-4732-8733-ea7f48f5134d",
-                "name": "adc.ohmynews.com/NetInsight/",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adc\\.ohmynews\\.com/NetInsight/"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "c0240b1b-909a-40da-a2e9-b37ebf7b8982",
                 "name": "adcdn.goo.ne.jp/images/js/smarttag-oshiete-osgoocon.js",
                 "content": {
@@ -4046,18 +3957,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adcrm\\.co\\.kr/md/"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "c43523d6-24f2-4beb-8c5c-e5799d298a92",
-                "name": "addc.dcinside.com/NetInsight/",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?addc\\.dcinside\\.com/NetInsight/"
                     },
                     "action": {
                         "type": "block"
@@ -4346,18 +4245,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adixs\\.net"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "a807f6a5-336a-4c8c-92ac-7384e03f16f2",
-                "name": "adkpf.newscloud.or.kr/NetInsight/",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adkpf\\.newscloud\\.or\\.kr/NetInsight/"
                     },
                     "action": {
                         "type": "block"
@@ -4954,18 +4841,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adsvc2\\.wisenut\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "c54e7163-91d7-4cd8-86df-502236438425",
-                "name": "adsvr.kmib.co.kr/NetInsight/",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adsvr\\.kmib\\.co\\.kr/NetInsight/"
                     },
                     "action": {
                         "type": "block"
@@ -7756,18 +7631,6 @@
                 }
             },
             {
-                "id": "5f1e3aa2-58e4-42c1-9072-5492b86bd56a",
-                "name": "ea.slrclub.com/NetInsight/",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ea\\.slrclub\\.com/NetInsight/"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "d96789a0-03ab-4ea9-a81c-888da4fdbd9a",
                 "name": "ebdr3.com/serve",
                 "content": {
@@ -8436,18 +8299,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gigglehd\\.com/banner/.*\\.jpg"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "1874e27a-3386-4f84-9927-d2e8056f550f",
-                "name": "gm-adkpf.ncloud.or.kr/NetInsight/",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gm-adkpf\\.ncloud\\.or\\.kr/NetInsight/"
                     },
                     "action": {
                         "type": "block"
@@ -15115,6 +14966,19 @@
                     },
                     "action": {
                         "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a90f30f2-906b-4743-a4bf-a0625033a1f9",
+                "name": "11st.co.kr##div#newFooterAdArea",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?11st\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#newFooterAdArea"
                     }
                 }
             },
