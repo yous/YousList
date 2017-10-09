@@ -3844,6 +3844,30 @@
                 }
             },
             {
+                "id": "e1b0212e-3e70-4d91-bb75-9a35a9e8d7eb",
+                "name": "ad1.adfarm1.adition.com/banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad1\\.adfarm1\\.adition\\.com/banner"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2b4252e4-3db3-43c0-8291-d39b20c4b538",
+                "name": "ad1.adfarm1.adition.com/js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad1\\.adfarm1\\.adition\\.com/js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d8a2633c-7a27-4c03-9cae-c2647a33a059",
                 "name": "ad1.eventmanager.co.kr",
                 "content": {
@@ -6646,6 +6670,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn04\\.sndkorea\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ebb6fa8a-faee-4b09-9faf-50e6ee1818e9",
+                "name": "cdn1.smartadserver.com/diff/*/smartadasmi.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn1\\.smartadserver\\.com/diff/.*/smartadasmi\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -14784,6 +14820,18 @@
                 }
             },
             {
+                "id": "37f04e31-0e40-426b-9ca4-1c71a5267346",
+                "name": "ww251.smartadserver.com/ac",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ww251\\.smartadserver\\.com/ac"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1360e20f-ad63-41fc-b778-3e6d158154f8",
                 "name": "x.jd.com/exsites",
                 "content": {
@@ -18879,6 +18927,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.adBox"
+                    }
+                }
+            },
+            {
+                "id": "89b4060c-476f-4d4c-86dd-cb4c27392b7e",
+                "name": "bild.de##div.ad-mark",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bild\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-mark"
                     }
                 }
             },
