@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: Ljmwz2iKQ1RScVY0QrRsJw
+! Checksum: RO9SUAea6SH/JGMoClHhRA
 ! Version: 20171010
 
 ! Workaround for BlockAdBlock
@@ -1026,6 +1026,7 @@
 ||s.pubmine.com/adj/
 ||s.yimg.jp/images/listing/tool/yads/yads-iframe.html^
 ||s1.daumcdn.net/svc/original/U03/commonjs/ddn/common/js/ad.min.js^
+||s3.buysellads.com/ac/bsa.js^
 ||sba.about.co.kr/SbaExpose.aspx^
 ||sba.about.co.kr/dbaExpose.aspx^
 ||sc2.appldp.com/publisher-show-ads.php^
@@ -3325,6 +3326,10 @@ web.humoruniv.com##div#CmAdView2
 web.humoruniv.com##div#ad_240
 web.humoruniv.com##div#ad_700
 web.humoruniv.com##div#ad_adture
+webupd8.org##div.post-inner>div[style="margin: 10px 0 20px 0"]:not([class])
+webupd8.org##iframe[id^="_mN_dy_"]
+webupd8.org##iframe[id^="_mN_gpt_"]
+webupd8.org##iframe[id^="_mN_main_"]
 whatis.techtarget.com##div.ad
 whatis.techtarget.com##div.ad-embedded
 whatis.techtarget.com##div.ad-wrapper

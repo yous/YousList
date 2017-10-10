@@ -12782,6 +12782,18 @@
                 }
             },
             {
+                "id": "b6607381-9059-4254-b68a-4337eed8f3a6",
+                "name": "s3.buysellads.com/ac/bsa.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?s3\\.buysellads\\.com/ac/bsa\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0219f677-7b9a-4c13-a883-de5bcde17d41",
                 "name": "sba.about.co.kr/SbaExpose.aspx",
                 "content": {
@@ -47787,6 +47799,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#ad_adture"
+                    }
+                }
+            },
+            {
+                "id": "b8707c16-9c1f-44e1-aa0f-3a5843ac2f54",
+                "name": "webupd8.org##div.post-inner>div[style=\"margin: 10px 0 20px 0\"]:not([class])",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?webupd8\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.post-inner>div[style=\"margin: 10px 0 20px 0\"]:not([class])"
+                    }
+                }
+            },
+            {
+                "id": "e3c44465-b89c-46b9-851a-adc71519bb76",
+                "name": "webupd8.org##iframe[id^=\"_mN_dy_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?webupd8\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[id^=\"_mN_dy_\"]"
+                    }
+                }
+            },
+            {
+                "id": "ad8e874e-935b-4e45-a7ad-037116c428e3",
+                "name": "webupd8.org##iframe[id^=\"_mN_gpt_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?webupd8\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[id^=\"_mN_gpt_\"]"
+                    }
+                }
+            },
+            {
+                "id": "5fab357e-3942-4480-8326-f4671a67d434",
+                "name": "webupd8.org##iframe[id^=\"_mN_main_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?webupd8\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[id^=\"_mN_main_\"]"
                     }
                 }
             },
