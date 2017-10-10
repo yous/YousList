@@ -2938,6 +2938,18 @@
                 }
             },
             {
+                "id": "ded2d1ac-0a77-46c7-928f-e198c7675a0c",
+                "name": "a.teads.tv/page/*/tag",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?a\\.teads\\.tv/page/.*/tag"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "e6fb2ccc-2842-487d-b62b-d29681873c94",
                 "name": "a.tribalfusion.com/displayAd.js",
                 "content": {
@@ -4497,6 +4509,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.adjust-net\\.jp/adserver/ads"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f0763800-f2fd-47ee-bfde-219f0e233ca4",
+                "name": "ads.admaru.com/js/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.admaru\\.com/js/.*\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -37208,15 +37232,15 @@
                 }
             },
             {
-                "id": "73c078bf-0cb4-4355-9783-8735f4da5c31",
-                "name": "news.joins.com##div.ab_adtxt",
+                "id": "c0a556e9-683e-484b-bf57-b60a39727ddb",
+                "name": "news.joins.com##div.ab_adtxt_wrap",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.joins\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ab_adtxt"
+                        "selector": "div.ab_adtxt_wrap"
                     }
                 }
             },
