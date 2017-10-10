@@ -24338,6 +24338,32 @@
                 }
             },
             {
+                "id": "551bcb50-bdac-4b1a-8d6b-e4026a9296aa",
+                "name": "fortune.com##div.ad-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fortune\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "6e88018d-a193-45ec-9c44-d6a01f318bcd",
+                "name": "fortune.com##div.mobile-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fortune\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobile-ad"
+                    }
+                }
+            },
+            {
                 "id": "9b2854d6-e56e-4016-8e16-30bb502fa21e",
                 "name": "forums.macrumors.com##div.funbox",
                 "content": {
