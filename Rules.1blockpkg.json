@@ -35373,6 +35373,19 @@
                 }
             },
             {
+                "id": "c28154ef-6b78-4703-86e2-1dbcb68b4f98",
+                "name": "mnews.joins.com##div.ad_template",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mnews\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_template"
+                    }
+                }
+            },
+            {
                 "id": "b4ef9132-7f2a-4c25-93be-d0c0e91a02a4",
                 "name": "mnews.joins.com##div.adlink",
                 "content": {
