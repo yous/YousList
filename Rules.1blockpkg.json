@@ -6702,6 +6702,18 @@
                 }
             },
             {
+                "id": "1d7e05cd-983b-43d5-9d44-f0d1e8259597",
+                "name": "cdn.popmyads.com/pma.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.popmyads\\.com/pma\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6d677546-ba7d-4ce8-a3e8-c2f3c21babdf",
                 "name": "cdn.scrollads.co.kr/scrollads.*.js",
                 "content": {
@@ -47984,6 +47996,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "td.larkax>div[style=\"float:right; padding-bottom:10px; padding-left:5px; padding-right:10px\"]"
+                    }
+                }
+            },
+            {
+                "id": "2ccc0232-4880-4a96-9925-8a49e428b496",
+                "name": "watchtheofficeonline.tv##div.ad_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?watchtheofficeonline\\.tv"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_box"
+                    }
+                }
+            },
+            {
+                "id": "f7bfd7f2-f841-489b-a6c1-1393c7f57c5f",
+                "name": "watchtheofficeonline.tv##div.h12ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?watchtheofficeonline\\.tv"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.h12ad"
+                    }
+                }
+            },
+            {
+                "id": "727b864b-1e6d-4854-b777-c415cef79aa7",
+                "name": "watchtheofficeonline.tv##div.other_sites_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?watchtheofficeonline\\.tv"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.other_sites_box"
                     }
                 }
             },
