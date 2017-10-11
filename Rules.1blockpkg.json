@@ -706,6 +706,19 @@
                 }
             },
             {
+                "id": "4233530d-e814-41aa-b109-f45a4a68f896",
+                "name": "##iframe[src^=\"http://178.175.132.130/script/ad.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://178.175.132.130/script/ad.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "4fb14ea5-2943-45b0-aad7-a6b27b8c14b3",
                 "name": "##iframe[src^=\"http://a1.dp25.kr/\"]",
                 "content": {
@@ -2871,6 +2884,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?115\\.68\\.75\\.10/banner_.*\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f36c4aab-3764-47ef-9888-91b638074e19",
+                "name": "178.175.132.130/script/ad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?178\\.175\\.132\\.130/script/ad\\.js"
                     },
                     "action": {
                         "type": "block"
