@@ -48040,6 +48040,32 @@
                 }
             },
             {
+                "id": "1c451eff-08df-43ae-8d22-f1396696b17f",
+                "name": "webtoon.bamtoki.com##div.banner_wing",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?webtoon\\.bamtoki\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_wing"
+                    }
+                }
+            },
+            {
+                "id": "0b641933-d32d-4d43-81bf-e5c58ca1a9ad",
+                "name": "webtoon.bamtoki.com##table.banners",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?webtoon\\.bamtoki\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "table.banners"
+                    }
+                }
+            },
+            {
                 "id": "b8707c16-9c1f-44e1-aa0f-3a5843ac2f54",
                 "name": "webupd8.org##div.post-inner>div[style=\"margin: 10px 0 20px 0\"]:not([class])",
                 "content": {
