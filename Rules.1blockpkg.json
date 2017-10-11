@@ -18595,6 +18595,32 @@
                 }
             },
             {
+                "id": "cad344ec-784f-48cd-9164-18ddfcf0750b",
+                "name": "asiae.co.kr##div.banner_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_ad"
+                    }
+                }
+            },
+            {
+                "id": "aa8c4c45-fa58-436d-b896-cff89ef5565e",
+                "name": "view.asiae.co.kr##div.banner_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?view\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_ad"
+                    }
+                }
+            },
+            {
                 "id": "34996a14-4a53-4858-9572-cf1f5b789dd6",
                 "name": "asiae.co.kr##div.google_ad",
                 "content": {
@@ -18617,6 +18643,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.google_ad"
+                    }
+                }
+            },
+            {
+                "id": "4f6ea4d1-51be-4bae-998d-c142db661548",
+                "name": "asiae.co.kr##div.mask_div",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mask_div"
+                    }
+                }
+            },
+            {
+                "id": "259e4445-6733-431d-a4cb-e7a06c7ed340",
+                "name": "view.asiae.co.kr##div.mask_div",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?view\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mask_div"
                     }
                 }
             },
