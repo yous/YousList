@@ -4373,6 +4373,18 @@
                 }
             },
             {
+                "id": "1d001283-9812-47da-9c7a-ee4b03776fe5",
+                "name": "adnext.fr/richmedia.adv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adnext\\.fr/richmedia\\.adv"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "57946e4d-5a98-486a-a58d-81dbc6eede3f",
                 "name": "adpingpong.co.kr",
                 "content": {
@@ -4546,6 +4558,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.admaru\\.com/js/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b91afee9-a0c8-444d-82ba-14f859bc3e5d",
+                "name": "ads.adverline.com/richmedias/prebid-*.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.adverline\\.com/richmedias/prebid-.*\\.min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d3defd9a-0b74-4cda-9865-5ad0e94e82e5",
+                "name": "ads.adverline.com/richmedias/tools/adnext_iframe.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.adverline\\.com/richmedias/tools/adnext_iframe\\.js"
                     },
                     "action": {
                         "type": "block"
