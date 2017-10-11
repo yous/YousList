@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: XUxz6o/q00eWLENR0rgVMw
+! Checksum: 8qRPmd2DxCe85DIfDRM2zA
 ! Version: 20171011
 
 ! Workaround for BlockAdBlock
@@ -113,6 +113,8 @@
 ##iframe[src^="http://ads.mangouni.com/mad/"]
 ##iframe[src^="http://ads.mncmedia.co.kr/"]
 ##iframe[src^="http://ads.priel.co.kr/cgi-bin/PelicanC.dll"]
+##iframe[src^="http://ads.pubmatic.com/AdServer/js/showad.js"]
+##iframe[src^="http://ads.pubmatic.com/AdServer/js/user_sync.html"]
 ##iframe[src^="http://ads.realclick.co.kr/ad_headcopy/criteo_rta.html"]
 ##iframe[src^="http://ads2.contentabc.com/ads"]
 ##iframe[src^="http://adserver.sbtrustmedia.com/"]
@@ -247,6 +249,7 @@
 ||178.175.132.130/script/ad.php^
 ||211.234.119.116/pront/default.asp^
 ||218.153.11.175^
+||3407.tm.zedo.com/v1/*/atm.js^
 ||58.120.226.147^
 ||a.ligatus.com/?*t=js
 ||a.teads.tv/page/*/tag^
@@ -397,6 +400,7 @@
 ||ads.priel.co.kr/cgi-bin/PelicanC.dll^
 ||ads.priel.co.kr/js/
 ||ads.pubmatic.com/AdServer/js/showad.js^
+||ads.pubmatic.com/AdServer/js/user_sync.html^
 ||ads.realclick.co.kr^
 ||ads.rubiconproject.com/ad/
 ||ads.rubiconproject.com/header/*.js^
@@ -2934,6 +2938,8 @@ prod.danawa.com##div.ad_wide_slide
 prod.danawa.com##div.popup_ad_floating
 prod.danawa.com##div.power_link
 prod.danawa.com##iframe[src^="http://www.danawa.com/NBP/powerLink.php"]
+prothom-alo.com##div.anchor_ad_wrapper
+prothom-alo.com##div.common_google_ads
 qq.com##div.adLeft
 qq.com##div.adLeft700
 qq.com##div.adRight

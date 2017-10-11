@@ -1239,6 +1239,32 @@
                 }
             },
             {
+                "id": "aa92a4fe-39af-4c67-974e-7158c4a3195c",
+                "name": "##iframe[src^=\"http://ads.pubmatic.com/AdServer/js/showad.js\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ads.pubmatic.com/AdServer/js/showad.js\"]"
+                    }
+                }
+            },
+            {
+                "id": "15cb5f1d-6a81-4d3e-93a8-74b6496ee054",
+                "name": "##iframe[src^=\"http://ads.pubmatic.com/AdServer/js/user_sync.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ads.pubmatic.com/AdServer/js/user_sync.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "a4759211-b79e-482a-abae-30a8744b752f",
                 "name": "##iframe[src^=\"http://ads.realclick.co.kr/ad_headcopy/criteo_rta.html\"]",
                 "content": {
@@ -2932,6 +2958,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?218\\.153\\.11\\.175"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "286cb570-e596-43d5-89b8-4aa27e65c009",
+                "name": "3407.tm.zedo.com/v1/*/atm.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?3407\\.tm\\.zedo\\.com/v1/.*/atm\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -4746,6 +4784,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.pubmatic\\.com/AdServer/js/showad\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "40952a49-eee7-4abf-b9f2-c8f267d9d72d",
+                "name": "ads.pubmatic.com/AdServer/js/user_sync.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.pubmatic\\.com/AdServer/js/user_sync\\.html"
                     },
                     "action": {
                         "type": "block"
@@ -40807,6 +40857,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://www.danawa.com/NBP/powerLink.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "ceceb868-e2ee-48f6-b379-f795c11923c5",
+                "name": "prothom-alo.com##div.anchor_ad_wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?prothom-alo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.anchor_ad_wrapper"
+                    }
+                }
+            },
+            {
+                "id": "e54f3a95-1fb6-4399-ad21-59d2849d278e",
+                "name": "prothom-alo.com##div.common_google_ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?prothom-alo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.common_google_ads"
                     }
                 }
             },
