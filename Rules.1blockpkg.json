@@ -12086,6 +12086,18 @@
                 }
             },
             {
+                "id": "3efd7936-5706-4106-8b7e-d86daa70c8a7",
+                "name": "open.oneplus.net/cloud/pushdata",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?open\\.oneplus\\.net/cloud/pushdata"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f567f734-00bc-4193-b156-84fdea459f32",
                 "name": "openload.co/assets/js/script.*.js",
                 "content": {
