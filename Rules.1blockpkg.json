@@ -485,6 +485,19 @@
                 }
             },
             {
+                "id": "6a5d9e7e-6ed8-4f69-bc6c-aa5460fa0d17",
+                "name": "##iframe[src^=\"//ads.exdynsrv.com/iframe.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//ads.exdynsrv.com/iframe.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "9bc7e722-6430-498c-b5bb-e8f7077c64fe",
                 "name": "##iframe[src^=\"//ads.exoclick.com/iframe.php\"]",
                 "content": {
@@ -1612,6 +1625,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://cpv.ad.naver.com/adshow\"]"
+                    }
+                }
+            },
+            {
+                "id": "99885349-b137-41dc-be49-3af51841f26e",
+                "name": "##iframe[src^=\"http://creative.wwwpromoter.com/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://creative.wwwpromoter.com/\"]"
                     }
                 }
             },
@@ -4656,6 +4682,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.exdynsrv\\.com/ads\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "04aa8424-5e54-46db-ac53-9c9b7281394b",
+                "name": "ads.exdynsrv.com/iframe.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.exdynsrv\\.com/iframe\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -12107,6 +12145,18 @@
                 }
             },
             {
+                "id": "9fdd661f-784e-4bd8-a282-69ec882df126",
+                "name": "oload.tv/assets/js/script.*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?oload\\.tv/assets/js/script\\..*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "07e77671-ec05-4258-a8ed-cce0f1117fe0",
                 "name": "onclickads.net/apu.php",
                 "content": {
@@ -13258,6 +13308,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?serve\\.popads\\.net/c"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "813d014b-c7a6-4570-a4fa-d2bce80e0d79",
+                "name": "serve.popads.net/checkInventory.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?serve\\.popads\\.net/checkInventory\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fa8e6f11-1926-4837-889b-4f23d5a53cb5",
+                "name": "serve.popads.net/s",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?serve\\.popads\\.net/s"
                     },
                     "action": {
                         "type": "block"
