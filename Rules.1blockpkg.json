@@ -19085,6 +19085,32 @@
                 }
             },
             {
+                "id": "08047be9-f3b8-4b35-938c-8cc93188b622",
+                "name": "baskino.co##div#b-mtbcbar__container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?baskino\\.co"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#b-mtbcbar__container"
+                    }
+                }
+            },
+            {
+                "id": "72c4edc8-adeb-40a5-86d8-6aa601d23df8",
+                "name": "baskino.co##div.skin-block",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?baskino\\.co"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.skin-block"
+                    }
+                }
+            },
+            {
                 "id": "d840c658-ac46-4bfe-9e0d-60cbfe84dcd5",
                 "name": "bbs.danawa.com##div#danawa-community-bbsView-powerLink-self",
                 "content": {
