@@ -43447,6 +43447,19 @@
                 }
             },
             {
+                "id": "2954c0a6-a917-4b82-866d-f21ca1171cc5",
+                "name": "targetveb.com##aside.widget_text",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?targetveb\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.widget_text"
+                    }
+                }
+            },
+            {
                 "id": "85509554-f210-48b2-8619-0b6f17b435b6",
                 "name": "tczoa.info##a[href^=\"https://tczoa.info/widgets/okad/click.php\"]",
                 "content": {
