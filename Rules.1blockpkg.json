@@ -12605,6 +12605,18 @@
                 }
             },
             {
+                "id": "e0f5d36d-4ad4-46ca-9161-6e2d7929e54c",
+                "name": "pureadexchange.com/a/display.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pureadexchange\\.com/a/display\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "cb6073f4-862a-4ac1-b3d8-b1b830dd3593",
                 "name": "pussl35.com/*/*/*.js",
                 "content": {
@@ -14103,6 +14115,21 @@
                 }
             },
             {
+                "id": "db6f33cd-ab7b-41e6-ba75-012e5f0812b9",
+                "name": "static.vidzi.tv/static/ads.js$domain=vidzi.tv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?static\\.vidzi\\.tv/static/ads\\.js",
+                        "if-domain": [
+                            "vidzi.tv"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "dbb5ddc4-e83d-4de5-871d-5c398ed3b10d",
                 "name": "static2.vidto.me/b8/b4/50/*.js$domain=vidto.me",
                 "content": {
@@ -14110,6 +14137,21 @@
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?static2\\.vidto\\.me/b8/b4/50/.*\\.js",
                         "if-domain": [
                             "vidto.me"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2e0bb66c-7ad4-4497-b8c2-da22e6017c33",
+                "name": "static9.vidzi.tv/*.php$domain=vidzi.tv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?static9\\.vidzi\\.tv/.*\\.php",
+                        "if-domain": [
+                            "vidzi.tv"
                         ]
                     },
                     "action": {
@@ -14222,6 +14264,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?t\\.mdn2015x1\\.com/build/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "14059d10-f275-42a6-a9cd-f5774b737157",
+                "name": "t.tmdn2015x9.com/build/*/v1/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?t\\.tmdn2015x9\\.com/build/.*/v1/"
                     },
                     "action": {
                         "type": "block"
@@ -15044,6 +15098,21 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ww251\\.smartadserver\\.com/ac"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5bd7c114-c5b6-4ab5-ad78-48896afba0d0",
+                "name": "ww3.vidzi.tv/*/*/*/*.js$domain=vidzi.tv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ww3\\.vidzi\\.tv/.*/.*/.*/.*\\.js",
+                        "if-domain": [
+                            "vidzi.tv"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -47356,6 +47425,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "4b379695-2853-4d10-858f-1224a8e3f7fb",
+                "name": "vidzi.tv##div.player-ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vidzi\\.tv"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.player-ads"
                     }
                 }
             },
