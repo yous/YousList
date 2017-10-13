@@ -15317,6 +15317,18 @@
                 }
             },
             {
+                "id": "f64b6340-e264-40fa-b971-bf03b0a80631",
+                "name": "z-na.amazon-adsystem.com/widgets/onejs",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?z-na\\.amazon-adsystem\\.com/widgets/onejs"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "fdf8b112-4042-468f-86cf-6de04cc42bca",
                 "name": "z.moatads.com/*/moatad.js",
                 "content": {
@@ -28038,6 +28050,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.end_bnr_appinfo"
+                    }
+                }
+            },
+            {
+                "id": "447d824e-9039-4b34-a216-d6e2af9ce3ce",
+                "name": "knowyourmeme.com##div.content-unit-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?knowyourmeme\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.content-unit-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "f70e20fc-4dae-4eca-be78-94d748395eb1",
+                "name": "knowyourmeme.com##div.header-unit-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?knowyourmeme\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.header-unit-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "8ff44a8e-6c16-4089-b745-6d92dc7e30ef",
+                "name": "knowyourmeme.com##div.rectangle-unit-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?knowyourmeme\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rectangle-unit-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "28103185-f38e-430f-8990-3c40a5721036",
+                "name": "knowyourmeme.com##div.top-unit-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?knowyourmeme\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top-unit-wrapper"
                     }
                 }
             },
