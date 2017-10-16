@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 3b8nsJyH/obkOt3U5BLCyw
-! Version: 20171015
+! Checksum: X3Ei2+I7g/m4mMCPe9kshw
+! Version: 20171016
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -686,10 +686,10 @@
 ||g.novostimira.biz/j/
 ||gaihn.co.kr/eventbanner/
 ||gall.dcinside.com/dc_ad_*_JH.php^
-||gamefocus.co.kr/bncode2/banner_left.html^
-||gamefocus.co.kr/bncode2/banner_mainflash.html^
-||gamefocus.co.kr/bncode2/banner_right.html^
-||gamefocus.co.kr/bncode2/banner_top.html^
+||gamefocus.co.kr/bncode2/banner_left.html^$domain=gamefocus.co.kr
+||gamefocus.co.kr/bncode2/banner_mainflash.html^$domain=gamefocus.co.kr
+||gamefocus.co.kr/bncode2/banner_right.html^$domain=gamefocus.co.kr
+||gamefocus.co.kr/bncode2/banner_top.html^$domain=gamefocus.co.kr
 ||gametoc.hankyung.com/banner/*.html^
 ||get.keywordsconnect.com^
 ||get2.keywordsconnect.com^
@@ -1752,8 +1752,9 @@ gamechosun.co.kr##div#over_articleB
 gamechosun.co.kr##div#slideBanner
 gamechosun.co.kr##div#topLayoutRight
 gamechosun.co.kr##div.banner_wrap
-gamefocus.co.kr##body>center>center>table[width="940"]:first-of-type>tbody>tr>td:last-of-type[align="left"][bgcolor="#FFFFFF"][valign="top"][width="260"]>div[style="width:258; height=234; border-style:solid; border-width:1px; border-color:#c0c0c0;"]
-gamefocus.co.kr##body>center>table[width="940"]>tbody>tr>td>table[width="940"]>tbody>tr:nth-of-type(2)>td>table[width="100%"]>tbody>tr>td:nth-of-type(2)[align="left"]>div[style="width:450; height=80; border-style:solid; border-width:1px; border-color:#C0C0C0;"]
+gamefocus.co.kr##body>center>center>table[style="width:940px; margin-bottom:20px;"]:first-of-type>tbody>tr>td:first-of-type[style="width:665px;"][valign="top"]>table[style="margin-bottom:20px;"][width="100%"]
+gamefocus.co.kr##body>center>center>table[style="width:940px; margin-bottom:20px;"]:first-of-type>tbody>tr>td:last-of-type[style="width:260px;"][valign="top"]>div[style="width:258px; height:234px; border-style:solid; border-width:1px; border-color:#c0c0c0; margin-bottom:10px;"]
+gamefocus.co.kr##body>center>table[width="940"]>tbody>tr>td>table[width="940"]>tbody>tr:nth-of-type(2)>td>table[width="100%"]>tbody>tr>td:nth-of-type(2)[align="left"]>div[style="width:450px; height:80px; border-style:solid; border-width:1px; border-color:#C0C0C0;"]
 gamefocus.co.kr##iframe[src^="bncode2/banner_left.html"]
 gamefocus.co.kr##iframe[src^="bncode2/banner_mainflash.html"]
 gamefocus.co.kr##iframe[src^="bncode2/banner_right.html"]
