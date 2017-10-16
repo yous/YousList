@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: X3Ei2+I7g/m4mMCPe9kshw
+! Checksum: Sr+iwyzjZ1QcE+LH7/BKig
 ! Version: 20171016
 
 ! Workaround for BlockAdBlock
@@ -402,6 +402,7 @@
 ||ads.nicovideo.jp/bannertext^$domain=embed.nicovideo.jp|nicovideo.jp
 ||ads.priel.co.kr/cgi-bin/PelicanC.dll^
 ||ads.priel.co.kr/js/
+||ads.pubmatic.com/AdServer/js/gshowad.js^
 ||ads.pubmatic.com/AdServer/js/showad.js^
 ||ads.pubmatic.com/AdServer/js/user_sync.html^
 ||ads.realclick.co.kr^
@@ -421,6 +422,8 @@
 ||adspaces.ero-advertising.com/banads/view.php^
 ||adstract.adk2x.com/imp^
 ||adsvc2.wisenut.co.kr^
+||adtag.asiaone.com/tag/*/js/prebid/*_prebid_min.js^
+||adtag.asiaone.com/tag/*/js/prebid/prebid.js^
 ||adtg.widerplanet.com^
 ||adtradradservices.com/adassets/*/adtradr-ad-tag-*.js^
 ||adv.imadrep.co.kr^
@@ -3137,6 +3140,7 @@ story369.com##div.adpromotion
 story369.com##div.ads_t5
 story369.com##div.promotion
 story369.com##iframe[src^="../ad/"]
+straitstimes.com##div.ads
 studenthome.ch##a[href^="https://www.pharmagram.ch"]
 studenthome.ch##a[href^="https://www.scorestudies.ch"]
 studenthome.ch##body>div>div[style="position:absolute; left:40px; top:5px; width:728px; height:90px;"]

@@ -4817,6 +4817,18 @@
                 }
             },
             {
+                "id": "c3148f8a-07f4-4c56-a8c2-352c43d3e3c3",
+                "name": "ads.pubmatic.com/AdServer/js/gshowad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.pubmatic\\.com/AdServer/js/gshowad\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "35354b25-2821-4226-a090-f67b0fb06745",
                 "name": "ads.pubmatic.com/AdServer/js/showad.js",
                 "content": {
@@ -5038,6 +5050,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adsvc2\\.wisenut\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cd1e8b02-b370-48a0-9c44-90b86910b709",
+                "name": "adtag.asiaone.com/tag/*/js/prebid/*_prebid_min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adtag\\.asiaone\\.com/tag/.*/js/prebid/.*_prebid_min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ab4faa14-9a87-4226-8714-3c02daa9d914",
+                "name": "adtag.asiaone.com/tag/*/js/prebid/prebid.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adtag\\.asiaone\\.com/tag/.*/js/prebid/prebid\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -43454,6 +43490,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"../ad/\"]"
+                    }
+                }
+            },
+            {
+                "id": "63259c98-3df0-4606-864f-0a344d0d6d14",
+                "name": "straitstimes.com##div.ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?straitstimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ads"
                     }
                 }
             },
