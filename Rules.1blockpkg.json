@@ -4761,11 +4761,11 @@
                 }
             },
             {
-                "id": "4ae90d2a-cc45-424f-9263-8ca15ed4e7f9",
-                "name": "ads.nicovideo.jp/assets/js/ads-*.min.js$domain=embed.nicovideo.jp|nicovideo.jp",
+                "id": "91d007da-17b8-4769-8ae3-133cec7b8cd3",
+                "name": "ads.nicovideo.jp/api/OxBannerService/getAdvertisements.jsonp$domain=embed.nicovideo.jp|nicovideo.jp",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.nicovideo\\.jp/assets/js/ads-.*\\.min\\.js",
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.nicovideo\\.jp/api/OxBannerService/getAdvertisements\\.jsonp",
                         "if-domain": [
                             "embed.nicovideo.jp",
                             "nicovideo.jp"
@@ -5557,6 +5557,22 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?api\\.megamouth\\.kr/pucs\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e7052bc5-79e2-46aa-9ba7-92edb034c255",
+                "name": "api.uad.nicovideo.jp/UadsVideoService/getSponsorsJsonp$domain=embed.nicovideo.jp|nicovideo.jp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?api\\.uad\\.nicovideo\\.jp/UadsVideoService/getSponsorsJsonp",
+                        "if-domain": [
+                            "embed.nicovideo.jp",
+                            "nicovideo.jp"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -39590,6 +39606,136 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#head_ads"
+                    }
+                }
+            },
+            {
+                "id": "0d7bb446-0181-4fd7-a9e3-3f458fc00153",
+                "name": "nicovideo.jp##div#sideContents>div[style=\"min-height:240px;\"]:not([class]):not([id])",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nicovideo\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sideContents>div[style=\"min-height:240px;\"]:not([class]):not([id])"
+                    }
+                }
+            },
+            {
+                "id": "be703326-afac-4c7f-8600-bad0c3241a05",
+                "name": "nicovideo.jp##div.BottomContainer-adContainer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nicovideo\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.BottomContainer-adContainer"
+                    }
+                }
+            },
+            {
+                "id": "39d09eb4-5d65-40fe-bfa1-a73bc66a0418",
+                "name": "nicovideo.jp##div.CommentPanelBannerAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nicovideo\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.CommentPanelBannerAd"
+                    }
+                }
+            },
+            {
+                "id": "a39ec555-0808-4cdb-b4ca-3eee0ab04b4a",
+                "name": "nicovideo.jp##div.CompanionAdContainer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nicovideo\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.CompanionAdContainer"
+                    }
+                }
+            },
+            {
+                "id": "7b41be34-7c87-419d-8bce-428c720fd73e",
+                "name": "nicovideo.jp##div.NicoSpotAdContainer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nicovideo\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.NicoSpotAdContainer"
+                    }
+                }
+            },
+            {
+                "id": "b1a66960-198f-41d4-8863-1f7c7b93b71c",
+                "name": "nicovideo.jp##div.footerBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nicovideo\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.footerBanner"
+                    }
+                }
+            },
+            {
+                "id": "1888f9c6-1136-440d-895f-cefffa6f9e3f",
+                "name": "nicovideo.jp##div.sideAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nicovideo\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sideAd"
+                    }
+                }
+            },
+            {
+                "id": "c3887ebf-7937-452e-9d17-861b13f35d4c",
+                "name": "nicovideo.jp##div.sideBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nicovideo\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sideBanner"
+                    }
+                }
+            },
+            {
+                "id": "364cd4e5-93bd-46eb-b46c-b217f6c99502",
+                "name": "nicovideo.jp##div.sideTxtAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nicovideo\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sideTxtAd"
+                    }
+                }
+            },
+            {
+                "id": "11569fc6-8b6b-42d2-b031-f9a727305d92",
+                "name": "nicovideo.jp##div.sidewallAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nicovideo\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sidewallAd"
                     }
                 }
             },
