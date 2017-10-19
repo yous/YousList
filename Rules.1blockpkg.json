@@ -33434,6 +33434,19 @@
                 }
             },
             {
+                "id": "7fea0f49-a51d-415c-b3ba-8e341f5f1f9e",
+                "name": "m.ruliweb.com##div.ad_header_wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.ruliweb\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_header_wrapper"
+                    }
+                }
+            },
+            {
                 "id": "f68ac93d-903d-46c5-bb40-2c7d10016a26",
                 "name": "m.ruliweb.com##div.ad_wrapper",
                 "content": {
