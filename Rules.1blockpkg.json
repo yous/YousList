@@ -4222,6 +4222,18 @@
                 }
             },
             {
+                "id": "52f27e4b-c023-425d-914b-f63d9d429025",
+                "name": "adfarm.mediaplex.com/ad/js/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adfarm\\.mediaplex\\.com/ad/js/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6b45e054-1e5e-4fc2-8c13-6e39f71e6cf9",
                 "name": "adget.co.kr",
                 "content": {
@@ -15376,6 +15388,18 @@
                 }
             },
             {
+                "id": "30f47bd7-5001-4a77-910b-a40ba5364d29",
+                "name": "www5.smartadserver.com/h/nshow",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?www5\\.smartadserver\\.com/h/nshow"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1360e20f-ad63-41fc-b778-3e6d158154f8",
                 "name": "x.jd.com/exsites",
                 "content": {
@@ -21004,6 +21028,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#sidebar>div.ad"
+                    }
+                }
+            },
+            {
+                "id": "4091b365-167c-45b9-b71d-6207727c7440",
+                "name": "br.ign.com##div#side_adkit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?br\\.ign\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#side_adkit"
+                    }
+                }
+            },
+            {
+                "id": "b5ab9ef1-8472-4167-ab75-e905b9f9ed58",
+                "name": "br.ign.com##div.adkit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?br\\.ign\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adkit"
+                    }
+                }
+            },
+            {
+                "id": "939ac9e4-b3d6-4843-88b5-59dc534ccbc3",
+                "name": "br.ign.com##div.adkit_billboard",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?br\\.ign\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adkit_billboard"
                     }
                 }
             },
