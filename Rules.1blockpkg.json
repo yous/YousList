@@ -7902,6 +7902,36 @@
                 }
             },
             {
+                "id": "29314ac5-678a-474b-86cc-557cd6e4cee7",
+                "name": "drive2.ru/assets/*/pcode/adfox/header-bidding.js$domain=drive2.ru",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?drive2\\.ru/assets/.*/pcode/adfox/header-bidding\\.js",
+                        "if-domain": [
+                            "drive2.ru"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "56241eca-8a3a-49fd-8b27-158479a45a08",
+                "name": "drive2.ru/assets/*/pcode/adfox/loader.js$domain=drive2.ru",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?drive2\\.ru/assets/.*/pcode/adfox/loader\\.js",
+                        "if-domain": [
+                            "drive2.ru"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f18d930f-b3d5-46fc-bf36-b5c125eccd55",
                 "name": "dt.co.kr/js/top_ad.js",
                 "content": {
@@ -22885,6 +22915,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.boardAD01"
+                    }
+                }
+            },
+            {
+                "id": "6f0daaee-c919-4d9a-bdc8-0dca88b92c99",
+                "name": "drive2.ru##div[id^=\"adfox_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?drive2\\.ru"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"adfox_\"]"
                     }
                 }
             },
