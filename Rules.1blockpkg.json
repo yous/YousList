@@ -2773,6 +2773,19 @@
                 }
             },
             {
+                "id": "7b3ffe9c-f840-4156-aa8f-eaa2bb83bcb6",
+                "name": "##iframe[src^=\"https://www.mxttrf.com/ads\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://www.mxttrf.com/ads\"]"
+                    }
+                }
+            },
+            {
                 "id": "45c69c28-94ef-4ba1-b145-9cb461e91e2f",
                 "name": "##ins.adsbygoogle",
                 "content": {
@@ -11314,6 +11327,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mv\\.ad\\.naver\\.com/adshow"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "96033ba1-7dce-4b89-9849-0a7d201a0afb",
+                "name": "mxttrf.com/ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mxttrf\\.com/ads"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5a7cfa4b-cb91-4687-bc36-e3a9a07a254f",
+                "name": "mxttrf.com/js/show_ads_mxttrf.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mxttrf\\.com/js/show_ads_mxttrf\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -24539,6 +24576,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.post__article-top-ad-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "7843cfc2-30de-41f0-984d-8ce08aca1f52",
+                "name": "filmix.me##div.info-a",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?filmix\\.me"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.info-a"
+                    }
+                }
+            },
+            {
+                "id": "3bc183f3-5052-4dc8-98c7-46c37f88f259",
+                "name": "filmix.me##div.info-b",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?filmix\\.me"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.info-b"
                     }
                 }
             },
