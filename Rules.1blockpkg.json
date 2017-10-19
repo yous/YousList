@@ -5885,6 +5885,18 @@
                 }
             },
             {
+                "id": "a8c27a97-9d9c-44de-8c5c-f8254f3e68e3",
+                "name": "brightonclick.com/script/suurl.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?brightonclick\\.com/script/suurl\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "cf3eb1cc-0904-4886-96aa-3fa234d8fe3e",
                 "name": "bs.serving-sys.com/BurstingPipe/adServer.bs",
                 "content": {
@@ -12616,6 +12628,21 @@
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pinaya\\.center/addons/document_contents_blind_advertise/js/blind\\.min\\.js",
                         "if-domain": [
                             "pinaya.center"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "086fbcd0-88e9-4b3b-a866-ee51ae0de1c4",
+                "name": "pirateproxy.cam/static/*/ad-scroll.js$domain=pirateproxy.cam",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pirateproxy\\.cam/static/.*/ad-scroll\\.js",
+                        "if-domain": [
+                            "pirateproxy.cam"
                         ]
                     },
                     "action": {
