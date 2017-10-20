@@ -6780,6 +6780,18 @@
                 }
             },
             {
+                "id": "117ce94a-a84d-49c2-b2cf-432f0d4bbed6",
+                "name": "cdn-sic.33across.com/1/javascripts/sic.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn-sic\\.33across\\.com/1/javascripts/sic\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d6e25ef0-744a-4ad2-986c-86d4bcdbb76f",
                 "name": "cdn.ad.maist.jp/ad/js/pjs.js",
                 "content": {
@@ -7631,6 +7643,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?delivery\\.amessagewithabottle\\.com/www/delivery/ajs\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e6769b20-fa3e-4a8c-9c58-02696bfd674e",
+                "name": "delivery.c.switchadhub.com/adserver/sat.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?delivery\\.c\\.switchadhub\\.com/adserver/sat\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -9156,6 +9180,18 @@
                 }
             },
             {
+                "id": "a933e5a7-3a2e-4614-8937-aa3a55b1e858",
+                "name": "ib.3lift.com/ttj",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ib\\.3lift\\.com/ttj"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a712c632-4cf8-4a44-aeb5-9b777cd4a774",
                 "name": "ib.adnxs.com/async_usersync",
                 "content": {
@@ -9780,6 +9816,18 @@
                 }
             },
             {
+                "id": "46205c35-8dfa-4b7f-978c-b5ad576bcc6b",
+                "name": "jadserve.postrelease.com/t",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jadserve\\.postrelease\\.com/t"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d9b6d6fe-e191-41c1-a112-75bb7943eb95",
                 "name": "jdaily.co.kr/frame/jad-bin.do",
                 "content": {
@@ -9917,6 +9965,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?js-sec\\.indexww\\.com/ht/htw-gawker\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3c0c5758-4fce-493b-b40e-2507b3568646",
+                "name": "js.ad-score.com/score.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?js\\.ad-score\\.com/score\\.min\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -13269,6 +13329,18 @@
                 }
             },
             {
+                "id": "62945b76-1f2e-4fcf-8b1b-7a7c39f0dc96",
+                "name": "s.ntv.io/serve/load.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?s\\.ntv\\.io/serve/load\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "779a86aa-7611-43a1-a628-13f02d9da12e",
                 "name": "s.pubmine.com/adj/",
                 "content": {
@@ -14556,6 +14628,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sunnyworks\\.co\\.kr/data/js/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e1780d3f-f392-4142-b38c-35be3300df4b",
+                "name": "surgeprice.com/display/async/*/*/ariel.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?surgeprice\\.com/display/async/.*/.*/ariel\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -48422,6 +48506,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "aside.ads"
+                    }
+                }
+            },
+            {
+                "id": "8546d434-a277-4d62-b351-f1d3c285dc34",
+                "name": "viralised.com##div.vlog_adsense_widget",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?viralised\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.vlog_adsense_widget"
                     }
                 }
             },
