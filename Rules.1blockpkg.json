@@ -2812,6 +2812,18 @@
                 }
             },
             {
+                "id": "3fc9a0a3-20c7-42e6-a321-79de8fe29f07",
+                "name": "*-d.openx.net/w/1.0/acj",
+                "content": {
+                    "trigger": {
+                        "url-filter": "-d\\.openx\\.net/w/1\\.0/acj"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "32bd18ad-c272-4640-994d-940f96096a9c",
                 "name": "*/NetInsight/",
                 "content": {
@@ -4714,6 +4726,18 @@
                 }
             },
             {
+                "id": "2467ebf7-2dc6-4c56-ad92-c7fe9230a604",
+                "name": "ads.blogherads.com/bh/*/*/*/*/header.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.blogherads\\.com/bh/.*/.*/.*/.*/header\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1f7e2f51-bf55-4313-beb8-4cc7c12d7bd6",
                 "name": "ads.blogherads.com/static/blogherads.js",
                 "content": {
@@ -5986,6 +6010,21 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bs\\.serving-sys\\.com/BurstingPipe/adServer\\.bs"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9e6d4af4-e4aa-4c13-b24d-5da3eca1f45a",
+                "name": "busygirlblog.com/adserver/$domain=busygirlblog.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?busygirlblog\\.com/adserver/",
+                        "if-domain": [
+                            "busygirlblog.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -12945,6 +12984,18 @@
                 }
             },
             {
+                "id": "5d5926df-daa4-4ba4-b792-29f406c60419",
+                "name": "ps.ns-cdn.com/dsatserving2/scripts/ns_vmtag.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ps\\.ns-cdn\\.com/dsatserving2/scripts/ns_vmtag\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "277631a2-3d12-44c0-bb20-c2602c9cee65",
                 "name": "pub.adpnut.com",
                 "content": {
@@ -13742,18 +13793,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sh\\.adingo\\.jp"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "55dcbb99-cb73-44ce-95cd-81816584fa84",
-                "name": "sheknows-d.openx.net/w/1.0/acj",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sheknows-d\\.openx\\.net/w/1\\.0/acj"
                     },
                     "action": {
                         "type": "block"
@@ -15181,6 +15220,18 @@
                 }
             },
             {
+                "id": "d81c3cfe-519b-4f7d-b090-9d0af2b4ec2f",
+                "name": "udmserve.net/udm/img.fetch",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?udmserve\\.net/udm/img\\.fetch"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ca7f9a33-9ef6-4e43-8c98-098970d08087",
                 "name": "underdogmedia-d.openx.net/w/1.0/arj",
                 "content": {
@@ -15270,18 +15321,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?us-ads\\.openx\\.net/w/1\\.0/jstag"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "3dc08221-a2a8-4f73-84ff-f3211653e5a3",
-                "name": "us-u.openx.net/w/1.0/acj",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?us-u\\.openx\\.net/w/1\\.0/acj"
                     },
                     "action": {
                         "type": "block"
@@ -21388,6 +21427,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#promo"
+                    }
+                }
+            },
+            {
+                "id": "fde76e22-10ec-421a-8325-8a6da7835b93",
+                "name": "busygirlblog.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?busygirlblog\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "d6ffd442-3839-40e1-b841-006e13c078f9",
+                "name": "busygirlblog.com##div.busyg-content",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?busygirlblog\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.busyg-content"
+                    }
+                }
+            },
+            {
+                "id": "5940d35b-9a73-475d-9aec-42cf4a935d33",
+                "name": "busygirlblog.com##div.busyg-random",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?busygirlblog\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.busyg-random"
+                    }
+                }
+            },
+            {
+                "id": "3cb209d4-f5af-4f86-b731-651469add3e5",
+                "name": "busygirlblog.com##iframe[src^=\"http://busygirlblog.com/adserver/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?busygirlblog\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://busygirlblog.com/adserver/\"]"
                     }
                 }
             },
