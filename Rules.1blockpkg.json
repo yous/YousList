@@ -7350,6 +7350,18 @@
                 }
             },
             {
+                "id": "a07fd5bd-2811-412f-a2a8-c9d091c3d10e",
+                "name": "contextual.media.net/nmedianet.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?contextual\\.media\\.net/nmedianet\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b1b842a5-89ef-44e4-a22f-0f2416a84e34",
                 "name": "coolsoft.altervista.org/sites/all/themes/coolsoft/js/coolsoft.js",
                 "content": {
@@ -9248,6 +9260,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ib\\.adnxs\\.com/jpt"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cc4fcc79-ec13-48f6-b626-67bd454721af",
+                "name": "ib.adnxs.com/ttj",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ib\\.adnxs\\.com/ttj"
                     },
                     "action": {
                         "type": "block"
