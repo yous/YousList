@@ -7563,6 +7563,18 @@
                 }
             },
             {
+                "id": "d1a307c8-fbe6-41ce-93fb-f1b61ecfb19b",
+                "name": "d1jikhx1ssl81z.cloudfront.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?d1jikhx1ssl81z\\.cloudfront\\.net"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f6bed258-6dc0-48f5-83f9-a8f744c9e3d4",
                 "name": "d1swklt9res5jr.cloudfront.net/static/packed/mezzoADv*.js",
                 "content": {
@@ -12989,6 +13001,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?prism\\.pandora\\.tv"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cba2afa0-2c9a-4fe6-b928-1c9cc554bfcf",
+                "name": "prm.*.*/js/ec_connectorDelivery.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?prm\\..*\\..*/js/ec_connectorDelivery\\.js"
                     },
                     "action": {
                         "type": "block"
