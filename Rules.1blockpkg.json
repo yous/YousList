@@ -41641,6 +41641,19 @@
                 }
             },
             {
+                "id": "7dcb49b5-cd7b-4e73-80cd-98f458fcbed7",
+                "name": "pixiv.net##iframe[data-src^=\"https://d.pixiv.org/show\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pixiv\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[data-src^=\"https://d.pixiv.org/show\"]"
+                    }
+                }
+            },
+            {
                 "id": "3b3513fa-4d4b-43cc-85e9-d72f30a669aa",
                 "name": "pixiv.net##span.multi-ads-area",
                 "content": {
