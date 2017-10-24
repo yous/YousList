@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: UH12dDHy0iiV/+BrygW3zA
-! Version: 20171021
+! Checksum: O2XFqHVXiRxQmTTPbqUgMw
+! Version: 20171024
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -48,6 +48,7 @@
 ##iframe[id^="google_ads_iframe_"]
 ##iframe[id^="nad_"]
 ##iframe[name="ifrad"]
+##iframe[src*="-d.openx.net/w/1.0/afr"]
 ##iframe[src*="/NetInsight/"]
 ##iframe[src*="/RealMedia/ads/"]
 ##iframe[src^="//acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html"]
@@ -63,13 +64,11 @@
 ##iframe[src^="//ax-d.pixfuture.net/w/1.0/afr"]
 ##iframe[src^="//d3u5zn5k9864p0.cloudfront.net/br"]
 ##iframe[src^="//disqusads.com/ads-iframe/prebid/"]
-##iframe[src^="//jpmarket-d.openx.net/w/1.0/afr"]
 ##iframe[src^="//mrelko.com/bnrs/"]
 ##iframe[src^="//onedrive.su/code/swf_banner.php"]
 ##iframe[src^="//searchmaster.pro/b.php"]
 ##iframe[src^="//ssp.adpies.com/ssp/request"]
 ##iframe[src^="//ssp.advg.jp/ssp/p/iframe"]
-##iframe[src^="//ubh-d.openx.net/w/1.0/afr"]
 ##iframe[src^="//urldelivery.com/watch."]
 ##iframe[src^="//x.jd.com/exsites"]
 ##iframe[src^="//y.one.impact-ad.jp/imp"]
@@ -204,6 +203,7 @@
 ##iframe[src^="http://static.joins.com/isplus/ui/ad/"]
 ##iframe[src^="http://sweetgo.kr/adv/top.php"]
 ##iframe[src^="http://syndication.exoclick.com/ads-iframe-display.php"]
+##iframe[src^="http://tab2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html"]
 ##iframe[src^="http://tab2.clickmon.co.kr/pop/"]
 ##iframe[src^="http://us-ads.openx.net/w/1.0/afr"]
 ##iframe[src^="http://utildown.co.kr/adv/adv.php"]
@@ -237,6 +237,9 @@
 
 ! URL filters
 *-d.openx.net/w/1.0/acj^
+*-d.openx.net/w/1.0/afr^
+*-d.openx.net/w/1.0/arj^
+*-d.openx.net/w/1.0/jstag^
 */NetInsight/
 */RealMedia/ads/
 */about_*_shopbox.*
@@ -466,7 +469,9 @@
 ||ani119.com/public/adv/$domain=ani119.com
 ||animefreak.tv/sites/all/modules/custom/anime/ads/
 ||animefreak.tv/sites/all/modules/custom/anime/yanone.html^
+||ap.lijit.com/rtb/bid^
 ||ap.lijit.com/www/delivery/fpi.js^
+||apex.go.sonobi.com/trinity.js^
 ||api.adns.contentlink.co.kr/adserver/delivery/dwad.php^
 ||api.adns.contentlink.co.kr/adserver/delivery/iframe.php^
 ||api.content.ad/Scripts/widget2.aspx^
@@ -555,7 +560,6 @@
 ||care-health.co.kr^
 ||cas.criteo.com/delivery/ajs.php^
 ||castbox.shopping.naver.com/index.nhn^
-||ccisea-d.openx.net/w/1.0/jstag^
 ||cdn-fluct.sh.adingo.jp/f.js^
 ||cdn-sic.33across.com/1/javascripts/sic.js^
 ||cdn.ad.maist.jp/ad/js/pjs.js^
@@ -692,6 +696,7 @@
 ||ext.apbox.nbp-corp.com/*/adunit^
 ||exttag.about.co.kr/cgi-bin/PelicanC.dll^
 ||fam-ad.com/ad/js/fam-tagify.min.js^
+||fastlane.rubiconproject.com/a/api/fastlane.json^
 ||feed.4wnet.com/resources/scripts/jsAds-*.min.js^
 ||feeltong.hani.co.kr/common/banner.html^
 ||file.osen.co.kr/web2/html/realclick_ad.html^
@@ -721,6 +726,7 @@
 ||go.onclasrv.com/apu.php^
 ||go.pub2srv.com/apu.php^
 ||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
+||googleads.g.doubleclick.net/dbm/ad^
 ||googleads.g.doubleclick.net/pagead/$domain=~youtube.com
 ||googletagservices.com/tag/js/gpt.js^
 ||gsad.gameshot.net^
@@ -738,6 +744,7 @@
 ||hankookilbo.com/sidead300x250.html^$domain=hankookilbo.com
 ||hankyung.bohumplaza.com/_chann/
 ||hankyung.com/m/inc/fixed_mobile_ad_area_view.html^
+||hb.vntsm.com/v2/live/hb.js^
 ||hei.hankyung.com/js/ad/iconad_hankyung_heien.js^$domain=hei.hankyung.com
 ||hei.hankyung.com/js/ad/inspace_hankyung_hei.js^$domain=hei.hankyung.com
 ||hitomi.la/hitomi.js^$domain=hitomi.la
@@ -752,6 +759,7 @@
 ||ib.adnxs.com/async_usersync^
 ||ib.adnxs.com/jpt^
 ||ib.adnxs.com/ttj^
+||ib.adnxs.com/ut/v3/prebid^
 ||ichannela.com/ch/*adpost*
 ||iicdn.com/www/delivery/afr.php^
 ||ikoreadaily.co.kr/script/ikoreadaily_hns.js^$domain=ikoreadaily.co.kr
@@ -809,7 +817,6 @@
 ||joy-adstore.co.kr/ad/
 ||joynews.inews24.com/ad*
 ||joynews.inews24.com/php/ad/
-||jpmarket-d.openx.net/w/1.0/afr^
 ||js-goods.redtram.com/ticker_*.js^
 ||js-sec.indexww.com/ht/htw-gawker.js^
 ||js.ad-score.com/score.min.js^
@@ -918,7 +925,6 @@
 ||mobile.newsis.com/ad_list/ad.html^$domain=mobile.newsis.com
 ||mobile.newsis.com/direct_copy2.html^$domain=mobile.newsis.com
 ||mobs.luxad.kr/media/
-||monkey-broker-d.openx.net/w/1.0/jstag^
 ||mp.mmnneo.com^
 ||mp3cc.com/api/iframe/footer^$domain=mp3cc.com
 ||mp3cc.com/api/iframe/header^$domain=mp3cc.com
@@ -1016,7 +1022,6 @@
 ||op.neoad.co.kr/adsearch*
 ||open.oneplus.net/cloud/pushdata^
 ||openload.co/assets/js/script.*.js^
-||openxjapan-d.openx.net/w/1.0/jstag^
 ||optimized-by.4wnetwork.com/simply_loader.js^
 ||outbanner.hu.co.kr/@files/human_banner/
 ||p*.clksite.com/adServe/banners^
@@ -1041,6 +1046,7 @@
 ||ppdxyz.info/script-2/license.ppdxyz.js^
 ||ppdxyz.info/script-2/new_script.js^
 ||pq-direct.revsci.net/pql^
+||prebid.districtm.ca/lib.js^
 ||prism.pandora.tv^
 ||prm.*.*/js/ec_connectorDelivery.js^
 ||provider.hiadone.com/cgi-bin/conad_hi.fcgi/
@@ -1192,6 +1198,7 @@
 ||t.mdn2015x1.com/build/
 ||t.tmdn2015x9.com/build/*/v1/
 ||tab.clickmon.co.kr/ad_img/
+||tab2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html^
 ||tags.mathtag.com/notify/js^
 ||thepiratebay.bid/static/ads/$domain=thepiratebay.bid
 ||thepiratebay.org/static/ads/$domain=thepiratebay.org
@@ -1222,10 +1229,7 @@
 ||tvple.com/ab/MW-O-*^$domain=tvple.com
 ||tvple.com/ab/PC-B-*^$domain=tvple.com
 ||tvple.com/ab/PC-O-*^$domain=tvple.com
-||ubh-d.openx.net/w/1.0/afr^
-||ubh-d.openx.net/w/1.0/jstag^
 ||udmserve.net/udm/img.fetch^
-||underdogmedia-d.openx.net/w/1.0/arj^
 ||unionpress.co.kr/news/html_tpl/pr_ad.php^
 ||unionpress.co.kr/news/master/banner/3d69ca2f12c09759924d8be0a89a4259^
 ||uplus.kr/cd/cdNavi/retreieveHtml3JS.dmd^
@@ -2937,6 +2941,8 @@ online.anidub.com##div#banner_test
 online.anidub.com##div.left_banner
 online.anidub.com##iframe[src^="/uploads/fotos/240_400_tera_black_shinobi_do300kb_v6.html"]
 online.anidub.com##iframe[src^="/uploads/fotos/eggs_anidub.html"]
+op.gg##div.LifeOwnerGlobalLeft
+op.gg##div.LifeOwnerGlobalRight
 osen.mt.co.kr##div#aside2>div[style="background:#fafafa;height:244px;width:280px;overflow:hidden;"]
 osen.mt.co.kr##div#aside2>div[style="float:left;background:#fafafa;height:240px;width:280px;overflow:hidden;"]
 osen.mt.co.kr##div#aside2>div[style="margin:0px 1px 0px 1px;overflow:hidden;"]

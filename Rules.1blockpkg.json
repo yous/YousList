@@ -394,6 +394,19 @@
                 }
             },
             {
+                "id": "2fc0c0ff-27d4-4438-a821-c6b7515624b3",
+                "name": "##iframe[src*=\"-d.openx.net/w/1.0/afr\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"-d.openx.net/w/1.0/afr\"]"
+                    }
+                }
+            },
+            {
                 "id": "261c1a1c-780f-4f40-ad5b-11bd040825dc",
                 "name": "##iframe[src*=\"/NetInsight/\"]",
                 "content": {
@@ -589,19 +602,6 @@
                 }
             },
             {
-                "id": "e7d17993-c2fc-457d-8f07-785c5af17250",
-                "name": "##iframe[src^=\"//jpmarket-d.openx.net/w/1.0/afr\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"//jpmarket-d.openx.net/w/1.0/afr\"]"
-                    }
-                }
-            },
-            {
                 "id": "216de843-977c-46af-b89d-3482f278424d",
                 "name": "##iframe[src^=\"//mrelko.com/bnrs/\"]",
                 "content": {
@@ -663,19 +663,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"//ssp.advg.jp/ssp/p/iframe\"]"
-                    }
-                }
-            },
-            {
-                "id": "18e6516f-1143-4951-8ecc-0350a7154319",
-                "name": "##iframe[src^=\"//ubh-d.openx.net/w/1.0/afr\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"//ubh-d.openx.net/w/1.0/afr\"]"
                     }
                 }
             },
@@ -2422,6 +2409,19 @@
                 }
             },
             {
+                "id": "8f08f0db-ec83-4566-b791-b062ed9524c9",
+                "name": "##iframe[src^=\"http://tab2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://tab2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "25ff1298-7c28-4270-91d1-4ef6884aec17",
                 "name": "##iframe[src^=\"http://tab2.clickmon.co.kr/pop/\"]",
                 "content": {
@@ -2817,6 +2817,42 @@
                 "content": {
                     "trigger": {
                         "url-filter": "-d\\.openx\\.net/w/1\\.0/acj"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1e595571-cb62-447a-b9b3-8b0ae19177a5",
+                "name": "*-d.openx.net/w/1.0/afr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "-d\\.openx\\.net/w/1\\.0/afr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e456e01e-8cdc-4864-ab14-a63096b095a8",
+                "name": "*-d.openx.net/w/1.0/arj",
+                "content": {
+                    "trigger": {
+                        "url-filter": "-d\\.openx\\.net/w/1\\.0/arj"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e326d57d-f9d8-4428-8e31-65201ff3f961",
+                "name": "*-d.openx.net/w/1.0/jstag",
+                "content": {
+                    "trigger": {
+                        "url-filter": "-d\\.openx\\.net/w/1\\.0/jstag"
                     },
                     "action": {
                         "type": "block"
@@ -5589,11 +5625,35 @@
                 }
             },
             {
+                "id": "75359039-6a14-4c74-9cc3-4322055a4c68",
+                "name": "ap.lijit.com/rtb/bid",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ap\\.lijit\\.com/rtb/bid"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "7f4da467-e89a-4fc3-b6e3-37bb0afac75f",
                 "name": "ap.lijit.com/www/delivery/fpi.js",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ap\\.lijit\\.com/www/delivery/fpi\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "610ea6d5-2e68-429e-b64f-bef00586f499",
+                "name": "apex.go.sonobi.com/trinity.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?apex\\.go\\.sonobi\\.com/trinity\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -6788,18 +6848,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?castbox\\.shopping\\.naver\\.com/index\\.nhn"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "a3bd8a8d-cb92-4bc5-9067-108a9271c580",
-                "name": "ccisea-d.openx.net/w/1.0/jstag",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ccisea-d\\.openx\\.net/w/1\\.0/jstag"
                     },
                     "action": {
                         "type": "block"
@@ -8520,6 +8568,18 @@
                 }
             },
             {
+                "id": "52594e50-ebe6-4694-8379-d419a0c9778d",
+                "name": "fastlane.rubiconproject.com/a/api/fastlane.json",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fastlane\\.rubiconproject\\.com/a/api/fastlane\\.json"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1a8d6fd0-0f24-492e-8d18-0f4b6bc9f048",
                 "name": "feed.4wnet.com/resources/scripts/jsAds-*.min.js",
                 "content": {
@@ -8895,6 +8955,18 @@
                 }
             },
             {
+                "id": "c5fcbac9-efc8-4a06-bd67-4f275e544810",
+                "name": "googleads.g.doubleclick.net/dbm/ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?googleads\\.g\\.doubleclick\\.net/dbm/ad"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "fcfbd4f7-a264-4c08-b4ab-1cfe6785eb4c",
                 "name": "googleads.g.doubleclick.net/pagead/$domain=~youtube.com",
                 "content": {
@@ -9117,6 +9189,18 @@
                 }
             },
             {
+                "id": "932b239e-b1bc-4ef6-ae5e-b08608ba68e2",
+                "name": "hb.vntsm.com/v2/live/hb.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hb\\.vntsm\\.com/v2/live/hb\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "21eed1b5-b8cf-477f-901d-241688737b38",
                 "name": "hei.hankyung.com/js/ad/iconad_hankyung_heien.js$domain=hei.hankyung.com",
                 "content": {
@@ -9296,6 +9380,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ib\\.adnxs\\.com/ttj"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "68fb7075-96a0-4910-b712-4ec1860f7e63",
+                "name": "ib.adnxs.com/ut/v3/prebid",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ib\\.adnxs\\.com/ut/v3/prebid"
                     },
                     "action": {
                         "type": "block"
@@ -10016,18 +10112,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joynews\\.inews24\\.com/php/ad/"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "84d330fb-67b8-424a-82ee-601193a5668e",
-                "name": "jpmarket-d.openx.net/w/1.0/afr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jpmarket-d\\.openx\\.net/w/1\\.0/afr"
                     },
                     "action": {
                         "type": "block"
@@ -11448,18 +11532,6 @@
                 }
             },
             {
-                "id": "c6d5f439-4c30-45e4-8cf9-bf07bf0a1249",
-                "name": "monkey-broker-d.openx.net/w/1.0/jstag",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?monkey-broker-d\\.openx\\.net/w/1\\.0/jstag"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "93e4d23d-1134-43ca-9ab3-ae1c97817e86",
                 "name": "mp.mmnneo.com",
                 "content": {
@@ -12681,18 +12753,6 @@
                 }
             },
             {
-                "id": "b9078945-748e-4a53-8785-afd6c6efb99d",
-                "name": "openxjapan-d.openx.net/w/1.0/jstag",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?openxjapan-d\\.openx\\.net/w/1\\.0/jstag"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "a3d82f8f-44ca-4213-b17d-255bb83573aa",
                 "name": "optimized-by.4wnetwork.com/simply_loader.js",
                 "content": {
@@ -12989,6 +13049,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pq-direct\\.revsci\\.net/pql"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "14c032ea-6206-44df-85a3-4c1ade3c8377",
+                "name": "prebid.districtm.ca/lib.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?prebid\\.districtm\\.ca/lib\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -14842,6 +14914,18 @@
                 }
             },
             {
+                "id": "4ff9429a-133c-4f75-8262-5198c36baa8f",
+                "name": "tab2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tab2-cdn\\.rubiconproject\\.com/partner/scripts/rubicon/emily\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "e2aa0616-f7bb-4602-81f7-4d8f16f593ae",
                 "name": "tags.mathtag.com/notify/js",
                 "content": {
@@ -15256,47 +15340,11 @@
                 }
             },
             {
-                "id": "f175ae62-f56a-4ea9-b8f7-770bf94d867b",
-                "name": "ubh-d.openx.net/w/1.0/afr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ubh-d\\.openx\\.net/w/1\\.0/afr"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "9add7b1b-1161-4d2b-829a-bb96af118f4f",
-                "name": "ubh-d.openx.net/w/1.0/jstag",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ubh-d\\.openx\\.net/w/1\\.0/jstag"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "d81c3cfe-519b-4f7d-b090-9d0af2b4ec2f",
                 "name": "udmserve.net/udm/img.fetch",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?udmserve\\.net/udm/img\\.fetch"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "ca7f9a33-9ef6-4e43-8c98-098970d08087",
-                "name": "underdogmedia-d.openx.net/w/1.0/arj",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?underdogmedia-d\\.openx\\.net/w/1\\.0/arj"
                     },
                     "action": {
                         "type": "block"
@@ -40831,6 +40879,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/uploads/fotos/eggs_anidub.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "4f2bd978-d110-444b-9ae6-d3ea342d9166",
+                "name": "op.gg##div.LifeOwnerGlobalLeft",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?op\\.gg"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.LifeOwnerGlobalLeft"
+                    }
+                }
+            },
+            {
+                "id": "93fa06e5-7ba8-4c35-89a7-897ec483f094",
+                "name": "op.gg##div.LifeOwnerGlobalRight",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?op\\.gg"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.LifeOwnerGlobalRight"
                     }
                 }
             },
