@@ -47799,6 +47799,19 @@
                 }
             },
             {
+                "id": "0213a1f9-693f-4044-9a36-2ac67f1e5823",
+                "name": "tr.investing.com##div.midHeader",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tr\\.investing\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.midHeader"
+                    }
+                }
+            },
+            {
                 "id": "adeea491-6eff-4009-a160-736afbde9c26",
                 "name": "ttocorps.com##a[href^=\"../page/ad.php\"]",
                 "content": {
