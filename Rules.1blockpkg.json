@@ -5088,6 +5088,18 @@
                 }
             },
             {
+                "id": "52d5e0a9-0f30-4e81-a90c-e4b8ae06d924",
+                "name": "ads.stickyadstv.com/vast/vpaid-adapter/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.stickyadstv\\.com/vast/vpaid-adapter/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "47ae8c20-72f4-4b3e-b1ef-e2d5f66bfed0",
                 "name": "ads.tlvmedia.com",
                 "content": {
@@ -7181,6 +7193,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.scrollads\\.co\\.kr/scrollads\\..*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8951d134-0c60-4141-a3fb-b1f8fefd56eb",
+                "name": "cdn.stickyadstv.com/mustang/vpaid-adapter.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.stickyadstv\\.com/mustang/vpaid-adapter\\.min\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -10037,6 +10061,18 @@
                         "if-domain": [
                             "news.inews24.com"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cd4f9629-a678-4c37-8aba-e63409a671b2",
+                "name": "insight.adsrvr.org/enduser/vast/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?insight\\.adsrvr\\.org/enduser/vast/"
                     },
                     "action": {
                         "type": "block"
@@ -15666,6 +15702,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?viewsnnews\\.com/image/advert/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "211560a8-2d61-4c69-8d33-9188cd263938",
+                "name": "vpaid.pubmatic.com/ads/video/PMAdMgr.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vpaid\\.pubmatic\\.com/ads/video/PMAdMgr\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ea079ed1-83fc-42c5-b096-f76b48807f1c",
+                "name": "vpaid.pubmatic.com/ads/video/vadtag.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vpaid\\.pubmatic\\.com/ads/video/vadtag\\.html"
                     },
                     "action": {
                         "type": "block"
