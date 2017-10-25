@@ -15631,6 +15631,21 @@
                 }
             },
             {
+                "id": "10bf5eb7-80ec-4cec-bf9d-ea801f4a1ceb",
+                "name": "watchmovies-online.org/jquery.js$domain=watchmovies-online.org",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?watchmovies-online\\.org/jquery\\.js",
+                        "if-domain": [
+                            "watchmovies-online.org"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4391ab13-fc4f-4e3b-a72b-e91d4897f4fa",
                 "name": "web-sdk.shallweadcorp.com:10500/initAdRequest",
                 "content": {
