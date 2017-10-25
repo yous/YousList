@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: XnidGeYzPJH+qh1Fopqc4Q
+! Checksum: kJKPTxGDlrBVAr8TrmfCsg
 ! Version: 20171025
 
 ! Workaround for BlockAdBlock
@@ -701,6 +701,7 @@
 ||feeltong.hani.co.kr/common/banner.html^
 ||file.osen.co.kr/web2/html/realclick_ad.html^
 ||file.thisisgame.com/inc/PBPage*.js^
+||filmix.me/templates/Filmix/media/public/js/*_info.js^$domain=filmix.me
 ||fm1.jssearch.net/Farman^
 ||fm1.jssearch.net/lib/JSAP_SlideLibs_v1.js^
 ||fmkorea.com/_adpage/$domain=fmkorea.com
@@ -1748,8 +1749,11 @@ facebook.com##div.ego_unit
 facebook.com##div.ego_unit_container
 fastcodesign.com##div.ad-wrapper
 fastcodesign.com##div.post__article-top-ad-wrapper
+filmix.me##div#main>div>div.container[style="padding: 0px; height: 0px; transition: 0ms;"]
+filmix.me##div.aside-wrap>noindex
 filmix.me##div.info-a
 filmix.me##div.info-b
+filmix.me##div.page-wrapper>div>div.container[style="padding: 0px; height: 0px; transition: 0ms;"]
 flashscore.pl##div.adscontent
 flashscore.pl##div.adsenvelope
 flashscore.pl##div.adstextpad

@@ -8628,6 +8628,21 @@
                 }
             },
             {
+                "id": "d3dcfcfe-d227-4ab5-b847-16280878545e",
+                "name": "filmix.me/templates/Filmix/media/public/js/*_info.js$domain=filmix.me",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?filmix\\.me/templates/Filmix/media/public/js/.*_info\\.js",
+                        "if-domain": [
+                            "filmix.me"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c85f713f-6bde-4479-80e7-8fbfaa28b9cf",
                 "name": "fm1.jssearch.net/Farman",
                 "content": {
@@ -25140,6 +25155,32 @@
                 }
             },
             {
+                "id": "0eda4bad-388d-4d23-ad1c-2d7fea8a38bd",
+                "name": "filmix.me##div#main>div>div.container[style=\"padding: 0px; height: 0px; transition: 0ms;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?filmix\\.me"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#main>div>div.container[style=\"padding: 0px; height: 0px; transition: 0ms;\"]"
+                    }
+                }
+            },
+            {
+                "id": "859c5965-cb12-4b9c-a7f5-4bc0745a9414",
+                "name": "filmix.me##div.aside-wrap>noindex",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?filmix\\.me"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.aside-wrap>noindex"
+                    }
+                }
+            },
+            {
                 "id": "7843cfc2-30de-41f0-984d-8ce08aca1f52",
                 "name": "filmix.me##div.info-a",
                 "content": {
@@ -25162,6 +25203,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.info-b"
+                    }
+                }
+            },
+            {
+                "id": "078cb16e-aad9-4f4f-b1b1-b848cbd4593e",
+                "name": "filmix.me##div.page-wrapper>div>div.container[style=\"padding: 0px; height: 0px; transition: 0ms;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?filmix\\.me"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.page-wrapper>div>div.container[style=\"padding: 0px; height: 0px; transition: 0ms;\"]"
                     }
                 }
             },
