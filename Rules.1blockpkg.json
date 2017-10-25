@@ -3076,6 +3076,30 @@
                 }
             },
             {
+                "id": "cf9ea858-4259-4034-b467-f8ecff668f54",
+                "name": "a.bf-ad.net/makabo/js_ng/adplayer/js/adplayer.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?a\\.bf-ad\\.net/makabo/js_ng/adplayer/js/adplayer\\.min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2b360c51-9a9a-442a-b69a-9a9f2ee2cdbb",
+                "name": "a.bf-ad.net/pubjs/*/adengine.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?a\\.bf-ad\\.net/pubjs/.*/adengine\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "52479dd2-74f1-428e-916f-4943d85e5017",
                 "name": "a.ligatus.com/?*t=js",
                 "content": {
@@ -3336,6 +3360,36 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad-first\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "93b3f569-a868-4040-8622-2cefe8d2ce89",
+                "name": "ad-js.chip.de/js/chip/*.min.js$domain=chip.de",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad-js\\.chip\\.de/js/chip/.*\\.min\\.js",
+                        "if-domain": [
+                            "chip.de"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5981012e-8ba6-4a5b-a5bc-f0c882b8ad6a",
+                "name": "ad-js.chip.de/js/loader/chip.min.js$domain=chip.de",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad-js\\.chip\\.de/js/loader/chip\\.min\\.js",
+                        "if-domain": [
+                            "chip.de"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -3987,6 +4041,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.xc\\.nis\\.nitmus\\.com"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8e940e45-d2a0-47e3-a640-41970b67b833",
+                "name": "ad.yieldlab.net/yp/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.yieldlab\\.net/yp/"
                     },
                     "action": {
                         "type": "block"
@@ -6978,6 +7044,18 @@
                 }
             },
             {
+                "id": "ee218c9d-c604-47aa-9d47-024b4c9eb3ad",
+                "name": "cdn.adrtx.net/adrtxtag.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.adrtx\\.net/adrtxtag\\.min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "20e6acc7-0c4d-4a86-88ee-612276bd06d9",
                 "name": "cdn.adsolutions.nl/tagman/WAIT/lib.js",
                 "content": {
@@ -9740,6 +9818,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?image2\\.inews24\\.com/ad"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fb3c1a56-aabf-43ff-bbff-2f91544c1718",
+                "name": "imasdk.googleapis.com/js/sdkloader/ima3.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?imasdk\\.googleapis\\.com/js/sdkloader/ima3\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -13700,6 +13790,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?script\\.adsquare\\.co\\.kr/script/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ea49eedd-add7-4217-8e06-4e21c3d1a91e",
+                "name": "script.ioam.de/iam.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?script\\.ioam\\.de/iam\\.js"
                     },
                     "action": {
                         "type": "block"
