@@ -34812,6 +34812,19 @@
                 }
             },
             {
+                "id": "99b23b0d-ad8d-4222-9b6b-938ec1803933",
+                "name": "m.tr.investing.com##div.adDrawer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.tr\\.investing\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adDrawer"
+                    }
+                }
+            },
+            {
                 "id": "5e4ce52c-cf5c-47f5-9736-d5dc6d5dd74e",
                 "name": "m.viva100.com##div.bm_box>div[style=\"width:360px; height:65px; margin:5px 0px 5px 0px;\"]",
                 "content": {
