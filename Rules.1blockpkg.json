@@ -14719,6 +14719,18 @@
                 }
             },
             {
+                "id": "f7b089c3-7243-4912-870e-88734594fd03",
+                "name": "st.bebi.com/bebi_v3.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?st\\.bebi\\.com/bebi_v3\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ff5d0016-27cd-48a9-923a-d09820436dda",
                 "name": "st.keywordsconnect.com",
                 "content": {
@@ -15726,6 +15738,21 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?watchcartoononline\\.com/inc/reklam/.*\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f6864a66-7c44-4d2b-a521-4d4bf17f8db7",
+                "name": "watchcartoononline.io/ads/ads*.php$domain=watchcartoononline.io",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?watchcartoononline\\.io/ads/ads.*\\.php",
+                        "if-domain": [
+                            "watchcartoononline.io"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -49600,6 +49627,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.anti-ad"
+                    }
+                }
+            },
+            {
+                "id": "89a61403-d423-4985-ba10-793236f6cbdf",
+                "name": "watchcartoononline.io##iframe[src^=\"https://www.watchcartoononline.io/ads/ads\"][src*=\".php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?watchcartoononline\\.io"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://www.watchcartoononline.io/ads/ads\"][src*=\".php\"]"
                     }
                 }
             },

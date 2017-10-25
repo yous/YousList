@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 1+ZDaLzGwOXh1R/CnITQJQ
+! Checksum: V3beTGmzm6qUNshhSE32vQ
 ! Version: 20171025
 
 ! Workaround for BlockAdBlock
@@ -1182,6 +1182,7 @@
 ||ssp.advg.jp/ssp/p/iframe^
 ||ssp.advg.jp/ssp/p/js1^
 ||ssp.rambler.ru/acp/capirs_main.*.js^
+||st.bebi.com/bebi_v3.js^
 ||st.keywordsconnect.com^
 ||static.chameleon.ad/js/router.js^
 ||static.criteo.net/js/ld/publishertag.js^
@@ -1261,6 +1262,7 @@
 ||vse-spravki.bid/aclk/banner_click.php^
 ||watchcartoononline.com/ads*.html^
 ||watchcartoononline.com/inc/reklam/*.html
+||watchcartoononline.io/ads/ads*.php^$domain=watchcartoononline.io
 ||watchmovies-online.org/jquery.js^$domain=watchmovies-online.org
 ||web-sdk.shallweadcorp.com:10500/initAdRequest^
 ||web.humoruniv.com/ads/banner.html^
@@ -3465,6 +3467,7 @@ watchcartoononline.io##div#alt-550-220
 watchcartoononline.io##div#iki-player-arasi
 watchcartoononline.io##div#reklam_mgid
 watchcartoononline.io##div.anti-ad
+watchcartoononline.io##iframe[src^="https://www.watchcartoononline.io/ads/ads"][src*=".php"]
 watchcartoononline.io##td.larkax>div[style="float:right; padding-bottom:10px; padding-left:5px; padding-right:10px"]
 watchtheofficeonline.tv##div.ad_box
 watchtheofficeonline.tv##div.h12ad
