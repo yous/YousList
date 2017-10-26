@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: YokxBGNqZVhU8fde5rKXNQ
-! Version: 20171025
+! Checksum: 0ec8zwHC5UgtDKWvqGUVyw
+! Version: 20171026
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -122,6 +122,7 @@
 ##iframe[src^="http://adsvc2.wisenut.co.kr/"]
 ##iframe[src^="http://adtg.widerplanet.com/"]
 ##iframe[src^="http://adv.imadrep.co.kr/"]
+##iframe[src^="http://adv.khan.co.kr/"]
 ##iframe[src^="http://adw.heraldm.com/"]
 ##iframe[src^="http://adx-exchange.toast.com/html/integration.html"]
 ##iframe[src^="http://adx.bibl.uk/ra/www/delivery/afr.php"]
@@ -446,6 +447,7 @@
 ||adtg.widerplanet.com^
 ||adtradradservices.com/adassets/*/adtradr-ad-tag-*.js^
 ||adv.imadrep.co.kr^
+||adv.khan.co.kr^
 ||adv.mediaharbor.co.kr/nad/
 ||adv.mediakeep.co.kr^
 ||adv.realclick.co.kr^
@@ -1179,6 +1181,7 @@
 ||sports.chosun.com/lphoto3.htm^
 ||sports.chosun.com/news/sports_chosun_hns.js^
 ||sports.hankooki.com/ad/$domain=eyenews.hankooki.com|sports.hankooki.com
+||sports.khan.co.kr/htdocs/ad/$domain=sports.khan.co.kr
 ||sportsseoul.com/js/jquery.topline.banner.js^$domain=sportsseoul.com
 ||srv.bebi.com/public/js/bebi_v1.js^
 ||ssp.adpies.com/ssp/request^
@@ -3185,7 +3188,14 @@ sports.hankooki.com##div.wrap_over_72890
 sports.hankooki.com##iframe[src^="http://sports.hankooki.com/ad/"]
 sports.hankooki.com##span#AD_GISA_PHOTO_LINE
 sports.khan.co.kr##div#adbox
-sports.khan.co.kr##div[class="subAside view"]>iframe[src^="http://adv.khan.co.kr/"]
+sports.khan.co.kr##div.ad_hot_Issue
+sports.khan.co.kr##div.ad_interest_Info
+sports.khan.co.kr##div.ad_movFocus2
+sports.khan.co.kr##div.ad_popular_Info
+sports.khan.co.kr##div.ad_sunnyworks_line5
+sports.khan.co.kr##div.ad_top
+sports.khan.co.kr##div.article_bottom_ad
+sports.khan.co.kr##iframe[src^="http://sports.khan.co.kr/htdocs/ad/"]
 sports.media.daum.net##div#EXTENSIBLE_WING_WRAP
 sports.media.daum.net##div#RIGHT_SPACE_BANNER
 sports.media.daum.net##div#SponsorBarWrap

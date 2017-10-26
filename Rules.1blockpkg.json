@@ -1356,6 +1356,19 @@
                 }
             },
             {
+                "id": "df89c3d9-3a09-4d83-b5e4-5ed50875a339",
+                "name": "##iframe[src^=\"http://adv.khan.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adv.khan.co.kr/\"]"
+                    }
+                }
+            },
+            {
                 "id": "d7722893-3971-4c8f-9595-562dd0515721",
                 "name": "##iframe[src^=\"http://adw.heraldm.com/\"]",
                 "content": {
@@ -5345,6 +5358,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adv\\.imadrep\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1a99cce1-6b49-4f43-a411-b26e078fef5d",
+                "name": "adv.khan.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adv\\.khan\\.co\\.kr"
                     },
                     "action": {
                         "type": "block"
@@ -14672,6 +14697,21 @@
                         "if-domain": [
                             "eyenews.hankooki.com",
                             "sports.hankooki.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "07d1abb4-6951-462f-80b7-4dec2a8550e6",
+                "name": "sports.khan.co.kr/htdocs/ad/$domain=sports.khan.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.khan\\.co\\.kr/htdocs/ad/",
+                        "if-domain": [
+                            "sports.khan.co.kr"
                         ]
                     },
                     "action": {
@@ -44049,15 +44089,106 @@
                 }
             },
             {
-                "id": "05ac047a-c828-4978-8589-e21d1206ea54",
-                "name": "sports.khan.co.kr##div[class=\"subAside view\"]>iframe[src^=\"http://adv.khan.co.kr/\"]",
+                "id": "01c2daac-8201-4401-ac70-91a77c611a8f",
+                "name": "sports.khan.co.kr##div.ad_hot_Issue",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.khan\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div[class=\"subAside view\"]>iframe[src^=\"http://adv.khan.co.kr/\"]"
+                        "selector": "div.ad_hot_Issue"
+                    }
+                }
+            },
+            {
+                "id": "6183bf83-8fc8-4227-be96-de7562d45eb4",
+                "name": "sports.khan.co.kr##div.ad_interest_Info",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_interest_Info"
+                    }
+                }
+            },
+            {
+                "id": "6ddca347-3cb3-486e-9609-acbf2857c1e4",
+                "name": "sports.khan.co.kr##div.ad_movFocus2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_movFocus2"
+                    }
+                }
+            },
+            {
+                "id": "b71ee8c2-c706-4fbf-88f5-494237748ea6",
+                "name": "sports.khan.co.kr##div.ad_popular_Info",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_popular_Info"
+                    }
+                }
+            },
+            {
+                "id": "7ff03ab5-bc98-499a-90e5-01a3abdbac82",
+                "name": "sports.khan.co.kr##div.ad_sunnyworks_line5",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_sunnyworks_line5"
+                    }
+                }
+            },
+            {
+                "id": "ec0a373a-6e1b-47b6-aaf1-7b547d378db5",
+                "name": "sports.khan.co.kr##div.ad_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_top"
+                    }
+                }
+            },
+            {
+                "id": "c0e176ff-c133-45d2-b6a3-a826adefb141",
+                "name": "sports.khan.co.kr##div.article_bottom_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article_bottom_ad"
+                    }
+                }
+            },
+            {
+                "id": "616142aa-7301-430e-a880-8c71b89dae44",
+                "name": "sports.khan.co.kr##iframe[src^=\"http://sports.khan.co.kr/htdocs/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://sports.khan.co.kr/htdocs/ad/\"]"
                     }
                 }
             },
