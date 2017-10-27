@@ -9391,6 +9391,36 @@
                 }
             },
             {
+                "id": "1eb850ad-b341-4f1c-bb37-ea55e6e20166",
+                "name": "health.chosun.com/js/2015/center_botbanner_2015s.js$domain=health.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?health\\.chosun\\.com/js/2015/center_botbanner_2015s\\.js",
+                        "if-domain": [
+                            "health.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8f65bd75-4f22-4907-9df1-a9485b584bbd",
+                "name": "health.chosun.com/js/2015/center_mtree_2015s.js$domain=health.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?health\\.chosun\\.com/js/2015/center_mtree_2015s\\.js",
+                        "if-domain": [
+                            "health.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "21eed1b5-b8cf-477f-901d-241688737b38",
                 "name": "hei.hankyung.com/js/ad/iconad_hankyung_heien.js$domain=hei.hankyung.com",
                 "content": {
@@ -27393,6 +27423,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/m/inc/fixed_mobile_ad_area_view.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "aa032e1f-b525-408a-b181-2b885f7d7789",
+                "name": "health.chosun.com##dd.rel_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?health\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "dd.rel_ad"
+                    }
+                }
+            },
+            {
+                "id": "7b75221c-34bc-471d-8b5f-a3eb611f5a49",
+                "name": "health.chosun.com##dd.rel_ad_first",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?health\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "dd.rel_ad_first"
+                    }
+                }
+            },
+            {
+                "id": "b1fd3ce0-c123-4565-b8e8-123dfa4b891f",
+                "name": "health.chosun.com##dd.rel_pd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?health\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "dd.rel_pd"
                     }
                 }
             },
