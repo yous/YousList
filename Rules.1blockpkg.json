@@ -14290,6 +14290,30 @@
                 }
             },
             {
+                "id": "c55dd2aa-0335-4905-bbb6-41c7e1889652",
+                "name": "smartadserver.com/ac",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?smartadserver\\.com/ac"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ef8a864d-ca40-434f-ad35-f892fe5f60f6",
+                "name": "smartadserver.com/h/nshow",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?smartadserver\\.com/h/nshow"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "5c4f70a1-96e5-4a06-bb66-d83c75ce49c9",
                 "name": "smartitphone.co.kr/bn/bn1.php",
                 "content": {
@@ -16061,18 +16085,6 @@
                 }
             },
             {
-                "id": "37f04e31-0e40-426b-9ca4-1c71a5267346",
-                "name": "ww251.smartadserver.com/ac",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ww251\\.smartadserver\\.com/ac"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "5bd7c114-c5b6-4ab5-ad78-48896afba0d0",
                 "name": "ww3.vidzi.tv/*/*/*/*.js$domain=vidzi.tv",
                 "content": {
@@ -16081,18 +16093,6 @@
                         "if-domain": [
                             "vidzi.tv"
                         ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "30f47bd7-5001-4a77-910b-a40ba5364d29",
-                "name": "www5.smartadserver.com/h/nshow",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?www5\\.smartadserver\\.com/h/nshow"
                     },
                     "action": {
                         "type": "block"
