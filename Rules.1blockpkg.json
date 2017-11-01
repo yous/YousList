@@ -6958,11 +6958,14 @@
                 }
             },
             {
-                "id": "1242cd9b-f144-48b4-8dab-a2babc2eadce",
-                "name": "campaigns-assets-vp.daumcdn.net/websdk/vp-latest.min.js",
+                "id": "b71947bf-a1d8-4574-991e-31502f3a0af8",
+                "name": "campaigns-assets-vp.daumcdn.net/websdk/vp-latest.min.js$domain=~v2.myktoon.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?campaigns-assets-vp\\.daumcdn\\.net/websdk/vp-latest\\.min\\.js"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?campaigns-assets-vp\\.daumcdn\\.net/websdk/vp-latest\\.min\\.js",
+                        "unless-domain": [
+                            "v2.myktoon.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
