@@ -5173,6 +5173,42 @@
                 }
             },
             {
+                "id": "b5465a9d-5cfe-4f13-8f2c-17fbec4fbfaa",
+                "name": "adsearch.adkontekst.pl/_/ads2/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adsearch\\.adkontekst\\.pl/_/ads2/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7c12e504-7324-44ac-8458-2ba0795b5430",
+                "name": "adsearch.adkontekst.pl/_/intext_static/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adsearch\\.adkontekst\\.pl/_/intext_static/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "15c8f5e4-323d-45fc-8280-41f42c2ecd73",
+                "name": "adsearch.adkontekst.pl/quad/intext_spliter/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adsearch\\.adkontekst\\.pl/quad/intext_spliter/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "203202ee-0b9e-4698-a5f6-dbe71fb595d8",
                 "name": "adserve.postrelease.com/init.js",
                 "content": {
@@ -11776,6 +11812,21 @@
                 }
             },
             {
+                "id": "f0d8a9af-a8e2-4d16-9797-56b2ea2a52d5",
+                "name": "moja-ostroleka.pl/uploads/banery/$domain=moja-ostroleka.pl",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?moja-ostroleka\\.pl/uploads/banery/",
+                        "if-domain": [
+                            "moja-ostroleka.pl"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "93e4d23d-1134-43ca-9ab3-ae1c97817e86",
                 "name": "mp.mmnneo.com",
                 "content": {
@@ -13797,6 +13848,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?s\\.yimg\\.jp/images/listing/tool/yads/yads-iframe\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6a052fcd-10b7-41a9-93d9-dfe0393b37cd",
+                "name": "s1.adform.net/banners/scripts/adx.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?s1\\.adform\\.net/banners/scripts/adx\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -37692,6 +37755,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/ad_list/ad.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "9159aa99-4bba-4634-9bd3-d35dab9f7a13",
+                "name": "moja-ostroleka.pl##div#reklama_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?moja-ostroleka\\.pl"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#reklama_top"
+                    }
+                }
+            },
+            {
+                "id": "b9b7de72-3240-4ae1-9734-4f5edaf21756",
+                "name": "moja-ostroleka.pl##iframe[src^=\"https://www.moja-ostroleka.pl/uploads/banery/html5/\"][src*=\"index.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?moja-ostroleka\\.pl"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://www.moja-ostroleka.pl/uploads/banery/html5/\"][src*=\"index.html\"]"
                     }
                 }
             },

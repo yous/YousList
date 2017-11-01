@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: bUtoez0wTzjO6GIkyNyH5Q
+! Checksum: jMyz150ab1vMKMS4CjzSYA
 ! Version: 20171101
 
 ! Workaround for BlockAdBlock
@@ -431,6 +431,9 @@
 ||ads1.playforum.net:8080^
 ||ads2.contentabc.com/ads^
 ||ads3.adinc.co.kr^
+||adsearch.adkontekst.pl/_/ads2/
+||adsearch.adkontekst.pl/_/intext_static/
+||adsearch.adkontekst.pl/quad/intext_spliter/
 ||adserve.postrelease.com/init.js^
 ||adserver-us.adtech.advertising.com/pubapi/
 ||adserver.adtechus.com^
@@ -944,6 +947,7 @@
 ||mobile.newsis.com/ad_list/ad.html^$domain=mobile.newsis.com
 ||mobile.newsis.com/direct_copy2.html^$domain=mobile.newsis.com
 ||mobs.luxad.kr/media/
+||moja-ostroleka.pl/uploads/banery/$domain=moja-ostroleka.pl
 ||mp.mmnneo.com^
 ||mp3cc.com/api/iframe/footer^$domain=mp3cc.com
 ||mp3cc.com/api/iframe/header^$domain=mp3cc.com
@@ -1107,6 +1111,7 @@
 ||s.ntv.io/serve/load.js^
 ||s.pubmine.com/adj/
 ||s.yimg.jp/images/listing/tool/yads/yads-iframe.html^
+||s1.adform.net/banners/scripts/adx.js^
 ||s1.daumcdn.net/svc/original/U03/commonjs/ddn/common/js/ad.min.js^
 ||s3.buysellads.com/ac/bsa.js^
 ||sba.about.co.kr/SbaExpose.aspx^
@@ -2696,6 +2701,8 @@ mobile.newsis.com##div#content>section>div.bxcn[style="padding:8px 0 0 8px; text
 mobile.newsis.com##div#content>section>div.bxcn[style="padding:8px 0 0 8px;"]
 mobile.newsis.com##div#content>section>div.bxcn[style="text-align:center;"]
 mobile.newsis.com##iframe[src^="/ad_list/ad.html"]
+moja-ostroleka.pl##div#reklama_top
+moja-ostroleka.pl##iframe[src^="https://www.moja-ostroleka.pl/uploads/banery/html5/"][src*="index.html"]
 moneyweek.co.kr##div#adsentop
 moneyweek.co.kr##div#aside>div.ad_banner
 moneyweek.co.kr##div.related>div[style="position:absolute; top:0; right:0px; width:200px; height:200px;"]
