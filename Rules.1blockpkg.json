@@ -1941,6 +1941,19 @@
                 }
             },
             {
+                "id": "9dfa4f80-3e6b-46b9-ad25-01fe925d0dfe",
+                "name": "##iframe[src^=\"http://life.chosun.com/dhtm//rightBner.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://life.chosun.com/dhtm//rightBner.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "7f8d5c84-b9a7-44d6-89db-4a4225bc5ac8",
                 "name": "##iframe[src^=\"http://longkeyone.co.kr/\"]",
                 "content": {
@@ -10933,6 +10946,18 @@
                 }
             },
             {
+                "id": "4e3921ae-63ed-4224-b395-2a410e5cfbfc",
+                "name": "life.chosun.com/dhtm/rightBner.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?life\\.chosun\\.com/dhtm/rightBner\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "737ad2b3-214c-4b86-8c4c-94aea044b2a0",
                 "name": "lightad.co.kr/Lightcoms/",
                 "content": {
@@ -19751,6 +19776,19 @@
                 }
             },
             {
+                "id": "a01b7658-2b35-4c4e-a0b0-c7de0d412f66",
+                "name": "food.chosun.com##div.ad_list_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?food\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_list_bottom"
+                    }
+                }
+            },
+            {
                 "id": "88827f70-5a41-4284-ba5b-8c8d9febec22",
                 "name": "art.chosun.com##div.art_ad_top",
                 "content": {
@@ -19808,6 +19846,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fashion\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_ad_top"
+                    }
+                }
+            },
+            {
+                "id": "a62ab97b-cc66-48ce-9fa5-c7362968c202",
+                "name": "food.chosun.com##div.art_ad_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?food\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -19881,6 +19932,19 @@
                 }
             },
             {
+                "id": "0e69a626-84a5-4519-ba67-44af90f12088",
+                "name": "food.chosun.com##div.art_mobile_bottom_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?food\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_mobile_bottom_ad"
+                    }
+                }
+            },
+            {
                 "id": "0e771c38-7ff5-46f9-bee7-364371683d6a",
                 "name": "art.chosun.com##div.art_mobile_mid_ad",
                 "content": {
@@ -19946,6 +20010,19 @@
                 }
             },
             {
+                "id": "3ea751f9-7edf-4291-8679-75780fd556be",
+                "name": "food.chosun.com##div.art_mobile_mid_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?food\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_mobile_mid_ad"
+                    }
+                }
+            },
+            {
                 "id": "c3d7ce73-2600-4cd2-a1ef-fbbb8ce07c4e",
                 "name": "art.chosun.com##li.wrap_ad_in_list",
                 "content": {
@@ -20003,6 +20080,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fashion\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.wrap_ad_in_list"
+                    }
+                }
+            },
+            {
+                "id": "403e22e7-ec42-46b5-865b-e30d5fe1541d",
+                "name": "food.chosun.com##li.wrap_ad_in_list",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?food\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
