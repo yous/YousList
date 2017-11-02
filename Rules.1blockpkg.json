@@ -7036,6 +7036,21 @@
                 }
             },
             {
+                "id": "f431a392-f06f-49d7-9348-fdf9fdddca03",
+                "name": "car.chosun.com/common/right/banner/index.html$domain=car.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?car\\.chosun\\.com/common/right/banner/index\\.html",
+                        "if-domain": [
+                            "car.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "54a9ac32-3cd6-461a-ad7c-9804150dffc3",
                 "name": "care-health.co.kr",
                 "content": {
@@ -19613,11 +19628,37 @@
                 }
             },
             {
+                "id": "7cd4bf2b-3d97-47e5-b407-9c1866bb2604",
+                "name": "art.chosun.com##iframe[src^=\"http://art.chosun.com/common/r_banner/index.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?art\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://art.chosun.com/common/r_banner/index.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "c07a6d70-5dc8-42fb-89ff-32f07f3a137b",
                 "name": "art.chosun.com##div.ad_list_bottom",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?art\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_list_bottom"
+                    }
+                }
+            },
+            {
+                "id": "d5036066-80a8-4fe1-b6d1-18ce8727560d",
+                "name": "car.chosun.com##div.ad_list_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?car\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -19639,11 +19680,37 @@
                 }
             },
             {
+                "id": "13ca0956-aa90-4fe0-87ac-6eba60cc0dee",
+                "name": "car.chosun.com##div.art_ad_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?car\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_ad_top"
+                    }
+                }
+            },
+            {
                 "id": "eb9cfaa1-bc7f-4359-920a-6d5c0300188f",
                 "name": "art.chosun.com##div.art_mobile_bottom_ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?art\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_mobile_bottom_ad"
+                    }
+                }
+            },
+            {
+                "id": "3961025a-527c-4ae5-bdeb-624f8cb64d6c",
+                "name": "car.chosun.com##div.art_mobile_bottom_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?car\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -19665,15 +19732,15 @@
                 }
             },
             {
-                "id": "7cd4bf2b-3d97-47e5-b407-9c1866bb2604",
-                "name": "art.chosun.com##iframe[src^=\"http://art.chosun.com/common/r_banner/index.html\"]",
+                "id": "03d431c3-ec43-4349-9bc0-80f018ce2b45",
+                "name": "car.chosun.com##div.art_mobile_mid_ad",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?art\\.chosun\\.com"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?car\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "iframe[src^=\"http://art.chosun.com/common/r_banner/index.html\"]"
+                        "selector": "div.art_mobile_mid_ad"
                     }
                 }
             },
@@ -19683,6 +19750,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?art\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.wrap_ad_in_list"
+                    }
+                }
+            },
+            {
+                "id": "05b76f41-69c3-48f0-963d-7bdeb76f7702",
+                "name": "car.chosun.com##li.wrap_ad_in_list",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?car\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -22157,6 +22237,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "table.searchad"
+                    }
+                }
+            },
+            {
+                "id": "7816a666-d2fc-4206-af99-938b0922a62e",
+                "name": "car.chosun.com##iframe[src^=\"http://car.chosun.com/common/right/banner/index.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?car\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://car.chosun.com/common/right/banner/index.html\"]"
                     }
                 }
             },

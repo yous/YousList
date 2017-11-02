@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: CiMVNA2TAI57BBkMF6Xynw
+! Checksum: AhFluM2fq9YJppVuh0t3EQ
 ! Version: 20171102
 
 ! Workaround for BlockAdBlock
@@ -574,6 +574,7 @@
 ||cadvv.heraldm.com/hb/imad/
 ||campaigns-assets-vp.daumcdn.net/websdk/vp-latest.min.js^$domain=~v2.myktoon.com
 ||candy.ad9.kr^
+||car.chosun.com/common/right/banner/index.html^$domain=car.chosun.com
 ||care-health.co.kr^
 ||cas.criteo.com/delivery/ajs.php^
 ||castbox.shopping.naver.com/index.nhn^
@@ -1364,12 +1365,12 @@ api.dable.io##td.item-sp
 appleblog.co.kr##ins.adsbygoogle
 arstechnica.com##aside.ad
 arstechnica.com##aside.ad_native
-art.chosun.com##div.ad_list_bottom
-art.chosun.com##div.art_ad_top
-art.chosun.com##div.art_mobile_bottom_ad
-art.chosun.com##div.art_mobile_mid_ad
 art.chosun.com##iframe[src^="http://art.chosun.com/common/r_banner/index.html"]
-art.chosun.com##li.wrap_ad_in_list
+art.chosun.com,car.chosun.com##div.ad_list_bottom
+art.chosun.com,car.chosun.com##div.art_ad_top
+art.chosun.com,car.chosun.com##div.art_mobile_bottom_ad
+art.chosun.com,car.chosun.com##div.art_mobile_mid_ad
+art.chosun.com,car.chosun.com##li.wrap_ad_in_list
 artsnews.mk.co.kr##div#IDFloatingNZ99
 artsnews.mk.co.kr##div#IDSiteLeftFloatBanner
 artsnews.mk.co.kr##div#IDSiteRightFloatBanner
@@ -1523,6 +1524,7 @@ busygirlblog.com##div.busyg-random
 busygirlblog.com##iframe[src^="http://busygirlblog.com/adserver/"]
 cafe.naver.com##div#ad-banner
 cafe.naver.com##table.searchad
+car.chosun.com##iframe[src^="http://car.chosun.com/common/right/banner/index.html"]
 cdn-city.livere.com##ul.contents-list>li.tenping-title
 chicagotribune.com##div.trb_ar_rail_ad
 chicagotribune.com##div.trb_gptAd
