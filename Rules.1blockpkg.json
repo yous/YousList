@@ -6243,6 +6243,21 @@
                 }
             },
             {
+                "id": "21d22030-85ca-4d43-bb06-a7a8c07a1579",
+                "name": "books.chosun.com/common/r_banner/index.html$domain=books.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?books\\.chosun\\.com/common/r_banner/index\\.html",
+                        "if-domain": [
+                            "books.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9d9125ba-eca0-4b30-aae5-28766c724763",
                 "name": "brightadnetwork.com/a/display.php",
                 "content": {
@@ -19684,6 +19699,19 @@
                 }
             },
             {
+                "id": "659f8bc7-4de1-4001-8caf-5ef4ceafd3ab",
+                "name": "books.chosun.com##div.ad_list_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?books\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_list_bottom"
+                    }
+                }
+            },
+            {
                 "id": "d5036066-80a8-4fe1-b6d1-18ce8727560d",
                 "name": "car.chosun.com##div.ad_list_bottom",
                 "content": {
@@ -19728,6 +19756,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?art\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_ad_top"
+                    }
+                }
+            },
+            {
+                "id": "5e3c25ee-ab16-4f12-8422-06b057409d28",
+                "name": "books.chosun.com##div.art_ad_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?books\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -19788,6 +19829,19 @@
                 }
             },
             {
+                "id": "29edaa1d-a2fc-4c26-9310-5e57ec1b6fe9",
+                "name": "books.chosun.com##div.art_mobile_bottom_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?books\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_mobile_bottom_ad"
+                    }
+                }
+            },
+            {
                 "id": "3961025a-527c-4ae5-bdeb-624f8cb64d6c",
                 "name": "car.chosun.com##div.art_mobile_bottom_ad",
                 "content": {
@@ -19840,6 +19894,19 @@
                 }
             },
             {
+                "id": "4551172a-fca3-4c7d-acfd-f6ac71859207",
+                "name": "books.chosun.com##div.art_mobile_mid_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?books\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_mobile_mid_ad"
+                    }
+                }
+            },
+            {
                 "id": "03d431c3-ec43-4349-9bc0-80f018ce2b45",
                 "name": "car.chosun.com##div.art_mobile_mid_ad",
                 "content": {
@@ -19884,6 +19951,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?art\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.wrap_ad_in_list"
+                    }
+                }
+            },
+            {
+                "id": "27d016a3-7e85-41e0-ad9c-30f5421e025b",
+                "name": "books.chosun.com##li.wrap_ad_in_list",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?books\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -22163,6 +22243,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#sidebar>div.ad"
+                    }
+                }
+            },
+            {
+                "id": "3c74ed0a-65af-4356-906b-fe266c1aa495",
+                "name": "books.chosun.com##iframe[src^=\"http://books.chosun.com/common/r_banner/index.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?books\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://books.chosun.com/common/r_banner/index.html\"]"
                     }
                 }
             },
