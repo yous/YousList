@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: J5B9Mex9KcGl96van54I7A
-! Version: 20171101
+! Checksum: OATEtmK9YcZgUtWfJXDh2Q
+! Version: 20171102
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -401,6 +401,9 @@
 ||ads.adjust-net.jp/adserver/ad/ads.js^
 ||ads.adjust-net.jp/adserver/ads^
 ||ads.admaru.com/js/*.js^
+||ads.adthrive.com/core/v1/js/adthrive.min.js^
+||ads.adthrive.com/core/v1/vendor/prebid/previd.min.js^
+||ads.adthrive.com/sites/*/ads.min.js^
 ||ads.adverline.com/richmedias/prebid-*.min.js^
 ||ads.adverline.com/richmedias/tools/adnext_iframe.js^
 ||ads.ayads.co/ajs.php^
@@ -2737,6 +2740,12 @@ mydaily.co.kr##div#wrap>div[style="width:160px; height:600px; position:absolute;
 mydaily.co.kr##div#wrap>div[style="width:160px; height:600px; position:absolute; top:425px; left:50%; margin-left:520px;"]
 mydaily.co.kr##div.read_right_ad
 mydaily.co.kr##div[class^="banner_1024_1024_"]
+mymodernmet.com##div.desktop-ad
+mymodernmet.com##div.header-ad
+mymodernmet.com##div.mobile-ad
+mymodernmet.com##div.sidebar-ad
+mymodernmet.com##section.desktop-ad
+mymodernmet.com##section.header-ad
 mywatchseries.to##a[href^="http://adsrvmedia.adk2x.com/imp"]
 mywatchseries.to##div.ad_300_250
 mywatchseries.to##div.ad_300_300

@@ -4805,6 +4805,42 @@
                 }
             },
             {
+                "id": "b9ae320d-d751-4d37-a015-7e3ab988e5c4",
+                "name": "ads.adthrive.com/core/v1/js/adthrive.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.adthrive\\.com/core/v1/js/adthrive\\.min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "96ab9f87-5166-44fa-b00b-42ea3adca252",
+                "name": "ads.adthrive.com/core/v1/vendor/prebid/previd.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.adthrive\\.com/core/v1/vendor/prebid/previd\\.min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b6ccd38d-ae6c-49c2-8bc6-7b4b927f95a7",
+                "name": "ads.adthrive.com/sites/*/ads.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.adthrive\\.com/sites/.*/ads\\.min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b91afee9-a0c8-444d-82ba-14f859bc3e5d",
                 "name": "ads.adverline.com/richmedias/prebid-*.min.js",
                 "content": {
@@ -38226,6 +38262,84 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"banner_1024_1024_\"]"
+                    }
+                }
+            },
+            {
+                "id": "ffa2b5e3-b93b-45a0-8293-375d9f96bb2b",
+                "name": "mymodernmet.com##div.desktop-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mymodernmet\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.desktop-ad"
+                    }
+                }
+            },
+            {
+                "id": "3f29e66f-57a7-40e9-ac60-d3cd75ab9cfb",
+                "name": "mymodernmet.com##div.header-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mymodernmet\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.header-ad"
+                    }
+                }
+            },
+            {
+                "id": "7e7dbe86-d508-465c-b06e-4b81e843fb39",
+                "name": "mymodernmet.com##div.mobile-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mymodernmet\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobile-ad"
+                    }
+                }
+            },
+            {
+                "id": "a954910a-8a41-4671-b75a-4b1d141258cf",
+                "name": "mymodernmet.com##div.sidebar-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mymodernmet\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sidebar-ad"
+                    }
+                }
+            },
+            {
+                "id": "de1d9813-09d9-4963-834a-8a88139ba4a2",
+                "name": "mymodernmet.com##section.desktop-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mymodernmet\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.desktop-ad"
+                    }
+                }
+            },
+            {
+                "id": "b561b68e-29d2-4c2d-9abc-f5ae121b7cb3",
+                "name": "mymodernmet.com##section.header-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mymodernmet\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.header-ad"
                     }
                 }
             },
