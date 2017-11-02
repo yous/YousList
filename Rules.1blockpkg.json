@@ -5976,6 +5976,21 @@
                 }
             },
             {
+                "id": "02e93bea-eaf1-4171-aaa6-f1ef8ee9b5a8",
+                "name": "art.chosun.com/common/r_banner/index.html$domain=art.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?art\\.chosun\\.com/common/r_banner/index\\.html",
+                        "if-domain": [
+                            "art.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "70745c57-6d2b-4f69-92ee-df5c18786060",
                 "name": "as.dc.impact-ad.jp",
                 "content": {
@@ -19594,6 +19609,84 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "aside.ad_native"
+                    }
+                }
+            },
+            {
+                "id": "c07a6d70-5dc8-42fb-89ff-32f07f3a137b",
+                "name": "art.chosun.com##div.ad_list_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?art\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_list_bottom"
+                    }
+                }
+            },
+            {
+                "id": "88827f70-5a41-4284-ba5b-8c8d9febec22",
+                "name": "art.chosun.com##div.art_ad_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?art\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_ad_top"
+                    }
+                }
+            },
+            {
+                "id": "eb9cfaa1-bc7f-4359-920a-6d5c0300188f",
+                "name": "art.chosun.com##div.art_mobile_bottom_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?art\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_mobile_bottom_ad"
+                    }
+                }
+            },
+            {
+                "id": "0e771c38-7ff5-46f9-bee7-364371683d6a",
+                "name": "art.chosun.com##div.art_mobile_mid_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?art\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_mobile_mid_ad"
+                    }
+                }
+            },
+            {
+                "id": "7cd4bf2b-3d97-47e5-b407-9c1866bb2604",
+                "name": "art.chosun.com##iframe[src^=\"http://art.chosun.com/common/r_banner/index.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?art\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://art.chosun.com/common/r_banner/index.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "c3d7ce73-2600-4cd2-a1ef-fbbb8ce07c4e",
+                "name": "art.chosun.com##li.wrap_ad_in_list",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?art\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.wrap_ad_in_list"
                     }
                 }
             },

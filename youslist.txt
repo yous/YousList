@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: OATEtmK9YcZgUtWfJXDh2Q
+! Checksum: CiMVNA2TAI57BBkMF6Xynw
 ! Version: 20171102
 
 ! Workaround for BlockAdBlock
@@ -497,6 +497,7 @@
 ||api.wiseclick.co.kr/api/web_directad/
 ||apis.naver.com/rmcnmv/rmcams/item/create/2010/SMR^$domain=m.tv.naver.com|tv.naver.com
 ||apis.piclick.me/v1/publish/banner/iframe^
+||art.chosun.com/common/r_banner/index.html^$domain=art.chosun.com
 ||as.dc.impact-ad.jp^
 ||asahicom.jp/ad/js/$domain=asahi.com
 ||asiae.co.kr/include/real_ad/
@@ -1363,6 +1364,12 @@ api.dable.io##td.item-sp
 appleblog.co.kr##ins.adsbygoogle
 arstechnica.com##aside.ad
 arstechnica.com##aside.ad_native
+art.chosun.com##div.ad_list_bottom
+art.chosun.com##div.art_ad_top
+art.chosun.com##div.art_mobile_bottom_ad
+art.chosun.com##div.art_mobile_mid_ad
+art.chosun.com##iframe[src^="http://art.chosun.com/common/r_banner/index.html"]
+art.chosun.com##li.wrap_ad_in_list
 artsnews.mk.co.kr##div#IDFloatingNZ99
 artsnews.mk.co.kr##div#IDSiteLeftFloatBanner
 artsnews.mk.co.kr##div#IDSiteRightFloatBanner
