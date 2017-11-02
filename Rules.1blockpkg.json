@@ -19817,6 +19817,19 @@
                 }
             },
             {
+                "id": "74c107f3-fa6c-4bc5-8bf3-46afba2a3196",
+                "name": "review.chosun.com##div.ad_list_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?review\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_list_bottom"
+                    }
+                }
+            },
+            {
                 "id": "88827f70-5a41-4284-ba5b-8c8d9febec22",
                 "name": "art.chosun.com##div.art_ad_top",
                 "content": {
@@ -19900,6 +19913,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?travel\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_ad_top"
+                    }
+                }
+            },
+            {
+                "id": "6f46a505-9d5e-45bc-8386-0f97c8050f96",
+                "name": "review.chosun.com##div.art_ad_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?review\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -19999,6 +20025,19 @@
                 }
             },
             {
+                "id": "ecbb4ec0-f852-4328-bc56-b41c98de2f5e",
+                "name": "review.chosun.com##div.art_mobile_bottom_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?review\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_mobile_bottom_ad"
+                    }
+                }
+            },
+            {
                 "id": "0e771c38-7ff5-46f9-bee7-364371683d6a",
                 "name": "art.chosun.com##div.art_mobile_mid_ad",
                 "content": {
@@ -20090,6 +20129,19 @@
                 }
             },
             {
+                "id": "96280dd2-24f1-4e03-91ba-98ef6fb56229",
+                "name": "review.chosun.com##div.art_mobile_mid_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?review\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_mobile_mid_ad"
+                    }
+                }
+            },
+            {
                 "id": "c3d7ce73-2600-4cd2-a1ef-fbbb8ce07c4e",
                 "name": "art.chosun.com##li.wrap_ad_in_list",
                 "content": {
@@ -20173,6 +20225,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?travel\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.wrap_ad_in_list"
+                    }
+                }
+            },
+            {
+                "id": "2be28d39-5b1f-49f6-8d9e-37f5f7552d4c",
+                "name": "review.chosun.com##li.wrap_ad_in_list",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?review\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
