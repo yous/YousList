@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: qv/XlvsR4WVVmKPvxYOBsw
+! Checksum: HoqgO3wnIfkjLSJL/HIJgA
 ! Version: 20171102
 
 ! Workaround for BlockAdBlock
@@ -718,6 +718,7 @@
 ||ext.apbox.nbp-corp.com/*/adunit^
 ||exttag.about.co.kr/cgi-bin/PelicanC.dll^
 ||fam-ad.com/ad/js/fam-tagify.min.js^
+||fashion.chosun.com/include/bn2016/index.html^$domain=fashion.chosun.com
 ||fastlane.rubiconproject.com/a/api/fastlane.json^
 ||feed.4wnet.com/resources/scripts/jsAds-*.min.js^
 ||feeltong.hani.co.kr/common/banner.html^
@@ -1367,11 +1368,11 @@ appleblog.co.kr##ins.adsbygoogle
 arstechnica.com##aside.ad
 arstechnica.com##aside.ad_native
 art.chosun.com##iframe[src^="http://art.chosun.com/common/r_banner/index.html"]
-art.chosun.com,car.chosun.com,danmee.chosun.com##div.ad_list_bottom
-art.chosun.com,car.chosun.com,danmee.chosun.com##div.art_ad_top
-art.chosun.com,car.chosun.com,danmee.chosun.com##div.art_mobile_bottom_ad
-art.chosun.com,car.chosun.com,danmee.chosun.com##div.art_mobile_mid_ad
-art.chosun.com,car.chosun.com,danmee.chosun.com##li.wrap_ad_in_list
+art.chosun.com,car.chosun.com,danmee.chosun.com,fashion.chosun.com##div.ad_list_bottom
+art.chosun.com,car.chosun.com,danmee.chosun.com,fashion.chosun.com##div.art_ad_top
+art.chosun.com,car.chosun.com,danmee.chosun.com,fashion.chosun.com##div.art_mobile_bottom_ad
+art.chosun.com,car.chosun.com,danmee.chosun.com,fashion.chosun.com##div.art_mobile_mid_ad
+art.chosun.com,car.chosun.com,danmee.chosun.com,fashion.chosun.com##li.wrap_ad_in_list
 artsnews.mk.co.kr##div#IDFloatingNZ99
 artsnews.mk.co.kr##div#IDSiteLeftFloatBanner
 artsnews.mk.co.kr##div#IDSiteRightFloatBanner
@@ -1616,9 +1617,9 @@ danawa.com##div.category_btm_banner
 danawa.com##div.event_banner
 danawa.com##div.header_banner
 danawa.com##div.ttop_banner
-danmee.chosun.com##div.art_ad_ss_left
-danmee.chosun.com##div.art_ad_ss_right
 danmee.chosun.com##iframe[src^="http://danmee.chosun.com/common/event2016/index.html"]
+danmee.chosun.com,fashion.chosun.com##div.art_ad_ss_left
+danmee.chosun.com,fashion.chosun.com##div.art_ad_ss_right
 daum.net##div#adBrandingStation
 daum.net##div#daumAd
 daum.net##div.ad_rightbtm
@@ -1794,6 +1795,7 @@ facebook.com##div.ego_column
 facebook.com##div.ego_section
 facebook.com##div.ego_unit
 facebook.com##div.ego_unit_container
+fashion.chosun.com##iframe[src^="http://fashion.chosun.com/include/bn2016/index.html"]
 fastcodesign.com##div.ad-wrapper
 fastcodesign.com##div.post__article-top-ad-wrapper
 filmix.me##div#main>div>div.container[style="padding: 0px; height: 0px; transition: 0ms;"]

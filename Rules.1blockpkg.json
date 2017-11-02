@@ -8851,6 +8851,21 @@
                 }
             },
             {
+                "id": "6f4e18c6-6842-410d-8482-6db99bacaca5",
+                "name": "fashion.chosun.com/include/bn2016/index.html$domain=fashion.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fashion\\.chosun\\.com/include/bn2016/index\\.html",
+                        "if-domain": [
+                            "fashion.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "52594e50-ebe6-4694-8379-d419a0c9778d",
                 "name": "fastlane.rubiconproject.com/a/api/fastlane.json",
                 "content": {
@@ -19695,6 +19710,19 @@
                 }
             },
             {
+                "id": "6af7cc66-86ee-479c-9072-e38fb46bf689",
+                "name": "fashion.chosun.com##div.ad_list_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fashion\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_list_bottom"
+                    }
+                }
+            },
+            {
                 "id": "88827f70-5a41-4284-ba5b-8c8d9febec22",
                 "name": "art.chosun.com##div.art_ad_top",
                 "content": {
@@ -19726,6 +19754,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?danmee\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_ad_top"
+                    }
+                }
+            },
+            {
+                "id": "0ee0210c-1d40-46e8-9bda-31cebc00933f",
+                "name": "fashion.chosun.com##div.art_ad_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fashion\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -19773,6 +19814,19 @@
                 }
             },
             {
+                "id": "30ffe7b8-3cf4-4ea8-bb44-4f1f831cfacb",
+                "name": "fashion.chosun.com##div.art_mobile_bottom_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fashion\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_mobile_bottom_ad"
+                    }
+                }
+            },
+            {
                 "id": "0e771c38-7ff5-46f9-bee7-364371683d6a",
                 "name": "art.chosun.com##div.art_mobile_mid_ad",
                 "content": {
@@ -19812,6 +19866,19 @@
                 }
             },
             {
+                "id": "53bf4645-efd8-46e9-a17a-9e7f6669c577",
+                "name": "fashion.chosun.com##div.art_mobile_mid_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fashion\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_mobile_mid_ad"
+                    }
+                }
+            },
+            {
                 "id": "c3d7ce73-2600-4cd2-a1ef-fbbb8ce07c4e",
                 "name": "art.chosun.com##li.wrap_ad_in_list",
                 "content": {
@@ -19843,6 +19910,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?danmee\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.wrap_ad_in_list"
+                    }
+                }
+            },
+            {
+                "id": "07495527-4a60-49a9-ad0b-990850fe3ef2",
+                "name": "fashion.chosun.com##li.wrap_ad_in_list",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fashion\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -23504,11 +23584,37 @@
                 }
             },
             {
+                "id": "dbb00d3f-48fc-4fb0-b0e8-da10cd6545ba",
+                "name": "danmee.chosun.com##iframe[src^=\"http://danmee.chosun.com/common/event2016/index.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?danmee\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://danmee.chosun.com/common/event2016/index.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "48ddc949-7268-47c7-a4a5-3a2d20ec9b43",
                 "name": "danmee.chosun.com##div.art_ad_ss_left",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?danmee\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_ad_ss_left"
+                    }
+                }
+            },
+            {
+                "id": "044ddecc-ea95-4e49-9e92-debd2031ee3f",
+                "name": "fashion.chosun.com##div.art_ad_ss_left",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fashion\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -23530,15 +23636,15 @@
                 }
             },
             {
-                "id": "dbb00d3f-48fc-4fb0-b0e8-da10cd6545ba",
-                "name": "danmee.chosun.com##iframe[src^=\"http://danmee.chosun.com/common/event2016/index.html\"]",
+                "id": "0e78b0f5-4dfb-455f-9ce0-cba4329ca57e",
+                "name": "fashion.chosun.com##div.art_ad_ss_right",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?danmee\\.chosun\\.com"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fashion\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "iframe[src^=\"http://danmee.chosun.com/common/event2016/index.html\"]"
+                        "selector": "div.art_ad_ss_right"
                     }
                 }
             },
@@ -25866,6 +25972,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ego_unit_container"
+                    }
+                }
+            },
+            {
+                "id": "b86ff87b-9227-4e0c-a066-36017e35aba7",
+                "name": "fashion.chosun.com##iframe[src^=\"http://fashion.chosun.com/include/bn2016/index.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fashion\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://fashion.chosun.com/include/bn2016/index.html\"]"
                     }
                 }
             },
