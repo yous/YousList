@@ -14234,6 +14234,18 @@
                 }
             },
             {
+                "id": "38ec7640-a9a9-4799-b140-1d3d1221650f",
+                "name": "secure.adnxs.com/jpt",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?secure\\.adnxs\\.com/jpt"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "7296bafe-f52d-436f-acc4-46654569149d",
                 "name": "secure.uac.advertising.com/wrapper/aceUAC.js",
                 "content": {
@@ -14581,6 +14593,21 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sndkorea\\.nowcdn\\.co\\.kr/xml/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a7c1767e-f051-4c83-9634-55d5c8fa45fd",
+                "name": "snopes.com/content/plugins/advanced-ads/public/assets/js/advanced.js$domain=snopes.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?snopes\\.com/content/plugins/advanced-ads/public/assets/js/advanced\\.js",
+                        "if-domain": [
+                            "snopes.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -44799,6 +44826,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad2"
+                    }
+                }
+            },
+            {
+                "id": "07a1723a-4151-4645-9784-8c0f279e8d77",
+                "name": "snopes.com##div.snopes-partner-unit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?snopes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.snopes-partner-unit"
                     }
                 }
             },
