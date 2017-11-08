@@ -7310,6 +7310,18 @@
                 }
             },
             {
+                "id": "9afaa56a-2397-4776-a959-30b0cb0251aa",
+                "name": "cdn.interworksmedia.co.kr/js/media/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.interworksmedia\\.co\\.kr/js/media/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4df89ad9-39a0-46d8-9571-65f66fa1e7ff",
                 "name": "cdn.kixer.com/ad/load.js",
                 "content": {
