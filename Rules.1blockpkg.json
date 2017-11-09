@@ -29252,6 +29252,19 @@
                 }
             },
             {
+                "id": "c5cb5c3e-4554-4eac-bada-d81afba42e5e",
+                "name": "imore.com##div.netshelter-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?imore\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.netshelter-ad"
+                    }
+                }
+            },
+            {
                 "id": "c190ccfd-d4fa-4efd-afd0-91247015341c",
                 "name": "insight.co.kr##div.news__view__article>ul[style=\"float:right; margin:0 0 10px 10px;\"]",
                 "content": {
