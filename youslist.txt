@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: wkVREdE4O5WL3eBZVQduOg
+! Checksum: CA1dQgLp5jiFAmx2RO/bPg
 ! Version: 20171109
 
 ! Workaround for BlockAdBlock
@@ -198,6 +198,7 @@
 ##iframe[src^="http://res.heraldm.com/iframe/"]
 ##iframe[src^="http://rsense-ad.realclick.co.kr/rsense/view_ad_adcrm.html"]
 ##iframe[src^="http://sc2.appldp.com/publisher-show-ads.php"]
+##iframe[src^="http://search.supplyframe.com/partner/"]
 ##iframe[src^="http://server.cpmstar.com/view.aspx"]
 ##iframe[src^="http://shop.nate.com/shopbox/shopbox.htm"]
 ##iframe[src^="http://sin1.g.adnxs.com/if"]
@@ -430,6 +431,8 @@
 ||ads.rubiconproject.com/ad/
 ||ads.rubiconproject.com/header/*.js^
 ||ads.stickyadstv.com/vast/vpaid-adapter/
+||ads.supplyframe.com/openads/adjs.php^
+||ads.supplyframe.com/openads/www/delivery/fc.php^
 ||ads.tlvmedia.com^
 ||ads.yahoo.com^
 ||ads1.playforum.net:8080^
@@ -1138,6 +1141,7 @@
 ||sdk.streamrail.com/player/sr.ads.js^
 ||search.n2s.co.kr/_n2s_adop_adinfo.php^
 ||search.n2s.co.kr/_n2s_rainbod_adinfo_js.php^
+||search.supplyframe.com/partner/
 ||search2.nuriclick.co.kr/banner.php^
 ||search2.nuriclick.co.kr/search.php^
 ||searchmaster.pro/b.php^
@@ -1349,6 +1353,8 @@
 9to5mac.com##img[data-image-title="NativeBanner750by150"]
 9to5toys.com##div.tha4673a86
 afbbs.afreecatv.com##div#div_video_ad_banner
+alldatasheet.com##td#idAD1
+alldatasheet.com##td#idAD2
 amazon.co.jp##div#ape_Detail_dp-ads-center-promo_Desktop_placement
 amazon.co.jp,amazon.com##div#ape_Gateway_right-2_desktop_placement
 amazon.co.jp,amazon.com##div#ape_detail_btf_detail-mWeb_text-wrapper

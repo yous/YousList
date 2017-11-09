@@ -2344,6 +2344,19 @@
                 }
             },
             {
+                "id": "563ddc5d-49fe-414a-bb47-0d21a822b5e1",
+                "name": "##iframe[src^=\"http://search.supplyframe.com/partner/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://search.supplyframe.com/partner/\"]"
+                    }
+                }
+            },
+            {
                 "id": "87e94af1-cd6e-42ef-85f2-fed47b05d25b",
                 "name": "##iframe[src^=\"http://server.cpmstar.com/view.aspx\"]",
                 "content": {
@@ -5155,6 +5168,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.stickyadstv\\.com/vast/vpaid-adapter/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "05ed4729-60bd-46c5-9131-b0a3a090f538",
+                "name": "ads.supplyframe.com/openads/adjs.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.supplyframe\\.com/openads/adjs\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "efdca459-e26e-495d-b7ac-bc4451b81e01",
+                "name": "ads.supplyframe.com/openads/www/delivery/fc.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.supplyframe\\.com/openads/www/delivery/fc\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -14198,6 +14235,18 @@
                 }
             },
             {
+                "id": "74f887e8-6c1c-4505-8d54-d0cac5e45acf",
+                "name": "search.supplyframe.com/partner/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?search\\.supplyframe\\.com/partner/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "94692008-b01c-4652-94b0-2d525aa6fb42",
                 "name": "search2.nuriclick.co.kr/banner.php",
                 "content": {
@@ -19371,6 +19420,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#div_video_ad_banner"
+                    }
+                }
+            },
+            {
+                "id": "f69ae441-1b22-442a-9f5d-59134f4b8ca0",
+                "name": "alldatasheet.com##td#idAD1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?alldatasheet\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "td#idAD1"
+                    }
+                }
+            },
+            {
+                "id": "de27d785-d5c0-43b5-b968-1635cde9e0bb",
+                "name": "alldatasheet.com##td#idAD2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?alldatasheet\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "td#idAD2"
                     }
                 }
             },
