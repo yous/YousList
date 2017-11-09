@@ -39642,6 +39642,19 @@
                 }
             },
             {
+                "id": "64f2a302-403e-4b18-9e87-1e9924bc935c",
+                "name": "news.chosun.com##div.art_ad_promo_ifbox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_ad_promo_ifbox"
+                    }
+                }
+            },
+            {
                 "id": "e64f59e2-6060-4967-b11b-c2c21bcda29d",
                 "name": "news.chosun.com##div.art_ad_ss_left",
                 "content": {
