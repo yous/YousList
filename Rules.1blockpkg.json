@@ -32891,6 +32891,19 @@
                 }
             },
             {
+                "id": "82c3213f-88c8-487a-b39b-4fdb9fc6a98e",
+                "name": "m.etnews.com##amp-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.etnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "amp-ad"
+                    }
+                }
+            },
+            {
                 "id": "293e932e-bd60-4688-a059-d24d455748bf",
                 "name": "m.etnews.com##div#bottomBigBanner",
                 "content": {
