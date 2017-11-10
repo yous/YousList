@@ -14319,6 +14319,18 @@
                 }
             },
             {
+                "id": "c76a6e74-e66a-444e-8522-058d1a344c68",
+                "name": "securepubads.g.doubleclick.net/gampad/google_ads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?securepubads\\.g\\.doubleclick\\.net/gampad/google_ads\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "5f7b9232-85b8-49f7-8203-dae201bc1c66",
                 "name": "securite.01net.com/ac",
                 "content": {
@@ -28663,6 +28675,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[id^=\"mb_adslot_\"]"
+                    }
+                }
+            },
+            {
+                "id": "ca5294f6-d626-4aaa-8528-8c32507913c2",
+                "name": "howtoforge.com##div.bsa-apiads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?howtoforge\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bsa-apiads"
                     }
                 }
             },
