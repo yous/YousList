@@ -33138,6 +33138,45 @@
                 }
             },
             {
+                "id": "73cd847a-63ad-4cbf-b518-493a8e1f2151",
+                "name": "m.fnnews.com##div.wrap_ad10",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.fnnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wrap_ad10"
+                    }
+                }
+            },
+            {
+                "id": "44cf36e4-bd88-487e-95f5-8ee803c76cb8",
+                "name": "m.fnnews.com##div[id^=\"adBody_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.fnnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"adBody_\"]"
+                    }
+                }
+            },
+            {
+                "id": "b9a4f54b-56f6-415d-8c76-fa37a2862272",
+                "name": "m.fnnews.com##div[id^=\"adTop_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.fnnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"adTop_\"]"
+                    }
+                }
+            },
+            {
                 "id": "9bab818f-5706-445e-973d-5702590744b9",
                 "name": "m.focus.kr##div#f_UX_ad",
                 "content": {
