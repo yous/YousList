@@ -7395,6 +7395,66 @@
                 }
             },
             {
+                "id": "05fa2b8f-c427-418e-95c7-409cad97a92a",
+                "name": "cdn.rmprepusb.com/detroitchicago/edmonton.webp$domain=rmprepusb.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.rmprepusb\\.com/detroitchicago/edmonton\\.webp",
+                        "if-domain": [
+                            "rmprepusb.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0a3c1f8e-b303-4b66-8d32-610ba750cf87",
+                "name": "cdn.rmprepusb.com/detroitchicago/livonia.webp$domain=rmprepusb.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.rmprepusb\\.com/detroitchicago/livonia\\.webp",
+                        "if-domain": [
+                            "rmprepusb.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "666775b7-48a6-4486-9a71-a97c94ba0f3c",
+                "name": "cdn.rmprepusb.com/porpoiseant/fire.webp$domain=rmprepusb.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.rmprepusb\\.com/porpoiseant/fire\\.webp",
+                        "if-domain": [
+                            "rmprepusb.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b53aa846-ba62-4f38-828b-14122c6a10be",
+                "name": "cdn.rmprepusb.com/porpoiseant/jellyfish.webp$domain=rmprepusb.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.rmprepusb\\.com/porpoiseant/jellyfish\\.webp",
+                        "if-domain": [
+                            "rmprepusb.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6d677546-ba7d-4ce8-a3e8-c2f3c21babdf",
                 "name": "cdn.scrollads.co.kr/scrollads.*.js",
                 "content": {
@@ -9296,6 +9356,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?go\\.ezoic\\.net/ezoic/epbfull5\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "dd14408e-dced-45e1-a595-05d2af94269f",
+                "name": "go.ezoic.net/porpoiseant/dall2.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?go\\.ezoic\\.net/porpoiseant/dall2\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -13928,6 +14000,21 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?reviewstar\\.hankooki\\.com/ad/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d503a31c-d80c-4511-b1bf-d03f204b0074",
+                "name": "rmprepusb.com/porpoiseant/banger.js$domain=rmprepusb.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?rmprepusb\\.com/porpoiseant/banger\\.js",
+                        "if-domain": [
+                            "rmprepusb.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -44314,6 +44401,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "li.ad_plex_a250"
+                    }
+                }
+            },
+            {
+                "id": "b21ecfff-41d3-4c32-bea9-41060ee92bec",
+                "name": "rmprepusb.com##span.ezoic-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?rmprepusb\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span.ezoic-ad"
                     }
                 }
             },
