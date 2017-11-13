@@ -24073,6 +24073,19 @@
                 }
             },
             {
+                "id": "811d904c-f6ab-4bd7-9508-d5a84acf90df",
+                "name": "dailysecu.com##div.banner_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailysecu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_box"
+                    }
+                }
+            },
+            {
                 "id": "f06b2ae5-b6e4-4f0f-b7d6-f187c82fbed7",
                 "name": "danawa.com##div.banner_type4",
                 "content": {
