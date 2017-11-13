@@ -35647,6 +35647,19 @@
                 }
             },
             {
+                "id": "0b084b52-e4d6-4018-a9f8-899f2f49de50",
+                "name": "m.ruliweb.com##div.nbp_container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.ruliweb\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.nbp_container"
+                    }
+                }
+            },
+            {
                 "id": "375d02c5-5344-4bf6-8030-5650b45c4aa2",
                 "name": "m.segye.com##div#textbanner",
                 "content": {
