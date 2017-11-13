@@ -1967,6 +1967,19 @@
                 }
             },
             {
+                "id": "40c34816-78d4-4cd2-b059-87f1834f5b66",
+                "name": "##iframe[src^=\"http://m.11st.co.kr/MW/html/allianceAd/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://m.11st.co.kr/MW/html/allianceAd/\"]"
+                    }
+                }
+            },
+            {
                 "id": "0d505cd5-546b-4d30-b8a4-4464ec38953f",
                 "name": "##iframe[src^=\"http://m.hankooki.com/ad/\"]",
                 "content": {
@@ -35652,6 +35665,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "p.banner-podcast"
+                    }
+                }
+            },
+            {
+                "id": "912a4caa-da2e-4b15-81d4-e7d440839098",
+                "name": "m.ppomppu.co.kr##div#wrap>div[style=\"padding-top:10px;text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.ppomppu\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wrap>div[style=\"padding-top:10px;text-align:center;\"]"
                     }
                 }
             },
