@@ -29376,6 +29376,19 @@
                 }
             },
             {
+                "id": "49888080-1795-4c48-8757-656d21ae9bf7",
+                "name": "insight.co.kr##div.google_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?insight\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.google_ad"
+                    }
+                }
+            },
+            {
                 "id": "c190ccfd-d4fa-4efd-afd0-91247015341c",
                 "name": "insight.co.kr##div.news__view__article>ul[style=\"float:right; margin:0 0 10px 10px;\"]",
                 "content": {
