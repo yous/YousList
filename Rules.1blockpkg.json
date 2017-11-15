@@ -5887,6 +5887,18 @@
                 }
             },
             {
+                "id": "8ddb8473-4c95-4664-b774-cceb04010ac1",
+                "name": "ap.lijit.com/www/headerauction/prebid.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ap\\.lijit\\.com/www/headerauction/prebid\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "610ea6d5-2e68-429e-b64f-bef00586f499",
                 "name": "apex.go.sonobi.com/trinity.js",
                 "content": {
@@ -29351,6 +29363,19 @@
                 }
             },
             {
+                "id": "8c553ad5-84fd-4eb3-9b81-298ac3cb0f37",
+                "name": "independent.co.uk##div.onscroll-injected-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?independent\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.onscroll-injected-ad"
+                    }
+                }
+            },
+            {
                 "id": "c190ccfd-d4fa-4efd-afd0-91247015341c",
                 "name": "insight.co.kr##div.news__view__article>ul[style=\"float:right; margin:0 0 10px 10px;\"]",
                 "content": {
@@ -32415,6 +32440,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#m_article_content>div.m_min_size>div[style=\"margin:1em auto 0;height:200px;overflow:hidden;text-align:center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "6aaa97bd-f74b-4f61-8d95-39158597c089",
+                "name": "m.dailysecu.com##div.applad-areas",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dailysecu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.applad-areas"
                     }
                 }
             },
