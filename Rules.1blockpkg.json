@@ -10213,18 +10213,6 @@
                 }
             },
             {
-                "id": "fb3c1a56-aabf-43ff-bbff-2f91544c1718",
-                "name": "imasdk.googleapis.com/js/sdkloader/ima3.js",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?imasdk\\.googleapis\\.com/js/sdkloader/ima3\\.js"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "d10cbaef-f516-4e26-983e-543171ce7f4c",
                 "name": "img.ak.impact-ad.jp/ic/pone/commonjs/yone_viewable_iframe_min.js",
                 "content": {
@@ -51264,6 +51252,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.view_view_adv04"
+                    }
+                }
+            },
+            {
+                "id": "728312c9-fdc5-4d61-87b6-b3b57c03492f",
+                "name": "vonvon.me##div.adbanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vonvon\\.me"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adbanner"
+                    }
+                }
+            },
+            {
+                "id": "391834b9-b36e-490a-8839-8f0799d3ab30",
+                "name": "vonvon.me##div.vv-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vonvon\\.me"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.vv-ad"
+                    }
+                }
+            },
+            {
+                "id": "6d1b1c32-4991-4aeb-95ae-0615f024b5e0",
+                "name": "vonvon.me##vv-dfp-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vonvon\\.me"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "vv-dfp-ad"
                     }
                 }
             },
