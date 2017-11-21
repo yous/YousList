@@ -2925,10 +2925,13 @@
             },
             {
                 "id": "b9609bec-d1b1-4b51-8659-7b5ef14957ab",
-                "name": "*/RealMedia/ads/",
+                "name": "*/RealMedia/ads/$domain=~m.danawa.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "/RealMedia/ads/"
+                        "url-filter": "/RealMedia/ads/",
+                        "unless-domain": [
+                            "m.danawa.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -32522,6 +32525,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.m_aside>div.drag_mobile>div.edit_inner_content>div.align_center[style=\"margin:20px 0 10px\"]"
+                    }
+                }
+            },
+            {
+                "id": "cababa93-5859-458b-9cda-9df83b8ee4f6",
+                "name": "m.danawa.com##div#mdnw-floatingBannerContainer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mdnw-floatingBannerContainer"
                     }
                 }
             },
