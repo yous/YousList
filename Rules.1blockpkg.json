@@ -4497,10 +4497,13 @@
             },
             {
                 "id": "ed838339-bb88-40eb-a129-2328ccb468f0",
-                "name": "adimg3.search.naver.net/adpost/adpost_show_ads_min.js",
+                "name": "adimg3.search.naver.net/adpost/adpost_show_ads_min.js$domain=~search.danawa.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adimg3\\.search\\.naver\\.net/adpost/adpost_show_ads_min\\.js"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adimg3\\.search\\.naver\\.net/adpost/adpost_show_ads_min\\.js",
+                        "unless-domain": [
+                            "search.danawa.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
