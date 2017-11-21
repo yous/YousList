@@ -11293,6 +11293,21 @@
                 }
             },
             {
+                "id": "2532f2d7-058d-45fc-87ad-ee3a5c485b3f",
+                "name": "m.clien.net/service/api/naverAd$domain=m.clien.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.clien\\.net/service/api/naverAd",
+                        "if-domain": [
+                            "m.clien.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d85db696-fe65-4722-bfbb-8414b12d57ce",
                 "name": "m.edaily.co.kr/html/ad/ad_*.html$domain=m.edaily.co.kr",
                 "content": {
@@ -32278,6 +32293,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://m.chosun.com/tad.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "a4289b47-f145-4642-8c3d-20d80c427814",
+                "name": "m.clien.net##div#m_naverAd2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.clien\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#m_naverAd2"
                     }
                 }
             },
