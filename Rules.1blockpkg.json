@@ -51546,6 +51546,32 @@
                 }
             },
             {
+                "id": "f66e906a-2b43-4648-b987-c42f52864f97",
+                "name": "vubird.com##div#leftadcontainer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vubird\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#leftadcontainer"
+                    }
+                }
+            },
+            {
+                "id": "a2822ec8-eb5c-4a0b-8a31-638527a80c6c",
+                "name": "vubird.com##div#rightadcontainer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vubird\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#rightadcontainer"
+                    }
+                }
+            },
+            {
                 "id": "7358ce54-799d-4b07-a711-a9601103ed1b",
                 "name": "wasabisyrup.com##div.article-gallery>div.article-gallery-group",
                 "content": {
