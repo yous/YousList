@@ -13525,6 +13525,21 @@
                 }
             },
             {
+                "id": "d165d960-a1a4-4340-9149-d12a5ed36d6f",
+                "name": "pcwelt.de/js/adserver_footer.js$domain=pcwelt.de",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcwelt\\.de/js/adserver_footer\\.js",
+                        "if-domain": [
+                            "pcwelt.de"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "53aa1b7a-5b4d-4238-bd14-48bfc23eaa87",
                 "name": "pd4-imp.revsci.net/rtbads/pq",
                 "content": {
@@ -43612,6 +43627,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[id^=\"tfasyncframe_\"]"
+                    }
+                }
+            },
+            {
+                "id": "ecd8f5d5-ac94-470a-aab8-b2cf55f155ca",
+                "name": "pcwelt.de##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcwelt\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "07a17a05-8111-4097-beff-906c3c32c07c",
+                "name": "pcwelt.de##div.marketplace",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcwelt\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.marketplace"
                     }
                 }
             },

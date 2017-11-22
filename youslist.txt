@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 3wQVDmwn+m1fjhj2u2N0lQ
+! Checksum: gcNwZa1Mkx+yf99NnFt/eA
 ! Version: 20171122
 
 ! Workaround for BlockAdBlock
@@ -1081,6 +1081,7 @@
 ||pagead2.googlesyndication.com/pagead/
 ||partner.googleadservices.com/gpt/pubads_impl_*.js^
 ||parts.blog.livedoor.jp/ad/$domain=blog.livedoor.jp
+||pcwelt.de/js/adserver_footer.js^$domain=pcwelt.de
 ||pd4-imp.revsci.net/rtbads/pq^
 ||performix.co.kr/cgi-bin/conad.fcgi/
 ||ph.mediatoday.co.kr/adcontent/script/*.js^$domain=mediatoday.co.kr
@@ -3104,6 +3105,8 @@ pann.nate.com##div.sidebar.ad
 pann.nate.com##div.sidebar_banner
 pann.nate.com##div.view_banner
 pastebin.com##iframe[id^="tfasyncframe_"]
+pcwelt.de##div.ad
+pcwelt.de##div.marketplace
 pickis.co.kr##div.ad
 pickis.co.kr##div.aud_sub
 pickis.co.kr##div.contentDetail>div[style="text-align: center;"]
