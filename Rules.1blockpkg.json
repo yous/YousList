@@ -11816,6 +11816,30 @@
                 }
             },
             {
+                "id": "4cb366b8-1171-4a80-9961-2e32d61ed0d6",
+                "name": "media.adrcdn.com/scripts/w-display/screenad_core_*_scrambled.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?media\\.adrcdn\\.com/scripts/w-display/screenad_core_.*_scrambled\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "48b115ef-35a4-42d5-b9d0-1058e7de346e",
+                "name": "media.adrcdn.com/scripts/w-display/screenad_launch_*_scrambled.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?media\\.adrcdn\\.com/scripts/w-display/screenad_launch_.*_scrambled\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "25f50f08-fe8f-418a-a53b-10c59e9115c6",
                 "name": "mediamixad.com/ad/liveAd",
                 "content": {
@@ -14368,6 +14392,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?script\\.keywordlink\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "004e4a67-47a7-4773-88fd-72c5cf1f8100",
+                "name": "scripts.adrcdn.com/scripts/w-display/screenad_core_*_scrambled.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?scripts\\.adrcdn\\.com/scripts/w-display/screenad_core_.*_scrambled\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7394bc41-4ee8-47ed-b7de-7e12ad0bfe4f",
+                "name": "scripts.adrcdn.com/scripts/w-display/screenad_launch_*_scrambled.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?scripts\\.adrcdn\\.com/scripts/w-display/screenad_launch_.*_scrambled\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -47438,6 +47486,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[id^=\"thehe-\"]"
+                    }
+                }
+            },
+            {
+                "id": "07a25009-e69d-47d4-ab0d-c108eb572523",
+                "name": "thenextweb.com##div.tnw-ad-loaded",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thenextweb\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.tnw-ad-loaded"
+                    }
+                }
+            },
+            {
+                "id": "6d39286d-8179-4eaa-887e-964309c26a45",
+                "name": "thenextweb.com##ins.dcmads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thenextweb\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins.dcmads"
                     }
                 }
             },
