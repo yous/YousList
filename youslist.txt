@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: gcNwZa1Mkx+yf99NnFt/eA
-! Version: 20171122
+! Checksum: y995agFYdyk13IHMVDZi7w
+! Version: 20171124
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -937,6 +937,7 @@
 ||m.tf.co.kr/public/*/ad/ad_read_content*.html^
 ||m.torrentkim10.net/js/banner0122.js^$domain=m.torrentkim10.net
 ||m.torrentkim5.net/js/banner0122.js^$domain=m.torrentkim5.net
+||m.vop.co.kr/templates/js_2016/enliple_blandlink.js^$domain=m.vop.co.kr|vop.co.kr
 ||m.ytn.co.kr/ad/ad_*.html^
 ||m.zbn.donga.com/banner/ad_cauly_hotnews.asp^$domain=m.zbn.donga.com
 ||m1.daumcdn.net/adtc/js/mobilead.js^
@@ -1304,6 +1305,12 @@
 ||veta.naver.com/fxshow^
 ||view.asiae.co.kr/common/ad/
 ||viewsnnews.com/image/advert/
+||vop.co.kr/templates/ad/$domain=vop.co.kr
+||vop.co.kr/templates/ad_2015/$domain=vop.co.kr
+||vop.co.kr/templates/js_2014/criteoAD.js^$domain=vop.co.kr
+||vop.co.kr/templates/js_2016/realclick_fullscrine2.js^$domain=vop.co.kr
+||vop.co.kr/templates/js_2017/mobile_fixed_daumad_32050.js^$domain=vop.co.kr
+||vop.co.kr/templates/js_2017/mobile_syrup_floating.js^$domain=vop.co.kr
 ||vpaid.pubmatic.com/ads/video/PMAdMgr.js^
 ||vpaid.pubmatic.com/ads/video/vadtag.html^
 ||vplayer.dawin.tv/js/*/dawinapi.js^
@@ -3556,20 +3563,15 @@ viva100.com##div.view_view_adv04
 vonvon.me##div.adbanner
 vonvon.me##div.vv-ad
 vonvon.me##vv-dfp-ad
-vop.co.kr##div#articleBody>div[style="text-align:center; margin:0px 0px 0px 0px"]
-vop.co.kr##div#articleBody>div[style="text-align:center; margin:0px 0px 20px 0px"]
-vop.co.kr##div#left_scroll
-vop.co.kr##div#main>div[style="position:absolute; z-index:100;top:1170px;left:-140px;width:120px;"]
-vop.co.kr##div#main>div[style="position:absolute; z-index:100;top:160px;left:990px;width:120px;"]
-vop.co.kr##div#main>div[style="position:absolute; z-index:100;top:1790px;left:-140px;width:120px;"]
-vop.co.kr##div#main>div[style="position:absolute; z-index:100;top:380px;left:990px;width:160px;"]
-vop.co.kr##div#main>div[style="position:absolute; z-index:100;top:550px;left:-180px;width:160px;"]
-vop.co.kr##div#right_scroll
-vop.co.kr##div.adpage-top-ad
-vop.co.kr##div.aside-ad-top
-vop.co.kr##div.bottom-ad
-vop.co.kr##div.listAD
-vop.co.kr##div.top-ad
+vop.co.kr##div.ad-fullscrine
+vop.co.kr##div.ad-middle
+vop.co.kr##div.articlein_ad
+vop.co.kr##div[class^="ad-aside"]
+vop.co.kr##div[class^="ad-bottom-imad"]
+vop.co.kr##div[class^="ad-mobile"]
+vop.co.kr##div[class^="ad-wing"]
+vop.co.kr##iframe[src^="/templates/ad/"]
+vop.co.kr##iframe[src^="/templates/ad_2015/"]
 vubird.com##div#leftadcontainer
 vubird.com##div#rightadcontainer
 wasabisyrup.com##div.article-gallery>div.article-gallery-group
