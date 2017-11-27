@@ -5006,6 +5006,18 @@
                 }
             },
             {
+                "id": "94a3f649-2d72-47c2-97c9-ed4d18d9538c",
+                "name": "ads.exdynsrv.com/nativeads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.exdynsrv\\.com/nativeads\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d2b0d738-496c-4b57-b1e3-8a7a023643a7",
                 "name": "ads.exoclick.com/ads.js",
                 "content": {
@@ -13411,18 +13423,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?open\\.oneplus\\.net/cloud/pushdata"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "f567f734-00bc-4193-b156-84fdea459f32",
-                "name": "openload.co/assets/js/script.*.js",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?openload\\.co/assets/js/script\\..*\\.js"
                     },
                     "action": {
                         "type": "block"
