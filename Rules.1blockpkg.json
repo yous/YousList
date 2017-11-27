@@ -6438,6 +6438,18 @@
                 }
             },
             {
+                "id": "835d7b4f-9829-4b90-875c-318707c7eb80",
+                "name": "c.amazon-adsystem.com/aax2/apstag.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?c\\.amazon-adsystem\\.com/aax2/apstag\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "fd598e9e-7e18-4a6f-a8b8-aadda37913ad",
                 "name": "c.betrad.com/surly.js",
                 "content": {
@@ -7311,6 +7323,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.adrtx\\.net/adrtxtag\\.min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "441cfe04-5d3c-408d-8505-17ca45b096d0",
+                "name": "cdn.adsafeprotected.com/iasPET.1.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.adsafeprotected\\.com/iasPET\\.1\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -13138,6 +13162,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?npian\\.com/nbox/ad.*\\.swf"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "afa1034d-3912-4cd2-aa36-1b3c6aa2de93",
+                "name": "npttech.com/advertising.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?npttech\\.com/advertising\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -23050,6 +23086,32 @@
                 }
             },
             {
+                "id": "ff3dc942-9245-419f-96bd-c5fe6685191d",
+                "name": "businessinsider.com##div#pmad-bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?businessinsider\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#pmad-bottom"
+                    }
+                }
+            },
+            {
+                "id": "8c819f34-e6eb-4c4a-81c6-f5b7bbf11aa8",
+                "name": "businessinsider.com##div#pmad-byline",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?businessinsider\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#pmad-byline"
+                    }
+                }
+            },
+            {
                 "id": "1ae16bbe-c366-46a3-89a6-62f229f1c779",
                 "name": "businessinsider.com##div.ad",
                 "content": {
@@ -23076,6 +23138,32 @@
                 }
             },
             {
+                "id": "ac401405-022a-4376-a2f2-ec96fdc7c779",
+                "name": "businessinsider.com##div.article-ad-bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?businessinsider\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article-ad-bottom"
+                    }
+                }
+            },
+            {
+                "id": "97627853-b6ed-4a28-9888-bf7f55c12930",
+                "name": "businessinsider.com##div.article-ad-image",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?businessinsider\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article-ad-image"
+                    }
+                }
+            },
+            {
                 "id": "dbb3bfe9-402f-4ecc-ad08-c19575b44d53",
                 "name": "businessinsider.com##div.right-ad",
                 "content": {
@@ -23085,6 +23173,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.right-ad"
+                    }
+                }
+            },
+            {
+                "id": "88859851-9a5c-4559-989d-e2a209cb5b01",
+                "name": "businessinsider.com##div.right-rail-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?businessinsider\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.right-rail-ad"
+                    }
+                }
+            },
+            {
+                "id": "f05d4813-161e-41cc-9060-1936b48dccd6",
+                "name": "businessinsider.com##div.slide-ad-bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?businessinsider\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.slide-ad-bottom"
                     }
                 }
             },

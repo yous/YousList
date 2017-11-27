@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: nMQKs4BikL5x/QCUwiwkyQ
+! Checksum: L23LL/SYBrHg06rH1ckUvw
 ! Version: 20171127
 
 ! Workaround for BlockAdBlock
@@ -533,6 +533,7 @@
 ||bs.serving-sys.com/BurstingPipe/adServer.bs^
 ||busygirlblog.com/adserver/$domain=busygirlblog.com
 ||c.amazon-adsystem.com/aax2/amzn_ads.js^
+||c.amazon-adsystem.com/aax2/apstag.js^
 ||c.betrad.com/surly.js^
 ||c1.popads.net/pop.js^
 ||cache.ssend.microad.jp/js/adfunnel-sp-load.js^
@@ -596,6 +597,7 @@
 ||cdn.admixer.net/tscripts/apsm.js^
 ||cdn.admixer.net/tscripts/teasers.js^
 ||cdn.adrtx.net/adrtxtag.min.js^
+||cdn.adsafeprotected.com/iasPET.1.js^
 ||cdn.adsolutions.nl/tagman/WAIT/lib.js^
 ||cdn.adsolutions.nl/tagman/WAIT/sites/*/index.js^
 ||cdn.adstract.com/adstract/tags/xbanner/xbanner.js^
@@ -1050,6 +1052,7 @@
 ||nicovideo.cdn.nimg.jp/web/js/ads.js^$domain=nicovideo.jp
 ||nocutnews.co.kr/banner/2012/ad_right_*.asp^
 ||npian.com/nbox/ad*.swf^
+||npttech.com/advertising.js^
 ||nscreen.neoebiz.co.kr/screenView.js^
 ||nscreen.neoebiz.co.kr/xJqScreen.php^
 ||nscreen.neoebiz.co.kr/xJqScreenView.php^
@@ -1554,9 +1557,15 @@ breaknews.com##div#bn25
 breaknews.com##div.bn
 breaknews.com##div.center_bn
 breaknews.com##div.contents_read>table:nth-of-type(2)>tbody>tr>td[style="padding-top:10px"]
+businessinsider.com##div#pmad-bottom
+businessinsider.com##div#pmad-byline
 businessinsider.com##div.ad
 businessinsider.com##div.ad-subnav-container
+businessinsider.com##div.article-ad-bottom
+businessinsider.com##div.article-ad-image
 businessinsider.com##div.right-ad
+businessinsider.com##div.right-rail-ad
+businessinsider.com##div.slide-ad-bottom
 businessinsider.com##div[data-ad-container]
 businessweek.com##div#promo
 busygirlblog.com##div.ad
