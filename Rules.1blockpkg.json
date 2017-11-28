@@ -43925,6 +43925,19 @@
                 }
             },
             {
+                "id": "89f0a03e-ce7a-46f3-9c78-3b113645db92",
+                "name": "petapixel.com##div.banners",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?petapixel\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banners"
+                    }
+                }
+            },
+            {
                 "id": "93e8a351-046d-4fdc-a874-d04772a7ddc3",
                 "name": "phonearena.com##div#bottom_banner",
                 "content": {
