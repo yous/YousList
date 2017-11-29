@@ -35319,6 +35319,19 @@
                 }
             },
             {
+                "id": "cd3762b7-92bd-4987-b250-80ce9da0da52",
+                "name": "m.mydaily.co.kr##body>div[style=\"background:#fff; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; margin-bottom:10px; margin-top:5px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mydaily\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"background:#fff; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; margin-bottom:10px; margin-top:5px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "53c79fd4-b6b4-471e-aaa6-918e35bfb5ea",
                 "name": "m.mydaily.co.kr##body>div[style=\"background:#fff; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd;\"]",
                 "content": {
@@ -35328,6 +35341,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "body>div[style=\"background:#fff; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd;\"]"
+                    }
+                }
+            },
+            {
+                "id": "5d53c1c3-8fff-4ddd-a92c-0e8b27cc44eb",
+                "name": "m.mydaily.co.kr##body>div[style=\"background:#fff; padding-top:10px; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; margin:10px 0\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mydaily\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"background:#fff; padding-top:10px; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; margin:10px 0\"]"
                     }
                 }
             },
@@ -35345,54 +35371,54 @@
                 }
             },
             {
-                "id": "480fb525-3b5e-420a-8105-aa28e71a8d1b",
-                "name": "m.mydaily.co.kr##div.read_view>div[style=\"float:right; width:202px; height:202px; margin:0 !important; padding:0 !important; background:#fff; border:1px solid #ccc;\"]",
+                "id": "2abf71aa-6371-4db9-b9ef-f2c74e15b6c2",
+                "name": "m.mydaily.co.kr##div.read_view>div[style=\"float:right; margin:40px 0 0 5px; width:202px; height:202px; background:#fff; border:1px solid #ccc;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mydaily\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.read_view>div[style=\"float:right; width:202px; height:202px; margin:0 !important; padding:0 !important; background:#fff; border:1px solid #ccc;\"]"
+                        "selector": "div.read_view>div[style=\"float:right; margin:40px 0 0 5px; width:202px; height:202px; background:#fff; border:1px solid #ccc;\"]"
                     }
                 }
             },
             {
-                "id": "1c271fe3-0142-4c18-93dc-90d394fcdb73",
-                "name": "m.mydaily.co.kr##div.read_view>div[style=\"margin-top:10px; margin-bottom:10px; text-align:center;\"]",
+                "id": "1dc943be-e375-4999-940e-01992b790b04",
+                "name": "m.mydaily.co.kr##div.read_view>div[style=\"margin-top:10px; margin-bottom:-20px; text-align:center;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mydaily\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.read_view>div[style=\"margin-top:10px; margin-bottom:10px; text-align:center;\"]"
+                        "selector": "div.read_view>div[style=\"margin-top:10px; margin-bottom:-20px; text-align:center;\"]"
                     }
                 }
             },
             {
-                "id": "7eb99054-23b9-45b8-90d6-7e843409459a",
-                "name": "m.mydaily.co.kr##div.read_view>div[style=\"text-align:left; margin:-20px 0 -10px; -30px;\"]",
+                "id": "ed21c01e-09d5-4d96-a9cf-2ff8b79aa32e",
+                "name": "m.mydaily.co.kr##div.read_view>div[style=\"text-align:left; margin:-12px 0 7px -15px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mydaily\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.read_view>div[style=\"text-align:left; margin:-20px 0 -10px; -30px;\"]"
+                        "selector": "div.read_view>div[style=\"text-align:left; margin:-12px 0 7px -15px;\"]"
                     }
                 }
             },
             {
-                "id": "2fb96af6-6679-4869-b93f-efde707c4ff0",
-                "name": "m.mydaily.co.kr##div.read_wrap>div[style=\"background:#fff; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; \"]",
+                "id": "e02adbe2-9e38-4a01-ad82-12e85eebe75e",
+                "name": "m.mydaily.co.kr##div.read_wrap>div[style=\"margin-left:10px; line-height:19px; height:30px; margin-top:2px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mydaily\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.read_wrap>div[style=\"background:#fff; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; \"]"
+                        "selector": "div.read_wrap>div[style=\"margin-left:10px; line-height:19px; height:30px; margin-top:2px;\"]"
                     }
                 }
             },
