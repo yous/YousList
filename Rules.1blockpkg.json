@@ -27207,6 +27207,32 @@
                 }
             },
             {
+                "id": "5a4c3b18-88bb-4b28-a3e9-9c3e78aa88c6",
+                "name": "forums.digitalspy.com##div.bottom-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?forums\\.digitalspy\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bottom-ad"
+                    }
+                }
+            },
+            {
+                "id": "7f8e1b93-6c8d-47e0-b1e9-d13a262bec3c",
+                "name": "forums.digitalspy.com##div.markering",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?forums\\.digitalspy\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.markering"
+                    }
+                }
+            },
+            {
                 "id": "9b2854d6-e56e-4016-8e16-30bb502fa21e",
                 "name": "forums.macrumors.com##div.funbox",
                 "content": {
