@@ -24750,6 +24750,71 @@
                 }
             },
             {
+                "id": "6b650057-45b8-4ba1-ad08-202c8e7759d8",
+                "name": "digitalspy.com##div.ad-gpt-breaker",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?digitalspy\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-gpt-breaker"
+                    }
+                }
+            },
+            {
+                "id": "0f9a3d8b-ccc0-4466-9cb0-66b02384199f",
+                "name": "digitalspy.com##div.ad-gpt-breaker-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?digitalspy\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-gpt-breaker-container"
+                    }
+                }
+            },
+            {
+                "id": "e4decde5-7c2c-486d-b2ec-cc3338d63ac0",
+                "name": "digitalspy.com##div.ad-gpt-main",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?digitalspy\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-gpt-main"
+                    }
+                }
+            },
+            {
+                "id": "b255800d-b1aa-482e-8034-b1d95c933b17",
+                "name": "digitalspy.com##div.landing-feed--ad-vertical",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?digitalspy\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.landing-feed--ad-vertical"
+                    }
+                }
+            },
+            {
+                "id": "b7b1bc08-5e99-4fbe-b15b-b90f185a73e9",
+                "name": "digitalspy.com##div.leaderboard",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?digitalspy\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.leaderboard"
+                    }
+                }
+            },
+            {
                 "id": "be394552-2180-4b5a-bd91-5ef615fe86d0",
                 "name": "digitaltrends.com##div.dtads-slot",
                 "content": {
