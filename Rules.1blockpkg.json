@@ -42443,6 +42443,19 @@
                 }
             },
             {
+                "id": "9699567e-ce85-4178-9c1e-78cdce0ee1c8",
+                "name": "news.zum.com##div.banner_big",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.zum\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_big"
+                    }
+                }
+            },
+            {
                 "id": "0a33e4b9-e3e9-4407-9e41-c70a46aca7f7",
                 "name": "news1.kr##div#adiBanner",
                 "content": {
