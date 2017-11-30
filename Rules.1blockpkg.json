@@ -53998,6 +53998,71 @@
                         "selector": "section.mpu"
                     }
                 }
+            },
+            {
+                "id": "338431fa-711f-461d-a24b-468d9653e314",
+                "name": "zum.com##a#d_lefttop_banner_default",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zum\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a#d_lefttop_banner_default"
+                    }
+                }
+            },
+            {
+                "id": "de468def-9116-4888-ad5a-d153bafd4a45",
+                "name": "zum.com##div#adx_zum_main_leftwing",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zum\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adx_zum_main_leftwing"
+                    }
+                }
+            },
+            {
+                "id": "e9a01f45-3d5f-4908-854f-ccaa70f85814",
+                "name": "zum.com##div#adx_zum_main_rightwing",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zum\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adx_zum_main_rightwing"
+                    }
+                }
+            },
+            {
+                "id": "d69869a7-5039-4df0-b8d1-4842410fa3e4",
+                "name": "zum.com##div#wrap_ad_main",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zum\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wrap_ad_main"
+                    }
+                }
+            },
+            {
+                "id": "3ced7f97-636a-4ac5-99b1-466f2dbfc63d",
+                "name": "zum.com##div#wrap_ad_minisite",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zum\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wrap_ad_minisite"
+                    }
+                }
             }
         ]
     }
