@@ -45277,6 +45277,19 @@
                 }
             },
             {
+                "id": "6cbe722d-ee19-4d9a-964f-7988fb866e4a",
+                "name": "search.zum.com##div.banner_content",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?search\\.zum\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_content"
+                    }
+                }
+            },
+            {
                 "id": "dd8f0dc8-cf09-425d-ad4a-2c661029c794",
                 "name": "seasonvar.ru##div.pgs-player>div[align=\"center\"]>div[style=\"height:275px\"]",
                 "content": {
