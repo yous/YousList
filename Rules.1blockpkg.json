@@ -52739,6 +52739,32 @@
                 }
             },
             {
+                "id": "3e702523-5a56-43f5-9456-431fe5a9b0a4",
+                "name": "wired.com##div.advertisement__leaderboard",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wired\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advertisement__leaderboard"
+                    }
+                }
+            },
+            {
+                "id": "481e9fe7-be58-4ffb-90d8-e6c4c96f24ee",
+                "name": "wired.com##div.mid-banner-wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wired\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mid-banner-wrap"
+                    }
+                }
+            },
+            {
                 "id": "c4464784-649c-4201-bda7-f246f4479796",
                 "name": "womad.me##div#sticky",
                 "content": {
