@@ -35917,6 +35917,45 @@
                 }
             },
             {
+                "id": "20952a5a-2e11-46eb-a2dd-6e6154ffb838",
+                "name": "m.newsway.co.kr##div.ad_area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.newsway\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_area"
+                    }
+                }
+            },
+            {
+                "id": "bf342bc2-e175-425b-bd59-4c7e9f1df2d9",
+                "name": "m.newsway.co.kr##div.text_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.newsway\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.text_ad"
+                    }
+                }
+            },
+            {
+                "id": "68ac21db-09bd-4174-8fae-ed63a77cf622",
+                "name": "m.newsway.co.kr##div[itemprop=\"articleBody\"]>div[style=\"height:85px; overflow:hidden;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.newsway\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[itemprop=\"articleBody\"]>div[style=\"height:85px; overflow:hidden;\"]"
+                    }
+                }
+            },
+            {
                 "id": "3c71bd13-ff68-4391-a625-c76be25bb0ea",
                 "name": "m.newsworker.co.kr##section.advertisment",
                 "content": {
