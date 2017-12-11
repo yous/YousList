@@ -2838,6 +2838,19 @@
                 }
             },
             {
+                "id": "fe9abfe7-a5e2-4605-8a0b-82e9d00ffaa1",
+                "name": "##ins.adsbyadop",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins.adsbyadop"
+                    }
+                }
+            },
+            {
                 "id": "45c69c28-94ef-4ba1-b145-9cb461e91e2f",
                 "name": "##ins.adsbygoogle",
                 "content": {
@@ -7863,6 +7876,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?compass\\.adop\\.cc/assets/js/adop/adop\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d579c9d9-b7a6-4ce5-b6ad-9ea1c37d0ef7",
+                "name": "compass.adop.cc/assets/js/adop/adopJ.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?compass\\.adop\\.cc/assets/js/adop/adopJ\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -15201,6 +15226,66 @@
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?spojoy\\.com/_html/_js/event/fluting_scroll\\.js",
                         "if-domain": [
                             "spojoy.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "452f0141-a970-4839-b001-a1ef50080bcc",
+                "name": "sporbiz.co.kr/banner/topbanner_main.html$domain=sporbiz.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sporbiz\\.co\\.kr/banner/topbanner_main\\.html",
+                        "if-domain": [
+                            "sporbiz.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "213762a6-4f5e-47c5-a818-b5edfe7ac8b8",
+                "name": "sporbiz.co.kr/bannerpop/uploads/js/*.js$domain=sporbiz.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sporbiz\\.co\\.kr/bannerpop/uploads/js/.*\\.js",
+                        "if-domain": [
+                            "sporbiz.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "24773f5e-4a6c-4382-9346-abebc748c0f5",
+                "name": "sporbiz.co.kr/script/bannerpop.js$domain=sporbiz.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sporbiz\\.co\\.kr/script/bannerpop\\.js",
+                        "if-domain": [
+                            "sporbiz.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8a70fcc2-ba43-47e6-87e1-7bb808b190ca",
+                "name": "sporbiz.co.kr/script/floating.banner.js$domain=sporbiz.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sporbiz\\.co\\.kr/script/floating\\.banner\\.js",
+                        "if-domain": [
+                            "sporbiz.co.kr"
                         ]
                     },
                     "action": {
@@ -46053,6 +46138,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.realssp_dv"
+                    }
+                }
+            },
+            {
+                "id": "62a9140d-6bd7-4317-b380-70aa35a34cd3",
+                "name": "sporbiz.co.kr##div#article-view-content-div>div[style=\"float:left; clear:both; margin:10px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sporbiz\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article-view-content-div>div[style=\"float:left; clear:both; margin:10px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "0b43186c-7b30-4d78-9331-61a1cf6921a5",
+                "name": "sporbiz.co.kr##div#article-view-content-div>div[style=\"float:left; width:215px; height:200px; padding-left:5px; padding-top:5px; padding-bottom:5px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sporbiz\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article-view-content-div>div[style=\"float:left; width:215px; height:200px; padding-left:5px; padding-top:5px; padding-bottom:5px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "9193e59c-5060-4c91-bd5f-4a3493b0aa93",
+                "name": "sporbiz.co.kr##div#article-view-content-div>div[style=\"padding-left:5px; padding-top:5px; padding-bottom:5px; padding-right:10px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sporbiz\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article-view-content-div>div[style=\"padding-left:5px; padding-top:5px; padding-bottom:5px; padding-right:10px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "bd837d66-3059-4f29-a1f0-0a66ff884bb7",
+                "name": "sporbiz.co.kr##iframe[src^=\"/banner/topbanner_main.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sporbiz\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/banner/topbanner_main.html\"]"
                     }
                 }
             },
