@@ -21078,6 +21078,32 @@
                 }
             },
             {
+                "id": "eb600a21-b492-4624-a8cf-fb1144ff55a3",
+                "name": "asiae.co.kr##div.asiae_sv_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.asiae_sv_banner"
+                    }
+                }
+            },
+            {
+                "id": "08f45a72-19d2-49a1-8f33-3c10ef7ebe47",
+                "name": "view.asiae.co.kr##div.asiae_sv_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?view\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.asiae_sv_banner"
+                    }
+                }
+            },
+            {
                 "id": "cad344ec-784f-48cd-9164-18ddfcf0750b",
                 "name": "asiae.co.kr##div.banner_ad",
                 "content": {
