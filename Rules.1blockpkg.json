@@ -23951,15 +23951,41 @@
                 }
             },
             {
-                "id": "20efebc8-622b-4332-b3dd-da2cec87fb8d",
-                "name": "cm.asiae.co.kr##div.va_cont>byeline>div[style=\"padding:10px 0px;text-align: center;\"]",
+                "id": "ee4d20fd-9bc9-4a44-bfb1-3ef55a47d601",
+                "name": "cm.asiae.co.kr##div.main_banner",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cm\\.asiae\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.va_cont>byeline>div[style=\"padding:10px 0px;text-align: center;\"]"
+                        "selector": "div.main_banner"
+                    }
+                }
+            },
+            {
+                "id": "025838dc-b7d3-4466-a795-b20b97722a5e",
+                "name": "cm.asiae.co.kr##div.sv_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cm\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sv_banner"
+                    }
+                }
+            },
+            {
+                "id": "4aeddeb5-8551-4e5d-aab5-7b693140140a",
+                "name": "cm.asiae.co.kr##div.va_cont>div[style=\"padding:10px 0px;text-align: center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cm\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.va_cont>div[style=\"padding:10px 0px;text-align: center;\"]"
                     }
                 }
             },
