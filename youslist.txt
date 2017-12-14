@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: cixzXszDDcZX4CXVKpScTg
+! Checksum: +d6nmpopBhUkIuswG5Ti4A
 ! Version: 20171214
 
 ! Workaround for BlockAdBlock
@@ -342,6 +342,7 @@
 ||ad.turn.com/server/ads.js^
 ||ad.vkoad.com/showads.php^
 ||ad.wowtv.co.kr^
+||ad.xc.netinsight.co.kr^
 ||ad.xc.nis.nitmus.com^
 ||ad.yieldlab.net/yp/
 ||ad.yieldmanager.com^
@@ -990,6 +991,7 @@
 ||mp3cc.com/api/iframe/stickyblock^$domain=mp3cc.com
 ||mrelko.com/bnrs/
 ||mt.co.kr/ad/
+||mtag.mman.kr/get_ad.mezzo/
 ||mtag.mman.kr/js.mezzo/
 ||munhwa.com/skin/inc_right/inc_denta_ad_iframe.html^
 ||mv.ad.naver.com/adshow^
@@ -2292,6 +2294,13 @@ m.chosun.com##iframe[src^="http://m.chosun.com/gnc2.html"]
 m.chosun.com##iframe[src^="http://m.chosun.com/gnc3.html"]
 m.chosun.com##iframe[src^="http://m.chosun.com/itad.html"]
 m.chosun.com##iframe[src^="http://m.chosun.com/tad.html"]
+m.cine21.com##div#cine21_video_ad_here
+m.cine21.com##div#cnt>div[style="background:#fff"]>div[id^="crt-"][style="width:300px;height:250px; margin:0 auto"]
+m.cine21.com##div.article_area>div[id^="crt-"][style="width:320px;height:50px; margin:0 auto 15px;"]
+m.cine21.com##div.article_area>div[style="width:320px; height:50px; margin:0 auto 15px;"]
+m.cine21.com##div.article_area>div[style="width:320px;height:100px; margin:0 auto 15px;"]
+m.cine21.com##div.hanad_area
+m.cine21.com##ul#lst_card>li.point>div[style="width:320px; height:50px; margin:0 auto 15px; "]
 m.comic.naver.com##div#AD_WEBTOON_MOBILEWEB_UP
 m.comic.naver.com##div#adPostArea
 m.comic.naver.com##div.ads_sc

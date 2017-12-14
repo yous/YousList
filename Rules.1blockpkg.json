@@ -4104,6 +4104,18 @@
                 }
             },
             {
+                "id": "dbd068d9-782d-4665-8607-fdfcf7c37691",
+                "name": "ad.xc.netinsight.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.xc\\.netinsight\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "25baec24-7475-4ca0-a745-b0bc62304dca",
                 "name": "ad.xc.nis.nitmus.com",
                 "content": {
@@ -12389,6 +12401,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mt\\.co\\.kr/ad/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cda986f8-6055-4799-b262-612e05108a14",
+                "name": "mtag.mman.kr/get_ad.mezzo/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mtag\\.mman\\.kr/get_ad\\.mezzo/"
                     },
                     "action": {
                         "type": "block"
@@ -32944,6 +32968,97 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://m.chosun.com/tad.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "7c6cadb9-4e6c-4ef9-828d-4a89a708dc99",
+                "name": "m.cine21.com##div#cine21_video_ad_here",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.cine21\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#cine21_video_ad_here"
+                    }
+                }
+            },
+            {
+                "id": "5c2af291-374f-46a4-a71f-61232020c639",
+                "name": "m.cine21.com##div#cnt>div[style=\"background:#fff\"]>div[id^=\"crt-\"][style=\"width:300px;height:250px; margin:0 auto\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.cine21\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#cnt>div[style=\"background:#fff\"]>div[id^=\"crt-\"][style=\"width:300px;height:250px; margin:0 auto\"]"
+                    }
+                }
+            },
+            {
+                "id": "426cca36-2f5e-4b9f-8642-483e963706f3",
+                "name": "m.cine21.com##div.article_area>div[id^=\"crt-\"][style=\"width:320px;height:50px; margin:0 auto 15px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.cine21\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article_area>div[id^=\"crt-\"][style=\"width:320px;height:50px; margin:0 auto 15px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "fe97a957-736f-4ba1-bb7c-7bf4d0fb0bb5",
+                "name": "m.cine21.com##div.article_area>div[style=\"width:320px; height:50px; margin:0 auto 15px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.cine21\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article_area>div[style=\"width:320px; height:50px; margin:0 auto 15px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "09960be5-11c5-4473-81d0-0d59333c88e0",
+                "name": "m.cine21.com##div.article_area>div[style=\"width:320px;height:100px; margin:0 auto 15px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.cine21\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article_area>div[style=\"width:320px;height:100px; margin:0 auto 15px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "b6d1c100-8bd3-411c-9463-fe015162d32c",
+                "name": "m.cine21.com##div.hanad_area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.cine21\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.hanad_area"
+                    }
+                }
+            },
+            {
+                "id": "0eb721b0-e531-4318-8a0e-574e394deeec",
+                "name": "m.cine21.com##ul#lst_card>li.point>div[style=\"width:320px; height:50px; margin:0 auto 15px; \"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.cine21\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul#lst_card>li.point>div[style=\"width:320px; height:50px; margin:0 auto 15px; \"]"
                     }
                 }
             },
