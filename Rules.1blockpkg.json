@@ -7679,6 +7679,21 @@
                 }
             },
             {
+                "id": "5f4cdb93-839c-4fa7-9a32-82b1ccac736e",
+                "name": "cine21.com/misc/iframe/ad_netinsight/$domain=cine21.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cine21\\.com/misc/iframe/ad_netinsight/",
+                        "if-domain": [
+                            "cine21.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a2008e12-a083-425d-982b-a1f72f06fe67",
                 "name": "cjmooter.xcache.kinxcdn.com/script/",
                 "content": {
@@ -9625,6 +9640,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gwk\\.adlibr\\.com/script/web/smart/banner_ad\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d14ef3ca-0f8f-4ecf-bcda-041fc449c569",
+                "name": "gwx.adlibr.com/script/advi/advi.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gwx\\.adlibr\\.com/script/advi/advi\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -23687,6 +23714,97 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "section.bk-contents>div[style=\"margin-top:10px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "d4e48897-c3c8-46e1-a574-a14b134c874a",
+                "name": "cine21.com##div.banner_criteo",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cine21\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_criteo"
+                    }
+                }
+            },
+            {
+                "id": "6585e2da-d8e2-42fb-9db7-ce3ca54d3a17",
+                "name": "cine21.com##div.banner_footer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cine21\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_footer"
+                    }
+                }
+            },
+            {
+                "id": "fa1c4b37-bd16-4072-bafc-9995c124d3bf",
+                "name": "cine21.com##div.banner_han_230x180",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cine21\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_han_230x180"
+                    }
+                }
+            },
+            {
+                "id": "a0af244d-e7dd-4cb1-bdc3-30d7bbfa74f7",
+                "name": "cine21.com##div.banner_iframe_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cine21\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_iframe_wrap"
+                    }
+                }
+            },
+            {
+                "id": "59411397-72d7-48d2-adda-c3061b077317",
+                "name": "cine21.com##div.banner_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cine21\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_top"
+                    }
+                }
+            },
+            {
+                "id": "8041aff7-788a-4bef-8576-a662cc9d2b98",
+                "name": "cine21.com##div.main_content_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cine21\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.main_content_banner"
+                    }
+                }
+            },
+            {
+                "id": "a8054bb2-1ce8-442c-a670-a55411550156",
+                "name": "cine21.com##iframe[src^=\"/misc/iframe/ad_netinsight/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cine21\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/misc/iframe/ad_netinsight/\"]"
                     }
                 }
             },
