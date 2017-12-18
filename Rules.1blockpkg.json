@@ -6002,6 +6002,30 @@
                 }
             },
             {
+                "id": "808b6b09-f35f-462b-b69f-77c66b34d480",
+                "name": "api.ficm.contentlink.co.kr/api/ficm_result.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?api\\.ficm\\.contentlink\\.co\\.kr/api/ficm_result\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "68ffccc9-0d80-48cc-b146-260a371ff01b",
+                "name": "api.ficm.contentlink.co.kr/api/ficm_result_view.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?api\\.ficm\\.contentlink\\.co\\.kr/api/ficm_result_view\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "727aa67b-455c-4b70-a4eb-52e7b45393e7",
                 "name": "api.megamouth.kr/pu_con.php",
                 "content": {
@@ -52143,6 +52167,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "67d32d02-391d-4912-912b-b3085f9c3409",
+                "name": "updownnews.co.kr##div[id^=\"layerPopup_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?updownnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"layerPopup_\"]"
                     }
                 }
             },
