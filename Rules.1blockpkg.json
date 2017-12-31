@@ -32138,6 +32138,32 @@
                 }
             },
             {
+                "id": "5f3869bc-daf9-4636-b50d-cd841a71cc50",
+                "name": "krebsonsecurity.com##div#sidebar-box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?krebsonsecurity\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sidebar-box"
+                    }
+                }
+            },
+            {
+                "id": "43f9f196-41a7-4094-8360-c33cc7d94510",
+                "name": "krebsonsecurity.com##div#top-banner-image",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?krebsonsecurity\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#top-banner-image"
+                    }
+                }
+            },
+            {
                 "id": "8a11ce8c-333d-49a7-a3a0-b5b5ebce8626",
                 "name": "krugznaniy.ru##div.GAdvert",
                 "content": {
