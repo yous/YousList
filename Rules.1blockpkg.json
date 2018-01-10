@@ -46516,6 +46516,32 @@
                 }
             },
             {
+                "id": "b740eb89-c1fb-4545-a0da-a163af1155eb",
+                "name": "sourceforge.net##div.sterling",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sourceforge\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sterling"
+                    }
+                }
+            },
+            {
+                "id": "c69bb18d-66e2-42e6-8e74-1b2275f995db",
+                "name": "sourceforge.net##section.sterling",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sourceforge\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.sterling"
+                    }
+                }
+            },
+            {
                 "id": "76f62415-2390-4bac-a32b-7e7734ae0728",
                 "name": "speconomy.com##div#article-control>table>tbody>tr:nth-of-type(2)>td:first-of-type>center[style=\"padding:30px 0; clear:both;\"]",
                 "content": {
