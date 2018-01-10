@@ -54004,6 +54004,32 @@
                 }
             },
             {
+                "id": "0702457c-2290-46a6-8dfd-b7554f162bab",
+                "name": "yahoo.com##div#Billboard-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yahoo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#Billboard-ad"
+                    }
+                }
+            },
+            {
+                "id": "333a5798-a594-48b4-9641-272464979163",
+                "name": "yahoo.com##div.footer_ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yahoo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.footer_ads"
+                    }
+                }
+            },
+            {
                 "id": "653d1885-b3c6-4c40-8926-b71a8b1232bd",
                 "name": "yahoo.com##div.type_ads",
                 "content": {
@@ -54013,6 +54039,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.type_ads"
+                    }
+                }
+            },
+            {
+                "id": "b13ddc1c-c3b7-44aa-ad8c-6f0bd3d98c59",
+                "name": "yahoo.com##div[id^=\"hl-ad-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yahoo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"hl-ad-\"]"
+                    }
+                }
+            },
+            {
+                "id": "5e7f5aab-3ed6-4c29-8446-b41d71d517d7",
+                "name": "yahoo.com##div[id^=\"mrt-node-\"][id$=\"-Ad\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yahoo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"mrt-node-\"][id$=\"-Ad\"]"
+                    }
+                }
+            },
+            {
+                "id": "396e4b2b-f898-4bd6-ba75-8820fb8328e1",
+                "name": "yahoo.com##div[id^=\"mrt-node-\"][id$=\"-ComboAd\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yahoo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"mrt-node-\"][id$=\"-ComboAd\"]"
+                    }
+                }
+            },
+            {
+                "id": "c27bcd5b-bf6f-4551-9e74-3bea7f1e47a3",
+                "name": "yahoo.com##div[id^=\"my-ads\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yahoo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"my-ads\"]"
                     }
                 }
             },
