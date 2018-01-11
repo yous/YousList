@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: X8ZZi0pVCwhZxiXAXhQGkA
-! Version: 20180110
+! Checksum: FyiWBo5TUu0wyNOakuxJFQ
+! Version: 20180111
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -517,6 +517,7 @@
 ||ask.nate.com/iframe/sponsor.html^
 ||assets.gunosy.com/adnet/gunosy_ads.min.js^
 ||assoc-amazon.com/s/ads.js^
+||async01.admantx.com/admantx/service^
 ||at.atwola.com/addyn/3.0/
 ||ax-d.pixfuture.net/w/1.0/afr^
 ||b.a2gw.com/b/*.js^
@@ -648,6 +649,7 @@
 ||compass.adop.cc/assets/js/adop/adop.js^
 ||compass.adop.cc/assets/js/adop/adopJ.js^
 ||connect.facebook.net/en_US/fbadnw.js^
+||contextual.media.net/bidexchange.js^
 ||contextual.media.net/nmedianet.js^
 ||coolsoft.altervista.org/sites/all/themes/coolsoft/js/coolsoft.js^
 ||cpv.ad.naver.com/adshow^
@@ -1140,6 +1142,7 @@
 ||res.heraldm.com/js/ad/
 ||resources.infolinks.com/js/infolinks_main.js^
 ||resources.infolinks.com/static/quantcast/quantcast.js^
+||reuters.com/reuters_gpt_bootstrap.js^$domain=reuters.com
 ||reviewstar.hankooki.com/ad/
 ||rmprepusb.com/porpoiseant/banger.js^$domain=rmprepusb.com
 ||rsense-ad.realclick.co.kr/rsense/rsense_ad.js^
@@ -3272,6 +3275,8 @@ redstate.com##div.ad-300x250
 redstate.com##div.banner-ad
 redstate.com##div.row>div.ad.col-xs-4
 redstate.com##div.row>div.ad.col-xs-6
+reuters.com##div[class^="CanvasAd_container_"]
+reuters.com##div[class^="DPSlot_container_"]
 reviewstar.hankooki.com##li.ad_plex_a250
 rmprepusb.com##span.ezoic-ad
 ruliweb.com##div.ad
