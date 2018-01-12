@@ -9660,18 +9660,6 @@
                 }
             },
             {
-                "id": "2d6f8b70-873e-419e-80d3-22cac66dcabc",
-                "name": "googletagservices.com/tag/js/gpt.js",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?googletagservices\\.com/tag/js/gpt\\.js"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "701c4fe5-0d1b-4714-b908-5cebc8c94a0e",
                 "name": "gsad.gameshot.net",
                 "content": {
@@ -14760,6 +14748,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?securepubads\\.g\\.doubleclick\\.net/gampad/google_ads\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "80b96d72-8326-4bd6-b8b6-072c5abe1a4e",
+                "name": "securepubads.g.doubleclick.net/gpt/pubads_impl_*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?securepubads\\.g\\.doubleclick\\.net/gpt/pubads_impl_.*\\.js"
                     },
                     "action": {
                         "type": "block"
