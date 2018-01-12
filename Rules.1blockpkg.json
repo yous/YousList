@@ -2734,6 +2734,19 @@
                 }
             },
             {
+                "id": "6b6db173-33e6-4b32-b8b9-0edd37722aec",
+                "name": "##iframe[src^=\"http://zone5.adpopcon.com/cgi-bin/PelicanC.dll\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://zone5.adpopcon.com/cgi-bin/PelicanC.dll\"]"
+                    }
+                }
+            },
+            {
                 "id": "cb8c6752-3acc-4c31-b63c-198a28f86712",
                 "name": "##iframe[src^=\"https://ads.adjust-net.jp/adserver/ads\"]",
                 "content": {
@@ -17181,6 +17194,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zdnet\\.co\\.kr/pixel2/pixel_top\\.htm"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9cde5d88-c0d4-481c-9799-daf12fd5d277",
+                "name": "zone5.adpopcon.com/cgi-bin/PelicanC.dll",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zone5\\.adpopcon\\.com/cgi-bin/PelicanC\\.dll"
                     },
                     "action": {
                         "type": "block"
@@ -53519,6 +53544,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_left_banner_criteo_ad"
+                    }
+                }
+            },
+            {
+                "id": "f2a96c00-0871-4e8d-8271-7b757f38814d",
+                "name": "wikitree.co.kr##div.ad_realclick_relation_bar",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_realclick_relation_bar"
                     }
                 }
             },
