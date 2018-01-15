@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: v6aT3hSmBijA0eCcZyncUQ
+! Checksum: U1d/HIuZGJ6N09CeK5jGEw
 ! Version: 20180115
 
 ! Workaround for BlockAdBlock
@@ -112,6 +112,7 @@
 ##iframe[src^="http://ads.ecoadproject.co.kr/"]
 ##iframe[src^="http://ads.mangouni.com/mad/"]
 ##iframe[src^="http://ads.mncmedia.co.kr/"]
+##iframe[src^="http://ads.mobitree.co.kr/cgi-bin/PelicanC.dll"]
 ##iframe[src^="http://ads.priel.co.kr/cgi-bin/PelicanC.dll"]
 ##iframe[src^="http://ads.pubmatic.com/AdServer/js/showad.js"]
 ##iframe[src^="http://ads.pubmatic.com/AdServer/js/user_sync.html"]
@@ -427,6 +428,7 @@
 ||ads.gamemeca.com^
 ||ads.mangouni.com/mad/
 ||ads.mncmedia.co.kr^
+||ads.mobitree.co.kr/cgi-bin/PelicanC.dll^
 ||ads.nicovideo.jp/api/OxBannerService/getAdvertisements.jsonp^$domain=embed.nicovideo.jp|nicovideo.jp
 ||ads.nicovideo.jp/bannertext^$domain=embed.nicovideo.jp|nicovideo.jp
 ||ads.priel.co.kr/cgi-bin/PelicanC.dll^
@@ -2421,6 +2423,9 @@ m.focus.kr##div.ad-box
 m.focus.kr##div.adv_bottom
 m.focus.kr##div.fixed_ad
 m.focus.kr##iframe[id^="adv_banner"]
+m.g-enews.com##a[href^="/extcont/adclick.php"]
+m.g-enews.com##div.ad1d
+m.g-enews.com##div.ad2d
 m.game.xportsnews.com##div.in_200_200
 m.gamechosun.co.kr##body>div[style="overflow:hidden;width:100%;height:0;padding-bottom:16%;"]
 m.gamechosun.co.kr##div.ad_com_bener

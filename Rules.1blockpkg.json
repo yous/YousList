@@ -1226,6 +1226,19 @@
                 }
             },
             {
+                "id": "f056471d-eca1-4e1d-af58-5183e970cc3e",
+                "name": "##iframe[src^=\"http://ads.mobitree.co.kr/cgi-bin/PelicanC.dll\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ads.mobitree.co.kr/cgi-bin/PelicanC.dll\"]"
+                    }
+                }
+            },
+            {
                 "id": "e9c4cd32-9c58-4f76-9ab5-f9a15fc60686",
                 "name": "##iframe[src^=\"http://ads.priel.co.kr/cgi-bin/PelicanC.dll\"]",
                 "content": {
@@ -5122,6 +5135,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.mncmedia\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7556b38f-68cf-4590-9d1c-ac1f27208124",
+                "name": "ads.mobitree.co.kr/cgi-bin/PelicanC.dll",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.mobitree\\.co\\.kr/cgi-bin/PelicanC\\.dll"
                     },
                     "action": {
                         "type": "block"
@@ -34615,6 +34640,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[id^=\"adv_banner\"]"
+                    }
+                }
+            },
+            {
+                "id": "ee81320b-699d-4133-b366-a3d7288d26a4",
+                "name": "m.g-enews.com##a[href^=\"/extcont/adclick.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.g-enews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"/extcont/adclick.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "ab74f432-050e-4e59-8120-6ee3abc063dc",
+                "name": "m.g-enews.com##div.ad1d",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.g-enews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad1d"
+                    }
+                }
+            },
+            {
+                "id": "07139e6c-504e-4f03-828b-4ca6a2ba176d",
+                "name": "m.g-enews.com##div.ad2d",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.g-enews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad2d"
                     }
                 }
             },
