@@ -1499,6 +1499,19 @@
                 }
             },
             {
+                "id": "001289dd-b49d-40a3-9446-f27d33ae34cf",
+                "name": "##iframe[src^=\"http://c6.daisy6.com/v1/adreq\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://c6.daisy6.com/v1/adreq\"]"
+                    }
+                }
+            },
+            {
                 "id": "1283b193-c87e-41c3-9839-769c5fb3a9aa",
                 "name": "##iframe[src^=\"http://cadvv.heraldm.com/nbiz/\"]",
                 "content": {
@@ -6541,6 +6554,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?c1\\.popads\\.net/pop\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "25c77b35-c1ca-417c-98a6-9834f4511a0e",
+                "name": "c6.daisy6.com/v1/adreq",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?c6\\.daisy6\\.com/v1/adreq"
                     },
                     "action": {
                         "type": "block"
@@ -27739,6 +27764,123 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.adCtnt"
+                    }
+                }
+            },
+            {
+                "id": "8bd5c3ef-8700-45eb-9a9e-ddeceb1bc5b1",
+                "name": "g-enews.com##div#sliding_adop",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?g-enews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sliding_adop"
+                    }
+                }
+            },
+            {
+                "id": "ef44f0f3-d06a-4c16-be26-07285c4e10fb",
+                "name": "g-enews.com##div#sliding_adopP",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?g-enews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sliding_adopP"
+                    }
+                }
+            },
+            {
+                "id": "a4f34288-6ec8-457b-b6e2-f7afcc49c364",
+                "name": "g-enews.com##div.daisy",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?g-enews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.daisy"
+                    }
+                }
+            },
+            {
+                "id": "5aaee189-568b-411d-96d6-3f47e20605f4",
+                "name": "g-enews.com##div.lbanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?g-enews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.lbanner"
+                    }
+                }
+            },
+            {
+                "id": "de34716c-8fa5-449e-b32a-4a248a92deb8",
+                "name": "g-enews.com##div.rbanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?g-enews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rbanner"
+                    }
+                }
+            },
+            {
+                "id": "6a506c25-dc28-45ec-a0ec-8dbb471e5770",
+                "name": "g-enews.com##div.v_ad01",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?g-enews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.v_ad01"
+                    }
+                }
+            },
+            {
+                "id": "e6724fd0-f2d1-41e9-b6d9-fb9b5bd0eebb",
+                "name": "g-enews.com##div.v_ad02",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?g-enews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.v_ad02"
+                    }
+                }
+            },
+            {
+                "id": "9472b783-f37b-4890-99a5-ccbeefcc104c",
+                "name": "g-enews.com##div.vcon_wrap>div.vcon>div>div[style=\"padding-left:10px;text-align:left;font-size:16px;line-height:25px;margin-bottom:10px;margin-top:10px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?g-enews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.vcon_wrap>div.vcon>div>div[style=\"padding-left:10px;text-align:left;font-size:16px;line-height:25px;margin-bottom:10px;margin-top:10px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "26140fc8-c2d1-43e9-89d4-c7957f0b3b12",
+                "name": "g-enews.com##div.vcon_wrap>div.vcon>div[style=\"margin:20px 10px;height:250px;clear:both\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?g-enews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.vcon_wrap>div.vcon>div[style=\"margin:20px 10px;height:250px;clear:both\"]"
                     }
                 }
             },

@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 1gUawoT+kdP/o1C3LJemNQ
+! Checksum: v6aT3hSmBijA0eCcZyncUQ
 ! Version: 20180115
 
 ! Workaround for BlockAdBlock
@@ -133,6 +133,7 @@
 ##iframe[src^="http://api.adns.contentlink.co.kr/adserver/delivery/iframe.php"]
 ##iframe[src^="http://apis.piclick.me/v1/publish/banner/iframe"]
 ##iframe[src^="http://bayabar.com/adworking/"]
+##iframe[src^="http://c6.daisy6.com/v1/adreq"]
 ##iframe[src^="http://cadvv.heraldm.com/nbiz/"]
 ##iframe[src^="http://candy.ad9.kr/"]
 ##iframe[src^="http://care-health.co.kr/"]
@@ -542,6 +543,7 @@
 ||c.amazon-adsystem.com/aax2/apstag.js^
 ||c.betrad.com/surly.js^
 ||c1.popads.net/pop.js^
+||c6.daisy6.com/v1/adreq^
 ||cache.ssend.microad.jp/js/adfunnel-sp-load.js^
 ||cad.donga.com/DKBNEWS/dkb_view_right_adin_*.js^$domain=dkbnews.donga.com
 ||cad.donga.com/DKBNEWS/dkb_view_right_banner_*.js^$domain=dkbnews.donga.com
@@ -1908,6 +1910,15 @@ foxnews.com##div.ad-unit
 foxnews.com##div.advert
 france2.fr##div#eShowPubTop
 france2.fr##div.adCtnt
+g-enews.com##div#sliding_adop
+g-enews.com##div#sliding_adopP
+g-enews.com##div.daisy
+g-enews.com##div.lbanner
+g-enews.com##div.rbanner
+g-enews.com##div.v_ad01
+g-enews.com##div.v_ad02
+g-enews.com##div.vcon_wrap>div.vcon>div>div[style="padding-left:10px;text-align:left;font-size:16px;line-height:25px;margin-bottom:10px;margin-top:10px;"]
+g-enews.com##div.vcon_wrap>div.vcon>div[style="margin:20px 10px;height:250px;clear:both"]
 gadgethacks.com##aside.top-ad-anchor
 gadgethacks.com##aside.whtaph
 gadgethacks.com##aside.whtaph-rightbox
