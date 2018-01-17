@@ -9557,6 +9557,21 @@
                 }
             },
             {
+                "id": "af7258aa-d025-4d38-92fd-cd1b0429ee34",
+                "name": "gamemeca.com/_crossDomain/adload.php$domain=gamemeca.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com/_crossDomain/adload\\.php",
+                        "if-domain": [
+                            "gamemeca.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4d980a57-25cc-4939-bdf7-a7416df7584b",
                 "name": "gametoc.hankyung.com/banner/*.html",
                 "content": {
@@ -28248,145 +28263,93 @@
                 }
             },
             {
-                "id": "f5613281-2d57-44d7-a74c-aecc359721cb",
-                "name": "gamemeca.com##div#ad_background",
+                "id": "6d29a428-436e-4bf9-8446-729d4dd13659",
+                "name": "gamemeca.com##div.ad-topscroll",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ad_background"
+                        "selector": "div.ad-topscroll"
                     }
                 }
             },
             {
-                "id": "f96cb22a-8981-4fb6-8525-02d2764a4ad0",
-                "name": "gamemeca.com##div#ad_topScroll",
+                "id": "afbca253-4d1a-4eaf-83b4-dea52c760a68",
+                "name": "gamemeca.com##div.background-ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ad_topScroll"
+                        "selector": "div.background-ad"
                     }
                 }
             },
             {
-                "id": "68d46ad4-dde2-4f11-9049-8fcf7df9a000",
-                "name": "gamemeca.com##div#bg_ad",
+                "id": "d05836a9-cf1c-4808-bab9-9e294351fb59",
+                "name": "gamemeca.com##div.content-ti-ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#bg_ad"
+                        "selector": "div.content-ti-ad"
                     }
                 }
             },
             {
-                "id": "e2a97b06-a154-408e-8e3e-2d634ca64498",
-                "name": "gamemeca.com##div.btmBannerTwo",
+                "id": "728b50cd-4799-4b8f-99a4-2f9f131c2f77",
+                "name": "gamemeca.com##div.content-top-ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.btmBannerTwo"
+                        "selector": "div.content-top-ad"
                     }
                 }
             },
             {
-                "id": "6ff36e1c-dcc3-4674-8bd9-cbc05f5d1707",
-                "name": "gamemeca.com##div.goggle_ad_bottom_728x90",
+                "id": "90ff53e4-e581-448f-b36d-5003f72fc1f1",
+                "name": "gamemeca.com##div.google_ad_bottom_728x90",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.goggle_ad_bottom_728x90"
+                        "selector": "div.google_ad_bottom_728x90"
                     }
                 }
             },
             {
-                "id": "a711044f-9227-4641-ae6d-2bb7f6db7123",
-                "name": "gamemeca.com##div.mainListRight1>div.pb10",
+                "id": "88ddf83e-e6b5-4d08-9fcc-57ca2ebd7161",
+                "name": "gamemeca.com##div.right_ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.mainListRight1>div.pb10"
+                        "selector": "div.right_ad"
                     }
                 }
             },
             {
-                "id": "3c2bfab6-68d0-498c-97f4-6578653073d0",
-                "name": "gamemeca.com##div.mainListRight1>div.pt0",
+                "id": "73a334d9-e12d-4b7d-96ce-4707ed8db017",
+                "name": "gamemeca.com##div.right_ad2",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.mainListRight1>div.pt0"
-                    }
-                }
-            },
-            {
-                "id": "1b17fd20-e027-470a-a13f-9ecc5c5cfa0b",
-                "name": "gamemeca.com##div.midBanner",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.midBanner"
-                    }
-                }
-            },
-            {
-                "id": "ca63f4f3-2e37-4849-8cc6-8cd63bfbb9ef",
-                "name": "gamemeca.com##div.pb32",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.pb32"
-                    }
-                }
-            },
-            {
-                "id": "79bc92d2-04ae-4c5b-9dcd-8ed5111d3177",
-                "name": "gamemeca.com##div.rBannerMain",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.rBannerMain"
-                    }
-                }
-            },
-            {
-                "id": "23c41624-f9fa-4aae-b980-85bdaabcdb50",
-                "name": "gamemeca.com##div.rBtmBanner",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.rBtmBanner"
+                        "selector": "div.right_ad2"
                     }
                 }
             },
@@ -28400,32 +28363,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.toastBanner"
-                    }
-                }
-            },
-            {
-                "id": "dd743a36-493f-4c97-9a4d-e6413d0a9432",
-                "name": "gamemeca.com##ul.ads_title_bottom",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "ul.ads_title_bottom"
-                    }
-                }
-            },
-            {
-                "id": "df4813dc-abbe-429d-aacc-8aa18b8f06e2",
-                "name": "gamemeca.com##ul>li.mecaEvent",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "ul>li.mecaEvent"
                     }
                 }
             },
