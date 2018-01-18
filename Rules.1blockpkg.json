@@ -7502,6 +7502,18 @@
                 }
             },
             {
+                "id": "2f736df0-7c59-40bc-8a6f-3d0669931bd5",
+                "name": "cdn.blueconic.net/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.blueconic\\.net/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "bab0755e-90b0-4e0c-989a-fb70e810c194",
                 "name": "cdn.c-team.jp/tags/dokojs/ad*.js",
                 "content": {
@@ -31392,6 +31404,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.end_bnr_appinfo"
+                    }
+                }
+            },
+            {
+                "id": "b2fa2127-6418-4841-9dc0-daae5fa179c9",
+                "name": "kiplinger.com##div.kip-advertisement",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kiplinger\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.kip-advertisement"
+                    }
+                }
+            },
+            {
+                "id": "a7487b5a-852d-4f62-9564-93b513575eed",
+                "name": "kiplinger.com##div.kip-advertisement-fixed",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kiplinger\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.kip-advertisement-fixed"
+                    }
+                }
+            },
+            {
+                "id": "607d8156-19f8-4849-8596-9385a59fdab9",
+                "name": "kiplinger.com##div.kip-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kiplinger\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.kip-banner"
+                    }
+                }
+            },
+            {
+                "id": "d06e69d6-7caf-4623-a8c0-e204469ca9f5",
+                "name": "kiplinger.com##section.kip-advertisement",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kiplinger\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.kip-advertisement"
                     }
                 }
             },
