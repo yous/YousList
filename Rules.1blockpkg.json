@@ -13963,13 +13963,14 @@
                 }
             },
             {
-                "id": "fa29e5ef-9d63-4e2f-bd22-7a107e4c7453",
-                "name": "ph.spotvnews.co.kr/adcontent/script/*.js$domain=m.spotvnews.co.kr",
+                "id": "d72fc47d-7815-4c76-b11e-e49673a824f3",
+                "name": "ph.spotvnews.co.kr/adcontent/script/*.js$domain=m.spotvnews.co.kr|spotvnews.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ph\\.spotvnews\\.co\\.kr/adcontent/script/.*\\.js",
                         "if-domain": [
-                            "m.spotvnews.co.kr"
+                            "m.spotvnews.co.kr",
+                            "spotvnews.co.kr"
                         ]
                     },
                     "action": {
@@ -48191,6 +48192,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.mask_div"
+                    }
+                }
+            },
+            {
+                "id": "c2bf3d67-a975-4519-ad99-ec59d9157ec2",
+                "name": "spotvnews.co.kr##p.adcontrol41_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?spotvnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "p.adcontrol41_box"
                     }
                 }
             },
