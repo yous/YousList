@@ -5331,6 +5331,18 @@
                 }
             },
             {
+                "id": "d8629d5d-6bd2-4d99-8346-d46ede970d85",
+                "name": "ads.tapzin.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.tapzin\\.com"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "47ae8c20-72f4-4b3e-b1ef-e2d5f66bfed0",
                 "name": "ads.tlvmedia.com",
                 "content": {
@@ -25446,6 +25458,19 @@
                 }
             },
             {
+                "id": "38b81c82-d946-4dd2-a971-a21917f78b40",
+                "name": "dispatch.co.kr##div#ad-logo-rightside",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad-logo-rightside"
+                    }
+                }
+            },
+            {
                 "id": "ea22b2ac-70f7-4980-a4c4-118408b81dd5",
                 "name": "dispatch.co.kr##div#ad11Cover",
                 "content": {
@@ -25576,6 +25601,19 @@
                 }
             },
             {
+                "id": "2e3f0ba4-9d47-41ee-a9bc-dd284908ff48",
+                "name": "dispatch.co.kr##div#dp-bottom-fixed-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#dp-bottom-fixed-ad"
+                    }
+                }
+            },
+            {
                 "id": "615b87b7-aa0b-474c-b2bd-bc270b94f9ca",
                 "name": "dispatch.co.kr##div#dp-news-bottom-00",
                 "content": {
@@ -25624,6 +25662,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#sidebarad03"
+                    }
+                }
+            },
+            {
+                "id": "4db65ba7-b40d-4dbe-8fd0-482f7aa28c84",
+                "name": "dispatch.co.kr##div.adArea",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adArea"
                     }
                 }
             },
