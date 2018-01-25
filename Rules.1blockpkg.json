@@ -2786,6 +2786,19 @@
                 }
             },
             {
+                "id": "4f44618e-2a52-4a72-940e-c77ea2bf5f6f",
+                "name": "##iframe[src^=\"https://bullseye.backbeatmedia.com/bullseye/adserver/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://bullseye.backbeatmedia.com/bullseye/adserver/\"]"
+                    }
+                }
+            },
+            {
                 "id": "c48ccae8-7b0f-47c7-bbca-5531cfd5366d",
                 "name": "##iframe[src^=\"https://creative.wwwpromoter.com/\"]",
                 "content": {
@@ -5858,6 +5871,18 @@
                 }
             },
             {
+                "id": "c444712f-86f4-4f3e-9e55-9ce90b96fc8e",
+                "name": "aka-cdn.adtechus.com/dt/common/DAC.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?aka-cdn\\.adtechus\\.com/dt/common/DAC\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b2a57628-8029-4b26-a903-752da1ad2202",
                 "name": "aka-cdn.adtechus.com/media/moat/adtechbrands*/moatad.js",
                 "content": {
@@ -6516,6 +6541,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bs\\.serving-sys\\.com/BurstingPipe/adServer\\.bs"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "eff821e0-1b9f-4c57-b3a0-fdf142c0a5c7",
+                "name": "bullseye.backbeatmedia.com/bullseye/adserver/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bullseye\\.backbeatmedia\\.com/bullseye/adserver/"
                     },
                     "action": {
                         "type": "block"
@@ -8141,6 +8178,51 @@
                 }
             },
             {
+                "id": "5d15dd72-623d-44f7-b11e-fcf2d962a178",
+                "name": "cultofmac.com/detroitchicago/edmonton.webp$domain=cultofmac.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cultofmac\\.com/detroitchicago/edmonton\\.webp",
+                        "if-domain": [
+                            "cultofmac.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "bd910cce-b186-4a5d-b7ee-cc946f38f7e1",
+                "name": "cultofmac.com/porpoiseant/banger.js$domain=cultofmac.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cultofmac\\.com/porpoiseant/banger\\.js",
+                        "if-domain": [
+                            "cultofmac.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "13b44f60-2107-4350-bb64-fb5fb04e8042",
+                "name": "cultofmac.com/porpoiseant/jellyfish.webp$domain=cultofmac.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cultofmac\\.com/porpoiseant/jellyfish\\.webp",
+                        "if-domain": [
+                            "cultofmac.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b7d694e1-ef3b-4f4e-a7c7-c77c600dbe83",
                 "name": "cwdata.itplay.co.kr/ol/",
                 "content": {
@@ -8900,6 +8982,18 @@
                 }
             },
             {
+                "id": "e6b3c597-6abf-4a5a-a821-cd466fc44896",
+                "name": "ecdn.firstimpression.io/apd_client.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ecdn\\.firstimpression\\.io/apd_client\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "13ec5f46-acdb-4a9d-bf99-461d5db64743",
                 "name": "economy.hankooki.com/ad/",
                 "content": {
@@ -9466,6 +9560,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fs\\.jtbc\\.joins\\.com/common/ui/ad/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3904c658-7107-48e3-bdf7-25d1f11e8a39",
+                "name": "g.ezoic.net/ezosuigeneris.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?g\\.ezoic\\.net/ezosuigeneris\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -24384,6 +24490,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div._pb"
+                    }
+                }
+            },
+            {
+                "id": "229d5231-9bf7-4725-ad5d-c813500467a3",
+                "name": "cultofmac.com##div.ad-region",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cultofmac\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-region"
+                    }
+                }
+            },
+            {
+                "id": "1a092291-bc75-45ff-a154-c818b2beddb1",
+                "name": "cultofmac.com##div.ezo_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cultofmac\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ezo_ad"
+                    }
+                }
+            },
+            {
+                "id": "b0e62b51-d311-45b4-926c-449ec33ec838",
+                "name": "cultofmac.com##section.ad-region",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cultofmac\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.ad-region"
+                    }
+                }
+            },
+            {
+                "id": "3642dde4-0e69-4a75-9cb6-297b156a3fda",
+                "name": "cultofmac.com##span.ezoic-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cultofmac\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span.ezoic-ad"
                     }
                 }
             },
@@ -48707,6 +48865,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#sidebar-ad"
+                    }
+                }
+            },
+            {
+                "id": "b5f63d96-465d-4351-bfd3-46adc93f9a2a",
+                "name": "tekrevue.com##div.header-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tekrevue\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.header-ad"
                     }
                 }
             },
