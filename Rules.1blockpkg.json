@@ -30644,15 +30644,28 @@
                 }
             },
             {
-                "id": "49888080-1795-4c48-8757-656d21ae9bf7",
-                "name": "insight.co.kr##div.google_ad",
+                "id": "6fce8e58-2ba9-4a58-9e17-8e58a2f85799",
+                "name": "insight.co.kr##div.ad-google-side1",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?insight\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.google_ad"
+                        "selector": "div.ad-google-side1"
+                    }
+                }
+            },
+            {
+                "id": "d9f5df10-97d2-4038-9bd7-8ef0f960dca5",
+                "name": "insight.co.kr##div.ad-google-side2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?insight\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-google-side2"
                     }
                 }
             },
