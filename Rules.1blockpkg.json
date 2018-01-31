@@ -8451,6 +8451,21 @@
                 }
             },
             {
+                "id": "8f1c1f48-b177-4181-9f76-0291f36199e8",
+                "name": "dailyesports.com/comment/ad_realclick.php$domain=dailyesports.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailyesports\\.com/comment/ad_realclick\\.php",
+                        "if-domain": [
+                            "dailyesports.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "499391f5-5d82-4fb4-8fb5-6fbed39cbd52",
                 "name": "dailygame.co.kr/ad/dispad_bot.html",
                 "content": {
@@ -24946,6 +24961,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "span#AD_GISA_PHOTO_LINE"
+                    }
+                }
+            },
+            {
+                "id": "717dbd48-ecc0-441c-88f7-256d6977e031",
+                "name": "dailyesports.com##div#BigDDRightSkyID",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailyesports\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#BigDDRightSkyID"
+                    }
+                }
+            },
+            {
+                "id": "987be86c-86fc-487e-825d-981770e75ebc",
+                "name": "dailyesports.com##div#talklink_chatAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailyesports\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#talklink_chatAd"
+                    }
+                }
+            },
+            {
+                "id": "77b1b62a-cf1b-4398-8ad4-42e26a8371ae",
+                "name": "dailyesports.com##div.banner_1024_1024",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailyesports\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_1024_1024"
+                    }
+                }
+            },
+            {
+                "id": "28618e12-89a4-406e-885b-a0ef6d777a56",
+                "name": "dailyesports.com##iframe[src^=\"/comment/ad_realclick.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailyesports\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/comment/ad_realclick.php\"]"
                     }
                 }
             },

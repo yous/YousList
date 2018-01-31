@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: E+AAbgY7XCYeRE3q443xPQ
+! Checksum: /Z+PMDPzftqiQ+UKEUpM2A
 ! Version: 20180131
 
 ! Workaround for BlockAdBlock
@@ -687,6 +687,7 @@
 ||d3pkae9owd2lcf.cloudfront.net/pb92c.gz.js^
 ||d3u5zn5k9864p0.cloudfront.net/br^
 ||daily.hankooki.com/ad/$domain=daily.hankooki.com
+||dailyesports.com/comment/ad_realclick.php^$domain=dailyesports.com
 ||dailygame.co.kr/ad/dispad_bot.html^
 ||dailygame.co.kr/ad/dispad_right.html^
 ||dailygame.co.kr/ad/dispad_top.html^
@@ -1699,6 +1700,10 @@ daily.hankooki.com##div[id^="Ad_"]
 daily.hankooki.com##div[id^="adText"]
 daily.hankooki.com##iframe[src^="http://daily.hankooki.com/ad/"]
 daily.hankooki.com##span#AD_GISA_PHOTO_LINE
+dailyesports.com##div#BigDDRightSkyID
+dailyesports.com##div#talklink_chatAd
+dailyesports.com##div.banner_1024_1024
+dailyesports.com##iframe[src^="/comment/ad_realclick.php"]
 dailymail.co.uk##div.billboard_wrapper
 dailymail.co.uk##div.trc-content-sponsored
 dailymail.co.uk##div[data-adverts-ad]
