@@ -5595,6 +5595,18 @@
                 }
             },
             {
+                "id": "9bb4a0a1-2cf5-4884-99e3-4592ec1f019a",
+                "name": "adtag.cc/_tags/jstags.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adtag\\.cc/_tags/jstags\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "142b5568-45ec-4497-8434-9a518924d058",
                 "name": "adtg.widerplanet.com",
                 "content": {
@@ -53326,6 +53338,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.view_view_adv04"
+                    }
+                }
+            },
+            {
+                "id": "d3d427e0-acac-42f3-8676-717a226d8746",
+                "name": "voirfilms.ws##div.adspopupserie",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?voirfilms\\.ws"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adspopupserie"
+                    }
+                }
+            },
+            {
+                "id": "a24f40ae-b46f-44d9-86c7-9bc7cc631cf1",
+                "name": "voirfilms.ws##div.responsive-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?voirfilms\\.ws"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.responsive-ad"
                     }
                 }
             },
