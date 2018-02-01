@@ -47505,6 +47505,32 @@
                 }
             },
             {
+                "id": "6281eae3-b11b-446b-8714-ebe92e75edbb",
+                "name": "sports.chosun.com##div.lott_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.lott_ad"
+                    }
+                }
+            },
+            {
+                "id": "038849d3-a9f9-49d2-830f-8e154d403bd7",
+                "name": "sports.chosun.com##div.right_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.right_ad"
+                    }
+                }
+            },
+            {
                 "id": "f0f942e5-6279-48f6-8eca-d7cf183bb3a8",
                 "name": "sports.chosun.com##div.sc_floating",
                 "content": {
