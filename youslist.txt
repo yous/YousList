@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: mkfQjOC3rOflTTbN7UekLA
+! Checksum: SsHU8LqL0gPrlOyZUwUUaQ
 ! Version: 20180201
 
 ! Workaround for BlockAdBlock
@@ -962,6 +962,7 @@
 ||m.nocutnews.co.kr/ad/adnca.html^$domain=m.nocutnews.co.kr
 ||m.pann.nate.com/da/AdBigBanner^$domain=m.pann.nate.com
 ||m.pann.nate.com/da/shopbox^$domain=m.pann.nate.com
+||m.sportschosun.com/news_text_ad01.htm^$domain=m.sportschosun.com
 ||m.sportsseoul.com/application/views/ad/*.html^
 ||m.tf.co.kr/public/*/ad/ad_read_content*.html^
 ||m.torrentkim10.net/js/banner0122.js^$domain=m.torrentkim10.net
@@ -2677,6 +2678,13 @@ m.sports.khan.co.kr##div.cont_image>div[style="margin:auto; width:600px;"]
 m.sports.khan.co.kr##div.pushADMiddle
 m.sports.khan.co.kr##div.social_btm
 m.sports.naver.com##div.home_ad_group
+m.sportschosun.com##aticle#cont>div.atl>div[style="background:#fff;"]
+m.sportschosun.com##aticle#cont>div.atl>div[style="padding:0 10px; background:#fff;"]
+m.sportschosun.com##body>div[style="height:48px;width:100%;background-color:#f6f6f6;z-index:10;"]
+m.sportschosun.com##div#adlumi_s
+m.sportschosun.com##div#caulyad
+m.sportschosun.com##div[itemprop="articleBody"]>div[style="width:210px;height:205px;float:right;padding-left:10px;padding-bottom:5px;"]
+m.sportschosun.com##iframe[src^="news_text_ad01.htm"]
 m.sportsseoul.com##div#ad_61
 m.sportsseoul.com##div#ad_area_03
 m.sportsseoul.com##div#container>div[style="background-color:#fff; width:100%;"]

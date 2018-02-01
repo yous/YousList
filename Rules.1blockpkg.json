@@ -12030,6 +12030,21 @@
                 }
             },
             {
+                "id": "f03b864d-152d-4b77-b085-78e9edbd8185",
+                "name": "m.sportschosun.com/news_text_ad01.htm$domain=m.sportschosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.sportschosun\\.com/news_text_ad01\\.htm",
+                        "if-domain": [
+                            "m.sportschosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a2838ebe-5987-4427-81cd-4baec8b4c94d",
                 "name": "m.sportsseoul.com/application/views/ad/*.html",
                 "content": {
@@ -37946,6 +37961,97 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.home_ad_group"
+                    }
+                }
+            },
+            {
+                "id": "af9dc9ae-3ad3-4891-a4e5-b5bd1ed21229",
+                "name": "m.sportschosun.com##aticle#cont>div.atl>div[style=\"background:#fff;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.sportschosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aticle#cont>div.atl>div[style=\"background:#fff;\"]"
+                    }
+                }
+            },
+            {
+                "id": "5e6bc8a5-657a-442b-9501-59b1f6af9304",
+                "name": "m.sportschosun.com##aticle#cont>div.atl>div[style=\"padding:0 10px; background:#fff;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.sportschosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aticle#cont>div.atl>div[style=\"padding:0 10px; background:#fff;\"]"
+                    }
+                }
+            },
+            {
+                "id": "ae7871cb-d02a-4019-b5b1-12bb18540557",
+                "name": "m.sportschosun.com##body>div[style=\"height:48px;width:100%;background-color:#f6f6f6;z-index:10;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.sportschosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"height:48px;width:100%;background-color:#f6f6f6;z-index:10;\"]"
+                    }
+                }
+            },
+            {
+                "id": "1c28c442-6427-4c76-96f1-df9b34d66308",
+                "name": "m.sportschosun.com##div#adlumi_s",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.sportschosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adlumi_s"
+                    }
+                }
+            },
+            {
+                "id": "7e1e0603-c0a9-4a18-9d00-fb3a7c1a3495",
+                "name": "m.sportschosun.com##div#caulyad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.sportschosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#caulyad"
+                    }
+                }
+            },
+            {
+                "id": "7bdd3403-4f90-4c80-b3ff-48c428495466",
+                "name": "m.sportschosun.com##div[itemprop=\"articleBody\"]>div[style=\"width:210px;height:205px;float:right;padding-left:10px;padding-bottom:5px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.sportschosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[itemprop=\"articleBody\"]>div[style=\"width:210px;height:205px;float:right;padding-left:10px;padding-bottom:5px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "1bba1eab-224a-4c39-967b-b841b39233b3",
+                "name": "m.sportschosun.com##iframe[src^=\"news_text_ad01.htm\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.sportschosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"news_text_ad01.htm\"]"
                     }
                 }
             },
