@@ -9666,6 +9666,21 @@
                 }
             },
             {
+                "id": "43383921-3093-4b0d-a7f6-4f0384bf41ba",
+                "name": "gameabout.com/adsense/banner.php$domain=gameabout.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gameabout\\.com/adsense/banner\\.php",
+                        "if-domain": [
+                            "gameabout.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ca5b5897-6712-47cb-b7c9-2ccebe12db82",
                 "name": "gamefocus.co.kr/bncode2/banner_left.html$domain=gamefocus.co.kr",
                 "content": {
@@ -28523,6 +28538,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_1"
+                    }
+                }
+            },
+            {
+                "id": "683b2a64-14e7-418f-95e0-8ce25a304082",
+                "name": "gameabout.com##div#divPop",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gameabout\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#divPop"
+                    }
+                }
+            },
+            {
+                "id": "3482b0f3-76bf-4b9e-9dd5-fa88ac099e7e",
+                "name": "gameabout.com##div.ss_ad_center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gameabout\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ss_ad_center"
+                    }
+                }
+            },
+            {
+                "id": "590e4bf9-1f71-426c-9a92-cda2c8ece297",
+                "name": "gameabout.com##iframe[src^=\"/adsense/banner.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gameabout\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/adsense/banner.php\"]"
                     }
                 }
             },
