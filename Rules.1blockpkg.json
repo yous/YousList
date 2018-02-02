@@ -7404,6 +7404,18 @@
                 }
             },
             {
+                "id": "0c43cbdd-5410-4e2c-b96a-f5c9f8195353",
+                "name": "cdn-aitg.widerplanet.com/js/adr.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn-aitg\\.widerplanet\\.com/js/adr\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "e20fdc1d-84a5-4c1d-bf6d-c50499f10b1b",
                 "name": "cdn-fluct.sh.adingo.jp/f.js",
                 "content": {
@@ -16289,6 +16301,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?t\\.tmdn2015x9\\.com/build/.*/v1/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ad63b5a9-9e02-4e2e-9a9f-fa6f5dda6ac8",
+                "name": "t1.daumcdn.net/adfit/static/ad.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?t1\\.daumcdn\\.net/adfit/static/ad\\.min\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -34104,6 +34128,19 @@
                 }
             },
             {
+                "id": "b0e4a020-ffb7-4f5a-97fb-ca400b200def",
+                "name": "m.dcinside.com##div#adbay_floatingid",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adbay_floatingid"
+                    }
+                }
+            },
+            {
                 "id": "2a180859-1ca6-48e5-a34b-8dd09f10777a",
                 "name": "m.dcinside.com##div#comment_first ul.list_best>li:not([id])",
                 "content": {
@@ -34139,6 +34176,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#minor_list_top"
+                    }
+                }
+            },
+            {
+                "id": "e88c5b7e-18ff-4928-8e53-2ffb15fa14cb",
+                "name": "m.dcinside.com##div#minor_prevNextList_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#minor_prevNextList_bottom"
+                    }
+                }
+            },
+            {
+                "id": "4a065832-956f-4da9-968d-b10049134cef",
+                "name": "m.dcinside.com##div#minor_view_middle",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dcinside\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#minor_view_middle"
                     }
                 }
             },
