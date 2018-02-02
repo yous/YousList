@@ -27175,6 +27175,19 @@
                 }
             },
             {
+                "id": "c1904d21-fe88-4791-90d6-0d535c820fd9",
+                "name": "etnews.com##div#BpromotionBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#BpromotionBanner"
+                    }
+                }
+            },
+            {
                 "id": "aa74b4b0-b915-4ec4-91fa-17b6489e1ba8",
                 "name": "etnews.com##div#FloatLayer1",
                 "content": {
@@ -27240,6 +27253,19 @@
                 }
             },
             {
+                "id": "2b541266-8e21-40d4-8b3f-17345ea0ba37",
+                "name": "etnews.com##div.ad_728x90",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_728x90"
+                    }
+                }
+            },
+            {
                 "id": "ed26b40f-8d07-40d7-a136-c3cf527c8c09",
                 "name": "etnews.com##div.ad_90x90",
                 "content": {
@@ -27262,6 +27288,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_news_text"
+                    }
+                }
+            },
+            {
+                "id": "379a69d4-8208-41dd-9c43-db59481163d0",
+                "name": "etnews.com##div.ad_shopingmall",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_shopingmall"
                     }
                 }
             },
