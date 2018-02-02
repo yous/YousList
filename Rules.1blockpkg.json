@@ -17205,6 +17205,21 @@
                 }
             },
             {
+                "id": "6cb8cdfa-85ee-4356-b7e7-71cbb00c63e4",
+                "name": "wiki.dcinside.com/main_top_realclick_banner.php$domain=wiki.dcinside.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wiki\\.dcinside\\.com/main_top_realclick_banner\\.php",
+                        "if-domain": [
+                            "wiki.dcinside.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "bda3be90-e296-4c98-b8e2-de8d48f9d3b9",
                 "name": "wikitree.co.kr/_tpl/default/_images/ad/",
                 "content": {
@@ -54287,6 +54302,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "section.ads-by-google"
+                    }
+                }
+            },
+            {
+                "id": "9c43e40b-68ec-40b3-b876-3930ab88956a",
+                "name": "wiki.dcinside.com##iframe[src^=\"http://wiki.dcinside.com/main_top_realclick_banner.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wiki\\.dcinside\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://wiki.dcinside.com/main_top_realclick_banner.php\"]"
                     }
                 }
             },
