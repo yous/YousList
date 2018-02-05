@@ -36099,6 +36099,19 @@
                 }
             },
             {
+                "id": "03648954-868a-46b4-b819-289eacb0e9f7",
+                "name": "m.insight.co.kr##div.adHeader",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.insight\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adHeader"
+                    }
+                }
+            },
+            {
                 "id": "4f116efa-3ca3-4bd3-a251-8c0a879d43d0",
                 "name": "m.insight.co.kr##div.fixed__banner",
                 "content": {
