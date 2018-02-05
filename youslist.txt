@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: OD/UC6N5+9ObJTgwLDwlPA
+! Checksum: V4zM+n/w0VxJzw/7v8hQfA
 ! Version: 20180205
 
 ! Workaround for BlockAdBlock
@@ -961,6 +961,7 @@
 ||m.joyninfo.com/yna/yna_m_new.asp^
 ||m.joyninfo.com/yna/yna_w2.asp^
 ||m.kmib.co.kr/banner/
+||m.mediapen.com/banner.html^$domain=m.mediapen.com
 ||m.metroseoul.co.kr/common/js/custom/script_*_ad.js^
 ||m.news1.kr/template/ads/$domain=m.news1.kr
 ||m.nocutnews.co.kr/ad/adnca.html^$domain=m.nocutnews.co.kr
@@ -2557,6 +2558,10 @@ m.kukinews.com##div.dw_cnt_vw>div[style="padding-top:5px;background:#efefef"]
 m.media.daum.net##div.bnr_ad
 m.media.daum.net##div.bnr_service
 m.media.daum.net##div.rolling_banner_list
+m.mediapen.com##div#adshow
+m.mediapen.com##div#mundan_banner
+m.mediapen.com##div.news_contents>p>div[style="float:right; margin-left:5px; margin-top:5px"]
+m.mediapen.com##iframe[src^="/banner.html"]
 m.mediatoday.co.kr##div#div_share_ad
 m.mediatoday.co.kr##div#lumi_poll_with_ad>div#thum_ui>ul.thum_B>dd#a
 m.mediatoday.co.kr##div#m_a_content>div.m_min_size>div[style="float:left;margin:.3em 1em .2em 0;width:200px;height:200px;background-color:#f4f4f4"]

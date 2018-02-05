@@ -12011,6 +12011,21 @@
                 }
             },
             {
+                "id": "0eeb0426-3d67-46e2-8f2c-252620d04893",
+                "name": "m.mediapen.com/banner.html$domain=m.mediapen.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mediapen\\.com/banner\\.html",
+                        "if-domain": [
+                            "m.mediapen.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4d3a5b8b-d4c0-4d2d-83d2-7babea3ae999",
                 "name": "m.metroseoul.co.kr/common/js/custom/script_*_ad.js",
                 "content": {
@@ -36390,6 +36405,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.rolling_banner_list"
+                    }
+                }
+            },
+            {
+                "id": "0eb0d0fe-eafe-43e9-b2f3-a7695337b483",
+                "name": "m.mediapen.com##div#adshow",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mediapen\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adshow"
+                    }
+                }
+            },
+            {
+                "id": "5f341cff-6159-45f0-94ba-7d3a291e7105",
+                "name": "m.mediapen.com##div#mundan_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mediapen\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mundan_banner"
+                    }
+                }
+            },
+            {
+                "id": "f5a7d546-c9db-4d75-94f5-e39dc1f3c05b",
+                "name": "m.mediapen.com##div.news_contents>p>div[style=\"float:right; margin-left:5px; margin-top:5px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mediapen\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.news_contents>p>div[style=\"float:right; margin-left:5px; margin-top:5px\"]"
+                    }
+                }
+            },
+            {
+                "id": "1a2d2c64-22a3-4f6f-8687-f3c50e317f81",
+                "name": "m.mediapen.com##iframe[src^=\"/banner.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mediapen\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/banner.html\"]"
                     }
                 }
             },
