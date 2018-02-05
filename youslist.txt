@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: V4zM+n/w0VxJzw/7v8hQfA
+! Checksum: suhXexDVyTXDreT9N4ekRA
 ! Version: 20180205
 
 ! Workaround for BlockAdBlock
@@ -984,6 +984,7 @@
 ||media.adrcdn.com/scripts/w-display/screenad_launch_*_scrambled.js^
 ||mediamixad.com/ad/liveAd^
 ||mediamixad.com/ad/webad^
+||mediapen.com/banners/$domain=mediapen.com
 ||mediarichad.com/adbanner/
 ||mediaus.co.kr/banner/^$domain=mediaus.co.kr
 ||mediaus.co.kr/script/ad.control.js^$domain=mediaus.co.kr
@@ -2848,6 +2849,9 @@ media.daum.net##div#banner250
 media.daum.net##div#daum-ad-root
 media.daum.net##div.wing_bnr3
 media.daum.net##iframe#daum-ad-root-ifrm
+mediapen.com##div#adshow
+mediapen.com##div.mask_div
+mediapen.com##iframe[src^="/banners/"]
 mediatoday.co.kr##div#ad_www_left1
 mediatoday.co.kr##div#ad_www_left2
 mediatoday.co.kr##div#ad_www_normal_24

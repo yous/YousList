@@ -12318,6 +12318,21 @@
                 }
             },
             {
+                "id": "ef158643-674c-438b-9584-02798b10ea50",
+                "name": "mediapen.com/banners/$domain=mediapen.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediapen\\.com/banners/",
+                        "if-domain": [
+                            "mediapen.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "40b51659-716f-439d-94e1-3109f5fcbde2",
                 "name": "mediarichad.com/adbanner/",
                 "content": {
@@ -40318,6 +40333,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe#daum-ad-root-ifrm"
+                    }
+                }
+            },
+            {
+                "id": "0b19f1d7-8ee0-4be8-bb2d-eb8d3c4f1053",
+                "name": "mediapen.com##div#adshow",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediapen\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adshow"
+                    }
+                }
+            },
+            {
+                "id": "ea29f8d8-095b-45c4-9633-1e06b114f035",
+                "name": "mediapen.com##div.mask_div",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediapen\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mask_div"
+                    }
+                }
+            },
+            {
+                "id": "da9eebaf-5e45-4e3d-924b-502fccd660c4",
+                "name": "mediapen.com##iframe[src^=\"/banners/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediapen\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/banners/\"]"
                     }
                 }
             },
