@@ -46163,6 +46163,19 @@
                 }
             },
             {
+                "id": "dae046a7-087e-474d-ac60-08b1ad40c8f6",
+                "name": "pixiv.net##div.ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pixiv\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container"
+                    }
+                }
+            },
+            {
                 "id": "3c79a4a0-f008-4778-b8b1-6bb456378707",
                 "name": "pixiv.net##div.ad-footer",
                 "content": {
