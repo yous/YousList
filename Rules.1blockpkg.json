@@ -7673,6 +7673,21 @@
                 }
             },
             {
+                "id": "b6cada30-2166-4c1c-87eb-0df8a8826136",
+                "name": "cdn.iphonephotographyschool.com/wp-content/themes/ips-theme/lib/js/welcome.js$domain=iphonephotographyschool.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.iphonephotographyschool\\.com/wp-content/themes/ips-theme/lib/js/welcome\\.js",
+                        "if-domain": [
+                            "iphonephotographyschool.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4df89ad9-39a0-46d8-9571-65f66fa1e7ff",
                 "name": "cdn.kixer.com/ad/load.js",
                 "content": {
