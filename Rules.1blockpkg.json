@@ -45284,6 +45284,32 @@
                 }
             },
             {
+                "id": "3693ecaf-e9c7-4674-ad5b-57131d6272a7",
+                "name": "ondemandkorea.com##div.banner_728x90",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ondemandkorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_728x90"
+                    }
+                }
+            },
+            {
+                "id": "fe9191fe-9e7a-43db-9b08-0cbfb85376f8",
+                "name": "ondemandkorea.com##li.insertBanner728",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ondemandkorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.insertBanner728"
+                    }
+                }
+            },
+            {
                 "id": "2cbfc383-7f71-4ef3-a64d-b698494eafe1",
                 "name": "online.anidub.com##div#banner_post2",
                 "content": {
