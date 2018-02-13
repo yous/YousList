@@ -28059,6 +28059,19 @@
                 }
             },
             {
+                "id": "8fa1eea1-5762-4f97-8ae3-d4bea70b5035",
+                "name": "fmkorea.com##div#adpost",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fmkorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adpost"
+                    }
+                }
+            },
+            {
                 "id": "832f7331-5ea0-401c-ba72-d3c7b14e1801",
                 "name": "fmkorea.com##div#banner3",
                 "content": {
