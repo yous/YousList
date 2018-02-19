@@ -1603,6 +1603,19 @@
                 }
             },
             {
+                "id": "2280ae03-0b05-4cbb-b216-3e8eb64c2741",
+                "name": "##iframe[src^=\"http://cdn.interworksmedia.co.kr/google/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://cdn.interworksmedia.co.kr/google/\"]"
+                    }
+                }
+            },
+            {
                 "id": "99a2a70b-725f-4d07-979b-432d962842fe",
                 "name": "##iframe[src^=\"http://cdn.optmd.com/V2/PSA/\"]",
                 "content": {
@@ -7654,6 +7667,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.gmossp-sp\\.jp/ads/loader\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a0be29af-b0f8-4148-a296-8587f792ccf5",
+                "name": "cdn.interworksmedia.co.kr/google/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.interworksmedia\\.co\\.kr/google/"
                     },
                     "action": {
                         "type": "block"
@@ -40054,6 +40079,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_container"
+                    }
+                }
+            },
+            {
+                "id": "22229bf2-f1df-444f-9165-89852c195ca7",
+                "name": "mbcsportsplus.com##div#add_service_viewRight",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbcsportsplus\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#add_service_viewRight"
+                    }
+                }
+            },
+            {
+                "id": "69f8ac69-09ad-4ee8-83b4-251561337c86",
+                "name": "mbcsportsplus.com##div#add_service_viewRight2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbcsportsplus\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#add_service_viewRight2"
+                    }
+                }
+            },
+            {
+                "id": "3aa75046-3f6f-4d01-8efa-a49e951019c8",
+                "name": "mbcsportsplus.com##div.side_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbcsportsplus\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.side_banner"
+                    }
+                }
+            },
+            {
+                "id": "ff885179-e14d-45bc-b422-57374ddff9e1",
+                "name": "mbcsportsplus.com##div.side_banner01",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbcsportsplus\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.side_banner01"
                     }
                 }
             },
