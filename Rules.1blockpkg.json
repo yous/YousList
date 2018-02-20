@@ -26745,6 +26745,45 @@
                 }
             },
             {
+                "id": "aed53070-84f1-4f82-b26b-8e0dec26cc6a",
+                "name": "economist.com##div.classified-ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?economist\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.classified-ads"
+                    }
+                }
+            },
+            {
+                "id": "137a4c92-2b39-4d05-b474-673732cbf2b8",
+                "name": "economist.com##div.fe-blogs__sidebar-ad-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?economist\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.fe-blogs__sidebar-ad-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "ceaa2827-3a47-45f3-8019-8bbae3d8d08c",
+                "name": "economist.com##div.fe-blogs__top-ad-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?economist\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.fe-blogs__top-ad-wrapper"
+                    }
+                }
+            },
+            {
                 "id": "dea9562e-6638-4e67-998f-ee1ef2cd211e",
                 "name": "economy.hankooki.com##div#ad2uShop",
                 "content": {
