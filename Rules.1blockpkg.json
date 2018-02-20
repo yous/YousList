@@ -6284,6 +6284,36 @@
                 }
             },
             {
+                "id": "e3e8aab9-c27f-4fc8-812e-71bad08538ea",
+                "name": "artsnews.mk.co.kr/mk_ad.js$domain=sports.mk.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?artsnews\\.mk\\.co\\.kr/mk_ad\\.js",
+                        "if-domain": [
+                            "sports.mk.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d4b5341c-516f-4152-bcd7-435c6ed4f7ab",
+                "name": "artsnews.mk.co.kr/paper/ad/$domain=sports.mk.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?artsnews\\.mk\\.co\\.kr/paper/ad/",
+                        "if-domain": [
+                            "sports.mk.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "70745c57-6d2b-4f69-92ee-df5c18786060",
                 "name": "as.dc.impact-ad.jp",
                 "content": {
@@ -48897,6 +48927,45 @@
                 }
             },
             {
+                "id": "cb23ccd9-fbe9-47ca-8109-d4cec7857cba",
+                "name": "sports.mk.co.kr##body>center>div[style=\"display:inline-block;width:970px;height:90px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.mk\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>center>div[style=\"display:inline-block;width:970px;height:90px\"]"
+                    }
+                }
+            },
+            {
+                "id": "b835a3b0-ad3b-444a-8b9c-05b2647d2f2f",
+                "name": "sports.mk.co.kr##div#artText>div.read_txt>div.right_image",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.mk\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#artText>div.read_txt>div.right_image"
+                    }
+                }
+            },
+            {
+                "id": "4ef7a179-6891-470f-92fa-cc298b06f6bb",
+                "name": "sports.mk.co.kr##div#new_header>div[style=\"float: right; width: 250px; height: 60px;padding-top: 14px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.mk\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#new_header>div[style=\"float: right; width: 250px; height: 60px;padding-top: 14px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "07b03226-aaff-4144-8d49-b784e67d9aa4",
                 "name": "sports.mk.co.kr##div[id^=\"slidemenu\"]",
                 "content": {
@@ -48910,28 +48979,28 @@
                 }
             },
             {
-                "id": "ec0a5d5a-c19e-4ed3-94c4-2ea1a080de5a",
-                "name": "sports.mk.co.kr##iframe[id^=\"sptb_\"]",
+                "id": "22991a60-7b58-4155-a4fc-314de703abbd",
+                "name": "sports.mk.co.kr##iframe[src^=\"http://artsnews.mk.co.kr/paper/ad/\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.mk\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "iframe[id^=\"sptb_\"]"
+                        "selector": "iframe[src^=\"http://artsnews.mk.co.kr/paper/ad/\"]"
                     }
                 }
             },
             {
-                "id": "3d185a41-764c-4c6f-b3f3-0c369ff2f648",
-                "name": "sports.mk.co.kr##iframe[id^=\"spttb_\"]",
+                "id": "10632e8f-1145-4ef8-bd9f-c85152b5ee37",
+                "name": "sports.mk.co.kr##td.rightsec>table>tbody>tr:nth-of-type(2)>td>div[style=\"position:relative; width:300px; height:250px; margin:0; padding:0; overflow:hidden;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.mk\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "iframe[id^=\"spttb_\"]"
+                        "selector": "td.rightsec>table>tbody>tr:nth-of-type(2)>td>div[style=\"position:relative; width:300px; height:250px; margin:0; padding:0; overflow:hidden;\"]"
                     }
                 }
             },

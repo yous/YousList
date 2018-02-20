@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: FXzaPu6zN+5sNW9PJO7xNQ
+! Checksum: W/X0YcGnXmtpbPwSZQEq+w
 ! Version: 20180220
 
 ! Workaround for BlockAdBlock
@@ -521,6 +521,8 @@
 ||apis.naver.com/rmcnmv/rmcams/item/create/2010/SMR^$domain=m.tv.naver.com|tv.naver.com
 ||apis.piclick.me/v1/publish/banner/iframe^
 ||art.chosun.com/common/r_banner/index.html^$domain=art.chosun.com
+||artsnews.mk.co.kr/mk_ad.js^$domain=sports.mk.co.kr
+||artsnews.mk.co.kr/paper/ad/$domain=sports.mk.co.kr
 ||as.dc.impact-ad.jp^
 ||asahicom.jp/ad/js/$domain=asahi.com
 ||asiae.co.kr/include/real_ad/
@@ -3508,9 +3510,12 @@ sports.media.daum.net##div#RIGHT_SPACE_BANNER
 sports.media.daum.net##div#SponsorBarWrap
 sports.media.daum.net##div.wing_bnr1
 sports.media.daum.net##div.wing_bnr2
+sports.mk.co.kr##body>center>div[style="display:inline-block;width:970px;height:90px"]
+sports.mk.co.kr##div#artText>div.read_txt>div.right_image
+sports.mk.co.kr##div#new_header>div[style="float: right; width: 250px; height: 60px;padding-top: 14px;"]
 sports.mk.co.kr##div[id^="slidemenu"]
-sports.mk.co.kr##iframe[id^="sptb_"]
-sports.mk.co.kr##iframe[id^="spttb_"]
+sports.mk.co.kr##iframe[src^="http://artsnews.mk.co.kr/paper/ad/"]
+sports.mk.co.kr##td.rightsec>table>tbody>tr:nth-of-type(2)>td>div[style="position:relative; width:300px; height:250px; margin:0; padding:0; overflow:hidden;"]
 sports.orange.fr##div#commercial-links
 sports.orange.fr##div.pave_pub
 sportsseoul.com##div#SS_slides
