@@ -16,6 +16,7 @@ else:
 pwd = os.path.dirname(os.path.abspath(__file__))
 root = os.path.dirname(pwd)
 
+
 class FilterParser:
     # For scheme, see Appendix A of http://www.ietf.org/rfc/rfc2396.txt
     DOMAIN_PREFIX = '^[a-z0-9+_.]+:/+(?:[^/]+\\.)?'
@@ -47,7 +48,7 @@ class FilterParser:
         if six.PY2:
             sys.stdout.write(
                 json.dumps([self.pkg], ensure_ascii=False,
-                           indent=4, separators=(',', ': ')) \
+                           indent=4, separators=(',', ': '))
                 .encode('utf-8'))
         else:
             sys.stdout.write(
@@ -91,7 +92,8 @@ class FilterParser:
         url = urls
         trigger = OrderedDict()
         if url:
-            trigger['url-filter'] = self.DOMAIN_PREFIX + url.replace('.', '\\.')
+            trigger['url-filter'] = \
+                self.DOMAIN_PREFIX + url.replace('.', '\\.')
         else:
             trigger['url-filter'] = '.*'
 
@@ -192,6 +194,7 @@ class FilterParser:
             else:
                 raise Exception('Cannot handle this option: ' + opt_key)
         return opt_dict
+
 
 orig_pkg = os.path.join(root, 'Rules.1blockpkg')
 parser = FilterParser(basepkg=orig_pkg)
