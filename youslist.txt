@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: kFhllXcf7l5Oc1cJCi/KbA
+! Checksum: vg0KXIm5dKLJsGHnAxuVlw
 ! Version: 20180227
 
 ! Workaround for BlockAdBlock
@@ -54,6 +54,7 @@
 ##iframe[src*="/NetInsight/"]
 ##iframe[src*="/RealMedia/ads/"]
 ##iframe[src^="//acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html"]
+##iframe[src^="//acdn.adnxs.com/ib/static/usersync/v4/async_usersync.html"]
 ##iframe[src^="//ad.vkoad.com/showads.php"]
 ##iframe[src^="//adclickservice.com"]
 ##iframe[src^="//ads.acrosspf.com/adinfo.ad"]
@@ -290,6 +291,7 @@
 ||aax-us-east.amazon-adsystem.com/x/getad^
 ||acdn.adnxs.com/ast/ast.js^
 ||acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html^
+||acdn.adnxs.com/ib/static/usersync/v4/async_usersync.html^
 ||ad*.*/event.ems/$domain=~interpark.com
 ||ad*.inews24.com^
 ||ad*.netshelter.net/adj/
@@ -943,6 +945,7 @@
 ||lightasp.dmcmedia.co.kr/adixs/
 ||longkeyone.co.kr^
 ||m.11st.co.kr/MW/html/allianceAd/
+||m.adnxs.com/ut/v3^
 ||m.adtc.daum.net/js/mobilead.js^
 ||m.asiatoday.co.kr/kn/ad/$domain=m.asiatoday.co.kr
 ||m.asiatoday.co.kr/kn/adop2.js^$domain=m.asiatoday.co.kr
@@ -1162,6 +1165,7 @@
 ||pv.tag.ntomap.com/bin/query^
 ||qcma.qrobo.com/QCMA/common/
 ||quick.1rtl.info/init.js^
+||r1.res.office365.com/adbar/*/adbar.js^$domain=outlook.live.com
 ||ra.ntwoad.co.kr^
 ||rarenok.biz/img/r/i/208/
 ||rcm-na.amazon-adsystem.com/e/cm^
@@ -3292,6 +3296,8 @@ otakomu.jp##div.wgt-ad-kobetu4-pc
 otakomu.jp##div.wgt-ad-kobetu4-sp
 otakomu.jp##div.wgt-ad-kobetu7-pc
 otakomu.jp##div.wgt-ad-kobetu8-pc
+outlook.live.com##div#owaadbar
+outlook.live.com##div[class^="__Microsoft_Owa_MessageListAds_ListView_templates_cs_"]
 pann.nate.com##div#pann_brandAdWrap
 pann.nate.com##div#psypannAd
 pann.nate.com##div.sidebar.ad

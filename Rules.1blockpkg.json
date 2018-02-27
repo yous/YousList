@@ -472,6 +472,19 @@
                 }
             },
             {
+                "id": "c944222f-72e3-4ce1-a8b0-131a3e5192d6",
+                "name": "##iframe[src^=\"//acdn.adnxs.com/ib/static/usersync/v4/async_usersync.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//acdn.adnxs.com/ib/static/usersync/v4/async_usersync.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "00937db8-7f96-4ff8-9f8b-df3f8db02873",
                 "name": "##iframe[src^=\"//ad.vkoad.com/showads.php\"]",
                 "content": {
@@ -3469,6 +3482,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?acdn\\.adnxs\\.com/ib/static/usersync/v3/async_usersync\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0278c272-90f0-46bc-b569-73da5c318f2e",
+                "name": "acdn.adnxs.com/ib/static/usersync/v4/async_usersync.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?acdn\\.adnxs\\.com/ib/static/usersync/v4/async_usersync\\.html"
                     },
                     "action": {
                         "type": "block"
@@ -11737,6 +11762,18 @@
                 }
             },
             {
+                "id": "a88d2029-6957-4aaf-b749-fd185e15a265",
+                "name": "m.adnxs.com/ut/v3",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.adnxs\\.com/ut/v3"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "56a9f74c-4f32-4820-9746-0f3066fa347a",
                 "name": "m.adtc.daum.net/js/mobilead.js",
                 "content": {
@@ -14561,6 +14598,21 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?quick\\.1rtl\\.info/init\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d28306de-3bd0-4418-ba32-9f7084a68cc3",
+                "name": "r1.res.office365.com/adbar/*/adbar.js$domain=outlook.live.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?r1\\.res\\.office365\\.com/adbar/.*/adbar\\.js",
+                        "if-domain": [
+                            "outlook.live.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -46094,6 +46146,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.wgt-ad-kobetu8-pc"
+                    }
+                }
+            },
+            {
+                "id": "710a7d45-28be-4b88-93c9-be94af444dd9",
+                "name": "outlook.live.com##div#owaadbar",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?outlook\\.live\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#owaadbar"
+                    }
+                }
+            },
+            {
+                "id": "d2e67e6c-13dd-4847-b7e7-e9f611a65099",
+                "name": "outlook.live.com##div[class^=\"__Microsoft_Owa_MessageListAds_ListView_templates_cs_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?outlook\\.live\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"__Microsoft_Owa_MessageListAds_ListView_templates_cs_\"]"
                     }
                 }
             },
