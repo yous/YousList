@@ -2617,6 +2617,19 @@
                 }
             },
             {
+                "id": "ca4c8e5c-9c5c-4e9a-a97c-4a456bd205e3",
+                "name": "##iframe[src^=\"http://widget.barnebys.com/widget.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://widget.barnebys.com/widget.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "2dd28a4c-adc1-4a24-a108-158a4a2673d2",
                 "name": "##iframe[src^=\"http://www.ad-playstore.com/\"]",
                 "content": {
@@ -14885,6 +14898,21 @@
                 }
             },
             {
+                "id": "74ac877b-58b2-448c-b7f4-86a0da44e5ef",
+                "name": "s.telegraph.co.uk/international/Barnebys/$domain=telegraph.co.uk",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?s\\.telegraph\\.co\\.uk/international/Barnebys/",
+                        "if-domain": [
+                            "telegraph.co.uk"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0fdc5f36-a930-441f-8a6c-d76b8aec480b",
                 "name": "s.yimg.jp/images/listing/tool/yads/yads-iframe.html",
                 "content": {
@@ -15202,6 +15230,21 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?secure\\.adnxs\\.com/jpt"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "168be47c-cbea-4fd3-9298-5c92d433c462",
+                "name": "secure.s.telegraph.co.uk/international/Barnebys/$domain=telegraph.co.uk",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?secure\\.s\\.telegraph\\.co\\.uk/international/Barnebys/",
+                        "if-domain": [
+                            "telegraph.co.uk"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -16569,6 +16612,21 @@
                 }
             },
             {
+                "id": "4aeecc5a-82d7-4e8e-a6de-2e9b9e415108",
+                "name": "telegraph.co.uk/template/ver1-0/js/commWidget.js$domain=telegraph.co.uk",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?telegraph\\.co\\.uk/template/ver1-0/js/commWidget\\.js",
+                        "if-domain": [
+                            "telegraph.co.uk"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "46a830ce-a0b2-4a13-8f21-aabaad04d1d8",
                 "name": "thepiratebay.bid/static/ads/$domain=thepiratebay.bid",
                 "content": {
@@ -17435,6 +17493,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wec\\.co\\.kr/banner/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b46c4760-ae97-48c2-bbe6-0539a091f032",
+                "name": "widget.barnebys.com/widget.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?widget\\.barnebys\\.com/widget\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -49937,6 +50007,149 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.header-ad"
+                    }
+                }
+            },
+            {
+                "id": "4b91a4f8-19c1-47bd-967c-3609df546526",
+                "name": "telegraph.co.uk##div#configurableTabs",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?telegraph\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#configurableTabs"
+                    }
+                }
+            },
+            {
+                "id": "0bb05dae-7ca6-4049-aa79-af84ee346228",
+                "name": "telegraph.co.uk##div#yell",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?telegraph\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#yell"
+                    }
+                }
+            },
+            {
+                "id": "35671804-e880-4ee5-9dbf-03825bbd0107",
+                "name": "telegraph.co.uk##div.adarea",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?telegraph\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adarea"
+                    }
+                }
+            },
+            {
+                "id": "f1c775ca-b807-43c3-943a-e4685472b899",
+                "name": "telegraph.co.uk##div.admpu",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?telegraph\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.admpu"
+                    }
+                }
+            },
+            {
+                "id": "580da0c4-de78-45ba-b1ab-cdb7f5246d3d",
+                "name": "telegraph.co.uk##div.adsky",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?telegraph\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adsky"
+                    }
+                }
+            },
+            {
+                "id": "b2867a56-5703-435f-9a36-a7d37e27fa63",
+                "name": "telegraph.co.uk##div.adyell",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?telegraph\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adyell"
+                    }
+                }
+            },
+            {
+                "id": "c2cbd724-5445-45ef-a82c-58526706688e",
+                "name": "telegraph.co.uk##div.mobileAdvert",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?telegraph\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobileAdvert"
+                    }
+                }
+            },
+            {
+                "id": "c5a70667-e2b7-4891-8b82-722c794af9b7",
+                "name": "telegraph.co.uk##div.mobileAdvertInStream",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?telegraph\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobileAdvertInStream"
+                    }
+                }
+            },
+            {
+                "id": "16b0740d-70d8-42df-9316-04702e614505",
+                "name": "telegraph.co.uk##div.mobileAdvertInStreamHighlightText",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?telegraph\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobileAdvertInStreamHighlightText"
+                    }
+                }
+            },
+            {
+                "id": "cc61f9a5-6c88-4424-a936-29ec961bfc20",
+                "name": "telegraph.co.uk##div.mobileAdvertInStreamHorizontalLine",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?telegraph\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobileAdvertInStreamHorizontalLine"
+                    }
+                }
+            },
+            {
+                "id": "a2b4f775-53be-49fc-9b78-9a0b6e4a2ec7",
+                "name": "telegraph.co.uk##iframe[src^=\"https://secure.s.telegraph.co.uk/international/Barnebys/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?telegraph\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://secure.s.telegraph.co.uk/international/Barnebys/\"]"
                     }
                 }
             },
