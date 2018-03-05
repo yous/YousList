@@ -9038,6 +9038,18 @@
                 }
             },
             {
+                "id": "8b3c0faf-10da-40dd-85af-01e67323d3c8",
+                "name": "dreamsearch.or.kr/servlet/adbnMobileFloating",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dreamsearch\\.or\\.kr/servlet/adbnMobileFloating"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "7da0d49e-138e-478d-95c2-cd7b81f43e68",
                 "name": "dreamsearch.or.kr/servlet/adbn",
                 "content": {
@@ -14370,6 +14382,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?plugin\\.2beon\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "12af9b24-250c-4228-9eea-3d8a6ee1335d",
+                "name": "plugin.adplex.co.kr/script/2beonAdScript.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?plugin\\.adplex\\.co\\.kr/script/2beonAdScript\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7aadecd3-ccb3-414b-9242-40090d293c4d",
+                "name": "plugin.adplex.co.kr/script/bridgeAd.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?plugin\\.adplex\\.co\\.kr/script/bridgeAd\\.js"
                     },
                     "action": {
                         "type": "block"
