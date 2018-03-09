@@ -44600,6 +44600,19 @@
                 }
             },
             {
+                "id": "e98348e2-2264-409e-bd48-4b1c9d1a8cbf",
+                "name": "news.tf.co.kr##div#PrismDisplayBox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.tf\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#PrismDisplayBox"
+                    }
+                }
+            },
+            {
                 "id": "b527c20f-ff9d-4e3f-b258-2927196359fa",
                 "name": "news.tf.co.kr##div#taboola-below-article-thumbnails",
                 "content": {
@@ -44622,6 +44635,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.readAd"
+                    }
+                }
+            },
+            {
+                "id": "bcb8af7b-dd5e-4c59-a0a4-401c1af43c2c",
+                "name": "news.tf.co.kr##div.realssp_dv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.tf\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.realssp_dv"
                     }
                 }
             },
