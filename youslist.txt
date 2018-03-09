@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: Q3BaCNZaC5pe7LjExuvEXg
+! Checksum: +66kS7wlLxy1zU5OajjSeQ
 ! Version: 20180309
 
 ! Workaround for BlockAdBlock
@@ -1335,6 +1335,7 @@
 ||tab2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html^
 ||tags.mathtag.com/notify/js^
 ||telegraph.co.uk/template/ver1-0/js/commWidget.js^$domain=telegraph.co.uk
+||tf.co.kr/public/ad/^$domain=tf.co.kr
 ||thepiratebay.bid/static/ads/$domain=thepiratebay.bid
 ||thepiratebay.org/static/ads/$domain=thepiratebay.org
 ||ti-center.co.kr^
@@ -3618,6 +3619,9 @@ telegraph.co.uk##div.mobileAdvertInStream
 telegraph.co.uk##div.mobileAdvertInStreamHighlightText
 telegraph.co.uk##div.mobileAdvertInStreamHorizontalLine
 telegraph.co.uk##iframe[src^="https://secure.s.telegraph.co.uk/international/Barnebys/"]
+tf.co.kr##div#midAd
+tf.co.kr##div#wrapper>div[style="margin:0 auto; width:980px; height:150px; margin-bottom:15px;"]
+tf.co.kr##iframe[src^="http://www.tf.co.kr/public/ad/"]
 tfnews.co.kr##div.banner_wrap
 tfnews.co.kr##div.com_ban
 tfnews.co.kr##div.top_banner

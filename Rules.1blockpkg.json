@@ -16715,6 +16715,21 @@
                 }
             },
             {
+                "id": "a7c807ab-43a1-412d-a3ef-937e22d7da04",
+                "name": "tf.co.kr/public/ad/$domain=tf.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tf\\.co\\.kr/public/ad/",
+                        "if-domain": [
+                            "tf.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "46a830ce-a0b2-4a13-8f21-aabaad04d1d8",
                 "name": "thepiratebay.bid/static/ads/$domain=thepiratebay.bid",
                 "content": {
@@ -50394,6 +50409,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"https://secure.s.telegraph.co.uk/international/Barnebys/\"]"
+                    }
+                }
+            },
+            {
+                "id": "953532b7-2335-4238-bf44-35a4fcf3d5fe",
+                "name": "tf.co.kr##div#midAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tf\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#midAd"
+                    }
+                }
+            },
+            {
+                "id": "fae91a07-4d5e-4b39-9809-40f6958ae7b8",
+                "name": "tf.co.kr##div#wrapper>div[style=\"margin:0 auto; width:980px; height:150px; margin-bottom:15px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tf\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wrapper>div[style=\"margin:0 auto; width:980px; height:150px; margin-bottom:15px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "63f2235e-1052-45ff-a5bc-a4956d092ff4",
+                "name": "tf.co.kr##iframe[src^=\"http://www.tf.co.kr/public/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tf\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.tf.co.kr/public/ad/\"]"
                     }
                 }
             },
