@@ -39129,6 +39129,19 @@
                 }
             },
             {
+                "id": "1bd228f3-e333-45eb-b62e-53d5b09899eb",
+                "name": "m.tf.co.kr##div#banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.tf\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner"
+                    }
+                }
+            },
+            {
                 "id": "dabc820d-23d7-444c-8259-f84e0aacf941",
                 "name": "m.tf.co.kr##div#waveAd",
                 "content": {
@@ -39177,6 +39190,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.adbox"
+                    }
+                }
+            },
+            {
+                "id": "a169d1a1-a68b-4fe8-9abc-f5bd73a7f4fc",
+                "name": "m.tf.co.kr##div.tbLeft>div[style=\"height:100px; overflow-y:hindden;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.tf\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.tbLeft>div[style=\"height:100px; overflow-y:hindden;\"]"
                     }
                 }
             },
