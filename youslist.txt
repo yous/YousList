@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 8zZLGgkIsqHVSVtUGZt4vg
-! Version: 20180309
+! Checksum: ihOcb9Hidp5eXso/0HLlMg
+! Version: 20180311
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -318,6 +318,7 @@
 ||ad.altervista.org/js*.ad/
 ||ad.applead.co.kr^
 ||ad.atdmt.com/d/a.html^
+||ad.bananamall.co.kr/*/banner.php^
 ||ad.crwdcntrl.net^
 ||ad.daum.net^
 ||ad.doubleclick.net^$third-party
@@ -940,6 +941,8 @@
 ||kookje.co.kr/news2011/sephtml/main_mediclub6.htm^$domain=kookje.co.kr
 ||kookje.co.kr/service/banner/$domain=kookje.co.kr
 ||koreadaily.com/_ui/ad/$domain=koreadaily.com
+||kukudas.com/img/banner/$domain=kukudas.com
+||kukudas.com/img/freebody/$domain=kukudas.com
 ||l.qq.com/lview^$domain=qq.com
 ||life.chosun.com/dhtm/rightBner.html^
 ||lightad.co.kr/Lightcoms/
@@ -2335,6 +2338,10 @@ krugznaniy.ru##div.GoogleAdsenceSideBar
 kukinews.com##div.wing_left
 kukinews.com##div.wing_left_up
 kukinews.com##div.wing_right
+kukudas.com##a[href^="http://www.bananamall.co.kr/Alinker/"]
+kukudas.com##a[href^="http://www.netfile.co.kr/banner/ad_banner.jsp"]
+kukudas.com##div.container div[style="width:100%; height:305px; line-height:280px; text-align:center;"]
+kukudas.com##div.freebody_text
 lenta.ru##div.b-banner
 lenta.ru##section.b-banner
 lifehacker.com##div.ad-bottom

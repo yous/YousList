@@ -3822,6 +3822,18 @@
                 }
             },
             {
+                "id": "fc5387ee-bd1e-4b09-ad2b-25a1fa3c6f7f",
+                "name": "ad.bananamall.co.kr/*/banner.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.bananamall\\.co\\.kr/.*/banner\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2a6502ca-5d84-4bac-81e6-c18ef23c4c44",
                 "name": "ad.crwdcntrl.net",
                 "content": {
@@ -11691,6 +11703,36 @@
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?koreadaily\\.com/_ui/ad/",
                         "if-domain": [
                             "koreadaily.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f9ce1f69-3d8e-4820-bae5-4b5d215c64ed",
+                "name": "kukudas.com/img/banner/$domain=kukudas.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kukudas\\.com/img/banner/",
+                        "if-domain": [
+                            "kukudas.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e35eed03-b6d6-4c1f-ad67-4e1ff1188ba2",
+                "name": "kukudas.com/img/freebody/$domain=kukudas.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kukudas\\.com/img/freebody/",
+                        "if-domain": [
+                            "kukudas.com"
                         ]
                     },
                     "action": {
@@ -33418,6 +33460,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.wing_right"
+                    }
+                }
+            },
+            {
+                "id": "f5c550f7-30b8-44dd-903a-26b8449a5765",
+                "name": "kukudas.com##a[href^=\"http://www.bananamall.co.kr/Alinker/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kukudas\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"http://www.bananamall.co.kr/Alinker/\"]"
+                    }
+                }
+            },
+            {
+                "id": "dfa4d2ac-245c-42e5-9e69-240e315d0202",
+                "name": "kukudas.com##a[href^=\"http://www.netfile.co.kr/banner/ad_banner.jsp\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kukudas\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"http://www.netfile.co.kr/banner/ad_banner.jsp\"]"
+                    }
+                }
+            },
+            {
+                "id": "3b406a27-42b1-41c3-977d-4e2c23c79fb0",
+                "name": "kukudas.com##div.container div[style=\"width:100%; height:305px; line-height:280px; text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kukudas\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.container div[style=\"width:100%; height:305px; line-height:280px; text-align:center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "3dbf05a9-cc59-4f9d-9fc5-2d396583ce11",
+                "name": "kukudas.com##div.freebody_text",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kukudas\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.freebody_text"
                     }
                 }
             },
