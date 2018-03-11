@@ -10370,6 +10370,21 @@
                 }
             },
             {
+                "id": "a59598d2-1a11-4777-a915-9b6db2b531d6",
+                "name": "hentaku.net/ad/img/$domain=hentaku.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hentaku\\.net/ad/img/",
+                        "if-domain": [
+                            "hentaku.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c7245159-0f1b-455b-a74e-48fe245b01d5",
                 "name": "hitomi.la/hitomi.js$domain=hitomi.la",
                 "content": {
@@ -30418,6 +30433,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.newslt_bt_ad"
+                    }
+                }
+            },
+            {
+                "id": "d1184bb9-6204-4d94-9cd7-78d216eb7cda",
+                "name": "hentaku.net##div#ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hentaku\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad"
+                    }
+                }
+            },
+            {
+                "id": "016907a1-8c30-45a5-a65a-1b424c6ac132",
+                "name": "hentaku.net##div#leftmenu3",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hentaku\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#leftmenu3"
                     }
                 }
             },
