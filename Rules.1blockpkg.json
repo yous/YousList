@@ -50327,6 +50327,32 @@
                 }
             },
             {
+                "id": "d67c6451-0c41-4cb6-9e6b-6b98aaff67fd",
+                "name": "tailstar.net##div#right",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tailstar\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#right"
+                    }
+                }
+            },
+            {
+                "id": "c71c5c58-9328-4694-bedf-729330c36984",
+                "name": "tailstar.net##div#s_ts_adsense",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tailstar\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#s_ts_adsense"
+                    }
+                }
+            },
+            {
                 "id": "2954c0a6-a917-4b82-866d-f21ca1171cc5",
                 "name": "targetveb.com##aside.widget_text",
                 "content": {
