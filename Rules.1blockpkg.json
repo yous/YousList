@@ -43801,6 +43801,19 @@
                 }
             },
             {
+                "id": "a4bb6c6a-6617-49b4-9a69-7fc6e14432db",
+                "name": "news.joins.com##div.shpping_life",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.shpping_life"
+                    }
+                }
+            },
+            {
                 "id": "e191ac56-d7fe-4c0b-a01d-daae12d10f21",
                 "name": "news.joins.com##div[data-widget-type=\"Ad\"]",
                 "content": {
