@@ -13637,6 +13637,21 @@
                 }
             },
             {
+                "id": "2fb0f249-984c-4a54-8a35-4dea04e97cb1",
+                "name": "news.nate.com/etc/viewTopBannerAD$domain=sports.news.nate.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.nate\\.com/etc/viewTopBannerAD",
+                        "if-domain": [
+                            "sports.news.nate.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2e5a8ed2-daf9-4600-82b3-f87448b91007",
                 "name": "news.sbs.co.kr/ad/delay_redirect.jsp",
                 "content": {
@@ -16268,6 +16283,21 @@
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.khan\\.co\\.kr/htdocs/ad/",
                         "if-domain": [
                             "sports.khan.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e09736cb-cfdd-42d1-a52d-7958b3eb4dd2",
+                "name": "sports.news.nate.com/etc/adSpace$domain=sports.news.nate.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.news\\.nate\\.com/etc/adSpace",
+                        "if-domain": [
+                            "sports.news.nate.com"
                         ]
                     },
                     "action": {
@@ -49751,6 +49781,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "td.rightsec>table>tbody>tr:nth-of-type(2)>td>div[style=\"position:relative; width:300px; height:250px; margin:0; padding:0; overflow:hidden;\"]"
+                    }
+                }
+            },
+            {
+                "id": "f1219b8b-199b-4666-8699-27779bec51f4",
+                "name": "sports.news.nate.com##div.ad260x330",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.news\\.nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad260x330"
+                    }
+                }
+            },
+            {
+                "id": "9bb9c54d-c8a6-4e64-b928-2d314358bdfa",
+                "name": "sports.news.nate.com##div.googleAd_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.news\\.nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.googleAd_wrap"
+                    }
+                }
+            },
+            {
+                "id": "5b5f3677-9f9a-4f60-b743-9f29212d13f8",
+                "name": "sports.news.nate.com##div.spaceBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.news\\.nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.spaceBanner"
+                    }
+                }
+            },
+            {
+                "id": "f010336c-7f96-460e-a3e7-11845c92d66e",
+                "name": "sports.news.nate.com##iframe[src^=\"http://news.nate.com/etc/viewTopBannerAD\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sports\\.news\\.nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://news.nate.com/etc/viewTopBannerAD\"]"
                     }
                 }
             },

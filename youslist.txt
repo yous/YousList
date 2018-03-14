@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: CJcOTjLGztgRsfwZM5s78g
+! Checksum: WN8NoLF7WzloNMvbGCg1iQ
 ! Version: 20180314
 
 ! Workaround for BlockAdBlock
@@ -1087,6 +1087,7 @@
 ||news.nate.com/Etc/ViewAD^
 ||news.nate.com/etc/AD^
 ||news.nate.com/etc/ad*
+||news.nate.com/etc/viewTopBannerAD^$domain=sports.news.nate.com
 ||news.sbs.co.kr/ad/delay_redirect.jsp^
 ||news.smi2.ru/data/js/*.js^
 ||news.sportsseoul.com/ad/
@@ -1299,6 +1300,7 @@
 ||sports.chosun.com/news/sports_chosun_hns.js^
 ||sports.hankooki.com/ad/$domain=eyenews.hankooki.com|sports.hankooki.com
 ||sports.khan.co.kr/htdocs/ad/$domain=sports.khan.co.kr
+||sports.news.nate.com/etc/adSpace^$domain=sports.news.nate.com
 ||sportsseoul.com/js/jquery.topline.banner.js^$domain=sportsseoul.com
 ||srv.bebi.com/public/js/bebi_v1.js^
 ||ssp.adpies.com/ssp/request^
@@ -3568,6 +3570,10 @@ sports.mk.co.kr##div.bn_wrap
 sports.mk.co.kr##div[id^="slidemenu"]
 sports.mk.co.kr##iframe[src^="http://artsnews.mk.co.kr/paper/ad/"]
 sports.mk.co.kr##td.rightsec>table>tbody>tr:nth-of-type(2)>td>div[style="position:relative; width:300px; height:250px; margin:0; padding:0; overflow:hidden;"]
+sports.news.nate.com##div.ad260x330
+sports.news.nate.com##div.googleAd_wrap
+sports.news.nate.com##div.spaceBanner
+sports.news.nate.com##iframe[src^="http://news.nate.com/etc/viewTopBannerAD"]
 sports.orange.fr##div#commercial-links
 sports.orange.fr##div.pave_pub
 sportsseoul.com##div#SS_slides
