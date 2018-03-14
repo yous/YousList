@@ -42033,6 +42033,19 @@
                 }
             },
             {
+                "id": "7ac8943c-35ff-459e-8040-bffb6339d778",
+                "name": "mobile.nytimes.com##div[class^=\"ResponsiveAd-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mobile\\.nytimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"ResponsiveAd-\"]"
+                    }
+                }
+            },
+            {
                 "id": "9159aa99-4bba-4634-9bd3-d35dab9f7a13",
                 "name": "moja-ostroleka.pl##div#reklama_top",
                 "content": {
