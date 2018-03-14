@@ -32504,6 +32504,32 @@
                 }
             },
             {
+                "id": "3ce7f670-36f6-4a47-ac8e-8377d5babc73",
+                "name": "joongang.joins.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joongang\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "b6a0c121-fbfb-4496-b014-6029f13686e2",
+                "name": "joongang.joins.com##div.promotion_banner03",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joongang\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.promotion_banner03"
+                    }
+                }
+            },
+            {
                 "id": "612f4c44-9098-4d36-8436-ff4ae07e81da",
                 "name": "joongang.joins.com##div[data-widget-type=\"Ad\"]",
                 "content": {
