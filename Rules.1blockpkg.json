@@ -199,6 +199,32 @@
                 }
             },
             {
+                "id": "8e7c9cbc-c177-46bf-a1ab-b4a9a4260180",
+                "name": "##div._popIn_recommend_container a._popIn_recommend_article_ad_reserved",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div._popIn_recommend_container a._popIn_recommend_article_ad_reserved"
+                    }
+                }
+            },
+            {
+                "id": "a9da7eb3-9ec5-4b02-abf1-9ba27bcc3bb0",
+                "name": "##div._popIn_recommend_container div._popIn_infinite_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div._popIn_recommend_container div._popIn_infinite_ad"
+                    }
+                }
+            },
+            {
                 "id": "2bd9a7c5-4fa9-412a-949f-44345f29caa9",
                 "name": "##div._popIn_recommend_container div._popIn_recommend_article_ad",
                 "content": {
@@ -32227,6 +32253,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#youtube_div"
+                    }
+                }
+            },
+            {
+                "id": "2aef4dd7-b763-4e53-9e9d-66ce7afa9db0",
+                "name": "jiji.com##div.ArticleAdSide",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jiji\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ArticleAdSide"
+                    }
+                }
+            },
+            {
+                "id": "118ded5b-ca26-4952-a2ee-f9e4a4ce4793",
+                "name": "jiji.com##div.RectangleAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jiji\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.RectangleAd"
                     }
                 }
             },
