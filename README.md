@@ -31,7 +31,7 @@ Install the browser plugin of uBlock and add a custom filter with the above URL.
 
 ### 1Blocker
 
-Open [Rules.1blockpkg (v20180309)](https://cdn.rawgit.com/yous/YousList/v20180309/Rules.1blockpkg)
+Open [Rules.1blockpkg (v20180314)](https://cdn.rawgit.com/yous/YousList/v20180314/Rules.1blockpkg)
 and select 1Blocker from the "Open In" menu. To update to the latest version,
 you have to remove previous rules and then import the new rules.
 
