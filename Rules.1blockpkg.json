@@ -32260,15 +32260,41 @@
                 }
             },
             {
-                "id": "58980bc4-76aa-41d9-8d81-4a242192dd03",
-                "name": "it.chosun.com##div.section_h123>div[style=\"width:160px; height:600px;position:absolute;right:50%;margin-right:-660px;top:200px;z-index:1;\"]",
+                "id": "df314c11-4269-410c-9c5a-ab7c0b846688",
+                "name": "it.chosun.com##div.AdBannerBase",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?it\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.section_h123>div[style=\"width:160px; height:600px;position:absolute;right:50%;margin-right:-660px;top:200px;z-index:1;\"]"
+                        "selector": "div.AdBannerBase"
+                    }
+                }
+            },
+            {
+                "id": "df0db03c-b8e2-435b-9bfa-5d2adfb25266",
+                "name": "it.chosun.com##div.newsinfo2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?it\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.newsinfo2"
+                    }
+                }
+            },
+            {
+                "id": "b5e9bcfd-21ea-4107-a20b-4b87a7db2856",
+                "name": "it.chosun.com##div.section_h123>div[style=\"width:160px; height:600px;position:absolute;right:50%;margin-right:-660px;top:270px;z-index:1;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?it\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.section_h123>div[style=\"width:160px; height:600px;position:absolute;right:50%;margin-right:-660px;top:270px;z-index:1;\"]"
                     }
                 }
             },
