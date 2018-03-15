@@ -693,6 +693,19 @@
                 }
             },
             {
+                "id": "0b3e543f-f1f6-4bc3-960c-4ed0e0d213d3",
+                "name": "##iframe[src^=\"//plugin.adplex.co.kr/iframe/\"][src*=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//plugin.adplex.co.kr/iframe/\"][src*=\".html\"]"
+                    }
+                }
+            },
+            {
                 "id": "f029e2ab-05a7-4993-9246-ab6f587bbecd",
                 "name": "##iframe[src^=\"//searchmaster.pro/b.php\"]",
                 "content": {
@@ -14480,6 +14493,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?plugin\\.2beon\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "72822f13-602b-466a-a2e3-2440d234cd40",
+                "name": "plugin.adplex.co.kr/iframe/*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?plugin\\.adplex\\.co\\.kr/iframe/.*\\.html"
                     },
                     "action": {
                         "type": "block"

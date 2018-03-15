@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: bUoZAHJOxt9XY43mkqiozg
+! Checksum: bPP2Vl2RihLSXfEPwpMAhw
 ! Version: 20180315
 
 ! Workaround for BlockAdBlock
@@ -71,6 +71,7 @@
 ##iframe[src^="//disqusads.com/ads-iframe/prebid/"]
 ##iframe[src^="//mrelko.com/bnrs/"]
 ##iframe[src^="//onedrive.su/code/swf_banner.php"]
+##iframe[src^="//plugin.adplex.co.kr/iframe/"][src*=".html"]
 ##iframe[src^="//searchmaster.pro/b.php"]
 ##iframe[src^="//ssp.adpies.com/ssp/request"]
 ##iframe[src^="//ssp.advg.jp/ssp/p/iframe"]
@@ -1154,6 +1155,7 @@
 ||pixel.adsafeprotected.com/jload^
 ||pl*.puhtml.com^
 ||plugin.2beon.co.kr^
+||plugin.adplex.co.kr/iframe/*.html^
 ||plugin.adplex.co.kr/script/2beonAdScript.js^
 ||plugin.adplex.co.kr/script/bridgeAd.js^
 ||polltest.azurewebsites.net/Polls/Ads^
