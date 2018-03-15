@@ -3,13 +3,14 @@
 [![Build Status](https://travis-ci.org/yous/YousList.svg?branch=master)](https://travis-ci.org/yous/YousList)
 
 Block filter for [Adblock Plus][], [uBlock Origin][], [uBlock][], [1Blocker][],
-and [AdAway][].
+[AdAway][], and [AdGuard][].
 
 [Adblock Plus]: https://adblockplus.org/
 [uBlock Origin]: https://github.com/gorhill/uBlock
 [uBlock]: https://github.com/chrisaljoudi/uBlock
 [1Blocker]: http://1blocker.com/
 [AdAway]: https://github.com/Free-Software-for-Android/AdAway
+[AdGuard]: https://adguard.com/
 
 ## Usage
 
@@ -42,6 +43,10 @@ Add the following URL as a host source.
 ```
 https://github.com/yous/YousList/raw/master/hosts.txt
 ```
+
+### AdGuard
+
+Enable YousList on the filter list.
 
 ## Testing
 
