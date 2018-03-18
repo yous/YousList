@@ -36511,6 +36511,32 @@
                 }
             },
             {
+                "id": "ff3796be-b02f-4278-a71f-0e8d905b8172",
+                "name": "m.huffingtonpost.kr##div.amp_article_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.huffingtonpost\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.amp_article_bottom"
+                    }
+                }
+            },
+            {
+                "id": "35289647-d76a-4dea-b714-c901e8fc9d52",
+                "name": "m.huffingtonpost.kr##div.amp_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.huffingtonpost\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.amp_top"
+                    }
+                }
+            },
+            {
                 "id": "fd7dc581-fca9-471c-a28e-4103df685d70",
                 "name": "m.huffpost.com##div.advertisement.mobileweb_taboola",
                 "content": {
