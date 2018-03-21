@@ -8789,6 +8789,18 @@
                 }
             },
             {
+                "id": "847f1ff8-d040-4f44-ac78-375ff47e7836",
+                "name": "delivery.vidible.tv/jsonp/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?delivery\\.vidible\\.tv/jsonp/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8eda8de8-6944-4c68-8a4c-98730432ef73",
                 "name": "deliverys.n2s.co.kr/afm.php",
                 "content": {
@@ -18019,6 +18031,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?z\\.moatads\\.com/.*/moatcontent\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "07c449ea-970b-42fd-86dd-5da711fd5de3",
+                "name": "z.moatads.com/*/moatvideo.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?z\\.moatads\\.com/.*/moatvideo\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -32373,6 +32397,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#youtube_div"
+                    }
+                }
+            },
+            {
+                "id": "e40f7665-4ce4-46a9-af6e-aab3b1e66e97",
+                "name": "java-forums.org##div#ad_global_above_footer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?java-forums\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_global_above_footer"
+                    }
+                }
+            },
+            {
+                "id": "b9b3e02f-f80a-4699-be80-73b567cc55d5",
+                "name": "java-forums.org##div#ad_global_below_navbar",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?java-forums\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_global_below_navbar"
+                    }
+                }
+            },
+            {
+                "id": "b4782912-9268-49f4-b82a-ed65eb2970d1",
+                "name": "java-forums.org##div#ad_thread_first_post_content",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?java-forums\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_thread_first_post_content"
+                    }
+                }
+            },
+            {
+                "id": "fe941c75-b7e5-41a2-9c86-0f9c45bc0082",
+                "name": "java-forums.org##div#ad_thread_last_post_content",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?java-forums\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_thread_last_post_content"
+                    }
+                }
+            },
+            {
+                "id": "5326e75f-ba9f-4fac-83f1-eef840fe222f",
+                "name": "java-forums.org##div#ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?java-forums\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ads"
                     }
                 }
             },
