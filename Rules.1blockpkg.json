@@ -34013,6 +34013,32 @@
                 }
             },
             {
+                "id": "d5f93b68-9fed-400a-af57-4a112d3d36d7",
+                "name": "lifewire.com##div.mntl-flexible-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?lifewire\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mntl-flexible-ad"
+                    }
+                }
+            },
+            {
+                "id": "05e1e28f-9a72-4b33-a762-da48105327b3",
+                "name": "lifewire.com##div.mntl-gpt-adunit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?lifewire\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mntl-gpt-adunit"
+                    }
+                }
+            },
+            {
                 "id": "aab54d92-7f7c-48f7-8c4f-71c48b78e29f",
                 "name": "live.joinsmsn.com##div.shopping_v2",
                 "content": {
