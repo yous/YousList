@@ -6517,6 +6517,18 @@
                 }
             },
             {
+                "id": "f7a4422e-4f60-4c1d-8681-402bc9852987",
+                "name": "avgle.com/avideos.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?avgle\\.com/avideos\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ae2d9834-384b-4f52-8d12-fd578c7532f2",
                 "name": "ax-d.pixfuture.net/w/1.0/afr",
                 "content": {
@@ -56720,6 +56732,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[id^=\"google_ads\"]"
+                    }
+                }
+            },
+            {
+                "id": "77f50c51-88c4-48b1-80e1-dbd39682bae7",
+                "name": "yaburi.men##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yaburi\\.men"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
                     }
                 }
             },
