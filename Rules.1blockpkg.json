@@ -18139,6 +18139,19 @@
                 }
             },
             {
+                "id": "e2f61a7f-e862-486e-a44e-cbb6d6af6e80",
+                "name": "1boon.daum.net##div#daum-ad-root",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?1boon\\.daum\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#daum-ad-root"
+                    }
+                }
+            },
+            {
                 "id": "75d43049-1db1-4dc3-b201-bc69cb9a770c",
                 "name": "1tcafe.com##a[href^=\"http://smartfile.co.kr/\"]",
                 "content": {
