@@ -36514,6 +36514,58 @@
                 }
             },
             {
+                "id": "44b22b7c-eb41-4a9d-8728-18dec7dad697",
+                "name": "m.gamechosun.co.kr##body>div[style=\"overflow:hidden;width:100%;height:0;padding-bottom:16%;margin-bottom:2px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.gamechosun\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"overflow:hidden;width:100%;height:0;padding-bottom:16%;margin-bottom:2px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "2b954c67-9e21-4d63-ba5c-e1c2257f580d",
+                "name": "m.gamechosun.co.kr##body>div[style=\"text-align:center;padding-bottom:60px;padding-top:15px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.gamechosun\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"text-align:center;padding-bottom:60px;padding-top:15px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "47f8ac6f-7d4e-4971-acd4-400b847c0f25",
+                "name": "m.gamechosun.co.kr##div#foot_banner01",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.gamechosun\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#foot_banner01"
+                    }
+                }
+            },
+            {
+                "id": "f8e43378-3a19-41bf-8968-6d70a05767d7",
+                "name": "m.gamechosun.co.kr##div.adLayer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.gamechosun\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adLayer"
+                    }
+                }
+            },
+            {
                 "id": "89eb42de-25fc-4626-8a6d-1ef0df2a1888",
                 "name": "m.gamechosun.co.kr##div.ad_com_bener",
                 "content": {
