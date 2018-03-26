@@ -35156,6 +35156,45 @@
                 }
             },
             {
+                "id": "0c3a298b-e745-4d51-a03c-1e81194edb4b",
+                "name": "m.dailycnc.com##body>div[style=\"height:96px; background-color:#dcdcdd;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dailycnc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"height:96px; background-color:#dcdcdd;\"]"
+                    }
+                }
+            },
+            {
+                "id": "e4aa5390-1624-4d24-86b7-0292f4cb2d93",
+                "name": "m.dailycnc.com##center[id^=\"AD_LIVE_AREA_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dailycnc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "center[id^=\"AD_LIVE_AREA_\"]"
+                    }
+                }
+            },
+            {
+                "id": "2b52dde7-c524-4c37-a032-771868a01a93",
+                "name": "m.dailycnc.com##section.advertisment",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dailycnc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.advertisment"
+                    }
+                }
+            },
+            {
                 "id": "83c73b61-5c2a-4686-9917-294778f7aeb8",
                 "name": "m.dailyesports.com##div.banner-wrap",
                 "content": {
