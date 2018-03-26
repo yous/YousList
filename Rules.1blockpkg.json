@@ -8672,6 +8672,51 @@
                 }
             },
             {
+                "id": "477101df-0e6c-4b25-994d-ee70d37fee04",
+                "name": "dailycnc.com/Autobox/*_banner_roll.html$domain=dailycnc.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailycnc\\.com/Autobox/.*_banner_roll\\.html",
+                        "if-domain": [
+                            "dailycnc.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8690c67f-b200-4d4a-af78-d3d6b5927eb3",
+                "name": "dailycnc.com/banner/rollbanner*.html$domain=dailycnc.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailycnc\\.com/banner/rollbanner.*\\.html",
+                        "if-domain": [
+                            "dailycnc.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c1f30d64-4a73-46a7-b468-3db187eabccb",
+                "name": "dailycnc.com/banner/rolling_banner*.html$domain=dailycnc.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailycnc\\.com/banner/rolling_banner.*\\.html",
+                        "if-domain": [
+                            "dailycnc.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8f1c1f48-b177-4181-9f76-0291f36199e8",
                 "name": "dailyesports.com/comment/ad_realclick.php$domain=dailyesports.com",
                 "content": {
@@ -25662,6 +25707,84 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "span#AD_GISA_PHOTO_LINE"
+                    }
+                }
+            },
+            {
+                "id": "d7b280f6-40b4-437c-8c4b-b2f3a58ec61f",
+                "name": "dailycnc.com##div#floating_banner_body",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailycnc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#floating_banner_body"
+                    }
+                }
+            },
+            {
+                "id": "11aaf98f-1979-460f-b5aa-15b1fd9681df",
+                "name": "dailycnc.com##div#floating_banner_body_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailycnc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#floating_banner_body_ad"
+                    }
+                }
+            },
+            {
+                "id": "8a6fed21-beee-4d61-a16c-aafaa903ecf5",
+                "name": "dailycnc.com##div[id^=\"ad_scrollBanner\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailycnc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"ad_scrollBanner\"]"
+                    }
+                }
+            },
+            {
+                "id": "305ec778-a5f5-4f09-9f70-42e2ba483399",
+                "name": "dailycnc.com##iframe[src^=\"/banner/rollbanner\"][src$=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailycnc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/banner/rollbanner\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
+                "id": "a4116259-4bdc-41ad-a1af-1140bcc80ef8",
+                "name": "dailycnc.com##iframe[src^=\"/banner/rolling_banner\"][src$=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailycnc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/banner/rolling_banner\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
+                "id": "7edff7bd-5779-43e7-b2d6-031aa0bdf6c7",
+                "name": "dailycnc.com##iframe[src^=\"http://www.dailycnc.com/Autobox/\"][src$=\"_banner_roll.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailycnc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.dailycnc.com/Autobox/\"][src$=\"_banner_roll.html\"]"
                     }
                 }
             },
