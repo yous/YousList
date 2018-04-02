@@ -8918,6 +8918,21 @@
                 }
             },
             {
+                "id": "298b4c86-4fd2-4a6c-9933-20b10d3911ea",
+                "name": "dispatch.co.kr/ad/ad-nth-*-pc.html$domain=dispatch.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr/ad/ad-nth-.*-pc\\.html",
+                        "if-domain": [
+                            "dispatch.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "48ab9aca-7fa6-400d-843f-7517c2397f0a",
                 "name": "dispatch.co.kr/ad/ad7Cover-*.html$domain=dispatch.co.kr",
                 "content": {
@@ -26582,6 +26597,19 @@
                 }
             },
             {
+                "id": "400b5ff4-3e13-4079-a28b-2f21ee36d40c",
+                "name": "dispatch.co.kr##div.abc",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.abc"
+                    }
+                }
+            },
+            {
                 "id": "4db65ba7-b40d-4dbe-8fd0-482f7aa28c84",
                 "name": "dispatch.co.kr##div.adArea",
                 "content": {
@@ -26630,6 +26658,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.rightAd"
+                    }
+                }
+            },
+            {
+                "id": "b9e9e2af-9da9-4cd0-b7e9-8b7b949ea81b",
+                "name": "dispatch.co.kr##iframe[src^=\"/ad/ad-nth-\"][src$=\"-pc.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ad/ad-nth-\"][src$=\"-pc.html\"]"
                     }
                 }
             },
