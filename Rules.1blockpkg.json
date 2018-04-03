@@ -485,6 +485,19 @@
                 }
             },
             {
+                "id": "98f41a36-e896-4b2e-9ac9-752383ae0bc5",
+                "name": "##iframe[src^=\"//101.livere.co.kr/coinone-ad/coinone-ad-widget.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//101.livere.co.kr/coinone-ad/coinone-ad-widget.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "b7b84c3a-14f9-4f44-aa06-ab69b43b47ce",
                 "name": "##iframe[src^=\"//acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html\"]",
                 "content": {
@@ -3209,6 +3222,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?1\\.227\\.58\\.23/event\\.ems/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "42896d9f-c178-4a1d-ae6b-24335aef2ca6",
+                "name": "101.livere.co.kr/coinone-ad/coinone-ad-widget.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?101\\.livere\\.co\\.kr/coinone-ad/coinone-ad-widget\\.html"
                     },
                     "action": {
                         "type": "block"
@@ -45743,6 +45768,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.s_news_list>ul>div[style=\"display:block;bottom:0;padding:5px; background:#EBEBEB; margin-top:-156px; right:0; position:absolute; width:200px; height:200px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "d60e8d56-f0fc-411a-a78c-12da53769f49",
+                "name": "news20.busan.com##div.ad-box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news20\\.busan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-box"
+                    }
+                }
+            },
+            {
+                "id": "aba074fc-cb9c-4b53-9302-23ee67748160",
+                "name": "news20.busan.com##div.head-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news20\\.busan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.head-ad"
+                    }
+                }
+            },
+            {
+                "id": "68f18f36-c157-40bd-9995-6496336b8c8f",
+                "name": "news20.busan.com##div.sbody-adBox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news20\\.busan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sbody-adBox"
+                    }
+                }
+            },
+            {
+                "id": "8ac9c130-8413-4445-8c55-dde3d89f8021",
+                "name": "news20.busan.com##div[class^=\"banner_1024_1024_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news20\\.busan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"banner_1024_1024_\"]"
                     }
                 }
             },
