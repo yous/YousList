@@ -45333,6 +45333,58 @@
                 }
             },
             {
+                "id": "b0749c62-91ef-4a17-bb4b-4e1d9d906dee",
+                "name": "news.mt.co.kr##div.aside_bundle>div[style=\"width:300px; height:250px; \"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.aside_bundle>div[style=\"width:300px; height:250px; \"]"
+                    }
+                }
+            },
+            {
+                "id": "d7c4937e-145f-4058-a751-3b31ff635c09",
+                "name": "news.mt.co.kr##div.banner_big",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_big"
+                    }
+                }
+            },
+            {
+                "id": "8745c1d9-5d61-4c15-a133-c84c8b5be0cc",
+                "name": "news.mt.co.kr##div.view_text>div[style=\"margin-top:40px; width:640px; height:155px; \"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view_text>div[style=\"margin-top:40px; width:640px; height:155px; \"]"
+                    }
+                }
+            },
+            {
+                "id": "ae7f4e12-ee75-4fb6-9ecb-6cba38b5d89a",
+                "name": "news.mt.co.kr##div.view_text>div[style=\"margin-top:5px; width:640px; height:156px; \"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view_text>div[style=\"margin-top:5px; width:640px; height:156px; \"]"
+                    }
+                }
+            },
+            {
                 "id": "2949d3ba-191b-4a23-a7bb-bc807de16240",
                 "name": "news.mt.co.kr##div[id^=\"viewBtmThumbAds\"]",
                 "content": {
