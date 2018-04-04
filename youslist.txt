@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: ae0XjUbnJ0ILlqcj04VJ6w
+! Checksum: CA6PfVuB/bgn94/7azUxUQ
 ! Version: 20180404
 
 ! Workaround for BlockAdBlock
@@ -991,7 +991,7 @@
 ||m.joyninfo.com/yna/yna_w2.asp^
 ||m.kmib.co.kr/banner/
 ||m.mediapen.com/banner.html^$domain=m.mediapen.com
-||m.metroseoul.co.kr/common/js/custom/script_*_ad.js^
+||m.metroseoul.co.kr/common/js/custom/script_*_ad.js^$domain=m.metroseoul.co.kr
 ||m.news1.kr/template/ads/$domain=m.news1.kr
 ||m.nocutnews.co.kr/ad/adnca.html^$domain=m.nocutnews.co.kr
 ||m.pann.nate.com/da/AdBigBanner^$domain=m.pann.nate.com
@@ -1190,6 +1190,7 @@
 ||rcm-na.amazon-adsystem.com/e/cm^
 ||rcm.amazon.com/e/cm^
 ||realdsp.realclick.co.kr/real_ad_dsp.html^
+||realtoday.co.kr/_ad/ad_mtr.js^
 ||rebevengwas.com/news.js^
 ||recreativ.ru/rcode.*.js^
 ||recreativ.ru/tizers.php^
@@ -1386,8 +1387,8 @@
 ||udmserve.net/udm/img.fetch^
 ||unionpress.co.kr/news/html_tpl/pr_ad.php^
 ||unionpress.co.kr/news/master/banner/3d69ca2f12c09759924d8be0a89a4259^
-||uplus.kr/cd/cdNavi/retreieveHtml3JS.dmd^
-||uplus.kr/common/m_js/mobile_html_web4.js^
+||uplus.kr/cd/cdNavi/retreieveHtml*JS*.dmd^
+||uplus.kr/common/m_js/mobile_html_web*.js^
 ||urldelivery.com/watch.
 ||us-ads.openx.net/w/1.0/afr^
 ||us-ads.openx.net/w/1.0/jstag^
@@ -2676,9 +2677,14 @@ m.metroseoul.co.kr##div#ad_1
 m.metroseoul.co.kr##div#ad_2
 m.metroseoul.co.kr##div#ad_3
 m.metroseoul.co.kr##div#ad_4
+m.metroseoul.co.kr##div#adopadzone
+m.metroseoul.co.kr##div#close_adopadzone
 m.metroseoul.co.kr##div.ad_box
 m.metroseoul.co.kr##div.middle_ad
 m.metroseoul.co.kr##div.right_ad
+m.metroseoul.co.kr##div.wrapperBox_full>div[style="margin: 50px 0 0 0px;"]
+m.metroseoul.co.kr##div.wrapperBox_full>div[style="padding: 0 15px 15px 15px; border: 0px solid #eee;"]
+m.metroseoul.co.kr##div.wrapperBox_full>div[style="text-align: center; width: 320px; height: 270px; margin: 0 auto; padding: 15px;"]
 m.mimint.co.kr##div#MimintTopBanner
 m.mimint.co.kr##div#MimintViewBoardListBanner
 m.mimint.co.kr##div#MimintViewBottomBanner

@@ -12412,11 +12412,14 @@
                 }
             },
             {
-                "id": "4d3a5b8b-d4c0-4d2d-83d2-7babea3ae999",
-                "name": "m.metroseoul.co.kr/common/js/custom/script_*_ad.js",
+                "id": "5fb986e5-5b8d-45c1-8773-cd61183fa680",
+                "name": "m.metroseoul.co.kr/common/js/custom/script_*_ad.js$domain=m.metroseoul.co.kr",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.metroseoul\\.co\\.kr/common/js/custom/script_.*_ad\\.js"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.metroseoul\\.co\\.kr/common/js/custom/script_.*_ad\\.js",
+                        "if-domain": [
+                            "m.metroseoul.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -14937,6 +14940,18 @@
                 }
             },
             {
+                "id": "b596de84-10d5-4f6a-954c-ca5774376320",
+                "name": "realtoday.co.kr/_ad/ad_mtr.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?realtoday\\.co\\.kr/_ad/ad_mtr\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9a694391-f33c-4b9c-974f-8da97f09e68b",
                 "name": "rebevengwas.com/news.js",
                 "content": {
@@ -17419,11 +17434,11 @@
                 }
             },
             {
-                "id": "4d98c24f-958b-469e-8fc7-360a8f75a8a5",
-                "name": "uplus.kr/cd/cdNavi/retreieveHtml3JS.dmd",
+                "id": "c5382e7b-63a3-4a4a-a19b-99c40c179a53",
+                "name": "uplus.kr/cd/cdNavi/retreieveHtml*JS*.dmd",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?uplus\\.kr/cd/cdNavi/retreieveHtml3JS\\.dmd"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?uplus\\.kr/cd/cdNavi/retreieveHtml.*JS.*\\.dmd"
                     },
                     "action": {
                         "type": "block"
@@ -17431,11 +17446,11 @@
                 }
             },
             {
-                "id": "3db4bdd4-eab0-4739-bc01-e9a58e8c5aec",
-                "name": "uplus.kr/common/m_js/mobile_html_web4.js",
+                "id": "6e8e45cb-8e09-444f-a874-7f091ab7f4c8",
+                "name": "uplus.kr/common/m_js/mobile_html_web*.js",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?uplus\\.kr/common/m_js/mobile_html_web4\\.js"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?uplus\\.kr/common/m_js/mobile_html_web.*\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -38025,6 +38040,32 @@
                 }
             },
             {
+                "id": "18c1e370-fdae-4d2a-8fc1-c43d362ac474",
+                "name": "m.metroseoul.co.kr##div#adopadzone",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.metroseoul\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adopadzone"
+                    }
+                }
+            },
+            {
+                "id": "5fe45b51-7b57-4011-9dd4-0bf60c32dd16",
+                "name": "m.metroseoul.co.kr##div#close_adopadzone",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.metroseoul\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#close_adopadzone"
+                    }
+                }
+            },
+            {
                 "id": "ab988975-7eb2-4ea1-a99f-fa53a2431dba",
                 "name": "m.metroseoul.co.kr##div.ad_box",
                 "content": {
@@ -38060,6 +38101,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.right_ad"
+                    }
+                }
+            },
+            {
+                "id": "ec683e18-2dad-4ae2-8fb2-09b823b782bd",
+                "name": "m.metroseoul.co.kr##div.wrapperBox_full>div[style=\"margin: 50px 0 0 0px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.metroseoul\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wrapperBox_full>div[style=\"margin: 50px 0 0 0px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "d71523b0-74ee-4995-a340-0ff6defead4f",
+                "name": "m.metroseoul.co.kr##div.wrapperBox_full>div[style=\"padding: 0 15px 15px 15px; border: 0px solid #eee;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.metroseoul\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wrapperBox_full>div[style=\"padding: 0 15px 15px 15px; border: 0px solid #eee;\"]"
+                    }
+                }
+            },
+            {
+                "id": "b489b371-910d-46cd-b05e-b32486b998cb",
+                "name": "m.metroseoul.co.kr##div.wrapperBox_full>div[style=\"text-align: center; width: 320px; height: 270px; margin: 0 auto; padding: 15px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.metroseoul\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wrapperBox_full>div[style=\"text-align: center; width: 320px; height: 270px; margin: 0 auto; padding: 15px;\"]"
                     }
                 }
             },
