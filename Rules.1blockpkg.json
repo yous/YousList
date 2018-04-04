@@ -34868,6 +34868,19 @@
                 }
             },
             {
+                "id": "6bb8f79c-7996-4764-804b-bdbeaaed4e74",
+                "name": "m.blog.naver.com##div.section_powerlink",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.blog\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.section_powerlink"
+                    }
+                }
+            },
+            {
                 "id": "ae05a9ed-db70-44da-a69f-072b2f3d66e1",
                 "name": "m.boannews.com##section.banner-zone",
                 "content": {
