@@ -3106,13 +3106,14 @@
                 }
             },
             {
-                "id": "b9609bec-d1b1-4b51-8659-7b5ef14957ab",
-                "name": "*/RealMedia/ads/$domain=~m.danawa.com",
+                "id": "590c8630-f22d-44b7-9a88-b199e822066c",
+                "name": "*/RealMedia/ads/$domain=~m.danawa.com|~news.danawa.com",
                 "content": {
                     "trigger": {
                         "url-filter": "/RealMedia/ads/",
                         "unless-domain": [
-                            "m.danawa.com"
+                            "m.danawa.com",
+                            "news.danawa.com"
                         ]
                     },
                     "action": {
@@ -43675,6 +43676,84 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"top_bn\"]"
+                    }
+                }
+            },
+            {
+                "id": "77984304-3906-4cd5-bc57-7632cd25412f",
+                "name": "news.danawa.com##div#danawa-community-newsView-powerLink-self",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#danawa-community-newsView-powerLink-self"
+                    }
+                }
+            },
+            {
+                "id": "8d6b0463-a272-4f30-b94a-8ac7e3d24d28",
+                "name": "news.danawa.com##div.bbs_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bbs_banner"
+                    }
+                }
+            },
+            {
+                "id": "9befe379-3acb-4f63-859c-16de5afc5fcb",
+                "name": "news.danawa.com##div.danawa-community-ad-clazz",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.danawa-community-ad-clazz"
+                    }
+                }
+            },
+            {
+                "id": "e320d0c0-d32b-4ac1-8ff3-bafbb0260284",
+                "name": "news.danawa.com##div.rnb_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rnb_banner"
+                    }
+                }
+            },
+            {
+                "id": "fd499563-18bc-4939-b73c-07e8148a1e53",
+                "name": "news.danawa.com##div.rnb_unit_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rnb_unit_banner"
+                    }
+                }
+            },
+            {
+                "id": "4b8c01a1-1fbb-40b1-8b9f-c294ec3171af",
+                "name": "news.danawa.com##ul.goods_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.goods_banner"
                     }
                 }
             },

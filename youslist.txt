@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: VO7RxGsXGLUMVOfx4uT3SQ
+! Checksum: pcf4KtEA7BVbHT5ljz07XA
 ! Version: 20180404
 
 ! Workaround for BlockAdBlock
@@ -259,7 +259,7 @@
 *-d.openx.net/w/1.0/arj^
 *-d.openx.net/w/1.0/jstag^
 */NetInsight/
-*/RealMedia/ads/$domain=~m.danawa.com
+*/RealMedia/ads/$domain=~m.danawa.com|~news.danawa.com
 */about_*_shopbox.*
 */ad/realclick*.html^
 */bannerManager/inc/*.html^
@@ -3100,6 +3100,12 @@ news.chosun.com##div.art_ad_ss_right
 news.chosun.com##div.art_ad_top
 news.chosun.com##div.art_aisde_ads
 news.cnbnews.com##div[class^="top_bn"]
+news.danawa.com##div#danawa-community-newsView-powerLink-self
+news.danawa.com##div.bbs_banner
+news.danawa.com##div.danawa-community-ad-clazz
+news.danawa.com##div.rnb_banner
+news.danawa.com##div.rnb_unit_banner
+news.danawa.com##ul.goods_banner
 news.donga.com##body>div[style="height:50px; width:100%;align:center;position:fixed; bottom:0;z-index:9999;"]
 news.donga.com##div#top_ad
 news.donga.com##div#view_body_middle_iframe1
