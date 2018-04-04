@@ -50933,6 +50933,45 @@
                 }
             },
             {
+                "id": "d7d67aef-1b20-4d05-94de-2fc7eab3af4a",
+                "name": "stv.seoul.co.kr##div#withpang_p",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?stv\\.seoul\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#withpang_p"
+                    }
+                }
+            },
+            {
+                "id": "50ff30ec-217e-45f0-a2dc-60bc6c2be837",
+                "name": "stv.seoul.co.kr##div.video_article>div[style=\"clear:both;float:left;display:inline-block;width:320px;height:250px;text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?stv\\.seoul\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.video_article>div[style=\"clear:both;float:left;display:inline-block;width:320px;height:250px;text-align:center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "5542d869-4b9e-4abe-8eaf-f91438534bee",
+                "name": "stv.seoul.co.kr##div.video_article>div[style=\"float:right;display:inline-block;width:320px;height:250px;text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?stv\\.seoul\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.video_article>div[style=\"float:right;display:inline-block;width:320px;height:250px;text-align:center;\"]"
+                    }
+                }
+            },
+            {
                 "id": "4465dfac-9636-4a5e-bd2d-be9c723503f9",
                 "name": "suyongso.com##div.rd_ft>div[class^=\"bd_\"][class*=\"_m\"]",
                 "content": {
