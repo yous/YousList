@@ -25352,6 +25352,58 @@
                 }
             },
             {
+                "id": "218b6f07-8ae4-422b-b600-75b4cac8d8f3",
+                "name": "cosmorning.com##div#divAdLeft",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cosmorning\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#divAdLeft"
+                    }
+                }
+            },
+            {
+                "id": "a5070a83-3bde-4358-ba08-c3a2162977c6",
+                "name": "cosmorning.com##div#divAdRight",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cosmorning\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#divAdRight"
+                    }
+                }
+            },
+            {
+                "id": "5cdb18b8-79da-4aba-9f19-7490a3e31504",
+                "name": "cosmorning.com##div.td-header-sp-recs",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cosmorning\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.td-header-sp-recs"
+                    }
+                }
+            },
+            {
+                "id": "90521d31-8564-4a7d-a8de-e62a9cb7e285",
+                "name": "cosmorning.com##div.td-ss-main-sidebar>aside.widget_text",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cosmorning\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.td-ss-main-sidebar>aside.widget_text"
+                    }
+                }
+            },
+            {
                 "id": "229d5231-9bf7-4725-ad5d-c813500467a3",
                 "name": "cultofmac.com##div.ad-region",
                 "content": {
