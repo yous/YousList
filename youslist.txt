@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: ScOYYxpy+jdpDnMEZmrNlQ
+! Checksum: wALC6SFjcHJNGQEv47YWIA
 ! Version: 20180405
 
 ! Workaround for BlockAdBlock
@@ -892,7 +892,7 @@
 ||img.sbs.co.kr/news/ad/delay_redirect_mobile.html^
 ||img.sportsseoul.com/ad/
 ||img.tvchosun.com/test/ad/$domain=news.tvchosun.com
-||img.tvchosun.com/upload_img/n2017/ad/$domain=news.tvchosun.com
+||img.tvchosun.com/upload_img/n2017/ad/$domain=m.tvchosun.com|news.tvchosun.com
 ||img.yonhapnews.co.kr/basic/svc/00_ko/resources/js/main_youtube.js^$domain=yonhapnews.co.kr
 ||img2.keywordsconnect.com/iconAdImg*.gif^
 ||imp.asahi.com/bservers/AAMALL/$domain=asahi.com
@@ -2861,6 +2861,8 @@ m.thisisgame.com##div.google-ad-part
 m.thisisgame.com##div[id^="ad_layer"]
 m.torrentcup.net,m.torrentkim.com,m.torrentkim1.net,m.torrentkim10.net,m.torrentkim5.net,m.torrentman.net##a[href^="/to_toto.html"]
 m.tr.investing.com##div.adDrawer
+m.tvchosun.com##div.bottom-controller
+m.tvchosun.com##div.ft_banner
 m.updownnews.co.kr##div.pushADMiddle
 m.viva100.com##div.bm_box>div[style="width:360px; height:65px; margin:5px 0px 5px 0px;"]
 m.viva100.com##div.m_view_ad01
