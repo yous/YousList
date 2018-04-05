@@ -31384,6 +31384,32 @@
                 }
             },
             {
+                "id": "55c0411e-99ae-4d3f-822f-123967dddbf9",
+                "name": "hyundaenews.com##a[href^=\"/ad_link.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hyundaenews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"/ad_link.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "69c548f2-0798-4b8a-b967-7d5bcbbae0ee",
+                "name": "hyundaenews.com##div#treer2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hyundaenews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#treer2"
+                    }
+                }
+            },
+            {
                 "id": "f5cdc7a4-98fc-40e0-8765-06042f3a19bb",
                 "name": "ibabynews.com##div#divContentBanner",
                 "content": {
