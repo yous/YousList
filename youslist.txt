@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: bDjKT31kN99mAFmccdixUA
+! Checksum: aCJDkjsPFCAkuM1S90v+ng
 ! Version: 20180405
 
 ! Workaround for BlockAdBlock
@@ -561,6 +561,7 @@
 ||brightonclick.com/script/suurl.php^
 ||bs.serving-sys.com/BurstingPipe/adServer.bs^
 ||bullseye.backbeatmedia.com/bullseye/adserver/
+||busan.com/nas/rssimage/adrss6.html^$domain=m.busan.com
 ||busygirlblog.com/adserver/$domain=busygirlblog.com
 ||c.amazon-adsystem.com/aax2/amzn_ads.js^
 ||c.amazon-adsystem.com/aax2/apstag.js^
@@ -2450,6 +2451,16 @@ m.breaknews.com##div#treer
 m.breaknews.com##div#treer3
 m.breaknews.com##div.container_le>div[style="margin: 10px 0 10px 0"]
 m.breaknews.com##div.container_le>div[style="margin: 10px 0 10px 0; text-align: center;"]
+m.busan.com##div#NewsContent>div[style="float:right; width:205px; height:210px; margin:0px;"]
+m.busan.com##div#article>div[style="width:100%; height:150px; padding-top:20px;"]
+m.busan.com##div#article>div[style="width:100%; height:150px;"]
+m.busan.com##div#article>div[style="width:300px; height:250px; margin:0 auto; padding:10px 0 10px 0;"]
+m.busan.com##div#article>div[style="width:320px; height:100px; margin:0 auto; padding:15px 0 5px 0;"]
+m.busan.com##div#article>div[style="width:320px; height:110px; margin:0 auto;"]
+m.busan.com##div#wrap>div[style="width:100%; margin:0 auto; padding:1px 0 0 0"]
+m.busan.com##div#wrap>div[style="width:300px; height:250px; margin:0 auto; padding:10px 0 10px 0;"]
+m.busan.com##div#wrap>div[style="width:300px; height:250px; margin:0 auto; padding:15px 0 5px 0;"]
+m.busan.com##iframe[src^="http://www.busan.com/nas/rssimage/adrss6.html"]
 m.cafe.naver.com##div.area_sa
 m.chosun.com##div.ad
 m.chosun.com##div.ad_img
