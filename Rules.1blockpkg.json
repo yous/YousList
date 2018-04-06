@@ -5654,6 +5654,18 @@
                 }
             },
             {
+                "id": "0dec8b3e-6b78-404a-bd06-4a796d9395a8",
+                "name": "adserver.juicyads.com/js/jads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adserver\\.juicyads\\.com/js/jads\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "7598c1de-12b5-4418-a02b-6a3983c4b344",
                 "name": "adserver.sbtrustmedia.com",
                 "content": {
