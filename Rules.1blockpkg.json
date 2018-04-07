@@ -6409,6 +6409,21 @@
                 }
             },
             {
+                "id": "8f7d5ff9-d6ba-4979-b337-9c006157dd0f",
+                "name": "apis.pooq.co.kr/adproxy$domain=pooq.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?apis\\.pooq\\.co\\.kr/adproxy",
+                        "if-domain": [
+                            "pooq.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "02e93bea-eaf1-4171-aaa6-f1ef8ee9b5a8",
                 "name": "art.chosun.com/common/r_banner/index.html$domain=art.chosun.com",
                 "content": {
