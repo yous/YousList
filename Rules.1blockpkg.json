@@ -21514,6 +21514,19 @@
                 }
             },
             {
+                "id": "bf57adae-667c-4b57-bac2-86d94483809d",
+                "name": "appletoolbox.com##span.ezoic-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?appletoolbox\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span.ezoic-ad"
+                    }
+                }
+            },
+            {
                 "id": "99ba0c62-6a75-4eea-af91-d1810107dd66",
                 "name": "arstechnica.com##aside.ad",
                 "content": {
