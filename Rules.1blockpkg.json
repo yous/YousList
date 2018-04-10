@@ -55951,6 +55951,32 @@
                 }
             },
             {
+                "id": "b5bd8fbd-08e9-49eb-b7eb-3abf919e2f2d",
+                "name": "twitter.com##div.promoted-tweet",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?twitter\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.promoted-tweet"
+                    }
+                }
+            },
+            {
+                "id": "4d8375e2-deec-44df-bf3b-ebf8f1dbdad0",
+                "name": "twitter.com##li.has-profile-promoted-tweet",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?twitter\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.has-profile-promoted-tweet"
+                    }
+                }
+            },
+            {
                 "id": "4bb90ac7-822b-47f3-bbd9-a2c9148e648c",
                 "name": "twonable.com##div.fixed-top",
                 "content": {
