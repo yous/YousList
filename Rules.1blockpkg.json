@@ -47046,6 +47046,32 @@
                 }
             },
             {
+                "id": "a0d59c8b-1ab5-4595-8c5f-6580205df493",
+                "name": "newyorker.com##div[class^=\"Ad__global-footer___\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newyorker\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"Ad__global-footer___\"]"
+                    }
+                }
+            },
+            {
+                "id": "dd59fe9b-b7f2-4f33-9866-7201f8ca5966",
+                "name": "newyorker.com##div[class^=\"Ad__header___\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newyorker\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"Ad__header___\"]"
+                    }
+                }
+            },
+            {
                 "id": "24afb45c-aee3-428d-9d0a-e637fb08413c",
                 "name": "nicovideo.jp##div#head_ads",
                 "content": {
