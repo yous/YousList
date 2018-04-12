@@ -43601,6 +43601,45 @@
                 }
             },
             {
+                "id": "f930ef0a-fe13-4e03-9cc5-e36f88e5bb43",
+                "name": "munhwa.com##div#divScroll",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?munhwa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#divScroll"
+                    }
+                }
+            },
+            {
+                "id": "78edea6f-5f84-46fa-91b7-a6ffb772e2ec",
+                "name": "munhwa.com##div#left_skyWingBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?munhwa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#left_skyWingBanner"
+                    }
+                }
+            },
+            {
+                "id": "bbddf5f7-1828-43f0-8e62-ef77572c9824",
+                "name": "munhwa.com##div#right_skyWingBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?munhwa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#right_skyWingBanner"
+                    }
+                }
+            },
+            {
                 "id": "6916922e-10c4-4f46-b5df-b152bebce903",
                 "name": "munhwa.com##iframe[name=\"denta_adv\"]",
                 "content": {
