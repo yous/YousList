@@ -38739,6 +38739,45 @@
                 }
             },
             {
+                "id": "0af4c1bd-1ad6-4d6c-9a38-542345d8b2c4",
+                "name": "m.munhwa.com##div#news_content>div[style=\"border: 0px dashed #BDBDBD; width: 205px; height: 200px; float:right;padding-left:5px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.munhwa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#news_content>div[style=\"border: 0px dashed #BDBDBD; width: 205px; height: 200px; float:right;padding-left:5px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "0514fe9b-b600-4b94-948a-ac5784ea4891",
+                "name": "m.munhwa.com##div.article_ad1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.munhwa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article_ad1"
+                    }
+                }
+            },
+            {
+                "id": "6f42232a-6284-41e2-9f42-26dcc0b65fc0",
+                "name": "m.munhwa.com##div.centerBanner_google",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.munhwa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.centerBanner_google"
+                    }
+                }
+            },
+            {
                 "id": "9a37f854-4d67-4fe1-9968-c9f2abe3b41f",
                 "name": "m.mydaily.co.kr##body>div>div[style=\"background:#fff; padding-top:10px; border-bottom:1px solid #dddddd; border-top:1px solid #dddddd; margin:10px 0\"]",
                 "content": {
