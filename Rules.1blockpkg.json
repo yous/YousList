@@ -14605,6 +14605,21 @@
                 }
             },
             {
+                "id": "9b8f88ad-5d25-4f13-b633-f109acdafd88",
+                "name": "ph.sisain.co.kr/adcontent/script/*.js$domain=sisain.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ph\\.sisain\\.co\\.kr/adcontent/script/.*\\.js",
+                        "if-domain": [
+                            "sisain.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d72fc47d-7815-4c76-b11e-e49673a824f3",
                 "name": "ph.spotvnews.co.kr/adcontent/script/*.js$domain=m.spotvnews.co.kr|spotvnews.co.kr",
                 "content": {
@@ -49893,6 +49908,32 @@
                 }
             },
             {
+                "id": "4a91fede-39c7-4061-9145-f8f2474e9e81",
+                "name": "sisain.co.kr##div#sliding_adop",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sisain\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sliding_adop"
+                    }
+                }
+            },
+            {
+                "id": "ac3fcd1b-26f3-45c5-8f3d-98876393b582",
+                "name": "sisain.co.kr##div#sliding_adopP",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sisain\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sliding_adopP"
+                    }
+                }
+            },
+            {
                 "id": "13259e9a-3bd5-41ea-af94-effa36a09480",
                 "name": "sisain.co.kr##div.edit_inner_content>div.banner_box",
                 "content": {
@@ -49902,6 +49943,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.edit_inner_content>div.banner_box"
+                    }
+                }
+            },
+            {
+                "id": "63a86365-030d-430b-9420-86a665a9e7a4",
+                "name": "sisain.co.kr##div.float_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sisain\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.float_banner"
                     }
                 }
             },
