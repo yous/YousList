@@ -31255,6 +31255,19 @@
                 }
             },
             {
+                "id": "ed7a0ed6-361e-4cbd-9125-d0b8608eaa6e",
+                "name": "huffingtonpost.com##div.advertisement",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?huffingtonpost\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advertisement"
+                    }
+                }
+            },
+            {
                 "id": "83d9c95c-aa6e-4bbc-a097-b5b4d68d9bc7",
                 "name": "huffingtonpost.kr##div#modulous_article_bottom",
                 "content": {
