@@ -6134,6 +6134,21 @@
                 }
             },
             {
+                "id": "7a595034-66a4-499c-93aa-fc653e44017d",
+                "name": "amp.assets.huffpost.com/scripts/scripts/sticky-ads.js$domain=huffingtonpost.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amp\\.assets\\.huffpost\\.com/scripts/scripts/sticky-ads\\.js",
+                        "if-domain": [
+                            "huffingtonpost.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9a40ff75-adad-45c3-a216-113aebaaa7aa",
                 "name": "amsv2.daum.net/ad/",
                 "content": {
