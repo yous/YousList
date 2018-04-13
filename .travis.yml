@@ -4,12 +4,6 @@ python:
   - 2.6
   - 2.7
   - 3.6
-addons:
-  apt:
-    sources:
-      - debian-sid
-    packages:
-      - shellcheck
 install:
   - pip install -r requirements.txt
   - if [[ "$TRAVIS_PYTHON_VERSION" == '2.6' ]]; then
