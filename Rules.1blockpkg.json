@@ -32003,6 +32003,19 @@
                 }
             },
             {
+                "id": "2ed29c04-2594-4e4b-8d49-7d7dba2f05c9",
+                "name": "indi.s58.xrea.com##div#vdbanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?indi\\.s58\\.xrea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#vdbanner"
+                    }
+                }
+            },
+            {
                 "id": "6fce8e58-2ba9-4a58-9e17-8e58a2f85799",
                 "name": "insight.co.kr##div.ad-google-side1",
                 "content": {
