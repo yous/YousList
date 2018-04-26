@@ -24632,6 +24632,19 @@
                 }
             },
             {
+                "id": "004717e0-f0ac-467b-8e0b-358a5f7f49d6",
+                "name": "cafe.daum.net##div#daum-ad-root",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cafe\\.daum\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#daum-ad-root"
+                    }
+                }
+            },
+            {
                 "id": "21ce7b0d-f723-4adb-8bb3-1e86570a6ee9",
                 "name": "cafe.naver.com##div#ad-banner",
                 "content": {
