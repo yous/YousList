@@ -7694,6 +7694,21 @@
                 }
             },
             {
+                "id": "5605a5a7-ada3-453e-8920-326f281b511c",
+                "name": "cast.imp.joins.com/bid/$domain=news.jtbc.joins.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cast\\.imp\\.joins\\.com/bid/",
+                        "if-domain": [
+                            "news.jtbc.joins.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "77d5c098-366c-43f7-b3bc-2a60906b3dba",
                 "name": "castbox.shopping.naver.com/index.nhn",
                 "content": {
