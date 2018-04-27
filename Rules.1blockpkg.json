@@ -2630,6 +2630,19 @@
                 }
             },
             {
+                "id": "fedcb202-b0ac-4475-9ce7-d7987f3e9f4d",
+                "name": "##iframe[src^=\"http://tracker.adbinead.com/other/\"][src$=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://tracker.adbinead.com/other/\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
                 "id": "c941ade7-c0ba-4564-b709-fcc51312fe45",
                 "name": "##iframe[src^=\"http://us-ads.openx.net/w/1.0/afr\"]",
                 "content": {
@@ -17268,6 +17281,18 @@
                 }
             },
             {
+                "id": "6a72e772-dab1-46e1-a93a-737c5a18a83f",
+                "name": "tracker.adbinead.com/other/*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tracker\\.adbinead\\.com/other/.*\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c6089fc5-b9da-4157-8cfb-e136bfe3a42b",
                 "name": "traffic.adxprts.com",
                 "content": {
@@ -23100,6 +23125,32 @@
                 }
             },
             {
+                "id": "07d22784-1e45-4a68-a834-b5146831a452",
+                "name": "biz.heraldcorp.com##div#articleText>p[style=\"float:right; margin-left:10px;border:1px solid #DED7D7;width:200px;height:200px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#articleText>p[style=\"float:right; margin-left:10px;border:1px solid #DED7D7;width:200px;height:200px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "b25a5f29-063b-48cd-9baf-fef25b81f6f8",
+                "name": "news.heraldcorp.com##div#articleText>p[style=\"float:right; margin-left:10px;border:1px solid #DED7D7;width:200px;height:200px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#articleText>p[style=\"float:right; margin-left:10px;border:1px solid #DED7D7;width:200px;height:200px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "7d32ae67-1fe2-4b30-98ed-559ca5b542e2",
                 "name": "biz.heraldcorp.com##div#photo_ad_left",
                 "content": {
@@ -23282,6 +23333,32 @@
                 }
             },
             {
+                "id": "fe96c7b7-2c08-461c-a656-be291c330a11",
+                "name": "biz.heraldcorp.com##div.ad_7[style=\"background-color:#FFF; padding: 30px 0 0 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_7[style=\"background-color:#FFF; padding: 30px 0 0 0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "8ea30367-f8b8-4a2c-b896-ebdf6de813c0",
+                "name": "news.heraldcorp.com##div.ad_7[style=\"background-color:#FFF; padding: 30px 0 0 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_7[style=\"background-color:#FFF; padding: 30px 0 0 0;\"]"
+                    }
+                }
+            },
+            {
                 "id": "c32f7e5a-ed27-49fb-b086-97bd434d6f6e",
                 "name": "biz.heraldcorp.com##div.ad_8",
                 "content": {
@@ -23330,6 +23407,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_9"
+                    }
+                }
+            },
+            {
+                "id": "586b4442-d7dc-4b3b-a5d6-ceec1f94065c",
+                "name": "biz.heraldcorp.com##div.header>div[align=\"center\"][style=\"padding-bottom:10px; width:100%;height:90px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.header>div[align=\"center\"][style=\"padding-bottom:10px; width:100%;height:90px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "2ab84fef-b353-4be7-b3fc-56a6731ec2e9",
+                "name": "news.heraldcorp.com##div.header>div[align=\"center\"][style=\"padding-bottom:10px; width:100%;height:90px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.header>div[align=\"center\"][style=\"padding-bottom:10px; width:100%;height:90px;\"]"
                     }
                 }
             },
