@@ -57615,6 +57615,19 @@
                 }
             },
             {
+                "id": "b7cbd873-cc58-4135-b101-237e9fc08ad9",
+                "name": "wikitree.co.kr##div#ar_content>div.wikitree_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ar_content>div.wikitree_ad"
+                    }
+                }
+            },
+            {
                 "id": "c73cbdb7-d858-4a47-a41c-4386e699f44c",
                 "name": "wikitree.co.kr##div#id_right_criteo_ad",
                 "content": {
