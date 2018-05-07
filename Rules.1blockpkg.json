@@ -37660,6 +37660,19 @@
                 }
             },
             {
+                "id": "34d3fd32-cd7f-49c0-9f6f-d397c0cf711d",
+                "name": "m.hungryapp.co.kr##div#game_ranking>div[style=\"text-align:center;width:100%;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.hungryapp\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#game_ranking>div[style=\"text-align:center;width:100%;\"]"
+                    }
+                }
+            },
+            {
                 "id": "71045418-6f8e-437d-b0cc-b991440c1a89",
                 "name": "m.hungryapp.co.kr##div#mainWrap>div[style^=\"display:block;overflow:hidden;width:100%;height:85px;text-align:center;background:#\"]",
                 "content": {
