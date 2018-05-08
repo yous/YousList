@@ -8415,11 +8415,14 @@
                 }
             },
             {
-                "id": "d8b2cd42-ca88-4c95-a993-a68b9b1a9de1",
-                "name": "coinpan.com/img/banner/*",
+                "id": "3225b851-55cd-4f34-9a81-4c59d8800f9b",
+                "name": "coinpan.com/img/banner/$domain=coinpan.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?coinpan\\.com/img/banner/"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?coinpan\\.com/img/banner/",
+                        "if-domain": [
+                            "coinpan.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -25409,6 +25412,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.wpcnt"
+                    }
+                }
+            },
+            {
+                "id": "c67bf95e-da6b-49b6-9906-917924182dd6",
+                "name": "coinpan.com##div.gpe_side_contents_R>div>div[style=\"height: 200px; width: 200px; border:1px solid #dadada;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?coinpan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.gpe_side_contents_R>div>div[style=\"height: 200px; width: 200px; border:1px solid #dadada;\"]"
+                    }
+                }
+            },
+            {
+                "id": "7c38fa8e-ef6e-4e78-9048-ca59d33e10ba",
+                "name": "coinpan.com##div.gpe_side_contents_R>div>div[style=\"height: 250px; width: 250px; border:1px solid #dadada;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?coinpan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.gpe_side_contents_R>div>div[style=\"height: 250px; width: 250px; border:1px solid #dadada;\"]"
+                    }
+                }
+            },
+            {
+                "id": "668ecc6a-fa7b-4de6-923b-cd255b99b678",
+                "name": "coinpan.com##div.white_board>div.section_wrap[style=\"padding-top:4px; margin-top:10px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?coinpan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.white_board>div.section_wrap[style=\"padding-top:4px; margin-top:10px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "c734a499-3eab-4f81-81f8-55fdea4c9299",
+                "name": "coinpan.com##div.xe-widget-wrapper>div>div[style=\"height: 90px; width: 776px; border:1px solid #dadada;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?coinpan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.xe-widget-wrapper>div>div[style=\"height: 90px; width: 776px; border:1px solid #dadada;\"]"
                     }
                 }
             },
