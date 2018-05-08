@@ -34617,6 +34617,32 @@
                 }
             },
             {
+                "id": "ac5d4120-d651-4277-9337-b79619d001f2",
+                "name": "linuxquestions.org##td.alt1>div[style=\"text-align: center; width: 100%\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?linuxquestions\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "td.alt1>div[style=\"text-align: center; width: 100%\"]"
+                    }
+                }
+            },
+            {
+                "id": "6635aad7-f555-4f71-a2ca-4d2a6363f82d",
+                "name": "linuxquestions.org##td[id^=\"td_post_\"]>div[style=\"float: right; margin-left: 5px; margin-bottom: 5px; margin-top: -3px; margin-right: -3px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?linuxquestions\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "td[id^=\"td_post_\"]>div[style=\"float: right; margin-left: 5px; margin-bottom: 5px; margin-top: -3px; margin-right: -3px\"]"
+                    }
+                }
+            },
+            {
                 "id": "aab54d92-7f7c-48f7-8c4f-71c48b78e29f",
                 "name": "live.joinsmsn.com##div.shopping_v2",
                 "content": {
