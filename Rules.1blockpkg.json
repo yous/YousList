@@ -8184,11 +8184,14 @@
                 }
             },
             {
-                "id": "17ffee09-407f-460d-a9fa-4c3385ae8ca7",
-                "name": "cdnprism.pandora.tv/_adv_img/prism_ad/",
+                "id": "362b2d4b-555b-4587-b2ef-7e087730b35e",
+                "name": "cdnprism.pandora.tv/_adv_img/prism_ad/$domain=~news1.kr",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdnprism\\.pandora\\.tv/_adv_img/prism_ad/"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdnprism\\.pandora\\.tv/_adv_img/prism_ad/",
+                        "unless-domain": [
+                            "news1.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -12814,6 +12817,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mainclc\\.com/.*/.*/.*/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8b799091-336d-4fc1-b7cc-d342f677dcc0",
+                "name": "marketingking.co.kr/pr/ad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?marketingking\\.co\\.kr/pr/ad\\.js"
                     },
                     "action": {
                         "type": "block"
