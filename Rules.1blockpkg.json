@@ -40591,6 +40591,19 @@
                 }
             },
             {
+                "id": "9be53798-d5ac-4ad7-9275-dcbdaaf8e0a5",
+                "name": "m.sportsseoul.com##div#article-ad-area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.sportsseoul\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article-ad-area"
+                    }
+                }
+            },
+            {
                 "id": "0c78641d-3af7-48e5-aace-41410e99118e",
                 "name": "m.sportsseoul.com##div#container>div[style=\"background-color:#fff; width:100%;\"]",
                 "content": {
