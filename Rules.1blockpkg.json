@@ -576,15 +576,15 @@
                 }
             },
             {
-                "id": "4295b346-781a-4bf4-b221-b9b4dfacd8f0",
-                "name": "##iframe[src^=\"//ads.acrosspf.com/opf/original.html\"]",
+                "id": "376adbd7-dff6-4986-bc63-521e12e9f604",
+                "name": "##iframe[src^=\"//ads.acrosspf.com/opf/\"]",
                 "content": {
                     "trigger": {
                         "url-filter": ".*"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "iframe[src^=\"//ads.acrosspf.com/opf/original.html\"]"
+                        "selector": "iframe[src^=\"//ads.acrosspf.com/opf/\"]"
                     }
                 }
             },
@@ -2080,6 +2080,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://jtpress.kr/ShareMaxBanner\"][src*=\".php\"]"
+                    }
+                }
+            },
+            {
+                "id": "1c8402d6-c219-4c19-b105-99709597cb06",
+                "name": "##iframe[src^=\"http://kn.acrosspf.com/delivery.ad\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://kn.acrosspf.com/delivery.ad\"]"
                     }
                 }
             },
@@ -4696,6 +4709,18 @@
                 }
             },
             {
+                "id": "0d9490ae-c42e-448c-9fc1-5ea82ab1ab81",
+                "name": "adf.acrosspf.com/js/acrossadx.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adf\\.acrosspf\\.com/js/acrossadx\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "495e5959-f457-4641-bdc6-83c2660460cd",
                 "name": "adf.send.microad.jp",
                 "content": {
@@ -5095,11 +5120,11 @@
                 }
             },
             {
-                "id": "ece22fcf-fb90-45e7-9d04-846fee209409",
-                "name": "ads.acrosspf.com/opf/original.html",
+                "id": "7e371132-da09-452d-8843-57c9a31f6597",
+                "name": "ads.acrosspf.com/opf/",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.acrosspf\\.com/opf/original\\.html"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.acrosspf\\.com/opf/"
                     },
                     "action": {
                         "type": "block"
@@ -12024,6 +12049,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kmib\\.co\\.kr/cp/realclick/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "728ad1e3-3ee2-4c95-8e80-29afbade336f",
+                "name": "kn.acrosspf.com/delivery.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kn\\.acrosspf\\.com/delivery\\.ad"
                     },
                     "action": {
                         "type": "block"
@@ -43694,6 +43731,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[id^=\"adList\"]"
+                    }
+                }
+            },
+            {
+                "id": "df906af7-cbb3-40fa-aafd-7dae37583dd9",
+                "name": "moviedang.com##div#popup",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?moviedang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#popup"
+                    }
+                }
+            },
+            {
+                "id": "ffa778d0-f31f-456c-824e-98ad1e4f9d26",
+                "name": "moviedang.com##div#side_ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?moviedang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#side_ads"
+                    }
+                }
+            },
+            {
+                "id": "460a102f-5f3c-4d0e-9d8c-9614f4931d64",
+                "name": "moviedang.com##div#side_ads_bottom_right",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?moviedang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#side_ads_bottom_right"
                     }
                 }
             },
