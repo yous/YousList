@@ -56952,6 +56952,45 @@
                 }
             },
             {
+                "id": "62259188-1c76-4ca8-83fa-df665dcf208a",
+                "name": "v.kakao.com##div#daum-ad-root",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?v\\.kakao\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#daum-ad-root"
+                    }
+                }
+            },
+            {
+                "id": "4557b2c9-128e-4fe5-bff4-2109068e75bd",
+                "name": "v.kakao.com##div.box_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?v\\.kakao\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.box_ad"
+                    }
+                }
+            },
+            {
+                "id": "04f5ad39-4d20-4843-87ee-822b513ce971",
+                "name": "v.kakao.com##div.box_ad2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?v\\.kakao\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.box_ad2"
+                    }
+                }
+            },
+            {
                 "id": "e5cbd674-028b-4fa0-9e03-83b0decd37fb",
                 "name": "variety.com##div.admz",
                 "content": {
