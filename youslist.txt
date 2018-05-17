@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: wk7Htxe26G7hJ1kxbRpLUw
+! Checksum: 4tpsRQYX8d/RSq60c6JtgA
 ! Version: 20180517
 
 ! Workaround for BlockAdBlock
@@ -286,6 +286,7 @@
 ||a.teads.tv/page/*/tag^
 ||a.tribalfusion.com/displayAd.js^
 ||a.tribalfusion.com/j.ad^
+||a.tribalfusion.com/real/tags/*/tags.js^
 ||a.wyzmob.com^
 ||a1.ationnet.co.kr/a01/
 ||a1.dp25.kr^
@@ -1373,6 +1374,7 @@
 ||t1.daumcdn.net/adfit/static/ad.min.js^
 ||tab.clickmon.co.kr/ad_img/
 ||tab2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html^
+||tags.expo9.exponential.com/tags/*/ROS/tags.js^
 ||tags.mathtag.com/notify/js^
 ||telegraph.co.uk/template/ver1-0/js/commWidget.js^$domain=telegraph.co.uk
 ||tf.co.kr/public/ad/^$domain=tf.co.kr
@@ -3474,6 +3476,10 @@ osen.mt.co.kr##div.mask_div
 osen.mt.co.kr##div.topBanner
 oshiete.goo.ne.jp##div#gheader
 oshiete.goo.ne.jp##div.pr-unit
+osxdaily.com##div#lower_content_ad_box
+osxdaily.com##div.contenttext>div[style="float:left;margin:10px 10px 10px 0;"]
+osxdaily.com##div.contenttext>div[style="float:none;margin:10px 0 10px 0;text-align:center;"]
+osxdaily.com##span.content_ad_head
 otakomu.jp##div.wgt-ad-kobetu1-pc
 otakomu.jp##div.wgt-ad-kobetu1-sp
 otakomu.jp##div.wgt-ad-kobetu2-pc

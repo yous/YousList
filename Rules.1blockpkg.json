@@ -3437,6 +3437,18 @@
                 }
             },
             {
+                "id": "28ca9474-91a1-48df-8a0e-076067e8a392",
+                "name": "a.tribalfusion.com/real/tags/*/tags.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?a\\.tribalfusion\\.com/real/tags/.*/tags\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0959d202-85cc-4af1-acde-f3d799ba2075",
                 "name": "a.wyzmob.com",
                 "content": {
@@ -17245,6 +17257,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tab2-cdn\\.rubiconproject\\.com/partner/scripts/rubicon/emily\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1a58de59-bcd2-4870-9ab8-c3a21fdbd942",
+                "name": "tags.expo9.exponential.com/tags/*/ROS/tags.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tags\\.expo9\\.exponential\\.com/tags/.*/ROS/tags\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -48589,6 +48613,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.pr-unit"
+                    }
+                }
+            },
+            {
+                "id": "a17d3a63-0d1b-4dc6-bbe0-eb1fb76e6c34",
+                "name": "osxdaily.com##div#lower_content_ad_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?osxdaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#lower_content_ad_box"
+                    }
+                }
+            },
+            {
+                "id": "11c55e0b-5ef2-46fb-af7c-76ff8b1dd7b7",
+                "name": "osxdaily.com##div.contenttext>div[style=\"float:left;margin:10px 10px 10px 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?osxdaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contenttext>div[style=\"float:left;margin:10px 10px 10px 0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "5731e258-9bfc-47c2-becd-fd8852f03c04",
+                "name": "osxdaily.com##div.contenttext>div[style=\"float:none;margin:10px 0 10px 0;text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?osxdaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contenttext>div[style=\"float:none;margin:10px 0 10px 0;text-align:center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "69655968-18ad-403b-ac10-313b9df1c970",
+                "name": "osxdaily.com##span.content_ad_head",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?osxdaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span.content_ad_head"
                     }
                 }
             },
