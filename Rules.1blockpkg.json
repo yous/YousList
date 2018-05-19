@@ -1863,6 +1863,19 @@
                 }
             },
             {
+                "id": "f69b5d11-732a-402e-b5ff-9455250b0862",
+                "name": "##iframe[src^=\"http://dsp.adzon.net/at/view.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://dsp.adzon.net/at/view.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "34feb626-df42-46fa-b73d-8b3b8af76c8b",
                 "name": "##iframe[src^=\"http://etc.gamechosun.co.kr/banner/\"]",
                 "content": {
@@ -9471,6 +9484,30 @@
                         "if-domain": [
                             "drive2.ru"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "42315677-5d5f-49d4-8606-e39345720c9e",
+                "name": "dsp.adzon.net/at/ad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dsp\\.adzon\\.net/at/ad\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1ce4fc93-6549-4b22-b735-460ddf3aab3b",
+                "name": "dsp.adzon.net/at/view.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dsp\\.adzon\\.net/at/view\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -22743,6 +22780,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.mask_div"
+                    }
+                }
+            },
+            {
+                "id": "4da47db6-74f8-46c0-b3e5-192ce67cd7c1",
+                "name": "asiatoday.co.kr##dl.article_body>div[style=\"width:450px;height:160px;overflow:hidden;float:left;margin-bottom:24px;margin-top:38px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?asiatoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "dl.article_body>div[style=\"width:450px;height:160px;overflow:hidden;float:left;margin-bottom:24px;margin-top:38px\"]"
                     }
                 }
             },
