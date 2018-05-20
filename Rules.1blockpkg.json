@@ -49330,19 +49330,6 @@
                 }
             },
             {
-                "id": "42a04de8-57cd-4386-bd69-43ab1402565d",
-                "name": "pixiv.net##a.ads_anchor",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pixiv\\.net"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "a.ads_anchor"
-                    }
-                }
-            },
-            {
                 "id": "2357b3fa-83fe-4955-8080-38365cb77522",
                 "name": "pixiv.net##div#header-banner",
                 "content": {
@@ -49352,6 +49339,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#header-banner"
+                    }
+                }
+            },
+            {
+                "id": "1b7fcaa0-9c24-4113-a09c-9e4896e2c679",
+                "name": "pixiv.net##div#header>div>div[style=\"height: 58px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pixiv\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#header>div>div[style=\"height: 58px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "d5e91e06-4dc1-4d27-8092-a379750ee5fb",
+                "name": "pixiv.net##div#spa-contents>div>span>div>div.overlay[style=\"height: 58px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pixiv\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#spa-contents>div>span>div>div.overlay[style=\"height: 58px;\"]"
                     }
                 }
             },
@@ -49395,28 +49408,41 @@
                 }
             },
             {
-                "id": "afba0e40-1c57-43f2-b289-5444994f9432",
-                "name": "pixiv.net##div.ads_area",
+                "id": "375994c7-10ac-466c-85f6-fe00957258f9",
+                "name": "pixiv.net##div.illust-details-view>span>div>div[style=\"height: 312px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pixiv\\.net"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ads_area"
+                        "selector": "div.illust-details-view>span>div>div[style=\"height: 312px;\"]"
                     }
                 }
             },
             {
-                "id": "e2fda4f0-8ea5-4872-a77a-962f4ad13216",
-                "name": "pixiv.net##div.cool-ad-footer",
+                "id": "60245c76-ce58-4a05-8878-e7b819ae1614",
+                "name": "pixiv.net##div[style=\"margin: 48px auto 8px; width: 728px; line-height: 0; font-size: 0px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pixiv\\.net"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.cool-ad-footer"
+                        "selector": "div[style=\"margin: 48px auto 8px; width: 728px; line-height: 0; font-size: 0px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "c3885eef-7dd4-4416-bfda-4fbc93eab713",
+                "name": "pixiv.net##iframe.ad-frame",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pixiv\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe.ad-frame"
                     }
                 }
             },
@@ -49430,6 +49456,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[data-src^=\"https://d.pixiv.org/show\"]"
+                    }
+                }
+            },
+            {
+                "id": "6033c0eb-3a79-4912-bd3e-c33ad79028b2",
+                "name": "pixiv.net##iframe[name=\"300x250\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pixiv\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[name=\"300x250\"]"
+                    }
+                }
+            },
+            {
+                "id": "96b057a4-ac3a-4ce7-8901-63fe34a8ab16",
+                "name": "pixiv.net##iframe[name=\"footer\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pixiv\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[name=\"footer\"]"
+                    }
+                }
+            },
+            {
+                "id": "95ccf0b8-0947-4d76-8e41-38af7c5e9122",
+                "name": "pixiv.net##iframe[name=\"header\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pixiv\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[name=\"header\"]"
                     }
                 }
             },
