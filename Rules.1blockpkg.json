@@ -12303,6 +12303,21 @@
                 }
             },
             {
+                "id": "3eb715f0-0ca0-46b6-a9ef-49e6160d15b6",
+                "name": "ltn.hitomi.la/hitomi-anintager.js$domain=hitomi.la",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ltn\\.hitomi\\.la/hitomi-anintager\\.js",
+                        "if-domain": [
+                            "hitomi.la"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6ee9510f-c117-4ddf-b9fc-1a2e1f1fab6f",
                 "name": "m.11st.co.kr/MW/html/allianceAd/",
                 "content": {
