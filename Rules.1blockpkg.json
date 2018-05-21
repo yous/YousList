@@ -18345,6 +18345,21 @@
                 }
             },
             {
+                "id": "26c7b52b-75a0-4104-89ee-f87908251a64",
+                "name": "youtube.com/get_midroll_info$domain=youtube.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?youtube\\.com/get_midroll_info",
+                        "if-domain": [
+                            "youtube.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9b91d261-6efd-4675-af72-0ac1233e4778",
                 "name": "youtube.com/get_video_info?*el=adunit$domain=youtube.com",
                 "content": {
@@ -59377,6 +59392,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "ytd-compact-promoted-video-renderer"
+                    }
+                }
+            },
+            {
+                "id": "4e32aef1-694c-4c1a-9fd7-bd3fbb909ecf",
+                "name": "youtube.com##ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?youtube\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer"
                     }
                 }
             },
