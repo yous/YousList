@@ -12,7 +12,7 @@ Block filter for [Adblock Plus][], [uBlock Origin][], [uBlock][], [1Blocker][],
 [AdAway]: https://github.com/Free-Software-for-Android/AdAway
 [AdGuard]: https://adguard.com/
 
-## Usage
+## Usage [(Subscribe)](https://subscribe.adblockplus.org/?location=https://github.com/yous/YousList/raw/master/youslist.txt&title=YousList)
 
 ```
 https://github.com/yous/YousList/raw/master/youslist.txt
