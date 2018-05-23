@@ -2,12 +2,11 @@
 
 [![Build Status](https://travis-ci.org/yous/YousList.svg?branch=master)](https://travis-ci.org/yous/YousList)
 
-Block filter for [Adblock Plus][], [uBlock Origin][], [uBlock][], [1Blocker][],
+Block filter for [Adblock Plus][], [uBlock Origin][], [1Blocker][],
 [AdAway][], and [AdGuard][].
 
 [Adblock Plus]: https://adblockplus.org/
 [uBlock Origin]: https://github.com/gorhill/uBlock
-[uBlock]: https://github.com/chrisaljoudi/uBlock
 [1Blocker]: http://1blocker.com/
 [AdAway]: https://github.com/Free-Software-for-Android/AdAway
 [AdGuard]: https://adguard.com/
@@ -18,17 +17,13 @@ Block filter for [Adblock Plus][], [uBlock Origin][], [uBlock][], [1Blocker][],
 https://github.com/yous/YousList/raw/master/youslist.txt
 ```
 
-### Adblock Plus
+### Adblock Plus [(Subscribe)](https://subscribe.adblockplus.org/?location=https://github.com/yous/YousList/raw/master/youslist.txt&title=YousList)
 
 Install the browser plugin of Adblock Plus and add a subscription as 'YousList' with the above URL.
 
-### uBlock Origin
+### uBlock Origin [(Subscribe)](https://subscribe.adblockplus.org/?location=https://github.com/yous/YousList/raw/master/youslist.txt&title=YousList)
 
 Install the browser plugin of uBlock Origin and enable 'KOR: YousList' by checking it.
-
-### uBlock
-
-Install the browser plugin of uBlock and add a custom filter with the above URL.
 
 ### 1Blocker
 
@@ -44,7 +39,7 @@ Add the following URL as a host source.
 https://github.com/yous/YousList/raw/master/hosts.txt
 ```
 
-### AdGuard
+### AdGuard [(Subscribe)](https://subscribe.adblockplus.org/?location=https://github.com/yous/YousList/raw/master/youslist.txt&title=YousList)
 
 Enable YousList on the filter list.
 
