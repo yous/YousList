@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/yous/YousList.svg?branch=master)](https://travis-ci.org/yous/YousList)
 
-Block filter for [Adblock Plus][], [uBlock Origin][], [uBlock][], [1Blocker][],
+Block filter for [Adblock Plus][], [uBlock Origin][], [1Blocker][],
 [AdAway][], and [AdGuard][].
 
 [Adblock Plus]: https://adblockplus.org/
