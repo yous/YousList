@@ -29809,6 +29809,19 @@
                 }
             },
             {
+                "id": "80a5ddf1-a818-4b98-bb1f-281c9795b2ee",
+                "name": "fr.romwe.com##div.banner-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fr\\.romwe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-wrapper"
+                    }
+                }
+            },
+            {
                 "id": "ce799bf6-a55e-4c6b-9aca-bd974b92c206",
                 "name": "france2.fr##div#eShowPubTop",
                 "content": {
