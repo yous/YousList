@@ -7,7 +7,6 @@ Block filter for [Adblock Plus][], [uBlock Origin][], [uBlock][], [1Blocker][],
 
 [Adblock Plus]: https://adblockplus.org/
 [uBlock Origin]: https://github.com/gorhill/uBlock
-[uBlock]: https://github.com/chrisaljoudi/uBlock
 [1Blocker]: http://1blocker.com/
 [AdAway]: https://github.com/Free-Software-for-Android/AdAway
 [AdGuard]: https://adguard.com/
