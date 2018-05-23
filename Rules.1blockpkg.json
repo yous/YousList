@@ -6495,13 +6495,14 @@
                 }
             },
             {
-                "id": "cde69f57-d8dc-4f08-86e7-02362c409062",
-                "name": "apis.naver.com/rmcnmv/rmcams/item/create/2010/SMR$domain=m.tv.naver.com|tv.naver.com",
+                "id": "8fa51fc3-9cf7-4336-9b42-bcfa7a584907",
+                "name": "apis.naver.com/rmcnmv/rmcams/item/create/$domain=m.tv.naver.com|naver.me|tv.naver.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?apis\\.naver\\.com/rmcnmv/rmcams/item/create/2010/SMR",
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?apis\\.naver\\.com/rmcnmv/rmcams/item/create/",
                         "if-domain": [
                             "m.tv.naver.com",
+                            "naver.me",
                             "tv.naver.com"
                         ]
                     },
