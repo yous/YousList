@@ -59371,6 +59371,19 @@
                 }
             },
             {
+                "id": "7266c18d-4c01-457c-9a99-f643a524091a",
+                "name": "youtube.com##div#player-ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?youtube\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#player-ads"
+                    }
+                }
+            },
+            {
                 "id": "8a03d563-db22-4c64-97e3-6b0aea4643c2",
                 "name": "youtube.com##div#video-masthead",
                 "content": {
