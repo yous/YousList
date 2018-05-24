@@ -58084,6 +58084,19 @@
                 }
             },
             {
+                "id": "a58efe35-6035-4244-9862-2f63b6a95686",
+                "name": "webpagetest.org##div.headerAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?webpagetest\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.headerAd"
+                    }
+                }
+            },
+            {
                 "id": "1c451eff-08df-43ae-8d22-f1396696b17f",
                 "name": "webtoon.bamtoki.com##div.banner_wing",
                 "content": {
