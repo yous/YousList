@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 7lakTyQP4wE2l9z9ZpOziA
+! Checksum: rgJkE3SSoN7sInpI9yyWsA
 ! Version: 20180527
 
 ! Workaround for BlockAdBlock
@@ -44,6 +44,7 @@
 ##div.ob_container>a.ob-p
 ##div.trc_rbox_container div.trc_rbox_outer div.syndicatedItem
 ##div[id^="AD_LIVE_AREA_"]
+##div[id^="M"][id*="ScriptRootC"]
 ##div[id^="MarketGidScriptRootC"]
 ##div[id^="div-gpt-ad-"]
 ##div[id^="google_ads_iframe_"]
@@ -668,6 +669,7 @@
 ||cdn.stickyadstv.com/mustang/vpaid-adapter.min.js^
 ||cdn.teads.tv/js/all-v1.js^
 ||cdn.teads.tv/media/format/v3/teads-format.min.js^
+||cdn.tsyndicate.com/sdk/v1/n.js^
 ||cdn03.sndkorea.co.kr^
 ||cdn04.sndkorea.co.kr^
 ||cdn1.smartadserver.com/diff/*/smartadasmi.js^
@@ -971,10 +973,12 @@
 ||jsc.adskeeper.co.uk/*/*/*.js^
 ||jsc.marketgid.com/*/*/*.js^
 ||jsc.mgid.com^
+||jsc.traffic-media.co.uk/*/*/*.js^
 ||jshoppingbox.joinsmsn.com^
 ||jsn.dt00.net/*/*/*.*.js^
 ||jtbc.joins.com/common/json2XMLvast.aspx^
 ||jtpress.kr/ShareMaxBanner*.php^
+||k77hof1z7k.com/*.js^
 ||keyword.ad4989.co.kr^
 ||khan.co.kr/ad/
 ||kmib.co.kr/cp/realclick/
@@ -1424,6 +1428,7 @@
 ||utildown.co.kr/adv/adv.php^
 ||v5.actionteaser.ru/news.php^
 ||veta.naver.com/fxshow^
+||vhldwuv6om.com/*.js^
 ||view.asiae.co.kr/common/ad/
 ||viewsnnews.com/image/advert/
 ||vogonara.ru/rotator/*.js^

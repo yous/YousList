@@ -342,6 +342,19 @@
                 }
             },
             {
+                "id": "9607af39-c86e-496f-b038-c94bf990b79b",
+                "name": "##div[id^=\"M\"][id*=\"ScriptRootC\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"M\"][id*=\"ScriptRootC\"]"
+                    }
+                }
+            },
+            {
                 "id": "46f6315b-bbd5-44fd-a54e-c709e37ba522",
                 "name": "##div[id^=\"MarketGidScriptRootC\"]",
                 "content": {
@@ -8236,6 +8249,18 @@
                 }
             },
             {
+                "id": "569ba7aa-910f-4db6-a9f1-9b16afb22d69",
+                "name": "cdn.tsyndicate.com/sdk/v1/n.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.tsyndicate\\.com/sdk/v1/n\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b2303083-974f-44b5-bf3b-e3952d6da920",
                 "name": "cdn03.sndkorea.co.kr",
                 "content": {
@@ -12134,6 +12159,18 @@
                 }
             },
             {
+                "id": "75483eff-3236-4ffe-98c3-8f2ea13d6413",
+                "name": "jsc.traffic-media.co.uk/*/*/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jsc\\.traffic-media\\.co\\.uk/.*/.*/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1adfc35f-2879-42bb-a507-73bf2fc2b0a8",
                 "name": "jshoppingbox.joinsmsn.com",
                 "content": {
@@ -12175,6 +12212,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jtpress\\.kr/ShareMaxBanner.*\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8a8c233e-2aba-4701-9ec9-77fd76264373",
+                "name": "k77hof1z7k.com/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?k77hof1z7k\\.com/.*\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -17911,6 +17960,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?veta\\.naver\\.com/fxshow"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0d40686d-2a56-4305-844a-e89cbcc749fc",
+                "name": "vhldwuv6om.com/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vhldwuv6om\\.com/.*\\.js"
                     },
                     "action": {
                         "type": "block"
