@@ -3046,6 +3046,19 @@
                 }
             },
             {
+                "id": "22673e32-6a95-4b10-adb7-87706e38fb7d",
+                "name": "##iframe[src^=\"https://syndication.exosrv.com/ads-iframe-display.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://syndication.exosrv.com/ads-iframe-display.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "7b3ffe9c-f840-4156-aa8f-eaa2bb83bcb6",
                 "name": "##iframe[src^=\"https://www.mxttrf.com/ads\"]",
                 "content": {
@@ -5378,6 +5391,42 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.exoclick\\.com/iframe\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "45e61d39-cf4a-4d07-ad01-d8deb7300517",
+                "name": "ads.exosrv.com/ads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.exosrv\\.com/ads\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5bb4582a-efbb-4992-bf60-40fdab605175",
+                "name": "ads.exosrv.com/js.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.exosrv\\.com/js\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2fee625d-bed3-4d90-ae32-0ef700c0fa6a",
+                "name": "ads.exosrv.com/popunder1000.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.exosrv\\.com/popunder1000\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -10842,6 +10891,21 @@
                 }
             },
             {
+                "id": "bbae5aba-d181-46a8-8132-fa9afc729b59",
+                "name": "hitomi.la/hitomi/vrsox-*.js$domain=hitomi.la",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hitomi\\.la/hitomi/vrsox-.*\\.js",
+                        "if-domain": [
+                            "hitomi.la"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "827b2b8a-2e57-494a-912e-3e93721858c5",
                 "name": "hpr.outbrain.com/utils/get?*fbk=foxHpNative$domain=foxnews.com",
                 "content": {
@@ -12304,11 +12368,41 @@
                 }
             },
             {
+                "id": "fe3551ff-58eb-4303-ba67-7c05110f9b83",
+                "name": "ltn.hitomi.la/RaCtICanTi24.js$domain=hitomi.la",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ltn\\.hitomi\\.la/RaCtICanTi24\\.js",
+                        "if-domain": [
+                            "hitomi.la"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "3eb715f0-0ca0-46b6-a9ef-49e6160d15b6",
                 "name": "ltn.hitomi.la/hitomi-anintager.js$domain=hitomi.la",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ltn\\.hitomi\\.la/hitomi-anintager\\.js",
+                        "if-domain": [
+                            "hitomi.la"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a04a4725-b154-4b00-96f0-28fe04ef5c85",
+                "name": "ltn.hitomi.la/thlYeSta6.js$domain=hitomi.la",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ltn\\.hitomi\\.la/thlYeSta6\\.js",
                         "if-domain": [
                             "hitomi.la"
                         ]
@@ -17250,6 +17344,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?syndication\\.exoclick\\.com/splash\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "79c8b8fb-e870-439e-9c24-9e8abce71436",
+                "name": "syndication.exosrv.com/ads-iframe-display.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?syndication\\.exosrv\\.com/ads-iframe-display\\.php"
                     },
                     "action": {
                         "type": "block"
