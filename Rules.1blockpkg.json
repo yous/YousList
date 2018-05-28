@@ -784,6 +784,19 @@
                 }
             },
             {
+                "id": "791b6140-d842-40dc-8abb-9f03cd8d64f7",
+                "name": "##iframe[src^=\"//tsyndicate.com/iframes2/\"][src*=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//tsyndicate.com/iframes2/\"][src*=\".html\"]"
+                    }
+                }
+            },
+            {
                 "id": "de243eb3-adf1-4ad6-b7df-9c8fa6e2217e",
                 "name": "##iframe[src^=\"//urldelivery.com/watch.\"]",
                 "content": {
@@ -8249,11 +8262,11 @@
                 }
             },
             {
-                "id": "569ba7aa-910f-4db6-a9f1-9b16afb22d69",
-                "name": "cdn.tsyndicate.com/sdk/v1/n.js",
+                "id": "e5be59ce-a7aa-40c1-9ef5-d6659d8bea29",
+                "name": "cdn.tsyndicate.com/sdk/v1/*.js",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.tsyndicate\\.com/sdk/v1/n\\.js"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.tsyndicate\\.com/sdk/v1/.*\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -17687,6 +17700,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ts\\.2beon\\.co\\.kr/nad/media/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "36a2d831-befe-466c-845d-990ceb0c2d4d",
+                "name": "tsyndicate.com/iframes2/*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tsyndicate\\.com/iframes2/.*\\.html"
                     },
                     "action": {
                         "type": "block"
