@@ -25231,6 +25231,19 @@
                 }
             },
             {
+                "id": "f1c98796-ef99-45fb-8d7b-3ec1f7242572",
+                "name": "cdn.ampproject.org##div.amp_view_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.amp_view_ad"
+                    }
+                }
+            },
+            {
                 "id": "43e7550f-ab8a-4bce-8799-6509ca41967e",
                 "name": "chicagotribune.com##div.trb_ar_rail_ad",
                 "content": {
