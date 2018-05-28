@@ -25790,6 +25790,19 @@
                 }
             },
             {
+                "id": "2eb9ef8c-0988-4a0d-b173-8e911d256347",
+                "name": "cm.asiae.co.kr##ul.ad_Area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cm\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.ad_Area"
+                    }
+                }
+            },
+            {
                 "id": "e5ce53fa-f9b6-490b-bb77-30c028190b10",
                 "name": "cnet.com##div[data-ad]",
                 "content": {
