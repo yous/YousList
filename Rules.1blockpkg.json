@@ -28091,6 +28091,19 @@
                 }
             },
             {
+                "id": "df86cdb0-44a3-4fbb-bde5-3dc16ea96211",
+                "name": "dvdprime.com##div#ad_view_right1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dvdprime\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_view_right1"
+                    }
+                }
+            },
+            {
                 "id": "7844e639-8345-4716-acaf-6d2286846a5d",
                 "name": "dvdprime.com##div#index>div#index_box3_1",
                 "content": {
