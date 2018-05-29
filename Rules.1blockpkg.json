@@ -17860,6 +17860,21 @@
                 }
             },
             {
+                "id": "035fd3f6-66f4-40ad-bd4d-bc8e00a1fbce",
+                "name": "typemoon.net/bn/ad/$domain=typemoon.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?typemoon\\.net/bn/ad/",
+                        "if-domain": [
+                            "typemoon.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d81c3cfe-519b-4f7d-b090-9d0af2b4ec2f",
                 "name": "udmserve.net/udm/img.fetch",
                 "content": {
