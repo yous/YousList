@@ -41714,6 +41714,32 @@
                 }
             },
             {
+                "id": "05572ca7-67eb-4c76-bfad-ae2cc6808478",
+                "name": "m.typemoon.net##div#ad_resp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.typemoon\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_resp"
+                    }
+                }
+            },
+            {
+                "id": "1dec542b-dfc6-41c4-b46d-49876889a29d",
+                "name": "m.typemoon.net##div#mw_mobile>div[style=\"width:100%;  text-align: center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.typemoon\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mw_mobile>div[style=\"width:100%;  text-align: center;\"]"
+                    }
+                }
+            },
+            {
                 "id": "bc3c18b0-1ad3-4f49-b9e1-6beaa9421f38",
                 "name": "m.updownnews.co.kr##div.pushADMiddle",
                 "content": {
