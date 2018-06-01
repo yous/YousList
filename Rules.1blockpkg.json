@@ -58914,15 +58914,28 @@
                 }
             },
             {
-                "id": "b7cbd873-cc58-4135-b101-237e9fc08ad9",
-                "name": "wikitree.co.kr##div#ar_content>div.wikitree_ad",
+                "id": "85247e60-dcad-411f-bfd7-3ae0e0a327d8",
+                "name": "wikitree.co.kr##div#PrismDisplayBox",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ar_content>div.wikitree_ad"
+                        "selector": "div#PrismDisplayBox"
+                    }
+                }
+            },
+            {
+                "id": "60ec0904-71a1-490d-8716-30b9d03c9cc8",
+                "name": "wikitree.co.kr##div#id_left_bar_ad_1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#id_left_bar_ad_1"
                     }
                 }
             },
@@ -58936,6 +58949,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#id_right_criteo_ad"
+                    }
+                }
+            },
+            {
+                "id": "d0327d21-76fe-4247-baf5-9c36ecf4aca7",
+                "name": "wikitree.co.kr##div#right_view_01_1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#right_view_01_1"
                     }
                 }
             },
@@ -59014,6 +59040,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.bottom>div[style=\"position:relative\"]"
+                    }
+                }
+            },
+            {
+                "id": "fbe71e17-4faa-443b-b231-2de6a6b32c4a",
+                "name": "wikitree.co.kr##div.wikitree_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wikitree_ad"
                     }
                 }
             },
