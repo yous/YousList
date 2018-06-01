@@ -2019,6 +2019,19 @@
                 }
             },
             {
+                "id": "01a1c5e6-3dc5-43f7-9b54-f69c9de24011",
+                "name": "##iframe[src^=\"http://img.mrep.kr/slot/\"][src$=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://img.mrep.kr/slot/\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
                 "id": "696fbdde-b519-4172-a315-ad1d1133e7f4",
                 "name": "##iframe[src^=\"http://img.sbs.co.kr/news/ad/delay_redirect_mobile.html\"]",
                 "content": {
@@ -11447,6 +11460,18 @@
                         "if-domain": [
                             "luukku.com"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6b35d9f1-2230-413a-9c2b-e7d78f219c55",
+                "name": "img.mrep.kr/slot/*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?img\\.mrep\\.kr/slot/.*\\.html"
                     },
                     "action": {
                         "type": "block"
@@ -37071,6 +37096,240 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.m_line_top"
+                    }
+                }
+            },
+            {
+                "id": "4731c011-a4e7-4cf9-8137-6f31e4a960e2",
+                "name": "m.dtoday.co.kr##div#ad37",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad37"
+                    }
+                }
+            },
+            {
+                "id": "e6d11ed5-ced0-4f30-a55a-f37a780700e6",
+                "name": "m.dtoday.co.kr##div#ad38",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad38"
+                    }
+                }
+            },
+            {
+                "id": "9c8e0716-67ca-43ed-a642-7f9f94f0d955",
+                "name": "m.dtoday.co.kr##div#ad39",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad39"
+                    }
+                }
+            },
+            {
+                "id": "b3b9e732-860d-49c1-9e4f-f432251a9413",
+                "name": "m.dtoday.co.kr##div#ad40",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad40"
+                    }
+                }
+            },
+            {
+                "id": "f0d06bcd-3e5b-41cf-860c-e7e06c590ea5",
+                "name": "m.dtoday.co.kr##div#default_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#default_bottom"
+                    }
+                }
+            },
+            {
+                "id": "04053565-edc9-416e-8e60-649506ab8a64",
+                "name": "m.dtoday.co.kr##div#default_bottom_notch",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#default_bottom_notch"
+                    }
+                }
+            },
+            {
+                "id": "3b1b23ec-1501-4b86-a3fe-d9d252258fac",
+                "name": "m.dtoday.co.kr##div#default_nd_ad3",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#default_nd_ad3"
+                    }
+                }
+            },
+            {
+                "id": "84d02f58-adb6-4880-9c10-808982d3021b",
+                "name": "m.dtoday.co.kr##div#default_nd_ad4",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#default_nd_ad4"
+                    }
+                }
+            },
+            {
+                "id": "79f1a924-a5c2-4e3e-9699-fc0b4b9f866d",
+                "name": "m.dtoday.co.kr##div#default_nd_ad5",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#default_nd_ad5"
+                    }
+                }
+            },
+            {
+                "id": "a690d458-9da7-4ee5-8ea6-5a81213d1148",
+                "name": "m.dtoday.co.kr##div#default_news_ad1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#default_news_ad1"
+                    }
+                }
+            },
+            {
+                "id": "46bdc057-2e49-41f2-b58c-ef232b111f7f",
+                "name": "m.dtoday.co.kr##div#default_news_ad2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#default_news_ad2"
+                    }
+                }
+            },
+            {
+                "id": "702e1e8d-3610-4181-b28b-bf0fc9c3b601",
+                "name": "m.dtoday.co.kr##div#default_news_ad3",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#default_news_ad3"
+                    }
+                }
+            },
+            {
+                "id": "285fce43-0bc3-4a3a-8d2b-3040c040917e",
+                "name": "m.dtoday.co.kr##div#default_news_ad4",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#default_news_ad4"
+                    }
+                }
+            },
+            {
+                "id": "eba20880-4ba8-48b7-af5b-bc84a4f5346f",
+                "name": "m.dtoday.co.kr##div#default_news_ad5",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#default_news_ad5"
+                    }
+                }
+            },
+            {
+                "id": "02d43cee-383a-4e4a-b23b-1067a0d2108d",
+                "name": "m.dtoday.co.kr##div#default_news_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#default_news_bottom"
+                    }
+                }
+            },
+            {
+                "id": "dc9ba3e0-62ba-44bd-90e0-2aa21f7e372e",
+                "name": "m.dtoday.co.kr##div#default_news_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#default_news_top"
+                    }
+                }
+            },
+            {
+                "id": "8b1b73a7-490f-4953-89e1-585e2f91adf2",
+                "name": "m.dtoday.co.kr##div#default_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#default_top"
+                    }
+                }
+            },
+            {
+                "id": "7d7fa632-7d6b-47c4-a48e-6602a0cbae6c",
+                "name": "m.dtoday.co.kr##div#default_top_notch",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#default_top_notch"
                     }
                 }
             },
