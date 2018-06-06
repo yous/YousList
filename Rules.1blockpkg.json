@@ -53753,6 +53753,32 @@
                 }
             },
             {
+                "id": "4b5e6db3-ec21-402b-9d33-7d992fd2f9df",
+                "name": "techradar.com##div.sponsored-post",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?techradar\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sponsored-post"
+                    }
+                }
+            },
+            {
+                "id": "3c4408c3-c2be-414a-ba6a-3567fd7ff730",
+                "name": "techradar.com##div[style^=\"position: relative; box-sizing: border-box; height: auto; margin: \"][style*=\" text-align: center; display: block; pointer-events: none; transform: none; \"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?techradar\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[style^=\"position: relative; box-sizing: border-box; height: auto; margin: \"][style*=\" text-align: center; display: block; pointer-events: none; transform: none; \"]"
+                    }
+                }
+            },
+            {
                 "id": "b5f63d96-465d-4351-bfd3-46adc93f9a2a",
                 "name": "tekrevue.com##div.header-ad",
                 "content": {
