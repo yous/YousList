@@ -17534,6 +17534,21 @@
                 }
             },
             {
+                "id": "e5dff9f8-620f-407b-b1ed-a662b0b5d646",
+                "name": "tcorea.com/img/banner/$domain=tcorea.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tcorea\\.com/img/banner/",
+                        "if-domain": [
+                            "tcorea.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4aeecc5a-82d7-4e8e-a6de-2e9b9e415108",
                 "name": "telegraph.co.uk/template/ver1-0/js/commWidget.js$domain=telegraph.co.uk",
                 "content": {
@@ -53554,6 +53569,84 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "aside.widget_text"
+                    }
+                }
+            },
+            {
+                "id": "c60fa1ff-7c29-4404-8f22-2994a739ec8f",
+                "name": "tcorea.com##a[href^=\"../../page/ad.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tcorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"../../page/ad.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "b26f4ac7-3c5e-4b37-8b15-ddd5702a3296",
+                "name": "tcorea.com##a[href^=\"../page/ad.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tcorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"../page/ad.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "c3aab196-1a6f-47a3-9436-113a539c97ff",
+                "name": "tcorea.com##a[href^=\"./page/ad.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tcorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"./page/ad.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "b6083867-6bc1-4a2f-9370-437cbb106c15",
+                "name": "tcorea.com##div#containwrap>div[style=\"background:#fff; margin-top:5px; border:1px #000 solid; padding:1px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tcorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#containwrap>div[style=\"background:#fff; margin-top:5px; border:1px #000 solid; padding:1px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "513d990f-3084-4ce1-803f-e21692ba5039",
+                "name": "tcorea.com##div#containwrap>div[style=\"margin-top:3px; background:#fff; border:1px #000 solid; padding:1px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tcorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#containwrap>div[style=\"margin-top:3px; background:#fff; border:1px #000 solid; padding:1px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "44d0773c-879b-4bba-abde-47bd7c9c4250",
+                "name": "tcorea.com##div#main_bn",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tcorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#main_bn"
                     }
                 }
             },
