@@ -55235,6 +55235,58 @@
                 }
             },
             {
+                "id": "6b8a6f9c-8a7a-46b2-8d11-c5163a2a308e",
+                "name": "torrent.mom##a[href^=\"https://torrent.mom/page/partner_jump\"][href$=\".php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrent\\.mom"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"https://torrent.mom/page/partner_jump\"][href$=\".php\"]"
+                    }
+                }
+            },
+            {
+                "id": "0f0e562a-b2a3-42ed-a1cf-4ea6fc73f346",
+                "name": "torrent.mom##a[href^=\"https://torrent.mom/page/partner_view\"][href$=\".php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrent\\.mom"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"https://torrent.mom/page/partner_view\"][href$=\".php\"]"
+                    }
+                }
+            },
+            {
+                "id": "29937f61-89d3-4fda-8adf-5dbb6af52cbc",
+                "name": "torrent.mom##div#side_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrent\\.mom"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#side_banner"
+                    }
+                }
+            },
+            {
+                "id": "3d063740-2a13-4fb9-9b5d-9638aba67b04",
+                "name": "torrent.mom##div#top_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrent\\.mom"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#top_banner"
+                    }
+                }
+            },
+            {
                 "id": "4e9bc3a6-359b-4901-b901-f9b6ceee3f0e",
                 "name": "torrentcup.net##a[href^=\"/to_cheonseo.php\"]",
                 "content": {
