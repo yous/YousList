@@ -18371,6 +18371,21 @@
                 }
             },
             {
+                "id": "42a42d79-825f-464a-b59a-bfd9032c21d4",
+                "name": "webstore.ansi.org/Images/banners/$domain=webstore.ansi.org",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?webstore\\.ansi\\.org/Images/banners/",
+                        "if-domain": [
+                            "webstore.ansi.org"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "e0359d66-bdcd-4996-be03-c1bd973ea6e7",
                 "name": "wec.co.kr/banner/",
                 "content": {
