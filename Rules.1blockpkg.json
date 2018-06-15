@@ -21607,6 +21607,19 @@
                 }
             },
             {
+                "id": "c5454a45-3c4d-4512-b2bc-ebe7ba4bdbe3",
+                "name": "ads1.issuepoll.co.kr##ul>li[onclick^=\"javascript:goAd(\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads1\\.issuepoll\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul>li[onclick^=\"javascript:goAd(\"]"
+                    }
+                }
+            },
+            {
                 "id": "26ab919f-32c6-44b3-a15b-605e60a758cf",
                 "name": "afbbs.afreecatv.com##div#div_video_ad_banner",
                 "content": {
@@ -36557,6 +36570,19 @@
                 }
             },
             {
+                "id": "abb94e09-c7f6-4536-8e60-bf23afbef204",
+                "name": "m.chosun.com##div.art_ad_scp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_ad_scp"
+                    }
+                }
+            },
+            {
                 "id": "1237e50f-fafb-4348-b226-8d1ca8b2f487",
                 "name": "m.chosun.com##div.art_sub_news_box",
                 "content": {
@@ -36566,6 +36592,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.art_sub_news_box"
+                    }
+                }
+            },
+            {
+                "id": "1c93f78d-d43d-4431-8832-6657e52b48a5",
+                "name": "m.chosun.com##div.sec_ad_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sec_ad_bottom"
+                    }
+                }
+            },
+            {
+                "id": "48f3a43e-95e4-4720-9813-15a8e902c7b0",
+                "name": "m.chosun.com##div.sec_ad_headline",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sec_ad_headline"
                     }
                 }
             },
