@@ -14100,6 +14100,18 @@
                 }
             },
             {
+                "id": "ef5f206c-f949-4ba2-9707-9d75182a22bb",
+                "name": "news.chosun.com/dhtm*/js/art/cs_art_ad_*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.chosun\\.com/dhtm.*/js/art/cs_art_ad_.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "dc8f796d-f8e9-4151-94b7-4784ef65d129",
                 "name": "news.chosun.com/dhtm/js/art/*/cs_art_ad_*.js",
                 "content": {
@@ -45658,6 +45670,19 @@
                 }
             },
             {
+                "id": "cb1ff8c7-ad3e-4a8f-ba73-e5594d24ea42",
+                "name": "news.chosun.com##div.ad_aside_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_aside_box"
+                    }
+                }
+            },
+            {
                 "id": "1fd37bd1-4800-490d-8209-e9e2cb8385a3",
                 "name": "news.chosun.com##div.ad_box",
                 "content": {
@@ -45667,6 +45692,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_box"
+                    }
+                }
+            },
+            {
+                "id": "4c98110e-7565-4079-b917-ed5b0497f7c4",
+                "name": "news.chosun.com##div.ad_mid_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_mid_box"
+                    }
+                }
+            },
+            {
+                "id": "392071b4-be33-4fa4-b4a0-e4c2e85fe581",
+                "name": "news.chosun.com##div.ad_ss_left",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_ss_left"
+                    }
+                }
+            },
+            {
+                "id": "1108088e-06ea-42ad-a824-846612d0406a",
+                "name": "news.chosun.com##div.ad_ss_right",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_ss_right"
                     }
                 }
             },
@@ -45745,6 +45809,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.art_aisde_ads"
+                    }
+                }
+            },
+            {
+                "id": "ea78cb06-e69f-4de7-a9e7-dda63b30bc57",
+                "name": "news.chosun.com##div.news_ad_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.news_ad_top"
                     }
                 }
             },

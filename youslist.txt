@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: CEarVpl5effn2kaa8gtblQ
-! Version: 20180612
+! Checksum: 9bp7dgp3FTYrBGfJ4YUTeA
+! Version: 20180615
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -1120,6 +1120,7 @@
 ||networkad.nate.com/nate/mobile_pann.html^$domain=m.pann.nate.com
 ||new.jshopbox.com/sbox/box/
 ||news.chosun.com/chosun/chosunad.html^
+||news.chosun.com/dhtm*/js/art/cs_art_ad_*.js^
 ||news.chosun.com/dhtm/js/art/*/cs_art_ad_*.js^
 ||news.chosun.com/dhtm/js/common/ad_news.js^
 ||news.hankooki.com/ad/
@@ -3247,13 +3248,18 @@ nbamania.com##div#cto_async_content
 nbamania.com##div.mobile_responsive_1_div
 net.hr##div.banner
 net.hr##div.banner_adsense
+news.chosun.com##div.ad_aside_box
 news.chosun.com##div.ad_box
+news.chosun.com##div.ad_mid_box
+news.chosun.com##div.ad_ss_left
+news.chosun.com##div.ad_ss_right
 news.chosun.com##div.art_ad_aside
 news.chosun.com##div.art_ad_promo_ifbox
 news.chosun.com##div.art_ad_ss_left
 news.chosun.com##div.art_ad_ss_right
 news.chosun.com##div.art_ad_top
 news.chosun.com##div.art_aisde_ads
+news.chosun.com##div.news_ad_top
 news.cnbnews.com##div[class^="top_bn"]
 news.danawa.com##div#danawa-community-newsView-powerLink-self
 news.danawa.com##div.bbs_banner
