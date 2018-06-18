@@ -51013,6 +51013,32 @@
                 }
             },
             {
+                "id": "b8dd0009-54d5-43d8-93b0-dfc1725925dc",
+                "name": "reddit.com##div[id^=\"sidebar-atf-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?reddit\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"sidebar-atf-\"]"
+                    }
+                }
+            },
+            {
+                "id": "aafc0ffc-e078-4192-82b3-9ce38461cbe1",
+                "name": "reddit.com##div[id^=\"sidebar-btf-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?reddit\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"sidebar-btf-\"]"
+                    }
+                }
+            },
+            {
                 "id": "efd298f8-3593-4fb1-8119-bb65b312ca82",
                 "name": "redstate.com##article.large-card>div.ad",
                 "content": {
