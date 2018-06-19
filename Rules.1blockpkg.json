@@ -277,6 +277,32 @@
                 }
             },
             {
+                "id": "a2f018c7-30c9-4d6d-8bd0-f28735e52bbc",
+                "name": "##div.logly-lift-ad-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.logly-lift-ad-ad"
+                    }
+                }
+            },
+            {
+                "id": "d1af18ba-266b-461f-ba30-4b3244922dba",
+                "name": "##div.logly-lift-ad>a[href^=\"https://dsp.logly.co.jp/click\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.logly-lift-ad>a[href^=\"https://dsp.logly.co.jp/click\"]"
+                    }
+                }
+            },
+            {
                 "id": "03a6f1ae-0e69-4850-ae33-93263b2a3629",
                 "name": "##div.ob-widget-section>ul.ob-widget-items-container>li.ob-p",
                 "content": {
@@ -845,6 +871,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://178.175.132.130/script/ad.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "aec9151c-d1fb-4b9a-8a6d-57c5159cb6b2",
+                "name": "##iframe[src^=\"http://a.t.webtracker.jp/res/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://a.t.webtracker.jp/res/\"]"
                     }
                 }
             },
@@ -3459,6 +3498,42 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?a\\.ligatus\\.com/\\?.*t=js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f79062b4-a94d-4269-a4a2-904a33984147",
+                "name": "a.t.webtracker.jp/ad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?a\\.t\\.webtracker\\.jp/ad/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c4f41de8-bcec-452f-98bc-13e67b37e91f",
+                "name": "a.t.webtracker.jp/js/a.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?a\\.t\\.webtracker\\.jp/js/a\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7511bb7f-a288-47ab-8be6-cf543ea7ac24",
+                "name": "a.t.webtracker.jp/res/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?a\\.t\\.webtracker\\.jp/res/"
                     },
                     "action": {
                         "type": "block"
@@ -6392,6 +6467,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?animefreak\\.tv/sites/all/modules/custom/anime/yanone\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fad5e23b-9a92-4b16-ac5e-e69e7cb5806a",
+                "name": "aos-creative.prf.hn/creative/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?aos-creative\\.prf\\.hn/creative/"
                     },
                     "action": {
                         "type": "block"
@@ -22825,6 +22912,97 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "ul.BannerBlock"
+                    }
+                }
+            },
+            {
+                "id": "c674d782-097d-495e-8a9f-84f234cbcaf9",
+                "name": "ascii.jp##div.ad_frame",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ascii\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_frame"
+                    }
+                }
+            },
+            {
+                "id": "8ba7cc49-70bc-4cf8-b01d-f6b3985c44c8",
+                "name": "ascii.jp##div.adcloud_frame",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ascii\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adcloud_frame"
+                    }
+                }
+            },
+            {
+                "id": "bcba80ce-f852-4362-8aa5-aee6e14ce3bc",
+                "name": "ascii.jp##div.adsize728",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ascii\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adsize728"
+                    }
+                }
+            },
+            {
+                "id": "76e276b5-1c55-47d6-a1d2-57d502c1eb75",
+                "name": "ascii.jp##div.artAds",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ascii\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.artAds"
+                    }
+                }
+            },
+            {
+                "id": "04c39359-ee7d-4918-a93d-64c5ad581cb0",
+                "name": "ascii.jp##div.pickwrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ascii\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pickwrap"
+                    }
+                }
+            },
+            {
+                "id": "894f7b55-34fd-491a-b500-8d7ec2ba7197",
+                "name": "ascii.jp##ul.ban234",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ascii\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.ban234"
+                    }
+                }
+            },
+            {
+                "id": "89d6a713-b425-409a-b35b-2f020e64a6eb",
+                "name": "ascii.jp##ul.lnkBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ascii\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.lnkBanner"
                     }
                 }
             },
@@ -51867,6 +52045,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#article-control>table>tbody>tr:nth-of-type(2)>td:first-of-type>div[style=\"padding:30px 0; clear:both;\"]"
+                    }
+                }
+            },
+            {
+                "id": "1ea1d988-b429-4e46-bbb0-e74281bd7b9d",
+                "name": "speee-ad.akamaized.net##div.ad_response[id^=\"__uz__slot_index_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?speee-ad\\.akamaized\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_response[id^=\"__uz__slot_index_\"]"
                     }
                 }
             },
