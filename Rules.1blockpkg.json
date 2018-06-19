@@ -13239,6 +13239,21 @@
                 }
             },
             {
+                "id": "fa379f74-00a7-4d46-a159-c65d808c53fb",
+                "name": "mediafire.com/templates/linkto/ads.php$domain=mediafire.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediafire\\.com/templates/linkto/ads\\.php",
+                        "if-domain": [
+                            "mediafire.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "25f50f08-fe8f-418a-a53b-10c59e9115c6",
                 "name": "mediamixad.com/ad/liveAd",
                 "content": {
@@ -43884,6 +43899,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe#daum-ad-root-ifrm"
+                    }
+                }
+            },
+            {
+                "id": "b8c9a6c8-62ab-4947-845d-117cb012501b",
+                "name": "mediafire.com##iframe#ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediafire\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe#ads"
+                    }
+                }
+            },
+            {
+                "id": "66bdce7b-6749-4db7-b036-430c78888256",
+                "name": "mediafire.com##iframe[src^=\"/templates/linkto/ads.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediafire\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/templates/linkto/ads.php\"]"
                     }
                 }
             },
