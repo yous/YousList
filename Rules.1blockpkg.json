@@ -57951,6 +57951,19 @@
                 }
             },
             {
+                "id": "62dd96f3-b4ff-4560-91f7-97f97dd718c2",
+                "name": "tvnamu.org##div#left_out>div[style=\"margin:5px 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#left_out>div[style=\"margin:5px 0;\"]"
+                    }
+                }
+            },
+            {
                 "id": "60ddbcd2-15fc-434e-b843-c672f3c4a889",
                 "name": "tvnamu2.com##div#left_out>div[style=\"margin:5px 0;\"]",
                 "content": {
@@ -57990,6 +58003,19 @@
                 }
             },
             {
+                "id": "3deebbac-49df-447e-9c80-eb78e7a64a99",
+                "name": "tvnamu.org##div#right_out>div[style=\"margin:5px 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#right_out>div[style=\"margin:5px 0;\"]"
+                    }
+                }
+            },
+            {
                 "id": "d52fe4cf-dd0c-462b-9c28-4d64a6d32716",
                 "name": "tvnamu2.com##div#right_out>div[style=\"margin:5px 0;\"]",
                 "content": {
@@ -58021,6 +58047,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.each_adv_center"
+                    }
+                }
+            },
+            {
+                "id": "18ed6115-4c08-4299-be42-975515fc6b6a",
+                "name": "tvnamu.org##div.each_adv_center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvnamu\\.org"
                     },
                     "action": {
                         "type": "css-display-none",
