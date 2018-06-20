@@ -17408,6 +17408,18 @@
                 }
             },
             {
+                "id": "3a7c8057-4f05-4747-afa5-edd5dc51b2cd",
+                "name": "static.tpmn.co.kr/suez_act/inv/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?static\\.tpmn\\.co\\.kr/suez_act/inv/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "db6f33cd-ab7b-41e6-ba75-012e5f0812b9",
                 "name": "static.vidzi.tv/static/ads.js$domain=vidzi.tv",
                 "content": {
@@ -40436,6 +40448,84 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#ad_div_bottom"
+                    }
+                }
+            },
+            {
+                "id": "6307b676-045b-49ea-b0cc-9f34eb18f911",
+                "name": "m.mt.co.kr##body>div[style=\"position:fixed; bottom:0; width:100%; background:transparent; z-index:2\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"position:fixed; bottom:0; width:100%; background:transparent; z-index:2\"]"
+                    }
+                }
+            },
+            {
+                "id": "908cf6a2-7cef-4f83-af77-88d74e70bc59",
+                "name": "m.mt.co.kr##div#ad_04",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_04"
+                    }
+                }
+            },
+            {
+                "id": "596a8b89-3774-4c48-a4e2-366044a9c641",
+                "name": "m.mt.co.kr##div#ad_14",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_14"
+                    }
+                }
+            },
+            {
+                "id": "1d8dd5aa-aec1-403c-9756-77abd48d6e7e",
+                "name": "m.mt.co.kr##div#cont>div[style=\"float:right; margin-top:2px; margin-left:10px; width:200px; height:200px; background:#fff;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#cont>div[style=\"float:right; margin-top:2px; margin-left:10px; width:200px; height:200px; background:#fff;\"]"
+                    }
+                }
+            },
+            {
+                "id": "b80305fd-f461-430e-a8b3-6bd01b58d560",
+                "name": "m.mt.co.kr##div#container>div.conbox3>div.conbox1>div>div[style=\"padding-top:14px; padding-bottom:10px; background:#fff;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#container>div.conbox3>div.conbox1>div>div[style=\"padding-top:14px; padding-bottom:10px; background:#fff;\"]"
+                    }
+                }
+            },
+            {
+                "id": "e77b9d51-6256-44cf-8808-962873e6026f",
+                "name": "m.mt.co.kr##ul.ad_list_t1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.ad_list_t1"
                     }
                 }
             },
