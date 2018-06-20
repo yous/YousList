@@ -47758,6 +47758,19 @@
                 }
             },
             {
+                "id": "474c3935-3038-491d-b1f3-0660fc748943",
+                "name": "news.mt.co.kr##div.related_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.related_ad"
+                    }
+                }
+            },
+            {
                 "id": "8745c1d9-5d61-4c15-a133-c84c8b5be0cc",
                 "name": "news.mt.co.kr##div.view_text>div[style=\"margin-top:40px; width:640px; height:155px; \"]",
                 "content": {
