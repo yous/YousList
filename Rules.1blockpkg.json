@@ -50697,6 +50697,19 @@
                 }
             },
             {
+                "id": "bca168aa-2898-44ec-a24d-5f278bf3885a",
+                "name": "playwares.com##a.sub_banner_element",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?playwares\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a.sub_banner_element"
+                    }
+                }
+            },
+            {
                 "id": "69a0e643-98d0-4563-8407-ea50c7a36779",
                 "name": "podbbang.com##div#dawin_area",
                 "content": {
