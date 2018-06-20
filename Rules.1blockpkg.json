@@ -18759,13 +18759,10 @@
             },
             {
                 "id": "26c7b52b-75a0-4104-89ee-f87908251a64",
-                "name": "youtube.com/get_midroll_info$domain=youtube.com",
+                "name": "youtube.com/get_midroll_info",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?youtube\\.com/get_midroll_info",
-                        "if-domain": [
-                            "youtube.com"
-                        ]
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?youtube\\.com/get_midroll_info"
                     },
                     "action": {
                         "type": "block"
@@ -18774,13 +18771,10 @@
             },
             {
                 "id": "9b91d261-6efd-4675-af72-0ac1233e4778",
-                "name": "youtube.com/get_video_info?*el=adunit$domain=youtube.com",
+                "name": "youtube.com/get_video_info?*el=adunit",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?youtube\\.com/get_video_info\\?.*el=adunit",
-                        "if-domain": [
-                            "youtube.com"
-                        ]
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?youtube\\.com/get_video_info\\?.*el=adunit"
                     },
                     "action": {
                         "type": "block"
