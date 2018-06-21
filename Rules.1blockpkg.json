@@ -4,6 +4,21 @@
         "name": "YousList",
         "rules": [
             {
+                "id": "7d4e9a20-6e19-4969-95c4-110b42a3dbc5",
+                "name": "@@||ad.smartmediarep.com/NetInsight/$domain=news.sbs.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "@@\\|\\|ad\\.smartmediarep\\.com/NetInsight/",
+                        "if-domain": [
+                            "news.sbs.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d2a59263-681d-4e53-b4b7-7773e8dfdac0",
                 "name": "##amp-ad",
                 "content": {
@@ -11597,6 +11612,21 @@
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?img\\.newspim\\.com/banner/",
                         "if-domain": [
                             "newspim.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a6830e9f-7c42-441a-87ba-60c4d06a7265",
+                "name": "img.sbs.co.kr/news/ad/delay_redirect.html$domain=news.sbs.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?img\\.sbs\\.co\\.kr/news/ad/delay_redirect\\.html",
+                        "if-domain": [
+                            "news.sbs.co.kr"
                         ]
                     },
                     "action": {
@@ -48112,6 +48142,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe.adframe"
+                    }
+                }
+            },
+            {
+                "id": "da873395-92a5-447e-9b0c-fdb1d112755e",
+                "name": "news.sbs.co.kr##iframe[src^=\"//img.sbs.co.kr/news/ad/delay_redirect.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.sbs\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//img.sbs.co.kr/news/ad/delay_redirect.html\"]"
                     }
                 }
             },
