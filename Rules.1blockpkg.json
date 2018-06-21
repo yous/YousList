@@ -3265,11 +3265,12 @@
             },
             {
                 "id": "590c8630-f22d-44b7-9a88-b199e822066c",
-                "name": "*/RealMedia/ads/$domain=~m.danawa.com|~news.danawa.com",
+                "name": "*/RealMedia/ads/$domain=~dpg.danawa.com|~m.danawa.com|~news.danawa.com",
                 "content": {
                     "trigger": {
                         "url-filter": "/RealMedia/ads/",
                         "unless-domain": [
+                            "dpg.danawa.com",
                             "m.danawa.com",
                             "news.danawa.com"
                         ]
@@ -28035,6 +28036,175 @@
                 }
             },
             {
+                "id": "86a2a1fc-1499-47b7-b22e-7c863212b826",
+                "name": "dpg.danawa.com##div#danawa-community-main-adBanner-self",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dpg\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#danawa-community-main-adBanner-self"
+                    }
+                }
+            },
+            {
+                "id": "b93eaa3c-8e58-4df0-874a-545e7acade1b",
+                "name": "dpg.danawa.com##div#danawa-community-newsView-powerLink-self",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dpg\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#danawa-community-newsView-powerLink-self"
+                    }
+                }
+            },
+            {
+                "id": "77984304-3906-4cd5-bc57-7632cd25412f",
+                "name": "news.danawa.com##div#danawa-community-newsView-powerLink-self",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#danawa-community-newsView-powerLink-self"
+                    }
+                }
+            },
+            {
+                "id": "e27e70a8-84ad-4d92-b8ed-000805dd5927",
+                "name": "dpg.danawa.com##div.bbs_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dpg\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bbs_banner"
+                    }
+                }
+            },
+            {
+                "id": "8d6b0463-a272-4f30-b94a-8ac7e3d24d28",
+                "name": "news.danawa.com##div.bbs_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bbs_banner"
+                    }
+                }
+            },
+            {
+                "id": "dbc810f6-c2f1-4885-b07a-0162f9bbc6a9",
+                "name": "dpg.danawa.com##div.danawa-community-ad-clazz",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dpg\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.danawa-community-ad-clazz"
+                    }
+                }
+            },
+            {
+                "id": "9befe379-3acb-4f63-859c-16de5afc5fcb",
+                "name": "news.danawa.com##div.danawa-community-ad-clazz",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.danawa-community-ad-clazz"
+                    }
+                }
+            },
+            {
+                "id": "3cf6016d-931f-441f-834a-441d584552c2",
+                "name": "dpg.danawa.com##div.rnb_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dpg\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rnb_banner"
+                    }
+                }
+            },
+            {
+                "id": "e320d0c0-d32b-4ac1-8ff3-bafbb0260284",
+                "name": "news.danawa.com##div.rnb_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rnb_banner"
+                    }
+                }
+            },
+            {
+                "id": "63b60e47-c58f-40f2-b791-3cd47fd69465",
+                "name": "dpg.danawa.com##div.rnb_unit_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dpg\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rnb_unit_banner"
+                    }
+                }
+            },
+            {
+                "id": "fd499563-18bc-4939-b73c-07e8148a1e53",
+                "name": "news.danawa.com##div.rnb_unit_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rnb_unit_banner"
+                    }
+                }
+            },
+            {
+                "id": "6d4df5b8-6867-4849-a08d-a38d99bc3492",
+                "name": "dpg.danawa.com##ul.goods_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dpg\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.goods_banner"
+                    }
+                }
+            },
+            {
+                "id": "4b8c01a1-1fbb-40b1-8b9f-c294ec3171af",
+                "name": "news.danawa.com##ul.goods_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.goods_banner"
+                    }
+                }
+            },
+            {
                 "id": "6f0daaee-c919-4d9a-bdc8-0dca88b92c99",
                 "name": "drive2.ru##div[id^=\"adfox_\"]",
                 "content": {
@@ -46244,84 +46414,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"top_bn\"]"
-                    }
-                }
-            },
-            {
-                "id": "77984304-3906-4cd5-bc57-7632cd25412f",
-                "name": "news.danawa.com##div#danawa-community-newsView-powerLink-self",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.danawa\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#danawa-community-newsView-powerLink-self"
-                    }
-                }
-            },
-            {
-                "id": "8d6b0463-a272-4f30-b94a-8ac7e3d24d28",
-                "name": "news.danawa.com##div.bbs_banner",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.danawa\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.bbs_banner"
-                    }
-                }
-            },
-            {
-                "id": "9befe379-3acb-4f63-859c-16de5afc5fcb",
-                "name": "news.danawa.com##div.danawa-community-ad-clazz",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.danawa\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.danawa-community-ad-clazz"
-                    }
-                }
-            },
-            {
-                "id": "e320d0c0-d32b-4ac1-8ff3-bafbb0260284",
-                "name": "news.danawa.com##div.rnb_banner",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.danawa\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.rnb_banner"
-                    }
-                }
-            },
-            {
-                "id": "fd499563-18bc-4939-b73c-07e8148a1e53",
-                "name": "news.danawa.com##div.rnb_unit_banner",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.danawa\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.rnb_unit_banner"
-                    }
-                }
-            },
-            {
-                "id": "4b8c01a1-1fbb-40b1-8b9f-c294ec3171af",
-                "name": "news.danawa.com##ul.goods_banner",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.danawa\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "ul.goods_banner"
                     }
                 }
             },
