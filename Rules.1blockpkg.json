@@ -9533,6 +9533,21 @@
                 }
             },
             {
+                "id": "a23ad169-eb61-4a9d-a15b-7f6459e566df",
+                "name": "dogjoa.com/img/new/$domain=dogjoa.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogjoa\\.com/img/new/",
+                        "if-domain": [
+                            "dogjoa.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "48fff038-ae76-4bc8-9286-639330fba5cc",
                 "name": "dotcomconsultancy.advertserve.com/servlet/view/banner/javascript/ajax/crossdomain/zone",
                 "content": {
@@ -27954,84 +27969,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.boardAD01"
-                    }
-                }
-            },
-            {
-                "id": "a01b6f9c-bc15-4a48-9a6b-0d74586fbfc2",
-                "name": "dogzoa.com##a[href^=\"http://a-amex.com\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogzoa\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "a[href^=\"http://a-amex.com\"]"
-                    }
-                }
-            },
-            {
-                "id": "054d536d-eb00-4e55-a0b5-3bb30b7c4a3d",
-                "name": "dogzoa.com##a[href^=\"http://kmd51.com\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogzoa\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "a[href^=\"http://kmd51.com\"]"
-                    }
-                }
-            },
-            {
-                "id": "3bc12d48-d002-4241-880f-64557025893a",
-                "name": "dogzoa.com##a[href^=\"http://mocn333.com\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogzoa\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "a[href^=\"http://mocn333.com\"]"
-                    }
-                }
-            },
-            {
-                "id": "26db1c69-2efc-465f-afdb-f86ef09dc439",
-                "name": "dogzoa.com##a[href^=\"http://ttzzman.com\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogzoa\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "a[href^=\"http://ttzzman.com\"]"
-                    }
-                }
-            },
-            {
-                "id": "b040eea6-ffc0-4922-a307-100f57d4ebb9",
-                "name": "dogzoa.com##a[href^=\"https://family777.com\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogzoa\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "a[href^=\"https://family777.com\"]"
-                    }
-                }
-            },
-            {
-                "id": "c53a77a8-35c5-4432-90e5-87dd8315bf1e",
-                "name": "dogzoa.com##div.video_info",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogzoa\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.video_info"
                     }
                 }
             },
