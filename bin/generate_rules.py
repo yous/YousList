@@ -76,7 +76,7 @@ class FilterParser:
             raise Exception('Cannot handle this rule: ' + line)
         elif line.startswith('@@'):
             # Exception rule
-            raise Exception('Cannot handle this rule: ' + line)
+            self._parse_exception_rule(line)
         else:
             # Blocking rule
             self._parse_blocking_rule(line)
@@ -111,7 +111,23 @@ class FilterParser:
         rule['content'] = content
         self.rules.append(rule)
 
+    def _parse_exception_rule(self, line):
+        rule = self._parse_url_filter(line[2:])
+        name = '@@' + rule['name']
+        rule['id'] = self._get_rule_id(name)
+        rule['name'] = name
+        rule['content']['action']['type'] = 'ignore-previous-rules'
+        self.rules.append(rule)
+
     def _parse_blocking_rule(self, line):
+        rule = self._parse_url_filter(line)
+        name = rule['name']
+        rule['id'] = self._get_rule_id(name)
+        rule['content']['action']['type'] = 'block'
+        self.rules.append(rule)
+
+    def _parse_url_filter(self, line):
+        """rule['id'], rule['content']['action']['type'] should be set."""
         rule = OrderedDict()
         splits = line.split('$', 2)
         if len(splits) < 2:
@@ -121,7 +137,7 @@ class FilterParser:
         url = url.rstrip('^').strip('*')
         if options:
             name += '$' + options
-        rule['id'] = self._get_rule_id(name)
+        rule['id'] = None
         rule['name'] = name
 
         trigger = {}
@@ -154,13 +170,13 @@ class FilterParser:
                 trigger_ordered_dict[key] = trigger[key]
 
         action = OrderedDict()
-        action['type'] = 'block'
+        action['type'] = None
 
         content = OrderedDict()
         content['trigger'] = trigger_ordered_dict
         content['action'] = action
         rule['content'] = content
-        self.rules.append(rule)
+        return rule
 
     def _parse_options(self, options):
         opt_dict = {}
