@@ -67,8 +67,15 @@ class FilterParser:
             self._parse_hiding_rule(line)
         elif line.startswith('#@#'):
             sys.stderr.write('Skipping this rule: ' + line + '\n')
+            return
         elif '#@#' in line:
             # Element hiding exception rule
+            raise Exception('Cannot handle this rule: ' + line)
+        elif '#?#' in line:
+            # Adblock Plus specific extended CSS selectors
+            raise Exception('Cannot handle this rule: ' + line)
+        elif line.startswith('@@'):
+            # Exception rule
             raise Exception('Cannot handle this rule: ' + line)
         else:
             # Blocking rule
