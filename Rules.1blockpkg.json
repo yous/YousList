@@ -19,6 +19,18 @@
                 }
             },
             {
+                "id": "d5ce454c-9e87-4ba1-926c-f06078c7e7db",
+                "name": "@@vads-api.ad.daum.net/xylophone/adrequest/vmap/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vads-api\\.ad\\.daum\\.net/xylophone/adrequest/vmap/"
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
+                    }
+                }
+            },
+            {
                 "id": "d2a59263-681d-4e53-b4b7-7773e8dfdac0",
                 "name": "##amp-ad",
                 "content": {
