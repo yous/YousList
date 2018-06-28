@@ -59952,6 +59952,19 @@
                 }
             },
             {
+                "id": "446bff7e-cf4b-4543-8031-15d5a16b7ce0",
+                "name": "westword.com##div.ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?westword\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ads"
+                    }
+                }
+            },
+            {
                 "id": "a926651f-d67e-4498-8952-3eda3cc207f6",
                 "name": "whatis.techtarget.com##div.ad",
                 "content": {
