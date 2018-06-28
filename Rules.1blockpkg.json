@@ -27882,14 +27882,14 @@
             },
             {
                 "id": "b9e9e2af-9da9-4cd0-b7e9-8b7b949ea81b",
-                "name": "dispatch.co.kr##iframe[src^=\"/ad/ad-nth-\"][src$=\"-pc.html\"]",
+                "name": "dispatch.co.kr##iframe[src^=\"/ad/ad-nth-\"][src$=\".html\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "iframe[src^=\"/ad/ad-nth-\"][src$=\"-pc.html\"]"
+                        "selector": "iframe[src^=\"/ad/ad-nth-\"][src$=\".html\"]"
                     }
                 }
             },
