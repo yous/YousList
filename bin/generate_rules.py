@@ -84,10 +84,7 @@ class FilterParser:
     def _parse_hiding_rule(self, line):
         rule = OrderedDict()
         name = line
-        if name in self.id_dict:
-            rule['id'] = self.id_dict[name]
-        else:
-            rule['id'] = str(uuid.uuid4())
+        rule['id'] = self._get_rule_id(name)
         rule['name'] = name
 
         urls, css = line.split('##', 2)
@@ -120,14 +117,11 @@ class FilterParser:
         if len(splits) < 2:
             splits.append('')
         url, options = splits
-        name = url.lstrip('||').rstrip('^')
+        name = self._strip_url(url)
         url = url.rstrip('^').strip('*')
         if options:
             name += '$' + options
-        if name in self.id_dict:
-            rule['id'] = self.id_dict[name]
-        else:
-            rule['id'] = str(uuid.uuid4())
+        rule['id'] = self._get_rule_id(name)
         rule['name'] = name
 
         trigger = {}
@@ -201,6 +195,20 @@ class FilterParser:
             else:
                 raise Exception('Cannot handle this option: ' + opt_key)
         return opt_dict
+
+    def _get_rule_id(self, name):
+        if name in self.id_dict:
+            return self.id_dict[name]
+        else:
+            return str(uuid.uuid4())
+
+    def _strip_url(self, url):
+        result = url.rstrip('^')
+        if result.startswith('||'):
+            result = result[2:]
+        elif result.startswith('|'):
+            result = result[1:]
+        return result
 
 
 orig_pkg = os.path.join(root, 'Rules.1blockpkg')
