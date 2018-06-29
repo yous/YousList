@@ -55074,6 +55074,19 @@
                 }
             },
             {
+                "id": "630353c0-d816-4309-9a1b-71c9aca70c94",
+                "name": "thehackernews.com##div.articlebodyonly>div>div[style=\"padding: 15px 0px; text-align: left;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thehackernews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.articlebodyonly>div>div[style=\"padding: 15px 0px; text-align: left;\"]"
+                    }
+                }
+            },
+            {
                 "id": "74eca81d-ac82-4054-9c52-18d2463029aa",
                 "name": "thehealthycookingcoach.com##div[id^=\"thehe-\"]",
                 "content": {
