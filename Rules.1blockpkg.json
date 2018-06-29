@@ -3086,6 +3086,19 @@
                 }
             },
             {
+                "id": "28f064ef-7f2d-47fa-9744-704a559f2f24",
+                "name": "##iframe[src^=\"https://imasdk.googleapis.com/js/core/bridge\"][src*=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://imasdk.googleapis.com/js/core/bridge\"][src*=\".html\"]"
+                    }
+                }
+            },
+            {
                 "id": "2f83ed55-0707-4674-8b80-f466386f289e",
                 "name": "##iframe[src^=\"https://mycdn.co/adServe/imgBanner\"][src*=\"_image-banner.cib\"]",
                 "content": {
@@ -11548,6 +11561,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?imagesrv\\.adition\\.com/js/srp\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b390ae43-1ab8-460f-8a8f-9fe2647046a9",
+                "name": "imasdk.googleapis.com/js/core/bridge*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?imasdk\\.googleapis\\.com/js/core/bridge.*\\.html"
                     },
                     "action": {
                         "type": "block"
