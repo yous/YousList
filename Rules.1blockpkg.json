@@ -3190,19 +3190,6 @@
                 }
             },
             {
-                "id": "45c69c28-94ef-4ba1-b145-9cb461e91e2f",
-                "name": "##ins.adsbygoogle",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "ins.adsbygoogle"
-                    }
-                }
-            },
-            {
                 "id": "354e9931-360b-4a9c-a099-d4e8acd2a791",
                 "name": "##ins.daum_ddn_area",
                 "content": {
@@ -10727,21 +10714,6 @@
                 }
             },
             {
-                "id": "fcfbd4f7-a264-4c08-b4ab-1cfe6785eb4c",
-                "name": "googleads.g.doubleclick.net/pagead/$domain=~youtube.com",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?googleads\\.g\\.doubleclick\\.net/pagead/",
-                        "unless-domain": [
-                            "youtube.com"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "701c4fe5-0d1b-4714-b908-5cebc8c94a0e",
                 "name": "gsad.gameshot.net",
                 "content": {
@@ -15163,18 +15135,6 @@
                 }
             },
             {
-                "id": "093fae71-ecc8-4f30-8c76-88e543b26e80",
-                "name": "pagead2.googlesyndication.com/pagead/",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pagead2\\.googlesyndication\\.com/pagead/"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "27a300fd-ffc6-41f5-8d17-f2dd9ef16108",
                 "name": "partner.googleadservices.com/gpt/pubads_impl_*.js",
                 "content": {
@@ -17897,6 +17857,22 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmoa\\.com/addons/popup/js/popup_layer\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "14cb3e0e-55c3-481c-b83c-c6aa3a9a0a38",
+                "name": "tpc.googlesyndication.com/daca_images/simgad/$domain=googleads.g.doubleclick.net|pagead2.googlesyndication.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tpc\\.googlesyndication\\.com/daca_images/simgad/",
+                        "if-domain": [
+                            "googleads.g.doubleclick.net",
+                            "pagead2.googlesyndication.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -31607,6 +31583,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#floating_banner_body"
+                    }
+                }
+            },
+            {
+                "id": "3871586f-227c-4cc2-a56d-4fe645002d4e",
+                "name": "googleads.g.doubleclick.net##div#adContent>div.core a[href^=\"https://googleads.g.doubleclick.net/aclk\"][href*=\"&client=\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?googleads\\.g\\.doubleclick\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adContent>div.core a[href^=\"https://googleads.g.doubleclick.net/aclk\"][href*=\"&client=\"]"
+                    }
+                }
+            },
+            {
+                "id": "20f22b43-f307-4244-a138-7db66e07db2c",
+                "name": "googleads.g.doubleclick.net##div#adContent>div.core a[href^=\"https://www.googleadservices.com/pagead/aclk\"][href*=\"&client=\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?googleads\\.g\\.doubleclick\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adContent>div.core a[href^=\"https://www.googleadservices.com/pagead/aclk\"][href*=\"&client=\"]"
                     }
                 }
             },
@@ -49313,6 +49315,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"https://ads.nicovideo.jp/bannertext\"]"
+                    }
+                }
+            },
+            {
+                "id": "70355964-ea19-43f8-9f62-e3d745c14652",
+                "name": "nintendolife.com##div.insert",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nintendolife\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.insert"
                     }
                 }
             },
