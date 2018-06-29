@@ -60352,6 +60352,19 @@
                 }
             },
             {
+                "id": "9b6c9c8c-8735-4d29-86c1-e9ac9902b4d3",
+                "name": "wololo.net##span.ezoic-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wololo\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span.ezoic-ad"
+                    }
+                }
+            },
+            {
                 "id": "c4464784-649c-4201-bda7-f246f4479796",
                 "name": "womad.me##div#sticky",
                 "content": {
