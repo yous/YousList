@@ -3190,6 +3190,19 @@
                 }
             },
             {
+                "id": "1f9abc67-8ea0-444d-83a7-7865fdc6aec7",
+                "name": "##ins.adsbygoogle:not([data-matched-content-ui-type])",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins.adsbygoogle:not([data-matched-content-ui-type])"
+                    }
+                }
+            },
+            {
                 "id": "354e9931-360b-4a9c-a099-d4e8acd2a791",
                 "name": "##ins.daum_ddn_area",
                 "content": {
@@ -10714,6 +10727,18 @@
                 }
             },
             {
+                "id": "39d6d57b-9a4d-4aa4-aaa4-452552c896ba",
+                "name": "googleads.g.doubleclick.net/pagead/adview",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?googleads\\.g\\.doubleclick\\.net/pagead/adview"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "701c4fe5-0d1b-4714-b908-5cebc8c94a0e",
                 "name": "gsad.gameshot.net",
                 "content": {
@@ -15135,6 +15160,30 @@
                 }
             },
             {
+                "id": "f61ce1be-b468-464f-b3ca-2f1f901b010c",
+                "name": "pagead2.googlesyndication.com/bg/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pagead2\\.googlesyndication\\.com/bg/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "19de6d6a-ca4a-4be3-99ec-31c4e545bcce",
+                "name": "pagead2.googlesyndication.com/pagead/js/*/osd.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pagead2\\.googlesyndication\\.com/pagead/js/.*/osd\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "27a300fd-ffc6-41f5-8d17-f2dd9ef16108",
                 "name": "partner.googleadservices.com/gpt/pubads_impl_*.js",
                 "content": {
@@ -17873,6 +17922,18 @@
                             "googleads.g.doubleclick.net",
                             "pagead2.googlesyndication.com"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d5553532-7696-46a2-b1bc-893b5f06425e",
+                "name": "tpc.googlesyndication.com/pagead/js/*/activeview/osd_listener.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tpc\\.googlesyndication\\.com/pagead/js/.*/activeview/osd_listener\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -31588,27 +31649,27 @@
             },
             {
                 "id": "3871586f-227c-4cc2-a56d-4fe645002d4e",
-                "name": "googleads.g.doubleclick.net##div#adContent>div.core a[href^=\"https://googleads.g.doubleclick.net/aclk\"][href*=\"&client=\"]",
+                "name": "googleads.g.doubleclick.net##a[href^=\"https://googleads.g.doubleclick.net/aclk\"][href*=\"&client=\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?googleads\\.g\\.doubleclick\\.net"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#adContent>div.core a[href^=\"https://googleads.g.doubleclick.net/aclk\"][href*=\"&client=\"]"
+                        "selector": "a[href^=\"https://googleads.g.doubleclick.net/aclk\"][href*=\"&client=\"]"
                     }
                 }
             },
             {
                 "id": "20f22b43-f307-4244-a138-7db66e07db2c",
-                "name": "googleads.g.doubleclick.net##div#adContent>div.core a[href^=\"https://www.googleadservices.com/pagead/aclk\"][href*=\"&client=\"]",
+                "name": "googleads.g.doubleclick.net##a[href^=\"https://www.googleadservices.com/pagead/aclk\"][href*=\"&client=\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?googleads\\.g\\.doubleclick\\.net"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#adContent>div.core a[href^=\"https://www.googleadservices.com/pagead/aclk\"][href*=\"&client=\"]"
+                        "selector": "a[href^=\"https://www.googleadservices.com/pagead/aclk\"][href*=\"&client=\"]"
                     }
                 }
             },
@@ -33520,6 +33581,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.news__view__article__advertise"
+                    }
+                }
+            },
+            {
+                "id": "f293cd8f-d8bd-4a52-950b-1d1ef72269fc",
+                "name": "insight.co.kr##div[class^=\"aside-google-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?insight\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"aside-google-\"]"
+                    }
+                }
+            },
+            {
+                "id": "d7eb4d2a-5204-431f-89f0-54a8d9e6b370",
+                "name": "insight.co.kr##div[class^=\"google-ad-slot-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?insight\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"google-ad-slot-\"]"
+                    }
+                }
+            },
+            {
+                "id": "9bb9e581-1b54-472c-a842-8c6bad00e445",
+                "name": "insight.co.kr##ul.aside-popular-wrap>li>div[style=\"display: block;width: 300px;height: 250px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?insight\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.aside-popular-wrap>li>div[style=\"display: block;width: 300px;height: 250px;\"]"
                     }
                 }
             },

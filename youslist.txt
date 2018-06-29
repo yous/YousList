@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: FRjOmeyHHi5K40V1BqjRTg
+! Checksum: uAZMMeWV3+H7HLLB+cQbZg
 ! Version: 20180629
 
 ! Workaround for BlockAdBlock
@@ -265,6 +265,7 @@
 ##iframe[src^="https://syndication.exosrv.com/ads-iframe-display.php"]
 ##iframe[src^="https://www.mxttrf.com/ads"]
 ##ins.adsbyadop
+##ins.adsbygoogle:not([data-matched-content-ui-type])
 ##ins.daum_ddn_area
 
 ! URL filters
@@ -862,6 +863,7 @@
 ||go.pub2srv.com/apu.php^
 ||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
 ||googleads.g.doubleclick.net/dbm/ad^
+||googleads.g.doubleclick.net/pagead/adview^
 ||gsad.gameshot.net^
 ||gstatic.com/swiffy/v*/runtime.js^
 ||guide.allblet.net^
@@ -1204,6 +1206,8 @@
 ||p*.mycdn.co/banners/script/bnr-tag_*.js^
 ||p*.mycdn.co/banners/script/bnr-wrp_*.js^
 ||p.lumieyes.com^
+||pagead2.googlesyndication.com/bg/*.js^
+||pagead2.googlesyndication.com/pagead/js/*/osd.js^
 ||partner.googleadservices.com/gpt/pubads_impl_*.js^
 ||parts.blog.livedoor.jp/ad/$domain=blog.livedoor.jp
 ||pcwelt.de/js/adserver_footer.js^$domain=pcwelt.de
@@ -1423,6 +1427,7 @@
 ||torrentmade.com/js/bpopup/scripting.min.js^
 ||torrentmoa.com/addons/popup/js/popup_layer.js^
 ||tpc.googlesyndication.com/daca_images/simgad/$domain=googleads.g.doubleclick.net|pagead2.googlesyndication.com
+||tpc.googlesyndication.com/pagead/js/*/activeview/osd_listener.js^
 ||tracker.adbinead.com/other/*.html^
 ||traffic.adxprts.com^
 ||trafmag.com/jsarrayposters.php^
@@ -2193,8 +2198,8 @@ golfpiste.com##div.sidead
 golfpiste.com##div.textwidget
 golfpiste.com##div.topad
 goodmorningcc.com##div#floating_banner_body
-googleads.g.doubleclick.net##div#adContent>div.core a[href^="https://googleads.g.doubleclick.net/aclk"][href*="&client="]
-googleads.g.doubleclick.net##div#adContent>div.core a[href^="https://www.googleadservices.com/pagead/aclk"][href*="&client="]
+googleads.g.doubleclick.net##a[href^="https://googleads.g.doubleclick.net/aclk"][href*="&client="]
+googleads.g.doubleclick.net##a[href^="https://www.googleadservices.com/pagead/aclk"][href*="&client="]
 gorillavid.in##div#video_ad
 gorillavid.in##div#wrad_container
 guitarworld.com##aside.m-in-content-ad
@@ -2342,6 +2347,9 @@ insight.co.kr##div.ad-google-side1
 insight.co.kr##div.ad-google-side2
 insight.co.kr##div.news__view__article>ul[style="float:right; margin:0 0 10px 10px;"]
 insight.co.kr##div.news__view__article__advertise
+insight.co.kr##div[class^="aside-google-"]
+insight.co.kr##div[class^="google-ad-slot-"]
+insight.co.kr##ul.aside-popular-wrap>li>div[style="display: block;width: 300px;height: 250px;"]
 instiz.net##body>div[style="width:100%;text-align:center;background-color:#fafafa;height:100px;overflow-y:hidden"]
 instiz.net##div#footad
 instiz.net##div#footad2
