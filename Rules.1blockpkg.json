@@ -48156,6 +48156,32 @@
                 }
             },
             {
+                "id": "2dbe6d28-ee61-4d9c-aece-1057aee341b0",
+                "name": "news.mtn.co.kr##div#newsContent>div[style=\"width:320px; height:50px; margin:0 auto;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.mtn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#newsContent>div[style=\"width:320px; height:50px; margin:0 auto;\"]"
+                    }
+                }
+            },
+            {
+                "id": "e65d4351-5b09-4966-94be-ef57f27e841b",
+                "name": "news.mtn.co.kr##ul.adline",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.mtn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.adline"
+                    }
+                }
+            },
+            {
                 "id": "33826ac4-b9e7-4df3-97b3-9bc0f82a3717",
                 "name": "news.nate.com##div#ad_sponsorBar",
                 "content": {
