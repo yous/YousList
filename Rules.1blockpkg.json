@@ -22445,6 +22445,19 @@
                 }
             },
             {
+                "id": "ca70ff2a-491f-4548-ad7b-796444188ed8",
+                "name": "arstechnica.com##aside#ad-top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?arstechnica\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside#ad-top"
+                    }
+                }
+            },
+            {
                 "id": "99ba0c62-6a75-4eea-af91-d1810107dd66",
                 "name": "arstechnica.com##aside.ad",
                 "content": {
@@ -22467,6 +22480,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "aside.ad_native"
+                    }
+                }
+            },
+            {
+                "id": "11aca0eb-df8e-4b65-9123-891a84d035d6",
+                "name": "arstechnica.com##div#bottomBanner320x51_frame",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?arstechnica\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bottomBanner320x51_frame"
+                    }
+                }
+            },
+            {
+                "id": "e6d2fdd0-8f28-4737-8965-d545f86a25ab",
+                "name": "arstechnica.com##div.cns-ads-stage",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?arstechnica\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.cns-ads-stage"
+                    }
+                }
+            },
+            {
+                "id": "7ea08be3-b22d-4bc1-8e91-370c6473dffe",
+                "name": "arstechnica.com##div.instream-wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?arstechnica\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.instream-wrap"
                     }
                 }
             },
