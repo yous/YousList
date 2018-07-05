@@ -59406,6 +59406,19 @@
                 }
             },
             {
+                "id": "a8638cba-919a-42ad-a7b0-4141ae040f7d",
+                "name": "v.entertain.media.daum.net##div.bar_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?v\\.entertain\\.media\\.daum\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bar_ad"
+                    }
+                }
+            },
+            {
                 "id": "62259188-1c76-4ca8-83fa-df665dcf208a",
                 "name": "v.kakao.com##div#daum-ad-root",
                 "content": {
