@@ -44641,41 +44641,54 @@
                 }
             },
             {
-                "id": "0541c1cc-bf1d-4636-b22f-f48018b94175",
-                "name": "mbiz.heraldcorp.com##div#ad_byline_tmp",
+                "id": "c58e9fc3-665f-48b0-b263-293a0df9eed1",
+                "name": "mbiz.heraldcorp.com##div#articleText>p[style=\"margin:5px 0 ;width:100%; text-align:center; \"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbiz\\.heraldcorp\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ad_byline_tmp"
+                        "selector": "div#articleText>p[style=\"margin:5px 0 ;width:100%; text-align:center; \"]"
                     }
                 }
             },
             {
-                "id": "e5c3d510-7192-447e-906c-f77100b545a2",
-                "name": "mbiz.heraldcorp.com##div#ad_img_bottom",
+                "id": "3898224e-0294-428f-9415-5b4181ed6beb",
+                "name": "mbiz.heraldcorp.com##div#cmad_skin",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbiz\\.heraldcorp\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ad_img_bottom"
+                        "selector": "div#cmad_skin"
                     }
                 }
             },
             {
-                "id": "d30eebff-240a-4573-809a-0ac06e95430e",
-                "name": "mbiz.heraldcorp.com##div#articleText>p[style=\"float:right; margin: 0 0 0 10px;  width:200px;height:200px;\"]",
+                "id": "ffbee117-0535-4d79-8fa0-664152f749cb",
+                "name": "mbiz.heraldcorp.com##div#wrap>div[style=\"padding:10px 0px ; width:100%;  text-align:center;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbiz\\.heraldcorp\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#articleText>p[style=\"float:right; margin: 0 0 0 10px;  width:200px;height:200px;\"]"
+                        "selector": "div#wrap>div[style=\"padding:10px 0px ; width:100%;  text-align:center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "a467434b-f976-4793-ba61-d8d8ee5b1127",
+                "name": "mbiz.heraldcorp.com##div#wrap>div[style=\"position: fixed; bottom: 0px; width: 100%; height: 50px; z-index: 1001; left: 0px;  text-align: center; background-color: #EEEEEE;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbiz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wrap>div[style=\"position: fixed; bottom: 0px; width: 100%; height: 50px; z-index: 1001; left: 0px;  text-align: center; background-color: #EEEEEE;\"]"
                     }
                 }
             },
@@ -44693,6 +44706,19 @@
                 }
             },
             {
+                "id": "1c7b6266-6477-4c2c-bbba-f92e5c9ba60b",
+                "name": "mbiz.heraldcorp.com##div#wrap>div[style=\"width:100%; height:180px; text-align:center; background-color:#FFF; padding:10px 0 0 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbiz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wrap>div[style=\"width:100%; height:180px; text-align:center; background-color:#FFF; padding:10px 0 0 0;\"]"
+                    }
+                }
+            },
+            {
                 "id": "d2fc4bb6-f034-4f43-8746-8cac323e8b8e",
                 "name": "mbiz.heraldcorp.com##div#wrap>div[style=\"width:100%; height:50px; text-align:center;\"]",
                 "content": {
@@ -44702,6 +44728,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#wrap>div[style=\"width:100%; height:50px; text-align:center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "82c7c9b9-5b63-4661-ba44-5fb8a4becdd3",
+                "name": "mbiz.heraldcorp.com##div#wrap>div[style=\"width:100%; height:60px; text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbiz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wrap>div[style=\"width:100%; height:60px; text-align:center;\"]"
                     }
                 }
             },
@@ -44771,15 +44810,67 @@
                 }
             },
             {
-                "id": "39f628b8-9075-4f14-935d-d063ac3e5083",
-                "name": "mbiz.heraldcorp.com##span#ad_byline",
+                "id": "ba960fc5-0569-4217-b46e-3885e3b47965",
+                "name": "mbiz.heraldcorp.com##div[id^=\"adsmnc\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbiz\\.heraldcorp\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "span#ad_byline"
+                        "selector": "div[id^=\"adsmnc\"]"
+                    }
+                }
+            },
+            {
+                "id": "be7c63fa-7741-4b1c-8572-2aee8c0c14e1",
+                "name": "mbiz.heraldcorp.com##li[id^=\"adsmnc\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbiz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li[id^=\"adsmnc\"]"
+                    }
+                }
+            },
+            {
+                "id": "8938f7f7-e78d-4f85-9855-6e19bfd4558e",
+                "name": "mbiz.heraldcorp.com##span[id^=\"adintext\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbiz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span[id^=\"adintext\"]"
+                    }
+                }
+            },
+            {
+                "id": "1639bb68-ed06-4332-880d-83f7562431d5",
+                "name": "mbiz.heraldcorp.com##span[id^=\"adsmnc\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbiz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span[id^=\"adsmnc\"]"
+                    }
+                }
+            },
+            {
+                "id": "6ca6bf56-bb62-409f-8361-41339963937d",
+                "name": "mbiz.heraldcorp.com##span[id^=\"mfarm_text\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbiz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span[id^=\"mfarm_text\"]"
                     }
                 }
             },
@@ -44793,6 +44884,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "ul.text_ad"
+                    }
+                }
+            },
+            {
+                "id": "2f940b45-d6f8-4798-91da-fba8486d827c",
+                "name": "mbiz.heraldcorp.com##ul[id^=\"adsmnc\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbiz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul[id^=\"adsmnc\"]"
                     }
                 }
             },
