@@ -15969,6 +15969,22 @@
                 }
             },
             {
+                "id": "7286f83a-2b78-4f6d-977b-035e3eb05d1d",
+                "name": "res.heraldm.com/adbanner/$domain=biz.heraldcorp.com|news.heraldcorp.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?res\\.heraldm\\.com/adbanner/",
+                        "if-domain": [
+                            "biz.heraldcorp.com",
+                            "news.heraldcorp.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "7567593e-57f3-48a0-8e4a-87ba33cbf3e1",
                 "name": "res.heraldm.com/iframe/",
                 "content": {
@@ -24267,28 +24283,54 @@
                 }
             },
             {
-                "id": "07d22784-1e45-4a68-a834-b5146831a452",
-                "name": "biz.heraldcorp.com##div#articleText>p[style=\"float:right; margin-left:10px;border:1px solid #DED7D7;width:200px;height:200px;\"]",
+                "id": "c2bdf648-d6aa-4f3c-a3c8-13b1c9e096a9",
+                "name": "biz.heraldcorp.com##div#articleText>div[style=\"background:#f0f0f0; padding:15px 15px 15px 15px; margin-top:5px; margin-bottom:5px; text-align: center; \"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.heraldcorp\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#articleText>p[style=\"float:right; margin-left:10px;border:1px solid #DED7D7;width:200px;height:200px;\"]"
+                        "selector": "div#articleText>div[style=\"background:#f0f0f0; padding:15px 15px 15px 15px; margin-top:5px; margin-bottom:5px; text-align: center; \"]"
                     }
                 }
             },
             {
-                "id": "b25a5f29-063b-48cd-9baf-fef25b81f6f8",
-                "name": "news.heraldcorp.com##div#articleText>p[style=\"float:right; margin-left:10px;border:1px solid #DED7D7;width:200px;height:200px;\"]",
+                "id": "52bff800-3ce1-4f1a-9ae3-20ddd77f1611",
+                "name": "news.heraldcorp.com##div#articleText>div[style=\"background:#f0f0f0; padding:15px 15px 15px 15px; margin-top:5px; margin-bottom:5px; text-align: center; \"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.heraldcorp\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#articleText>p[style=\"float:right; margin-left:10px;border:1px solid #DED7D7;width:200px;height:200px;\"]"
+                        "selector": "div#articleText>div[style=\"background:#f0f0f0; padding:15px 15px 15px 15px; margin-top:5px; margin-bottom:5px; text-align: center; \"]"
+                    }
+                }
+            },
+            {
+                "id": "4847f18c-31dd-4c9d-845e-39df25703e59",
+                "name": "biz.heraldcorp.com##div#img_top_ad1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#img_top_ad1"
+                    }
+                }
+            },
+            {
+                "id": "ba3ba525-d757-41b1-bf99-d0c0a0e4bb1a",
+                "name": "news.heraldcorp.com##div#img_top_ad1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#img_top_ad1"
                     }
                 }
             },
@@ -24341,6 +24383,84 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#photo_ad_right"
+                    }
+                }
+            },
+            {
+                "id": "93d9812d-52c3-4c7b-8397-0ee2e4c6ffd1",
+                "name": "biz.heraldcorp.com##div#siteleft_banner1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#siteleft_banner1"
+                    }
+                }
+            },
+            {
+                "id": "2453df0a-367d-41ab-b760-f7b9223af62d",
+                "name": "news.heraldcorp.com##div#siteleft_banner1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#siteleft_banner1"
+                    }
+                }
+            },
+            {
+                "id": "bb7b5e60-e0ab-4b94-ab93-904743d7d62e",
+                "name": "biz.heraldcorp.com##div#siteleft_banner2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#siteleft_banner2"
+                    }
+                }
+            },
+            {
+                "id": "0ec5486e-295d-456c-b9db-4924e58dc70b",
+                "name": "news.heraldcorp.com##div#siteleft_banner2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#siteleft_banner2"
+                    }
+                }
+            },
+            {
+                "id": "b8ba89ea-bf66-4587-80c3-edf92449cd34",
+                "name": "biz.heraldcorp.com##div#wp_edge_mobon",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wp_edge_mobon"
+                    }
+                }
+            },
+            {
+                "id": "0bb31d43-e75d-4eb1-aaca-e5b7ef6a6daa",
+                "name": "news.heraldcorp.com##div#wp_edge_mobon",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wp_edge_mobon"
                     }
                 }
             },
@@ -24449,32 +24569,6 @@
                 }
             },
             {
-                "id": "2e2e3907-b2bb-4f97-9b7e-3d77c99a2eab",
-                "name": "biz.heraldcorp.com##div.ad_7:not([style])",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.heraldcorp\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_7:not([style])"
-                    }
-                }
-            },
-            {
-                "id": "a90ede97-6da0-4894-87de-735449b96b99",
-                "name": "news.heraldcorp.com##div.ad_7:not([style])",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.heraldcorp\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_7:not([style])"
-                    }
-                }
-            },
-            {
                 "id": "fe96c7b7-2c08-461c-a656-be291c330a11",
                 "name": "biz.heraldcorp.com##div.ad_7[style=\"background-color:#FFF; padding: 30px 0 0 0;\"]",
                 "content": {
@@ -24497,6 +24591,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_7[style=\"background-color:#FFF; padding: 30px 0 0 0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "80233292-8ce0-458d-9729-064f66f1a54d",
+                "name": "biz.heraldcorp.com##div.ad_7[style=\"margin:0\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_7[style=\"margin:0\"]"
+                    }
+                }
+            },
+            {
+                "id": "c074875b-380a-4b2e-9531-eeaad44d6340",
+                "name": "news.heraldcorp.com##div.ad_7[style=\"margin:0\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_7[style=\"margin:0\"]"
                     }
                 }
             },
@@ -24553,6 +24673,32 @@
                 }
             },
             {
+                "id": "14755986-7e79-4dd6-a2e5-d95ff520531e",
+                "name": "biz.heraldcorp.com##div.banner_1024_1024",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_1024_1024"
+                    }
+                }
+            },
+            {
+                "id": "860efc0e-9243-4c6e-ac22-873036ecaac9",
+                "name": "news.heraldcorp.com##div.banner_1024_1024",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_1024_1024"
+                    }
+                }
+            },
+            {
                 "id": "586b4442-d7dc-4b3b-a5d6-ceec1f94065c",
                 "name": "biz.heraldcorp.com##div.header>div[align=\"center\"][style=\"padding-bottom:10px; width:100%;height:90px;\"]",
                 "content": {
@@ -24575,32 +24721,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.header>div[align=\"center\"][style=\"padding-bottom:10px; width:100%;height:90px;\"]"
-                    }
-                }
-            },
-            {
-                "id": "6cc68580-4e2a-4482-a5bc-e1d010dab7a4",
-                "name": "biz.heraldcorp.com##div.subpg_news_body>div[style=\"float:right; margin-left:10px;border:1px solid #DED7D7;width:200px;height:200px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.heraldcorp\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.subpg_news_body>div[style=\"float:right; margin-left:10px;border:1px solid #DED7D7;width:200px;height:200px;\"]"
-                    }
-                }
-            },
-            {
-                "id": "3e2a22af-5ef4-4a2d-8517-31cc5da8e412",
-                "name": "news.heraldcorp.com##div.subpg_news_body>div[style=\"float:right; margin-left:10px;border:1px solid #DED7D7;width:200px;height:200px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.heraldcorp\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.subpg_news_body>div[style=\"float:right; margin-left:10px;border:1px solid #DED7D7;width:200px;height:200px;\"]"
                     }
                 }
             },
