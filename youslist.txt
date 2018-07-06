@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: ZfoxLN8a3gLLIBWy0Ca04g
+! Checksum: CLdctQc2jZ1vm6ZtK1cIJg
 ! Version: 20180706
 
 ! Workaround for BlockAdBlock
@@ -885,11 +885,7 @@
 ||hani.co.kr/section-adv/
 ||hankooki.com/common/mobilelink/mobile_hk.htm^
 ||hankooki.com/common/mobilelink/mobile_sk.htm^
-||hankookilbo.com/newsad250x250.html^$domain=hankookilbo.com
-||hankookilbo.com/newsad300x250-2.html^$domain=hankookilbo.com
-||hankookilbo.com/newsad300x250.html^$domain=hankookilbo.com
-||hankookilbo.com/newsad300x250ent.html^$domain=hankookilbo.com
-||hankookilbo.com/newsad300x250ent2.html^$domain=hankookilbo.com
+||hankookilbo.com/newsad*.html^$domain=hankookilbo.com
 ||hankyung.bohumplaza.com/_chann/
 ||hankyung.com/m/inc/fixed_mobile_ad_area_view.html^
 ||hb.vntsm.com/v2/live/hb.js^
@@ -2268,11 +2264,7 @@ hankookilbo.com##div.poll_ad_div
 hankookilbo.com##div.shoppingIframe
 hankookilbo.com##div.side-ad
 hankookilbo.com##iframe[class^="adiframe"]
-hankookilbo.com##iframe[src^="/newsad250x250.html"]
-hankookilbo.com##iframe[src^="/newsad300x250-2.html"]
-hankookilbo.com##iframe[src^="/newsad300x250.html"]
-hankookilbo.com##iframe[src^="/newsad300x250ent.html"]
-hankookilbo.com##iframe[src^="/newsad300x250ent2.html"]
+hankookilbo.com##iframe[src^="/newsad"][src$=".html"]
 hankyung.com##aside.ad-newsview
 hankyung.com##aside.ad-top-wide
 hankyung.com##div#ad_ti

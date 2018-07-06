@@ -10999,71 +10999,11 @@
                 }
             },
             {
-                "id": "81990cba-142b-4e51-a0f0-e71dadc9497b",
-                "name": "hankookilbo.com/newsad250x250.html$domain=hankookilbo.com",
+                "id": "b839a5c8-2a58-4109-9a4c-8ea86f8ae455",
+                "name": "hankookilbo.com/newsad*.html$domain=hankookilbo.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankookilbo\\.com/newsad250x250\\.html",
-                        "if-domain": [
-                            "hankookilbo.com"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "76cb2a64-6a72-4361-8e03-cc7d37bf75b8",
-                "name": "hankookilbo.com/newsad300x250-2.html$domain=hankookilbo.com",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankookilbo\\.com/newsad300x250-2\\.html",
-                        "if-domain": [
-                            "hankookilbo.com"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "8e8a973e-e67b-48e2-966b-c0993db18afd",
-                "name": "hankookilbo.com/newsad300x250.html$domain=hankookilbo.com",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankookilbo\\.com/newsad300x250\\.html",
-                        "if-domain": [
-                            "hankookilbo.com"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "f304b974-64dd-4d0f-83de-0f6ee5ea3d7c",
-                "name": "hankookilbo.com/newsad300x250ent.html$domain=hankookilbo.com",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankookilbo\\.com/newsad300x250ent\\.html",
-                        "if-domain": [
-                            "hankookilbo.com"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "8b79b6e4-d6a7-4630-9415-b4629bc85f04",
-                "name": "hankookilbo.com/newsad300x250ent2.html$domain=hankookilbo.com",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankookilbo\\.com/newsad300x250ent2\\.html",
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankookilbo\\.com/newsad.*\\.html",
                         "if-domain": [
                             "hankookilbo.com"
                         ]
@@ -32603,67 +32543,15 @@
                 }
             },
             {
-                "id": "0d947881-cdc1-4b79-ba76-e6149497451a",
-                "name": "hankookilbo.com##iframe[src^=\"/newsad250x250.html\"]",
+                "id": "d7ee5e7a-443f-4ae9-8436-235900107347",
+                "name": "hankookilbo.com##iframe[src^=\"/newsad\"][src$=\".html\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankookilbo\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "iframe[src^=\"/newsad250x250.html\"]"
-                    }
-                }
-            },
-            {
-                "id": "83090684-8505-4fa7-8832-197c1923ecfc",
-                "name": "hankookilbo.com##iframe[src^=\"/newsad300x250-2.html\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankookilbo\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"/newsad300x250-2.html\"]"
-                    }
-                }
-            },
-            {
-                "id": "c34cd35b-8453-47e2-b3bb-1814d9638722",
-                "name": "hankookilbo.com##iframe[src^=\"/newsad300x250.html\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankookilbo\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"/newsad300x250.html\"]"
-                    }
-                }
-            },
-            {
-                "id": "9836c7df-e9e9-4458-b457-9ae6d4f9e63d",
-                "name": "hankookilbo.com##iframe[src^=\"/newsad300x250ent.html\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankookilbo\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"/newsad300x250ent.html\"]"
-                    }
-                }
-            },
-            {
-                "id": "d4b84808-7bd3-4cab-a89d-df27368d6eec",
-                "name": "hankookilbo.com##iframe[src^=\"/newsad300x250ent2.html\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankookilbo\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"/newsad300x250ent2.html\"]"
+                        "selector": "iframe[src^=\"/newsad\"][src$=\".html\"]"
                     }
                 }
             },
