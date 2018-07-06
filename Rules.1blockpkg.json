@@ -304,6 +304,19 @@
                 }
             },
             {
+                "id": "cb217ee8-7b6c-4dd5-90b9-58aa51b4f8c6",
+                "name": "##div.logly-lift-ad a[href^=\"https://dsp.logly.co.jp/click\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.logly-lift-ad a[href^=\"https://dsp.logly.co.jp/click\"]"
+                    }
+                }
+            },
+            {
                 "id": "a2f018c7-30c9-4d6d-8bd0-f28735e52bbc",
                 "name": "##div.logly-lift-ad-ad",
                 "content": {
@@ -317,15 +330,15 @@
                 }
             },
             {
-                "id": "d1af18ba-266b-461f-ba30-4b3244922dba",
-                "name": "##div.logly-lift-ad>a[href^=\"https://dsp.logly.co.jp/click\"]",
+                "id": "ff9368b1-924f-4588-92e6-ea7188d1adac",
+                "name": "##div.logly-lift-adz",
                 "content": {
                     "trigger": {
                         "url-filter": ".*"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.logly-lift-ad>a[href^=\"https://dsp.logly.co.jp/click\"]"
+                        "selector": "div.logly-lift-adz"
                     }
                 }
             },
@@ -3270,6 +3283,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "-d\\.openx\\.net/w/1\\.0/jstag"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f92b51b1-2afb-4ef1-9a60-138b8dcdccc0",
+                "name": "*.genieesspv.jp/yie/ld/jsk",
+                "content": {
+                    "trigger": {
+                        "url-filter": "\\.genieesspv\\.jp/yie/ld/jsk"
                     },
                     "action": {
                         "type": "block"
@@ -13507,18 +13532,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbn\\.mk\\.co\\.kr/pages/ad/"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "51ea4a39-5a2f-46b0-b2e2-95c4ce34ac73",
-                "name": "medi8.genieesspv.jp/yie/ld/jsk",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?medi8\\.genieesspv\\.jp/yie/ld/jsk"
                     },
                     "action": {
                         "type": "block"
@@ -50084,6 +50097,97 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"https://ads.nicovideo.jp/bannertext\"]"
+                    }
+                }
+            },
+            {
+                "id": "bc5c73c1-9d4a-445a-91a6-0dc0c8a1a1c0",
+                "name": "nikkan-spa.jp##div#sp_ad_index",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nikkan-spa\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sp_ad_index"
+                    }
+                }
+            },
+            {
+                "id": "afe29f4d-71ff-4a5d-8f0f-7b6a781f6c8e",
+                "name": "nikkan-spa.jp##div#sp_ad_single",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nikkan-spa\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sp_ad_single"
+                    }
+                }
+            },
+            {
+                "id": "b2e480f7-33de-4f29-aac0-d73e9cc7c015",
+                "name": "nikkan-spa.jp##div.ad-area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nikkan-spa\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-area"
+                    }
+                }
+            },
+            {
+                "id": "d1441128-8a63-4c70-b153-132af159f02e",
+                "name": "nikkan-spa.jp##div.ad-area2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nikkan-spa\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-area2"
+                    }
+                }
+            },
+            {
+                "id": "0b4261fa-eaac-419f-9f97-bac4be8a2bfe",
+                "name": "nikkan-spa.jp##div.mainColumnBannerArea",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nikkan-spa\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mainColumnBannerArea"
+                    }
+                }
+            },
+            {
+                "id": "9161ce06-a6f3-46d4-bc82-23ee11078d34",
+                "name": "nikkan-spa.jp##div.post-list>div.pickup.post-div",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nikkan-spa\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.post-list>div.pickup.post-div"
+                    }
+                }
+            },
+            {
+                "id": "cfb24b3c-8d97-4019-b980-c4df6c74dcf3",
+                "name": "nikkan-spa.jp##div.posts-box>div.pickup.post-div",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nikkan-spa\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.posts-box>div.pickup.post-div"
                     }
                 }
             },

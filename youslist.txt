@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: wJZByvPOL7hxn+jAQ9G1Bw
+! Checksum: o1Mk7Fi43NgK0hdmtbOPDg
 ! Version: 20180706
 
 ! Workaround for BlockAdBlock
@@ -43,8 +43,9 @@
 ##div.ezAdsense
 ##div.gpt_ad_container
 ##div.js-relap__item>div.js-relap__item-inner>a[data-ad-link="true"]
+##div.logly-lift-ad a[href^="https://dsp.logly.co.jp/click"]
 ##div.logly-lift-ad-ad
-##div.logly-lift-ad>a[href^="https://dsp.logly.co.jp/click"]
+##div.logly-lift-adz
 ##div.ob-widget-section>ul.ob-widget-items-container>li.ob-p
 ##div.ob_box_cont>ul>li.ob-p
 ##div.ob_container>a.ob-p
@@ -274,6 +275,7 @@
 *-d.openx.net/w/1.0/afr^
 *-d.openx.net/w/1.0/arj^
 *-d.openx.net/w/1.0/jstag^
+*.genieesspv.jp/yie/ld/jsk^
 */NetInsight/
 */RealMedia/ads/$domain=~dpg.danawa.com|~m.danawa.com|~news.danawa.com
 */about_*_shopbox.*
@@ -1076,7 +1078,6 @@
 ||marketingking.co.kr/pr/ad.js^
 ||maxmovie.com/banner/img/lotte630x88.jpg^
 ||mbn.mk.co.kr/pages/ad/
-||medi8.genieesspv.jp/yie/ld/jsk^
 ||media.adrcdn.com/scripts/w-display/screenad_core_*_scrambled.js^
 ||media.adrcdn.com/scripts/w-display/screenad_launch_*_scrambled.js^
 ||mediafire.com/templates/linkto/ads.php^$domain=mediafire.com
@@ -3581,6 +3582,13 @@ nicovideo.jp##div.sideBanner
 nicovideo.jp##div.sideTxtAd
 nicovideo.jp##div.sidewallAd
 nicovideo.jp##iframe[src^="https://ads.nicovideo.jp/bannertext"]
+nikkan-spa.jp##div#sp_ad_index
+nikkan-spa.jp##div#sp_ad_single
+nikkan-spa.jp##div.ad-area
+nikkan-spa.jp##div.ad-area2
+nikkan-spa.jp##div.mainColumnBannerArea
+nikkan-spa.jp##div.post-list>div.pickup.post-div
+nikkan-spa.jp##div.posts-box>div.pickup.post-div
 nintendolife.com##div.insert
 noblesse.com##div#top_banner
 noblesse.com##div.bannerwrap
