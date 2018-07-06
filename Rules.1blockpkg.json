@@ -26090,6 +26090,19 @@
                 }
             },
             {
+                "id": "2233af67-9103-4da0-b75c-57727451ed97",
+                "name": "cdn.ampproject.org##div.advertisement",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advertisement"
+                    }
+                }
+            },
+            {
                 "id": "f1c98796-ef99-45fb-8d7b-3ec1f7242572",
                 "name": "cdn.ampproject.org##div.amp_view_ad",
                 "content": {
