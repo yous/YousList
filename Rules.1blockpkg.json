@@ -382,6 +382,19 @@
                 }
             },
             {
+                "id": "f73c881d-01d3-42f6-9fad-0569640bdcd7",
+                "name": "##div.trc_popover_aug_container",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.trc_popover_aug_container"
+                    }
+                }
+            },
+            {
                 "id": "93439e17-ec59-4e3b-a51f-3aa173410088",
                 "name": "##div.trc_rbox_container div.trc_rbox_outer div.syndicatedItem",
                 "content": {
@@ -48333,28 +48346,15 @@
                 }
             },
             {
-                "id": "6e1b42c6-6841-4a34-851b-d1213b75d8fe",
-                "name": "news.mk.co.kr##div#article_body>div.art_txt>div[style=\"padding:15px 15px 15px 0; text-align:left; float:left; margin-right:5px; margin-bottom:15px;\"]",
+                "id": "e0354d35-5eb2-48cb-98dd-e6d8d962864f",
+                "name": "news.mk.co.kr##div#livereAd",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.mk\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#article_body>div.art_txt>div[style=\"padding:15px 15px 15px 0; text-align:left; float:left; margin-right:5px; margin-bottom:15px;\"]"
-                    }
-                }
-            },
-            {
-                "id": "4220ca03-da5e-4c31-a51c-0eebf1e1450c",
-                "name": "news.mk.co.kr##div#article_body>div.art_txt>div[style=\"text-align:center; border:0; width:100%; margin:0 auto\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.mk\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#article_body>div.art_txt>div[style=\"text-align:center; border:0; width:100%; margin:0 auto\"]"
+                        "selector": "div#livereAd"
                     }
                 }
             },
@@ -48368,6 +48368,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#viewShopDiv"
+                    }
+                }
+            },
+            {
+                "id": "cf320552-115e-46d1-aa6d-ad7b7fdd5a1e",
+                "name": "news.mk.co.kr##div.ad_footer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.mk\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_footer"
+                    }
+                }
+            },
+            {
+                "id": "16042373-d50b-4556-82e3-96987ddb27c2",
+                "name": "news.mk.co.kr##div.ad_header",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.mk\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_header"
                     }
                 }
             },
@@ -48398,15 +48424,15 @@
                 }
             },
             {
-                "id": "eff5457c-cb7d-4d3d-9af1-06c0f2d3ccf3",
-                "name": "news.mk.co.kr##div.ad_viewrolling",
+                "id": "3a4d2d37-ff3c-49fe-a0e5-2e56adf6113f",
+                "name": "news.mk.co.kr##div.ad_viewad_box",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.mk\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad_viewrolling"
+                        "selector": "div.ad_viewad_box"
                     }
                 }
             },
