@@ -41144,6 +41144,32 @@
                 }
             },
             {
+                "id": "64248bad-27dc-4dd0-a6bd-bc9d874db204",
+                "name": "m.mk.co.kr##div.new_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mk\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.new_ad"
+                    }
+                }
+            },
+            {
+                "id": "3466f900-bcd6-4156-8b0d-52b48ec52765",
+                "name": "m.mk.co.kr##div.new_ad2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mk\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.new_ad2"
+                    }
+                }
+            },
+            {
                 "id": "526540a3-4060-44fc-8004-62cad7ecc1fb",
                 "name": "m.mk.co.kr##div.pushADMiddle",
                 "content": {
