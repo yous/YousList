@@ -6797,15 +6797,10 @@
             },
             {
                 "id": "8fa51fc3-9cf7-4336-9b42-bcfa7a584907",
-                "name": "apis.naver.com/rmcnmv/rmcams/item/create/$domain=m.tv.naver.com|naver.me|tv.naver.com",
+                "name": "apis.naver.com/rmcnmv/rmcams/item/create/",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?apis\\.naver\\.com/rmcnmv/rmcams/item/create/",
-                        "if-domain": [
-                            "m.tv.naver.com",
-                            "naver.me",
-                            "tv.naver.com"
-                        ]
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?apis\\.naver\\.com/rmcnmv/rmcams/item/create/"
                     },
                     "action": {
                         "type": "block"
