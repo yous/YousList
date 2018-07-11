@@ -3112,6 +3112,19 @@
                 }
             },
             {
+                "id": "bde40284-72ce-45e4-9bbc-0899b668405b",
+                "name": "##iframe[src^=\"https://googleads.g.doubleclick.net/pagead/ads\"]:not([src*=\"&crui=\"])",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://googleads.g.doubleclick.net/pagead/ads\"]:not([src*=\"&crui=\"])"
+                    }
+                }
+            },
+            {
                 "id": "28f064ef-7f2d-47fa-9744-704a559f2f24",
                 "name": "##iframe[src^=\"https://imasdk.googleapis.com/js/core/bridge\"][src*=\".html\"]",
                 "content": {
@@ -56912,6 +56925,19 @@
                 }
             },
             {
+                "id": "54c1ae22-a114-4dcd-8a06-e44aa2277482",
+                "name": "todayhumor.co.kr##div.contentContainer>div[style=\"margin-bottom:10px;text-align:left;;padding-bottom:0px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?todayhumor\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contentContainer>div[style=\"margin-bottom:10px;text-align:left;;padding-bottom:0px\"]"
+                    }
+                }
+            },
+            {
                 "id": "1ced84a8-f2bc-4b54-95c2-be6a5cbeaf36",
                 "name": "todayhumor.co.kr##div.under_ad_div",
                 "content": {
@@ -56921,6 +56947,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.under_ad_div"
+                    }
+                }
+            },
+            {
+                "id": "027da6ba-7290-463d-be9e-9e2ea055fd85",
+                "name": "todayhumor.co.kr##td.list_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?todayhumor\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "td.list_ad"
                     }
                 }
             },
