@@ -35307,6 +35307,71 @@
                 }
             },
             {
+                "id": "cd01800f-fa5a-42e0-a503-b0e4f3a1205e",
+                "name": "kongregate.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kongregate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "3a6ed866-2c66-49cb-af00-fcba4d6d6c9a",
+                "name": "kongregate.com##div.ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kongregate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container"
+                    }
+                }
+            },
+            {
+                "id": "e7ca8db5-5b19-4f76-a812-bb27ed316c3d",
+                "name": "kongregate.com##div.game_lower_horizontal_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kongregate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.game_lower_horizontal_ad"
+                    }
+                }
+            },
+            {
+                "id": "c2340f22-930e-478b-b3da-de80103e6e9a",
+                "name": "kongregate.com##div.game_upper_horizontal_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kongregate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.game_upper_horizontal_ad"
+                    }
+                }
+            },
+            {
+                "id": "d14c5408-434a-4621-8606-f59dd1407529",
+                "name": "kongregate.com##span#kong_game_bf_300x250_2_holder",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kongregate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span#kong_game_bf_300x250_2_holder"
+                    }
+                }
+            },
+            {
                 "id": "a7a49c2a-f982-49cd-b573-1869cf1290bd",
                 "name": "kookje.co.kr##div#bnr_newsmiddleArea",
                 "content": {
