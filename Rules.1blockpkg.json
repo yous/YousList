@@ -12074,6 +12074,21 @@
                 }
             },
             {
+                "id": "a58a2666-c79b-4dbe-a5c0-3edb9337d90c",
+                "name": "itworld.co.kr/_common/banner/blank_black.php$domain=itworld.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?itworld\\.co\\.kr/_common/banner/blank_black\\.php",
+                        "if-domain": [
+                            "itworld.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "304bbbdc-56c2-4540-ae9e-ce7d8d32b89e",
                 "name": "j.microad.net/js/compass.js",
                 "content": {
@@ -34773,6 +34788,97 @@
                 }
             },
             {
+                "id": "e0f923cc-ea0f-4828-b1b7-79a060124932",
+                "name": "itworld.co.kr##div#banner_bg",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?itworld\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_bg"
+                    }
+                }
+            },
+            {
+                "id": "9c74cb03-8c9c-4bd9-a168-acbf5401d4d4",
+                "name": "itworld.co.kr##div#banner_right_wing",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?itworld\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_right_wing"
+                    }
+                }
+            },
+            {
+                "id": "d12a8ab3-14f5-4c42-a3d9-7a3f60a202d0",
+                "name": "itworld.co.kr##div#banner_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?itworld\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_top"
+                    }
+                }
+            },
+            {
+                "id": "187fe8d6-21c5-496a-af19-860e2030a587",
+                "name": "itworld.co.kr##div#dell_emc_modal",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?itworld\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#dell_emc_modal"
+                    }
+                }
+            },
+            {
+                "id": "e9013237-ad79-4b1d-9c3e-e1d416976aa9",
+                "name": "itworld.co.kr##div#mobile_recommand_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?itworld\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mobile_recommand_banner"
+                    }
+                }
+            },
+            {
+                "id": "e317c819-73ab-48c0-8491-58ea4ef2a543",
+                "name": "itworld.co.kr##div#post_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?itworld\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#post_ad"
+                    }
+                }
+            },
+            {
+                "id": "107c6da2-7623-49a2-bc9a-68d0ace9c74f",
+                "name": "itworld.co.kr##div#techlibrary_left_slide_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?itworld\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#techlibrary_left_slide_banner"
+                    }
+                }
+            },
+            {
                 "id": "63abd256-35ce-4310-bddf-afb68203a12e",
                 "name": "itworld.co.kr##div#youtube_div",
                 "content": {
@@ -34782,6 +34888,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#youtube_div"
+                    }
+                }
+            },
+            {
+                "id": "5be2442a-9eca-4f6d-9051-b83905125d88",
+                "name": "itworld.co.kr##div.nano_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?itworld\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.nano_banner"
+                    }
+                }
+            },
+            {
+                "id": "2811a51d-5a18-4448-ad55-b48594adf86e",
+                "name": "itworld.co.kr##iframe[src^=\"/_common/banner/blank_black.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?itworld\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/_common/banner/blank_black.php\"]"
                     }
                 }
             },
