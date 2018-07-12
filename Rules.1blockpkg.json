@@ -12089,6 +12089,21 @@
                 }
             },
             {
+                "id": "4a0579be-2a0f-4233-9261-0569c8ebd696",
+                "name": "it.chosun.com/dhtm/js/itcs_art_ad*.js$domain=it.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?it\\.chosun\\.com/dhtm/js/itcs_art_ad.*\\.js",
+                        "if-domain": [
+                            "it.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a58a2666-c79b-4dbe-a5c0-3edb9337d90c",
                 "name": "itworld.co.kr/_common/banner/blank_black.php$domain=itworld.co.kr",
                 "content": {
@@ -34816,54 +34831,119 @@
                 }
             },
             {
-                "id": "70bf6104-f889-4806-891e-8ebd6b6f1426",
-                "name": "it.chosun.com##div#banner_1",
+                "id": "5c6c37fb-6dac-407d-8e1d-5784674c9906",
+                "name": "it.chosun.com##div.ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?it\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#banner_1"
+                        "selector": "div.ad"
                     }
                 }
             },
             {
-                "id": "df314c11-4269-410c-9c5a-ab7c0b846688",
-                "name": "it.chosun.com##div.AdBannerBase",
+                "id": "07ff3166-8305-46d4-bdc9-3063f1b9801b",
+                "name": "it.chosun.com##div.ad2",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?it\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.AdBannerBase"
+                        "selector": "div.ad2"
                     }
                 }
             },
             {
-                "id": "df0db03c-b8e2-435b-9bfa-5d2adfb25266",
-                "name": "it.chosun.com##div.newsinfo2",
+                "id": "e1700a37-3399-45d8-9d14-f3ee36e68fc8",
+                "name": "it.chosun.com##div.ad_list",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?it\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.newsinfo2"
+                        "selector": "div.ad_list"
                     }
                 }
             },
             {
-                "id": "b5e9bcfd-21ea-4107-a20b-4b87a7db2856",
-                "name": "it.chosun.com##div.section_h123>div[style=\"width:160px; height:600px;position:absolute;right:50%;margin-right:-660px;top:270px;z-index:1;\"]",
+                "id": "511b15df-d9ed-493a-9288-f87f314d197e",
+                "name": "it.chosun.com##div.art_ad_bottom",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?it\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.section_h123>div[style=\"width:160px; height:600px;position:absolute;right:50%;margin-right:-660px;top:270px;z-index:1;\"]"
+                        "selector": "div.art_ad_bottom"
+                    }
+                }
+            },
+            {
+                "id": "9eb3b6a5-76bc-4fbd-b552-663dbcaee8fc",
+                "name": "it.chosun.com##div.art_ad_scp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?it\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_ad_scp"
+                    }
+                }
+            },
+            {
+                "id": "6d97901a-84d4-43fa-a3fc-4666acd2d471",
+                "name": "it.chosun.com##div.fixed_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?it\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.fixed_ad"
+                    }
+                }
+            },
+            {
+                "id": "5ca01581-63ac-4094-ab41-e6dd0f86dd73",
+                "name": "it.chosun.com##div.hd_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?it\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.hd_ad"
+                    }
+                }
+            },
+            {
+                "id": "14c2d5b4-d883-40b4-8812-63d70849ce4a",
+                "name": "it.chosun.com##div.letter_bottom_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?it\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.letter_bottom_ad"
+                    }
+                }
+            },
+            {
+                "id": "5a11bdf4-b3ce-4328-9540-f341da9bd277",
+                "name": "it.chosun.com##div.thumb_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?it\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.thumb_ad"
                     }
                 }
             },
