@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 6tBPCESGL2UmOkxxC4wqZw
+! Checksum: VmWQV8n8t8TAmBlw9l1H7Q
 ! Version: 20180712
 
 ! Workaround for BlockAdBlock
@@ -152,6 +152,7 @@
 ##iframe[src^="http://aitg.widerplanet.com/"]
 ##iframe[src^="http://api.adns.contentlink.co.kr/adserver/delivery/iframe.php"]
 ##iframe[src^="http://apis.piclick.me/v1/publish/banner/iframe"]
+##iframe[src^="http://apis.piclick.me/v2/publish/banner/iframe"]
 ##iframe[src^="http://bayabar.com/adworking/"]
 ##iframe[src^="http://c6.daisy6.com/v1/adreq"]
 ##iframe[src^="http://cadvv.heraldm.com/nbiz/"]
@@ -568,6 +569,8 @@
 ||api.wiseclick.co.kr/api/web_directad/
 ||apis.naver.com/rmcnmv/rmcams/item/create/
 ||apis.piclick.me/v1/publish/banner/iframe^
+||apis.piclick.me/v2/publish/banner/iframe.min.js^
+||apis.piclick.me/v2/publish/banner/iframe^
 ||apis.pooq.co.kr/adproxy^$domain=pooq.co.kr
 ||art.chosun.com/common/r_banner/index.html^$domain=art.chosun.com
 ||artsnews.mk.co.kr/mk_ad.js^$domain=sports.mk.co.kr
@@ -1199,6 +1202,7 @@
 ||nurhdfilfilme.com/bundles/maxicadvertisement/js/advertisment_*.js^
 ||nv*.veta.naver.com/dr^
 ||nv.veta.naver.com/fxshow^$domain=naver.com
+||nvapi.feeldmc.com/ad/
 ||nw.realssp.co.kr^
 ||nws.lumieyes.com/show*/media/
 ||ojsfile.ohmynews.com/AD_FILE/
@@ -1522,6 +1526,8 @@
 ||youtube.com/get_video_info?*el=adunit
 ||ytn.co.kr/img/ad/
 ||ytn.co.kr/inc_banner/AdServerChange.php^
+||ytn.co.kr/inc_banner/Ad_TI.js^$domain=ytn.co.kr
+||ytn.co.kr/inc_banner/Ad_gisabottom2.php^$domain=ytn.co.kr
 ||z-na.amazon-adsystem.com/widgets/onejs^
 ||z.moatads.com/*/moatad.js^
 ||z.moatads.com/*/moatcontent.js^
@@ -4401,17 +4407,21 @@ youtube.com##ytd-search-pyv-renderer
 youtube.com##ytd-video-masthead-ad-renderer
 ytn.co.kr##div#CmAdContent>div[style="overflow:hidden;width:420px;height:45px;border:1px solid #cbcccf;background-color: #fafafa;margin:20px auto 0 auto;padding:10px 30px;"]
 ytn.co.kr##div#CmAdContent>div[style="overflow:hidden;width:420px;height:45px;border:1px solid #cbcccf;background-color: #fafafa;margin:20px auto 0 auto;padding:10px 30px;position:relative;"]
-ytn.co.kr##div#Fusence
-ytn.co.kr##div#hns_mask
-ytn.co.kr##div#zone1>div[style="width:628px;border:1px solid #cbcccf;padding:10px 5px 10px 15px;margin-bottom:10px;overflow:hidden;"]
-ytn.co.kr##div.YTN_CSA_headline>div>div[style="clear:both;width:;648px;height:140px;padding:10px 0 0 0;margin:0 0 -10px 0;overflow:hidden"]
+ytn.co.kr##div#ajaxGisaSubList>div[style="margin:0 auto;width:628px;border:1px solid #cbcccf;padding:10px 5px 10px 15px;margin-bottom:10px;overflow:hidden;margin-top: 25px;"]
+ytn.co.kr##div#leftWingBanner
+ytn.co.kr##div#piclick_300x230
+ytn.co.kr##div#rightWingBanner
+ytn.co.kr##div#wrap>div[style="position:absolute;top:0px;right:-125px;"]
+ytn.co.kr##div#wrap>div[style="position:absolute;top:383px;margin-left:680px;z-index:0; !important"]
+ytn.co.kr##div.ad01
+ytn.co.kr##div.ad_top
 ytn.co.kr##div.adright_box
 ytn.co.kr##div.articleAd_marketing
 ytn.co.kr##div.articleAd_new
 ytn.co.kr##div[class^="ad_zone"]
 ytn.co.kr##div[class^="sub_adbox"]
 ytn.co.kr##iframe[name="AdtopBanner"]
-ytn.co.kr##ul[class^="adnew"]
+ytn.co.kr##iframe[src^="../inc_banner/Ad_gisabottom2.php"]
 zangsisi.net##body>center
 zangsisi.net##div#fixed-top
 zangsisi.net##div.fixed-top>center

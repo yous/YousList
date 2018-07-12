@@ -1721,6 +1721,19 @@
                 }
             },
             {
+                "id": "af4f65da-23a7-438c-a0f1-bcb14921b443",
+                "name": "##iframe[src^=\"http://apis.piclick.me/v2/publish/banner/iframe\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://apis.piclick.me/v2/publish/banner/iframe\"]"
+                    }
+                }
+            },
+            {
                 "id": "c0390a2e-52e8-4bef-ac08-849411091317",
                 "name": "##iframe[src^=\"http://bayabar.com/adworking/\"]",
                 "content": {
@@ -6839,6 +6852,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?apis\\.piclick\\.me/v1/publish/banner/iframe"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "aed87b9d-42c2-4245-b164-73d61a47e735",
+                "name": "apis.piclick.me/v2/publish/banner/iframe.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?apis\\.piclick\\.me/v2/publish/banner/iframe\\.min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8581e49d-1488-498f-babc-c3165b705009",
+                "name": "apis.piclick.me/v2/publish/banner/iframe",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?apis\\.piclick\\.me/v2/publish/banner/iframe"
                     },
                     "action": {
                         "type": "block"
@@ -15066,6 +15103,18 @@
                 }
             },
             {
+                "id": "de7e6c28-c25c-4770-b91a-cb543a8ab3cb",
+                "name": "nvapi.feeldmc.com/ad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nvapi\\.feeldmc\\.com/ad/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "67bf6db8-4f56-4e44-bae8-b914d39f126e",
                 "name": "nw.realssp.co.kr",
                 "content": {
@@ -19125,6 +19174,36 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ytn\\.co\\.kr/inc_banner/AdServerChange\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7a40e298-5e23-4116-9518-25f1862aef33",
+                "name": "ytn.co.kr/inc_banner/Ad_TI.js$domain=ytn.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ytn\\.co\\.kr/inc_banner/Ad_TI\\.js",
+                        "if-domain": [
+                            "ytn.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2776e61b-948f-41e7-b8a4-fa7fc4300170",
+                "name": "ytn.co.kr/inc_banner/Ad_gisabottom2.php$domain=ytn.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ytn\\.co\\.kr/inc_banner/Ad_gisabottom2\\.php",
+                        "if-domain": [
+                            "ytn.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -62768,54 +62847,106 @@
                 }
             },
             {
-                "id": "65ebd089-10de-451d-9e97-508a004da086",
-                "name": "ytn.co.kr##div#Fusence",
+                "id": "152a2f21-f80b-4a4b-8e8b-79209ed8dc4e",
+                "name": "ytn.co.kr##div#ajaxGisaSubList>div[style=\"margin:0 auto;width:628px;border:1px solid #cbcccf;padding:10px 5px 10px 15px;margin-bottom:10px;overflow:hidden;margin-top: 25px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ytn\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#Fusence"
+                        "selector": "div#ajaxGisaSubList>div[style=\"margin:0 auto;width:628px;border:1px solid #cbcccf;padding:10px 5px 10px 15px;margin-bottom:10px;overflow:hidden;margin-top: 25px;\"]"
                     }
                 }
             },
             {
-                "id": "2770f1b7-e143-4e6c-ae7c-133d9f55662b",
-                "name": "ytn.co.kr##div#hns_mask",
+                "id": "6e488938-40d9-428a-b753-ce6541a491ea",
+                "name": "ytn.co.kr##div#leftWingBanner",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ytn\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#hns_mask"
+                        "selector": "div#leftWingBanner"
                     }
                 }
             },
             {
-                "id": "5af7620c-051c-4aa8-ab7d-fcaec9f91c1e",
-                "name": "ytn.co.kr##div#zone1>div[style=\"width:628px;border:1px solid #cbcccf;padding:10px 5px 10px 15px;margin-bottom:10px;overflow:hidden;\"]",
+                "id": "526d2db3-16ba-4e59-a9ea-e3b17d6ea001",
+                "name": "ytn.co.kr##div#piclick_300x230",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ytn\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#zone1>div[style=\"width:628px;border:1px solid #cbcccf;padding:10px 5px 10px 15px;margin-bottom:10px;overflow:hidden;\"]"
+                        "selector": "div#piclick_300x230"
                     }
                 }
             },
             {
-                "id": "ac4e87a9-6120-4f9f-9c1a-8d9d1a618fbc",
-                "name": "ytn.co.kr##div.YTN_CSA_headline>div>div[style=\"clear:both;width:;648px;height:140px;padding:10px 0 0 0;margin:0 0 -10px 0;overflow:hidden\"]",
+                "id": "17bbfd1e-2f4a-4db4-89aa-890831b544a9",
+                "name": "ytn.co.kr##div#rightWingBanner",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ytn\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.YTN_CSA_headline>div>div[style=\"clear:both;width:;648px;height:140px;padding:10px 0 0 0;margin:0 0 -10px 0;overflow:hidden\"]"
+                        "selector": "div#rightWingBanner"
+                    }
+                }
+            },
+            {
+                "id": "2c6951ba-0877-4e69-bb3a-ac3e330f9518",
+                "name": "ytn.co.kr##div#wrap>div[style=\"position:absolute;top:0px;right:-125px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ytn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wrap>div[style=\"position:absolute;top:0px;right:-125px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "48907801-f1bc-445c-9f23-60adb3253a95",
+                "name": "ytn.co.kr##div#wrap>div[style=\"position:absolute;top:383px;margin-left:680px;z-index:0; !important\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ytn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wrap>div[style=\"position:absolute;top:383px;margin-left:680px;z-index:0; !important\"]"
+                    }
+                }
+            },
+            {
+                "id": "72848940-ccaa-4e63-90ab-9f5d7e63b19e",
+                "name": "ytn.co.kr##div.ad01",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ytn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad01"
+                    }
+                }
+            },
+            {
+                "id": "23a5b776-4a6c-48a5-afe7-7293efb7d44e",
+                "name": "ytn.co.kr##div.ad_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ytn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_top"
                     }
                 }
             },
@@ -62898,15 +63029,15 @@
                 }
             },
             {
-                "id": "5207c52e-40c1-46fa-8d94-1f16a7f8456e",
-                "name": "ytn.co.kr##ul[class^=\"adnew\"]",
+                "id": "d0b1d8e9-8a83-41f8-b82a-685ec67aec5d",
+                "name": "ytn.co.kr##iframe[src^=\"../inc_banner/Ad_gisabottom2.php\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ytn\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "ul[class^=\"adnew\"]"
+                        "selector": "iframe[src^=\"../inc_banner/Ad_gisabottom2.php\"]"
                     }
                 }
             },
