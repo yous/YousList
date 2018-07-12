@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: YGyPnIrmzJV4McK3s68b4Q
+! Checksum: PnwZ3dUDeQCEmh1II3ArZQ
 ! Version: 20180712
 
 ! Workaround for BlockAdBlock
@@ -703,6 +703,7 @@
 ||cdnprisms.pandora.tv/_adv_img/prism_ad/
 ||celeb.nann.co.kr^
 ||cine21.com/misc/iframe/ad_netinsight/$domain=cine21.com
+||ciokorea.com/_common/banner/blank_black.php^$domain=ciokorea.com
 ||cjmooter.xcache.kinxcdn.com/script/
 ||clevernt.com/scripts/*.min.js^
 ||click.realclick.co.kr^
@@ -1808,7 +1809,16 @@ cine21.com##div.banner_top
 cine21.com##div.main_content_banner
 cine21.com##iframe[src^="/misc/iframe/ad_netinsight/"]
 ciokorea.com##div#banner_bg
+ciokorea.com##div#banner_right_wing
 ciokorea.com##div#banner_top
+ciokorea.com##div#dell_emc_modal
+ciokorea.com##div#mobile_recommand_banner
+ciokorea.com##div#post_ad
+ciokorea.com##div#techlibrary_left_slide_banner
+ciokorea.com##div#youtube_div
+ciokorea.com##div.footBanner
+ciokorea.com##div.nano_banner
+ciokorea.com##iframe[src^="/_common/banner/blank_black.php"]
 clien.net##div#hongboInfoList
 clien.net##div#naverAd
 clien.net##div.footer_ad

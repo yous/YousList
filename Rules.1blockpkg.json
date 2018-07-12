@@ -8647,6 +8647,21 @@
                 }
             },
             {
+                "id": "2d3402d6-8a88-4c58-975e-253f41096588",
+                "name": "ciokorea.com/_common/banner/blank_black.php$domain=ciokorea.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ciokorea\\.com/_common/banner/blank_black\\.php",
+                        "if-domain": [
+                            "ciokorea.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a2008e12-a083-425d-982b-a1f72f06fe67",
                 "name": "cjmooter.xcache.kinxcdn.com/script/",
                 "content": {
@@ -26455,6 +26470,19 @@
                 }
             },
             {
+                "id": "2176c96e-d5e2-4a47-b947-37b9e6886127",
+                "name": "ciokorea.com##div#banner_right_wing",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ciokorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_right_wing"
+                    }
+                }
+            },
+            {
                 "id": "340338c8-9b11-41e2-8c56-582927a96a57",
                 "name": "ciokorea.com##div#banner_top",
                 "content": {
@@ -26464,6 +26492,110 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#banner_top"
+                    }
+                }
+            },
+            {
+                "id": "0c9a44aa-86d8-4dd1-a4fb-309c582c17cc",
+                "name": "ciokorea.com##div#dell_emc_modal",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ciokorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#dell_emc_modal"
+                    }
+                }
+            },
+            {
+                "id": "d4c2c394-72a0-4fab-94cc-16ae8d4c7108",
+                "name": "ciokorea.com##div#mobile_recommand_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ciokorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mobile_recommand_banner"
+                    }
+                }
+            },
+            {
+                "id": "dd59972d-c2c0-4869-8fb4-2283941b6c8c",
+                "name": "ciokorea.com##div#post_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ciokorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#post_ad"
+                    }
+                }
+            },
+            {
+                "id": "40fe4e76-3ec8-4375-aa80-abe158944e43",
+                "name": "ciokorea.com##div#techlibrary_left_slide_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ciokorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#techlibrary_left_slide_banner"
+                    }
+                }
+            },
+            {
+                "id": "ccf1bbe9-0090-4493-86a0-8afb96d92a00",
+                "name": "ciokorea.com##div#youtube_div",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ciokorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#youtube_div"
+                    }
+                }
+            },
+            {
+                "id": "c69b39df-a57b-45ad-9277-badf505a0001",
+                "name": "ciokorea.com##div.footBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ciokorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.footBanner"
+                    }
+                }
+            },
+            {
+                "id": "6d028ab5-a1c2-4f03-a4cf-9f2505cbff53",
+                "name": "ciokorea.com##div.nano_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ciokorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.nano_banner"
+                    }
+                }
+            },
+            {
+                "id": "05b5a1b1-e706-45de-be39-919afae7b4c2",
+                "name": "ciokorea.com##iframe[src^=\"/_common/banner/blank_black.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ciokorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/_common/banner/blank_black.php\"]"
                     }
                 }
             },
