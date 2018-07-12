@@ -395,6 +395,19 @@
                 }
             },
             {
+                "id": "fa1b3a42-0325-4eca-8866-6101033800cd",
+                "name": "##div.trc_rbox_container div.trc-content-sponsored.trc_rbox",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.trc_rbox_container div.trc-content-sponsored.trc_rbox"
+                    }
+                }
+            },
+            {
                 "id": "93439e17-ec59-4e3b-a51f-3aa173410088",
                 "name": "##div.trc_rbox_container div.trc_rbox_outer div.syndicatedItem",
                 "content": {
@@ -52566,41 +52579,28 @@
                 }
             },
             {
-                "id": "8422298b-a9fd-48ff-946d-5c5b5141b99a",
-                "name": "ppss.kr##div.hank-fixed-banner",
+                "id": "6b906459-fbc5-4212-82b4-d66558135b28",
+                "name": "ppss.kr##div.wing_banner",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ppss\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.hank-fixed-banner"
+                        "selector": "div.wing_banner"
                     }
                 }
             },
             {
-                "id": "d8d4195d-afcb-404b-940e-b15cc65f54b2",
-                "name": "ppss.kr##section#text-11",
+                "id": "53889456-32ea-48b1-a493-8b366e2088f7",
+                "name": "ppss.kr##section#custom_html-2",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ppss\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "section#text-11"
-                    }
-                }
-            },
-            {
-                "id": "d0fd3282-6f78-4970-b903-f1e713815741",
-                "name": "ppss.kr##section#text-6",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ppss\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "section#text-6"
+                        "selector": "section#custom_html-2"
                     }
                 }
             },
