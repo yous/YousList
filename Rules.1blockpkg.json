@@ -7159,6 +7159,21 @@
                 }
             },
             {
+                "id": "d80ccb62-01c2-40b4-9b94-4724c5e55ca6",
+                "name": "bizhankook.com/common/js/common_banner.js$domain=bizhankook.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bizhankook\\.com/common/js/common_banner\\.js",
+                        "if-domain": [
+                            "bizhankook.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ba14578b-1904-4a66-a2d4-741bb66444fa",
                 "name": "bizon.kr/bar/adon_banner.js",
                 "content": {
@@ -25351,6 +25366,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.article_bottom_ad"
+                    }
+                }
+            },
+            {
+                "id": "c63666fe-c0dd-4cd8-accb-0d0f331cfcee",
+                "name": "bizhankook.com##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bizhankook\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
+                    }
+                }
+            },
+            {
+                "id": "a9968fc9-50a6-4c80-a066-ac6647a58187",
+                "name": "bizhankook.com##div[class^=\"pcaddNew\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bizhankook\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"pcaddNew\"]"
                     }
                 }
             },
