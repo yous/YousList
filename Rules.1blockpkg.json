@@ -19161,6 +19161,21 @@
                 }
             },
             {
+                "id": "780ada1e-93ab-4406-8981-6795e3ab74c7",
+                "name": "yonhapnews.co.kr/bithumb/banner.html$domain=yonhapnews.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr/bithumb/banner\\.html",
+                        "if-domain": [
+                            "yonhapnews.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "26c7b52b-75a0-4104-89ee-f87908251a64",
                 "name": "youtube.com/get_midroll_info",
                 "content": {
@@ -62728,6 +62743,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"floating-banner\"]"
+                    }
+                }
+            },
+            {
+                "id": "04979475-659c-4694-ade0-4f456c53f97a",
+                "name": "yonhapnews.co.kr##iframe.ifm-ad-bithumb",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe.ifm-ad-bithumb"
+                    }
+                }
+            },
+            {
+                "id": "305f85a8-4baf-420f-82ea-aa6ed8b2b6e6",
+                "name": "yonhapnews.co.kr##iframe[src^=\"http://www.yonhapnews.co.kr/bithumb/banner.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.yonhapnews.co.kr/bithumb/banner.html\"]"
                     }
                 }
             },

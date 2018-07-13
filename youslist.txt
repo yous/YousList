@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: XhaQBwVjs3yLDmblaXkfVA
-! Version: 20180712
+! Checksum: cz1zWs/mfB4+sgt+VYsmTw
+! Version: 20180713
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -1524,6 +1524,7 @@
 ||yads.c.yimg.jp/yads.js^
 ||yads.yahoo.co.jp/tag^
 ||yads.yjtag.yahoo.co.jp/tag^
+||yonhapnews.co.kr/bithumb/banner.html^$domain=yonhapnews.co.kr
 ||youtube.com/get_midroll_info^
 ||youtube.com/get_video_info?*el=adunit
 ||ytn.co.kr/img/ad/
@@ -4398,6 +4399,8 @@ yonhapnews.co.kr##div[class^="contents-box ad-wrap"]
 yonhapnews.co.kr##div[class^="contents-box banner-box"]
 yonhapnews.co.kr##div[class^="contents-box list-style02 banner-box"]
 yonhapnews.co.kr##div[class^="floating-banner"]
+yonhapnews.co.kr##iframe.ifm-ad-bithumb
+yonhapnews.co.kr##iframe[src^="http://www.yonhapnews.co.kr/bithumb/banner.html"]
 yonhapnews.co.kr##li.ads-main-juyo01
 youtube.com##div#feed-pyv-container
 youtube.com##div#footer-ads
