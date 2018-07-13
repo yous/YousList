@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: SSBk3ozHqdmlwFixFaqcyA
+! Checksum: yKzrJ8HzeOrWB0BeFozf1Q
 ! Version: 20180713
 
 ! Workaround for BlockAdBlock
@@ -1154,7 +1154,7 @@
 ||nanumnews.com/data/nanumnews_com/upload/bn_2012/mireco.gif^
 ||nanumnews.com/news_skin/nanumnews_com/main/nanum_ad_*.html^
 ||nate.com/main/srv/shop_11st/
-||networkad.nate.com/nate/mobile_news.html^$domain=m.news.nate.com
+||networkad.nate.com/nate/mobile_news.html^$domain=m.comm.news.nate.com|m.news.nate.com
 ||networkad.nate.com/nate/mobile_pann.html^$domain=m.pann.nate.com
 ||new.jshopbox.com/sbox/box/
 ||news.chosun.com/chosun/chosunad.html^
@@ -2697,6 +2697,9 @@ m.comic.naver.com##div#adPostArea
 m.comic.naver.com##div.ads_sc
 m.comic.naver.com##div.band_banner.v2
 m.comic.naver.com##li.ads_sc
+m.comm.news.nate.com##div.adtive
+m.comm.news.nate.com##iframe[name="adtive"]
+m.comm.news.nate.com##iframe[src^="http://networkad.nate.com/nate/mobile_news.html"]
 m.dailian.co.kr##body>div[data-type="scroll"][style="position:fixed;width:100%;height:80px;bottom:0;left:0;z-index:999;"]
 m.dailian.co.kr##body>div[style="height:80px;"]
 m.dailian.co.kr##div#newsct_body>div[style="width:100%;text-align:center;padding-left:10px;"]

@@ -14492,12 +14492,13 @@
                 }
             },
             {
-                "id": "12969652-4898-465a-ba81-1d3085a27749",
-                "name": "networkad.nate.com/nate/mobile_news.html$domain=m.news.nate.com",
+                "id": "2796783f-1faf-4d04-90a0-42d0e72388b3",
+                "name": "networkad.nate.com/nate/mobile_news.html$domain=m.comm.news.nate.com|m.news.nate.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?networkad\\.nate\\.com/nate/mobile_news\\.html",
                         "if-domain": [
+                            "m.comm.news.nate.com",
                             "m.news.nate.com"
                         ]
                     },
@@ -38446,6 +38447,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "li.ads_sc"
+                    }
+                }
+            },
+            {
+                "id": "54aef1b6-e492-4b8f-ae32-2f6409dbca2f",
+                "name": "m.comm.news.nate.com##div.adtive",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.comm\\.news\\.nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adtive"
+                    }
+                }
+            },
+            {
+                "id": "64776f94-786c-4f5e-b0bc-b9146931a77b",
+                "name": "m.comm.news.nate.com##iframe[name=\"adtive\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.comm\\.news\\.nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[name=\"adtive\"]"
+                    }
+                }
+            },
+            {
+                "id": "74df8560-0558-4b86-a800-4dc7ba86600a",
+                "name": "m.comm.news.nate.com##iframe[src^=\"http://networkad.nate.com/nate/mobile_news.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.comm\\.news\\.nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://networkad.nate.com/nate/mobile_news.html\"]"
                     }
                 }
             },
