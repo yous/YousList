@@ -60603,6 +60603,32 @@
                 }
             },
             {
+                "id": "245c2025-2009-4817-886c-f6e2461ca5a5",
+                "name": "usatoday.com##div[id^=\"ad-position-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?usatoday\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"ad-position-\"]"
+                    }
+                }
+            },
+            {
+                "id": "c50eb23c-797a-4c23-acf6-4cff449701e4",
+                "name": "usatoday.com##partner-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?usatoday\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "partner-banner"
+                    }
+                }
+            },
+            {
                 "id": "87b6f9fd-e225-44f4-bf99-47732fb96307",
                 "name": "ustream.tv##div#LeaderboardWrapper",
                 "content": {
