@@ -3099,6 +3099,19 @@
                 }
             },
             {
+                "id": "1c6062ec-039a-4a12-9bdb-e45f853e9792",
+                "name": "##iframe[src^=\"https://ad.luxnet.ua/dfp/spot.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://ad.luxnet.ua/dfp/spot.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "cb8c6752-3acc-4c31-b63c-198a28f86712",
                 "name": "##iframe[src^=\"https://ads.adjust-net.jp/adserver/ads\"]",
                 "content": {
@@ -3791,6 +3804,54 @@
                 }
             },
             {
+                "id": "e47e7f95-e407-4780-af45-f5775b695441",
+                "name": "a4p.adpartner.pro/htmlunit/media/adpartner-html-ad.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?a4p\\.adpartner\\.pro/htmlunit/media/adpartner-html-ad\\.min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0478be14-a3f2-417c-88b7-7ef94470c6ef",
+                "name": "a4p.adpartner.pro/htmlunit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?a4p\\.adpartner\\.pro/htmlunit"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b00b78d9-6c7f-4f90-b8b0-2db133d2a237",
+                "name": "a4p.adpartner.pro/vunit/media/adpartner-content-ad.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?a4p\\.adpartner\\.pro/vunit/media/adpartner-content-ad\\.min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "39a28639-5969-47d4-800f-07bb4d7502ee",
+                "name": "a4p.adpartner.pro/vunit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?a4p\\.adpartner\\.pro/vunit"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "e2b8d9db-3fea-4987-8f8e-ecf76f70c7c6",
                 "name": "a870.casalemedia.com/pcreative",
                 "content": {
@@ -4456,6 +4517,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.linkprice\\.com/stlink\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "dcfe390a-758b-45c7-a20b-02c07084b625",
+                "name": "ad.luxnet.ua/dfp/spot.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.luxnet\\.ua/dfp/spot\\.html"
                     },
                     "action": {
                         "type": "block"
@@ -11325,6 +11398,18 @@
                 }
             },
             {
+                "id": "245167d4-efdc-4c86-8849-e01fde21533d",
+                "name": "i.mediatraffic.com.ua/js/uho/mt20_3.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?i\\.mediatraffic\\.com\\.ua/js/uho/mt20_3\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "646eec9c-973a-4465-9b95-221a104e4a76",
                 "name": "i.yimg.jp/images/listing/tool/yads/uadf/yads_vimps-*.js",
                 "content": {
@@ -12316,11 +12401,11 @@
                 }
             },
             {
-                "id": "5a21f4db-2915-4464-9ae1-60693babfc87",
-                "name": "js-goods.redtram.com/*/*/ticker_*.js",
+                "id": "afeca088-0cf7-474a-9343-0b4b9d799f50",
+                "name": "js-*.redtram.com/*/*/ticker_*.js",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?js-goods\\.redtram\\.com/.*/.*/ticker_.*\\.js"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?js-.*\\.redtram\\.com/.*/.*/ticker_.*\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -12328,11 +12413,11 @@
                 }
             },
             {
-                "id": "cbb88fe0-f908-477b-80bd-7cb6700333ec",
-                "name": "js-goods.redtram.com/ticker_*.js",
+                "id": "d773dcd8-9196-487a-9d05-e6cb3e7e3fa8",
+                "name": "js-*.redtram.com/ticker_*.js",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?js-goods\\.redtram\\.com/ticker_.*\\.js"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?js-.*\\.redtram\\.com/ticker_.*\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -22093,6 +22178,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "td#mw_basic>table:nth-of-type(2)>tbody>tr>td>table[width=\"100%\"]>tbody>tr>td>li"
+                    }
+                }
+            },
+            {
+                "id": "b4cb439a-14b0-416d-8042-7782796a8fd5",
+                "name": "24tv.ua##div.b_reklama",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?24tv\\.ua"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.b_reklama"
+                    }
+                }
+            },
+            {
+                "id": "be7b7f25-0596-45f9-95b8-531c76eb6d9f",
+                "name": "24tv.ua##div.b_reklama_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?24tv\\.ua"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.b_reklama_top"
                     }
                 }
             },
