@@ -8,5 +8,8 @@ python "${DIR}/bin/validate_checksum.py" "${DIR}/youslist.txt"
 echo "python bin/check_sorted.py youslist.txt"
 python "${DIR}/bin/check_sorted.py" "${DIR}/youslist.txt"
 
-echo "python bin/generate_rules.py youslist.txt > /dev/null"
-python "${DIR}/bin/generate_rules.py" "${DIR}/youslist.txt" > /dev/null
+echo "python bin/generate_rules.py youslist.txt >/dev/null"
+python "${DIR}/bin/generate_rules.py" "${DIR}/youslist.txt" >/dev/null
+
+echo "cmp Rules.1blockpkg.json <(bin/generate_rules.py youslist.txt)"
+cmp "${DIR}/Rules.1blockpkg.json" <(python "${DIR}/bin/generate_rules.py" "${DIR}/youslist.txt")
