@@ -31596,6 +31596,19 @@
                 }
             },
             {
+                "id": "0ac410b2-c598-4990-9880-09aa9e21ba21",
+                "name": "g-enews.com##div.detailCont>div[style=\"float:right;margin:0px 0px 10px 10px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?g-enews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.detailCont>div[style=\"float:right;margin:0px 0px 10px 10px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "5aaee189-568b-411d-96d6-3f47e20605f4",
                 "name": "g-enews.com##div.lbanner",
                 "content": {
