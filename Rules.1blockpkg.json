@@ -22639,6 +22639,19 @@
                 }
             },
             {
+                "id": "49b4cd36-65c9-4a32-9d4d-1063db998a07",
+                "name": "androidcentral.com##div.adunit-wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?androidcentral\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adunit-wrap"
+                    }
+                }
+            },
+            {
                 "id": "d8eab632-e08f-4c28-974d-12f8e83235a4",
                 "name": "androidpub.com##div.dLink",
                 "content": {
