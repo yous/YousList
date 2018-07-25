@@ -2,10 +2,10 @@
 set -e
 DIR="$(cd "$(dirname "$0")/.." && pwd)"
 
-"${DIR}/bin/test"
-
 echo "python bin/generate_rules.py youslist.txt > Rules.1blockpkg.json"
 python "${DIR}/bin/generate_rules.py" "${DIR}/youslist.txt" > "${DIR}/Rules.1blockpkg.json"
 
 echo "python bin/minify_pkg.py"
 python "${DIR}/bin/minify_pkg.py"
+
+"${DIR}/bin/test"
