@@ -96,6 +96,19 @@
                 }
             },
             {
+                "id": "77b73e40-c534-4ca0-b602-4ad631fea5e4",
+                "name": "##div#livereAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#livereAd"
+                    }
+                }
+            },
+            {
                 "id": "fc016519-7c18-463d-86b8-576e4edc2d99",
                 "name": "##div#livere_ad",
                 "content": {
@@ -3281,15 +3294,28 @@
                 }
             },
             {
-                "id": "1f9abc67-8ea0-444d-83a7-7865fdc6aec7",
-                "name": "##ins.adsbygoogle:not([data-matched-content-ui-type])",
+                "id": "b5c98d95-9fbe-4212-b8e9-09800054abbe",
+                "name": "##ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])",
                 "content": {
                     "trigger": {
                         "url-filter": ".*"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "ins.adsbygoogle:not([data-matched-content-ui-type])"
+                        "selector": "ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])"
+                    }
+                }
+            },
+            {
+                "id": "d547ff95-8d5c-498d-9fbf-1b82a19d482c",
+                "name": "##ins.adsbygoogle[data-anchor-status]:not([data-matched-content-ui-type])",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins.adsbygoogle[data-anchor-status]:not([data-matched-content-ui-type])"
                     }
                 }
             },
@@ -19240,6 +19266,21 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yads\\.yjtag\\.yahoo\\.co\\.jp/tag"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "193622a2-b3df-4d3f-a1e9-919a4796dd23",
+                "name": "yeongnam.com/ad/$domain=m.yeongnam.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yeongnam\\.com/ad/",
+                        "if-domain": [
+                            "m.yeongnam.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -44763,6 +44804,32 @@
                 }
             },
             {
+                "id": "4b9f824e-85a7-4671-8d69-b9664414b40c",
+                "name": "m.yeongnam.com##form[name=\"listFrm\"]>center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.yeongnam\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "form[name=\"listFrm\"]>center"
+                    }
+                }
+            },
+            {
+                "id": "4fbb0c21-0024-4eef-af03-9e38084487b6",
+                "name": "m.yeongnam.com##span.c_art1>table[style=\"border:1px solid #dfdfdf; margin-bottom:10px; margin-right:10px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.yeongnam\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span.c_art1>table[style=\"border:1px solid #dfdfdf; margin-bottom:10px; margin-right:10px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "802e1611-658c-4d94-8b83-2cd0a8dbe0fa",
                 "name": "m.yna.co.kr##aside.amp-ad-container",
                 "content": {
@@ -49270,19 +49337,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "ul.news_right_ad"
-                    }
-                }
-            },
-            {
-                "id": "e0354d35-5eb2-48cb-98dd-e6d8d962864f",
-                "name": "news.mk.co.kr##div#livereAd",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.mk\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#livereAd"
                     }
                 }
             },
