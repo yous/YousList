@@ -27,7 +27,7 @@ Install the browser plugin of uBlock Origin and enable 'KOR: YousList' by checki
 
 ### 1Blocker
 
-Open [Rules.1blockpkg (v20180716)](https://cdn.rawgit.com/yous/YousList/v20180716/Rules.1blockpkg)
+Open [Rules.1blockpkg (v20180726)](https://cdn.rawgit.com/yous/YousList/v20180726/Rules.1blockpkg)
 and select 1Blocker from the "Open In" menu. To update to the latest version,
 you have to remove previous rules and then import the new rules.
 
