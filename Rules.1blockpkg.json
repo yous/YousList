@@ -47885,6 +47885,19 @@
                 }
             },
             {
+                "id": "4a40545c-a052-46af-b3ec-65f4d8194ffe",
+                "name": "naver.com##div#veta_time2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#veta_time2"
+                    }
+                }
+            },
+            {
                 "id": "1e580837-2fb8-4c2c-8497-e32615a5bee5",
                 "name": "naver.com##div#veta_top",
                 "content": {
@@ -47894,6 +47907,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#veta_top"
+                    }
+                }
+            },
+            {
+                "id": "433e2daa-3c6e-4b5b-87ff-149a410ecba9",
+                "name": "naver.com##div.section_rbn",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.section_rbn"
                     }
                 }
             },
