@@ -42373,6 +42373,19 @@
                 }
             },
             {
+                "id": "12919fb1-3f4d-4813-a18f-b3db7f965f2b",
+                "name": "m.naver.com##div[data-da]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-da]"
+                    }
+                }
+            },
+            {
                 "id": "f7e2ad70-37f7-4639-91a9-b2c26a8bad96",
                 "name": "m.news.nate.com##div.adbox",
                 "content": {
