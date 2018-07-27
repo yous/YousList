@@ -1266,6 +1266,19 @@
                 }
             },
             {
+                "id": "b96a5c32-a28f-454e-8d4c-f772219b3288",
+                "name": "##iframe[src^=\"http://adbiz2.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adbiz2.co.kr/\"]"
+                    }
+                }
+            },
+            {
                 "id": "270ab0ee-0597-47df-b133-166fd4caeae4",
                 "name": "##iframe[src^=\"http://adddn.adotsolution.com/contents/html5/\"][src*=\"/adbay_inline_sdk/default.html\"]",
                 "content": {
@@ -4939,6 +4952,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adbiz\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c168d723-48e5-44b3-8a10-0398e394dcee",
+                "name": "adbiz2.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adbiz2\\.co\\.kr"
                     },
                     "action": {
                         "type": "block"
