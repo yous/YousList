@@ -46644,6 +46644,19 @@
                 }
             },
             {
+                "id": "b3de9e70-3bb4-44c0-93ee-69e82a49ffc8",
+                "name": "mnews.joins.com##div#admaru_tag",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mnews\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#admaru_tag"
+                    }
+                }
+            },
+            {
                 "id": "97a96fe3-5614-4ad5-9641-ff54ccf7cb51",
                 "name": "mnews.joins.com##div.ad",
                 "content": {
