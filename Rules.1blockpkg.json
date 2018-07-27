@@ -9892,6 +9892,21 @@
                 }
             },
             {
+                "id": "6226d03a-51bb-4ca6-b1e2-6adee16dfa03",
+                "name": "docdocdoc.co.kr/banner/rollbanner_*.html$domain=docdocdoc.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?docdocdoc\\.co\\.kr/banner/rollbanner_.*\\.html",
+                        "if-domain": [
+                            "docdocdoc.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a23ad169-eb61-4a9d-a15b-7f6459e566df",
                 "name": "dogjoa.com/img/new/$domain=dogjoa.com",
                 "content": {
@@ -28926,6 +28941,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.boardAD01"
+                    }
+                }
+            },
+            {
+                "id": "e29da1e8-ed0b-40df-8a4c-75e50cc866f1",
+                "name": "docdocdoc.co.kr##iframe[src^=\"/banner/rollbanner_\"][src$=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?docdocdoc\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/banner/rollbanner_\"][src$=\".html\"]"
                     }
                 }
             },
