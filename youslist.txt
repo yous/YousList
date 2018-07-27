@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 1C3gdBVVOXZ+HQJVda7SVw
+! Checksum: KPCSa8xkd7C86VdmGs1wjg
 ! Version: 20180727
 
 ! Workaround for BlockAdBlock
@@ -375,6 +375,7 @@
 ||ad.ilbe.com/files2/ad/
 ||ad.ilikesponsorad.co.kr^
 ||ad.ilikesponsorad.com^
+||ad.imp.joins.com/html/$domain=news.joins.com
 ||ad.ingfac.co.kr^
 ||ad.kmib.co.kr^
 ||ad.koreadaily.com^
@@ -673,6 +674,8 @@
 ||care-health.co.kr^
 ||cas.criteo.com/delivery/ajs.php^
 ||cast.imp.joins.com/bid/$domain=news.jtbc.joins.com
+||cast.imp.joins.com/body/$domain=news.joins.com
+||cast.imp.joins.com/persona.js^$domain=news.joins.com
 ||castbox.shopping.naver.com/index.nhn^
 ||cdn-aitg.widerplanet.com/js/adr.js^
 ||cdn-fluct.sh.adingo.jp/f.js^
@@ -3495,6 +3498,8 @@ news.joins.com##div.ad
 news.joins.com##div.advertising
 news.joins.com##div.shpping_life
 news.joins.com##div[data-widget-type="Ad"]
+news.joins.com##div[id^="imp_ad_"]
+news.joins.com##iframe[src^="//ad.imp.joins.com/html/"]
 news.jtbc.joins.com##div.ad_banner_250x250
 news.jtbc.joins.com##div.ad_v2
 news.jtbc.joins.com##div.area2>div.secondary

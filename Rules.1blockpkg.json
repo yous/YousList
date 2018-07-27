@@ -4515,6 +4515,21 @@
                 }
             },
             {
+                "id": "2c190fe2-1e21-4525-b12f-0462cc00ce33",
+                "name": "ad.imp.joins.com/html/$domain=news.joins.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.imp\\.joins\\.com/html/",
+                        "if-domain": [
+                            "news.joins.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "db58a893-2070-4c24-9ee3-5a736d090207",
                 "name": "ad.ingfac.co.kr",
                 "content": {
@@ -8264,6 +8279,36 @@
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cast\\.imp\\.joins\\.com/bid/",
                         "if-domain": [
                             "news.jtbc.joins.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "76d93ca4-c060-4441-8609-7c9658dca8c2",
+                "name": "cast.imp.joins.com/body/$domain=news.joins.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cast\\.imp\\.joins\\.com/body/",
+                        "if-domain": [
+                            "news.joins.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "df4926a2-8043-4c1b-bc0c-d96b20e384fc",
+                "name": "cast.imp.joins.com/persona.js$domain=news.joins.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cast\\.imp\\.joins\\.com/persona\\.js",
+                        "if-domain": [
+                            "news.joins.com"
                         ]
                     },
                     "action": {
@@ -48961,6 +49006,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[data-widget-type=\"Ad\"]"
+                    }
+                }
+            },
+            {
+                "id": "0b90b8dd-b86d-462d-8898-00060a48880d",
+                "name": "news.joins.com##div[id^=\"imp_ad_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"imp_ad_\"]"
+                    }
+                }
+            },
+            {
+                "id": "53053335-4b0c-4419-b5f5-5914b66d00e1",
+                "name": "news.joins.com##iframe[src^=\"//ad.imp.joins.com/html/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//ad.imp.joins.com/html/\"]"
                     }
                 }
             },
