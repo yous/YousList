@@ -915,6 +915,19 @@
                 }
             },
             {
+                "id": "930827fd-c88d-470f-9a63-6694739923f9",
+                "name": "##iframe[src^=\"//www.dianomi.com/smartads.epl\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//www.dianomi.com/smartads.epl\"]"
+                    }
+                }
+            },
+            {
                 "id": "6a05be38-f433-4e12-8f75-06adbe9374be",
                 "name": "##iframe[src^=\"//x.jd.com/exsites\"]",
                 "content": {
@@ -9747,6 +9760,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dgate\\..*/hciw\\.aspx"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "dad618bc-e3c9-42f9-a43e-349745c61b7d",
+                "name": "dianomi.com/smartads.epl",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dianomi\\.com/smartads\\.epl"
                     },
                     "action": {
                         "type": "block"
@@ -26373,6 +26398,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[data-ad-container]"
+                    }
+                }
+            },
+            {
+                "id": "fdc2bc33-c8c4-4e51-b863-c8c7718646aa",
+                "name": "businessinsider.com##section.dianomi-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?businessinsider\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.dianomi-ad"
                     }
                 }
             },
