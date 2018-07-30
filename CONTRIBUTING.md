@@ -22,5 +22,5 @@
   If you're using Python older than or equal to 2.6, than you should run `pip install -r requirements26.txt` too.
 - After updating `Rules.1blockpkg.json`, update `Rules.1blockpkg` by running `./bin/minify_pkg.py`.
 - To update `Rules.1blockpkg.json` with the content of `Rules.1blockpkg`, run `./bin/prettify_pkg.py`.
-- You can use `bin/test` to test `youslist.txt`,
-  `bin/release` to test `youslist.txt` and then build `Rules.1blockpkg.json` and `Rules.1blockpkg`.
+- Test `youslist.txt` and `Rules.1blockpkg.json` with `bin/test`.
+- Build `Rules.1blockpkg.json` and `Rules.1blockpkg` from `youslist.txt` with `bin/release`.
