@@ -26480,6 +26480,32 @@
                 }
             },
             {
+                "id": "422de4a5-7573-4fa4-a445-3b379a52bfd9",
+                "name": "buzzfeed.com##div.js-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?buzzfeed\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.js-ad"
+                    }
+                }
+            },
+            {
+                "id": "35cbdbc7-0275-4fff-9e6b-f21cab9e99f1",
+                "name": "buzzfeed.com##li.js-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?buzzfeed\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.js-ad"
+                    }
+                }
+            },
+            {
                 "id": "004717e0-f0ac-467b-8e0b-358a5f7f49d6",
                 "name": "cafe.daum.net##div#daum-ad-root",
                 "content": {
