@@ -57136,6 +57136,32 @@
                 }
             },
             {
+                "id": "b3418b72-52aa-4cf8-b4a4-fe0ad65427da",
+                "name": "theatlantic.com##div.c-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?theatlantic\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.c-ad"
+                    }
+                }
+            },
+            {
+                "id": "817e0e43-1a59-475c-95e8-b6d20026130f",
+                "name": "theatlantic.com##gpt-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?theatlantic\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "gpt-ad"
+                    }
+                }
+            },
+            {
                 "id": "3437d66a-2d0b-479b-80e6-ffdabe36bdda",
                 "name": "theblockchain.kr##div.commonBanner2",
                 "content": {
