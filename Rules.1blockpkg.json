@@ -47542,6 +47542,19 @@
                 }
             },
             {
+                "id": "2fbec24b-0935-4bba-9d70-a0e1b140bdd0",
+                "name": "msn.com##div[data-nativead=\"1\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?msn\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-nativead=\"1\"]"
+                    }
+                }
+            },
+            {
                 "id": "a14ccb82-f5bc-4186-93ee-baa67583f243",
                 "name": "mt.co.kr##div#art_ad_top1",
                 "content": {
