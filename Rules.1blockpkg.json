@@ -63480,6 +63480,19 @@
                 }
             },
             {
+                "id": "a2d58646-8010-4936-bca4-6d3681557897",
+                "name": "yonhapnews.co.kr##div.fixed-bnr02",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yonhapnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.fixed-bnr02"
+                    }
+                }
+            },
+            {
                 "id": "13f32b30-278f-497b-9901-863c384cc620",
                 "name": "yonhapnews.co.kr##div.goolge-banner",
                 "content": {
