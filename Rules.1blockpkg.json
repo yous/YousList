@@ -37441,6 +37441,19 @@
                 }
             },
             {
+                "id": "71e0be56-c3a3-488f-b2de-fd286ebd6e4e",
+                "name": "kotaku.com##div.ad-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kotaku\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-wrapper"
+                    }
+                }
+            },
+            {
                 "id": "a4386502-3567-4421-9f3b-5de4abb2ee0c",
                 "name": "kr.celeb.yahoo.com##div#leftClickButton",
                 "content": {
