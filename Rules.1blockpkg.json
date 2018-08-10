@@ -2163,6 +2163,19 @@
                 }
             },
             {
+                "id": "48a346bf-a54f-47a4-8c6d-3dd5eae50476",
+                "name": "##iframe[src^=\"http://image.lottorich.co.kr/lottorich/partnership/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://image.lottorich.co.kr/lottorich/partnership/\"]"
+                    }
+                }
+            },
+            {
                 "id": "409420e4-a6a9-4fc6-b15f-0a7af8321237",
                 "name": "##iframe[src^=\"http://image.lsinfo.co.kr/lottorich/partnership/\"]",
                 "content": {
@@ -11848,6 +11861,18 @@
                         "if-domain": [
                             "news.donga.com"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6ce2600c-cbd5-4fa6-8818-a6d948902ffc",
+                "name": "image.lottorich.co.kr/lottorich/partnership/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?image\\.lottorich\\.co\\.kr/lottorich/partnership/"
                     },
                     "action": {
                         "type": "block"
