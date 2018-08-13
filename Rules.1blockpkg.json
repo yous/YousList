@@ -62778,6 +62778,19 @@
                 }
             },
             {
+                "id": "fd1339e9-760a-4e71-9d2c-169e124ed553",
+                "name": "wowhead.com##div.banner-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wowhead\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-ad"
+                    }
+                }
+            },
+            {
                 "id": "27ad81f4-7d57-479e-8015-97e89bd2fa82",
                 "name": "wowtv.co.kr##div#absBannerRight",
                 "content": {
