@@ -8854,12 +8854,13 @@
             },
             {
                 "id": "362b2d4b-555b-4587-b2ef-7e087730b35e",
-                "name": "cdnprism.pandora.tv/_adv_img/prism_ad/$domain=~news1.kr",
+                "name": "cdnprism.pandora.tv/_adv_img/prism_ad/$domain=~news1.kr|~ytn.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdnprism\\.pandora\\.tv/_adv_img/prism_ad/",
                         "unless-domain": [
-                            "news1.kr"
+                            "news1.kr",
+                            "ytn.co.kr"
                         ]
                     },
                     "action": {
