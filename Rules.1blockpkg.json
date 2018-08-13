@@ -64039,6 +64039,19 @@
                 }
             },
             {
+                "id": "4b024d99-8ffe-47b4-aac7-cf1a9d7a3901",
+                "name": "ytn.co.kr##div.hns_mask_div",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ytn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.hns_mask_div"
+                    }
+                }
+            },
+            {
                 "id": "1e8e9a31-d440-41d3-851b-199194998790",
                 "name": "ytn.co.kr##div[class^=\"ad_zone\"]",
                 "content": {
