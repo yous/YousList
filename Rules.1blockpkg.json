@@ -31738,6 +31738,71 @@
                 }
             },
             {
+                "id": "ac502894-95a8-4e97-afed-ec5baa2c9096",
+                "name": "forbes.com##div.top-ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?forbes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top-ad-container"
+                    }
+                }
+            },
+            {
+                "id": "1200ba1c-a24f-4548-8c76-093a51467957",
+                "name": "forbes.com##div[class^=\"fbs-ad--\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?forbes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"fbs-ad--\"]"
+                    }
+                }
+            },
+            {
+                "id": "dcbdef14-7dd3-4e44-8e52-066f73187afc",
+                "name": "forbes.com##fbs-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?forbes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "fbs-ad"
+                    }
+                }
+            },
+            {
+                "id": "6a948ece-8539-4495-a986-d8376bf28b8b",
+                "name": "forbes.com##fbs-ad-rail",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?forbes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "fbs-ad-rail"
+                    }
+                }
+            },
+            {
+                "id": "60e612bc-73aa-4198-9ee0-5c645f9f9de8",
+                "name": "forbes.com##section.channel--ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?forbes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.channel--ad"
+                    }
+                }
+            },
+            {
                 "id": "551bcb50-bdac-4b1a-8d6b-e4026a9296aa",
                 "name": "fortune.com##div.ad-wrapper",
                 "content": {
