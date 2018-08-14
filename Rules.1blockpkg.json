@@ -9991,6 +9991,36 @@
                 }
             },
             {
+                "id": "0ef5b0aa-57a4-4125-b6c1-b6ec16cc87bb",
+                "name": "dogjoa.com/img/07/$domain=dogjoa.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogjoa\\.com/img/07/",
+                        "if-domain": [
+                            "dogjoa.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a2d58421-33e2-47a1-9d8c-ca18744d210e",
+                "name": "dogjoa.com/img/08/$domain=dogjoa.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogjoa\\.com/img/08/",
+                        "if-domain": [
+                            "dogjoa.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a23ad169-eb61-4a9d-a15b-7f6459e566df",
                 "name": "dogjoa.com/img/new/$domain=dogjoa.com",
                 "content": {
