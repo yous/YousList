@@ -25901,6 +25901,32 @@
                 }
             },
             {
+                "id": "29e5b60d-3edb-47ef-911e-4c87901834cf",
+                "name": "blog.naver.com##div.post_adpost",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?blog\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.post_adpost"
+                    }
+                }
+            },
+            {
+                "id": "a16738ef-3f23-40f9-b3f4-073bcbde5c67",
+                "name": "blog.naver.com##span[id^=\"adPostInjectArea_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?blog\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span[id^=\"adPostInjectArea_\"]"
+                    }
+                }
+            },
+            {
                 "id": "b70cc4be-0b60-4c7a-b34f-37a754f5fe50",
                 "name": "blog.naver.com##td.adpost_con",
                 "content": {
