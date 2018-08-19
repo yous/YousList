@@ -34754,6 +34754,19 @@
                 }
             },
             {
+                "id": "c4df23c9-d694-4170-b001-21efa4582e44",
+                "name": "ilbe.com##div#copy_layer_1>div[style=\"width:100%; text-align:center;margin-top:5px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#copy_layer_1>div[style=\"width:100%; text-align:center;margin-top:5px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "a52b4f88-a235-48c3-b892-815c5429d549",
                 "name": "ilbe.com##div#layer_left",
                 "content": {
@@ -34828,6 +34841,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[id^=\"openXdummy_\"]"
+                    }
+                }
+            },
+            {
+                "id": "9a8f3de6-da25-4e5d-a9c0-f0bc254fc15b",
+                "name": "ilbe.com##div[id^=\"team_csp_ad_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"team_csp_ad_\"]"
                     }
                 }
             },
