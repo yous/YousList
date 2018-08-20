@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: rlp2EeQAp6F2ZVq/95a/xg
+! Checksum: ZOIWyRly9NV75FTQhbRl1g
 ! Version: 20180820
 
 ! Workaround for BlockAdBlock
@@ -1551,6 +1551,7 @@
 ||yads.yahoo.co.jp/tag^
 ||yads.yjtag.yahoo.co.jp/tag^
 ||yeongnam.com/ad/$domain=m.yeongnam.com
+||yepannet.diskn.com/banner/$domain=yepan.net
 ||yonhapnews.co.kr/bithumb/banner.html^$domain=yonhapnews.co.kr
 ||youtube.com/get_midroll_info^
 ||youtube.com/get_video_info?*el=adunit
@@ -4463,6 +4464,8 @@ yahoo.com##div[id^="hl-ad-"]
 yahoo.com##div[id^="mrt-node-"][id$="-Ad"]
 yahoo.com##div[id^="mrt-node-"][id$="-ComboAd"]
 yahoo.com##div[id^="my-ads"]
+yepan.net##div[id^="left_ad_box_"]
+yepan.net##div[id^="pb_tab_banner"]
 yes24.com##div#divYes24SCMEvent
 ygosu.com##body>div[style="position:relative; width: 975px; margin: 0 auto;"]
 ygosu.com##div.ad700

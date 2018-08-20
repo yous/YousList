@@ -19519,6 +19519,21 @@
                 }
             },
             {
+                "id": "f6de56a5-30f7-4c34-a5ce-ac2cc093a092",
+                "name": "yepannet.diskn.com/banner/$domain=yepan.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yepannet\\.diskn\\.com/banner/",
+                        "if-domain": [
+                            "yepan.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "780ada1e-93ab-4406-8981-6795e3ab74c7",
                 "name": "yonhapnews.co.kr/bithumb/banner.html$domain=yonhapnews.co.kr",
                 "content": {
@@ -63621,6 +63636,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[id^=\"my-ads\"]"
+                    }
+                }
+            },
+            {
+                "id": "b0f36e5e-f228-4968-be91-0f374b7fac49",
+                "name": "yepan.net##div[id^=\"left_ad_box_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yepan\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"left_ad_box_\"]"
+                    }
+                }
+            },
+            {
+                "id": "6078c7a4-c52f-469b-9a3e-9d66bb1be1b5",
+                "name": "yepan.net##div[id^=\"pb_tab_banner\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?yepan\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"pb_tab_banner\"]"
                     }
                 }
             },
