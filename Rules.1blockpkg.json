@@ -915,6 +915,19 @@
                 }
             },
             {
+                "id": "8cd63fbd-8e3c-4719-aeb4-a333c7bfa59e",
+                "name": "##iframe[src^=\"//www.bodnara.co.kr/advert/advert.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//www.bodnara.co.kr/advert/advert.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "930827fd-c88d-470f-9a63-6694739923f9",
                 "name": "##iframe[src^=\"//www.dianomi.com/smartads.epl\"]",
                 "content": {
@@ -3303,6 +3316,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"https://syndication.exosrv.com/ads-iframe-display.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "e02871d0-8414-44bc-8ede-e5278457e106",
+                "name": "##iframe[src^=\"https://www.msadsense.com/BannerFrm.asp\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://www.msadsense.com/BannerFrm.asp\"]"
                     }
                 }
             },
@@ -7381,6 +7407,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bnhtml\\.com/invoke\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c6818e4c-e361-4c43-b554-a5077d941b33",
+                "name": "bodnara.co.kr/advert/advert.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bodnara\\.co\\.kr/advert/advert\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -14429,6 +14467,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mrelko\\.com/bnrs/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ebeb79f6-8671-4387-bde6-99ed42de5add",
+                "name": "msadsense.com/BannerFrm.asp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?msadsense\\.com/BannerFrm\\.asp"
                     },
                     "action": {
                         "type": "block"
@@ -36375,6 +36425,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.spareBlock"
+                    }
+                }
+            },
+            {
+                "id": "e3b448f5-8441-48a4-bb2a-5d5986a5b7d9",
+                "name": "kbench.com##iframe[name=\"ifmadver\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kbench\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[name=\"ifmadver\"]"
                     }
                 }
             },

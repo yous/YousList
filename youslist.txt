@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: t5gmgb7/XFnnsQaDepj8Qg
-! Version: 20180819
+! Checksum: 3n8oTZrs8yIwSgXSlu9NSQ
+! Version: 20180820
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -90,6 +90,7 @@
 ##iframe[src^="//ssp.advg.jp/ssp/p/iframe"]
 ##iframe[src^="//tsyndicate.com/iframes2/"][src*=".html"]
 ##iframe[src^="//urldelivery.com/watch."]
+##iframe[src^="//www.bodnara.co.kr/advert/advert.php"]
 ##iframe[src^="//www.dianomi.com/smartads.epl"]
 ##iframe[src^="//x.jd.com/exsites"]
 ##iframe[src^="//y.one.impact-ad.jp/imp"]
@@ -274,6 +275,7 @@
 ##iframe[src^="https://syndication.exdynsrv.com/ads-iframe-display.php"]
 ##iframe[src^="https://syndication.exoclick.com/ads-iframe-display.php"]
 ##iframe[src^="https://syndication.exosrv.com/ads-iframe-display.php"]
+##iframe[src^="https://www.msadsense.com/BannerFrm.asp"]
 ##iframe[src^="https://www.mxttrf.com/ads"]
 ##ins.adsbyadop
 ##ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])
@@ -610,6 +612,7 @@
 ||bizon.kr/bar/adon_banner.js^
 ||bizon.kr/bizon_ad/
 ||bnhtml.com/invoke.js^
+||bodnara.co.kr/advert/advert.php^
 ||bohumlife.edaily.co.kr/iframe_starin.html^
 ||books.chosun.com/common/r_banner/index.html^$domain=books.chosun.com
 ||brightadnetwork.com/a/display.php^
@@ -1147,6 +1150,7 @@
 ||mp3cc.com/api/iframe/in_playlist_2^$domain=mp3cc.com
 ||mp3cc.com/api/iframe/stickyblock^$domain=mp3cc.com
 ||mrelko.com/bnrs/
+||msadsense.com/BannerFrm.asp^
 ||mt.co.kr/ad/
 ||mtag.mman.kr/get_ad.mezzo/
 ||mtag.mman.kr/js.mezzo/
@@ -2549,6 +2553,7 @@ joongang.joins.com##div[data-widget-type="Ad"]
 joongdo.co.kr##div#id_header_R
 joynews.inews24.com##iframe[name^="rollingFrameTop"]
 kat.cr##div.spareBlock
+kbench.com##iframe[name="ifmadver"]
 keybr.com##div.Supporter
 kihoilbo.co.kr##div#ad_network_26
 kin.naver.com##div.broadcast_kin
