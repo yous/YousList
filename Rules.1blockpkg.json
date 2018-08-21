@@ -41239,6 +41239,19 @@
                 }
             },
             {
+                "id": "af56e80f-907c-42f4-95c8-41ff3b98182c",
+                "name": "m.hankookilbo.com##div.ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.hankookilbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container"
+                    }
+                }
+            },
+            {
                 "id": "fa0c5b6d-4acc-4aa0-9262-f91f981ce5f6",
                 "name": "m.hkbs.co.kr##body>div[style=\"height:60px;\"]",
                 "content": {
