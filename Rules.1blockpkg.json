@@ -26822,6 +26822,32 @@
                 }
             },
             {
+                "id": "ec973642-4185-4004-837b-301d84aa5be9",
+                "name": "cdn.ampproject.org##aside.amp-bottom-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.amp-bottom-ad"
+                    }
+                }
+            },
+            {
+                "id": "df5c22d3-5d0d-455d-8a82-6955b22e595c",
+                "name": "cdn.ampproject.org##aside.amp-md-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.amp-md-ad"
+                    }
+                }
+            },
+            {
                 "id": "2233af67-9103-4da0-b75c-57727451ed97",
                 "name": "cdn.ampproject.org##div.advertisement",
                 "content": {
@@ -26844,6 +26870,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.amp_view_ad"
+                    }
+                }
+            },
+            {
+                "id": "4dffa0f7-7fa2-4049-a03c-a7eb8e66284b",
+                "name": "cdn.ampproject.org##div.atc-ad200",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.atc-ad200"
                     }
                 }
             },
