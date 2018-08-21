@@ -49494,6 +49494,19 @@
                 }
             },
             {
+                "id": "e2c72f8e-7a61-4f4c-a8ed-522e92f82774",
+                "name": "news.hankyung.com##div.pushADMiddle",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pushADMiddle"
+                    }
+                }
+            },
+            {
                 "id": "ccf4f66b-7585-414c-9f6f-89c1e06c0d30",
                 "name": "news.inews24.com##div#adcom_right_banner",
                 "content": {
