@@ -3,8 +3,8 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: M055/71jqhGZfQAPK5b/Bg
-! Version: 20180820
+! Checksum: mI/XrlKExUtD/bKiZH4MmA
+! Version: 20180821
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -64,6 +64,7 @@
 ##iframe[id^="google_ads_iframe_"]
 ##iframe[id^="nad_"]
 ##iframe[name="ifrad"]
+##iframe[src*="-d.openx.net/mw/1.0/afr"]
 ##iframe[src*="-d.openx.net/w/1.0/afr"]
 ##iframe[src*="/NetInsight/"]
 ##iframe[src*="/RealMedia/ads/"]
@@ -264,6 +265,7 @@
 ##iframe[src^="http://www.ti-center.co.kr/"]
 ##iframe[src^="http://zone5.adpopcon.com/cgi-bin/PelicanC.dll"]
 ##iframe[src^="https://ad.luxnet.ua/dfp/spot.html"]
+##iframe[src^="https://adbiz3.co.kr/"]
 ##iframe[src^="https://ads.adjust-net.jp/adserver/ads"]
 ##iframe[src^="https://bullseye.backbeatmedia.com/bullseye/adserver/"]
 ##iframe[src^="https://creative.wwwpromoter.com/"]
@@ -283,6 +285,8 @@
 ##ins.daum_ddn_area
 
 ! URL filters
+*-d.openx.net/mw/1.0/afr^
+*-d.openx.net/mw/1.0/jstag^
 *-d.openx.net/w/1.0/acj^
 *-d.openx.net/w/1.0/afr^
 *-d.openx.net/w/1.0/arj^
@@ -418,6 +422,7 @@
 ||ad8.adfarm1.adition.com/s^
 ||adbiz.co.kr^
 ||adbiz2.co.kr^
+||adbiz3.co.kr^
 ||adcdn.goo.ne.jp/images/js/smarttag-oshiete-osgoocon.js^
 ||adclickservice.com^
 ||adcode.rontar.com/rontar2_async.js^
@@ -4214,6 +4219,7 @@ todown.net##div.at-content>div.container>div.row>div.contentArea>div[style="text
 todown.net##div.at-content>div.container>div.row>div.sideArea>div[style="width:100%; height:100;text-align:center; background:#f5f5f5;margin-bottom:5px;"]
 todown.net##div.at-content>div.container>div.row>div.sideArea>div[style="width:100%; height:250px; line-height:280px; text-align:center; background:#f5f5f5;margin-bottom:30px;"]
 todown.net##div.at-content>div.container>div.row>div.sideArea>div[style="width:100%; height:250px; line-height:280px; text-align:center; background:#f5f5f5;margin-bottom:5px;"]
+topstarnews.net##article.article-veiw-body>div.clearfix>center>div[style="width:320px;height:50px;margin:0;padding:0"]
 topstarnews.net##iframe[src^="http://www.topstarnews.net/html/default/html_tpl_mobile/ad/"]
 torrent.mom##a[href^="https://torrent.mom/page/partner_jump"][href$=".php"]
 torrent.mom##a[href^="https://torrent.mom/page/partner_view"][href$=".php"]

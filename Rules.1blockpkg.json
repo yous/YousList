@@ -577,6 +577,19 @@
                 }
             },
             {
+                "id": "2c17491c-7533-48bc-8ded-128a00bf577f",
+                "name": "##iframe[src*=\"-d.openx.net/mw/1.0/afr\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"-d.openx.net/mw/1.0/afr\"]"
+                    }
+                }
+            },
+            {
                 "id": "2fc0c0ff-27d4-4438-a821-c6b7515624b3",
                 "name": "##iframe[src*=\"-d.openx.net/w/1.0/afr\"]",
                 "content": {
@@ -3177,6 +3190,19 @@
                 }
             },
             {
+                "id": "f1d723b4-4205-48bc-a216-0541d728dda4",
+                "name": "##iframe[src^=\"https://adbiz3.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://adbiz3.co.kr/\"]"
+                    }
+                }
+            },
+            {
                 "id": "cb8c6752-3acc-4c31-b63c-198a28f86712",
                 "name": "##iframe[src^=\"https://ads.adjust-net.jp/adserver/ads\"]",
                 "content": {
@@ -3394,6 +3420,30 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "ins.daum_ddn_area"
+                    }
+                }
+            },
+            {
+                "id": "8e3e127b-7ca2-4432-bc88-eba30bb181c3",
+                "name": "*-d.openx.net/mw/1.0/afr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "-d\\.openx\\.net/mw/1\\.0/afr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "668c13c6-7c56-4b84-925b-11dc63229112",
+                "name": "*-d.openx.net/mw/1.0/jstag",
+                "content": {
+                    "trigger": {
+                        "url-filter": "-d\\.openx\\.net/mw/1\\.0/jstag"
+                    },
+                    "action": {
+                        "type": "block"
                     }
                 }
             },
@@ -5031,6 +5081,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adbiz2\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c21b2e28-5fe4-48b4-a6e4-a4317e08f539",
+                "name": "adbiz3.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adbiz3\\.co\\.kr"
                     },
                     "action": {
                         "type": "block"
@@ -58840,6 +58902,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.at-content>div.container>div.row>div.sideArea>div[style=\"width:100%; height:250px; line-height:280px; text-align:center; background:#f5f5f5;margin-bottom:5px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "cb7ce127-6e97-4d83-a097-236f203c8307",
+                "name": "topstarnews.net##article.article-veiw-body>div.clearfix>center>div[style=\"width:320px;height:50px;margin:0;padding:0\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?topstarnews\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "article.article-veiw-body>div.clearfix>center>div[style=\"width:320px;height:50px;margin:0;padding:0\"]"
                     }
                 }
             },
