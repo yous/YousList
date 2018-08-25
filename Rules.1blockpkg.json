@@ -902,6 +902,19 @@
                 }
             },
             {
+                "id": "8c5eabba-94b8-4c50-88de-3590eb5ba3fb",
+                "name": "##iframe[src^=\"//syndication.traffichaus.com/adserve/index.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//syndication.traffichaus.com/adserve/index.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "791b6140-d842-40dc-8abb-9f03cd8d64f7",
                 "name": "##iframe[src^=\"//tsyndicate.com/iframes2/\"][src*=\".html\"]",
                 "content": {
@@ -18385,6 +18398,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?syndication\\.exosrv\\.com/ads-iframe-display\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "52d2c158-0c47-4b09-9a64-c2350ca25b7b",
+                "name": "syndication.traffichaus.com/adserve/index.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?syndication\\.traffichaus\\.com/adserve/index\\.php"
                     },
                     "action": {
                         "type": "block"
