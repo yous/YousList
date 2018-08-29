@@ -11040,6 +11040,21 @@
                 }
             },
             {
+                "id": "591aa472-9a97-4a6b-8f5a-57fcafc7577a",
+                "name": "ftoday.co.kr/bannerpop/$domain=ftoday.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ftoday\\.co\\.kr/bannerpop/",
+                        "if-domain": [
+                            "ftoday.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "3904c658-7107-48e3-bdf7-25d1f11e8a39",
                 "name": "g.ezoic.net/ezosuigeneris.js",
                 "content": {
@@ -32485,6 +32500,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.adCtnt"
+                    }
+                }
+            },
+            {
+                "id": "89414d48-34e7-4986-bce9-6a30c6f1cf3c",
+                "name": "ftoday.co.kr##div.banner_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ftoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_box"
                     }
                 }
             },
