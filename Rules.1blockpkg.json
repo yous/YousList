@@ -29657,6 +29657,32 @@
                 }
             },
             {
+                "id": "61a4f299-da8e-4ead-997e-6e54bfaac443",
+                "name": "dogdrip.net##div.clayerbox-left-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogdrip\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.clayerbox-left-ad"
+                    }
+                }
+            },
+            {
+                "id": "e31f3608-99ef-4358-80e2-cb66bd5e8154",
+                "name": "dogdrip.net##div.clayerbox-right-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogdrip\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.clayerbox-right-ad"
+                    }
+                }
+            },
+            {
                 "id": "11ea38c3-9be2-42a6-9585-bd9ec229de81",
                 "name": "dogjoa.com##div.exo",
                 "content": {
