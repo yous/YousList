@@ -52771,6 +52771,19 @@
                 }
             },
             {
+                "id": "cf542039-219c-4327-8dc1-3eec42d9d8f5",
+                "name": "nytimes.com##div[class^=\"ResponsiveAd-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nytimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"ResponsiveAd-\"]"
+                    }
+                }
+            },
+            {
                 "id": "4bbeb03f-2b9e-461e-8bbf-12cda1b21fca",
                 "name": "nytimes.com##li.ad",
                 "content": {
