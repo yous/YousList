@@ -34351,6 +34351,19 @@
                 }
             },
             {
+                "id": "6d87eb9b-5b05-44a1-8902-d6d49dd0fc53",
+                "name": "healthcarenous.com##div.header-right",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?healthcarenous\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.header-right"
+                    }
+                }
+            },
+            {
                 "id": "4a288633-7827-45a5-bf40-d07084afeb27",
                 "name": "healthmedi.net##div.imagead-taskbar-anchor",
                 "content": {
