@@ -32452,6 +32452,19 @@
                 }
             },
             {
+                "id": "64e4453a-ee0a-4fcc-95aa-9ade8ce830d1",
+                "name": "fox6now.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fox6now\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
                 "id": "5792da26-4fa5-4c98-8ca5-4525eabf5a70",
                 "name": "foxnews.com##div#sponsored-stories",
                 "content": {
