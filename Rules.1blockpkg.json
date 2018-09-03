@@ -1123,6 +1123,19 @@
                 }
             },
             {
+                "id": "7a3cccc0-bd9c-4ddd-8571-a29d3c1ff53d",
+                "name": "##iframe[src^=\"http://ad.idnad.co.kr/ad/iframe/ad_iframe.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ad.idnad.co.kr/ad/iframe/ad_iframe.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "34221740-9385-448a-8478-98d9e551b6ff",
                 "name": "##iframe[src^=\"http://ad.ilikesponsorad.co.kr/\"]",
                 "content": {
@@ -4587,6 +4600,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.idnad\\.co\\.kr/ad/idn\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "63353b8f-0c73-4fb4-9a3c-50e2a02dc43e",
+                "name": "ad.idnad.co.kr/ad/iframe/ad_frame.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.idnad\\.co\\.kr/ad/iframe/ad_frame\\.html"
                     },
                     "action": {
                         "type": "block"
@@ -42191,54 +42216,67 @@
                 }
             },
             {
-                "id": "230acc09-80f0-4d0e-be26-ab713b8ba977",
-                "name": "m.inews24.com##body>div[style=\"background-color:#ebebeb;height:10px;\"]",
+                "id": "10e92fc0-b2b1-4df8-9e2e-3f77802de35a",
+                "name": "m.inews24.com##div#footer_home>div[style=\"height:75px; background-color:#ebebeb;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.inews24\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "body>div[style=\"background-color:#ebebeb;height:10px;\"]"
+                        "selector": "div#footer_home>div[style=\"height:75px; background-color:#ebebeb;\"]"
                     }
                 }
             },
             {
-                "id": "14234c12-cbf6-4536-82cb-8144bfeff1d0",
-                "name": "m.inews24.com##body>div[style=\"height:75px; background-color:#ebebeb;\"]",
+                "id": "69f53554-bcd9-49a6-89b9-30d71622e2b3",
+                "name": "m.inews24.com##div#view_content>div[style=\"clear:right;float:right;width:200px;height:200px;margin:5px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.inews24\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "body>div[style=\"height:75px; background-color:#ebebeb;\"]"
+                        "selector": "div#view_content>div[style=\"clear:right;float:right;width:200px;height:200px;margin:5px;\"]"
                     }
                 }
             },
             {
-                "id": "449dd752-52ee-4259-a13e-d88129282e54",
-                "name": "m.inews24.com##div#inewsM-text>span[style=\"width:1px;height:120px;float:right;background-color:#ffffff;\"]",
+                "id": "18461396-8c5d-404e-be2a-90b5968aa6fa",
+                "name": "m.inews24.com##div#view_content>div[style=\"text-align:center\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.inews24\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#inewsM-text>span[style=\"width:1px;height:120px;float:right;background-color:#ffffff;\"]"
+                        "selector": "div#view_content>div[style=\"text-align:center\"]"
                     }
                 }
             },
             {
-                "id": "4208c60e-68c3-4e9b-9a53-067e21b01c64",
-                "name": "m.inews24.com##div.ad-container",
+                "id": "6611dc51-3549-470b-bc82-6a856dbd5b54",
+                "name": "m.inews24.com##div#view_content>div[style=\"text-align:center;margin:4% 0px 0px 0px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.inews24\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad-container"
+                        "selector": "div#view_content>div[style=\"text-align:center;margin:4% 0px 0px 0px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "8c9c299a-e684-4aa3-947e-3eb2f2aeff95",
+                "name": "m.inews24.com##div#view_content>span[style=\"width:1px;height:90px;float:right;background-color:#ffffff;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.inews24\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#view_content>span[style=\"width:1px;height:90px;float:right;background-color:#ffffff;\"]"
                     }
                 }
             },
@@ -42256,15 +42294,15 @@
                 }
             },
             {
-                "id": "c3f8a0c4-bb11-462b-9808-b0423d934c88",
-                "name": "m.inews24.com##div.right_contain>div>p[style=\"padding-top:10px;\"]",
+                "id": "ff9b86c7-9e2c-4b52-a8c0-d996e33d7fc8",
+                "name": "m.inews24.com##div[ad-slot]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.inews24\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.right_contain>div>p[style=\"padding-top:10px;\"]"
+                        "selector": "div[ad-slot]"
                     }
                 }
             },

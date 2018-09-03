@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: lQyDe1ysaAzrDkueOisvYQ
+! Checksum: VUj351dEMhuX5vJVw01D3Q
 ! Version: 20180903
 
 ! Workaround for BlockAdBlock
@@ -106,6 +106,7 @@
 ##iframe[src^="http://ad.adixs.co.kr/"]
 ##iframe[src^="http://ad.adkova.com/media/"]
 ##iframe[src^="http://ad.atdmt.com/d/a.html"]
+##iframe[src^="http://ad.idnad.co.kr/ad/iframe/ad_iframe.html"]
 ##iframe[src^="http://ad.ilikesponsorad.co.kr/"]
 ##iframe[src^="http://ad.mediafarm.co.kr/mad/"]
 ##iframe[src^="http://ad.mediatoday.co.kr/"]
@@ -381,6 +382,7 @@
 ||ad.hankookilbo.com^
 ||ad.hooniad.com^
 ||ad.idnad.co.kr/ad/idn.js^
+||ad.idnad.co.kr/ad/iframe/ad_frame.html^
 ||ad.ilbe.com/files2/ad/
 ||ad.ilikesponsorad.co.kr^
 ||ad.ilikesponsorad.com^
@@ -2964,12 +2966,13 @@ m.imnews.busan.com##body>div[style="text-align:center;width:100%;position:fixed;
 m.imnews.busan.com##div.desc>div[style="text-align:center;padding:10px 0px 10px 0px;"]
 m.imnews.busan.com##div.wrap>div[style="text-align:center;padding:10px; 0px 10px 0px"]
 m.imore.com##div.adunit
-m.inews24.com##body>div[style="background-color:#ebebeb;height:10px;"]
-m.inews24.com##body>div[style="height:75px; background-color:#ebebeb;"]
-m.inews24.com##div#inewsM-text>span[style="width:1px;height:120px;float:right;background-color:#ffffff;"]
-m.inews24.com##div.ad-container
+m.inews24.com##div#footer_home>div[style="height:75px; background-color:#ebebeb;"]
+m.inews24.com##div#view_content>div[style="clear:right;float:right;width:200px;height:200px;margin:5px;"]
+m.inews24.com##div#view_content>div[style="text-align:center"]
+m.inews24.com##div#view_content>div[style="text-align:center;margin:4% 0px 0px 0px;"]
+m.inews24.com##div#view_content>span[style="width:1px;height:90px;float:right;background-color:#ffffff;"]
 m.inews24.com##div.ad_myadcom
-m.inews24.com##div.right_contain>div>p[style="padding-top:10px;"]
+m.inews24.com##div[ad-slot]
 m.insight.co.kr##div.ad-google-0
 m.insight.co.kr##div.adHeader
 m.insight.co.kr##div.daum-ad
