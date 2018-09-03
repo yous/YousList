@@ -8676,6 +8676,18 @@
                 }
             },
             {
+                "id": "094c9676-4778-4aec-9d48-15a8208f0912",
+                "name": "cdn.adtive.com/js/notice.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.adtive\\.com/js/notice\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2f736df0-7c59-40bc-8a6f-3d0669931bd5",
                 "name": "cdn.blueconic.net/*.js",
                 "content": {
@@ -48647,6 +48659,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[data-nativead=\"1\"]"
+                    }
+                }
+            },
+            {
+                "id": "ef719fbc-9097-469d-84f1-b1900b6ac779",
+                "name": "msnews.co.kr##div#article-view-content-div>center[style=\"margin:15px 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?msnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article-view-content-div>center[style=\"margin:15px 0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "86e084d2-c500-4194-b0fd-831714f0050a",
+                "name": "msnews.co.kr##div.banner_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?msnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_box"
                     }
                 }
             },
