@@ -26368,6 +26368,32 @@
                 }
             },
             {
+                "id": "6d3b05b0-351c-4afb-bc44-06db06b72d2f",
+                "name": "bleacherreport.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bleacherreport\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "2085f6c3-d575-49ee-843f-6735a33fd6de",
+                "name": "bleacherreport.com##div.adsContainer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bleacherreport\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adsContainer"
+                    }
+                }
+            },
+            {
                 "id": "a07100b4-5424-4011-8bbf-e97b894c68b7",
                 "name": "blog.livedoor.jp##div#ad2",
                 "content": {
