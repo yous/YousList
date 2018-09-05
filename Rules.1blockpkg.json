@@ -34779,6 +34779,32 @@
                 }
             },
             {
+                "id": "eaf238e0-2835-4f47-a9c3-bafc87ea4269",
+                "name": "howtogeek.com##div#div-thetop1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?howtogeek\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#div-thetop1"
+                    }
+                }
+            },
+            {
+                "id": "54e8d42c-2b0f-4494-9586-d2b41be33bee",
+                "name": "howtogeek.com##div[id^=\"purch_Y_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?howtogeek\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"purch_Y_\"]"
+                    }
+                }
+            },
+            {
                 "id": "ed7a0ed6-361e-4cbd-9125-d0b8608eaa6e",
                 "name": "huffingtonpost.com##div.advertisement",
                 "content": {
