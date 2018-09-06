@@ -27316,6 +27316,45 @@
                 }
             },
             {
+                "id": "997dbacc-e424-4e07-824d-ef521d3f3b93",
+                "name": "cdn.ampproject.org##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "c7dc9bbc-b6d4-4bf4-9139-7eb997a1ec6d",
+                "name": "cdn.ampproject.org##div.ad_h100",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_h100"
+                    }
+                }
+            },
+            {
+                "id": "c72db739-76ed-4051-95e6-9eabc77923c4",
+                "name": "cdn.ampproject.org##div.adlink",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adlink"
+                    }
+                }
+            },
+            {
                 "id": "2233af67-9103-4da0-b75c-57727451ed97",
                 "name": "cdn.ampproject.org##div.advertisement",
                 "content": {
@@ -27351,6 +27390,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.atc-ad200"
+                    }
+                }
+            },
+            {
+                "id": "ef8ee57f-e535-4feb-9826-34ecb30eff1d",
+                "name": "cdn.ampproject.org##div.band_ad_middle",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.band_ad_middle"
+                    }
+                }
+            },
+            {
+                "id": "d755c26d-720a-4606-94e8-6afbadb8c856",
+                "name": "cdn.ampproject.org##div.band_ad_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.band_ad_top"
                     }
                 }
             },
