@@ -356,6 +356,19 @@
                 }
             },
             {
+                "id": "d4704b2a-1377-4c97-b31e-4590c535b4c6",
+                "name": "##div.ob-widget-section>ul.ob-widget-items-container>li.ob-oc",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ob-widget-section>ul.ob-widget-items-container>li.ob-oc"
+                    }
+                }
+            },
+            {
                 "id": "03a6f1ae-0e69-4850-ae33-93263b2a3629",
                 "name": "##div.ob-widget-section>ul.ob-widget-items-container>li.ob-p",
                 "content": {
@@ -16907,6 +16920,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sc2\\.appldp\\.com/show-ads\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "61d2eed7-9f35-4bf2-807f-cfcc3f7041ea",
+                "name": "scdn.cxense.com/cx.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?scdn\\.cxense\\.com/cx\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -46851,6 +46876,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[role=\"main\"]>div.aKB"
+                    }
+                }
+            },
+            {
+                "id": "ef0b45b9-9cfd-4d3a-9cb2-acee3adabede",
+                "name": "mainichi.jp##aside.ad.pr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mainichi\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.ad.pr"
+                    }
+                }
+            },
+            {
+                "id": "00b519e6-1d13-4f0b-8f62-b833b1d2ecad",
+                "name": "mainichi.jp##aside.ad.yads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mainichi\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.ad.yads"
+                    }
+                }
+            },
+            {
+                "id": "3329f1da-a5e8-4e0d-8842-5358230af5d5",
+                "name": "mainichi.jp##div.ad.img-left",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mainichi\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad.img-left"
                     }
                 }
             },
