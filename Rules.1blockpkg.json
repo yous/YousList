@@ -19214,11 +19214,56 @@
                 }
             },
             {
+                "id": "669c720a-7ba4-40db-8f11-680fef42ce3e",
+                "name": "vop.co.kr/templates/js_2014/mobitree2_vop.js$domain=vop.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vop\\.co\\.kr/templates/js_2014/mobitree2_vop\\.js",
+                        "if-domain": [
+                            "vop.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "99f6ae84-d939-4e26-a075-b9af8d4df89d",
+                "name": "vop.co.kr/templates/js_2016/enliple_blandlink.js$domain=vop.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vop\\.co\\.kr/templates/js_2016/enliple_blandlink\\.js",
+                        "if-domain": [
+                            "vop.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "04b48265-ad5a-4d2c-a6a6-60cb19f61736",
                 "name": "vop.co.kr/templates/js_2016/realclick_fullscrine2.js$domain=vop.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vop\\.co\\.kr/templates/js_2016/realclick_fullscrine2\\.js",
+                        "if-domain": [
+                            "vop.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5c027da5-29f8-48b2-af11-88db3edc7584",
+                "name": "vop.co.kr/templates/js_2017/interwork_interplay.js$domain=vop.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vop\\.co\\.kr/templates/js_2017/interwork_interplay\\.js",
                         "if-domain": [
                             "vop.co.kr"
                         ]
@@ -19249,6 +19294,51 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vop\\.co\\.kr/templates/js_2017/mobile_syrup_floating\\.js",
+                        "if-domain": [
+                            "vop.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "238057b1-af78-476d-8b2f-ceba26154310",
+                "name": "vop.co.kr/templates/js_2018/adop_videoad.js$domain=vop.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vop\\.co\\.kr/templates/js_2018/adop_videoad\\.js",
+                        "if-domain": [
+                            "vop.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fd90977d-229e-416e-afc3-dea44e106dd8",
+                "name": "vop.co.kr/templates/js_2018/mobile_fixed_daumadfit_32050.js$domain=vop.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vop\\.co\\.kr/templates/js_2018/mobile_fixed_daumadfit_32050\\.js",
+                        "if-domain": [
+                            "vop.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f9017688-632e-44f5-bfee-e06977bfe376",
+                "name": "vop.co.kr/templates/js_2018/priel_mobile_floating_150150.js$domain=vop.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vop\\.co\\.kr/templates/js_2018/priel_mobile_floating_150150\\.js",
                         "if-domain": [
                             "vop.co.kr"
                         ]
@@ -62998,6 +63088,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "vv-dfp-ad"
+                    }
+                }
+            },
+            {
+                "id": "cab19053-10e4-471f-b9c8-591772266193",
+                "name": "vop.co.kr##div.ad-bottom-32050",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vop\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-bottom-32050"
                     }
                 }
             },
