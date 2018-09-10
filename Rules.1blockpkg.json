@@ -226,6 +226,19 @@
                 }
             },
             {
+                "id": "e0b5c97a-9d9c-4939-8fe2-c7e1af33b982",
+                "name": "##div.__uz__widget div.__uz__article.ad_response",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.__uz__widget div.__uz__article.ad_response"
+                    }
+                }
+            },
+            {
                 "id": "6ae10cf6-cedd-4cbe-bb89-a88ec88f7a13",
                 "name": "##div._popIn_recommend_container a._popIn_recommend_article_ad",
                 "content": {
@@ -19733,6 +19746,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?x\\.kinja-static\\.com/assets/packaged-js/dollars\\..*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "820253a5-7bfb-42ec-92f0-755f091739e9",
+                "name": "xml.affiliate.rakuten.co.jp/widget/js/rakuten_widget.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?xml\\.affiliate\\.rakuten\\.co\\.jp/widget/js/rakuten_widget\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -55235,6 +55260,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "0776e4ec-7097-4bdb-9863-156c257e092e",
+                "name": "recordchina.co.jp##div.ad728",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?recordchina\\.co\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad728"
                     }
                 }
             },
