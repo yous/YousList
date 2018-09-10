@@ -3320,6 +3320,19 @@
                 }
             },
             {
+                "id": "28162cb0-6447-4217-acc9-a641296b6487",
+                "name": "##iframe[src^=\"https://img.scupio.com/html/ad.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://img.scupio.com/html/ad.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "2f83ed55-0707-4674-8b80-f466386f289e",
                 "name": "##iframe[src^=\"https://mycdn.co/adServe/imgBanner\"][src*=\"_image-banner.cib\"]",
                 "content": {
@@ -3472,6 +3485,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "ins.daum_ddn_area"
+                    }
+                }
+            },
+            {
+                "id": "40d0c95e-7223-4099-84e6-629ae6ddda34",
+                "name": "##ins.scupioadslot",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins.scupioadslot"
                     }
                 }
             },
@@ -12393,6 +12419,42 @@
                 }
             },
             {
+                "id": "a39024dd-b4a3-4c99-82a4-e8212e401cf9",
+                "name": "img.scupio.com/html/ad.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?img\\.scupio\\.com/html/ad\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8d83d014-572f-4441-9f00-e4731078e93e",
+                "name": "img.scupio.com/js/ad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?img\\.scupio\\.com/js/ad\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "88b16d23-f47e-4e3c-bb08-d7d785ce93ab",
+                "name": "img.scupio.com/js/config/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?img\\.scupio\\.com/js/config/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a054c147-569e-44ff-b401-9f517c4d581d",
                 "name": "img.sportsseoul.com/ad/",
                 "content": {
@@ -15956,6 +16018,21 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?p\\.lumieyes\\.com"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a95e455e-0ede-4fdc-8553-daa28af80058",
+                "name": "p.udn.com.tw/upf/2014_banners/$domain=udn.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?p\\.udn\\.com\\.tw/upf/2014_banners/",
+                        "if-domain": [
+                            "udn.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -62514,6 +62591,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#real_pop_bnr_floating"
+                    }
+                }
+            },
+            {
+                "id": "d741143c-c472-4a4f-aaee-2fe26e231bea",
+                "name": "udn.com##div#story_also>dl>dt.ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?udn\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#story_also>dl>dt.ads"
+                    }
+                }
+            },
+            {
+                "id": "3008357a-5c52-4b44-ab43-a88765b659a8",
+                "name": "udn.com##div#udn_scupio_responsive_wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?udn\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#udn_scupio_responsive_wrapper"
+                    }
+                }
+            },
+            {
+                "id": "e6416e9b-cfd1-4b9f-9914-95bc25c30bdf",
+                "name": "udn.com##div.also_listing dl.listing>dt.more_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?udn\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.also_listing dl.listing>dt.more_ad"
+                    }
+                }
+            },
+            {
+                "id": "19202509-918b-4191-b89d-1a9dbd513544",
+                "name": "udn.com##div[id^=\"crt-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?udn\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"crt-\"]"
                     }
                 }
             },
