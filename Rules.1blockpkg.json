@@ -39065,6 +39065,19 @@
                 }
             },
             {
+                "id": "d4d380c4-8be3-4a7d-8ceb-0fef2b664766",
+                "name": "m-wikihow-com.cdn.ampproject.org##div.wh_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m-wikihow-com\\.cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wh_ad"
+                    }
+                }
+            },
+            {
                 "id": "cdc2409e-2937-4202-8706-9ec4def1c604",
                 "name": "m.agora.daum.net##a.bnr_livboard",
                 "content": {
