@@ -47944,6 +47944,19 @@
                 }
             },
             {
+                "id": "27b726e3-b617-4d34-bf75-f2dfd150a28e",
+                "name": "mediatoday.co.kr##div.banner_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediatoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_box"
+                    }
+                }
+            },
+            {
                 "id": "8c1074b7-9c4a-4a2c-a925-a1c5f2c5ca2c",
                 "name": "mediatoday.co.kr##iframe[src*=\"/adItem/\"]",
                 "content": {
