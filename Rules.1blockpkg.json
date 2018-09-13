@@ -34852,6 +34852,45 @@
                 }
             },
             {
+                "id": "b921c9e5-5bf2-4aa4-95a7-e72d3029b9a6",
+                "name": "hk.appledaily.com##div#adMiddleBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hk\\.appledaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adMiddleBanner"
+                    }
+                }
+            },
+            {
+                "id": "a65e7ae3-a3ba-4d26-93a1-b7418120218d",
+                "name": "hk.appledaily.com##div#adTextAdvertorial",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hk\\.appledaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adTextAdvertorial"
+                    }
+                }
+            },
+            {
+                "id": "0e29b0c9-60a9-4c76-bccc-0932124158eb",
+                "name": "hk.appledaily.com##div.RHSBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hk\\.appledaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.RHSBanner"
+                    }
+                }
+            },
+            {
                 "id": "2cf42d0a-5c4a-4bbd-a775-afb262187944",
                 "name": "hkbs.co.kr##div.ad-control-articlemiddle",
                 "content": {
