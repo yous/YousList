@@ -32343,6 +32343,32 @@
                 }
             },
             {
+                "id": "1909dd59-9c94-4a30-9f50-f241b6874e0b",
+                "name": "fastcompany.com##div.ad-unit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fastcompany\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-unit"
+                    }
+                }
+            },
+            {
+                "id": "73bb63d9-8756-484e-b338-42f65c759395",
+                "name": "fastcompany.com##div.ad-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fastcompany\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-wrapper"
+                    }
+                }
+            },
+            {
                 "id": "0eda4bad-388d-4d23-ad1c-2d7fea8a38bd",
                 "name": "filmix.me##div#main>div>div.container[style=\"padding: 0px; height: 0px; transition: 0ms;\"]",
                 "content": {
