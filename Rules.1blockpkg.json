@@ -36919,6 +36919,32 @@
                 }
             },
             {
+                "id": "c514e76e-c08c-46ee-9ca3-12fa55fd6266",
+                "name": "itcle.com##div[class*=\" td-a-rec-id-custom_ad_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?itcle\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class*=\" td-a-rec-id-custom_ad_\"]"
+                    }
+                }
+            },
+            {
+                "id": "cb26f935-4ac9-496d-9ad8-045b7c85da4c",
+                "name": "itcle.com##div[class^=\"td-a-rec-id-custom_ad_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?itcle\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"td-a-rec-id-custom_ad_\"]"
+                    }
+                }
+            },
+            {
                 "id": "384a4752-04e6-4dc7-bba8-050e2a52128e",
                 "name": "item.gmarket.co.kr##div#adlinks",
                 "content": {
