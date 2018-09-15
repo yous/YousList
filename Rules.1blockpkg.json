@@ -785,6 +785,19 @@
                 }
             },
             {
+                "id": "5387aa3e-300f-432a-bbbb-e67dc3717d61",
+                "name": "##iframe[src^=\"//ads.theporndb.com/www/delivery/afr.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//ads.theporndb.com/www/delivery/afr.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "659954b4-d7bd-44fe-adb6-c8764029c859",
                 "name": "##iframe[src^=\"//adspaces.ero-advertising.com/banads/view.php\"]",
                 "content": {
@@ -6287,6 +6300,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.tapzin\\.com"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7d73f3d8-e9db-4e32-a82e-b09d592df983",
+                "name": "ads.theporndb.com/www/delivery/afr.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.theporndb\\.com/www/delivery/afr\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -19206,6 +19231,21 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?us-ads\\.openx\\.net/w/1\\.0/jstag"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e230a5e7-5c3e-42db-8f63-7f9a0ff0719b",
+                "name": "util.simply-hentai.com/prod/*?d=$domain=simply-hentai.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?util\\.simply-hentai\\.com/prod/.*\\?d=",
+                        "if-domain": [
+                            "simply-hentai.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
