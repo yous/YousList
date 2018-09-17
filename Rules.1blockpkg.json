@@ -733,6 +733,19 @@
                 }
             },
             {
+                "id": "ce810cef-ec14-4740-9de2-3befa125bb84",
+                "name": "##iframe[src^=\"//adex.ednplus.com/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//adex.ednplus.com/\"]"
+                    }
+                }
+            },
+            {
                 "id": "fcdb29fa-a51b-47aa-853e-c197b546c492",
                 "name": "##iframe[src^=\"//ads.acrosspf.com/adinfo.ad\"]",
                 "content": {
