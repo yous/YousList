@@ -291,6 +291,32 @@
                 }
             },
             {
+                "id": "6d3255ab-9d1a-4c3f-9267-fc55e9903a1c",
+                "name": "##div._taxel_recommend_container div[class*=\" _taxel_ad_article_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div._taxel_recommend_container div[class*=\" _taxel_ad_article_\"]"
+                    }
+                }
+            },
+            {
+                "id": "194cad6f-03b2-4571-8514-944bbf314bbf",
+                "name": "##div._taxel_recommend_container div[class^=\"_taxel_ad_article_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div._taxel_recommend_container div[class^=\"_taxel_ad_article_\"]"
+                    }
+                }
+            },
+            {
                 "id": "fff4fdb1-866b-4766-98e6-55b2b5951e77",
                 "name": "##div.ezAdsense",
                 "content": {
@@ -7421,6 +7447,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ask\\.nate\\.com/iframe/sponsor\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2c1e966a-d7f6-4093-a7ae-f548bbdf8349",
+                "name": "assets.gunosy.com/adnet/GunosyAdsSDK.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?assets\\.gunosy\\.com/adnet/GunosyAdsSDK\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -18929,6 +18967,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tpc\\.googlesyndication\\.com/pagead/js/.*/activeview/osd_listener\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2b88ae20-e8cc-4e30-a1c3-5dc033cf70df",
+                "name": "tr.project-ad.jp/ad/js/pjs.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tr\\.project-ad\\.jp/ad/js/pjs\\.js"
                     },
                     "action": {
                         "type": "block"

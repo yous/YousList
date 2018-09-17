@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 8f5Kn45qucdyBCyTyemjfg
+! Checksum: SSL8tswO30JSRnTsE4zm9Q
 ! Version: 20180917
 
 ! Workaround for BlockAdBlock
@@ -42,6 +42,8 @@
 ##div._popIn_recommend_container a._popIn_recommend_article_ad_reserved
 ##div._popIn_recommend_container div._popIn_infinite_ad
 ##div._popIn_recommend_container div._popIn_recommend_article_ad
+##div._taxel_recommend_container div[class*=" _taxel_ad_article_"]
+##div._taxel_recommend_container div[class^="_taxel_ad_article_"]
 ##div.ezAdsense
 ##div.gpt_ad_container
 ##div.js-relap__item>div.js-relap__item-inner>a[data-ad-link="true"]
@@ -613,6 +615,7 @@
 ||asiae.co.kr/include/real_ad/
 ||asiatoday.co.kr/common_js/ad.js^$domain=asiatoday.co.kr
 ||ask.nate.com/iframe/sponsor.html^
+||assets.gunosy.com/adnet/GunosyAdsSDK.js^
 ||assets.gunosy.com/adnet/gunosy_ads.min.js^
 ||assoc-amazon.com/s/ads.js^
 ||async01.admantx.com/admantx/service^
@@ -1506,6 +1509,7 @@
 ||torrentmoa.com/addons/popup/js/popup_layer.js^
 ||tpc.googlesyndication.com/daca_images/simgad/$domain=googleads.g.doubleclick.net|pagead2.googlesyndication.com
 ||tpc.googlesyndication.com/pagead/js/*/activeview/osd_listener.js^
+||tr.project-ad.jp/ad/js/pjs.js^
 ||tracker.adbinead.com/other/*.html^
 ||traffic.adxprts.com^
 ||trafmag.com/jsarrayposters.php^
