@@ -6547,6 +6547,18 @@
                 }
             },
             {
+                "id": "a6ba1bbb-9d7b-4094-a2c8-05603758a482",
+                "name": "adsrv.kstarplay.tv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adsrv\\.kstarplay\\.tv"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f27c909e-ea46-45da-bab8-34cf81bfa645",
                 "name": "adstract.adk2x.com/imp",
                 "content": {
@@ -46657,6 +46669,19 @@
                 }
             },
             {
+                "id": "7ddc7f9c-3725-4a6d-af3e-7d2cbd977320",
+                "name": "m.xportsnews.com##div.in_10lines",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.xportsnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.in_10lines"
+                    }
+                }
+            },
+            {
                 "id": "0fec130b-5057-42ab-945e-79b464805c4c",
                 "name": "m.xportsnews.com##div.in_200_200",
                 "content": {
@@ -46679,6 +46704,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.rect_ad"
+                    }
+                }
+            },
+            {
+                "id": "a8dd4551-4ed2-4c0d-8df5-0689681107c5",
+                "name": "m.xportsnews.com##div[itemprop=\"articleBody\"]>div[style=\"width:100%;height:100px;border:0px;overflow:hidden;display:inline-block;text-align:center\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.xportsnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[itemprop=\"articleBody\"]>div[style=\"width:100%;height:100px;border:0px;overflow:hidden;display:inline-block;text-align:center\"]"
                     }
                 }
             },
