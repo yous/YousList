@@ -7280,18 +7280,6 @@
                 }
             },
             {
-                "id": "8fa51fc3-9cf7-4336-9b42-bcfa7a584907",
-                "name": "apis.naver.com/rmcnmv/rmcams/item/create/",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?apis\\.naver\\.com/rmcnmv/rmcams/item/create/"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "ef8e8fd9-cca1-489c-8ea9-d0480bf7896b",
                 "name": "apis.piclick.me/v1/publish/banner/iframe",
                 "content": {
@@ -10542,6 +10530,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dsp\\.adzon\\.net/at/view\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6508abaf-2b19-4a35-94de-2be4da8ed3b9",
+                "name": "dsp.dmcmedia.co.kr/*/*.mp4",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dsp\\.dmcmedia\\.co\\.kr/.*/.*\\.mp4"
                     },
                     "action": {
                         "type": "block"
@@ -17715,6 +17715,18 @@
                 }
             },
             {
+                "id": "3405b3c9-01fa-41b5-afb6-773b92ae194a",
+                "name": "smrmembers-smr.smartmediarep.com/smc/smrmembers/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?smrmembers-smr\\.smartmediarep\\.com/smc/smrmembers/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ae49c662-909d-46cb-b2c9-aa45d27104bf",
                 "name": "sndkorea.nowcdn.co.kr/emart/",
                 "content": {
@@ -19393,6 +19405,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?viewsnnews\\.com/image/advert/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c22d5d06-84f5-46b6-9807-c93a4184fa94",
+                "name": "vod-naver.pstatic.net/tveta/owfs_rmc/read/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vod-naver\\.pstatic\\.net/tveta/owfs_rmc/read/"
                     },
                     "action": {
                         "type": "block"
