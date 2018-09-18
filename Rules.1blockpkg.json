@@ -28751,19 +28751,6 @@
                 }
             },
             {
-                "id": "53296b27-8bab-4c57-a7ce-086ba556f2d1",
-                "name": "dailian.co.kr##div#baner_1",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailian\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#baner_1"
-                    }
-                }
-            },
-            {
                 "id": "9f2de2c9-a4b2-44f7-aafc-c357fa33f1c2",
                 "name": "dailian.co.kr##div#left_scrollbanner0",
                 "content": {
@@ -28816,15 +28803,28 @@
                 }
             },
             {
-                "id": "9aa2a2a4-356d-4969-946b-d5344b710486",
-                "name": "dailian.co.kr##div#view_con>div[style=\"width:250px;height:250px;padding:30px 0 0 15px;float:right;\"]",
+                "id": "fc1e79cf-2985-441f-ab8e-2912bb12c92e",
+                "name": "dailian.co.kr##div#view_con>div[style=\"width: 250px; height: 250px; padding: 0px; clear: both; float: right; margin: 0px; border-width: 0px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailian\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#view_con>div[style=\"width:250px;height:250px;padding:30px 0 0 15px;float:right;\"]"
+                        "selector": "div#view_con>div[style=\"width: 250px; height: 250px; padding: 0px; clear: both; float: right; margin: 0px; border-width: 0px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "eea96cc0-51fb-40e4-a790-dfdc68539b7d",
+                "name": "dailian.co.kr##div#view_con>div[style=\"width:250px;height:250px;padding:30px 0 0 15px;clear:both;float:right;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailian\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#view_con>div[style=\"width:250px;height:250px;padding:30px 0 0 15px;clear:both;float:right;\"]"
                     }
                 }
             },
@@ -28838,6 +28838,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ban300_140_1"
+                    }
+                }
+            },
+            {
+                "id": "c24f56c3-0a70-46f1-a650-04a4f100ba14",
+                "name": "dailian.co.kr##div.ban300_250",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailian\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ban300_250"
                     }
                 }
             },
