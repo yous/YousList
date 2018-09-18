@@ -64581,6 +64581,45 @@
                 }
             },
             {
+                "id": "839ba2b4-0194-423e-bd27-a8accce52462",
+                "name": "woman.chosun.com##div.AD_link",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?woman\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.AD_link"
+                    }
+                }
+            },
+            {
+                "id": "da3a6c42-fb40-4369-9439-6f00afa5cb26",
+                "name": "woman.chosun.com##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?woman\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
+                    }
+                }
+            },
+            {
+                "id": "3346cced-7be3-47e9-9a39-d854539a4651",
+                "name": "woman.chosun.com##div.main_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?woman\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.main_banner"
+                    }
+                }
+            },
+            {
                 "id": "6ce18bda-4584-4c90-ba74-35e32e9b32f8",
                 "name": "womennews.co.kr##iframe[src^=\"/news/sidebar_banner_realclick01.html\"]",
                 "content": {
