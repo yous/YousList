@@ -3567,6 +3567,19 @@
                 }
             },
             {
+                "id": "639de79e-c0a7-4263-a5de-f50294e674f4",
+                "name": "##ins.kakao_ad_area",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins.kakao_ad_area"
+                    }
+                }
+            },
+            {
                 "id": "40d0c95e-7223-4099-84e6-629ae6ddda34",
                 "name": "##ins.scupioadslot",
                 "content": {
@@ -9981,6 +9994,21 @@
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?danmee\\.chosun\\.com/common/event2016/index\\.html",
                         "if-domain": [
                             "danmee.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "30781d01-3778-4d13-b999-44de22f5f50b",
+                "name": "databucket.duckdns.org:*/images/ads/$domain=databucket.duckdns.org",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?databucket\\.duckdns\\.org:.*/images/ads/",
+                        "if-domain": [
+                            "databucket.duckdns.org"
                         ]
                     },
                     "action": {
@@ -29486,6 +29514,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.art_ad_ss_right"
+                    }
+                }
+            },
+            {
+                "id": "43e6dc3b-6f23-42c1-9689-2185ba86d798",
+                "name": "databucket.duckdns.org##div#ads-banner-center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?databucket\\.duckdns\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ads-banner-center"
+                    }
+                }
+            },
+            {
+                "id": "c04f849f-f302-4e25-90e1-0c8cb8e68715",
+                "name": "databucket.duckdns.org##div#ads-banner2-center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?databucket\\.duckdns\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ads-banner2-center"
+                    }
+                }
+            },
+            {
+                "id": "e79c9255-3d5f-4a55-885e-229aebd6381d",
+                "name": "databucket.duckdns.org##div#ads-img1-center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?databucket\\.duckdns\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ads-img1-center"
+                    }
+                }
+            },
+            {
+                "id": "2fbe6340-cbf6-48e4-b588-32235ba7b47c",
+                "name": "databucket.duckdns.org##div#article-center>a>div[style=\"text-align: center;width: 100%; background-color: #000312; margin-top:13px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?databucket\\.duckdns\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article-center>a>div[style=\"text-align: center;width: 100%; background-color: #000312; margin-top:13px;\"]"
                     }
                 }
             },
