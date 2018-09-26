@@ -3346,6 +3346,19 @@
                 }
             },
             {
+                "id": "9b9e8d8f-316c-4242-bb78-8e65ec56d11e",
+                "name": "##iframe[src^=\"https://adserver.exoticads.com/cz\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://adserver.exoticads.com/cz\"]"
+                    }
+                }
+            },
+            {
                 "id": "4f44618e-2a52-4a72-940e-c77ea2bf5f6f",
                 "name": "##iframe[src^=\"https://bullseye.backbeatmedia.com/bullseye/adserver/\"]",
                 "content": {
@@ -6540,6 +6553,18 @@
                 }
             },
             {
+                "id": "6e0b52c7-8144-4a38-9cef-0aedd75ed0c9",
+                "name": "adserver.exoticads.com/cz",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adserver\\.exoticads\\.com/cz"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "16f6bc94-c7cb-4656-aabe-c853e509c4d3",
                 "name": "adserver.genesismediaus.com/ac",
                 "content": {
@@ -8920,6 +8945,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.engine\\.spotscenered\\.info/Scripts/MediaScripts/p\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c3db314c-7020-458e-ac9e-0794a00d1b4f",
+                "name": "cdn.exoticads.com/xads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.exoticads\\.com/xads\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -11839,6 +11876,21 @@
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hei\\.hankyung\\.com/js/ad/inspace_hankyung_hei\\.js",
                         "if-domain": [
                             "hei.hankyung.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f737c779-ed8d-43c6-9854-242c2676088c",
+                "name": "hentaifromhell.org/sw.js$domain=hentaifromhell.org",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hentaifromhell\\.org/sw\\.js",
+                        "if-domain": [
+                            "hentaifromhell.org"
                         ]
                     },
                     "action": {
@@ -16392,6 +16444,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pl.*\\.puhtml\\.com"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2db5ae05-007f-4012-be45-70fdab57c90e",
+                "name": "plug.plufdsb.com/wdgt/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?plug\\.plufdsb\\.com/wdgt/"
                     },
                     "action": {
                         "type": "block"
@@ -35052,6 +35116,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.newslt_bt_ad"
+                    }
+                }
+            },
+            {
+                "id": "a913820a-f505-4836-aa78-3841e358aea1",
+                "name": "hentaifromhell.org##div#custom_html-2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hentaifromhell\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#custom_html-2"
+                    }
+                }
+            },
+            {
+                "id": "15ee571a-f0db-435a-8c15-feff59cc76a8",
+                "name": "hentaifromhell.org##div#custom_html-3",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hentaifromhell\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#custom_html-3"
                     }
                 }
             },

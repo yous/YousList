@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: EfwJlwH/OWQwJvWzlBYzjw
+! Checksum: rFtqaCxviARKoF1HG4xk9Q
 ! Version: 20180926
 
 ! Workaround for BlockAdBlock
@@ -277,6 +277,7 @@
 ##iframe[src^="https://ad.luxnet.ua/dfp/spot.html"]
 ##iframe[src^="https://adbiz3.co.kr/"]
 ##iframe[src^="https://ads.adjust-net.jp/adserver/ads"]
+##iframe[src^="https://adserver.exoticads.com/cz"]
 ##iframe[src^="https://bullseye.backbeatmedia.com/bullseye/adserver/"]
 ##iframe[src^="https://creative.wwwpromoter.com/"]
 ##iframe[src^="https://googleads.g.doubleclick.net/pagead/ads"]:not([src*="&crui="])
@@ -541,6 +542,7 @@
 ||adserver-us.adtech.advertising.com/pubapi/
 ||adserver.adtech.advertising.com^
 ||adserver.adtechus.com^
+||adserver.exoticads.com/cz^
 ||adserver.genesismediaus.com/ac^
 ||adserver.juicyads.com/js/jads.js^
 ||adserver.sbtrustmedia.com^
@@ -725,6 +727,7 @@
 ||cdn.carbonads.com/carbon.js^
 ||cdn.connatix.com/min/connatix.renderer.infeed.min.js^
 ||cdn.engine.spotscenered.info/Scripts/MediaScripts/p.js^
+||cdn.exoticads.com/xads.js^
 ||cdn.gmossp-sp.jp/ads/loader.js^
 ||cdn.interworksmedia.co.kr/google/
 ||cdn.interworksmedia.co.kr/js/media/*.js^
@@ -950,6 +953,7 @@
 ||health.chosun.com/js/2015/center_mtree_2015s.js^$domain=health.chosun.com
 ||hei.hankyung.com/js/ad/iconad_hankyung_heien.js^$domain=hei.hankyung.com
 ||hei.hankyung.com/js/ad/inspace_hankyung_hei.js^$domain=hei.hankyung.com
+||hentaifromhell.org/sw.js^$domain=hentaifromhell.org
 ||hentaku.net/ad/img/$domain=hentaku.net
 ||hitomi.la/hitomi.js^$domain=hitomi.la
 ||hitomi.la/hitomi/exoclickcode-*-*.js^$domain=hitomi.la
@@ -1302,6 +1306,7 @@
 ||pirateproxy.cam/static/*/ad-scroll.js^$domain=pirateproxy.cam
 ||pixel.adsafeprotected.com/jload^
 ||pl*.puhtml.com^
+||plug.plufdsb.com/wdgt/
 ||plugin.2beon.co.kr^
 ||plugin.adplex.co.kr/iframe/*.html^
 ||plugin.adplex.co.kr/noticeAd/*.js^
@@ -2436,6 +2441,8 @@ hellmoney.kr##div.widthFixed
 hellodd.com##div#ctsrt_adarea
 hellodd.com##div.newsheader_ad
 hellodd.com##div.newslt_bt_ad
+hentaifromhell.org##div#custom_html-2
+hentaifromhell.org##div#custom_html-3
 hentaku.net##div#ad
 hentaku.net##div#leftmenu3
 hk.appledaily.com##div#adMiddleBanner
