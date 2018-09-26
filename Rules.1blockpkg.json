@@ -5030,6 +5030,30 @@
                 }
             },
             {
+                "id": "4e7eccd0-53af-47b9-9dd3-f7ac1cb57c68",
+                "name": "ad.sitemaji.com/native/8maple_passback.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.sitemaji\\.com/native/8maple_passback\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fd00791f-5ee1-43df-9dd1-534e70eb1154",
+                "name": "ad.sitemaji.com/ysm_8maple.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.sitemaji\\.com/ysm_8maple\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b23369db-4706-43d8-a138-df90fbd31f31",
                 "name": "ad.tf.co.kr:8080/js.kti/",
                 "content": {
@@ -11145,6 +11169,21 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?feeltong\\.hani\\.co\\.kr/common/banner\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3aef772b-1e84-46fd-9e9a-5214937f93ab",
+                "name": "fenglin.to/8drama_yahoo/$domain=fenglin.to",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fenglin\\.to/8drama_yahoo/",
+                        "if-domain": [
+                            "fenglin.to"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -32698,6 +32737,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "d8077b2d-4d5a-4e12-b7db-d93f42e651d3",
+                "name": "fenglin.to##div#text-10",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fenglin\\.to"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#text-10"
+                    }
+                }
+            },
+            {
+                "id": "2784d5af-029c-4455-8df3-4af244c9be81",
+                "name": "fenglin.to##iframe[src^=\"http://fenglin.to/8drama_yamoo/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fenglin\\.to"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://fenglin.to/8drama_yamoo/\"]"
                     }
                 }
             },
@@ -63534,6 +63599,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "e9b29efd-837c-4fbf-9c37-ed966eb09292",
+                "name": "video.fenglin.to##div#ad_bar1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?video\\.fenglin\\.to"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_bar1"
+                    }
+                }
+            },
+            {
+                "id": "5e0fdaf9-7f1c-418e-b8b7-60170db2ef4c",
+                "name": "video.fenglin.to##div#ad_bar7",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?video\\.fenglin\\.to"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_bar7"
                     }
                 }
             },
