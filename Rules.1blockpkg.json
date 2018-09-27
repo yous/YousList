@@ -20039,6 +20039,81 @@
                 }
             },
             {
+                "id": "e956daca-8ffc-48d3-91f3-acd1348c650a",
+                "name": "wikileaks-kr.org/bannerpop/uploads/image/$domain=wikileaks-kr.org",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikileaks-kr\\.org/bannerpop/uploads/image/",
+                        "if-domain": [
+                            "wikileaks-kr.org"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "415307a7-1e1a-4944-b345-478e7666d2d2",
+                "name": "wikileaks-kr.org/bannerpop/uploads/js/*.js$domain=wikileaks-kr.org",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikileaks-kr\\.org/bannerpop/uploads/js/.*\\.js",
+                        "if-domain": [
+                            "wikileaks-kr.org"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c5944891-8757-4ccd-9bd7-6b73e8410b60",
+                "name": "wikileaks-kr.org/bannerpop/uploads/js_activity/*.js$domain=wikileaks-kr.org",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikileaks-kr\\.org/bannerpop/uploads/js_activity/.*\\.js",
+                        "if-domain": [
+                            "wikileaks-kr.org"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "4292ac79-8bd9-4249-a5f8-0af255271e5a",
+                "name": "wikileaks-kr.org/script/bannerpop.js$domain=wikileaks-kr.org",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikileaks-kr\\.org/script/bannerpop\\.js",
+                        "if-domain": [
+                            "wikileaks-kr.org"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "50fd5171-8eb3-425f-bbf8-e2474e526c6d",
+                "name": "wikileaks-kr.org/script/floating.banner.js$domain=wikileaks-kr.org",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikileaks-kr\\.org/script/floating\\.banner\\.js",
+                        "if-domain": [
+                            "wikileaks-kr.org"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "bda3be90-e296-4c98-b8e2-de8d48f9d3b9",
                 "name": "wikitree.co.kr/_tpl/default/_images/ad/",
                 "content": {
@@ -64756,6 +64831,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.wikia-ad"
+                    }
+                }
+            },
+            {
+                "id": "e88e2051-6a01-4849-aead-6dc7bc434ed4",
+                "name": "wikileaks-kr.org##div#floating_banner_left",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikileaks-kr\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#floating_banner_left"
+                    }
+                }
+            },
+            {
+                "id": "0295a613-5aaa-47e9-b282-d708756827f4",
+                "name": "wikileaks-kr.org##div#floating_banner_right",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikileaks-kr\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#floating_banner_right"
+                    }
+                }
+            },
+            {
+                "id": "4f160b42-e9f3-49b7-ad7f-e9b5c1382ae9",
+                "name": "wikileaks-kr.org##div.user-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikileaks-kr\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.user-banner"
                     }
                 }
             },
