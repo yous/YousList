@@ -16186,6 +16186,30 @@
                 }
             },
             {
+                "id": "a5e32795-7478-47cc-a425-dcadb183608b",
+                "name": "openload.co/assets/js/video-js/vast4/videojs_5_vast.vpaid.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?openload\\.co/assets/js/video-js/vast4/videojs_5_vast\\.vpaid\\.min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "349d554e-e1b8-45ca-b42f-e531dc60505e",
+                "name": "openload.co/assets/js/video-js/video.js.ol20.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?openload\\.co/assets/js/video-js/video\\.js\\.ol20\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a3d82f8f-44ca-4213-b17d-255bb83573aa",
                 "name": "optimized-by.4wnetwork.com/simply_loader.js",
                 "content": {
@@ -18861,6 +18885,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?syndication\\.exosrv\\.com/ads-iframe-display\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ba054919-1ff8-4728-ab80-9f278d575408",
+                "name": "syndication.exosrv.com/ads-priv.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?syndication\\.exosrv\\.com/ads-priv\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ddb396a0-7f42-4a43-bc38-96701c8e5e1f",
+                "name": "syndication.exosrv.com/splash.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?syndication\\.exosrv\\.com/splash\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -35607,6 +35655,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[id^=\"purch_Y_\"]"
+                    }
+                }
+            },
+            {
+                "id": "04bab083-ae7d-4982-a8b7-c4fb864ca82e",
+                "name": "hpjav.tv##div.center-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hpjav\\.tv"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.center-ad"
+                    }
+                }
+            },
+            {
+                "id": "f33ac892-fa0e-4d15-a7f9-831d1df79bf6",
+                "name": "hpjav.tv##div.home-featured-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hpjav\\.tv"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.home-featured-ad"
+                    }
+                }
+            },
+            {
+                "id": "7b569d61-466d-4202-ae3f-6e0b832ca5e2",
+                "name": "hpjav.tv##div.video-boxad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hpjav\\.tv"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.video-boxad"
                     }
                 }
             },
