@@ -55995,6 +55995,32 @@
                 }
             },
             {
+                "id": "b54199d7-3c2b-44e7-ba7b-b2e6f6b73a6a",
+                "name": "reddit.com##div.promotedlink",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?reddit\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.promotedlink"
+                    }
+                }
+            },
+            {
+                "id": "72e98d38-004b-49de-9344-d98638653838",
+                "name": "reddit.com##div.promotedvideolink",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?reddit\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.promotedvideolink"
+                    }
+                }
+            },
+            {
                 "id": "b8dd0009-54d5-43d8-93b0-dfc1725925dc",
                 "name": "reddit.com##div[id^=\"sidebar-atf-\"]",
                 "content": {
