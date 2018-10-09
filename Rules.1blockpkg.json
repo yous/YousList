@@ -41756,6 +41756,45 @@
                 }
             },
             {
+                "id": "44853ee8-1611-406f-8899-b38dc50bacfa",
+                "name": "m.econovill.com##body>div[style=\"height:100px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.econovill\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"height:100px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "d6d95cdc-cb92-449f-b20d-b1898da89290",
+                "name": "m.econovill.com##div.adView",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.econovill\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adView"
+                    }
+                }
+            },
+            {
+                "id": "d2a54c8e-9f87-4fd3-a632-10e25854bafb",
+                "name": "m.econovill.com##section.advertisment",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.econovill\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.advertisment"
+                    }
+                }
+            },
+            {
                 "id": "85fd5f56-b525-4aa5-b1e0-550f0f010bdd",
                 "name": "m.edaily.co.kr##div#ad_adin_etc",
                 "content": {
