@@ -52234,6 +52234,32 @@
                 }
             },
             {
+                "id": "ca9d5f30-095e-454f-a377-cb2f528b3588",
+                "name": "newdaily.co.kr##div#ad1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newdaily\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad1"
+                    }
+                }
+            },
+            {
+                "id": "654b400d-db26-4315-ac0c-59b62a26ad97",
+                "name": "newdaily.co.kr##div#iw_ad4",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newdaily\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#iw_ad4"
+                    }
+                }
+            },
+            {
                 "id": "cb1ff8c7-ad3e-4a8f-ba73-e5594d24ea42",
                 "name": "news.chosun.com##div.ad_aside_box",
                 "content": {
