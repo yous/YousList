@@ -60450,6 +60450,32 @@
                 }
             },
             {
+                "id": "7e023d31-e785-4bbc-b522-0125bdefeda2",
+                "name": "superuser.com##div#dfp-mlb",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?superuser\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#dfp-mlb"
+                    }
+                }
+            },
+            {
+                "id": "732a6d11-bf3c-4e28-bad8-bff53c622daa",
+                "name": "superuser.com##div#dfp-tlb",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?superuser\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#dfp-tlb"
+                    }
+                }
+            },
+            {
                 "id": "4465dfac-9636-4a5e-bd2d-be9c723503f9",
                 "name": "suyongso.com##div.rd_ft>div[class^=\"bd_\"][class*=\"_m\"]",
                 "content": {
