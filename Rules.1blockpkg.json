@@ -66261,6 +66261,58 @@
                 }
             },
             {
+                "id": "c5a1d6ed-5f41-4019-8c38-e37fa2774d93",
+                "name": "webtoonguide.com##div#board_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?webtoonguide\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#board_bottom"
+                    }
+                }
+            },
+            {
+                "id": "0ef149ca-96a7-4e67-94a7-fe05c91c5933",
+                "name": "webtoonguide.com##div#bottom_01",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?webtoonguide\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bottom_01"
+                    }
+                }
+            },
+            {
+                "id": "cb18dd22-4440-4774-b195-6005002efbb6",
+                "name": "webtoonguide.com##div#top_01",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?webtoonguide\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#top_01"
+                    }
+                }
+            },
+            {
+                "id": "52a6e49e-543b-4c17-b18c-8ebcdd277a4d",
+                "name": "webtoonguide.com##div.notice-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?webtoonguide\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.notice-banner"
+                    }
+                }
+            },
+            {
                 "id": "b8707c16-9c1f-44e1-aa0f-3a5843ac2f54",
                 "name": "webupd8.org##div.post-inner>div[style=\"margin: 10px 0 20px 0\"]:not([class])",
                 "content": {
