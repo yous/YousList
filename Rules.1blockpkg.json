@@ -3450,6 +3450,32 @@
                 }
             },
             {
+                "id": "4d57c45a-b791-4628-b757-0279d53800f1",
+                "name": "##iframe[src^=\"https://rcm-eu.amazon-adsystem.com/e/cm\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://rcm-eu.amazon-adsystem.com/e/cm\"]"
+                    }
+                }
+            },
+            {
+                "id": "d686b5b8-fd73-4e53-a512-310b92ab7bfc",
+                "name": "##iframe[src^=\"https://rcm-na.amazon-adsystem.com/e/cm\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://rcm-na.amazon-adsystem.com/e/cm\"]"
+                    }
+                }
+            },
+            {
                 "id": "335183aa-ffaf-40bb-8c17-d43343a258d8",
                 "name": "##iframe[src^=\"https://s.yimg.jp/images/listing/tool/yads/yads-iframe.html\"]",
                 "content": {
@@ -16878,6 +16904,18 @@
                 }
             },
             {
+                "id": "963f9393-5ca0-4692-86c9-2872dd89bd9f",
+                "name": "rcm-eu.amazon-adsystem.com/e/cm",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?rcm-eu\\.amazon-adsystem\\.com/e/cm"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f166c8b3-b4ae-45a9-a350-793ad86f2d17",
                 "name": "rcm-na.amazon-adsystem.com/e/cm",
                 "content": {
@@ -17703,6 +17741,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?server\\.cpmstar\\.com/view\\.aspx"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "72151a1a-21de-41d4-a077-51a2ee8468e0",
+                "name": "server1.affiz.net/tracking/ads_display.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?server1\\.affiz\\.net/tracking/ads_display\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -58535,6 +58585,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.snopes-partner-unit"
+                    }
+                }
+            },
+            {
+                "id": "fa168a57-3199-4e03-b117-324d9654bcde",
+                "name": "socialcompare.com##div#scAComBox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?socialcompare\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#scAComBox"
+                    }
+                }
+            },
+            {
+                "id": "32c5d4fe-bb4e-404f-8a51-dc46a83ecd9b",
+                "name": "socialcompare.com##div#scAComT",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?socialcompare\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#scAComT"
                     }
                 }
             },

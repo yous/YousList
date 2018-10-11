@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: 4Nhzbgko6ydHu4BpFyN3zQ
+! Checksum: pey8fV5khIqRUhCCTeeP8Q
 ! Version: 20181011
 
 ! Workaround for BlockAdBlock
@@ -285,6 +285,8 @@
 ##iframe[src^="https://imasdk.googleapis.com/js/core/bridge"][src*=".html"]
 ##iframe[src^="https://img.scupio.com/html/ad.html"]
 ##iframe[src^="https://mycdn.co/adServe/imgBanner"][src*="_image-banner.cib"]
+##iframe[src^="https://rcm-eu.amazon-adsystem.com/e/cm"]
+##iframe[src^="https://rcm-na.amazon-adsystem.com/e/cm"]
 ##iframe[src^="https://s.yimg.jp/images/listing/tool/yads/yads-iframe.html"]
 ##iframe[src^="https://search2.nuriclick.co.kr/banner.php"]
 ##iframe[src^="https://syndication.exdynsrv.com/ads-iframe-display.php"]
@@ -1341,6 +1343,7 @@
 ||r1.res.office365.com/adbar/*/adbar.js^$domain=outlook.live.com
 ||ra.ntwoad.co.kr^
 ||rarenok.biz/img/r/i/208/
+||rcm-eu.amazon-adsystem.com/e/cm^
 ||rcm-na.amazon-adsystem.com/e/cm^
 ||rcm.amazon.com/e/cm^
 ||realdsp.realclick.co.kr/real_ad_dsp.html^
@@ -1409,6 +1412,7 @@
 ||serve.popads.net/checkInventory.php^
 ||serve.popads.net/s^
 ||server.cpmstar.com/view.aspx^
+||server1.affiz.net/tracking/ads_display.php^
 ||servicer.marketgid.com^
 ||serving.adbetclickin.pink/js/libcode3.js^
 ||sgate.opap.co.kr/view/
@@ -4097,6 +4101,8 @@ slrclub.com##div#slrcf
 slrclub.com##div.ad
 slrclub.com##div.ad2
 snopes.com##div.snopes-partner-unit
+socialcompare.com##div#scAComBox
+socialcompare.com##div#scAComT
 sourceforge.net##div.sterling
 sourceforge.net##section.sterling
 speconomy.com##div#article-control>table>tbody>tr:nth-of-type(2)>td:first-of-type>center[style="padding:30px 0; clear:both;"]
