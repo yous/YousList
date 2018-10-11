@@ -35256,6 +35256,19 @@
                 }
             },
             {
+                "id": "e25c83e2-a51a-4f0b-9e0a-bc9bbb3a7df7",
+                "name": "gall.dcinside.com##div.con_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gall\\.dcinside\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.con_banner"
+                    }
+                }
+            },
+            {
                 "id": "b7c9c615-366a-4089-893d-8af8113516f4",
                 "name": "gall.dcinside.com##div.power_click",
                 "content": {
