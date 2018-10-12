@@ -330,6 +330,19 @@
                 }
             },
             {
+                "id": "83748db9-a5f6-4458-b198-57bb610c20d3",
+                "name": "##div.ezoic-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ezoic-ad"
+                    }
+                }
+            },
+            {
                 "id": "0ffcdbd1-cf18-42b5-8824-cac7bcbae2da",
                 "name": "##div.gpt_ad_container",
                 "content": {
@@ -3645,6 +3658,19 @@
                 }
             },
             {
+                "id": "2fc92e3d-dab3-41d0-9251-a0ea90ab02d1",
+                "name": "##span.ezoic-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span.ezoic-ad"
+                    }
+                }
+            },
+            {
                 "id": "8e3e127b-7ca2-4432-bc88-eba30bb181c3",
                 "name": "*-d.openx.net/mw/1.0/afr",
                 "content": {
@@ -3794,6 +3820,30 @@
                 }
             },
             {
+                "id": "563dd42c-3678-413a-846f-ce586ded5005",
+                "name": "*/detroitchicago/edmonton.webp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "/detroitchicago/edmonton\\.webp"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2aa99b6c-8af8-4c93-9bab-0ae461e6c639",
+                "name": "*/detroitchicago/rochester.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "/detroitchicago/rochester\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "182b6874-e4e7-4463-aabe-8589bcb35a88",
                 "name": "*/mobitree_*.js",
                 "content": {
@@ -3835,6 +3885,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "/naon_.*\\.jsp"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d6f4e5b4-9184-46e5-8642-e5467292bf2c",
+                "name": "*/porpoiseant/banger.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "/porpoiseant/banger\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1afb523b-37f9-4daf-8d75-56526d042a5a",
+                "name": "*/porpoiseant/jellyfish.webp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "/porpoiseant/jellyfish\\.webp"
                     },
                     "action": {
                         "type": "block"
@@ -11445,6 +11519,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?g\\.ezoic\\.net/ezosuigeneris\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "bf0a02f2-e098-49ad-9c63-c9d6058fa60e",
+                "name": "g.ezoic.net/ezosuigenerisc.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?g\\.ezoic\\.net/ezosuigenerisc\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -23971,19 +24057,6 @@
                 }
             },
             {
-                "id": "bf57adae-667c-4b57-bac2-86d94483809d",
-                "name": "appletoolbox.com##span.ezoic-ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?appletoolbox\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "span.ezoic-ad"
-                    }
-                }
-            },
-            {
                 "id": "ca70ff2a-491f-4548-ad7b-796444188ed8",
                 "name": "arstechnica.com##aside#ad-top",
                 "content": {
@@ -30597,19 +30670,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "section.ad-region"
-                    }
-                }
-            },
-            {
-                "id": "3642dde4-0e69-4a75-9cb6-297b156a3fda",
-                "name": "cultofmac.com##span.ezoic-ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cultofmac\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "span.ezoic-ad"
                     }
                 }
             },
@@ -57745,32 +57805,6 @@
                 }
             },
             {
-                "id": "11ecfe8f-1a1c-4b50-8a86-27293388ac0f",
-                "name": "readmanga.today##div.ezoic-ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?readmanga\\.today"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ezoic-ad"
-                    }
-                }
-            },
-            {
-                "id": "a14eed8d-645a-401f-917e-09e0c81f1452",
-                "name": "readmanga.today##span.ezoic-ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?readmanga\\.today"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "span.ezoic-ad"
-                    }
-                }
-            },
-            {
                 "id": "1a8c77cd-1b48-4f1e-8967-c4fee5ec8780",
                 "name": "readwrite.com##phx-advertisement",
                 "content": {
@@ -57988,19 +58022,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "li.ad_plex_a250"
-                    }
-                }
-            },
-            {
-                "id": "b21ecfff-41d3-4c32-bea9-41060ee92bec",
-                "name": "rmprepusb.com##span.ezoic-ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?rmprepusb\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "span.ezoic-ad"
                     }
                 }
             },
@@ -66815,19 +66836,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.mid-banner-wrap"
-                    }
-                }
-            },
-            {
-                "id": "9b6c9c8c-8735-4d29-86c1-e9ac9902b4d3",
-                "name": "wololo.net##span.ezoic-ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wololo\\.net"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "span.ezoic-ad"
                     }
                 }
             },
