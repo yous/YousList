@@ -916,14 +916,14 @@
             },
             {
                 "id": "9f2b6a85-b538-487b-91a1-591751e93960",
-                "name": "##iframe[src^=\"//findad.o00.kr/\"]",
+                "name": "##iframe[src^=\"//finead.o00.kr/\"]",
                 "content": {
                     "trigger": {
                         "url-filter": ".*"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "iframe[src^=\"//findad.o00.kr/\"]"
+                        "selector": "iframe[src^=\"//finead.o00.kr/\"]"
                     }
                 }
             },
@@ -10249,6 +10249,21 @@
                 }
             },
             {
+                "id": "6c8d7801-fe17-4233-88ab-f84be7664c4d",
+                "name": "dispatch.cdnser.be/ad/$domain=dispatch.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dispatch\\.cdnser\\.be/ad/",
+                        "if-domain": [
+                            "dispatch.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "298b4c86-4fd2-4a6c-9933-20b10d3911ea",
                 "name": "dispatch.co.kr/ad/ad-nth-*-pc.html$domain=dispatch.co.kr",
                 "content": {
@@ -11270,10 +11285,10 @@
             },
             {
                 "id": "ae803a39-4a71-4ada-a19e-586489cac098",
-                "name": "findad.o00.kr",
+                "name": "finead.o00.kr",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?findad\\.o00\\.kr"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?finead\\.o00\\.kr"
                     },
                     "action": {
                         "type": "block"
@@ -13735,6 +13750,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?lightasp\\.dmcmedia\\.co\\.kr/adixs/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2ff8e0ef-25bc-4b0a-b6c6-cb5234ca922e",
+                "name": "log.adtive.com/noticead/adinfo/js/notice.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?log\\.adtive\\.com/noticead/adinfo/js/notice\\.js"
                     },
                     "action": {
                         "type": "block"
