@@ -32902,6 +32902,19 @@
                 }
             },
             {
+                "id": "62e98fa2-1a3c-41a5-82e1-6907a6c47acb",
+                "name": "dvdprime.com##div#mobile_top_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dvdprime\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mobile_top_banner"
+                    }
+                }
+            },
+            {
                 "id": "386b3c6b-06ad-44e3-8aed-64ad9b335a30",
                 "name": "dvdprime.com##div#sidebar_container>div.rc_div.relative>a",
                 "content": {
@@ -32950,6 +32963,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_content_bottom"
+                    }
+                }
+            },
+            {
+                "id": "cc7dba6f-efad-487e-b63d-8e737941b370",
+                "name": "dvdprime.com##div.mobile_responsive_1_div",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dvdprime\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobile_responsive_1_div"
                     }
                 }
             },
