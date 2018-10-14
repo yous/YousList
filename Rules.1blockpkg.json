@@ -38357,6 +38357,19 @@
                 }
             },
             {
+                "id": "951a5f38-c938-4838-a98a-13835869b6ff",
+                "name": "instiz.net##body>div[style=\"clear:both;width:100%;max-height:100px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?instiz\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"clear:both;width:100%;max-height:100px\"]"
+                    }
+                }
+            },
+            {
                 "id": "8e96e890-76d5-4926-859f-8112e14b5551",
                 "name": "instiz.net##body>div[style=\"width:100%;text-align:center;background-color:#fafafa;height:100px;overflow-y:hidden\"]",
                 "content": {
@@ -38444,6 +38457,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.board_img_foot"
+                    }
+                }
+            },
+            {
+                "id": "48dc374e-ea7d-418f-8ed3-bf70a09328bc",
+                "name": "instiz.net##div.board_topad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?instiz\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.board_topad"
+                    }
+                }
+            },
+            {
+                "id": "b46b76dc-589f-4d0f-af51-2fa784728d87",
+                "name": "instiz.net##div.hot_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?instiz\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.hot_ad"
                     }
                 }
             },
