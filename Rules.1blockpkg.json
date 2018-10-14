@@ -1851,6 +1851,19 @@
                 }
             },
             {
+                "id": "ecac273b-1232-4be7-b7f6-3b7dc4d57597",
+                "name": "##iframe[src^=\"http://adx-exchange.toast.com/open/integration.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adx-exchange.toast.com/open/integration.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "bf0b32ac-942e-41fe-9da5-88f4f0acb0bf",
                 "name": "##iframe[src^=\"http://adx.bibl.uk/ra/www/delivery/afr.php\"]",
                 "content": {
@@ -7019,6 +7032,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adx-exchange\\.toast\\.com/html/integration\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6d274183-85d4-48c6-81a3-09b5963b3537",
+                "name": "adx-exchange.toast.com/open/integration.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adx-exchange\\.toast\\.com/open/integration\\.html"
                     },
                     "action": {
                         "type": "block"
@@ -48181,6 +48206,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.adcontrol42_box"
+                    }
+                }
+            },
+            {
+                "id": "419ce448-22b4-43a7-a2c5-b50a4458f47e",
+                "name": "m.spotvnews.co.kr##div.banner_article_inner_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.spotvnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_article_inner_box"
                     }
                 }
             },
