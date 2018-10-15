@@ -14471,6 +14471,21 @@
                 }
             },
             {
+                "id": "3a1d7139-6a23-48dd-b20b-ff4277d16bec",
+                "name": "m.skyedaily.com/ad/$domain=m.skyedaily.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.skyedaily\\.com/ad/",
+                        "if-domain": [
+                            "m.skyedaily.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f03b864d-152d-4b77-b085-78e9edbd8185",
                 "name": "m.sportschosun.com/news_text_ad01.htm$domain=m.sportschosun.com",
                 "content": {
