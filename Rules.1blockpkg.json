@@ -18036,6 +18036,21 @@
                 }
             },
             {
+                "id": "4852d8e5-a9a9-4dd5-b963-a143459e064f",
+                "name": "skyedaily.com/AD/$domain=skyedaily.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?skyedaily\\.com/AD/",
+                        "if-domain": [
+                            "skyedaily.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c55dd2aa-0335-4905-bbb6-41c7e1889652",
                 "name": "smartadserver.com/ac",
                 "content": {
@@ -58632,6 +58647,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ads-item"
+                    }
+                }
+            },
+            {
+                "id": "1f575ab4-dfa0-4a1f-82b8-c85911e1981e",
+                "name": "skyedaily.com##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?skyedaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
+                    }
+                }
+            },
+            {
+                "id": "4784d146-39f0-46e2-a7f1-67f4bb24fb50",
+                "name": "skyedaily.com##div.bottom_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?skyedaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bottom_banner"
+                    }
+                }
+            },
+            {
+                "id": "b6a5f8b2-09c5-41b6-9806-e1a90731ee47",
+                "name": "skyedaily.com##div.sidebanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?skyedaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sidebanner"
+                    }
+                }
+            },
+            {
+                "id": "10e17842-94d3-4e15-b330-2b2abbfd7f43",
+                "name": "skyedaily.com##embed[src^=\"/AD/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?skyedaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "embed[src^=\"/AD/\"]"
                     }
                 }
             },
