@@ -36,7 +36,7 @@ you have to remove previous rules and then import the new rules.
 Add the following URL as a host source.
 
 ```
-https://github.com/yous/YousList/raw/master/hosts.txt
+https://raw.githubusercontent.com/yous/YousList/master/hosts.txt
 ```
 
 ### AdGuard ([Subscribe](https://subscribe.adblockplus.org/?location=https://github.com/yous/YousList/raw/master/youslist.txt&title=YousList))
