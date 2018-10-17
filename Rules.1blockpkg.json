@@ -66770,6 +66770,32 @@
                 }
             },
             {
+                "id": "0c0d4823-034a-4eb3-b14e-3b28e84eb5df",
+                "name": "wikihow.com##div.wh_ad_inner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikihow\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wh_ad_inner"
+                    }
+                }
+            },
+            {
+                "id": "6e4d9c3b-bfb1-48c0-8d13-2165f93f1a78",
+                "name": "wikihow.com##div.whad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikihow\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.whad"
+                    }
+                }
+            },
+            {
                 "id": "e88e2051-6a01-4849-aead-6dc7bc434ed4",
                 "name": "wikileaks-kr.org##div#floating_banner_left",
                 "content": {
