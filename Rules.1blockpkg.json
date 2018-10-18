@@ -1084,6 +1084,19 @@
                 }
             },
             {
+                "id": "10606c0e-61b5-449d-a712-af2af7724d7d",
+                "name": "##iframe[src^=\"//www.dreamsearch.or.kr/servlet/adPlayLinkServlet\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//www.dreamsearch.or.kr/servlet/adPlayLinkServlet\"]"
+                    }
+                }
+            },
+            {
                 "id": "6a05be38-f433-4e12-8f75-06adbe9374be",
                 "name": "##iframe[src^=\"//x.jd.com/exsites\"]",
                 "content": {
@@ -10642,6 +10655,18 @@
                 }
             },
             {
+                "id": "dbb7c4e5-5773-4aa5-8e87-26c6d08475f0",
+                "name": "dreamsearch.or.kr/playLinkAd/js/mobonPlayLinkToast.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dreamsearch\\.or\\.kr/playLinkAd/js/mobonPlayLinkToast\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ea5bac62-30b8-4a18-9a20-b11d3d7aaed2",
                 "name": "dreamsearch.or.kr/servlet/adBannerFloating",
                 "content": {
@@ -10659,6 +10684,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dreamsearch\\.or\\.kr/servlet/adBanner"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d88ec350-f380-4840-a1df-698176f0ea89",
+                "name": "dreamsearch.or.kr/servlet/adPlayLinkServlet",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dreamsearch\\.or\\.kr/servlet/adPlayLinkServlet"
                     },
                     "action": {
                         "type": "block"
@@ -55105,6 +55142,123 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"banner_1024_1024_\"]"
+                    }
+                }
+            },
+            {
+                "id": "fa7cb17f-a8ac-4c8b-bb64-df72a3b49f26",
+                "name": "news2day.co.kr##div#banner-14",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news2day\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner-14"
+                    }
+                }
+            },
+            {
+                "id": "1dd4ce0d-9934-43ef-a02e-1170c6d0e3dd",
+                "name": "news2day.co.kr##div#banner-140",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news2day\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner-140"
+                    }
+                }
+            },
+            {
+                "id": "b7cfffd3-27e7-489d-a60d-1eab50107dec",
+                "name": "news2day.co.kr##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news2day\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
+                    }
+                }
+            },
+            {
+                "id": "cfa9b9fa-0726-45d6-98cd-68b742b62ba7",
+                "name": "news2day.co.kr##div.banner-18",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news2day\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-18"
+                    }
+                }
+            },
+            {
+                "id": "fce3c887-c211-4c87-83a6-b23b920d5482",
+                "name": "news2day.co.kr##div.banner-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news2day\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-container"
+                    }
+                }
+            },
+            {
+                "id": "bce1ecd9-0168-4d40-ba9c-e28fc44f7453",
+                "name": "news2day.co.kr##div.banner-ilike",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news2day\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-ilike"
+                    }
+                }
+            },
+            {
+                "id": "88ed22a3-e67a-4613-a4c9-caa4a4a1c997",
+                "name": "news2day.co.kr##div.banner-like",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news2day\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-like"
+                    }
+                }
+            },
+            {
+                "id": "2a8f624e-b84d-4a3a-bed8-676d5533d7f9",
+                "name": "news2day.co.kr##div.right-top-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news2day\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.right-top-banner"
+                    }
+                }
+            },
+            {
+                "id": "fb157877-d6ef-4c51-b9c3-8ad83139e602",
+                "name": "news2day.co.kr##div[data-section-id^=\"banner-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news2day\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-section-id^=\"banner-\"]"
                     }
                 }
             },
