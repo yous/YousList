@@ -14512,6 +14512,21 @@
                 }
             },
             {
+                "id": "72c907b3-0ae5-4213-b16c-0e6333751426",
+                "name": "m.pressian.com/data/banner/$domain=m.pressian.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.pressian\\.com/data/banner/",
+                        "if-domain": [
+                            "m.pressian.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "3a1d7139-6a23-48dd-b20b-ff4277d16bec",
                 "name": "m.skyedaily.com/ad/$domain=m.skyedaily.com",
                 "content": {
@@ -47465,28 +47480,119 @@
                 }
             },
             {
-                "id": "dc166567-d8ee-457e-ab69-e5bab2d6483b",
-                "name": "m.pressian.com##div.flick-container>div[style=\"clear:both; width:100%;background-color:#fff; padding:10px 0;\"]",
+                "id": "7043bb56-e3f7-4810-b5fd-0d408cb04628",
+                "name": "m.pressian.com##div#m_art_top_ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.pressian\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.flick-container>div[style=\"clear:both; width:100%;background-color:#fff; padding:10px 0;\"]"
+                        "selector": "div#m_art_top_ad"
                     }
                 }
             },
             {
-                "id": "7416b7ab-8fa1-4193-95b7-fd2f9806f3b4",
-                "name": "m.pressian.com##div.flick-container>div[style=\"clear:both; width:100%;background-color:#fff; padding:8px 0;\"]",
+                "id": "178b3c89-4d63-4b83-9563-6eff318a8310",
+                "name": "m.pressian.com##div#mflick>div[style=\"clear:both; width:100%;background-color:#fff; padding:10px 0;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.pressian\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.flick-container>div[style=\"clear:both; width:100%;background-color:#fff; padding:8px 0;\"]"
+                        "selector": "div#mflick>div[style=\"clear:both; width:100%;background-color:#fff; padding:10px 0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "d18b73d1-18a4-4c3b-87bc-ec8b7a353543",
+                "name": "m.pressian.com##div#mflick>div[style=\"clear:both; width:100%;background-color:#fff; padding:8px 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.pressian\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mflick>div[style=\"clear:both; width:100%;background-color:#fff; padding:8px 0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "0dbd7fd7-f12d-4086-b5a1-edb75c37609c",
+                "name": "m.pressian.com##div.flick-container>div[style=\"clear:both; width:100%;background-color:#fff; margin: 0px 0px 10px 0px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.pressian\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.flick-container>div[style=\"clear:both; width:100%;background-color:#fff; margin: 0px 0px 10px 0px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "6bc63e37-0d6f-431a-8207-7cca8b4b9733",
+                "name": "m.pressian.com##div.flick-container>div[style=\"padding-bottom:10px;text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.pressian\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.flick-container>div[style=\"padding-bottom:10px;text-align:center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "c9a84b3a-c6da-4253-9657-dc5130df1363",
+                "name": "m.pressian.com##div.m01_arvM02>div[style=\"margin:10px 0px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.pressian\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m01_arvM02>div[style=\"margin:10px 0px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "d886e2ef-2e67-4ef8-8655-c88aa15ad69f",
+                "name": "m.pressian.com##div.m01_arvM02>div[style=\"text-align: center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.pressian\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m01_arvM02>div[style=\"text-align: center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "8f6857bb-1ae6-4f0b-a2ce-a99d4e8dcf67",
+                "name": "m.pressian.com##div.news_body_area>div[style=\"float:right; margin-left:10px; margin-top:7px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.pressian\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.news_body_area>div[style=\"float:right; margin-left:10px; margin-top:7px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "ae7c86c5-692e-4803-b8f7-d5d47ca87c07",
+                "name": "m.pressian.com##div.news_body_area>div[style=\"margin:10px auto; width:310px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.pressian\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.news_body_area>div[style=\"margin:10px auto; width:310px;\"]"
                     }
                 }
             },
