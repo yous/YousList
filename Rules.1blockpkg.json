@@ -9826,6 +9826,21 @@
                 }
             },
             {
+                "id": "8e643d8e-c4ad-481f-9dc4-2925f1b9022f",
+                "name": "comm.news.nate.com/Etc/ViewADThumb$domain=news.nate.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?comm\\.news\\.nate\\.com/Etc/ViewADThumb",
+                        "if-domain": [
+                            "news.nate.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2eea1496-f714-4f08-8310-39d3766c22de",
                 "name": "compass.adop.cc/RD/",
                 "content": {
@@ -54593,6 +54608,19 @@
                 }
             },
             {
+                "id": "293ef29a-a0af-4c06-a539-3a90de19851c",
+                "name": "news.nate.com##div#articleViewArea>div[style=\"margin: 40px 0 30px 0;font-size: 0\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#articleViewArea>div[style=\"margin: 40px 0 30px 0;font-size: 0\"]"
+                    }
+                }
+            },
+            {
                 "id": "9a0ad9e2-8a80-4534-9991-910f6cd8a066",
                 "name": "news.nate.com##div#newsmediaBanner",
                 "content": {
@@ -54732,6 +54760,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe#socialAD"
+                    }
+                }
+            },
+            {
+                "id": "96497987-8ec8-4a5a-a2c0-09c71190f698",
+                "name": "news.nate.com##iframe[src^=\"//comm.news.nate.com/Etc/ViewADThumb\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//comm.news.nate.com/Etc/ViewADThumb\"]"
                     }
                 }
             },
