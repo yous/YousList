@@ -941,6 +941,19 @@
                 }
             },
             {
+                "id": "f534439e-7d10-454f-a4e1-d941a4765be4",
+                "name": "##iframe[src^=\"//io1.innorame.com/imp/\"][src*=\".iframe\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//io1.innorame.com/imp/\"][src*=\".iframe\"]"
+                    }
+                }
+            },
+            {
                 "id": "216de843-977c-46af-b89d-3482f278424d",
                 "name": "##iframe[src^=\"//mrelko.com/bnrs/\"]",
                 "content": {
@@ -13170,6 +13183,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?inven\\.co\\.kr/common/lib/js/adns\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5ee7bfbf-89a2-4ef4-a326-11aa75c50063",
+                "name": "io1.innorame.com/imp/*.iframe",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?io1\\.innorame\\.com/imp/.*\\.iframe"
                     },
                     "action": {
                         "type": "block"
