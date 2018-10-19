@@ -18185,11 +18185,14 @@
                 }
             },
             {
-                "id": "3405b3c9-01fa-41b5-afb6-773b92ae194a",
-                "name": "smrmembers-smr.smartmediarep.com/smc/smrmembers/",
+                "id": "43603ed9-bd35-4f51-817b-e8f929b12780",
+                "name": "smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~news.sbs.co.kr",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?smrmembers-smr\\.smartmediarep\\.com/smc/smrmembers/"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?smrmembers-smr\\.smartmediarep\\.com/smc/smrmembers/",
+                        "unless-domain": [
+                            "news.sbs.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
