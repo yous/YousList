@@ -54554,6 +54554,19 @@
                 }
             },
             {
+                "id": "62b416d9-cb8e-4367-ab5a-2931fb50b9b0",
+                "name": "news.nate.com##div.view_banner_610x50",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view_banner_610x50"
+                    }
+                }
+            },
+            {
                 "id": "dce90e60-8a33-4208-9532-81b5088577f9",
                 "name": "news.nate.com##iframe#AdCommerce",
                 "content": {
