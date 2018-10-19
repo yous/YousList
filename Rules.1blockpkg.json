@@ -54708,6 +54708,19 @@
                 }
             },
             {
+                "id": "7d47ff3b-6ec2-4990-9eac-2cc4fafbf65a",
+                "name": "news.sbs.co.kr##div.article_cont_area>div[style=\"text-align: center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.sbs\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article_cont_area>div[style=\"text-align: center;\"]"
+                    }
+                }
+            },
+            {
                 "id": "c75d8f93-a21a-42a8-9813-99718a25e5ff",
                 "name": "news.sbs.co.kr##div.w_article_ad",
                 "content": {
