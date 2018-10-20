@@ -512,6 +512,19 @@
                 }
             },
             {
+                "id": "a5952e81-fee5-4aec-a89b-d21217885164",
+                "name": "##div.wpcnt",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wpcnt"
+                    }
+                }
+            },
+            {
                 "id": "9aa25ca2-7ec9-4ebf-939f-731cf9f09e35",
                 "name": "##div[data-widget_id=\"1oVxnLlP\"]",
                 "content": {
@@ -17632,6 +17645,18 @@
                 }
             },
             {
+                "id": "1f53d6a2-97cf-4946-a7ef-6bd34e1b3559",
+                "name": "s.pubmine.com/head.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?s\\.pubmine\\.com/head\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "74ac877b-58b2-448c-b7f4-86a0da44e5ef",
                 "name": "s.telegraph.co.uk/international/Barnebys/$domain=telegraph.co.uk",
                 "content": {
@@ -30701,32 +30726,6 @@
                 }
             },
             {
-                "id": "1d0d3c6f-c844-4db5-bbf1-075e757fffcf",
-                "name": "cocoaengineering.com##div.wpcnt",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cocoaengineering\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.wpcnt"
-                    }
-                }
-            },
-            {
-                "id": "a44366fe-bb07-4047-b738-f2a24463190f",
-                "name": "codeyarns.com##div.wpcnt",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?codeyarns\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.wpcnt"
-                    }
-                }
-            },
-            {
                 "id": "c67bf95e-da6b-49b6-9906-917924182dd6",
                 "name": "coinpan.com##div.gpe_side_contents_R>div>div[style=\"height: 200px; width: 200px; border:1px solid #dadada;\"]",
                 "content": {
@@ -38939,19 +38938,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#searchSponsorAd"
-                    }
-                }
-            },
-            {
-                "id": "f06522a2-2304-4ad9-a13f-efb7d343174d",
-                "name": "interpiler.com##div.wpcnt",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?interpiler\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.wpcnt"
                     }
                 }
             },
@@ -50600,19 +50586,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.relation_ad"
-                    }
-                }
-            },
-            {
-                "id": "72af6f03-f06a-48c6-8eac-5d5c356c512c",
-                "name": "mcuoneclipse.com##div.wpcnt",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mcuoneclipse\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.wpcnt"
                     }
                 }
             },
@@ -67773,19 +67746,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/news/sidebar_banner_realclick01.html\"]"
-                    }
-                }
-            },
-            {
-                "id": "f09c4c93-5374-4809-b514-67ae5b08fe78",
-                "name": "wordpress.com##div.wpcnt",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wordpress\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.wpcnt"
                     }
                 }
             },
