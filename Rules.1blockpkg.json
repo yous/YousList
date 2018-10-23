@@ -12572,6 +12572,21 @@
                 }
             },
             {
+                "id": "ca8ff20a-aa1c-48d2-bc52-9ef1f3e0bdf7",
+                "name": "ikunkang.com/bannerManager/upload/$domain=ikunkang.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ikunkang\\.com/bannerManager/upload/",
+                        "if-domain": [
+                            "ikunkang.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "3c66d127-b951-4bb3-860b-f1d2b05bf8b4",
                 "name": "ilbe.com/layouts/elkha_ilbe/js/board_top.js$domain=ilbe.com",
                 "content": {
@@ -14048,6 +14063,36 @@
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kukudas\\.com/img/freebody/",
                         "if-domain": [
                             "kukudas.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "205b79c7-73df-4a52-ac99-2eee861b80b1",
+                "name": "kunkang.co.kr/js/im01.js$domain=ikunkang.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kunkang\\.co\\.kr/js/im01\\.js",
+                        "if-domain": [
+                            "ikunkang.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "604d0344-eac1-4e67-a63d-ef02924f33af",
+                "name": "kunkang.co.kr/js/im02.js$domain=ikunkang.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kunkang\\.co\\.kr/js/im02\\.js",
+                        "if-domain": [
+                            "ikunkang.com"
                         ]
                     },
                     "action": {
@@ -38292,6 +38337,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#floating_banner_body"
+                    }
+                }
+            },
+            {
+                "id": "d7c25bca-4818-4e31-be06-751aa83055c5",
+                "name": "ikunkang.com##div#top_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ikunkang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#top_banner"
                     }
                 }
             },
