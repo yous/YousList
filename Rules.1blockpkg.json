@@ -13026,6 +13026,21 @@
                 }
             },
             {
+                "id": "e6bff98f-79a7-4a7e-989a-3cb8fe1e33f5",
+                "name": "img.quasarzone.co.kr/img/qsz_banner/$domain=quasarzone.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?img\\.quasarzone\\.co\\.kr/img/qsz_banner/",
+                        "if-domain": [
+                            "quasarzone.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a6830e9f-7c42-441a-87ba-60c4d06a7265",
                 "name": "img.sbs.co.kr/news/ad/delay_redirect.html$domain=news.sbs.co.kr",
                 "content": {
@@ -17241,6 +17256,21 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?qcma\\.qrobo\\.com/QCMA/common/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6793c072-078f-4da0-9220-2c539b00317f",
+                "name": "quasarzone.co.kr/bbs/banner.php$domain=quasarzone.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?quasarzone\\.co\\.kr/bbs/banner\\.php",
+                        "if-domain": [
+                            "quasarzone.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -58438,6 +58468,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.l_qq_com"
+                    }
+                }
+            },
+            {
+                "id": "b2f8f790-1c62-4347-b1c5-a875eff0558f",
+                "name": "quasarzone.co.kr##div.banner-box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?quasarzone\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-box"
+                    }
+                }
+            },
+            {
+                "id": "d5268007-3ce6-43a8-8812-8f9a6696d8a3",
+                "name": "quasarzone.co.kr##div.banner-box2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?quasarzone\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-box2"
+                    }
+                }
+            },
+            {
+                "id": "e7664c7a-6f76-4354-ab72-80d5c8d13b01",
+                "name": "quasarzone.co.kr##div.banner-box3",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?quasarzone\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-box3"
+                    }
+                }
+            },
+            {
+                "id": "3dfe6bfe-029f-4acf-bfbb-5c729fd70ecf",
+                "name": "quasarzone.co.kr##div.header-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?quasarzone\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.header-banner"
+                    }
+                }
+            },
+            {
+                "id": "6d7799b9-1e08-4cec-be9a-135c9ff17ae3",
+                "name": "quasarzone.co.kr##iframe[src^=\"https://quasarzone.co.kr/bbs/banner.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?quasarzone\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://quasarzone.co.kr/bbs/banner.php\"]"
                     }
                 }
             },
