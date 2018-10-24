@@ -18314,6 +18314,21 @@
                 }
             },
             {
+                "id": "62e83a53-06cc-4c80-8741-43a1071ee7b0",
+                "name": "shoplayer.zum.com/view/zum/hubzum/shoppingbox$domain=hub.zum.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?shoplayer\\.zum\\.com/view/zum/hubzum/shoppingbox",
+                        "if-domain": [
+                            "hub.zum.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "57b755ed-bc7e-47e2-98bc-f6927c784c82",
                 "name": "shoppingbox.joinsmsn.com",
                 "content": {
@@ -37778,6 +37793,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.video-boxad"
+                    }
+                }
+            },
+            {
+                "id": "e57559e2-6cbb-4a28-84ed-e3c8f3453b83",
+                "name": "hub.zum.com##div.aside_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hub\\.zum\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.aside_ad"
+                    }
+                }
+            },
+            {
+                "id": "5422f9ff-b422-43d3-97a1-1ac76c2c1162",
+                "name": "hub.zum.com##iframe[src^=\"http://shoplayer.zum.com/view/zum/hubzum/shoppingbox\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hub\\.zum\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://shoplayer.zum.com/view/zum/hubzum/shoppingbox\"]"
                     }
                 }
             },
