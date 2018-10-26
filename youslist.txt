@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: o5v6zhFq0uK81LKNs3Kj4w
+! Checksum: CdZsrsmmeRXEHuYPena3SQ
 ! Version: 20181026
 
 ! Workaround for BlockAdBlock
@@ -1587,6 +1587,7 @@
 ||tvple.com/ab/MW-O-*^$domain=tvple.com
 ||tvple.com/ab/PC-B-*^$domain=tvple.com
 ||tvple.com/ab/PC-O-*^$domain=tvple.com
+||tvseoul.kr/data/banner/$domain=tvseoul.kr
 ||typemoon.net/bn/ad/$domain=typemoon.net
 ||udmserve.net/udm/img.fetch^
 ||unionpress.co.kr/news/html_tpl/pr_ad.php^
@@ -4512,6 +4513,12 @@ tvple.com##iframe[src^="/ab/PC-O-"]
 tvple.com##section.col-playlist div.visible-box
 tvple.com##section.col-playlist>div.text-center
 tvreport.co.kr##div.advertise_02
+tvseoul.kr##div#news_body_area>div[style="clear:both;margin-bottom:10px;margin-top:10px;margin-left:10px;text-align:center;float:right;width:336px;height:280px;"]
+tvseoul.kr##div.banner_left
+tvseoul.kr##div.banner_right
+tvseoul.kr##div.banner_wrap
+tvseoul.kr##div.com_ban
+tvseoul.kr##div.top_banner
 twilog.org##div#ad-side-bottom
 twilog.org##div#ad-text
 twitter.com##div.promoted-tweet

@@ -20011,6 +20011,21 @@
                 }
             },
             {
+                "id": "9ac570de-62b2-48e5-84c6-33bb828217cf",
+                "name": "tvseoul.kr/data/banner/$domain=tvseoul.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvseoul\\.kr/data/banner/",
+                        "if-domain": [
+                            "tvseoul.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "035fd3f6-66f4-40ad-bd4d-bc8e00a1fbce",
                 "name": "typemoon.net/bn/ad/$domain=typemoon.net",
                 "content": {
@@ -65862,6 +65877,84 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.advertise_02"
+                    }
+                }
+            },
+            {
+                "id": "a2653574-11cf-48be-a4fc-e8484b134ebd",
+                "name": "tvseoul.kr##div#news_body_area>div[style=\"clear:both;margin-bottom:10px;margin-top:10px;margin-left:10px;text-align:center;float:right;width:336px;height:280px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvseoul\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#news_body_area>div[style=\"clear:both;margin-bottom:10px;margin-top:10px;margin-left:10px;text-align:center;float:right;width:336px;height:280px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "715e3236-f7d8-4667-b1bc-94af36adce1a",
+                "name": "tvseoul.kr##div.banner_left",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvseoul\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_left"
+                    }
+                }
+            },
+            {
+                "id": "55776d60-63ad-462d-b768-7500b32f7b07",
+                "name": "tvseoul.kr##div.banner_right",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvseoul\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_right"
+                    }
+                }
+            },
+            {
+                "id": "7676b8bc-ee92-493f-b8d3-dfc8703dce41",
+                "name": "tvseoul.kr##div.banner_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvseoul\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_wrap"
+                    }
+                }
+            },
+            {
+                "id": "7915e3ee-fc8f-4702-971d-c416bd4d0673",
+                "name": "tvseoul.kr##div.com_ban",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvseoul\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.com_ban"
+                    }
+                }
+            },
+            {
+                "id": "37d3ca3a-251e-48ff-a71d-2a8c848a64bd",
+                "name": "tvseoul.kr##div.top_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvseoul\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top_banner"
                     }
                 }
             },
