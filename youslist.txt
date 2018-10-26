@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: CdZsrsmmeRXEHuYPena3SQ
+! Checksum: NZCyYQzvu/y3+S1X67Wy2g
 ! Version: 20181026
 
 ! Workaround for BlockAdBlock
@@ -1443,7 +1443,8 @@
 ||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js^
 ||securite.01net.com/ac^
 ||segye.com/Articles/Components/Ad/
-||seoul.co.kr/news/datawaveAD.php^
+||seoul.co.kr/ad/iconad_seoul_iframe.html^$domain=seoul.co.kr
+||seoul.co.kr/news/datawaveAD.php^$domain=seoul.co.kr
 ||serv.ads.pixiv.org^
 ||serve.popads.net/c^
 ||serve.popads.net/checkInventory.php^
@@ -1707,6 +1708,7 @@
 9to5mac.com##div.widget_ninetofive_netshelter_ad
 9to5mac.com##img[data-image-title="NativeBanner750by150"]
 9to5toys.com##div.tha4673a86
+adp.issuepoll.net##ul>li[onclick^="javascript:goAd("]
 ads1.issuepoll.co.kr##ul>li[onclick^="javascript:goAd("]
 afbbs.afreecatv.com##div#div_video_ad_banner
 alldatasheet.com##td#idAD1
@@ -4153,6 +4155,7 @@ seoul.co.kr##div#eMartDiv
 seoul.co.kr##div.hed_ad
 seoul.co.kr##iframe#InbnetInspaceAdFrame
 seoul.co.kr##iframe#iwm_float_iframe
+seoul.co.kr##iframe[src^="/ad/iconad_seoul_iframe.html"]
 seoul.co.kr##iframe[src^="/news/datawaveAD.php"]
 seoul.co.kr##table#seoulAdTable
 share.notizie.it##div#infsCrit468
