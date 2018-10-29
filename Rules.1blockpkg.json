@@ -10883,6 +10883,18 @@
                 }
             },
             {
+                "id": "3691396a-e04b-496d-b64e-0a9eab19e620",
+                "name": "dreamsearch.or.kr/servlet/adPlayLinkBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dreamsearch\\.or\\.kr/servlet/adPlayLinkBanner"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d88ec350-f380-4840-a1df-698176f0ea89",
                 "name": "dreamsearch.or.kr/servlet/adPlayLinkServlet",
                 "content": {
@@ -12870,6 +12882,21 @@
                 }
             },
             {
+                "id": "8fb95234-f79f-4e3f-90b2-078851a54d2a",
+                "name": "images.christiantoday.co.kr/views/js/mezzo_outstream.min.js$domain=christiantoday.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?images\\.christiantoday\\.co\\.kr/views/js/mezzo_outstream\\.min\\.js",
+                        "if-domain": [
+                            "christiantoday.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "263f1d4a-b6a2-4b70-989b-42a494fe6a56",
                 "name": "images.dable.io/ad/",
                 "content": {
@@ -13028,6 +13055,18 @@
                         "if-domain": [
                             "luukku.com"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "bce91787-17be-4d05-a380-2bfc2fc7e6f2",
+                "name": "img.mobon.net/js/elpBackUnder.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?img\\.mobon\\.net/js/elpBackUnder\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -30337,6 +30376,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.service_center_ad"
+                    }
+                }
+            },
+            {
+                "id": "32b55cbb-c4e0-40c6-88f6-bdbc444fe6cd",
+                "name": "christiantoday.co.kr##div#mezzoOutstreamBox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?christiantoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mezzoOutstreamBox"
+                    }
+                }
+            },
+            {
+                "id": "60369c39-6c66-4727-a1c0-f6736a0228c2",
+                "name": "christiantoday.co.kr##div#prismad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?christiantoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#prismad"
+                    }
+                }
+            },
+            {
+                "id": "aa50ebef-06bc-458f-b6fb-a50069d2fe0f",
+                "name": "christiantoday.co.kr##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?christiantoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
                     }
                 }
             },
