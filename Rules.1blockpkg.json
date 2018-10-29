@@ -7944,11 +7944,14 @@
                 }
             },
             {
-                "id": "4a9079c0-3f88-41f8-92e3-05b319ad5fb9",
-                "name": "biz.chosun.com/ad/",
+                "id": "df16cdd3-09bf-4656-80af-8a97315d969e",
+                "name": "biz.chosun.com/ad/$domain=biz.chosun.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.chosun\\.com/ad/"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.chosun\\.com/ad/",
+                        "if-domain": [
+                            "biz.chosun.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -7956,11 +7959,29 @@
                 }
             },
             {
-                "id": "ad4d5682-bba7-4fb0-b41f-6c9e9f32b004",
-                "name": "biz.chosun.com/dhtm/js/2012_ad_biz.js",
+                "id": "b936484c-c10a-46aa-aac9-2bd192207b0e",
+                "name": "biz.chosun.com/dhtm/2018/js/biz_art_ad.js$domain=biz.chosun.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.chosun\\.com/dhtm/js/2012_ad_biz\\.js"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.chosun\\.com/dhtm/2018/js/biz_art_ad\\.js",
+                        "if-domain": [
+                            "biz.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9cf642fe-afa9-45ee-8488-b5fe8a8869b5",
+                "name": "biz.chosun.com/dhtm/js/2012_ad_biz.js$domain=biz.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.chosun\\.com/dhtm/js/2012_ad_biz\\.js",
+                        "if-domain": [
+                            "biz.chosun.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -26236,132 +26257,80 @@
                 }
             },
             {
-                "id": "33a670d3-7142-4338-9bb1-5405591bfc71",
-                "name": "biz.chosun.com##div#Google",
+                "id": "5c9c1e0e-2854-4f71-b36e-35c03331dbb0",
+                "name": "biz.chosun.com##div.ad1",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#Google"
+                        "selector": "div.ad1"
                     }
                 }
             },
             {
-                "id": "41b54a3e-11b1-47de-bdf2-4e1eb91f0407",
-                "name": "biz.chosun.com##div#TopBanner",
+                "id": "e95aec86-d7b1-424a-88bf-784dceedc7fe",
+                "name": "biz.chosun.com##div.ad2",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#TopBanner"
+                        "selector": "div.ad2"
                     }
                 }
             },
             {
-                "id": "15a30e22-980d-44fd-984d-1a43f8bf7868",
-                "name": "biz.chosun.com##div#ad1",
+                "id": "ed30ade6-c071-4041-9f16-9dd030ead11f",
+                "name": "biz.chosun.com##div.ad_gg_top",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ad1"
+                        "selector": "div.ad_gg_top"
                     }
                 }
             },
             {
-                "id": "c0019e6b-745d-45e6-b885-da699640a679",
-                "name": "biz.chosun.com##div#ad2",
+                "id": "baadc7c5-0cca-4bda-85cf-cc8033b473f7",
+                "name": "biz.chosun.com##div.biz_left_ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ad2"
+                        "selector": "div.biz_left_ad"
                     }
                 }
             },
             {
-                "id": "73820449-8b5f-483c-8842-89bd12628898",
-                "name": "biz.chosun.com##div#left_AD2011",
+                "id": "06e18aa6-a222-46bc-9209-ced98f4bd76d",
+                "name": "biz.chosun.com##div.biz_right_ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#left_AD2011"
+                        "selector": "div.biz_right_ad"
                     }
                 }
             },
             {
-                "id": "ce4522b2-7fe2-44b7-b0d0-ddc65a5f9622",
-                "name": "biz.chosun.com##div#right_AD2011",
+                "id": "18efc693-be98-4e50-8a0a-3f386f28ea99",
+                "name": "biz.chosun.com##div.list_ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.chosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#right_AD2011"
-                    }
-                }
-            },
-            {
-                "id": "bfdad5da-adf1-4c93-a18f-fcc96a1cdc52",
-                "name": "biz.chosun.com##div.h_banner",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.chosun\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.h_banner"
-                    }
-                }
-            },
-            {
-                "id": "5f7a8dfb-6d60-421c-b968-9f41265bbd51",
-                "name": "biz.chosun.com##div[id^=\"realclick\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.chosun\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[id^=\"realclick\"]"
-                    }
-                }
-            },
-            {
-                "id": "05b6b5f9-5320-4f64-b005-df78da711a75",
-                "name": "biz.chosun.com##div[style=\"margin:0px 0 0px 0px;width:100%; text-align:center;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.chosun\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[style=\"margin:0px 0 0px 0px;width:100%; text-align:center;\"]"
-                    }
-                }
-            },
-            {
-                "id": "5804b8be-0560-48b8-864e-bbf786e2059b",
-                "name": "biz.chosun.com##div[style=\"padding:20px 0 0 0; width:298px;text-align:center;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?biz\\.chosun\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[style=\"padding:20px 0 0 0; width:298px;text-align:center;\"]"
+                        "selector": "div.list_ad"
                     }
                 }
             },
