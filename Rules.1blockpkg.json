@@ -62932,6 +62932,32 @@
                 }
             },
             {
+                "id": "3f40abfe-4a4d-4c10-96bc-629c3486c593",
+                "name": "thisisgame.com##div.rightmenu-height-long-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thisisgame\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rightmenu-height-long-banner"
+                    }
+                }
+            },
+            {
+                "id": "231a8af5-3f10-4c7a-b77a-1ac46dc355a9",
+                "name": "thisisgame.com##div.rightmenu-top-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thisisgame\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rightmenu-top-banner"
+                    }
+                }
+            },
+            {
                 "id": "3d8cda8f-7ad2-4abe-bb4c-8710fa1bfc8e",
                 "name": "thisisgame.com##div[id^=\"ad_layer\"]",
                 "content": {
