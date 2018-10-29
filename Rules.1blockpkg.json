@@ -14338,6 +14338,21 @@
                 }
             },
             {
+                "id": "44630f0f-5fbf-441a-a0cf-e2035939bb40",
+                "name": "m.chosun.com/biz_spo.html$domain=m.biz.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.chosun\\.com/biz_spo\\.html",
+                        "if-domain": [
+                            "m.biz.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1ee91e2b-0bdb-4943-837e-104a36171eec",
                 "name": "m.chosun.com/gnc1.html$domain=m.chosun.com",
                 "content": {
@@ -42295,6 +42310,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a.bnr_livboard"
+                    }
+                }
+            },
+            {
+                "id": "a6a44f6d-3f1e-4474-857f-28ed58abc6bd",
+                "name": "m.biz.chosun.com##div.ad_m_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.biz\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_m_bottom"
+                    }
+                }
+            },
+            {
+                "id": "bb6c4fe3-0554-4f71-88c1-49bfba321c5f",
+                "name": "m.biz.chosun.com##div.art_ad1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.biz\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_ad1"
+                    }
+                }
+            },
+            {
+                "id": "257dfd65-cdfc-4415-8817-1100be61bb0d",
+                "name": "m.biz.chosun.com##iframe[src^=\"http://m.chosun.com/biz_spo.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.biz\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://m.chosun.com/biz_spo.html\"]"
                     }
                 }
             },

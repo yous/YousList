@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: usTicx/UQJOhTCgZJwhH9w
+! Checksum: d49aX8EaDIlmHBCqQ1XKZQ
 ! Version: 20181029
 
 ! Workaround for BlockAdBlock
@@ -1143,6 +1143,7 @@
 ||m.asiatoday.co.kr/kn/adop2.js^$domain=m.asiatoday.co.kr
 ||m.asiatoday.co.kr/kn/inbnet.html^$domain=m.asiatoday.co.kr
 ||m.chosun.com/200.html^$domain=m.chosun.com
+||m.chosun.com/biz_spo.html^$domain=m.biz.chosun.com
 ||m.chosun.com/gnc1.html^$domain=m.chosun.com
 ||m.chosun.com/gnc2.html^$domain=m.chosun.com
 ||m.chosun.com/gnc3.html^$domain=m.chosun.com
@@ -2869,6 +2870,9 @@ m.asiatoday.co.kr##div[id^="div-lumi_"][style="height:80px;margin-top:15px"]
 m.asiatoday.co.kr##iframe[src^="/kn/ad/"]
 m.asiatoday.co.kr##iframe[src^="inbnet.html"]
 m.bbs1.agora.media.daum.net##a.bnr_livboard
+m.biz.chosun.com##div.ad_m_bottom
+m.biz.chosun.com##div.art_ad1
+m.biz.chosun.com##iframe[src^="http://m.chosun.com/biz_spo.html"]
 m.biz.khan.co.kr,m.khan.co.kr##div#adFrame1
 m.biz.khan.co.kr,m.khan.co.kr##div#photoAD
 m.biz.khan.co.kr,m.khan.co.kr##div.ad_thumb_btm
