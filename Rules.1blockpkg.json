@@ -47397,6 +47397,58 @@
                 }
             },
             {
+                "id": "0e3f1685-3626-4aad-a29a-b50dd7d8de74",
+                "name": "m.newspim.com##div#container>div[style=\"text-align: center; width: 100%; background-color: #171310; margin-top:5px; margin-bottom: 5px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.newspim\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#container>div[style=\"text-align: center; width: 100%; background-color: #171310; margin-top:5px; margin-bottom: 5px\"]"
+                    }
+                }
+            },
+            {
+                "id": "7fea344a-3f6c-4fdb-8958-37f14ff0b2d9",
+                "name": "m.newspim.com##div#container>header>div[style=\"margin-bottom: 20px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.newspim\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#container>header>div[style=\"margin-bottom: 20px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "92724d87-9e43-440c-8932-34eb99c91d51",
+                "name": "m.newspim.com##div#container>section:first-of-type>div[style=\"height:320px; margin-top:20px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.newspim\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#container>section:first-of-type>div[style=\"height:320px; margin-top:20px\"]"
+                    }
+                }
+            },
+            {
+                "id": "f2130d07-5774-4fd7-99a2-55326a96dcdb",
+                "name": "m.newspim.com##div#container>section:first-of-type>div[style=\"text-align: center\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.newspim\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#container>section:first-of-type>div[style=\"text-align: center\"]"
+                    }
+                }
+            },
+            {
                 "id": "20952a5a-2e11-46eb-a2dd-6e6154ffb838",
                 "name": "m.newsway.co.kr##div.ad_area",
                 "content": {
