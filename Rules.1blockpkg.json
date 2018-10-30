@@ -56016,6 +56016,19 @@
                 }
             },
             {
+                "id": "bdd9e4c2-a01a-4f4c-afee-3787c9b79288",
+                "name": "newspim.com##div#wrap>div[style=\"margin-bottom: 20px; border: 1px solid white; text-align: center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newspim\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wrap>div[style=\"margin-bottom: 20px; border: 1px solid white; text-align: center;\"]"
+                    }
+                }
+            },
+            {
                 "id": "291b7f92-c2ec-459f-b5bf-767aa2894b4e",
                 "name": "newspim.com##div.bodynews>div[style=\"margin-bottom: 20px; border: 1px solid white; text-align: center;\"]",
                 "content": {
@@ -56025,6 +56038,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.bodynews>div[style=\"margin-bottom: 20px; border: 1px solid white; text-align: center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "dc6c59f3-145c-4155-a712-2c3097c691b7",
+                "name": "newspim.com##div.txtbanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newspim\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.txtbanner"
+                    }
+                }
+            },
+            {
+                "id": "1bd93512-0337-44e3-b54a-4edea3045f9d",
+                "name": "newspim.com##div[data-widget_id=\"QXeveVoe\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newspim\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-widget_id=\"QXeveVoe\"]"
+                    }
+                }
+            },
+            {
+                "id": "a309e926-4e0e-4b45-bf9f-dba6b6ed2b01",
+                "name": "newspim.com##div[data-widget_id=\"ko8GEeXE\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newspim\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-widget_id=\"ko8GEeXE\"]"
                     }
                 }
             },
