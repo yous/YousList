@@ -37634,6 +37634,32 @@
                 }
             },
             {
+                "id": "1407a573-b94f-4c9e-a637-ba62ba5b85db",
+                "name": "hellven.net##a[href^=\"https://hellven.net/bbs/adver_link.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hellven\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"https://hellven.net/bbs/adver_link.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "6d41c222-fdfe-4967-a8d6-41df480fc02f",
+                "name": "hellven.net##div.col-md-3>a.thumbnail[style=\"margin-bottom:4px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hellven\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.col-md-3>a.thumbnail[style=\"margin-bottom:4px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "a913820a-f505-4836-aa78-3841e358aea1",
                 "name": "hentaifromhell.org##div#custom_html-2",
                 "content": {
