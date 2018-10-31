@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: oyuojW91XIGXmvWBq8M3ow
+! Checksum: ECP1N7lRZG1j41wMwgBAcw
 ! Version: 20181031
 
 ! Workaround for BlockAdBlock
@@ -81,6 +81,7 @@
 ##iframe[id^="google_ads_iframe_"]
 ##iframe[id^="nad_"]
 ##iframe[name="ifrad"]
+##iframe[src*="-ads.openx.net/w/1.0/afr"]
 ##iframe[src*="-d.openx.net/mw/1.0/afr"]
 ##iframe[src*="-d.openx.net/w/1.0/afr"]
 ##iframe[src*="/NetInsight/"]
@@ -268,7 +269,6 @@
 ##iframe[src^="http://tab2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html"]
 ##iframe[src^="http://tab2.clickmon.co.kr/pop/"]
 ##iframe[src^="http://tracker.adbinead.com/other/"][src$=".html"]
-##iframe[src^="http://us-ads.openx.net/w/1.0/afr"]
 ##iframe[src^="http://utildown.co.kr/adv/adv.php"]
 ##iframe[src^="http://veta.naver.com/fxshow"]
 ##iframe[src^="http://vod.shoppingcall.me/ad_shoppingCallme.php"]
@@ -318,6 +318,9 @@
 ##span.ezoic-ad
 
 ! URL filters
+*-ads.openx.net/w/1.0/acj^
+*-ads.openx.net/w/1.0/afr^
+*-ads.openx.net/w/1.0/jstag^
 *-d.openx.net/mw/1.0/afr^
 *-d.openx.net/mw/1.0/jstag^
 *-d.openx.net/w/1.0/acj^
@@ -1090,6 +1093,7 @@
 ||js-*.redtram.com/*/*/ticker_*.js^
 ||js-*.redtram.com/ticker_*.js^
 ||js-sec.indexww.com/ht/htw-gawker.js^
+||js-sec.indexww.com/ht/p/*.js^
 ||js.ad-score.com/score.min.js^
 ||js.ad-stir.com/js/adstir.js^
 ||js.ad4989.co.kr/etc/tjtune/float/common.js^
@@ -1601,8 +1605,6 @@
 ||uplus.kr/cd/cdNavi/retreieveHtml*JS*.dmd^
 ||uplus.kr/common/m_js/mobile_html_web*.js^
 ||urldelivery.com/watch.
-||us-ads.openx.net/w/1.0/afr^
-||us-ads.openx.net/w/1.0/jstag^
 ||util.simply-hentai.com/prod/*?d=$domain=simply-hentai.com
 ||utildown.co.kr/adv/adv.php^
 ||v5.actionteaser.ru/news.php^
@@ -2084,6 +2086,7 @@ dailymotion.com##div#bottom_banner
 dailymotion.com##div.ad
 dailymotion.com##div.mc
 dailymotion.com##div[class^="AdWatching__container___"]
+dailyrecord.co.uk##div.gpt
 dailysecu.com##div.banner_box
 danawa.com##div.banner_type4
 danawa.com##div.category_btm_banner

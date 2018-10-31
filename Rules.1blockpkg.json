@@ -798,6 +798,19 @@
                 }
             },
             {
+                "id": "f3d9cc3b-c9f0-4e48-8ac0-e197b59eb442",
+                "name": "##iframe[src*=\"-ads.openx.net/w/1.0/afr\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"-ads.openx.net/w/1.0/afr\"]"
+                    }
+                }
+            },
+            {
                 "id": "2c17491c-7533-48bc-8ded-128a00bf577f",
                 "name": "##iframe[src*=\"-d.openx.net/mw/1.0/afr\"]",
                 "content": {
@@ -3229,19 +3242,6 @@
                 }
             },
             {
-                "id": "c941ade7-c0ba-4564-b709-fcc51312fe45",
-                "name": "##iframe[src^=\"http://us-ads.openx.net/w/1.0/afr\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"http://us-ads.openx.net/w/1.0/afr\"]"
-                    }
-                }
-            },
-            {
                 "id": "75378f58-ed7b-4c78-bb40-58ed43b5c014",
                 "name": "##iframe[src^=\"http://utildown.co.kr/adv/adv.php\"]",
                 "content": {
@@ -3849,6 +3849,42 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "span.ezoic-ad"
+                    }
+                }
+            },
+            {
+                "id": "2de500ca-e6d7-413c-8715-73d41c2e40ca",
+                "name": "*-ads.openx.net/w/1.0/acj",
+                "content": {
+                    "trigger": {
+                        "url-filter": "-ads\\.openx\\.net/w/1\\.0/acj"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e0031b1a-cba9-4d94-ad1c-701e99fa93d6",
+                "name": "*-ads.openx.net/w/1.0/afr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "-ads\\.openx\\.net/w/1\\.0/afr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "54e8e50b-8af2-4088-a44f-65f39604d112",
+                "name": "*-ads.openx.net/w/1.0/jstag",
+                "content": {
+                    "trigger": {
+                        "url-filter": "-ads\\.openx\\.net/w/1\\.0/jstag"
+                    },
+                    "action": {
+                        "type": "block"
                     }
                 }
             },
@@ -13660,6 +13696,18 @@
                 }
             },
             {
+                "id": "f9a51d0f-3ad5-456c-baaf-0e4cc2bd8969",
+                "name": "js-sec.indexww.com/ht/p/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?js-sec\\.indexww\\.com/ht/p/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "3c0c5758-4fce-493b-b40e-2507b3568646",
                 "name": "js.ad-score.com/score.min.js",
                 "content": {
@@ -20199,30 +20247,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?urldelivery\\.com/watch\\."
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "ddc80d7d-8bd7-4dca-b029-b043ebcb3311",
-                "name": "us-ads.openx.net/w/1.0/afr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?us-ads\\.openx\\.net/w/1\\.0/afr"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "8ca9173f-208f-4ea2-bd08-1fa42b4c601a",
-                "name": "us-ads.openx.net/w/1.0/jstag",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?us-ads\\.openx\\.net/w/1\\.0/jstag"
                     },
                     "action": {
                         "type": "block"
@@ -31806,6 +31830,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"AdWatching__container___\"]"
+                    }
+                }
+            },
+            {
+                "id": "273ac5f4-c384-48c7-92bb-dd8b475fcbcb",
+                "name": "dailyrecord.co.uk##div.gpt",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailyrecord\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.gpt"
                     }
                 }
             },
