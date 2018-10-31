@@ -26233,6 +26233,58 @@
                 }
             },
             {
+                "id": "225b5bc7-4a07-450e-8eef-08015fedf633",
+                "name": "bemil.chosun.com##div.ad_fix_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bemil\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_fix_bottom"
+                    }
+                }
+            },
+            {
+                "id": "c4208b1a-bbef-48f9-9fba-c948956468dc",
+                "name": "bemil.chosun.com##div.bannerBox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bemil\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bannerBox"
+                    }
+                }
+            },
+            {
+                "id": "788c0e82-0489-4c3f-8022-eb46293edea5",
+                "name": "bemil.chosun.com##div.view_bottom_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bemil\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view_bottom_ad"
+                    }
+                }
+            },
+            {
+                "id": "a2c9f44d-30de-4aab-be8e-b058be71a22b",
+                "name": "bemil.chosun.com##iframe[src^=\"http://news.chosun.com/google_tag/google_tag_bemil_2015.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bemil\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://news.chosun.com/google_tag/google_tag_bemil_2015.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "29735b2b-2ea6-45fb-83c6-1323537b6ced",
                 "name": "bfmtv.com##div.onf-ad",
                 "content": {
