@@ -41766,6 +41766,19 @@
                 }
             },
             {
+                "id": "b1c4340d-e5a0-47ab-99ff-0db0e878f9a5",
+                "name": "kotaku.com##div.ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kotaku\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container"
+                    }
+                }
+            },
+            {
                 "id": "107b4f97-71aa-414c-af8e-41443fbc32bc",
                 "name": "kotaku.com##div.ad-wide",
                 "content": {
@@ -41788,6 +41801,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "36bcf66f-3b94-4565-98c1-405e1f93755a",
+                "name": "kotaku.com##div.js_ad-dynamic",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kotaku\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.js_ad-dynamic"
                     }
                 }
             },
