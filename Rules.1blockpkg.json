@@ -38685,6 +38685,19 @@
                 }
             },
             {
+                "id": "05ac6139-d541-4647-9608-bf92368a7ed9",
+                "name": "ilbe.com##body>div[style=\"text-align:center;margin-top:5px;margin-bottom:4px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"text-align:center;margin-top:5px;margin-bottom:4px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "b2d2523a-30c5-40be-8bb9-aabdcbee5c19",
                 "name": "ilbe.com##body>div[style=\"width:100%; text-align:center;margin-bottom:5px;\"]",
                 "content": {
@@ -38850,6 +38863,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#madlayer_top2"
+                    }
+                }
+            },
+            {
+                "id": "e9f838a8-c6ed-4a09-8d20-0d6eb7a862f9",
+                "name": "ilbe.com##div.co>div[style=\"text-align:center;margin-bottom:15px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ilbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.co>div[style=\"text-align:center;margin-bottom:15px;\"]"
                     }
                 }
             },
