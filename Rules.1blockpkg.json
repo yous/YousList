@@ -31771,6 +31771,19 @@
                 }
             },
             {
+                "id": "959b86b5-d617-414d-a230-f9e51f09030c",
+                "name": "dailymail.co.uk##div.ad-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailymail\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-wrapper"
+                    }
+                }
+            },
+            {
                 "id": "781734ce-d1ba-4116-8caf-53bc3e18e5cc",
                 "name": "dailymail.co.uk##div.billboard_wrapper",
                 "content": {
