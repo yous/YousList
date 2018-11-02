@@ -15020,6 +15020,21 @@
                 }
             },
             {
+                "id": "1c28b374-923f-453b-97a6-496610da23d0",
+                "name": "m.zdnet.co.kr/template/ads.asp$domain=m.zdnet.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.zdnet\\.co\\.kr/template/ads\\.asp",
+                        "if-domain": [
+                            "m.zdnet.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d9963d78-34d0-474b-afe5-34bf24ed75f4",
                 "name": "m1.daumcdn.net/adtc/js/mobilead.js",
                 "content": {
@@ -50125,6 +50140,19 @@
                 }
             },
             {
+                "id": "397b5505-82ab-4091-8251-827aca597fb2",
+                "name": "m.zdnet.co.kr##div.sub_container>div[style=\"text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.zdnet\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sub_container>div[style=\"text-align:center;\"]"
+                    }
+                }
+            },
+            {
                 "id": "2c732b9e-bdf2-463d-9042-0c562aafb274",
                 "name": "m.zdnet.co.kr##div.sub_view_cont>div[style=\"top:0px; position:relative; float:right; width:200px; height:200px; padding:0 0 10px 10px;\"]",
                 "content": {
@@ -50147,6 +50175,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.view_ad_1"
+                    }
+                }
+            },
+            {
+                "id": "9e2782c5-d1c0-4732-b203-6d029f963cd6",
+                "name": "m.zdnet.co.kr##iframe[src^=\"/template/ads.asp\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.zdnet\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/template/ads.asp\"]"
                     }
                 }
             },
