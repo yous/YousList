@@ -65909,6 +65909,32 @@
                 }
             },
             {
+                "id": "e6fa3de5-1aef-496f-8801-9c380c0cac09",
+                "name": "trustedreviews.com##div.advert",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?trustedreviews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advert"
+                    }
+                }
+            },
+            {
+                "id": "56bcad06-590a-44ee-8d5b-bbbf647c1f0f",
+                "name": "trustedreviews.com##div.header-advert-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?trustedreviews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.header-advert-wrapper"
+                    }
+                }
+            },
+            {
                 "id": "adeea491-6eff-4009-a160-736afbde9c26",
                 "name": "ttocorps.com##a[href^=\"../page/ad.php\"]",
                 "content": {
