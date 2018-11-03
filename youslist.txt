@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: XEl3I4vfYdZw4rGkKZZqqw
+! Checksum: 1T4q/JCSnX6r0ZQfk4ikrQ
 ! Version: 20181103
 
 ! Workaround for BlockAdBlock
@@ -872,7 +872,12 @@
 ||docdocdoc.co.kr/banner/rollbanner_*.html^$domain=docdocdoc.co.kr
 ||dogjoa.com/img/07/$domain=dogjoa.com
 ||dogjoa.com/img/08/$domain=dogjoa.com
+||dogjoa.com/img/11/$domain=dogjoa.com
 ||dogjoa.com/img/new/$domain=dogjoa.com
+||dogzoa.com/img/07/$domain=dogzoa.com
+||dogzoa.com/img/08/$domain=dogzoa.com
+||dogzoa.com/img/11/$domain=dogzoa.com
+||dogzoa.com/img/new/$domain=dogzoa.com
 ||dotcomconsultancy.advertserve.com/servlet/view/banner/javascript/ajax/crossdomain/zone^
 ||dreamsearch.or.kr/ad/
 ||dreamsearch.or.kr/adnet/
@@ -2161,9 +2166,11 @@ dkbnews.donga.com##div.boardAD01
 docdocdoc.co.kr##iframe[src^="/banner/rollbanner_"][src$=".html"]
 dogdrip.net##div.clayerbox-left-ad
 dogdrip.net##div.clayerbox-right-ad
-dogjoa.com##div.exo
-dogjoa.com##div.movie-bot
-dogjoa.com##div.movie-top
+dogjoa.com,dogzoa.com##div.at-title
+dogjoa.com,dogzoa.com##div.exo
+dogjoa.com,dogzoa.com##div.movie-bot
+dogjoa.com,dogzoa.com##div.movie-top
+dogjoa.com,dogzoa.com##div.nlin
 dpg.danawa.com##div#danawa-community-main-adBanner-self
 dpg.danawa.com##div#danawa-dpg-mobile-common-powerLink-self
 dpg.danawa.com##div#mobile_dpg_view_bottom1

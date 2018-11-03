@@ -10832,6 +10832,21 @@
                 }
             },
             {
+                "id": "2b596715-33c1-4a6b-8c2c-1a3a023f6048",
+                "name": "dogjoa.com/img/11/$domain=dogjoa.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogjoa\\.com/img/11/",
+                        "if-domain": [
+                            "dogjoa.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a23ad169-eb61-4a9d-a15b-7f6459e566df",
                 "name": "dogjoa.com/img/new/$domain=dogjoa.com",
                 "content": {
@@ -10839,6 +10854,66 @@
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogjoa\\.com/img/new/",
                         "if-domain": [
                             "dogjoa.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "266b0c76-f162-45cd-9597-ad5e90d709f3",
+                "name": "dogzoa.com/img/07/$domain=dogzoa.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogzoa\\.com/img/07/",
+                        "if-domain": [
+                            "dogzoa.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "75291dd5-b7bb-4a3c-b8ec-a2fa9ca0c9ce",
+                "name": "dogzoa.com/img/08/$domain=dogzoa.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogzoa\\.com/img/08/",
+                        "if-domain": [
+                            "dogzoa.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "beee9de1-d697-4828-9082-9db585ac79c9",
+                "name": "dogzoa.com/img/11/$domain=dogzoa.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogzoa\\.com/img/11/",
+                        "if-domain": [
+                            "dogzoa.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ae779b4b-3d29-44a7-9ed2-2e6cf8b1ffd1",
+                "name": "dogzoa.com/img/new/$domain=dogzoa.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogzoa\\.com/img/new/",
+                        "if-domain": [
+                            "dogzoa.com"
                         ]
                     },
                     "action": {
@@ -32837,11 +32912,50 @@
                 }
             },
             {
+                "id": "315aeaa5-b8f3-464e-8381-0fe8c4751de4",
+                "name": "dogjoa.com##div.at-title",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogjoa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.at-title"
+                    }
+                }
+            },
+            {
+                "id": "a6f0814d-a56e-4c25-9660-c51603de563e",
+                "name": "dogzoa.com##div.at-title",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogzoa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.at-title"
+                    }
+                }
+            },
+            {
                 "id": "11ea38c3-9be2-42a6-9585-bd9ec229de81",
                 "name": "dogjoa.com##div.exo",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogjoa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.exo"
+                    }
+                }
+            },
+            {
+                "id": "595e72b4-a151-4e5b-99bf-6e23c2079c28",
+                "name": "dogzoa.com##div.exo",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogzoa\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -32863,6 +32977,19 @@
                 }
             },
             {
+                "id": "8c07f5aa-c5ac-4fe5-ab0d-7ad481f0aed8",
+                "name": "dogzoa.com##div.movie-bot",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogzoa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.movie-bot"
+                    }
+                }
+            },
+            {
                 "id": "f47f27c0-b0b1-47a2-b7bb-504f59969001",
                 "name": "dogjoa.com##div.movie-top",
                 "content": {
@@ -32872,6 +32999,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.movie-top"
+                    }
+                }
+            },
+            {
+                "id": "e36ba3ab-e520-4911-a6a7-f7b60d76c0ad",
+                "name": "dogzoa.com##div.movie-top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogzoa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.movie-top"
+                    }
+                }
+            },
+            {
+                "id": "d4c95f9a-597c-42fd-888b-44ffa9f3747c",
+                "name": "dogjoa.com##div.nlin",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogjoa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.nlin"
+                    }
+                }
+            },
+            {
+                "id": "7b87ab59-ce63-45a2-9287-3235339e63dc",
+                "name": "dogzoa.com##div.nlin",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dogzoa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.nlin"
                     }
                 }
             },
