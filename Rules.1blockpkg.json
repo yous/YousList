@@ -12969,6 +12969,22 @@
                 }
             },
             {
+                "id": "8f5eddfc-aaa6-4a9f-8c86-190e802fa234",
+                "name": "image.ruliweb.com/view/view.js$domain=bbs.ruliweb.com|m.ruliweb.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?image\\.ruliweb\\.com/view/view\\.js",
+                        "if-domain": [
+                            "bbs.ruliweb.com",
+                            "m.ruliweb.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "561cf337-b323-4023-83a5-df17d3e2052e",
                 "name": "image.wownet.co.kr/static/banner/*/flash/",
                 "content": {
