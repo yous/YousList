@@ -14147,6 +14147,21 @@
                 }
             },
             {
+                "id": "212f712f-0556-418b-b96e-c41426edce1f",
+                "name": "kbench.com/article_right_box.php$domain=kbench.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kbench\\.com/article_right_box\\.php",
+                        "if-domain": [
+                            "kbench.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c043b756-d020-4097-b4e3-af2bed035a76",
                 "name": "keyword.ad4989.co.kr",
                 "content": {
@@ -18545,6 +18560,21 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sh\\.adingo\\.jp"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8080f10b-43ed-4035-bbbf-0df32b33a90b",
+                "name": "shop.kbench.com/09shop/article_right_box.php$domain=kbench.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?shop\\.kbench\\.com/09shop/article_right_box\\.php",
+                        "if-domain": [
+                            "kbench.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -40750,6 +40780,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[name=\"ifmadver\"]"
+                    }
+                }
+            },
+            {
+                "id": "233c2055-f082-41e4-bf4e-4aaff8b407e9",
+                "name": "kbench.com##iframe[src^=\"//www.kbench.com/article_right_box.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kbench\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//www.kbench.com/article_right_box.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "4e018b78-54ed-41f5-846a-60ae7516ea27",
+                "name": "kbench.com##iframe[src^=\"https://shop.kbench.com/09shop/article_right_box.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kbench\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://shop.kbench.com/09shop/article_right_box.php\"]"
                     }
                 }
             },
