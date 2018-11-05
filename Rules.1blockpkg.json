@@ -16513,6 +16513,21 @@
                 }
             },
             {
+                "id": "f60e5723-4b58-4f0b-9120-f2a06a9f02ed",
+                "name": "newsprime.co.kr/data/banner/$domain=newsprime.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newsprime\\.co\\.kr/data/banner/",
+                        "if-domain": [
+                            "newsprime.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a7d47d75-1bac-4e26-8d98-61d7f0a5a3a7",
                 "name": "newswave.kr/ad/",
                 "content": {
@@ -56592,6 +56607,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[data-widget_id=\"ko8GEeXE\"]"
+                    }
+                }
+            },
+            {
+                "id": "9def588a-15d4-433a-a340-0cbd716eaa96",
+                "name": "newsprime.co.kr##a[href^=\"http://www.newsprime.co.kr/news/banner_click.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newsprime\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"http://www.newsprime.co.kr/news/banner_click.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "cd227615-296e-4c34-8738-f66f871e94c7",
+                "name": "newsprime.co.kr##div.section_4>div[style=\"padding-bottom:10px;text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newsprime\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.section_4>div[style=\"padding-bottom:10px;text-align:center;\"]"
                     }
                 }
             },
