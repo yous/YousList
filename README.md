@@ -7,8 +7,8 @@ and [AdGuard][].
 
 [Adblock Plus]: https://adblockplus.org/
 [uBlock Origin]: https://github.com/gorhill/uBlock
-[1Blocker]: http://1blocker.com/
-[AdAway]: https://github.com/Free-Software-for-Android/AdAway
+[1Blocker]: https://1blocker.com/
+[AdAway]: https://github.com/AdAway/AdAway
 [AdGuard]: https://adguard.com/
 
 ## Usage
