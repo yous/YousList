@@ -14162,6 +14162,21 @@
                 }
             },
             {
+                "id": "05f0af4b-e4c9-4722-b8a9-5011aae8c343",
+                "name": "kbench.com/m_article_right_box.php$domain=m.kbench.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kbench\\.com/m_article_right_box\\.php",
+                        "if-domain": [
+                            "m.kbench.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c043b756-d020-4097-b4e3-af2bed035a76",
                 "name": "keyword.ad4989.co.kr",
                 "content": {
@@ -46305,6 +46320,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#flotting_layer"
+                    }
+                }
+            },
+            {
+                "id": "64597070-217b-4ccf-a266-e853597cdf65",
+                "name": "m.kbench.com##iframe[src^=\"https://kbench.com/m_article_right_box.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.kbench\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://kbench.com/m_article_right_box.php\"]"
                     }
                 }
             },

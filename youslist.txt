@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Checksum: RD039sgGhhB6wAJJUyNG1g
+! Checksum: rnQHIS8InbtiTN5VCFWEvg
 ! Version: 20181105
 
 ! Workaround for BlockAdBlock
@@ -1130,6 +1130,7 @@
 ||jtpress.kr/ShareMaxBanner*.php^
 ||k77hof1z7k.com/*.js^
 ||kbench.com/article_right_box.php^$domain=kbench.com
+||kbench.com/m_article_right_box.php^$domain=m.kbench.com
 ||keyword.ad4989.co.kr^
 ||khan.co.kr/ad/
 ||kmib.co.kr/cp/realclick/
@@ -3159,6 +3160,7 @@ m.inven.co.kr##div#cauly_ad_area
 m.inven.co.kr##div#cauly_ad_area3
 m.inven.co.kr##div.mobileAdNs
 m.kbench.com##div#flotting_layer
+m.kbench.com##iframe[src^="https://kbench.com/m_article_right_box.php"]
 m.khan.co.kr##div.ad_cont
 m.khan.co.kr##div.social_btm
 m.kin.naver.com##div#adContextMobile
