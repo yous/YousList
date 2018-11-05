@@ -9,10 +9,6 @@
 ## Pull requests
 
 - Make sure that every entry follows [Adblock Plus filter rules](https://adblockplus.org/en/filters).
-- Update the [checksum](https://adblockplus.org/en/filters#special-comments).
-  If you use Vim, you can use [adblock-filter.vim](https://github.com/mojako/adblock-filter.vim).
-  Also you can run `./bin/add_checksum.py youslist.txt > youslist.txt`.
-  Validate the checksum by running `./bin/validate_checksum.py youslist.txt`.
 - Update the version with the format `yyyyMMdd`.
 - Alphabetically order every entry. Check it by running `./bin/check_sorted.py youslist.txt`.
 - Do not add extra empty line.

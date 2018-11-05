@@ -2,9 +2,6 @@
 set -e
 DIR="$(cd "$(dirname "$0")/.." && pwd)"
 
-echo "python bin/validate_checksum.py youslist.txt"
-python "${DIR}/bin/validate_checksum.py" "${DIR}/youslist.txt"
-
 echo "python bin/check_sorted.py youslist.txt"
 python "${DIR}/bin/check_sorted.py" "${DIR}/youslist.txt"
 
