@@ -8106,6 +8106,21 @@
                 }
             },
             {
+                "id": "b007719a-cf88-4902-b6b7-2175d886d1ae",
+                "name": "bodnara.co.kr/09shop/article_right_box.php$domain=bodnara.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bodnara\\.co\\.kr/09shop/article_right_box\\.php",
+                        "if-domain": [
+                            "bodnara.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c6818e4c-e361-4c43-b554-a5077d941b33",
                 "name": "bodnara.co.kr/advert/advert.php",
                 "content": {
@@ -28341,6 +28356,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe#main_banner_B"
+                    }
+                }
+            },
+            {
+                "id": "689ed7c1-0b94-4d98-bddb-9c5fff182bb7",
+                "name": "bodnara.co.kr##iframe[src^=\"/09shop/article_right_box.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bodnara\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/09shop/article_right_box.php\"]"
                     }
                 }
             },
