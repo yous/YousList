@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20181105
+! Version: 20181106
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -616,6 +616,7 @@
 ||amp.assets.huffpost.com/scripts/scripts/sticky-ads.js^$domain=huffingtonpost.kr
 ||amsv2.daum.net/ad/
 ||an.yandex.ru/system/context.js^
+||anewsa.com/advert_view.php^$domain=anewsa.com
 ||ani119.com/public/adv/$domain=ani119.com
 ||animefreak.tv/sites/all/modules/custom/anime/ads/
 ||animefreak.tv/sites/all/modules/custom/anime/yanone.html^
@@ -1745,6 +1746,10 @@ amic.ru##div[id^="amic_banner_"]
 amp.businessinsider.com##main div.ad-container
 androidcentral.com##div.adunit-wrap
 androidpub.com##div.dLink
+anewsa.com##div#ir_bnr2
+anewsa.com##div#mainAsideW>div[style="position:absolute; top:2070px; left:50%; margin-left:-55px;"]
+anewsa.com##div#mainBanner05
+anewsa.com##div[data-widget_id="KoEYP8oB"]
 ani119.com##div.each_adv_center
 ani119.com##iframe[src^="http://www.ani119.com/public/adv/"]
 anigod.com##div.episode-video-ad-container
