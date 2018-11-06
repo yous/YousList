@@ -4051,6 +4051,18 @@
                 }
             },
             {
+                "id": "4ec5c9b1-b800-4490-a4d1-e1413b197b5f",
+                "name": "*/bannerManager/inc_m/*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "/bannerManager/inc_m/.*\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "563dd42c-3678-413a-846f-ce586ded5005",
                 "name": "*/detroitchicago/edmonton.webp",
                 "content": {
@@ -45610,6 +45622,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "section.advertisment"
+                    }
+                }
+            },
+            {
+                "id": "0d31e23e-c87a-4f94-9004-83c2c5da6186",
+                "name": "m.gokorea.kr##div[data-widget_id=\"V7av0xlB\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.gokorea\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-widget_id=\"V7av0xlB\"]"
                     }
                 }
             },
