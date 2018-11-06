@@ -9098,12 +9098,14 @@
                 }
             },
             {
-                "id": "5605a5a7-ada3-453e-8920-326f281b511c",
-                "name": "cast.imp.joins.com/bid/$domain=news.jtbc.joins.com",
+                "id": "825db55c-3243-4877-a73c-4ca1b468069a",
+                "name": "cast.imp.joins.com/bid/$domain=ooyala.com|news.joins.com|news.jtbc.joins.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cast\\.imp\\.joins\\.com/bid/",
                         "if-domain": [
+                            "ooyala.com",
+                            "news.joins.com",
                             "news.jtbc.joins.com"
                         ]
                     },
