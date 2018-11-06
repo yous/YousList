@@ -2384,6 +2384,19 @@
                 }
             },
             {
+                "id": "5071184e-3ffd-4d2b-9491-3e509c96aef1",
+                "name": "##iframe[src^=\"http://dis.site3.co.kr/tdn/banner2.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://dis.site3.co.kr/tdn/banner2.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "06b72a31-d539-4c56-a7ad-d0b7c9d85ae1",
                 "name": "##iframe[src^=\"http://display.ad.daum.net/imp\"]",
                 "content": {
@@ -7490,6 +7503,21 @@
                 }
             },
             {
+                "id": "37599f29-b8ab-41bf-8afa-c905e65b0439",
+                "name": "anewsa.com/master/banner/$domain=m.anewsa.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?anewsa\\.com/master/banner/",
+                        "if-domain": [
+                            "m.anewsa.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "e4c0a735-d5f3-4248-a57f-4fdbb28915b9",
                 "name": "ani119.com/public/adv/$domain=ani119.com",
                 "content": {
@@ -10612,6 +10640,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dianomi\\.com/smartads\\.epl"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "340f305e-9bd6-4c2a-9afd-18b6c874c992",
+                "name": "dis.site3.co.kr/tdn/appl.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dis\\.site3\\.co\\.kr/tdn/appl\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8a591080-711c-4fe3-bdb4-f6620955c89c",
+                "name": "dis.site3.co.kr/tdn/banner2.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dis\\.site3\\.co\\.kr/tdn/banner2\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -17401,6 +17453,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?polltest\\.azurewebsites\\.net/Polls/Ads"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b2372794-127f-42f7-8c52-b8817c7f7428",
+                "name": "pop.site3.co.kr/poco.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pop\\.site3\\.co\\.kr/poco\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -42699,6 +42763,84 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a.bnr_livboard"
+                    }
+                }
+            },
+            {
+                "id": "4ac02495-0d41-4183-bb95-ee956077af2b",
+                "name": "m.anewsa.com##div#addin-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.anewsa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#addin-ad"
+                    }
+                }
+            },
+            {
+                "id": "c76abf45-42e4-410e-b9fb-f41492081cde",
+                "name": "m.anewsa.com##div#wide>div[style=\"text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.anewsa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wide>div[style=\"text-align:center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "54e153a9-8fcf-4945-9eb1-411ec1a7da9c",
+                "name": "m.anewsa.com##div.ad_wide_box_naon",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.anewsa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_wide_box_naon"
+                    }
+                }
+            },
+            {
+                "id": "5a58035a-147e-448b-87bb-cad871262490",
+                "name": "m.anewsa.com##div.applad-areas",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.anewsa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.applad-areas"
+                    }
+                }
+            },
+            {
+                "id": "4230dc84-b350-4c0b-a5ed-e2594823fd42",
+                "name": "m.anewsa.com##div.tdn-areas",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.anewsa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.tdn-areas"
+                    }
+                }
+            },
+            {
+                "id": "8c3e3b5b-1c4a-46cd-867e-30a5245d246f",
+                "name": "m.anewsa.com##div.wrap>div[style=\"text-align:center\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.anewsa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wrap>div[style=\"text-align:center\"]"
                     }
                 }
             },
