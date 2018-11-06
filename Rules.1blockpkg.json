@@ -36606,6 +36606,19 @@
                 }
             },
             {
+                "id": "a014bc88-276a-4300-bcb7-07877d570760",
+                "name": "gall.dcinside.com##ul.reply_list>li.dory.ub-content",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gall\\.dcinside\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.reply_list>li.dory.ub-content"
+                    }
+                }
+            },
+            {
                 "id": "194394dd-ba1f-4a23-a172-d4eddf366f2e",
                 "name": "game.xportsnews.com##div.ad_1",
                 "content": {
