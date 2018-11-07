@@ -10577,18 +10577,6 @@
                 }
             },
             {
-                "id": "847f1ff8-d040-4f44-ac78-375ff47e7836",
-                "name": "delivery.vidible.tv/jsonp/*.js",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?delivery\\.vidible\\.tv/jsonp/.*\\.js"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "8eda8de8-6944-4c68-8a4c-98730432ef73",
                 "name": "deliverys.n2s.co.kr/afm.php",
                 "content": {
@@ -62771,6 +62759,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[id^=\"frag_\"]"
+                    }
+                }
+            },
+            {
+                "id": "64f89b6d-9544-4d2b-a814-b61ff8443f6d",
+                "name": "stuff.co.nz##div#ad-section-top-left-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?stuff\\.co\\.nz"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad-section-top-left-container"
+                    }
+                }
+            },
+            {
+                "id": "05565c41-cc2e-4112-8b4f-731b616f01c3",
+                "name": "stuff.co.nz##div.display-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?stuff\\.co\\.nz"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.display-ad"
+                    }
+                }
+            },
+            {
+                "id": "e48155b5-fbf2-4da3-a844-ef8b63f808cd",
+                "name": "stuff.co.nz##div.sics-component__ad-space",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?stuff\\.co\\.nz"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sics-component__ad-space"
+                    }
+                }
+            },
+            {
+                "id": "80089679-7121-4e6f-a5fa-ea3c5c2091c6",
+                "name": "stuff.co.nz##div.sponsered-link-adverts",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?stuff\\.co\\.nz"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sponsered-link-adverts"
+                    }
+                }
+            },
+            {
+                "id": "2c6bb804-3901-470e-b120-53d948891592",
+                "name": "stuff.co.nz##span.sics-component__app__top-ads-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?stuff\\.co\\.nz"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span.sics-component__app__top-ads-container"
                     }
                 }
             },
