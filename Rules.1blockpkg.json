@@ -63438,6 +63438,45 @@
                 }
             },
             {
+                "id": "6185b969-fd65-4445-98d9-d5c942e1863f",
+                "name": "tgd.kr##div.frame>div:not([class]):not([id])>div[style=\"padding:0 20px 15px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tgd\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.frame>div:not([class]):not([id])>div[style=\"padding:0 20px 15px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "d53306ac-c57f-4fe4-8b6d-feebca591dcc",
+                "name": "tgd.kr##div.frame>div[align=\"center\"][style=\"background:#fff;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tgd\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.frame>div[align=\"center\"][style=\"background:#fff;\"]"
+                    }
+                }
+            },
+            {
+                "id": "adc46dfe-7750-4317-bd77-2f700fe1c3b1",
+                "name": "tgd.kr##div.frame>div[style=\"background:#fff;    background: #fff;\\a     padding: 20px 0;\\a     margin-top: -14px;\\a     text-align: center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tgd\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.frame>div[style=\"background:#fff;    background: #fff;\\a     padding: 20px 0;\\a     margin-top: -14px;\\a     text-align: center;\"]"
+                    }
+                }
+            },
+            {
                 "id": "7066425b-7d23-4ab3-8881-d57217817446",
                 "name": "theappl.com##div#pop_layer_banner",
                 "content": {

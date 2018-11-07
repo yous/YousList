@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20181106
+! Version: 20181107
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -4454,6 +4454,9 @@ tf.co.kr##iframe[src^="http://www.tf.co.kr/public/ad/"]
 tfnews.co.kr##div.banner_wrap
 tfnews.co.kr##div.com_ban
 tfnews.co.kr##div.top_banner
+tgd.kr##div.frame>div:not([class]):not([id])>div[style="padding:0 20px 15px;"]
+tgd.kr##div.frame>div[align="center"][style="background:#fff;"]
+tgd.kr##div.frame>div[style="background:#fff;    background: #fff;\a     padding: 20px 0;\a     margin-top: -14px;\a     text-align: center;"]
 theappl.com##div#pop_layer_banner
 theappl.com##div#rt_banner1
 theappl.com##div#rt_banner2
