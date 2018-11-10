@@ -60605,6 +60605,84 @@
                 }
             },
             {
+                "id": "438f800a-2821-4deb-9f7b-c7e93ea8d298",
+                "name": "serverfault.com##div#dfp-mlb",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?serverfault\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#dfp-mlb"
+                    }
+                }
+            },
+            {
+                "id": "a5325461-4efe-4e3c-8b96-7bba978eae1a",
+                "name": "stackoverflow.com##div#dfp-mlb",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?stackoverflow\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#dfp-mlb"
+                    }
+                }
+            },
+            {
+                "id": "7e023d31-e785-4bbc-b522-0125bdefeda2",
+                "name": "superuser.com##div#dfp-mlb",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?superuser\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#dfp-mlb"
+                    }
+                }
+            },
+            {
+                "id": "e247477c-4120-4d73-a7fd-e946098471ca",
+                "name": "serverfault.com##div#dfp-tlb",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?serverfault\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#dfp-tlb"
+                    }
+                }
+            },
+            {
+                "id": "f2929bcc-b9fa-4538-8e24-c62b5129ffec",
+                "name": "stackoverflow.com##div#dfp-tlb",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?stackoverflow\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#dfp-tlb"
+                    }
+                }
+            },
+            {
+                "id": "732a6d11-bf3c-4e28-bad8-bff53c622daa",
+                "name": "superuser.com##div#dfp-tlb",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?superuser\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#dfp-tlb"
+                    }
+                }
+            },
+            {
                 "id": "689d9896-255d-4f70-a5e0-9b38db80216b",
                 "name": "share.notizie.it##div#infsCrit468",
                 "content": {
@@ -62408,58 +62486,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.article>div[style=\"TEXT-ALIGN: center\"]"
-                    }
-                }
-            },
-            {
-                "id": "a5325461-4efe-4e3c-8b96-7bba978eae1a",
-                "name": "stackoverflow.com##div#dfp-mlb",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?stackoverflow\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#dfp-mlb"
-                    }
-                }
-            },
-            {
-                "id": "7e023d31-e785-4bbc-b522-0125bdefeda2",
-                "name": "superuser.com##div#dfp-mlb",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?superuser\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#dfp-mlb"
-                    }
-                }
-            },
-            {
-                "id": "f2929bcc-b9fa-4538-8e24-c62b5129ffec",
-                "name": "stackoverflow.com##div#dfp-tlb",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?stackoverflow\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#dfp-tlb"
-                    }
-                }
-            },
-            {
-                "id": "732a6d11-bf3c-4e28-bad8-bff53c622daa",
-                "name": "superuser.com##div#dfp-tlb",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?superuser\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#dfp-tlb"
                     }
                 }
             },
