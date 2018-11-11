@@ -8263,6 +8263,21 @@
                 }
             },
             {
+                "id": "c6c28d59-34b2-440b-a6a2-fbef59c14430",
+                "name": "bubbletorrent.com/banner/$domain=bubbletorrent.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bubbletorrent\\.com/banner/",
+                        "if-domain": [
+                            "bubbletorrent.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "eff821e0-1b9f-4c57-b3a0-fdf142c0a5c7",
                 "name": "bullseye.backbeatmedia.com/bullseye/adserver/",
                 "content": {
@@ -28634,6 +28649,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.contents_read>table:nth-of-type(2)>tbody>tr>td[style=\"padding-top:10px\"]"
+                    }
+                }
+            },
+            {
+                "id": "30c080cd-d7d2-4ebd-82f4-21c22b0749c9",
+                "name": "bubbletorrent.com##div.bannerP",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bubbletorrent\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bannerP"
                     }
                 }
             },
