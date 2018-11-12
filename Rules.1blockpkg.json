@@ -9706,6 +9706,18 @@
                 }
             },
             {
+                "id": "d4e91a60-6615-4029-9f36-f5b6615781f5",
+                "name": "cdn4.wibbitz.com/*/embed.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn4\\.wibbitz\\.com/.*/embed\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "7d01fd97-9ff7-4eb1-a394-ecee59987227",
                 "name": "cdnjs.cloudflare.com/ajax/libs/lazyad-loader/*/lazyad-loader.min.js",
                 "content": {
@@ -21574,6 +21586,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zdnet\\.co\\.kr/pixel2/pixel_top\\.htm"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8b318507-573b-4b39-8297-c856c5dca01a",
+                "name": "zergnet.com/zerg.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zergnet\\.com/zerg\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -64385,6 +64409,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad250_outter"
+                    }
+                }
+            },
+            {
+                "id": "d5932a75-05eb-4970-aaf1-9469502a47da",
+                "name": "tmz.com##div.main-leaderboard-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tmz\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.main-leaderboard-ad"
+                    }
+                }
+            },
+            {
+                "id": "1ede37d3-f084-4444-9c1e-4a0632d19de6",
+                "name": "tmz.com##div.sidebar-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tmz\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sidebar-ad"
                     }
                 }
             },
