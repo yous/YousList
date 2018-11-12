@@ -50061,6 +50061,45 @@
                 }
             },
             {
+                "id": "66b693ac-cd42-4a7c-80ef-91087b76b635",
+                "name": "m.tmz.com##div#region-ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.tmz\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#region-ads"
+                    }
+                }
+            },
+            {
+                "id": "a47e150f-3cec-4917-8c77-e59b561f8f7f",
+                "name": "m.tmz.com##div.region-gpt",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.tmz\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.region-gpt"
+                    }
+                }
+            },
+            {
+                "id": "9676a437-f60f-4cd9-ab9a-74f2a8c698ff",
+                "name": "m.tmz.com##div.region-zergnet",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.tmz\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.region-zergnet"
+                    }
+                }
+            },
+            {
                 "id": "6dbedfee-0765-47f0-b5f0-87846783c393",
                 "name": "m.torrentcup.net##a[href^=\"/to_toto.html\"]",
                 "content": {
