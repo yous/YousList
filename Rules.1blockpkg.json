@@ -39273,6 +39273,32 @@
                 }
             },
             {
+                "id": "915fa41e-afee-45fd-814e-cef72eca83e3",
+                "name": "ign.com##div.chess",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ign\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.chess"
+                    }
+                }
+            },
+            {
+                "id": "f7f9d813-3cab-418e-a24f-3f53e86a6bfd",
+                "name": "ign.com##section.ign-pre-grid",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ign\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.ign-pre-grid"
+                    }
+                }
+            },
+            {
                 "id": "c0fa28b4-76f2-41d3-8645-c64a32b3410e",
                 "name": "ikoreadaily.co.kr##div#CmAdContent>div[style=\"float:left; margin-right:10px; text-align:center; width:100%;\"]",
                 "content": {
