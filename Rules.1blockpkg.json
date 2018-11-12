@@ -34828,6 +34828,19 @@
                 }
             },
             {
+                "id": "92c48d7d-91b4-4e86-89af-6034fbf71fbe",
+                "name": "entertain.v.daum.net##div.shopad_entertain",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?entertain\\.v\\.daum\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.shopad_entertain"
+                    }
+                }
+            },
+            {
                 "id": "cb87af27-decf-4a07-bc7d-12a1827961bc",
                 "name": "esports.dailygame.co.kr##div#talklink_chatAd",
                 "content": {
