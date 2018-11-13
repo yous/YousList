@@ -16264,6 +16264,36 @@
                 }
             },
             {
+                "id": "ab87fc86-0028-46f0-b61c-7214baec4f9c",
+                "name": "newdaily.co.kr/data/base/ad/*.js$domain=newdaily.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newdaily\\.co\\.kr/data/base/ad/.*\\.js",
+                        "if-domain": [
+                            "newdaily.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "80813554-dd48-4ef5-9c11-807a3db1cbff",
+                "name": "newdaily.co.kr/data/base/banner/*.js$domain=newdaily.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newdaily\\.co\\.kr/data/base/banner/.*\\.js",
+                        "if-domain": [
+                            "newdaily.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1e487012-79f3-49d4-963f-af6c786ef049",
                 "name": "news.chosun.com/chosun/chosunad.html",
                 "content": {
