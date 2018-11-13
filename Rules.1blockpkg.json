@@ -38777,6 +38777,19 @@
                 }
             },
             {
+                "id": "c4917195-f0bc-4eea-bf21-8441ce465a59",
+                "name": "hub.zum.com##div.aside_shopping_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hub\\.zum\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.aside_shopping_box"
+                    }
+                }
+            },
+            {
                 "id": "5422f9ff-b422-43d3-97a1-1ac76c2c1162",
                 "name": "hub.zum.com##iframe[src^=\"http://shoplayer.zum.com/view/zum/hubzum/shoppingbox\"]",
                 "content": {
