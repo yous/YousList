@@ -15140,6 +15140,21 @@
                 }
             },
             {
+                "id": "e45787b4-d3af-4efd-b923-23e872013a5c",
+                "name": "m.pann.nate.com/da/AdBandBanner$domain=m.pann.nate.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.pann\\.nate\\.com/da/AdBandBanner",
+                        "if-domain": [
+                            "m.pann.nate.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "179ebe97-42c3-4a72-b6f9-2f673a8b6062",
                 "name": "m.pann.nate.com/da/AdBigBanner$domain=m.pann.nate.com",
                 "content": {
@@ -48943,6 +48958,19 @@
                 }
             },
             {
+                "id": "9cb0c1ae-584a-448d-bf40-c24547e6ffd8",
+                "name": "m.pann.nate.com##div.ad_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.pann\\.nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_banner"
+                    }
+                }
+            },
+            {
                 "id": "1812f902-b8ff-40e0-a493-943aa7b052cc",
                 "name": "m.pann.nate.com##div.ad_box_text",
                 "content": {
@@ -48991,6 +49019,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.bannerNate"
+                    }
+                }
+            },
+            {
+                "id": "1c8e8076-6457-4982-9852-c928de2422d1",
+                "name": "m.pann.nate.com##iframe[src^=\"/da/AdBandBanner\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.pann\\.nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/da/AdBandBanner\"]"
                     }
                 }
             },

@@ -1198,6 +1198,7 @@
 ||m.metroseoul.co.kr/common/js/custom/script_*_ad.js^$domain=m.metroseoul.co.kr
 ||m.news1.kr/template/ads/$domain=m.news1.kr
 ||m.nocutnews.co.kr/ad/adnca.html^$domain=m.nocutnews.co.kr
+||m.pann.nate.com/da/AdBandBanner^$domain=m.pann.nate.com
 ||m.pann.nate.com/da/AdBigBanner^$domain=m.pann.nate.com
 ||m.pann.nate.com/da/shopbox^$domain=m.pann.nate.com
 ||m.pressian.com/data/banner/$domain=m.pressian.com
@@ -3359,10 +3360,12 @@ m.ohmynews.com##div#ad_box
 m.ohmynews.com##div.ad_box_outline
 m.ohmynews.com##main>div.ad:not([id])
 m.pann.nate.com##div.ad_area
+m.pann.nate.com##div.ad_banner
 m.pann.nate.com##div.ad_box_text
 m.pann.nate.com##div.adtive_box
 m.pann.nate.com##div.bannerBtm
 m.pann.nate.com##div.bannerNate
+m.pann.nate.com##iframe[src^="/da/AdBandBanner"]
 m.pann.nate.com##iframe[src^="/da/AdBigBanner"]
 m.pann.nate.com##iframe[src^="/da/shopbox"]
 m.pann.nate.com##iframe[src^="http://networkad.nate.com/nate/mobile_pann.html"]
