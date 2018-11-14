@@ -9125,15 +9125,16 @@
                 }
             },
             {
-                "id": "825db55c-3243-4877-a73c-4ca1b468069a",
-                "name": "cast.imp.joins.com/bid/$domain=ooyala.com|news.joins.com|news.jtbc.joins.com",
+                "id": "53d2887f-4858-495b-ac7d-3367e621b6e3",
+                "name": "cast.imp.joins.com/bid/$domain=ooyala.com|news.joins.com|news.jtbc.joins.com|vod.jtbc.joins.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cast\\.imp\\.joins\\.com/bid/",
                         "if-domain": [
                             "ooyala.com",
                             "news.joins.com",
-                            "news.jtbc.joins.com"
+                            "news.jtbc.joins.com",
+                            "vod.jtbc.joins.com"
                         ]
                     },
                     "action": {
@@ -9142,13 +9143,14 @@
                 }
             },
             {
-                "id": "76d93ca4-c060-4441-8609-7c9658dca8c2",
-                "name": "cast.imp.joins.com/body/$domain=news.joins.com",
+                "id": "809c78c5-8395-4b55-af4b-eba3bf261324",
+                "name": "cast.imp.joins.com/body/$domain=news.joins.com|vod.jtbc.joins.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cast\\.imp\\.joins\\.com/body/",
                         "if-domain": [
-                            "news.joins.com"
+                            "news.joins.com",
+                            "vod.jtbc.joins.com"
                         ]
                     },
                     "action": {
@@ -9157,13 +9159,14 @@
                 }
             },
             {
-                "id": "df4926a2-8043-4c1b-bc0c-d96b20e384fc",
-                "name": "cast.imp.joins.com/persona.js$domain=news.joins.com",
+                "id": "37435d0c-5740-445b-be7e-18805f3cfff8",
+                "name": "cast.imp.joins.com/persona.js$domain=news.joins.com|vod.jtbc.joins.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cast\\.imp\\.joins\\.com/persona\\.js",
                         "if-domain": [
-                            "news.joins.com"
+                            "news.joins.com",
+                            "vod.jtbc.joins.com"
                         ]
                     },
                     "action": {
