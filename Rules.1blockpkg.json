@@ -12215,6 +12215,36 @@
                 }
             },
             {
+                "id": "3df7ab0f-3734-44a0-854c-4b93bb44dfe3",
+                "name": "ggilbo.com/banner/banner_roll_msidebtm.html$domain=ggilbo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ggilbo\\.com/banner/banner_roll_msidebtm\\.html",
+                        "if-domain": [
+                            "ggilbo.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "20091cd8-bf22-40f1-aa19-835a73d1a0d9",
+                "name": "ggilbo.com/bannerpop/uploads/js/*.js$domain=ggilbo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ggilbo\\.com/bannerpop/uploads/js/.*\\.js",
+                        "if-domain": [
+                            "ggilbo.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "5c9c5fc0-9a16-4a03-b4ef-7bdbc10761e6",
                 "name": "gigglehd.com/banner/*.jpg",
                 "content": {
@@ -14844,6 +14874,21 @@
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.fmkorea\\.com/_adpage/",
                         "if-domain": [
                             "m.fmkorea.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "23ab3d19-99fd-4041-8c26-a232620d3207",
+                "name": "m.ggilbo.com/banner/banner_roll_msidebtm.html$domain=ggilbo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.ggilbo\\.com/banner/banner_roll_msidebtm\\.html",
+                        "if-domain": [
+                            "ggilbo.com"
                         ]
                     },
                     "action": {
@@ -37168,6 +37213,123 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/banner/\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
+                "id": "55d98b7b-6c74-414f-a533-2811c14061de",
+                "name": "ggilbo.com##article.article-veiw-body div[style=\"width:100%; height:250px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ggilbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "article.article-veiw-body div[style=\"width:100%; height:250px\"]"
+                    }
+                }
+            },
+            {
+                "id": "4d6ab4ed-1290-4068-b8bd-b1ef4b4e0655",
+                "name": "ggilbo.com##aside.user-aside>div[style=\"text-align:center\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ggilbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.user-aside>div[style=\"text-align:center\"]"
+                    }
+                }
+            },
+            {
+                "id": "0d8fc847-4fbb-4a69-af5a-57341b801330",
+                "name": "ggilbo.com##div#articleBody>center[style=\"margin:15px 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ggilbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#articleBody>center[style=\"margin:15px 0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "9e62c3a5-28a3-46b0-84cc-190f7a14a0a6",
+                "name": "ggilbo.com##div#articleBody>div[style=\"text-align:center\"]>div[style=\"display:inline; float:center; margin-left:10px; margin-bottom:10px; padding-top:15px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ggilbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#articleBody>div[style=\"text-align:center\"]>div[style=\"display:inline; float:center; margin-left:10px; margin-bottom:10px; padding-top:15px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "31d7ea0a-2f04-43b1-ac23-c9985a13c965",
+                "name": "ggilbo.com##div.user-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ggilbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.user-banner"
+                    }
+                }
+            },
+            {
+                "id": "9fc3f554-59f8-4a00-8be5-a3a659e9a8f3",
+                "name": "ggilbo.com##div[data-widget_id=\"klr8AJom\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ggilbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-widget_id=\"klr8AJom\"]"
+                    }
+                }
+            },
+            {
+                "id": "d7ab7b4b-9704-43f5-a536-5e3dcf408a9c",
+                "name": "ggilbo.com##div[data-widget_id=\"plqBvEXO\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ggilbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-widget_id=\"plqBvEXO\"]"
+                    }
+                }
+            },
+            {
+                "id": "bea019db-52b4-4387-b98e-5e6f10baec2a",
+                "name": "ggilbo.com##iframe[src^=\"http://m.ggilbo.com/banner/banner_roll_msidebtm.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ggilbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://m.ggilbo.com/banner/banner_roll_msidebtm.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "c88bca66-d142-4f40-bddf-faa2175635ae",
+                "name": "ggilbo.com##iframe[src^=\"http://www.ggilbo.com/banner/banner_roll_msidebtm.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ggilbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.ggilbo.com/banner/banner_roll_msidebtm.html\"]"
                     }
                 }
             },
