@@ -38636,6 +38636,32 @@
                 }
             },
             {
+                "id": "72d2c44e-8a5d-431d-907f-e53295048fde",
+                "name": "hiphople.com##div.mobile_banner1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hiphople\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobile_banner1"
+                    }
+                }
+            },
+            {
+                "id": "e65eabbb-f3cd-4ee6-b163-3b759777a69b",
+                "name": "hiphople.com##div.rd_body>div[style=\"text-align:center; margin-top:25px; margin-bottom:25px; padding:15px 0; background: #fff;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hiphople\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rd_body>div[style=\"text-align:center; margin-top:25px; margin-bottom:25px; padding:15px 0; background: #fff;\"]"
+                    }
+                }
+            },
+            {
                 "id": "afdac8f0-362b-4b13-a2b2-35e11b745994",
                 "name": "hiphopplaya.com##div#ad_comment_bottom",
                 "content": {
