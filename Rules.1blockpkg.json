@@ -63375,6 +63375,45 @@
                 }
             },
             {
+                "id": "20022e9d-11b2-4c64-9b57-d14465b5205d",
+                "name": "stoo.asiae.co.kr##div.left_inside",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?stoo\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.left_inside"
+                    }
+                }
+            },
+            {
+                "id": "f727ecf1-c54c-40b3-8dc3-d08d1347df8d",
+                "name": "stoo.asiae.co.kr##div[class*=\" banner_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?stoo\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class*=\" banner_\"]"
+                    }
+                }
+            },
+            {
+                "id": "d0d2d6ed-a816-461a-9c88-b580299ee9af",
+                "name": "stoo.asiae.co.kr##div[class^=\"banner_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?stoo\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"banner_\"]"
+                    }
+                }
+            },
+            {
                 "id": "2d2d1ff7-b4c2-4f17-873b-663943a2c214",
                 "name": "story369.com##div#frm>div[style=\"position:absolute;top:635px;left:-190px;width:120px;height:600px;\"]",
                 "content": {
