@@ -1188,6 +1188,19 @@
                 }
             },
             {
+                "id": "5bea983d-b398-4360-b882-2e2ba1b5f3a0",
+                "name": "##iframe[src^=\"//ssp.realclick.co.kr/\"][src*=\"c=iframe\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//ssp.realclick.co.kr/\"][src*=\"c=iframe\"]"
+                    }
+                }
+            },
+            {
                 "id": "8c5eabba-94b8-4c50-88de-3590eb5ba3fb",
                 "name": "##iframe[src^=\"//syndication.traffichaus.com/adserve/index.php\"]",
                 "content": {
@@ -35646,6 +35659,58 @@
                 }
             },
             {
+                "id": "45ea1ca7-4050-4ae5-9e97-7c888cfc45db",
+                "name": "etoland.co.kr##body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(1)[valign=\"top\"][width=\"470\"]>table:nth-of-type(2)[cellspacing=\"0\"][width=\"100%cellpadding=0\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etoland\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(1)[valign=\"top\"][width=\"470\"]>table:nth-of-type(2)[cellspacing=\"0\"][width=\"100%cellpadding=0\"]"
+                    }
+                }
+            },
+            {
+                "id": "fc850e67-e60f-4dfd-a123-c8ac5263db16",
+                "name": "etorrent.co.kr##body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(1)[valign=\"top\"][width=\"470\"]>table:nth-of-type(2)[cellspacing=\"0\"][width=\"100%cellpadding=0\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etorrent\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(1)[valign=\"top\"][width=\"470\"]>table:nth-of-type(2)[cellspacing=\"0\"][width=\"100%cellpadding=0\"]"
+                    }
+                }
+            },
+            {
+                "id": "36080f71-815e-4081-9fbe-aecb9907a074",
+                "name": "etorrent.kr##body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(1)[valign=\"top\"][width=\"470\"]>table:nth-of-type(2)[cellspacing=\"0\"][width=\"100%cellpadding=0\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etorrent\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(1)[valign=\"top\"][width=\"470\"]>table:nth-of-type(2)[cellspacing=\"0\"][width=\"100%cellpadding=0\"]"
+                    }
+                }
+            },
+            {
+                "id": "5a68b5b6-1465-41aa-9316-c80cfa4cbddc",
+                "name": "etoland.co.kr##body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"][width=\"300\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etoland\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"][width=\"300\"]"
+                    }
+                }
+            },
+            {
                 "id": "8300d0ea-5f6d-46c2-9940-c3dcec620bc9",
                 "name": "etorrent.co.kr##body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"][width=\"300\"]",
                 "content": {
@@ -35672,6 +35737,19 @@
                 }
             },
             {
+                "id": "8aeeeed8-7d69-48f3-bd89-ce3025db0c56",
+                "name": "etoland.co.kr##body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(5)",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etoland\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(5)"
+                    }
+                }
+            },
+            {
                 "id": "15036ca3-ab0f-488e-9509-bb97f701982f",
                 "name": "etorrent.co.kr##body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(5)",
                 "content": {
@@ -35694,58 +35772,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(5)"
-                    }
-                }
-            },
-            {
-                "id": "81890a56-607f-4e7d-b541-d69ef8a83aa8",
-                "name": "etorrent.co.kr##iframe[src^=\"./etorrent/728_90_2.php\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etorrent\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"./etorrent/728_90_2.php\"]"
-                    }
-                }
-            },
-            {
-                "id": "3ab00ce2-f019-4c83-b31a-ce27d18a90e4",
-                "name": "etorrent.kr##iframe[src^=\"./etorrent/728_90_2.php\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etorrent\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"./etorrent/728_90_2.php\"]"
-                    }
-                }
-            },
-            {
-                "id": "1c3b833b-82e0-41f4-b491-e61d60b9bc66",
-                "name": "etorrent.co.kr##iframe[src^=\"etorrent/300_250.php\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etorrent\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"etorrent/300_250.php\"]"
-                    }
-                }
-            },
-            {
-                "id": "40a80604-c154-4b63-ae39-12dbfc18379d",
-                "name": "etorrent.kr##iframe[src^=\"etorrent/300_250.php\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etorrent\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"etorrent/300_250.php\"]"
                     }
                 }
             },
