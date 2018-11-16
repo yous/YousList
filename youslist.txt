@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20181115
+! Version: 20181116
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -207,6 +207,7 @@
 ##iframe[src^="http://display.ad.daum.net/imp"]
 ##iframe[src^="http://disqusads.com/ads-iframe/adsnative/"]
 ##iframe[src^="http://dsp.adzon.net/at/view.php"]
+##iframe[src^="http://dspserver.adpnut.com/ron/html/"]
 ##iframe[src^="http://etc.gamechosun.co.kr/banner/"]
 ##iframe[src^="http://exttag.about.co.kr/cgi-bin/PelicanC.dll"]
 ##iframe[src^="http://file.osen.co.kr/web2/html/realclick_ad.html"]
@@ -908,6 +909,7 @@
 ||dsp.adzon.net/at/view.php^
 ||dsp.dmcmedia.co.kr/*/*.mp4^
 ||dsp.xapads.com/adscript.php^
+||dspserver.adpnut.com/ron/html/
 ||dt.co.kr/js/top_ad.js^
 ||dyn.loolav.space/plyclosablebanner/pclosablebanner.min.js^
 ||e-cdn-files.deezer.com/ads/$domain=deezer.com
@@ -3002,6 +3004,9 @@ m.busan.com##div#wrap>div[style="width:100%; margin:0 auto; padding:1px 0 0 0"]
 m.busan.com##div#wrap>div[style="width:300px; height:250px; margin:0 auto; padding:10px 0 10px 0;"]
 m.busan.com##div#wrap>div[style="width:300px; height:250px; margin:0 auto; padding:15px 0 5px 0;"]
 m.busan.com##iframe[src^="http://www.busan.com/nas/rssimage/adrss6.html"]
+m.busan.com##section#cont>div[style="width:320px; height:100px; margin:0 auto; padding:10px 0 0 0;"]
+m.busan.com##section#cont>div[style="width:320px; height:100px; margin:0 auto; padding:10px 0 10px 0;"]
+m.busan.com##section#cont>div[style="width:320px; height:40px; margin:0 auto; padding:10px 0 10px 0;"]
 m.cafe.naver.com##div.area_sa
 m.chosun.com##div.ad
 m.chosun.com##div.ad_img

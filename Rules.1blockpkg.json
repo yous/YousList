@@ -2449,6 +2449,19 @@
                 }
             },
             {
+                "id": "d1543e51-94f0-4c83-ae8c-fa04519abc88",
+                "name": "##iframe[src^=\"http://dspserver.adpnut.com/ron/html/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://dspserver.adpnut.com/ron/html/\"]"
+                    }
+                }
+            },
+            {
                 "id": "34feb626-df42-46fa-b73d-8b3b8af76c8b",
                 "name": "##iframe[src^=\"http://etc.gamechosun.co.kr/banner/\"]",
                 "content": {
@@ -11312,6 +11325,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dsp\\.xapads\\.com/adscript\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6ff5dfe7-a2e8-4912-a8ea-6ccf83a09d83",
+                "name": "dspserver.adpnut.com/ron/html/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dspserver\\.adpnut\\.com/ron/html/"
                     },
                     "action": {
                         "type": "block"
@@ -44326,6 +44351,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://www.busan.com/nas/rssimage/adrss6.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "7ebca082-dde4-45d6-8f1c-7640e5872a9f",
+                "name": "m.busan.com##section#cont>div[style=\"width:320px; height:100px; margin:0 auto; padding:10px 0 0 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.busan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section#cont>div[style=\"width:320px; height:100px; margin:0 auto; padding:10px 0 0 0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "e5b18254-f283-4b39-b9a1-dd66fd123ac7",
+                "name": "m.busan.com##section#cont>div[style=\"width:320px; height:100px; margin:0 auto; padding:10px 0 10px 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.busan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section#cont>div[style=\"width:320px; height:100px; margin:0 auto; padding:10px 0 10px 0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "0f663ba9-8901-449b-bba0-aaa9d5341875",
+                "name": "m.busan.com##section#cont>div[style=\"width:320px; height:40px; margin:0 auto; padding:10px 0 10px 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.busan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section#cont>div[style=\"width:320px; height:40px; margin:0 auto; padding:10px 0 10px 0;\"]"
                     }
                 }
             },
