@@ -8343,6 +8343,21 @@
                 }
             },
             {
+                "id": "30452bf3-04cc-4768-a14c-0505e80ef9b2",
+                "name": "busan.com/w2010/AD/$domain=busan.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?busan\\.com/w2010/AD/",
+                        "if-domain": [
+                            "busan.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9e6d4af4-e4aa-4c13-b24d-5da3eca1f45a",
                 "name": "busygirlblog.com/adserver/$domain=busygirlblog.com",
                 "content": {
@@ -30514,6 +30529,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.each_adv_center"
+                    }
+                }
+            },
+            {
+                "id": "52416967-d71d-4431-951c-1b45e2114d6d",
+                "name": "busan.com##div.top-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?busan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top-ad"
+                    }
+                }
+            },
+            {
+                "id": "a17eeb77-fea1-414a-8887-eacfc90b8519",
+                "name": "busan.com##iframe[src^=\"http://www.busan.com/w2010/AD/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?busan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.busan.com/w2010/AD/\"]"
                     }
                 }
             },
