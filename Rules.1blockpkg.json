@@ -3775,6 +3775,19 @@
                 }
             },
             {
+                "id": "5438d34c-75da-4473-8f89-49d40e726736",
+                "name": "##iframe[src^=\"https://www.kodcad.kr/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://www.kodcad.kr/ad/\"]"
+                    }
+                }
+            },
+            {
                 "id": "e02871d0-8414-44bc-8ede-e5278457e106",
                 "name": "##iframe[src^=\"https://www.msadsense.com/BannerFrm.asp\"]",
                 "content": {
@@ -14487,6 +14500,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kn\\.acrosspf\\.com/delivery\\.ad"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5b8f3f08-2a91-4fc7-b625-dcebcfe1852c",
+                "name": "kodcad.kr/ad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kodcad\\.kr/ad/"
                     },
                     "action": {
                         "type": "block"
