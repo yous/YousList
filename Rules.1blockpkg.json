@@ -55771,6 +55771,19 @@
                 }
             },
             {
+                "id": "133912db-3589-4118-82e1-31b6732e33c7",
+                "name": "news.hankyung.com##div#teads_slot",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#teads_slot"
+                    }
+                }
+            },
+            {
                 "id": "f47f2496-dfef-4096-8ca5-2bcb50d5ead5",
                 "name": "news.hankyung.com##div.ad.grid",
                 "content": {
