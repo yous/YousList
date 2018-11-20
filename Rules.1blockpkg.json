@@ -30902,19 +30902,6 @@
                 }
             },
             {
-                "id": "4dffa0f7-7fa2-4049-a03c-a7eb8e66284b",
-                "name": "cdn.ampproject.org##div.atc-ad200",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.ampproject\\.org"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.atc-ad200"
-                    }
-                }
-            },
-            {
                 "id": "ef8ee57f-e535-4feb-9826-34ecb30eff1d",
                 "name": "cdn.ampproject.org##div.band_ad_middle",
                 "content": {
@@ -71406,6 +71393,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"common_AD\"]"
+                    }
+                }
+            },
+            {
+                "id": "de15657b-8610-452f-ac47-d8a6be733451",
+                "name": "www-hankyung-com.cdn.ampproject.org##div.atc-ad200",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?www-hankyung-com\\.cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.atc-ad200"
                     }
                 }
             },
