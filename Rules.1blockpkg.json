@@ -1006,6 +1006,19 @@
                 }
             },
             {
+                "id": "938c5a24-0de3-4d32-8b81-d2c7f4af93fa",
+                "name": "##iframe[src^=\"//ads3.tenping.kr/adbox/showadbox\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//ads3.tenping.kr/adbox/showadbox\"]"
+                    }
+                }
+            },
+            {
                 "id": "659954b4-d7bd-44fe-adb6-c8764029c859",
                 "name": "##iframe[src^=\"//adspaces.ero-advertising.com/banads/view.php\"]",
                 "content": {
@@ -6876,6 +6889,18 @@
                 }
             },
             {
+                "id": "9c211889-1de1-45f2-b7cc-81de6e140b1b",
+                "name": "ads.tenping.kr/scripts/adsbytenping.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.tenping\\.kr/scripts/adsbytenping\\.min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "7d73f3d8-e9db-4e32-a82e-b09d592df983",
                 "name": "ads.theporndb.com/www/delivery/afr.php",
                 "content": {
@@ -6941,6 +6966,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads3\\.adinc\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "28ed2eec-e68a-4157-88cc-3549731c5d8d",
+                "name": "ads3.tenping.kr/adbox/showadbox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads3\\.tenping\\.kr/adbox/showadbox"
                     },
                     "action": {
                         "type": "block"
@@ -54688,6 +54725,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.mtnLiveAdbanner"
+                    }
+                }
+            },
+            {
+                "id": "27c0a267-79d7-474d-a584-47b54dce01e0",
+                "name": "munanhan.tistory.com##div.tt_adsense_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?munanhan\\.tistory\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.tt_adsense_bottom"
+                    }
+                }
+            },
+            {
+                "id": "58f062fd-0068-4287-9f87-e852d22af997",
+                "name": "munanhan.tistory.com##div[data-widget_id=\"goP2aklQ\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?munanhan\\.tistory\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-widget_id=\"goP2aklQ\"]"
+                    }
+                }
+            },
+            {
+                "id": "d20fa65f-2e08-42fd-af00-69b19ab3f831",
+                "name": "munanhan.tistory.com##ins[data-ad-slot=\"6227358368\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?munanhan\\.tistory\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"6227358368\"]"
+                    }
+                }
+            },
+            {
+                "id": "7c3c87de-5cf7-4185-a73b-4d76f2877496",
+                "name": "munanhan.tistory.com##ins[data-ad-slot=\"8449432364\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?munanhan\\.tistory\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"8449432364\"]"
+                    }
+                }
+            },
+            {
+                "id": "3eb2ec5f-0736-4100-904d-19c018cb725d",
+                "name": "munanhan.tistory.com##ins[data-ad-slot=\"9338504765\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?munanhan\\.tistory\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"9338504765\"]"
                     }
                 }
             },
