@@ -4102,6 +4102,42 @@
                 }
             },
             {
+                "id": "76fbf664-3d18-4b9a-bfaf-851f7f46bb49",
+                "name": "*/bannerpop/uploads/image/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "/bannerpop/uploads/image/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "08454015-60bf-4c9e-a94e-c5c2254aa91f",
+                "name": "*/bannerpop/uploads/js/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "/bannerpop/uploads/js/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "db4b9ec2-c45c-45d1-a5b0-7257f0028ed3",
+                "name": "*/bannerpop/uploads/js_activity/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "/bannerpop/uploads/js_activity/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "563dd42c-3678-413a-846f-ce586ded5005",
                 "name": "*/detroitchicago/edmonton.webp",
                 "content": {
@@ -4191,6 +4227,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "/porpoiseant/jellyfish\\.webp"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9f3d1fd4-4f14-4eb9-bffd-f14db1d2fdd8",
+                "name": "*/script/bannerpop.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "/script/bannerpop\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -12068,21 +12116,6 @@
                 }
             },
             {
-                "id": "591aa472-9a97-4a6b-8f5a-57fcafc7577a",
-                "name": "ftoday.co.kr/bannerpop/$domain=ftoday.co.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ftoday\\.co\\.kr/bannerpop/",
-                        "if-domain": [
-                            "ftoday.co.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "3904c658-7107-48e3-bdf7-25d1f11e8a39",
                 "name": "g.ezoic.net/ezosuigeneris.js",
                 "content": {
@@ -12286,21 +12319,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ggilbo\\.com/banner/banner_roll_msidebtm\\.html",
-                        "if-domain": [
-                            "ggilbo.com"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "20091cd8-bf22-40f1-aa19-835a73d1a0d9",
-                "name": "ggilbo.com/bannerpop/uploads/js/*.js$domain=ggilbo.com",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ggilbo\\.com/bannerpop/uploads/js/.*\\.js",
                         "if-domain": [
                             "ggilbo.com"
                         ]
@@ -19476,36 +19494,6 @@
                 }
             },
             {
-                "id": "213762a6-4f5e-47c5-a818-b5edfe7ac8b8",
-                "name": "sporbiz.co.kr/bannerpop/uploads/js/*.js$domain=sporbiz.co.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sporbiz\\.co\\.kr/bannerpop/uploads/js/.*\\.js",
-                        "if-domain": [
-                            "sporbiz.co.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "24773f5e-4a6c-4382-9346-abebc748c0f5",
-                "name": "sporbiz.co.kr/script/bannerpop.js$domain=sporbiz.co.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sporbiz\\.co\\.kr/script/bannerpop\\.js",
-                        "if-domain": [
-                            "sporbiz.co.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "8a70fcc2-ba43-47e6-87e1-7bb808b190ca",
                 "name": "sporbiz.co.kr/script/floating.banner.js$domain=sporbiz.co.kr",
                 "content": {
@@ -21336,66 +21324,6 @@
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wiki\\.dcinside\\.com/main_top_realclick_banner\\.php",
                         "if-domain": [
                             "wiki.dcinside.com"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "e956daca-8ffc-48d3-91f3-acd1348c650a",
-                "name": "wikileaks-kr.org/bannerpop/uploads/image/$domain=wikileaks-kr.org",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikileaks-kr\\.org/bannerpop/uploads/image/",
-                        "if-domain": [
-                            "wikileaks-kr.org"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "415307a7-1e1a-4944-b345-478e7666d2d2",
-                "name": "wikileaks-kr.org/bannerpop/uploads/js/*.js$domain=wikileaks-kr.org",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikileaks-kr\\.org/bannerpop/uploads/js/.*\\.js",
-                        "if-domain": [
-                            "wikileaks-kr.org"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "c5944891-8757-4ccd-9bd7-6b73e8410b60",
-                "name": "wikileaks-kr.org/bannerpop/uploads/js_activity/*.js$domain=wikileaks-kr.org",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikileaks-kr\\.org/bannerpop/uploads/js_activity/.*\\.js",
-                        "if-domain": [
-                            "wikileaks-kr.org"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "4292ac79-8bd9-4249-a5f8-0af255271e5a",
-                "name": "wikileaks-kr.org/script/bannerpop.js$domain=wikileaks-kr.org",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikileaks-kr\\.org/script/bannerpop\\.js",
-                        "if-domain": [
-                            "wikileaks-kr.org"
                         ]
                     },
                     "action": {
@@ -38926,6 +38854,188 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#leftmenu3"
+                    }
+                }
+            },
+            {
+                "id": "103b9092-dc4c-4a71-a55b-e64b7956fe04",
+                "name": "hg-times.com##aside.user-aside>div[style=\"padding-bottom:1px;text-align:center;border:1px solid #dfdfdf;border-top:0;border-bottom:0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hg-times\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.user-aside>div[style=\"padding-bottom:1px;text-align:center;border:1px solid #dfdfdf;border-top:0;border-bottom:0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "f4c641c9-b924-4177-a72e-16829b296e60",
+                "name": "hg-times.com##aside.user-aside>div[style=\"padding-bottom:5px;text-align:center;border:1px solid #dfdfdf;border-top:0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hg-times\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.user-aside>div[style=\"padding-bottom:5px;text-align:center;border:1px solid #dfdfdf;border-top:0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "b12054b9-ada5-4058-8bf9-c94d5e284461",
+                "name": "hg-times.com##aside.user-aside>div[style=\"padding:15px 0 0;text-align:center;border:1px solid #dfdfdf;border-bottom:0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hg-times\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.user-aside>div[style=\"padding:15px 0 0;text-align:center;border:1px solid #dfdfdf;border-bottom:0;\"]"
+                    }
+                }
+            },
+            {
+                "id": "f6b01a6a-1337-4e8e-889b-c2575e9d680a",
+                "name": "hg-times.com##div#articleBody>div[style=\"float:left; width:300px; height:250px; margin-right:10px; margin-top:8px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hg-times\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#articleBody>div[style=\"float:left; width:300px; height:250px; margin-right:10px; margin-top:8px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "f7a3aba3-e29c-4b33-a034-292380331433",
+                "name": "hg-times.com##div#articleBody>div[style=\"float:right; padding-top: 18px; margin-left:15px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hg-times\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#articleBody>div[style=\"float:right; padding-top: 18px; margin-left:15px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "1100f50e-8345-4155-bd05-d5eb3e472e7c",
+                "name": "hg-times.com##div#articleBody>div[style=\"position:relative; float:right; margin-left:20px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hg-times\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#articleBody>div[style=\"position:relative; float:right; margin-left:20px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "8203d6bd-509f-431e-837e-20974530744c",
+                "name": "hg-times.com##div.networkAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hg-times\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.networkAd"
+                    }
+                }
+            },
+            {
+                "id": "0872468f-9a51-46b0-beb2-b17d98b3cdae",
+                "name": "hg-times.com##ins[data-ad-slot=\"3140748145\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hg-times\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"3140748145\"]"
+                    }
+                }
+            },
+            {
+                "id": "f688035a-8de5-442e-8d49-cf02a620e782",
+                "name": "hg-times.com##ins[data-ad-slot=\"4273450800\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hg-times\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"4273450800\"]"
+                    }
+                }
+            },
+            {
+                "id": "0a9120a7-b20c-4fd4-8f22-a63ac6190bcb",
+                "name": "hg-times.com##ins[data-ad-slot=\"4464249747\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hg-times\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"4464249747\"]"
+                    }
+                }
+            },
+            {
+                "id": "43105b22-d2c0-4166-aad3-0a49a4ded614",
+                "name": "hg-times.com##ins[data-ad-slot=\"6520983742\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hg-times\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"6520983742\"]"
+                    }
+                }
+            },
+            {
+                "id": "7e875c1f-5a37-46cb-993b-e6b71c21c3d5",
+                "name": "hg-times.com##ins[data-ad-slot=\"7270524758\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hg-times\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"7270524758\"]"
+                    }
+                }
+            },
+            {
+                "id": "6662cb2a-7889-4353-be5e-029caffe3f7f",
+                "name": "hg-times.com##ins[data-ad-slot=\"8620833153\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hg-times\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"8620833153\"]"
+                    }
+                }
+            },
+            {
+                "id": "903f404f-554a-4652-8e4a-cf553e616f88",
+                "name": "hg-times.com##ins[data-ad-slot=\"9930451343\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hg-times\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"9930451343\"]"
                     }
                 }
             },
