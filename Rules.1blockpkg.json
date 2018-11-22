@@ -48057,6 +48057,19 @@
                 }
             },
             {
+                "id": "4491e8fd-d437-4978-bfd6-81e8f1d8ef03",
+                "name": "m.inven.co.kr##section.mobile-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.inven\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.mobile-ad"
+                    }
+                }
+            },
+            {
                 "id": "476c2de8-d362-4956-bbc0-e2fc5cbe0bc2",
                 "name": "m.kbench.com##div#flotting_layer",
                 "content": {
