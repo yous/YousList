@@ -11506,6 +11506,18 @@
                 }
             },
             {
+                "id": "31e9ccd4-0fbe-45aa-91e3-046a85bcec5b",
+                "name": "e-*.adzerk.net/ados",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?e-.*\\.adzerk\\.net/ados"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "59c8a029-bf3c-4f87-bd5b-f1ecdc97c886",
                 "name": "e-cdn-files.deezer.com/ads/$domain=deezer.com",
                 "content": {
@@ -11604,6 +11616,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?eimg\\.donga\\.com/home2011/js/scrollBanner\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1177a9ad-8fb4-4c24-a285-180a983e7b43",
+                "name": "engine.adzerk.net/ados.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?engine\\.adzerk\\.net/ados\\.js"
                     },
                     "action": {
                         "type": "block"
