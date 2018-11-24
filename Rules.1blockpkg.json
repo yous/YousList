@@ -7740,6 +7740,18 @@
                 }
             },
             {
+                "id": "1a7392e8-40d6-40be-abf3-eec3bb7d531b",
+                "name": "ap.tnkfactory.com/tnk/.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ap\\.tnkfactory\\.com/tnk/\\.ad"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "610ea6d5-2e68-429e-b64f-bef00586f499",
                 "name": "apex.go.sonobi.com/trinity.js",
                 "content": {
@@ -10192,6 +10204,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?compass\\.adop\\.cc/assets/js/adop/adopJ\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d6b62e6d-71af-4766-b7d0-bf7b5f736801",
+                "name": "config.ad-brix.com/*/init.json",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?config\\.ad-brix\\.com/.*/init\\.json"
                     },
                     "action": {
                         "type": "block"
@@ -19857,6 +19881,30 @@
                 }
             },
             {
+                "id": "d6ace957-d097-4097-b140-5dbd50169697",
+                "name": "sspi.adpopcorn.com/v2_sdk/banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sspi\\.adpopcorn\\.com/v2_sdk/banner"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d1109223-6d33-4fff-b23f-5a5f4a9fc024",
+                "name": "sspi.adpopcorn.com/v2_sdk/interstitial",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sspi\\.adpopcorn\\.com/v2_sdk/interstitial"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f7b089c3-7243-4912-870e-88734594fd03",
                 "name": "st.bebi.com/bebi_v3.js",
                 "content": {
@@ -20520,6 +20568,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tpc\\.googlesyndication\\.com/pagead/js/.*/activeview/osd_listener\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f3b70258-7414-40bc-9160-e0d26c1e996a",
+                "name": "tr-*.adsmoloco.com/rtb/imp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tr-.*\\.adsmoloco\\.com/rtb/imp"
                     },
                     "action": {
                         "type": "block"
