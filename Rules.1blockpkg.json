@@ -21871,23 +21871,14 @@
                 }
             },
             {
-                "id": "cd646414-51d3-4ddc-8edd-61ec643ec4b7",
-                "name": "zdnet.co.kr/ads/",
+                "id": "00d96fc5-2e8b-4d3b-bfe6-e2051c0520de",
+                "name": "zdnet.co.kr/ads/$domain=zdnet.co.kr",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zdnet\\.co\\.kr/ads/"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "01113885-fea5-448f-8e4e-3f4eca2a5a4d",
-                "name": "zdnet.co.kr/pixel2/pixel_top.htm",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zdnet\\.co\\.kr/pixel2/pixel_top\\.htm"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zdnet\\.co\\.kr/ads/",
+                        "if-domain": [
+                            "zdnet.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -73308,6 +73299,19 @@
                 }
             },
             {
+                "id": "f7799cdd-e535-411b-bf9d-9730664cd6ec",
+                "name": "zdnet.co.kr##div.news_12",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zdnet\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.news_12"
+                    }
+                }
+            },
+            {
                 "id": "703b10a8-56cd-4447-897b-0750f6589862",
                 "name": "zdnet.co.kr##div.power_center",
                 "content": {
@@ -73330,6 +73334,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"right_bn\"]"
+                    }
+                }
+            },
+            {
+                "id": "204354f6-574a-4f44-94a9-520d12186a2e",
+                "name": "zdnet.co.kr##iframe[src^=\"/ads/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zdnet\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ads/\"]"
                     }
                 }
             },

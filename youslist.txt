@@ -1725,8 +1725,7 @@
 ||z.moatads.com/*/moatcontent.js^
 ||z.moatads.com/*/moatvideo.js^
 ||zbn.donga.com/2015/banner/ad_read_*.asp^$domain=zbn.donga.com
-||zdnet.co.kr/ads/
-||zdnet.co.kr/pixel2/pixel_top.htm^
+||zdnet.co.kr/ads/$domain=zdnet.co.kr
 ||zergnet.com/zerg.js^
 ||zone5.adpopcon.com/cgi-bin/PelicanC.dll^
 
@@ -5021,8 +5020,10 @@ zdnet.co.kr##div.ad_txt
 zdnet.co.kr##div.con_bn_box
 zdnet.co.kr##div.hide_bk
 zdnet.co.kr##div.hide_bt
+zdnet.co.kr##div.news_12
 zdnet.co.kr##div.power_center
 zdnet.co.kr##div[class^="right_bn"]
+zdnet.co.kr##iframe[src^="/ads/"]
 zdnet.co.kr##ul.ad_list
 zdnet.com##div.sticky-wrapper
 zdnet.com##section.leader-bottom
