@@ -13372,18 +13372,6 @@
                 }
             },
             {
-                "id": "b390ae43-1ab8-460f-8a8f-9fe2647046a9",
-                "name": "imasdk.googleapis.com/js/core/bridge*.html",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?imasdk\\.googleapis\\.com/js/core/bridge.*\\.html"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "0e26ac5f-0a4b-4c04-99e8-288cecfd1ba4",
                 "name": "imasdk.googleapis.com/js/sdkloader/ima3.js",
                 "content": {
@@ -73355,6 +73343,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "ul.ad_list"
+                    }
+                }
+            },
+            {
+                "id": "4b6aa08c-78b8-4836-b108-2ff27ef97ef7",
+                "name": "zdnet.com##div.sticky-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zdnet\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sticky-wrapper"
                     }
                 }
             },
