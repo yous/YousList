@@ -17932,7 +17932,7 @@
                 }
             },
             {
-                "id": "7f673b6a-3123-4c6d-8d6a-555482c7e20b",
+                "id": "0f5b7b97-382d-41d5-b70c-4a9c9f81ff82",
                 "name": "prism.pandora.tv",
                 "content": {
                     "trigger": {
@@ -60385,6 +60385,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"__Microsoft_Owa_MessageListAds_ListView_templates_cs_\"]"
+                    }
+                }
+            },
+            {
+                "id": "283695ae-1c48-4389-af7a-e49a415bd344",
+                "name": "pandora.tv##div#ad_wing_right",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pandora\\.tv"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_wing_right"
+                    }
+                }
+            },
+            {
+                "id": "c04bd116-7fee-4b06-9263-2f7526ef46a2",
+                "name": "pandora.tv##div.ad_left",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pandora\\.tv"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_left"
+                    }
+                }
+            },
+            {
+                "id": "7f511aeb-a537-4d1f-88c8-c88a29aba3b2",
+                "name": "pandora.tv##div.section_adarea",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pandora\\.tv"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.section_adarea"
+                    }
+                }
+            },
+            {
+                "id": "fc4df497-0eea-4e4c-88ae-0d34370758d3",
+                "name": "pandora.tv##div.top_ban",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pandora\\.tv"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top_ban"
                     }
                 }
             },
