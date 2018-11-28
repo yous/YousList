@@ -31971,6 +31971,19 @@
                 }
             },
             {
+                "id": "6f56ea5a-2f07-4bb6-bd4d-e206834ac65b",
+                "name": "coindeskkorea.com##div.top_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?coindeskkorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top_banner"
+                    }
+                }
+            },
+            {
                 "id": "c67bf95e-da6b-49b6-9906-917924182dd6",
                 "name": "coinpan.com##div.gpe_side_contents_R>div>div[style=\"height: 200px; width: 200px; border:1px solid #dadada;\"]",
                 "content": {
