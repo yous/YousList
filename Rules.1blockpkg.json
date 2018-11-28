@@ -62286,19 +62286,6 @@
                 }
             },
             {
-                "id": "9b9a491d-daf9-4070-a904-48420750d6b6",
-                "name": "segye.com##div#onlineissuebox",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?segye\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#onlineissuebox"
-                    }
-                }
-            },
-            {
                 "id": "41efa6f0-4484-4e31-a793-d6b2f9cf5bca",
                 "name": "segye.com##div#sideBanner",
                 "content": {
@@ -62312,54 +62299,93 @@
                 }
             },
             {
-                "id": "2948e960-9d53-48f8-89e8-16131076f5b7",
-                "name": "segye.com##div#textadbox",
+                "id": "1f800f3f-f473-4734-9912-a5d47de89cb6",
+                "name": "segye.com##div.ad_btm_ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?segye\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#textadbox"
+                        "selector": "div.ad_btm_ad"
                     }
                 }
             },
             {
-                "id": "120c35aa-c4d1-4024-a7c7-a4ec1d8d69ea",
-                "name": "segye.com##div.article_list",
+                "id": "5c7babe9-e07e-44a5-8889-7342c9590bce",
+                "name": "segye.com##div.ad_btm_add",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?segye\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.article_list"
+                        "selector": "div.ad_btm_add"
                     }
                 }
             },
             {
-                "id": "0b2d396f-fd6e-4bf6-9215-8c54b76f0180",
-                "name": "segye.com##div[id^=\"ClickStory_ViewAD\"]",
+                "id": "83554983-704a-4d42-973c-ab107213ba94",
+                "name": "segye.com##div.ad_right_300bn",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?segye\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div[id^=\"ClickStory_ViewAD\"]"
+                        "selector": "div.ad_right_300bn"
                     }
                 }
             },
             {
-                "id": "267d7090-755b-4221-9080-ee9c3b8bb1a9",
-                "name": "segye.com##div[id^=\"ClickStory_ViewRightAD\"]",
+                "id": "d83c45c3-b6d1-49e7-9b2b-6d18d77a5eb4",
+                "name": "segye.com##div.ad_right_area",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?segye\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div[id^=\"ClickStory_ViewRightAD\"]"
+                        "selector": "div.ad_right_area"
+                    }
+                }
+            },
+            {
+                "id": "4c97893e-e3d3-4ff8-83ac-50f8a926b2d3",
+                "name": "segye.com##div.view_ADarea2018",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?segye\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view_ADarea2018"
+                    }
+                }
+            },
+            {
+                "id": "78b7b9f5-78b5-43f4-92ca-a2526bf358e2",
+                "name": "segye.com##div[class*=\" ad_right_bn\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?segye\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class*=\" ad_right_bn\"]"
+                    }
+                }
+            },
+            {
+                "id": "39be58ff-e764-4ca0-a7e5-603d6bf0269d",
+                "name": "segye.com##div[class^=\"ad_right_bn\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?segye\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"ad_right_bn\"]"
                     }
                 }
             },
