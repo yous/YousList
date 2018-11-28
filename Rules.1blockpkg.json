@@ -1123,6 +1123,19 @@
                 }
             },
             {
+                "id": "2ccec8b0-ed2b-45a1-8535-2ed03a368e1d",
+                "name": "##iframe[src^=\"//m.11st.co.kr/MW/html/allianceAd/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//m.11st.co.kr/MW/html/allianceAd/\"]"
+                    }
+                }
+            },
+            {
                 "id": "216de843-977c-46af-b89d-3482f278424d",
                 "name": "##iframe[src^=\"//mrelko.com/bnrs/\"]",
                 "content": {
@@ -50236,15 +50249,15 @@
                 }
             },
             {
-                "id": "912a4caa-da2e-4b15-81d4-e7d440839098",
-                "name": "m.ppomppu.co.kr##div#wrap>div[style=\"padding-top:10px;text-align:center;\"]",
+                "id": "3be96d68-1a35-4c31-b1d4-2f63b15b0d1a",
+                "name": "m.ppomppu.co.kr##div#wrap>div[style=\"padding-top:10px; text-align:center; overflow:hidden;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.ppomppu\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#wrap>div[style=\"padding-top:10px;text-align:center;\"]"
+                        "selector": "div#wrap>div[style=\"padding-top:10px; text-align:center; overflow:hidden;\"]"
                     }
                 }
             },
