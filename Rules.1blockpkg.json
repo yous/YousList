@@ -5738,6 +5738,18 @@
                 }
             },
             {
+                "id": "67686031-f79c-492d-bce9-025af281a5d8",
+                "name": "ad89.z00.kr/catchback/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad89\\.z00\\.kr/catchback/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f8c47246-5843-4a83-a4d2-6af096ec8a0d",
                 "name": "adbiz.co.kr",
                 "content": {
@@ -45218,6 +45230,19 @@
                 }
             },
             {
+                "id": "b12a5dee-c330-4217-9a9c-a2e474d2b54d",
+                "name": "m.chosun.com##div#_popIn_recommend_300x250",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#_popIn_recommend_300x250"
+                    }
+                }
+            },
+            {
                 "id": "476962ba-874f-4e94-8cec-7b682d78fada",
                 "name": "m.chosun.com##div.ad",
                 "content": {
@@ -45279,6 +45304,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.art_sub_news_box"
+                    }
+                }
+            },
+            {
+                "id": "5fb07c0b-505f-42e4-b067-7c2dd1abaec3",
+                "name": "m.chosun.com##div.article_ad_mid",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article_ad_mid"
+                    }
+                }
+            },
+            {
+                "id": "e0eeffb0-0564-43b9-a021-61e93c65a07f",
+                "name": "m.chosun.com##div.mcs_content>div[style=\"width: auto; margin: 0px auto;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mcs_content>div[style=\"width: auto; margin: 0px auto;\"]"
                     }
                 }
             },
