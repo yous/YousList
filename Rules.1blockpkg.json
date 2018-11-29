@@ -44060,6 +44060,58 @@
                 }
             },
             {
+                "id": "1410094a-6322-493a-b73f-9e2467dc2a93",
+                "name": "lifehacker.com##div.ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?lifehacker\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container"
+                    }
+                }
+            },
+            {
+                "id": "a6529ad6-b9b8-43c0-a53f-f5abead46b23",
+                "name": "lifehacker.com##div.ad-mobile-dynamic",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?lifehacker\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-mobile-dynamic"
+                    }
+                }
+            },
+            {
+                "id": "e4c7052c-c858-4231-9a25-872eae517fb2",
+                "name": "lifehacker.com##div.ad-non-sticky",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?lifehacker\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-non-sticky"
+                    }
+                }
+            },
+            {
+                "id": "7a07e054-5fdb-42d4-b2e3-9aa8ae8c5ae9",
+                "name": "lifehacker.com##div.ad-promotions-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?lifehacker\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-promotions-container"
+                    }
+                }
+            },
+            {
                 "id": "629bf161-7c61-4152-ae27-ec06a6836ccc",
                 "name": "lifehacker.com##div.ad-top",
                 "content": {
@@ -44082,6 +44134,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-wide"
+                    }
+                }
+            },
+            {
+                "id": "b399a1b7-e303-4123-bf50-6499485068e9",
+                "name": "lifehacker.com##div.contained-ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?lifehacker\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contained-ad-container"
+                    }
+                }
+            },
+            {
+                "id": "68d2a9e5-0009-4e3b-b8bd-239c8978da1b",
+                "name": "lifehacker.com##div.js_ad-infinite-promotion",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?lifehacker\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.js_ad-infinite-promotion"
+                    }
+                }
+            },
+            {
+                "id": "f7ec412f-38fc-4650-9ccd-f533d97c057d",
+                "name": "lifehacker.com##div.js_ad-starter-pageview",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?lifehacker\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.js_ad-starter-pageview"
+                    }
+                }
+            },
+            {
+                "id": "356ee5b3-9b12-42f8-9796-293543bca6e0",
+                "name": "lifehacker.com##div.movable-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?lifehacker\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.movable-ad"
+                    }
+                }
+            },
+            {
+                "id": "ad1c5e70-fa20-406e-b9f2-4533d729469f",
+                "name": "lifehacker.com##section.contained-ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?lifehacker\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.contained-ad-container"
                     }
                 }
             },
