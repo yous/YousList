@@ -36364,6 +36364,19 @@
                 }
             },
             {
+                "id": "83bdb0ae-036b-4b92-9aba-a8b2f04e441d",
+                "name": "feedly.com##div.bsa-native-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?feedly\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bsa-native-ad"
+                    }
+                }
+            },
+            {
                 "id": "d8077b2d-4d5a-4e12-b7db-d93f42e651d3",
                 "name": "fenglin.to##div#text-10",
                 "content": {
