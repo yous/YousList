@@ -915,6 +915,19 @@
                 }
             },
             {
+                "id": "46918870-3d0f-4fc6-8a60-86350db20e61",
+                "name": "##iframe[src^=\"//adapi.inlcorp.com/dfp/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//adapi.inlcorp.com/dfp/\"]"
+                    }
+                }
+            },
+            {
                 "id": "027202ad-eb54-4c99-8255-c1a7106bb036",
                 "name": "##iframe[src^=\"//adclickservice.com\"]",
                 "content": {
@@ -5743,6 +5756,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad89\\.z00\\.kr/catchback/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "374a832c-0c7f-4b20-b88d-aada2640ae69",
+                "name": "adapi.inlcorp.com/dfp/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adapi\\.inlcorp\\.com/dfp/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1b9baa2d-e278-48ee-805f-c4c599a63671",
+                "name": "adapi.inlcorp.com/kao/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adapi\\.inlcorp\\.com/kao/"
                     },
                     "action": {
                         "type": "block"
@@ -65389,6 +65426,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.AD02"
+                    }
+                }
+            },
+            {
+                "id": "add5f641-30d8-448a-ba84-37521587b953",
+                "name": "te31.com##div#Promotion2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?te31\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#Promotion2"
+                    }
+                }
+            },
+            {
+                "id": "cd0ad054-1eed-4ac4-a2b8-b69f28cb1661",
+                "name": "te31.com##div#content>table.box1[align=\"center\"][bgcolor=\"#161d25\"][cellpadding=\"0\"][cellspaing=\"0\"][style=\"padding-bottom:5px;margin-bottom:5px;\"][width=\"593\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?te31\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#content>table.box1[align=\"center\"][bgcolor=\"#161d25\"][cellpadding=\"0\"][cellspaing=\"0\"][style=\"padding-bottom:5px;margin-bottom:5px;\"][width=\"593\"]"
+                    }
+                }
+            },
+            {
+                "id": "d6ad45ae-5399-44f4-920a-3af7fd5bbe09",
+                "name": "te31.com##div[align=\"center\"]:not([class]):not([id])>table[align=\"center\"][background=\"black.png\"][bgcolor=\"#000000\"][cellpadding=\"0\"][cellspacing=\"0\"][height=\"110\"][width=\"900\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?te31\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[align=\"center\"]:not([class]):not([id])>table[align=\"center\"][background=\"black.png\"][bgcolor=\"#000000\"][cellpadding=\"0\"][cellspacing=\"0\"][height=\"110\"][width=\"900\"]"
+                    }
+                }
+            },
+            {
+                "id": "021d7654-48ee-41ad-8140-d536cda56bf0",
+                "name": "te31.com##div[align=\"center\"]:not([class]):not([id])>table[border=\"0\"][cellpadding=\"3\"][cellspacing=\"3\"][height=\"270\"][width=\"900\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?te31\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[align=\"center\"]:not([class]):not([id])>table[border=\"0\"][cellpadding=\"3\"][cellspacing=\"3\"][height=\"270\"][width=\"900\"]"
                     }
                 }
             },
