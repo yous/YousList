@@ -33166,6 +33166,19 @@
                 }
             },
             {
+                "id": "1f5af29a-f2a2-4b54-856c-8903a49cfd3d",
+                "name": "dcnewsj.joins.com##div.promotion_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dcnewsj\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.promotion_banner"
+                    }
+                }
+            },
+            {
                 "id": "abf10de8-9c48-47d4-b3ea-860b65ef6196",
                 "name": "ddanzi.com##div.add_display",
                 "content": {
