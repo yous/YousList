@@ -5121,13 +5121,16 @@
                 }
             },
             {
-                "id": "0e1cd253-d925-4c94-9642-74741f5d75bb",
-                "name": "ad.doubleclick.net$third-party",
+                "id": "04a038b1-e440-49af-8588-c704d0bbbc86",
+                "name": "ad.doubleclick.net$domain=~thehackernews.com,third-party",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.doubleclick\\.net",
                         "load-type": [
                             "third-party"
+                        ],
+                        "unless-domain": [
+                            "thehackernews.com"
                         ]
                     },
                     "action": {
@@ -66119,6 +66122,32 @@
                 }
             },
             {
+                "id": "a23ef27d-2583-49c4-bbfb-e7282455b0d8",
+                "name": "thehackernews.com##center.banners",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thehackernews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "center.banners"
+                    }
+                }
+            },
+            {
+                "id": "b6481356-69d9-4f4a-b940-f910abffc55e",
+                "name": "thehackernews.com##div.ad_one",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thehackernews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_one"
+                    }
+                }
+            },
+            {
                 "id": "630353c0-d816-4309-9a1b-71c9aca70c94",
                 "name": "thehackernews.com##div.articlebodyonly>div>div[style=\"padding: 15px 0px; text-align: left;\"]",
                 "content": {
@@ -66128,6 +66157,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.articlebodyonly>div>div[style=\"padding: 15px 0px; text-align: left;\"]"
+                    }
+                }
+            },
+            {
+                "id": "d6e3380e-944e-48f8-8d8a-f6cb0c20dca4",
+                "name": "thehackernews.com##div.banners",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thehackernews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banners"
+                    }
+                }
+            },
+            {
+                "id": "efa459b9-abb0-4e33-95be-c27b70d967a7",
+                "name": "thehackernews.com##ins.dcmads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thehackernews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins.dcmads"
                     }
                 }
             },
