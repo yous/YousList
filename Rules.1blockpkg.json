@@ -9609,6 +9609,18 @@
                 }
             },
             {
+                "id": "81045fa4-4621-453d-b2dc-c354256c8eca",
+                "name": "cdn.caprofitx.com/media/*/pfx.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.caprofitx\\.com/media/.*/pfx\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "47816ca0-4204-4dcd-b0f5-ed43c8a9b8a6",
                 "name": "cdn.carbonads.com/carbon.js",
                 "content": {
@@ -67327,6 +67339,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.at-content>div.container>div.row>div.sideArea>div[style=\"width:100%; height:250px; line-height:280px; text-align:center; background:#f5f5f5;margin-bottom:5px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "6fa16080-4d47-47f8-90dd-da75af534cf8",
+                "name": "togetter.com##div.ad_footer_overlay",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?togetter\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_footer_overlay"
+                    }
+                }
+            },
+            {
+                "id": "f2181ea5-5bbe-40ff-98c9-8b0b4267d25c",
+                "name": "togetter.com##div.ad_list_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?togetter\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_list_top"
+                    }
+                }
+            },
+            {
+                "id": "b331a95f-b5ff-4c34-b21e-0ba72217c0b7",
+                "name": "togetter.com##div.ad_rectangle",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?togetter\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_rectangle"
+                    }
+                }
+            },
+            {
+                "id": "f936edaf-f8ac-4c1f-81ea-27b908c0bb9c",
+                "name": "togetter.com##div.ad_topics_custom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?togetter\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_topics_custom"
+                    }
+                }
+            },
+            {
+                "id": "6fa80756-3fb9-4451-9b9f-25afdafc8c45",
+                "name": "togetter.com##div.lazy-dfp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?togetter\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.lazy-dfp"
                     }
                 }
             },
