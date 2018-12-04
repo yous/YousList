@@ -71906,6 +71906,19 @@
                 }
             },
             {
+                "id": "1c00bf63-2913-4639-9515-21de9d389145",
+                "name": "windowscentral.com##div.adunit-wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?windowscentral\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adunit-wrap"
+                    }
+                }
+            },
+            {
                 "id": "3e702523-5a56-43f5-9456-431fe5a9b0a4",
                 "name": "wired.com##div.advertisement__leaderboard",
                 "content": {
