@@ -12136,6 +12136,36 @@
                 }
             },
             {
+                "id": "1745a47c-8b27-43a2-86ee-5d4a1db11c6c",
+                "name": "findtorrent.net/intro/js/jquery.mb.YTPlayer.min.js$domain=findtorrent.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?findtorrent\\.net/intro/js/jquery\\.mb\\.YTPlayer\\.min\\.js",
+                        "if-domain": [
+                            "findtorrent.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b563ac86-bd05-431c-8a5e-09fd8d3eb515",
+                "name": "findtorrent.net/plugin/apms/YTPlayer/jquery.mb.YTPlayer.min.js$domain=findtorrent.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?findtorrent\\.net/plugin/apms/YTPlayer/jquery\\.mb\\.YTPlayer\\.min\\.js",
+                        "if-domain": [
+                            "findtorrent.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ae803a39-4a71-4ada-a19e-586489cac098",
                 "name": "finead.o00.kr",
                 "content": {
@@ -36529,6 +36559,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.page-wrapper>div>div.container[style=\"padding: 0px; height: 0px; transition: 0ms;\"]"
+                    }
+                }
+            },
+            {
+                "id": "8f6737c7-0db9-4b13-b3a2-96d8873e464a",
+                "name": "findtorrent.net##div.container_youtube_view",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?findtorrent\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.container_youtube_view"
                     }
                 }
             },
