@@ -3294,6 +3294,32 @@
                 }
             },
             {
+                "id": "7e5c9a85-cf09-429e-ac84-f827bf260994",
+                "name": "##iframe[src^=\"http://tracker.adbinead.com/?MTM=&url=http://tracker.adbinead.com/other/\"][src$=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://tracker.adbinead.com/?MTM=&url=http://tracker.adbinead.com/other/\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
+                "id": "61e136f1-cf08-4669-bd17-72b4d625a08f",
+                "name": "##iframe[src^=\"http://tracker.adbinead.com/?MTQ=&url=http://tracker.adbinead.com/other/\"][src$=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://tracker.adbinead.com/?MTQ=&url=http://tracker.adbinead.com/other/\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
                 "id": "fedcb202-b0ac-4475-9ce7-d7987f3e9f4d",
                 "name": "##iframe[src^=\"http://tracker.adbinead.com/other/\"][src$=\".html\"]",
                 "content": {
@@ -36572,6 +36598,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.container_youtube_view"
+                    }
+                }
+            },
+            {
+                "id": "ec82d8d0-d1b8-4fb0-8a73-75364729c952",
+                "name": "flash24.dreamx.com##div#adopFloatAD",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?flash24\\.dreamx\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adopFloatAD"
                     }
                 }
             },
