@@ -26774,6 +26774,19 @@
                 }
             },
             {
+                "id": "6632ce47-b3d3-4c7a-a8c9-0fd5c26a0966",
+                "name": "auto.daum.net##div.bnr_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?auto\\.daum\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bnr_ad"
+                    }
+                }
+            },
+            {
                 "id": "072e87e3-7702-4b0f-a347-a2215b772fe8",
                 "name": "avdbs.com##a[onclick^=\"av_api.bnr_log(\"]",
                 "content": {
