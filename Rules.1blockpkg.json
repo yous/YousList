@@ -12531,6 +12531,18 @@
                 }
             },
             {
+                "id": "23ea45b7-b7a7-46db-9078-4e244999533c",
+                "name": "gfp.veta.naver.com/adcall",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gfp\\.veta\\.naver\\.com/adcall"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "3df7ab0f-3734-44a0-854c-4b93bb44dfe3",
                 "name": "ggilbo.com/banner/banner_roll_msidebtm.html$domain=ggilbo.com",
                 "content": {
@@ -53667,6 +53679,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe#daum-ad-root-ifrm"
+                    }
+                }
+            },
+            {
+                "id": "00689e0a-195c-4aa8-9dbc-07b1c522d4d7",
+                "name": "media.naver.com##div._da_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?media\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div._da_banner"
+                    }
+                }
+            },
+            {
+                "id": "c7562ca5-93e8-4069-a9b6-f8b869678cc4",
+                "name": "media.naver.com##div.ad_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?media\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_box"
                     }
                 }
             },
