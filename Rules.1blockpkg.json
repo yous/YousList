@@ -69634,6 +69634,32 @@
                 }
             },
             {
+                "id": "1a785de0-fff8-4bf9-bb88-2bf67d46629e",
+                "name": "tv-tokyo.co.jp##aside.tbcms_ad-block",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tv-tokyo\\.co\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.tbcms_ad-block"
+                    }
+                }
+            },
+            {
+                "id": "aaea8300-9a12-4c73-83a8-0e82401942df",
+                "name": "tv-tokyo.co.jp##div.tbcms_ad-block",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tv-tokyo\\.co\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.tbcms_ad-block"
+                    }
+                }
+            },
+            {
                 "id": "d00c2235-dc2d-487a-b4f7-f3ce4828a85c",
                 "name": "tvdaily.mk.co.kr##body>table>tbody>tr>td:first-of-type>table>tbody>tr>td>table:nth-of-type(4)>tbody>tr>td:first-of-type>table:nth-of-type(2)>tbody>tr>td:first-of-type",
                 "content": {
