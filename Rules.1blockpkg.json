@@ -3736,28 +3736,15 @@
                 }
             },
             {
-                "id": "4d57c45a-b791-4628-b757-0279d53800f1",
-                "name": "##iframe[src^=\"https://rcm-eu.amazon-adsystem.com/e/cm\"]",
+                "id": "a9ab26d1-eb2a-4cf8-8a0c-cb9b9d83267b",
+                "name": "##iframe[src^=\"https://rcm-\"][src*=\".amazon-adsystem.com/e/cm\"]",
                 "content": {
                     "trigger": {
                         "url-filter": ".*"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "iframe[src^=\"https://rcm-eu.amazon-adsystem.com/e/cm\"]"
-                    }
-                }
-            },
-            {
-                "id": "d686b5b8-fd73-4e53-a512-310b92ab7bfc",
-                "name": "##iframe[src^=\"https://rcm-na.amazon-adsystem.com/e/cm\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"https://rcm-na.amazon-adsystem.com/e/cm\"]"
+                        "selector": "iframe[src^=\"https://rcm-\"][src*=\".amazon-adsystem.com/e/cm\"]"
                     }
                 }
             },
@@ -4682,11 +4669,11 @@
                 }
             },
             {
-                "id": "e46184fc-01d3-41b6-89d2-841beaa29f15",
-                "name": "aax-fe-retail-rtb.amazon.com/e/xsp/getAd",
+                "id": "80e9654d-246d-46cd-a3a2-fe6bb39480ec",
+                "name": "aax-*-retail-rtb.amazon.com/e/xsp/getAd",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?aax-fe-retail-rtb\\.amazon\\.com/e/xsp/getAd"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?aax-.*-retail-rtb\\.amazon\\.com/e/xsp/getAd"
                     },
                     "action": {
                         "type": "block"
@@ -4694,11 +4681,11 @@
                 }
             },
             {
-                "id": "a0b749b4-296b-4670-a792-73cdec3fb1ef",
-                "name": "aax-fe.amazon-adsystem.com/x/getad",
+                "id": "4a4e0e3e-f74c-4650-966a-e424b00832c2",
+                "name": "aax-*.amazon-adsystem.com/e/xsp/getAd",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?aax-fe\\.amazon-adsystem\\.com/x/getad"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?aax-.*\\.amazon-adsystem\\.com/e/xsp/getAd"
                     },
                     "action": {
                         "type": "block"
@@ -4706,11 +4693,11 @@
                 }
             },
             {
-                "id": "30a66516-5a8c-41e1-a7ad-fbcc4a10076a",
-                "name": "aax-us-east.amazon-adsystem.com/e/xsp/getAd",
+                "id": "a25fae34-5c73-4a45-9dbd-f9b3a32982b5",
+                "name": "aax-*.amazon-adsystem.com/e/xsp/getAdj",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?aax-us-east\\.amazon-adsystem\\.com/e/xsp/getAd"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?aax-.*\\.amazon-adsystem\\.com/e/xsp/getAdj"
                     },
                     "action": {
                         "type": "block"
@@ -4718,11 +4705,11 @@
                 }
             },
             {
-                "id": "56761d0e-aac7-4acd-9887-3bfb843bd31e",
-                "name": "aax-us-east.amazon-adsystem.com/x/getad",
+                "id": "6c1c6a08-65e6-4ee0-94a6-7af6bfffdd74",
+                "name": "aax-*.amazon-adsystem.com/x/getad",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?aax-us-east\\.amazon-adsystem\\.com/x/getad"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?aax-.*\\.amazon-adsystem\\.com/x/getad"
                     },
                     "action": {
                         "type": "block"
@@ -14142,11 +14129,11 @@
                 }
             },
             {
-                "id": "a117c1ac-8c5d-4ae8-9658-e9a2c15a0f47",
-                "name": "ir-na.amazon-adsystem.com/s/ads-common.js",
+                "id": "018a3f64-12a1-4ac4-b411-9a421f45890b",
+                "name": "ir-*.amazon-adsystem.com/s/ads-common.js",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ir-na\\.amazon-adsystem\\.com/s/ads-common\\.js"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ir-.*\\.amazon-adsystem\\.com/s/ads-common\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -18335,23 +18322,11 @@
                 }
             },
             {
-                "id": "963f9393-5ca0-4692-86c9-2872dd89bd9f",
-                "name": "rcm-eu.amazon-adsystem.com/e/cm",
+                "id": "fc0b88da-5bec-4c09-90e1-30fd66de4ef5",
+                "name": "rcm-*.amazon-adsystem.com/e/cm",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?rcm-eu\\.amazon-adsystem\\.com/e/cm"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "f166c8b3-b4ae-45a9-a350-793ad86f2d17",
-                "name": "rcm-na.amazon-adsystem.com/e/cm",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?rcm-na\\.amazon-adsystem\\.com/e/cm"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?rcm-.*\\.amazon-adsystem\\.com/e/cm"
                     },
                     "action": {
                         "type": "block"
@@ -22001,11 +21976,11 @@
                 }
             },
             {
-                "id": "f64b6340-e264-40fa-b971-bf03b0a80631",
-                "name": "z-na.amazon-adsystem.com/widgets/onejs",
+                "id": "48890dc8-3ea8-41b3-8b62-25b273cad267",
+                "name": "z-*.amazon-adsystem.com/widgets/onejs",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?z-na\\.amazon-adsystem\\.com/widgets/onejs"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?z-.*\\.amazon-adsystem\\.com/widgets/onejs"
                     },
                     "action": {
                         "type": "block"
@@ -25080,158 +25055,28 @@
                 }
             },
             {
-                "id": "0b853376-bfb1-4297-9bd9-213ccdd21836",
-                "name": "amazon.co.jp##div#ape_Detail_dp-ads-center-promo_Desktop_placement",
+                "id": "d9aa95dd-6758-4098-9870-70e31c1ffca2",
+                "name": "amazon.co.jp##div[data-ad-details]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amazon\\.co\\.jp"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ape_Detail_dp-ads-center-promo_Desktop_placement"
+                        "selector": "div[data-ad-details]"
                     }
                 }
             },
             {
-                "id": "2aa113e8-abc6-45f6-b7f0-06ae7cfcd214",
-                "name": "amazon.co.jp##div#ape_Gateway_right-2_desktop_placement",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amazon\\.co\\.jp"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#ape_Gateway_right-2_desktop_placement"
-                    }
-                }
-            },
-            {
-                "id": "ae0ad38e-bf46-494e-94d9-14661335cabb",
-                "name": "amazon.com##div#ape_Gateway_right-2_desktop_placement",
+                "id": "4f0fac71-1bf6-4e88-9a07-dce9efa7ed61",
+                "name": "amazon.com##div[data-ad-details]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amazon\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ape_Gateway_right-2_desktop_placement"
-                    }
-                }
-            },
-            {
-                "id": "5d2b0b33-5f4e-45a4-8d29-aaaab772388d",
-                "name": "amazon.co.jp##div#ape_detail_btf_detail-mWeb_text-wrapper",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amazon\\.co\\.jp"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#ape_detail_btf_detail-mWeb_text-wrapper"
-                    }
-                }
-            },
-            {
-                "id": "9a38c537-52f1-48d0-91cf-2c8c060c3b12",
-                "name": "amazon.com##div#ape_detail_btf_detail-mWeb_text-wrapper",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amazon\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#ape_detail_btf_detail-mWeb_text-wrapper"
-                    }
-                }
-            },
-            {
-                "id": "b63aa527-1ee3-4d5e-b8b2-eda18d8200ea",
-                "name": "amazon.co.jp##div#ape_detail_btf_detail-mWeb_wrapper",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amazon\\.co\\.jp"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#ape_detail_btf_detail-mWeb_wrapper"
-                    }
-                }
-            },
-            {
-                "id": "ac02f083-412a-42fa-934b-03191340fc64",
-                "name": "amazon.com##div#ape_detail_btf_detail-mWeb_wrapper",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amazon\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#ape_detail_btf_detail-mWeb_wrapper"
-                    }
-                }
-            },
-            {
-                "id": "59b3a25d-0845-4ecc-81ab-ab4ebbc4a482",
-                "name": "amazon.co.jp##div#ape_gateway_atf_gateway-mWeb_wrapper",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amazon\\.co\\.jp"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#ape_gateway_atf_gateway-mWeb_wrapper"
-                    }
-                }
-            },
-            {
-                "id": "19d64c98-e7aa-47f2-b22e-5af5a17acf56",
-                "name": "amazon.com##div#ape_gateway_atf_gateway-mWeb_wrapper",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amazon\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#ape_gateway_atf_gateway-mWeb_wrapper"
-                    }
-                }
-            },
-            {
-                "id": "e3bfdfda-913b-4e6c-a41c-32531fdb4340",
-                "name": "amazon.com##div#ape_Gateway_right-7_desktop_placement",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amazon\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#ape_Gateway_right-7_desktop_placement"
-                    }
-                }
-            },
-            {
-                "id": "921c164d-0a3f-4d9e-ae8e-b22f804cf1b1",
-                "name": "amazon.com##div#ape_gateway_btf_gateway-mWeb_text-wrapper",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amazon\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#ape_gateway_btf_gateway-mWeb_text-wrapper"
-                    }
-                }
-            },
-            {
-                "id": "1eefce56-2bde-4b34-b2f5-a3fbb937fa66",
-                "name": "amazon.com##div#ape_gateway_btf_gateway-mWeb_wrapper",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amazon\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#ape_gateway_btf_gateway-mWeb_wrapper"
+                        "selector": "div[data-ad-details]"
                     }
                 }
             },
