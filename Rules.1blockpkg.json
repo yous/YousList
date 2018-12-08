@@ -9452,6 +9452,18 @@
                 }
             },
             {
+                "id": "b73bfcfb-2faa-43fe-85e4-d841ab642f0f",
+                "name": "cdn-gl.imrworldwide.com/novms/js/*/nlsSDK*.bundle.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn-gl\\.imrworldwide\\.com/novms/js/.*/nlsSDK.*\\.bundle\\.min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "117ce94a-a84d-49c2-b2cf-432f0d4bbed6",
                 "name": "cdn-sic.33across.com/1/javascripts/sic.js",
                 "content": {
