@@ -54877,6 +54877,32 @@
                 }
             },
             {
+                "id": "e21fe49a-9e22-4d92-8a1b-a0c485240a71",
+                "name": "msn.com##div.nativeadaside",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?msn\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.nativeadaside"
+                    }
+                }
+            },
+            {
+                "id": "98f95b36-bfc8-4a61-a276-98d78501cd56",
+                "name": "msn.com##div.nativeadasideplaceholder",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?msn\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.nativeadasideplaceholder"
+                    }
+                }
+            },
+            {
                 "id": "9e74a448-cb64-422d-9dcf-ca89ce1de5c8",
                 "name": "msn.com##div.widead",
                 "content": {
@@ -54899,6 +54925,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[data-nativead=\"1\"]"
+                    }
+                }
+            },
+            {
+                "id": "20375533-5bbd-4de8-927a-fb3fc35e9522",
+                "name": "msn.com##li.nativeadasideitem",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?msn\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.nativeadasideitem"
                     }
                 }
             },
