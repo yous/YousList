@@ -28862,15 +28862,15 @@
                 }
             },
             {
-                "id": "22dbb984-0939-42f5-8f4b-c9b11697c7df",
-                "name": "bloter.net##a.inline-google-ads",
+                "id": "c6240fb3-b6d5-4a4a-881d-0f93e38d53b8",
+                "name": "bloter.net##div.ads-module",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloter\\.net"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "a.inline-google-ads"
+                        "selector": "div.ads-module"
                     }
                 }
             },
@@ -28888,6 +28888,19 @@
                 }
             },
             {
+                "id": "24fa7487-ef4d-4ef8-9d4f-7f96c1f50001",
+                "name": "bloter.net##div.bloter-plus__container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloter\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bloter-plus__container"
+                    }
+                }
+            },
+            {
                 "id": "6f4bd26a-cbde-413f-bbc3-794f8ad0819a",
                 "name": "bloter.net##div.network-ad__wrapper",
                 "content": {
@@ -28901,19 +28914,6 @@
                 }
             },
             {
-                "id": "551dc3c2-4218-4ad2-ba73-24ec0e31d3a5",
-                "name": "bloter.net##div.plus-ad__container",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloter\\.net"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.plus-ad__container"
-                    }
-                }
-            },
-            {
                 "id": "8bcf1eb8-ed6d-4d19-bb2c-1174647ea285",
                 "name": "bloter.net##div.plus-position-bloter-bottom-ad--container",
                 "content": {
@@ -28923,19 +28923,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.plus-position-bloter-bottom-ad--container"
-                    }
-                }
-            },
-            {
-                "id": "f854ac63-e608-4ff6-a71f-fbce21a8b826",
-                "name": "bloter.net##img.udemy-ad-img",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloter\\.net"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "img.udemy-ad-img"
                     }
                 }
             },
@@ -28962,6 +28949,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "section.article-ad__container"
+                    }
+                }
+            },
+            {
+                "id": "eb6e4b21-c855-44ea-b368-ac38a903b695",
+                "name": "bloter.net##section.home-ad__fullwidth",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?bloter\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.home-ad__fullwidth"
                     }
                 }
             },
