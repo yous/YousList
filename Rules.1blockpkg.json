@@ -7506,6 +7506,18 @@
                 }
             },
             {
+                "id": "c4e3cd06-83dc-4ae4-957d-31853bbc5276",
+                "name": "adx.mocoplex.com/js/loadbanner.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adx\\.mocoplex\\.com/js/loadbanner\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "af825644-4dc6-4d11-8d49-fb04954ef10b",
                 "name": "adx.naonmedia.net/adx/",
                 "content": {
@@ -46256,6 +46268,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "ul.power-lst"
+                    }
+                }
+            },
+            {
+                "id": "3cd6167f-7f1f-428e-868d-5eeec74e7cf0",
+                "name": "m.donga.com##div.ad_main01",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.donga\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_main01"
+                    }
+                }
+            },
+            {
+                "id": "13cef6f6-89de-4786-82f9-d007e0b229e1",
+                "name": "m.donga.com##div.ad_main03",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.donga\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_main03"
+                    }
+                }
+            },
+            {
+                "id": "fc6771b1-fe65-458b-9d1b-e049bb500780",
+                "name": "m.donga.com##div.promotion_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.donga\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.promotion_banner"
                     }
                 }
             },
