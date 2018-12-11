@@ -60000,15 +60000,41 @@
                 }
             },
             {
-                "id": "76e53cb7-12a6-448f-bd7f-bc9169415240",
-                "name": "nytimes.com##aside.ad",
+                "id": "6f088dc4-6d24-413f-a7cd-c7b5fbcc5e4d",
+                "name": "nytimes.com##div#acm-wrapper",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nytimes\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "aside.ad"
+                        "selector": "div#acm-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "a0e7f439-aee1-4565-8bbb-bc2a982ad116",
+                "name": "nytimes.com##div#bottom-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nytimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bottom-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "00326b1a-be92-41fb-adc1-b42f285f1975",
+                "name": "nytimes.com##div#top-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nytimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#top-wrapper"
                     }
                 }
             },
@@ -60026,54 +60052,28 @@
                 }
             },
             {
-                "id": "924dedbb-01c4-4659-be16-c145ecb08509",
-                "name": "nytimes.com##div.text-ad",
+                "id": "d69ed589-eff2-494d-a5fb-1ff468501419",
+                "name": "nytimes.com##div.e12j3pa50",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nytimes\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.text-ad"
+                        "selector": "div.e12j3pa50"
                     }
                 }
             },
             {
-                "id": "cf542039-219c-4327-8dc1-3eec42d9d8f5",
-                "name": "nytimes.com##div[class^=\"ResponsiveAd-\"]",
+                "id": "e811420d-220f-4259-937d-5db3d5883b2a",
+                "name": "nytimes.com##div[id^=\"story-ad-\"][id$=\"-wrapper\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nytimes\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div[class^=\"ResponsiveAd-\"]"
-                    }
-                }
-            },
-            {
-                "id": "4bbeb03f-2b9e-461e-8bbf-12cda1b21fca",
-                "name": "nytimes.com##li.ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nytimes\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "li.ad"
-                    }
-                }
-            },
-            {
-                "id": "7fec2d70-57ff-4603-a1a5-403ec2c0c207",
-                "name": "nytimes.com##li.ribbon-ad-container",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nytimes\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "li.ribbon-ad-container"
+                        "selector": "div[id^=\"story-ad-\"][id$=\"-wrapper\"]"
                     }
                 }
             },
