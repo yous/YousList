@@ -21745,6 +21745,42 @@
                 }
             },
             {
+                "id": "d642120e-2782-40f4-aa40-7677ac839a7a",
+                "name": "wr.catad5959.com/banner/ad*.control.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wr\\.catad5959\\.com/banner/ad.*\\.control\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fc99dec1-5a64-4b7e-bd42-353d578fc63e",
+                "name": "wr.catad5959.com/banner/wrcatad.t*.banner_v*.asp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wr\\.catad5959\\.com/banner/wrcatad\\.t.*\\.banner_v.*\\.asp"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "31c07514-ed5d-430a-84aa-5282539d7b21",
+                "name": "wr.catad5959.com/native/wrcatad.t*.banner.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wr\\.catad5959\\.com/native/wrcatad\\.t.*\\.banner\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "fdd820df-b526-4d9d-ba08-70ee5fc04799",
                 "name": "wstatic.dcinside.com/ad/",
                 "content": {
@@ -49037,6 +49073,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.dw_cnt_vw>div[style=\"padding-top:5px;background:#efefef\"]"
+                    }
+                }
+            },
+            {
+                "id": "38bc43e2-09ed-47f9-a8ca-a2a39a15d89c",
+                "name": "m.kyeongin.com##div.webAdArr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.kyeongin\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.webAdArr"
+                    }
+                }
+            },
+            {
+                "id": "06643963-35cf-414b-b2a4-8849f27e301e",
+                "name": "m.kyeongin.com##div[class^=\"mViewAd\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.kyeongin\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"mViewAd\"]"
+                    }
+                }
+            },
+            {
+                "id": "eaa675d1-558e-42e2-be5e-6d1c56adbd2f",
+                "name": "m.kyeongin.com##div[class^=\"mView_ad\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.kyeongin\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"mView_ad\"]"
+                    }
+                }
+            },
+            {
+                "id": "e6a3022d-0587-4140-9274-dde65906a7bf",
+                "name": "m.kyeongin.com##ins[data-ad-slot=\"1096998365\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.kyeongin\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"1096998365\"]"
                     }
                 }
             },
