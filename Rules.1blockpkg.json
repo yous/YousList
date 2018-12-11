@@ -39043,6 +39043,19 @@
                 }
             },
             {
+                "id": "31d0b873-48a3-4b58-b310-1075918ef68c",
+                "name": "hellodd.com##div#top_hdAd_area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hellodd\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#top_hdAd_area"
+                    }
+                }
+            },
+            {
                 "id": "e2cf931b-9a49-49f5-b771-bebc91cba86b",
                 "name": "hellodd.com##div.newsheader_ad",
                 "content": {
@@ -39065,6 +39078,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.newslt_bt_ad"
+                    }
+                }
+            },
+            {
+                "id": "d92ab9de-be9a-4ed7-b2a4-20ee871c8c89",
+                "name": "hellodd.com##div[data-widget_id=\"zlvkRZX8\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hellodd\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-widget_id=\"zlvkRZX8\"]"
                     }
                 }
             },
