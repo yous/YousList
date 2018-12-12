@@ -53419,6 +53419,19 @@
                 }
             },
             {
+                "id": "ff3fab98-fba9-4554-938b-0d86d691e912",
+                "name": "mangashow.me##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mangashow\\.me"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
+                    }
+                }
+            },
+            {
                 "id": "77297c2a-2d78-4bf4-8a83-41d97b0e5112",
                 "name": "mangaumaru.com##aside.EzAdsWidget",
                 "content": {
