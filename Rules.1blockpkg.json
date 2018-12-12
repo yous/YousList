@@ -37975,6 +37975,58 @@
                 }
             },
             {
+                "id": "1bc45e51-5b7f-40d2-a3ab-1645c743e5d3",
+                "name": "genomeweb.com##div.block-genomeweb-ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?genomeweb\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.block-genomeweb-ads"
+                    }
+                }
+            },
+            {
+                "id": "f480f1f6-36bf-461d-acb4-584e73102a2b",
+                "name": "genomeweb.com##div.genomeweb-ads-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?genomeweb\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.genomeweb-ads-ad"
+                    }
+                }
+            },
+            {
+                "id": "a0f9805c-eff0-4d4f-9b35-1f2fc9364f47",
+                "name": "genomeweb.com##div.genomeweb-ads-embedded",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?genomeweb\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.genomeweb-ads-embedded"
+                    }
+                }
+            },
+            {
+                "id": "f4145656-b9c6-442e-802b-d876fa06aaba",
+                "name": "genomeweb.com##div.region-footer-top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?genomeweb\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.region-footer-top"
+                    }
+                }
+            },
+            {
                 "id": "55d98b7b-6c74-414f-a533-2811c14061de",
                 "name": "ggilbo.com##article.article-veiw-body div[style=\"width:100%; height:250px\"]",
                 "content": {
