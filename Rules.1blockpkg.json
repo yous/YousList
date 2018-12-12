@@ -12680,6 +12680,30 @@
                 }
             },
             {
+                "id": "c06312f4-306f-4c5f-85af-174548ba57ca",
+                "name": "google.co.*/adsense/search/async-ads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?google\\.co\\..*/adsense/search/async-ads\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6b767212-22e8-4465-b6b4-59cecd621a64",
+                "name": "google.com/adsense/search/async-ads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?google\\.com/adsense/search/async-ads\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b5e64fff-152f-4367-ab43-d8f455ab408e",
                 "name": "google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com",
                 "content": {
@@ -13579,11 +13603,14 @@
                 }
             },
             {
-                "id": "0e26ac5f-0a4b-4c04-99e8-288cecfd1ba4",
-                "name": "imasdk.googleapis.com/js/sdkloader/ima3.js",
+                "id": "6be7bde8-22fa-43c9-9f92-34fd908de2d9",
+                "name": "imasdk.googleapis.com/js/sdkloader/ima3.js$domain=~download.cnet.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?imasdk\\.googleapis\\.com/js/sdkloader/ima3\\.js"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?imasdk\\.googleapis\\.com/js/sdkloader/ima3\\.js",
+                        "unless-domain": [
+                            "download.cnet.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -34058,6 +34085,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.nlin"
+                    }
+                }
+            },
+            {
+                "id": "2893e115-f469-49fd-a852-0ad8615c2e23",
+                "name": "download.cnet.com##div#download-leaderboard-ad-top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?download\\.cnet\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#download-leaderboard-ad-top"
+                    }
+                }
+            },
+            {
+                "id": "74ec8d8a-8473-40dd-bf95-3eb9127e2e98",
+                "name": "download.cnet.com##div.ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?download\\.cnet\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container"
                     }
                 }
             },
