@@ -12383,6 +12383,36 @@
                 }
             },
             {
+                "id": "94a742d2-3693-47a4-8c24-98284184d08c",
+                "name": "g.163.com/r$domain=163.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?g\\.163\\.com/r",
+                        "if-domain": [
+                            "163.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b4794374-6363-4a92-8b09-1d10d4273bd2",
+                "name": "g.163.com/ur$domain=163.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?g\\.163\\.com/ur",
+                        "if-domain": [
+                            "163.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "3904c658-7107-48e3-bdf7-25d1f11e8a39",
                 "name": "g.ezoic.net/ezosuigeneris.js",
                 "content": {
@@ -17304,6 +17334,21 @@
                 }
             },
             {
+                "id": "ac56f321-eb49-46d6-9f29-8fe089e0c7ab",
+                "name": "nex.163.com/q$domain=163.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nex\\.163\\.com/q",
+                        "if-domain": [
+                            "163.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "31f82473-bac5-4dfa-83cc-a2851e0ce4eb",
                 "name": "nicovideo.cdn.nimg.jp/web/js/ads.js$domain=nicovideo.jp",
                 "content": {
@@ -22190,6 +22235,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#newFooterAdArea"
+                    }
+                }
+            },
+            {
+                "id": "5bf30f15-45e5-4714-9dc7-0561173f7a1c",
+                "name": "163.com##div.hp_textlink_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?163\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.hp_textlink_ad"
+                    }
+                }
+            },
+            {
+                "id": "002f5d55-ca13-4a19-b395-fc05f393a3b3",
+                "name": "163.com##div.mod_index_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?163\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mod_index_ad"
+                    }
+                }
+            },
+            {
+                "id": "3041f04a-f16d-45dd-9c2a-5cd73a0d426e",
+                "name": "163.com##div.mod_r_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?163\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mod_r_ad"
+                    }
+                }
+            },
+            {
+                "id": "460caa6b-bf1d-4519-8a2c-e8c1d71b3b80",
+                "name": "163.com##iframe[src^=\"https://g.163.com/r\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?163\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://g.163.com/r\"]"
+                    }
+                }
+            },
+            {
+                "id": "05b67c01-5806-41fa-98b0-be007045a149",
+                "name": "163.com##iframe[src^=\"https://g.163.com/ur\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?163\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://g.163.com/ur\"]"
                     }
                 }
             },

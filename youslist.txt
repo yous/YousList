@@ -990,6 +990,8 @@
 ||franecki.net/js/lib.js^
 ||fs.jtbc.co.kr/common/ui/ad/
 ||fs.jtbc.joins.com/common/ui/ad/
+||g.163.com/r^$domain=163.com
+||g.163.com/ur^$domain=163.com
 ||g.ezoic.net/ezosuigeneris.js^
 ||g.ezoic.net/ezosuigenerisc.js^
 ||g.novostimira.biz/j/
@@ -1365,6 +1367,7 @@
 ||newsway.kr/banner/overture.html^
 ||newsworker.co.kr/adNdsoft/$domain=newsworker.co.kr
 ||newsworker.co.kr/script/ad_flow1.js^$domain=newsworker.co.kr
+||nex.163.com/q^$domain=163.com
 ||nicovideo.cdn.nimg.jp/web/js/ads.js^$domain=nicovideo.jp
 ||nocutnews.co.kr/banner/2012/ad_right_*.asp^
 ||npian.com/nbox/ad*.swf^
@@ -1752,6 +1755,11 @@
 ! Site element hiding rules
 101.livere.co.kr##div.contents-list-container>ul.contents-list>li.tenping-title
 11st.co.kr##div#newFooterAdArea
+163.com##div.hp_textlink_ad
+163.com##div.mod_index_ad
+163.com##div.mod_r_ad
+163.com##iframe[src^="https://g.163.com/r"]
+163.com##iframe[src^="https://g.163.com/ur"]
 1boon.daum.net##div#daum-ad-root
 1boon.daum.net##div.wrap_adfit_item
 1tcafe.com,2tcafe.com,tcafe.net,tcafe3.com,tcafe4.com,tcafeaa.com,tcafeby.com,tcafegg.com,tcafego.com,tcafeh.com,tcafek.com,tcafemm.com,tcafen.com,tcafeon.com,tcafex.com,tcafez.net##a[href^="http://smartfile.co.kr/"]
