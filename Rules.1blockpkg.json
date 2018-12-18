@@ -70983,15 +70983,28 @@
                 }
             },
             {
-                "id": "77c72e9d-83ef-4f95-a768-aeaa023adcb5",
-                "name": "urbandictionary.com##div.dfp",
+                "id": "38a5f108-09a8-4420-9809-bb895a06ea47",
+                "name": "urbandictionary.com##div.dfp-panel",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?urbandictionary\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.dfp"
+                        "selector": "div.dfp-panel"
+                    }
+                }
+            },
+            {
+                "id": "220b51ca-1ba0-4571-abfa-5dce28bf2816",
+                "name": "urbandictionary.com##div[data-ad-slot]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?urbandictionary\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-ad-slot]"
                     }
                 }
             },
