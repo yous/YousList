@@ -33120,6 +33120,32 @@
                 }
             },
             {
+                "id": "9f5309d2-dcc1-4f1e-86fc-4f36e32e6fbb",
+                "name": "dailymail.co.uk##div[id^=\"taboola-stream-thumbnails-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailymail\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"taboola-stream-thumbnails-\"]"
+                    }
+                }
+            },
+            {
+                "id": "cf74a96a-bc43-4005-a4ae-73fea7a87f89",
+                "name": "dailymail.co.uk##li[id^=\"taboola-mobile-stream-thumbnails-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailymail\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li[id^=\"taboola-mobile-stream-thumbnails-\"]"
+                    }
+                }
+            },
+            {
                 "id": "c043355d-35d3-45ad-9f31-af9c1ebe818d",
                 "name": "dailymotion.com##div#bottom_banner",
                 "content": {
