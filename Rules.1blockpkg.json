@@ -71223,6 +71223,45 @@
                 }
             },
             {
+                "id": "1cf3411b-1e18-492f-bf30-11a34439631c",
+                "name": "urbo.com##div.ad_unit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?urbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_unit"
+                    }
+                }
+            },
+            {
+                "id": "aea98514-10a1-4561-b974-3740bfc0582c",
+                "name": "urbo.com##section#above_content_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?urbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section#above_content_ad"
+                    }
+                }
+            },
+            {
+                "id": "4747bce7-bde3-4084-aa29-4ccd6282612f",
+                "name": "urbo.com##section#sidebar_top_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?urbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section#sidebar_top_ad"
+                    }
+                }
+            },
+            {
                 "id": "245c2025-2009-4817-886c-f6e2461ca5a5",
                 "name": "usatoday.com##div[id^=\"ad-position-\"]",
                 "content": {
