@@ -27348,6 +27348,32 @@
                 }
             },
             {
+                "id": "b97e47aa-bede-4834-8baf-ed66501c452d",
+                "name": "betanews.com##div.articleBoxad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?betanews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.articleBoxad"
+                    }
+                }
+            },
+            {
+                "id": "80b6f0ac-4589-48dc-b23b-90f8d00e19ff",
+                "name": "betanews.com##div.wptouch-showcase",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?betanews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wptouch-showcase"
+                    }
+                }
+            },
+            {
                 "id": "29735b2b-2ea6-45fb-83c6-1323537b6ced",
                 "name": "bfmtv.com##div.onf-ad",
                 "content": {
