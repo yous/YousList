@@ -35733,6 +35733,32 @@
                 }
             },
             {
+                "id": "321d58ab-6340-4361-9f4f-dde2aa0558eb",
+                "name": "english.etnews.com##div.ad03",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?english\\.etnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad03"
+                    }
+                }
+            },
+            {
+                "id": "89aca9b5-96e8-4285-a16c-4980d8bfa189",
+                "name": "english.etnews.com##div.column_l>div.mgb20",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?english\\.etnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.column_l>div.mgb20"
+                    }
+                }
+            },
+            {
                 "id": "2d902301-3480-4e61-8c4d-5732f874dbdc",
                 "name": "ent.joseilbo.com##div.adplus_banner",
                 "content": {
