@@ -9793,6 +9793,21 @@
                 }
             },
             {
+                "id": "f109a3dd-a07f-4fd5-a337-f7142729f1d1",
+                "name": "cdn.kormedi.com/ad/$domain=kormedi.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.kormedi\\.com/ad/",
+                        "if-domain": [
+                            "kormedi.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b83baa8b-8a71-47ab-8d30-15ecc1ece55b",
                 "name": "cdn.new-star.co.kr/data/adnew/",
                 "content": {
@@ -14918,6 +14933,21 @@
                 }
             },
             {
+                "id": "c330f36d-12c1-43aa-8ac2-fded5374698f",
+                "name": "kormedi.com/wp-content/uploads/ads/$domain=kormedi.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kormedi\\.com/wp-content/uploads/ads/",
+                        "if-domain": [
+                            "kormedi.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f9ce1f69-3d8e-4820-bae5-4b5d215c64ed",
                 "name": "kukudas.com/img/banner/$domain=kukudas.com",
                 "content": {
@@ -18823,6 +18853,21 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?s2\\.adform\\.net/banners/scripts/rmb/Adform\\.DHTML\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "11d81572-a1f9-480b-9979-e41948f0be6d",
+                "name": "s3.ap-northeast-2.amazonaws.com/img2.kormedi.com/ad/banner_right/banner_right.html$domain=kormedi.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?s3\\.ap-northeast-2\\.amazonaws\\.com/img2\\.kormedi\\.com/ad/banner_right/banner_right\\.html",
+                        "if-domain": [
+                            "kormedi.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -44283,6 +44328,123 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.layer_popup"
+                    }
+                }
+            },
+            {
+                "id": "cc7fa5e5-fa5e-44ae-b2cb-8b148bc8834b",
+                "name": "kormedi.com##div.ad_350_120",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kormedi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_350_120"
+                    }
+                }
+            },
+            {
+                "id": "5bb7290e-b25d-4802-ac3e-ce875588d1e4",
+                "name": "kormedi.com##div.ad_350_250",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kormedi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_350_250"
+                    }
+                }
+            },
+            {
+                "id": "17db7df4-bdd3-4c94-9865-4a9a8e23af70",
+                "name": "kormedi.com##div.bsac-post-inline",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kormedi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bsac-post-inline"
+                    }
+                }
+            },
+            {
+                "id": "ba5d0f46-fe85-4958-bf07-e97d022bdc1b",
+                "name": "kormedi.com##div.under_sns_1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kormedi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.under_sns_1"
+                    }
+                }
+            },
+            {
+                "id": "e4498391-c625-4b27-979f-4e762e6f97ed",
+                "name": "kormedi.com##div.under_sns_2_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kormedi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.under_sns_2_ad"
+                    }
+                }
+            },
+            {
+                "id": "235845b0-71e6-4b3d-a6e2-0bc87541903f",
+                "name": "kormedi.com##div[data-adid=\"1253728\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kormedi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-adid=\"1253728\"]"
+                    }
+                }
+            },
+            {
+                "id": "6999abcf-1eb4-471e-ba48-4c8164350296",
+                "name": "kormedi.com##div[id^=\"better-ads-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kormedi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"better-ads-\"]"
+                    }
+                }
+            },
+            {
+                "id": "884437ad-09fb-4708-99d2-32728cd67b9e",
+                "name": "kormedi.com##iframe[src^=\"http://kormedi.com/wp-content/uploads/ads/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kormedi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://kormedi.com/wp-content/uploads/ads/\"]"
+                    }
+                }
+            },
+            {
+                "id": "0fcb8e7e-5581-440e-a65a-f6522983225c",
+                "name": "kormedi.com##iframe[src^=\"https://s3.ap-northeast-2.amazonaws.com/img2.kormedi.com/ad/banner_right/banner_right.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kormedi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://s3.ap-northeast-2.amazonaws.com/img2.kormedi.com/ad/banner_right/banner_right.html\"]"
                     }
                 }
             },
