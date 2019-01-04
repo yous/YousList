@@ -53757,6 +53757,45 @@
                 }
             },
             {
+                "id": "8c1c1f8d-7c35-4c44-b230-f46b61f1f580",
+                "name": "macworld.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?macworld\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "147d04e7-1031-4055-9388-ac05fb7baf70",
+                "name": "macworld.com##div.ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?macworld\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container"
+                    }
+                }
+            },
+            {
+                "id": "2a20386f-a0fd-4a79-a080-5b930580b097",
+                "name": "macworld.com##div.sponsored-links",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?macworld\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sponsored-links"
+                    }
+                }
+            },
+            {
                 "id": "602c2d8f-58b2-4b75-9dcd-18f707273a9b",
                 "name": "magazine2.movie.daum.net##div.ad_recom",
                 "content": {
