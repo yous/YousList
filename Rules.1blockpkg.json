@@ -36740,6 +36740,19 @@
                 }
             },
             {
+                "id": "14c83091-850f-460e-a3db-5133a32faab7",
+                "name": "feedly.com##div.list-entries>div:not([data-inlineentryid]):not([data-uninlineentryid])",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?feedly\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.list-entries>div:not([data-inlineentryid]):not([data-uninlineentryid])"
+                    }
+                }
+            },
+            {
                 "id": "d8077b2d-4d5a-4e12-b7db-d93f42e651d3",
                 "name": "fenglin.to##div#text-10",
                 "content": {
