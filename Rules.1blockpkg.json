@@ -43179,6 +43179,19 @@
                 }
             },
             {
+                "id": "6fa4a4c9-7ac6-4057-ae56-86d48e1783cb",
+                "name": "justwatch.com##jw-ad-block",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?justwatch\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "jw-ad-block"
+                    }
+                }
+            },
+            {
                 "id": "160a088d-c174-4b98-9ff8-b893b1396b11",
                 "name": "kat.cr##div.spareBlock",
                 "content": {
