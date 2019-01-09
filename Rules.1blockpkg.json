@@ -21385,11 +21385,14 @@
                 }
             },
             {
-                "id": "c22d5d06-84f5-46b6-9807-c93a4184fa94",
-                "name": "vod-naver.pstatic.net/tveta/owfs_rmc/read/",
+                "id": "7d7d5b9b-e4b9-43e1-8b83-784f0df588b0",
+                "name": "vod-naver.pstatic.net/tveta/owfs_rmc/read/$domain=~sports.news.naver.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vod-naver\\.pstatic\\.net/tveta/owfs_rmc/read/"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vod-naver\\.pstatic\\.net/tveta/owfs_rmc/read/",
+                        "unless-domain": [
+                            "sports.news.naver.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
