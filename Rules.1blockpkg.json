@@ -41037,6 +41037,32 @@
                 }
             },
             {
+                "id": "b58448cc-aaae-4b9e-8093-3862457779d0",
+                "name": "igorkromin.net##div.adsense_entry",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?igorkromin\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adsense_entry"
+                    }
+                }
+            },
+            {
+                "id": "3b333b49-699e-48b0-a565-bdcbb3eb0cae",
+                "name": "igorkromin.net##div.more_extra",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?igorkromin\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.more_extra"
+                    }
+                }
+            },
+            {
                 "id": "c0fa28b4-76f2-41d3-8645-c64a32b3410e",
                 "name": "ikoreadaily.co.kr##div#CmAdContent>div[style=\"float:left; margin-right:10px; text-align:center; width:100%;\"]",
                 "content": {
