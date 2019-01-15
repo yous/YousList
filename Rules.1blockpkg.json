@@ -61278,6 +61278,19 @@
                 }
             },
             {
+                "id": "3c0c2a32-a343-4201-b2ff-41fa2f55ed12",
+                "name": "noquick.tistory.com##div.tt_article_useless_p_margin>div[style=\"float:left;margin:0 10px 10px 0;width:336px;height:280px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?noquick\\.tistory\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.tt_article_useless_p_margin>div[style=\"float:left;margin:0 10px 10px 0;width:336px;height:280px\"]"
+                    }
+                }
+            },
+            {
                 "id": "03462605-f7a6-4633-a1e9-b056d7358b20",
                 "name": "nownews.seoul.co.kr##div#articleContent>table[width=\"250px\"][height=\"250px\"]",
                 "content": {
