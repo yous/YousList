@@ -18046,6 +18046,21 @@
                 }
             },
             {
+                "id": "0d5fda98-aa9f-4487-b1b1-17a0fb2f743a",
+                "name": "physicsworld.com/wp-content/themes/iopp/assets/js/realmedia.js$domain=physicsworld.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?physicsworld\\.com/wp-content/themes/iopp/assets/js/realmedia\\.js",
+                        "if-domain": [
+                            "physicsworld.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c0e7b1cc-3d6e-4584-bf3f-a90300663daa",
                 "name": "pinaya.center/addons/document_contents_blind_advertise/css/blind.min.css$domain=pinaya.center",
                 "content": {
@@ -62444,6 +62459,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.rightbanner"
+                    }
+                }
+            },
+            {
+                "id": "e9e876b7-93ba-4f82-9453-b4e2fe2705bd",
+                "name": "physicsworld.com##span[data-oas]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?physicsworld\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span[data-oas]"
                     }
                 }
             },
