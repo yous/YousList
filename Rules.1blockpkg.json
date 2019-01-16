@@ -63672,6 +63672,32 @@
                 }
             },
             {
+                "id": "011811c4-743e-45f3-97e1-7a4585cca9f9",
+                "name": "reddit.com##div[id^=\"overlay-sidebar-atf-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?reddit\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"overlay-sidebar-atf-\"]"
+                    }
+                }
+            },
+            {
+                "id": "413e67bd-b7b7-4051-8bcc-2ebb7264ea36",
+                "name": "reddit.com##div[id^=\"overlay-sidebar-btf-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?reddit\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"overlay-sidebar-btf-\"]"
+                    }
+                }
+            },
+            {
                 "id": "b8dd0009-54d5-43d8-93b0-dfc1725925dc",
                 "name": "reddit.com##div[id^=\"sidebar-atf-\"]",
                 "content": {
