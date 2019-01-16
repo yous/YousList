@@ -60381,6 +60381,19 @@
                 }
             },
             {
+                "id": "045f4c3a-1d19-4202-9378-4fdb1e14b786",
+                "name": "newsis.com##div[data-widget_id=\"goPGerXQ\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newsis\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-widget_id=\"goPGerXQ\"]"
+                    }
+                }
+            },
+            {
                 "id": "6996d294-a583-41a3-898f-f51533e6c0b5",
                 "name": "newsis.com##iframe[src^=\"/ad/view_banner.html\"]",
                 "content": {
@@ -60407,28 +60420,28 @@
                 }
             },
             {
-                "id": "18513915-ae9e-4ddc-996a-3b11123f9d9f",
-                "name": "newsis.com##span#header_left_ad",
+                "id": "b3bc5785-d6c9-4d05-b860-50a72b3af426",
+                "name": "newsis.com##span.banner1",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newsis\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "span#header_left_ad"
+                        "selector": "span.banner1"
                     }
                 }
             },
             {
-                "id": "1d2d81bb-004a-4a4f-a028-f975923b16e4",
-                "name": "newsis.com##span#header_right_ad",
+                "id": "f678aad8-b0d2-44d4-b61c-7624bdc0eb5c",
+                "name": "newsis.com##span.banner2",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newsis\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "span#header_right_ad"
+                        "selector": "span.banner2"
                     }
                 }
             },
