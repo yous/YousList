@@ -44861,6 +44861,19 @@
                 }
             },
             {
+                "id": "942f3032-9e72-4446-9b0c-3b581fbffca7",
+                "name": "kotaku.com##div.ad-non-sticky",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kotaku\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-non-sticky"
+                    }
+                }
+            },
+            {
                 "id": "107b4f97-71aa-414c-af8e-41443fbc32bc",
                 "name": "kotaku.com##div.ad-wide",
                 "content": {
@@ -44887,6 +44900,32 @@
                 }
             },
             {
+                "id": "616e7272-d0c2-47b8-92db-e74e2316ca6b",
+                "name": "kotaku.com##div.contained-ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kotaku\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contained-ad-container"
+                    }
+                }
+            },
+            {
+                "id": "85ac0d1f-d2b3-41e6-aa22-7a10c57e3ce2",
+                "name": "kotaku.com##div.contained-ad-shaft",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kotaku\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contained-ad-shaft"
+                    }
+                }
+            },
+            {
                 "id": "36bcf66f-3b94-4565-98c1-405e1f93755a",
                 "name": "kotaku.com##div.js_ad-dynamic",
                 "content": {
@@ -44896,6 +44935,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.js_ad-dynamic"
+                    }
+                }
+            },
+            {
+                "id": "c1a5b241-0362-4955-b42c-20fdb9e607d9",
+                "name": "kotaku.com##section.contained-ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kotaku\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.contained-ad-container"
                     }
                 }
             },
