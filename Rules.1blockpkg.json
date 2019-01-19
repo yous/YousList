@@ -13341,6 +13341,21 @@
                 }
             },
             {
+                "id": "4b410fcb-0bde-439a-bfc4-47423ba68f62",
+                "name": "iframe.joynews24.com/ad/$domain=joynews24.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?iframe\\.joynews24\\.com/ad/",
+                        "if-domain": [
+                            "joynews24.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f3860f6a-d87b-44be-a530-7e9457f906d8",
                 "name": "iicdn.com/www/delivery/afr.php",
                 "content": {
@@ -43424,6 +43439,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#id_header_R"
+                    }
+                }
+            },
+            {
+                "id": "bbd1bf4b-1795-486a-a1ea-1e5f9fc5bf6a",
+                "name": "joynews24.com##ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joynews24\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ad"
+                    }
+                }
+            },
+            {
+                "id": "07a4cb05-bd10-4495-96e7-ce2f62435609",
+                "name": "joynews24.com##container.ad-head",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joynews24\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "container.ad-head"
+                    }
+                }
+            },
+            {
+                "id": "45dd2129-a62b-4736-9376-8aa9d1f994ed",
+                "name": "joynews24.com##hr.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joynews24\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "hr.ad"
+                    }
+                }
+            },
+            {
+                "id": "6f99686a-c114-4361-88f7-ca75d6062c00",
+                "name": "joynews24.com##iframe[src^=\"http://iframe.joynews24.com/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joynews24\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://iframe.joynews24.com/ad/\"]"
                     }
                 }
             },
