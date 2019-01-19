@@ -53674,6 +53674,19 @@
                 }
             },
             {
+                "id": "50bdadb7-ff52-4f9b-bfe1-486bab490bff",
+                "name": "m.windowscentral.com##div.adunit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.windowscentral\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adunit"
+                    }
+                }
+            },
+            {
                 "id": "82e0097f-2303-42d3-9edd-961cb6ef9728",
                 "name": "m.womennews.co.kr##div.ad_banner",
                 "content": {
