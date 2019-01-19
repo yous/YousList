@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20190116
+! Version: 20190119
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -1063,6 +1063,7 @@
 ||ib.adnxs.com/ttj^
 ||ib.adnxs.com/ut/v3/prebid^
 ||ichannela.com/ch/*adpost*
+||iframe.inews24.com/ad/$domain=inews24.com|v1.inews24.com
 ||iicdn.com/www/delivery/afr.php^
 ||ikoreadaily.co.kr/script/ikoreadaily_hns.js^$domain=ikoreadaily.co.kr
 ||ikunkang.com/bannerManager/upload/$domain=ikunkang.com
@@ -2828,6 +2829,10 @@ imore.com##div.adunit-wrap
 imore.com##div.netshelter-ad
 independent.co.uk##div.onscroll-injected-ad
 indi.s58.xrea.com##div#vdbanner
+inews24.com,v1.inews24.com##ad
+inews24.com,v1.inews24.com##container.ad-head
+inews24.com,v1.inews24.com##hr.ad
+inews24.com,v1.inews24.com##iframe[src^="http://iframe.inews24.com/ad/"]
 insight.co.kr##div.ad-google-side1
 insight.co.kr##div.ad-google-side2
 insight.co.kr##div.news__view__article>ul[style="float:right; margin:0 0 10px 10px;"]
