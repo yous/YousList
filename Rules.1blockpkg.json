@@ -51750,6 +51750,19 @@
                 }
             },
             {
+                "id": "931029d7-8e95-436d-a76b-ccd34f19f038",
+                "name": "m.nocutnews.co.kr##div.ad_ft",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.nocutnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_ft"
+                    }
+                }
+            },
+            {
                 "id": "707eb70b-1329-4df8-9b0f-afae0e618a61",
                 "name": "m.nocutnews.co.kr##div.con_b>div.ct_box",
                 "content": {
@@ -51763,54 +51776,15 @@
                 }
             },
             {
-                "id": "d43ee601-f376-42a0-99c5-6b5b3a47ba58",
-                "name": "m.nocutnews.co.kr##div.ct1>div.con_b>div>div[style=\"padding:0 10px 4px; height:25px; border-bottom:1px solid #dbdbdb\"]",
+                "id": "a8e34931-d526-4d64-bcd6-cd09819ff216",
+                "name": "m.nocutnews.co.kr##div.ct1>div.con_b>div:not([class]):not([id])",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.nocutnews\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ct1>div.con_b>div>div[style=\"padding:0 10px 4px; height:25px; border-bottom:1px solid #dbdbdb\"]"
-                    }
-                }
-            },
-            {
-                "id": "0b1e7251-3e83-4f0d-81a6-3628780ae441",
-                "name": "m.nocutnews.co.kr##div.ct1>div.con_b>div>div[style=\"padding:6px 10px 4px; height:25px; border-bottom:1px solid #dbdbdb\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.nocutnews\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ct1>div.con_b>div>div[style=\"padding:6px 10px 4px; height:25px; border-bottom:1px solid #dbdbdb\"]"
-                    }
-                }
-            },
-            {
-                "id": "5e328753-c14f-48d4-a285-6fb9f444d048",
-                "name": "m.nocutnews.co.kr##div.viewpic>div[style=\"text-align:center; margin-top:10px;height:60px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.nocutnews\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.viewpic>div[style=\"text-align:center; margin-top:10px;height:60px;\"]"
-                    }
-                }
-            },
-            {
-                "id": "1d204f00-384c-48d1-80c2-2be44d6a6426",
-                "name": "m.nocutnews.co.kr##form#frmForm>div[style=\"position: fixed; bottom: 0px; left: 0px; width: 100%; z-index: 1000; text-align: center;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.nocutnews\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "form#frmForm>div[style=\"position: fixed; bottom: 0px; left: 0px; width: 100%; z-index: 1000; text-align: center;\"]"
+                        "selector": "div.ct1>div.con_b>div:not([class]):not([id])"
                     }
                 }
             },
