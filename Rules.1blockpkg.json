@@ -25529,6 +25529,32 @@
                 }
             },
             {
+                "id": "a553a6b1-f31e-4088-8194-76ae708a796c",
+                "name": "answers.com##div.ad_unit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?answers\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_unit"
+                    }
+                }
+            },
+            {
+                "id": "40866fa4-1ddf-4ebc-ad69-405d0b971d38",
+                "name": "answers.com##div.adhesion_dom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?answers\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adhesion_dom"
+                    }
+                }
+            },
+            {
                 "id": "1ffa6b5d-cde2-4e78-9676-911b358a1330",
                 "name": "api.dable.io##div.item-sp",
                 "content": {
