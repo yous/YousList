@@ -64100,6 +64100,45 @@
                 }
             },
             {
+                "id": "64b7d6ca-dfe7-4053-8015-8986ed69f505",
+                "name": "searchdatacenter.techtarget.com##div.ad-embedded",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?searchdatacenter\\.techtarget\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-embedded"
+                    }
+                }
+            },
+            {
+                "id": "b3891ea2-309e-49a5-bcd8-ab39d3ada93e",
+                "name": "searchdatacenter.techtarget.com##div.ad-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?searchdatacenter\\.techtarget\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "b9586c67-b612-4229-ad33-62bbc09cbf06",
+                "name": "searchdatacenter.techtarget.com##section.ads-by-google",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?searchdatacenter\\.techtarget\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.ads-by-google"
+                    }
+                }
+            },
+            {
                 "id": "dd8f0dc8-cf09-425d-ad4a-2c661029c794",
                 "name": "seasonvar.ru##div.pgs-player>div[align=\"center\"]>div[style=\"height:275px\"]",
                 "content": {
