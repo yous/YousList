@@ -9634,6 +9634,18 @@
                 }
             },
             {
+                "id": "9c0b0247-d50d-4db2-a2be-37326552985d",
+                "name": "cdn.adtrue.com/rtb/async.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.adtrue\\.com/rtb/async\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2f736df0-7c59-40bc-8a6f-3d0669931bd5",
                 "name": "cdn.blueconic.net/*.js",
                 "content": {
@@ -15897,6 +15909,36 @@
                 }
             },
             {
+                "id": "ea080199-dc8c-45ec-96fc-7085115810b0",
+                "name": "mangarock.com/iframe/adtrue_300x250.html$domain=mangarock.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mangarock\\.com/iframe/adtrue_300x250\\.html",
+                        "if-domain": [
+                            "mangarock.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ac7e1670-01c0-45de-9217-64aeed6126d3",
+                "name": "mangarock.com/iframe/adtrue_728x90.html$domain=mangarock.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mangarock\\.com/iframe/adtrue_728x90\\.html",
+                        "if-domain": [
+                            "mangarock.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8b799091-336d-4fc1-b7cc-d342f677dcc0",
                 "name": "marketingking.co.kr/pr/ad.js",
                 "content": {
@@ -18758,6 +18800,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?s\\.pubmine\\.com/head\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cdf16d8d-2bb0-4df4-97b4-ca5698be41de",
+                "name": "s.spoutable.com/s",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?s\\.spoutable\\.com/s"
                     },
                     "action": {
                         "type": "block"
@@ -54502,6 +54556,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "597cdcce-9994-43fb-a53b-7a03369f1d7f",
+                "name": "mangarock.com##iframe[src^=\"/iframe/adtrue_300x250.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mangarock\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/iframe/adtrue_300x250.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "e2779cf5-9325-4ddf-b546-abda7b87749b",
+                "name": "mangarock.com##iframe[src^=\"/iframe/adtrue_728x90.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mangarock\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/iframe/adtrue_728x90.html\"]"
                     }
                 }
             },

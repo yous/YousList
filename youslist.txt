@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20190121
+! Version: 20190123
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -778,6 +778,7 @@
 ||cdn.adsolutions.nl/tagman/WAIT/sites/*/index.js^
 ||cdn.adstract.com/adstract/tags/xbanner/xbanner.js^
 ||cdn.adtive.com/js/notice.js^
+||cdn.adtrue.com/rtb/async.js^
 ||cdn.blueconic.net/*.js^
 ||cdn.c-team.jp/tags/dokojs/ad*.js^
 ||cdn.caprofitx.com/media/*/pfx.js^
@@ -1254,6 +1255,8 @@
 ||m.zdnet.co.kr/template/ads.asp^$domain=m.zdnet.co.kr
 ||m1.daumcdn.net/adtc/js/mobilead.js^
 ||mainclc.com/*/*/*/*.js^
+||mangarock.com/iframe/adtrue_300x250.html^$domain=mangarock.com
+||mangarock.com/iframe/adtrue_728x90.html^$domain=mangarock.com
 ||marketingking.co.kr/pr/ad.js^
 ||maxmovie.com/banner/img/lotte630x88.jpg^
 ||mbn.mk.co.kr/pages/ad/
@@ -1481,6 +1484,7 @@
 ||s.ntv.io/serve/load.js^
 ||s.pubmine.com/adj/
 ||s.pubmine.com/head.js^
+||s.spoutable.com/s^
 ||s.telegraph.co.uk/international/Barnebys/$domain=telegraph.co.uk
 ||s.yimg.jp/images/listing/tool/yads/yads-iframe.html^
 ||s1.adform.net/banners/scripts/adx.js^
@@ -3762,6 +3766,8 @@ mainichi.jp##aside.ad.pr
 mainichi.jp##aside.ad.yads
 mainichi.jp##div.ad.img-left
 mangafox.me##div.ad
+mangarock.com##iframe[src^="/iframe/adtrue_300x250.html"]
+mangarock.com##iframe[src^="/iframe/adtrue_728x90.html"]
 mangashow.me##div.banner
 mangaumaru.com,shencomics.com,yuncomics.com##aside.EzAdsWidget
 mangaumaru.com,shencomics.com,yuncomics.com##div#fbanner
