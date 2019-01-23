@@ -60306,6 +60306,32 @@
                 }
             },
             {
+                "id": "ed1c4821-b488-4f7c-9fcc-2b3065ed40c3",
+                "name": "newscientist.com##div#mpu-sidebar",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newscientist\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mpu-sidebar"
+                    }
+                }
+            },
+            {
+                "id": "e5dd5d87-c8d4-4b26-934a-826e9121c92f",
+                "name": "newscientist.com##div.article-footer-ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newscientist\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article-footer-ad-container"
+                    }
+                }
+            },
+            {
                 "id": "6036c15a-34ae-4523-a528-7caa4b2cd528",
                 "name": "newsen.com##div#ad250",
                 "content": {
