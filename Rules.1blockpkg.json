@@ -41014,6 +41014,45 @@
                 }
             },
             {
+                "id": "a005a385-017c-4697-b25e-8b5001056a89",
+                "name": "icdrama.to##div#closeADV",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?icdrama\\.to"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#closeADV"
+                    }
+                }
+            },
+            {
+                "id": "e348ad0d-85d7-491d-95a5-2d25fc67e3d4",
+                "name": "icdrama.to##div[id^=\"MYADV_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?icdrama\\.to"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"MYADV_\"]"
+                    }
+                }
+            },
+            {
+                "id": "5eb8f10b-f605-4733-a4c5-dd1bc4893f57",
+                "name": "icdrama.to##div[id^=\"mynewads_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?icdrama\\.to"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"mynewads_\"]"
+                    }
+                }
+            },
+            {
                 "id": "915fa41e-afee-45fd-814e-cef72eca83e3",
                 "name": "ign.com##div.chess",
                 "content": {
