@@ -55288,6 +55288,19 @@
                 }
             },
             {
+                "id": "2761bee2-1bcf-4244-9231-b8ba00df6a29",
+                "name": "me.me##div.proper-ad-unit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?me\\.me"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.proper-ad-unit"
+                    }
+                }
+            },
+            {
                 "id": "889db3cf-1a29-4932-a015-1f514b18f9c6",
                 "name": "media.daum.net##div#EXTENSIBLE_WING_WRAP",
                 "content": {
