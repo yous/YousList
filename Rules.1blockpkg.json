@@ -62581,6 +62581,19 @@
                 }
             },
             {
+                "id": "774d3b53-46e8-448f-b866-acde49506f93",
+                "name": "phonearena.com##div.ad_300_600",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?phonearena\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_300_600"
+                    }
+                }
+            },
+            {
                 "id": "fb2bed98-a8e5-4611-b9f2-fd2d0469f672",
                 "name": "phonearena.com##div.ad_728_90",
                 "content": {
@@ -62590,6 +62603,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_728_90"
+                    }
+                }
+            },
+            {
+                "id": "7498048d-fdf7-444e-8a31-568518771774",
+                "name": "phonearena.com##div.ad_800_400",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?phonearena\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_800_400"
                     }
                 }
             },
