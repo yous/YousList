@@ -64180,6 +64180,32 @@
                 }
             },
             {
+                "id": "ec095c6c-59d8-4fc2-a6ed-d2db9163dd30",
+                "name": "rottentomatoes.com##div#leaderboard_top_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?rottentomatoes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#leaderboard_top_ad"
+                    }
+                }
+            },
+            {
+                "id": "c84b97d6-9267-4e11-96d4-bb59bf9d4fbe",
+                "name": "rottentomatoes.com##div#top_leaderboard_wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?rottentomatoes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#top_leaderboard_wrapper"
+                    }
+                }
+            },
+            {
                 "id": "8bfc637d-4cce-4d00-a6c5-c1390e1749ae",
                 "name": "ruliweb.com##div.ad",
                 "content": {
