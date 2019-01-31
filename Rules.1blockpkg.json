@@ -36464,6 +36464,19 @@
                 }
             },
             {
+                "id": "371a17a8-9fd9-4a89-bd62-65a62acfb509",
+                "name": "etnews.com##div.article_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?etnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article_ad"
+                    }
+                }
+            },
+            {
                 "id": "932d8c88-e7f7-4a65-9c04-1aef4cf0bfb5",
                 "name": "etnews.com##div.article_footer>div[style=\"margin-bottom:20px;text-align:center\"]",
                 "content": {
