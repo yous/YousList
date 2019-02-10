@@ -32761,6 +32761,19 @@
                 }
             },
             {
+                "id": "92cca65e-366b-4214-83f6-9f17df651c46",
+                "name": "communities.vmware.com##span.rotatoryBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?communities\\.vmware\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span.rotatoryBanner"
+                    }
+                }
+            },
+            {
                 "id": "055a87a1-30f1-48b5-924e-6c840ca9f059",
                 "name": "computerbild.de##div#rectangleAdTeaser1",
                 "content": {
