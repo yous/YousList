@@ -1669,6 +1669,19 @@
                 }
             },
             {
+                "id": "2af7f47e-b5a7-421e-8088-02cd4c671c06",
+                "name": "##iframe[src^=\"http://ad4989.kr/winnerpower/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://ad4989.kr/winnerpower/\"]"
+                    }
+                }
+            },
+            {
                 "id": "c5ebe670-4c65-4517-a4e5-56d886804030",
                 "name": "##iframe[src^=\"http://adbiz.co.kr/\"]",
                 "content": {
@@ -5748,6 +5761,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad2\\.thisisgame\\.com"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8bf8522a-fc11-48cc-b906-933d877acc44",
+                "name": "ad4989.kr/winnerpower/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad4989\\.kr/winnerpower/"
                     },
                     "action": {
                         "type": "block"
