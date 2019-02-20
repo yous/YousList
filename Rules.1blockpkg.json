@@ -60268,6 +60268,19 @@
                 }
             },
             {
+                "id": "d04da02d-dd83-43e2-9a3d-fc03341456b1",
+                "name": "news1.kr##div.ad_txt_article",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news1\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_txt_article"
+                    }
+                }
+            },
+            {
                 "id": "191e3ea9-3ce0-4c50-9e26-8accc7327ad2",
                 "name": "news1.kr##div.ad_wing_l",
                 "content": {
