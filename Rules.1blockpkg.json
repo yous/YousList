@@ -58604,6 +58604,19 @@
                 }
             },
             {
+                "id": "6c68db18-b4ab-4e11-a5ba-af77be58f281",
+                "name": "news.hankyung.com##div.list_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.list_ad"
+                    }
+                }
+            },
+            {
                 "id": "e9e8452f-c33a-434d-b64d-925f3d4c743e",
                 "name": "news.joins.com##div#criteo_network",
                 "content": {
