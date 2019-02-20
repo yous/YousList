@@ -1318,6 +1318,71 @@
                 }
             },
             {
+                "id": "797c9062-cde2-4bd0-a9b3-5c1f2aca0ddf",
+                "name": "##iframe[src^=\"//www.mediacategory.com/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//www.mediacategory.com/ad/\"]"
+                    }
+                }
+            },
+            {
+                "id": "838ee267-ba9b-4bd4-b0f4-97af2d2dff34",
+                "name": "##iframe[src^=\"//www.mediacategory.com/servlet/adBanner\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//www.mediacategory.com/servlet/adBanner\"]"
+                    }
+                }
+            },
+            {
+                "id": "527570ba-50cc-4220-821f-ac18f7c20c01",
+                "name": "##iframe[src^=\"//www.mediacategory.com/servlet/adPlayLinkServlet\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//www.mediacategory.com/servlet/adPlayLinkServlet\"]"
+                    }
+                }
+            },
+            {
+                "id": "b2fa73b5-e774-4b06-a838-f704969de0d6",
+                "name": "##iframe[src^=\"//www.mediacategory.com/servlet/adbnMobileBanner\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//www.mediacategory.com/servlet/adbnMobileBanner\"]"
+                    }
+                }
+            },
+            {
+                "id": "1594e25f-1549-4486-8c65-0d75c584dd88",
+                "name": "##iframe[src^=\"//www.mediacategory.com/servlet/iadbn\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//www.mediacategory.com/servlet/iadbn\"]"
+                    }
+                }
+            },
+            {
                 "id": "6a05be38-f433-4e12-8f75-06adbe9374be",
                 "name": "##iframe[src^=\"//x.jd.com/exsites\"]",
                 "content": {
@@ -13857,6 +13922,18 @@
                 }
             },
             {
+                "id": "9b9679aa-3410-4e5b-ba86-f709c1cd28e5",
+                "name": "img.mobon.net/ad/imgfile/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?img\\.mobon\\.net/ad/imgfile/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "bce91787-17be-4d05-a380-2bfc2fc7e6f2",
                 "name": "img.mobon.net/js/elpBackUnder.js",
                 "content": {
@@ -16032,6 +16109,174 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?media\\.adrcdn\\.com/scripts/w-display/screenad_launch_.*_scrambled\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "bfebb377-b56f-4568-9024-30b2238af961",
+                "name": "mediacategory.com/ad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediacategory\\.com/ad/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2f25a742-06b7-4bdd-9e24-5fbd6fe372f4",
+                "name": "mediacategory.com/adnet/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediacategory\\.com/adnet/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a6827d0f-4ff6-4f20-9c6f-0739f0c3f027",
+                "name": "mediacategory.com/playLinkAd/js/mobonPlayLinkToast.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediacategory\\.com/playLinkAd/js/mobonPlayLinkToast\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7e2e824a-2a4b-4a1b-8d61-1f92bc8de18a",
+                "name": "mediacategory.com/servlet/adBannerFloating",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediacategory\\.com/servlet/adBannerFloating"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6feeb2df-4835-4922-8d71-b3c222895b19",
+                "name": "mediacategory.com/servlet/adBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediacategory\\.com/servlet/adBanner"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "46fc9d40-867f-4b29-bd1d-08cddf6df0e4",
+                "name": "mediacategory.com/servlet/adPlayLinkBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediacategory\\.com/servlet/adPlayLinkBanner"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9313d958-0b3b-40c2-93c4-68e31f1fbf06",
+                "name": "mediacategory.com/servlet/adPlayLinkServlet",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediacategory\\.com/servlet/adPlayLinkServlet"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cc5dafcf-a7c8-4788-b948-868ad5d7b4f5",
+                "name": "mediacategory.com/servlet/adbnMobileBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediacategory\\.com/servlet/adbnMobileBanner"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ca540979-5418-43e7-8785-fd1357cdd465",
+                "name": "mediacategory.com/servlet/adbnMobileFloating",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediacategory\\.com/servlet/adbnMobileFloating"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "49394019-0500-49a9-b215-a83555486de2",
+                "name": "mediacategory.com/servlet/adbn",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediacategory\\.com/servlet/adbn"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0fa70d44-e256-4edf-99fe-36138af760f3",
+                "name": "mediacategory.com/servlet/iadbn",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediacategory\\.com/servlet/iadbn"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "dce716b7-0b70-47e9-8d8b-7fbb5a2a2ba3",
+                "name": "mediacategory.com/servlet/nateMobileServlet",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediacategory\\.com/servlet/nateMobileServlet"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2f66c4cc-0f71-4593-8794-342c58771ca3",
+                "name": "mediacategory.com/servlet/sadbn",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediacategory\\.com/servlet/sadbn"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2ba31d72-c652-4a61-8172-fa0a5346907f",
+                "name": "mediacategory.com/servlet/shortCut",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediacategory\\.com/servlet/shortCut"
                     },
                     "action": {
                         "type": "block"
