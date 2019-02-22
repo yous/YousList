@@ -5858,6 +5858,18 @@
                 }
             },
             {
+                "id": "056b457f-caac-4e0d-aaba-ea2d5b9345c5",
+                "name": "ad79.z00.kr/catchback/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad79\\.z00\\.kr/catchback/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "5b9a4096-1c79-4644-9dea-61c1a768cce4",
                 "name": "ad8.adfarm1.adition.com/s",
                 "content": {
@@ -47901,28 +47913,15 @@
                 }
             },
             {
-                "id": "eb478405-d16d-456d-b7cb-18c617ba89b0",
-                "name": "m.dailian.co.kr##div.article>div[style=\"width: 200px; height: 200px; padding: 0px; float: right; margin: 0px; border-width: 0px;\"]",
+                "id": "9ecd091f-870d-41e2-99de-253564c80b0e",
+                "name": "m.dailian.co.kr##div.article>div[style=\"margin-top:15px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dailian\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.article>div[style=\"width: 200px; height: 200px; padding: 0px; float: right; margin: 0px; border-width: 0px;\"]"
-                    }
-                }
-            },
-            {
-                "id": "e8380e2d-25af-430d-9cd2-73aa691d7c83",
-                "name": "m.dailian.co.kr##div.article>div[style=\"width:200px;height:200px;padding:25px 0 10px 15px;float:right;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dailian\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.article>div[style=\"width:200px;height:200px;padding:25px 0 10px 15px;float:right;\"]"
+                        "selector": "div.article>div[style=\"margin-top:15px;\"]"
                     }
                 }
             },
