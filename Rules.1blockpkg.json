@@ -733,6 +733,19 @@
                 }
             },
             {
+                "id": "fc9cb1aa-c087-42f3-8665-da07a3e3ae2a",
+                "name": "##iframe[data-src^=\"//ssp.realclick.co.kr/\"][data-src*=\"c=iframe\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[data-src^=\"//ssp.realclick.co.kr/\"][data-src*=\"c=iframe\"]"
+                    }
+                }
+            },
+            {
                 "id": "b54b5c9a-8e48-4841-8c12-519bb1707029",
                 "name": "##iframe[data-src^=\"http://nw.realssp.co.kr/\"]",
                 "content": {
@@ -10844,6 +10857,21 @@
                 }
             },
             {
+                "id": "1d92b08b-b6a3-4ac3-8c6a-4d82c19cdaf6",
+                "name": "dailian.co.kr/ad_article_center.php$domain=dailian.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailian\\.co\\.kr/ad_article_center\\.php",
+                        "if-domain": [
+                            "dailian.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6930e398-95f0-4b3e-9d02-6bb3d519a915",
                 "name": "daily.hankooki.com/ad/$domain=daily.hankooki.com",
                 "content": {
@@ -14759,6 +14787,54 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?js\\.mtburn\\.com/advs-instream\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fce9c189-c03e-4986-bf12-f00b119ca61c",
+                "name": "js.newsmobile.co.kr/IconAd_New_v*.src.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?js\\.newsmobile\\.co\\.kr/IconAd_New_v.*\\.src\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7a150f60-17e3-44a5-9ca5-0476e233c093",
+                "name": "js.newsmobile.co.kr/Inspace_new_v*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?js\\.newsmobile\\.co\\.kr/Inspace_new_v.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b1a3e53b-7141-4dee-bf07-69ecddf38115",
+                "name": "js.newsmobile.co.kr/iconad_*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?js\\.newsmobile\\.co\\.kr/iconad_.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5fa3fbe1-d5df-4de7-9086-57c2a4d68b63",
+                "name": "js.newsmobile.co.kr/inspace_*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?js\\.newsmobile\\.co\\.kr/inspace_.*\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -33382,28 +33458,41 @@
                 }
             },
             {
-                "id": "fc1e79cf-2985-441f-ab8e-2912bb12c92e",
-                "name": "dailian.co.kr##div#view_con>div[style=\"width: 250px; height: 250px; padding: 0px; clear: both; float: right; margin: 0px; border-width: 0px;\"]",
+                "id": "07076649-af60-4237-b25f-640830e8b08c",
+                "name": "dailian.co.kr##div#toplayer",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailian\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#view_con>div[style=\"width: 250px; height: 250px; padding: 0px; clear: both; float: right; margin: 0px; border-width: 0px;\"]"
+                        "selector": "div#toplayer"
                     }
                 }
             },
             {
-                "id": "eea96cc0-51fb-40e4-a790-dfdc68539b7d",
-                "name": "dailian.co.kr##div#view_con>div[style=\"width:250px;height:250px;padding:30px 0 0 15px;clear:both;float:right;\"]",
+                "id": "2b4ade50-f77c-42d6-acef-49f8b46f645b",
+                "name": "dailian.co.kr##div#view_con>div[style=\"margin-top:0px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailian\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#view_con>div[style=\"width:250px;height:250px;padding:30px 0 0 15px;clear:both;float:right;\"]"
+                        "selector": "div#view_con>div[style=\"margin-top:0px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "e14f5b5d-ee6f-4859-ad5a-5ecb2cd6f0c3",
+                "name": "dailian.co.kr##div#view_con>div[style=\"width:250px;height:250px;padding:30px 15px 0 0;clear:both;float:left;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailian\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#view_con>div[style=\"width:250px;height:250px;padding:30px 15px 0 0;clear:both;float:left;\"]"
                     }
                 }
             },
@@ -33521,6 +33610,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[name=\"adv\"]"
+                    }
+                }
+            },
+            {
+                "id": "97756eb6-bbe6-4932-83ac-9c90623585af",
+                "name": "dailian.co.kr##iframe[src^=\"/ad_article_center.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailian\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ad_article_center.php\"]"
                     }
                 }
             },
