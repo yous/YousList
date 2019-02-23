@@ -11553,6 +11553,18 @@
                 }
             },
             {
+                "id": "67e0b73a-be14-497b-969f-50107ec1ea66",
+                "name": "dreamsearch.or.kr/playLinkAd/js/mMobonPlayLink.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dreamsearch\\.or\\.kr/playLinkAd/js/mMobonPlayLink\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "dbb7c4e5-5773-4aa5-8e87-26c6d08475f0",
                 "name": "dreamsearch.or.kr/playLinkAd/js/mobonPlayLinkToast.js",
                 "content": {
@@ -16221,6 +16233,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediacategory\\.com/adnet/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fcfab877-113d-405b-847c-bf4d7dc1d80e",
+                "name": "mediacategory.com/playLinkAd/js/mMobonPlayLink.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mediacategory\\.com/playLinkAd/js/mMobonPlayLink\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -46808,6 +46832,19 @@
                 }
             },
             {
+                "id": "fadf448e-1aa1-410e-b80b-94f1e782cce0",
+                "name": "m.biz.chosun.com##div#mElpVideoBody",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.biz\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mElpVideoBody"
+                    }
+                }
+            },
+            {
                 "id": "a6a44f6d-3f1e-4474-857f-28ed58abc6bd",
                 "name": "m.biz.chosun.com##div.ad_m_bottom",
                 "content": {
@@ -46830,6 +46867,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.art_ad1"
+                    }
+                }
+            },
+            {
+                "id": "ad2e8065-f30d-4970-a54d-3698f708d98b",
+                "name": "m.biz.chosun.com##div.art_ad2>center",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.biz\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_ad2>center"
                     }
                 }
             },
