@@ -46457,6 +46457,19 @@
                 }
             },
             {
+                "id": "86799e6f-df84-41bd-a411-0aa01b3f3002",
+                "name": "m-biz-chosun-com.cdn.ampproject.org##div.wrap_ad_inner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m-biz-chosun-com\\.cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wrap_ad_inner"
+                    }
+                }
+            },
+            {
                 "id": "09b29a3f-1f2a-40b2-b362-3261e7ab320d",
                 "name": "m-nocutnews-co-kr.cdn.ampproject.org##div.v_ad",
                 "content": {
