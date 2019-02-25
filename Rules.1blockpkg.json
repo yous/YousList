@@ -44351,6 +44351,19 @@
                 }
             },
             {
+                "id": "c2925708-5c96-445f-8673-c9237dea3162",
+                "name": "kin.naver.com##div#pcDetailBannerArea",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kin\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#pcDetailBannerArea"
+                    }
+                }
+            },
+            {
                 "id": "d62c7dbd-0b31-4fc8-bd8d-5856f3f01a29",
                 "name": "kin.naver.com##div.broadcast_kin",
                 "content": {
