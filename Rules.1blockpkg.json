@@ -17960,6 +17960,21 @@
                 }
             },
             {
+                "id": "e944c9d2-1c07-4dfc-a4f4-629d751c79fc",
+                "name": "nzkoreapost.com/banners/$domain=nzkoreapost.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nzkoreapost\\.com/banners/",
+                        "if-domain": [
+                            "nzkoreapost.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "04018a90-8c10-441b-819c-95678966566d",
                 "name": "ojsfile.ohmynews.com/AD_FILE/",
                 "content": {
@@ -62560,6 +62575,97 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[id^=\"story-ad-\"][id$=\"-wrapper\"]"
+                    }
+                }
+            },
+            {
+                "id": "787e5b5d-3b0d-4db0-a25e-7affa40ec0c4",
+                "name": "nzkoreapost.com##a[class^=\"main-ad-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nzkoreapost\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[class^=\"main-ad-\"]"
+                    }
+                }
+            },
+            {
+                "id": "1d29e3c5-83cc-474f-9645-93d8347900d1",
+                "name": "nzkoreapost.com##div#ads_plus",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nzkoreapost\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ads_plus"
+                    }
+                }
+            },
+            {
+                "id": "1d151eb6-1b45-438f-95de-a08fcdc273fd",
+                "name": "nzkoreapost.com##div.ad-box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nzkoreapost\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-box"
+                    }
+                }
+            },
+            {
+                "id": "4ffec88a-9363-42f1-b318-fc6ee8e5af1a",
+                "name": "nzkoreapost.com##div.side-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nzkoreapost\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.side-ad"
+                    }
+                }
+            },
+            {
+                "id": "3738fe19-7b82-4602-9e89-efe869d46807",
+                "name": "nzkoreapost.com##div[class^=\"category-ad-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nzkoreapost\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"category-ad-\"]"
+                    }
+                }
+            },
+            {
+                "id": "a92f2cbf-21c3-45ed-b32a-9006682449e5",
+                "name": "nzkoreapost.com##div[class^=\"left-ad-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nzkoreapost\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"left-ad-\"]"
+                    }
+                }
+            },
+            {
+                "id": "313bbf2d-e6c0-423f-a77f-d6c73ef33796",
+                "name": "nzkoreapost.com##div[class^=\"side-ad-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nzkoreapost\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"side-ad-\"]"
                     }
                 }
             },
