@@ -14530,6 +14530,21 @@
                 }
             },
             {
+                "id": "d2b6bb0e-1b34-4af4-b035-19b6dd50bd09",
+                "name": "joinsmediacanada.com/data/file/ad/$domain=joinsmediacanada.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joinsmediacanada\\.com/data/file/ad/",
+                        "if-domain": [
+                            "joinsmediacanada.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c238f13e-18f9-4b7a-8ef6-82b3b312fcf4",
                 "name": "joinsmsn.com/_ui/ad/",
                 "content": {
@@ -43968,6 +43983,123 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "span#spnAddLinkArticleContent"
+                    }
+                }
+            },
+            {
+                "id": "6dd7b6de-21f8-40e3-9e57-733df1b8bb17",
+                "name": "joinsmediacanada.com##div#container>div.padding20",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joinsmediacanada\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#container>div.padding20"
+                    }
+                }
+            },
+            {
+                "id": "d8c3e001-b30c-409e-94a3-29833e3433c1",
+                "name": "joinsmediacanada.com##div#container>div[style=\"padding: 0 10px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joinsmediacanada\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#container>div[style=\"padding: 0 10px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "093e11b0-fc0e-4486-b1ab-21a546197860",
+                "name": "joinsmediacanada.com##div#criteo_network",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joinsmediacanada\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#criteo_network"
+                    }
+                }
+            },
+            {
+                "id": "e5ad6e55-3109-4394-917b-fdaf40ebca74",
+                "name": "joinsmediacanada.com##div#main-right>div[style=\"margin-top: 10px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joinsmediacanada\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#main-right>div[style=\"margin-top: 10px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "e5bc1941-9a06-438d-87aa-e21bbe072198",
+                "name": "joinsmediacanada.com##div#main-right>div[style=\"margin-top: 15px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joinsmediacanada\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#main-right>div[style=\"margin-top: 15px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "50f7dd6c-ecd3-4026-b93a-6279d1d110dc",
+                "name": "joinsmediacanada.com##div#popupNotice0",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joinsmediacanada\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#popupNotice0"
+                    }
+                }
+            },
+            {
+                "id": "82900203-566f-4858-8f8c-82f1d10c612b",
+                "name": "joinsmediacanada.com##div#topLeftBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joinsmediacanada\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#topLeftBanner"
+                    }
+                }
+            },
+            {
+                "id": "66d1aa57-2fc3-47dd-b503-0b4379244b51",
+                "name": "joinsmediacanada.com##div#topRightBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joinsmediacanada\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#topRightBanner"
+                    }
+                }
+            },
+            {
+                "id": "6dd5d9d1-17b5-49c9-9372-b9c5dd15c0cb",
+                "name": "joinsmediacanada.com##div.adsWrp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?joinsmediacanada\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adsWrp"
                     }
                 }
             },
