@@ -37541,15 +37541,15 @@
                 }
             },
             {
-                "id": "d69de6cb-31ef-4de7-ac52-fe7854f3e3d7",
-                "name": "feedly.com##div.list-entries>div.EntryList__chunk>div:not([data-inlineentryid]):not([data-uninlineentryid])",
+                "id": "0ff56f7b-1d83-4ff4-b42e-81b86b7801db",
+                "name": "feedly.com##div.list-entries>div.EntryList__chunk>div.entry:not([data-inlineentryid]):not([data-uninlineentryid])",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?feedly\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.list-entries>div.EntryList__chunk>div:not([data-inlineentryid]):not([data-uninlineentryid])"
+                        "selector": "div.list-entries>div.EntryList__chunk>div.entry:not([data-inlineentryid]):not([data-uninlineentryid])"
                     }
                 }
             },
