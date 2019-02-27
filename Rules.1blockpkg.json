@@ -68520,6 +68520,19 @@
                 }
             },
             {
+                "id": "0936ee66-e467-4592-858c-72fed1f2d87c",
+                "name": "t-online.de##div.Tadc",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?t-online\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.Tadc"
+                    }
+                }
+            },
+            {
                 "id": "d67c6451-0c41-4cb6-9e6b-6b98aaff67fd",
                 "name": "tailstar.net##div#right",
                 "content": {
