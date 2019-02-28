@@ -66334,6 +66334,19 @@
                 }
             },
             {
+                "id": "10bfa8a8-654e-4296-b5a7-4bf96b0d1b27",
+                "name": "slant.co##div.AdContainer-Sidebar",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?slant\\.co"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.AdContainer-Sidebar"
+                    }
+                }
+            },
+            {
                 "id": "09f9cd42-590c-48a3-838f-06c630f87a7d",
                 "name": "slant.co##div._SummaryPageOptionAdView",
                 "content": {
@@ -66343,6 +66356,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div._SummaryPageOptionAdView"
+                    }
+                }
+            },
+            {
+                "id": "6d067e1a-c3d0-47f4-aaa6-66acf9119266",
+                "name": "slant.co##div._SummaryPageSidebarAdView",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?slant\\.co"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div._SummaryPageSidebarAdView"
                     }
                 }
             },
