@@ -8670,13 +8670,14 @@
                 }
             },
             {
-                "id": "30452bf3-04cc-4768-a14c-0505e80ef9b2",
-                "name": "busan.com/w2010/AD/$domain=busan.com",
+                "id": "225a1aed-d2db-47b2-87d9-d9bf4d566232",
+                "name": "busan.com/w2010/AD/$domain=busan.com|mobile.busan.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?busan\\.com/w2010/AD/",
                         "if-domain": [
-                            "busan.com"
+                            "busan.com",
+                            "mobile.busan.com"
                         ]
                     },
                     "action": {
@@ -16225,6 +16226,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbn\\.mk\\.co\\.kr/pages/ad/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8e896890-06f6-4f50-9d03-5c15f28a1b1e",
+                "name": "media.adpnut.com/cgi-bin/PelicanC.dll",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?media\\.adpnut\\.com/cgi-bin/PelicanC\\.dll"
                     },
                     "action": {
                         "type": "block"
@@ -57334,6 +57347,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "divtd-header-sp-ads"
+                    }
+                }
+            },
+            {
+                "id": "715a5e10-0f03-49ec-afe4-de546323ea42",
+                "name": "mobile.busan.com##div#container>div.wcms_ad[style=\"width:100%; margin:0 auto; padding:1px 0 0 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mobile\\.busan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#container>div.wcms_ad[style=\"width:100%; margin:0 auto; padding:1px 0 0 0;\"]"
                     }
                 }
             },
