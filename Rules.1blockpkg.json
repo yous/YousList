@@ -1084,6 +1084,19 @@
                 }
             },
             {
+                "id": "02535351-5e39-4539-9cf6-fe22b149c1ca",
+                "name": "##iframe[src^=\"//api.screensharp.kr/ad/get_banner/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//api.screensharp.kr/ad/get_banner/\"]"
+                    }
+                }
+            },
+            {
                 "id": "20fc96a2-aade-4638-8aed-00bf5bd150e8",
                 "name": "##iframe[src^=\"//ax-d.pixfuture.net/w/1.0/afr\"]",
                 "content": {
@@ -8070,6 +8083,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?api\\.megamouth\\.kr/pucs\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0a77e0ac-33e5-462d-84d2-2058153296fb",
+                "name": "api.screensharp.kr/ad/get_banner/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?api\\.screensharp\\.kr/ad/get_banner/"
                     },
                     "action": {
                         "type": "block"
@@ -17842,6 +17867,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nscreen\\.neoebiz\\.co\\.kr/screenView\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6ac0a5b2-ae09-4ca3-a14b-5c263b8a284f",
+                "name": "nscreen.neoebiz.co.kr/screensharpJS.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nscreen\\.neoebiz\\.co\\.kr/screensharpJS\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -31600,6 +31637,45 @@
                 }
             },
             {
+                "id": "4606e355-8ea1-454c-8b0c-c60c940fc286",
+                "name": "busan.com##div.head-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?busan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.head-ad"
+                    }
+                }
+            },
+            {
+                "id": "4daaeff0-6379-4fc3-8931-d56ea0ed9b51",
+                "name": "busan.com##div.main_side_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?busan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.main_side_banner"
+                    }
+                }
+            },
+            {
+                "id": "7c7b35b2-158a-4824-b3e6-2b903f8e71bc",
+                "name": "busan.com##div.side_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?busan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.side_banner"
+                    }
+                }
+            },
+            {
                 "id": "52416967-d71d-4431-951c-1b45e2114d6d",
                 "name": "busan.com##div.top-ad",
                 "content": {
@@ -31609,6 +31685,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.top-ad"
+                    }
+                }
+            },
+            {
+                "id": "a7721172-50e7-470c-ac63-65f0eccbacf3",
+                "name": "busan.com##div.view_side_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?busan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view_side_banner"
                     }
                 }
             },
