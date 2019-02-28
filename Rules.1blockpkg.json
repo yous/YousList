@@ -53817,6 +53817,32 @@
                 }
             },
             {
+                "id": "e48affce-4055-4e11-b1d6-a4df61010f6d",
+                "name": "m.sports.media.daum.net##a.link_bnr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.sports\\.media\\.daum\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a.link_bnr"
+                    }
+                }
+            },
+            {
+                "id": "d2ac269a-d76d-423f-a5f2-07b531e0e3d1",
+                "name": "m.sports.media.daum.net##div.wrap_bnr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.sports\\.media\\.daum\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wrap_bnr"
+                    }
+                }
+            },
+            {
                 "id": "81379323-da3c-4901-ae19-64446cd5f9e6",
                 "name": "m.sports.naver.com##div.home_ad_group",
                 "content": {
