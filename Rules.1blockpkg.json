@@ -37931,6 +37931,19 @@
                 }
             },
             {
+                "id": "771246f0-5a30-4342-aaca-b7f9ee398f27",
+                "name": "fomos.kr##div.bottom_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fomos\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bottom_ad"
+                    }
+                }
+            },
+            {
                 "id": "ac502894-95a8-4e97-afed-ec5baa2c9096",
                 "name": "forbes.com##div.top-ad-container",
                 "content": {
