@@ -58950,6 +58950,32 @@
                 }
             },
             {
+                "id": "bc3953b6-df4e-4502-ab51-0a4524368eec",
+                "name": "neowin.net##div.header-banner-ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?neowin\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.header-banner-ads"
+                    }
+                }
+            },
+            {
+                "id": "2c3f9887-e532-4cc1-88c9-b028d08f48de",
+                "name": "neowin.net##div.widget-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?neowin\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.widget-ad"
+                    }
+                }
+            },
+            {
                 "id": "60f38b84-63ad-4ef9-8596-0d0b38ebacdf",
                 "name": "net.hr##div.banner",
                 "content": {
