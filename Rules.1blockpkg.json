@@ -57546,6 +57546,19 @@
                 }
             },
             {
+                "id": "dd9175a8-e7d1-4644-8a30-242053370e71",
+                "name": "mosen.mt.co.kr##div[class^=\"hns-mobitree-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mosen\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"hns-mobitree-\"]"
+                    }
+                }
+            },
+            {
                 "id": "ab14decd-7f7c-42f2-a592-81459c57adf1",
                 "name": "mosen.mt.co.kr##div[id^=\"adList\"]",
                 "content": {
