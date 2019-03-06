@@ -14024,6 +14024,18 @@
                 }
             },
             {
+                "id": "0fa6ef7f-d8bb-4c12-900f-fa7034bd9395",
+                "name": "img.mobon.net/mediaCategory/newAd/adbn_*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?img\\.mobon\\.net/mediaCategory/newAd/adbn_.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6b35d9f1-2230-413a-9c2b-e7d78f219c55",
                 "name": "img.mrep.kr/slot/*.html",
                 "content": {
