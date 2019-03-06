@@ -15911,6 +15911,21 @@
                 }
             },
             {
+                "id": "1f181786-f99f-4b56-a331-b327ec5ce9d5",
+                "name": "m.mk.co.kr/index_ad.mk$domain=m.mk.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mk\\.co\\.kr/index_ad\\.mk",
+                        "if-domain": [
+                            "m.mk.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a8e40d59-6092-43c3-a325-a4bc4860c09e",
                 "name": "m.news1.kr/template/ads/$domain=m.news1.kr",
                 "content": {
@@ -51956,6 +51971,19 @@
                 }
             },
             {
+                "id": "47801072-af9f-4cf7-bbc8-75028e3dc6ab",
+                "name": "m.mk.co.kr##div.ad_2016",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mk\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_2016"
+                    }
+                }
+            },
+            {
                 "id": "996b999c-ebad-45c4-a47f-efb3653ab8c8",
                 "name": "m.mk.co.kr##div.ct_move>center>div[data-widget_id]",
                 "content": {
@@ -52004,6 +52032,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.new_ad2"
+                    }
+                }
+            },
+            {
+                "id": "df757464-5cad-4880-ad17-59179a13669e",
+                "name": "m.mk.co.kr##div.new_ad3",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mk\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.new_ad3"
+                    }
+                }
+            },
+            {
+                "id": "b3412f77-9016-4b8a-8674-30f94bab05e2",
+                "name": "m.mk.co.kr##iframe[src^=\"./index_ad.mk\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mk\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"./index_ad.mk\"]"
                     }
                 }
             },
