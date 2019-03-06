@@ -55505,6 +55505,19 @@
                 }
             },
             {
+                "id": "c454ef51-9f2f-49ca-9be6-c70265b1911e",
+                "name": "m.zdnet.co.kr##div#ad_div_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.zdnet\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_div_bottom"
+                    }
+                }
+            },
+            {
                 "id": "d2ba5868-4eb6-43cf-84a9-8a1d9a16fe0b",
                 "name": "m.zdnet.co.kr##div#lumi_ad",
                 "content": {
