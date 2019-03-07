@@ -43399,6 +43399,19 @@
                 }
             },
             {
+                "id": "c687b581-61b0-4f0c-adc9-882ff5b85ed2",
+                "name": "inven.co.kr##div.topskyad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?inven\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.topskyad"
+                    }
+                }
+            },
+            {
                 "id": "26873074-45be-4fc2-b987-7f801a8b075e",
                 "name": "inven.co.kr##div[id$=\"AdTop\"]",
                 "content": {
