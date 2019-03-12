@@ -8168,6 +8168,18 @@
                 }
             },
             {
+                "id": "ab7c0313-b7db-4b2d-a8d7-ed9d2e96245c",
+                "name": "apis.piclick.me/v3/publish/banner/iframe.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?apis\\.piclick\\.me/v3/publish/banner/iframe\\.min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8f7d5ff9-d6ba-4979-b337-9c006157dd0f",
                 "name": "apis.pooq.co.kr/adproxy$domain=pooq.co.kr",
                 "content": {
@@ -41748,6 +41760,188 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#treer2"
+                    }
+                }
+            },
+            {
+                "id": "26cebac7-f455-4c6e-adb3-0bc10966606f",
+                "name": "i.wik.im##div#PrismDisplayBox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?i\\.wik\\.im"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#PrismDisplayBox"
+                    }
+                }
+            },
+            {
+                "id": "85247e60-dcad-411f-bfd7-3ae0e0a327d8",
+                "name": "wikitree.co.kr##div#PrismDisplayBox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#PrismDisplayBox"
+                    }
+                }
+            },
+            {
+                "id": "af229280-3b15-43d2-b0d9-d71b488a76bf",
+                "name": "i.wik.im##div#id_left_bar_ad_1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?i\\.wik\\.im"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#id_left_bar_ad_1"
+                    }
+                }
+            },
+            {
+                "id": "60ec0904-71a1-490d-8716-30b9d03c9cc8",
+                "name": "wikitree.co.kr##div#id_left_bar_ad_1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#id_left_bar_ad_1"
+                    }
+                }
+            },
+            {
+                "id": "e8088e69-c3a7-41bb-99f3-885a510188f4",
+                "name": "i.wik.im##div#id_right_criteo_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?i\\.wik\\.im"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#id_right_criteo_ad"
+                    }
+                }
+            },
+            {
+                "id": "c73cbdb7-d858-4a47-a41c-4386e699f44c",
+                "name": "wikitree.co.kr##div#id_right_criteo_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#id_right_criteo_ad"
+                    }
+                }
+            },
+            {
+                "id": "a5fe3604-b015-4fe7-b8af-180d04bbf337",
+                "name": "i.wik.im##div#right_view_01_1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?i\\.wik\\.im"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#right_view_01_1"
+                    }
+                }
+            },
+            {
+                "id": "d0327d21-76fe-4247-baf5-9c36ecf4aca7",
+                "name": "wikitree.co.kr##div#right_view_01_1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#right_view_01_1"
+                    }
+                }
+            },
+            {
+                "id": "a1fd44a1-3474-4c1c-97c2-763b1fef9c83",
+                "name": "i.wik.im##div#wikicon>div.mt30",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?i\\.wik\\.im"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wikicon>div.mt30"
+                    }
+                }
+            },
+            {
+                "id": "b9de70c4-1006-4fed-92a6-88d7f0d8f692",
+                "name": "wikitree.co.kr##div#wikicon>div.mt30",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wikicon>div.mt30"
+                    }
+                }
+            },
+            {
+                "id": "1b0fcf6b-3ffd-4f71-ad22-7d5dc220df9b",
+                "name": "i.wik.im##div.ad_left_banner_criteo_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?i\\.wik\\.im"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_left_banner_criteo_ad"
+                    }
+                }
+            },
+            {
+                "id": "0dd37ef9-7d32-447c-adf6-774ab8ba4d55",
+                "name": "wikitree.co.kr##div.ad_left_banner_criteo_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_left_banner_criteo_ad"
+                    }
+                }
+            },
+            {
+                "id": "87a93ea6-4cd1-4569-9b7c-5ec3f0ead385",
+                "name": "i.wik.im##div.wikitree_ad:not([ad_id=\"261\"]):not([ad_id=\"266\"])",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?i\\.wik\\.im"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wikitree_ad:not([ad_id=\"261\"]):not([ad_id=\"266\"])"
+                    }
+                }
+            },
+            {
+                "id": "6d1389cf-99ab-4b1c-bcd2-eb2c785eb228",
+                "name": "wikitree.co.kr##div.wikitree_ad:not([ad_id=\"261\"]):not([ad_id=\"266\"])",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wikitree_ad:not([ad_id=\"261\"]):not([ad_id=\"266\"])"
                     }
                 }
             },
@@ -75821,162 +76015,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.user-banner"
-                    }
-                }
-            },
-            {
-                "id": "85247e60-dcad-411f-bfd7-3ae0e0a327d8",
-                "name": "wikitree.co.kr##div#PrismDisplayBox",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#PrismDisplayBox"
-                    }
-                }
-            },
-            {
-                "id": "60ec0904-71a1-490d-8716-30b9d03c9cc8",
-                "name": "wikitree.co.kr##div#id_left_bar_ad_1",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#id_left_bar_ad_1"
-                    }
-                }
-            },
-            {
-                "id": "c73cbdb7-d858-4a47-a41c-4386e699f44c",
-                "name": "wikitree.co.kr##div#id_right_criteo_ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#id_right_criteo_ad"
-                    }
-                }
-            },
-            {
-                "id": "d0327d21-76fe-4247-baf5-9c36ecf4aca7",
-                "name": "wikitree.co.kr##div#right_view_01_1",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#right_view_01_1"
-                    }
-                }
-            },
-            {
-                "id": "b9de70c4-1006-4fed-92a6-88d7f0d8f692",
-                "name": "wikitree.co.kr##div#wikicon>div.mt30",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#wikicon>div.mt30"
-                    }
-                }
-            },
-            {
-                "id": "85bc1c4e-12e4-44c5-928c-5ca9789cd036",
-                "name": "wikitree.co.kr##div.ad_left",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_left"
-                    }
-                }
-            },
-            {
-                "id": "0dd37ef9-7d32-447c-adf6-774ab8ba4d55",
-                "name": "wikitree.co.kr##div.ad_left_banner_criteo_ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_left_banner_criteo_ad"
-                    }
-                }
-            },
-            {
-                "id": "f2a96c00-0871-4e8d-8271-7b757f38814d",
-                "name": "wikitree.co.kr##div.ad_realclick_relation_bar",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_realclick_relation_bar"
-                    }
-                }
-            },
-            {
-                "id": "e06a91ac-2c26-471e-8acc-00f4a4ec6975",
-                "name": "wikitree.co.kr##div.ad_right",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_right"
-                    }
-                }
-            },
-            {
-                "id": "4ee8d747-7e46-45fe-bf51-c419bf78921a",
-                "name": "wikitree.co.kr##div.bottom>div[style=\"position:relative\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.bottom>div[style=\"position:relative\"]"
-                    }
-                }
-            },
-            {
-                "id": "fbe71e17-4faa-443b-b231-2de6a6b32c4a",
-                "name": "wikitree.co.kr##div.wikitree_ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.wikitree_ad"
-                    }
-                }
-            },
-            {
-                "id": "b797c1e5-d769-40a9-9cc3-1c732c57dca2",
-                "name": "wikitree.co.kr##iframe[src^=\"/_tpl/default/ad/\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wikitree\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"/_tpl/default/ad/\"]"
                     }
                 }
             },
