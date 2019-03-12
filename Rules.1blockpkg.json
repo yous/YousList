@@ -56663,41 +56663,54 @@
                 }
             },
             {
-                "id": "996eebbb-13fb-4f97-a1b6-1bde890ceda8",
-                "name": "mbn.mk.co.kr##div#right_hot_movie",
+                "id": "41d7017b-f9e8-4981-8aa3-27c8ea9247ae",
+                "name": "mbn.mk.co.kr##div#newsViewArea>div[style=\"padding-right:15px; text-align:left; float:left; margin-right:5px; margin-bottom:10px\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbn\\.mk\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#right_hot_movie"
+                        "selector": "div#newsViewArea>div[style=\"padding-right:15px; text-align:left; float:left; margin-right:5px; margin-bottom:10px\"]"
                     }
                 }
             },
             {
-                "id": "342f29e6-1556-469c-bf90-27e0e86183cf",
-                "name": "mbn.mk.co.kr##div#right_info",
+                "id": "36ace7b7-071c-438c-9508-fdf8e0c4d52b",
+                "name": "mbn.mk.co.kr##div#right_info_2018",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbn\\.mk\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#right_info"
+                        "selector": "div#right_info_2018"
                     }
                 }
             },
             {
-                "id": "c4909ec3-f5ca-4b3e-bf51-d68d17d7800d",
-                "name": "mbn.mk.co.kr##div#right_today_info",
+                "id": "25ffa751-4e47-4fc5-804c-921d068ccc84",
+                "name": "mbn.mk.co.kr##div#right_today_info_2018",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbn\\.mk\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#right_today_info"
+                        "selector": "div#right_today_info_2018"
+                    }
+                }
+            },
+            {
+                "id": "1ab0ea43-5e9d-4c99-bc42-d076d0436f3d",
+                "name": "mbn.mk.co.kr##div#right_top_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mbn\\.mk\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#right_top_banner"
                     }
                 }
             },
