@@ -4,13 +4,14 @@
         "name": "YousList",
         "rules": [
             {
-                "id": "7d4e9a20-6e19-4969-95c4-110b42a3dbc5",
-                "name": "@@ad.smartmediarep.com/NetInsight/$domain=news.sbs.co.kr",
+                "id": "15a52c2c-4a5f-4c9d-9c2a-55f51f5c693e",
+                "name": "@@ad.smartmediarep.com/NetInsight/$domain=news.sbs.co.kr|programs.sbs.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.smartmediarep\\.com/NetInsight/",
                         "if-domain": [
-                            "news.sbs.co.kr"
+                            "news.sbs.co.kr",
+                            "programs.sbs.co.kr"
                         ]
                     },
                     "action": {
@@ -20103,13 +20104,14 @@
                 }
             },
             {
-                "id": "43603ed9-bd35-4f51-817b-e8f929b12780",
-                "name": "smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~news.sbs.co.kr",
+                "id": "6679b646-02c8-4ab3-aae6-ad9c119edaf1",
+                "name": "smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~news.sbs.co.kr|~programs.sbs.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?smrmembers-smr\\.smartmediarep\\.com/smc/smrmembers/",
                         "unless-domain": [
-                            "news.sbs.co.kr"
+                            "news.sbs.co.kr",
+                            "programs.sbs.co.kr"
                         ]
                     },
                     "action": {
