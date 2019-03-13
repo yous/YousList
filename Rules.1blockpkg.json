@@ -15245,6 +15245,21 @@
                 }
             },
             {
+                "id": "2b3bc954-61a5-4645-8a2a-a3b4c9028f16",
+                "name": "kuruc.info/galeriaN/banner/$domain=kuruc.info",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kuruc\\.info/galeriaN/banner/",
+                        "if-domain": [
+                            "kuruc.info"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "07ea52e3-41c6-4b1f-a80e-5426d99827c3",
                 "name": "l.qq.com/lview$domain=qq.com",
                 "content": {
@@ -46583,6 +46598,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.freebody_text"
+                    }
+                }
+            },
+            {
+                "id": "6588bbd2-83c9-4771-b716-6e51855987d1",
+                "name": "kuruc.info##div.adzone1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kuruc\\.info"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adzone1"
+                    }
+                }
+            },
+            {
+                "id": "bf9657f3-6428-4695-8f92-e02bdfac8330",
+                "name": "kuruc.info##div.adzone2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kuruc\\.info"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adzone2"
                     }
                 }
             },

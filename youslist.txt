@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20190312
+! Version: 20190313
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -1211,6 +1211,7 @@
 ||kukudas.com/img/freebody/$domain=kukudas.com
 ||kunkang.co.kr/js/im01.js^$domain=ikunkang.com
 ||kunkang.co.kr/js/im02.js^$domain=ikunkang.com
+||kuruc.info/galeriaN/banner/$domain=kuruc.info
 ||l.qq.com/lview^$domain=qq.com
 ||life.chosun.com/dhtm/rightBner.html^
 ||lightad.co.kr/Lightcoms/
@@ -3154,6 +3155,8 @@ kukudas.com##a[href^="http://www.bananamall.co.kr/Alinker/"]
 kukudas.com##a[href^="http://www.netfile.co.kr/banner/ad_banner.jsp"]
 kukudas.com##div.container div[style="width:100%; height:305px; line-height:280px; text-align:center;"]
 kukudas.com##div.freebody_text
+kuruc.info##div.adzone1
+kuruc.info##div.adzone2
 kyeongin.com##div#layerBanner
 kyeongin.com##div.header_ad
 kyeongin.com##div.main_cont_ad
