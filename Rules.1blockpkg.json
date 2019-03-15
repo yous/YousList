@@ -52099,6 +52099,19 @@
                 }
             },
             {
+                "id": "aef3ea69-f4b5-4fe5-81c6-ebc78f418f34",
+                "name": "m.mbn.co.kr##div.article>ul[style=\"text-align:left;margin:0 10px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mbn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article>ul[style=\"text-align:left;margin:0 10px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "1d8e09d0-d79a-4aba-b727-5791896de6e5",
                 "name": "m.mbn.co.kr##div.article_area>ul[style=\"width:100%;text-align:center;border:0px solid red;margin-bottom:60px;display:none;\"]",
                 "content": {
