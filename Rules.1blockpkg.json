@@ -1034,6 +1034,19 @@
                 }
             },
             {
+                "id": "656461c2-4bea-4a7e-8aa9-8f743dcec54b",
+                "name": "##iframe[src^=\"//ads.z00.kr/widgethns/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//ads.z00.kr/widgethns/\"]"
+                    }
+                }
+            },
+            {
                 "id": "938c5a24-0de3-4d32-8b81-d2c7f4af93fa",
                 "name": "##iframe[src^=\"//ads3.tenping.kr/adbox/showadbox\"]",
                 "content": {
@@ -7157,6 +7170,18 @@
                 }
             },
             {
+                "id": "3ddbf08c-efc4-4b8d-ae25-393a0402fcf0",
+                "name": "ads.z00.kr/widgethns/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.z00\\.kr/widgethns/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "80468d92-1574-4120-82fc-f1cb7275336b",
                 "name": "ads1.playforum.net:8080",
                 "content": {
@@ -10149,6 +10174,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.tsyndicate\\.com/sdk/v1/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7ea73a08-98ae-4f49-89f4-e927f26f5234",
+                "name": "cdn.z00.kr/ads2/js/lib/show_ads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.z00\\.kr/ads2/js/lib/show_ads\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -16099,6 +16136,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.tf\\.co\\.kr/public/.*/ad/ad_read_content.*\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5d070f62-b71c-44de-b548-6999b3f3a0d7",
+                "name": "m.tf.co.kr/public/*/ad/iframe/ad_read_content*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.tf\\.co\\.kr/public/.*/ad/iframe/ad_read_content.*\\.html"
                     },
                     "action": {
                         "type": "block"
@@ -55128,6 +55177,19 @@
                 }
             },
             {
+                "id": "0ab64bcf-93c9-48bc-a5db-9d3bc5892193",
+                "name": "m.tf.co.kr##div#mobon5mb_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.tf\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mobon5mb_ad"
+                    }
+                }
+            },
+            {
                 "id": "dabc820d-23d7-444c-8259-f84e0aacf941",
                 "name": "m.tf.co.kr##div#waveAd",
                 "content": {
@@ -55193,6 +55255,45 @@
                 }
             },
             {
+                "id": "9abfed9b-4002-4ad4-a4b8-f9c850e34d45",
+                "name": "m.tf.co.kr##div.tbRight>div.conBox>div[style=\"width:100%; overflow:hidden;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.tf\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.tbRight>div.conBox>div[style=\"width:100%; overflow:hidden;\"]"
+                    }
+                }
+            },
+            {
+                "id": "cd5dcf03-cc86-4754-9f53-1130b9129aec",
+                "name": "m.tf.co.kr##div.tbRight>div.conBox[style=\"padding-bottom:10px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.tf\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.tbRight>div.conBox[style=\"padding-bottom:10px\"]"
+                    }
+                }
+            },
+            {
+                "id": "07d54866-1dab-4208-95b8-5e49493c1f84",
+                "name": "m.tf.co.kr##div.tbRight>div[style=\"height:250px; position:relative; left:0px; top:0px; \"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.tf\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.tbRight>div[style=\"height:250px; position:relative; left:0px; top:0px; \"]"
+                    }
+                }
+            },
+            {
                 "id": "d7694414-c4ad-4f91-9951-ea092603f389",
                 "name": "m.tf.co.kr##div.tbRight>div[style=\"height:84px; position:relative; left:0px; top:0px; \"]",
                 "content": {
@@ -55206,6 +55307,45 @@
                 }
             },
             {
+                "id": "20947e05-050f-4bb2-8fc7-932d6dd85325",
+                "name": "m.tf.co.kr##iframe[src^=\"/public/\"][src*=\"/ad/iframe/ad_read_content\"][src*=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.tf\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/public/\"][src*=\"/ad/iframe/ad_read_content\"][src*=\".html\"]"
+                    }
+                }
+            },
+            {
+                "id": "2c208c3b-e2ea-4677-ac4b-2cbe887b6bcd",
+                "name": "m.tf.co.kr##ins[data-ad-slot=\"7064539535/40408_300x250_IDN\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.tf\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"7064539535/40408_300x250_IDN\"]"
+                    }
+                }
+            },
+            {
+                "id": "d079083d-ae01-41a5-8b99-f658c5295490",
+                "name": "m.tf.co.kr##ins[data-ad-slot=\"7064539535/40409_300x250_IDN\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.tf\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"7064539535/40409_300x250_IDN\"]"
+                    }
+                }
+            },
+            {
                 "id": "3b3f8132-77e8-48eb-aff4-dd1f4e26c8cb",
                 "name": "m.tf.co.kr##span#rectingle_spanTag_ad",
                 "content": {
@@ -55215,6 +55355,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "span#rectingle_spanTag_ad"
+                    }
+                }
+            },
+            {
+                "id": "5e258c2d-e281-4734-882a-af63d106bee7",
+                "name": "m.tf.co.kr##ul.twoLineAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.tf\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.twoLineAd"
                     }
                 }
             },
