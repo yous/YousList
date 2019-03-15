@@ -1307,6 +1307,19 @@
                 }
             },
             {
+                "id": "2f15d895-0051-4ab8-905e-fb58ca4dd35d",
+                "name": "##iframe[src^=\"//wr.catad5959.com/text/wrcatad.t\"][src*=\".Text_banner.asp\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//wr.catad5959.com/text/wrcatad.t\"][src*=\".Text_banner.asp\"]"
+                    }
+                }
+            },
+            {
                 "id": "8cd63fbd-8e3c-4719-aeb4-a333c7bfa59e",
                 "name": "##iframe[src^=\"//www.bodnara.co.kr/advert/advert.php\"]",
                 "content": {
@@ -5494,6 +5507,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.mediatoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d16b04e7-a101-41e8-8f91-7e3f8bebf015",
+                "name": "ad.mox.tv/mox/mwayss_invocation.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.mox\\.tv/mox/mwayss_invocation\\.min\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -22445,6 +22470,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wr\\.catad5959\\.com/native/wrcatad\\.t.*\\.banner\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "55f4b42b-d09a-4dd7-b60b-2d3879cba1ba",
+                "name": "wr.catad5959.com/text/wrcatad.t*.Text_banner.asp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wr\\.catad5959\\.com/text/wrcatad\\.t.*\\.Text_banner\\.asp"
                     },
                     "action": {
                         "type": "block"
@@ -70206,6 +70243,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"https://secure.s.telegraph.co.uk/international/Barnebys/\"]"
+                    }
+                }
+            },
+            {
+                "id": "1b49d0f9-f79d-4e70-926b-d70579b3a9ae",
+                "name": "tenasia.hankyung.com##div#ad_bottom_2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tenasia\\.hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_bottom_2"
+                    }
+                }
+            },
+            {
+                "id": "9cf0cbce-930c-4a53-bbf8-ccbee26de0fe",
+                "name": "tenasia.hankyung.com##div.textAD",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tenasia\\.hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.textAD"
                     }
                 }
             },
