@@ -917,6 +917,19 @@
                 }
             },
             {
+                "id": "aa9680f5-3496-4712-988c-4ba43cd3b6a2",
+                "name": "##iframe[src^=\"//ad.doyouad.com/html/iframe.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//ad.doyouad.com/html/iframe.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "00937db8-7f96-4ff8-9f8b-df3f8db02873",
                 "name": "##iframe[src^=\"//ad.vkoad.com/showads.php\"]",
                 "content": {
@@ -5277,6 +5290,18 @@
                         "unless-domain": [
                             "thehackernews.com"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0b370216-c1f2-499f-8fe7-3970dcaafc43",
+                "name": "ad.doyouad.com/html/iframe.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.doyouad\\.com/html/iframe\\.html"
                     },
                     "action": {
                         "type": "block"
@@ -62799,6 +62824,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.section_4>div[style=\"padding-bottom:10px;text-align:center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "5c829b63-2b23-4137-b9d8-154daccde08b",
+                "name": "newswave.kr##div.pop-layer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?newswave\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pop-layer"
                     }
                 }
             },
