@@ -53429,6 +53429,32 @@
                 }
             },
             {
+                "id": "4dc94b8c-8642-4094-868a-654113818aa9",
+                "name": "m.newswave.kr##div#bottom_src",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.newswave\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bottom_src"
+                    }
+                }
+            },
+            {
+                "id": "aced5bdc-2286-421b-8333-227a82a0a06a",
+                "name": "m.newswave.kr##div#top_src",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.newswave\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#top_src"
+                    }
+                }
+            },
+            {
                 "id": "20952a5a-2e11-46eb-a2dd-6e6154ffb838",
                 "name": "m.newsway.co.kr##div.ad_area",
                 "content": {
