@@ -21122,11 +21122,11 @@
                 }
             },
             {
-                "id": "1a58de59-bcd2-4870-9ab8-c3a21fdbd942",
-                "name": "tags.expo9.exponential.com/tags/*/ROS/tags.js",
+                "id": "1112b762-95e7-4944-8a01-c8b51b55e652",
+                "name": "tags.expo9.exponential.com/tags/*/*/tags.js",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tags\\.expo9\\.exponential\\.com/tags/.*/ROS/tags\\.js"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tags\\.expo9\\.exponential\\.com/tags/.*/.*/tags\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -64893,6 +64893,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.view_banner"
+                    }
+                }
+            },
+            {
+                "id": "e7576558-0a61-4c84-9ed7-3ff8856facab",
+                "name": "pastebin.com##div#content_right>div[style=\"padding: 0; width:160px;margin: 10px 0;clear:left;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pastebin\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#content_right>div[style=\"padding: 0; width:160px;margin: 10px 0;clear:left;\"]"
+                    }
+                }
+            },
+            {
+                "id": "f7af870e-ffd5-4d07-a24f-fde003a0c1e0",
+                "name": "pastebin.com##div.banner_728",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pastebin\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_728"
                     }
                 }
             },
