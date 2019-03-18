@@ -48621,6 +48621,32 @@
                 }
             },
             {
+                "id": "fc374446-e229-43ef-a22f-a1b7d5b04a5b",
+                "name": "m.comic.naver.com##div.cut_flick_wrap>div.ly_dim",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.comic\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.cut_flick_wrap>div.ly_dim"
+                    }
+                }
+            },
+            {
+                "id": "4caafecc-9992-40d3-918a-109c6270cd07",
+                "name": "m.comic.naver.com##div.cut_flick_wrap>div.ly_wrap.viewer_da_ly",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.comic\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.cut_flick_wrap>div.ly_wrap.viewer_da_ly"
+                    }
+                }
+            },
+            {
                 "id": "566f2ebc-8e86-4717-b9aa-beb18e13f9da",
                 "name": "m.comic.naver.com##li.ads_sc",
                 "content": {
