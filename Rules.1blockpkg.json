@@ -20699,6 +20699,21 @@
                 }
             },
             {
+                "id": "5bec5535-2674-4bd7-ba22-77ec2340661f",
+                "name": "static.joins.com/common/ui/ad/$domain=news.joins.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?static\\.joins\\.com/common/ui/ad/",
+                        "if-domain": [
+                            "news.joins.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6554d5e0-7ba9-4c4f-86b9-f7bab1ef6088",
                 "name": "static.joins.com/isplus/ui/ad/",
                 "content": {
@@ -60553,6 +60568,19 @@
                 }
             },
             {
+                "id": "794472af-324f-4768-a6c2-63b58d0f8ca0",
+                "name": "news.joins.com##div#body>span>div[style=\"position: absolute; top: 302px; left: 333px; z-index: 11;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#body>span>div[style=\"position: absolute; top: 302px; left: 333px; z-index: 11;\"]"
+                    }
+                }
+            },
+            {
                 "id": "e9e8452f-c33a-434d-b64d-925f3d4c743e",
                 "name": "news.joins.com##div#criteo_network",
                 "content": {
@@ -60640,6 +60668,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[id^=\"imp_ad_\"]"
+                    }
+                }
+            },
+            {
+                "id": "1963ddf8-ca37-4251-8a12-a7a39886349f",
+                "name": "news.joins.com##embed[src^=\"//static.joins.com/common/ui/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "embed[src^=\"//static.joins.com/common/ui/ad/\"]"
                     }
                 }
             },
