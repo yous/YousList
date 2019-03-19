@@ -43628,6 +43628,19 @@
                 }
             },
             {
+                "id": "3800bd42-07ec-46f1-951c-804a0e5affae",
+                "name": "inven.co.kr##div.sideTopAdWrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?inven\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sideTopAdWrap"
+                    }
+                }
+            },
+            {
                 "id": "c687b581-61b0-4f0c-adc9-882ff5b85ed2",
                 "name": "inven.co.kr##div.topskyad",
                 "content": {
@@ -43637,6 +43650,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.topskyad"
+                    }
+                }
+            },
+            {
+                "id": "52a6d0cf-8b15-4d25-8a85-bd4f15093364",
+                "name": "inven.co.kr##div.videoAdPopup",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?inven\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.videoAdPopup"
                     }
                 }
             },
