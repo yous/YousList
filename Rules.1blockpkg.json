@@ -11596,6 +11596,18 @@
                 }
             },
             {
+                "id": "04f233fa-8d53-4907-ac2f-cd052add01c3",
+                "name": "dothome.co.kr/advertisement/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dothome\\.co\\.kr/advertisement/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f4ba997c-5729-4937-af50-32b24e3304fe",
                 "name": "dreamsearch.or.kr/ad/",
                 "content": {
@@ -76424,6 +76436,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.adunit-wrap"
+                    }
+                }
+            },
+            {
+                "id": "2880dffd-b6e9-454b-ab61-9168e1e101f0",
+                "name": "windowsforum.kr##a[href^=\"https://www.dothome.co.kr/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?windowsforum\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"https://www.dothome.co.kr/ad/\"]"
+                    }
+                }
+            },
+            {
+                "id": "e8e82ba9-484e-43c0-9786-673917a4337d",
+                "name": "windowsforum.kr##block.sponser",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?windowsforum\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "block.sponser"
+                    }
+                }
+            },
+            {
+                "id": "09abf7d7-0ef0-483c-aba9-064b3a4ecde1",
+                "name": "windowsforum.kr##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?windowsforum\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "d9f6d622-f138-416a-a38c-bbf27062e326",
+                "name": "windowsforum.kr##div.home_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?windowsforum\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.home_banner"
+                    }
+                }
+            },
+            {
+                "id": "fbb1099c-1c85-4793-b3b7-b9102bbb0676",
+                "name": "windowsforum.kr##div.top_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?windowsforum\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top_banner"
                     }
                 }
             },
