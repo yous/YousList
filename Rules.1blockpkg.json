@@ -60292,6 +60292,19 @@
                 }
             },
             {
+                "id": "5fd69faa-60fe-42ef-abfe-74b1ecb02c49",
+                "name": "news.donga.com##amp-embed[data-widget-id=\"klrLx9om\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.donga\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "amp-embed[data-widget-id=\"klrLx9om\"]"
+                    }
+                }
+            },
+            {
                 "id": "1a8b752e-9810-4a8f-bcf8-f5240fd3573e",
                 "name": "news.donga.com##div#top_ad",
                 "content": {
@@ -60327,6 +60340,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_main04"
+                    }
+                }
+            },
+            {
+                "id": "5e535e27-26a6-4597-be96-60baaf8839f3",
+                "name": "news.donga.com##div.amp_view_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.donga\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.amp_view_ad"
                     }
                 }
             },
