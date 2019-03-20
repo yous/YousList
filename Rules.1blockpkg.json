@@ -13408,6 +13408,18 @@
                 }
             },
             {
+                "id": "2dee63aa-1823-405a-b5b6-e9db3bec655b",
+                "name": "i.xdywlw.cn/V.aspx",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?i\\.xdywlw\\.cn/V\\.aspx"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "646eec9c-973a-4465-9b95-221a104e4a76",
                 "name": "i.yimg.jp/images/listing/tool/yads/uadf/yads_vimps-*.js",
                 "content": {
@@ -44313,6 +44325,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/_common/banner/blank_black.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "69b30bad-fff0-40c5-ac74-46ab6308ca11",
+                "name": "izmtv.com##div.fed-tabr-advs",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?izmtv\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.fed-tabr-advs"
                     }
                 }
             },
