@@ -65895,6 +65895,19 @@
                 }
             },
             {
+                "id": "295b7eaa-f0cc-4b82-9f4d-84a933c5068f",
+                "name": "ppss.kr##div.userContent>div.dable_placeholder",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ppss\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.userContent>div.dable_placeholder"
+                    }
+                }
+            },
+            {
                 "id": "6b906459-fbc5-4212-82b4-d66558135b28",
                 "name": "ppss.kr##div.wing_banner",
                 "content": {
@@ -65904,6 +65917,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.wing_banner"
+                    }
+                }
+            },
+            {
+                "id": "2752e563-ea1b-4e71-9538-d5b03f394fbb",
+                "name": "ppss.kr##div[data-widget_id=\"KoEGJplB\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ppss\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-widget_id=\"KoEGJplB\"]"
                     }
                 }
             },
