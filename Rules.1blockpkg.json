@@ -55690,6 +55690,19 @@
                 }
             },
             {
+                "id": "eeac835a-fe59-450f-a8db-5a027b6b4689",
+                "name": "m.weekly.chosun.com##div.AD_link",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.weekly\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.AD_link"
+                    }
+                }
+            },
+            {
                 "id": "1758a7ff-ceb1-48a5-b070-d280652f3cff",
                 "name": "m.weekly.khan.co.kr##div.ad_adtive",
                 "content": {
