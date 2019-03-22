@@ -1397,7 +1397,7 @@
 ||news.nate.com/Etc/ViewAD^
 ||news.nate.com/etc/AD^
 ||news.nate.com/etc/ad*
-||news.nate.com/etc/viewTopBannerAD^$domain=sports.news.nate.com
+||news.nate.com/etc/viewTopBannerAD^$domain=news.nate.com|sports.news.nate.com
 ||news.sbs.co.kr/ad/delay_redirect.jsp^
 ||news.smi2.ru/data/js/*.js^
 ||news.sportsseoul.com/ad/
@@ -4301,6 +4301,7 @@ news.nate.com##div#newsmediaBanner
 news.nate.com##div#spaceBanner
 news.nate.com##div.ad290x330
 news.nate.com##div.bn300
+news.nate.com##div.googleAd_wrap
 news.nate.com##div.newsMainBanner
 news.nate.com##div.sidebar_banner
 news.nate.com##div.socialAD
@@ -4309,6 +4310,7 @@ news.nate.com##iframe#AdCommerce
 news.nate.com##iframe#AdShopSearch
 news.nate.com##iframe#socialAD
 news.nate.com##iframe[src^="//comm.news.nate.com/Etc/ViewADThumb"]
+news.nate.com##iframe[src^="/etc/viewTopBannerAD"]
 news.naver.com##div#doubleDA
 news.naver.com##div#rightDoubleDA
 news.naver.com##div.article_body>table[align="right"][border="0"][cellpadding="0"][cellspacing="0"][width="307"]
