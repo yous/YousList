@@ -47527,6 +47527,19 @@
                 }
             },
             {
+                "id": "1f014749-bca5-45b3-b35f-cfdbc48a0b56",
+                "name": "m-mediatoday-co-kr.cdn.ampproject.org##section.amp_ad_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m-mediatoday-co-kr\\.cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.amp_ad_box"
+                    }
+                }
+            },
+            {
                 "id": "88e2f70d-b583-4858-aa0f-1edf69d55ff9",
                 "name": "m-mk-co-kr.cdn.ampproject.org##div.new_ad",
                 "content": {
