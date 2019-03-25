@@ -9978,6 +9978,18 @@
                 }
             },
             {
+                "id": "7f9d4ed5-9165-4f01-832d-1c24f7932003",
+                "name": "cdn.megadata.co.kr/js/media/1.1/MBSHandler.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn\\.megadata\\.co\\.kr/js/media/1\\.1/MBSHandler\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b83baa8b-8a71-47ab-8d30-15ecc1ece55b",
                 "name": "cdn.new-star.co.kr/data/adnew/",
                 "content": {
@@ -11829,6 +11841,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dreamsearch\\.or\\.kr/playLinkAd/js/mobonPlayLinkToast\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ce902917-7ac9-4141-9c7b-56e6791a0624",
+                "name": "dreamsearch.or.kr/script/common/media/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dreamsearch\\.or\\.kr/script/common/media/"
                     },
                     "action": {
                         "type": "block"
@@ -16957,6 +16981,21 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mobile\\.newsis\\.com/ad_list/ad\\.html",
+                        "if-domain": [
+                            "mobile.newsis.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d0c06686-6247-46d1-ac11-0b635f5b3f9e",
+                "name": "mobile.newsis.com/ad_list/ad_*.html$domain=mobile.newsis.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mobile\\.newsis\\.com/ad_list/ad_.*\\.html",
                         "if-domain": [
                             "mobile.newsis.com"
                         ]
@@ -58728,6 +58767,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/ad_list/ad.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "0db0dc8a-d891-4d7c-b937-b211d2463789",
+                "name": "mobile.newsis.com##iframe[src^=\"/ad_list/ad_\"][src*=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?mobile\\.newsis\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ad_list/ad_\"][src*=\".html\"]"
                     }
                 }
             },
