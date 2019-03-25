@@ -65869,6 +65869,19 @@
                 }
             },
             {
+                "id": "14bb1509-874b-4d27-901c-9a280593c9dc",
+                "name": "pixiv.net##div.ad-frame-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pixiv\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-frame-container"
+                    }
+                }
+            },
+            {
                 "id": "375994c7-10ac-466c-85f6-fe00957258f9",
                 "name": "pixiv.net##div.illust-details-view>span>div>div[style=\"height: 312px;\"]",
                 "content": {
