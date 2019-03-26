@@ -60695,6 +60695,45 @@
                 }
             },
             {
+                "id": "a322f965-76ce-4923-b0de-07aef6f01286",
+                "name": "news.einfomax.co.kr##div.banner-box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.einfomax\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-box"
+                    }
+                }
+            },
+            {
+                "id": "fa640673-7ac1-4834-bc05-78180ee2cdff",
+                "name": "news.einfomax.co.kr##div.user-ad-box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.einfomax\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.user-ad-box"
+                    }
+                }
+            },
+            {
+                "id": "37010955-7852-4556-a7f4-5e7768a46f0b",
+                "name": "news.einfomax.co.kr##ul.banner-3",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.einfomax\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.banner-3"
+                    }
+                }
+            },
+            {
                 "id": "17a65e95-1b92-4cee-8c30-3020d7465312",
                 "name": "news.hankooki.com##div#DrBox",
                 "content": {
