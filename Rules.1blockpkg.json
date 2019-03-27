@@ -3777,6 +3777,19 @@
                 }
             },
             {
+                "id": "db88cf59-0588-42d2-bd53-b3bbf787e222",
+                "name": "##iframe[src^=\"https://ads-partners.coupang.com/widgets.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://ads-partners.coupang.com/widgets.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "cb8c6752-3acc-4c31-b63c-198a28f86712",
                 "name": "##iframe[src^=\"https://ads.adjust-net.jp/adserver/ads\"]",
                 "content": {
@@ -6580,6 +6593,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads-optima\\.com/www/delivery/ajs\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ea030da3-5bc0-4fe7-9174-3fa78268e074",
+                "name": "ads-partners.coupang.com/g.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads-partners\\.coupang\\.com/g\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "917bc71e-5722-491a-97b3-1de344ddecb0",
+                "name": "ads-partners.coupang.com/widgets.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads-partners\\.coupang\\.com/widgets\\.html"
                     },
                     "action": {
                         "type": "block"
@@ -39371,6 +39408,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-topscroll"
+                    }
+                }
+            },
+            {
+                "id": "887e5a5b-26f0-42c4-a900-63a2055de5cd",
+                "name": "gamemeca.com##div.aside-right-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.aside-right-ad"
+                    }
+                }
+            },
+            {
+                "id": "3a92c404-f0fb-4fad-9384-83df0221ab1a",
+                "name": "gamemeca.com##div.aside-right-ad2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.aside-right-ad2"
                     }
                 }
             },
