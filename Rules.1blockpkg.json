@@ -40621,6 +40621,45 @@
                 }
             },
             {
+                "id": "87f6da8d-24a3-44fd-948e-30f75acfbe28",
+                "name": "hankookilbo.com##div.ad-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankookilbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-banner"
+                    }
+                }
+            },
+            {
+                "id": "f2dde6f9-e81f-4c73-8bdd-29bd64829ebc",
+                "name": "hankookilbo.com##div.ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankookilbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container"
+                    }
+                }
+            },
+            {
+                "id": "5fdbbe8d-d29c-4453-8053-a78b0086a828",
+                "name": "hankookilbo.com##div.ad-container-180",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankookilbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container-180"
+                    }
+                }
+            },
+            {
                 "id": "7b41604d-30c2-431d-9f61-5230980bfd64",
                 "name": "hankookilbo.com##div.article-header-banner",
                 "content": {
@@ -40630,6 +40669,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.article-header-banner"
+                    }
+                }
+            },
+            {
+                "id": "0157882b-981e-4a31-b953-2f318fa4d6e3",
+                "name": "hankookilbo.com##div.story-ad-half",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankookilbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.story-ad-half"
                     }
                 }
             },
