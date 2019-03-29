@@ -35941,6 +35941,19 @@
                 }
             },
             {
+                "id": "602afba7-db8a-4473-86bb-c93893a0001d",
+                "name": "dtnews24.com##aside.user-aside>div.text-center[style=\"padding:15px 0;border:1px solid #dfdfdf;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dtnews24\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.user-aside>div.text-center[style=\"padding:15px 0;border:1px solid #dfdfdf;\"]"
+                    }
+                }
+            },
+            {
                 "id": "b5ab45c3-fc96-4def-bf98-ed0971ac04aa",
                 "name": "dtnews24.com##div.fixed1>div[style=\"position:fixed;\"]",
                 "content": {
