@@ -26128,6 +26128,19 @@
                 }
             },
             {
+                "id": "b106ac49-ddb2-4646-a82a-90022b3b7f2d",
+                "name": "amp-cnn-com.cdn.ampproject.org##div.ad-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?amp-cnn-com\\.cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-wrapper"
+                    }
+                }
+            },
+            {
                 "id": "00e020de-2e59-41f4-af0b-42ea70727c7a",
                 "name": "amp.businessinsider.com##main div.ad-container",
                 "content": {
