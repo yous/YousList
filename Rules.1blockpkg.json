@@ -53051,28 +53051,15 @@
                 }
             },
             {
-                "id": "996b999c-ebad-45c4-a47f-efb3653ab8c8",
-                "name": "m.mk.co.kr##div.ct_move>center>div[data-widget_id]",
+                "id": "d512c93a-b869-4cf6-a7f4-15756641bc9d",
+                "name": "m.mk.co.kr##div.ct_move>center",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mk\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ct_move>center>div[data-widget_id]"
-                    }
-                }
-            },
-            {
-                "id": "bc48cebd-1155-46bc-8995-785423b72b4e",
-                "name": "m.mk.co.kr##div.id_news>div[style=\"margin-top:25px;text-align:center;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mk\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.id_news>div[style=\"margin-top:25px;text-align:center;\"]"
+                        "selector": "div.ct_move>center"
                     }
                 }
             },
@@ -53112,6 +53099,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.new_ad3"
+                    }
+                }
+            },
+            {
+                "id": "cb0f7b99-f290-4954-b75e-74484562c94a",
+                "name": "m.mk.co.kr##div[id^=\"slot\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mk\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"slot\"]"
                     }
                 }
             },
