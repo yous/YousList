@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20190329
+! Version: 20190331
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -1487,6 +1487,7 @@
 ||pop.site3.co.kr/poco.js^
 ||ppdxyz.info/script-2/license.ppdxyz.js^
 ||ppdxyz.info/script-2/new_script.js^
+||ppomppu.co.kr/banner/_loader_bbs_list_origin.php^$domain=ppomppu.co.kr
 ||pq-direct.revsci.net/pql^
 ||prebid.districtm.ca/lib.js^
 ||pressian.com/data/banner/$domain=pressian.com
@@ -4642,10 +4643,15 @@ ppomppu.co.kr##div#emart_banner
 ppomppu.co.kr##div#result_box>div.section:not([id])
 ppomppu.co.kr##div#shoppingbox
 ppomppu.co.kr##div.ad
+ppomppu.co.kr##div.ad-banner
 ppomppu.co.kr##div.banner
 ppomppu.co.kr##div.banner_336
+ppomppu.co.kr##div.container>div.power-link
+ppomppu.co.kr##div.ebay-ad
+ppomppu.co.kr##div.floating-banner-sm
 ppomppu.co.kr##div[id^="pp_ban_"]
 ppomppu.co.kr##iframe[id^="if_"][id$="_bn"]
+ppomppu.co.kr##iframe[src^="/banner/_loader_bbs_list_origin.php"]
 ppomppu.co.kr##p.banner_553
 ppss.kr##div.userContent>div.dable_placeholder
 ppss.kr##div.wing_banner

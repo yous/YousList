@@ -18891,6 +18891,21 @@
                 }
             },
             {
+                "id": "c716faf2-66dc-4ce6-aa1f-4508059bb77b",
+                "name": "ppomppu.co.kr/banner/_loader_bbs_list_origin.php$domain=ppomppu.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ppomppu\\.co\\.kr/banner/_loader_bbs_list_origin\\.php",
+                        "if-domain": [
+                            "ppomppu.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "959fd2df-42b7-4ef3-86cf-bba9d01fbb28",
                 "name": "pq-direct.revsci.net/pql",
                 "content": {
@@ -66478,6 +66493,19 @@
                 }
             },
             {
+                "id": "9f8d856e-5c2e-4578-9301-13232197df51",
+                "name": "ppomppu.co.kr##div.ad-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ppomppu\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-banner"
+                    }
+                }
+            },
+            {
                 "id": "64762afb-20d2-449e-9b7c-cc2f3ca80d68",
                 "name": "ppomppu.co.kr##div.banner",
                 "content": {
@@ -66504,6 +66532,45 @@
                 }
             },
             {
+                "id": "a316ff82-506a-40e2-825f-094c829586ea",
+                "name": "ppomppu.co.kr##div.container>div.power-link",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ppomppu\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.container>div.power-link"
+                    }
+                }
+            },
+            {
+                "id": "58ae6699-fa92-4ae7-a09d-52af1628d165",
+                "name": "ppomppu.co.kr##div.ebay-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ppomppu\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ebay-ad"
+                    }
+                }
+            },
+            {
+                "id": "56075b7c-6381-47ba-b4e8-0acee7631d9f",
+                "name": "ppomppu.co.kr##div.floating-banner-sm",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ppomppu\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.floating-banner-sm"
+                    }
+                }
+            },
+            {
                 "id": "99f3bd7b-c2f8-4234-9cad-f614f066e330",
                 "name": "ppomppu.co.kr##div[id^=\"pp_ban_\"]",
                 "content": {
@@ -66526,6 +66593,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[id^=\"if_\"][id$=\"_bn\"]"
+                    }
+                }
+            },
+            {
+                "id": "5871d5bf-a9bf-4eae-b92b-8dc767c92dee",
+                "name": "ppomppu.co.kr##iframe[src^=\"/banner/_loader_bbs_list_origin.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ppomppu\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/banner/_loader_bbs_list_origin.php\"]"
                     }
                 }
             },
