@@ -5565,6 +5565,21 @@
                 }
             },
             {
+                "id": "21d65f2c-8024-43fb-af4d-8691bee7fc11",
+                "name": "ad.medicaltimes.com/ADManager/2018/$domain=medicaltimes.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.medicaltimes\\.com/ADManager/2018/",
+                        "if-domain": [
+                            "medicaltimes.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d16b04e7-a101-41e8-8f91-7e3f8bebf015",
                 "name": "ad.mox.tv/mox/mwayss_invocation.min.js",
                 "content": {
@@ -58169,6 +58184,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://www.mediaus.co.kr/banner/\"]"
+                    }
+                }
+            },
+            {
+                "id": "7c6ab737-116f-4024-a1c8-9161df87f2ac",
+                "name": "medicaltimes.com##div.newsBody>div[style=\"margin:10px 15px; padding:15px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?medicaltimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.newsBody>div[style=\"margin:10px 15px; padding:15px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "c7d34389-8ffc-4a3a-b348-5f44dd3ceafc",
+                "name": "medicaltimes.com##div.newsTxt>div[style=\"padding-top: 15px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?medicaltimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.newsTxt>div[style=\"padding-top: 15px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "bc698a79-30b5-4592-92b2-2bdaa1f91338",
+                "name": "medicaltimes.com##div.thirdSection>div[style=\"background-color: #f2f2f2;border: 1px solid #cccccc;box-sizing: border-box;margin-bottom: 15px;text-align:center;padding:32px 0px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?medicaltimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.thirdSection>div[style=\"background-color: #f2f2f2;border: 1px solid #cccccc;box-sizing: border-box;margin-bottom: 15px;text-align:center;padding:32px 0px\"]"
+                    }
+                }
+            },
+            {
+                "id": "9ace56d4-00ce-47e2-a095-1f2a9d00e61a",
+                "name": "medicaltimes.com##div.thirdSection>div[style=\"padding-bottom:10px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?medicaltimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.thirdSection>div[style=\"padding-bottom:10px\"]"
+                    }
+                }
+            },
+            {
+                "id": "72d4464a-2652-4539-8acd-d376511e6bae",
+                "name": "medicaltimes.com##nav>div:not([class]):not([id])>ul[style=\"padding-top:10px;margin:0px auto;width:1200px;text-align:right;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?medicaltimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "nav>div:not([class]):not([id])>ul[style=\"padding-top:10px;margin:0px auto;width:1200px;text-align:right;\"]"
                     }
                 }
             },
