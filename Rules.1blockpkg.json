@@ -51584,6 +51584,32 @@
                 }
             },
             {
+                "id": "b5d1e64b-6a23-4998-b59c-aac41b134017",
+                "name": "m.idomin.com##div#mac_body>div[style=\"float:right;margin:0 0 10px 10px;width:200px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.idomin\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mac_body>div[style=\"float:right;margin:0 0 10px 10px;width:200px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "710f8171-b221-42e8-b6f5-80c05b524314",
+                "name": "m.idomin.com##div.float_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.idomin\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.float_banner"
+                    }
+                }
+            },
+            {
                 "id": "15a411a7-16df-4ba4-845c-33a0094b5f2f",
                 "name": "m.ikoreadaily.co.kr##div#ad_article",
                 "content": {
