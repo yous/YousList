@@ -66599,6 +66599,19 @@
                 }
             },
             {
+                "id": "c8745d55-77dc-4956-860b-3c15b63585e9",
+                "name": "ppomppu.co.kr##div#result_box>div.power-link",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ppomppu\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#result_box>div.power-link"
+                    }
+                }
+            },
+            {
                 "id": "43a5e482-7967-4758-9cf7-079cc8fe8205",
                 "name": "ppomppu.co.kr##div#result_box>div.section:not([id])",
                 "content": {
