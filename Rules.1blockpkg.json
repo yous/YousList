@@ -8262,6 +8262,21 @@
                 }
             },
             {
+                "id": "db32ba3b-dd30-41fa-933b-f438c8fb5737",
+                "name": "aproxy-next.tving.com/v1/v/Ad3VnDPG4kEGE*/req/list$domain=tving.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?aproxy-next\\.tving\\.com/v1/v/Ad3VnDPG4kEGE.*/req/list",
+                        "if-domain": [
+                            "tving.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "02e93bea-eaf1-4171-aaa6-f1ef8ee9b5a8",
                 "name": "art.chosun.com/common/r_banner/index.html$domain=art.chosun.com",
                 "content": {
@@ -14091,6 +14106,21 @@
                         "if-domain": [
                             "bbs.ruliweb.com",
                             "m.ruliweb.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fab89af0-2641-434e-9d20-9f0b34d62dfe",
+                "name": "image.tving.com/public_v*/static/common.ad-*.js$domain=tving.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?image\\.tving\\.com/public_v.*/static/common\\.ad-.*\\.js",
+                        "if-domain": [
+                            "tving.com"
                         ]
                     },
                     "action": {
