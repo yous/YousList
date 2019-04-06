@@ -75324,6 +75324,19 @@
                 }
             },
             {
+                "id": "6d8afe27-3f6e-41f1-9642-4c75bca02559",
+                "name": "tving.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tving\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
                 "id": "2ccf93f1-8198-42c8-89f6-bb2f9b0d2187",
                 "name": "tvple.com##div#video-player>div.video-player-overlay",
                 "content": {
