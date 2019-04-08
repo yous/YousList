@@ -63130,6 +63130,45 @@
                 }
             },
             {
+                "id": "f66c83ff-b0a8-496d-9ec1-5dcd9deb7089",
+                "name": "news.vice.com##div.ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.vice\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container"
+                    }
+                }
+            },
+            {
+                "id": "c6a8276e-c616-4341-8cf7-072e5d9d944a",
+                "name": "news.vice.com##div.odd-unit__container__container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.vice\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.odd-unit__container__container"
+                    }
+                }
+            },
+            {
+                "id": "ef9e9bf8-2def-489a-aa15-09af0c005512",
+                "name": "news.vice.com##div.vmp-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.vice\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.vmp-ad"
+                    }
+                }
+            },
+            {
                 "id": "9699567e-ce85-4178-9c1e-78cdce0ee1c8",
                 "name": "news.zum.com##div.banner_big",
                 "content": {
