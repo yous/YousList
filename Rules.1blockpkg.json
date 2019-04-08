@@ -76130,6 +76130,19 @@
                 }
             },
             {
+                "id": "577c156e-dbe3-4a2e-9f55-d9798bef425b",
+                "name": "vice.com##div.ad-unit__container__container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?vice\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-unit__container__container"
+                    }
+                }
+            },
+            {
                 "id": "0cfc30e5-ffee-4420-8471-e9f7ef55fee4",
                 "name": "video.animoe.us##div#fbanner",
                 "content": {
