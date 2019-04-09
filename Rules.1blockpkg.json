@@ -1853,6 +1853,19 @@
                 }
             },
             {
+                "id": "3007590f-a915-4987-b107-2a9e70a42237",
+                "name": "##iframe[src^=\"http://adex.adtree.kr/\"][src*=\"/view.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://adex.adtree.kr/\"][src*=\"/view.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "b95b8d5d-c8a8-43f2-a48b-2f6dfa9056ba",
                 "name": "##iframe[src^=\"http://adex.ednplus.com/\"]",
                 "content": {
@@ -6161,6 +6174,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ade\\.realclick\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "832691af-4588-4e5b-9872-9ba4cdf46626",
+                "name": "adex.adtree.kr/*/ad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adex\\.adtree\\.kr/.*/ad\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "05213f16-dc8f-4649-b26e-b6bd281ad677",
+                "name": "adex.adtree.kr/*/view.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adex\\.adtree\\.kr/.*/view\\.php"
                     },
                     "action": {
                         "type": "block"
