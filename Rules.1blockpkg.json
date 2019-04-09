@@ -39262,6 +39262,19 @@
                 }
             },
             {
+                "id": "77af948b-f88d-466c-b84e-2ab0d44f529a",
+                "name": "game.donga.com##section.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?game\\.donga\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.banner"
+                    }
+                }
+            },
+            {
                 "id": "194394dd-ba1f-4a23-a172-d4eddf366f2e",
                 "name": "game.xportsnews.com##div.ad_1",
                 "content": {
