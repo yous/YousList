@@ -3491,6 +3491,19 @@
                 }
             },
             {
+                "id": "6799fd39-e356-4556-a79f-0116223ce6da",
+                "name": "##iframe[src^=\"http://tracker.digitalcamp.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://tracker.digitalcamp.co.kr/\"]"
+                    }
+                }
+            },
+            {
                 "id": "75378f58-ed7b-4c78-bb40-58ed43b5c014",
                 "name": "##iframe[src^=\"http://utildown.co.kr/adv/adv.php\"]",
                 "content": {
@@ -19802,6 +19815,18 @@
                 }
             },
             {
+                "id": "a0e6d2d1-fdbb-48bf-b6ee-9501e4e3cf0b",
+                "name": "script.nowcall.co.kr/nowsence/nsLiveNewsBanner.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?script\\.nowcall\\.co\\.kr/nowsence/nsLiveNewsBanner\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9244534d-3fef-4a48-ae5c-66dd22975725",
                 "name": "script.theprimead.co.kr/js/primeBridge.js",
                 "content": {
@@ -21593,6 +21618,18 @@
                 }
             },
             {
+                "id": "7ae9eb37-1516-47fc-b01e-2fc7dae307cc",
+                "name": "thealarm2018.cafe24.com/banner/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?thealarm2018\\.cafe24\\.com/banner/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "46a830ce-a0b2-4a13-8f21-aabaad04d1d8",
                 "name": "thepiratebay.bid/static/ads/$domain=thepiratebay.bid",
                 "content": {
@@ -21755,6 +21792,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tracker\\.adbinead\\.com/other/.*\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f91a0a49-1989-4ea8-b0db-275d076cc8fa",
+                "name": "tracker.digitalcamp.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tracker\\.digitalcamp\\.co\\.kr"
                     },
                     "action": {
                         "type": "block"
@@ -49734,6 +49783,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.promotion_banner"
+                    }
+                }
+            },
+            {
+                "id": "d2de036a-436f-438e-a0aa-26d98c7ff110",
+                "name": "m.dt.co.kr##div#adshow",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adshow"
+                    }
+                }
+            },
+            {
+                "id": "fa9dd1d8-60ba-420e-b1b8-321edf11f3c5",
+                "name": "m.dt.co.kr##div#now-sence",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.dt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#now-sence"
                     }
                 }
             },
