@@ -56365,28 +56365,41 @@
                 }
             },
             {
-                "id": "1758a7ff-ceb1-48a5-b070-d280652f3cff",
-                "name": "m.weekly.khan.co.kr##div.ad_adtive",
+                "id": "ba12bffb-950b-40e3-b633-483fe59d58ae",
+                "name": "m.weekly.khan.co.kr##div#adArea",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.weekly\\.khan\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad_adtive"
+                        "selector": "div#adArea"
                     }
                 }
             },
             {
-                "id": "951ef059-2880-4fb2-b82c-df63f651b36c",
-                "name": "m.weekly.khan.co.kr##div.banner_artmid",
+                "id": "663d7cbe-b45f-44f7-86d5-0cedcc5f9910",
+                "name": "m.weekly.khan.co.kr##div.art_top_bn",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.weekly\\.khan\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.banner_artmid"
+                        "selector": "div.art_top_bn"
+                    }
+                }
+            },
+            {
+                "id": "4593b2fb-d928-4367-9fc1-e8d981159cdc",
+                "name": "m.weekly.khan.co.kr##div[data-widget_id=\"OoRxNely\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.weekly\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-widget_id=\"OoRxNely\"]"
                     }
                 }
             },
