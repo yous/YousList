@@ -20995,6 +20995,21 @@
                 }
             },
             {
+                "id": "53b355cf-c036-4625-95ab-0317743f42a2",
+                "name": "ssl.pstatic.net/t.static.blog/mylog/versioning//js/post/ssp/SspAdPostCallerForPC-*_https.js$domain=blog.naver.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ssl\\.pstatic\\.net/t\\.static\\.blog/mylog/versioning//js/post/ssp/SspAdPostCallerForPC-.*_https\\.js",
+                        "if-domain": [
+                            "blog.naver.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1369931b-08d2-47b1-92f5-1e23dbbd8fe5",
                 "name": "ssp.adpies.com/ssp/request",
                 "content": {
@@ -29970,6 +29985,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#floating"
+                    }
+                }
+            },
+            {
+                "id": "52a5b962-0fbc-4ccb-93ab-85d92247693f",
+                "name": "blog.naver.com##div#ssp-adcontent",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?blog\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ssp-adcontent"
+                    }
+                }
+            },
+            {
+                "id": "bf51a2d3-6e01-49f6-be37-641e157cd959",
+                "name": "blog.naver.com##div#ssp-adpost",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?blog\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ssp-adpost"
                     }
                 }
             },
