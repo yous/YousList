@@ -3790,6 +3790,19 @@
                 }
             },
             {
+                "id": "74b666af-1d1c-412c-88aa-2af5eb8356c4",
+                "name": "##iframe[src^=\"https://ad.pentabox.net/ron/html/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://ad.pentabox.net/ron/html/\"]"
+                    }
+                }
+            },
+            {
                 "id": "f1d723b4-4205-48bc-a216-0541d728dda4",
                 "name": "##iframe[src^=\"https://adbiz3.co.kr/\"]",
                 "content": {
@@ -5671,6 +5684,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.owra\\.net"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9bf03aed-7f0a-4843-814e-e5edcb4f7ec1",
+                "name": "ad.pentabox.net/ron/html/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.pentabox\\.net/ron/html/"
                     },
                     "action": {
                         "type": "block"
@@ -77837,6 +77862,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "section.ads-by-google"
+                    }
+                }
+            },
+            {
+                "id": "8efb04fe-76b5-4ff0-b67d-fb449efad2df",
+                "name": "wiki.dcinside.com##div.pb_area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?wiki\\.dcinside\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pb_area"
                     }
                 }
             },
