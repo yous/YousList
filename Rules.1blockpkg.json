@@ -66766,6 +66766,19 @@
                 }
             },
             {
+                "id": "94d9fc4d-6fba-4da1-b2cd-29262e2935c2",
+                "name": "play.afreecatv.com##a.adcon-area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?play\\.afreecatv\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a.adcon-area"
+                    }
+                }
+            },
+            {
                 "id": "bca168aa-2898-44ec-a24d-5f278bf3885a",
                 "name": "playwares.com##a.sub_banner_element",
                 "content": {
