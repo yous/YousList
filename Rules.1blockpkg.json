@@ -39765,6 +39765,19 @@
                 }
             },
             {
+                "id": "947c962d-fa36-4b4b-81b8-ee496b945fe4",
+                "name": "gamemeca.com##div.google-ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.google-ads"
+                    }
+                }
+            },
+            {
                 "id": "90ff53e4-e581-448f-b36d-5003f72fc1f1",
                 "name": "gamemeca.com##div.google_ad_bottom_728x90",
                 "content": {
@@ -39813,6 +39826,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.toastBanner"
+                    }
+                }
+            },
+            {
+                "id": "6b33b7d7-1d4f-4345-9aa4-6a8fe65b20d0",
+                "name": "gamemeca.com##ins[data-ad-slot=\"8639418657\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamemeca\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"8639418657\"]"
                     }
                 }
             },
