@@ -9715,6 +9715,18 @@
                 }
             },
             {
+                "id": "abda885e-b336-4c86-8811-c2f8a185208e",
+                "name": "cdn-a.yieldlove.com/yieldlove-bidder-stroeer.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?cdn-a\\.yieldlove\\.com/yieldlove-bidder-stroeer\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0c43cbdd-5410-4e2c-b96a-f5c9f8195353",
                 "name": "cdn-aitg.widerplanet.com/js/adr.js",
                 "content": {
@@ -18719,6 +18731,21 @@
                 }
             },
             {
+                "id": "40adc86a-f63c-43ed-879b-676cc9686238",
+                "name": "pcgames.de/webservices/hitAlert.cfc$domain=pcgames.de",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de/webservices/hitAlert\\.cfc",
+                        "if-domain": [
+                            "pcgames.de"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d165d960-a1a4-4340-9149-d12a5ed36d6f",
                 "name": "pcwelt.de/js/adserver_footer.js$domain=pcwelt.de",
                 "content": {
@@ -19816,18 +19843,6 @@
                 }
             },
             {
-                "id": "ea49eedd-add7-4217-8e06-4e21c3d1a91e",
-                "name": "script.ioam.de/iam.js",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?script\\.ioam\\.de/iam\\.js"
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "98b75cd5-db99-4b37-999b-f7207af9f0e5",
                 "name": "script.keywordlink.co.kr",
                 "content": {
@@ -20304,6 +20319,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?shoppingbox\\.joinsmsn\\.com"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "51f14899-21d8-424b-8ab7-0f0f41d812cc",
+                "name": "si.nuggad.net/javascripts/nuggad-ls.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?si\\.nuggad\\.net/javascripts/nuggad-ls\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -66216,6 +66243,136 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[style^=\"position: relative; box-sizing: border-box; height: auto; margin: \"][style*=\" text-align: center; display: block; pointer-events: none; transform: none; \"]"
+                    }
+                }
+            },
+            {
+                "id": "22291747-0762-48de-8244-93c2bf87ec15",
+                "name": "pcgames.de##div#secondStickyBlock",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#secondStickyBlock"
+                    }
+                }
+            },
+            {
+                "id": "627c6fbe-0798-4225-bc84-936776b29803",
+                "name": "pcgames.de##div.contentFrameEddie",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contentFrameEddie"
+                    }
+                }
+            },
+            {
+                "id": "f55e35bd-97c8-4e95-80ff-a955a03bd815",
+                "name": "pcgames.de##div.dyn_ad_wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.dyn_ad_wrapper"
+                    }
+                }
+            },
+            {
+                "id": "2d27929d-0d0f-4749-9da1-67778a17937f",
+                "name": "pcgames.de##div.module[modultyp=\"31\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.module[modultyp=\"31\"]"
+                    }
+                }
+            },
+            {
+                "id": "09f5d187-6f21-4370-a2ca-9eda46203f8a",
+                "name": "pcgames.de##div.pubperformAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pubperformAd"
+                    }
+                }
+            },
+            {
+                "id": "221de8ef-357d-435b-96d2-80d194ebeb91",
+                "name": "pcgames.de##div.rectad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rectad"
+                    }
+                }
+            },
+            {
+                "id": "4305f815-4b16-4ad4-b482-ed55772157d9",
+                "name": "pcgames.de##div.sdgSlotContainer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sdgSlotContainer"
+                    }
+                }
+            },
+            {
+                "id": "36958e03-548e-4bbc-99e2-dc35cb18255e",
+                "name": "pcgames.de##div.static_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.static_banner"
+                    }
+                }
+            },
+            {
+                "id": "01b30cdc-fd72-495d-8da1-475150de827f",
+                "name": "pcgames.de##div.topFrameEddie",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.topFrameEddie"
+                    }
+                }
+            },
+            {
+                "id": "9f8aff66-c6b5-4cdc-a66c-662f6dc7efa8",
+                "name": "pcgames.de##div.wadtag",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wadtag"
                     }
                 }
             },
