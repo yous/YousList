@@ -33088,6 +33088,45 @@
                 }
             },
             {
+                "id": "2d45b51e-7caf-44b0-9b4f-33c78965118b",
+                "name": "chip.de##div.NewsArticle__Ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?chip\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.NewsArticle__Ad"
+                    }
+                }
+            },
+            {
+                "id": "af049851-ea44-4e8e-8e46-88aac7c0d368",
+                "name": "chip.de##div.app_nexus_banners_common",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?chip\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.app_nexus_banners_common"
+                    }
+                }
+            },
+            {
+                "id": "f8ee6056-fc04-4f89-8301-d3b7c6be8ce3",
+                "name": "chip.de##div.sticky-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?chip\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sticky-wrapper"
+                    }
+                }
+            },
+            {
                 "id": "58ce9cb3-58f5-43a5-b466-c35ccd404238",
                 "name": "chirpstory.com##div.ad_custom",
                 "content": {
