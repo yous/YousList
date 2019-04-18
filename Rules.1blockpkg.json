@@ -18761,6 +18761,21 @@
                 }
             },
             {
+                "id": "4daa6e15-fa35-445e-bb78-a73f382b7025",
+                "name": "pcgameshardware.de/webservices/hitAlert.cfc$domain=pcgameshardware.de",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgameshardware\\.de/webservices/hitAlert\\.cfc",
+                        "if-domain": [
+                            "pcgameshardware.de"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d165d960-a1a4-4340-9149-d12a5ed36d6f",
                 "name": "pcwelt.de/js/adserver_footer.js$domain=pcwelt.de",
                 "content": {
@@ -30642,6 +30657,19 @@
                 }
             },
             {
+                "id": "adf8ae27-3c67-4ab4-840d-4637258ea823",
+                "name": "pcgameshardware.de##div#secondStickyBlock",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgameshardware\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#secondStickyBlock"
+                    }
+                }
+            },
+            {
                 "id": "6180826a-996e-4b49-9f29-882d1389012b",
                 "name": "buffed.de##div.contentFrameEddie",
                 "content": {
@@ -30660,6 +30688,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contentFrameEddie"
+                    }
+                }
+            },
+            {
+                "id": "9c7fcf0d-42df-48a4-9c5f-f20207fdbe99",
+                "name": "pcgameshardware.de##div.contentFrameEddie",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgameshardware\\.de"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -30694,6 +30735,19 @@
                 }
             },
             {
+                "id": "02dd690d-801c-4a8a-8d65-d55473815631",
+                "name": "pcgameshardware.de##div.dyn_ad_wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgameshardware\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.dyn_ad_wrapper"
+                    }
+                }
+            },
+            {
                 "id": "894ad242-cdc2-4564-b4cf-aa72e6cbf7b2",
                 "name": "buffed.de##div.pubperformAd",
                 "content": {
@@ -30712,6 +30766,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pubperformAd"
+                    }
+                }
+            },
+            {
+                "id": "d5dea78a-d01b-46ea-b20a-3019c4f95c6f",
+                "name": "pcgameshardware.de##div.pubperformAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgameshardware\\.de"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -30746,6 +30813,19 @@
                 }
             },
             {
+                "id": "1156e732-ff09-4da6-b09e-3b74d417bd80",
+                "name": "pcgameshardware.de##div.rectad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgameshardware\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rectad"
+                    }
+                }
+            },
+            {
                 "id": "33597fc6-8cd7-47b3-82c0-62a80781530b",
                 "name": "buffed.de##div.sdgSlotContainer",
                 "content": {
@@ -30764,6 +30844,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sdgSlotContainer"
+                    }
+                }
+            },
+            {
+                "id": "c762d13d-43fe-4145-a453-56950fbf4874",
+                "name": "pcgameshardware.de##div.sdgSlotContainer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgameshardware\\.de"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -30798,6 +30891,19 @@
                 }
             },
             {
+                "id": "5d8dff26-8181-4f37-9bf4-ee1cec9bd91b",
+                "name": "pcgameshardware.de##div.static_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgameshardware\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.static_banner"
+                    }
+                }
+            },
+            {
                 "id": "137f080c-4126-47ba-b5cb-c2eab40242a0",
                 "name": "buffed.de##div.topFrameEddie",
                 "content": {
@@ -30824,6 +30930,19 @@
                 }
             },
             {
+                "id": "78cd4578-833c-4d4d-a1bf-b1136623f4ec",
+                "name": "pcgameshardware.de##div.topFrameEddie",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgameshardware\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.topFrameEddie"
+                    }
+                }
+            },
+            {
                 "id": "7f8fc7f5-2426-4a8e-b48f-f16165a553b7",
                 "name": "buffed.de##div.wadtag",
                 "content": {
@@ -30842,6 +30961,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wadtag"
+                    }
+                }
+            },
+            {
+                "id": "c53dc261-8454-4400-8c6b-a4fce72277c6",
+                "name": "pcgameshardware.de##div.wadtag",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgameshardware\\.de"
                     },
                     "action": {
                         "type": "css-display-none",
