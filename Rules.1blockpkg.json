@@ -26094,6 +26094,32 @@
                 }
             },
             {
+                "id": "e7f4d7ac-c3e3-467b-a412-4125ccf3199c",
+                "name": "4players.de##aside#werbung-advertorial",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?4players\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside#werbung-advertorial"
+                    }
+                }
+            },
+            {
+                "id": "6c05d526-f262-4c17-8dea-470179dc8e90",
+                "name": "4players.de##aside#werbung-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?4players\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside#werbung-banner"
+                    }
+                }
+            },
+            {
                 "id": "badea58c-4da6-4e10-99ce-78ef058c37f7",
                 "name": "67k8k.com##aside.advert",
                 "content": {
