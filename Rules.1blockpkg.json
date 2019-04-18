@@ -40251,6 +40251,45 @@
                 }
             },
             {
+                "id": "02e5b1cf-ba53-439f-995b-f8475521f682",
+                "name": "gamesworld.de##div.Ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamesworld\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.Ad"
+                    }
+                }
+            },
+            {
+                "id": "9b4a5f40-c536-4c09-a58c-60aaef53a4e7",
+                "name": "gamesworld.de##div.rightWing",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamesworld\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rightWing"
+                    }
+                }
+            },
+            {
+                "id": "efa5558e-91a3-40b4-9bb3-074e1a454845",
+                "name": "gamesworld.de##div.sdgSlotContainer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?gamesworld\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sdgSlotContainer"
+                    }
+                }
+            },
+            {
                 "id": "a31552ae-e33b-45b2-9e39-be78489130a6",
                 "name": "gametoc.hankyung.com##iframe[src^=\"/banner/\"][src$=\".html\"]",
                 "content": {
