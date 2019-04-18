@@ -8814,6 +8814,21 @@
                 }
             },
             {
+                "id": "7b9bbb45-6287-4ad6-aabb-0a716ac47601",
+                "name": "buffed.de/webservices/hitAlert.cfc$domain=buffed.de",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?buffed\\.de/webservices/hitAlert\\.cfc",
+                        "if-domain": [
+                            "buffed.de"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "eff821e0-1b9f-4c57-b3a0-fdf142c0a5c7",
                 "name": "bullseye.backbeatmedia.com/bullseye/adserver/",
                 "content": {
@@ -30597,6 +30612,240 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.bannerP"
+                    }
+                }
+            },
+            {
+                "id": "4ab32962-61e5-4267-8185-8978412edbe1",
+                "name": "buffed.de##div#secondStickyBlock",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?buffed\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#secondStickyBlock"
+                    }
+                }
+            },
+            {
+                "id": "22291747-0762-48de-8244-93c2bf87ec15",
+                "name": "pcgames.de##div#secondStickyBlock",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#secondStickyBlock"
+                    }
+                }
+            },
+            {
+                "id": "6180826a-996e-4b49-9f29-882d1389012b",
+                "name": "buffed.de##div.contentFrameEddie",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?buffed\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contentFrameEddie"
+                    }
+                }
+            },
+            {
+                "id": "627c6fbe-0798-4225-bc84-936776b29803",
+                "name": "pcgames.de##div.contentFrameEddie",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contentFrameEddie"
+                    }
+                }
+            },
+            {
+                "id": "2b0518a0-b705-467a-80f4-0d03d23a8b62",
+                "name": "buffed.de##div.dyn_ad_wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?buffed\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.dyn_ad_wrapper"
+                    }
+                }
+            },
+            {
+                "id": "f55e35bd-97c8-4e95-80ff-a955a03bd815",
+                "name": "pcgames.de##div.dyn_ad_wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.dyn_ad_wrapper"
+                    }
+                }
+            },
+            {
+                "id": "894ad242-cdc2-4564-b4cf-aa72e6cbf7b2",
+                "name": "buffed.de##div.pubperformAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?buffed\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pubperformAd"
+                    }
+                }
+            },
+            {
+                "id": "09f5d187-6f21-4370-a2ca-9eda46203f8a",
+                "name": "pcgames.de##div.pubperformAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pubperformAd"
+                    }
+                }
+            },
+            {
+                "id": "39610845-8c8f-4563-9c40-b04e1cb5ff22",
+                "name": "buffed.de##div.rectad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?buffed\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rectad"
+                    }
+                }
+            },
+            {
+                "id": "221de8ef-357d-435b-96d2-80d194ebeb91",
+                "name": "pcgames.de##div.rectad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rectad"
+                    }
+                }
+            },
+            {
+                "id": "33597fc6-8cd7-47b3-82c0-62a80781530b",
+                "name": "buffed.de##div.sdgSlotContainer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?buffed\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sdgSlotContainer"
+                    }
+                }
+            },
+            {
+                "id": "4305f815-4b16-4ad4-b482-ed55772157d9",
+                "name": "pcgames.de##div.sdgSlotContainer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sdgSlotContainer"
+                    }
+                }
+            },
+            {
+                "id": "b1daf0d7-3795-46bc-b347-511e771844e5",
+                "name": "buffed.de##div.static_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?buffed\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.static_banner"
+                    }
+                }
+            },
+            {
+                "id": "36958e03-548e-4bbc-99e2-dc35cb18255e",
+                "name": "pcgames.de##div.static_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.static_banner"
+                    }
+                }
+            },
+            {
+                "id": "137f080c-4126-47ba-b5cb-c2eab40242a0",
+                "name": "buffed.de##div.topFrameEddie",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?buffed\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.topFrameEddie"
+                    }
+                }
+            },
+            {
+                "id": "01b30cdc-fd72-495d-8da1-475150de827f",
+                "name": "pcgames.de##div.topFrameEddie",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.topFrameEddie"
+                    }
+                }
+            },
+            {
+                "id": "7f8fc7f5-2426-4a8e-b48f-f16165a553b7",
+                "name": "buffed.de##div.wadtag",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?buffed\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wadtag"
+                    }
+                }
+            },
+            {
+                "id": "9f8aff66-c6b5-4cdc-a66c-662f6dc7efa8",
+                "name": "pcgames.de##div.wadtag",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wadtag"
                     }
                 }
             },
@@ -66247,45 +66496,6 @@
                 }
             },
             {
-                "id": "22291747-0762-48de-8244-93c2bf87ec15",
-                "name": "pcgames.de##div#secondStickyBlock",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#secondStickyBlock"
-                    }
-                }
-            },
-            {
-                "id": "627c6fbe-0798-4225-bc84-936776b29803",
-                "name": "pcgames.de##div.contentFrameEddie",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.contentFrameEddie"
-                    }
-                }
-            },
-            {
-                "id": "f55e35bd-97c8-4e95-80ff-a955a03bd815",
-                "name": "pcgames.de##div.dyn_ad_wrapper",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.dyn_ad_wrapper"
-                    }
-                }
-            },
-            {
                 "id": "2d27929d-0d0f-4749-9da1-67778a17937f",
                 "name": "pcgames.de##div.module[modultyp=\"31\"]",
                 "content": {
@@ -66295,84 +66505,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.module[modultyp=\"31\"]"
-                    }
-                }
-            },
-            {
-                "id": "09f5d187-6f21-4370-a2ca-9eda46203f8a",
-                "name": "pcgames.de##div.pubperformAd",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.pubperformAd"
-                    }
-                }
-            },
-            {
-                "id": "221de8ef-357d-435b-96d2-80d194ebeb91",
-                "name": "pcgames.de##div.rectad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.rectad"
-                    }
-                }
-            },
-            {
-                "id": "4305f815-4b16-4ad4-b482-ed55772157d9",
-                "name": "pcgames.de##div.sdgSlotContainer",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.sdgSlotContainer"
-                    }
-                }
-            },
-            {
-                "id": "36958e03-548e-4bbc-99e2-dc35cb18255e",
-                "name": "pcgames.de##div.static_banner",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.static_banner"
-                    }
-                }
-            },
-            {
-                "id": "01b30cdc-fd72-495d-8da1-475150de827f",
-                "name": "pcgames.de##div.topFrameEddie",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.topFrameEddie"
-                    }
-                }
-            },
-            {
-                "id": "9f8aff66-c6b5-4cdc-a66c-662f6dc7efa8",
-                "name": "pcgames.de##div.wadtag",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pcgames\\.de"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.wadtag"
                     }
                 }
             },
