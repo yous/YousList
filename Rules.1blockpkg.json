@@ -40381,6 +40381,45 @@
                 }
             },
             {
+                "id": "ec36db5b-ec35-42ec-a3e4-02fee1cf5c90",
+                "name": "geeksforgeeks.org##div#secondary>aside.widget_text",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?geeksforgeeks\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#secondary>aside.widget_text"
+                    }
+                }
+            },
+            {
+                "id": "d75360b1-3e2b-4b8c-bf5e-173f6ead41a1",
+                "name": "geeksforgeeks.org##div#secondary>div.widget_text",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?geeksforgeeks\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#secondary>div.widget_text"
+                    }
+                }
+            },
+            {
+                "id": "77c2a452-e7a6-4342-bca4-d9f751f4f445",
+                "name": "geeksforgeeks.org##div.promotional",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?geeksforgeeks\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.promotional"
+                    }
+                }
+            },
+            {
                 "id": "1bc45e51-5b7f-40d2-a3ab-1645c743e5d3",
                 "name": "genomeweb.com##div.block-genomeweb-ads",
                 "content": {
