@@ -14568,6 +14568,21 @@
                 }
             },
             {
+                "id": "04b38218-1586-4551-9fb8-d91c95d59904",
+                "name": "img.tvchosun.com/upload_img/n2017/banner/$domain=news.tvchosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?img\\.tvchosun\\.com/upload_img/n2017/banner/",
+                        "if-domain": [
+                            "news.tvchosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8f3b2a45-89c7-4bbf-bea1-d105d628bf0f",
                 "name": "img.yonhapnews.co.kr/basic/svc/00_ko/resources/js/main_youtube.js$domain=yonhapnews.co.kr",
                 "content": {
@@ -20485,14 +20500,15 @@
                 }
             },
             {
-                "id": "6c322545-e106-4e6b-9d19-3f805e9fcfa1",
-                "name": "smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~allvod.sbs.co.kr|~news.sbs.co.kr|~programs.sbs.co.kr",
+                "id": "7d51604d-9ee6-4aa0-836c-0855fef35304",
+                "name": "smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~allvod.sbs.co.kr|~news.sbs.co.kr|~news.tvchosun.com|~programs.sbs.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?smrmembers-smr\\.smartmediarep\\.com/smc/smrmembers/",
                         "unless-domain": [
                             "allvod.sbs.co.kr",
                             "news.sbs.co.kr",
+                            "news.tvchosun.com",
                             "programs.sbs.co.kr"
                         ]
                     },
@@ -63898,6 +63914,45 @@
                 }
             },
             {
+                "id": "e886b197-faee-4e84-a793-0a9acf50da9f",
+                "name": "news.tvchosun.com##div#MiddleAD",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.tvchosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#MiddleAD"
+                    }
+                }
+            },
+            {
+                "id": "3566e821-1f8c-4182-bc57-79acaae65b16",
+                "name": "news.tvchosun.com##div#MiddleAD2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.tvchosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#MiddleAD2"
+                    }
+                }
+            },
+            {
+                "id": "f5a7b244-b4d4-4b5c-bb27-b63228cb03b8",
+                "name": "news.tvchosun.com##div#banner_header",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.tvchosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_header"
+                    }
+                }
+            },
+            {
                 "id": "50ebcc25-4ca7-49d0-bc7a-89f79a43376c",
                 "name": "news.tvchosun.com##div.ad_area",
                 "content": {
@@ -63937,6 +63992,58 @@
                 }
             },
             {
+                "id": "1b4a13a1-acba-4aa6-84e1-af11917fc7ae",
+                "name": "news.tvchosun.com##div.pieceBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.tvchosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pieceBanner"
+                    }
+                }
+            },
+            {
+                "id": "f5a7f327-7eb1-4b19-99c7-006b7d7ed868",
+                "name": "news.tvchosun.com##div.randomBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.tvchosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.randomBanner"
+                    }
+                }
+            },
+            {
+                "id": "fe58824d-5047-4ddb-8c46-f48a490460e5",
+                "name": "news.tvchosun.com##div.related_news_list>ul>li.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.tvchosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.related_news_list>ul>li.ad"
+                    }
+                }
+            },
+            {
+                "id": "fd6880fe-5738-4d8a-9426-6a3ee5f8512b",
+                "name": "news.tvchosun.com##div[data-widget_id=\"goBv0qoe\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.tvchosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-widget_id=\"goBv0qoe\"]"
+                    }
+                }
+            },
+            {
                 "id": "09d343fe-92f1-46ff-bd8b-ed19c1335f82",
                 "name": "news.tvchosun.com##iframe[src^=\"http://img.tvchosun.com/test/ad/\"]",
                 "content": {
@@ -63963,6 +64070,19 @@
                 }
             },
             {
+                "id": "e3412171-efc4-452f-b2ce-f1677bccb7ed",
+                "name": "news.tvchosun.com##iframe[src^=\"http://img.tvchosun.com/upload_img/n2017/banner/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.tvchosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://img.tvchosun.com/upload_img/n2017/banner/\"]"
+                    }
+                }
+            },
+            {
                 "id": "73aa1c97-1428-4914-ad72-a12f747465a4",
                 "name": "news.tvchosun.com##iframe[src^=\"http://tvchosun.com/front/ad/\"]",
                 "content": {
@@ -63985,6 +64105,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://www.tvchosun.com/front/rnbAdplex2.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "baa86832-0ff8-4328-99f5-b3112d658a12",
+                "name": "news.tvchosun.com##span.view_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.tvchosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span.view_banner"
                     }
                 }
             },
