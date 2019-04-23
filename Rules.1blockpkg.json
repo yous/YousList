@@ -63966,6 +63966,19 @@
                 }
             },
             {
+                "id": "6f24ddc2-0385-47e6-9b03-23126141e807",
+                "name": "news.tvchosun.com##div.ad_ban",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.tvchosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_ban"
+                    }
+                }
+            },
+            {
                 "id": "55a26f77-f3a9-4726-ac9c-6c287495019a",
                 "name": "news.tvchosun.com##div.bottom-controller",
                 "content": {
@@ -63979,15 +63992,15 @@
                 }
             },
             {
-                "id": "0c6d7bc2-f642-4824-ba23-651f5f3cd5ea",
-                "name": "news.tvchosun.com##div.native_box",
+                "id": "53cb5c78-ff5e-47bb-ae36-4aae71d82cce",
+                "name": "news.tvchosun.com##div.ft_banner",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.tvchosun\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.native_box"
+                        "selector": "div.ft_banner"
                     }
                 }
             },
@@ -64079,19 +64092,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://img.tvchosun.com/upload_img/n2017/banner/\"]"
-                    }
-                }
-            },
-            {
-                "id": "73aa1c97-1428-4914-ad72-a12f747465a4",
-                "name": "news.tvchosun.com##iframe[src^=\"http://tvchosun.com/front/ad/\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.tvchosun\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"http://tvchosun.com/front/ad/\"]"
                     }
                 }
             },
