@@ -7074,6 +7074,21 @@
                 }
             },
             {
+                "id": "5a28b122-5521-4653-bc2e-23c7e53c24b4",
+                "name": "ads.motorgraph.com/www/delivery/asyncjs.php$domain=motorgraph.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ads\\.motorgraph\\.com/www/delivery/asyncjs\\.php",
+                        "if-domain": [
+                            "motorgraph.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "91d007da-17b8-4769-8ae3-133cec7b8cd3",
                 "name": "ads.nicovideo.jp/api/OxBannerService/getAdvertisements.jsonp$domain=embed.nicovideo.jp|nicovideo.jp",
                 "content": {
