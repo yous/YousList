@@ -21852,6 +21852,21 @@
                 }
             },
             {
+                "id": "4e7ad9a6-73d0-4f86-ab20-cde180a93fb7",
+                "name": "torrentmal3.com/img/ad/$domain=torrentmal3.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmal3\\.com/img/ad/",
+                        "if-domain": [
+                            "torrentmal3.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a6cb369a-3b8a-456f-8e1b-c05b3fdaeb6e",
                 "name": "torrentmoa.com/addons/popup/js/popup_layer.js",
                 "content": {
@@ -75639,6 +75654,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.top_banner"
+                    }
+                }
+            },
+            {
+                "id": "7056f324-df8b-4d35-b0c2-6c10e95a7a3a",
+                "name": "torrentmal3.com##div.at-col.at-main.col-md-9>div.main-row.row",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmal3\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.at-col.at-main.col-md-9>div.main-row.row"
+                    }
+                }
+            },
+            {
+                "id": "0efe0e59-ef1b-4c11-ae15-63955944f029",
+                "name": "torrentmal3.com##div.at-col.at-main.col-md-9>div[align=\"center\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmal3\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.at-col.at-main.col-md-9>div[align=\"center\"]"
+                    }
+                }
+            },
+            {
+                "id": "2da49d88-4657-4d15-9024-f2d65499d9c4",
+                "name": "torrentmal3.com##div.at-col.at-main.col-md-9>div[style=\"padding-bottom: 5px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmal3\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.at-col.at-main.col-md-9>div[style=\"padding-bottom: 5px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "baaa2db6-b3b3-4bd9-9fb5-9795c22f6a2d",
+                "name": "torrentmal3.com##div.w-main>div.at-row>div[style=\"padding-top: 5px; display: flex; justify-content: center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmal3\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.w-main>div.at-row>div[style=\"padding-top: 5px; display: flex; justify-content: center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "cc43b7b8-a625-42fb-a999-d1af8759f530",
+                "name": "torrentmal3.com##div.w-side>div[align=\"center\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?torrentmal3\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.w-side>div[align=\"center\"]"
                     }
                 }
             },
