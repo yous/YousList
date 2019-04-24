@@ -35384,6 +35384,19 @@
                 }
             },
             {
+                "id": "f51e51c4-0785-451b-a5f7-0d0f4b2bf4ab",
+                "name": "dailymotion.com##div[class^=\"AdDiscovery__container___\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailymotion\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"AdDiscovery__container___\"]"
+                    }
+                }
+            },
+            {
                 "id": "3cc3a319-db87-4f49-b8ba-87ab51062330",
                 "name": "dailymotion.com##div[class^=\"AdWatching__container___\"]",
                 "content": {
@@ -35393,6 +35406,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"AdWatching__container___\"]"
+                    }
+                }
+            },
+            {
+                "id": "7fbb5d19-9737-43b9-8b20-0691a5d8f690",
+                "name": "dailymotion.com##div[class^=\"DiscoveryVideoSection__adCell___\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dailymotion\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"DiscoveryVideoSection__adCell___\"]"
                     }
                 }
             },
