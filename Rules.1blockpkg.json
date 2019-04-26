@@ -17622,6 +17622,21 @@
                 }
             },
             {
+                "id": "84a2b682-0a4c-4ab2-9c74-94dcaf52f0d5",
+                "name": "namu.live/static/ad/powerlink.html$domain=namu.wiki",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?namu\\.live/static/ad/powerlink\\.html",
+                        "if-domain": [
+                            "namu.wiki"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "037a5cf9-7710-4527-96bb-506549d7bdc6",
                 "name": "nanumnews.com/data/nanumnews_com/banner/201111264931247.jpg",
                 "content": {
@@ -61705,6 +61720,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#M306352Composite624079"
+                    }
+                }
+            },
+            {
+                "id": "33a08323-6c7f-4d26-8d14-e352d2014c63",
+                "name": "namu.wiki##iframe[src^=\"//namu.live/static/ad/powerlink.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?namu\\.wiki"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//namu.live/static/ad/powerlink.html\"]"
                     }
                 }
             },
