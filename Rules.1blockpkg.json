@@ -38884,6 +38884,58 @@
                 }
             },
             {
+                "id": "d6911dd8-8871-4ae1-945a-a57c1b2f5163",
+                "name": "eurogamer.net##div.advert",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?eurogamer\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advert"
+                    }
+                }
+            },
+            {
+                "id": "132df897-652a-4fcb-905f-73a9266e0b5e",
+                "name": "eurogamer.net##div.advertContainer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?eurogamer\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advertContainer"
+                    }
+                }
+            },
+            {
+                "id": "a9f0b116-3130-4784-9e37-e882a7a46848",
+                "name": "eurogamer.net##div.mpu",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?eurogamer\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mpu"
+                    }
+                }
+            },
+            {
+                "id": "233799c2-76a8-41fa-9798-b5a08077351c",
+                "name": "eurogamer.net##div.stack-mpu",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?eurogamer\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.stack-mpu"
+                    }
+                }
+            },
+            {
                 "id": "2c42562f-f85d-4ec1-a2ff-86133b5a2f8d",
                 "name": "expres.ua##div#rbTopLeaderboard",
                 "content": {
