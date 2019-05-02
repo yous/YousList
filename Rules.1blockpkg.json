@@ -69798,6 +69798,19 @@
                 }
             },
             {
+                "id": "938bb7fc-dcbd-4181-8c10-ad1c0b812269",
+                "name": "sitepoint.com##div.proper-ad-unit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sitepoint\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.proper-ad-unit"
+                    }
+                }
+            },
+            {
                 "id": "1b84cf1e-024b-4551-ab17-99e82f0f69a7",
                 "name": "skidkaonline.ru##div.ads",
                 "content": {
