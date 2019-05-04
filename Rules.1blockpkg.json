@@ -14231,6 +14231,21 @@
                 }
             },
             {
+                "id": "2885d7e2-f819-4d30-9603-5fa1c6456683",
+                "name": "image.tvdaily.co.kr/banner/$domain=tvdaily.asiae.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?image\\.tvdaily\\.co\\.kr/banner/",
+                        "if-domain": [
+                            "tvdaily.asiae.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "561cf337-b323-4023-83a5-df17d3e2052e",
                 "name": "image.wownet.co.kr/static/banner/*/flash/",
                 "content": {
@@ -22083,6 +22098,36 @@
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvchosun\\.com/front/rnbAdplex2\\.html",
                         "if-domain": [
                             "news.tvchosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "11c0d558-f007-4eec-94f8-4179474e4cc2",
+                "name": "tvdaily.asiae.co.kr/ad/ad680x130.js$domain=tvdaily.asiae.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvdaily\\.asiae\\.co\\.kr/ad/ad680x130\\.js",
+                        "if-domain": [
+                            "tvdaily.asiae.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e197ba5c-fb1f-40be-8c49-ec61ecc79832",
+                "name": "tvdaily.asiae.co.kr/ad/ad980x90.js$domain=tvdaily.asiae.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvdaily\\.asiae\\.co\\.kr/ad/ad980x90\\.js",
+                        "if-domain": [
+                            "tvdaily.asiae.co.kr"
                         ]
                     },
                     "action": {
@@ -76697,6 +76742,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.tbcms_ad-block"
+                    }
+                }
+            },
+            {
+                "id": "69bbc87a-7635-4255-8699-b1e25967bc6f",
+                "name": "tvdaily.asiae.co.kr##a[href^=\"/ad_view.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvdaily\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"/ad_view.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "551e4a72-ef42-4aa8-bb48-2a699cf2f6ec",
+                "name": "tvdaily.asiae.co.kr##div#readtopad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvdaily\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#readtopad"
+                    }
+                }
+            },
+            {
+                "id": "e5cb25fb-770e-40e9-8554-f210f836f091",
+                "name": "tvdaily.asiae.co.kr##div.read>table[align=\"left\"][height=\"200\"][style=\"margin-right:10px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvdaily\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.read>table[align=\"left\"][height=\"200\"][style=\"margin-right:10px\"]"
                     }
                 }
             },
