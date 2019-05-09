@@ -43076,6 +43076,19 @@
                 }
             },
             {
+                "id": "b4b1795d-85b7-47ae-aadd-04b1c1252015",
+                "name": "huffingtonpost.jp##div.ad_spot",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?huffingtonpost\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_spot"
+                    }
+                }
+            },
+            {
                 "id": "db9bd83b-5311-4fb3-b856-ead925ca52a7",
                 "name": "huffingtonpost.kr##div.ad_spot",
                 "content": {
