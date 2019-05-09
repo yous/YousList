@@ -16614,6 +16614,30 @@
                 }
             },
             {
+                "id": "06ccf4a9-ff7c-4816-b2ef-da854cee3cb1",
+                "name": "magento-analytics.com/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?magento-analytics\\.com/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "70a25ea4-dcc9-4797-988f-1cc878e02be6",
+                "name": "magento-analytics.com/gate.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?magento-analytics\\.com/gate\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "28c53687-3bc0-4b79-a75d-b9809a886b85",
                 "name": "mainclc.com/*/*/*/*.js",
                 "content": {
