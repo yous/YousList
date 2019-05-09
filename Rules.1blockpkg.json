@@ -16692,6 +16692,18 @@
                 }
             },
             {
+                "id": "bc17a3f0-9b2d-4572-a70e-41dfa42cefd6",
+                "name": "marketingking.co.kr/pr/s_ad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?marketingking\\.co\\.kr/pr/s_ad\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "43ef98a4-3828-43b6-a5f5-d6f0daa82f39",
                 "name": "maxmovie.com/banner/img/lotte630x88.jpg",
                 "content": {
@@ -42073,6 +42085,58 @@
                 }
             },
             {
+                "id": "ff37dfb5-84aa-4269-ba79-2f9e6cf1fa18",
+                "name": "hankyung.com##div#teads_slot",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#teads_slot"
+                    }
+                }
+            },
+            {
+                "id": "007877a4-ff61-4872-b358-90825eec2e68",
+                "name": "hankyung.com##div.ad_aside01",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_aside01"
+                    }
+                }
+            },
+            {
+                "id": "66aed2b4-4636-42dc-964c-6dae88d2fce1",
+                "name": "hankyung.com##div.ad_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_bottom"
+                    }
+                }
+            },
+            {
+                "id": "2169869f-c3fe-4bbc-a173-5f0940c9735e",
+                "name": "hankyung.com##div.ad_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_box"
+                    }
+                }
+            },
+            {
                 "id": "7718bcd7-95e6-4b66-9894-7da6f4b0fd11",
                 "name": "hankyung.com##div.ad_img",
                 "content": {
@@ -42086,6 +42150,45 @@
                 }
             },
             {
+                "id": "496556aa-ebc4-41f0-9379-6fb0c394a658",
+                "name": "hankyung.com##div.ad_list",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_list"
+                    }
+                }
+            },
+            {
+                "id": "1a88ceb5-bb9a-4280-ae22-aa0fa02bccf0",
+                "name": "hankyung.com##div.ad_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_top"
+                    }
+                }
+            },
+            {
+                "id": "be0e9bc3-3033-43a0-a0af-da34397defaa",
+                "name": "hankyung.com##div.box_related_list>div.rel_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.box_related_list>div.rel_ad"
+                    }
+                }
+            },
+            {
                 "id": "dc6bf5d3-6b74-4aa7-9890-1c33e8398713",
                 "name": "hankyung.com##div.fltAd",
                 "content": {
@@ -42095,6 +42198,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.fltAd"
+                    }
+                }
+            },
+            {
+                "id": "c6076c3c-a934-432c-b746-7935ad69f08b",
+                "name": "hankyung.com##div.hot_today",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.hot_today"
+                    }
+                }
+            },
+            {
+                "id": "afc1ab0e-42c3-4b68-90ea-87b9f7d89ea4",
+                "name": "hankyung.com##div.info_time",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.info_time"
+                    }
+                }
+            },
+            {
+                "id": "636fb524-22bd-4425-8162-b377a78bcf7e",
+                "name": "hankyung.com##div.info_today",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.info_today"
+                    }
+                }
+            },
+            {
+                "id": "43e3e4f1-6cdd-4210-bc7f-e6f1df17a603",
+                "name": "hankyung.com##div.list_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.list_ad"
                     }
                 }
             },
@@ -62544,227 +62699,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[id^=\"adText\"]"
-                    }
-                }
-            },
-            {
-                "id": "789003c8-e347-4ec6-bfd3-ce684381839b",
-                "name": "news.hankyung.com##article.act-body>div.wrap_list",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "article.act-body>div.wrap_list"
-                    }
-                }
-            },
-            {
-                "id": "133912db-3589-4118-82e1-31b6732e33c7",
-                "name": "news.hankyung.com##div#teads_slot",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#teads_slot"
-                    }
-                }
-            },
-            {
-                "id": "7ccf8323-cb59-4d9b-b01c-62ffbb6daa92",
-                "name": "news.hankyung.com##div.ad_aside01",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_aside01"
-                    }
-                }
-            },
-            {
-                "id": "da144e16-8ae7-4538-a62b-231c9f710755",
-                "name": "news.hankyung.com##div.ad_bottom",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_bottom"
-                    }
-                }
-            },
-            {
-                "id": "0a5a5ef0-a77f-43e1-bee0-319f00c33a44",
-                "name": "news.hankyung.com##div.ad_bottom_fix",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_bottom_fix"
-                    }
-                }
-            },
-            {
-                "id": "fc72ba3a-2bcc-4f91-9ac7-845a25f91428",
-                "name": "news.hankyung.com##div.ad_box",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_box"
-                    }
-                }
-            },
-            {
-                "id": "c9665b13-65ca-411d-9046-04310a7602c5",
-                "name": "news.hankyung.com##div.ad_img",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_img"
-                    }
-                }
-            },
-            {
-                "id": "ee0c5611-759a-4802-af46-b61bd78c5f4a",
-                "name": "news.hankyung.com##div.ad_list",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_list"
-                    }
-                }
-            },
-            {
-                "id": "187c0bfa-05c2-407f-a421-c74be891b316",
-                "name": "news.hankyung.com##div.ad_module_wrap",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_module_wrap"
-                    }
-                }
-            },
-            {
-                "id": "9a02da3a-be4e-42e2-b67d-daeff520a5aa",
-                "name": "news.hankyung.com##div.ad_top",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_top"
-                    }
-                }
-            },
-            {
-                "id": "f3ce51cf-99f8-42ec-8de0-06d88f0ba0af",
-                "name": "news.hankyung.com##div.ad_txt",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_txt"
-                    }
-                }
-            },
-            {
-                "id": "f0c1b3ea-77af-4305-875e-525069ebf54d",
-                "name": "news.hankyung.com##div.article_inside_ad>ul>li.rel_ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.article_inside_ad>ul>li.rel_ad"
-                    }
-                }
-            },
-            {
-                "id": "f8942d41-c0a6-4857-834c-e96200c9edf9",
-                "name": "news.hankyung.com##div.hot_today",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.hot_today"
-                    }
-                }
-            },
-            {
-                "id": "952f5c2b-4d8d-4625-8037-4c46d33d48fc",
-                "name": "news.hankyung.com##div.info_time",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.info_time"
-                    }
-                }
-            },
-            {
-                "id": "cf1eb854-9c99-4eb7-9846-202d0632efeb",
-                "name": "news.hankyung.com##div.info_today",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.info_today"
-                    }
-                }
-            },
-            {
-                "id": "0ff3306b-1663-4609-8664-eff4da09dcde",
-                "name": "news.hankyung.com##div.joy_info",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.joy_info"
-                    }
-                }
-            },
-            {
-                "id": "6c68db18-b4ab-4e11-a5ba-af77be58f281",
-                "name": "news.hankyung.com##div.list_ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.hankyung\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.list_ad"
                     }
                 }
             },
