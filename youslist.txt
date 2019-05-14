@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20190510
+! Version: 20190514
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -106,6 +106,7 @@
 ##iframe[src^="//am15.net/ssp/banner"]
 ##iframe[src^="//api.screensharp.kr/ad/get_banner/"]
 ##iframe[src^="//ax-d.pixfuture.net/w/1.0/afr"]
+##iframe[src^="//c.adand.co.kr/adand/"]
 ##iframe[src^="//d3u5zn5k9864p0.cloudfront.net/br"]
 ##iframe[src^="//disqusads.com/ads-iframe/prebid/"]
 ##iframe[src^="//finead.o00.kr/"]
@@ -479,6 +480,7 @@
 ||ad.touchwise.co.kr^
 ||ad.tpmn.co.kr/adReqSb.tpmn^
 ||ad.turn.com/server/ads.js^
+||ad.tvreport.co.kr/*/?m=i$domain=tvreport.co.kr
 ||ad.vkoad.com/showads.php^
 ||ad.wowtv.co.kr^
 ||ad.xc.netinsight.co.kr^
@@ -726,6 +728,7 @@
 ||busan.com/nas/rssimage/adrss6.html^$domain=m.busan.com
 ||busan.com/w2010/AD/$domain=busan.com|mobile.busan.com
 ||busygirlblog.com/adserver/$domain=busygirlblog.com
+||c.adand.co.kr/adand/
 ||c.amazon-adsystem.com/aax2/amzn_ads.js^
 ||c.amazon-adsystem.com/aax2/apstag.js^
 ||c.betrad.com/surly.js^
@@ -5271,7 +5274,10 @@ tvple.com##iframe[src^="/ab/PC-B-"]
 tvple.com##iframe[src^="/ab/PC-O-"]
 tvple.com##section.col-playlist div.visible-box
 tvple.com##section.col-playlist>div.text-center
+tvreport.co.kr##div#CmAdContent div[style="text-align:center;width:320px;margin:10px 0 0 -10px"]
 tvreport.co.kr##div.advertise_02
+tvreport.co.kr##div[id^="adMall_popup_"]
+tvreport.co.kr##iframe[src^="//ad.tvreport.co.kr/"][src*="?m=i"]
 tvseoul.kr##div#news_body_area>div[style="clear:both;margin-bottom:10px;margin-top:10px;margin-left:10px;text-align:center;float:right;width:336px;height:280px;"]
 tvseoul.kr##div.banner_left
 tvseoul.kr##div.banner_right

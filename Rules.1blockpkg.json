@@ -1138,6 +1138,19 @@
                 }
             },
             {
+                "id": "302cb390-d49f-4caf-9999-9562b40d61ca",
+                "name": "##iframe[src^=\"//c.adand.co.kr/adand/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//c.adand.co.kr/adand/\"]"
+                    }
+                }
+            },
+            {
                 "id": "07235da8-bca1-4f5e-8672-44d38c1a0d43",
                 "name": "##iframe[src^=\"//d3u5zn5k9864p0.cloudfront.net/br\"]",
                 "content": {
@@ -5847,6 +5860,21 @@
                 }
             },
             {
+                "id": "e0a21ddd-0f48-4eb2-8399-ae18c1192f23",
+                "name": "ad.tvreport.co.kr/*/?m=i$domain=tvreport.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ad\\.tvreport\\.co\\.kr/.*/\\?m=i",
+                        "if-domain": [
+                            "tvreport.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6ff42de6-f97f-4ec3-ba2e-1ea7fa1603e4",
                 "name": "ad.vkoad.com/showads.php",
                 "content": {
@@ -8895,6 +8923,18 @@
                         "if-domain": [
                             "busygirlblog.com"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "38154dd1-91e9-4ab5-b894-d768e773f45d",
+                "name": "c.adand.co.kr/adand/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?c\\.adand\\.co\\.kr/adand/"
                     },
                     "action": {
                         "type": "block"
@@ -77003,6 +77043,19 @@
                 }
             },
             {
+                "id": "5923abeb-0d0d-44aa-b981-e691a863acf1",
+                "name": "tvreport.co.kr##div#CmAdContent div[style=\"text-align:center;width:320px;margin:10px 0 0 -10px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvreport\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#CmAdContent div[style=\"text-align:center;width:320px;margin:10px 0 0 -10px\"]"
+                    }
+                }
+            },
+            {
                 "id": "d752bcfb-58d9-4d64-9055-f4e85f576f0f",
                 "name": "tvreport.co.kr##div.advertise_02",
                 "content": {
@@ -77012,6 +77065,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.advertise_02"
+                    }
+                }
+            },
+            {
+                "id": "303e7402-726b-480c-b23f-443e24769056",
+                "name": "tvreport.co.kr##div[id^=\"adMall_popup_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvreport\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"adMall_popup_\"]"
+                    }
+                }
+            },
+            {
+                "id": "00bd27c4-6229-4ea6-a813-4ca4dad3b81f",
+                "name": "tvreport.co.kr##iframe[src^=\"//ad.tvreport.co.kr/\"][src*=\"?m=i\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tvreport\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//ad.tvreport.co.kr/\"][src*=\"?m=i\"]"
                     }
                 }
             },
