@@ -3829,6 +3829,19 @@
                 }
             },
             {
+                "id": "41f04f94-b9c8-40f9-a5b0-9d3104f53b56",
+                "name": "##iframe[src^=\"https://adpick.co.kr/nativeAD/ad.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://adpick.co.kr/nativeAD/ad.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "db88cf59-0588-42d2-bd53-b3bbf787e222",
                 "name": "##iframe[src^=\"https://ads-partners.coupang.com/widgets.html\"]",
                 "content": {
@@ -6615,6 +6628,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adnext\\.fr/richmedia\\.adv"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "495bff7e-f00b-4494-ae68-d5eb8ffb5721",
+                "name": "adpick.co.kr/nativeAD/ad.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adpick\\.co\\.kr/nativeAD/ad\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "db1601fa-c07c-486c-9593-9a5bf76a4351",
+                "name": "adpick.co.kr/nativeAD/script.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?adpick\\.co\\.kr/nativeAD/script\\.js"
                     },
                     "action": {
                         "type": "block"
