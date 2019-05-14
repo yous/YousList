@@ -36520,6 +36520,32 @@
                 }
             },
             {
+                "id": "fbbfc8d1-8be6-47fa-bdbe-2a17653bbdca",
+                "name": "dmitory.com##div.latest_google_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dmitory\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.latest_google_ad"
+                    }
+                }
+            },
+            {
+                "id": "1e1b96ee-76be-4bc3-9126-8d44edf8bd40",
+                "name": "dmitory.com##div.top_google_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dmitory\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top_google_ad"
+                    }
+                }
+            },
+            {
                 "id": "e29da1e8-ed0b-40df-8a4c-75e50cc866f1",
                 "name": "docdocdoc.co.kr##iframe[src^=\"/banner/rollbanner_\"][src$=\".html\"]",
                 "content": {
