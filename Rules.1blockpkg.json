@@ -72985,6 +72985,19 @@
                 }
             },
             {
+                "id": "aa7a841c-1a9f-41a7-9954-aebacf2dbf75",
+                "name": "tekrevue.com##section.widget_text",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tekrevue\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.widget_text"
+                    }
+                }
+            },
+            {
                 "id": "4b91a4f8-19c1-47bd-967c-3609df546526",
                 "name": "telegraph.co.uk##div#configurableTabs",
                 "content": {
