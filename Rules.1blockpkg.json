@@ -34817,6 +34817,32 @@
                 }
             },
             {
+                "id": "bd69888d-616e-4d22-add0-7ca45608b2f7",
+                "name": "crunchyroll.com##a#template_skin_splashlink",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?crunchyroll\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a#template_skin_splashlink"
+                    }
+                }
+            },
+            {
+                "id": "d477eca9-7a1d-44e4-a4ab-78cf2a81f678",
+                "name": "crunchyroll.com##div#template_skin_leaderboard",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?crunchyroll\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#template_skin_leaderboard"
+                    }
+                }
+            },
+            {
                 "id": "2b19ad8d-b3ac-46eb-8337-94cf0328f5ee",
                 "name": "css3.info##ins[data-ad-slot=\"1376369752\"]",
                 "content": {
