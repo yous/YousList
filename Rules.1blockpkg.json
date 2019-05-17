@@ -67096,6 +67096,19 @@
                 }
             },
             {
+                "id": "8e2755be-344b-4d5d-bbf9-b565afa4c238",
+                "name": "osxdaily.com##div.contenttext>div[style=\"float: left; margin: 10px 10px 10px 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?osxdaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contenttext>div[style=\"float: left; margin: 10px 10px 10px 0;\"]"
+                    }
+                }
+            },
+            {
                 "id": "11c55e0b-5ef2-46fb-af7c-76ff8b1dd7b7",
                 "name": "osxdaily.com##div.contenttext>div[style=\"float:left;margin:10px 10px 10px 0;\"]",
                 "content": {
