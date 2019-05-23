@@ -67642,6 +67642,32 @@
                 }
             },
             {
+                "id": "7bfa52c5-7fbd-408f-8dd9-709ef106861d",
+                "name": "phys.org##div.bf-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?phys\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bf-banner"
+                    }
+                }
+            },
+            {
+                "id": "9d84855c-e1b9-41d0-9ca9-a284e502c5d0",
+                "name": "phys.org##section.article-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?phys\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.article-banner"
+                    }
+                }
+            },
+            {
                 "id": "e9e876b7-93ba-4f82-9453-b4e2fe2705bd",
                 "name": "physicsworld.com##span[data-oas]",
                 "content": {
