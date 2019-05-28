@@ -18398,6 +18398,21 @@
                 }
             },
             {
+                "id": "013cd02f-c444-4593-8ea6-1bf57172d6cb",
+                "name": "nightkor.com/img/banner/$domain=nightkor.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nightkor\\.com/img/banner/",
+                        "if-domain": [
+                            "nightkor.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "bab00818-69fe-4fc9-b7f4-45443858272e",
                 "name": "nocutnews.co.kr/banner/2012/ad_right_*.asp",
                 "content": {
@@ -66293,180 +66308,11 @@
                 }
             },
             {
-                "id": "4bb66408-dfd3-4a42-aff5-d74d0619ff95",
-                "name": "nightkor.com##article[itemprop=\"articleBody\"]>div[style=\"margin: auto;text-align:center;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nightkor\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "article[itemprop=\"articleBody\"]>div[style=\"margin: auto;text-align:center;\"]"
-                    }
-                }
-            },
-            {
-                "id": "e1638109-f956-4668-981b-628c6098abff",
-                "name": "sexybest.net##article[itemprop=\"articleBody\"]>div[style=\"margin: auto;text-align:center;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sexybest\\.net"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "article[itemprop=\"articleBody\"]>div[style=\"margin: auto;text-align:center;\"]"
-                    }
-                }
-            },
-            {
-                "id": "eabdc187-45e8-4690-8d39-9c440f3090e8",
-                "name": "nightkor.com##div.at-container.w-main>div.w-box",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nightkor\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.at-container.w-main>div.w-box"
-                    }
-                }
-            },
-            {
-                "id": "a771d880-9f06-4c50-a5d3-2ca724e136af",
-                "name": "sexybest.net##div.at-container.w-main>div.w-box",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sexybest\\.net"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.at-container.w-main>div.w-box"
-                    }
-                }
-            },
-            {
-                "id": "cb0917c7-ce25-4917-b0e7-840865664438",
-                "name": "nightkor.com##div.at-content>div.text-center",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nightkor\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.at-content>div.text-center"
-                    }
-                }
-            },
-            {
-                "id": "325ed72e-43fa-46da-ab82-5d51da7a9170",
-                "name": "sexybest.net##div.at-content>div.text-center",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sexybest\\.net"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.at-content>div.text-center"
-                    }
-                }
-            },
-            {
-                "id": "7a3d82ee-00a7-4df2-87da-bcd7faa08813",
-                "name": "nightkor.com##div.at-content>div[style=\"margin: auto;text-align:center;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nightkor\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.at-content>div[style=\"margin: auto;text-align:center;\"]"
-                    }
-                }
-            },
-            {
-                "id": "218c679a-8a18-44bc-b5f1-479f7da0ace6",
-                "name": "sexybest.net##div.at-content>div[style=\"margin: auto;text-align:center;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sexybest\\.net"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.at-content>div[style=\"margin: auto;text-align:center;\"]"
-                    }
-                }
-            },
-            {
-                "id": "4c1a2c1f-fb4a-4dd4-9bb0-b8b00c387404",
-                "name": "nightkor.com##div.at-side div.w-box>div[style=\"width:100%; min-height:280px; line-height:280px; text-align:center; background:#f5f5f5;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nightkor\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.at-side div.w-box>div[style=\"width:100%; min-height:280px; line-height:280px; text-align:center; background:#f5f5f5;\"]"
-                    }
-                }
-            },
-            {
-                "id": "c45b9507-c9e5-4916-b7b2-612743a5480e",
-                "name": "sexybest.net##div.at-side div.w-box>div[style=\"width:100%; min-height:280px; line-height:280px; text-align:center; background:#f5f5f5;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sexybest\\.net"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.at-side div.w-box>div[style=\"width:100%; min-height:280px; line-height:280px; text-align:center; background:#f5f5f5;\"]"
-                    }
-                }
-            },
-            {
-                "id": "200a84a5-0cf0-45b8-a304-2d1b5820529a",
-                "name": "nightkor.com##div.view-padding div[style=\"margin: auto;text-align:center;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nightkor\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.view-padding div[style=\"margin: auto;text-align:center;\"]"
-                    }
-                }
-            },
-            {
-                "id": "ea9d26b6-249b-4804-a96d-5d68a1b51f75",
-                "name": "sexybest.net##div.view-padding div[style=\"margin: auto;text-align:center;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sexybest\\.net"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.view-padding div[style=\"margin: auto;text-align:center;\"]"
-                    }
-                }
-            },
-            {
                 "id": "a39afafd-37c5-4f04-bd2e-ac32e7a2e0dc",
                 "name": "nightkor.com##div.wing-left",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nightkor\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.wing-left"
-                    }
-                }
-            },
-            {
-                "id": "2b1e2cf8-13cd-42a0-9c66-9f15969a0ab6",
-                "name": "sexybest.net##div.wing-left",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sexybest\\.net"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -66488,15 +66334,15 @@
                 }
             },
             {
-                "id": "f197a1d5-4d25-4c26-8369-8c0a2274f490",
-                "name": "sexybest.net##div.wing-right",
+                "id": "cb967420-e7d8-4553-b083-c8e5b770f1c3",
+                "name": "nightkor.com##section.board-list>div[style=\"margin: auto;text-align:center;\"]",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sexybest\\.net"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?nightkor\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.wing-right"
+                        "selector": "section.board-list>div[style=\"margin: auto;text-align:center;\"]"
                     }
                 }
             },
