@@ -54915,28 +54915,28 @@
                 }
             },
             {
-                "id": "e7767b9d-e46c-4da0-9904-197af976bc4a",
-                "name": "m.mt.co.kr##div#article>div.only_640un[style=\"margin-left:-20px;margin-right:-20px;height:100px;text-align:center;\"]",
+                "id": "afe5efc3-584d-4f06-bd5e-39460e46b45b",
+                "name": "m.mt.co.kr##div#article>div[style=\"margin-left:-15px;margin-right:-15px;height:100px;text-align:center;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mt\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#article>div.only_640un[style=\"margin-left:-20px;margin-right:-20px;height:100px;text-align:center;\"]"
+                        "selector": "div#article>div[style=\"margin-left:-15px;margin-right:-15px;height:100px;text-align:center;\"]"
                     }
                 }
             },
             {
-                "id": "42c539fc-3c24-4b4b-be64-01520bf62c4e",
-                "name": "m.mt.co.kr##div#article>div.only_640un[style=\"margin-top:18px;\"]",
+                "id": "6a9ba67f-2b69-481e-98b1-a31b4e42adae",
+                "name": "m.mt.co.kr##div#article>div[style=\"margin-top:18px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mt\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#article>div.only_640un[style=\"margin-top:18px;\"]"
+                        "selector": "div#article>div[style=\"margin-top:18px;\"]"
                     }
                 }
             },
@@ -54954,15 +54954,41 @@
                 }
             },
             {
-                "id": "3d45983d-7b83-4fbd-a18c-fd4b47742afb",
-                "name": "m.mt.co.kr##div#container>div.conbox3>div.conbox1>div.limit>div.mgt10.only_640un[style=\"background:#fff;\"]",
+                "id": "dd45d4c9-3419-435e-942f-6a8c4b217b59",
+                "name": "m.mt.co.kr##div#cont>div[style=\"margin-left:-15px;margin-right:-15px;margin-bottom:1em;text-align:center;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mt\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#container>div.conbox3>div.conbox1>div.limit>div.mgt10.only_640un[style=\"background:#fff;\"]"
+                        "selector": "div#cont>div[style=\"margin-left:-15px;margin-right:-15px;margin-bottom:1em;text-align:center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "0a782f7a-e3d2-4e8b-99f2-0f80312d6b53",
+                "name": "m.mt.co.kr##div#cont>div[style=\"margin-left:-20px;margin-right:-20px;text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#cont>div[style=\"margin-left:-20px;margin-right:-20px;text-align:center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "0dfdad3b-13c4-41a6-9cb5-9cc58a46ddf1",
+                "name": "m.mt.co.kr##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
                     }
                 }
             },
