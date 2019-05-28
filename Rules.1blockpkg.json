@@ -14252,6 +14252,36 @@
                 }
             },
             {
+                "id": "110e8797-c7bf-4cbc-b5b5-8e3f623d04f6",
+                "name": "image.donga.com/dac/DKBNEWS/M/*.js$domain=dkbnews.donga.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?image\\.donga\\.com/dac/DKBNEWS/M/.*\\.js",
+                        "if-domain": [
+                            "dkbnews.donga.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "bcb5236b-6b43-4005-ad44-6b385c474ee0",
+                "name": "image.donga.com/dac/DKBNEWS/PC/*.js$domain=dkbnews.donga.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?image\\.donga\\.com/dac/DKBNEWS/PC/.*\\.js",
+                        "if-domain": [
+                            "dkbnews.donga.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6ce2600c-cbd5-4fa6-8818-a6d948902ffc",
                 "name": "image.lottorich.co.kr/lottorich/partnership/",
                 "content": {
@@ -36915,6 +36945,45 @@
                 }
             },
             {
+                "id": "b7b450bc-66b0-45e5-b635-27a21c37b43b",
+                "name": "dkbnews.donga.com##div#floating_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dkbnews\\.donga\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#floating_ad"
+                    }
+                }
+            },
+            {
+                "id": "ed960829-f7b3-4f48-85ea-59ecdfce2ca3",
+                "name": "dkbnews.donga.com##div#secondWingAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dkbnews\\.donga\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#secondWingAd"
+                    }
+                }
+            },
+            {
+                "id": "43b51530-4bc6-46a2-b23e-dc1ca250ea94",
+                "name": "dkbnews.donga.com##div.ad_right01",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dkbnews\\.donga\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_right01"
+                    }
+                }
+            },
+            {
                 "id": "dd8b7901-2496-40c0-9b8f-e52052c92ccc",
                 "name": "dkbnews.donga.com##div.aside_ad",
                 "content": {
@@ -36924,19 +36993,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.aside_ad"
-                    }
-                }
-            },
-            {
-                "id": "c72a7fab-0e51-4d84-83f8-40b8284ab4e8",
-                "name": "dkbnews.donga.com##div.boardAD01",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dkbnews\\.donga\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.boardAD01"
                     }
                 }
             },
