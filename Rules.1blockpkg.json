@@ -63898,6 +63898,19 @@
                 }
             },
             {
+                "id": "0bb4c660-45ce-4b0e-a0b9-29194b3a2f4f",
+                "name": "news.mt.co.kr##div.leftbn_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.leftbn_wrap"
+                    }
+                }
+            },
+            {
                 "id": "474c3935-3038-491d-b1f3-0660fc748943",
                 "name": "news.mt.co.kr##div.related_ad",
                 "content": {
@@ -63907,6 +63920,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.related_ad"
+                    }
+                }
+            },
+            {
+                "id": "d9484dbc-dc9e-44ba-ab3a-a8e3471ec316",
+                "name": "news.mt.co.kr##div.rightbn_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?news\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rightbn_wrap"
                     }
                 }
             },
