@@ -15809,6 +15809,22 @@
                 }
             },
             {
+                "id": "f98f73d3-4b2e-4573-8714-9c2d9c2c8f3c",
+                "name": "loader.fmkorea.com/_loader/loader.php$domain=fmkorea.com|m.fmkorea.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?loader\\.fmkorea\\.com/_loader/loader\\.php",
+                        "if-domain": [
+                            "fmkorea.com",
+                            "m.fmkorea.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2ff8e0ef-25bc-4b0a-b6c6-cb5234ca922e",
                 "name": "log.adtive.com/noticead/adinfo/js/notice.js",
                 "content": {
@@ -40030,6 +40046,19 @@
                 }
             },
             {
+                "id": "fe1280cf-74e5-4649-9926-155eaba643d0",
+                "name": "fmkorea.com##iframe[src^=\"//loader.fmkorea.com/_loader/loader.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?fmkorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//loader.fmkorea.com/_loader/loader.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "bfec1a8e-4dae-4fdb-9cf1-95f5fedc83cd",
                 "name": "fmkorea.com##iframe[src^=\"//www.fmkorea.com/_loader/loader.php\"]",
                 "content": {
@@ -52805,6 +52834,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.adpost"
+                    }
+                }
+            },
+            {
+                "id": "bcf122f6-e92d-45bf-8701-104d74dd5bfb",
+                "name": "m.fmkorea.com##iframe[src^=\"//loader.fmkorea.com/_loader/loader.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.fmkorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//loader.fmkorea.com/_loader/loader.php\"]"
                     }
                 }
             },
