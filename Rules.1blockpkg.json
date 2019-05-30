@@ -26441,19 +26441,6 @@
                 }
             },
             {
-                "id": "9c809f9c-04e7-4a83-a08f-67a8436dfe81",
-                "name": "9to5google.com##div.ad-container",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?9to5google\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad-container"
-                    }
-                }
-            },
-            {
                 "id": "6f6fddc5-5e2c-4b1a-a6af-e00ad43446fb",
                 "name": "9to5google.com##img[data-orig-file^=\"https://9to5google.files.wordpress.com/\"][data-orig-file*=\"/native_banner.jpg\"]",
                 "content": {
@@ -26463,6 +26450,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "img[data-orig-file^=\"https://9to5google.files.wordpress.com/\"][data-orig-file*=\"/native_banner.jpg\"]"
+                    }
+                }
+            },
+            {
+                "id": "9c809f9c-04e7-4a83-a08f-67a8436dfe81",
+                "name": "9to5google.com##div.ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?9to5google\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container"
                     }
                 }
             },
@@ -26480,28 +26480,28 @@
                 }
             },
             {
-                "id": "6258a82b-5a23-4a67-9c0f-6798ad6af5ae",
-                "name": "9to5mac.com##div.widget_ninetofive_netshelter_ad",
+                "id": "40b74e71-c7e4-4a71-86fe-820ada79c1e4",
+                "name": "9to5mac.com##div.inlinead",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?9to5mac\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.widget_ninetofive_netshelter_ad"
+                        "selector": "div.inlinead"
                     }
                 }
             },
             {
-                "id": "31ca4c33-1c17-4b08-887b-2b32d233cbf4",
-                "name": "9to5mac.com##img[data-image-title=\"NativeBanner750by150\"]",
+                "id": "0ed885f4-21d4-4814-9a14-d11e0afad92a",
+                "name": "9to5mac.com##div.post-body>a[rel=\"noopener\"][target=\"_blank\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?9to5mac\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "img[data-image-title=\"NativeBanner750by150\"]"
+                        "selector": "div.post-body>a[rel=\"noopener\"][target=\"_blank\"]"
                     }
                 }
             },
