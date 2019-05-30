@@ -26441,19 +26441,6 @@
                 }
             },
             {
-                "id": "6f6fddc5-5e2c-4b1a-a6af-e00ad43446fb",
-                "name": "9to5google.com##img[data-orig-file^=\"https://9to5google.files.wordpress.com/\"][data-orig-file*=\"/native_banner.jpg\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?9to5google\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "img[data-orig-file^=\"https://9to5google.files.wordpress.com/\"][data-orig-file*=\"/native_banner.jpg\"]"
-                    }
-                }
-            },
-            {
                 "id": "9c809f9c-04e7-4a83-a08f-67a8436dfe81",
                 "name": "9to5google.com##div.ad-container",
                 "content": {
@@ -26493,15 +26480,15 @@
                 }
             },
             {
-                "id": "0ed885f4-21d4-4814-9a14-d11e0afad92a",
-                "name": "9to5mac.com##div.post-body>a[rel=\"noopener\"][target=\"_blank\"]",
+                "id": "a9606cd1-bf91-4e82-87ee-d1de76a5ef4f",
+                "name": "9to5google.com##div.inlinead",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?9to5mac\\.com"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?9to5google\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.post-body>a[rel=\"noopener\"][target=\"_blank\"]"
+                        "selector": "div.inlinead"
                     }
                 }
             },
@@ -26528,6 +26515,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.inlinead"
+                    }
+                }
+            },
+            {
+                "id": "0ed885f4-21d4-4814-9a14-d11e0afad92a",
+                "name": "9to5mac.com##div.post-body>a[rel=\"noopener\"][target=\"_blank\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?9to5mac\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.post-body>a[rel=\"noopener\"][target=\"_blank\"]"
                     }
                 }
             },
