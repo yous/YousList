@@ -26480,15 +26480,15 @@
                 }
             },
             {
-                "id": "40b74e71-c7e4-4a71-86fe-820ada79c1e4",
-                "name": "9to5mac.com##div.inlinead",
+                "id": "a05a1ce7-8e6e-4f7c-aa6e-76df2ad92508",
+                "name": "9to5toys.com##div.ad-container",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?9to5mac\\.com"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?9to5toys\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.inlinead"
+                        "selector": "div.ad-container"
                     }
                 }
             },
@@ -26506,15 +26506,28 @@
                 }
             },
             {
-                "id": "19753479-0a64-4dc0-9634-634512627d29",
-                "name": "9to5toys.com##div.tha4673a86",
+                "id": "40b74e71-c7e4-4a71-86fe-820ada79c1e4",
+                "name": "9to5mac.com##div.inlinead",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?9to5mac\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.inlinead"
+                    }
+                }
+            },
+            {
+                "id": "7c72199a-7972-454a-a8de-2f90000797e1",
+                "name": "9to5toys.com##div.inlinead",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?9to5toys\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.tha4673a86"
+                        "selector": "div.inlinead"
                     }
                 }
             },
