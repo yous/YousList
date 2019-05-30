@@ -54690,6 +54690,32 @@
                 }
             },
             {
+                "id": "91ca4451-add3-4d6d-a60d-4eff102ef884",
+                "name": "m.kr.ajunews.com##div.view_section>div[style=\"margin:0 auto;text-align:center;margin:20px 0 15px 0\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.kr\\.ajunews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view_section>div[style=\"margin:0 auto;text-align:center;margin:20px 0 15px 0\"]"
+                    }
+                }
+            },
+            {
+                "id": "4b013e12-bbad-4c8d-83c2-7e0a57785138",
+                "name": "m.kr.ajunews.com##div.vs_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.kr\\.ajunews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.vs_ad"
+                    }
+                }
+            },
+            {
                 "id": "fb064487-676e-4833-bd84-cdf437319c55",
                 "name": "m.kukinews.com##div.bnr",
                 "content": {
