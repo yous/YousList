@@ -26480,6 +26480,19 @@
                 }
             },
             {
+                "id": "ee9491a2-4839-449e-82a7-a4cbf9f6f564",
+                "name": "dronedj.com##div.ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dronedj\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container"
+                    }
+                }
+            },
+            {
                 "id": "a7ca8267-cc77-4870-9273-366fa7a142b6",
                 "name": "electrek.co##div.ad-container",
                 "content": {
@@ -26524,6 +26537,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?9to5toys\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.inlinead"
+                    }
+                }
+            },
+            {
+                "id": "8b339d92-94a7-4e1d-a36d-e4d9fdc96d76",
+                "name": "dronedj.com##div.inlinead",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?dronedj\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
