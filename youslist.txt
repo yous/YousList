@@ -18,7 +18,6 @@
 
 ! Exceptions
 @@||ad.smartmediarep.com/NetInsight/$domain=allvod.sbs.co.kr|news.sbs.co.kr|programs.sbs.co.kr
-@@||ssl.pstatic.net/adimg3.search/adpost/js/adpost_show_ads_v2.min.js$script,domain=search.danawa.com|m.danawa.com
 @@||vads-api.ad.daum.net/xylophone/adrequest/vmap/
 
 ! General element hiding rules
@@ -1675,7 +1674,7 @@
 ||sports.news.nate.com/etc/adSpace^$domain=sports.news.nate.com
 ||sportsseoul.com/js/jquery.topline.banner.js^$domain=sportsseoul.com
 ||srv.bebi.com/public/js/bebi_v1.js^
-||ssl.pstatic.net/adimg3.search/adpost/js/adpost_show_ads_v2.min.js^
+||ssl.pstatic.net/adimg3.search/adpost/js/adpost_show_ads_v2.min.js^$domain=~m.danawa.com|~search.danawa.com
 ||ssl.pstatic.net/t.static.blog/mylog/versioning//js/post/ssp/SspAdPostCallerForPC-*_https.js^$domain=blog.naver.com
 ||ssp.adpies.com/ssp/request^
 ||ssp.advg.jp/ssp/p/iframe^

@@ -21,25 +21,6 @@
                 }
             },
             {
-                "id": "6d5916c8-18d1-4ea0-b559-1a0db06f6c89",
-                "name": "@@ssl.pstatic.net/adimg3.search/adpost/js/adpost_show_ads_v2.min.js$script,domain=search.danawa.com|m.danawa.com",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ssl\\.pstatic\\.net/adimg3\\.search/adpost/js/adpost_show_ads_v2\\.min\\.js",
-                        "resource-type": [
-                            "script"
-                        ],
-                        "if-domain": [
-                            "search.danawa.com",
-                            "m.danawa.com"
-                        ]
-                    },
-                    "action": {
-                        "type": "ignore-previous-rules"
-                    }
-                }
-            },
-            {
                 "id": "d5ce454c-9e87-4ba1-926c-f06078c7e7db",
                 "name": "@@vads-api.ad.daum.net/xylophone/adrequest/vmap/",
                 "content": {
@@ -21296,11 +21277,15 @@
                 }
             },
             {
-                "id": "9427119a-add5-424d-91d3-38b63620922c",
-                "name": "ssl.pstatic.net/adimg3.search/adpost/js/adpost_show_ads_v2.min.js",
+                "id": "b4b9a33c-9d20-4e74-8243-86411e718fa6",
+                "name": "ssl.pstatic.net/adimg3.search/adpost/js/adpost_show_ads_v2.min.js$domain=~m.danawa.com|~search.danawa.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ssl\\.pstatic\\.net/adimg3\\.search/adpost/js/adpost_show_ads_v2\\.min\\.js"
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ssl\\.pstatic\\.net/adimg3\\.search/adpost/js/adpost_show_ads_v2\\.min\\.js",
+                        "unless-domain": [
+                            "m.danawa.com",
+                            "search.danawa.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
