@@ -58,7 +58,7 @@ class FilterParser:
     def _print(self, line):
         # Objects:
         # 1. Use UTF-8 as default in Python 2 and Python 3
-        # 2. Write Support cross-plarform script
+        # 2. Support cross-plarform script
         #
         # Note that sys.stdout.encoding is involved with console you use, not with Python interpreter.
         # The default encoding called code page of Windows terminal is NOT set up for utf-8.
