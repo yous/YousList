@@ -1,12 +1,11 @@
-# -*- coding=utf-8 -*-
 #!/usr/bin/env python
-import os
-import sys
-import fileinput
-import re
-import uuid
-import io
+# -*- coding=utf-8 -*-
 import codecs
+import io
+import os
+import re
+import sys
+import uuid
 
 if sys.version_info[:2] >= (2, 7):
     import json
@@ -29,7 +28,7 @@ class FilterParser:
         self.rules = []
         if basepkg:
             try:
-                # For cross-platform development, expecially for Windows Environment 
+                # For cross-platform development, expecially for Windows
                 f = io.open(basepkg)
                 obj = json.load(f, object_pairs_hook=OrderedDict)
                 orig_pkg = obj[0]
@@ -45,14 +44,14 @@ class FilterParser:
             self.pkg['name'] = name
 
     def parse(self):
-        # For the purpose of a cross-platform expecially for Windows Environment 
+        # For the purpose of a cross-platform expecially for Windows
         # Windows consoles does not use 'utf-8' by default.
         with io.open(sys.argv[1], encoding='utf-8') as f:
             for line in f.readlines():
                 self._parse_rule(line)
         self.pkg['rules'] = self.rules
         json_string = json.dumps([self.pkg], ensure_ascii=False,
-                                indent=4, separators=(',', ': '))
+                                 indent=4, separators=(',', ': '))
         self._print(json_string)
 
     def _print(self, line):
@@ -60,27 +59,28 @@ class FilterParser:
         # 1. Use UTF-8 as default in Python 2 and Python 3
         # 2. Support cross-plarform script
         #
-        # Note that sys.stdout.encoding is involved with console you use, not with Python interpreter.
-        # The default encoding called code page of Windows terminal is NOT set up for utf-8.
-        # Please refer to this page: https://stackoverflow.com/a/24104423
+        # Note that sys.stdout.encoding is involved with console you use, not
+        # with Python interpreter. The default encoding called code page of
+        # Windows terminal is NOT set up for utf-8. Please refer to this page:
+        # https://stackoverflow.com/a/24104423
         #
         # In case this script runs in Python 3 on Linux.
         if sys.stdout.encoding == 'UTF-8':
             sys.stdout.write(line)
-        
+
         # Otherwise,
         else:
             # Python 3
             if sys.version_info.major >= 3:
                 sys.stdout.buffer.write(bytes(line.encode('utf-8')))
-            
+
             # Python 2
             else:
                 # On Windows, the output ends with CRLF.
                 if sys.platform == "win32":
                     import msvcrt
                     msvcrt.setmode(sys.stdout.fileno(), os.O_BINARY)
-                codecs.getwriter('utf-8')(sys.stdout).write(line)        
+                codecs.getwriter('utf-8')(sys.stdout).write(line)
 
     def _parse_rule(self, line):
         line = line.strip()

@@ -1,8 +1,7 @@
-# -*- coding=utf-8 -*-
 #!/usr/bin/env python
-import fileinput
-import sys
+# -*- coding=utf-8 -*-
 import io
+import sys
 
 """
 Check if each section separated by comment has alphabetically sorted lines.
