@@ -49,9 +49,8 @@ Update `Rules.1blockpkg.json` based on the filter.
 bin/generate_rules.py youslist.txt > Rules.1blockpkg.json
 ```
 
-You should install dependencies by running `pip install -r requirements.txt`. If
-you're using Python older than or equal to 2.6, than you should run
-`pip install -r requirements26.txt` too.
+If you're using Python older than or equal to 2.6, you should install
+dependencies by running `pip install -r requirements26.txt`.
 
 ### `bin/minify_pkg.py`
 
