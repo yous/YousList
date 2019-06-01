@@ -1,12 +1,19 @@
+# -*- coding=utf-8 -*-
 #!/usr/bin/env python
 import fileinput
 import re
+import sys
+import io
 
 """
 Check if each section separated by comment has alphabetically sorted lines.
 """
 prev_line = None
-for line in fileinput.input():
+# Make this script to run in Python 2 and Python 3
+with io.open(sys.argv[1], 'r', encoding='utf-8') as f:
+    filestream = f.readlines()
+
+for line in filestream:
     line = line.strip()
     if not line or line.startswith('!') or re.match(r'\[Adblock.*\]', line):
         prev_line = None
