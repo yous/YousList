@@ -40992,6 +40992,45 @@
                 }
             },
             {
+                "id": "b66ef357-91b9-4707-b0b4-86297b07add6",
+                "name": "france24.com##div.m-block-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?france24\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m-block-ad"
+                    }
+                }
+            },
+            {
+                "id": "4c2e4125-affe-4f6f-b9e1-f484d7ce2363",
+                "name": "france24.com##div.m-interstitial__ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?france24\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m-interstitial__ad"
+                    }
+                }
+            },
+            {
+                "id": "794c892a-a58c-4c21-b7ba-423b8b24b38f",
+                "name": "france24.com##div.o-ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?france24\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.o-ad-container"
+                    }
+                }
+            },
+            {
                 "id": "89414d48-34e7-4986-bce9-6a30c6f1cf3c",
                 "name": "ftoday.co.kr##div.banner_box",
                 "content": {
