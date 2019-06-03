@@ -49806,6 +49806,45 @@
                 }
             },
             {
+                "id": "3edc09da-fc86-48eb-8e34-6b8a8998374a",
+                "name": "laptopmag.com##div#leaderboard",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?laptopmag\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#leaderboard"
+                    }
+                }
+            },
+            {
+                "id": "2c2ed4b4-f21e-45cf-801e-c4027d2e8ad5",
+                "name": "laptopmag.com##div#rightcol_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?laptopmag\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#rightcol_top"
+                    }
+                }
+            },
+            {
+                "id": "eb9c77db-51c9-4f94-9254-2c258a8bc402",
+                "name": "laptopmag.com##div.adsbox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?laptopmag\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adsbox"
+                    }
+                }
+            },
+            {
                 "id": "9c10b0fa-49ce-4275-bf90-76f233734d2f",
                 "name": "lenta.ru##div.b-banner",
                 "content": {
