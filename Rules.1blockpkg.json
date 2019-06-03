@@ -34375,6 +34375,19 @@
                 }
             },
             {
+                "id": "a227b045-dbcf-4459-9c76-b420df15c9e4",
+                "name": "christiantoday.co.kr##div#div_laypopup",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?christiantoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#div_laypopup"
+                    }
+                }
+            },
+            {
                 "id": "32b55cbb-c4e0-40c6-88f6-bdbc444fe6cd",
                 "name": "christiantoday.co.kr##div#mezzoOutstreamBox",
                 "content": {
@@ -34414,54 +34427,41 @@
                 }
             },
             {
-                "id": "54b41453-d90b-46b2-bd37-57df9c5564d5",
-                "name": "christiantoday.co.kr##div.bk-body>div[style=\"padding:20px 0 0 74px\"]",
+                "id": "59c1437b-22ad-4dcb-97f6-e7e71f4a0d2f",
+                "name": "christiantoday.co.kr##div.bn",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?christiantoday\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.bk-body>div[style=\"padding:20px 0 0 74px\"]"
+                        "selector": "div.bn"
                     }
                 }
             },
             {
-                "id": "c59dd78c-098d-49be-bd55-f5a3eab35e96",
-                "name": "christiantoday.co.kr##div.container>div[style=\"position:absolute;width:160px;height:600px;margin-left:-165px;margin-top:256px;text-align:right;\"]",
+                "id": "e9ac401a-84e6-4e9c-b2d9-de52e2c56208",
+                "name": "christiantoday.co.kr##div.bn-bottom",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?christiantoday\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.container>div[style=\"position:absolute;width:160px;height:600px;margin-left:-165px;margin-top:256px;text-align:right;\"]"
+                        "selector": "div.bn-bottom"
                     }
                 }
             },
             {
-                "id": "af22e773-d911-433c-b624-3739c82712ac",
-                "name": "christiantoday.co.kr##div.container>div[style=\"position:absolute;width:160px;height:600px;margin-left:1065px;margin-top:256px;text-align:right;\"]",
+                "id": "31e9f019-83c2-4951-88df-27b500d4538d",
+                "name": "christiantoday.co.kr##div.bn-top",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?christiantoday\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.container>div[style=\"position:absolute;width:160px;height:600px;margin-left:1065px;margin-top:256px;text-align:right;\"]"
-                    }
-                }
-            },
-            {
-                "id": "06a77037-1d9a-42ab-b0fc-263c8610f874",
-                "name": "christiantoday.co.kr##div.unit-banner",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?christiantoday\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.unit-banner"
+                        "selector": "div.bn-top"
                     }
                 }
             },
@@ -34475,6 +34475,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "section.bk-contents>div[style=\"margin-top:10px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "473d4326-82c5-48bd-a8cc-bf28f5153d9a",
+                "name": "christiantoday.co.kr##section.bk-contents>div[style=\"text-align:center; height:90px; width:320px;margin:12px auto 0 auto;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?christiantoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.bk-contents>div[style=\"text-align:center; height:90px; width:320px;margin:12px auto 0 auto;\"]"
                     }
                 }
             },
