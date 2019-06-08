@@ -57281,6 +57281,32 @@
                 }
             },
             {
+                "id": "256f7bf4-73a2-4b2a-98f8-72e0c4d13646",
+                "name": "m.search.naver.com##section.sp_power",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.search\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.sp_power"
+                    }
+                }
+            },
+            {
+                "id": "e616cc18-ba00-4967-8e20-099b8f770648",
+                "name": "m.search.naver.com##section[data-ui=\"FaSYsXLuQj\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.search\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section[data-ui=\"FaSYsXLuQj\"]"
+                    }
+                }
+            },
+            {
                 "id": "66027ac4-9fd4-49ee-84f6-ec06286e328d",
                 "name": "m.sedaily.com##div#_popIn_recommend_2",
                 "content": {
