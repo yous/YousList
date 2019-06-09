@@ -15104,6 +15104,66 @@
                 }
             },
             {
+                "id": "c61496aa-a1ba-4ec1-815a-b242c1ec9a28",
+                "name": "jhealthmedia.joins.com/js/mobile/article.adver.text.js$domain=jhealthmediam.joins.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jhealthmedia\\.joins\\.com/js/mobile/article\\.adver\\.text\\.js",
+                        "if-domain": [
+                            "jhealthmediam.joins.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "52425085-00b0-474f-abb8-43eaed48b67a",
+                "name": "jhealthmedia.joins.com/js/mobile/article.bottom.*.js$domain=jhealthmediam.joins.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jhealthmedia\\.joins\\.com/js/mobile/article\\.bottom\\..*\\.js",
+                        "if-domain": [
+                            "jhealthmediam.joins.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a955f331-6d4e-492d-adc6-2490826b812e",
+                "name": "jhealthmedia.joins.com/js/mobile/article.right.*.new.js$domain=jhealthmediam.joins.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jhealthmedia\\.joins\\.com/js/mobile/article\\.right\\..*\\.new\\.js",
+                        "if-domain": [
+                            "jhealthmediam.joins.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b5dbb907-6ce2-477b-8cfe-cd33d4505262",
+                "name": "jhealthmedia.joins.com/js/mobile/common.bottom.*.js$domain=jhealthmediam.joins.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jhealthmedia\\.joins\\.com/js/mobile/common\\.bottom\\..*\\.js",
+                        "if-domain": [
+                            "jhealthmediam.joins.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "470d3ddd-1b64-449f-8ace-f19243a52d18",
                 "name": "jjan.kr/adNdsoft/adWise*.html",
                 "content": {
@@ -47457,6 +47517,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.da_300"
+                    }
+                }
+            },
+            {
+                "id": "bda82897-6941-4661-8242-70554c6de73b",
+                "name": "jhealthmediam.joins.com##div.adtext",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jhealthmediam\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adtext"
+                    }
+                }
+            },
+            {
+                "id": "27a21e2a-a33a-42d1-9a3f-30933b64d9c0",
+                "name": "jhealthmediam.joins.com##div.content>div[style=\"width:100%;text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jhealthmediam\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.content>div[style=\"width:100%;text-align:center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "f3ca9198-8c55-4b55-afe9-84c20821938a",
+                "name": "jhealthmediam.joins.com##div.mban_common_btm",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jhealthmediam\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mban_common_btm"
                     }
                 }
             },
