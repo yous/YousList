@@ -15044,6 +15044,66 @@
                 }
             },
             {
+                "id": "46e7f72d-8423-4edc-83e8-3b345df00bea",
+                "name": "jhealthmedia.joins.com/js/ban/ban.common.top.*.js$domain=jhealthmedia.joins.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jhealthmedia\\.joins\\.com/js/ban/ban\\.common\\.top\\..*\\.js",
+                        "if-domain": [
+                            "jhealthmedia.joins.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "27488bc7-3d40-4543-b119-5cecfaf070d2",
+                "name": "jhealthmedia.joins.com/js/ban/ban.leftwing.*.js$domain=jhealthmedia.joins.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jhealthmedia\\.joins\\.com/js/ban/ban\\.leftwing\\..*\\.js",
+                        "if-domain": [
+                            "jhealthmedia.joins.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "df8fba86-f75d-42f4-bf69-17aa5e34044d",
+                "name": "jhealthmedia.joins.com/js/ban/ban.mainlogo.left.*.js$domain=jhealthmedia.joins.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jhealthmedia\\.joins\\.com/js/ban/ban\\.mainlogo\\.left\\..*\\.js",
+                        "if-domain": [
+                            "jhealthmedia.joins.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7c503b24-70be-4b3f-a3e5-626c82f7beb5",
+                "name": "jhealthmedia.joins.com/js/ban/ban.right.*.js$domain=jhealthmedia.joins.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jhealthmedia\\.joins\\.com/js/ban/ban\\.right\\..*\\.js",
+                        "if-domain": [
+                            "jhealthmedia.joins.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "470d3ddd-1b64-449f-8ace-f19243a52d18",
                 "name": "jjan.kr/adNdsoft/adWise*.html",
                 "content": {
@@ -47319,6 +47379,84 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#ads"
+                    }
+                }
+            },
+            {
+                "id": "1c346d22-4aa2-4aec-918d-14fd06898c0e",
+                "name": "jhealthmedia.joins.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jhealthmedia\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "bcfbe551-9bca-426e-841a-af004ff09095",
+                "name": "jhealthmedia.joins.com##div.ad_182_182",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jhealthmedia\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_182_182"
+                    }
+                }
+            },
+            {
+                "id": "cd5a9b81-a823-454e-a0cd-f7154256edd4",
+                "name": "jhealthmedia.joins.com##div.adtext",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jhealthmedia\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adtext"
+                    }
+                }
+            },
+            {
+                "id": "c6d50d3b-5810-477f-8c1d-bda0cc568d2d",
+                "name": "jhealthmedia.joins.com##div.article_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jhealthmedia\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article_ad"
+                    }
+                }
+            },
+            {
+                "id": "97ba2ea2-0a4a-4975-9e4b-65837e660c92",
+                "name": "jhealthmedia.joins.com##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jhealthmedia\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
+                    }
+                }
+            },
+            {
+                "id": "57c80d7e-a7fb-44c7-9bc4-cae5b15cdd47",
+                "name": "jhealthmedia.joins.com##div.da_300",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?jhealthmedia\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.da_300"
                     }
                 }
             },
