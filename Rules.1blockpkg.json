@@ -17931,6 +17931,21 @@
                 }
             },
             {
+                "id": "ac6e0e49-2051-4ad1-85a2-14ec4526ad0c",
+                "name": "namu.live/static/ad/powerlink_mobile.html$domain=namu.wiki",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?namu\\.live/static/ad/powerlink_mobile\\.html",
+                        "if-domain": [
+                            "namu.wiki"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "037a5cf9-7710-4527-96bb-506549d7bdc6",
                 "name": "nanumnews.com/data/nanumnews_com/banner/201111264931247.jpg",
                 "content": {
