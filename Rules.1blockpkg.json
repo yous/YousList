@@ -33730,6 +33730,19 @@
                 }
             },
             {
+                "id": "6aa1b21a-c90f-4772-a7a4-c70457e77721",
+                "name": "busan.com##div.article_content>div.wcms_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?busan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article_content>div.wcms_ad"
+                    }
+                }
+            },
+            {
                 "id": "4606e355-8ea1-454c-8b0c-c60c940fc286",
                 "name": "busan.com##div.head-ad",
                 "content": {
@@ -33765,19 +33778,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.side_banner"
-                    }
-                }
-            },
-            {
-                "id": "52416967-d71d-4431-951c-1b45e2114d6d",
-                "name": "busan.com##div.top-ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?busan\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.top-ad"
                     }
                 }
             },
