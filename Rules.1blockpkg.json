@@ -19172,6 +19172,21 @@
                 }
             },
             {
+                "id": "d8d00c63-0ace-4f98-b26f-6b4986720a2e",
+                "name": "ph.kado.net/adcontent/script/*.js$domain=kado.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?ph\\.kado\\.net/adcontent/script/.*\\.js",
+                        "if-domain": [
+                            "kado.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f94a03d7-29da-41b2-a512-a52ab0036a3a",
                 "name": "ph.mediatoday.co.kr/adcontent/script/*.js$domain=mediatoday.co.kr",
                 "content": {
@@ -48117,6 +48132,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "jw-ad-block"
+                    }
+                }
+            },
+            {
+                "id": "d4534c7b-8c12-4758-bacd-749e5fae99f8",
+                "name": "kado.net##div.banner_event_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kado\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_event_box"
+                    }
+                }
+            },
+            {
+                "id": "09b7bf29-424f-41d0-a8f6-8444ea557413",
+                "name": "kado.net##div.float_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kado\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.float_banner"
+                    }
+                }
+            },
+            {
+                "id": "460dcb1b-b8cd-43d7-ac28-712fce0f1192",
+                "name": "kado.net##div.rotate_half_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?kado\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rotate_half_banner"
                     }
                 }
             },
