@@ -17916,26 +17916,11 @@
                 }
             },
             {
-                "id": "84a2b682-0a4c-4ab2-9c74-94dcaf52f0d5",
-                "name": "namu.live/static/ad/powerlink.html$domain=namu.wiki",
+                "id": "dbfbf99c-74ed-4864-9f7e-d6312103c0cd",
+                "name": "namu.live/static/ad/$domain=namu.wiki",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?namu\\.live/static/ad/powerlink\\.html",
-                        "if-domain": [
-                            "namu.wiki"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "ac6e0e49-2051-4ad1-85a2-14ec4526ad0c",
-                "name": "namu.live/static/ad/powerlink_mobile.html$domain=namu.wiki",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?namu\\.live/static/ad/powerlink_mobile\\.html",
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?namu\\.live/static/ad/",
                         "if-domain": [
                             "namu.wiki"
                         ]
@@ -63424,15 +63409,28 @@
                 }
             },
             {
-                "id": "33a08323-6c7f-4d26-8d14-e352d2014c63",
-                "name": "namu.wiki##iframe[src^=\"//namu.live/static/ad/powerlink.html\"]",
+                "id": "063d53cd-b021-4585-a22e-ca04e0c9080d",
+                "name": "namu.wiki##div.test-ad-card",
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?namu\\.wiki"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "iframe[src^=\"//namu.live/static/ad/powerlink.html\"]"
+                        "selector": "div.test-ad-card"
+                    }
+                }
+            },
+            {
+                "id": "ba0cf4e9-2f7d-46a4-969b-561778c439bf",
+                "name": "namu.wiki##iframe[src^=\"//namu.live/static/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?namu\\.wiki"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//namu.live/static/ad/\"]"
                     }
                 }
             },
