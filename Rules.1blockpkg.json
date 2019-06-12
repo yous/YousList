@@ -53893,6 +53893,19 @@
                 }
             },
             {
+                "id": "f512ac22-5146-45e3-a0bb-8b277b568961",
+                "name": "m.gyunggijh.co.kr##section.advertisment",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?m\\.gyunggijh\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.advertisment"
+                    }
+                }
+            },
+            {
                 "id": "1543d8cf-efe6-4e61-a5a0-850799ce033b",
                 "name": "m.hani.co.kr##div.news-box-ad",
                 "content": {
