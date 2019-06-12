@@ -70533,6 +70533,19 @@
                 }
             },
             {
+                "id": "c03d491e-22c1-47f9-9b70-9114f45ee8a2",
+                "name": "sciencemag.org##div[id^=\"aaas-oas_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?sciencemag\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"aaas-oas_\"]"
+                    }
+                }
+            },
+            {
                 "id": "fe7f8d24-3fd7-4997-8ec8-9d69e55e9f02",
                 "name": "search.daum.net##div.ad_sch",
                 "content": {
