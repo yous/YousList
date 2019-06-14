@@ -1320,6 +1320,19 @@
                 }
             },
             {
+                "id": "74b05df6-4ce0-48e3-87da-61bdff0ed420",
+                "name": "##iframe[src^=\"//tempest.services.disqus.com/ads-iframe/adsnative/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//tempest.services.disqus.com/ads-iframe/adsnative/\"]"
+                    }
+                }
+            },
+            {
                 "id": "791b6140-d842-40dc-8abb-9f03cd8d64f7",
                 "name": "##iframe[src^=\"//tsyndicate.com/iframes2/\"][src*=\".html\"]",
                 "content": {
@@ -22069,6 +22082,18 @@
                         "if-domain": [
                             "telegraph.co.uk"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b2f81fca-1f3d-4023-8a55-363f9c84a213",
+                "name": "tempest.services.disqus.com/ads-iframe/adsnative/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?tempest\\.services\\.disqus\\.com/ads-iframe/adsnative/"
                     },
                     "action": {
                         "type": "block"
