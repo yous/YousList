@@ -19255,6 +19255,21 @@
                 }
             },
             {
+                "id": "8eaf6e70-442c-4771-9075-ca791a95bb09",
+                "name": "pixon.ads-pixiv.net/show$domain=pixiv.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pixon\\.ads-pixiv\\.net/show",
+                        "if-domain": [
+                            "pixiv.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "066c3575-0d13-41ff-9840-3546790be245",
                 "name": "pl*.puhtml.com",
                 "content": {
@@ -69366,6 +69381,19 @@
                 }
             },
             {
+                "id": "0bdfac54-45b4-444b-b15e-c6a54a5b3b1a",
+                "name": "pixiv.net##iframe[name=\"expandedFooter\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pixiv\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[name=\"expandedFooter\"]"
+                    }
+                }
+            },
+            {
                 "id": "96b057a4-ac3a-4ce7-8901-63fe34a8ab16",
                 "name": "pixiv.net##iframe[name=\"footer\"]",
                 "content": {
@@ -69388,6 +69416,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[name=\"header\"]"
+                    }
+                }
+            },
+            {
+                "id": "9205a6c7-1551-4793-a354-1b72bc58661a",
+                "name": "pixiv.net##iframe[src^=\"https://pixon.ads-pixiv.net/show\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?pixiv\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://pixon.ads-pixiv.net/show\"]"
                     }
                 }
             },
