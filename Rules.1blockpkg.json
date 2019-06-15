@@ -40519,6 +40519,45 @@
                 }
             },
             {
+                "id": "f7a5ac10-b354-497d-a168-125d619237dc",
+                "name": "flash24.co.kr##div#ad_left",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?flash24\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_left"
+                    }
+                }
+            },
+            {
+                "id": "fc5a282e-96d1-4864-9513-a4c7acdf27ee",
+                "name": "flash24.dreamx.com##div#ad_left",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?flash24\\.dreamx\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_left"
+                    }
+                }
+            },
+            {
+                "id": "a94d5c10-cf17-478b-aaee-fa70e29bdf1b",
+                "name": "flash24.co.kr##div#adopFloatAD",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?flash24\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adopFloatAD"
+                    }
+                }
+            },
+            {
                 "id": "ec82d8d0-d1b8-4fb0-8a73-75364729c952",
                 "name": "flash24.dreamx.com##div#adopFloatAD",
                 "content": {
@@ -40528,6 +40567,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#adopFloatAD"
+                    }
+                }
+            },
+            {
+                "id": "3fdfa1b7-4b1f-42a4-8153-d933c5687083",
+                "name": "flash24.co.kr##div#gotop>a[target=\"_blank\"]:not([name])",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?flash24\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#gotop>a[target=\"_blank\"]:not([name])"
+                    }
+                }
+            },
+            {
+                "id": "29d3623a-1df5-42aa-9f98-d1c7fc4473e2",
+                "name": "flash24.dreamx.com##div#gotop>a[target=\"_blank\"]:not([name])",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?flash24\\.dreamx\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#gotop>a[target=\"_blank\"]:not([name])"
+                    }
+                }
+            },
+            {
+                "id": "b8605b30-b305-4fe6-b609-d86472eec7e7",
+                "name": "flash24.co.kr##div#scroll_div",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?flash24\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#scroll_div"
+                    }
+                }
+            },
+            {
+                "id": "8ef16932-c6ba-4530-89d5-fe742feea8d7",
+                "name": "flash24.dreamx.com##div#scroll_div",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?flash24\\.dreamx\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#scroll_div"
                     }
                 }
             },
