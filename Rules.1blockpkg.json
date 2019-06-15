@@ -4050,6 +4050,32 @@
                 }
             },
             {
+                "id": "5e3de8f0-301c-4035-8640-93e6de7752c8",
+                "name": "##iframe[src^=\"https://www.da-ads.com/da_safeframe.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://www.da-ads.com/da_safeframe.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "62991d41-ad26-4036-8685-f80a6e9dc432",
+                "name": "##iframe[src^=\"https://www.da-ads.com/google.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://www.da-ads.com/google.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "5438d34c-75da-4473-8f89-49d40e726736",
                 "name": "##iframe[src^=\"https://www.kodcad.kr/ad/\"]",
                 "content": {
@@ -11365,6 +11391,30 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?d3u5zn5k9864p0\\.cloudfront\\.net/br"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f1508f79-cfba-415d-82dc-06d3cf8793de",
+                "name": "da-ads.com/da_safeframe.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?da-ads\\.com/da_safeframe\\.html"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "357ce293-b3a1-4ea8-8ca6-e43f2753028e",
+                "name": "da-ads.com/google.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?da-ads\\.com/google\\.html"
                     },
                     "action": {
                         "type": "block"
@@ -36955,6 +37005,84 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "section#ads_expand"
+                    }
+                }
+            },
+            {
+                "id": "62bf0e45-2a2f-4032-94e1-a0e5db189591",
+                "name": "deviantart.com##div.ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?deviantart\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container"
+                    }
+                }
+            },
+            {
+                "id": "0754498b-580e-45dd-8cb5-fadd949f6a2e",
+                "name": "deviantart.com##div.da-custom-ad-box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?deviantart\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.da-custom-ad-box"
+                    }
+                }
+            },
+            {
+                "id": "a08e2760-ebe0-4415-8660-0fba0a710d7d",
+                "name": "deviantart.com##div.dp-ad-chrome",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?deviantart\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.dp-ad-chrome"
+                    }
+                }
+            },
+            {
+                "id": "30e0b1ca-507e-4e1e-9bd0-ea83669811de",
+                "name": "deviantart.com##div.mobile_inline_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?deviantart\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobile_inline_ad"
+                    }
+                }
+            },
+            {
+                "id": "6dc1bf56-b2ee-43db-823c-e1576a760b8a",
+                "name": "deviantart.com##div.mobile_instream_ad_resizable",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?deviantart\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobile_instream_ad_resizable"
+                    }
+                }
+            },
+            {
+                "id": "ddc2df18-bcc2-4b32-9d50-39bb92077c28",
+                "name": "deviantart.com##div.partial-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?deviantart\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.partial-ad"
                     }
                 }
             },
