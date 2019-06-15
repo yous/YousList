@@ -4667,6 +4667,18 @@
                 }
             },
             {
+                "id": "d263f3c7-ecc6-4ce7-82e0-0b275dd6d3eb",
+                "name": "7fkm2r4pzi.com/*/*/*/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?7fkm2r4pzi\\.com/.*/.*/.*/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "cf9ea858-4259-4034-b467-f8ecff668f54",
                 "name": "a.bf-ad.net/makabo/js_ng/adplayer/js/adplayer.min.js",
                 "content": {
@@ -23651,6 +23663,18 @@
                         "if-domain": [
                             "zbn.donga.com"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "373b012d-64cf-4b31-aab9-f7c5236b2935",
+                "name": "zbnfhsk.com/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?zbnfhsk\\.com/.*\\.js"
                     },
                     "action": {
                         "type": "block"
