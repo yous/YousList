@@ -68898,6 +68898,32 @@
                 }
             },
             {
+                "id": "657de1dd-2108-403a-b509-ca93d92ff2f5",
+                "name": "photo.heraldcorp.com##div#wrap>div[align=\"center\"][style=\"padding-bottom:10px; width:100%;height:90px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?photo\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wrap>div[align=\"center\"][style=\"padding-bottom:10px; width:100%;height:90px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "7556c0c3-df2e-47c1-8d8c-55515b363954",
+                "name": "photo.heraldcorp.com##div.mask_div",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?photo\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mask_div"
+                    }
+                }
+            },
+            {
                 "id": "7bfa52c5-7fbd-408f-8dd9-709ef106861d",
                 "name": "phys.org##div.bf-banner",
                 "content": {
