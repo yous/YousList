@@ -62256,6 +62256,19 @@
                 }
             },
             {
+                "id": "1a0749ae-02ca-43b0-8594-7d83d1cec585",
+                "name": "mnews.joins.com##div.shopping_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mnews\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.shopping_box"
+                    }
+                }
+            },
+            {
                 "id": "f856ff98-d58c-483e-bd96-c4efee262f85",
                 "name": "mnews.jtbc.joins.com##div#player_bottom_ad",
                 "content": {
