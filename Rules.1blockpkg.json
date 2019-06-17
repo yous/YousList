@@ -69952,6 +69952,19 @@
                 }
             },
             {
+                "id": "9da8c75f-0fd4-48c2-ae17-006a9924bbf1",
+                "name": "ppss.kr##div#ppss_ad2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ppss\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ppss_ad2"
+                    }
+                }
+            },
+            {
                 "id": "295b7eaa-f0cc-4b82-9f4d-84a933c5068f",
                 "name": "ppss.kr##div.userContent>div.dable_placeholder",
                 "content": {
