@@ -19,7 +19,8 @@ root = os.path.dirname(pwd)
 
 class FilterParser:
     # For scheme, see Appendix A of http://www.ietf.org/rfc/rfc2396.txt
-    DOMAIN_PREFIX = '^[a-z0-9+_.]+:/+(?:[^/]+\\.)?'
+    # See https://webkit.org/blog/4062/targeting-domains-with-content-blockers/
+    DOMAIN_PREFIX = '^[^:]+://+([^:/]+\\.)?'
 
     def __init__(self, name='Generated Package', basepkg=None):
         self.pkg = OrderedDict()
