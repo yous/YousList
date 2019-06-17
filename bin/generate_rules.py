@@ -93,7 +93,7 @@ class FilterParser:
             return
         elif '#@#' in line:
             # Element hiding exception rule
-            raise Exception('Cannot handle this rule: ' + line)
+            self._parse_hiding_exception_rule(line)
         elif '#?#' in line:
             # Adblock Plus specific extended CSS selectors
             raise Exception('Cannot handle this rule: ' + line)
@@ -105,18 +105,45 @@ class FilterParser:
             self._parse_blocking_rule(line)
 
     def _parse_hiding_rule(self, line):
-        rule = OrderedDict()
-        name = line
-        rule['id'] = self._get_rule_id(name)
-        rule['name'] = name
-
+        # Handle rule with multiple URLs
         urls, css = line.split('##', 2)
         if ',' in urls:
             url_list = urls.split(',')
             for url in url_list:
                 self._parse_hiding_rule(url + '##' + css)
             return
-        url = urls
+
+        rule = self._parse_hiding_rule_with_separator(line, '##')
+        rule['content']['action']['type'] = 'css-display-none'
+        self.rules.append(rule)
+
+    def _parse_hiding_exception_rule(self, line):
+        # Handle rule with multiple URLs
+        urls, css = line.split('#@#', 2)
+        if ',' in urls:
+            url_list = urls.split(',')
+            for url in url_list:
+                self._parse_hiding_exception_rule(url + '#@#' + css)
+            return
+
+        rule = self._parse_hiding_rule_with_separator(line, '#@#')
+        rule['content']['action']['type'] = 'ignore-previous-rules'
+        self.rules.append(rule)
+
+    def _parse_hiding_rule_with_separator(self, line, sep):
+        """rule['content']['action']['type'] should be set."""
+        if sep != '##' and sep != '#@#':
+            raise Exception('Cannot handle this separator: ' + sep)
+
+        rule = OrderedDict()
+        name = line
+        rule['id'] = self._get_rule_id(name)
+        rule['name'] = name
+
+        url, css = line.split(sep, 2)
+        if url.startswith('~'):
+            # Element hiding exception rule
+            raise Exception('Cannot handle this rule: ' + line)
         trigger = OrderedDict()
         if url:
             trigger['url-filter'] = \
@@ -125,14 +152,14 @@ class FilterParser:
             trigger['url-filter'] = '.*'
 
         action = OrderedDict()
-        action['type'] = 'css-display-none'
+        action['type'] = None
         action['selector'] = css
 
         content = OrderedDict()
         content['trigger'] = trigger
         content['action'] = action
         rule['content'] = content
-        self.rules.append(rule)
+        return rule
 
     def _parse_exception_rule(self, line):
         rule = self._parse_url_filter(line[2:])
