@@ -70940,6 +70940,19 @@
                 }
             },
             {
+                "id": "41227dd7-eb56-4edf-92f0-b27fe6d99def",
+                "name": "rp5.ru#@#ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[a-z0-9+_.]+:/+(?:[^/]+\\.)?rp5\\.ru"
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules",
+                        "selector": "ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])"
+                    }
+                }
+            },
+            {
                 "id": "8bfc637d-4cce-4d00-a6c5-c1390e1749ae",
                 "name": "ruliweb.com##div.ad",
                 "content": {
