@@ -62672,6 +62672,19 @@
                 }
             },
             {
+                "id": "1f2e57e6-1c35-4fdd-9c2e-f7304d51a6d7",
+                "name": "motorauthority.com##li.sq-block",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?motorauthority\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.sq-block"
+                    }
+                }
+            },
+            {
                 "id": "df906af7-cbb3-40fa-aafd-7dae37583dd9",
                 "name": "moviedang.com##div#popup",
                 "content": {
