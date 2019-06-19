@@ -34319,6 +34319,32 @@
                 }
             },
             {
+                "id": "ba01e6f2-1aaf-4835-b8ff-e03db2f1bc47",
+                "name": "carisyou.com##div.main_right_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?carisyou\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.main_right_banner"
+                    }
+                }
+            },
+            {
+                "id": "ce8f7dda-b31b-4884-b5b9-f752fdd50535",
+                "name": "carisyou.com##div.top_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?carisyou\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top_banner"
+                    }
+                }
+            },
+            {
                 "id": "f527d45c-5013-4427-aedc-3ecb1892c3d9",
                 "name": "cdn-city.livere.com##ul.contents-list>li.tenping-title",
                 "content": {
