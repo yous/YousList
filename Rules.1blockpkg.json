@@ -59396,6 +59396,19 @@
                 }
             },
             {
+                "id": "c5bd3af3-380d-404a-b0ac-aca95ffac21c",
+                "name": "m.veritas-a.com##section.advertisment",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.veritas-a\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.advertisment"
+                    }
+                }
+            },
+            {
                 "id": "54cb8463-c042-4e11-a693-ab428c7656aa",
                 "name": "m.viva100.com##div.one_banner",
                 "content": {
