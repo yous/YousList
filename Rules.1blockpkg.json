@@ -73581,19 +73581,6 @@
                 }
             },
             {
-                "id": "266634fc-6862-489b-ba5b-88185dec09f2",
-                "name": "star.mt.co.kr##div#aside>div[style=\"position:absolute; top:805px; right:-140px; width:120px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?star\\.mt\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#aside>div[style=\"position:absolute; top:805px; right:-140px; width:120px;\"]"
-                    }
-                }
-            },
-            {
                 "id": "bff03ca5-7345-4b3f-a53a-4ba88a06c909",
                 "name": "star.mt.co.kr##div#textBody>div[style=\"float:left; margin:0 15px 10px 0; overflow:hidden; width:250px; height:250px;\"]",
                 "content": {
@@ -73603,6 +73590,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#textBody>div[style=\"float:left; margin:0 15px 10px 0; overflow:hidden; width:250px; height:250px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "3cba180a-a6f1-4666-9518-e230c0b9265c",
+                "name": "star.mt.co.kr##div#wrap>div[style=\"overflow:hidden; margin:15px auto 0; width:728px; height:90px; background:#ddd;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?star\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wrap>div[style=\"overflow:hidden; margin:15px auto 0; width:728px; height:90px; background:#ddd;\"]"
                     }
                 }
             },
@@ -73668,6 +73668,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.article_area>div[style=\"margin-top:40px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "3899b475-2395-43e7-a819-1787dd4c8963",
+                "name": "star.mt.co.kr##div.bn_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?star\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bn_box"
                     }
                 }
             },
