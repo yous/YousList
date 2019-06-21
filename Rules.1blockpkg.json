@@ -22740,6 +22740,21 @@
                 }
             },
             {
+                "id": "08661fbb-d348-4262-bf35-59c50aa3a623",
+                "name": "veritas-a.com/banner/$domain=veritas-a.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?veritas-a\\.com/banner/",
+                        "if-domain": [
+                            "veritas-a.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ce1addac-2296-4d0b-a4a7-07c5eaa2d61b",
                 "name": "veta.naver.com/fxshow",
                 "content": {
@@ -79607,6 +79622,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.test_block"
+                    }
+                }
+            },
+            {
+                "id": "44d1610a-f96d-4362-976b-bccb8cdab99d",
+                "name": "veritas-a.com##div.top-left-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?veritas-a\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top-left-banner"
+                    }
+                }
+            },
+            {
+                "id": "c6c0251c-3be9-4f7a-9349-51b1f8a8af66",
+                "name": "veritas-a.com##div.top-right-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?veritas-a\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top-right-banner"
+                    }
+                }
+            },
+            {
+                "id": "46e2c39b-7098-4ffc-ad23-602aa467a8e7",
+                "name": "veritas-a.com##iframe[src^=\"/banner/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?veritas-a\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/banner/\"]"
                     }
                 }
             },
