@@ -50571,6 +50571,19 @@
                 }
             },
             {
+                "id": "3f2e3d0c-372b-4423-a8d1-ef4e50785247",
+                "name": "lady.khan.co.kr##div#article_bottom_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?lady\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article_bottom_ad"
+                    }
+                }
+            },
+            {
                 "id": "10ccd479-e161-4540-976f-896d49170f90",
                 "name": "lady.khan.co.kr##div[data-widget_id=\"GokE9Nlv\"]",
                 "content": {
