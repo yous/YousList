@@ -23511,6 +23511,23 @@
                 }
             },
             {
+                "id": "f9312b83-ec32-4168-b287-e2d3394fea64",
+                "name": "yazaral10.com/ad.gif$domain=yazaral10.com|yazaral8.com|yazaral9.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yazaral10\\.com/ad\\.gif",
+                        "if-domain": [
+                            "yazaral10.com",
+                            "yazaral8.com",
+                            "yazaral9.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "17b59e9a-0664-405b-a694-637538a6b3da",
                 "name": "yazaral10.com/sitemap_storage/$domain=yazaral10.com|yazaral8.com|yazaral9.com",
                 "content": {
@@ -82187,6 +82204,45 @@
                 }
             },
             {
+                "id": "6a4a8d20-6106-401f-9fbb-d64d59c77332",
+                "name": "yazaral10.com##body>div>div[style=\"position: fixed; display: flex !important; flex-flow: row; bottom: 0px; width: 100%;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yazaral10\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div>div[style=\"position: fixed; display: flex !important; flex-flow: row; bottom: 0px; width: 100%;\"]"
+                    }
+                }
+            },
+            {
+                "id": "8c5f8f38-4f0e-4441-b457-dd14ca0612fc",
+                "name": "yazaral8.com##body>div>div[style=\"position: fixed; display: flex !important; flex-flow: row; bottom: 0px; width: 100%;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yazaral8\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div>div[style=\"position: fixed; display: flex !important; flex-flow: row; bottom: 0px; width: 100%;\"]"
+                    }
+                }
+            },
+            {
+                "id": "ef8cc109-7280-44a8-892a-79e11eaabdc1",
+                "name": "yazaral9.com##body>div>div[style=\"position: fixed; display: flex !important; flex-flow: row; bottom: 0px; width: 100%;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yazaral9\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div>div[style=\"position: fixed; display: flex !important; flex-flow: row; bottom: 0px; width: 100%;\"]"
+                    }
+                }
+            },
+            {
                 "id": "7efe4843-fead-46f1-8f93-721b0c5e4f94",
                 "name": "yazaral10.com##div#bitme",
                 "content": {
@@ -82339,6 +82395,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#sitemapbeside"
+                    }
+                }
+            },
+            {
+                "id": "0cfedc8f-09f8-4a4a-9163-0b0ddb7cc162",
+                "name": "yazaral10.com##div#sitemapbetw",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yazaral10\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sitemapbetw"
+                    }
+                }
+            },
+            {
+                "id": "06941ec0-328b-4cb3-96aa-9e1de472ddb7",
+                "name": "yazaral8.com##div#sitemapbetw",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yazaral8\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sitemapbetw"
+                    }
+                }
+            },
+            {
+                "id": "a8b2b508-9f72-4961-bab6-57ba413f216d",
+                "name": "yazaral9.com##div#sitemapbetw",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yazaral9\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sitemapbetw"
                     }
                 }
             },
