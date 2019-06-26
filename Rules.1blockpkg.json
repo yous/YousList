@@ -50727,6 +50727,71 @@
                 }
             },
             {
+                "id": "8545d169-990d-446f-bc9c-21c111c305ed",
+                "name": "latimes.com##div.inline-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?latimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.inline-ad"
+                    }
+                }
+            },
+            {
+                "id": "61473b20-42d7-42ea-90dd-5beba6352bc5",
+                "name": "latimes.com##div.pb-f-ads-dfp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?latimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pb-f-ads-dfp"
+                    }
+                }
+            },
+            {
+                "id": "a6b1b3a7-17cb-4c53-b9f5-6e67ec6fad17",
+                "name": "latimes.com##div.pb-f-ads-yieldmo",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?latimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pb-f-ads-yieldmo"
+                    }
+                }
+            },
+            {
+                "id": "123dc5e6-b380-4f4d-9fd7-abd898118039",
+                "name": "latimes.com##div[data-pb-name=\"DFP Ad\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?latimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-pb-name=\"DFP Ad\"]"
+                    }
+                }
+            },
+            {
+                "id": "f0e4716f-112a-475a-bb75-c5171d8b6e98",
+                "name": "latimes.com##div[data-pb-name=\"Yieldmo Ad\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?latimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-pb-name=\"Yieldmo Ad\"]"
+                    }
+                }
+            },
+            {
                 "id": "9c10b0fa-49ce-4275-bf90-76f233734d2f",
                 "name": "lenta.ru##div.b-banner",
                 "content": {
