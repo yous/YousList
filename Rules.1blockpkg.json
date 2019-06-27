@@ -71336,6 +71336,58 @@
                 }
             },
             {
+                "id": "d7946e37-9ef3-4f82-950a-29e290ad09e1",
+                "name": "scientificamerican.com##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?scientificamerican\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
+                    }
+                }
+            },
+            {
+                "id": "fca8ced9-f170-40fd-8748-e6f24ad299fc",
+                "name": "scientificamerican.com##div.home-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?scientificamerican\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.home-banner"
+                    }
+                }
+            },
+            {
+                "id": "ca9d0341-d630-4790-b61e-e058487afd22",
+                "name": "scientificamerican.com##figure.aside-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?scientificamerican\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "figure.aside-banner"
+                    }
+                }
+            },
+            {
+                "id": "446177eb-0f92-4955-b5cd-5c1b1c556031",
+                "name": "scientificamerican.com##section.footer-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?scientificamerican\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.footer-banner"
+                    }
+                }
+            },
+            {
                 "id": "fe7f8d24-3fd7-4997-8ec8-9d69e55e9f02",
                 "name": "search.daum.net##div.ad_sch",
                 "content": {
