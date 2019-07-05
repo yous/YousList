@@ -10852,6 +10852,18 @@
                 }
             },
             {
+                "id": "8df8c653-bcf9-45df-a6cc-58ca2dc4e983",
+                "name": "connect.facebook.net/en_US/fbadnw*-tag.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?connect\\.facebook\\.net/en_US/fbadnw.*-tag\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "260619d4-bfb6-4734-a46e-93851942b7de",
                 "name": "connect.facebook.net/en_US/fbadnw.js",
                 "content": {
@@ -18444,6 +18456,21 @@
                         "url-filter": "^[^:]+://+([^:/]+\\.)?newsis\\.com/ad/view_banner\\.html",
                         "if-domain": [
                             "newsis.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "72e9446b-5a4d-45df-9e7d-4eb9d665c58c",
+                "name": "newspic.kr/inc/js/facebookAd.js$domain=newspic.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newspic\\.kr/inc/js/facebookAd\\.js",
+                        "if-domain": [
+                            "newspic.kr"
                         ]
                     },
                     "action": {
@@ -67250,6 +67277,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "span.banner2"
+                    }
+                }
+            },
+            {
+                "id": "dceaa8d3-bd5b-4182-8008-e7828c3efebf",
+                "name": "newspic.kr##div.article_img_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newspic\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article_img_ad"
+                    }
+                }
+            },
+            {
+                "id": "3757ce28-b5a4-43fa-ad85-463b71032989",
+                "name": "newspic.kr##div.aside_wrap>div.box[style=\"padding: 32px 16px 32px 20px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newspic\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.aside_wrap>div.box[style=\"padding: 32px 16px 32px 20px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "7edd457b-ec29-4232-b79e-df2011a10e57",
+                "name": "newspic.kr##div.aside_wrap>div.box[style=\"padding: 32px 20px 30px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newspic\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.aside_wrap>div.box[style=\"padding: 32px 20px 30px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "d8b21987-df65-420a-9c3d-e4d016d23402",
+                "name": "newspic.kr##div.banner_view",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newspic\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_view"
+                    }
+                }
+            },
+            {
+                "id": "d6d55e18-24f9-4408-a399-3501da4d1c62",
+                "name": "newspic.kr##div.googleAD_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newspic\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.googleAD_wrap"
                     }
                 }
             },
