@@ -74820,6 +74820,32 @@
                 }
             },
             {
+                "id": "6f84dadf-25fa-4be1-830e-8da7d2996f30",
+                "name": "techradar.com##div[class^=\"slot-mpu\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?techradar\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"slot-mpu\"]"
+                    }
+                }
+            },
+            {
+                "id": "ad411c8f-e34b-42d7-b921-9f79f39bd74f",
+                "name": "techradar.com##div[class^=\"slot-single-height-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?techradar\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"slot-single-height-\"]"
+                    }
+                }
+            },
+            {
                 "id": "3c4408c3-c2be-414a-ba6a-3567fd7ff730",
                 "name": "techradar.com##div[style^=\"position: relative; box-sizing: border-box; height: auto; margin: \"][style*=\" text-align: center; display: block; pointer-events: none; transform: none; \"]",
                 "content": {
