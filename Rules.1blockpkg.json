@@ -67038,6 +67038,45 @@
                 }
             },
             {
+                "id": "65528eef-01c0-496a-93b5-43e955c843a3",
+                "name": "newscj.com##div#article-view-content-div>div[style=\"float:right; width:200px !important; height:200px !important; padding:0 0 15px 15px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newscj\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article-view-content-div>div[style=\"float:right; width:200px !important; height:200px !important; padding:0 0 15px 15px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "5033367b-4a06-4a2f-a596-29cb96c6bbbe",
+                "name": "newscj.com##div.user-snb-wrapper>div[style=\"margin:15px auto; width:320px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newscj\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.user-snb-wrapper>div[style=\"margin:15px auto; width:320px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "ac43d517-1d8d-48d8-915f-a64e2b63688b",
+                "name": "newscj.com##div[data-widget_id=\"GokBYvXv\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newscj\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-widget_id=\"GokBYvXv\"]"
+                    }
+                }
+            },
+            {
                 "id": "6036c15a-34ae-4523-a528-7caa4b2cd528",
                 "name": "newsen.com##div#ad250",
                 "content": {
