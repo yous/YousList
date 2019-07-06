@@ -16416,6 +16416,21 @@
                 }
             },
             {
+                "id": "94c89265-7d04-4338-9434-eefd66d42d76",
+                "name": "m.gamemeca.com/public/mezzo_ad.php$domain=m.gamemeca.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.gamemeca\\.com/public/mezzo_ad\\.php",
+                        "if-domain": [
+                            "m.gamemeca.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "23ab3d19-99fd-4041-8c26-a232620d3207",
                 "name": "m.ggilbo.com/banner/banner_roll_msidebtm.html$domain=ggilbo.com",
                 "content": {
@@ -54242,6 +54257,58 @@
                 }
             },
             {
+                "id": "7124ce0e-1ae9-476f-8082-0f4a6db284e3",
+                "name": "m.gamemeca.com##div#band_top_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.gamemeca\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#band_top_ad"
+                    }
+                }
+            },
+            {
+                "id": "ea2e8beb-cdf4-4481-ac3b-9cc09dcbb0eb",
+                "name": "m.gamemeca.com##div.gm_iframe_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.gamemeca\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.gm_iframe_ad"
+                    }
+                }
+            },
+            {
+                "id": "0b3692ac-e7e6-47f9-8bae-129759d98f5b",
+                "name": "m.gamemeca.com##div.middle_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.gamemeca\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.middle_ad"
+                    }
+                }
+            },
+            {
+                "id": "83871ed8-edb6-415c-a8fb-27ff3ad47053",
+                "name": "m.gamemeca.com##div.middle_ad_img",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.gamemeca\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.middle_ad_img"
+                    }
+                }
+            },
+            {
                 "id": "cf5096af-93ed-4d9b-9eac-405d5f5a0d79",
                 "name": "m.gamemeca.com##div.mobile_tib_ad",
                 "content": {
@@ -54264,6 +54331,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.mobile_top_ad"
+                    }
+                }
+            },
+            {
+                "id": "7d47ee0b-84b5-4e23-9db0-651cf2d850a8",
+                "name": "m.gamemeca.com##div.mobile_top_ad_div",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.gamemeca\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobile_top_ad_div"
+                    }
+                }
+            },
+            {
+                "id": "d09dc0e4-f607-456d-bddc-ca969edc6278",
+                "name": "m.gamemeca.com##iframe[src^=\"/public/mezzo_ad.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.gamemeca\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/public/mezzo_ad.php\"]"
                     }
                 }
             },
