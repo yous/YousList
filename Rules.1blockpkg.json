@@ -54480,6 +54480,19 @@
                 }
             },
             {
+                "id": "f9a18785-3c95-4dc0-8fea-c67b64b06853",
+                "name": "m.hankooki.com##div#SHOWUP",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.hankooki\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#SHOWUP"
+                    }
+                }
+            },
+            {
                 "id": "fa508fe7-4695-4370-a4a5-a6549a229b02",
                 "name": "m.hankooki.com##div#ad_img_div",
                 "content": {
@@ -54515,6 +54528,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#relSlide>ul>li>dd[style=\"background:none;height:96px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "621e0669-079c-42c9-85fe-b2ae34e3684d",
+                "name": "m.hankooki.com##div.ad_icon_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.hankooki\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_icon_wrap"
                     }
                 }
             },
