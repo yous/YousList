@@ -54840,6 +54840,32 @@
                 }
             },
             {
+                "id": "cb152746-388b-47b8-b19b-02544d3089ab",
+                "name": "m.ilbe.com##article.cutin-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ilbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "article.cutin-banner"
+                    }
+                }
+            },
+            {
+                "id": "53e52fad-def8-4299-9266-e8d306e8f0b8",
+                "name": "m.ilbe.com##div.banner-wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ilbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-wrap"
+                    }
+                }
+            },
+            {
                 "id": "7ea51635-6e3c-47bf-8c40-ed7d6beb7995",
                 "name": "m.ilyo.co.kr##div.adw",
                 "content": {
