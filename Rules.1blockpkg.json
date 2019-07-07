@@ -22334,6 +22334,21 @@
                 }
             },
             {
+                "id": "462af8b7-a4af-4730-8a5b-aec316738ee6",
+                "name": "torrentmap.com/banner/$domain=torrentmap.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentmap\\.com/banner/",
+                        "if-domain": [
+                            "torrentmap.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a6cb369a-3b8a-456f-8e1b-c05b3fdaeb6e",
                 "name": "torrentmoa.com/addons/popup/js/popup_layer.js",
                 "content": {
@@ -78188,6 +78203,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.w-side>div[align=\"center\"]"
+                    }
+                }
+            },
+            {
+                "id": "c2f03761-0df6-4697-b436-682de9eb8471",
+                "name": "torrentmap.com##div#banner_right_list_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentmap\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_right_list_wrap"
+                    }
+                }
+            },
+            {
+                "id": "8aaeb028-6012-43a0-befa-65b621912a0c",
+                "name": "torrentmap.com##div#banner_top_list_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentmap\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_top_list_wrap"
+                    }
+                }
+            },
+            {
+                "id": "4d7e8d81-e9b5-4d5d-8f69-3239a2350728",
+                "name": "torrentmap.com##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentmap\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
                     }
                 }
             },
