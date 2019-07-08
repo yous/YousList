@@ -12994,6 +12994,18 @@
                 }
             },
             {
+                "id": "a17f052c-0524-460f-98d5-62a3805fa451",
+                "name": "floater.playstream.media/domain/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?floater\\.playstream\\.media/domain/.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c85f713f-6bde-4479-80e7-8fbfaa28b9cf",
                 "name": "fm1.jssearch.net/Farman",
                 "content": {
