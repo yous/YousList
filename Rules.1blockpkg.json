@@ -3907,6 +3907,19 @@
                 }
             },
             {
+                "id": "3ada4d51-ad76-4208-bda2-75ec0a9978b7",
+                "name": "##iframe[src^=\"https://c.kuaituisss.com/c.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://c.kuaituisss.com/c.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "c48ccae8-7b0f-47c7-bbca-5531cfd5366d",
                 "name": "##iframe[src^=\"https://creative.wwwpromoter.com/\"]",
                 "content": {
@@ -3955,6 +3968,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"https://img.scupio.com/html/ad.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "a324ba5d-2711-4f52-8956-8a6adf7a755d",
+                "name": "##iframe[src^=\"https://j.qiqivv.com:4433/blog/view_p\"][src*=\".php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://j.qiqivv.com:4433/blog/view_p\"][src*=\".php\"]"
                     }
                 }
             },
@@ -8618,6 +8644,30 @@
                 }
             },
             {
+                "id": "6a155b2c-6145-4fc9-b3af-7c8c84bcc0f1",
+                "name": "assets.hfxs01il.com/c/show.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?assets\\.hfxs01il\\.com/c/show\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f4a1ea58-e7a2-44b7-be84-07b877cb1c8e",
+                "name": "assets.hfxs01il.com/c/show.m.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?assets\\.hfxs01il\\.com/c/show\\.m\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "60c813a7-f586-4e63-8dbc-6ee0257d5a91",
                 "name": "assoc-amazon.com/s/ads.js",
                 "content": {
@@ -9029,6 +9079,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?c\\.betrad\\.com/surly\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "36dd9e63-d796-4b5b-b39e-c9bfbe3ca184",
+                "name": "c.kuaituisss.com/c.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?c\\.kuaituisss\\.com/c\\.php"
                     },
                     "action": {
                         "type": "block"
@@ -15082,6 +15144,42 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?j\\.microad\\.net/js/compass\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "81641fb1-031d-4c2e-ab19-2e1975a6031d",
+                "name": "j.qiqivv.com:4433/blog/showdetail.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?j\\.qiqivv\\.com:4433/blog/showdetail\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9b80ef1a-bbbc-48d7-9cd4-5001d47005dc",
+                "name": "j.qiqivv.com:4433/blog/view_p*.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?j\\.qiqivv\\.com:4433/blog/view_p.*\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0aa41f65-15c9-4295-b5a8-6418b72f3884",
+                "name": "j.qiqivv.com:4433/code_static_3/lele0.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?j\\.qiqivv\\.com:4433/code_static_3/lele0\\.js"
                     },
                     "action": {
                         "type": "block"
