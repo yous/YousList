@@ -21633,6 +21633,18 @@
                 }
             },
             {
+                "id": "256f6155-9d22-4767-a464-5d9b058eef88",
+                "name": "srv.csavr.com/www/delivery/ajs.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?srv\\.csavr\\.com/www/delivery/ajs\\.php"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b4b9a33c-9d20-4e74-8243-86411e718fa6",
                 "name": "ssl.pstatic.net/adimg3.search/adpost/js/adpost_show_ads_v2.min.js$domain=~m.danawa.com|~search.danawa.com",
                 "content": {
@@ -79977,6 +79989,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "span#FvMainDiv0"
+                    }
+                }
+            },
+            {
+                "id": "c799be1e-fcd8-4fe1-ab80-03c88f2472c0",
+                "name": "unix.com##div.flex-navbar-ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?unix\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.flex-navbar-ads"
+                    }
+                }
+            },
+            {
+                "id": "a2d470eb-3c64-4541-bf94-961fafd2f4f2",
+                "name": "unix.com##div.flex-posts-ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?unix\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.flex-posts-ads"
                     }
                 }
             },
