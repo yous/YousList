@@ -22219,11 +22219,14 @@
                 }
             },
             {
-                "id": "ad63b5a9-9e02-4e2e-9a9f-fa6f5dda6ac8",
-                "name": "t1.daumcdn.net/adfit/static/ad.min.js",
+                "id": "ecd64ba9-a87f-46d1-9381-8d77f0c0a069",
+                "name": "t1.daumcdn.net/adfit/static/ad.min.js$domain=~gallery.v.daum.net",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?t1\\.daumcdn\\.net/adfit/static/ad\\.min\\.js"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?t1\\.daumcdn\\.net/adfit/static/ad\\.min\\.js",
+                        "unless-domain": [
+                            "gallery.v.daum.net"
+                        ]
                     },
                     "action": {
                         "type": "block"
