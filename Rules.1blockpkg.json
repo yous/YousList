@@ -891,6 +891,19 @@
                 }
             },
             {
+                "id": "99d1cd1b-e61e-4959-99f5-ae184ad8edfb",
+                "name": "##iframe[src^=\"//a.wyzmob.com/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//a.wyzmob.com/\"]"
+                    }
+                }
+            },
+            {
                 "id": "b7b84c3a-14f9-4f44-aa06-ab69b43b47ce",
                 "name": "##iframe[src^=\"//acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html\"]",
                 "content": {
@@ -5955,6 +5968,21 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.tvreport\\.co\\.kr/.*/\\?m=i",
+                        "if-domain": [
+                            "tvreport.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2a886f61-7ac9-4b6a-a01f-f3c9e9b174e7",
+                "name": "ad.tvreport.co.kr/*/?m=j$domain=tvreport.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.tvreport\\.co\\.kr/.*/\\?m=j",
                         "if-domain": [
                             "tvreport.co.kr"
                         ]
@@ -79563,6 +79591,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "section.col-playlist>div.text-center"
+                    }
+                }
+            },
+            {
+                "id": "c8516cd9-305b-4223-aa99-7cbd018a9d1a",
+                "name": "tvreport.co.kr##body>div[style=\"position:absolute;;top:0px;right:80px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tvreport\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"position:absolute;;top:0px;right:80px\"]"
                     }
                 }
             },
