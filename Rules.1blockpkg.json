@@ -82414,6 +82414,19 @@
                 }
             },
             {
+                "id": "e0fb01d0-0a7b-4644-a170-9ae4a2223e8e",
+                "name": "xportsnews.com##div[id^=\"mobonDivBanner_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?xportsnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"mobonDivBanner_\"]"
+                    }
+                }
+            },
+            {
                 "id": "5fa69593-b1fe-4c4e-a6cc-a8e236103d18",
                 "name": "xportsnews.com##span.ad_balloon",
                 "content": {
