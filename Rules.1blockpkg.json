@@ -1216,6 +1216,19 @@
                 }
             },
             {
+                "id": "6c330c28-8a51-4658-93bc-24e9ff8bb5dd",
+                "name": "##iframe[src^=\"//kitweb.tadapi.info/network/adapi.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//kitweb.tadapi.info/network/adapi.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "2ccec8b0-ed2b-45a1-8535-2ed03a368e1d",
                 "name": "##iframe[src^=\"//m.11st.co.kr/MW/html/allianceAd/\"]",
                 "content": {
@@ -15949,6 +15962,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?khan\\.co\\.kr/ad/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2ffeb914-9e96-42c7-969a-47080905cf7e",
+                "name": "kitweb.tadapi.info/network/adapi.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kitweb\\.tadapi\\.info/network/adapi\\.php"
                     },
                     "action": {
                         "type": "block"
