@@ -9902,12 +9902,13 @@
                 }
             },
             {
-                "id": "809c78c5-8395-4b55-af4b-eba3bf261324",
-                "name": "cast.imp.joins.com/body/$domain=news.joins.com|vod.jtbc.joins.com",
+                "id": "8dd7e93c-6a60-4722-a018-00f27238b7c6",
+                "name": "cast.imp.joins.com/body/$domain=m.isplus.joins.com|news.joins.com|vod.jtbc.joins.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?cast\\.imp\\.joins\\.com/body/",
                         "if-domain": [
+                            "m.isplus.joins.com",
                             "news.joins.com",
                             "vod.jtbc.joins.com"
                         ]
@@ -9918,12 +9919,13 @@
                 }
             },
             {
-                "id": "37435d0c-5740-445b-be7e-18805f3cfff8",
-                "name": "cast.imp.joins.com/persona.js$domain=news.joins.com|vod.jtbc.joins.com",
+                "id": "8b74a854-9ffc-4bc8-b13f-deaeb037c779",
+                "name": "cast.imp.joins.com/persona.js$domain=m.isplus.joins.com|news.joins.com|vod.jtbc.joins.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?cast\\.imp\\.joins\\.com/persona\\.js",
                         "if-domain": [
+                            "m.isplus.joins.com",
                             "news.joins.com",
                             "vod.jtbc.joins.com"
                         ]
@@ -55839,6 +55841,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "section.mobile-ad"
+                    }
+                }
+            },
+            {
+                "id": "5e583d71-e1f7-4785-b259-32bc48df4430",
+                "name": "m.isplus.joins.com##div#adopAdSlot",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.isplus\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adopAdSlot"
+                    }
+                }
+            },
+            {
+                "id": "281c8362-d2c0-47eb-850e-6b83fc87d530",
+                "name": "m.isplus.joins.com##div#testAD",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.isplus\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#testAD"
+                    }
+                }
+            },
+            {
+                "id": "eb2dfa46-8d8d-4bbc-8ffe-9eb3a343aa9c",
+                "name": "m.isplus.joins.com##div.ad_text",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.isplus\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_text"
+                    }
+                }
+            },
+            {
+                "id": "395ca3ae-6b8d-49e7-9e31-e0cc71460c7f",
+                "name": "m.isplus.joins.com##div.ad_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.isplus\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_wrap"
+                    }
+                }
+            },
+            {
+                "id": "451fdd27-5185-43d1-bc97-30936eb7fd16",
+                "name": "m.isplus.joins.com##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.isplus\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
                     }
                 }
             },
