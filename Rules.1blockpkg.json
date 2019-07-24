@@ -27165,6 +27165,32 @@
                 }
             },
             {
+                "id": "1c58229b-a90e-4469-82bd-c6ddf4ca8ea6",
+                "name": "accessonline.com##div.ads-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?accessonline\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ads-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "ab467e43-081f-4820-886b-205b9e1ef5b6",
+                "name": "accessonline.com##div.floating-ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?accessonline\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.floating-ads"
+                    }
+                }
+            },
+            {
                 "id": "a5c4184e-826d-4b11-a1d8-7717436a556e",
                 "name": "adp.issuepoll.net##ul>li[onclick^=\"javascript:goAd(\"]",
                 "content": {
