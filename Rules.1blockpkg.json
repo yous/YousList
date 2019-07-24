@@ -34837,6 +34837,45 @@
                 }
             },
             {
+                "id": "3c91e85a-95c1-4c8d-92da-8a23449e116e",
+                "name": "chefkoch.de##div.gujAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?chefkoch\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.gujAd"
+                    }
+                }
+            },
+            {
+                "id": "9ddb99b6-c051-4d2a-aa92-a11b7266a6d7",
+                "name": "chefkoch.de##div.responsive-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?chefkoch\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.responsive-ad"
+                    }
+                }
+            },
+            {
+                "id": "4df4f8d2-9e0e-4150-9fab-b5e652b849a9",
+                "name": "chefkoch.de##div.top-banner-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?chefkoch\\.de"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top-banner-container"
+                    }
+                }
+            },
+            {
                 "id": "43e7550f-ab8a-4bce-8799-6509ca41967e",
                 "name": "chicagotribune.com##div.trb_ar_rail_ad",
                 "content": {
