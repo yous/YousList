@@ -16773,21 +16773,6 @@
                 }
             },
             {
-                "id": "2a96e589-2a82-4060-ab6a-673e290f5ae4",
-                "name": "m.joyninfo.com/yna/yna_m_new.asp$domain=m.yna.co.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.joyninfo\\.com/yna/yna_m_new\\.asp",
-                        "if-domain": [
-                            "m.yna.co.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "8bdf9f81-9d61-49ac-bb10-6599c5edaa87",
                 "name": "m.joyninfo.com/yna/yna_w1.asp$domain=yna.co.kr|yonhapnews.co.kr",
                 "content": {
@@ -60655,67 +60640,119 @@
                 }
             },
             {
-                "id": "963d92f8-24c7-4061-885c-cdab5c3df474",
-                "name": "m.yna.co.kr##aside.section-article-add>div.section-ad",
+                "id": "58767548-bf9f-460d-b322-b9720015a4ea",
+                "name": "m.yna.co.kr##aside.aside-bnr02",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.yna\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "aside.section-article-add>div.section-ad"
+                        "selector": "aside.aside-bnr02"
                     }
                 }
             },
             {
-                "id": "8efcd579-c1ca-412c-a0f8-83f9be79fa1c",
-                "name": "m.yna.co.kr##button.btn-close-fixed",
+                "id": "56240473-e8c1-4f3e-94b1-3f4de0160d30",
+                "name": "m.yna.co.kr##aside.aside-box02",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.yna\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "button.btn-close-fixed"
+                        "selector": "aside.aside-box02"
                     }
                 }
             },
             {
-                "id": "c23747e2-3f31-4ac4-bc13-5c8a0eb8a1ad",
-                "name": "m.yna.co.kr##div#change-inner",
+                "id": "02766ed0-49fa-4b44-9a96-c28174bc8640",
+                "name": "m.yna.co.kr##aside.aside-box03",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.yna\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#change-inner"
+                        "selector": "aside.aside-box03"
                     }
                 }
             },
             {
-                "id": "80cb9ccf-4e70-4a27-9e46-c6d642500c0a",
-                "name": "m.yna.co.kr##div#tx_insert",
+                "id": "d400a1fe-3efe-4a13-a467-1dd7d7f4eccd",
+                "name": "m.yna.co.kr##aside.aside-box04",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.yna\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#tx_insert"
+                        "selector": "aside.aside-box04"
                     }
                 }
             },
             {
-                "id": "12f133bd-8c88-47d8-a4b3-ef25ad8b77cd",
-                "name": "m.yna.co.kr##div.ad-Cauly-wrap",
+                "id": "449e1f47-a936-4bb2-a028-82fe62555c0d",
+                "name": "m.yna.co.kr##aside.aside-box05",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.yna\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad-Cauly-wrap"
+                        "selector": "aside.aside-box05"
+                    }
+                }
+            },
+            {
+                "id": "37d6f54f-ccbe-4cd3-986d-6eece8f51118",
+                "name": "m.yna.co.kr##aside.aside-box06",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.yna\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.aside-box06"
+                    }
+                }
+            },
+            {
+                "id": "a4f58912-cc70-47c0-bc8e-da09113c28cd",
+                "name": "m.yna.co.kr##aside.aside-text01",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.yna\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.aside-text01"
+                    }
+                }
+            },
+            {
+                "id": "621d3fa1-bc4a-4f30-a4b5-76dd5fff2fe3",
+                "name": "m.yna.co.kr##aside.aside-text02",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.yna\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.aside-text02"
+                    }
+                }
+            },
+            {
+                "id": "ae3c5a91-9ab7-44b0-86b2-ca7b9336a23e",
+                "name": "m.yna.co.kr##aside.aside-text03",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.yna\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.aside-text03"
                     }
                 }
             },
@@ -60729,110 +60766,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.amp-ad-container"
-                    }
-                }
-            },
-            {
-                "id": "10ee6177-bf05-419c-a3d7-1be7f96ce6cf",
-                "name": "m.yna.co.kr##div.section-txt>span.article-boxad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.yna\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.section-txt>span.article-boxad"
-                    }
-                }
-            },
-            {
-                "id": "6625cbc8-55fc-4563-8af2-3f1af0fc8af0",
-                "name": "m.yna.co.kr##div.wrap-ticker4",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.yna\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.wrap-ticker4"
-                    }
-                }
-            },
-            {
-                "id": "65bcea29-3f4b-49c2-9719-0b59f4bcbc20",
-                "name": "m.yna.co.kr##iframe[src^=\"http://m.joyninfo.com/yna/yna_m_new.asp\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.yna\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"http://m.joyninfo.com/yna/yna_m_new.asp\"]"
-                    }
-                }
-            },
-            {
-                "id": "7ebecc98-b8fb-4437-9bbe-fc50b6e583c0",
-                "name": "m.yna.co.kr##section.section-ad-adtive",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.yna\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "section.section-ad-adtive"
-                    }
-                }
-            },
-            {
-                "id": "1aaca386-26c5-4ca6-b87b-e7a088fa9f26",
-                "name": "m.yna.co.kr##section.section-ad-hi",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.yna\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "section.section-ad-hi"
-                    }
-                }
-            },
-            {
-                "id": "ac978143-8ddd-45f6-9123-22d63e4afcdd",
-                "name": "m.yna.co.kr##section.section-ad-joyinfo",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.yna\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "section.section-ad-joyinfo"
-                    }
-                }
-            },
-            {
-                "id": "b2a920a8-6fe5-4c51-acdd-5745f8faff23",
-                "name": "m.yna.co.kr##section.section-add",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.yna\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "section.section-add"
-                    }
-                }
-            },
-            {
-                "id": "b458747a-7e70-4936-9a8a-cf87f930b695",
-                "name": "m.yna.co.kr##section.section-add-fixbt",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.yna\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "section.section-add-fixbt"
                     }
                 }
             },
