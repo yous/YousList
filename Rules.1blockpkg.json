@@ -62772,6 +62772,32 @@
                 }
             },
             {
+                "id": "7f744e46-3080-49e4-adc6-3eadea8ff020",
+                "name": "mk.co.kr##div.view_txt>div[style=\"padding:15px 15px 15px 0; text-align:left; float:left; margin-right:5px; margin-bottom:15px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mk\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view_txt>div[style=\"padding:15px 15px 15px 0; text-align:left; float:left; margin-right:5px; margin-bottom:15px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "98390669-65e4-4865-b525-ee8e23c71253",
+                "name": "mk.co.kr##div.view_txt>div[style=\"text-align:center; border:0; width:100%; margin:0 auto\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mk\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view_txt>div[style=\"text-align:center; border:0; width:100%; margin:0 auto\"]"
+                    }
+                }
+            },
+            {
                 "id": "a59cdd80-a3c1-49f9-9df6-da72bcef25e5",
                 "name": "mlbpark.donga.com##div.left_cont>div[style=\"width:670px; margin:10px 0;background:#fff; padding:10px 20px 0 20px;overflow:hidden;border:1px solid #dbdbdb;\"]",
                 "content": {
