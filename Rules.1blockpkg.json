@@ -37357,6 +37357,19 @@
                 }
             },
             {
+                "id": "ea2d962a-d9db-44d4-bf58-c34830e02bbd",
+                "name": "daum.net##div#adMain",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?daum\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adMain"
+                    }
+                }
+            },
+            {
                 "id": "7e7c704f-106f-42da-9d64-6a6d44cefc9c",
                 "name": "daum.net##div#daumAd",
                 "content": {
@@ -37370,15 +37383,15 @@
                 }
             },
             {
-                "id": "a85c09e6-0bf5-4a7d-9cf1-fc706ea39afa",
-                "name": "daum.net##div.ad_rightbtm",
+                "id": "5321625b-7828-4985-adbe-b4955cc9bb60",
+                "name": "daum.net##div.advert_bnr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?daum\\.net"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad_rightbtm"
+                        "selector": "div.advert_bnr"
                     }
                 }
             },
@@ -51250,6 +51263,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "td[id^=\"td_post_\"]>div[style=\"float: right; margin-left: 5px; margin-bottom: 5px; margin-top: -3px; margin-right: -3px\"]"
+                    }
+                }
+            },
+            {
+                "id": "8993b270-cd86-499a-8f5a-9e325c33c8fc",
+                "name": "lithium.daum.net##div#bnr_trend",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?lithium\\.daum\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bnr_trend"
                     }
                 }
             },
