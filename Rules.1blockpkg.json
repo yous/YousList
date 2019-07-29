@@ -69903,6 +69903,19 @@
                 }
             },
             {
+                "id": "2c89fa75-b594-4cbe-ae6b-34dcb3b00a16",
+                "name": "photo.sportsseoul.com##div#container>div.sub-content>div[style=\"margin:0 auto; width:730px;height:90px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?photo\\.sportsseoul\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#container>div.sub-content>div[style=\"margin:0 auto; width:730px;height:90px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "7bfa52c5-7fbd-408f-8dd9-709ef106861d",
                 "name": "phys.org##div.bf-banner",
                 "content": {
