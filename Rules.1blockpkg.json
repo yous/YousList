@@ -11527,6 +11527,21 @@
                 }
             },
             {
+                "id": "c2afa492-865a-48df-b67e-4699be3796eb",
+                "name": "d4fodtu7cqfym.cloudfront.net/5f1b439bdf9bf52de0892c7e5bf81ffe.min.js$domain=tgd.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?d4fodtu7cqfym\\.cloudfront\\.net/5f1b439bdf9bf52de0892c7e5bf81ffe\\.min\\.js",
+                        "if-domain": [
+                            "tgd.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f1508f79-cfba-415d-82dc-06d3cf8793de",
                 "name": "da-ads.com/da_safeframe.html",
                 "content": {
@@ -75807,6 +75822,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.top_banner"
+                    }
+                }
+            },
+            {
+                "id": "3c05bf6e-a44a-430d-86b9-003a2e799b40",
+                "name": "tgd.kr##div#plz-dont-block-me",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tgd\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#plz-dont-block-me"
+                    }
+                }
+            },
+            {
+                "id": "f34b3f24-bf44-4ff7-b701-b0b94e6e587f",
+                "name": "tgd.kr##div#weare-out-of-food",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tgd\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#weare-out-of-food"
+                    }
+                }
+            },
+            {
+                "id": "f50b8c8d-1c5a-4d3e-a4cd-bda0fc997cd4",
+                "name": "tgd.kr##div.frame>a[href^=\"/trk/click/\"][target=\"_blank\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tgd\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.frame>a[href^=\"/trk/click/\"][target=\"_blank\"]"
                     }
                 }
             },
