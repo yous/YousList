@@ -20094,13 +20094,14 @@
                 }
             },
             {
-                "id": "7286f83a-2b78-4f6d-977b-035e3eb05d1d",
-                "name": "res.heraldm.com/adbanner/$domain=biz.heraldcorp.com|news.heraldcorp.com",
+                "id": "206a25b5-232d-4814-bc9e-1683092788f1",
+                "name": "res.heraldm.com/adbanner/$domain=biz.heraldcorp.com|koreaherald.com|news.heraldcorp.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?res\\.heraldm\\.com/adbanner/",
                         "if-domain": [
                             "biz.heraldcorp.com",
+                            "koreaherald.com",
                             "news.heraldcorp.com"
                         ]
                     },
@@ -49735,106 +49736,93 @@
                 }
             },
             {
-                "id": "d5287a59-92fa-4449-b32b-cd3534d02399",
-                "name": "koreaherald.com##aside.rsnb>div[class^=\"ad\"]",
+                "id": "583ac322-347c-4554-b15a-9e518d895cb7",
+                "name": "koreaherald.com##div.ad_2big",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?koreaherald\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "aside.rsnb>div[class^=\"ad\"]"
+                        "selector": "div.ad_2big"
                     }
                 }
             },
             {
-                "id": "dee52b24-02e2-4f68-ba2b-02cb61626ec5",
-                "name": "koreaherald.com##div.banner_1024_1024",
+                "id": "98a8a7f0-555a-4e7c-bdef-e171c8b8c297",
+                "name": "koreaherald.com##div.adcodes_2big",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?koreaherald\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.banner_1024_1024"
+                        "selector": "div.adcodes_2big"
                     }
                 }
             },
             {
-                "id": "be99c1f5-adf7-4dac-be56-ad4862d6ae7d",
-                "name": "koreaherald.com##div.content>div[style=\" margin:20px 0 20px 0; width:670px; height:130px; background:#f0f0f0;\"]",
+                "id": "a1cfd8f3-048e-4fd4-a7b5-121f0927fcb0",
+                "name": "koreaherald.com##div.bannerDiv01",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?koreaherald\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.content>div[style=\" margin:20px 0 20px 0; width:670px; height:130px; background:#f0f0f0;\"]"
+                        "selector": "div.bannerDiv01"
                     }
                 }
             },
             {
-                "id": "ced3346d-e4f7-49cb-87af-8694dcb1926d",
-                "name": "koreaherald.com##div.content>div[style=\"padding: 5px 0px 30px 0px;text-align:center;\"]",
+                "id": "a19d8e24-ed87-4e39-820e-88211497d570",
+                "name": "koreaherald.com##ins[data-ad-slot=\"1115695166\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?koreaherald\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.content>div[style=\"padding: 5px 0px 30px 0px;text-align:center;\"]"
+                        "selector": "ins[data-ad-slot=\"1115695166\"]"
                     }
                 }
             },
             {
-                "id": "0eaa165e-784d-413f-9e19-03156ef44bce",
-                "name": "koreaherald.com##div.newslist>iframe",
+                "id": "fdeaa084-98ec-4e8b-9942-63d7b1ff639f",
+                "name": "koreaherald.com##ins[data-ad-slot=\"1990317404\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?koreaherald\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.newslist>iframe"
+                        "selector": "ins[data-ad-slot=\"1990317404\"]"
                     }
                 }
             },
             {
-                "id": "eb17ba0b-1587-4390-9546-021f60c3d152",
-                "name": "koreaherald.com##div.tbanner",
+                "id": "2866f4a5-72b8-4588-96c4-3028894babca",
+                "name": "koreaherald.com##ins[data-ad-slot=\"7060858021\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?koreaherald\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.tbanner"
+                        "selector": "ins[data-ad-slot=\"7060858021\"]"
                     }
                 }
             },
             {
-                "id": "8ad691eb-532f-49a7-bee0-05e436bcc7a4",
-                "name": "koreaherald.com##section.gallrym",
+                "id": "8df4446f-3500-4e9a-93e4-4190e6e8d9be",
+                "name": "koreaherald.com##ins[data-ad-slot=\"9022139528\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?koreaherald\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "section.gallrym"
-                    }
-                }
-            },
-            {
-                "id": "81a92063-56f7-4558-96fe-06c540b54a7d",
-                "name": "koreaherald.com##section.nview>div[style=\"margin-bottom: 20px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?koreaherald\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "section.nview>div[style=\"margin-bottom: 20px;\"]"
+                        "selector": "ins[data-ad-slot=\"9022139528\"]"
                     }
                 }
             },
