@@ -21,6 +21,21 @@
                 }
             },
             {
+                "id": "34cc2e09-d505-468b-907a-386db5f1e3f1",
+                "name": "@@ads.sportsseoul.com/RealMedia/ads/adstream_sx.ads/www.sportsseoul.com/main@Bottom$domain=sportsseoul.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ads\\.sportsseoul\\.com/RealMedia/ads/adstream_sx\\.ads/www\\.sportsseoul\\.com/main@Bottom",
+                        "if-domain": [
+                            "sportsseoul.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
+                    }
+                }
+            },
+            {
                 "id": "d5ce454c-9e87-4ba1-926c-f06078c7e7db",
                 "name": "@@vads-api.ad.daum.net/xylophone/adrequest/vmap/",
                 "content": {
@@ -14519,6 +14534,21 @@
                         "if-domain": [
                             "bbs.ruliweb.com",
                             "m.ruliweb.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "20ec7535-aac9-4037-8813-e8c44c509fc9",
+                "name": "image.sportsseoul.com/ad/$domain=sportsseoul.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?image\\.sportsseoul\\.com/ad/",
+                        "if-domain": [
+                            "sportsseoul.com"
                         ]
                     },
                     "action": {
@@ -74098,15 +74128,28 @@
                 }
             },
             {
-                "id": "40211a0e-f95a-4fd5-98bf-9cdaf3567e38",
-                "name": "sportsseoul.com##div#article_viewWrap>div[style=\"width:100%;height:90px;\"]",
+                "id": "43a45d82-0fca-4970-92f0-8f6c49a2d40f",
+                "name": "sportsseoul.com##div#article_viewWrap>div[style=\"width:100%;height:30px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sportsseoul\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#article_viewWrap>div[style=\"width:100%;height:90px;\"]"
+                        "selector": "div#article_viewWrap>div[style=\"width:100%;height:30px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "a2c7200e-c744-44b0-af5a-d5adf97fbca1",
+                "name": "sportsseoul.com##div#article_viewWrap>div[style=\"width:100%;height:50px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sportsseoul\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article_viewWrap>div[style=\"width:100%;height:50px;\"]"
                     }
                 }
             },
@@ -74124,32 +74167,6 @@
                 }
             },
             {
-                "id": "b59db653-4699-46c7-a1a4-9acd4163d98d",
-                "name": "sportsseoul.com##div#aside>div[style=\"height:250px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?sportsseoul\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#aside>div[style=\"height:250px;\"]"
-                    }
-                }
-            },
-            {
-                "id": "af27f407-1abf-4a0e-9b1b-d7628b87d4e2",
-                "name": "sportsseoul.com##div#aside>div[style=\"padding:0;width:248px;height:248px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?sportsseoul\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#aside>div[style=\"padding:0;width:248px;height:248px;\"]"
-                    }
-                }
-            },
-            {
                 "id": "400f7d5c-db16-4c13-a0d0-e879e4860825",
                 "name": "sportsseoul.com##div#pop_ad",
                 "content": {
@@ -74159,19 +74176,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#pop_ad"
-                    }
-                }
-            },
-            {
-                "id": "6ba80517-5516-438b-8ff9-2b1b4f76e704",
-                "name": "sportsseoul.com##div#selectionWrap>div[style=\"width:740px;margin-bottom:10px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?sportsseoul\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#selectionWrap>div[style=\"width:740px;margin-bottom:10px;\"]"
                     }
                 }
             },
@@ -74215,15 +74219,15 @@
                 }
             },
             {
-                "id": "d695ff92-93b8-4cbf-ac84-c473ba39f110",
-                "name": "sportsseoul.com##div.mask_div",
+                "id": "846e2833-6aa0-4d6f-ae7f-62ca63589590",
+                "name": "sportsseoul.com#@#iframe[src*=\"/RealMedia/ads/\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sportsseoul\\.com"
                     },
                     "action": {
-                        "type": "css-display-none",
-                        "selector": "div.mask_div"
+                        "type": "ignore-previous-rules",
+                        "selector": "iframe[src*=\"/RealMedia/ads/\"]"
                     }
                 }
             },
