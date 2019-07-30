@@ -44200,6 +44200,19 @@
                 }
             },
             {
+                "id": "33392c92-5ca3-4d94-9a00-83f2e143e828",
+                "name": "hankyung.com##aside.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.ad"
+                    }
+                }
+            },
+            {
                 "id": "1fed9b8f-f0bf-4e04-bc40-7cccd3b004dd",
                 "name": "hankyung.com##div#admaru_mobile",
                 "content": {
