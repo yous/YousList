@@ -1179,6 +1179,19 @@
                 }
             },
             {
+                "id": "c0e5e4b6-8587-4467-8dc4-4d10566da742",
+                "name": "##iframe[src^=\"//cdn.doyouad.com/html/iframe.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//cdn.doyouad.com/html/iframe.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "07235da8-bca1-4f5e-8672-44d38c1a0d43",
                 "name": "##iframe[src^=\"//d3u5zn5k9864p0.cloudfront.net/br\"]",
                 "content": {
@@ -5276,6 +5289,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.adixs\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "25b5ca85-1703-48f7-9ee2-0b21459ab810",
+                "name": "ad.adjw.co.kr/cgi-bin/PelicanC.dll",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.adjw\\.co\\.kr/cgi-bin/PelicanC\\.dll"
                     },
                     "action": {
                         "type": "block"
@@ -10259,6 +10284,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.connatix\\.com/min/connatix\\.renderer\\.infeed\\.min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "4801236d-356a-4988-aa9c-23d1a6438fa5",
+                "name": "cdn.doyouad.com/html/iframe.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.doyouad\\.com/html/iframe\\.html"
                     },
                     "action": {
                         "type": "block"
@@ -80849,6 +80886,19 @@
                 }
             },
             {
+                "id": "85a493e1-0911-4452-a45e-33d578a5555a",
+                "name": "viewers.heraldcorp.com##div#article-view-content-div center[style=\"position:relative; bottom:-8px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?viewers\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article-view-content-div center[style=\"position:relative; bottom:-8px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "5f7362f6-e675-4e1a-9bac-5fec16d5cd7c",
                 "name": "viewers.heraldcorp.com##div#article-view-content-div>div[style=\"float:left; padding:10px 10px 0 0;\"]",
                 "content": {
@@ -80862,28 +80912,28 @@
                 }
             },
             {
-                "id": "7cdc98a5-01c7-40ad-952b-ace78fb52420",
-                "name": "viewers.heraldcorp.com##div[data-widget_id=\"G7ZPW3XW\"]",
+                "id": "9d1f90af-44f9-471b-b080-080b2e5f1ac4",
+                "name": "viewers.heraldcorp.com##div[data-widget_id=\"G7ZN237W\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?viewers\\.heraldcorp\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div[data-widget_id=\"G7ZPW3XW\"]"
+                        "selector": "div[data-widget_id=\"G7ZN237W\"]"
                     }
                 }
             },
             {
-                "id": "fef00de3-eddd-4637-bcf3-66ac0f8423d8",
-                "name": "viewers.heraldcorp.com##div[data-widget_id=\"Gok9VRlv\"]",
+                "id": "abcb2ec3-22bb-4ecf-b2ee-af3fa43bbff2",
+                "name": "viewers.heraldcorp.com##div[data-widget_id=\"QXeA3ZXe\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?viewers\\.heraldcorp\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div[data-widget_id=\"Gok9VRlv\"]"
+                        "selector": "div[data-widget_id=\"QXeA3ZXe\"]"
                     }
                 }
             },
@@ -80901,28 +80951,28 @@
                 }
             },
             {
-                "id": "4b843fa6-aa66-4dc9-a8d8-5774df9f3464",
-                "name": "viewers.heraldcorp.com##div[data-widget_id=\"goPBgylQ\"]",
+                "id": "a9d26c62-dd48-4033-ae09-76f71841f247",
+                "name": "viewers.heraldcorp.com##div[data-widget_id=\"V7a2Y0lB\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?viewers\\.heraldcorp\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div[data-widget_id=\"goPBgylQ\"]"
+                        "selector": "div[data-widget_id=\"V7a2Y0lB\"]"
                     }
                 }
             },
             {
-                "id": "4317ad1c-b0db-4422-9270-3f7acdb43b69",
-                "name": "viewers.heraldcorp.com##div[data-widget_id=\"plqJJmXO\"]",
+                "id": "0d1485bc-e0b0-4bc6-9821-8d31f5652c66",
+                "name": "viewers.heraldcorp.com##div[data-widget_id=\"klrL65om\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?viewers\\.heraldcorp\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div[data-widget_id=\"plqJJmXO\"]"
+                        "selector": "div[data-widget_id=\"klrL65om\"]"
                     }
                 }
             },
