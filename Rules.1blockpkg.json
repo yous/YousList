@@ -29198,6 +29198,19 @@
                 }
             },
             {
+                "id": "a11bde28-029d-4cc8-9120-61557209bf1f",
+                "name": "auto.daum.net##li.item_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?auto\\.daum\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.item_ad"
+                    }
+                }
+            },
+            {
                 "id": "b2a19327-a54d-441c-8b69-b3758e8626f7",
                 "name": "autoevolution.com##div.ad",
                 "content": {
