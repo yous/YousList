@@ -40012,6 +40012,45 @@
                 }
             },
             {
+                "id": "dfde3933-53f0-44e9-a44b-f7442db9e224",
+                "name": "enewstoday.co.kr##div.user-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?enewstoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.user-banner"
+                    }
+                }
+            },
+            {
+                "id": "dd1767a8-90bf-4e08-a430-4e748b4ffd6e",
+                "name": "enewstoday.co.kr##ins[data-ad-slot=\"6785703441\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?enewstoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"6785703441\"]"
+                    }
+                }
+            },
+            {
+                "id": "1d3a87e8-fcba-4beb-a277-521978c0d7b9",
+                "name": "enewstoday.co.kr##ins[data-ad-slot=\"PL_enewstoday_top_970_90\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?enewstoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"PL_enewstoday_top_970_90\"]"
+                    }
+                }
+            },
+            {
                 "id": "455663fb-e251-4f7e-9d29-e3859923a2b2",
                 "name": "engadget.com##aside[role=\"banner\"]",
                 "content": {
