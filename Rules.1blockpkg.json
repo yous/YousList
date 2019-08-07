@@ -23816,6 +23816,126 @@
                 }
             },
             {
+                "id": "5401a1f2-6e66-4f32-9ad5-80a40115c102",
+                "name": "yakup.com/ad/main_ra/$domain=yakup.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com/ad/main_ra/",
+                        "if-domain": [
+                            "yakup.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "85fa7f15-84ab-4811-8a90-5a35497aa7dc",
+                "name": "yakup.com/ad/main_sa/$domain=yakup.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com/ad/main_sa/",
+                        "if-domain": [
+                            "yakup.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5b2a0ace-c863-4f6a-9b79-0c92c76dcbd1",
+                "name": "yakup.com/ad/popup/$domain=yakup.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com/ad/popup/",
+                        "if-domain": [
+                            "yakup.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "bcbf1c3c-5e33-4240-ab72-04dc64d18323",
+                "name": "yakup.com/ad/right_wing/$domain=yakup.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com/ad/right_wing/",
+                        "if-domain": [
+                            "yakup.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "bf9ec8f2-cf74-4d12-bdd1-7f1a46b3ba9f",
+                "name": "yakup.com/ad/sms/$domain=yakup.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com/ad/sms/",
+                        "if-domain": [
+                            "yakup.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "81e9d158-0c11-42d9-bc30-90972bf373bd",
+                "name": "yakup.com/ad/sub_a/$domain=yakup.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com/ad/sub_a/",
+                        "if-domain": [
+                            "yakup.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9e7b3e19-73f1-440e-841b-cca08e3c9d1c",
+                "name": "yakup.com/ad/sub_b/$domain=yakup.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com/ad/sub_b/",
+                        "if-domain": [
+                            "yakup.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a0df20c1-6826-4502-8988-a5deb6641a18",
+                "name": "yakup.com/ad/sub_c/$domain=yakup.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com/ad/sub_c/",
+                        "if-domain": [
+                            "yakup.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f9312b83-ec32-4168-b287-e2d3394fea64",
                 "name": "yazaral10.com/ad.gif$domain=yazaral10.com|yazaral8.com|yazaral9.com",
                 "content": {
@@ -83220,6 +83340,188 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[id^=\"my-ads\"]"
+                    }
+                }
+            },
+            {
+                "id": "982df075-442d-42cd-913f-c1911d38fe55",
+                "name": "yakup.com##div#ad_index3",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_index3"
+                    }
+                }
+            },
+            {
+                "id": "a535d39e-c63e-46b1-93fd-5b55a3d06a8c",
+                "name": "yakup.com##div#ad_index4_blank",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_index4_blank"
+                    }
+                }
+            },
+            {
+                "id": "18cc390b-25e7-4465-bad1-0e99ba52823c",
+                "name": "yakup.com##div#ad_index5",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_index5"
+                    }
+                }
+            },
+            {
+                "id": "ead3353e-d104-434d-9af0-6fed529e2a45",
+                "name": "yakup.com##div#ad_index6",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_index6"
+                    }
+                }
+            },
+            {
+                "id": "6d3e45b8-0b01-4997-9c58-70ff05b5edf4",
+                "name": "yakup.com##div#content>div[style=\"margin-top:60px; margin-bottom:20px; padding: 10px 0px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#content>div[style=\"margin-top:60px; margin-bottom:20px; padding: 10px 0px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "5d47e7a0-88d3-4810-b548-87297dbdb8fe",
+                "name": "yakup.com##div#main_popup_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#main_popup_wrap"
+                    }
+                }
+            },
+            {
+                "id": "f708b60b-a165-4ddb-9a8d-758f4c6dc2bd",
+                "name": "yakup.com##div#rnb>p[style=\"margin-bottom:15px; text-align:center; border:1px solid #e0e0e0; padding:13px 0px;;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#rnb>p[style=\"margin-bottom:15px; text-align:center; border:1px solid #e0e0e0; padding:13px 0px;;\"]"
+                    }
+                }
+            },
+            {
+                "id": "ba55c407-d93e-4a1b-aa25-c586f6e8ff1e",
+                "name": "yakup.com##div#sms_banner_chained",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sms_banner_chained"
+                    }
+                }
+            },
+            {
+                "id": "29019b58-0039-40bd-b439-dbd42a30fee4",
+                "name": "yakup.com##div.right_ad_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.right_ad_top"
+                    }
+                }
+            },
+            {
+                "id": "ecd280c5-4dad-4a72-a279-772609710643",
+                "name": "yakup.com##ins[data-ad-slot=\"3580148215\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"3580148215\"]"
+                    }
+                }
+            },
+            {
+                "id": "d57e7f55-b146-43e7-a8b5-4177bc3495d6",
+                "name": "yakup.com##ins[data-ad-slot=\"6631142089\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"6631142089\"]"
+                    }
+                }
+            },
+            {
+                "id": "3fc9692a-352b-4866-b7d1-0f12d57c2cfc",
+                "name": "yakup.com##p#ad_sub_b",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "p#ad_sub_b"
+                    }
+                }
+            },
+            {
+                "id": "5dd5a33a-f170-4b30-ba81-8e67a3b6f530",
+                "name": "yakup.com##p#ad_sub_c",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "p#ad_sub_c"
+                    }
+                }
+            },
+            {
+                "id": "fc5f899a-630f-4ce0-9eae-48ae35c5feda",
+                "name": "yakup.com##span#ad_index_top_contents",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yakup\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span#ad_index_top_contents"
                     }
                 }
             },

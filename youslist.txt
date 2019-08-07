@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20190805
+! Version: 20190807
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -1869,6 +1869,14 @@
 ||yads.c.yimg.jp/yads.js^
 ||yads.yahoo.co.jp/tag^
 ||yads.yjtag.yahoo.co.jp/tag^
+||yakup.com/ad/main_ra/$domain=yakup.com
+||yakup.com/ad/main_sa/$domain=yakup.com
+||yakup.com/ad/popup/$domain=yakup.com
+||yakup.com/ad/right_wing/$domain=yakup.com
+||yakup.com/ad/sms/$domain=yakup.com
+||yakup.com/ad/sub_a/$domain=yakup.com
+||yakup.com/ad/sub_b/$domain=yakup.com
+||yakup.com/ad/sub_c/$domain=yakup.com
 ||yazaral10.com/ad.gif^$domain=yazaral10.com|yazaral8.com|yazaral9.com
 ||yazaral10.com/sitemap_storage/$domain=yazaral10.com|yazaral8.com|yazaral9.com
 ||yeongnam.com/ad/$domain=m.yeongnam.com
@@ -5685,6 +5693,20 @@ yahoo.com##div[id^="hl-ad-"]
 yahoo.com##div[id^="mrt-node-"][id$="-Ad"]
 yahoo.com##div[id^="mrt-node-"][id$="-ComboAd"]
 yahoo.com##div[id^="my-ads"]
+yakup.com##div#ad_index3
+yakup.com##div#ad_index4_blank
+yakup.com##div#ad_index5
+yakup.com##div#ad_index6
+yakup.com##div#content>div[style="margin-top:60px; margin-bottom:20px; padding: 10px 0px;"]
+yakup.com##div#main_popup_wrap
+yakup.com##div#rnb>p[style="margin-bottom:15px; text-align:center; border:1px solid #e0e0e0; padding:13px 0px;;"]
+yakup.com##div#sms_banner_chained
+yakup.com##div.right_ad_top
+yakup.com##ins[data-ad-slot="3580148215"]
+yakup.com##ins[data-ad-slot="6631142089"]
+yakup.com##p#ad_sub_b
+yakup.com##p#ad_sub_c
+yakup.com##span#ad_index_top_contents
 yazaral10.com,yazaral8.com,yazaral9.com##body>div>div[style="position: fixed; display: flex !important; flex-flow: row; bottom: 0px; width: 100%;"]
 yazaral10.com,yazaral8.com,yazaral9.com##div#bitme
 yazaral10.com,yazaral8.com,yazaral9.com##div#sitemapbedown
