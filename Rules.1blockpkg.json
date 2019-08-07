@@ -73466,6 +73466,32 @@
                 }
             },
             {
+                "id": "0038472b-e77d-4a57-9f09-9155e256caea",
+                "name": "sport.es##div.following-ad-container.minHeightLong",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sport\\.es"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.following-ad-container.minHeightLong"
+                    }
+                }
+            },
+            {
+                "id": "e2d8dfb2-36a9-41c9-923a-dcc9bbc20ec3",
+                "name": "sport.es##div[data-actas=\"following-ad\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sport\\.es"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-actas=\"following-ad\"]"
+                    }
+                }
+            },
+            {
                 "id": "8000bf3a-cc98-4e9d-8f1d-fd0aee13c169",
                 "name": "sportalkorea.com##div#topAdBox",
                 "content": {
