@@ -35103,6 +35103,19 @@
                 }
             },
             {
+                "id": "cd60c1ab-b935-478e-84bd-f7375f3912ff",
+                "name": "chess24.com##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?chess24\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
+                    }
+                }
+            },
+            {
                 "id": "43e7550f-ab8a-4bce-8799-6509ca41967e",
                 "name": "chicagotribune.com##div.trb_ar_rail_ad",
                 "content": {
