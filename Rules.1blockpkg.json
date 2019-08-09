@@ -22006,6 +22006,21 @@
                 }
             },
             {
+                "id": "461da5e7-3ac2-4ef1-b264-2cd15caf004a",
+                "name": "static.line-scdn.net/matome_sp/*/js/nj.matome.ad.yahooim.js$domain=matome.naver.jp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?static\\.line-scdn\\.net/matome_sp/.*/js/nj\\.matome\\.ad\\.yahooim\\.js",
+                        "if-domain": [
+                            "matome.naver.jp"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4580ef05-888a-431c-bf1a-2ff3e519cc55",
                 "name": "static.pdn-1.com/tag/display.js",
                 "content": {
@@ -61983,6 +61998,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_container"
+                    }
+                }
+            },
+            {
+                "id": "0d2a77ff-ca5c-4f59-b464-0874e2a81e03",
+                "name": "matome.naver.jp##div[class^=\"MdCMN\"][class*=\"Ad\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?matome\\.naver\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"MdCMN\"][class*=\"Ad\"]"
                     }
                 }
             },
