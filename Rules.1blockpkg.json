@@ -76549,6 +76549,19 @@
                 }
             },
             {
+                "id": "2f570dd7-fae2-4740-92d7-a8cd4418d5f4",
+                "name": "theqoo.net##div.document_list_google_ad_space",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?theqoo\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.document_list_google_ad_space"
+                    }
+                }
+            },
+            {
                 "id": "cf7468e0-5635-4ea7-93b5-060b95ce28fa",
                 "name": "theqoo.net##div.google_ad",
                 "content": {
@@ -76584,6 +76597,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.top_google_ad_space"
+                    }
+                }
+            },
+            {
+                "id": "aa687f16-280a-4a2a-a635-7dd8ea826a31",
+                "name": "theqoo.net##ul.notice-list>li.image_notice",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?theqoo\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.notice-list>li.image_notice"
                     }
                 }
             },
