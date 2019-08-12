@@ -12608,6 +12608,36 @@
                 }
             },
             {
+                "id": "dbf7110a-6991-4b2c-84ab-8110e40baf90",
+                "name": "ebn.co.kr/ad_article_center.php$domain=ebn.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ebn\\.co\\.kr/ad_article_center\\.php",
+                        "if-domain": [
+                            "ebn.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2e19a72f-6ac7-419e-bd67-ad7f72bc57a6",
+                "name": "ebn.co.kr/ad_article_top.php$domain=ebn.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ebn\\.co\\.kr/ad_article_top\\.php",
+                        "if-domain": [
+                            "ebn.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "e6b3c597-6abf-4a5a-a821-cd466fc44896",
                 "name": "ecdn.firstimpression.io/apd_client.js",
                 "content": {
@@ -39560,6 +39590,84 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.mobile_responsive_1_div"
+                    }
+                }
+            },
+            {
+                "id": "21a5fce5-3749-4b4f-a4fc-c57b5d6fd7de",
+                "name": "ebn.co.kr##div.bn320x200",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ebn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bn320x200"
+                    }
+                }
+            },
+            {
+                "id": "c7dfc300-2ef7-4d15-b462-28ff8b7c6b91",
+                "name": "ebn.co.kr##div.bn615x115",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ebn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bn615x115"
+                    }
+                }
+            },
+            {
+                "id": "a9d55a73-dd73-435c-a6a0-ea9df15a2335",
+                "name": "ebn.co.kr##div[itemprop=\"articleBody\"]>div[style=\"float:right; width:300px; margin-left:5px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ebn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[itemprop=\"articleBody\"]>div[style=\"float:right; width:300px; margin-left:5px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "42f71bd1-34bd-40f2-bcde-6979d10782e2",
+                "name": "ebn.co.kr##iframe[src^=\"/ad_article_center.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ebn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ad_article_center.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "ee6b119e-c623-41b1-9dc8-e4741affd58a",
+                "name": "ebn.co.kr##iframe[src^=\"/ad_article_top.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ebn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ad_article_top.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "9a46ed14-3610-40f6-99ce-9e5a76ed1592",
+                "name": "ebn.co.kr##ins[data-ad-slot=\"MT_ebn_right2nd_300_250\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ebn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"MT_ebn_right2nd_300_250\"]"
                     }
                 }
             },

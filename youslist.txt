@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20190810
+! Version: 20190812
 
 ! Workaround for BlockAdBlock
 #@#.pub_300x250
@@ -1007,6 +1007,8 @@
 ||e-*.adzerk.net/ados^
 ||e-cdn-files.deezer.com/ads/$domain=deezer.com
 ||ebdr3.com/serve^
+||ebn.co.kr/ad_article_center.php^$domain=ebn.co.kr
+||ebn.co.kr/ad_article_top.php^$domain=ebn.co.kr
 ||ecdn.firstimpression.io/apd_client.js^
 ||economy.hankooki.com/ad/
 ||edaily.co.kr/adview/$domain=edaily.co.kr
@@ -2581,6 +2583,12 @@ dvdprime.com##div#sidebar_doubleclick
 dvdprime.com##div#view_Contents>div.box_shadow_3>div.a_content.relative>div.relative
 dvdprime.com##div.ad_content_bottom
 dvdprime.com##div.mobile_responsive_1_div
+ebn.co.kr##div.bn320x200
+ebn.co.kr##div.bn615x115
+ebn.co.kr##div[itemprop="articleBody"]>div[style="float:right; width:300px; margin-left:5px;"]
+ebn.co.kr##iframe[src^="/ad_article_center.php"]
+ebn.co.kr##iframe[src^="/ad_article_top.php"]
+ebn.co.kr##ins[data-ad-slot="MT_ebn_right2nd_300_250"]
 economist.com##div.classified-ads
 economist.com##div.fe-blogs__sidebar-ad-wrapper
 economist.com##div.fe-blogs__top-ad-wrapper
