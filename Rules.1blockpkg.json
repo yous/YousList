@@ -16618,6 +16618,21 @@
                 }
             },
             {
+                "id": "f6b55eb1-cb17-4603-9e79-7c0a096b94d3",
+                "name": "m.ebn.co.kr/ad_under_caption.php$domain=m.ebn.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ebn\\.co\\.kr/ad_under_caption\\.php",
+                        "if-domain": [
+                            "m.ebn.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d85db696-fe65-4722-bfbb-8414b12d57ce",
                 "name": "m.edaily.co.kr/html/ad/ad_*.html$domain=m.edaily.co.kr",
                 "content": {
@@ -54141,6 +54156,19 @@
                 }
             },
             {
+                "id": "9d7184ee-47d4-4c16-8800-9062b436fb49",
+                "name": "m.ebn.co.kr##div[itemprop=\"articleBody\"]>table>tbody>tr>td>center>div[style=\"width:auto; height:90px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ebn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[itemprop=\"articleBody\"]>table>tbody>tr>td>center>div[style=\"width:auto; height:90px\"]"
+                    }
+                }
+            },
+            {
                 "id": "6493c0c5-343e-4db8-b8de-3674cf32d1a0",
                 "name": "m.ebn.co.kr##iframe[src^=\"/ad_article_center.php\"]",
                 "content": {
@@ -54150,6 +54178,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/ad_article_center.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "b386afc1-7826-4447-94e7-f8851732c4a7",
+                "name": "m.ebn.co.kr##ins[data-ad-slot=\"MT_ebn_Mbyline1st_300_250\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ebn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"MT_ebn_Mbyline1st_300_250\"]"
                     }
                 }
             },
