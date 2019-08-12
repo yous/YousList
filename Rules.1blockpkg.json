@@ -22603,6 +22603,21 @@
                 }
             },
             {
+                "id": "3cad4d4b-99ba-4552-9e2b-c0b387647a86",
+                "name": "torrentbe.com/banner/$domain=torrentbe.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentbe\\.com/banner/",
+                        "if-domain": [
+                            "torrentbe.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8a125599-b4ef-484a-9e44-34be22cdb1e9",
                 "name": "torrentmade.com/data/zn_banner/",
                 "content": {
@@ -77881,6 +77896,84 @@
                 }
             },
             {
+                "id": "a973eedb-4ef8-4b6b-8303-86df61aaabe3",
+                "name": "torrentbe.com##div#banner_right_list_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_right_list_wrap"
+                    }
+                }
+            },
+            {
+                "id": "c2f03761-0df6-4697-b436-682de9eb8471",
+                "name": "torrentmap.com##div#banner_right_list_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentmap\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_right_list_wrap"
+                    }
+                }
+            },
+            {
+                "id": "fe0de1da-6e0e-4f3d-bfd6-0f98600c3287",
+                "name": "torrentbe.com##div#banner_top_list_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_top_list_wrap"
+                    }
+                }
+            },
+            {
+                "id": "8aaeb028-6012-43a0-befa-65b621912a0c",
+                "name": "torrentmap.com##div#banner_top_list_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentmap\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_top_list_wrap"
+                    }
+                }
+            },
+            {
+                "id": "c0574577-2d5f-4ec5-9647-22d4056d77dd",
+                "name": "torrentbe.com##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
+                    }
+                }
+            },
+            {
+                "id": "4d7e8d81-e9b5-4d5d-8f69-3239a2350728",
+                "name": "torrentmap.com##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentmap\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
+                    }
+                }
+            },
+            {
                 "id": "4e9bc3a6-359b-4901-b901-f9b6ceee3f0e",
                 "name": "torrentcup.net##a[href^=\"/to_cheonseo.php\"]",
                 "content": {
@@ -79190,45 +79283,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.w-side>div[align=\"center\"]"
-                    }
-                }
-            },
-            {
-                "id": "c2f03761-0df6-4697-b436-682de9eb8471",
-                "name": "torrentmap.com##div#banner_right_list_wrap",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentmap\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#banner_right_list_wrap"
-                    }
-                }
-            },
-            {
-                "id": "8aaeb028-6012-43a0-befa-65b621912a0c",
-                "name": "torrentmap.com##div#banner_top_list_wrap",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentmap\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#banner_top_list_wrap"
-                    }
-                }
-            },
-            {
-                "id": "4d7e8d81-e9b5-4d5d-8f69-3239a2350728",
-                "name": "torrentmap.com##div.banner",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentmap\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.banner"
                     }
                 }
             },
