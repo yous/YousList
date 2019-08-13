@@ -72566,6 +72566,32 @@
                 }
             },
             {
+                "id": "9cef4bae-8d31-47d4-93e7-6eb5c21b4841",
+                "name": "sedaily.com##div#container>div[style=\"width: 1196px; height: 250px;\\a                                             clear:both;\\a                                             margin: 0 auto;\\a                                             display: block;\\a                                             margin-top: 40px;\\a                                             margin-bottom: -70px;\\a                                             border: 1px solid #ced2d7;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sedaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#container>div[style=\"width: 1196px; height: 250px;\\a                                             clear:both;\\a                                             margin: 0 auto;\\a                                             display: block;\\a                                             margin-top: 40px;\\a                                             margin-bottom: -70px;\\a                                             border: 1px solid #ced2d7;\"]"
+                    }
+                }
+            },
+            {
+                "id": "63dcde74-b095-4bca-9b95-55593d216160",
+                "name": "sedaily.com##div.ad_main_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sedaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_main_banner"
+                    }
+                }
+            },
+            {
                 "id": "4d89a45e-5300-4553-982f-575f7223930e",
                 "name": "sedaily.com##div.ad_wrap",
                 "content": {
