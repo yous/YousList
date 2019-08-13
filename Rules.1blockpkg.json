@@ -49569,6 +49569,19 @@
                 }
             },
             {
+                "id": "2b59293f-0bc9-46c2-a124-5db1464c64ac",
+                "name": "knrs.iheart.com##div.component-ad-unit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?knrs\\.iheart\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.component-ad-unit"
+                    }
+                }
+            },
+            {
                 "id": "cd01800f-fa5a-42e0-a503-b0e4f3a1205e",
                 "name": "kongregate.com##div.ad",
                 "content": {
