@@ -21243,13 +21243,14 @@
                 }
             },
             {
-                "id": "1b52446f-26a5-488a-be0e-4aba420a10b5",
-                "name": "smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~allvod.sbs.co.kr|~m.tvchosun.com|~news.sbs.co.kr|~news.tvchosun.com|~onair.imbc.com|~programs.sbs.co.kr",
+                "id": "873d2f82-f2a7-4237-9874-7b20b9a04e38",
+                "name": "smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~allvod.sbs.co.kr|~m.imbc.com|~m.tvchosun.com|~news.sbs.co.kr|~news.tvchosun.com|~onair.imbc.com|~programs.sbs.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?smrmembers-smr\\.smartmediarep\\.com/smc/smrmembers/",
                         "unless-domain": [
                             "allvod.sbs.co.kr",
+                            "m.imbc.com",
                             "m.tvchosun.com",
                             "news.sbs.co.kr",
                             "news.tvchosun.com",
