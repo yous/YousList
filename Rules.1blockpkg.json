@@ -72320,6 +72320,19 @@
                 }
             },
             {
+                "id": "c05d8fdf-3084-48de-b769-0f4256ac1142",
+                "name": "routefifty.com##div.advert-placeholder",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?routefifty\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advert-placeholder"
+                    }
+                }
+            },
+            {
                 "id": "41227dd7-eb56-4edf-92f0-b27fe6d99def",
                 "name": "rp5.ru#@#ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])",
                 "content": {
