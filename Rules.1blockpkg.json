@@ -7764,6 +7764,21 @@
                 }
             },
             {
+                "id": "c4b858bd-774e-47ff-8da9-04fba8f24eed",
+                "name": "adsmrapi.imbc.com/adRequest.ashx$domain=m.imbc.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adsmrapi\\.imbc\\.com/adRequest\\.ashx",
+                        "if-domain": [
+                            "m.imbc.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9125b3cd-78ae-43b1-9f69-d1eedcbd256d",
                 "name": "adspaces.ero-advertising.com/adspace/*.js",
                 "content": {
@@ -21243,14 +21258,13 @@
                 }
             },
             {
-                "id": "873d2f82-f2a7-4237-9874-7b20b9a04e38",
-                "name": "smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~allvod.sbs.co.kr|~m.imbc.com|~m.tvchosun.com|~news.sbs.co.kr|~news.tvchosun.com|~onair.imbc.com|~programs.sbs.co.kr",
+                "id": "88b4dd62-8513-40b3-b3aa-0d1328590606",
+                "name": "smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~allvod.sbs.co.kr|~m.tvchosun.com|~news.sbs.co.kr|~news.tvchosun.com|~onair.imbc.com|~programs.sbs.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?smrmembers-smr\\.smartmediarep\\.com/smc/smrmembers/",
                         "unless-domain": [
                             "allvod.sbs.co.kr",
-                            "m.imbc.com",
                             "m.tvchosun.com",
                             "news.sbs.co.kr",
                             "news.tvchosun.com",
