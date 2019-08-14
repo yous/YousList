@@ -1186,7 +1186,7 @@
 ||img.scupio.com/js/config/*.js^
 ||img.sportsseoul.com/ad/
 ||img.tvchosun.com/test/ad/$domain=news.tvchosun.com
-||img.tvchosun.com/upload_img/n2017/ad/$domain=m.tvchosun.com|news.tvchosun.com
+||img.tvchosun.com/upload_img/n2017/ad/$domain=m.tvchosun.com|news.tvchosun.com|vod.tvchosun.com
 ||img.tvchosun.com/upload_img/n2017/banner/$domain=news.tvchosun.com
 ||img.yonhapnews.co.kr/basic/svc/00_ko/resources/js/main_youtube.js^$domain=yonhapnews.co.kr
 ||img2.keywordsconnect.com/iconAdImg*.gif^
@@ -1518,8 +1518,8 @@
 ||op.mmnneo.com/banner.widget.asp^
 ||op.neoad.co.kr/adsearch*
 ||open.oneplus.net/cloud/pushdata^
-||openapi.tvchosun.com/player/smrAdv.cstv^$domain=broadcast.tvchosun.com|m.tvchosun.com
-||openapi.tvchosun.com/player/smrAdvLive.cstv^$domain=broadcast.tvchosun.com|m.tvchosun.com
+||openapi.tvchosun.com/player/smrAdv.cstv^$domain=broadcast.tvchosun.com|m.tvchosun.com|vod.tvchosun.com
+||openapi.tvchosun.com/player/smrAdvLive.cstv^$domain=broadcast.tvchosun.com|m.tvchosun.com|vod.tvchosun.com
 ||openload.co/assets/js/video-js/vast4/videojs_5.vast.vpaid.min.js^
 ||optimized-by.4wnetwork.com/simply_loader.js^
 ||outbanner.hu.co.kr/@files/human_banner/
@@ -2202,13 +2202,13 @@ breaknews.com##div.center_bn
 breaknews.com##div.contents_read>table:nth-of-type(2)>tbody>tr>td[style="padding-top:10px"]
 broadcast.tvchosun.com,news.tvchosun.com##div#MiddleAD
 broadcast.tvchosun.com,news.tvchosun.com##div#MiddleAD2
-broadcast.tvchosun.com,news.tvchosun.com##div.ad_area
 broadcast.tvchosun.com,news.tvchosun.com##div.pieceBanner
 broadcast.tvchosun.com,news.tvchosun.com##div.randomBanner
 broadcast.tvchosun.com,news.tvchosun.com##div[data-widget_id="goBv0qoe"]
-broadcast.tvchosun.com,news.tvchosun.com##iframe[src^="http://img.tvchosun.com/upload_img/n2017/ad/"]
 broadcast.tvchosun.com,news.tvchosun.com##iframe[src^="http://www.tvchosun.com/front/rnbAdplex2.html"]
 broadcast.tvchosun.com,news.tvchosun.com##ul.banner_list
+broadcast.tvchosun.com,news.tvchosun.com,vod.tvchosun.com##div.ad_area
+broadcast.tvchosun.com,news.tvchosun.com,vod.tvchosun.com##iframe[src^="http://img.tvchosun.com/upload_img/n2017/ad/"]
 bubbletorrent.com##div.bannerP
 buffed.de,pcgames.de,pcgameshardware.de##div#secondStickyBlock
 buffed.de,pcgames.de,pcgameshardware.de##div.contentFrameEddie
