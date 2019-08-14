@@ -19326,12 +19326,13 @@
                 }
             },
             {
-                "id": "646817b8-8576-4c69-84c3-60f8ccb469d0",
-                "name": "openapi.tvchosun.com/player/smrAdv.cstv$domain=m.tvchosun.com",
+                "id": "0c504ada-083a-454a-baba-b19f58c8fb52",
+                "name": "openapi.tvchosun.com/player/smrAdv.cstv$domain=broadcast.tvchosun.com|m.tvchosun.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?openapi\\.tvchosun\\.com/player/smrAdv\\.cstv",
                         "if-domain": [
+                            "broadcast.tvchosun.com",
                             "m.tvchosun.com"
                         ]
                     },
@@ -19341,12 +19342,13 @@
                 }
             },
             {
-                "id": "9fccf18c-abe2-4fdf-b7bd-98fedbc27b86",
-                "name": "openapi.tvchosun.com/player/smrAdvLive.cstv$domain=m.tvchosun.com",
+                "id": "e778ceaa-4df2-4614-8012-541017570cef",
+                "name": "openapi.tvchosun.com/player/smrAdvLive.cstv$domain=broadcast.tvchosun.com|m.tvchosun.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?openapi\\.tvchosun\\.com/player/smrAdvLive\\.cstv",
                         "if-domain": [
+                            "broadcast.tvchosun.com",
                             "m.tvchosun.com"
                         ]
                     },
