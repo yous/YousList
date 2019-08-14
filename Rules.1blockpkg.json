@@ -19326,6 +19326,36 @@
                 }
             },
             {
+                "id": "646817b8-8576-4c69-84c3-60f8ccb469d0",
+                "name": "openapi.tvchosun.com/player/smrAdv.cstv$domain=m.tvchosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?openapi\\.tvchosun\\.com/player/smrAdv\\.cstv",
+                        "if-domain": [
+                            "m.tvchosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9fccf18c-abe2-4fdf-b7bd-98fedbc27b86",
+                "name": "openapi.tvchosun.com/player/smrAdvLive.cstv$domain=m.tvchosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?openapi\\.tvchosun\\.com/player/smrAdvLive\\.cstv",
+                        "if-domain": [
+                            "m.tvchosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0347afe8-a58c-476f-9ad3-3002aebf8b3e",
                 "name": "openload.co/assets/js/video-js/vast4/videojs_5.vast.vpaid.min.js",
                 "content": {
@@ -21258,14 +21288,13 @@
                 }
             },
             {
-                "id": "88b4dd62-8513-40b3-b3aa-0d1328590606",
-                "name": "smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~allvod.sbs.co.kr|~m.tvchosun.com|~news.sbs.co.kr|~news.tvchosun.com|~onair.imbc.com|~programs.sbs.co.kr",
+                "id": "c7127ecb-e8d8-4e75-bc0b-34a8e399e063",
+                "name": "smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~allvod.sbs.co.kr|~news.sbs.co.kr|~news.tvchosun.com|~onair.imbc.com|~programs.sbs.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?smrmembers-smr\\.smartmediarep\\.com/smc/smrmembers/",
                         "unless-domain": [
                             "allvod.sbs.co.kr",
-                            "m.tvchosun.com",
                             "news.sbs.co.kr",
                             "news.tvchosun.com",
                             "onair.imbc.com",
