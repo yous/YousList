@@ -5701,6 +5701,21 @@
                 }
             },
             {
+                "id": "255984a0-76f3-496c-b998-b93b042d487b",
+                "name": "ad.jjang0u.com:8080/js.kti/jjang0u/$domain=m.jjang0u.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.jjang0u\\.com:8080/js\\.kti/jjang0u/",
+                        "if-domain": [
+                            "m.jjang0u.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0525277d-0a97-42d9-9b1b-f9a6fef9de72",
                 "name": "ad.kmib.co.kr",
                 "content": {
@@ -56645,6 +56660,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.banner"
+                    }
+                }
+            },
+            {
+                "id": "8b285585-559a-4240-bb78-102a855a416c",
+                "name": "m.jjang0u.com##div#view_middle_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.jjang0u\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#view_middle_ad"
+                    }
+                }
+            },
+            {
+                "id": "cee5eb6b-2a97-4e76-85b0-8b76bed14d9e",
+                "name": "m.jjang0u.com##div[style=\"padding:10px 0; width:100%; height:100px; clear:both; background-color:#ffffff; border-bottom:1px solid #eeeeee;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.jjang0u\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[style=\"padding:10px 0; width:100%; height:100px; clear:both; background-color:#ffffff; border-bottom:1px solid #eeeeee;\"]"
+                    }
+                }
+            },
+            {
+                "id": "f5686b3f-ad13-4f86-be0f-7ef2bdf73c81",
+                "name": "m.jjang0u.com##div[style=\"padding:5px 0; width:100%; height:100px; clear:both; background-color:#e5e5e5;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.jjang0u\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[style=\"padding:5px 0; width:100%; height:100px; clear:both; background-color:#e5e5e5;\"]"
+                    }
+                }
+            },
+            {
+                "id": "5550d4cd-74e2-4900-9bef-0ed6e538ff63",
+                "name": "m.jjang0u.com##div[style=\"padding:5px 0; width:100%; height:50px; clear:both; background-color:#e5e5e5;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.jjang0u\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[style=\"padding:5px 0; width:100%; height:50px; clear:both; background-color:#e5e5e5;\"]"
                     }
                 }
             },
