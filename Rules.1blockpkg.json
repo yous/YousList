@@ -60094,6 +60094,19 @@
                 }
             },
             {
+                "id": "b18c66c2-b6b2-4edd-bf45-d55b5e370954",
+                "name": "m.sportsseoul.com##div#ss_float",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.sportsseoul\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ss_float"
+                    }
+                }
+            },
+            {
                 "id": "6410cb8e-d479-4e14-96c0-448162ae6a76",
                 "name": "m.sportsseoul.com##div#wrap>div[style=\"width:100%;height:54px;\"]",
                 "content": {
