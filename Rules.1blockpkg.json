@@ -27763,6 +27763,19 @@
                 }
             },
             {
+                "id": "715399f1-bd7e-4b92-bf82-142d5af6551c",
+                "name": "amp.theguardian.com##div#ad-undefined",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?amp\\.theguardian\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad-undefined"
+                    }
+                }
+            },
+            {
                 "id": "49b4cd36-65c9-4a32-9d4d-1063db998a07",
                 "name": "androidcentral.com##div.adunit-wrap",
                 "content": {
