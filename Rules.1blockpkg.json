@@ -13553,6 +13553,30 @@
                 }
             },
             {
+                "id": "f4c91390-5445-4c2a-8726-c6da827da6a0",
+                "name": "get.optad360.io/sf/*/plugin.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?get\\.optad360\\.io/sf/.*/plugin\\.min\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "de80f0ed-afde-4f25-b14b-fb803ad553de",
+                "name": "get.optad360.io/sf/prebid*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?get\\.optad360\\.io/sf/prebid.*\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "eba92e6d-5d74-447f-abcb-3342698849f2",
                 "name": "get2.keywordsconnect.com",
                 "content": {
