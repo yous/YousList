@@ -1426,6 +1426,19 @@
                 }
             },
             {
+                "id": "e321ba48-91ec-45e0-8066-5c8ad3b42455",
+                "name": "##iframe[src^=\"//wr.catad5959.com/thumbnail/wrcatad.t\"][src*=\".thumbnail_banner.asp\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//wr.catad5959.com/thumbnail/wrcatad.t\"][src*=\".thumbnail_banner.asp\"]"
+                    }
+                }
+            },
+            {
                 "id": "8cd63fbd-8e3c-4719-aeb4-a333c7bfa59e",
                 "name": "##iframe[src^=\"//www.bodnara.co.kr/advert/advert.php\"]",
                 "content": {
@@ -8015,6 +8028,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?adverweb\\.cjenm\\.com/js\\.mezzo/etcPOC/"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c6cfcf41-f267-461d-a259-24f37a416547",
+                "name": "advimg.ad-mapps.com/sdk/M_PLUS/JS/ad/mezzo_SignalPlay_ad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?advimg\\.ad-mapps\\.com/sdk/M_PLUS/JS/ad/mezzo_SignalPlay_ad\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -17258,6 +17283,66 @@
                 }
             },
             {
+                "id": "a9b7b318-2e80-4afd-8223-8cf39154976f",
+                "name": "m.ytn.co.kr/js/ad/cross_ad.js$domain=m.ytn.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ytn\\.co\\.kr/js/ad/cross_ad\\.js",
+                        "if-domain": [
+                            "m.ytn.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "931ab077-ff43-4c70-a5fb-4ae813e92b7e",
+                "name": "m.ytn.co.kr/js/ad/self_ad.js$domain=m.ytn.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ytn\\.co\\.kr/js/ad/self_ad\\.js",
+                        "if-domain": [
+                            "m.ytn.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "05ed9112-8c72-40c2-a490-04ad75ceb7f3",
+                "name": "m.ytn.co.kr/js/mezzo/mezzoAD_ytnv*.js$domain=m.ytn.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ytn\\.co\\.kr/js/mezzo/mezzoAD_ytnv.*\\.js",
+                        "if-domain": [
+                            "m.ytn.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a6c98aab-fd43-4693-9834-43014bb660f6",
+                "name": "m.ytn.co.kr/js/mezzo/mezzo_call.js$domain=m.ytn.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ytn\\.co\\.kr/js/mezzo/mezzo_call\\.js",
+                        "if-domain": [
+                            "m.ytn.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "43b306ae-45a8-4a18-a5c8-49fb0e5175c1",
                 "name": "m.zbn.donga.com/banner/ad_cauly_hotnews.asp$domain=m.zbn.donga.com",
                 "content": {
@@ -23852,6 +23937,18 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?wr\\.catad5959\\.com/text/wrcatad\\.t.*\\.Text_banner\\.asp"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d6cf9589-88ea-4365-b17b-9c8a10f2ae8e",
+                "name": "wr.catad5959.com/thumbnail/wrcatad.t*.thumbnail_banner.asp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wr\\.catad5959\\.com/thumbnail/wrcatad\\.t.*\\.thumbnail_banner\\.asp"
                     },
                     "action": {
                         "type": "block"
@@ -61613,6 +61710,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#main_banner"
+                    }
+                }
+            },
+            {
+                "id": "b83a0d0b-b28e-40ec-910d-e40c9a75baf4",
+                "name": "m.ytn.co.kr##div#float_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ytn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#float_bottom"
+                    }
+                }
+            },
+            {
+                "id": "04c9f581-0847-483d-997c-e08234e0659e",
+                "name": "m.ytn.co.kr##div.banner_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ytn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_ad"
                     }
                 }
             },
