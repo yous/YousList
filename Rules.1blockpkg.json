@@ -19250,6 +19250,18 @@
                 }
             },
             {
+                "id": "3d1f6dc0-cfd1-4b60-bce4-6933dd5f9996",
+                "name": "o.aolcdn.com/ads/adsWrapper.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?o\\.aolcdn\\.com/ads/adsWrapper\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "04018a90-8c10-441b-819c-95678966566d",
                 "name": "ojsfile.ohmynews.com/AD_FILE/",
                 "content": {
@@ -20615,6 +20627,18 @@
                         "if-domain": [
                             "telegraph.co.uk"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7ffac32b-df70-427a-955d-0bf7dbc621f5",
+                "name": "s.yimg.com/av/yap/ga/yap.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?s\\.yimg\\.com/av/yap/ga/yap\\.js"
                     },
                     "action": {
                         "type": "block"
@@ -46019,6 +46043,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_spot"
+                    }
+                }
+            },
+            {
+                "id": "c8ffe8ad-f8fd-4204-a751-d4a0c2526071",
+                "name": "huffpost.com##div.advertisement",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?huffpost\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advertisement"
                     }
                 }
             },
