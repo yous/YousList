@@ -10418,6 +10418,42 @@
                 }
             },
             {
+                "id": "e8472508-0ec3-45ae-b464-3b53fe29f3f6",
+                "name": "cdn.interworksmedia.co.kr/js/tm/bip/latest/bip.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.interworksmedia\\.co\\.kr/js/tm/bip/latest/bip\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c1e8981d-1177-4648-97cf-5a691d0f1d1b",
+                "name": "cdn.interworksmedia.co.kr/js/tm/ip/latest/interplay.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.interworksmedia\\.co\\.kr/js/tm/ip/latest/interplay\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b6865de0-68bd-4402-8ec6-f1c47ecdbb98",
+                "name": "cdn.interworksmedia.co.kr/js/tm/ip/latest/iwmads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.interworksmedia\\.co\\.kr/js/tm/ip/latest/iwmads\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b6cada30-2166-4c1c-87eb-0df8a8826136",
                 "name": "cdn.iphonephotographyschool.com/wp-content/themes/ips-theme/lib/js/welcome.js$domain=iphonephotographyschool.com",
                 "content": {
@@ -31951,6 +31987,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#photoAD"
+                    }
+                }
+            },
+            {
+                "id": "84e8b46e-f0a1-49a0-a19a-a148600b841f",
+                "name": "biz.newdaily.co.kr##div.iwm_bip",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?biz\\.newdaily\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.iwm_bip"
+                    }
+                }
+            },
+            {
+                "id": "5a04153b-98aa-4c21-ae99-a7679b8af95e",
+                "name": "biz.newdaily.co.kr##div.nd-news-ad-bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?biz\\.newdaily\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.nd-news-ad-bottom"
+                    }
+                }
+            },
+            {
+                "id": "3bf2c932-2cd4-4b46-9b35-d58137f66a7a",
+                "name": "biz.newdaily.co.kr##section.nd-right>div>div[style=\"width:300px; height:240px;margin: 0 auto 10px;display:block;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?biz\\.newdaily\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.nd-right>div>div[style=\"width:300px; height:240px;margin: 0 auto 10px;display:block;\"]"
                     }
                 }
             },
