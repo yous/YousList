@@ -63828,6 +63828,32 @@
                 }
             },
             {
+                "id": "549cbe6c-0603-4d07-8483-ba2360159eb9",
+                "name": "mk.co.kr##div.read_txt>div[style=\"padding:15px 15px 15px 0; text-align:left; float:left; margin-right:5px; margin-bottom:15px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mk\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.read_txt>div[style=\"padding:15px 15px 15px 0; text-align:left; float:left; margin-right:5px; margin-bottom:15px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "7439f56e-d54e-4b45-a0a3-37fddb248e41",
+                "name": "mk.co.kr##div.read_txt>div[style=\"text-align:center; border:0; width:100%; margin:0 auto\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mk\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.read_txt>div[style=\"text-align:center; border:0; width:100%; margin:0 auto\"]"
+                    }
+                }
+            },
+            {
                 "id": "7f744e46-3080-49e4-adc6-3eadea8ff020",
                 "name": "mk.co.kr##div.view_txt>div[style=\"padding:15px 15px 15px 0; text-align:left; float:left; margin-right:5px; margin-bottom:15px;\"]",
                 "content": {
