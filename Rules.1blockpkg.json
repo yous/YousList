@@ -72317,6 +72317,19 @@
                 }
             },
             {
+                "id": "6d3c2bc3-2028-4119-ba29-23111fb6a425",
+                "name": "reddit.com##div#comment-atf",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?reddit\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#comment-atf"
+                    }
+                }
+            },
+            {
                 "id": "dcfef2be-8739-4a0a-aa44-d64b27313a06",
                 "name": "reddit.com##div.dfp-ad-container",
                 "content": {
