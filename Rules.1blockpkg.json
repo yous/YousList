@@ -58771,6 +58771,19 @@
                 }
             },
             {
+                "id": "fa58ba47-2ce7-46f2-a0a7-fdec51b2a70b",
+                "name": "m.news1.kr##div.article_content>div[style=\"float:right;margin-top:5px;margin-left:10px;width:200px;height:200px;background:#fff;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.news1\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article_content>div[style=\"float:right;margin-top:5px;margin-left:10px;width:200px;height:200px;background:#fff;\"]"
+                    }
+                }
+            },
+            {
                 "id": "662ac96c-bc04-45cf-93cd-a2aae30f0898",
                 "name": "m.news1.kr##div.banner01",
                 "content": {
