@@ -78557,6 +78557,19 @@
                 }
             },
             {
+                "id": "b1e3d0f1-bb44-4218-957a-b8bfebbf2f51",
+                "name": "topgear.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?topgear\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
                 "id": "cb7ce127-6e97-4d83-a097-236f203c8307",
                 "name": "topstarnews.net##article.article-veiw-body>div.clearfix>center>div[style=\"width:320px;height:50px;margin:0;padding:0\"]",
                 "content": {
