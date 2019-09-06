@@ -38231,6 +38231,32 @@
                 }
             },
             {
+                "id": "912ec52c-8b2f-4455-ba67-0725fb03b4b8",
+                "name": "dictionary.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dictionary\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "8a46f6f7-298e-49bf-b53a-262e7d46d76e",
+                "name": "dictionary.com##li.widget_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dictionary\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.widget_ad"
+                    }
+                }
+            },
+            {
                 "id": "6b650057-45b8-4ba1-ad08-202c8e7759d8",
                 "name": "digitalspy.com##div.ad-gpt-breaker",
                 "content": {
