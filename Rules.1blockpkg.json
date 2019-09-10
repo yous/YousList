@@ -23356,6 +23356,21 @@
                 }
             },
             {
+                "id": "c4ba279e-5b1d-4338-8e15-b706ba6f9f37",
+                "name": "v.24liveblog.com/iframe/ad*.php$domain=v.24liveblog.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?v\\.24liveblog\\.com/iframe/ad.*\\.php",
+                        "if-domain": [
+                            "v.24liveblog.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "fe20d74a-13db-413e-8af5-16fb0b29aa0e",
                 "name": "v5.actionteaser.ru/news.php",
                 "content": {
@@ -81946,6 +81961,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#LeaderboardWrapper"
+                    }
+                }
+            },
+            {
+                "id": "0ebedd69-11ac-4157-a845-25ac7d08777d",
+                "name": "v.24liveblog.com##div.lb24-component-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?v\\.24liveblog\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.lb24-component-ad"
+                    }
+                }
+            },
+            {
+                "id": "fdeefa7b-a3a4-43bd-b88e-47ae403e5985",
+                "name": "v.24liveblog.com##div.lb24-default-list-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?v\\.24liveblog\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.lb24-default-list-ad"
+                    }
+                }
+            },
+            {
+                "id": "9ee4b3d4-fee4-460e-a434-41c0d20d4623",
+                "name": "v.24liveblog.com##iframe[src^=\"//v.24liveblog.com/iframe/ad\"][src*=\".php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?v\\.24liveblog\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//v.24liveblog.com/iframe/ad\"][src*=\".php\"]"
                     }
                 }
             },
