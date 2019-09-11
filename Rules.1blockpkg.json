@@ -40573,6 +40573,19 @@
                 }
             },
             {
+                "id": "7b65f86f-56e7-4fe9-9034-b696164fcb74",
+                "name": "embedded.com##div.ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?embedded\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ads"
+                    }
+                }
+            },
+            {
                 "id": "1d3eadb9-6be7-4fc6-a453-3ef6445aebbb",
                 "name": "emoticonfun.com##div.notice_1",
                 "content": {
