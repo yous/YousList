@@ -4169,6 +4169,19 @@
                 }
             },
             {
+                "id": "71ab17bd-1557-491f-8faa-9ea758711823",
+                "name": "##iframe[src^=\"https://www.dianomi.com/smartads.epl\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://www.dianomi.com/smartads.epl\"]"
+                    }
+                }
+            },
+            {
                 "id": "5438d34c-75da-4473-8f89-49d40e726736",
                 "name": "##iframe[src^=\"https://www.kodcad.kr/ad/\"]",
                 "content": {
