@@ -72657,15 +72657,15 @@
                 }
             },
             {
-                "id": "fad3db35-8a36-4fc2-b76d-dcf3713985d4",
-                "name": "reuters.com##div.TwoColumnLayout_column>div[class]::not(.ArticleHeader_content-container):not(.StandardArticleBody_container)",
+                "id": "d6bc2b3c-69da-4948-af68-50d30e86fbeb",
+                "name": "reuters.com##div.TwoColumnLayout_column>div[class]:not(.ArticleHeader_content-container):not(.StandardArticleBody_container)",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?reuters\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.TwoColumnLayout_column>div[class]::not(.ArticleHeader_content-container):not(.StandardArticleBody_container)"
+                        "selector": "div.TwoColumnLayout_column>div[class]:not(.ArticleHeader_content-container):not(.StandardArticleBody_container)"
                     }
                 }
             },
