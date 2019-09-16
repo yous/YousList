@@ -69758,6 +69758,19 @@
                 }
             },
             {
+                "id": "6a04605a-1af5-47a8-95f7-e8aea323c431",
+                "name": "nytimes.com##div.g-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?nytimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.g-ad"
+                    }
+                }
+            },
+            {
                 "id": "e811420d-220f-4259-937d-5db3d5883b2a",
                 "name": "nytimes.com##div[id^=\"story-ad-\"][id$=\"-wrapper\"]",
                 "content": {
