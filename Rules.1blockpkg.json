@@ -66495,6 +66495,19 @@
                 }
             },
             {
+                "id": "d0ae4173-b57a-491b-87f0-df1529073d55",
+                "name": "news.joins.com##div.ad_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?news\\.joins\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_top"
+                    }
+                }
+            },
+            {
                 "id": "8881fa73-d73e-4d1d-98bb-ad9496bba4c1",
                 "name": "news.joins.com##div.advertising",
                 "content": {
