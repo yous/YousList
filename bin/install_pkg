@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -e
+DIR="$(cd "$(dirname "$0")/.." && pwd)"
+TMPDIR="$(mktemp -d)"
+
+echo "cp Rules.1blockpkg \"${TMPDIR}/\""
+cp "${DIR}/Rules.1blockpkg" "${TMPDIR}/"
+
+echo "open \"${TMPDIR}/Rules.1blockpkg\""
+open "${TMPDIR}/Rules.1blockpkg"
