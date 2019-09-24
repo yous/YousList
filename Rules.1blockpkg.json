@@ -958,6 +958,19 @@
                 }
             },
             {
+                "id": "8e3321f9-58b7-4a82-870e-11fd481536ef",
+                "name": "##iframe[src^=\"//ad.reople.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//ad.reople.co.kr/\"]"
+                    }
+                }
+            },
+            {
                 "id": "00937db8-7f96-4ff8-9f8b-df3f8db02873",
                 "name": "##iframe[src^=\"//ad.vkoad.com/showads.php\"]",
                 "content": {
@@ -1062,6 +1075,19 @@
                 }
             },
             {
+                "id": "fde2e1c9-ad97-42a4-8b67-a51c3f5d2906",
+                "name": "##iframe[src^=\"//ads.mncmedia.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//ads.mncmedia.co.kr/\"]"
+                    }
+                }
+            },
+            {
                 "id": "5387aa3e-300f-432a-bbbb-e67dc3717d61",
                 "name": "##iframe[src^=\"//ads.theporndb.com/www/delivery/afr.php\"]",
                 "content": {
@@ -1110,6 +1136,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"//adspaces.ero-advertising.com/banads/view.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "63ceacc0-9158-4526-b77f-017a7a800053",
+                "name": "##iframe[src^=\"//adv.imadrep.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//adv.imadrep.co.kr/\"]"
                     }
                 }
             },
@@ -73394,6 +73433,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.hed_ad"
+                    }
+                }
+            },
+            {
+                "id": "9a873cda-098a-46cc-b205-f1c21e4a05c6",
+                "name": "seoul.co.kr##div.wrap>div[style=\"clear:both;width:100%;text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?seoul\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wrap>div[style=\"clear:both;width:100%;text-align:center;\"]"
                     }
                 }
             },
