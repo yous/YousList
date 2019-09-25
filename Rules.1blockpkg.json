@@ -41990,6 +41990,19 @@
                 }
             },
             {
+                "id": "645aa435-0cfc-4f15-90b1-de0c716a7a0d",
+                "name": "fastcompany.com##div.post__article-top-ad-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?fastcompany\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.post__article-top-ad-wrapper"
+                    }
+                }
+            },
+            {
                 "id": "83bdb0ae-036b-4b92-9aba-a8b2f04e441d",
                 "name": "feedly.com##div.bsa-native-ad",
                 "content": {
