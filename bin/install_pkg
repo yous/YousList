@@ -8,3 +8,10 @@ cp "${DIR}/Rules.1blockpkg" "${TMPDIR}/"
 
 echo "open \"${TMPDIR}/Rules.1blockpkg\""
 open "${TMPDIR}/Rules.1blockpkg"
+
+while [ ! -e "${HOME}/.Trash/Rules.1blockpkg" ]; do
+  sleep 1
+done
+
+echo "rm ~/.Trash/Rules.1blockpkg"
+rm "${HOME}/.Trash/Rules.1blockpkg"
