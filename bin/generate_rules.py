@@ -207,10 +207,12 @@ class FilterParser:
                                 [r'\\\|$', '$']]:
             url_regex = re.sub(search, replace, url_regex)
         trigger['url-filter'] = url_regex
+        trigger['url-filter-is-case-sensitive'] = False
 
         opt_dict = self._parse_options(options)
         trigger.update(opt_dict)
         trigger_ordered_keys = ['url-filter',
+                                'url-filter-is-case-sensitive',
                                 'resource-type',
                                 'load-type',
                                 'if-domain',
@@ -259,6 +261,8 @@ class FilterParser:
                 opt_dict['resource-type'] = ['script']
             elif opt_key == 'third-party':
                 opt_dict['load-type'] = ['third-party']
+            elif opt_key == 'match-case':
+                opt_dict['url-filter-is-case-sensitive'] = True
             else:
                 raise Exception('Cannot handle this option: ' + opt_key)
         return opt_dict
