@@ -16026,6 +16026,18 @@
                 }
             },
             {
+                "id": "d1df074f-6513-4ede-9b52-22f253404be9",
+                "name": "js.newsmobile.co.kr/ListingP_New_v*_m.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?js\\.newsmobile\\.co\\.kr/ListingP_New_v.*_m\\.js"
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "e08fca51-0e9b-442d-960c-92fb5ecc172e",
                 "name": "js.newsmobile.co.kr/fadein_*.js",
                 "content": {
@@ -20480,14 +20492,15 @@
                 }
             },
             {
-                "id": "206a25b5-232d-4814-bc9e-1683092788f1",
-                "name": "res.heraldm.com/adbanner/$domain=biz.heraldcorp.com|koreaherald.com|news.heraldcorp.com",
+                "id": "b539397c-46cf-43ab-b17d-17339264c334",
+                "name": "res.heraldm.com/adbanner/$domain=biz.heraldcorp.com|koreaherald.com|mbiz.heraldcorp.com|news.heraldcorp.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?res\\.heraldm\\.com/adbanner/",
                         "if-domain": [
                             "biz.heraldcorp.com",
                             "koreaherald.com",
+                            "mbiz.heraldcorp.com",
                             "news.heraldcorp.com"
                         ]
                     },
@@ -62803,6 +62816,19 @@
                 }
             },
             {
+                "id": "ba392f1b-8de5-458c-a2c4-ee79039054a5",
+                "name": "mbiz.heraldcorp.com##body>div[style=\"padding:10px 0px ; width:100%; text-align:center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mbiz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"padding:10px 0px ; width:100%; text-align:center;\"]"
+                    }
+                }
+            },
+            {
                 "id": "c58e9fc3-665f-48b0-b263-293a0df9eed1",
                 "name": "mbiz.heraldcorp.com##div#articleText>p[style=\"margin:5px 0 ;width:100%; text-align:center; \"]",
                 "content": {
@@ -62946,6 +62972,32 @@
                 }
             },
             {
+                "id": "3f1dbd4e-4807-40b3-a18c-4950d530de0b",
+                "name": "mbiz.heraldcorp.com##div.ad_title_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mbiz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_title_top"
+                    }
+                }
+            },
+            {
+                "id": "321a468c-2c9b-49ef-9365-c9cc306a6628",
+                "name": "mbiz.heraldcorp.com##div.in_ad_1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mbiz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.in_ad_1"
+                    }
+                }
+            },
+            {
                 "id": "b1c63c9d-6677-4204-88b0-db95cb304dfd",
                 "name": "mbiz.heraldcorp.com##div.story",
                 "content": {
@@ -62994,6 +63046,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "li[id^=\"adsmnc\"]"
+                    }
+                }
+            },
+            {
+                "id": "8a32061d-3077-4306-afc8-deb2116d9239",
+                "name": "mbiz.heraldcorp.com##li[id^=\"finead_item\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mbiz\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li[id^=\"finead_item\"]"
                     }
                 }
             },
