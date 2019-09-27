@@ -20281,6 +20281,40 @@
                 }
             },
             {
+                "id": "c5f953a8-6c30-42f2-8298-c9397b176520",
+                "name": "newtoki26.com/data/banner/$domain=newtoki26.com|newtoki26.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newtoki26\\.com/data/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "newtoki26.com",
+                            "newtoki26.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8068efac-9539-4fb1-9aa2-f6776b7c2c9e",
+                "name": "newtoki26.net/data/banner/$domain=newtoki26.com|newtoki26.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newtoki26\\.net/data/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "newtoki26.com",
+                            "newtoki26.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ac56f321-eb49-46d6-9f29-8fe089e0c7ab",
                 "name": "nex.163.com/q$domain=163.com",
                 "content": {
