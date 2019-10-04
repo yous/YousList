@@ -78036,6 +78036,45 @@
                 }
             },
             {
+                "id": "4786e604-65f5-495c-8be1-caa68fe11695",
+                "name": "sundayjournalusa.com##div.flying_lban",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sundayjournalusa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.flying_lban"
+                    }
+                }
+            },
+            {
+                "id": "a9277ec7-ecf2-4eca-b568-acdabc646828",
+                "name": "sundayjournalusa.com##div.flying_rban",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sundayjournalusa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.flying_rban"
+                    }
+                }
+            },
+            {
+                "id": "ed9bae7c-e8f4-47b3-9e61-b9cd56e3e339",
+                "name": "sundayjournalusa.com##header#header>div.wrap>div[style=\"float:right;width: 740px;text-align:right;margin-top: 3px;max-width:100%;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sundayjournalusa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "header#header>div.wrap>div[style=\"float:right;width: 740px;text-align:right;margin-top: 3px;max-width:100%;\"]"
+                    }
+                }
+            },
+            {
                 "id": "4465dfac-9636-4a5e-bd2d-be9c723503f9",
                 "name": "suyongso.com##div.rd_ft>div[class^=\"bd_\"][class*=\"_m\"]",
                 "content": {
