@@ -24397,6 +24397,22 @@
                 }
             },
             {
+                "id": "02ac47ba-3272-4648-b437-88a016656f71",
+                "name": "torrentbie.com/banner/$domain=torrentbie.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentbie\\.com/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "torrentbie.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8a125599-b4ef-484a-9e44-34be22cdb1e9",
                 "name": "torrentmade.com/data/zn_banner/",
                 "content": {
@@ -80558,6 +80574,19 @@
                 }
             },
             {
+                "id": "e1e45dbe-4100-4c52-9aa7-6196ca02b8fc",
+                "name": "torrentbie.com##div#banner_right_list_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentbie\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_right_list_wrap"
+                    }
+                }
+            },
+            {
                 "id": "c2f03761-0df6-4697-b436-682de9eb8471",
                 "name": "torrentmap.com##div#banner_right_list_wrap",
                 "content": {
@@ -80576,6 +80605,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?torrentbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_top_list_wrap"
+                    }
+                }
+            },
+            {
+                "id": "43c915e6-c467-4b14-a146-747ed29db46d",
+                "name": "torrentbie.com##div#banner_top_list_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentbie\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -80610,6 +80652,19 @@
                 }
             },
             {
+                "id": "8cea357a-675a-4e02-91f2-d77db1de97a6",
+                "name": "torrentbie.com##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentbie\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
+                    }
+                }
+            },
+            {
                 "id": "4d7e8d81-e9b5-4d5d-8f69-3239a2350728",
                 "name": "torrentmap.com##div.banner",
                 "content": {
@@ -80619,6 +80674,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.banner"
+                    }
+                }
+            },
+            {
+                "id": "36b7bd79-5cd1-4743-9902-d8276ead01d8",
+                "name": "torrentbe.com##ul.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentbe\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.banner"
+                    }
+                }
+            },
+            {
+                "id": "62cd180d-de64-4cd3-b355-444f8f396634",
+                "name": "torrentbie.com##ul.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentbie\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.banner"
+                    }
+                }
+            },
+            {
+                "id": "6d86dd01-94e0-44f5-8827-9c22886917dc",
+                "name": "torrentmap.com##ul.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentmap\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.banner"
                     }
                 }
             },
