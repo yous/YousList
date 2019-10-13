@@ -73697,6 +73697,19 @@
                 }
             },
             {
+                "id": "29f2f1b7-581a-48e8-9e0a-de861d75b2ea",
+                "name": "ppss.kr##div.ap_container.google-auto-placed",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ppss\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ap_container.google-auto-placed"
+                    }
+                }
+            },
+            {
                 "id": "295b7eaa-f0cc-4b82-9f4d-84a933c5068f",
                 "name": "ppss.kr##div.userContent>div.dable_placeholder",
                 "content": {
