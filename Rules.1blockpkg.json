@@ -67652,6 +67652,19 @@
                 }
             },
             {
+                "id": "c028865f-974a-442b-b4f8-6062317749db",
+                "name": "nate.com##div#adContainer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adContainer"
+                    }
+                }
+            },
+            {
                 "id": "f527ef55-a7a0-4c47-8916-58d00bf625d1",
                 "name": "nate.com##div#shopLoading",
                 "content": {
@@ -67661,6 +67674,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#shopLoading"
+                    }
+                }
+            },
+            {
+                "id": "2e66381e-6ae5-49b9-93b4-c35c9b64fce5",
+                "name": "nate.com##div[class^=\"area_ad\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"area_ad\"]"
+                    }
+                }
+            },
+            {
+                "id": "f55e2794-b104-4cc4-a6b9-f31751f7ef07",
+                "name": "nate.com##div[id^=\"ad_layer\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"ad_layer\"]"
                     }
                 }
             },
