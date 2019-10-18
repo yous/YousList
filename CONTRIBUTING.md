@@ -17,6 +17,10 @@
 
 ## Scripts
 
+### `bin/install_pkg`
+
+Install `Rules.1blockpkg` on macOS.
+
 ### `bin/release`
 
 Build `Rules.1blockpkg.json` and `Rules.1blockpkg` from `youslist.txt`.
