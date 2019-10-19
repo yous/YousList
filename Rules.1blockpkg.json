@@ -77530,6 +77530,19 @@
                 }
             },
             {
+                "id": "1370633f-7234-4aa2-87f9-1a5dc736dfd6",
+                "name": "sportsseoul.com##iframe[src*=\"/RealMedia/ads/\"]:not([src*=\"/RealMedia/ads/adstream_sx.ads/www.sportsseoul.com/main@Bottom\"])",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sportsseoul\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"/RealMedia/ads/\"]:not([src*=\"/RealMedia/ads/adstream_sx.ads/www.sportsseoul.com/main@Bottom\"])"
+                    }
+                }
+            },
+            {
                 "id": "c2bf3d67-a975-4519-ad99-ec59d9157ec2",
                 "name": "spotvnews.co.kr##p.adcontrol41_box",
                 "content": {
