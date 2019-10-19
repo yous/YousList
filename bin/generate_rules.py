@@ -84,7 +84,8 @@ class FilterParser:
 
     def _parse_rule(self, line):
         line = line.strip()
-        if not line or line.startswith('!') or re.match('\[Adblock.*\]', line):
+        if (not line or line.startswith('!') or
+                re.match(r'\[Adblock.*\]', line)):
             return
         if '##' in line:
             # Element hiding rule
@@ -113,9 +114,31 @@ class FilterParser:
             for url in url_list:
                 self._parse_hiding_rule(url + '##' + css)
             return
+        url = urls
 
-        rule = self._parse_hiding_rule_with_separator(line, '##')
-        rule['content']['action']['type'] = 'css-display-none'
+        rule = OrderedDict()
+        name = line
+        rule['id'] = self._get_rule_id(name)
+        rule['name'] = name
+
+        if url.startswith('~'):
+            # Element hiding exception rule
+            raise Exception('Cannot handle this rule: ' + line)
+        trigger = OrderedDict()
+        if url:
+            trigger['url-filter'] = \
+                self.DOMAIN_PREFIX + url.replace('.', '\\.')
+        else:
+            trigger['url-filter'] = '.*'
+
+        action = OrderedDict()
+        action['type'] = 'css-display-none'
+        action['selector'] = css
+
+        content = OrderedDict()
+        content['trigger'] = trigger
+        content['action'] = action
+        rule['content'] = content
         self.rules.append(rule)
 
     def _parse_hiding_exception_rule(self, line):
@@ -126,10 +149,30 @@ class FilterParser:
             for url in url_list:
                 self._parse_hiding_exception_rule(url + '#@#' + css)
             return
+        url = urls
 
-        rule = self._parse_hiding_rule_with_separator(line, '#@#')
-        rule['content']['action']['type'] = 'ignore-previous-rules'
-        self.rules.append(rule)
+        for i in range(len(self.rules)):
+            rule = self.rules[i]
+            content = rule['content']
+            trigger = content['trigger']
+            action = content['action']
+
+            url_filter = trigger['url-filter']
+            if_domain = trigger.get('if-domain')
+            unless_domain = trigger.get('unless-domain')
+
+            if (action['type'] == 'css-display-none' and
+                    action['selector'] == css and
+                    url_filter == '.*' and
+                    not if_domain):
+                if unless_domain is None:
+                    unless_domain = ['*' + url]
+                else:
+                    unless_domain.append('*' + url)
+                self.rules[i]['content']['trigger']['unless-domain'] = \
+                    unless_domain
+                return
+        raise Exception('Cannot handle this rule: ' + line)
 
     def _parse_hiding_rule_with_separator(self, line, sep):
         """rule['content']['action']['type'] should be set."""
@@ -201,7 +244,7 @@ class FilterParser:
         for search, replace in [[r'\*+', '*'],
                                 [r'\^\|$', '^'],
                                 [r'[.+?${}()|[\]\\]', r'\\\g<0>'],
-                                ['\*', '.*'],
+                                [r'\*', '.*'],
                                 [r'^\\\|\\\|', self.DOMAIN_PREFIX],
                                 [r'^\\\|', '^'],
                                 [r'\\\|$', '$']]:

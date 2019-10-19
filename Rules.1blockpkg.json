@@ -840,7 +840,10 @@
                 "name": "##iframe[src*=\"/RealMedia/ads/\"]",
                 "content": {
                     "trigger": {
-                        "url-filter": ".*"
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*sportsseoul.com"
+                        ]
                     },
                     "action": {
                         "type": "css-display-none",
@@ -4233,7 +4236,10 @@
                 "name": "##ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])",
                 "content": {
                     "trigger": {
-                        "url-filter": ".*"
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*rp5.ru"
+                        ]
                     },
                     "action": {
                         "type": "css-display-none",
@@ -74768,19 +74774,6 @@
                 }
             },
             {
-                "id": "41227dd7-eb56-4edf-92f0-b27fe6d99def",
-                "name": "rp5.ru#@#ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?rp5\\.ru"
-                    },
-                    "action": {
-                        "type": "ignore-previous-rules",
-                        "selector": "ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])"
-                    }
-                }
-            },
-            {
                 "id": "8bfc637d-4cce-4d00-a6c5-c1390e1749ae",
                 "name": "ruliweb.com##div.ad",
                 "content": {
@@ -77533,19 +77526,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.article_newsWrap>div[style=\"position: relative; height: 90px; overflow: hidden;\"]"
-                    }
-                }
-            },
-            {
-                "id": "846e2833-6aa0-4d6f-ae7f-62ca63589590",
-                "name": "sportsseoul.com#@#iframe[src*=\"/RealMedia/ads/\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?sportsseoul\\.com"
-                    },
-                    "action": {
-                        "type": "ignore-previous-rules",
-                        "selector": "iframe[src*=\"/RealMedia/ads/\"]"
                     }
                 }
             },
