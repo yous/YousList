@@ -3,6 +3,9 @@ set -e
 DIR="$(cd "$(dirname "$0")/.." && pwd)"
 TMPDIR="$(mktemp -d)"
 
+echo "echo '[]' > ~/Library/Group\\ Containers/*.com.khanov.Blocker/CustomPackages.json"
+echo '[]' > "${HOME}"/Library/Group\ Containers/*.com.khanov.Blocker/CustomPackages.json
+
 echo "cp Rules.1blockpkg \"${TMPDIR}/\""
 cp "${DIR}/Rules.1blockpkg" "${TMPDIR}/"
 
