@@ -151,6 +151,9 @@ class FilterParser:
             return
         url = urls
 
+        if url.startswith('~'):
+            # Element hiding exception rule
+            raise Exception('Cannot handle this rule: ' + line)
         for i in range(len(self.rules)):
             rule = self.rules[i]
             content = rule['content']
