@@ -44172,6 +44172,19 @@
                 }
             },
             {
+                "id": "0636d442-91af-4a17-acc5-4c0c144c4b9e",
+                "name": "forbes.com##div.vestpocket",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?forbes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.vestpocket"
+                    }
+                }
+            },
+            {
                 "id": "1200ba1c-a24f-4548-8c76-093a51467957",
                 "name": "forbes.com##div[class^=\"fbs-ad--\"]",
                 "content": {
