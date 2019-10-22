@@ -61020,6 +61020,19 @@
                 }
             },
             {
+                "id": "03f5edaa-801b-48ef-8f19-665f87640120",
+                "name": "m.nocutnews.co.kr##div#pnlTopAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.nocutnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#pnlTopAd"
+                    }
+                }
+            },
+            {
                 "id": "931029d7-8e95-436d-a76b-ccd34f19f038",
                 "name": "m.nocutnews.co.kr##div.ad_ft",
                 "content": {
@@ -61055,6 +61068,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ct1>div.con_b>div:not([class]):not([id])"
+                    }
+                }
+            },
+            {
+                "id": "f3b3ba69-867d-4f30-906b-33682b407197",
+                "name": "m.nocutnews.co.kr##div.ct2>div.con_b>div[style=\"text-align: center; padding: 0; height:100px; overflow:hidden;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.nocutnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ct2>div.con_b>div[style=\"text-align: center; padding: 0; height:100px; overflow:hidden;\"]"
                     }
                 }
             },
