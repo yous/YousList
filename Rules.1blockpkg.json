@@ -60409,6 +60409,32 @@
                 }
             },
             {
+                "id": "64c4db7b-aabb-46ce-8087-84e7baf6db8a",
+                "name": "m.nate.com##div.mainBnFull",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mainBnFull"
+                    }
+                }
+            },
+            {
+                "id": "16a34ca2-ffe9-460c-8ed3-d524c4f62ffa",
+                "name": "m.nate.com##div.new_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.new_ad"
+                    }
+                }
+            },
+            {
                 "id": "f522539f-60be-492e-be83-861172f4b4d2",
                 "name": "m.naver.com##div.grid_ad",
                 "content": {
