@@ -1320,6 +1320,32 @@
                 }
             },
             {
+                "id": "d18f6545-fab1-462a-a371-be4bf0c56175",
+                "name": "##iframe[src^=\"//shop.nate.com/shopbox/shopbox.htm\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//shop.nate.com/shopbox/shopbox.htm\"]"
+                    }
+                }
+            },
+            {
+                "id": "6866edc7-4a91-493c-9994-46442665eb39",
+                "name": "##iframe[src^=\"//shop.nate.com/shopbox/shopbox_V3.htm\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//shop.nate.com/shopbox/shopbox_V3.htm\"]"
+                    }
+                }
+            },
+            {
                 "id": "c4f6a8af-4611-44d6-86b7-cfae162b1cdd",
                 "name": "##iframe[src^=\"//ssp.adpies.com/ssp/request\"]",
                 "content": {
@@ -22699,6 +22725,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?shop\\.nate\\.com/shopbox/shopbox\\.htm",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "40166936-c547-44be-ae44-20cb11d8d633",
+                "name": "shop.nate.com/shopbox/shopbox_V3.htm",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?shop\\.nate\\.com/shopbox/shopbox_V3\\.htm",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
