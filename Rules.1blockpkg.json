@@ -37035,6 +37035,32 @@
                 }
             },
             {
+                "id": "bf04a227-137d-489c-936b-70a2961d24c7",
+                "name": "cdn-city.livere.com##div.contents-container>div.content>div.content-description>a[title^=\"[AD] \"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn-city\\.livere\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contents-container>div.content>div.content-description>a[title^=\"[AD] \"]"
+                    }
+                }
+            },
+            {
+                "id": "f3fc9df2-0928-4144-a294-7613012838e2",
+                "name": "cdn-city.livere.com##div.contents-container>div.content>div.content-thumnail>a[title^=\"[AD] \"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn-city\\.livere\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contents-container>div.content>div.content-thumnail>a[title^=\"[AD] \"]"
+                    }
+                }
+            },
+            {
                 "id": "f527d45c-5013-4427-aedc-3ecb1892c3d9",
                 "name": "cdn-city.livere.com##ul.contents-list>li.tenping-title",
                 "content": {
