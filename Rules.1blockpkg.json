@@ -1567,6 +1567,19 @@
                 }
             },
             {
+                "id": "2d9c7e97-9471-420d-9d69-3c059c7d9029",
+                "name": "##iframe[src^=\"//www.sunnyworks.co.kr/data/SW\"][src$=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//www.sunnyworks.co.kr/data/SW\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
                 "id": "6a05be38-f433-4e12-8f75-06adbe9374be",
                 "name": "##iframe[src^=\"//x.jd.com/exsites\"]",
                 "content": {
