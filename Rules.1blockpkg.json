@@ -14894,6 +14894,54 @@
                 }
             },
             {
+                "id": "e81bc6a8-88c4-4587-8d22-cdcad0fffa81",
+                "name": "health.chosun.com/js/2015/right_bestdoctor_2015s.js$domain=health.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?health\\.chosun\\.com/js/2015/right_bestdoctor_2015s\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "health.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "826e24da-4761-457e-beb2-129c1c89c23f",
+                "name": "health.chosun.com/js/2018/left_wing.js$domain=health.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?health\\.chosun\\.com/js/2018/left_wing\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "health.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1e530f7a-3152-4774-9a23-71446c057602",
+                "name": "health.chosun.com/js/2018/right_wing.js$domain=health.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?health\\.chosun\\.com/js/2018/right_wing\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "health.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "21eed1b5-b8cf-477f-901d-241688737b38",
                 "name": "hei.hankyung.com/js/ad/iconad_hankyung_heien.js$domain=hei.hankyung.com",
                 "content": {
@@ -47054,6 +47102,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "dd.rel_pd"
+                    }
+                }
+            },
+            {
+                "id": "f6aca022-7ded-4039-bad1-ec97a1e07fd2",
+                "name": "health.chosun.com##div.aside_doctor",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?health\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.aside_doctor"
+                    }
+                }
+            },
+            {
+                "id": "f191412c-b609-470b-9308-1168d0f4c748",
+                "name": "health.chosun.com##div.left_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?health\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.left_banner"
+                    }
+                }
+            },
+            {
+                "id": "b4fc3d2f-89c4-4583-944e-c0005125c8f2",
+                "name": "health.chosun.com##div.right_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?health\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.right_banner"
                     }
                 }
             },
