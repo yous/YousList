@@ -1320,6 +1320,19 @@
                 }
             },
             {
+                "id": "d99b8e14-54ec-4741-b630-22485be913f6",
+                "name": "##iframe[src^=\"//server.cpmstar.com/cached/client/\"][src*=\"/carouselv1.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//server.cpmstar.com/cached/client/\"][src*=\"/carouselv1.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "d18f6545-fab1-462a-a371-be4bf0c56175",
                 "name": "##iframe[src^=\"//shop.nate.com/shopbox/shopbox.htm\"]",
                 "content": {
@@ -3907,6 +3920,19 @@
                 }
             },
             {
+                "id": "15db3432-9b97-4830-8ed7-e4d4a2bc09ab",
+                "name": "##iframe[src^=\"https://a.adtng.com/get/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://a.adtng.com/get/\"]"
+                    }
+                }
+            },
+            {
                 "id": "1c6062ec-039a-4a12-9bdb-e45f853e9792",
                 "name": "##iframe[src^=\"https://ad.luxnet.ua/dfp/spot.html\"]",
                 "content": {
@@ -4137,6 +4163,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"https://search2.nuriclick.co.kr/banner.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "0563e824-f77f-4159-972d-40d61ce1c93e",
+                "name": "##iframe[src^=\"https://server.cpmstar.com/cached/client/\"][src*=\"/carouselv1.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://server.cpmstar.com/cached/client/\"][src*=\"/carouselv1.html\"]"
                     }
                 }
             },
@@ -4856,6 +4895,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?7fkm2r4pzi\\.com/.*/.*/.*/.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "374e745f-8586-4b0f-8265-2f574b75bd7e",
+                "name": "a.adtng.com/get/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?a\\.adtng\\.com/get/",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -22666,6 +22718,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?serve\\.popads\\.net/s",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1a11ccda-600b-4c14-a081-f86c004878bf",
+                "name": "server.cpmstar.com/cached/client/*/carouselv1.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?server\\.cpmstar\\.com/cached/client/.*/carouselv1\\.html",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -68240,6 +68305,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#iw_ad4"
+                    }
+                }
+            },
+            {
+                "id": "99f307ab-7a50-4480-bff9-7b825a7356f7",
+                "name": "newgrounds.com##div#afrc_skin",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newgrounds\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#afrc_skin"
+                    }
+                }
+            },
+            {
+                "id": "7139e237-608a-457e-8ff6-a91631440020",
+                "name": "newgrounds.com##div[class^=\"ng-ad-container-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newgrounds\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"ng-ad-container-\"]"
                     }
                 }
             },
