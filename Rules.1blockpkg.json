@@ -64292,6 +64292,19 @@
                 }
             },
             {
+                "id": "a037cc00-17b2-4e7f-8472-09dfb9f00d05",
+                "name": "mainia.tistory.com##div.tt_article_useless_p_margin>div[style=\"float:right;margin:0 0 10px 10px;width:336px;height:280px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mainia\\.tistory\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.tt_article_useless_p_margin>div[style=\"float:right;margin:0 0 10px 10px;width:336px;height:280px\"]"
+                    }
+                }
+            },
+            {
                 "id": "ef0b45b9-9cfd-4d3a-9cb2-acee3adabede",
                 "name": "mainichi.jp##aside.ad.pr",
                 "content": {
