@@ -88537,6 +88537,45 @@
                 }
             },
             {
+                "id": "e3eaae9a-abef-4982-a938-320542d9eb97",
+                "name": "ytn.co.kr##div#YTNpluscokr_11",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ytn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#YTNpluscokr_11"
+                    }
+                }
+            },
+            {
+                "id": "ccdd3211-0f52-49f1-8832-331c25e2f34e",
+                "name": "ytn.co.kr##div#YTNpluscokr_12",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ytn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#YTNpluscokr_12"
+                    }
+                }
+            },
+            {
+                "id": "95f7f5fe-e13a-4035-93af-39fe5bea1d88",
+                "name": "ytn.co.kr##div#YTNpluscokr_13",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ytn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#YTNpluscokr_13"
+                    }
+                }
+            },
+            {
                 "id": "152a2f21-f80b-4a4b-8e8b-79209ed8dc4e",
                 "name": "ytn.co.kr##div#ajaxGisaSubList>div[style=\"margin:0 auto;width:628px;border:1px solid #cbcccf;padding:10px 5px 10px 15px;margin-bottom:10px;overflow:hidden;margin-top: 25px;\"]",
                 "content": {
@@ -88741,6 +88780,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"../inc_banner/Ad_gisabottom2.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "a95cb8d0-fa24-4fa9-a20e-8bf4ace1deab",
+                "name": "ytn.co.kr##iframe[src^=\"/inc_banner/AdServerChange.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ytn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/inc_banner/AdServerChange.php\"]"
                     }
                 }
             },
