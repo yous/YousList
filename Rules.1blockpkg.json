@@ -290,6 +290,19 @@
                 }
             },
             {
+                "id": "a976b0a8-2cb6-49cc-a078-ba33c22c0585",
+                "name": "##div.blogroll-ad-img",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.blogroll-ad-img"
+                    }
+                }
+            },
+            {
                 "id": "fff4fdb1-866b-4766-98e6-55b2b5951e77",
                 "name": "##div.ezAdsense",
                 "content": {
@@ -4378,6 +4391,19 @@
                 }
             },
             {
+                "id": "0d2b97d5-083c-4847-b8df-0a1e4c672f6e",
+                "name": "##li.blogroll-ad-text",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.blogroll-ad-text"
+                    }
+                }
+            },
+            {
                 "id": "2fc92e3d-dab3-41d0-9251-a0ea90ab02d1",
                 "name": "##span.ezoic-ad",
                 "content": {
@@ -6545,6 +6571,19 @@
                 }
             },
             {
+                "id": "f87894e6-6de0-4a2f-ba15-f64b9746ec1a",
+                "name": "ad999.biz/code/inline.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad999\\.biz/code/inline\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "374a832c-0c7f-4b20-b88d-aada2640ae69",
                 "name": "adapi.inlcorp.com/dfp/",
                 "content": {
@@ -7047,6 +7086,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?adixs\\.net",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c97c0bc8-2d12-4d65-b0e9-bd0dc8ad25be",
+                "name": "adm.shinobi.jp/s/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adm\\.shinobi\\.jp/s/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a70346d5-77a9-4b4f-ab4d-7bd400c75ef2",
+                "name": "adm.shinobi.jp/st/s.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adm\\.shinobi\\.jp/st/s\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -26253,6 +26318,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?z-.*\\.amazon-adsystem\\.com/widgets/onejs",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0d5e5388-855d-4108-9bcc-932396dafc7c",
+                "name": "z-*.amazon-adsystem.com/widgets/q",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?z-.*\\.amazon-adsystem\\.com/widgets/q",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -66589,6 +66667,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"ResponsiveAd-\"]"
+                    }
+                }
+            },
+            {
+                "id": "154304b7-1e98-4410-ad76-6ba8895c99f5",
+                "name": "moeruasia.net##div.abox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?moeruasia\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.abox"
+                    }
+                }
+            },
+            {
+                "id": "1c28048e-cb73-41f0-aa2a-8b7889c37574",
+                "name": "moeruasia.net##div.adbanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?moeruasia\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adbanner"
+                    }
+                }
+            },
+            {
+                "id": "9c215ef3-d9d8-4e13-96c3-486102324c52",
+                "name": "moeruasia.net##table.abox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?moeruasia\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "table.abox"
                     }
                 }
             },
