@@ -3,8 +3,18 @@ set -e
 DIR="$(cd "$(dirname "$0")/.." && pwd)"
 TMPDIR="$(mktemp -d)"
 
-echo "echo '[]' > ~/Library/Group\\ Containers/*.com.khanov.Blocker/CustomPackages.json"
-echo '[]' > "${HOME}"/Library/Group\ Containers/*.com.khanov.Blocker/CustomPackages.json
+BLOCKER_PATH="$(find "${HOME}/Library/Group Containers/" -depth 1 -name '*.com.khanov.Blocker')"
+BLOCKER_DIR="$(basename "${BLOCKER_PATH}")"
+
+if [ -e "${BLOCKER_PATH}/block-custom.json" ]; then
+  echo "echo '[]' > ~/Library/Group\\ Containers/${BLOCKER_DIR}/block-custom.json"
+  echo '[]' > "${BLOCKER_PATH}/block-custom.json"
+  echo "rm -f ~/Library/Group\\ Containers/${BLOCKER_DIR}/safari-custom+configurable.json"
+  rm -f "${BLOCKER_PATH}/safari-custom+configurable.json"
+else
+  echo "echo '[]' > ~/Library/Group\\ Containers/${BLOCKER_DIR}/CustomPackages.json"
+  echo '[]' > "${BLOCKER_PATH}/CustomPackages.json"
+fi
 
 echo "cp Rules.1blockpkg \"${TMPDIR}/\""
 cp "${DIR}/Rules.1blockpkg" "${TMPDIR}/"
