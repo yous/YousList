@@ -15202,6 +15202,19 @@
                 }
             },
             {
+                "id": "a1ce4f16-1347-4307-bf21-a0f535fa5742",
+                "name": "i.socdm.com/sdk/js/adg-script-loader.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?i\\.socdm\\.com/sdk/js/adg-script-loader\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2dee63aa-1823-405a-b5b6-e9db3bec655b",
                 "name": "i.xdywlw.cn/V.aspx",
                 "content": {
@@ -68720,6 +68733,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"top_bn\"]"
+                    }
+                }
+            },
+            {
+                "id": "9167ddb9-72b7-40b4-b40c-c31b7d3bcaf1",
+                "name": "news.dwango.jp##div.ad-center-cover",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?news\\.dwango\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-center-cover"
+                    }
+                }
+            },
+            {
+                "id": "b5c84840-4cd6-43d8-bbdf-7ef1ff7a55af",
+                "name": "news.dwango.jp##div.overlay-footer_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?news\\.dwango\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.overlay-footer_ad"
                     }
                 }
             },
