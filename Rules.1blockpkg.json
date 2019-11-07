@@ -1580,6 +1580,19 @@
                 }
             },
             {
+                "id": "08fe5e75-a25a-47c9-80f1-28b33c6140e7",
+                "name": "##iframe[src^=\"//www.mediacategory.com/servlet/adNewsflashContentsBox\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//www.mediacategory.com/servlet/adNewsflashContentsBox\"]"
+                    }
+                }
+            },
+            {
                 "id": "527570ba-50cc-4220-821f-ac18f7c20c01",
                 "name": "##iframe[src^=\"//www.mediacategory.com/servlet/adPlayLinkServlet\"]",
                 "content": {
@@ -18990,6 +19003,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?mediacategory\\.com/servlet/adBanner",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b429d0ef-4ab2-4396-8943-0ad936324714",
+                "name": "mediacategory.com/servlet/adNative",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mediacategory\\.com/servlet/adNative",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "46676f31-00fe-4176-9a5c-28ff890565dc",
+                "name": "mediacategory.com/servlet/adNewsflashContentsBox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mediacategory\\.com/servlet/adNewsflashContentsBox",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
