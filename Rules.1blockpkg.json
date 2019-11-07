@@ -13890,11 +13890,43 @@
                 }
             },
             {
+                "id": "5c6e7136-8256-4e29-acd9-3aacaf82c142",
+                "name": "etobang.co.kr/img/net/banner/$domain=etobang.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?etobang\\.co\\.kr/img/net/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "etobang.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "bc48e29f-2145-430d-bbf6-97c282e94ce0",
                 "name": "etoland.co.kr/img/banner/$domain=etoland.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?etoland\\.co\\.kr/img/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "etoland.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b8bb9649-55cc-419e-a217-ec2b26212ca6",
+                "name": "etoland.co.kr/img/net/banner/$domain=etoland.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?etoland\\.co\\.kr/img/net/banner/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "etoland.co.kr"
@@ -13922,11 +13954,43 @@
                 }
             },
             {
+                "id": "52ab1207-a41d-4cd4-9140-cfe677c8e3b6",
+                "name": "etorrent.co.kr/img/net/banner/$domain=etorrent.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?etorrent\\.co\\.kr/img/net/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "etorrent.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f8580dc8-a4e4-4f5c-aa44-0a9509b45fed",
                 "name": "etorrent.kr/img/banner/$domain=etorrent.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?etorrent\\.kr/img/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "etorrent.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "070e342b-875a-4ea6-a4ab-3a4330c997c5",
+                "name": "etorrent.kr/img/net/banner/$domain=etorrent.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?etorrent\\.kr/img/net/banner/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "etorrent.kr"
