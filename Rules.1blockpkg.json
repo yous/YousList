@@ -1476,6 +1476,19 @@
                 }
             },
             {
+                "id": "d1bc1815-1067-4027-9a20-c006d275a219",
+                "name": "##iframe[src^=\"//veta.naver.com/fxshow\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//veta.naver.com/fxshow\"]"
+                    }
+                }
+            },
+            {
                 "id": "2f15d895-0051-4ab8-905e-fb58ca4dd35d",
                 "name": "##iframe[src^=\"//wr.catad5959.com/text/wrcatad.t\"][src*=\".Text_banner.asp\"]",
                 "content": {
