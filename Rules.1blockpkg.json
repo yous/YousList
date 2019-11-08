@@ -85468,6 +85468,32 @@
                 }
             },
             {
+                "id": "3bf3e42d-75aa-4d85-ab80-6d75fa592a27",
+                "name": "w3schools.com##div#mainLeaderboard",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?w3schools\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mainLeaderboard"
+                    }
+                }
+            },
+            {
+                "id": "5bdbc3a6-723b-4b83-bd6b-3fd793fed72f",
+                "name": "w3schools.com##div#skyscraper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?w3schools\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#skyscraper"
+                    }
+                }
+            },
+            {
                 "id": "7358ce54-799d-4b07-a711-a9601103ed1b",
                 "name": "wasabisyrup.com##div.article-gallery>div.article-gallery-group",
                 "content": {
