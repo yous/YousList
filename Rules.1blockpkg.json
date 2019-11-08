@@ -24689,6 +24689,22 @@
                 }
             },
             {
+                "id": "cdef3b54-6bee-4a0b-8801-0a349e0c69a7",
+                "name": "tpc.googlesyndication.com/simgad/$domain=googleads.g.doubleclick.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tpc\\.googlesyndication\\.com/simgad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "googleads.g.doubleclick.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f3b70258-7414-40bc-9160-e0d26c1e996a",
                 "name": "tr-*.adsmoloco.com/rtb/imp",
                 "content": {
@@ -46516,6 +46532,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href^=\"https://www.googleadservices.com/pagead/aclk\"][href*=\"&client=\"]"
+                    }
+                }
+            },
+            {
+                "id": "b78b2879-0f91-4160-aa64-becce1f3c743",
+                "name": "googleads.g.doubleclick.net##div#mys-wrapper div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?googleads\\.g\\.doubleclick\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mys-wrapper div.ad"
+                    }
+                }
+            },
+            {
+                "id": "1501346a-4d14-4c2a-9cdb-5091d7c0a867",
+                "name": "googleads.g.doubleclick.net##div#mys-wrapper div.url-ad-badge",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?googleads\\.g\\.doubleclick\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mys-wrapper div.url-ad-badge"
                     }
                 }
             },
