@@ -62019,6 +62019,19 @@
                 }
             },
             {
+                "id": "9d5dcabe-4196-4b53-b8b8-3a4065446150",
+                "name": "m.sedaily.com##div#M_view_line",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.sedaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#M_view_line"
+                    }
+                }
+            },
+            {
                 "id": "66027ac4-9fd4-49ee-84f6-ec06286e328d",
                 "name": "m.sedaily.com##div#_popIn_recommend_2",
                 "content": {
@@ -62054,6 +62067,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.mm_ad"
+                    }
+                }
+            },
+            {
+                "id": "26ef747c-3a26-4144-880f-9093b9cbf486",
+                "name": "m.sedaily.com##div.sub_ad_banner10_m",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.sedaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sub_ad_banner10_m"
                     }
                 }
             },
