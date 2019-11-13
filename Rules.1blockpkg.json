@@ -51151,6 +51151,71 @@
                 }
             },
             {
+                "id": "9e3c7d76-5cc2-4130-98c7-3dc33a9fdc46",
+                "name": "jalopnik.com##div.ad-non-sticky",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?jalopnik\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-non-sticky"
+                    }
+                }
+            },
+            {
+                "id": "af3dbe22-5c21-4b7e-b68f-8fbecc35a945",
+                "name": "jalopnik.com##div.contained-ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?jalopnik\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contained-ad-container"
+                    }
+                }
+            },
+            {
+                "id": "b91f497c-ae08-4eb6-83be-91ba2b4d58e1",
+                "name": "jalopnik.com##div.contained-ad-shaft",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?jalopnik\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contained-ad-shaft"
+                    }
+                }
+            },
+            {
+                "id": "666effdb-dc2a-4627-a07c-3d7de5fb47cd",
+                "name": "jalopnik.com##div.contained-ad-wrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?jalopnik\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.contained-ad-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "798b4699-9b57-4602-aeed-b4c494681f1f",
+                "name": "jalopnik.com##section.contained-ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?jalopnik\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.contained-ad-container"
+                    }
+                }
+            },
+            {
                 "id": "e40f7665-4ce4-46a9-af6e-aab3b1e66e97",
                 "name": "java-forums.org##div#ad_global_above_footer",
                 "content": {
