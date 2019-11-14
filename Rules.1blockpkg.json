@@ -459,6 +459,32 @@
                 }
             },
             {
+                "id": "c06964cc-49d2-4a3d-916f-f2054a6045de",
+                "name": "##div.targetpushAd_banner_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.targetpushAd_banner_wrap"
+                    }
+                }
+            },
+            {
+                "id": "bd567f4c-8787-49a9-a3c9-0fda619345c2",
+                "name": "##div.targetpushAd_pc_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.targetpushAd_pc_wrap"
+                    }
+                }
+            },
+            {
                 "id": "f73c881d-01d3-42f6-9fad-0569640bdcd7",
                 "name": "##div.trc_popover_aug_container",
                 "content": {
@@ -11190,6 +11216,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.stickyadstv\\.com/mustang/vpaid-adapter\\.min\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9b27309a-f075-4ba1-8d6f-d7951d2c3f1c",
+                "name": "cdn.targetpush.co.kr/js/targetpushad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.targetpush\\.co\\.kr/js/targetpushad\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f4b19750-d3a7-4a07-a503-e28e6e02f6e0",
+                "name": "cdn.targetpush.co.kr/js/targetpushad_ext.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.targetpush\\.co\\.kr/js/targetpushad_ext\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
