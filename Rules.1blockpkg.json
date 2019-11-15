@@ -15694,6 +15694,38 @@
                 }
             },
             {
+                "id": "af2e07f3-a374-4927-ac93-9ffa7272ddb7",
+                "name": "image.donga.com/dac/SPORTS/M/*.js$domain=sports.donga.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?image\\.donga\\.com/dac/SPORTS/M/.*\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "sports.donga.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "abef7942-8426-4b58-bbb1-08509b878b4b",
+                "name": "image.donga.com/dac/SPORTS/PC/*.js$domain=sports.donga.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?image\\.donga\\.com/dac/SPORTS/PC/.*\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "sports.donga.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6ce2600c-cbd5-4fa6-8818-a6d948902ffc",
                 "name": "image.lottorich.co.kr/lottorich/partnership/",
                 "content": {
@@ -77437,223 +77469,93 @@
                 }
             },
             {
-                "id": "5e93b328-12fd-4462-b5ef-49c9ccc093ea",
-                "name": "sports.donga.com##div.ad_toady_hot",
+                "id": "7c201106-af28-496f-be14-be312f39c315",
+                "name": "sports.donga.com##div.power_link",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.donga\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad_toady_hot"
+                        "selector": "div.power_link"
                     }
                 }
             },
             {
-                "id": "e5d103ff-58ec-4801-bb39-b78d2fca5557",
-                "name": "sports.donga.com##div.ad_top",
+                "id": "efc607f7-f4d0-4f22-859b-139783f35652",
+                "name": "sports.donga.com##div.today_sportnews",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.donga\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad_top"
+                        "selector": "div.today_sportnews"
                     }
                 }
             },
             {
-                "id": "91387fdc-ab26-40c6-8ca7-2129decdbe51",
-                "name": "sports.donga.com##div.ad_zone01",
+                "id": "e6c1a053-ec99-45c8-a494-4c0f6507466c",
+                "name": "sports.donga.com##div[class^=\"ad_aside\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.donga\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad_zone01"
+                        "selector": "div[class^=\"ad_aside\"]"
                     }
                 }
             },
             {
-                "id": "b2deeb40-2a77-4740-a878-705f9ab9bd0d",
-                "name": "sports.donga.com##div.aside_AD01",
+                "id": "2c3206bb-d13b-449b-959b-0f9bff7adeb0",
+                "name": "sports.donga.com##div[class^=\"ad_left\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.donga\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.aside_AD01"
+                        "selector": "div[class^=\"ad_left\"]"
                     }
                 }
             },
             {
-                "id": "d048ab77-a7c0-4a97-a555-3bec2bfe15a4",
-                "name": "sports.donga.com##div.aside_AD02",
+                "id": "5c223061-23a3-4281-86ed-5e8c9b345edf",
+                "name": "sports.donga.com##div[class^=\"ad_right\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.donga\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.aside_AD02"
+                        "selector": "div[class^=\"ad_right\"]"
                     }
                 }
             },
             {
-                "id": "98c2e843-4b18-4893-aaaf-37d289f2cae2",
-                "name": "sports.donga.com##div.aside_AD03",
+                "id": "c1867df2-9f97-4d8e-9bf0-f57c758037d9",
+                "name": "sports.donga.com##div[class^=\"ad_zone\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.donga\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.aside_AD03"
+                        "selector": "div[class^=\"ad_zone\"]"
                     }
                 }
             },
             {
-                "id": "5be213bf-caf8-46dd-ad39-7b8aa38b9573",
-                "name": "sports.donga.com##div.aside_AD04",
+                "id": "92fac01c-13a4-4740-88ef-31694dbe18bd",
+                "name": "sports.donga.com##div[class^=\"sub_ad\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.donga\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.aside_AD04"
-                    }
-                }
-            },
-            {
-                "id": "535aa610-bfbb-43f8-9275-b13865135f72",
-                "name": "sports.donga.com##div.aside_AD05",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.donga\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.aside_AD05"
-                    }
-                }
-            },
-            {
-                "id": "08c87c78-f418-4cc5-9178-e5328700def8",
-                "name": "sports.donga.com##div.aside_AD06",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.donga\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.aside_AD06"
-                    }
-                }
-            },
-            {
-                "id": "f1755a86-f3d7-4bb8-9183-326a95dbac92",
-                "name": "sports.donga.com##div.aside_AD07",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.donga\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.aside_AD07"
-                    }
-                }
-            },
-            {
-                "id": "87a14d8b-1c2b-442f-ba5f-a5f8474db855",
-                "name": "sports.donga.com##div.aside_AD08",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.donga\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.aside_AD08"
-                    }
-                }
-            },
-            {
-                "id": "773a917e-8823-4297-8da7-b7393e425a33",
-                "name": "sports.donga.com##div.aside_AD10",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.donga\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.aside_AD10"
-                    }
-                }
-            },
-            {
-                "id": "c7a82f7c-4bec-4972-89ae-a8ff53eea0c2",
-                "name": "sports.donga.com##div.display_box",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.donga\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.display_box"
-                    }
-                }
-            },
-            {
-                "id": "b3d97089-ccc2-44fa-a40b-9a35dcf67cfe",
-                "name": "sports.donga.com##div.middle_AD",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.donga\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.middle_AD"
-                    }
-                }
-            },
-            {
-                "id": "18c38a33-2e9e-45ec-83b1-261c084f288a",
-                "name": "sports.donga.com##div[class^=\"left_ad_\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.donga\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[class^=\"left_ad_\"]"
-                    }
-                }
-            },
-            {
-                "id": "9e535b6f-89b3-44b8-b377-cf10976ab7ca",
-                "name": "sports.donga.com##div[class^=\"right_ad_\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.donga\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[class^=\"right_ad_\"]"
-                    }
-                }
-            },
-            {
-                "id": "1bbdeb9d-65f0-456a-916f-f1c0e1c69b39",
-                "name": "sports.donga.com##div[class^=\"subCont_AD\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.donga\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[class^=\"subCont_AD\"]"
+                        "selector": "div[class^=\"sub_ad\"]"
                     }
                 }
             },
