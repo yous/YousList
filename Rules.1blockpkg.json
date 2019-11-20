@@ -23951,6 +23951,22 @@
                 }
             },
             {
+                "id": "38d169a9-2214-4694-82aa-c54875a20dd5",
+                "name": "static.animeid.tv/ads/$domain=animeid.tv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?static\\.animeid\\.tv/ads/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "animeid.tv"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "539a33f0-aa46-4f9d-accd-0ce3167e6346",
                 "name": "static.chameleon.ad/js/router.js",
                 "content": {
@@ -30080,6 +30096,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "body>div>div[style=\"width:100%;height:768px;position:fixed;left:0;top:0px;overflow:hidden;visibility:hidden;z-index:0\"]"
+                    }
+                }
+            },
+            {
+                "id": "967651c3-dcec-47e3-9739-9d23a93f6e4d",
+                "name": "animeid.tv##div.a160x600",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?animeid\\.tv"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.a160x600"
+                    }
+                }
+            },
+            {
+                "id": "c4217585-2174-4207-8889-0e5b246c1546",
+                "name": "animeid.tv##div.a468x60",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?animeid\\.tv"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.a468x60"
+                    }
+                }
+            },
+            {
+                "id": "10447ad1-8839-435e-b994-ba3e52a58330",
+                "name": "animeid.tv##div.a728x90",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?animeid\\.tv"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.a728x90"
+                    }
+                }
+            },
+            {
+                "id": "87d26161-785b-474a-826c-7584723346cd",
+                "name": "animeid.tv##div.ads728x90",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?animeid\\.tv"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ads728x90"
+                    }
+                }
+            },
+            {
+                "id": "3ef75d10-c783-4468-b252-39d835b0ea66",
+                "name": "animeid.tv##iframe[src^=\"//static.animeid.tv/ads/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?animeid\\.tv"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//static.animeid.tv/ads/\"]"
                     }
                 }
             },
