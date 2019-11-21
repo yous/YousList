@@ -65720,6 +65720,19 @@
                 }
             },
             {
+                "id": "38a48c6c-aa15-4449-9c12-74298bad4182",
+                "name": "media.daum.net##div.aside_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?media\\.daum\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.aside_ad"
+                    }
+                }
+            },
+            {
                 "id": "f2f80611-cf75-4f26-99bd-305ef3bb395e",
                 "name": "media.daum.net##div.aside_shopping",
                 "content": {
