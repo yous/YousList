@@ -23788,13 +23788,14 @@
                 }
             },
             {
-                "id": "b4b9a33c-9d20-4e74-8243-86411e718fa6",
-                "name": "ssl.pstatic.net/adimg3.search/adpost/js/adpost_show_ads_v2.min.js$domain=~m.danawa.com|~search.danawa.com",
+                "id": "2416edbb-8980-47fd-b6ae-ab0e4aadc810",
+                "name": "ssl.pstatic.net/adimg3.search/adpost/js/adpost_show_ads_v2.min.js$domain=~m.clien.net|~m.danawa.com|~search.danawa.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?ssl\\.pstatic\\.net/adimg3\\.search/adpost/js/adpost_show_ads_v2\\.min\\.js",
                         "url-filter-is-case-sensitive": false,
                         "unless-domain": [
+                            "m.clien.net",
                             "m.danawa.com",
                             "search.danawa.com"
                         ]
@@ -56122,6 +56123,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "ul#lst_card>li.point>div[style=\"width:320px; height:50px; margin:0 auto 15px; \"]"
+                    }
+                }
+            },
+            {
+                "id": "b0e910a2-32c8-4006-b3ec-68d08b476f1b",
+                "name": "m.clien.net##div#comment_naverAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.clien\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#comment_naverAd"
+                    }
+                }
+            },
+            {
+                "id": "4d786d6d-eaeb-440d-bf67-239478020880",
+                "name": "m.clien.net##div#naverAd2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.clien\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#naverAd2"
                     }
                 }
             },
