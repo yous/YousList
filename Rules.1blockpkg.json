@@ -21286,6 +21286,22 @@
                 }
             },
             {
+                "id": "795f569d-6910-44ab-a043-df97e91df108",
+                "name": "pds.dailypharm.com/ADManager_2017/$domain=dailypharm.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pds\\.dailypharm\\.com/ADManager_2017/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "dailypharm.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d8d00c63-0ace-4f98-b26f-6b4986720a2e",
                 "name": "ph.kado.net/adcontent/script/*.js$domain=kado.net",
                 "content": {
@@ -39860,6 +39876,162 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"DiscoveryVideoSection__adCell___\"]"
+                    }
+                }
+            },
+            {
+                "id": "4dfa40ce-8c26-4fd6-90a5-8ed1c22874f9",
+                "name": "dailypharm.com##div#indexPopup",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailypharm\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#indexPopup"
+                    }
+                }
+            },
+            {
+                "id": "43dc7d5a-b95c-427d-b6ca-da4f6d7570d5",
+                "name": "dailypharm.com##div.MainHeadLine>div[style=\"width:980px;margin-top:10px;marign-top:50px;padding-left:120px;margin:auto;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailypharm\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.MainHeadLine>div[style=\"width:980px;margin-top:10px;marign-top:50px;padding-left:120px;margin:auto;\"]"
+                    }
+                }
+            },
+            {
+                "id": "ee5d6e12-2e77-4ba2-9920-56e36c681a5f",
+                "name": "dailypharm.com##div.RightSideADBC",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailypharm\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.RightSideADBC"
+                    }
+                }
+            },
+            {
+                "id": "4ede2a54-b808-40b0-9a6b-51cfddac6b90",
+                "name": "dailypharm.com##div.RightSideADBt",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailypharm\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.RightSideADBt"
+                    }
+                }
+            },
+            {
+                "id": "f4dffd9c-099b-4bf2-8646-10649f153762",
+                "name": "dailypharm.com##div.RightSideADtop",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailypharm\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.RightSideADtop"
+                    }
+                }
+            },
+            {
+                "id": "1d0c68a2-4fce-4737-9556-fdbcdf69ff51",
+                "name": "dailypharm.com##div.footerAD",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailypharm\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.footerAD"
+                    }
+                }
+            },
+            {
+                "id": "54d7af77-eb8f-43ba-b61e-377620e1dc66",
+                "name": "dailypharm.com##div.headLineAD",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailypharm\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.headLineAD"
+                    }
+                }
+            },
+            {
+                "id": "a5a45c0c-43a0-4247-9f8e-d197ac6f0248",
+                "name": "dailypharm.com##div.leftSideAD",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailypharm\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.leftSideAD"
+                    }
+                }
+            },
+            {
+                "id": "32c1685b-55ba-44fd-87cb-1344a8fc18b1",
+                "name": "dailypharm.com##div.midAD",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailypharm\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.midAD"
+                    }
+                }
+            },
+            {
+                "id": "ef50b855-25f0-44c6-a36b-5c2c753cbee6",
+                "name": "dailypharm.com##div.middleAD",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailypharm\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.middleAD"
+                    }
+                }
+            },
+            {
+                "id": "94b3e6c6-5153-4c5e-a19e-3c30e79c53ff",
+                "name": "dailypharm.com##div.rigthSideAD",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailypharm\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rigthSideAD"
+                    }
+                }
+            },
+            {
+                "id": "6f0b0227-0506-4998-9dae-6df572a63d1a",
+                "name": "dailypharm.com##div.topAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailypharm\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.topAd"
                     }
                 }
             },
