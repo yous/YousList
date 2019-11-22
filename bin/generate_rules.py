@@ -294,9 +294,9 @@ class FilterParser:
                 unless_domain = []
                 for domain in domains:
                     if domain.startswith('~'):
-                        unless_domain.append(domain.lstrip('~'))
+                        unless_domain.append('*' + domain.lstrip('~'))
                     else:
-                        if_domain.append(domain)
+                        if_domain.append('*' + domain)
                 if len(if_domain) and len(unless_domain):
                     raise Exception('Cannot handle these domains: ' + opt_val)
                 elif len(if_domain):
