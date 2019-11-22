@@ -21286,14 +21286,15 @@
                 }
             },
             {
-                "id": "795f569d-6910-44ab-a043-df97e91df108",
-                "name": "pds.dailypharm.com/ADManager_2017/$domain=dailypharm.com",
+                "id": "8d456a69-9cbd-4f89-a94a-ed492e0d2df6",
+                "name": "pds.dailypharm.com/ADManager_2017/$domain=dailypharm.com|m.dailypharm.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?pds\\.dailypharm\\.com/ADManager_2017/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
-                            "dailypharm.com"
+                            "dailypharm.com",
+                            "m.dailypharm.com"
                         ]
                     },
                     "action": {
@@ -56581,6 +56582,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.banner-wrap"
+                    }
+                }
+            },
+            {
+                "id": "8d1751d9-20fc-4391-8cd9-d5853bc9c45c",
+                "name": "m.dailypharm.com##section.topAD",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.dailypharm\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.topAD"
                     }
                 }
             },
