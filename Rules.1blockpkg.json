@@ -78569,6 +78569,19 @@
                 }
             },
             {
+                "id": "a381db95-1bb1-45a6-b4b0-e5f9e2373c31",
+                "name": "stackabuse.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?stackabuse\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
                 "id": "adc05401-2d2f-47d1-a545-476d9df8a812",
                 "name": "star.hankookilbo.com##div.ad-pc-inner",
                 "content": {
