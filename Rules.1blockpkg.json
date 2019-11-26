@@ -85410,6 +85410,45 @@
                 }
             },
             {
+                "id": "26a0947d-820d-48d3-9452-b9a09a74a32c",
+                "name": "vanityfair.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?vanityfair\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "0d020033-1529-4fad-ad8c-4f8c391c21fc",
+                "name": "vanityfair.com##div.full-bleed-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?vanityfair\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.full-bleed-ad"
+                    }
+                }
+            },
+            {
+                "id": "046acb5e-fe0d-4f76-a052-897cc681a983",
+                "name": "vanityfair.com##div[data-widget-id=\"AR_14\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?vanityfair\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-widget-id=\"AR_14\"]"
+                    }
+                }
+            },
+            {
                 "id": "e5cbd674-028b-4fa0-9e03-83b0decd37fb",
                 "name": "variety.com##div.admz",
                 "content": {
