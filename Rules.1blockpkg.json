@@ -680,6 +680,19 @@
                 }
             },
             {
+                "id": "78958851-d9f6-4e65-b822-faed46a641e7",
+                "name": "##div[id^=\"CLARE_AREA_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"CLARE_AREA_\"]"
+                    }
+                }
+            },
+            {
                 "id": "9607af39-c86e-496f-b038-c94bf990b79b",
                 "name": "##div[id^=\"M\"][id*=\"ScriptRootC\"]",
                 "content": {
@@ -975,6 +988,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src*=\"//ad.about.co.kr/\"]"
+                    }
+                }
+            },
+            {
+                "id": "ab3b4f05-d99b-4ddd-b8de-67be065079b9",
+                "name": "##iframe[src*=\"//ad.aceplanet.co.kr/cgi-bin/PelicanC.dll\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//ad.aceplanet.co.kr/cgi-bin/PelicanC.dll\"]"
                     }
                 }
             },
@@ -4190,6 +4216,19 @@
                 }
             },
             {
+                "id": "537f5983-1bb5-49a6-b8b9-db477524eb13",
+                "name": "##iframe[src*=\"//you.claremedia.co.kr/clare/\"][src$=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//you.claremedia.co.kr/clare/\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
                 "id": "2deafd4f-580f-4516-9c51-2256497f770e",
                 "name": "##iframe[src*=\"//zone5.adpopcon.com/cgi-bin/PelicanC.dll\"]",
                 "content": {
@@ -5367,6 +5406,19 @@
                 }
             },
             {
+                "id": "764c1a4f-5ec0-456a-b0d8-1ab1f2536b67",
+                "name": "ad.aceplanet.co.kr/cgi-bin/PelicanC.dll",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.aceplanet\\.co\\.kr/cgi-bin/PelicanC\\.dll",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "98eb83d4-8929-4050-9669-1872924bf0d7",
                 "name": "ad.ad-stir.com/ad",
                 "content": {
@@ -6011,6 +6063,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.naver\\.com/fxshow",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "71f3f6d9-33cd-4d04-896a-8468b14ab8dc",
+                "name": "ad.newssense.co.kr/cgi-bin/PelicanC.dll",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.newssense\\.co\\.kr/cgi-bin/PelicanC\\.dll",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -19660,6 +19725,22 @@
                 }
             },
             {
+                "id": "4e863103-0830-41db-85c2-44080ba8c8d1",
+                "name": "mtvdaily.asiae.co.kr/ad/$domain=mtvdaily.asiae.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mtvdaily\\.asiae\\.co\\.kr/ad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*mtvdaily.asiae.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "33d0f471-88bb-46b6-a9f4-d39fc7e8d49a",
                 "name": "munhwa.com/skin/inc_right/inc_denta_ad_iframe.html",
                 "content": {
@@ -26355,6 +26436,32 @@
                         "if-domain": [
                             "*yonhapnews.co.kr"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c2201964-a330-47d2-a7c9-79e38cdb6942",
+                "name": "you.claremedia.co.kr/clare/*/*/*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?you\\.claremedia\\.co\\.kr/clare/.*/.*/.*\\.html",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d74a7fd5-059d-47e1-87ea-beb3e4dc4b30",
+                "name": "you.claremedia.co.kr/clare/*/*/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?you\\.claremedia\\.co\\.kr/clare/.*/.*/.*\\.js",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
