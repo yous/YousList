@@ -2942,6 +2942,19 @@
                 }
             },
             {
+                "id": "b9910c5d-84ba-4ddb-bb47-01861e733644",
+                "name": "##iframe[src*=\"//media.adpnut.com/cgi-bin/PelicanC.dll\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//media.adpnut.com/cgi-bin/PelicanC.dll\"]"
+                    }
+                }
+            },
+            {
                 "id": "b4d7d655-504a-44fd-b9c8-f0a0437e19af",
                 "name": "##iframe[src*=\"//mienisa.co.kr/api/bn1\"]",
                 "content": {
@@ -87396,6 +87409,32 @@
                 }
             },
             {
+                "id": "b83b9d5d-4ac6-4884-87c5-118c48d180e7",
+                "name": "xportsnews.com##div.l_ad_1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?xportsnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.l_ad_1"
+                    }
+                }
+            },
+            {
+                "id": "b4a886c4-722e-4e56-aa02-cc49d02f4060",
+                "name": "xportsnews.com##div.l_ad_2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?xportsnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.l_ad_2"
+                    }
+                }
+            },
+            {
                 "id": "0ee5ca8a-52a1-47b4-8f70-a02ed71fc683",
                 "name": "xportsnews.com##div.nm_list2",
                 "content": {
@@ -87405,6 +87444,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.nm_list2"
+                    }
+                }
+            },
+            {
+                "id": "5ae5fa01-43e4-4c2e-9383-50c2c67aadc7",
+                "name": "xportsnews.com##div.r_ad_1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?xportsnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.r_ad_1"
+                    }
+                }
+            },
+            {
+                "id": "1757bac1-d2b5-4f7c-a154-043b3fc396ef",
+                "name": "xportsnews.com##div.rr_ad_1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?xportsnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rr_ad_1"
+                    }
+                }
+            },
+            {
+                "id": "a3f77152-eec5-45dc-8246-096a7acd8e71",
+                "name": "xportsnews.com##div.rr_ad_2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?xportsnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.rr_ad_2"
                     }
                 }
             },
