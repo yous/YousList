@@ -12738,6 +12738,19 @@
                 }
             },
             {
+                "id": "89c2b3c3-9b88-4430-bfde-0c955f93cd84",
+                "name": "dezf3o8j9jdt6.cloudfront.net/js/adop_colleapse_*.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dezf3o8j9jdt6\\.cloudfront\\.net/js/adop_colleapse_.*\\.min\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2b51cfe8-2e13-4dff-84cb-096831a8ac18",
                 "name": "dgate.*/hc.aspx",
                 "content": {
@@ -49272,6 +49285,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.wikitree_ad:not([ad_id=\"261\"]):not([ad_id=\"266\"])"
+                    }
+                }
+            },
+            {
+                "id": "85cbae04-727f-4a76-aefd-c1033ae8f6a3",
+                "name": "i.wik.im##div[id^=\"wikitree_v_our_inr_640x360-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?i\\.wik\\.im"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"wikitree_v_our_inr_640x360-\"]"
+                    }
+                }
+            },
+            {
+                "id": "e5e2a8e1-03f5-4d2f-b0b1-ea83efe3f370",
+                "name": "wikitree.co.kr##div[id^=\"wikitree_v_our_inr_640x360-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wikitree\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"wikitree_v_our_inr_640x360-\"]"
                     }
                 }
             },
