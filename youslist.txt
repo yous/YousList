@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20191126
+! Version: 20191127
 
 ! General element hiding rules
 ##amp-ad
@@ -1585,6 +1585,8 @@
 ||plugin.adplex.co.kr/noticeAd/*.js^
 ||plugin.adplex.co.kr/script/2beonAdScript.js^
 ||plugin.adplex.co.kr/script/bridgeAd.js^
+||polinews.co.kr/data/ad/$domain=polinews.co.kr
+||polinews.co.kr/data/banner/$domain=polinews.co.kr
 ||polltest.azurewebsites.net/Polls/Ads^
 ||pop.site3.co.kr/poco.js^
 ||ppdxyz.info/script-2/license.ppdxyz.js^
@@ -5044,6 +5046,13 @@ podbbang.com##div#dawin_area
 podbbang.com##div.bnr_comment_t
 podbbang.com##div.bnr_sky
 podbbang.com##div.reply_left_area>div[style="padding:0px 30px 15px 30px;"]
+polinews.co.kr##div#news_body_area>div[style="clear:both;margin-top:6px;margin-bottom:10px;margin-left:10px;text-align:center;float:right;"]
+polinews.co.kr##div.banner_left
+polinews.co.kr##div.banner_right
+polinews.co.kr##div.com_ban
+polinews.co.kr##div.news_con>div>div[style="clear:both;margin-top:6px;margin-bottom:10px;margin-left:10px;text-align:center;float:right;max-width:200px;max-height:200px;"]
+polinews.co.kr##div.news_con>div>div[style="clear:both;margin:0 auto;text-align:center;max-width:336px;max-height:280px;"]
+polinews.co.kr##iframe[src^="/data/ad/"]
 popit.kr##div.ant-layout-content>div[style="width:310px;margin-left:20px;float:left"]>div[style="width:300px;height:300px"]
 ppomppu.co.kr##div#emart_banner
 ppomppu.co.kr##div#result_box>div.power-link

@@ -21646,6 +21646,38 @@
                 }
             },
             {
+                "id": "f2e47da1-8549-4086-b1ce-4006e01d1fed",
+                "name": "polinews.co.kr/data/ad/$domain=polinews.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?polinews\\.co\\.kr/data/ad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*polinews.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d626a1cd-7344-47a0-8e54-e9909dfb6f12",
+                "name": "polinews.co.kr/data/banner/$domain=polinews.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?polinews\\.co\\.kr/data/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*polinews.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "cc37aee6-50b9-4aaa-b32f-e6bdf17bcf2b",
                 "name": "polltest.azurewebsites.net/Polls/Ads",
                 "content": {
@@ -74863,6 +74895,97 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.reply_left_area>div[style=\"padding:0px 30px 15px 30px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "d7a45833-0d51-46c6-a073-f15cba1ac905",
+                "name": "polinews.co.kr##div#news_body_area>div[style=\"clear:both;margin-top:6px;margin-bottom:10px;margin-left:10px;text-align:center;float:right;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?polinews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#news_body_area>div[style=\"clear:both;margin-top:6px;margin-bottom:10px;margin-left:10px;text-align:center;float:right;\"]"
+                    }
+                }
+            },
+            {
+                "id": "023b9a7f-251b-441d-a767-1a1ad434cc3f",
+                "name": "polinews.co.kr##div.banner_left",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?polinews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_left"
+                    }
+                }
+            },
+            {
+                "id": "29b52fc3-d898-45b5-8748-533aa0c6daa7",
+                "name": "polinews.co.kr##div.banner_right",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?polinews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_right"
+                    }
+                }
+            },
+            {
+                "id": "85213af5-cab7-4531-a85c-aeeecfa80913",
+                "name": "polinews.co.kr##div.com_ban",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?polinews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.com_ban"
+                    }
+                }
+            },
+            {
+                "id": "2b3e4cc8-bd67-4e6e-97fe-fb78b0ae3332",
+                "name": "polinews.co.kr##div.news_con>div>div[style=\"clear:both;margin-top:6px;margin-bottom:10px;margin-left:10px;text-align:center;float:right;max-width:200px;max-height:200px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?polinews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.news_con>div>div[style=\"clear:both;margin-top:6px;margin-bottom:10px;margin-left:10px;text-align:center;float:right;max-width:200px;max-height:200px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "04365f00-61a2-49ed-9676-1e60e7b5e05b",
+                "name": "polinews.co.kr##div.news_con>div>div[style=\"clear:both;margin:0 auto;text-align:center;max-width:336px;max-height:280px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?polinews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.news_con>div>div[style=\"clear:both;margin:0 auto;text-align:center;max-width:336px;max-height:280px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "da247fc2-0221-4afe-bceb-ecd6deb077c5",
+                "name": "polinews.co.kr##iframe[src^=\"/data/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?polinews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/data/ad/\"]"
                     }
                 }
             },
