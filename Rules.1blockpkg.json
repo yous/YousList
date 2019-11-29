@@ -3644,6 +3644,19 @@
                 }
             },
             {
+                "id": "ecc2c36a-bac3-4d27-a238-3488374ee8d5",
+                "name": "##iframe[src*=\"//tm.interworksmedia.co.kr/ads.sx/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//tm.interworksmedia.co.kr/ads.sx/\"]"
+                    }
+                }
+            },
+            {
                 "id": "b218cfe2-e476-4172-a22a-8bfa6d1d01fc",
                 "name": "##iframe[src*=\"//tracker.adbinead.com/?MTM=&url=http://tracker.adbinead.com/other/\"][src$=\".html\"]",
                 "content": {
@@ -24810,6 +24823,19 @@
                 }
             },
             {
+                "id": "683cc55b-f000-472a-b3e4-ff0acd582eb2",
+                "name": "tm.interworksmedia.co.kr/ads.sx/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tm\\.interworksmedia\\.co\\.kr/ads\\.sx/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4f320269-ff95-40db-98c0-521283e9856d",
                 "name": "topstarnews.net/html/default/html_tpl_mobile/ad/$domain=topstarnews.net",
                 "content": {
@@ -42893,6 +42919,19 @@
                 }
             },
             {
+                "id": "eac91067-c5ec-42c5-a7ee-204e2485123e",
+                "name": "edaily.co.kr##div.banner_300x69",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?edaily\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_300x69"
+                    }
+                }
+            },
+            {
                 "id": "b15f2898-db07-4928-b4e6-69dd05f5a628",
                 "name": "edaily.co.kr##div.list_advertising",
                 "content": {
@@ -42958,6 +42997,32 @@
                 }
             },
             {
+                "id": "eb59afc9-f88b-4815-8fc5-500d3005bc88",
+                "name": "edaily.co.kr##div.view_ad01",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?edaily\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view_ad01"
+                    }
+                }
+            },
+            {
+                "id": "635aa90e-7458-4b14-9264-4d894f0fb651",
+                "name": "edaily.co.kr##div.view_ad02",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?edaily\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view_ad02"
+                    }
+                }
+            },
+            {
                 "id": "f49e1c87-efd7-4f98-ba67-72b42a3830a4",
                 "name": "edaily.co.kr##div.weekend_news",
                 "content": {
@@ -42993,6 +43058,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"boxbanner_\"]"
+                    }
+                }
+            },
+            {
+                "id": "bcb3e615-6964-4079-8762-fe03689f85f0",
+                "name": "edaily.co.kr##div[data-widget_id=\"xlzQ0A7Z\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?edaily\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-widget_id=\"xlzQ0A7Z\"]"
                     }
                 }
             },
