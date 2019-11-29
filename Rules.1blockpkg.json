@@ -80021,6 +80021,32 @@
                 }
             },
             {
+                "id": "3330c303-423e-4d35-b6ad-125e27cc80b2",
+                "name": "technologyreview.com##aside.showAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?technologyreview\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.showAd"
+                    }
+                }
+            },
+            {
+                "id": "fbc6b3d3-d1da-4cbf-bccc-34948fa989e9",
+                "name": "technologyreview.com##div.showAd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?technologyreview\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.showAd"
+                    }
+                }
+            },
+            {
                 "id": "4b5e6db3-ec21-402b-9d33-7d992fd2f9df",
                 "name": "techradar.com##div.sponsored-post",
                 "content": {
