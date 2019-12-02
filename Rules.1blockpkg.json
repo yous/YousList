@@ -68777,6 +68777,19 @@
                 }
             },
             {
+                "id": "ad5ee0b2-6ce6-443d-bea3-566724dcb552",
+                "name": "mydaily.co.kr##div.read_view_text>div[style=\"float:right; width:250px; margin-left:5px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mydaily\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.read_view_text>div[style=\"float:right; width:250px; margin-left:5px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "142d6b23-67ab-431c-af8f-2b278c0fd24a",
                 "name": "mydaily.co.kr##div.read_view_wrap>div[style=\"margin-left:10px; margin-bottom:10px; width:400px; float:left;\"]",
                 "content": {
@@ -68825,6 +68838,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class^=\"banner_1024_1024_\"]"
+                    }
+                }
+            },
+            {
+                "id": "df800c93-30e5-43b0-bec1-2630086063e1",
+                "name": "mydaily.co.kr##iframe[src^=\"../../ad/ad_\"][src*=\".php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mydaily\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"../../ad/ad_\"][src*=\".php\"]"
+                    }
+                }
+            },
+            {
+                "id": "b59e52f8-4a4f-41d5-821a-5d8f9fdaf502",
+                "name": "mydaily.co.kr##iframe[src^=\"../../ad/center_ad\"][src*=\".php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mydaily\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"../../ad/center_ad\"][src*=\".php\"]"
                     }
                 }
             },
