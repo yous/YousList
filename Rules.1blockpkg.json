@@ -4203,6 +4203,19 @@
                 }
             },
             {
+                "id": "d8684fb8-5a94-4d0a-b709-0136c7d929ff",
+                "name": "##iframe[src*=\"//www.unse4u.com/banner/pc.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//www.unse4u.com/banner/pc.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "64b9da4f-d4e5-4389-ab6c-1e3c5706eb2c",
                 "name": "##iframe[src*=\"//x.jd.com/exsites\"]",
                 "content": {
@@ -8473,6 +8486,22 @@
                 }
             },
             {
+                "id": "c4dcaebd-774d-4994-bae4-561f619b9676",
+                "name": "adv2.tvreport.co.kr$domain=tvreport.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adv2\\.tvreport\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*tvreport.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f9f92438-c1d8-4c51-842c-e2fdcdde5f38",
                 "name": "adver.clickmon.co.kr",
                 "content": {
@@ -11068,6 +11097,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.interworksmedia\\.co\\.kr/js/media/.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b7a5d315-d920-46a4-8725-82bc4f93d8db",
+                "name": "cdn.interworksmedia.co.kr/js/tm/ba/latest/ba.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.interworksmedia\\.co\\.kr/js/tm/ba/latest/ba\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -25368,6 +25410,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?unionpress\\.co\\.kr/news/master/banner/3d69ca2f12c09759924d8be0a89a4259",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cb1115b9-4acb-479e-96b0-89456ebb188d",
+                "name": "unse4u.com/banner/pc.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?unse4u\\.com/banner/pc\\.html",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -84988,6 +85043,32 @@
                 }
             },
             {
+                "id": "36f6ced3-f9f9-4726-887b-b605e638ed71",
+                "name": "tvreport.co.kr##div#CmAdContent>div[style=\"float: right; margin-top: 27px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tvreport\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#CmAdContent>div[style=\"float: right; margin-top: 27px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "54843e2b-3f1b-403d-820a-f19d60b7deb7",
+                "name": "tvreport.co.kr##div#iwmads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tvreport\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#iwmads"
+                    }
+                }
+            },
+            {
                 "id": "d752bcfb-58d9-4d64-9055-f4e85f576f0f",
                 "name": "tvreport.co.kr##div.advertise_02",
                 "content": {
@@ -84997,6 +85078,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.advertise_02"
+                    }
+                }
+            },
+            {
+                "id": "9a079b4c-4bd6-4a6e-99c6-32474b9571e8",
+                "name": "tvreport.co.kr##div.iwm_ba",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tvreport\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.iwm_ba"
                     }
                 }
             },
