@@ -16638,6 +16638,22 @@
                 }
             },
             {
+                "id": "303fc5c2-ffb3-448e-89b7-63a964d95573",
+                "name": "it.chosun.com/dhtm/js/it_ad_referrer.js$domain=it.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?it\\.chosun\\.com/dhtm/js/it_ad_referrer\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*it.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4a0579be-2a0f-4233-9261-0569c8ebd696",
                 "name": "it.chosun.com/dhtm/js/itcs_art_ad*.js$domain=it.chosun.com",
                 "content": {
