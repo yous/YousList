@@ -26567,11 +26567,43 @@
                 }
             },
             {
+                "id": "45cb40ad-c7a8-416d-a560-d350b24e7486",
+                "name": "yepan.net/banner/$domain=yepan.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yepan\\.net/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*yepan.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f6de56a5-30f7-4c34-a5ce-ac2cc093a092",
                 "name": "yepannet.diskn.com/banner/$domain=yepan.net",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?yepannet\\.diskn\\.com/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*yepan.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f495123a-339a-4b53-b231-7313f35fac2b",
+                "name": "yepannet.diskn.com/bn/$domain=yepan.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yepannet\\.diskn\\.com/bn/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*yepan.net"
@@ -89189,6 +89221,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "ins[data-ad-slot=\"9006398243\"]"
+                    }
+                }
+            },
+            {
+                "id": "bb180267-94fa-43de-ad00-3fc2b3cc51e3",
+                "name": "yepan.net##div#pb",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yepan\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#pb"
                     }
                 }
             },
