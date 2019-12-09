@@ -74925,6 +74925,45 @@
                 }
             },
             {
+                "id": "30b4e379-4aa8-4726-9abb-220097d5cade",
+                "name": "pinknews.co.uk##div.pn-mobile-in-article-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pinknews\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pn-mobile-in-article-ad"
+                    }
+                }
+            },
+            {
+                "id": "786604b9-c945-4b4a-b396-702ea3b58ce5",
+                "name": "pinknews.co.uk##div[class^=\"pn-ad-desktop_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pinknews\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"pn-ad-desktop_\"]"
+                    }
+                }
+            },
+            {
+                "id": "b0952321-be0b-4ef0-9d7b-8fb9c187173a",
+                "name": "pinknews.co.uk##div[class^=\"pn-ad-mobile_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pinknews\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"pn-ad-mobile_\"]"
+                    }
+                }
+            },
+            {
                 "id": "2357b3fa-83fe-4955-8080-38365cb77522",
                 "name": "pixiv.net##div#header-banner",
                 "content": {
