@@ -45714,6 +45714,19 @@
                 }
             },
             {
+                "id": "5ee7f942-96db-40ff-af75-84a59173f344",
+                "name": "ft.com##div.o-ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ft\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.o-ads"
+                    }
+                }
+            },
+            {
                 "id": "89414d48-34e7-4986-bce9-6a30c6f1cf3c",
                 "name": "ftoday.co.kr##div.banner_box",
                 "content": {
