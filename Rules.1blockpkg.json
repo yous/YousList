@@ -25395,6 +25395,19 @@
                 }
             },
             {
+                "id": "d909f8ab-5a87-49ab-8768-a95db62723e7",
+                "name": "u.dji.com/ads/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?u\\.dji\\.com/ads/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d81c3cfe-519b-4f7d-b090-9d0af2b4ec2f",
                 "name": "udmserve.net/udm/img.fetch",
                 "content": {
@@ -37728,6 +37741,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.top_banner"
+                    }
+                }
+            },
+            {
+                "id": "405defc8-7055-41a9-acb4-c492d6102b0c",
+                "name": "cdmanii.com##div#googleTop",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdmanii\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#googleTop"
                     }
                 }
             },
