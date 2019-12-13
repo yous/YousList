@@ -62991,6 +62991,19 @@
                 }
             },
             {
+                "id": "12a94fd5-60cb-4aa5-acb9-e1986f90022d",
+                "name": "m.ruliweb.com##div[id^=\"addmo_ad_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ruliweb\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"addmo_ad_\"]"
+                    }
+                }
+            },
+            {
                 "id": "256f7bf4-73a2-4b2a-98f8-72e0c4d13646",
                 "name": "m.search.naver.com##section.sp_power",
                 "content": {
