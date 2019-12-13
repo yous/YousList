@@ -10884,6 +10884,19 @@
                 }
             },
             {
+                "id": "1b84ce6f-538a-42d1-81cb-312982359cbe",
+                "name": "cdn.adpushup.com/*/adpushup.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.adpushup\\.com/.*/adpushup\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ee218c9d-c604-47aa-9d47-024b4c9eb3ad",
                 "name": "cdn.adrtx.net/adrtxtag.min.js",
                 "content": {
@@ -45541,6 +45554,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "li#yui-gen17"
+                    }
+                }
+            },
+            {
+                "id": "1ae10dbb-2984-4fd3-ae3a-c0aa787d3eae",
+                "name": "fossbytes.com##div._ap_apex_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?fossbytes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div._ap_apex_ad"
+                    }
+                }
+            },
+            {
+                "id": "fa900c14-63f5-4595-b19d-b8768b3aa0db",
+                "name": "fossbytes.com##div.td-ad-m",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?fossbytes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.td-ad-m"
                     }
                 }
             },
