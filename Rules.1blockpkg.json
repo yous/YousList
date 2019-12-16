@@ -50212,6 +50212,19 @@
                 }
             },
             {
+                "id": "7817c09c-df5b-477b-b026-bd55d7a44fbf",
+                "name": "imgur.com##div.advertisement",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?imgur\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advertisement"
+                    }
+                }
+            },
+            {
                 "id": "267142d4-ce90-4a0d-81e6-ec4da613ab71",
                 "name": "imnews.busan.com##div#float_banner",
                 "content": {
