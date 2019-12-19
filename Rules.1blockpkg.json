@@ -58350,41 +58350,28 @@
                 }
             },
             {
-                "id": "dd7d706b-c6fa-48b1-8aa3-65bac2018461",
-                "name": "m.etoday.co.kr##div#View_box>div.box[style=\"height:100px;margin-top:0;padding: 10px 0 10px 0\"]",
+                "id": "4061d780-f4d3-4044-b45e-e919ee4f9d45",
+                "name": "m.etoday.co.kr##div#contents_body>div[style=\"float:right;width:200px;height:200px;margin:5px 0 5px 15px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.etoday\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#View_box>div.box[style=\"height:100px;margin-top:0;padding: 10px 0 10px 0\"]"
+                        "selector": "div#contents_body>div[style=\"float:right;width:200px;height:200px;margin:5px 0 5px 15px;\"]"
                     }
                 }
             },
             {
-                "id": "d5ebec5f-0de7-4bf8-a619-af5fb066f86a",
-                "name": "m.etoday.co.kr##div#main_wrap_L>div.box[style=\"padding: 10px 0 10px 0;text-align:center\"]",
+                "id": "1b0b00b1-ce5e-4d1a-ac24-05eeff5241ab",
+                "name": "m.etoday.co.kr##div#contents_body>div[style=\"text-align: center;width:100%;padding:0 0 15px 0;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.etoday\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#main_wrap_L>div.box[style=\"padding: 10px 0 10px 0;text-align:center\"]"
-                    }
-                }
-            },
-            {
-                "id": "f162e6da-c1b2-4345-876e-dbbbb682f99e",
-                "name": "m.etoday.co.kr##div#main_wrap_R>div.box[style=\"wdith: 100%;padding: 10px 0 10px 0;text-align:center;background-color: #fff\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.etoday\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#main_wrap_R>div.box[style=\"wdith: 100%;padding: 10px 0 10px 0;text-align:center;background-color: #fff\"]"
+                        "selector": "div#contents_body>div[style=\"text-align: center;width:100%;padding:0 0 15px 0;\"]"
                     }
                 }
             },
@@ -58402,19 +58389,6 @@
                 }
             },
             {
-                "id": "873d3afe-9e04-4497-8749-0f2dd4c3da57",
-                "name": "m.etoday.co.kr##div#view_contents>div[style=\"float:right;width:200px;height:200px;margin:5px 0 5px 15px\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.etoday\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#view_contents>div[style=\"float:right;width:200px;height:200px;margin:5px 0 5px 15px\"]"
-                    }
-                }
-            },
-            {
                 "id": "2f51ab41-9aae-4dd4-8f08-5c08b66d804c",
                 "name": "m.etoday.co.kr##div.ad_text_dot",
                 "content": {
@@ -58424,6 +58398,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_text_dot"
+                    }
+                }
+            },
+            {
+                "id": "e602d02f-ec6b-40ba-942d-1ff5662dbb07",
+                "name": "m.etoday.co.kr##section.DetailView_Wrap>div.box>div[style=\"width:320px;height:320px;margin:0 auto 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.etoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.DetailView_Wrap>div.box>div[style=\"width:320px;height:320px;margin:0 auto 0;\"]"
                     }
                 }
             },
