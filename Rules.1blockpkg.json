@@ -54489,6 +54489,19 @@
                 }
             },
             {
+                "id": "c0779ed3-ed30-43da-a6fe-d69e0fce475c",
+                "name": "kr.starsinsider.com##div.pub-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kr\\.starsinsider\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pub-container"
+                    }
+                }
+            },
+            {
                 "id": "5f3869bc-daf9-4636-b50d-cd841a71cc50",
                 "name": "krebsonsecurity.com##div#sidebar-box",
                 "content": {
