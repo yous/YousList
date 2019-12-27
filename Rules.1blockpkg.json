@@ -58987,6 +58987,19 @@
                 }
             },
             {
+                "id": "cfe6cc52-f47f-497b-a1e9-0e0789f18475",
+                "name": "m.hackers.co.kr##div#fixed_bnr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.hackers\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#fixed_bnr"
+                    }
+                }
+            },
+            {
                 "id": "1543d8cf-efe6-4e61-a5a0-850799ce033b",
                 "name": "m.hani.co.kr##div.news-box-ad",
                 "content": {
