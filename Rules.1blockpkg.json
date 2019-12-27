@@ -11131,6 +11131,19 @@
                 }
             },
             {
+                "id": "083bc373-1c24-467a-9379-e765c2fc81fb",
+                "name": "cdn.interworksmedia.co.kr/js/tm/aip/latest/aip.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.interworksmedia\\.co\\.kr/js/tm/aip/latest/aip\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b7a5d315-d920-46a4-8725-82bc4f93d8db",
                 "name": "cdn.interworksmedia.co.kr/js/tm/ba/latest/ba.js",
                 "content": {
@@ -61414,6 +61427,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"./index_ad.mk\"]"
+                    }
+                }
+            },
+            {
+                "id": "4873d340-7887-4e81-a489-8c382768c1b7",
+                "name": "m.moneys.mt.co.kr##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.moneys\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "be96ab1c-9036-450b-9fe3-28cfd38c168e",
+                "name": "m.moneys.mt.co.kr##div.iwm_aip",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.moneys\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.iwm_aip"
                     }
                 }
             },
