@@ -81009,6 +81009,19 @@
                 }
             },
             {
+                "id": "b161aafc-d1c9-431e-8b76-7e634504c491",
+                "name": "tgd.kr##div#article-list>div[style=\"background: #efefef;padding:10px 8px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tgd\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article-list>div[style=\"background: #efefef;padding:10px 8px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "3c05bf6e-a44a-430d-86b9-003a2e799b40",
                 "name": "tgd.kr##div#plz-dont-block-me",
                 "content": {
