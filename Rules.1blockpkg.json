@@ -62614,6 +62614,19 @@
                 }
             },
             {
+                "id": "45b0c55b-fc00-40ba-a6dd-897d8d46d740",
+                "name": "m.nocutnews.co.kr##div.v_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.nocutnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.v_ad"
+                    }
+                }
+            },
+            {
                 "id": "decf0968-31af-482b-a1c9-050e15cedb00",
                 "name": "m.nocutnews.co.kr##iframe[src^=\"/ad/adnca.html\"]",
                 "content": {
