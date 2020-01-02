@@ -34599,6 +34599,19 @@
                 }
             },
             {
+                "id": "b901582e-cc4b-4a96-b08a-f279a1a92654",
+                "name": "blankspace-dev.tistory.com##div.tt_article_useless_p_margin>div[style=\"float:right;margin:0 0 10px 10px;width:336px;height:280px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?blankspace-dev\\.tistory\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.tt_article_useless_p_margin>div[style=\"float:right;margin:0 0 10px 10px;width:336px;height:280px\"]"
+                    }
+                }
+            },
+            {
                 "id": "6d3b05b0-351c-4afb-bc44-06db06b72d2f",
                 "name": "bleacherreport.com##div.ad",
                 "content": {
