@@ -11893,6 +11893,19 @@
                 }
             },
             {
+                "id": "5128a177-9d6c-4df6-ae21-2f475bdba157",
+                "name": "compass.adop.cc/assets/js/adop/adopHB.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?compass\\.adop\\.cc/assets/js/adop/adopHB\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d579c9d9-b7a6-4ce5-b6ad-9ea1c37d0ef7",
                 "name": "compass.adop.cc/assets/js/adop/adopJ.js",
                 "content": {
@@ -77781,6 +77794,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#sliding_adopP"
+                    }
+                }
+            },
+            {
+                "id": "ce147ccb-2af2-4ae3-bf1d-ff596a68e5d2",
+                "name": "sisain.co.kr##div.ad-template",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sisain\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-template"
                     }
                 }
             },
