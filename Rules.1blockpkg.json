@@ -6068,11 +6068,11 @@
                 }
             },
             {
-                "id": "21d65f2c-8024-43fb-af4d-8691bee7fc11",
-                "name": "ad.medicaltimes.com/ADManager/2018/$domain=medicaltimes.com",
+                "id": "c3dcea00-2585-4844-98d6-eef3dcbfc608",
+                "name": "ad.medicaltimes.com/ADManager2018/$domain=medicaltimes.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.medicaltimes\\.com/ADManager/2018/",
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.medicaltimes\\.com/ADManager2018/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*medicaltimes.com"
@@ -67069,6 +67069,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://www.mediaus.co.kr/banner/\"]"
+                    }
+                }
+            },
+            {
+                "id": "b78f1556-ef93-4c79-a3b9-85f6bc4b2e7d",
+                "name": "medicaltimes.com##a[href^=\"/Users/ADManager2018/ADMamagerCountStat.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?medicaltimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"/Users/ADManager2018/ADMamagerCountStat.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "d261caac-3fd8-4e91-9c2f-72c43a9143c4",
+                "name": "medicaltimes.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?medicaltimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "776572c8-9ffd-491f-a77f-717f54629638",
+                "name": "medicaltimes.com##div.footerAD",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?medicaltimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.footerAD"
                     }
                 }
             },
