@@ -40920,6 +40920,45 @@
                 }
             },
             {
+                "id": "2ec8e42f-fd9a-4c3f-9a1c-69b5e29de064",
+                "name": "demilked.com##div.articles>div.adv.article",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?demilked\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.articles>div.adv.article"
+                    }
+                }
+            },
+            {
+                "id": "4add5436-797d-4931-9a42-9180bcfeef21",
+                "name": "demilked.com##div.desktop-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?demilked\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.desktop-ad"
+                    }
+                }
+            },
+            {
+                "id": "59457633-c6df-46e5-b0ae-97e2323540b4",
+                "name": "demilked.com##div.mobile-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?demilked\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobile-ad"
+                    }
+                }
+            },
+            {
                 "id": "a54dead2-cd58-42ab-988f-16fce4d8998c",
                 "name": "develop.sunshiny.co.kr##div#googleAdBottom",
                 "content": {
