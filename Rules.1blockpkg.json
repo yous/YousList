@@ -64970,6 +64970,19 @@
                 }
             },
             {
+                "id": "3daae0f7-77ab-4ea4-9676-4dd846c3dbae",
+                "name": "m.wowtv.co.kr##div.banner-area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.wowtv\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-area"
+                    }
+                }
+            },
+            {
                 "id": "0ee51ee1-d5d8-4968-b6d5-07bcae8980d2",
                 "name": "m.xportsnews.com##div#article-ad-area",
                 "content": {
