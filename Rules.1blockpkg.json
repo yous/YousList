@@ -3150,6 +3150,19 @@
                 }
             },
             {
+                "id": "651872d6-ae36-4f27-928f-4072bea56898",
+                "name": "##iframe[src*=\"//nvapi.feeldmc.com/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//nvapi.feeldmc.com/ad/\"]"
+                    }
+                }
+            },
+            {
                 "id": "28606239-f7c1-416f-80db-da117f4f0453",
                 "name": "##iframe[src*=\"//nws.lumieyes.com/\"]",
                 "content": {
@@ -16404,6 +16417,22 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*news.tvchosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c7359b9c-762d-4f36-8fe0-1020d20cee9c",
+                "name": "img.wowtv.co.kr/common/script/ad/$domain=wowtv.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.wowtv\\.co\\.kr/common/script/ad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*wowtv.co.kr"
                         ]
                     },
                     "action": {
@@ -88224,262 +88253,28 @@
                 }
             },
             {
-                "id": "27ad81f4-7d57-479e-8015-97e89bd2fa82",
-                "name": "wowtv.co.kr##div#absBannerRight",
+                "id": "6014a28f-1578-499b-a6da-0adb93e660c8",
+                "name": "wowtv.co.kr##div#divTopBanner",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#absBannerRight"
+                        "selector": "div#divTopBanner"
                     }
                 }
             },
             {
-                "id": "6e3949ba-6ffe-479a-a184-6815f057837e",
-                "name": "wowtv.co.kr##div#ad_div",
+                "id": "013b46c6-e4a8-4f38-8e1d-9e8a97e332bc",
+                "name": "wowtv.co.kr##div.adv-area",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ad_div"
-                    }
-                }
-            },
-            {
-                "id": "955d5033-6c48-47f2-b024-e8d999fc4d61",
-                "name": "wowtv.co.kr##div#article_cont>div[style=\"clear:both; float:left; width:650px; margin:30px auto 0\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#article_cont>div[style=\"clear:both; float:left; width:650px; margin:30px auto 0\"]"
-                    }
-                }
-            },
-            {
-                "id": "50861296-62e5-4358-b007-259bdd7019ed",
-                "name": "wowtv.co.kr##div#bottomWrap>div[style=\"margin-top: 15px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#bottomWrap>div[style=\"margin-top: 15px;\"]"
-                    }
-                }
-            },
-            {
-                "id": "1f828888-8c29-471c-ab4d-7ce1075fd264",
-                "name": "wowtv.co.kr##div#header>div.view_absBannerLeft>div[style=\"position:absolute; z-index :0; left:42px; top: -117px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#header>div.view_absBannerLeft>div[style=\"position:absolute; z-index :0; left:42px; top: -117px;\"]"
-                    }
-                }
-            },
-            {
-                "id": "79edb2a6-8621-4ed2-80a8-7654e2d5534e",
-                "name": "wowtv.co.kr##div#scrollDiv",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#scrollDiv"
-                    }
-                }
-            },
-            {
-                "id": "6700a484-588c-4048-a33c-3bb643e2fee1",
-                "name": "wowtv.co.kr##div#viewContent_3>div[style=\"display:inline; float:left; width:250px; height:250px; margin:10px 10px 10px 0;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#viewContent_3>div[style=\"display:inline; float:left; width:250px; height:250px; margin:10px 10px 10px 0;\"]"
-                    }
-                }
-            },
-            {
-                "id": "abfaaea8-40b9-4b05-a846-6ddf296e5a0e",
-                "name": "wowtv.co.kr##div#viewContent_3>div[style=\"float: left; width: 250px; height: 250px; margin: 10px 10px 10px 0px;\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#viewContent_3>div[style=\"float: left; width: 250px; height: 250px; margin: 10px 10px 10px 0px;\"]"
-                    }
-                }
-            },
-            {
-                "id": "ee97d528-502d-405a-b11d-d4deac57da71",
-                "name": "wowtv.co.kr##div.ad120731",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad120731"
-                    }
-                }
-            },
-            {
-                "id": "757fc33a-94a4-4e62-8785-abc59d6a1a70",
-                "name": "wowtv.co.kr##div.ad250w280",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad250w280"
-                    }
-                }
-            },
-            {
-                "id": "c2e757ea-472c-4a2c-a843-cf11e627cff1",
-                "name": "wowtv.co.kr##div.ad_areaHeadline",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_areaHeadline"
-                    }
-                }
-            },
-            {
-                "id": "8c95f220-3270-4076-85a0-df550623a115",
-                "name": "wowtv.co.kr##div.ad_tab_AllInOne",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_tab_AllInOne"
-                    }
-                }
-            },
-            {
-                "id": "89d917a7-cdec-4f11-ba4b-517d9073bf2a",
-                "name": "wowtv.co.kr##div.adbaner",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.adbaner"
-                    }
-                }
-            },
-            {
-                "id": "6975b520-d35d-4d4e-8108-7f8794ab8425",
-                "name": "wowtv.co.kr##div.article_view>div[style=\"clear:both; width:100%; height:275px; margin:15px auto 0\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.article_view>div[style=\"clear:both; width:100%; height:275px; margin:15px auto 0\"]"
-                    }
-                }
-            },
-            {
-                "id": "72c86618-6611-4b31-91ae-3ac06ed0407c",
-                "name": "wowtv.co.kr##div.top_sub_top_area>div[style=\"clear:both; float:left\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.top_sub_top_area>div[style=\"clear:both; float:left\"]"
-                    }
-                }
-            },
-            {
-                "id": "7b43c6c9-96c2-4c3e-88b9-f5ba39267cb6",
-                "name": "wowtv.co.kr##div.top_sub_top_area>div[style=\"float:right; width:120px; height:130px\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.top_sub_top_area>div[style=\"float:right; width:120px; height:130px\"]"
-                    }
-                }
-            },
-            {
-                "id": "b12ed3bc-b6b0-4951-aa55-c8588c27195f",
-                "name": "wowtv.co.kr##div.topbanner",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.topbanner"
-                    }
-                }
-            },
-            {
-                "id": "1ce321a8-0924-437d-baee-770529dee65d",
-                "name": "wowtv.co.kr##div.view-AD-area",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.view-AD-area"
-                    }
-                }
-            },
-            {
-                "id": "e61ab645-54df-4da5-8a3c-63d1800f2cf6",
-                "name": "wowtv.co.kr##div.wrap-bottomad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.wrap-bottomad"
-                    }
-                }
-            },
-            {
-                "id": "469af1b1-92dd-4c03-96a5-3e57cd68de66",
-                "name": "wowtv.co.kr##div[class^=\"common_AD\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowtv\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[class^=\"common_AD\"]"
+                        "selector": "div.adv-area"
                     }
                 }
             },
