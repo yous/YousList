@@ -24805,6 +24805,45 @@
                 }
             },
             {
+                "id": "5410f19c-6584-4b25-9d6e-87c3f31c564e",
+                "name": "tags.h12-media.com/load.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tags\\.h12-media\\.com/load\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7ab980b2-6730-4e56-ae1f-bce3244e1a9e",
+                "name": "tags.h12-media.com/v2/prebid.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tags\\.h12-media\\.com/v2/prebid\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "dad36cb5-b478-49c4-9b25-8028c2cf9736",
+                "name": "tags.h12-media.com/v2/tags.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tags\\.h12-media\\.com/v2/tags\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "e2aa0616-f7bb-4602-81f7-4d8f16f593ae",
                 "name": "tags.mathtag.com/notify/js",
                 "content": {
@@ -75132,6 +75171,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "span[data-oas]"
+                    }
+                }
+            },
+            {
+                "id": "9667721f-9351-4a4f-9df8-5ff5a47db86e",
+                "name": "picbear.org##div.ads-item",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?picbear\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ads-item"
                     }
                 }
             },
