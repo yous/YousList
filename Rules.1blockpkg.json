@@ -12428,6 +12428,19 @@
                 }
             },
             {
+                "id": "c8026483-b5bc-43e3-813c-7dd31966bf79",
+                "name": "d.adand.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?d\\.adand\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4c3daf8d-54ad-4672-ba4d-0099b5948eee",
                 "name": "d.adroll.com",
                 "content": {
@@ -43542,6 +43555,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.notice_2"
+                    }
+                }
+            },
+            {
+                "id": "1506aac2-b9e5-4e2a-a251-00ada9af7f92",
+                "name": "en.seoul.co.kr##div#withpang_p",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?en\\.seoul\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#withpang_p"
                     }
                 }
             },
