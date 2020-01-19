@@ -44742,6 +44742,19 @@
                 }
             },
             {
+                "id": "e0884006-bfc7-428f-8033-697ff6bce350",
+                "name": "eye.seoul.co.kr##div#withpang_p",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?eye\\.seoul\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#withpang_p"
+                    }
+                }
+            },
+            {
                 "id": "575ef715-a95e-4fb1-bf5b-98875bd2aec7",
                 "name": "eyenews.hankooki.com##div#ad2LineText02",
                 "content": {
