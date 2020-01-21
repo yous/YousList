@@ -15608,6 +15608,22 @@
                 }
             },
             {
+                "id": "fbe441e7-8160-4ccc-befe-2d5330d5b56b",
+                "name": "ibabynews.com/script/bannerpop.js$domain=ibabynews.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ibabynews\\.com/script/bannerpop\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*ibabynews.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "7cbfa5a9-63cc-44f4-a07c-fb1ee2654105",
                 "name": "ichannela.com/ch/*adpost*",
                 "content": {
@@ -49899,6 +49915,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.TotalDiv>div[style=\"right: 50%; margin-right: 500px; top:110px; position:absolute; z-index:3; width:85px ; height:140px; text-align:center\"]"
+                    }
+                }
+            },
+            {
+                "id": "f316c45a-cb13-4de6-89b2-240e85e5ccc3",
+                "name": "ibabynews.com##div.m-fixed-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ibabynews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m-fixed-banner"
                     }
                 }
             },
