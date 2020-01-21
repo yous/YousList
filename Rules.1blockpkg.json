@@ -7601,6 +7601,19 @@
                 }
             },
             {
+                "id": "e9d7cce2-cc23-43b7-af48-482cb09b9d7d",
+                "name": "ads.daara.co.kr/v.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ads\\.daara\\.co\\.kr/v\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "94411308-64a1-4b19-90b2-e96cda64c6da",
                 "name": "ads.emetro.co.kr/www/delivery/ajs.php",
                 "content": {
@@ -21649,6 +21662,19 @@
                         "if-domain": [
                             "*physicsworld.com"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5cbafb05-7f36-4da3-8ad3-c6b5588bd146",
+                "name": "pimg2.daara.co.kr/mc/ad_img/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pimg2\\.daara\\.co\\.kr/mc/ad_img/",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
@@ -53110,6 +53136,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.adBanner"
+                    }
+                }
+            },
+            {
+                "id": "c27bcaf0-dd8d-44ce-9bd0-6753b389f043",
+                "name": "kidd.co.kr##div.bottomAD_area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kidd\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bottomAD_area"
+                    }
+                }
+            },
+            {
+                "id": "bf5521fa-07d5-4b25-8091-52fecada76c0",
+                "name": "kidd.co.kr##div.kiddBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kidd\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.kiddBanner"
                     }
                 }
             },
