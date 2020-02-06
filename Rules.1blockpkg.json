@@ -17687,6 +17687,19 @@
                 }
             },
             {
+                "id": "2985c709-49c2-4473-b88d-7d3171677827",
+                "name": "kitweb2.tadapi.info/network/adapi.js.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kitweb2\\.tadapi\\.info/network/adapi\\.js\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "955429e3-cbee-4b78-92ef-53f459c6c5fc",
                 "name": "kmib.co.kr/cp/realclick/",
                 "content": {
@@ -60913,6 +60926,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://img.kormedi.com/healthgift/ad/ad\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
+                "id": "45c1d9a8-dd54-4333-8130-b64c115604cd",
+                "name": "m.kr.ajunews.com##div.main_banner2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.kr\\.ajunews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.main_banner2"
                     }
                 }
             },
