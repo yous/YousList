@@ -14481,6 +14481,22 @@
                 }
             },
             {
+                "id": "7b67c7be-c507-4f3d-a2c9-5fc789f0bf26",
+                "name": "footballist.co.kr/bannerManager/upload/$domain=m.footballist.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?footballist\\.co\\.kr/bannerManager/upload/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.footballist.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "bff091ec-e6df-4776-8102-9fc33eb76fd9",
                 "name": "fow.tv/criteo_iframe_top_tv.php$domain=fow.tv",
                 "content": {
@@ -59062,6 +59078,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[id^=\"adv_banner\"]"
+                    }
+                }
+            },
+            {
+                "id": "0a5550c9-0a37-4342-9894-2ff08fbc4679",
+                "name": "m.footballist.co.kr##div#articleBody>div.newsBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.footballist\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#articleBody>div.newsBanner"
+                    }
+                }
+            },
+            {
+                "id": "84af2d9e-5a76-458b-a5b9-8732f187142f",
+                "name": "m.footballist.co.kr##div.bannerBottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.footballist\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bannerBottom"
+                    }
+                }
+            },
+            {
+                "id": "13ff3f77-1028-447e-8c9f-dda05a1f4a55",
+                "name": "m.footballist.co.kr##div.body>div[style=\"width: 150px; height: 150px;  display: inline-block; float: right; margin: 10px; text-align:right;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.footballist\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.body>div[style=\"width: 150px; height: 150px;  display: inline-block; float: right; margin: 10px; text-align:right;\"]"
+                    }
+                }
+            },
+            {
+                "id": "f8fca08a-dfdc-4d89-95bd-d8cf0f4c0394",
+                "name": "m.footballist.co.kr##section.advertisment",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.footballist\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.advertisment"
                     }
                 }
             },
