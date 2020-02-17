@@ -78725,6 +78725,19 @@
                 }
             },
             {
+                "id": "c0056e65-dbc2-4bb0-9331-e87300db5de7",
+                "name": "slist.kr##body>div[style=\"width:100%;position:fixed;bottom:5px;z-index:10000000;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?slist\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"width:100%;position:fixed;bottom:5px;z-index:10000000;\"]"
+                    }
+                }
+            },
+            {
                 "id": "ad1fd926-7f23-425d-bd48-fe83a87cff30",
                 "name": "slrclub.com##div#ad1",
                 "content": {
