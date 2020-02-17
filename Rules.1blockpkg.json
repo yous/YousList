@@ -47993,6 +47993,19 @@
                 }
             },
             {
+                "id": "9b6a17cc-06c4-43a7-99c4-6b06429885c4",
+                "name": "hani.co.kr##div.ad-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hani\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-banner"
+                    }
+                }
+            },
+            {
                 "id": "5d7fefb3-73bc-4084-8856-e089628897da",
                 "name": "hani.co.kr##div.ad_box01_area",
                 "content": {
@@ -48028,6 +48041,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_top"
+                    }
+                }
+            },
+            {
+                "id": "710eee47-2bc8-41c0-b489-f7c666c99ff3",
+                "name": "hani.co.kr##div.article-text-font-size>div.text>div[style=\"width:300px;height:250px;float:left;clear:both;margin:20px 20px 0px 0px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hani\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article-text-font-size>div.text>div[style=\"width:300px;height:250px;float:left;clear:both;margin:20px 20px 0px 0px;\"]"
                     }
                 }
             },
