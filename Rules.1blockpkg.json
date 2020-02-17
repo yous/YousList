@@ -12897,6 +12897,19 @@
                 }
             },
             {
+                "id": "cb13eda1-dc8a-42a7-a1b9-89c1c406d03f",
+                "name": "dezf3o8j9jdt6.cloudfront.net/videoads/js/ads_*.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dezf3o8j9jdt6\\.cloudfront\\.net/videoads/js/ads_.*\\.min\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2b51cfe8-2e13-4dff-84cb-096831a8ac18",
                 "name": "dgate.*/hc.aspx",
                 "content": {
