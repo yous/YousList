@@ -72784,6 +72784,19 @@
                 }
             },
             {
+                "id": "c096a045-ecf7-415a-87d2-36e41d188569",
+                "name": "newscj.com##div.adicon",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newscj\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adicon"
+                    }
+                }
+            },
+            {
                 "id": "5033367b-4a06-4a2f-a596-29cb96c6bbbe",
                 "name": "newscj.com##div.user-snb-wrapper>div[style=\"margin:15px auto; width:320px;\"]",
                 "content": {
@@ -72793,6 +72806,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.user-snb-wrapper>div[style=\"margin:15px auto; width:320px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "000fad71-adfe-489d-9439-5d2017b89fcb",
+                "name": "newscj.com##div[data-widget_id=\"57w1eQX8\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newscj\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-widget_id=\"57w1eQX8\"]"
                     }
                 }
             },
