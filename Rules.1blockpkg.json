@@ -74409,6 +74409,19 @@
                 }
             },
             {
+                "id": "f17987b1-d011-4233-95bd-dca18659454a",
+                "name": "old.reddit.com##div.ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?old\\.reddit\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container"
+                    }
+                }
+            },
+            {
                 "id": "3693ecaf-e9c7-4674-ad5b-57131d6272a7",
                 "name": "ondemandkorea.com##div.banner_728x90",
                 "content": {
