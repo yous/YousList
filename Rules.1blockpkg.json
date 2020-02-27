@@ -57795,6 +57795,32 @@
                 }
             },
             {
+                "id": "510c7f1e-aef7-4c55-8ad7-8ada2d6679f0",
+                "name": "m.dangdangnews.com##ins[data-ad-slot=\"3634131108\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.dangdangnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"3634131108\"]"
+                    }
+                }
+            },
+            {
+                "id": "c37a35c8-79b7-4620-b79a-7f6d7cc21688",
+                "name": "m.dangdangnews.com##section.advertisment",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.dangdangnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.advertisment"
+                    }
+                }
+            },
+            {
                 "id": "7b204221-b030-46a5-bff0-8aef769f13ce",
                 "name": "m.daum.net##div.bnr_add",
                 "content": {
