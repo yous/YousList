@@ -61201,41 +61201,93 @@
                 }
             },
             {
-                "id": "fb064487-676e-4833-bd84-cdf437319c55",
-                "name": "m.kukinews.com##div.bnr",
+                "id": "8a88323f-df89-47af-b50f-cd70b03bbeb9",
+                "name": "m.kukinews.com##div.articlein_ad_middle_content",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.kukinews\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.bnr"
+                        "selector": "div.articlein_ad_middle_content"
                     }
                 }
             },
             {
-                "id": "ba62cc4f-e6b0-421c-b6cc-87f1c961d93c",
-                "name": "m.kukinews.com##div.dw_cnt_vw>div[style=\"background:#fff;height:268px;overflow:hidden;text-align:center\"]",
+                "id": "c616528b-8599-4b8c-b867-7f0129c16e97",
+                "name": "m.kukinews.com##div.articlein_ad_top_content",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.kukinews\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.dw_cnt_vw>div[style=\"background:#fff;height:268px;overflow:hidden;text-align:center\"]"
+                        "selector": "div.articlein_ad_top_content"
                     }
                 }
             },
             {
-                "id": "8b490326-be0c-4f3f-b7a3-07714ff7ed12",
-                "name": "m.kukinews.com##div.dw_cnt_vw>div[style=\"padding-top:5px;background:#efefef\"]",
+                "id": "b550f1fa-0449-4cec-973a-20e9266da267",
+                "name": "m.kukinews.com##div.iwm_aip",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.kukinews\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.dw_cnt_vw>div[style=\"padding-top:5px;background:#efefef\"]"
+                        "selector": "div.iwm_aip"
+                    }
+                }
+            },
+            {
+                "id": "65780a87-39c9-4a18-b73f-37c75fd04de4",
+                "name": "m.kukinews.com##div.iwm_ba",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.kukinews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.iwm_ba"
+                    }
+                }
+            },
+            {
+                "id": "5bb56cdb-8d81-4e3a-b2c9-e1e10815a060",
+                "name": "m.kukinews.com##div.swiper-slide>div[style=\"text-align:center;margin-top:10px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.kukinews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.swiper-slide>div[style=\"text-align:center;margin-top:10px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "848b02c6-6d29-4522-bdfc-371a012f8e9d",
+                "name": "m.kukinews.com##div.swiper-slide>div[style=\"text-align:center;margin: 10px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.kukinews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.swiper-slide>div[style=\"text-align:center;margin: 10px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "dd6d4fa0-0e78-4806-878b-261128859e4f",
+                "name": "m.kukinews.com##div.swiper-slide>div[style=\"text-align:center;margin:10px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.kukinews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.swiper-slide>div[style=\"text-align:center;margin:10px;\"]"
                     }
                 }
             },
