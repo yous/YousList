@@ -12761,6 +12761,22 @@
                 }
             },
             {
+                "id": "95c6c5ba-f222-4bd3-8871-031de7291875",
+                "name": "dangdangnews.com/banner/$domain=dangdangnews.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dangdangnews\\.com/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*dangdangnews.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "7577c0c4-1711-4641-829d-fe5bd083e32e",
                 "name": "danmee.chosun.com/common/event2016/index.html$domain=danmee.chosun.com",
                 "content": {
@@ -40826,6 +40842,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ttop_banner"
+                    }
+                }
+            },
+            {
+                "id": "44d54848-48d9-475b-bf03-d961f78f1ccd",
+                "name": "dangdangnews.com##div#floating_banner_body",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dangdangnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#floating_banner_body"
+                    }
+                }
+            },
+            {
+                "id": "53a019bc-da2e-4092-a3d8-3fafbdb22ca6",
+                "name": "dangdangnews.com##div#scrollBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dangdangnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#scrollBanner"
+                    }
+                }
+            },
+            {
+                "id": "929575ed-a860-4994-b78e-847928cace3f",
+                "name": "dangdangnews.com##iframe[src^=\"/banner/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dangdangnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/banner/\"]"
                     }
                 }
             },
