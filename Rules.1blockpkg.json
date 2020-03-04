@@ -30327,6 +30327,19 @@
                 }
             },
             {
+                "id": "be6bba44-1ced-411f-bbbb-c8d168b0f311",
+                "name": "9to5mac.com##div.ad-disclaimer-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?9to5mac\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-disclaimer-container"
+                    }
+                }
+            },
+            {
                 "id": "00a536af-dcb5-42cd-b45a-e85fb68fb654",
                 "name": "9to5mac.com##div.post-body>a[rel=\"noopener\"][target=\"_blank\"]",
                 "content": {
