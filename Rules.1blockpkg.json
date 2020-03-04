@@ -73385,6 +73385,32 @@
                 }
             },
             {
+                "id": "79412687-0bce-41f0-906b-09ec0b496e29",
+                "name": "newspic.kr##div#app-promotion-top-layer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newspic\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#app-promotion-top-layer"
+                    }
+                }
+            },
+            {
+                "id": "44653eeb-b635-432c-80f1-d492350c3ad3",
+                "name": "newspic.kr##div#app-promotion-top-layer-padding",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newspic\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#app-promotion-top-layer-padding"
+                    }
+                }
+            },
+            {
                 "id": "dceaa8d3-bd5b-4182-8008-e7828c3efebf",
                 "name": "newspic.kr##div.article_img_ad",
                 "content": {
