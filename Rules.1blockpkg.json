@@ -18831,6 +18831,134 @@
                 }
             },
             {
+                "id": "9e7debd6-11b4-4f9a-ab9f-d24ebba5fbd0",
+                "name": "m.pullbbang.com/ad_realClick.jsp$domain=m.pullbbang.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com/ad_realClick\\.jsp",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.pullbbang.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c3486cc5-206e-4bfc-a03a-3fd807a028f6",
+                "name": "m.pullbbang.com/ads/bottom/bottom-banner.html$domain=m.pullbbang.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com/ads/bottom/bottom-banner\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.pullbbang.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8088af8e-8d80-4ba0-9154-abc70176591a",
+                "name": "m.pullbbang.com/ads/floor/*.jsp$domain=m.pullbbang.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com/ads/floor/.*\\.jsp",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.pullbbang.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "832497f3-9b58-4f55-b00d-c23cc2d08e3c",
+                "name": "m.pullbbang.com/ads/icon/*.jsp$domain=m.pullbbang.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com/ads/icon/.*\\.jsp",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.pullbbang.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8468933e-d481-471d-9237-1b56b3a14907",
+                "name": "m.pullbbang.com/ads/preroll/*.js$domain=m.pullbbang.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com/ads/preroll/.*\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.pullbbang.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2dc704fa-2502-4094-bf6b-cb5c5f7d3f0f",
+                "name": "m.pullbbang.com/js/ad/mobileAD.js$domain=m.pullbbang.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com/js/ad/mobileAD\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.pullbbang.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "19cafdbe-397e-4148-9a92-ac1971ced707",
+                "name": "m.pullbbang.com/js/ads/mezzo/mezzo.min.js$domain=m.pullbbang.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com/js/ads/mezzo/mezzo\\.min\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.pullbbang.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "798775f7-be73-4b36-9d42-b6f970d76278",
+                "name": "m.pullbbang.com/js/impl/google/adsense_m.js$domain=m.pullbbang.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com/js/impl/google/adsense_m\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.pullbbang.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "3a1d7139-6a23-48dd-b20b-ff4277d16bec",
                 "name": "m.skyedaily.com/ad/$domain=m.skyedaily.com",
                 "content": {
@@ -63670,6 +63798,162 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.news_body_area>div[style=\"margin:10px auto; width:310px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "8cc98864-054d-4812-8cf8-7ffad0c6f673",
+                "name": "m.pullbbang.com##div#adBnr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adBnr"
+                    }
+                }
+            },
+            {
+                "id": "75d9f632-147b-48c9-a82a-ff54724ee15c",
+                "name": "m.pullbbang.com##div#event_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#event_banner"
+                    }
+                }
+            },
+            {
+                "id": "d8a3284a-4c60-44c6-af38-7ae05a89accb",
+                "name": "m.pullbbang.com##div#inluminus",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#inluminus"
+                    }
+                }
+            },
+            {
+                "id": "b0993b72-66ae-49c3-8be9-504d63e51ec9",
+                "name": "m.pullbbang.com##div#pb-icon-ads-iframe",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#pb-icon-ads-iframe"
+                    }
+                }
+            },
+            {
+                "id": "32d1fbe7-8fb0-485c-9e31-f38e66eb45d5",
+                "name": "m.pullbbang.com##div#whuvle",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#whuvle"
+                    }
+                }
+            },
+            {
+                "id": "2d183796-f194-45ed-9131-4317930aed51",
+                "name": "m.pullbbang.com##div#whuvle2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#whuvle2"
+                    }
+                }
+            },
+            {
+                "id": "510d0a62-22b0-45ee-aa77-9273747ff094",
+                "name": "m.pullbbang.com##iframe#ad-center-iframe",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe#ad-center-iframe"
+                    }
+                }
+            },
+            {
+                "id": "385b8a5f-47df-4559-98e9-3290913db919",
+                "name": "m.pullbbang.com##iframe#pb-icon-ad-iframe",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe#pb-icon-ad-iframe"
+                    }
+                }
+            },
+            {
+                "id": "114de8cd-22eb-4c42-b334-d42340d66848",
+                "name": "m.pullbbang.com##iframe[src^=\"/ad_realClick.jsp\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ad_realClick.jsp\"]"
+                    }
+                }
+            },
+            {
+                "id": "91ebc2f9-9d95-4d7a-b91e-40ed31f70acb",
+                "name": "m.pullbbang.com##iframe[src^=\"/ads/bottom/bottom-banner.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ads/bottom/bottom-banner.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "b03645ab-d4a3-4cd8-977a-817c410a7757",
+                "name": "m.pullbbang.com##iframe[src^=\"/ads/floor/\"][src*=\".jsp\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ads/floor/\"][src*=\".jsp\"]"
+                    }
+                }
+            },
+            {
+                "id": "a64d9bb0-06c9-4cbb-8f52-3afde798703e",
+                "name": "m.pullbbang.com##iframe[src^=\"/ads/icon/\"][src*=\".jsp\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.pullbbang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ads/icon/\"][src*=\".jsp\"]"
                     }
                 }
             },
