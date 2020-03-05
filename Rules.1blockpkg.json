@@ -67780,6 +67780,19 @@
                 }
             },
             {
+                "id": "0147f026-dafa-47f9-bd5c-fc6c96fc7b59",
+                "name": "mediacategory.com##div#mobon_type01>div.main_box>ul.news_img>li.mark",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mediacategory\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mobon_type01>div.main_box>ul.news_img>li.mark"
+                    }
+                }
+            },
+            {
                 "id": "554c68e2-d8d6-49f2-9ddf-1eca70e7f82c",
                 "name": "mediacategory.com##div#mobon_type01>div.main_txt_box>ul.news_img>li.mark",
                 "content": {
