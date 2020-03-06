@@ -25277,6 +25277,38 @@
                 }
             },
             {
+                "id": "f2fd209f-4c6b-4fd5-b010-b2f9c57f0af7",
+                "name": "todayan.com/banner/roll_*.html$domain=todayan.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?todayan\\.com/banner/roll_.*\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*todayan.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "75a8f696-202f-4acf-a1df-690d340b0eac",
+                "name": "todayan.com/banner/rollbanner_*.html$domain=todayan.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?todayan\\.com/banner/rollbanner_.*\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*todayan.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4f320269-ff95-40db-98c0-521283e9856d",
                 "name": "topstarnews.net/html/default/html_tpl_mobile/ad/$domain=topstarnews.net",
                 "content": {
@@ -83831,6 +83863,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.analytics_google"
+                    }
+                }
+            },
+            {
+                "id": "2ba67f23-32d8-40a2-8e7a-151697acbdc4",
+                "name": "todayan.com##iframe[src^=\"/banner/roll_\"][src*=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?todayan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/banner/roll_\"][src*=\".html\"]"
+                    }
+                }
+            },
+            {
+                "id": "2b004972-5ab5-45e9-b960-a68e126250f8",
+                "name": "todayan.com##iframe[src^=\"/banner/rollbanner_\"][src*=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?todayan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/banner/rollbanner_\"][src*=\".html\"]"
+                    }
+                }
+            },
+            {
+                "id": "da6db027-50f2-4b63-97e0-32f00b15aece",
+                "name": "todayan.com##ins[data-ad-slot=\"3177279828\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?todayan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"3177279828\"]"
+                    }
+                }
+            },
+            {
+                "id": "c94e751e-acdc-4cc3-9ddd-1b34f8403956",
+                "name": "todayan.com##ins[data-ad-slot=\"6549953748\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?todayan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"6549953748\"]"
+                    }
+                }
+            },
+            {
+                "id": "f5ef3381-23b5-413e-8ad5-92bf95dd18f1",
+                "name": "todayan.com##ins[data-ad-slot=\"9363616788\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?todayan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"9363616788\"]"
                     }
                 }
             },
