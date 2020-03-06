@@ -65427,6 +65427,58 @@
                 }
             },
             {
+                "id": "52ac5de2-5bcf-43c0-9f08-92e9b15f17db",
+                "name": "m.todayan.com##div.advertisementItem",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.todayan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advertisementItem"
+                    }
+                }
+            },
+            {
+                "id": "35c01b5d-402a-4474-b383-3901f8a9bf99",
+                "name": "m.todayan.com##ins[data-ad-slot=\"8259833388\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.todayan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"8259833388\"]"
+                    }
+                }
+            },
+            {
+                "id": "a31ea5bb-8218-4a1f-abb8-225844b950bd",
+                "name": "m.todayan.com##ins[data-ad-slot=\"9177530388\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.todayan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"9177530388\"]"
+                    }
+                }
+            },
+            {
+                "id": "83484e98-66aa-4388-8f4b-09706bfde425",
+                "name": "m.todayan.com##section.advertisment",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.todayan\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.advertisment"
+                    }
+                }
+            },
+            {
                 "id": "6dbedfee-0765-47f0-b5f0-87846783c393",
                 "name": "m.torrentcup.net##a[href^=\"/to_toto.html\"]",
                 "content": {
