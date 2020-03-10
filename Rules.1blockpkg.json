@@ -9873,6 +9873,19 @@
                 }
             },
             {
+                "id": "17d8f1ab-3545-40ba-af9d-a0ae4c3607e0",
+                "name": "c0.pubmine.com/*/ata.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?c0\\.pubmine\\.com/.*/ata\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "5b51fa02-2fbd-4c4a-9bc8-90b938d6ea45",
                 "name": "c1.popads.net/pop.js",
                 "content": {
@@ -89609,6 +89622,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/news/sidebar_banner_realclick01.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "0cf82f0d-9c6b-485e-97b8-069320b8809f",
+                "name": "wordpress.com##div.compound-ad-unit",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wordpress\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.compound-ad-unit"
+                    }
+                }
+            },
+            {
+                "id": "715c36b3-d0f4-441c-af51-36f310878e84",
+                "name": "wordpress.com##div[id^=\"atatags-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wordpress\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"atatags-\"]"
+                    }
+                }
+            },
+            {
+                "id": "8110293e-ef4d-4166-8665-499b310d7554",
+                "name": "wordpress.com##p.inline-ad-slot",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wordpress\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "p.inline-ad-slot"
                     }
                 }
             },

@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20200306
+! Version: 20200310
 
 ! General element hiding rules
 ##amp-ad
@@ -757,6 +757,7 @@
 ||c.amazon-adsystem.com/aax2/apstag.js^
 ||c.betrad.com/surly.js^
 ||c.kuaituisss.com/c.php^
+||c0.pubmine.com/*/ata.js^
 ||c1.popads.net/pop.js^
 ||cache.ssend.microad.jp/js/adfunnel-sp-load.js^
 ||cad.donga.com/DKBNEWS/dkb_view_right_adin_*.js^$domain=dkbnews.donga.com
@@ -6014,6 +6015,9 @@ woman.chosun.com##div.AD_link
 woman.chosun.com##div.banner
 woman.chosun.com##div.main_banner
 womennews.co.kr##iframe[src^="/news/sidebar_banner_realclick01.html"]
+wordpress.com##div.compound-ad-unit
+wordpress.com##div[id^="atatags-"]
+wordpress.com##p.inline-ad-slot
 wowhead.com##div.banner-ad
 wowtv.co.kr##div#divTopBanner
 wowtv.co.kr##div.adv-area
