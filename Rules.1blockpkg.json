@@ -63278,6 +63278,32 @@
                 }
             },
             {
+                "id": "0417aa98-6d0f-4a27-9e0a-be5c314bb185",
+                "name": "m.newspim.com##div#container>div[style=\"text-align: center; margin-top:10px; margin-bottom:20px; z-index: \"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.newspim\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#container>div[style=\"text-align: center; margin-top:10px; margin-bottom:20px; z-index: \"]"
+                    }
+                }
+            },
+            {
+                "id": "a326c482-2760-4c7f-9610-49a8584f9e21",
+                "name": "m.newspim.com##div#container>div[style=\"width: 100%; height: 250px; overflow:  hidden; margin-top: 20px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.newspim\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#container>div[style=\"width: 100%; height: 250px; overflow:  hidden; margin-top: 20px\"]"
+                    }
+                }
+            },
+            {
                 "id": "1b5a6bb0-cc25-4cd4-b522-36c3d8bc4661",
                 "name": "m.newspim.com##div#container>div[style=\"width: 300px; margin:auto\"]",
                 "content": {
@@ -63300,6 +63326,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#slideshow"
+                    }
+                }
+            },
+            {
+                "id": "e468b304-546f-4d08-ac85-d9af3d26fbc6",
+                "name": "m.newspim.com##div.ad_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.newspim\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_box"
+                    }
+                }
+            },
+            {
+                "id": "2844b2fd-83f2-4b2f-8a98-a42363c7ffc2",
+                "name": "m.newspim.com##div.viewcontents>div[style=\"width: 100%; height: 180px; overflow: hidden\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.newspim\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.viewcontents>div[style=\"width: 100%; height: 180px; overflow: hidden\"]"
+                    }
+                }
+            },
+            {
+                "id": "89644ee7-c16f-4602-9172-23474a9f05c3",
+                "name": "m.newspim.com##div.viewcontents>div[style=\"width: 100%; height: 250px; overflow:  hidden; margin-bottom: 20px; text-align: center;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.newspim\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.viewcontents>div[style=\"width: 100%; height: 250px; overflow:  hidden; margin-bottom: 20px; text-align: center;\"]"
                     }
                 }
             },
