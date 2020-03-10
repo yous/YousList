@@ -16702,6 +16702,22 @@
                 }
             },
             {
+                "id": "94988f2e-886a-4b37-a281-ac0840997f24",
+                "name": "instiz.net/_instiz.htm$domain=instiz.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?instiz\\.net/_instiz\\.htm",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*instiz.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d940525c-2962-42ae-85a3-3de932d1d54e",
                 "name": "interface.interworksmedia.co.kr/js/iwmads.min.js",
                 "content": {
@@ -51523,6 +51539,32 @@
                 }
             },
             {
+                "id": "e559fd12-a643-4ad6-aef6-28eb0b32555b",
+                "name": "instiz.net##body>div.content[style=\"margin-bottom:5px;padding:0;height:100px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?instiz\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div.content[style=\"margin-bottom:5px;padding:0;height:100px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "8cf7e46b-8b23-4dbe-be93-44120c2b44b4",
+                "name": "instiz.net##body>div[style=\"clear:both;width:100%;margin:10px 0;min-height:50px;max-height:100px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?instiz\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"clear:both;width:100%;margin:10px 0;min-height:50px;max-height:100px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "951a5f38-c938-4838-a98a-13835869b6ff",
                 "name": "instiz.net##body>div[style=\"clear:both;width:100%;max-height:100px\"]",
                 "content": {
@@ -51627,6 +51669,19 @@
                 }
             },
             {
+                "id": "ae038655-3eba-4eaf-bddb-3bd8bb7c4e28",
+                "name": "instiz.net##div.board_top",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?instiz\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.board_top"
+                    }
+                }
+            },
+            {
                 "id": "48dc374e-ea7d-418f-8ed3-bf70a09328bc",
                 "name": "instiz.net##div.board_topad",
                 "content": {
@@ -51701,6 +51756,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.powerlink"
+                    }
+                }
+            },
+            {
+                "id": "e78ac4a9-dfe9-4301-9f4a-eb116305d506",
+                "name": "instiz.net##iframe[src^=\"//www.instiz.net/_instiz.htm\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?instiz\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//www.instiz.net/_instiz.htm\"]"
+                    }
+                }
+            },
+            {
+                "id": "3beefa9e-88e6-4e3c-b59e-a2bee18a6f60",
+                "name": "instiz.net##span#menufoot>div.content[style=\"padding:5px 0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?instiz\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "span#menufoot>div.content[style=\"padding:5px 0;\"]"
                     }
                 }
             },
