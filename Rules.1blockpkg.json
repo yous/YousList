@@ -79554,6 +79554,32 @@
                 }
             },
             {
+                "id": "b08401b6-541e-4a8b-bc73-2f0755c0afff",
+                "name": "slownews.kr##div.right-box-in-content",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?slownews\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.right-box-in-content"
+                    }
+                }
+            },
+            {
+                "id": "66b5c4d0-8d55-40b6-b625-90f8589ccca4",
+                "name": "slownews.kr##ins[data-ad-slot=\"6604237741\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?slownews\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"6604237741\"]"
+                    }
+                }
+            },
+            {
                 "id": "ad1fd926-7f23-425d-bd48-fe83a87cff30",
                 "name": "slrclub.com##div#ad1",
                 "content": {
