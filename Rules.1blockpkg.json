@@ -88641,6 +88641,58 @@
                 }
             },
             {
+                "id": "0d5efc8b-1869-43c4-a18e-6f8683673fdf",
+                "name": "vulture.com##aside.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?vulture\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.ad"
+                    }
+                }
+            },
+            {
+                "id": "1e002c2f-b249-4944-b0c7-8b2c496c11b7",
+                "name": "vulture.com##div.clay-space-ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?vulture\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.clay-space-ads"
+                    }
+                }
+            },
+            {
+                "id": "51795161-bea8-4f12-8ee4-523bcb8c6e3c",
+                "name": "vulture.com##div.latest-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?vulture\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.latest-ad"
+                    }
+                }
+            },
+            {
+                "id": "e56fe8cb-012a-4dd6-8da3-142e44cf8626",
+                "name": "vulture.com##section.ad-splash",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?vulture\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.ad-splash"
+                    }
+                }
+            },
+            {
                 "id": "3bf3e42d-75aa-4d85-ab80-6d75fa592a27",
                 "name": "w3schools.com##div#mainLeaderboard",
                 "content": {
