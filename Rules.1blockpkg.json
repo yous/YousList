@@ -20935,6 +20935,22 @@
                 }
             },
             {
+                "id": "83760599-7acc-4011-be07-13f51a75fa07",
+                "name": "newsis.com/ad/viewad/*.html$domain=newsis.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newsis\\.com/ad/viewad/.*\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*newsis.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "72e9446b-5a4d-45df-9e7d-4eb9d665c58c",
                 "name": "newspic.kr/inc/js/facebookAd.js$domain=newspic.kr",
                 "content": {
@@ -73821,6 +73837,19 @@
                 }
             },
             {
+                "id": "c1466207-2055-4c1c-886c-2705204344ae",
+                "name": "newsis.com##div#view_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newsis\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#view_ad"
+                    }
+                }
+            },
+            {
                 "id": "bc2fe2e1-7d7b-4d00-acfb-718797408954",
                 "name": "newsis.com##div.ad_border_bottom",
                 "content": {
@@ -73899,6 +73928,19 @@
                 }
             },
             {
+                "id": "78f95256-6daa-4de5-9f87-9ef22abfe5f0",
+                "name": "newsis.com##iframe[src^=\"/ad/viewad/\"][src*=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newsis\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/ad/viewad/\"][src*=\".html\"]"
+                    }
+                }
+            },
+            {
                 "id": "1d500e5a-79f2-4aa4-ba22-7043e783719d",
                 "name": "newsis.com##li#detail2-11",
                 "content": {
@@ -73934,6 +73976,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "span.banner2"
+                    }
+                }
+            },
+            {
+                "id": "ba53c412-bc99-4344-9fd3-0f89a4602254",
+                "name": "newsis.com##table.article_photo.right:not([id])",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newsis\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "table.article_photo.right:not([id])"
                     }
                 }
             },
