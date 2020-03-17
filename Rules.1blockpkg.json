@@ -9255,6 +9255,22 @@
                 }
             },
             {
+                "id": "523b0608-98df-4694-837d-850f40c3feb2",
+                "name": "artinsight.co.kr/include/adsense.php$domain=artinsight.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?artinsight\\.co\\.kr/include/adsense\\.php",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*artinsight.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "e3e8aab9-c27f-4fc8-812e-71bad08538ea",
                 "name": "artsnews.mk.co.kr/mk_ad.js$domain=sports.mk.co.kr",
                 "content": {
@@ -31817,6 +31833,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "li.wrap_ad_in_list"
+                    }
+                }
+            },
+            {
+                "id": "c8590488-597e-471b-9522-6c1f998ac50b",
+                "name": "artinsight.co.kr##div.banner_aside02",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?artinsight\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_aside02"
+                    }
+                }
+            },
+            {
+                "id": "b9519667-a20d-4035-b412-b235f3cbfd2d",
+                "name": "artinsight.co.kr##iframe[src^=\"https://www.artinsight.co.kr/include/adsense.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?artinsight\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://www.artinsight.co.kr/include/adsense.php\"]"
                     }
                 }
             },
