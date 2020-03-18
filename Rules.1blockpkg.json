@@ -81211,6 +81211,19 @@
                 }
             },
             {
+                "id": "22d36b5d-bf1f-4944-af07-e155d3951427",
+                "name": "star.mt.co.kr##div#textBody>div[style=\"float:right; margin:0 0 10px 15px; overflow:hidden; width:300px; height:250px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?star\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#textBody>div[style=\"float:right; margin:0 0 10px 15px; overflow:hidden; width:300px; height:250px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "3cba180a-a6f1-4666-9518-e230c0b9265c",
                 "name": "star.mt.co.kr##div#wrap>div[style=\"overflow:hidden; margin:15px auto 0; width:728px; height:90px; background:#ddd;\"]",
                 "content": {
@@ -81298,6 +81311,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.bn_box"
+                    }
+                }
+            },
+            {
+                "id": "da5b32ed-1a95-433d-85d8-b7ed53518029",
+                "name": "star.mt.co.kr##div.bxcn>div[style=\"position:absolute; top:0; right:0; overflow:hidden; width:200px; height:200px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?star\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bxcn>div[style=\"position:absolute; top:0; right:0; overflow:hidden; width:200px; height:200px;\"]"
                     }
                 }
             },
