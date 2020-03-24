@@ -67002,6 +67002,32 @@
                 }
             },
             {
+                "id": "42d30b59-4751-4ca1-b4df-eb090bba2066",
+                "name": "macworld.com##div#amazon-bottom-widget",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?macworld\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#amazon-bottom-widget"
+                    }
+                }
+            },
+            {
+                "id": "f06e26bd-541c-4401-b653-9a5212d64106",
+                "name": "macworld.com##div#articleLeaderboardWrapper",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?macworld\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#articleLeaderboardWrapper"
+                    }
+                }
+            },
+            {
                 "id": "8c1c1f8d-7c35-4c44-b230-f46b61f1f580",
                 "name": "macworld.com##div.ad",
                 "content": {
@@ -67024,6 +67050,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-container"
+                    }
+                }
+            },
+            {
+                "id": "f50bea39-0a74-44ee-b20a-d5bb195510af",
+                "name": "macworld.com##div.lazyload_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?macworld\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.lazyload_ad"
                     }
                 }
             },
