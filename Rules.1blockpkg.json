@@ -12671,6 +12671,22 @@
                 }
             },
             {
+                "id": "9b57acbb-3e31-4d15-a723-366271aa3bb0",
+                "name": "dailycar.co.kr/content/etc/dailycar_banner.html$domain=dailycar.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailycar\\.co\\.kr/content/etc/dailycar_banner\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*dailycar.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "477101df-0e6c-4b25-994d-ee70d37fee04",
                 "name": "dailycnc.com/Autobox/*_banner_roll.html$domain=dailycnc.com",
                 "content": {
@@ -40582,6 +40598,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "span#AD_GISA_PHOTO_LINE"
+                    }
+                }
+            },
+            {
+                "id": "3f101cd2-8500-4fba-b74a-83f01691d5c5",
+                "name": "dailycar.co.kr##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailycar\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "a5ed1565-5064-4968-a1bc-8aac745a6bc7",
+                "name": "dailycar.co.kr##div.google-auto-placed",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailycar\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.google-auto-placed"
+                    }
+                }
+            },
+            {
+                "id": "3d5a1a10-6a50-44fc-a036-a5440c2427da",
+                "name": "dailycar.co.kr##iframe[src^=\"/content/etc/dailycar_banner.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailycar\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/content/etc/dailycar_banner.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "7fc272bb-ab6e-4484-ae30-a09ba9a3054d",
+                "name": "dailycar.co.kr##ins[data-ad-slot=\"1139070374\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailycar\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"1139070374\"]"
+                    }
+                }
+            },
+            {
+                "id": "aa3b7414-6b34-4346-bfff-136efca339e0",
+                "name": "dailycar.co.kr##ins[data-ad-slot=\"7652838375\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailycar\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"7652838375\"]"
                     }
                 }
             },
