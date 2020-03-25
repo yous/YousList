@@ -25386,6 +25386,22 @@
                 }
             },
             {
+                "id": "d91b6442-eaa7-48bc-acea-7bdb9e9d5809",
+                "name": "todaykorea.co.kr/data/banner/$domain=todaykorea.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?todaykorea\\.co\\.kr/data/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*todaykorea.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4f320269-ff95-40db-98c0-521283e9856d",
                 "name": "topstarnews.net/html/default/html_tpl_mobile/ad/$domain=topstarnews.net",
                 "content": {
@@ -84421,6 +84437,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "td.list_ad"
+                    }
+                }
+            },
+            {
+                "id": "c69d5732-8aed-4b79-a6c8-bfd2f5b63744",
+                "name": "todaykorea.co.kr##div.banner_aside02",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?todaykorea\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_aside02"
+                    }
+                }
+            },
+            {
+                "id": "5d8acc2b-d65f-463c-a7f3-a172eda17eb4",
+                "name": "todaykorea.co.kr##iframe[src^=\"http://www.todaykorea.co.kr/include/adsense.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?todaykorea\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://www.todaykorea.co.kr/include/adsense.php\"]"
                     }
                 }
             },
