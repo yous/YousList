@@ -90437,6 +90437,19 @@
                 }
             },
             {
+                "id": "bd11adcf-9d9d-427a-91bd-46434041c822",
+                "name": "www-howtogeek-com.cdn.ampproject.org##div.adfullwrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?www-howtogeek-com\\.cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adfullwrap"
+                    }
+                }
+            },
+            {
                 "id": "72bf0fb0-cd5d-4905-b014-0bef3a9ad995",
                 "name": "xportsnews.com##div.ad_1",
                 "content": {
