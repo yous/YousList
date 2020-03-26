@@ -15542,6 +15542,22 @@
                 }
             },
             {
+                "id": "fc0d51ac-2b8e-4c3b-9611-9bdb6373b3e9",
+                "name": "hygall.com/box/kakao_scroll50.html$domain=hygall.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hygall\\.com/box/kakao_scroll50\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*hygall.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "271b6b50-4663-4bdb-b95d-13b4fad92a09",
                 "name": "i.011st.com/ui_img/adoffice/creative/js/adcreative.min.js",
                 "content": {
@@ -50221,6 +50237,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/banner/banner_\"][src$=\".php\"]"
+                    }
+                }
+            },
+            {
+                "id": "78ee88ef-9453-4bd1-ae54-0efff0ec929a",
+                "name": "hygall.com##body>div.bd>div[style=\"overflow:hidden;width:100%;height:100px;margin:0px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hygall\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div.bd>div[style=\"overflow:hidden;width:100%;height:100px;margin:0px\"]"
+                    }
+                }
+            },
+            {
+                "id": "bb9e8217-2eb3-4730-bcd1-1fe219b14a73",
+                "name": "hygall.com##div#madhd",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hygall\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#madhd"
+                    }
+                }
+            },
+            {
+                "id": "49fade84-5efc-4272-bb8c-7b41f3c51ba0",
+                "name": "hygall.com##div.mtopad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hygall\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mtopad"
+                    }
+                }
+            },
+            {
+                "id": "e2a8c484-da06-424a-bba6-709e3cd2f9f7",
+                "name": "hygall.com##iframe[src^=\"https://hygall.com/box/kakao_scroll50.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hygall\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://hygall.com/box/kakao_scroll50.html\"]"
                     }
                 }
             },
