@@ -23683,6 +23683,22 @@
                 }
             },
             {
+                "id": "c0b774c4-f04d-4a9e-828f-93f36efad743",
+                "name": "shopers.co.kr/civilreporter_bn.php$domain=civilreporter.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?shopers\\.co\\.kr/civilreporter_bn\\.php",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*civilreporter.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "62e83a53-06cc-4c80-8741-43a1071ee7b0",
                 "name": "shoplayer.zum.com/view/zum/hubzum/shoppingbox$domain=hub.zum.com",
                 "content": {
@@ -39213,6 +39229,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/_common/banner/blank_black.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "ec56918f-72d9-452e-919f-bc5217bab45e",
+                "name": "civilreporter.co.kr##div[style=\"border:1px solid #ddd;background:#f6f6f6;padding:15px 25px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?civilreporter\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[style=\"border:1px solid #ddd;background:#f6f6f6;padding:15px 25px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "22a7d938-ad47-46e6-b7de-ef0468b38d21",
+                "name": "civilreporter.co.kr##div[style=\"border:1px solid #ddd;background:#f6f6f6;padding:15px 25px;margin-bottom:10px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?civilreporter\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[style=\"border:1px solid #ddd;background:#f6f6f6;padding:15px 25px;margin-bottom:10px\"]"
+                    }
+                }
+            },
+            {
+                "id": "d730a955-f29b-4ea1-bba9-90f8f6742c8f",
+                "name": "civilreporter.co.kr##div[style=\"border:1px solid #ddd;background:#f6f6f6;padding:15px 25px;margin-bottom:20px\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?civilreporter\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[style=\"border:1px solid #ddd;background:#f6f6f6;padding:15px 25px;margin-bottom:20px\"]"
+                    }
+                }
+            },
+            {
+                "id": "c185fe2d-2b3a-4de4-932c-7e86deb6124d",
+                "name": "civilreporter.co.kr##iframe[src^=\"http://shopers.co.kr/civilreporter_bn.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?civilreporter\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"http://shopers.co.kr/civilreporter_bn.php\"]"
                     }
                 }
             },
