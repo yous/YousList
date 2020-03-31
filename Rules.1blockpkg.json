@@ -57667,6 +57667,19 @@
                 }
             },
             {
+                "id": "33eba963-a1a8-4a26-9c94-1d9a055aec55",
+                "name": "m.cafe.naver.com##div.plug_game_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.cafe\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.plug_game_ad"
+                    }
+                }
+            },
+            {
                 "id": "b12a5dee-c330-4217-9a9c-a2e474d2b54d",
                 "name": "m.chosun.com##div#_popIn_recommend_300x250",
                 "content": {
