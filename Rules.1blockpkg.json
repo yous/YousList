@@ -38310,6 +38310,19 @@
                 }
             },
             {
+                "id": "2c90944e-9b08-4849-97f7-20c37884b782",
+                "name": "cafe.naver.com##div#plugTopBannerDiv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cafe\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#plugTopBannerDiv"
+                    }
+                }
+            },
+            {
                 "id": "7ffecdd0-951e-4ab9-849e-f8f8eaf83744",
                 "name": "cafe.naver.com##table.searchad",
                 "content": {
