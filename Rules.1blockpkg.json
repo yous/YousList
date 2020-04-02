@@ -51596,6 +51596,19 @@
                 }
             },
             {
+                "id": "813cd571-9658-4ec0-adcd-ad62d9f3ed40",
+                "name": "imnews.imbc.com##div.ad_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?imnews\\.imbc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_banner"
+                    }
+                }
+            },
+            {
                 "id": "a4e44f4e-29a1-4aef-96e0-f7fd296a52be",
                 "name": "imore.com##div.adunit-wrap",
                 "content": {
