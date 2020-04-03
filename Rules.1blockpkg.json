@@ -68418,28 +68418,28 @@
                 }
             },
             {
-                "id": "0147f026-dafa-47f9-bd5c-fc6c96fc7b59",
-                "name": "mediacategory.com##div#mobon_type01>div.main_box>ul.news_img>li.mark",
+                "id": "ac5b624d-b080-47c5-a4c9-a44bcd9bed7a",
+                "name": "mediacategory.com##div#mobon_type01>div.main_box ul.news_img>li.mark",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?mediacategory\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#mobon_type01>div.main_box>ul.news_img>li.mark"
+                        "selector": "div#mobon_type01>div.main_box ul.news_img>li.mark"
                     }
                 }
             },
             {
-                "id": "554c68e2-d8d6-49f2-9ddf-1eca70e7f82c",
-                "name": "mediacategory.com##div#mobon_type01>div.main_txt_box>ul.news_img>li.mark",
+                "id": "e79693eb-3e2a-4cb8-99b1-68376676841e",
+                "name": "mediacategory.com##div#mobon_type01>div.main_txt_box ul.news_img>li.mark",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?mediacategory\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#mobon_type01>div.main_txt_box>ul.news_img>li.mark"
+                        "selector": "div#mobon_type01>div.main_txt_box ul.news_img>li.mark"
                     }
                 }
             },
@@ -72782,6 +72782,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#newsContent>div[style=\"width:320px; height:50px; margin:0 auto;\"]"
+                    }
+                }
+            },
+            {
+                "id": "3773769a-9d50-4f0b-8c71-1c632d3b99c0",
+                "name": "news.mtn.co.kr##div.adListArea",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?news\\.mtn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adListArea"
                     }
                 }
             },
