@@ -12052,6 +12052,19 @@
                 }
             },
             {
+                "id": "f0e944df-ff5b-4558-836f-0c75fae5f122",
+                "name": "cperformmedia-a.akamaihd.net/dpfm.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cperformmedia-a\\.akamaihd\\.net/dpfm\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b1d527f8-3ef3-42eb-aab7-63320e3a0c03",
                 "name": "cpv.ad.naver.com/adshow",
                 "content": {
@@ -14932,6 +14945,38 @@
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?gigglehd\\.com/banner/.*\\.jpg",
                         "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e86721e7-4020-4191-96cb-9253c8d0b374",
+                "name": "gizmodo.com/x-kinja-static/assets/new-client/adManager~ads.*.js$domain=gizmodo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?gizmodo\\.com/x-kinja-static/assets/new-client/adManager~ads\\..*\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*gizmodo.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "45c25fbf-b775-45de-a79a-d6d463cad290",
+                "name": "gizmodo.com/x-kinja-static/assets/new-client/ads.*.js$domain=gizmodo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?gizmodo\\.com/x-kinja-static/assets/new-client/ads\\..*\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*gizmodo.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -47965,6 +48010,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-wide"
+                    }
+                }
+            },
+            {
+                "id": "9014e8be-4e40-4fba-9f1a-e56e54901a5f",
+                "name": "gizmodo.com##div.js_ad-below-comments",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?gizmodo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.js_ad-below-comments"
                     }
                 }
             },
