@@ -16156,23 +16156,6 @@
                 }
             },
             {
-                "id": "97eb9d08-5e13-4372-9430-e8bb9f5ae9a9",
-                "name": "image.news1.kr/system/ads_t/$domain=m.news1.kr|news1.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?image\\.news1\\.kr/system/ads_t/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*m.news1.kr",
-                            "*news1.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "8f5eddfc-aaa6-4a9f-8c86-190e802fa234",
                 "name": "image.ruliweb.com/view/view.js$domain=bbs.ruliweb.com|m.ruliweb.com",
                 "content": {
@@ -63406,6 +63389,19 @@
                 }
             },
             {
+                "id": "f04227fd-24a9-4a9d-86b5-310da7d985c8",
+                "name": "m.news1.kr##div.ad_wrap_sw",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.news1\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_wrap_sw"
+                    }
+                }
+            },
+            {
                 "id": "472e8ee9-1715-4c93-a924-fdf1de274797",
                 "name": "m.news1.kr##div.ads_bizlife",
                 "content": {
@@ -63545,6 +63541,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.banner01"
+                    }
+                }
+            },
+            {
+                "id": "9ea60a35-bc68-4189-a756-a4eddfbce304",
+                "name": "m.news1.kr##div.das_article15_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.news1\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.das_article15_wrap"
                     }
                 }
             },
