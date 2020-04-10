@@ -77394,6 +77394,19 @@
                 }
             },
             {
+                "id": "180b7755-00b6-4e13-9564-e87a9a470dd6",
+                "name": "platum.kr##div.platum_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?platum\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.platum_ad"
+                    }
+                }
+            },
+            {
                 "id": "2000d9e7-96b6-410f-bcde-d2d451f979e6",
                 "name": "platum.kr##div.ppb_ads",
                 "content": {
