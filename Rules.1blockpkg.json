@@ -83149,6 +83149,19 @@
                 }
             },
             {
+                "id": "798d4f36-4ec3-414f-bd75-c0340e00d841",
+                "name": "tgd.kr##div#article-list>div[style=\"background:#efefef;padding:10px 8px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tgd\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article-list>div[style=\"background:#efefef;padding:10px 8px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "3c05bf6e-a44a-430d-86b9-003a2e799b40",
                 "name": "tgd.kr##div#plz-dont-block-me",
                 "content": {
@@ -83223,6 +83236,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.frame>div[style=\"background:#fff;    background: #fff;\\a     padding: 20px 0;\\a     margin-top: -14px;\\a     text-align: center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "e5d18013-9f0d-45b3-9a19-36b26d423e39",
+                "name": "tgd.kr##div.frame>div[style=\"padding:0em 1em;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tgd\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.frame>div[style=\"padding:0em 1em;\"]"
                     }
                 }
             },
