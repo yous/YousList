@@ -524,6 +524,32 @@
                 }
             },
             {
+                "id": "740cf4e5-60d2-4598-868e-02b902e1e1b7",
+                "name": "##div.trc_spotlight_widget[class*=\" trc_elastic_thumbnails-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.trc_spotlight_widget[class*=\" trc_elastic_thumbnails-\"]"
+                    }
+                }
+            },
+            {
+                "id": "b00f0053-13d9-4eed-bbdc-99d330234dab",
+                "name": "##div.trc_spotlight_widget[class*=\" trc_elastic_thumbs-\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.trc_spotlight_widget[class*=\" trc_elastic_thumbs-\"]"
+                    }
+                }
+            },
+            {
                 "id": "a5952e81-fee5-4aec-a89b-d21217885164",
                 "name": "##div.wpcnt",
                 "content": {
