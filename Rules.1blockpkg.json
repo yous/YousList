@@ -30369,6 +30369,32 @@
                 }
             },
             {
+                "id": "d3fa1ea2-78cd-42fa-86e9-cf0c3f1c89c9",
+                "name": "4th.kr##div#divBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?4th\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#divBanner"
+                    }
+                }
+            },
+            {
+                "id": "2b027c2c-9b33-4be9-b6bb-ca2675cbe97e",
+                "name": "4th.kr##div.banner-ad-area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?4th\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-ad-area"
+                    }
+                }
+            },
+            {
                 "id": "badea58c-4da6-4e10-99ce-78ef058c37f7",
                 "name": "67k8k.com##aside.advert",
                 "content": {
