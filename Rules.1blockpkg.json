@@ -70019,6 +70019,19 @@
                 }
             },
             {
+                "id": "37dc112a-a002-4034-8260-eee41cba1c4d",
+                "name": "moneys.mt.co.kr##div#adsentop",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?moneys\\.mt\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adsentop"
+                    }
+                }
+            },
+            {
                 "id": "bc343410-a97b-43f6-b017-581894eb118b",
                 "name": "moneyweek.co.kr##div#adsentop",
                 "content": {
