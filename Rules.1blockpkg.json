@@ -18114,6 +18114,22 @@
                 }
             },
             {
+                "id": "273bd7f4-b7a3-48e8-8b76-caeaf7bfdbe7",
+                "name": "linuxconfig.org/images/banners/$domain=linuxconfig.org",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?linuxconfig\\.org/images/banners/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*linuxconfig.org"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f98f73d3-4b2e-4573-8714-9c2d9c2c8f3c",
                 "name": "loader.fmkorea.com/_loader/loader.php$domain=fmkorea.com|m.fmkorea.com",
                 "content": {
