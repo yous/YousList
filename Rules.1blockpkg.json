@@ -92720,6 +92720,19 @@
                 }
             },
             {
+                "id": "c934a5be-c980-4eca-a294-9ce996e191f4",
+                "name": "youtube.com##ytd-engagement-panel-section-list-renderer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?youtube\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ytd-engagement-panel-section-list-renderer"
+                    }
+                }
+            },
+            {
                 "id": "bfc608a4-0c96-4877-a427-e11f74814e4a",
                 "name": "youtube.com##ytd-search-pyv-renderer",
                 "content": {
