@@ -77315,6 +77315,45 @@
                 }
             },
             {
+                "id": "79e730f5-509e-4f56-9355-0ca4cdb72c9f",
+                "name": "pitchfork.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pitchfork\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "450e17d5-01f3-42b6-8429-31e56283507e",
+                "name": "pitchfork.com##div.ad-stickyhero",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pitchfork\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-stickyhero"
+                    }
+                }
+            },
+            {
+                "id": "f8fbfd6a-0118-4119-8f27-e907d0e20c44",
+                "name": "pitchfork.com##div.full-bleed-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pitchfork\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.full-bleed-ad"
+                    }
+                }
+            },
+            {
                 "id": "2357b3fa-83fe-4955-8080-38365cb77522",
                 "name": "pixiv.net##div#header-banner",
                 "content": {
