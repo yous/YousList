@@ -11451,6 +11451,19 @@
                 }
             },
             {
+                "id": "1d308a64-789f-4c3b-a5cd-b60e49f47377",
+                "name": "cdn.run-syndicate.com/sdk/v1/n.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.run-syndicate\\.com/sdk/v1/n\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6d677546-ba7d-4ce8-a3e8-c2f3c21babdf",
                 "name": "cdn.scrollads.co.kr/scrollads.*.js",
                 "content": {
@@ -19396,6 +19409,22 @@
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?mainclc\\.com/.*/.*/.*/.*\\.js",
                         "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "108434df-6d14-402d-a705-5015ce50ee23",
+                "name": "mangahub.io/iframe/ra$domain=mangahub.io",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mangahub\\.io/iframe/ra",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*mangahub.io"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -67730,6 +67759,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "2b51641a-8fff-4ffc-a24b-7a83c7211790",
+                "name": "mangahub.io##div.ads-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mangahub\\.io"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ads-container"
+                    }
+                }
+            },
+            {
+                "id": "266b9b7c-fd8b-430e-a91b-36e944335783",
+                "name": "mangahub.io##div[id^=\"rn_ad_native_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mangahub\\.io"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"rn_ad_native_\"]"
+                    }
+                }
+            },
+            {
+                "id": "ca191927-68a5-463a-b8a3-c8eb2f2c4b10",
+                "name": "mangahub.io##iframe[src^=\"https://mangahub.io/iframe/ra\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mangahub\\.io"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"https://mangahub.io/iframe/ra\"]"
                     }
                 }
             },
