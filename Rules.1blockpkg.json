@@ -92242,6 +92242,32 @@
                 }
             },
             {
+                "id": "6e68409c-4c80-4778-8f92-d87e6f3d07b6",
+                "name": "yna.co.kr##aside.article-ad-box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yna\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.article-ad-box"
+                    }
+                }
+            },
+            {
+                "id": "0dbfadff-2ffa-4e2c-8c4d-32d8176b2349",
+                "name": "yonhapnews.co.kr##aside.article-ad-box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yonhapnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.article-ad-box"
+                    }
+                }
+            },
+            {
                 "id": "1b9d6850-51c5-436d-a34f-e998a5046375",
                 "name": "yna.co.kr##aside.aside-box01",
                 "content": {
