@@ -66268,6 +66268,45 @@
                 }
             },
             {
+                "id": "333813b1-416d-4cc9-95ae-cfc99b0377a3",
+                "name": "m.todayhumor.co.kr##body>div[style=\"margin:10 0 10;text-align:center\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.todayhumor\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"margin:10 0 10;text-align:center\"]"
+                    }
+                }
+            },
+            {
+                "id": "0d0b8d09-3745-4e7a-b5db-a2d2c23d59f0",
+                "name": "m.todayhumor.co.kr##body>div[style=\"text-align: center;padding:20px 0;background-color:#e5e5e5\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.todayhumor\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"text-align: center;padding:20px 0;background-color:#e5e5e5\"]"
+                    }
+                }
+            },
+            {
+                "id": "661303ee-5f12-4da2-8fba-359a9c816fc9",
+                "name": "m.todayhumor.co.kr##body>div[style=\"text-align:center;padding:15px 0;background-color:#e5e5e5\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.todayhumor\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"text-align:center;padding:15px 0;background-color:#e5e5e5\"]"
+                    }
+                }
+            },
+            {
                 "id": "6dbedfee-0765-47f0-b5f0-87846783c393",
                 "name": "m.torrentcup.net##a[href^=\"/to_toto.html\"]",
                 "content": {
