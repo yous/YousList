@@ -3683,6 +3683,19 @@
                 }
             },
             {
+                "id": "b948eff5-f381-47de-9640-9afb81e38a5f",
+                "name": "##iframe[src*=\"//tempest.services.disqus.com/ads-iframe/google/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//tempest.services.disqus.com/ads-iframe/google/\"]"
+                    }
+                }
+            },
+            {
                 "id": "ecc2c36a-bac3-4d27-a238-3488374ee8d5",
                 "name": "##iframe[src*=\"//tm.interworksmedia.co.kr/ads.sx/\"]",
                 "content": {
@@ -25377,6 +25390,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?tempest\\.services\\.disqus\\.com/ads-iframe/adsnative/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0abe064f-54c0-464a-ad53-a8826970f9fb",
+                "name": "tempest.services.disqus.com/ads-iframe/google/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tempest\\.services\\.disqus\\.com/ads-iframe/google/",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
