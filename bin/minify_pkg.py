@@ -1,14 +1,8 @@
 # -*- coding=utf-8 -*-
 import os
 import io
-import sys
-
-if sys.version_info[:2] >= (2, 7):
-    import json
-    from collections import OrderedDict
-else:
-    import simplejson as json
-    from ordereddict import OrderedDict
+import json
+from collections import OrderedDict
 
 pwd = os.path.dirname(os.path.abspath(__file__))
 root = os.path.dirname(pwd)
