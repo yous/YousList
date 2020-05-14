@@ -54087,6 +54087,19 @@
                 }
             },
             {
+                "id": "9e804327-9b89-4f47-87d9-fbd3481622e7",
+                "name": "khan.co.kr##div.section_AD",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.section_AD"
+                    }
+                }
+            },
+            {
                 "id": "c27bcaf0-dd8d-44ce-9bd0-6753b389f043",
                 "name": "kidd.co.kr##div.bottomAD_area",
                 "content": {
