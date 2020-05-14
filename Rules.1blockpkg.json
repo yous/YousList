@@ -34392,6 +34392,58 @@
                 }
             },
             {
+                "id": "5eb673dc-5656-4e5c-a8f1-bd029677fd0a",
+                "name": "biz.khan.co.kr##div.dable_cont_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?biz\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.dable_cont_wrap"
+                    }
+                }
+            },
+            {
+                "id": "6c6c8e1f-b254-41fd-9fd9-14efa403af51",
+                "name": "lady.khan.co.kr##div.dable_cont_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?lady\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.dable_cont_wrap"
+                    }
+                }
+            },
+            {
+                "id": "c4dfc362-7823-4e84-92b9-944526a65af1",
+                "name": "biz.khan.co.kr##div.wrap_newsrank",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?biz\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wrap_newsrank"
+                    }
+                }
+            },
+            {
+                "id": "2e9ffdc6-0e16-4a69-81b6-a7fdf883a490",
+                "name": "lady.khan.co.kr##div.wrap_newsrank",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?lady\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wrap_newsrank"
+                    }
+                }
+            },
+            {
                 "id": "4605ba28-b0d4-4697-a391-2f61b9f4f5fc",
                 "name": "biz.khan.co.kr##div.ad_movFocus2",
                 "content": {
@@ -34466,84 +34518,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_subwing_wrap"
-                    }
-                }
-            },
-            {
-                "id": "5eb673dc-5656-4e5c-a8f1-bd029677fd0a",
-                "name": "biz.khan.co.kr##div.dable_cont_wrap",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?biz\\.khan\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.dable_cont_wrap"
-                    }
-                }
-            },
-            {
-                "id": "6c6c8e1f-b254-41fd-9fd9-14efa403af51",
-                "name": "lady.khan.co.kr##div.dable_cont_wrap",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?lady\\.khan\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.dable_cont_wrap"
-                    }
-                }
-            },
-            {
-                "id": "3d12bea4-d61b-42cd-b984-581a15a107bf",
-                "name": "news.khan.co.kr##div.dable_cont_wrap",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?news\\.khan\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.dable_cont_wrap"
-                    }
-                }
-            },
-            {
-                "id": "c4dfc362-7823-4e84-92b9-944526a65af1",
-                "name": "biz.khan.co.kr##div.wrap_newsrank",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?biz\\.khan\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.wrap_newsrank"
-                    }
-                }
-            },
-            {
-                "id": "2e9ffdc6-0e16-4a69-81b6-a7fdf883a490",
-                "name": "lady.khan.co.kr##div.wrap_newsrank",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?lady\\.khan\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.wrap_newsrank"
-                    }
-                }
-            },
-            {
-                "id": "0a1c8a75-019e-44d9-866a-aac9fccf5a71",
-                "name": "news.khan.co.kr##div.wrap_newsrank",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?news\\.khan\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.wrap_newsrank"
                     }
                 }
             },
@@ -72508,6 +72482,45 @@
                 }
             },
             {
+                "id": "58f5d00a-85ee-4dc7-bd33-0e4b640d2e1f",
+                "name": "news.khan.co.kr##div.ad_jcg",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?news\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_jcg"
+                    }
+                }
+            },
+            {
+                "id": "20145a6d-93df-47b5-8256-748056caee2e",
+                "name": "sports.khan.co.kr##div.ad_jcg",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_jcg"
+                    }
+                }
+            },
+            {
+                "id": "a518e034-892b-4d90-8405-84e5e52d6c77",
+                "name": "weekly.khan.co.kr##div.ad_jcg",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?weekly\\.khan\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_jcg"
+                    }
+                }
+            },
+            {
                 "id": "adfe850e-8e30-4954-898b-ff35f5cf08fb",
                 "name": "news.kmib.co.kr##div#container>div[style=\"text-align:center;margin-bottom:96px;\"]",
                 "content": {
@@ -81396,32 +81409,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://sports.khan.co.kr/htdocs/ad/\"]"
-                    }
-                }
-            },
-            {
-                "id": "20145a6d-93df-47b5-8256-748056caee2e",
-                "name": "sports.khan.co.kr##div.ad_jcg",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.khan\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_jcg"
-                    }
-                }
-            },
-            {
-                "id": "a518e034-892b-4d90-8405-84e5e52d6c77",
-                "name": "weekly.khan.co.kr##div.ad_jcg",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?weekly\\.khan\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad_jcg"
                     }
                 }
             },
