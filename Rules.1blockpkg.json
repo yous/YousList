@@ -25048,6 +25048,38 @@
                 }
             },
             {
+                "id": "011d604d-f7bd-4d44-9cd8-48fbbf75b544",
+                "name": "stoo.asiae.co.kr/ad/$domain=stoo.asiae.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?stoo\\.asiae\\.co\\.kr/ad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*stoo.asiae.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f8da8b60-e2ad-4b19-805c-dfcec15f6c8c",
+                "name": "stoo.asiae.co.kr/banner/$domain=stoo.asiae.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?stoo\\.asiae\\.co\\.kr/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*stoo.asiae.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "cf0c3e79-4d62-49d1-a1fe-0080582f81dc",
                 "name": "story369.com/ad/$domain=story369.com",
                 "content": {
@@ -82128,6 +82160,58 @@
                 }
             },
             {
+                "id": "52adca56-93d7-4a50-a501-faf383bd1640",
+                "name": "stoo.asiae.co.kr##div#article>table[align=\"left\"][height=\"250\"][style=\"margin-right:20px\"][width=\"300\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?stoo\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article>table[align=\"left\"][height=\"250\"][style=\"margin-right:20px\"][width=\"300\"]"
+                    }
+                }
+            },
+            {
+                "id": "3b5cb17a-dc8e-45d0-aab5-a9ed9582c8f0",
+                "name": "stoo.asiae.co.kr##div#content>table[width=\"100%\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?stoo\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#content>table[width=\"100%\"]"
+                    }
+                }
+            },
+            {
+                "id": "5862d6f9-2cf3-4434-89a1-6a66f65f2895",
+                "name": "stoo.asiae.co.kr##div.all_left_wing",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?stoo\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.all_left_wing"
+                    }
+                }
+            },
+            {
+                "id": "a99420b5-f254-414f-b92d-aaa851093083",
+                "name": "stoo.asiae.co.kr##div.all_right_wing",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?stoo\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.all_right_wing"
+                    }
+                }
+            },
+            {
                 "id": "20022e9d-11b2-4c64-9b57-d14465b5205d",
                 "name": "stoo.asiae.co.kr##div.left_inside",
                 "content": {
@@ -82137,6 +82221,58 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.left_inside"
+                    }
+                }
+            },
+            {
+                "id": "00ba473a-a870-471a-8e9d-c2d645ce13ae",
+                "name": "stoo.asiae.co.kr##div.left_wing",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?stoo\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.left_wing"
+                    }
+                }
+            },
+            {
+                "id": "dbf8de64-955f-4ce2-ba44-ead811070cfd",
+                "name": "stoo.asiae.co.kr##div.left_wing2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?stoo\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.left_wing2"
+                    }
+                }
+            },
+            {
+                "id": "f8614957-f99b-4c09-ab09-7b94008ff162",
+                "name": "stoo.asiae.co.kr##div.right_wing",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?stoo\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.right_wing"
+                    }
+                }
+            },
+            {
+                "id": "1096e8db-48b1-4154-8ed1-cc0233673993",
+                "name": "stoo.asiae.co.kr##div.right_wing2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?stoo\\.asiae\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.right_wing2"
                     }
                 }
             },
