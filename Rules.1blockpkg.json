@@ -83252,6 +83252,32 @@
                 }
             },
             {
+                "id": "90e02e1e-111a-4aed-bca7-3c323f348af4",
+                "name": "tecmint.com##div.entry-inner>center[style=\"padding-bottom: 35px;padding-top: 20px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tecmint\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.entry-inner>center[style=\"padding-bottom: 35px;padding-top: 20px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "49769986-f3eb-44da-bd15-ef9e64c99bd9",
+                "name": "tecmint.com##section#footer-ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tecmint\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section#footer-ads"
+                    }
+                }
+            },
+            {
                 "id": "b5f63d96-465d-4351-bfd3-46adc93f9a2a",
                 "name": "tekrevue.com##div.header-ad",
                 "content": {
