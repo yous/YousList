@@ -18199,6 +18199,22 @@
                 }
             },
             {
+                "id": "9e580f0d-b592-46b6-9593-20acadc49a06",
+                "name": "ltn.hitomi.la/7I90zwIh.js$domain=hitomi.la",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ltn\\.hitomi\\.la/7I90zwIh\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*hitomi.la"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4e60840e-9664-4742-9883-e4aa53ec4d34",
                 "name": "ltn.hitomi.la/ipIGIssoAFF800.js$domain=hitomi.la",
                 "content": {
