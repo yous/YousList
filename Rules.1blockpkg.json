@@ -38509,6 +38509,32 @@
                 }
             },
             {
+                "id": "3c5a31c7-64f6-4ec8-a823-4c264836d617",
+                "name": "castbox.shopping.naver.com##div#mallAdAType",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?castbox\\.shopping\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mallAdAType"
+                    }
+                }
+            },
+            {
+                "id": "2cf6e682-e74d-4769-9e70-ffb28e082acd",
+                "name": "castbox.shopping.naver.com##div#mallAdBType",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?castbox\\.shopping\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mallAdBType"
+                    }
+                }
+            },
+            {
                 "id": "405defc8-7055-41a9-acb4-c492d6102b0c",
                 "name": "cdmanii.com##div#googleTop",
                 "content": {
