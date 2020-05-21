@@ -41629,6 +41629,19 @@
                 }
             },
             {
+                "id": "24b12acf-b9f1-48ca-b09f-9df4e8427659",
+                "name": "daum.net##div.advert_shoppingbox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?daum\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advert_shoppingbox"
+                    }
+                }
+            },
+            {
                 "id": "782cff0b-e2cf-4e4b-8f80-926608244a63",
                 "name": "dcinside.com##div#dgn_content_de>div[style=\"padding-top: 16px;padding-bottom:30px;text-align: center\"]",
                 "content": {
