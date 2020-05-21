@@ -11374,6 +11374,22 @@
                 }
             },
             {
+                "id": "130b8ff7-a2cb-45ed-9a33-ed129211a37f",
+                "name": "cdn.newsen.com/newsen/banner/$domain=newsen.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.newsen\\.com/newsen/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*newsen.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b145a88a-c19f-4d99-9411-6c61806c8d66",
                 "name": "cdn.optmd.com/V2/PSA/",
                 "content": {
@@ -74493,6 +74509,32 @@
                 }
             },
             {
+                "id": "06b5ac7e-c224-4dd0-9756-8a08e7f8c24d",
+                "name": "newsen.com##div#banner_wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newsen\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#banner_wrap"
+                    }
+                }
+            },
+            {
+                "id": "acd3cc0d-738f-4144-8ff9-59c3fa1c0a70",
+                "name": "newsen.com##div#left_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newsen\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#left_banner"
+                    }
+                }
+            },
+            {
                 "id": "eeec9099-6269-4264-9777-eb827cbb43fe",
                 "name": "newsen.com##div#news_banner",
                 "content": {
@@ -74502,6 +74544,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#news_banner"
+                    }
+                }
+            },
+            {
+                "id": "20cdca86-7322-44de-be1f-c99d1341959d",
+                "name": "newsen.com##div#right_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newsen\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#right_banner"
+                    }
+                }
+            },
+            {
+                "id": "f34bd19e-67f3-4654-835f-cc0918a9fbd4",
+                "name": "newsen.com##div.centeringContainer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newsen\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.centeringContainer"
+                    }
+                }
+            },
+            {
+                "id": "905e69d3-4f8a-4369-adc0-ddfbc590078c",
+                "name": "newsen.com##div.google-auto-placed",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newsen\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.google-auto-placed"
                     }
                 }
             },
@@ -74593,6 +74674,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "ins[data-ad-slot=\"9967208540\"]"
+                    }
+                }
+            },
+            {
+                "id": "91817a0a-548e-40e7-a050-0023a7e36a02",
+                "name": "newsen.com##td[align=\"left\"][style=\"margin-right:10px;\"][valign=\"top\"][width=\"741\"]>table.black[align=\"center\"][border=\"0\"][cellpadding=\"0\"][cellspacing=\"0\"][width=\"741\"]:first-of-type:not([style])>tbody>tr:first-of-type:not([valign])",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newsen\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "td[align=\"left\"][style=\"margin-right:10px;\"][valign=\"top\"][width=\"741\"]>table.black[align=\"center\"][border=\"0\"][cellpadding=\"0\"][cellspacing=\"0\"][width=\"741\"]:first-of-type:not([style])>tbody>tr:first-of-type:not([valign])"
                     }
                 }
             },
