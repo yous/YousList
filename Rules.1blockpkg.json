@@ -67759,6 +67759,19 @@
                 }
             },
             {
+                "id": "347dca59-fa6c-4c61-b39f-ffe35d008032",
+                "name": "manamoa.net##div.ad-banner-widget",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?manamoa\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-banner-widget"
+                    }
+                }
+            },
+            {
                 "id": "8913822e-4a3b-4fce-9c48-0c102a691bcc",
                 "name": "mangafox.me##div.ad",
                 "content": {
