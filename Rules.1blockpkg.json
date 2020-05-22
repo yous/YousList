@@ -26285,6 +26285,19 @@
                 }
             },
             {
+                "id": "69a67d37-165c-4157-99c3-139f95414b19",
+                "name": "vast.mathtag.com/?*&adverid=",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?vast\\.mathtag\\.com/\\?.*&adverid=",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "08661fbb-d348-4262-bf35-59c50aa3a623",
                 "name": "veritas-a.com/banner/$domain=veritas-a.com",
                 "content": {
@@ -27526,6 +27539,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?z\\.moatads\\.com/.*/moatcontent\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "28152a50-7d27-4d99-9acb-32477e2894ce",
+                "name": "z.moatads.com/*/moatheader.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?z\\.moatads\\.com/.*/moatheader\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
