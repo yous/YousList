@@ -93814,6 +93814,19 @@
                 }
             },
             {
+                "id": "dc399e5e-ffab-447d-86e4-fe033e7d7723",
+                "name": "youtube.com##ytd-promoted-sparkles-web-renderer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?youtube\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ytd-promoted-sparkles-web-renderer"
+                    }
+                }
+            },
+            {
                 "id": "bfc608a4-0c96-4877-a427-e11f74814e4a",
                 "name": "youtube.com##ytd-search-pyv-renderer",
                 "content": {
