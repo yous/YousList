@@ -69777,6 +69777,19 @@
                 }
             },
             {
+                "id": "7ddd594b-f9a3-4ef7-aaff-6afded0bd661",
+                "name": "mlbpark.donga.com##div.left_cont>div.naver",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mlbpark\\.donga\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.left_cont>div.naver"
+                    }
+                }
+            },
+            {
                 "id": "a59cdd80-a3c1-49f9-9df6-da72bcef25e5",
                 "name": "mlbpark.donga.com##div.left_cont>div[style=\"width:670px; margin:10px 0;background:#fff; padding:10px 20px 0 20px;overflow:hidden;border:1px solid #dbdbdb;\"]",
                 "content": {
