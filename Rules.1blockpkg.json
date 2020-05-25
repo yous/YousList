@@ -75237,6 +75237,32 @@
                 }
             },
             {
+                "id": "732cb750-2647-4804-93d5-5d58efe5a0dc",
+                "name": "newstown.co.kr##div#_article>div[style=\"float:left; margin-right: 10px; margin-bottom: 5px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newstown\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#_article>div[style=\"float:left; margin-right: 10px; margin-bottom: 5px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "3f6dcb2b-c79e-4bf9-8b63-2844f76896cb",
+                "name": "newstown.co.kr##div#_article>div[style=\"float:right; margin-left: 10px; margin-bottom: 5px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newstown\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#_article>div[style=\"float:right; margin-left: 10px; margin-bottom: 5px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "5c829b63-2b23-4137-b9d8-154daccde08b",
                 "name": "newswave.kr##div.pop-layer",
                 "content": {
