@@ -13039,6 +13039,19 @@
                 }
             },
             {
+                "id": "81a814f3-9249-4a49-9089-d429d033b3af",
+                "name": "dezf3o8j9jdt6.cloudfront.net/videoads/js/adop_video_*.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dezf3o8j9jdt6\\.cloudfront\\.net/videoads/js/adop_video_.*\\.min\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "cb13eda1-dc8a-42a7-a1b9-89c1c406d03f",
                 "name": "dezf3o8j9jdt6.cloudfront.net/videoads/js/ads_*.min.js",
                 "content": {
@@ -32792,6 +32805,19 @@
                 }
             },
             {
+                "id": "857a3a5c-9967-4630-9e17-708f27cffd48",
+                "name": "asiatoday.co.kr##div.ad_box",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?asiatoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_box"
+                    }
+                }
+            },
+            {
                 "id": "6ad0689e-8e11-48ad-9849-576780ce8758",
                 "name": "asiatoday.co.kr##div.gad_wrap",
                 "content": {
@@ -32801,6 +32827,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.gad_wrap"
+                    }
+                }
+            },
+            {
+                "id": "997f69e3-b710-4bc9-b4b7-89ea4e21cccd",
+                "name": "asiatoday.co.kr##div.iwm_ba",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?asiatoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.iwm_ba"
                     }
                 }
             },
