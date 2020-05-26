@@ -54918,6 +54918,19 @@
                 }
             },
             {
+                "id": "edd40904-2449-4d84-8402-f32e5899d00c",
+                "name": "koreaboo.com##div.kb-ads-dynamic",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?koreaboo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.kb-ads-dynamic"
+                    }
+                }
+            },
+            {
                 "id": "5ad8118f-88c4-4135-b56d-42551763c8ab",
                 "name": "koreadaily.com##div#divLayerAd_HOME",
                 "content": {
