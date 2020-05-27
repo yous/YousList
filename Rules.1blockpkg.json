@@ -9659,6 +9659,22 @@
                 }
             },
             {
+                "id": "62bd37e4-38ae-4a09-bc41-1df036c8f589",
+                "name": "bntnews.hankyung.com/bntdata/images/ad/$domain=bntnews.hankyung.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?bntnews\\.hankyung\\.com/bntdata/images/ad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*bntnews.hankyung.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b007719a-cf88-4902-b6b7-2175d886d1ae",
                 "name": "bodnara.co.kr/09shop/article_right_box.php$domain=bodnara.co.kr",
                 "content": {
@@ -35635,6 +35651,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "section.home-ad__fullwidth"
+                    }
+                }
+            },
+            {
+                "id": "0a2bb398-9ba8-4f53-b953-cee1b8b17e7c",
+                "name": "bntnews.hankyung.com##a#a_randBanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?bntnews\\.hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a#a_randBanner"
+                    }
+                }
+            },
+            {
+                "id": "e3d90ebf-d902-4dec-8570-f1f41b576405",
+                "name": "bntnews.hankyung.com##div#_BNT_NEWS_BODY_AD_",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?bntnews\\.hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#_BNT_NEWS_BODY_AD_"
+                    }
+                }
+            },
+            {
+                "id": "1cf31384-ad43-4d08-8ed2-5cb8d5a204bc",
+                "name": "bntnews.hankyung.com##div.bnt_healthInfo",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?bntnews\\.hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bnt_healthInfo"
                     }
                 }
             },
