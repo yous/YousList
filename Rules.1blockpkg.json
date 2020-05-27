@@ -11163,6 +11163,19 @@
                 }
             },
             {
+                "id": "510a8f73-6665-4539-9243-de7c6359fa16",
+                "name": "cdn.cxense.com/cx.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.cxense\\.com/cx\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4801236d-356a-4988-aa9c-23d1a6438fa5",
                 "name": "cdn.doyouad.com/html/iframe.html",
                 "content": {
