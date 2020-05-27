@@ -16422,6 +16422,22 @@
                 }
             },
             {
+                "id": "678cc5d6-12c9-43aa-a456-c88a90c400bf",
+                "name": "img.bntnews.hankyung.com/bntdata/images/ad/$domain=m.bntnews.hankyung.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.bntnews\\.hankyung\\.com/bntdata/images/ad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.bntnews.hankyung.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "edd9919c-9881-46f8-ae67-48d21855cb24",
                 "name": "img.dt.co.kr/unse/",
                 "content": {
@@ -57946,6 +57962,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.section_powerlink"
+                    }
+                }
+            },
+            {
+                "id": "8f1db780-9d5c-4853-80b9-30ae484ecef2",
+                "name": "m.bntnews.hankyung.com##aside.ad_btm",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.bntnews\\.hankyung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.ad_btm"
                     }
                 }
             },
