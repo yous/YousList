@@ -12990,6 +12990,19 @@
                 }
             },
             {
+                "id": "3795ace9-4d00-43c2-9a48-36afc0f01ada",
+                "name": "deepdivead.zum.com/cgi-bin/PelicanC.dll",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?deepdivead\\.zum\\.com/cgi-bin/PelicanC\\.dll",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "86b3e377-dd2a-4913-b9f4-2af45948a106",
                 "name": "delivery.amessagewithabottle.com/www/delivery/ajs.php",
                 "content": {
@@ -41985,6 +41998,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.sponsor_link_wrap"
+                    }
+                }
+            },
+            {
+                "id": "cf859335-17d5-41dd-ba3f-a0c95d06b2b4",
+                "name": "deepdive.zum.com##div.slick-slide>ul.list>li>a.ad_slot",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?deepdive\\.zum\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.slick-slide>ul.list>li>a.ad_slot"
                     }
                 }
             },
