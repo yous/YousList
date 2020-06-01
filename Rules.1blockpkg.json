@@ -1954,6 +1954,19 @@
                 }
             },
             {
+                "id": "e4df640e-1d6a-43a2-bfb9-6329cebb7943",
+                "name": "##iframe[src*=\"//adv.dailyissue.co.kr/show/media/\"][src$=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//adv.dailyissue.co.kr/show/media/\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
                 "id": "bef2f447-2217-48df-add1-f8134da3bdea",
                 "name": "##iframe[src*=\"//adv.imadrep.co.kr/\"]",
                 "content": {
@@ -8478,6 +8491,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?adtradradservices\\.com/adassets/.*/adtradr-ad-tag-.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2fd1151b-06fb-4e02-a51f-f5330dcab90e",
+                "name": "adv.dailyissue.co.kr/libs/ADcommon_ssl.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adv\\.dailyissue\\.co\\.kr/libs/ADcommon_ssl\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c8cdee96-1ffb-4aea-8b0c-c40e3885766b",
+                "name": "adv.dailyissue.co.kr/show/media/*/*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adv\\.dailyissue\\.co\\.kr/show/media/.*/.*\\.html",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
