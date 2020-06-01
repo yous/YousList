@@ -59149,6 +59149,19 @@
                 }
             },
             {
+                "id": "4d39c678-c05e-4a2e-b6fc-8a28ba59ce0a",
+                "name": "m.dcinside.com##div.adv-groupno",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.dcinside\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adv-groupno"
+                    }
+                }
+            },
+            {
                 "id": "2980e6a3-1764-42d3-bf1c-1d14e8aa6e88",
                 "name": "m.dcinside.com##div.adv-grouptop",
                 "content": {
@@ -59158,6 +59171,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.adv-grouptop"
+                    }
+                }
+            },
+            {
+                "id": "bfcb39d0-b753-4eec-bd26-4804d4c55fc0",
+                "name": "m.dcinside.com##div.detail-top-lnk>a[href^=\"http://addc.dcinside.com/NetInsight/click/dcinside/adver/adver@text\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.dcinside\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.detail-top-lnk>a[href^=\"http://addc.dcinside.com/NetInsight/click/dcinside/adver/adver@text\"]"
                     }
                 }
             },
