@@ -88230,6 +88230,19 @@
                 }
             },
             {
+                "id": "6ab3ee20-2c1c-4d7a-8780-1f420633c2a1",
+                "name": "trustpost.kr##div#container>div[style=\"margin:0 auto;padding:0 auto;max-width:800px;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?trustpost\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#container>div[style=\"margin:0 auto;padding:0 auto;max-width:800px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "adeea491-6eff-4009-a160-736afbde9c26",
                 "name": "ttocorps.com##a[href^=\"../page/ad.php\"]",
                 "content": {
