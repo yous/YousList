@@ -39779,6 +39779,19 @@
                 }
             },
             {
+                "id": "22d55688-0a46-4c9e-b152-4cf203f73eae",
+                "name": "clien.net##div.ad_fix",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?clien\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_fix"
+                    }
+                }
+            },
+            {
                 "id": "634d390d-9fe8-471c-bafb-25012f5fa5b4",
                 "name": "clien.net##div.footer_ad",
                 "content": {
@@ -39905,6 +39918,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.view_center_ad"
+                    }
+                }
+            },
+            {
+                "id": "cd2f4cf5-e791-46b8-a45b-2792fe0f4b1f",
+                "name": "clien.net##div.view_top_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?clien\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view_top_ad"
                     }
                 }
             },
