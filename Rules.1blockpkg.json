@@ -31472,6 +31472,19 @@
                 }
             },
             {
+                "id": "89ebc5a8-e8c6-4f98-871e-5bc6752b35d5",
+                "name": "api.dable.io##div.item-promotion",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?api\\.dable\\.io"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.item-promotion"
+                    }
+                }
+            },
+            {
                 "id": "1ffa6b5d-cde2-4e78-9676-911b358a1330",
                 "name": "api.dable.io##div.item-sp",
                 "content": {
@@ -67920,6 +67933,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.photo_bottom_ad"
+                    }
+                }
+            },
+            {
+                "id": "073ddbf3-6a5f-4e69-b532-98ffd3cb9b0d",
+                "name": "m.ytn.co.kr##div.text_ad_type_1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ytn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.text_ad_type_1"
+                    }
+                }
+            },
+            {
+                "id": "6c1d58bb-2199-4f9f-a283-408093b55aeb",
+                "name": "m.ytn.co.kr##div.text_ad_type_2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ytn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.text_ad_type_2"
+                    }
+                }
+            },
+            {
+                "id": "53240865-efcd-4c2b-b5dc-862793359f0a",
+                "name": "m.ytn.co.kr##li.ad_area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ytn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.ad_area"
                     }
                 }
             },
