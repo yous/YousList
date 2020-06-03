@@ -91792,6 +91792,19 @@
                 }
             },
             {
+                "id": "9db2f111-7e11-4f83-a5fc-33bd7b2ef92a",
+                "name": "www-clien-net.cdn.ampproject.org##div.ad_fix",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?www-clien-net\\.cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_fix"
+                    }
+                }
+            },
+            {
                 "id": "15e81929-1969-4809-b176-bcc6693aacca",
                 "name": "www-clien-net.cdn.ampproject.org##div.list_bottom_ad",
                 "content": {
@@ -91827,6 +91840,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.list_top_ad"
+                    }
+                }
+            },
+            {
+                "id": "54f42ba4-8fa8-44a5-b17c-0dc865f63fa6",
+                "name": "www-clien-net.cdn.ampproject.org##div.view_top_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?www-clien-net\\.cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view_top_ad"
                     }
                 }
             },
