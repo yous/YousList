@@ -6610,6 +6610,22 @@
                 }
             },
             {
+                "id": "c5b169a8-216f-4bc7-80f1-4506359f3118",
+                "name": "ad4989.dailian.co.kr/cgi-bin/PelicanC.dll$domain=dailian.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad4989\\.dailian\\.co\\.kr/cgi-bin/PelicanC\\.dll",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*dailian.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8bf8522a-fc11-48cc-b906-933d877acc44",
                 "name": "ad4989.kr/winnerpower/",
                 "content": {
@@ -41053,19 +41069,6 @@
                 }
             },
             {
-                "id": "cd8c0581-cb93-4d54-aa38-6202d86d3f9b",
-                "name": "dailian.co.kr##div.logo",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailian\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.logo"
-                    }
-                }
-            },
-            {
                 "id": "e651cee8-b905-43d6-a88d-274c452af33a",
                 "name": "dailian.co.kr##div[class^=\"banner\"]",
                 "content": {
@@ -41088,6 +41091,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[name=\"adv\"]"
+                    }
+                }
+            },
+            {
+                "id": "99c7100f-0ec9-43db-b268-b379a921a9f2",
+                "name": "dailian.co.kr##iframe[src*=\"//ad4989.dailian.co.kr/cgi-bin/PelicanC.dll\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailian\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//ad4989.dailian.co.kr/cgi-bin/PelicanC.dll\"]"
                     }
                 }
             },

@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20200603
+! Version: 20200605
 
 ! General element hiding rules
 ##amp-ad
@@ -513,6 +513,7 @@
 ||ad1.sportschosun.com^
 ||ad1.sportsseoul.com^
 ||ad2.thisisgame.com^
+||ad4989.dailian.co.kr/cgi-bin/PelicanC.dll^$domain=dailian.co.kr
 ||ad4989.kr/winnerpower/
 ||ad79.z00.kr/catchback/*.js^
 ||ad8.adfarm1.adition.com/s^
@@ -2568,9 +2569,9 @@ dailian.co.kr##div.ban_com_top_lt
 dailian.co.kr##div.ban_com_top_rt
 dailian.co.kr##div.ban_mtre
 dailian.co.kr##div.ban_newsstand
-dailian.co.kr##div.logo
 dailian.co.kr##div[class^="banner"]
 dailian.co.kr##iframe[name="adv"]
+dailian.co.kr##iframe[src*="//ad4989.dailian.co.kr/cgi-bin/PelicanC.dll"]
 dailian.co.kr##iframe[src^="/ad_article_center.php"]
 daily.hankooki.com##div#MobileLink
 daily.hankooki.com##div#adIssueTrend
