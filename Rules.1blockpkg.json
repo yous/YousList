@@ -81369,6 +81369,19 @@
                 }
             },
             {
+                "id": "3bd0bcf3-9232-4c47-8abb-eb9421f630b7",
+                "name": "soranews24.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?soranews24\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
                 "id": "b740eb89-c1fb-4545-a0da-a163af1155eb",
                 "name": "sourceforge.net##div.sterling",
                 "content": {
