@@ -3397,6 +3397,19 @@
                 }
             },
             {
+                "id": "ae63fbd6-f8e5-436c-880c-78f5ebdd09bc",
+                "name": "##iframe[src*=\"//s.dolphincdn.xyz/adx/\"][src*=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//s.dolphincdn.xyz/adx/\"][src*=\".html\"]"
+                    }
+                }
+            },
+            {
                 "id": "ba23022f-703b-4a38-8a51-37f79d387cca",
                 "name": "##iframe[src*=\"//s.yimg.jp/images/listing/tool/yads/yads-iframe.html\"]",
                 "content": {
@@ -12713,6 +12726,19 @@
                 }
             },
             {
+                "id": "4fe2bffd-4e6c-46d7-a308-e2b51409fc2b",
+                "name": "d22sfab2t5o9bq.cloudfront.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?d22sfab2t5o9bq\\.cloudfront\\.net",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b0712995-54cb-4cbf-9657-f8e50be60a9e",
                 "name": "d269y12mnftu9c.cloudfront.net",
                 "content": {
@@ -12770,6 +12796,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?d3u5zn5k9864p0\\.cloudfront\\.net/br",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2ec2dbab-eb07-451b-9a54-7032e8e6740a",
+                "name": "d3v3bqdndm4erx.cloudfront.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?d3v3bqdndm4erx\\.cloudfront\\.net",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -23134,6 +23173,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?s\\.atemda\\.com/Admeta\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c1a20e7e-695e-42c0-a8ad-ae203bed8139",
+                "name": "s.dolphincdn.xyz/adx/*/*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?s\\.dolphincdn\\.xyz/adx/.*/.*\\.html",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b917071b-23e0-44e1-b3f8-5e9480607f0a",
+                "name": "s.dolphincdn.xyz/script.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?s\\.dolphincdn\\.xyz/script\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
