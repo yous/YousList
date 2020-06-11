@@ -85351,6 +85351,58 @@
                 }
             },
             {
+                "id": "8088da86-6044-495f-a87e-83ea67af5447",
+                "name": "tnnews.co.kr##div.td-a-rec-id-content_bottom",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tnnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.td-a-rec-id-content_bottom"
+                    }
+                }
+            },
+            {
+                "id": "889d896c-7e30-4f6c-bc76-04209cd2e10d",
+                "name": "tnnews.co.kr##div.td-a-rec-id-header",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tnnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.td-a-rec-id-header"
+                    }
+                }
+            },
+            {
+                "id": "5960dc5c-c569-4434-864c-3c4fa2d43dbc",
+                "name": "tnnews.co.kr##div.td-a-rec-id-sidebar",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tnnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.td-a-rec-id-sidebar"
+                    }
+                }
+            },
+            {
+                "id": "90844aba-7dc0-42ff-b6ba-1bba7d851037",
+                "name": "tnnews.co.kr##div.td-all-devices",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tnnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.td-all-devices"
+                    }
+                }
+            },
+            {
                 "id": "09ebe84e-bc80-459e-9a84-7a7fe365f8bf",
                 "name": "tobest2.net##div#left>div:not([class]):not([id]):not([style])>a",
                 "content": {
