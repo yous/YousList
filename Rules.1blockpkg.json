@@ -11668,6 +11668,22 @@
                 }
             },
             {
+                "id": "ff3c4e56-602b-4260-a68b-eee9c88a506c",
+                "name": "cdn.tinypass.com/api/tinypass.min.js$domain=insider.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.tinypass\\.com/api/tinypass\\.min\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*insider.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "e5be59ce-a7aa-40c1-9ef5-d6659d8bea29",
                 "name": "cdn.tsyndicate.com/sdk/v1/*.js",
                 "content": {
@@ -52492,6 +52508,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://iframe.inews24.com/ad/\"]"
+                    }
+                }
+            },
+            {
+                "id": "67233f7c-ea22-4409-993c-fa6082192775",
+                "name": "insider.com##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?insider\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "e1146dcd-171f-43ce-947c-e74c3e888328",
+                "name": "insider.com##div.l-ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?insider\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.l-ad"
+                    }
+                }
+            },
+            {
+                "id": "ad836235-2e18-446c-a395-52cde84905ef",
+                "name": "insider.com##section#right-rail-2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?insider\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section#right-rail-2"
                     }
                 }
             },
