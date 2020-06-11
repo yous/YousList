@@ -11668,13 +11668,14 @@
                 }
             },
             {
-                "id": "ff3c4e56-602b-4260-a68b-eee9c88a506c",
-                "name": "cdn.tinypass.com/api/tinypass.min.js$domain=insider.com",
+                "id": "b0b61b50-bf83-459c-8f13-a7c03ea8451c",
+                "name": "cdn.tinypass.com/api/tinypass.min.js$domain=businessinsider.com|insider.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.tinypass\\.com/api/tinypass\\.min\\.js",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
+                            "*businessinsider.com",
                             "*insider.com"
                         ]
                     },
@@ -38420,28 +38421,15 @@
                 }
             },
             {
-                "id": "ff3dc942-9245-419f-96bd-c5fe6685191d",
-                "name": "businessinsider.com##div#pmad-bottom",
+                "id": "fdc2bc33-c8c4-4e51-b863-c8c7718646aa",
+                "name": "businessinsider.com##section.dianomi-ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?businessinsider\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#pmad-bottom"
-                    }
-                }
-            },
-            {
-                "id": "8c819f34-e6eb-4c4a-81c6-f5b7bbf11aa8",
-                "name": "businessinsider.com##div#pmad-byline",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?businessinsider\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#pmad-byline"
+                        "selector": "section.dianomi-ad"
                     }
                 }
             },
@@ -38459,106 +38447,67 @@
                 }
             },
             {
-                "id": "2aa0b6f4-884e-4ba8-8321-c40c5b7f4947",
-                "name": "businessinsider.com##div.ad-subnav-container",
+                "id": "67233f7c-ea22-4409-993c-fa6082192775",
+                "name": "insider.com##div.ad",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?businessinsider\\.com"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?insider\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad-subnav-container"
+                        "selector": "div.ad"
                     }
                 }
             },
             {
-                "id": "ac401405-022a-4376-a2f2-ec96fdc7c779",
-                "name": "businessinsider.com##div.article-ad-bottom",
+                "id": "fd097bcf-898e-47b3-91a7-8774393cf30a",
+                "name": "businessinsider.com##div.l-ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?businessinsider\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.article-ad-bottom"
+                        "selector": "div.l-ad"
                     }
                 }
             },
             {
-                "id": "97627853-b6ed-4a28-9888-bf7f55c12930",
-                "name": "businessinsider.com##div.article-ad-image",
+                "id": "e1146dcd-171f-43ce-947c-e74c3e888328",
+                "name": "insider.com##div.l-ad",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?businessinsider\\.com"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?insider\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.article-ad-image"
+                        "selector": "div.l-ad"
                     }
                 }
             },
             {
-                "id": "dbb3bfe9-402f-4ecc-ad08-c19575b44d53",
-                "name": "businessinsider.com##div.right-ad",
+                "id": "a06396d3-8d37-4039-9a30-818747f848ca",
+                "name": "businessinsider.com##section#right-rail-2",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?businessinsider\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.right-ad"
+                        "selector": "section#right-rail-2"
                     }
                 }
             },
             {
-                "id": "88859851-9a5c-4559-989d-e2a209cb5b01",
-                "name": "businessinsider.com##div.right-rail-ad",
+                "id": "ad836235-2e18-446c-a395-52cde84905ef",
+                "name": "insider.com##section#right-rail-2",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?businessinsider\\.com"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?insider\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.right-rail-ad"
-                    }
-                }
-            },
-            {
-                "id": "f05d4813-161e-41cc-9060-1936b48dccd6",
-                "name": "businessinsider.com##div.slide-ad-bottom",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?businessinsider\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.slide-ad-bottom"
-                    }
-                }
-            },
-            {
-                "id": "a4def306-1d5c-4b2a-95d2-fdb5737824ed",
-                "name": "businessinsider.com##div[data-ad-container]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?businessinsider\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[data-ad-container]"
-                    }
-                }
-            },
-            {
-                "id": "fdc2bc33-c8c4-4e51-b863-c8c7718646aa",
-                "name": "businessinsider.com##section.dianomi-ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?businessinsider\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "section.dianomi-ad"
+                        "selector": "section#right-rail-2"
                     }
                 }
             },
@@ -52508,45 +52457,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://iframe.inews24.com/ad/\"]"
-                    }
-                }
-            },
-            {
-                "id": "67233f7c-ea22-4409-993c-fa6082192775",
-                "name": "insider.com##div.ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?insider\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad"
-                    }
-                }
-            },
-            {
-                "id": "e1146dcd-171f-43ce-947c-e74c3e888328",
-                "name": "insider.com##div.l-ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?insider\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.l-ad"
-                    }
-                }
-            },
-            {
-                "id": "ad836235-2e18-446c-a395-52cde84905ef",
-                "name": "insider.com##section#right-rail-2",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?insider\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "section#right-rail-2"
                     }
                 }
             },
