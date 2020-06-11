@@ -63689,15 +63689,15 @@
                 }
             },
             {
-                "id": "0af4c1bd-1ad6-4d6c-9a38-542345d8b2c4",
-                "name": "m.munhwa.com##div#news_content>div[style=\"border: 0px dashed #BDBDBD; width: 205px; height: 200px; float:right;padding-left:5px;\"]",
+                "id": "8b917418-0a0a-48b2-aa7a-808da2464aec",
+                "name": "m.munhwa.com##div#news_content div[style=\"border: 0px dashed #BDBDBD; width: 205px; height: 200px; float:right;padding-left:5px;\"]",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.munhwa\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#news_content>div[style=\"border: 0px dashed #BDBDBD; width: 205px; height: 200px; float:right;padding-left:5px;\"]"
+                        "selector": "div#news_content div[style=\"border: 0px dashed #BDBDBD; width: 205px; height: 200px; float:right;padding-left:5px;\"]"
                     }
                 }
             },
@@ -63724,6 +63724,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.centerBanner_google"
+                    }
+                }
+            },
+            {
+                "id": "b425b648-448e-48a0-80e9-b905bd253dda",
+                "name": "m.munhwa.com##ul.List_link_ad_txt_2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.munhwa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.List_link_ad_txt_2"
                     }
                 }
             },
