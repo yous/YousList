@@ -52604,6 +52604,19 @@
                 }
             },
             {
+                "id": "ba905095-dc90-4ace-9720-9df4d3f97990",
+                "name": "instiz.net##div#div-19",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?instiz\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#div-19"
+                    }
+                }
+            },
+            {
                 "id": "18021701-1f85-49fc-b4f5-46925b8c6dd7",
                 "name": "instiz.net##div#footad",
                 "content": {
@@ -52639,6 +52652,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#naverbox"
+                    }
+                }
+            },
+            {
+                "id": "81535c69-d968-42d3-9ce2-75ceeff1bcf8",
+                "name": "instiz.net##div#pc_topad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?instiz\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#pc_topad"
                     }
                 }
             },
@@ -52695,15 +52721,15 @@
                 }
             },
             {
-                "id": "48dc374e-ea7d-418f-8ed3-bf70a09328bc",
-                "name": "instiz.net##div.board_topad",
+                "id": "76318005-371f-4ad6-9aba-1d8571d20a7c",
+                "name": "instiz.net##div.board_top_ad",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?instiz\\.net"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.board_topad"
+                        "selector": "div.board_top_ad"
                     }
                 }
             },
