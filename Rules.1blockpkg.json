@@ -94581,6 +94581,32 @@
                 }
             },
             {
+                "id": "0d527859-bad6-4056-8b57-0c51501dbb12",
+                "name": "youtube.com##div.ytp-ad-action-interstitial-background-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?youtube\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ytp-ad-action-interstitial-background-container"
+                    }
+                }
+            },
+            {
+                "id": "d5d894e4-25a6-4857-8a81-1e34edb08cef",
+                "name": "youtube.com##div.ytp-ad-action-interstitial-slot",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?youtube\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ytp-ad-action-interstitial-slot"
+                    }
+                }
+            },
+            {
                 "id": "911cf3f9-f78b-4c9c-9cbc-436fc1bb681a",
                 "name": "youtube.com##ytd-compact-promoted-video-renderer",
                 "content": {
