@@ -3189,6 +3189,19 @@
                 }
             },
             {
+                "id": "afd13a85-ead0-4162-8a14-9a97238dfa1a",
+                "name": "##iframe[src*=\"//nscreen.neoebiz.co.kr/xJqScreenIframe.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//nscreen.neoebiz.co.kr/xJqScreenIframe.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "651872d6-ae36-4f27-928f-4072bea56898",
                 "name": "##iframe[src*=\"//nvapi.feeldmc.com/ad/\"]",
                 "content": {
@@ -21606,6 +21619,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?nscreen\\.neoebiz\\.co\\.kr/xJqScreen\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5ecda64b-cca6-4325-9b5b-509f4bea6b03",
+                "name": "nscreen.neoebiz.co.kr/xJqScreenIframe.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?nscreen\\.neoebiz\\.co\\.kr/xJqScreenIframe\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -80411,6 +80437,19 @@
                 }
             },
             {
+                "id": "81f1c2f0-01ed-451b-894e-1a0efc0beded",
+                "name": "seoul.co.kr##body>div[style=\"width:100%;position:fixed;bottom:0;text-align:center;margin:0;padding:0;\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?seoul\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"width:100%;position:fixed;bottom:0;text-align:center;margin:0;padding:0;\"]"
+                    }
+                }
+            },
+            {
                 "id": "9bbd209e-a8b0-49e2-99d0-309a6b52fe28",
                 "name": "seoul.co.kr##div#CLink",
                 "content": {
@@ -80446,6 +80485,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#eMartDiv"
+                    }
+                }
+            },
+            {
+                "id": "b3dfe4db-e91f-40bf-8ade-16aad1ebc303",
+                "name": "seoul.co.kr##div#viewWrapDiv>div[style=\"width:100%;text-align:center;padding:0 0 20px 0;border-bottom:1px solid #d7d7d7\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?seoul\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#viewWrapDiv>div[style=\"width:100%;text-align:center;padding:0 0 20px 0;border-bottom:1px solid #d7d7d7\"]"
                     }
                 }
             },
@@ -80498,6 +80550,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe#iwm_float_iframe"
+                    }
+                }
+            },
+            {
+                "id": "9a9ecc86-3e77-407c-ae72-c5cd4b17f4ed",
+                "name": "seoul.co.kr##iframe[src^=\"//api.dable.io/widgets/id/G7ZaYWoW/iframe\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?seoul\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//api.dable.io/widgets/id/G7ZaYWoW/iframe\"]"
                     }
                 }
             },
