@@ -70830,6 +70830,32 @@
                 }
             },
             {
+                "id": "acae8380-b7b2-4340-86df-4c01fbe20251",
+                "name": "mobile.reuters.com##div.amp-ad-container",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mobile\\.reuters\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.amp-ad-container"
+                    }
+                }
+            },
+            {
+                "id": "0603ec7d-6ce9-4d1e-b11a-70294f2f342d",
+                "name": "mobile.reuters.com##div.mpu_ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mobile\\.reuters\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mpu_ad"
+                    }
+                }
+            },
+            {
                 "id": "154304b7-1e98-4410-ad76-6ba8895c99f5",
                 "name": "moeruasia.net##div.abox",
                 "content": {
