@@ -42477,6 +42477,45 @@
                 }
             },
             {
+                "id": "193bc57a-548b-4a30-8afc-c5c46b43fe8d",
+                "name": "digitalchosun.dizzo.com##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?digitalchosun\\.dizzo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
+                    }
+                }
+            },
+            {
+                "id": "d73203a0-b611-4075-97bb-79abd9a1b0f2",
+                "name": "digitalchosun.dizzo.com##div.centerbanner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?digitalchosun\\.dizzo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.centerbanner"
+                    }
+                }
+            },
+            {
+                "id": "553d5d23-72dc-443e-9b31-9034ce0a1025",
+                "name": "digitalchosun.dizzo.com##li.textad_article",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?digitalchosun\\.dizzo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.textad_article"
+                    }
+                }
+            },
+            {
                 "id": "6b650057-45b8-4ba1-ad08-202c8e7759d8",
                 "name": "digitalspy.com##div.ad-gpt-breaker",
                 "content": {
