@@ -58948,6 +58948,19 @@
                 }
             },
             {
+                "id": "99a84344-607e-4184-854f-ae7c5961d87b",
+                "name": "m.clien.net##div.shop_naver",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.clien\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.shop_naver"
+                    }
+                }
+            },
+            {
                 "id": "50f5d44e-ed86-4bc1-bd8e-959a438314e0",
                 "name": "m.comic.naver.com##div#AD_WEBTOON_MOBILEWEB_UP",
                 "content": {
