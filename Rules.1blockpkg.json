@@ -46975,6 +46975,32 @@
                 }
             },
             {
+                "id": "ac64cb7c-fc74-4d52-9556-1291565010b4",
+                "name": "footsell.com##div#ad_view_right2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?footsell\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_view_right2"
+                    }
+                }
+            },
+            {
+                "id": "e646a414-0da6-42d6-b3df-cfa99e431c71",
+                "name": "footsell.com##div#cto_async1",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?footsell\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#cto_async1"
+                    }
+                }
+            },
+            {
                 "id": "ac502894-95a8-4e97-afed-ec5baa2c9096",
                 "name": "forbes.com##div.top-ad-container",
                 "content": {
