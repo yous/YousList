@@ -49640,6 +49640,19 @@
                 }
             },
             {
+                "id": "08367bc5-321c-45d4-8278-cc4090f1b8df",
+                "name": "hankookilbo.com##div.banner-right",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hankookilbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-right"
+                    }
+                }
+            },
+            {
                 "id": "0157882b-981e-4a31-b953-2f318fa4d6e3",
                 "name": "hankookilbo.com##div.story-ad-half",
                 "content": {
