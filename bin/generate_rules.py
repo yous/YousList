@@ -172,37 +172,6 @@ class FilterParser:
                 return
         raise Exception('Cannot handle this rule: ' + line)
 
-    def _parse_hiding_rule_with_separator(self, line, sep):
-        """rule['content']['action']['type'] should be set."""
-        if sep != '##' and sep != '#@#':
-            raise Exception('Cannot handle this separator: ' + sep)
-
-        rule = OrderedDict()
-        name = line
-        rule['id'] = self._get_rule_id(name)
-        rule['name'] = name
-
-        url, css = line.split(sep, 2)
-        if url.startswith('~'):
-            # Element hiding exception rule
-            raise Exception('Cannot handle this rule: ' + line)
-        trigger = OrderedDict()
-        if url:
-            trigger['url-filter'] = \
-                self.DOMAIN_PREFIX + url.replace('.', '\\.')
-        else:
-            trigger['url-filter'] = '.*'
-
-        action = OrderedDict()
-        action['type'] = None
-        action['selector'] = css
-
-        content = OrderedDict()
-        content['trigger'] = trigger
-        content['action'] = action
-        rule['content'] = content
-        return rule
-
     def _parse_exception_rule(self, line):
         rule = self._parse_url_filter(line[2:])
         name = '@@' + rule['name']
