@@ -771,6 +771,19 @@
                 }
             },
             {
+                "id": "d34b8ec0-6788-45cb-a7bd-012267197172",
+                "name": "##div[id^=\"mobonDivBanner_\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"mobonDivBanner_\"]"
+                    }
+                }
+            },
+            {
                 "id": "7d5da6cd-6ebe-419b-a5ea-1f1cff8d3f9a",
                 "name": "##div[id^=\"sbaAbout\"]",
                 "content": {
@@ -75354,19 +75367,6 @@
                 }
             },
             {
-                "id": "51436b36-8df8-4e0b-8350-34f536127b05",
-                "name": "newsen.com##div[id^=\"mobonDivBanner_\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?newsen\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[id^=\"mobonDivBanner_\"]"
-                    }
-                }
-            },
-            {
                 "id": "0087ba9b-bbd9-49ec-b3db-7ac4f7aad464",
                 "name": "newsen.com##ins[data-ad-slot=\"2189317187\"]",
                 "content": {
@@ -92653,19 +92653,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.rr_ad_2"
-                    }
-                }
-            },
-            {
-                "id": "e0fb01d0-0a7b-4644-a170-9ae4a2223e8e",
-                "name": "xportsnews.com##div[id^=\"mobonDivBanner_\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?xportsnews\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div[id^=\"mobonDivBanner_\"]"
                     }
                 }
             },
