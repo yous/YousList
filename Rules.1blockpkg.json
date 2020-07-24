@@ -12182,6 +12182,19 @@
                 }
             },
             {
+                "id": "218d2655-2825-452a-92dd-cd9923a1aff3",
+                "name": "compasscdn.adop.cc/js/adop_collapse_*.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?compasscdn\\.adop\\.cc/js/adop_collapse_.*\\.min\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d6b62e6d-71af-4766-b7d0-bf7b5f736801",
                 "name": "config.ad-brix.com/*/init.json",
                 "content": {
