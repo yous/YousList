@@ -20844,6 +20844,22 @@
                 }
             },
             {
+                "id": "b9b9aa0e-ae2f-46d9-bc6c-7e0ed3533bd9",
+                "name": "namu.live/api/ads$domain=namu.live",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.live/api/ads",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*namu.live"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "dbfbf99c-74ed-4864-9f7e-d6312103c0cd",
                 "name": "namu.live/static/ad/$domain=namu.wiki",
                 "content": {
@@ -72425,6 +72441,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#M306352Composite624079"
+                    }
+                }
+            },
+            {
+                "id": "17694e59-0849-478c-a766-0fcdb09151e5",
+                "name": "namu.live##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.live"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "3afd6f82-ca5b-4944-988a-5db5f947000c",
+                "name": "namu.live##iframe[src^=\"/api/ads\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.live"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/api/ads\"]"
                     }
                 }
             },
