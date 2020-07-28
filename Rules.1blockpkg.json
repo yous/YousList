@@ -9245,6 +9245,22 @@
                 }
             },
             {
+                "id": "2407e737-4e6f-420b-88f0-8f32497a10e5",
+                "name": "api.hiyobi.me/dist/tjqjql/*.gif$domain=hiyobi.me",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?api\\.hiyobi\\.me/dist/tjqjql/.*\\.gif",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*hiyobi.me"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0a77e0ac-33e5-462d-84d2-2058153296fb",
                 "name": "api.screensharp.kr/ad/get_banner/",
                 "content": {
