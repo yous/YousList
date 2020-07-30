@@ -4,6 +4,150 @@
         "name": "YousList",
         "rules": [
             {
+                "id": "a5364f5e-3739-4aaf-a3c2-c0809728d37a",
+                "name": "##a[href*=\"//2020tteecaca.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*2020tteecaca.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//2020tteecaca.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "931f9782-98db-407d-a0f6-3eb70801f53c",
+                "name": "##a[href*=\"//butterkorea.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*butterkorea.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//butterkorea.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "2535d9f7-1e44-4748-b62f-ed86ee45f300",
+                "name": "##a[href*=\"//onca888.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*onca888.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//onca888.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "e5d55778-6920-437a-815e-f9926e69cfc2",
+                "name": "##a[href*=\"//slot0505.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*slot0505.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//slot0505.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "ec74673f-2772-457e-a889-6be47fa4a472",
+                "name": "##a[href*=\"//spin800.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*spin800.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//spin800.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "caff66ec-9252-4414-843c-c07a29a753d2",
+                "name": "##a[href*=\"//sureman77.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*sureman77.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//sureman77.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "272e42c2-a5d1-40f5-91cd-3eaae40f11fe",
+                "name": "##a[href*=\"//wb-tt.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*wb-tt.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//wb-tt.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "4847d6a2-9e7d-4288-8433-1f12b647ff2e",
+                "name": "##a[href*=\"//wnx-ir.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*wnx-ir.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//wnx-ir.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "1d38b95f-7ea1-4d64-b453-920aa9bb2ef8",
+                "name": "##a[href*=\"//www.2020tteecaca.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*2020tteecaca.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//www.2020tteecaca.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "d2a59263-681d-4e53-b4b7-7773e8dfdac0",
                 "name": "##amp-ad",
                 "content": {
@@ -25834,6 +25978,40 @@
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?ti-center\\.co\\.kr",
                         "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c0feae42-afde-4558-b0f9-1f30ea5ba493",
+                "name": "tkor.host/bann/$domain=tkor.host|tkor.tax",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.host/bann/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*tkor.host",
+                            "*tkor.tax"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d0f9100e-a5df-4c31-ad1f-4fa7c4133d4f",
+                "name": "tkor.tax/bann/$domain=tkor.host|tkor.tax",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.tax/bann/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*tkor.host",
+                            "*tkor.tax"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -85704,6 +85882,84 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad250_outter"
+                    }
+                }
+            },
+            {
+                "id": "d7eac278-3bf0-4cd8-8361-2fa3832a0592",
+                "name": "tkor.host##div.main_top_bann",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.host"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.main_top_bann"
+                    }
+                }
+            },
+            {
+                "id": "59fab4d2-39a6-458e-bdbe-c3f9eccca300",
+                "name": "tkor.tax##div.main_top_bann",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.tax"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.main_top_bann"
+                    }
+                }
+            },
+            {
+                "id": "bbb89eff-0656-40ff-9c20-6bb04589aa10",
+                "name": "tkor.host##div.mobile_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.host"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobile_banner"
+                    }
+                }
+            },
+            {
+                "id": "6920e3ba-6225-4ed6-8b4c-6b7e86980ad8",
+                "name": "tkor.tax##div.mobile_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.tax"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobile_banner"
+                    }
+                }
+            },
+            {
+                "id": "1cd6e671-9877-484e-9f6d-cb33ebfab01a",
+                "name": "tkor.host##section.top_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.host"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.top_banner"
+                    }
+                }
+            },
+            {
+                "id": "a43275f7-596c-4103-a85a-fe94ef3d8931",
+                "name": "tkor.tax##section.top_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.tax"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.top_banner"
                     }
                 }
             },
