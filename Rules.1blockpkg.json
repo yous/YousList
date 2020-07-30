@@ -4,6 +4,22 @@
         "name": "YousList",
         "rules": [
             {
+                "id": "0952051a-f5e6-40ea-8c46-8ee3c8fc4bbc",
+                "name": "##a[href*=\"//2020kkaggme.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*2020kkaggme.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//2020kkaggme.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "a5364f5e-3739-4aaf-a3c2-c0809728d37a",
                 "name": "##a[href*=\"//2020tteecaca.com\"]",
                 "content": {
@@ -20,6 +36,86 @@
                 }
             },
             {
+                "id": "64d5c05a-2633-4441-a314-9fdb3e02ca60",
+                "name": "##a[href*=\"//777bbet.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*777bbet.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//777bbet.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "e7dd767b-83fa-4ecc-83be-eb4296fd8e66",
+                "name": "##a[href*=\"//bbnara.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*bbnara.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//bbnara.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "0bda2e6e-ffac-491d-8382-5565312fa7b3",
+                "name": "##a[href*=\"//bingre-n.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*bingre-n.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//bingre-n.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "fd378583-a15a-4a88-910a-3031f835bfd5",
+                "name": "##a[href*=\"//bit.ly/2E8QDfh\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*noca52.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//bit.ly/2E8QDfh\"]"
+                    }
+                }
+            },
+            {
+                "id": "3ff03c5d-e3c8-4b67-9d77-3c9869ba695d",
+                "name": "##a[href*=\"//bun-go5.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*bun-go5.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//bun-go5.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "931f9782-98db-407d-a0f6-3eb70801f53c",
                 "name": "##a[href*=\"//butterkorea.com\"]",
                 "content": {
@@ -32,6 +128,70 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//butterkorea.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "eb8acbcd-af21-4e9f-8e0d-2ef348417ffb",
+                "name": "##a[href*=\"//mss-star.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*mss-star.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//mss-star.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "e674103b-b69d-41b0-b19d-0e5590b1abd2",
+                "name": "##a[href*=\"//mt-police04.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*mt-police04.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//mt-police04.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "2883a693-ea94-4a9d-9f5c-735f1b3cbee3",
+                "name": "##a[href*=\"//nb-sg.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*nb-sg.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//nb-sg.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "1f689ae0-388f-4eb6-bc4d-c1520e24aeff",
+                "name": "##a[href*=\"//noca52.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*noca52.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//noca52.com\"]"
                     }
                 }
             },
@@ -68,6 +228,38 @@
                 }
             },
             {
+                "id": "0cde6c1a-41e7-4c2a-8098-ab1859295f20",
+                "name": "##a[href*=\"//slot0508.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*slot0508.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//slot0508.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "d46c2a6d-8945-46f9-b49a-cdf01c2454df",
+                "name": "##a[href*=\"//spin589.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*spin589.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//spin589.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "ec74673f-2772-457e-a889-6be47fa4a472",
                 "name": "##a[href*=\"//spin800.com\"]",
                 "content": {
@@ -100,6 +292,22 @@
                 }
             },
             {
+                "id": "2714d57c-b706-4ab6-8925-144ae0422e08",
+                "name": "##a[href*=\"//sweetsimba.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*sweetsimba.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//sweetsimba.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "272e42c2-a5d1-40f5-91cd-3eaae40f11fe",
                 "name": "##a[href*=\"//wb-tt.com\"]",
                 "content": {
@@ -112,6 +320,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//wb-tt.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "79185cd8-6ffd-4539-a9e3-20e1e05a53ba",
+                "name": "##a[href*=\"//wj-xk.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*wj-xk.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//wj-xk.com\"]"
                     }
                 }
             },
@@ -132,6 +356,22 @@
                 }
             },
             {
+                "id": "10c37d6e-58fe-4869-87c3-1ab1f4d01241",
+                "name": "##a[href*=\"//www.2020kkaggme.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*2020kkaggme.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//www.2020kkaggme.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "1d38b95f-7ea1-4d64-b453-920aa9bb2ef8",
                 "name": "##a[href*=\"//www.2020tteecaca.com\"]",
                 "content": {
@@ -144,6 +384,54 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//www.2020tteecaca.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "64b5e0e2-21b8-464a-918a-85b9c01dead4",
+                "name": "##a[href*=\"//www.mt-police04.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*mt-police04.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//www.mt-police04.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "386fa018-78ce-4fde-9b1e-5d17b8bde07f",
+                "name": "##a[href*=\"//xfs-bm.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*xfs-bm.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//xfs-bm.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "d52448f1-bdb6-4bdc-b294-a9d45fd1e2b9",
+                "name": "##a[href*=\"//탑3.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*탑3.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//탑3.com\"]"
                     }
                 }
             },
@@ -2042,6 +2330,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src*=\"//adserver.exoticads.com/cz\"]"
+                    }
+                }
+            },
+            {
+                "id": "b074edc9-5184-4bd8-a50a-174c157f9b68",
+                "name": "##iframe[src*=\"//adserver.juicyads.com/adshow.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//adserver.juicyads.com/adshow.php\"]"
                     }
                 }
             },
@@ -8492,6 +8793,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?adserver\\.genesismediaus\\.com/ac",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "abdac13e-4bba-4a55-baaa-b4eadec16bf6",
+                "name": "adserver.juicyads.com/adshow.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adserver\\.juicyads\\.com/adshow\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -22783,6 +23097,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?pop\\.site3\\.co\\.kr/poco\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "be0e9ffb-c789-444b-a444-56bad03b3a9f",
+                "name": "poweredby.jads.co/js/jads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?poweredby\\.jads\\.co/js/jads\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -92320,6 +92647,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ads"
+                    }
+                }
+            },
+            {
+                "id": "acd27b7d-b301-4569-af42-8a5af71a357c",
+                "name": "wfwf102.com##div.top-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wfwf102\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top-banner"
+                    }
+                }
+            },
+            {
+                "id": "2277c4b1-8ec0-4ba6-9708-07b290af64ed",
+                "name": "wfwf102.com##ul.top-banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wfwf102\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.top-banner"
                     }
                 }
             },
