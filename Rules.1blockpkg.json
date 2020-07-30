@@ -356,6 +356,22 @@
                 }
             },
             {
+                "id": "837fc7e8-0eb6-4dd1-8e04-f8d79c6572fe",
+                "name": "##a[href*=\"//noca.tri-99.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*tri-99.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//noca.tri-99.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "1f689ae0-388f-4eb6-bc4d-c1520e24aeff",
                 "name": "##a[href*=\"//noca52.com\"]",
                 "content": {
@@ -432,6 +448,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//seda1.bet\"]"
+                    }
+                }
+            },
+            {
+                "id": "297d1039-9841-4667-802b-2491378dd352",
+                "name": "##a[href*=\"//sia999.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*sia999.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//sia999.com\"]"
                     }
                 }
             },
@@ -576,6 +608,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//sweetsimba.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "7daf3558-3a81-44e3-a4f2-c6ba93b947d7",
+                "name": "##a[href*=\"//sy-bol.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*sy-bol.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//sy-bol.com\"]"
                     }
                 }
             },
@@ -832,6 +880,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//yug-ko.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "d2abaf8c-d2de-4ec1-8ae8-cc4f8dedc2f1",
+                "name": "##a[href*=\"//그녀와밤.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*그녀와밤.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//그녀와밤.com\"]"
                     }
                 }
             },
@@ -93712,6 +93776,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.adv-area"
+                    }
+                }
+            },
+            {
+                "id": "93e2edbc-28dc-4314-81e8-61e86395b5a9",
+                "name": "wtwt28.com##div.banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wtwt28\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
                     }
                 }
             },
