@@ -71563,6 +71563,58 @@
                 }
             },
             {
+                "id": "091516dc-e863-47a6-a703-f2514afd2974",
+                "name": "minor.town##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?minor\\.town"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "17694e59-0849-478c-a766-0fcdb09151e5",
+                "name": "namu.live##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.live"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "c6bddda1-eb5e-425c-b292-fd3be32e23e0",
+                "name": "minor.town##iframe[src^=\"/api/ads\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?minor\\.town"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/api/ads\"]"
+                    }
+                }
+            },
+            {
+                "id": "3afd6f82-ca5b-4944-988a-5db5f947000c",
+                "name": "namu.live##iframe[src^=\"/api/ads\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.live"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/api/ads\"]"
+                    }
+                }
+            },
+            {
                 "id": "629e40b9-3fe2-4899-aeb1-215442b7c6bd",
                 "name": "mk.co.kr##div.ad_footer",
                 "content": {
@@ -73626,32 +73678,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#M306352Composite624079"
-                    }
-                }
-            },
-            {
-                "id": "17694e59-0849-478c-a766-0fcdb09151e5",
-                "name": "namu.live##div.ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.live"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad"
-                    }
-                }
-            },
-            {
-                "id": "3afd6f82-ca5b-4944-988a-5db5f947000c",
-                "name": "namu.live##iframe[src^=\"/api/ads\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.live"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"/api/ads\"]"
                     }
                 }
             },
