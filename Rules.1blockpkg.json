@@ -132,6 +132,22 @@
                 }
             },
             {
+                "id": "6c90cae5-df1d-41cc-a0c2-fcb68792d851",
+                "name": "##a[href*=\"//ccow888.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*ccow888.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//ccow888.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "eb8acbcd-af21-4e9f-8e0d-2ef348417ffb",
                 "name": "##a[href*=\"//mss-star.com\"]",
                 "content": {
@@ -208,6 +224,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//onca888.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "96959aa7-af30-4a33-a2b8-dce6ac498b85",
+                "name": "##a[href*=\"//seda1.bet\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*seda1.bet"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//seda1.bet\"]"
                     }
                 }
             },
@@ -388,6 +420,22 @@
                 }
             },
             {
+                "id": "edbf46cb-cee4-406c-99dc-088d26e21fd2",
+                "name": "##a[href*=\"//www.777bbet.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*777bbet.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//www.777bbet.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "64b5e0e2-21b8-464a-918a-85b9c01dead4",
                 "name": "##a[href*=\"//www.mt-police04.com\"]",
                 "content": {
@@ -416,6 +464,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//xfs-bm.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "761187ae-bf92-445a-b44f-26cf9acdb899",
+                "name": "##a[href*=\"//yug-ko.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*yug-ko.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//yug-ko.com\"]"
                     }
                 }
             },
@@ -15379,6 +15443,22 @@
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?fs\\.jtbc\\.joins\\.com/common/ui/ad/",
                         "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c7c71526-4a91-46a8-b8be-63efd0ed3c7a",
+                "name": "funbe.space/bann/$domain=funbe.space",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?funbe\\.space/bann/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*funbe.space"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -48161,6 +48241,45 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.banner_box"
+                    }
+                }
+            },
+            {
+                "id": "f40ed038-6b4d-4a91-a23b-2a440e2e8de4",
+                "name": "funbe.space##div.main_top_bann",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?funbe\\.space"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.main_top_bann"
+                    }
+                }
+            },
+            {
+                "id": "cb4b72d0-1eff-45fc-b056-d7053d1babaf",
+                "name": "funbe.space##div.main_top_bann2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?funbe\\.space"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.main_top_bann2"
+                    }
+                }
+            },
+            {
+                "id": "bf5997a3-bfad-4879-9963-c00f7fcb2fba",
+                "name": "funbe.space##section.top_banner",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?funbe\\.space"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.top_banner"
                     }
                 }
             },
