@@ -24447,6 +24447,22 @@
                 }
             },
             {
+                "id": "e5da37b5-a4cd-44a8-867c-8495056b1eb3",
+                "name": "smpeople.net/mappy/ad/$domain=smpeople.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?smpeople\\.net/mappy/ad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*smpeople.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "fdcf94b0-58b9-4473-9d01-186a1fda9211",
                 "name": "smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~allvod.sbs.co.kr|~news.sbs.co.kr|~news.tvchosun.com|~onair.imbc.com|~play-tv.kakao.com|~programs.sbs.co.kr",
                 "content": {
@@ -81882,6 +81898,19 @@
                 }
             },
             {
+                "id": "76c72b51-b0c6-452a-a693-321a7f5b5f4c",
+                "name": "smpeople.net##div#boxer",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?smpeople\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#boxer"
+                    }
+                }
+            },
+            {
                 "id": "2fda1d88-1eb6-4575-815d-f5401a2cb887",
                 "name": "smpeople.net##div.ada",
                 "content": {
@@ -81891,6 +81920,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ada"
+                    }
+                }
+            },
+            {
+                "id": "49a06e51-2d66-4586-8fcd-2dec4e7bb501",
+                "name": "smpeople.net##div.fancybox-wrap",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?smpeople\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.fancybox-wrap"
                     }
                 }
             },
