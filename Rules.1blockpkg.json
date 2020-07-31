@@ -10358,6 +10358,38 @@
                 }
             },
             {
+                "id": "745e8b8e-ec02-4b12-acbd-f097c98f30b1",
+                "name": "arca.live/api/ads$domain=arca.live",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?arca\\.live/api/ads",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*arca.live"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d46c6369-87ca-4418-a4fc-765c6af423fa",
+                "name": "arca.live/static/ad/$domain=namu.wiki",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?arca\\.live/static/ad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*namu.wiki"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "02e93bea-eaf1-4171-aaa6-f1ef8ee9b5a8",
                 "name": "art.chosun.com/common/r_banner/index.html$domain=art.chosun.com",
                 "content": {
@@ -21305,6 +21337,38 @@
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?minitoon\\.net/js/adblockblock\\.js",
                         "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a4e781a8-8f44-4b04-8243-90448e28969d",
+                "name": "minor.town/api/ads$domain=minor.town",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?minor\\.town/api/ads",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*minor.town"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f34e94ae-e336-4247-9335-09f022235307",
+                "name": "minor.town/static/ad/$domain=namu.wiki",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?minor\\.town/static/ad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*namu.wiki"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -32936,6 +33000,84 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "span[id^=\"ezoic-pub-ad-placeholder-\"]"
+                    }
+                }
+            },
+            {
+                "id": "5ffce28a-1ede-4891-a504-45282407cecf",
+                "name": "arca.live##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?arca\\.live"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "091516dc-e863-47a6-a703-f2514afd2974",
+                "name": "minor.town##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?minor\\.town"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "17694e59-0849-478c-a766-0fcdb09151e5",
+                "name": "namu.live##div.ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.live"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
+                "id": "95af7937-93d9-435c-8df6-f46c1496833c",
+                "name": "arca.live##iframe[src^=\"/api/ads\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?arca\\.live"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/api/ads\"]"
+                    }
+                }
+            },
+            {
+                "id": "c6bddda1-eb5e-425c-b292-fd3be32e23e0",
+                "name": "minor.town##iframe[src^=\"/api/ads\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?minor\\.town"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/api/ads\"]"
+                    }
+                }
+            },
+            {
+                "id": "3afd6f82-ca5b-4944-988a-5db5f947000c",
+                "name": "namu.live##iframe[src^=\"/api/ads\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.live"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/api/ads\"]"
                     }
                 }
             },
@@ -71563,58 +71705,6 @@
                 }
             },
             {
-                "id": "091516dc-e863-47a6-a703-f2514afd2974",
-                "name": "minor.town##div.ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?minor\\.town"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad"
-                    }
-                }
-            },
-            {
-                "id": "17694e59-0849-478c-a766-0fcdb09151e5",
-                "name": "namu.live##div.ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.live"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad"
-                    }
-                }
-            },
-            {
-                "id": "c6bddda1-eb5e-425c-b292-fd3be32e23e0",
-                "name": "minor.town##iframe[src^=\"/api/ads\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?minor\\.town"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"/api/ads\"]"
-                    }
-                }
-            },
-            {
-                "id": "3afd6f82-ca5b-4944-988a-5db5f947000c",
-                "name": "namu.live##iframe[src^=\"/api/ads\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.live"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src^=\"/api/ads\"]"
-                    }
-                }
-            },
-            {
                 "id": "629e40b9-3fe2-4899-aeb1-215442b7c6bd",
                 "name": "mk.co.kr##div.ad_footer",
                 "content": {
@@ -73691,6 +73781,32 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.test-ad-card"
+                    }
+                }
+            },
+            {
+                "id": "c4b27e80-27fa-49f7-84a0-17867debc091",
+                "name": "namu.wiki##iframe[src^=\"//arca.live/static/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.wiki"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//arca.live/static/ad/\"]"
+                    }
+                }
+            },
+            {
+                "id": "70e29709-2b69-488f-898f-4f2fbd534b03",
+                "name": "namu.wiki##iframe[src^=\"//minor.town/static/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.wiki"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//minor.town/static/ad/\"]"
                     }
                 }
             },
