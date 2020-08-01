@@ -1127,6 +1127,19 @@
                 }
             },
             {
+                "id": "9e0ecbdc-b59f-4907-bcb7-e7b34dd0bda1",
+                "name": "##div#wp_adbn_root",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wp_adbn_root"
+                    }
+                }
+            },
+            {
                 "id": "e0b5c97a-9d9c-4939-8fe2-c7e1af33b982",
                 "name": "##div.__uz__widget div.__uz__article.ad_response",
                 "content": {
@@ -29028,6 +29041,22 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?zdnet\\.co\\.kr/ads/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*zdnet.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fa6d6015-609d-4d2d-be35-b72b05e47542",
+                "name": "zdnet.co.kr/template_ad/$domain=zdnet.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?zdnet\\.co\\.kr/template_ad/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*zdnet.co.kr"
@@ -64932,19 +64961,6 @@
                 }
             },
             {
-                "id": "60c27540-b058-4b6a-97ca-52f8ed53c7f1",
-                "name": "m.mimint.co.kr##div#wp_adbn_root",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.mimint\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#wp_adbn_root"
-                    }
-                }
-            },
-            {
                 "id": "84096f02-2353-4dee-95e8-d30683a75f80",
                 "name": "m.mimint.co.kr##div.ad",
                 "content": {
@@ -96873,6 +96889,19 @@
                 }
             },
             {
+                "id": "59c9a7f3-e130-45d2-8f2b-e046cf7ee1b7",
+                "name": "zdnet.co.kr##div.ad_tag",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?zdnet\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_tag"
+                    }
+                }
+            },
+            {
                 "id": "19e74142-834c-4de7-9d9c-09df41e54d94",
                 "name": "zdnet.co.kr##div.ad_txt",
                 "content": {
@@ -96986,6 +97015,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/ads/\"]"
+                    }
+                }
+            },
+            {
+                "id": "acd8d81c-bfb1-4b71-83f8-9fd63a007dee",
+                "name": "zdnet.co.kr##iframe[src^=\"/template_ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?zdnet\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/template_ad/\"]"
                     }
                 }
             },

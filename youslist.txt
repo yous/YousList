@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20200731
+! Version: 20200801
 
 ! General element hiding rules
 ##a[href*="//2020kkaggme.com"]
@@ -79,6 +79,7 @@
 ##div#uniqubeAd_area_text
 ##div#uniqubeFirstDiv
 ##div#wiseAd
+##div#wp_adbn_root
 ##div.__uz__widget div.__uz__article.ad_response
 ##div._popIn_recommend_container a._popIn_recommend_article_ad
 ##div._popIn_recommend_container a._popIn_recommend_article_ad_reserved
@@ -2162,6 +2163,7 @@ yug-ko.com#@#a[href*="//yug-ko.com"]
 ||zbn.donga.com/2015/banner/ad_read_*.asp^$domain=zbn.donga.com
 ||zbnfhsk.com/*.js^
 ||zdnet.co.kr/ads/$domain=zdnet.co.kr
+||zdnet.co.kr/template_ad/$domain=zdnet.co.kr
 ||zergnet.com/zerg.js^
 ||zone5.adpopcon.com/cgi-bin/PelicanC.dll^
 
@@ -4326,7 +4328,6 @@ m.mimint.co.kr##div#MimintTopBanner
 m.mimint.co.kr##div#MimintViewBoardListBanner
 m.mimint.co.kr##div#MimintViewBottomBanner
 m.mimint.co.kr##div#mobile_bottom
-m.mimint.co.kr##div#wp_adbn_root
 m.mimint.co.kr##div.ad
 m.mimint.co.kr##div.board_desc>table[style="border: 1px solid #ebebeb ;"]
 m.mk.co.kr##div.ad_2016
@@ -6548,6 +6549,7 @@ zbn.donga.com##div.realssp_dv
 zbn.donga.com##iframe[src^="/2015/banner/ad_real_"]
 zdnet.co.kr##div#main_right_Floating_banner
 zdnet.co.kr##div.ad
+zdnet.co.kr##div.ad_tag
 zdnet.co.kr##div.ad_txt
 zdnet.co.kr##div.bn_box
 zdnet.co.kr##div.con_bn_box
@@ -6557,6 +6559,7 @@ zdnet.co.kr##div.news_12
 zdnet.co.kr##div.power_center
 zdnet.co.kr##div[class^="right_bn"]
 zdnet.co.kr##iframe[src^="/ads/"]
+zdnet.co.kr##iframe[src^="/template_ad/"]
 zdnet.co.kr##ul.ad_list
 zdnet.com##div.sticky-wrapper
 zdnet.com##section.leader-bottom
