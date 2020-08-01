@@ -81708,6 +81708,19 @@
                 }
             },
             {
+                "id": "d7b42d17-101a-4abc-927e-4880722052bb",
+                "name": "sbs.co.kr##div.main_da_housebanner_w",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sbs\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.main_da_housebanner_w"
+                    }
+                }
+            },
+            {
                 "id": "c03d491e-22c1-47f9-9b70-9114f45ee8a2",
                 "name": "sciencemag.org##div[id^=\"aaas-oas_\"]",
                 "content": {
