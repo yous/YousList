@@ -8,7 +8,7 @@ python "${DIR}/bin/check_sorted.py" "${DIR}/youslist.txt"
 echo "python bin/generate_rules.py youslist.txt >/dev/null"
 python "${DIR}/bin/generate_rules.py" "${DIR}/youslist.txt" >/dev/null
 
-echo "cmp Rules.1blockpkg.json <(bin/generate_rules.py youslist.txt)"
+echo "cmp Rules.1blockpkg.json <(python bin/generate_rules.py youslist.txt)"
 cmp "${DIR}/Rules.1blockpkg.json" <(python "${DIR}/bin/generate_rules.py" "${DIR}/youslist.txt")
 
 echo "python bin/check_sorted_hosts.py hosts.txt"
