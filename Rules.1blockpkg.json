@@ -23849,14 +23849,15 @@
                 }
             },
             {
-                "id": "2f6594cb-b040-4a42-ae94-4bc47f9e5971",
-                "name": "programs.sbs.co.kr/show/advertise_ch/$domain=m.programs.sbs.co.kr",
+                "id": "0b0346d7-9bf7-437f-9370-71e49f48af9c",
+                "name": "programs.sbs.co.kr/show/advertise_ch/$domain=m.programs.sbs.co.kr|programs.sbs.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?programs\\.sbs\\.co\\.kr/show/advertise_ch/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
-                            "*m.programs.sbs.co.kr"
+                            "*m.programs.sbs.co.kr",
+                            "*programs.sbs.co.kr"
                         ]
                     },
                     "action": {
@@ -80898,6 +80899,71 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"http://www.danawa.com/NBP/powerLink.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "c7a76889-3878-4d0b-ba6c-cd8cb74515ac",
+                "name": "programs.sbs.co.kr##div.bannerarea_w",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?programs\\.sbs\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bannerarea_w"
+                    }
+                }
+            },
+            {
+                "id": "2b7364f8-8531-4d25-9738-b19d26c5a3cd",
+                "name": "programs.sbs.co.kr##div.banners_area",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?programs\\.sbs\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banners_area"
+                    }
+                }
+            },
+            {
+                "id": "2c8c3418-b581-4946-8fd3-51e885c6c896",
+                "name": "programs.sbs.co.kr##div.main_housebanner_w",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?programs\\.sbs\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.main_housebanner_w"
+                    }
+                }
+            },
+            {
+                "id": "7590665b-3996-4a48-a357-4e6c91e96358",
+                "name": "programs.sbs.co.kr##div.shopping_banner_w",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?programs\\.sbs\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.shopping_banner_w"
+                    }
+                }
+            },
+            {
+                "id": "320d7c7f-5361-4839-a000-e2c9a55dcbe3",
+                "name": "programs.sbs.co.kr##iframe[src^=\"//programs.sbs.co.kr/show/advertise_ch/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?programs\\.sbs\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"//programs.sbs.co.kr/show/advertise_ch/\"]"
                     }
                 }
             },

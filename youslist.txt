@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20200801
+! Version: 20200802
 
 ! General element hiding rules
 ##a[href*="//2020kkaggme.com"]
@@ -1790,7 +1790,7 @@ yug-ko.com#@#a[href*="//yug-ko.com"]
 ||pressian.com/data/banner/$domain=pressian.com
 ||prism.pandora.tv^
 ||prm.*.*/js/ec_connectorDelivery.js^
-||programs.sbs.co.kr/show/advertise_ch/$domain=m.programs.sbs.co.kr
+||programs.sbs.co.kr/show/advertise_ch/$domain=m.programs.sbs.co.kr|programs.sbs.co.kr
 ||prwidgets.com^
 ||ps.ns-cdn.com/dsatserving2/scripts/ns_vmtag.js^
 ||pub.adpnut.com^
@@ -5540,6 +5540,11 @@ prod.danawa.com##div.ad_wide_slide
 prod.danawa.com##div.popup_ad_floating
 prod.danawa.com##div.power_link
 prod.danawa.com##iframe[src^="http://www.danawa.com/NBP/powerLink.php"]
+programs.sbs.co.kr##div.bannerarea_w
+programs.sbs.co.kr##div.banners_area
+programs.sbs.co.kr##div.main_housebanner_w
+programs.sbs.co.kr##div.shopping_banner_w
+programs.sbs.co.kr##iframe[src^="//programs.sbs.co.kr/show/advertise_ch/"]
 prothom-alo.com##div.anchor_ad_wrapper
 prothom-alo.com##div.common_google_ads
 qq.com##div.adLeft
