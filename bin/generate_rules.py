@@ -112,7 +112,10 @@ class FilterParser:
         url = urls
 
         rule = OrderedDict()
-        name = line
+        if url:
+            name = url + '##'
+        else:
+            name = line
         rule['id'] = self._get_rule_id(name)
         rule['name'] = name
 
@@ -123,6 +126,17 @@ class FilterParser:
         if url:
             trigger['url-filter'] = \
                 self.DOMAIN_PREFIX + url.replace('.', '\\.')
+
+            for prev_rule in reversed(self.rules):
+                prev_content = prev_rule['content']
+                prev_trigger = prev_content['trigger']
+                prev_action = prev_content['action']
+                prev_url_filter = prev_trigger['url-filter']
+
+                if (prev_action['type'] == 'css-display-none' and
+                        prev_url_filter == trigger['url-filter']):
+                    prev_action['selector'] += ',' + css
+                    return
         else:
             trigger['url-filter'] = '.*'
 
