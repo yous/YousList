@@ -39381,6 +39381,19 @@
                 }
             },
             {
+                "id": "fb5d0460-3d94-4936-9409-e7d951165679",
+                "name": "oprahmag.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?oprahmag\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.breaker-ad,div.leaderboard-ad,div.vertical-ad"
+                    }
+                }
+            },
+            {
                 "id": "7310c046-a0f9-442f-a2f4-a0c58e6c3427",
                 "name": "osen.mt.co.kr##",
                 "content": {
