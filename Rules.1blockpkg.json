@@ -23526,6 +23526,22 @@
                 }
             },
             {
+                "id": "876680d8-1a7b-489d-85ed-8b5fff226641",
+                "name": "picuki.com/300x250.html$domain=picuki.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?picuki\\.com/300x250\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*picuki.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "5cbafb05-7f36-4da3-8ad3-c6b5588bd146",
                 "name": "pimg2.daara.co.kr/mc/ad_img/",
                 "content": {
@@ -39676,6 +39692,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad,div.aud_sub,div.contentDetail>div[style=\"text-align: center;\"],div.contents_wrapper>div[style=\"padding: 10px 0;\"],div.cover_ad,div.left_floating,div.lineAD,div.luAD,div.mrank_banner,div.pc_banner,div.rightContent>div[style=\"text-align: center; margin: 13px 0;\"],div.right_floating,div.sboxAD"
+                    }
+                }
+            },
+            {
+                "id": "2af983a3-21db-4d1c-a180-dcafc42a6bcc",
+                "name": "picuki.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?picuki\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adv,iframe[src*=\"//www.picuki.com/300x250.html\"]"
                     }
                 }
             },
