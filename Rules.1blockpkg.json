@@ -38536,6 +38536,19 @@
                 }
             },
             {
+                "id": "04ec5eac-4682-45cb-b14b-a427ab1085be",
+                "name": "n.news.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?n\\.news\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_box"
+                    }
+                }
+            },
+            {
                 "id": "82a7bf97-c2bd-40fd-86a4-69992d7e19ed",
                 "name": "naitimp3.ru##",
                 "content": {
