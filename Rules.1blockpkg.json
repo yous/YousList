@@ -6688,6 +6688,32 @@
                 }
             },
             {
+                "id": "fed95ddd-4c19-4eda-a572-c1c1068e252c",
+                "name": "ad.adpon.jp/fr.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.adpon\\.jp/fr\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "994bd642-d3c4-40b8-bdcd-d7e89bbe6922",
+                "name": "ad.adpon.jp/tg.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.adpon\\.jp/tg\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6120cec0-bb1c-4de6-817a-1ef98195a142",
                 "name": "ad.aeonad.co.kr",
                 "content": {
@@ -13805,6 +13831,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?d1swklt9res5jr\\.cloudfront\\.net/static/packed/tvple\\.ad\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "79da2530-6d65-4026-b31e-5a1258d4cfaf",
+                "name": "d1yt8zt4633tzi.cloudfront.net/banner/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?d1yt8zt4633tzi\\.cloudfront\\.net/banner/",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -39741,6 +39780,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#dawin_area,div.bnr_comment_t,div.bnr_sky,div.reply_left_area>div[style=\"padding:0px 30px 15px 30px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "27fca0dc-b1c6-4387-8788-4da507c8de1f",
+                "name": "poipiku.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?poipiku\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.FooterAd,div.PcSideBarAd,div.SideBarMid"
                     }
                 }
             },
