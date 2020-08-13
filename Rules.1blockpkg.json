@@ -580,6 +580,22 @@
                 }
             },
             {
+                "id": "02fd08f9-726d-4d0e-8f51-5be275ef7ea5",
+                "name": "##a[href*=\"//st-meal2020.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*st-meal2020.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//st-meal2020.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "caff66ec-9252-4414-843c-c07a29a753d2",
                 "name": "##a[href*=\"//sureman77.com\"]",
                 "content": {
@@ -704,6 +720,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//wj-xk.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "5a5c527c-6ef3-47a6-b50e-2a70cb72d9ea",
+                "name": "##a[href*=\"//wnx-co.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*wnx-co.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//wnx-co.com\"]"
                     }
                 }
             },
@@ -848,6 +880,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//www.soccernxt.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "78d05da8-8924-4225-85ae-43c44f78c6b7",
+                "name": "##a[href*=\"//www.st-meal2020.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*st-meal2020.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//www.st-meal2020.com\"]"
                     }
                 }
             },
@@ -27037,15 +27085,16 @@
                 }
             },
             {
-                "id": "c0feae42-afde-4558-b0f9-1f30ea5ba493",
-                "name": "tkor.host/bann/$domain=tkor.host|tkor.tax",
+                "id": "afabe681-5f92-4b6a-92f0-fd9cce9bcc76",
+                "name": "tkor.host/bann/$domain=tkor.host|tkor.tax|tkor.wiki",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.host/bann/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*tkor.host",
-                            "*tkor.tax"
+                            "*tkor.tax",
+                            "*tkor.wiki"
                         ]
                     },
                     "action": {
@@ -27054,15 +27103,34 @@
                 }
             },
             {
-                "id": "d0f9100e-a5df-4c31-ad1f-4fa7c4133d4f",
-                "name": "tkor.tax/bann/$domain=tkor.host|tkor.tax",
+                "id": "1fa1d4b7-4d56-4777-8289-1a91e324e4d7",
+                "name": "tkor.tax/bann/$domain=tkor.host|tkor.tax|tkor.wiki",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.tax/bann/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*tkor.host",
-                            "*tkor.tax"
+                            "*tkor.tax",
+                            "*tkor.wiki"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "958bce66-0443-4cce-b289-1ebae87c61f9",
+                "name": "tkor.wiki/bann/$domain=tkor.host|tkor.tax|tkor.wiki",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.wiki/bann/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*tkor.host",
+                            "*tkor.tax",
+                            "*tkor.wiki"
                         ]
                     },
                     "action": {
@@ -41563,6 +41631,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.tax"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.main_top_bann,div.mobile_banner,section.top_banner"
+                    }
+                }
+            },
+            {
+                "id": "3e887d28-ff5f-4e19-857e-d32c9f4a83f8",
+                "name": "tkor.wiki##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.wiki"
                     },
                     "action": {
                         "type": "css-display-none",
