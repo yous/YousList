@@ -692,6 +692,22 @@
                 }
             },
             {
+                "id": "21760bf3-3632-4d50-bb73-d61d2a2fd605",
+                "name": "##a[href*=\"//va-meal2255.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*va-meal2255.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//va-meal2255.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "272e42c2-a5d1-40f5-91cd-3eaae40f11fe",
                 "name": "##a[href*=\"//wb-tt.com\"]",
                 "content": {
@@ -896,6 +912,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//www.st-meal2020.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "1f1a08df-1723-4f35-a6df-c047f003383a",
+                "name": "##a[href*=\"//www.va-meal2255.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*va-meal2255.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//www.va-meal2255.com\"]"
                     }
                 }
             },
@@ -43061,6 +43093,45 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?wfwf102\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top-banner,ul.top-banner"
+                    }
+                }
+            },
+            {
+                "id": "b0f58b85-f82a-42b7-8284-b69ea4629957",
+                "name": "wfwf103.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wfwf103\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top-banner,ul.top-banner"
+                    }
+                }
+            },
+            {
+                "id": "b29c42dc-b625-4656-86f5-20e53e86cba8",
+                "name": "wfwf104.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wfwf104\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top-banner,ul.top-banner"
+                    }
+                }
+            },
+            {
+                "id": "bd745763-fd5c-419a-9e5e-7bdb1cafc504",
+                "name": "wfwf105.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wfwf105\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
