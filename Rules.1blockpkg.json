@@ -41100,6 +41100,19 @@
                 }
             },
             {
+                "id": "2602c3a3-c7ed-4e91-a5a3-ac4a20fabeb0",
+                "name": "teamblind.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?teamblind\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.ads"
+                    }
+                }
+            },
+            {
                 "id": "5a053c11-71d7-44c0-8fdf-3392a92b29ef",
                 "name": "techcrunch.com##",
                 "content": {
