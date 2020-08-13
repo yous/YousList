@@ -16094,13 +16094,31 @@
                 }
             },
             {
-                "id": "c7c71526-4a91-46a8-b8be-63efd0ed3c7a",
-                "name": "funbe.space/bann/$domain=funbe.space",
+                "id": "b183df9e-b251-49bd-9ec1-2fd87a74902e",
+                "name": "funbe.fit/bann/$domain=funbe.fit|funbe.space",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?funbe\\.fit/bann/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*funbe.fit",
+                            "*funbe.space"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "61e88513-8188-490e-b134-a21552a594f0",
+                "name": "funbe.space/bann/$domain=funbe.fit|funbe.space",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?funbe\\.space/bann/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
+                            "*funbe.fit",
                             "*funbe.space"
                         ]
                     },
@@ -33321,6 +33339,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.banner_box"
+                    }
+                }
+            },
+            {
+                "id": "dd58e7a0-7a9f-4414-835d-087f0de7010c",
+                "name": "funbe.fit##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?funbe\\.fit"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.main_top_bann,div.main_top_bann2,section.top_banner"
                     }
                 }
             },
