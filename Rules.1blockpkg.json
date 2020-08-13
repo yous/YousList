@@ -10655,6 +10655,22 @@
                 }
             },
             {
+                "id": "899b3449-f729-430a-8054-663a0bfec5b6",
+                "name": "autoview.co.kr/auto_ad/ad_top.asp$domain=autoview.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?autoview\\.co\\.kr/auto_ad/ad_top\\.asp",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*autoview.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ae2d9834-384b-4f52-8d12-fd578c7532f2",
                 "name": "ax-d.pixfuture.net/w/1.0/afr",
                 "content": {
@@ -30215,6 +30231,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad,div.ad160x600,div.ad300x250,div.ad300x600,div.ad970x90"
+                    }
+                }
+            },
+            {
+                "id": "92f23f3e-0509-4fae-b0e0-590a4f78c24c",
+                "name": "autoview.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?autoview\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe#ad_top,iframe[src^=\"/auto_ad/ad_top.asp\"],p.banner,p.right_banner,p.spon_info"
                     }
                 }
             },
