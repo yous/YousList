@@ -4,6 +4,22 @@
         "name": "YousList",
         "rules": [
             {
+                "id": "ed050696-9add-4f14-b191-be3026f7e49b",
+                "name": "##a[href*=\"//10x10bet888.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*10x10bet888.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//10x10bet888.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "0952051a-f5e6-40ea-8c46-8ee3c8fc4bbc",
                 "name": "##a[href*=\"//2020kkaggme.com\"]",
                 "content": {
@@ -340,6 +356,22 @@
                 }
             },
             {
+                "id": "9dc6ec55-a364-42b6-baff-371186b2fc01",
+                "name": "##a[href*=\"//nb-iu.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*nb-iu.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//nb-iu.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "2883a693-ea94-4a9d-9f5c-735f1b3cbee3",
                 "name": "##a[href*=\"//nb-sg.com\"]",
                 "content": {
@@ -416,6 +448,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//onca888.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "9b5f07cf-d384-4e08-947b-02ffea625940",
+                "name": "##a[href*=\"//ptd-va.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*ptd-va.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//ptd-va.com\"]"
                     }
                 }
             },
@@ -768,6 +816,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//wnx-ir.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "83956b48-e626-4c03-babd-aebb06a7bbc0",
+                "name": "##a[href*=\"//www.10x10bet888.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*10x10bet888.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//www.10x10bet888.com\"]"
                     }
                 }
             },
@@ -3231,6 +3295,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src*=\"//ax-d.pixfuture.net/w/1.0/afr\"]"
+                    }
+                }
+            },
+            {
+                "id": "8910ff30-d9fb-458c-9b4c-9ee01e8af0bd",
+                "name": "##iframe[src*=\"//b.bestcontentitem.top/loader\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//b.bestcontentitem.top/loader\"]"
                     }
                 }
             },
@@ -10769,6 +10846,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?b\\.a2gw\\.com/b/.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "82db6c5d-2fe6-432d-8476-ac30c00d57d2",
+                "name": "b.bestcontentitem.top/loader",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?b\\.bestcontentitem\\.top/loader",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d75ee0cc-fc88-4180-96f7-ebf10d4d1333",
+                "name": "b.bestcontentitem.top/warp/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?b\\.bestcontentitem\\.top/warp/",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
