@@ -20560,6 +20560,22 @@
                 }
             },
             {
+                "id": "4b2609eb-fbd2-40a0-bb92-bc53657eeb84",
+                "name": "m.ppomppu.co.kr/banner/google_ad.html$domain=m.ppomppu.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ppomppu\\.co\\.kr/banner/google_ad\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.ppomppu.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "72c907b3-0ae5-4213-b16c-0e6333751426",
                 "name": "m.pressian.com/data/banner/$domain=m.pressian.com",
                 "content": {
@@ -37237,7 +37253,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#wrap>div[style=\"padding-top:10px; text-align:center; overflow:hidden;\"]"
+                        "selector": "div#wrap>div[style=\"padding-top:10px; text-align:center; overflow:hidden;\"],iframe[src*=\"//m.ppomppu.co.kr/banner/google_ad.html\"]"
                     }
                 }
             },
