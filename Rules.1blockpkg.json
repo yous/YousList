@@ -18619,6 +18619,32 @@
                 }
             },
             {
+                "id": "b1f37bc8-791e-43a6-a746-5f28e7f44ae2",
+                "name": "j.zucks.net.zimg.jp/j",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?j\\.zucks\\.net\\.zimg\\.jp/j",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "eefcbfff-c83e-4c4b-8331-dae41f7d62f6",
+                "name": "j.zucks.net.zimg.jp/n",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?j\\.zucks\\.net\\.zimg\\.jp/n",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "46205c35-8dfa-4b7f-978c-b5ad576bcc6b",
                 "name": "jadserve.postrelease.com/t",
                 "content": {
@@ -39060,7 +39086,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad-center-cover,div.overlay-footer_ad"
+                        "selector": "div.ad-center-cover,div.overlay-footer_ad,div.sp-ad-img-valid-tap,div.uz-6-news-dwango_sp"
                     }
                 }
             },
