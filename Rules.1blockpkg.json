@@ -33800,6 +33800,19 @@
                 }
             },
             {
+                "id": "7687f91a-f255-4a4a-a277-448c927667b9",
+                "name": "golfzon.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?golfzon\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.right_banner,div.top_banner"
+                    }
+                }
+            },
+            {
                 "id": "3008df83-ae3b-4098-b8cf-d09112648f8c",
                 "name": "goodmorningcc.com##",
                 "content": {
