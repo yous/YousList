@@ -43592,6 +43592,19 @@
                 }
             },
             {
+                "id": "7f25f014-65c9-4ceb-997a-87f85e7b77c1",
+                "name": "www-naver-com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?www-naver-com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "#NM_TOP_BANNER"
+                    }
+                }
+            },
+            {
                 "id": "edf85d97-307b-43cf-8484-9f766155bbce",
                 "name": "xportsnews.com##",
                 "content": {
