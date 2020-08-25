@@ -30176,6 +30176,19 @@
                 }
             },
             {
+                "id": "e2cc5a75-5e8c-455b-8511-2d793e21983d",
+                "name": "apnews.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?apnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.RightRail>div:not([class]):not([id])>div[class^=\"Component-adTitle-\"],aside.RightRail>div:not([class]):not([id])>div[class^=\"Component-placeholderWrapper-\"],div.FeedAd,div.bellow-article>div:not([class]):not([id])>div[class^=\"Component-adTitle-\"],div.bellow-article>div:not([class]):not([id])>div[class^=\"Component-placeholderWrapper-\"],div.persistent-ad,div[class^=\"Component-dfp-\"]"
+                    }
+                }
+            },
+            {
                 "id": "74188fce-d6bc-478a-aa4b-def5e648a0a1",
                 "name": "appleblog.co.kr##",
                 "content": {
