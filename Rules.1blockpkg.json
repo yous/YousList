@@ -7033,6 +7033,32 @@
                 }
             },
             {
+                "id": "bdcf594a-8abc-4fe9-b7d7-547150fe9775",
+                "name": "ad.doyouad.com/ad/script.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.doyouad\\.com/ad/script\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "4db8a7e2-6103-4fa1-99bc-1a13b2913cd7",
+                "name": "ad.doyouad.com/ad/script.real.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.doyouad\\.com/ad/script\\.real\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0b370216-c1f2-499f-8fe7-3970dcaafc43",
                 "name": "ad.doyouad.com/html/iframe.html",
                 "content": {
@@ -37269,7 +37295,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#adDaum,div#adDaum_top,div#ad_box,div.ad_box_outline,main>div.ad:not([id])"
+                        "selector": "article.article_body>div[style=\"width:100%; text-align:center; overflow:hidden; position:relative;\"],div#adDaum,div#adDaum_top,div#ad_box,div.ad_box_outline,main>div.ad:not([id])"
                     }
                 }
             },
