@@ -30215,6 +30215,19 @@
                 }
             },
             {
+                "id": "b587d3ba-2685-4a15-8162-38a9e9df8868",
+                "name": "apnews.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?apnews\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#divHeaderBannerAPNEWS,div.ap_container,div.banner-ad,div.banner-ad-area,div.cont-area>div[style=\"float:right; margin: 10px 0 10px 10px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "74188fce-d6bc-478a-aa4b-def5e648a0a1",
                 "name": "appleblog.co.kr##",
                 "content": {
