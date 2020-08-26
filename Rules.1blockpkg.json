@@ -39458,6 +39458,19 @@
                 }
             },
             {
+                "id": "8396e56a-a21d-4dc0-856e-cb1f3ce86257",
+                "name": "newsnjoy.or.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newsnjoy\\.or\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#veritasaApp,div.ad-template"
+                    }
+                }
+            },
+            {
                 "id": "a3ee4436-892d-4300-b693-b507a29d5e4c",
                 "name": "newspic.kr##",
                 "content": {
