@@ -22003,6 +22003,22 @@
                 }
             },
             {
+                "id": "5f81a514-a696-414a-aa59-967adf1f0e96",
+                "name": "mt-man.com/data/file/banner/*.gif$domain=mt-man.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mt-man\\.com/data/file/banner/.*\\.gif",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*mt-man.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "29b30a45-55ed-4cef-bd0c-6f9a3c1f8223",
                 "name": "mt.co.kr/ad/",
                 "content": {
@@ -38908,6 +38924,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.btm_banner,div.conAD,div.con_article,div.news>div.con_wrap[style=\"background-color:white; z-index:1000000; border:none;\"],div.news>div.con_wrap[style=\"background-color:white; z-index:1000000; padding-top:10px; padding-bottom:5px; align:center; border:none;\"],div.news>div.con_wrap[style=\"background-color:white; z-index:1000000; padding-top:10px; padding-bottom:5px; align:center;\"],div.news>div[style=\"background-color:white; z-index:1000000;\"]:not([class]),div.news>div[style=\"padding-left:0px;align:left\"]"
+                    }
+                }
+            },
+            {
+                "id": "3c937b6b-ce06-46af-8771-57fea35992cc",
+                "name": "mt-man.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mt-man\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.miso-post-gallery"
                     }
                 }
             },
