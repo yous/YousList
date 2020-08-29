@@ -44276,11 +44276,37 @@
                 }
             },
             {
-                "id": "0006390d-cc3e-4dde-ac7c-07ad1505e6d4",
-                "name": "wtwt28.com##",
+                "id": "87f3a98a-a730-46e7-8bb6-fc3464761700",
+                "name": "wtwt30.com##",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wtwt28\\.com"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wtwt30\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
+                    }
+                }
+            },
+            {
+                "id": "7dce2ca3-acaa-4809-b983-443bd44c1dd4",
+                "name": "wtwt31.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wtwt31\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner"
+                    }
+                }
+            },
+            {
+                "id": "ee8d2a53-9d21-488e-baeb-c5d90a7a5688",
+                "name": "wtwt32.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wtwt32\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
