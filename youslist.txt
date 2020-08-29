@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20200826
+! Version: 20200829
 
 ! General element hiding rules
 ##a[href*="//10x10bet888.com"]
@@ -163,6 +163,7 @@
 ##iframe[src*="//ad.doyouad.com/html/iframe.html"]
 ##iframe[src*="//ad.idnad.co.kr/ad/iframe/ad_iframe.html"]
 ##iframe[src*="//ad.ilikesponsorad.co.kr/"]
+##iframe[src*="//ad.linkprice.com/cpc/cpc_wrapper2.php"]
 ##iframe[src*="//ad.luxnet.ua/dfp/spot.html"]
 ##iframe[src*="//ad.mediafarm.co.kr/mad/"]
 ##iframe[src*="//ad.mediatoday.co.kr/"]
@@ -619,6 +620,7 @@ yug-ko.com#@#a[href*="//yug-ko.com"]
 ||ad.jjang0u.com:8080/js.kti/jjang0u/$domain=m.jjang0u.com
 ||ad.kmib.co.kr^
 ||ad.koreadaily.com^
+||ad.linkprice.com/cpc/cpc_wrapper2.php^
 ||ad.linkprice.com/stlink.php^
 ||ad.luxnet.ua/dfp/spot.html^
 ||ad.mediafarm.co.kr/mad/
@@ -2316,6 +2318,13 @@ appletoolbox.com##section#custom_html-7
 appletoolbox.com##section#custom_html-9
 appletoolbox.com##span.ezoic-adpicker-ad
 appletoolbox.com##span[id^="ezoic-pub-ad-placeholder-"]
+appzzang.me##div#apz_ad_1
+appzzang.me##div#apz_right_side_ad
+appzzang.me##div#real_pop_bnr_floating
+appzzang.me##div#sponerad1
+appzzang.me##div.google-auto-placed
+appzzang.me##div.pc-main-leader-board
+appzzang.me##div.view-wrap>div[style="width: 728px; height: 90px; margin: 0 auto 16px;"]
 arca.live,minor.town,namu.live##div.ad
 arca.live,minor.town,namu.live##iframe[src^="/api/ads"]
 arstechnica.com##aside#ad-top

@@ -2246,6 +2246,19 @@
                 }
             },
             {
+                "id": "f3d180e6-e82c-42cb-b188-89ce9dbc4298",
+                "name": "##iframe[src*=\"//ad.linkprice.com/cpc/cpc_wrapper2.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//ad.linkprice.com/cpc/cpc_wrapper2.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "b859204d-52c4-47ce-b431-8340b913b8a6",
                 "name": "##iframe[src*=\"//ad.luxnet.ua/dfp/spot.html\"]",
                 "content": {
@@ -7291,6 +7304,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.koreadaily\\.com",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7b5201f7-8ad7-4381-aab2-6501e37cf447",
+                "name": "ad.linkprice.com/cpc/cpc_wrapper2.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.linkprice\\.com/cpc/cpc_wrapper2\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -30250,6 +30276,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.after-entry,div.entry-content>div[class][style=\"clear:both;float:left;width:100%;margin:0 0 20px 0;\"],div.ezo_ad,section#custom_html-10,section#custom_html-11,section#custom_html-12,section#custom_html-7,section#custom_html-9,span.ezoic-adpicker-ad,span[id^=\"ezoic-pub-ad-placeholder-\"]"
+                    }
+                }
+            },
+            {
+                "id": "366960cc-8227-49e6-a628-ca7b70259145",
+                "name": "appzzang.me##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?appzzang\\.me"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#apz_ad_1,div#apz_right_side_ad,div#real_pop_bnr_floating,div#sponerad1,div.google-auto-placed,div.pc-main-leader-board,div.view-wrap>div[style=\"width: 728px; height: 90px; margin: 0 auto 16px;\"]"
                     }
                 }
             },
