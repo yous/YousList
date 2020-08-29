@@ -2626,6 +2626,19 @@
                 }
             },
             {
+                "id": "1016712f-0924-4522-9edf-cbe37a40e97b",
+                "name": "##iframe[src*=\"//ad.adnmore.co.kr/cgi-bin/PelicanC.dll\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//ad.adnmore.co.kr/cgi-bin/PelicanC.dll\"]"
+                    }
+                }
+            },
+            {
                 "id": "23483cd9-b646-4fb1-9e46-56e62819d703",
                 "name": "##iframe[src*=\"//ad.atdmt.com/d/a.html\"]",
                 "content": {
