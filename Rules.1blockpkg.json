@@ -228,6 +228,22 @@
                 }
             },
             {
+                "id": "45d90879-8e2d-4ca4-939b-4f8392ca1103",
+                "name": "##a[href*=\"//bt-hhh.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*bt-hhh.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//bt-hhh.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "3ff03c5d-e3c8-4b67-9d77-3c9869ba695d",
                 "name": "##a[href*=\"//bun-go5.com\"]",
                 "content": {
@@ -372,6 +388,22 @@
                 }
             },
             {
+                "id": "3c6ff1b4-5082-4a5b-a5bc-aa0b96a09280",
+                "name": "##a[href*=\"//kap-20meal.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*kap-20meal.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//kap-20meal.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "f0d0d27f-36d7-443b-8045-66b05125ffba",
                 "name": "##a[href*=\"//kav-we2020.com\"]",
                 "content": {
@@ -512,6 +544,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//momobet365.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "31fc9387-de03-4e3f-84b5-1f1fec31ffac",
+                "name": "##a[href*=\"//mss-seven.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*mss-seven.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//mss-seven.com\"]"
                     }
                 }
             },
@@ -916,6 +964,22 @@
                 }
             },
             {
+                "id": "4deb84e5-dbce-40ae-b714-bd9976264387",
+                "name": "##a[href*=\"//top-4865.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*top-4865.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//top-4865.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "31e19828-20bc-420a-be58-e8b5fe8af988",
                 "name": "##a[href*=\"//tslot5.com\"]",
                 "content": {
@@ -1044,6 +1108,22 @@
                 }
             },
             {
+                "id": "f3cec638-3c0c-4361-b9d3-b85b7ba39524",
+                "name": "##a[href*=\"//wm-ks.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*wm-ks.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//wm-ks.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "5a5c527c-6ef3-47a6-b50e-2a70cb72d9ea",
                 "name": "##a[href*=\"//wnx-co.com\"]",
                 "content": {
@@ -1136,6 +1216,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//www.777bbet.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "1e4d23cc-8b65-4623-a949-1acee6b7f204",
+                "name": "##a[href*=\"//www.kap-20meal.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*kap-20meal.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//www.kap-20meal.com\"]"
                     }
                 }
             },
@@ -43767,6 +43863,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?wfwf105\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top-banner,ul.top-banner"
+                    }
+                }
+            },
+            {
+                "id": "3c05f104-6cf7-4d8e-bc36-977b931a782c",
+                "name": "wfwf106.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wfwf106\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top-banner,ul.top-banner"
+                    }
+                }
+            },
+            {
+                "id": "0206d08a-fb2e-4755-9eb7-b5f46a3b341b",
+                "name": "wfwf107.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wfwf107\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
