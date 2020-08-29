@@ -468,6 +468,38 @@
                 }
             },
             {
+                "id": "f64a00e3-43e6-44cd-9cb9-3cedf39703de",
+                "name": "##a[href*=\"//lex-uu.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*lex-uu.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//lex-uu.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "4441412c-7fd5-49bd-8518-69705e5c954c",
+                "name": "##a[href*=\"//lg-io.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*lg-io.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//lg-io.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "a0a739b0-d2bb-4022-aeb8-45f82d60cdaa",
                 "name": "##a[href*=\"//mbc.sp644.com\"]",
                 "content": {
@@ -1380,6 +1412,22 @@
                 }
             },
             {
+                "id": "b259561e-9aef-486f-9315-0c9952e93813",
+                "name": "##a[href*=\"//xn--hq1bl8jba04vj6t1a26g.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*xn--hq1bl8jba04vj6t1a26g.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//xn--hq1bl8jba04vj6t1a26g.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "761187ae-bf92-445a-b44f-26cf9acdb899",
                 "name": "##a[href*=\"//yug-ko.com\"]",
                 "content": {
@@ -1408,6 +1456,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//그녀와밤.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "0c608d97-8d6a-4e81-a0e3-65177bac2637",
+                "name": "##a[href*=\"//메이저벳도메인.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*xn--hq1bl8jba04vj6t1a26g.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//메이저벳도메인.com\"]"
                     }
                 }
             },
@@ -34085,15 +34149,41 @@
                 }
             },
             {
-                "id": "c3480261-4aad-4f04-a52b-e278eead753a",
-                "name": "fxfx19.com##",
+                "id": "9f9896ea-3ca0-4b9e-ba17-01548a3c8fd2",
+                "name": "fxfx21.com##",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?fxfx19\\.com"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?fxfx21\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.top-banner"
+                        "selector": "div.top-banner,ul.top-banner"
+                    }
+                }
+            },
+            {
+                "id": "21b418cd-15b4-4343-90c2-d04a21a95829",
+                "name": "fxfx22.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?fxfx22\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top-banner,ul.top-banner"
+                    }
+                }
+            },
+            {
+                "id": "5133710f-77d5-48f6-a64b-c3c7e2fef71a",
+                "name": "fxfx23.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?fxfx23\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top-banner,ul.top-banner"
                     }
                 }
             },
