@@ -22060,6 +22060,22 @@
                 }
             },
             {
+                "id": "791f8003-f906-49a8-bfd3-31e9e7967d57",
+                "name": "moeni.org/img/sponsor/$domain=moeni.org",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?moeni\\.org/img/sponsor/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*moeni.org"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f0d8a9af-a8e2-4d16-9797-56b2ea2a52d5",
                 "name": "moja-ostroleka.pl/uploads/banery/$domain=moja-ostroleka.pl",
                 "content": {
@@ -38921,6 +38937,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.amp-ad-container,div.mpu_ad"
+                    }
+                }
+            },
+            {
+                "id": "a4d3e872-48d5-4af0-affc-9862fecaf104",
+                "name": "moeni.org##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?moeni\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.lad,div.rad"
                     }
                 }
             },
