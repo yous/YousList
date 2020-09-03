@@ -3107,6 +3107,19 @@
                 }
             },
             {
+                "id": "bcbf2156-f600-40e4-87c7-427c92ae6366",
+                "name": "##iframe[src*=\"//adimg.wisenut.co.kr/wrappingfor\"][src*=\".php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//adimg.wisenut.co.kr/wrappingfor\"][src*=\".php\"]"
+                    }
+                }
+            },
+            {
                 "id": "b7580645-93ee-414c-95f6-af5ec1a46856",
                 "name": "##iframe[src*=\"//adin.ad4980.kr/\"]",
                 "content": {
@@ -8762,6 +8775,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?adimg\\.wisenut\\.co\\.kr/common/js/amc/wiseAdSvc\\.pj",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "55795ec8-92f1-46a0-a084-208c8d5528ed",
+                "name": "adimg.wisenut.co.kr/wrappingfor*.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adimg\\.wisenut\\.co\\.kr/wrappingfor.*\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -32389,7 +32415,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad_gnb_left,div.ad_gnb_right,div.cs_top_ad_box,div.da_ad,div.life_ad_roll,div.sec_headline_adbox,div.sec_sub_ad,div.service_ad,div.service_center_ad"
+                        "selector": "div.ad_gnb_left,div.ad_gnb_right,div.cs_top_ad_box,div.da_ad,div.dfpAd,div.life_ad_roll,div.sec_headline_adbox,div.sec_sub_ad,div.service_ad,div.service_center_ad,iframe#getAdFrame"
                     }
                 }
             },
