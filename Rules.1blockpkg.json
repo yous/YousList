@@ -35470,7 +35470,20 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad,div[id^=\"crt-\"],section.adbox"
+                        "selector": "div.ad,section.adbox,div[id^=\"crt-\"]"
+                    }
+                }
+            },
+            {
+                "id": "3daca266-93bb-41b1-9307-5eb08ebee5d7",
+                "name": "pomponik.pl##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pomponik\\.pl"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"crt-\"]"
                     }
                 }
             },
