@@ -19663,6 +19663,19 @@
                 }
             },
             {
+                "id": "548e9649-2f18-412c-a46d-c785213381b6",
+                "name": "js.iplsc.com/inpl.uanc/*/inpl.uanc.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?js\\.iplsc\\.com/inpl\\.uanc/.*/inpl\\.uanc\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1ae8c737-b475-4c24-84be-cab8c7b3727b",
                 "name": "js.juicyads.com/jp.php",
                 "content": {
@@ -35445,6 +35458,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_small"
+                    }
+                }
+            },
+            {
+                "id": "a791e361-a80a-46a9-8743-7791e644d7b1",
+                "name": "interia.pl##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?interia\\.pl"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad,div[id^=\"crt-\"],section.adbox"
                     }
                 }
             },
