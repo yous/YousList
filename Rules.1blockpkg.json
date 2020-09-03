@@ -2470,6 +2470,19 @@
                 }
             },
             {
+                "id": "9257fdb1-b539-480b-9127-c9591ce0eb24",
+                "name": "##iframe[src*=\"//a.realsrv.com/iframe.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//a.realsrv.com/iframe.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "0e55aea4-a86d-40f3-974a-12a0e6b9b8c5",
                 "name": "##iframe[src*=\"//a.t.webtracker.jp/res/\"]",
                 "content": {
@@ -6688,6 +6701,58 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?a\\.ligatus\\.com/\\?.*t=js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8a3d3be4-a54e-4916-a241-45b8b6d2cd98",
+                "name": "a.realsrv.com/iframe.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?a\\.realsrv\\.com/iframe\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a1bd36e9-c174-4dae-a6f7-7ae54800424a",
+                "name": "a.realsrv.com/nativeads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?a\\.realsrv\\.com/nativeads\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d37cf039-2360-42d4-8125-c866ee7f4711",
+                "name": "a.realsrv.com/popunder1000.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?a\\.realsrv\\.com/popunder1000\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "764812fc-a4f7-493e-8955-217def20e97c",
+                "name": "a.realsrv.com/video-slider.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?a\\.realsrv\\.com/video-slider\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -20317,6 +20382,19 @@
                 }
             },
             {
+                "id": "330263c6-68e3-4314-9835-61524981ebc5",
+                "name": "lorybnfh.com/*/*/*/*/*/brt.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?lorybnfh\\.com/.*/.*/.*/.*/.*/brt\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9e580f0d-b592-46b6-9593-20acadc49a06",
                 "name": "ltn.hitomi.la/7I90zwIh.js$domain=hitomi.la",
                 "content": {
@@ -21548,6 +21626,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?m1\\.daumcdn\\.net/adtc/js/mobilead\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6088bdb8-c941-47b1-87ec-c4b5a697400f",
+                "name": "madspmz.com/*/*/*/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?madspmz\\.com/.*/.*/.*/.*\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -27620,6 +27711,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?syndication\\.exosrv\\.com/splash\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cfa8d271-72d6-49aa-9016-745e60f4ac6c",
+                "name": "syndication.realsrv.com/ads-priv.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?syndication\\.realsrv\\.com/ads-priv\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
