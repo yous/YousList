@@ -21686,6 +21686,22 @@
                 }
             },
             {
+                "id": "7c9fa154-d789-4c7c-958d-c97070232976",
+                "name": "manatoki73.net/data/banner/$domain=manatoki73.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?manatoki73\\.net/data/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*manatoki73.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "108434df-6d14-402d-a705-5015ce50ee23",
                 "name": "mangahub.io/iframe/ra$domain=mangahub.io",
                 "content": {
@@ -38916,6 +38932,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-banner-widget"
+                    }
+                }
+            },
+            {
+                "id": "e7a7c703-74ef-482d-a049-7cd8aac155e5",
+                "name": "manatoki73.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?manatoki73\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.basic-banner,div.board-tail-banner"
                     }
                 }
             },
