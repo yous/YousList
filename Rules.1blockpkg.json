@@ -116,6 +116,22 @@
                 }
             },
             {
+                "id": "7fa8265c-850d-4b23-99ea-949da64ad193",
+                "name": "##a[href*=\"//bae-we772.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*bae-we772.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//bae-we772.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "e7dd767b-83fa-4ecc-83be-eb4296fd8e66",
                 "name": "##a[href*=\"//bbnara.com\"]",
                 "content": {
@@ -208,6 +224,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//bit.ly/3i89iaG\"]"
+                    }
+                }
+            },
+            {
+                "id": "ebb88e13-7960-4ad8-ba72-58965a1441d3",
+                "name": "##a[href*=\"//bp-3232.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*bp-3232.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//bp-3232.com\"]"
                     }
                 }
             },
@@ -336,6 +368,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//ffm115.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "b1dca76e-a740-4690-8483-257fd3537d45",
+                "name": "##a[href*=\"//fr-22.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*fr-22.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//fr-22.com\"]"
                     }
                 }
             },
@@ -1264,6 +1312,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//www.777bbet.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "945b61b3-0114-4b3c-a803-23de0e2ac2b4",
+                "name": "##a[href*=\"//www.bae-we772.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*bae-we772.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//www.bae-we772.com\"]"
                     }
                 }
             },
@@ -39032,6 +39096,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?marumaru\\.sale"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_m,div.w_banner"
+                    }
+                }
+            },
+            {
+                "id": "3db25876-2559-48d8-9600-0ddd541fd139",
+                "name": "marumaru.tel##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?marumaru\\.tel"
                     },
                     "action": {
                         "type": "css-display-none",
