@@ -532,6 +532,22 @@
                 }
             },
             {
+                "id": "310a6052-f3a9-4b4d-89ad-957e1473307f",
+                "name": "##a[href*=\"//lex-14.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*lex-14.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//lex-14.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "f64a00e3-43e6-44cd-9cb9-3cedf39703de",
                 "name": "##a[href*=\"//lex-uu.com\"]",
                 "content": {
@@ -44265,32 +44281,6 @@
                 }
             },
             {
-                "id": "14ab4005-bd58-460d-87a1-a9cf922095fe",
-                "name": "wfwf102.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wfwf102\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.top-banner,ul.top-banner"
-                    }
-                }
-            },
-            {
-                "id": "b0f58b85-f82a-42b7-8284-b69ea4629957",
-                "name": "wfwf103.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wfwf103\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.top-banner,ul.top-banner"
-                    }
-                }
-            },
-            {
                 "id": "b29c42dc-b625-4656-86f5-20e53e86cba8",
                 "name": "wfwf104.com##",
                 "content": {
@@ -44304,37 +44294,24 @@
                 }
             },
             {
-                "id": "bd745763-fd5c-419a-9e5e-7bdb1cafc504",
-                "name": "wfwf105.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wfwf105\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.top-banner,ul.top-banner"
-                    }
-                }
-            },
-            {
-                "id": "3c05f104-6cf7-4d8e-bc36-977b931a782c",
-                "name": "wfwf106.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wfwf106\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.top-banner,ul.top-banner"
-                    }
-                }
-            },
-            {
                 "id": "0206d08a-fb2e-4755-9eb7-b5f46a3b341b",
                 "name": "wfwf107.com##",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?wfwf107\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top-banner,ul.top-banner"
+                    }
+                }
+            },
+            {
+                "id": "59c7a4a8-ac66-4571-a0c9-bf5d9f5d365d",
+                "name": "wfwf108.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wfwf108\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
