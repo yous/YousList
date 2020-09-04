@@ -43069,6 +43069,19 @@
                 }
             },
             {
+                "id": "dfc567d3-1132-4829-ac92-f728921cb141",
+                "name": "toonsarang.site##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?toonsarang\\.site"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_m,div.w_banner"
+                    }
+                }
+            },
+            {
                 "id": "95d2b0ce-24cf-455c-8e82-beb13cb06e5f",
                 "name": "topgear.com##",
                 "content": {
