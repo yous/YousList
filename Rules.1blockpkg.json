@@ -292,6 +292,22 @@
                 }
             },
             {
+                "id": "be9b04b4-3ee3-47eb-8165-3993d88ae56b",
+                "name": "##a[href*=\"//coinca-777.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*coinca-777.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//coinca-777.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "e81b7f38-4980-44a7-acff-34cb72bb8ad9",
                 "name": "##a[href*=\"//dn-zxc.com\"]",
                 "content": {
@@ -28026,17 +28042,15 @@
                 }
             },
             {
-                "id": "c2268e64-e808-4ac2-84b3-7a74fec73aa0",
-                "name": "tkor.host/bann/$domain=tkor.host|tkor.pink|tkor.tax|tkor.wiki",
+                "id": "7c593182-a75b-40b6-92b8-4a76413e3fb7",
+                "name": "tkor.city/bann/$domain=tkor.city|tkor.pink",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.host/bann/",
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.city/bann/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
-                            "*tkor.host",
-                            "*tkor.pink",
-                            "*tkor.tax",
-                            "*tkor.wiki"
+                            "*tkor.city",
+                            "*tkor.pink"
                         ]
                     },
                     "action": {
@@ -28045,55 +28059,15 @@
                 }
             },
             {
-                "id": "52161f97-7650-4830-aab4-3c7c13392f2d",
-                "name": "tkor.pink/bann/$domain=tkor.host|tkor.pink|tkor.tax|tkor.wiki",
+                "id": "9f4e62ab-7832-420c-910a-03b5e9db0930",
+                "name": "tkor.pink/bann/$domain=tkor.city|tkor.pink",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.pink/bann/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
-                            "*tkor.host",
-                            "*tkor.pink",
-                            "*tkor.tax",
-                            "*tkor.wiki"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "9fd4fcda-fd60-4c0a-b9eb-88b8b54732d2",
-                "name": "tkor.tax/bann/$domain=tkor.host|tkor.pink|tkor.tax|tkor.wiki",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.tax/bann/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*tkor.host",
-                            "*tkor.pink",
-                            "*tkor.tax",
-                            "*tkor.wiki"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "721f7eed-4ffa-4b55-af5f-da2bb0719a48",
-                "name": "tkor.wiki/bann/$domain=tkor.host|tkor.pink|tkor.tax|tkor.wiki",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.wiki/bann/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*tkor.host",
-                            "*tkor.pink",
-                            "*tkor.tax",
-                            "*tkor.wiki"
+                            "*tkor.city",
+                            "*tkor.pink"
                         ]
                     },
                     "action": {
@@ -42771,11 +42745,11 @@
                 }
             },
             {
-                "id": "680041e1-96c3-48dc-8810-977542871131",
-                "name": "tkor.host##",
+                "id": "4d211bb4-91fb-4eed-8edb-30c76dbe351c",
+                "name": "tkor.city##",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.host"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.city"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -42789,32 +42763,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.pink"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.bn,div.main_top_bann,div.mobile_banner,section.top_banner"
-                    }
-                }
-            },
-            {
-                "id": "87a8f283-c9ad-444b-99cf-3315e567f066",
-                "name": "tkor.tax##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.tax"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.bn,div.main_top_bann,div.mobile_banner,section.top_banner"
-                    }
-                }
-            },
-            {
-                "id": "3e887d28-ff5f-4e19-857e-d32c9f4a83f8",
-                "name": "tkor.wiki##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.wiki"
                     },
                     "action": {
                         "type": "css-display-none",
