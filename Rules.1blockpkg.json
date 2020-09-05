@@ -19055,6 +19055,19 @@
                 }
             },
             {
+                "id": "431d4bca-d849-4af9-a199-6cc368c9622b",
+                "name": "imgcloud3.net/16000/*.gif",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?imgcloud3\\.net/16000/.*\\.gif",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "013d682f-c3da-4078-84a4-e2baec9cbb3c",
                 "name": "imnews.busan.com/media/busan/article/img/banner_top_ad.jpg$domain=imnews.busan.com",
                 "content": {
