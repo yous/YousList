@@ -17003,33 +17003,12 @@
                 }
             },
             {
-                "id": "cd10016f-9254-49f9-b777-6193e407d314",
-                "name": "funbe.space/bann/$domain=funbe.space|funbe.tv",
+                "id": "1fbf5c29-aabb-4929-8c4e-c03f013d0125",
+                "name": "funbe.*/bann/",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?funbe\\.space/bann/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*funbe.space",
-                            "*funbe.tv"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "282ba1d7-a244-47b8-8c38-45219f34697e",
-                "name": "funbe.tv/bann/$domain=funbe.space|funbe.tv",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?funbe\\.tv/bann/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*funbe.space",
-                            "*funbe.tv"
-                        ]
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?funbe\\..*/bann/",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
@@ -20570,15 +20549,12 @@
                 }
             },
             {
-                "id": "376cce95-b12f-419b-a2a1-80d2a07b03a8",
-                "name": "linkmoya1.com/data/banner/$domain=linkmoya1.com",
+                "id": "d82dacbd-7400-4694-b8f8-bef0672da9f5",
+                "name": "linkmoya*.com/data/banner/",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?linkmoya1\\.com/data/banner/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*linkmoya1.com"
-                        ]
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?linkmoya.*\\.com/data/banner/",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
@@ -21949,15 +21925,12 @@
                 }
             },
             {
-                "id": "7c9fa154-d789-4c7c-958d-c97070232976",
-                "name": "manatoki73.net/data/banner/$domain=manatoki73.net",
+                "id": "24762cb7-8967-4f7a-b9d1-8d01d13bf52a",
+                "name": "manatoki*.net/data/banner/",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?manatoki73\\.net/data/banner/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*manatoki73.net"
-                        ]
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?manatoki.*\\.net/data/banner/",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
@@ -23856,18 +23829,12 @@
                 }
             },
             {
-                "id": "3d5b75bb-dbc9-4c64-bd2c-8656658dd137",
-                "name": "newtoki72.com/data/banner/$domain=newtoki72.com|newtoki72.net|newtoki73.com|newtoki73.net",
+                "id": "ca01b696-595b-4877-b53c-88d6ebc6ed5f",
+                "name": "newtoki*.com/data/banner/",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?newtoki72\\.com/data/banner/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*newtoki72.com",
-                            "*newtoki72.net",
-                            "*newtoki73.com",
-                            "*newtoki73.net"
-                        ]
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newtoki.*\\.com/data/banner/",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
@@ -23875,56 +23842,12 @@
                 }
             },
             {
-                "id": "166db109-3e3c-4360-ad06-44750e575e7f",
-                "name": "newtoki72.net/data/banner/$domain=newtoki72.com|newtoki72.net|newtoki73.com|newtoki73.net",
+                "id": "09dc8eea-53f4-4786-9ed3-bdb9a79549f3",
+                "name": "newtoki*.net/data/banner/",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?newtoki72\\.net/data/banner/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*newtoki72.com",
-                            "*newtoki72.net",
-                            "*newtoki73.com",
-                            "*newtoki73.net"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "92deb3b4-5464-4304-948c-61289beed6cf",
-                "name": "newtoki73.com/data/banner/$domain=newtoki72.com|newtoki72.net|newtoki73.com|newtoki73.net",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?newtoki73\\.com/data/banner/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*newtoki72.com",
-                            "*newtoki72.net",
-                            "*newtoki73.com",
-                            "*newtoki73.net"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "d38802b3-a7fc-4e99-ae62-db9d55471899",
-                "name": "newtoki73.net/data/banner/$domain=newtoki72.com|newtoki72.net|newtoki73.com|newtoki73.net",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?newtoki73\\.net/data/banner/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*newtoki72.com",
-                            "*newtoki72.net",
-                            "*newtoki73.com",
-                            "*newtoki73.net"
-                        ]
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newtoki.*\\.net/data/banner/",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
