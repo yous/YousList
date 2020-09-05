@@ -116,6 +116,22 @@
                 }
             },
             {
+                "id": "b3f40768-ec92-4393-9198-619e310dd5d4",
+                "name": "##a[href*=\"//SEDA2.BET\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*seda2.bet"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//SEDA2.BET\"]"
+                    }
+                }
+            },
+            {
                 "id": "7fa8265c-850d-4b23-99ea-949da64ad193",
                 "name": "##a[href*=\"//bae-we772.com\"]",
                 "content": {
@@ -436,6 +452,22 @@
                 }
             },
             {
+                "id": "2f795a12-2e09-4d76-af23-e9b5450f50ae",
+                "name": "##a[href*=\"//inp77.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*inp77.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//inp77.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "f144b648-0f56-439e-8a71-52991ba72197",
                 "name": "##a[href*=\"//jtv-10.com\"]",
                 "content": {
@@ -708,6 +740,22 @@
                 }
             },
             {
+                "id": "e6a006af-f443-43e6-a81b-772e5d74d442",
+                "name": "##a[href*=\"//muk-cut.net\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*muk-cut.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//muk-cut.net\"]"
+                    }
+                }
+            },
+            {
                 "id": "9dc6ec55-a364-42b6-baff-371186b2fc01",
                 "name": "##a[href*=\"//nb-iu.com\"]",
                 "content": {
@@ -880,6 +928,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//seda1.bet\"]"
+                    }
+                }
+            },
+            {
+                "id": "8e9010d5-47ff-48aa-a266-683055f078b3",
+                "name": "##a[href*=\"//seda2.bet\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*seda2.bet"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//seda2.bet\"]"
                     }
                 }
             },
@@ -1536,6 +1600,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//yug-ko.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "b8717869-59be-4fce-af24-13f88a56d4e5",
+                "name": "##a[href*=\"//yug-ppl.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*yug-ppl.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//yug-ppl.com\"]"
                     }
                 }
             },
@@ -3888,6 +3968,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src*=\"//b.bestcontentitem.top/loader\"]"
+                    }
+                }
+            },
+            {
+                "id": "43b49b27-c5d2-45f4-bf9f-a0e8a628f925",
+                "name": "##iframe[src*=\"//b.bestcontentwork.top/loader\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//b.bestcontentwork.top/loader\"]"
                     }
                 }
             },
@@ -11564,6 +11657,19 @@
                 }
             },
             {
+                "id": "354c8a81-2e18-4baf-8594-4ffbcc98f4f2",
+                "name": "b.bestcontentwork.top/loader",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?b\\.bestcontentwork\\.top/loader",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0a8180cf-a3f8-4e70-8d9b-26d1ffb91e16",
                 "name": "bayabar.com/adworking/",
                 "content": {
@@ -16897,15 +17003,15 @@
                 }
             },
             {
-                "id": "b183df9e-b251-49bd-9ec1-2fd87a74902e",
-                "name": "funbe.fit/bann/$domain=funbe.fit|funbe.space",
+                "id": "cd10016f-9254-49f9-b777-6193e407d314",
+                "name": "funbe.space/bann/$domain=funbe.space|funbe.tv",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?funbe\\.fit/bann/",
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?funbe\\.space/bann/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
-                            "*funbe.fit",
-                            "*funbe.space"
+                            "*funbe.space",
+                            "*funbe.tv"
                         ]
                     },
                     "action": {
@@ -16914,15 +17020,15 @@
                 }
             },
             {
-                "id": "61e88513-8188-490e-b134-a21552a594f0",
-                "name": "funbe.space/bann/$domain=funbe.fit|funbe.space",
+                "id": "282ba1d7-a244-47b8-8c38-45219f34697e",
+                "name": "funbe.tv/bann/$domain=funbe.space|funbe.tv",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?funbe\\.space/bann/",
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?funbe\\.tv/bann/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
-                            "*funbe.fit",
-                            "*funbe.space"
+                            "*funbe.space",
+                            "*funbe.tv"
                         ]
                     },
                     "action": {
@@ -34365,11 +34471,11 @@
                 }
             },
             {
-                "id": "dd58e7a0-7a9f-4414-835d-087f0de7010c",
-                "name": "funbe.fit##",
+                "id": "a7ec9872-e4f4-4613-925e-dec254e7e0ba",
+                "name": "funbe.space##",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?funbe\\.fit"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?funbe\\.space"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -34378,11 +34484,11 @@
                 }
             },
             {
-                "id": "fcab86a9-5ae2-48d6-b7f5-9a274feaee30",
-                "name": "funbe.space##",
+                "id": "e48b3d5b-cd9d-48e8-a295-eb761ff14658",
+                "name": "funbe.tv##",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?funbe\\.space"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?funbe\\.tv"
                     },
                     "action": {
                         "type": "css-display-none",
