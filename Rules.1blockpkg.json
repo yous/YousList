@@ -20541,6 +20541,22 @@
                 }
             },
             {
+                "id": "376cce95-b12f-419b-a2a1-80d2a07b03a8",
+                "name": "linkmoya1.com/data/banner/$domain=linkmoya1.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?linkmoya1\\.com/data/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*linkmoya1.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "273bd7f4-b7a3-48e8-8b76-caeaf7bfdbe7",
                 "name": "linuxconfig.org/images/banners/$domain=linuxconfig.org",
                 "content": {
@@ -36625,6 +36641,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.mntl-flexible-ad,div.mntl-gpt-adunit"
+                    }
+                }
+            },
+            {
+                "id": "cd589405-83e9-468c-ab64-1d01d17c0e69",
+                "name": "linkmoya1.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?linkmoya1\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-colorset,div.basic-banner"
                     }
                 }
             },
