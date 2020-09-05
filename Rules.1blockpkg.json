@@ -17940,6 +17940,22 @@
                 }
             },
             {
+                "id": "28eaecaf-3287-4239-8e14-f6b2ecd0af45",
+                "name": "hohotoon16.com/data/banner/$domain=hohotoon16.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hohotoon16\\.com/data/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*hohotoon16.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "827b2b8a-2e57-494a-912e-3e93721858c5",
                 "name": "hpr.outbrain.com/utils/get?*fbk=foxHpNative$domain=foxnews.com",
                 "content": {
@@ -35211,6 +35227,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#floating_banner_body,div.ad-control-articlemiddle,div.article-dn-banner,div.article-top-banner"
+                    }
+                }
+            },
+            {
+                "id": "47ae7731-a34f-4a8a-94a8-024e164385e9",
+                "name": "hohotoon16.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hohotoon16\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.basic-banner"
                     }
                 }
             },
