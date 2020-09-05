@@ -15067,11 +15067,27 @@
                 }
             },
             {
-                "id": "d27b64bd-dc6b-4217-bd37-6940b696e3f4",
-                "name": "daumd03.net/_img/ad/$domain=daumd03.net",
+                "id": "953dcb8d-93a6-42af-8580-3f01a3c165df",
+                "name": "daumd03.net/_img/ad/*.gif$domain=daumd03.net",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?daumd03\\.net/_img/ad/",
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?daumd03\\.net/_img/ad/.*\\.gif",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*daumd03.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "79b904d5-9196-4f93-a6a2-3a55332fe8a6",
+                "name": "daumd03.net/_img/ad/partner/$domain=daumd03.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?daumd03\\.net/_img/ad/partner/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*daumd03.net"
