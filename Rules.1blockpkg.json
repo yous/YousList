@@ -20422,6 +20422,19 @@
                 }
             },
             {
+                "id": "6a02a19c-d2f8-4925-9126-4b45cbda1824",
+                "name": "kotaku.xyz/public/upload/images/ads/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kotaku\\.xyz/public/upload/images/ads/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f9ce1f69-3d8e-4820-bae5-4b5d215c64ed",
                 "name": "kukudas.com/img/banner/$domain=kukudas.com",
                 "content": {
@@ -40921,6 +40934,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#custom_html-3,div#custom_html-5,div.adblock,div.sidebar-ads"
+                    }
+                }
+            },
+            {
+                "id": "8a57b5c1-bb91-4c9c-ab1c-053526b2d376",
+                "name": "ooani.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ooani\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.load-ads"
                     }
                 }
             },
