@@ -5701,6 +5701,19 @@
                 }
             },
             {
+                "id": "6a7f377f-2409-4fb4-a685-f78e3257ba24",
+                "name": "##iframe[src*=\"//was.livere.me/ad\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//was.livere.me/ad\"]"
+                    }
+                }
+            },
+            {
                 "id": "373f5f6c-0699-4005-91ff-6f7c58156a85",
                 "name": "##iframe[src*=\"//widget.barnebys.com/widget.php\"]",
                 "content": {
@@ -29406,6 +29419,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?vse-spravki\\.bid/aclk/banner_click\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ee467d2c-e400-40c3-a7f2-1a0477a62ec4",
+                "name": "was.livere.me/ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?was\\.livere\\.me/ad",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
