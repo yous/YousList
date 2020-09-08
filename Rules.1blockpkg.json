@@ -41966,6 +41966,19 @@
                 }
             },
             {
+                "id": "addb599e-ef46-45cd-aa69-fcce507cb086",
+                "name": "sjbnews.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sjbnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ins[data-ad-slot=\"I_새전북신문_신규컨텐츠하단1_300_250\"],ins[data-ad-slot=\"I_새전북신문_신규컨텐츠하단2_400_250\"]"
+                    }
+                }
+            },
+            {
                 "id": "4e4ea86d-8074-4b77-afee-87887845a3e7",
                 "name": "skidkaonline.ru##",
                 "content": {
