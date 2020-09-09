@@ -44722,6 +44722,19 @@
                 }
             },
             {
+                "id": "e7987d2c-f3eb-4a9e-a980-1b1b51b363eb",
+                "name": "wsj.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wsj\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#in_ad_col_a,div#in_ad_col_b,div[class^=\"WSJTheme--adWrapper--\"]"
+                    }
+                }
+            },
+            {
                 "id": "ee8d2a53-9d21-488e-baeb-c5d90a7a5688",
                 "name": "wtwt32.com##",
                 "content": {
