@@ -340,6 +340,22 @@
                 }
             },
             {
+                "id": "6c2955d0-f48e-4962-9789-c4e3c5c32ca6",
+                "name": "##a[href*=\"//chaturbate.com/in/?\"][href*=\"campaign=\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*chaturbate.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//chaturbate.com/in/?\"][href*=\"campaign=\"]"
+                    }
+                }
+            },
+            {
                 "id": "be9b04b4-3ee3-47eb-8165-3993d88ae56b",
                 "name": "##a[href*=\"//coinca-777.com\"]",
                 "content": {
@@ -4176,6 +4192,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src*=\"//cdn04.sndkorea.co.kr/\"]"
+                    }
+                }
+            },
+            {
+                "id": "95f52c0d-5dcd-4863-b463-23b3188fac65",
+                "name": "##iframe[src*=\"//chaturbate.com/in/?\"][src*=\"campaign=\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*chaturbate.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//chaturbate.com/in/?\"][src*=\"campaign=\"]"
                     }
                 }
             },
@@ -11495,6 +11527,19 @@
                 }
             },
             {
+                "id": "d96cd481-07e0-49d5-b064-1002dc75038b",
+                "name": "asgclickpop.com/get/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?asgclickpop\\.com/get/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "81e1ff60-1e41-452d-a6e9-f77f84ccf058",
                 "name": "asiae.co.kr/include/real_ad/",
                 "content": {
@@ -11825,6 +11870,32 @@
                 }
             },
             {
+                "id": "59403a5f-5178-421c-b9f0-0eccf88c9cac",
+                "name": "blockadsnot.com/*.aspx",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?blockadsnot\\.com/.*\\.aspx",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "15fe079f-8ba3-4053-bf09-8e081df63fed",
+                "name": "blockadsnot.com/vast-client.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?blockadsnot\\.com/vast-client\\.min\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "e5fcd652-72cd-4a12-92c6-85fd701d4487",
                 "name": "bnhtml.com/invoke.js",
                 "content": {
@@ -12063,6 +12134,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?c\\.adand\\.co\\.kr/adand/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2454da6d-d42b-4f8d-b97c-8a6314e3b9ad",
+                "name": "c.adsco.re",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?c\\.adsco\\.re",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -13930,6 +14014,19 @@
                 }
             },
             {
+                "id": "102d9556-34ec-4032-8979-2e26a02237db",
+                "name": "chaturbate.com/in/?*campaign=",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?chaturbate\\.com/in/\\?.*campaign=",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "5f4cdb93-839c-4fa7-9a32-82b1ccac736e",
                 "name": "cine21.com/misc/iframe/ad_netinsight/$domain=cine21.com",
                 "content": {
@@ -15656,6 +15753,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?dlv\\.hooniad\\.com",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "01b7d320-9ef3-40e8-be85-019384ea1775",
+                "name": "dnhfi5nn2dt67.cloudfront.net/hls.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dnhfi5nn2dt67\\.cloudfront\\.net/hls\\.min\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -24250,6 +24360,45 @@
                 }
             },
             {
+                "id": "42c7d4b0-5fda-412c-9286-07b1627684cb",
+                "name": "onclickalgo.com/script/suurl.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?onclickalgo\\.com/script/suurl\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "61e89cbc-a675-497c-be03-ebaea2f6b831",
+                "name": "onclickgenius.com/script/suurl.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?onclickgenius\\.com/script/suurl\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1552c5e1-ba44-471f-81d9-4c0a3d13a67f",
+                "name": "onclickperformance.com/script/suurl.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?onclickperformance\\.com/script/suurl\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c7dca13d-1724-476b-922a-14c27e794675",
                 "name": "onclicktop.com/a/display.php",
                 "content": {
@@ -27496,6 +27645,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?st\\.keywordsconnect\\.com",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "51a39397-5381-4147-a98e-b20d69e2ad68",
+                "name": "static.adxadserv.com/js/adp.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?static\\.adxadserv\\.com/js/adp\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
