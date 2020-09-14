@@ -45001,6 +45001,19 @@
                 }
             },
             {
+                "id": "e040fa06-60d4-4075-9aee-628e80678a5f",
+                "name": "www-makeuseof-com.cdn.ampproject.org##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?www-makeuseof-com\\.cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-even,div.ad-odd,div.ad-zone,div.ad-zone-container"
+                    }
+                }
+            },
+            {
                 "id": "edf85d97-307b-43cf-8484-9f766155bbce",
                 "name": "xportsnews.com##",
                 "content": {
