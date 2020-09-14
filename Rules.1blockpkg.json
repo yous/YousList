@@ -2870,6 +2870,19 @@
                 }
             },
             {
+                "id": "c165669a-dcd2-48fa-9d64-aa513b5da298",
+                "name": "##iframe[src*=\"//ad.feedbag.co.kr/ads.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//ad.feedbag.co.kr/ads.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "a12bf21f-1655-4aa3-a122-5a198a031099",
                 "name": "##iframe[src*=\"//ad.idnad.co.kr/ad/iframe/ad_iframe.html\"]",
                 "content": {
@@ -7860,6 +7873,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.dt\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9253d2b8-5d6a-4bb6-976b-d8070db36158",
+                "name": "ad.feedbag.co.kr/ads.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.feedbag\\.co\\.kr/ads\\.html",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
