@@ -19038,22 +19038,6 @@
                 }
             },
             {
-                "id": "e6bff98f-79a7-4a7e-989a-3cb8fe1e33f5",
-                "name": "img.quasarzone.co.kr/img/qsz_banner/$domain=quasarzone.co.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.quasarzone\\.co\\.kr/img/qsz_banner/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*quasarzone.co.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "a6830e9f-7c42-441a-87ba-60c4d06a7265",
                 "name": "img.sbs.co.kr/news/ad/delay_redirect.html$domain=news.sbs.co.kr",
                 "content": {
@@ -19223,6 +19207,38 @@
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?img2\\.keywordsconnect\\.com/iconAdImg.*\\.gif",
                         "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "25720d7b-d844-404b-b35c-c8bf16d45f9f",
+                "name": "img2.quasarzone.co.kr/banner/$domain=quasarzone.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?img2\\.quasarzone\\.co\\.kr/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*quasarzone.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c9e5bb3e-9b8d-406f-87a0-e32cabe28b1e",
+                "name": "img2.quasarzone.com/banner/$domain=quasarzone.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?img2\\.quasarzone\\.com/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*quasarzone.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -25449,22 +25465,6 @@
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?qcma\\.qrobo\\.com/QCMA/common/",
                         "url-filter-is-case-sensitive": false
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "ff314dd0-1f25-4d1b-be5f-2e8d0d30c05e",
-                "name": "quasarzone.co.kr/data/file/qsz_banner/$domain=quasarzone.co.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?quasarzone\\.co\\.kr/data/file/qsz_banner/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*quasarzone.co.kr"
-                        ]
                     },
                     "action": {
                         "type": "block"
@@ -41725,15 +41725,15 @@
                 }
             },
             {
-                "id": "ef5d52e8-2918-4c31-bd31-3985d1118a77",
-                "name": "quasarzone.co.kr##",
+                "id": "2401d491-dfee-4dcd-a43d-74f9c9f0d64d",
+                "name": "quasarzone.com##",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?quasarzone\\.co\\.kr"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?quasarzone\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#floatdiv,div.banner-box,div.banner-box2,div.banner-box3,div.header-banner,img.partner_banner"
+                        "selector": "aside.logo-area,div.banner-area"
                     }
                 }
             },
