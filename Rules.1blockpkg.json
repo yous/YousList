@@ -28404,6 +28404,22 @@
                 }
             },
             {
+                "id": "8f4b37fa-6b8e-4683-9002-c646f926e9ba",
+                "name": "theguru.co.kr/data/banner/$domain=theguru.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?theguru\\.co\\.kr/data/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*theguru.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "46a830ce-a0b2-4a13-8f21-aabaad04d1d8",
                 "name": "thepiratebay.bid/static/ads/$domain=thepiratebay.bid",
                 "content": {
@@ -43049,6 +43065,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-slot"
+                    }
+                }
+            },
+            {
+                "id": "f6ad49fd-fc9e-4c00-8cec-df4909ecc191",
+                "name": "theguru.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?theguru\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#news_body_area>div[style=\"clear:both;float:right;margin-left:20px;width:300px;height:250px;\"],div.com_ban"
                     }
                 }
             },
