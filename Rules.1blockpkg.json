@@ -28449,33 +28449,12 @@
                 }
             },
             {
-                "id": "7c593182-a75b-40b6-92b8-4a76413e3fb7",
-                "name": "tkor.city/bann/$domain=tkor.city|tkor.pink",
+                "id": "cd1d5925-d1e0-42f9-b5c7-a1eeb063a9e9",
+                "name": "tkor.*/bann/",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.city/bann/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*tkor.city",
-                            "*tkor.pink"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "9f4e62ab-7832-420c-910a-03b5e9db0930",
-                "name": "tkor.pink/bann/$domain=tkor.city|tkor.pink",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.pink/bann/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*tkor.city",
-                            "*tkor.pink"
-                        ]
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\..*/bann/",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
@@ -43256,24 +43235,11 @@
                 }
             },
             {
-                "id": "4d211bb4-91fb-4eed-8edb-30c76dbe351c",
-                "name": "tkor.city##",
+                "id": "13691b74-bf23-46dc-943a-5280c3aa3603",
+                "name": "tkor.red##",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.city"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.bn,div.main_top_bann,div.mobile_banner,section.top_banner"
-                    }
-                }
-            },
-            {
-                "id": "634e74f0-7f27-4e76-abfa-7597ee70e34d",
-                "name": "tkor.pink##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.pink"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tkor\\.red"
                     },
                     "action": {
                         "type": "css-display-none",
