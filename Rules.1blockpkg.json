@@ -7112,6 +7112,71 @@
                 }
             },
             {
+                "id": "0de4834c-51cb-4ea8-80ed-4f88118ab66f",
+                "name": "a.vdo.ai/core/*/vdo.ai.banner.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?a\\.vdo\\.ai/core/.*/vdo\\.ai\\.banner\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "51c37daa-837a-4cc4-a645-7a08a1dd2768",
+                "name": "a.vdo.ai/core/*/vdo.ai.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?a\\.vdo\\.ai/core/.*/vdo\\.ai\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "80c180eb-a1d3-48cf-bd37-d4f99432b8a5",
+                "name": "a.vdo.ai/core/dependencies_banner/vdo.banner.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?a\\.vdo\\.ai/core/dependencies_banner/vdo\\.banner\\.min\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cb09a836-3e2c-4d91-9c94-e107bbdc31aa",
+                "name": "a.vdo.ai/core/dependencies_hbv*/vdo.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?a\\.vdo\\.ai/core/dependencies_hbv.*/vdo\\.min\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5a0e38f6-3efb-4a5d-85e9-b4522d741c8e",
+                "name": "a.vdo.ai/core/dependencies_stories_v*/vdo.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?a\\.vdo\\.ai/core/dependencies_stories_v.*/vdo\\.min\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0959d202-85cc-4af1-acde-f3d799ba2075",
                 "name": "a.wyzmob.com",
                 "content": {
