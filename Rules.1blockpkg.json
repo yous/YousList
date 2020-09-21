@@ -24091,22 +24091,6 @@
                 }
             },
             {
-                "id": "013cd02f-c444-4593-8ea6-1bf57172d6cb",
-                "name": "nightkor.com/img/banner/$domain=nightkor.com",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?nightkor\\.com/img/banner/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*nightkor.com"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "bab00818-69fe-4fc9-b7f4-45443858272e",
                 "name": "nocutnews.co.kr/banner/2012/ad_right_*.asp",
                 "content": {
@@ -40993,19 +40977,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#head_ads,div#sideContents>div[style=\"min-height:240px;\"]:not([class]):not([id]),div.BottomContainer-adContainer,div.CommentPanelBannerAd,div.CompanionAdContainer,div.NicoSpotAdContainer,div.footerBanner,div.sideAd,div.sideBanner,div.sideTxtAd,div.sidewallAd,iframe[src^=\"https://ads.nicovideo.jp/bannertext\"]"
-                    }
-                }
-            },
-            {
-                "id": "a22a4656-ca48-419b-b7ff-30b52e946976",
-                "name": "nightkor.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?nightkor\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.wing-left,div.wing-right,section.board-list>div[style=\"margin: auto;text-align:center;\"]"
                     }
                 }
             },
