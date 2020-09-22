@@ -1156,6 +1156,22 @@
                 }
             },
             {
+                "id": "fcac598c-0ca8-4d33-ba71-a9f7c56d677c",
+                "name": "##a[href*=\"//ten-1056.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*ten-1056.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//ten-1056.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "4deb84e5-dbce-40ae-b714-bd9976264387",
                 "name": "##a[href*=\"//top-4865.com\"]",
                 "content": {
@@ -35491,7 +35507,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.wefdvsadw"
+                        "selector": "div.jMhaxE"
                     }
                 }
             },
