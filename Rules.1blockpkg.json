@@ -26075,6 +26075,19 @@
                 }
             },
             {
+                "id": "a0792820-788d-4457-88d5-a04ca418eb07",
+                "name": "s0.momoafile.info/tracker",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?s0\\.momoafile\\.info/tracker",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6a052fcd-10b7-41a9-93d9-dfe0393b37cd",
                 "name": "s1.adform.net/banners/scripts/adx.js",
                 "content": {
@@ -28900,6 +28913,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?tracker\\.digitalcamp\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "14c465c1-8157-4ded-ae81-3583e1051c86",
+                "name": "tracker.nodojs.nl",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tracker\\.nodojs\\.nl",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
