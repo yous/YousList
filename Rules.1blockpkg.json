@@ -36565,6 +36565,19 @@
                 }
             },
             {
+                "id": "2a019c89-1aaf-4187-9239-cb074dd86a18",
+                "name": "jr.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?jr\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bigBanner,div.top_banner"
+                    }
+                }
+            },
+            {
                 "id": "e4b67115-380e-42ba-84ed-777f85607bb9",
                 "name": "justwatch.com##",
                 "content": {
