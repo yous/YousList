@@ -16753,38 +16753,6 @@
                 }
             },
             {
-                "id": "91e324a8-58d0-4dae-8ef1-c83540f7c736",
-                "name": "etobang.co.kr/img/banner/$domain=etobang.co.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?etobang\\.co\\.kr/img/banner/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*etobang.co.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "5c6e7136-8256-4e29-acd9-3aacaf82c142",
-                "name": "etobang.co.kr/img/net/banner/$domain=etobang.co.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?etobang\\.co\\.kr/img/net/banner/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*etobang.co.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "bc48e29f-2145-430d-bbf6-97c282e94ce0",
                 "name": "etoland.co.kr/img/banner/$domain=etoland.co.kr",
                 "content": {
@@ -16809,70 +16777,6 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*etoland.co.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "74bc5ac5-92cb-4102-a5ad-a8f676096c14",
-                "name": "etorrent.co.kr/img/banner/$domain=etorrent.co.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?etorrent\\.co\\.kr/img/banner/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*etorrent.co.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "52ab1207-a41d-4cd4-9140-cfe677c8e3b6",
-                "name": "etorrent.co.kr/img/net/banner/$domain=etorrent.co.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?etorrent\\.co\\.kr/img/net/banner/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*etorrent.co.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "f8580dc8-a4e4-4f5c-aa44-0a9509b45fed",
-                "name": "etorrent.kr/img/banner/$domain=etorrent.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?etorrent\\.kr/img/banner/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*etorrent.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "070e342b-875a-4ea6-a4ab-3a4330c997c5",
-                "name": "etorrent.kr/img/net/banner/$domain=etorrent.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?etorrent\\.kr/img/net/banner/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*etorrent.kr"
                         ]
                     },
                     "action": {
@@ -34409,15 +34313,15 @@
                 }
             },
             {
-                "id": "9e09d5a4-5f47-4222-8fdd-a8cbe5b95d7e",
-                "name": "etobang.co.kr##",
+                "id": "c8f35907-79d5-4010-b754-92ac65510da7",
+                "name": "etoday.co.kr##",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?etobang\\.co\\.kr"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?etoday\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(1)[valign=\"top\"][width=\"470\"]>table:nth-of-type(2)[cellspacing=\"0\"][width=\"100%cellpadding=0\"],body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"][width=\"300\"],body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(5),div#mw_mobile>center,div.middleAds,div.topAds,img[src^=\"../../img/banner/\"],img[src^=\"/img/net/banner/\"]"
+                        "selector": "div.l_content_module>div[style=\"margin-top:20px\"],div.l_content_module>div[style=\"width:680px;height:250;margin:40px auto 0\"]"
                     }
                 }
             },
@@ -34430,46 +34334,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(1)[valign=\"top\"][width=\"470\"]>table:nth-of-type(2)[cellspacing=\"0\"][width=\"100%cellpadding=0\"],body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"][width=\"300\"],body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(5),div#mw_mobile>center,div.middleAds,div.topAds,img[src^=\"../../img/banner/\"],img[src^=\"/img/net/banner/\"]"
-                    }
-                }
-            },
-            {
-                "id": "b49924e1-20d9-4c59-843e-021d22a44433",
-                "name": "etorrent.co.kr##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?etorrent\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(1)[valign=\"top\"][width=\"470\"]>table:nth-of-type(2)[cellspacing=\"0\"][width=\"100%cellpadding=0\"],body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"][width=\"300\"],body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(5),div#mw_mobile>center,div.middleAds,div.topAds,img[src^=\"../../img/banner/\"],img[src^=\"/img/net/banner/\"]"
-                    }
-                }
-            },
-            {
-                "id": "2200da63-dba1-47ae-9cb5-83864409f5ae",
-                "name": "etorrent.kr##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?etorrent\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(1)[valign=\"top\"][width=\"470\"]>table:nth-of-type(2)[cellspacing=\"0\"][width=\"100%cellpadding=0\"],body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(1)>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"][width=\"300\"],body>table:nth-of-type(3)[width=\"1000\"]>tbody>tr:nth-of-type(1)>td:nth-of-type(3)[valign=\"top\"]:not([width])>table:nth-of-type(5),div#mw_mobile>center,div.middleAds,div.topAds,img[src^=\"../../img/banner/\"],img[src^=\"/img/net/banner/\"]"
-                    }
-                }
-            },
-            {
-                "id": "c8f35907-79d5-4010-b754-92ac65510da7",
-                "name": "etoday.co.kr##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?etoday\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.l_content_module>div[style=\"margin-top:20px\"],div.l_content_module>div[style=\"width:680px;height:250;margin:40px auto 0\"]"
+                        "selector": "aside.back_aside1,aside.back_aside2,div#container>div.right>div[style=\"clear:both;margin-top:10px;padding:10px 0 10px 0;width:100%;text-align:center;\"],div#container>div.right>div[style=\"width:300px;padding-left:10px;float:left;\"],div#main_bn,div#mw_basic>center,div#mw_mobile>center,div.middleAds,div.topAds,img[src^=\"../../img/banner/\"],img[src^=\"/img/net/banner/\"]"
                     }
                 }
             },
