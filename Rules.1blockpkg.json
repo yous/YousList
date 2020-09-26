@@ -20889,6 +20889,86 @@
                 }
             },
             {
+                "id": "20560415-1e31-4cd9-88a7-1e0c56c5c6a7",
+                "name": "livecodi.com/data/file/apms/$domain=livecodi.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?livecodi\\.com/data/file/apms/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*livecodi.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0a6ac769-810f-4a81-b37b-1bab3353f05f",
+                "name": "livecodi.com/data/file/bannwe01/$domain=livecodi.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?livecodi\\.com/data/file/bannwe01/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*livecodi.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e6e4ea72-e295-42b9-85de-513211728f0a",
+                "name": "livecodi.com/data/file/bottom_01/$domain=livecodi.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?livecodi\\.com/data/file/bottom_01/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*livecodi.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fd4f41df-09e4-4c82-b620-80915c488b4a",
+                "name": "livecodi.com/data/file/mains/$domain=livecodi.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?livecodi\\.com/data/file/mains/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*livecodi.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e0b5609b-3459-43cf-b3f1-644ffa6ee9bd",
+                "name": "livecodi.com/data/file/top_01/$domain=livecodi.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?livecodi\\.com/data/file/top_01/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*livecodi.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f98f73d3-4b2e-4573-8714-9c2d9c2c8f3c",
                 "name": "loader.fmkorea.com/_loader/loader.php$domain=fmkorea.com|m.fmkorea.com",
                 "content": {
@@ -37120,6 +37200,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.shopping_v2"
+                    }
+                }
+            },
+            {
+                "id": "777c81e0-b8dc-4346-b4bf-a2206e9ea307",
+                "name": "livecodi.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?livecodi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.basic-banner,div.miso-post-gallery a[href^=\"https://www.livecodi.com/bbs/board.php?bo_table=bannwe01\"],div.miso-post-gallery a[href^=\"https://www.livecodi.com/bbs/link.php?bo_table=bannwe01\"],div.miso-post-gallery a[href^=\"https://www.livecodi.com/bbs/link.php?bo_table=bottom_01\"],div.miso-post-gallery a[href^=\"https://www.livecodi.com/bbs/link.php?bo_table=mains\"],div.miso-post-gallery a[href^=\"https://www.livecodi.com/bbs/link.php?bo_table=top_01\"]"
                     }
                 }
             },
