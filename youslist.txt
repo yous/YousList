@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20200926
+! Version: 20200929
 
 ! General element hiding rules
 ##a[href*="//10x10bet888.com"]
@@ -715,7 +715,7 @@ yug-ppl.com#@#a[href*="//yug-ppl.com"]
 ||ad.ilbe.com/files2/ad/
 ||ad.ilikesponsorad.co.kr^
 ||ad.ilikesponsorad.com^
-||ad.imp.joins.com/html/$domain=news.joins.com
+||ad.imp.joins.com/html/$domain=mnews.jtbc.joins.com|news.joins.com
 ||ad.ingfac.co.kr^
 ||ad.jjang0u.com:8080/js.kti/jjang0u/$domain=m.jjang0u.com
 ||ad.kmib.co.kr^
@@ -1083,8 +1083,8 @@ yug-ppl.com#@#a[href*="//yug-ppl.com"]
 ||care-health.co.kr^
 ||cas.criteo.com/delivery/ajs.php^
 ||cast.imp.joins.com/bid/$domain=ooyala.com|news.joins.com|news.jtbc.joins.com|vod.jtbc.joins.com
-||cast.imp.joins.com/body/$domain=m.isplus.joins.com|news.joins.com|vod.jtbc.joins.com
-||cast.imp.joins.com/persona.js^$domain=m.isplus.joins.com|news.joins.com|vod.jtbc.joins.com
+||cast.imp.joins.com/body/$domain=m.isplus.joins.com|mnews.jtbc.joins.com|news.joins.com|vod.jtbc.joins.com
+||cast.imp.joins.com/persona.js^$domain=m.isplus.joins.com|mnews.jtbc.joins.com|news.joins.com|vod.jtbc.joins.com
 ||castbox.shopping.naver.com/index.nhn^
 ||cdn-a.yieldlove.com/yieldlove-bidder-stroeer.js^
 ||cdn-aitg.widerplanet.com/js/adr.js^
@@ -5105,6 +5105,8 @@ mnews.jtbc.joins.com##div.ad_text_2line
 mnews.jtbc.joins.com##div.footer_ad
 mnews.jtbc.joins.com##div.footer_google
 mnews.jtbc.joins.com##div.text_ad
+mnews.jtbc.joins.com##iframe[src^="//ad.imp.joins.com/html/"]
+mnews.jtbc.joins.com##section#article_content_area>div[style="text-align:center;margin-top: 30px;"]
 mnews.jtbc.joins.com##section.shopping.right
 mnews.jtbc.joins.com##section.shopping_box
 mnews.sbs.co.kr##div#ggadsense1
