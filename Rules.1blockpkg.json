@@ -27770,6 +27770,22 @@
                 }
             },
             {
+                "id": "d4d1fb0d-31e7-419f-a34f-5b715475e7fe",
+                "name": "sta.vrixon.com/encvrix/zum/$domain=pip-player.zum.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sta\\.vrixon\\.com/encvrix/zum/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*pip-player.zum.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "51a39397-5381-4147-a98e-b20d69e2ad68",
                 "name": "static.adxadserv.com/js/adp.js",
                 "content": {
@@ -33180,7 +33196,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.adsv_banner,div.con_ad_module,div.floating_ban3,div.fortune_module01,div.main_banner,div.sec2_ad,div.sec3_ad,div.sec4_ad,div.sv_banner,div.va_cont>div[style=\"padding:10px 0px;text-align: center;\"],ul.ad_Area"
+                        "selector": "div.adsv_banner,div.con_ad_module,div.fortune_module01,div.main_banner,div.sec2_ad,div.sec3_ad,div.sec4_ad,div.sv_banner,div.va_cont>div[style=\"padding:10px 0px;text-align: center;\"],div[class^=\"floating_ban\"],ul.ad_Area"
                     }
                 }
             },
