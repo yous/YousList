@@ -41339,6 +41339,19 @@
                 }
             },
             {
+                "id": "56c581c2-42fc-47bd-92b8-619ac35ffa18",
+                "name": "onehack.us##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?onehack\\.us"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.discourse-adplugin,div.google-adsense"
+                    }
+                }
+            },
+            {
                 "id": "ed0cba2d-a6ce-4833-85b2-ae4f4e47adf8",
                 "name": "online.anidub.com##",
                 "content": {
