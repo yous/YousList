@@ -28407,6 +28407,19 @@
                 }
             },
             {
+                "id": "fe90ce91-1db6-4695-9590-0460735d7ba8",
+                "name": "tagan.adlightning.com/leeenterprises/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tagan\\.adlightning\\.com/leeenterprises/.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1112b762-95e7-4944-8a01-c8b51b55e652",
                 "name": "tags.expo9.exponential.com/tags/*/*/tags.js",
                 "content": {
@@ -41894,6 +41907,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.Article__articleListWrapper__featureBannerWrapper"
+                    }
+                }
+            },
+            {
+                "id": "f3f562d1-50ef-48dd-85b3-0205521a218a",
+                "name": "rapidcityjournal.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?rapidcityjournal\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-col,div.dfp-ad,div.tnt-ads-container,div.top-leader-ad-col"
                     }
                 }
             },
