@@ -10874,6 +10874,19 @@
                 }
             },
             {
+                "id": "f7aea94c-2a51-4e24-be04-67f7b41bf87e",
+                "name": "advintage.net/adserver/www/delivery/ajs.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?advintage\\.net/adserver/www/delivery/ajs\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0ddae1dc-442d-4fbf-ad3d-8f7611c55d29",
                 "name": "adw.heraldm.com/cgi-bin/conad.fcgi/",
                 "content": {
@@ -40217,6 +40230,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#adsentop,div#aside>div.ad_banner,div.related>div[style=\"position:absolute; top:0; right:0px; width:200px; height:200px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "449e519e-e694-4d37-977f-07f0f100ebec",
+                "name": "morebikes.co.uk##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?morebikes\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.post-content>div.ai-viewport-1[style=\"margin: 8px auto; text-align: center; display: block; clear: both;\"],div.post-content>div.ai-viewport-2[style=\"margin: 8px auto; text-align: center; display: block; clear: both;\"],div.post-content>div.ai-viewport-3[style=\"margin: 8px auto; text-align: center; display: block; clear: both;\"]"
                     }
                 }
             },
