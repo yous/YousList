@@ -32330,6 +32330,19 @@
                 }
             },
             {
+                "id": "d85af087-9850-43db-a8c1-b5e74bc1cd82",
+                "name": "proboards.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?proboards\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad1,div#wrapper>div[style=\"display: flex; width: 700px; max-width: 100%; margin: 0 auto 10px; text-align: center; justify-content: space-around;flex-wrap: wrap\"],iframe#ad-desktop-bottom,iframe#ad-desktop-bottom2,iframe#ad-desktop-top"
+                    }
+                }
+            },
+            {
                 "id": "7302f25b-ae48-4773-94c2-e20ec85876d9",
                 "name": "bodnara.co.kr##",
                 "content": {
