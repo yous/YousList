@@ -25099,6 +25099,22 @@
                 }
             },
             {
+                "id": "d506fe81-b83d-480c-ad89-6e4ae5324be4",
+                "name": "pip-player.zum.com/recommend/ads/$domain=pip-player.zum.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pip-player\\.zum\\.com/recommend/ads/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*pip-player.zum.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "086fbcd0-88e9-4b3b-a866-ee51ae0de1c4",
                 "name": "pirateproxy.cam/static/*/ad-scroll.js$domain=pirateproxy.cam",
                 "content": {
