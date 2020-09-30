@@ -32317,6 +32317,19 @@
                 }
             },
             {
+                "id": "29b37a0c-7d44-4947-8075-49f04aaf6059",
+                "name": "boards.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?boards\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad1,div#wrapper>div[style=\"display: flex; width: 700px; max-width: 100%; margin: 0 auto 10px; text-align: center; justify-content: space-around;flex-wrap: wrap\"],iframe#ad-desktop-bottom,iframe#ad-desktop-bottom2,iframe#ad-desktop-top"
+                    }
+                }
+            },
+            {
                 "id": "7302f25b-ae48-4773-94c2-e20ec85876d9",
                 "name": "bodnara.co.kr##",
                 "content": {
