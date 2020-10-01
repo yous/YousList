@@ -132,6 +132,22 @@
                 }
             },
             {
+                "id": "1f6239e7-6fec-4f3c-af32-ecd2bab8d1f3",
+                "name": "##a[href*=\"//asw85.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*asw85.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//asw85.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "7fa8265c-850d-4b23-99ea-949da64ad193",
                 "name": "##a[href*=\"//bae-we772.com\"]",
                 "content": {
@@ -420,6 +436,22 @@
                 }
             },
             {
+                "id": "59ccbdb4-7713-4744-bf73-a9cb7addabc1",
+                "name": "##a[href*=\"//fr-23.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*fr-23.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//fr-23.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "89493590-ae5c-4038-94cc-92f2c211b120",
                 "name": "##a[href*=\"//fr-55.com\"]",
                 "content": {
@@ -448,6 +480,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//gb-555.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "7cd33d6f-000c-4a0b-9058-2106dcfa072b",
+                "name": "##a[href*=\"//grs-13.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*grs-13.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//grs-13.com\"]"
                     }
                 }
             },
@@ -788,6 +836,22 @@
                 }
             },
             {
+                "id": "c0d61b54-eacc-46ff-92bb-f30d9e05317a",
+                "name": "##a[href*=\"//nb-om.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*nb-om.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//nb-om.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "2883a693-ea94-4a9d-9f5c-735f1b3cbee3",
                 "name": "##a[href*=\"//nb-sg.com\"]",
                 "content": {
@@ -928,6 +992,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//rk-33.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "05227fe5-5f80-4100-a535-49ca03f5cbd9",
+                "name": "##a[href*=\"//s-ang.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*s-ang.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//s-ang.com\"]"
                     }
                 }
             },
@@ -1188,6 +1268,23 @@
                 }
             },
             {
+                "id": "2d06cb45-209f-4136-b768-813918b4f698",
+                "name": "##a[href*=\"//tracker-pm2.uni8888partner.com/link\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*uni8888partner.com",
+                            "*uni88care-1.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//tracker-pm2.uni8888partner.com/link\"]"
+                    }
+                }
+            },
+            {
                 "id": "31e19828-20bc-420a-be58-e8b5fe8af988",
                 "name": "##a[href*=\"//tslot5.com\"]",
                 "content": {
@@ -1232,6 +1329,23 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//um-e66.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "a99f6127-ce40-4b33-a4ec-4c2406b33f73",
+                "name": "##a[href*=\"//uni88care-1.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*uni8888partner.com",
+                            "*uni88care-1.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//uni88care-1.com\"]"
                     }
                 }
             },
@@ -37113,6 +37227,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.banner-colorset,div.basic-banner"
+                    }
+                }
+            },
+            {
+                "id": "aa197795-8052-4646-a418-5e6bc195c16f",
+                "name": "linkpan.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?linkpan\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.basic-banner"
                     }
                 }
             },
