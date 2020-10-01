@@ -18235,6 +18235,19 @@
                 }
             },
             {
+                "id": "8eb97b1e-7a13-4521-be73-97a659fc1aff",
+                "name": "hodu*.com/data/banner/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hodu.*\\.com/data/banner/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "28eaecaf-3287-4239-8e14-f6b2ecd0af45",
                 "name": "hohotoon16.com/data/banner/$domain=hohotoon16.com",
                 "content": {
@@ -35719,6 +35732,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#floating_banner_body,div.ad-control-articlemiddle,div.article-dn-banner,div.article-top-banner"
+                    }
+                }
+            },
+            {
+                "id": "6cb18930-cf85-4a4c-84b8-0566659a4bb1",
+                "name": "hodu229.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hodu229\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_wing,div.t_baner_box>ul"
                     }
                 }
             },
