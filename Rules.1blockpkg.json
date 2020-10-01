@@ -7606,6 +7606,22 @@
                 }
             },
             {
+                "id": "aaff1493-257e-4e14-a6f0-1cef9b6f1e90",
+                "name": "19yolo.com/data/bn_img/$domain=19yolo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?19yolo\\.com/data/bn_img/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*19yolo.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8e288590-d3ad-43ad-8291-d164785dff68",
                 "name": "211.234.119.116/pront/default.asp",
                 "content": {
@@ -31640,6 +31656,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.hp_textlink_ad,div.mod_index_ad,div.mod_r_ad,iframe[src^=\"https://g.163.com/r\"],iframe[src^=\"https://g.163.com/ur\"]"
+                    }
+                }
+            },
+            {
+                "id": "e21cd9a0-d17d-4af6-97b3-4e207b9bf568",
+                "name": "19yolo.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?19yolo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_area"
                     }
                 }
             },
