@@ -5801,6 +5801,19 @@
                 }
             },
             {
+                "id": "cea1830b-1f89-4546-883b-7dffad651603",
+                "name": "##iframe[src*=\"//native.mediacategory.com/servlet/adContentsBox\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//native.mediacategory.com/servlet/adContentsBox\"]"
+                    }
+                }
+            },
+            {
                 "id": "4c1c3b0a-b128-447b-a420-14271a50a1de",
                 "name": "##iframe[src*=\"//news.nate.com/etc/AD\"]",
                 "content": {
@@ -24420,6 +24433,19 @@
                 }
             },
             {
+                "id": "125a9f04-0f29-4126-8827-376edf21b753",
+                "name": "native.mediacategory.com/servlet/adContentsBox",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?native\\.mediacategory\\.com/servlet/adContentsBox",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2796783f-1faf-4d04-90a0-42d0e72388b3",
                 "name": "networkad.nate.com/nate/mobile_news.html$domain=m.comm.news.nate.com|m.news.nate.com",
                 "content": {
@@ -36998,7 +37024,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad-google-side1,div.ad-google-side2,div.news__view__article>ul[style=\"float:right; margin:0 0 10px 10px;\"],div.news__view__article__advertise,div[class^=\"aside-google-\"],div[class^=\"google-ad-slot-\"],ul.aside-popular-wrap>li>div[style=\"display: block;width: 300px;height: 250px;\"]"
+                        "selector": "div.ad-google-side1,div.ad-google-side2,div.aside-sticky>div[style=\"display: block;width: 300px;height: 250px;\"],div.news-article-memo>div[style=\"float: right;display: block;margin: 0 0 10px 10px;width:300px;height:250px\"],div.news__view__article>ul[style=\"float:right; margin:0 0 10px 10px;\"],div.news__view__article__advertise,div[class^=\"aside-google-\"],div[class^=\"google-ad-slot-\"],ul.aside-popular-wrap>li>div[style=\"display: block;width: 300px;height: 250px;\"]"
                     }
                 }
             },
