@@ -34702,6 +34702,19 @@
                 }
             },
             {
+                "id": "a9e2309e-4b04-40ac-abc3-2c9d9c136818",
+                "name": "dictionary.cambridge.org##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dictionary\\.cambridge\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_btmslot_a,div#ad_houseslot_a,div#ad_houseslot_b,div#ad_leftslot,div#ad_rightslot,div#ad_rightslot2,div#ad_topslot_a,div#ad_topslot_b,div.topslot-container"
+                    }
+                }
+            },
+            {
                 "id": "be8f9131-e10e-4a35-a37e-4184f27e4936",
                 "name": "dictionary.com##",
                 "content": {
