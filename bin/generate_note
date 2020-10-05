@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -e
+DIR="$(cd "$(dirname "$0")/.." && pwd)"
+
+cd "$DIR" >/dev/null
+
+PREV_TAG="$(git tag -l | tail -n 2 | head -n 1)"
+CURR_TAG="$(git tag -l | tail -n 1)"
+
+git log --format='%s' --reverse "${PREV_TAG}..${CURR_TAG}" | awk '{b="- "$0; print b}'
+
+echo
+echo '---'
+echo
+echo "[Download Rules.1blockpkg](https://cdn.jsdelivr.net/gh/yous/YousList@${CURR_TAG}/Rules.1blockpkg)"
+
+cd - >/dev/null
