@@ -35937,6 +35937,19 @@
                 }
             },
             {
+                "id": "14b34ef0-582b-4693-b99d-e646b90c1667",
+                "name": "gamesindustry.biz##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?gamesindustry\\.biz"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.advert,div.leaderboard-container"
+                    }
+                }
+            },
+            {
                 "id": "ef6dbf2d-5fd2-4333-b47a-4e4bc82b6a76",
                 "name": "gamesworld.de##",
                 "content": {
