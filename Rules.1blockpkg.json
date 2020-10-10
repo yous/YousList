@@ -20437,6 +20437,19 @@
                 }
             },
             {
+                "id": "fd048f0a-27c9-4890-9b6c-f7bdc556b35b",
+                "name": "iu.toonsarang.*/*.gif",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?iu\\.toonsarang\\..*/.*\\.gif",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "304bbbdc-56c2-4540-ae9e-ce7d8d32b89e",
                 "name": "j.microad.net/js/compass.js",
                 "content": {
@@ -44663,11 +44676,11 @@
                 }
             },
             {
-                "id": "dfc567d3-1132-4829-ac92-f728921cb141",
-                "name": "toonsarang.site##",
+                "id": "815db28c-25fa-4f59-a1e8-18bbe179127c",
+                "name": "toonsarang.tel##",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?toonsarang\\.site"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?toonsarang\\.tel"
                     },
                     "action": {
                         "type": "css-display-none",
