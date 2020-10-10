@@ -45833,6 +45833,19 @@
                 }
             },
             {
+                "id": "0a9fd9a2-1a2e-40a1-aea3-6555b74328fa",
+                "name": "wccftech.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wccftech\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-ad,div.sidebar-ad"
+                    }
+                }
+            },
+            {
                 "id": "7f4e5b68-6f2c-42c9-866d-51ac5d9682b7",
                 "name": "web.humoruniv.com##",
                 "content": {
