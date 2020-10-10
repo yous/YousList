@@ -17207,6 +17207,22 @@
                 }
             },
             {
+                "id": "eac2383a-eb0a-4af7-97ad-eed14b9de9b2",
+                "name": "dvdprime.com/g2/img/banner/$domain=dvdprime.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dvdprime\\.com/g2/img/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*dvdprime.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "31e9ccd4-0fbe-45aa-91e3-046a85bcec5b",
                 "name": "e-*.adzerk.net/ados",
                 "content": {
@@ -35035,7 +35051,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ad_view_right1,div#index>div#index_box3_1,div#index>div#index_box3_2,div#menu_inner>div.relative:not([id]),div#mobile_top_banner,div#view_Contents>div.box_shadow_3>div.relative[style=\"border-top: 1px solid #efefef; height: 250px; padding: 35px 0;\"],div.ad_content_bottom,div.view_bottom_ad"
+                        "selector": "div#ad_view_right1,div#index>div#index_box3_1,div#index>div#index_box3_2,div#menu_inner>div.relative:not([id]),div#mobile_top_banner,div#sidebar_container>div.rc_div.relative>a,div#sidebar_container>div.rc_div.relative>div.relative:not([id]),div#view_Contents>div.box_shadow_3>div.relative[style=\"border-top: 1px solid #efefef; height: 250px; padding: 35px 0;\"],div.ad_content_bottom,div.view_bottom_ad"
                     }
                 }
             },
