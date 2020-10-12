@@ -25821,6 +25821,22 @@
                 }
             },
             {
+                "id": "070df683-0dac-4ca6-8279-e40db75e3a99",
+                "name": "opgg-gnb.akamaized.net/static/images/banners/$domain=op.gg",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?opgg-gnb\\.akamaized\\.net/static/images/banners/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*op.gg"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a3d82f8f-44ca-4213-b17d-255bb83573aa",
                 "name": "optimized-by.4wnetwork.com/simply_loader.js",
                 "content": {
@@ -42558,7 +42574,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.LifeOwnerGlobalLeft,div.LifeOwnerGlobalRight"
+                        "selector": "div.ads__gpt__300-250,div.ads__gpt__728-90__mid,div.ads__gpt__dynamic__right,div.ads__gpt__mobile__dynamic,div.image-banner,div.life-owner"
                     }
                 }
             },
