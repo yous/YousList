@@ -36934,6 +36934,19 @@
                 }
             },
             {
+                "id": "bf962a77-a06a-44b6-b7e8-94c47373d782",
+                "name": "humandrama.tistory.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?humandrama\\.tistory\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.area_view>div[style=\"float:right;margin:0 0 10px 10px;width:336px;height:280px\"]"
+                    }
+                }
+            },
+            {
                 "id": "ec55f359-ec3d-4dbc-b39a-dc10e8855f3e",
                 "name": "humorbot.net##",
                 "content": {
