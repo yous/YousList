@@ -29782,6 +29782,22 @@
                 }
             },
             {
+                "id": "d23bd3ce-8303-463a-ac1d-78c32769e2b1",
+                "name": "timeforum.co.kr/banner/iframe/rotate/*.html$domain=timeforum.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?timeforum\\.co\\.kr/banner/iframe/rotate/.*\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*timeforum.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "cd1d5925-d1e0-42f9-b5c7-a1eeb063a9e9",
                 "name": "tkor.*/bann/",
                 "content": {
@@ -44655,6 +44671,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-wrapper"
+                    }
+                }
+            },
+            {
+                "id": "0f754b15-816d-4a83-ae58-2148d3dc6ed1",
+                "name": "timeforum.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?timeforum\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bottomBanner,div#mainTopBanner,div#popup-video,div.mtop-banner,div.tf-banner-bottom,div.tm-banner-bottom,iframe[src^=\"/banner/iframe_rotate/\"][src*=\".html\"]"
                     }
                 }
             },
