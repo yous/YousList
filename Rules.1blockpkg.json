@@ -36264,6 +36264,19 @@
                 }
             },
             {
+                "id": "a262fc70-15b5-4132-8042-db5faba9d462",
+                "name": "gearbest.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?gearbest\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a.siteBanner_link,div.siteBanner_panel"
+                    }
+                }
+            },
+            {
                 "id": "19a08277-3fa8-4006-b5f1-d74fe07f3143",
                 "name": "geeksforgeeks.org##",
                 "content": {
