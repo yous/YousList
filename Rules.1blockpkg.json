@@ -19784,6 +19784,22 @@
                 }
             },
             {
+                "id": "8ee26639-ba08-49d7-ab28-77f3f21ec63b",
+                "name": "image.donga.com/dac/NEWS/PC/*.js$domain=donga.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?image\\.donga\\.com/dac/NEWS/PC/.*\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*donga.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "af2e07f3-a374-4927-ac93-9ffa7272ddb7",
                 "name": "image.donga.com/dac/SPORTS/M/*.js$domain=sports.donga.com",
                 "content": {
@@ -19808,6 +19824,22 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*sports.donga.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "64f3d543-ebbd-4964-bc07-a00db90a83b3",
+                "name": "image.donga.com/home2012/images/ad/$domain=donga.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?image\\.donga\\.com/home2012/images/ad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*donga.com"
                         ]
                     },
                     "action": {
@@ -35219,7 +35251,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "amp-embed[data-widget-id=\"klrLx9om\"],div#top_ad,div.ad_main03,div.ad_main04,div.amp_view_ad,div[class^=\"sub_cont_AD\"],div[id^=\"ad_con\"],div[id^=\"sub_ad\"]"
+                        "selector": "amp-embed[data-widget-id=\"klrLx9om\"],div#ad_topview,div#left_wingad,div#right_wingad,div#top_ad,div#top_adzone,div.ad_main03,div.ad_main04,div.amp_view_ad,div.aside_adbtm,div.center_ban,div.main_adzone,div.right_ban,div.txt_ban,div[class^=\".aside_adzone\"],div[class^=\"aside_adzone\"],div[class^=\"sub_cont_AD\"],div[class^=\"view_ads\"],div[id^=\"ad_con\"],div[id^=\"sub_ad\"]"
                     }
                 }
             },
