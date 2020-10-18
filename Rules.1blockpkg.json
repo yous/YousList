@@ -33394,6 +33394,19 @@
                 }
             },
             {
+                "id": "cb2819cb-9861-48e6-ac93-cac931bcfd42",
+                "name": "brnews.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?brnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#article-view-content-div figure.image.max-width-300[data-idxno]"
+                    }
+                }
+            },
+            {
                 "id": "16fd4fac-9fbb-4097-8f24-5ce304dfdd96",
                 "name": "broadcast.tvchosun.com##",
                 "content": {
