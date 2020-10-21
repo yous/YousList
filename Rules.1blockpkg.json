@@ -44209,6 +44209,19 @@
                 }
             },
             {
+                "id": "99bc1a25-9366-47e1-bfdf-08cbdd8cd237",
+                "name": "techterms.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?techterms\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adDefRect"
+                    }
+                }
+            },
+            {
                 "id": "2a177c05-891b-4a26-9d34-44852da77281",
                 "name": "tecmint.com##",
                 "content": {
