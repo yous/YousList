@@ -20372,12 +20372,15 @@
                 }
             },
             {
-                "id": "d86ccdfa-a409-4c87-a750-b4ada2c0b210",
-                "name": "inven.co.kr/common/lib/js/ad.slot.js",
+                "id": "343ce584-2009-46bf-aceb-a519c5022928",
+                "name": "inven.co.kr/common/lib/js/a1ad.min.js$domain=inven.co.kr",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?inven\\.co\\.kr/common/lib/js/ad\\.slot\\.js",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?inven\\.co\\.kr/common/lib/js/a1ad\\.min\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*inven.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -20385,12 +20388,47 @@
                 }
             },
             {
-                "id": "77c941e5-39f7-4dd1-b18a-f310cbbadc5d",
-                "name": "inven.co.kr/common/lib/js/adns.js",
+                "id": "28cb2cc7-384e-4409-8091-7afa8ee74b4a",
+                "name": "inven.co.kr/common/lib/js/ad.slot.js$domain=inven.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?inven\\.co\\.kr/common/lib/js/ad\\.slot\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*inven.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "17764f37-a90e-46ef-b043-600402f61640",
+                "name": "inven.co.kr/common/lib/js/adns.js$domain=inven.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?inven\\.co\\.kr/common/lib/js/adns\\.js",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*inven.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3401fc8e-b3e1-4e19-8d93-944d1ca98c15",
+                "name": "inven.co.kr/common/lib/style/a1ad.min.css$domain=inven.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?inven\\.co\\.kr/common/lib/style/a1ad\\.min\\.css",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*inven.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -37237,7 +37275,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "body>div[style=\"text-align:center;margin-top:8px;\"],div#adHomeTop,div#articleView>div[style=\"height:41px;\"],div#mobileTailAd_Layer,div#mobileTailAd_LayerDummy,div#page>div[style=\"text-align:center;height:50px;\"],div.bbsMiddleAd,div.googleSubjectAd,div.mobileDaNs1,div.sideTopAdWrap,div.topskyad,div.videoAdPopup,div[id$=\"AdTop\"]"
+                        "selector": "body>div[style=\"text-align:center;margin-top:8px;\"],div#adHomeTop,div#articleView>div[style=\"height:41px;\"],div#mobileTailAd_Layer,div#mobileTailAd_LayerDummy,div#page>div[style=\"text-align:center;height:50px;\"],div#webzineAdQuick,div.adPart,div.bannerAd,div.bbsMiddleAd,div.googleSubjectAd,div.mobileDaNs1,div.sideTopAdWrap,div.topskyad,div.videoAd,div.videoAdPopup,div[id$=\"AdTop\"],div[id^=\"webzineAd\"]"
                     }
                 }
             },
