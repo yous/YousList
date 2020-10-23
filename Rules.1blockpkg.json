@@ -32132,6 +32132,19 @@
                 }
             },
             {
+                "id": "5f432a23-b3d2-49f0-bc2e-a77999bee97c",
+                "name": "9gag.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?9gag\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.salty-bottom-ad,div.topBannerAd-container,div[id^=\"jsid-ad-container-\"],section.block-ad"
+                    }
+                }
+            },
+            {
                 "id": "9f3127a0-4edb-40ea-b269-d81cdd7d3a39",
                 "name": "9to5google.com##",
                 "content": {
