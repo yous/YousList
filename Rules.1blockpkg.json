@@ -18744,6 +18744,19 @@
                 }
             },
             {
+                "id": "01e917ce-590c-4dd9-a0ae-0ef3be77fe26",
+                "name": "hb.vntsm.com/v3/live/ad-manager.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hb\\.vntsm\\.com/v3/live/ad-manager\\.min\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1eb850ad-b341-4f1c-bb37-ea55e6e20166",
                 "name": "health.chosun.com/js/2015/center_botbanner_2015s.js$domain=health.chosun.com",
                 "content": {
