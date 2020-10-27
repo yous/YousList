@@ -34134,6 +34134,19 @@
                 }
             },
             {
+                "id": "cc70c9d7-2b11-4a53-af87-fb8b358b6477",
+                "name": "chemicalnews.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?chemicalnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#header-wrapper>div[style=\"width:100%; height:90px; background:#f2f2f2; margin: 0 auto\"],div.tbl-taboola-reminder"
+                    }
+                }
+            },
+            {
                 "id": "f03aa1a1-35e4-41de-8115-9e42f5b91e0d",
                 "name": "chess24.com##",
                 "content": {
