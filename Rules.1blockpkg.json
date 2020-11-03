@@ -45288,6 +45288,19 @@
                 }
             },
             {
+                "id": "1c0533e7-0e74-43d4-aaf9-49c4ca9b0c79",
+                "name": "tutorialspoint.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tutorialspoint\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#google-bottom-ads,div#vi_bottom_ads,div#vi_top_ads"
+                    }
+                }
+            },
+            {
                 "id": "b2aa967c-53fc-4526-b6cd-6e53d33b1472",
                 "name": "tutsplus.com##",
                 "content": {
