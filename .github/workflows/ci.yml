@@ -1,0 +1,30 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.6, 3.7, 3.8, 3.9]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Intall dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install flake8
+      - name: Lint with flake8
+        run: |
+          flake8 bin/
+      - name: Lint with shellcheck
+        uses: ludeeus/action-shellcheck@master
+        with:
+          check_together: "yes"
+          scandir: "bin"
+          additional_files: "generate_note install_pkg release test"
+      - name: Run tests
+        run: |
+          bin/test
