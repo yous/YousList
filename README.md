@@ -1,6 +1,6 @@
 # YousList
 
-[![Build Status](https://travis-ci.org/yous/YousList.svg?branch=master)](https://travis-ci.org/yous/YousList)
+[![Build Status](https://github.com/yous/YousList/workflows/CI/badge.svg?branch=master)](https://github.com/yous/YousList/actions?query=branch%3Amaster)
 
 Block filter for advertisements, mainly on Korean sites. This works with
 [Adblock Plus][], [uBlock Origin][], [1Blocker][], [AdAway][], and [AdGuard][].
