@@ -11673,6 +11673,22 @@
                 }
             },
             {
+                "id": "125d7d60-d51c-4354-8b21-41363a453559",
+                "name": "adverweb.cjenm.com/js.mezzo/tving/$domain=tving.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adverweb\\.cjenm\\.com/js\\.mezzo/tving/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*tving.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c6cfcf41-f267-461d-a259-24f37a416547",
                 "name": "advimg.ad-mapps.com/sdk/M_PLUS/JS/ad/mezzo_SignalPlay_ad.js",
                 "content": {
@@ -12350,6 +12366,38 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?aproxy-next\\.tving\\.com/v1/v/Ad3VnDPG4kEGE.*/req/list",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*tving.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5a4ff37f-a1b3-41f6-b03d-619dba3ca006",
+                "name": "aproxy-next.tving.com/v1/v/WNPULive/get/$domain=tving.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?aproxy-next\\.tving\\.com/v1/v/WNPULive/get/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*tving.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9e8e3aa3-91ca-4b62-872e-3886bf909986",
+                "name": "aproxy-next.tving.com/v1/v/WNPUTvingTV/req/list$domain=tving.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?aproxy-next\\.tving\\.com/v1/v/WNPUTvingTV/req/list",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*tving.com"
