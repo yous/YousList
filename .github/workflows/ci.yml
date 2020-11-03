@@ -23,8 +23,6 @@ jobs:
         uses: ludeeus/action-shellcheck@master
         with:
           check_together: "yes"
-          scandir: "bin"
-          additional_files: "generate_note install_pkg release test"
       - name: Run tests
         run: |
           bin/test
