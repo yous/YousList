@@ -43077,6 +43077,19 @@
                 }
             },
             {
+                "id": "8d8f00ca-e71f-472c-95dd-7dab3a769d85",
+                "name": "projects.fivethirtyeight.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?projects\\.fivethirtyeight\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad"
+                    }
+                }
+            },
+            {
                 "id": "37e62c1c-d50a-4675-a448-a4c417bf9554",
                 "name": "prothom-alo.com##",
                 "content": {
