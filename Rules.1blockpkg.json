@@ -21248,6 +21248,19 @@
                 }
             },
             {
+                "id": "3a01e0ac-5e92-4d7b-932a-4292137ea6c8",
+                "name": "js.newsmobile.co.kr/ListingP_New_M_v*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?js\\.newsmobile\\.co\\.kr/ListingP_New_M_v.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d1df074f-6513-4ede-9b52-22f253404be9",
                 "name": "js.newsmobile.co.kr/ListingP_New_v*_m.js",
                 "content": {
@@ -21305,6 +21318,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?js\\.newsmobile\\.co\\.kr/inspace_.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0ce95a4a-00cc-45a0-a4a3-f266d5f429bc",
+                "name": "js.newsmobile.co.kr/listingp_*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?js\\.newsmobile\\.co\\.kr/listingp_.*\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
