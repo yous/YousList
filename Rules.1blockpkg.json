@@ -21807,6 +21807,19 @@
                 }
             },
             {
+                "id": "1ad2d252-e00e-479c-88b4-5b4ccf8c2666",
+                "name": "live.sekindo.com/live/liveView.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?live\\.sekindo\\.com/live/liveView\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "20560415-1e31-4cd9-88a7-1e0c56c5c6a7",
                 "name": "livecodi.com/data/file/apms/$domain=livecodi.com",
                 "content": {
@@ -32608,6 +32621,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "ins.adsbygoogle"
+                    }
+                }
+            },
+            {
+                "id": "587ef21c-73c6-40ef-a11a-ae2ed6f10d7c",
+                "name": "appleinsider.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?appleinsider\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-mrec,div.primis-ad-wrap"
                     }
                 }
             },
