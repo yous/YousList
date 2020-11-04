@@ -35719,6 +35719,19 @@
                 }
             },
             {
+                "id": "bd358e9e-c9b8-484e-9a52-99ac8e243f78",
+                "name": "fivethirtyeight.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?fivethirtyeight\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#masterad"
+                    }
+                }
+            },
+            {
                 "id": "1a63ee89-a8af-4be1-a16e-852ed5ad1e25",
                 "name": "flash24.co.kr##",
                 "content": {
