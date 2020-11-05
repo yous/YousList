@@ -6395,6 +6395,19 @@
                 }
             },
             {
+                "id": "ff4ad8a4-d120-42ba-9241-b0439b23cd65",
+                "name": "##iframe[src*=\"//ssp.igaw.io/i/\"][src*=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//ssp.igaw.io/i/\"][src*=\".html\"]"
+                    }
+                }
+            },
+            {
                 "id": "da4ab106-af3b-4c21-b119-ac8094110868",
                 "name": "##iframe[src*=\"//ssp.realclick.co.kr/\"][src*=\"c=iframe\"]",
                 "content": {
@@ -28751,6 +28764,19 @@
                 }
             },
             {
+                "id": "709c19f3-3ead-4d96-9b92-10b5fe0e9c9f",
+                "name": "ssp.igaw.io/i/*.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ssp\\.igaw\\.io/i/.*\\.html",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c3061886-18da-4607-aa11-56669f9516bc",
                 "name": "ssp.igaw.io/sdk/js/headerbidding.js",
                 "content": {
@@ -40654,7 +40680,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "aside.amp-ad-container,aside.article-boxad,aside.aside-bnr02,aside.aside-box02,aside.aside-box03,aside.aside-box04,aside.aside-box05,aside.aside-box06,aside.aside-text01,aside.aside-text02,aside.aside-text03,div.amp-ad-container"
+                        "selector": "aside.amp-ad-container,aside.article-boxad,aside.aside-article81,aside.aside-article82,aside.aside-bnr02,aside.aside-box02,aside.aside-box03,aside.aside-box04,aside.aside-box05,aside.aside-box06,aside.aside-box81,aside.aside-text01,aside.aside-text02,aside.aside-text03,div.amp-ad-container"
                     }
                 }
             },
