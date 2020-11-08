@@ -41010,6 +41010,19 @@
                 }
             },
             {
+                "id": "f3c47488-b8ea-40f5-9d22-301e8c9dde3b",
+                "name": "marshmallow-qa.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?marshmallow-qa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div.my-4,li.ad,main.container>div.my-4"
+                    }
+                }
+            },
+            {
                 "id": "99caf595-14d4-447f-aa2c-aafa4339536a",
                 "name": "marumaru.pics##",
                 "content": {
