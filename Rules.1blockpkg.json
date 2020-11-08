@@ -35927,6 +35927,19 @@
                 }
             },
             {
+                "id": "c6e4b073-6253-48b9-a9dc-8d5646d2bdb2",
+                "name": "forum.wordreference.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?forum\\.wordreference\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#botSupp,div#topSupp,li#\\37 28F_mid"
+                    }
+                }
+            },
+            {
                 "id": "50bf5ae3-7ac1-43e1-8130-e1e3a1be439c",
                 "name": "forums.digitalspy.com##",
                 "content": {
