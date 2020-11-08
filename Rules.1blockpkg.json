@@ -20675,6 +20675,19 @@
                 }
             },
             {
+                "id": "22acc035-ec73-449a-8dde-b9ab70909297",
+                "name": "jac.yahoosandbox.com/*/jac.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?jac\\.yahoosandbox\\.com/.*/jac\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "46205c35-8dfa-4b7f-978c-b5ad576bcc6b",
                 "name": "jadserve.postrelease.com/t",
                 "content": {
@@ -37678,6 +37691,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-non-sticky,div.contained-ad-container,div.contained-ad-shaft,div.contained-ad-wrapper,section.contained-ad-container"
+                    }
+                }
+            },
+            {
+                "id": "0d89c8a6-12e0-4864-8423-0be436dc49dd",
+                "name": "japanese.engadget.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?japanese\\.engadget\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#module-engadget-deeplink-top-ad,div#module-engadget-homepage-hero>div>div[class=\"D(f) Ai(st) Pos(r) Z(1) Jc(c) Pt(30px) Pb(25px) Bgc(engadgetSteelGray) Bdbc(engadgetGray) Bdbs(s) Bdbw(1px) Mih(90px)\"],div#post-right-col>div.sponsored-right-rail,div#post-right-col>div[class=\"Mb(40px) Mih(250px)\"]"
                     }
                 }
             },
