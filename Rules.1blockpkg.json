@@ -44806,6 +44806,19 @@
                 }
             },
             {
+                "id": "e83ce7f0-f56e-4c73-8a62-fb673eb7441a",
+                "name": "threadreaderapp.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?threadreaderapp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top-ad"
+                    }
+                }
+            },
+            {
                 "id": "707bb38f-ca40-489e-b6a8-a8f7250d1009",
                 "name": "time.com##",
                 "content": {
