@@ -27796,6 +27796,19 @@
                 }
             },
             {
+                "id": "442d562c-894d-4344-bf7b-87e88daab86a",
+                "name": "services.vlitag.com/adv1/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?services\\.vlitag\\.com/adv1/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6a96c702-9825-4191-a799-8d149529e28b",
                 "name": "serving.adbetclickin.pink/js/libcode3.js",
                 "content": {
@@ -29523,6 +29536,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?tab2-cdn\\.rubiconproject\\.com/partner/scripts/rubicon/emily\\.html",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3a9c2b63-44cc-4ef1-bf20-6aa66c7e0289",
+                "name": "tag.vlitag.com/passback/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tag\\.vlitag\\.com/passback/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e32048fa-e561-4b1e-88e7-f8d8697890d1",
+                "name": "tag.vlitag.com/v3/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tag\\.vlitag\\.com/v3/",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
