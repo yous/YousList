@@ -977,6 +977,8 @@ yug-ppl.com#@#a[href*="//yug-ppl.com"]
 ||ads.mncmedia.co.kr^
 ||ads.motorgraph.com/www/delivery/asyncjs.php^$domain=motorgraph.com
 ||ads.nicovideo.jp/api/OxBannerService/getAdvertisements.jsonp^$domain=embed.nicovideo.jp|nicovideo.jp
+||ads.nicovideo.jp/api/video/getAd.php^$domain=nicovideo.jp
+||ads.nicovideo.jp/api/video/requestAd.php^$domain=nicovideo.jp
 ||ads.nicovideo.jp/bannertext^$domain=embed.nicovideo.jp|nicovideo.jp
 ||ads.priel.co.kr/js/
 ||ads.pubmatic.com/AdServer/js/gshowad.js^
@@ -1079,6 +1081,7 @@ yug-ppl.com#@#a[href*="//yug-ppl.com"]
 ||api.ficm.contentlink.co.kr/api/ficm_result.php^
 ||api.ficm.contentlink.co.kr/api/ficm_result_view.php^
 ||api.hiyobi.me/dist/tjqjql/*.gif^$domain=hiyobi.me
+||api.nicoad.nicovideo.jp/v1/instream/vast^$domain=nicovideo.jp
 ||api.screensharp.kr/ad/get_banner/
 ||api.uad.nicovideo.jp/UadsVideoService/getSponsorsJsonp^$domain=embed.nicovideo.jp|nicovideo.jp
 ||api.wiseclick.co.kr/api/web_directad/
@@ -2106,6 +2109,7 @@ yug-ppl.com#@#a[href*="//yug-ppl.com"]
 ||redir.adap.tv/redir/javascript/adaptvAdPlayer.js^
 ||redir.adap.tv/redir/mobile/mobile-ad-source.html^
 ||render.helios.ligatus.com/ligrend.js^
+||res.ads.nicovideo.jp/assets/js/ads*.js^$domain=nicovideo.jp
 ||res.heraldm.com/adbanner/$domain=biz.heraldcorp.com|koreaherald.com|mbiz.heraldcorp.com|news.heraldcorp.com
 ||res.heraldm.com/iframe/
 ||res.heraldm.com/js/ad/
@@ -5786,18 +5790,13 @@ newsworker.co.kr##div#floating_banner_body
 newtoki78.com##div.basic-banner
 newyorker.com##div[class^="Ad__global-footer___"]
 newyorker.com##div[class^="Ad__header___"]
-nicovideo.jp##div#head_ads
-nicovideo.jp##div#sideContents>div[style="min-height:240px;"]:not([class]):not([id])
+nicovideo.jp##div.Ads
 nicovideo.jp##div.BottomContainer-adContainer
 nicovideo.jp##div.CommentPanelBannerAd
-nicovideo.jp##div.CompanionAdContainer
-nicovideo.jp##div.NicoSpotAdContainer
-nicovideo.jp##div.footerBanner
-nicovideo.jp##div.sideAd
-nicovideo.jp##div.sideBanner
-nicovideo.jp##div.sideTxtAd
-nicovideo.jp##div.sidewallAd
+nicovideo.jp##div.HeaderContainer_Re-ad
+nicovideo.jp##div[class$="AdContainer"]
 nicovideo.jp##iframe[src^="https://ads.nicovideo.jp/bannertext"]
+nicovideo.jp##section[class$="AdSection"]
 nikkan-spa.jp##div#sp_ad_index
 nikkan-spa.jp##div#sp_ad_single
 nikkan-spa.jp##div.ad-area

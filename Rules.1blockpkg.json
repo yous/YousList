@@ -10909,6 +10909,38 @@
                 }
             },
             {
+                "id": "c438570a-bd97-4379-857a-4cdba62d499a",
+                "name": "ads.nicovideo.jp/api/video/getAd.php$domain=nicovideo.jp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ads\\.nicovideo\\.jp/api/video/getAd\\.php",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*nicovideo.jp"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d318dc77-24bf-44ce-9c3e-0e992c22d3db",
+                "name": "ads.nicovideo.jp/api/video/requestAd.php$domain=nicovideo.jp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ads\\.nicovideo\\.jp/api/video/requestAd\\.php",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*nicovideo.jp"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "acaa6248-9a32-4a7b-a7ae-94a8e6988e1e",
                 "name": "ads.nicovideo.jp/bannertext$domain=embed.nicovideo.jp|nicovideo.jp",
                 "content": {
@@ -12255,6 +12287,22 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*hiyobi.me"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "4b9168b0-e0c5-47bf-ba1f-299e8fede69f",
+                "name": "api.nicoad.nicovideo.jp/v1/instream/vast$domain=nicovideo.jp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?api\\.nicoad\\.nicovideo\\.jp/v1/instream/vast",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*nicovideo.jp"
                         ]
                     },
                     "action": {
@@ -26852,6 +26900,22 @@
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?render\\.helios\\.ligatus\\.com/ligrend\\.js",
                         "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "284c22e2-a3d0-4885-9a64-e8d3dd601f93",
+                "name": "res.ads.nicovideo.jp/assets/js/ads*.js$domain=nicovideo.jp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?res\\.ads\\.nicovideo\\.jp/assets/js/ads.*\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*nicovideo.jp"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -42513,7 +42577,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#head_ads,div#sideContents>div[style=\"min-height:240px;\"]:not([class]):not([id]),div.BottomContainer-adContainer,div.CommentPanelBannerAd,div.CompanionAdContainer,div.NicoSpotAdContainer,div.footerBanner,div.sideAd,div.sideBanner,div.sideTxtAd,div.sidewallAd,iframe[src^=\"https://ads.nicovideo.jp/bannertext\"]"
+                        "selector": "div.Ads,div.BottomContainer-adContainer,div.CommentPanelBannerAd,div.HeaderContainer_Re-ad,div[class$=\"AdContainer\"],iframe[src^=\"https://ads.nicovideo.jp/bannertext\"],section[class$=\"AdSection\"]"
                     }
                 }
             },
