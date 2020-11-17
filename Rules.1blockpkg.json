@@ -36446,6 +36446,19 @@
                 }
             },
             {
+                "id": "14a62abb-039d-41a9-9adc-ecc948a1b3be",
+                "name": "getemoji.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?getemoji\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.container>div>div.text-center[style=\"padding-top:15px;margin-left:-5px\"],ins[data-ad-slot=\"1077730506\"]"
+                    }
+                }
+            },
+            {
                 "id": "b04af37a-9e31-4764-826d-d118e4b28803",
                 "name": "ggilbo.com##",
                 "content": {
