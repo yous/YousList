@@ -35575,6 +35575,19 @@
                 }
             },
             {
+                "id": "8621d8e4-1ad9-4358-984d-9a2f0be35974",
+                "name": "emojipedia.org##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?emojipedia\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-header,div.ad-sidebar"
+                    }
+                }
+            },
+            {
                 "id": "8f2ab06b-5ad1-4909-9c26-ecd53f76b9fb",
                 "name": "emoticonfun.com##",
                 "content": {
