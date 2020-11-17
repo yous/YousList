@@ -44051,6 +44051,19 @@
                 }
             },
             {
+                "id": "c961aac9-f5a0-478f-ad00-96b4f7977e2c",
+                "name": "spectrum.ieee.org##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?spectrum\\.ieee\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "article.advertisement-wrapper,div#mobile-rectangle-ad,div.ad-module,div.ad-wrapper,div.home-ad-wrapper,div.masthead-wrap,div.medium-top-ad"
+                    }
+                }
+            },
+            {
                 "id": "e57ccb2a-c1e8-4870-89ee-08f2f3c0c6b9",
                 "name": "speee-ad.akamaized.net##",
                 "content": {
