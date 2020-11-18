@@ -21517,6 +21517,22 @@
                 }
             },
             {
+                "id": "6ef14317-45e6-4b91-9cfe-ef474656e468",
+                "name": "json2.dcinside.com/json1/comment_boy_v*.php$domain=m.dcinside.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?json2\\.dcinside\\.com/json1/comment_boy_v.*\\.php",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.dcinside.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d4ccaf3d-fb22-4cda-8585-554b3b52b662",
                 "name": "jtbc.joins.com/common/json2XMLvast.aspx",
                 "content": {
