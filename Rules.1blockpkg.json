@@ -26319,6 +26319,19 @@
                 }
             },
             {
+                "id": "996bfcb0-8f43-473d-8ec0-3c522f1adb92",
+                "name": "player.ex.co/player/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?player\\.ex\\.co/player/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2db5ae05-007f-4012-be45-70fdab57c90e",
                 "name": "plug.plufdsb.com/wdgt/",
                 "content": {
@@ -38083,6 +38096,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[name=\"ifmadver\"],iframe[src^=\"//www.kbench.com/article_right_box.php\"],iframe[src^=\"https://shop.kbench.com/09shop/article_right_box.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "88b9582b-fc6f-482e-8e5a-4763d648260b",
+                "name": "kernelnewbies.kernelnewbies.narkive.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kernelnewbies\\.kernelnewbies\\.narkive\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#thread_container>div[style=\"margin-top: 10px; margin-bottom: 10px; height: 410px;\"],div.ads_post_bit"
                     }
                 }
             },
