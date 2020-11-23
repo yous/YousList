@@ -3298,6 +3298,19 @@
                 }
             },
             {
+                "id": "833fb85c-87cc-4e88-b2a3-1886e475bad9",
+                "name": "##div[data-ad-unit-path][data-glade]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-ad-unit-path][data-glade]"
+                    }
+                }
+            },
+            {
                 "id": "9aa25ca2-7ec9-4ebf-939f-731cf9f09e35",
                 "name": "##div[data-widget_id=\"1oVxnLlP\"]",
                 "content": {
@@ -6287,6 +6300,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src*=\"//searchmaster.pro/b.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "b9b6663e-172d-4db8-a4c6-384b327752ab",
+                "name": "##iframe[src*=\"//securepubads.g.doubleclick.net/gampad/ads\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//securepubads.g.doubleclick.net/gampad/ads\"]"
                     }
                 }
             },
@@ -27688,6 +27714,19 @@
                 }
             },
             {
+                "id": "dcb46615-e8c4-45d4-915b-9b7cd8cd3c49",
+                "name": "securepubads.g.doubleclick.net/gampad/ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?securepubads\\.g\\.doubleclick\\.net/gampad/ads",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c76a6e74-e66a-444e-8522-058d1a344c68",
                 "name": "securepubads.g.doubleclick.net/gampad/google_ads.js",
                 "content": {
@@ -27706,6 +27745,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?securepubads\\.g\\.doubleclick\\.net/gpt/pubads_impl_.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c5cd8889-dd24-4994-ba41-e1cd5bbfffb9",
+                "name": "securepubads.g.doubleclick.net/static/glade.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?securepubads\\.g\\.doubleclick\\.net/static/glade\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -43465,6 +43517,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "phx-advertisement"
+                    }
+                }
+            },
+            {
+                "id": "04d3f805-086c-45e5-81aa-53f7fe38c956",
+                "name": "realworldtech.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?realworldtech\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adinjwidget"
                     }
                 }
             },
