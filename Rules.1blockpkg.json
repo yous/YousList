@@ -35617,6 +35617,19 @@
                 }
             },
             {
+                "id": "42ada251-990a-4c03-9f00-8a747e3572f5",
+                "name": "elitedaily.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?elitedaily\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#oopAdWrapper,div.adWrapper"
+                    }
+                }
+            },
+            {
                 "id": "9a1059a4-1730-4be7-adb1-1a86a4cc926b",
                 "name": "embed.nicovideo.jp##",
                 "content": {
