@@ -20968,6 +20968,22 @@
                 }
             },
             {
+                "id": "97fa0e9c-e9ac-4756-bb6f-38cc2d9de874",
+                "name": "joind.io/attach/bannerInner/$domain=joind.io",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?joind\\.io/attach/bannerInner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*joind.io"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d2b6bb0e-1b34-4af4-b035-19b6dd50bd09",
                 "name": "joinsmediacanada.com/data/file/ad/$domain=joinsmediacanada.com",
                 "content": {
@@ -38005,6 +38021,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "article#viewReviewsList section>div[style=\"padding:0;margin:0;background-color:#ddd;text-align:center\"]"
+                    }
+                }
+            },
+            {
+                "id": "3f7d5efd-a119-40d6-bcd2-d98c0e393a54",
+                "name": "joind.io##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?joind\\.io"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-area,div.bannerArea,div.bannerMiddlePosition,div.middleSizeBanner,div.pcBottomArea,div.pcLeftArea,div.pcTopArea,div.smallSizeBanner"
                     }
                 }
             },
