@@ -47135,6 +47135,19 @@
                 }
             },
             {
+                "id": "5e1d42aa-e563-439f-9755-994786d446d3",
+                "name": "yonhapnewstv.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yonhapnewstv\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
                 "id": "318cb83b-f60d-48a4-9a81-2ea46b399299",
                 "name": "youtube.com##",
                 "content": {
