@@ -35656,6 +35656,19 @@
                 }
             },
             {
+                "id": "bf9f4af7-032a-448a-a134-d39f9882e1ce",
+                "name": "eetimes.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?eetimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-block,div.ad.section"
+                    }
+                }
+            },
+            {
                 "id": "42ada251-990a-4c03-9f00-8a747e3572f5",
                 "name": "elitedaily.com##",
                 "content": {
