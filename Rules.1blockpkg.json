@@ -44834,6 +44834,19 @@
                 }
             },
             {
+                "id": "df391a1d-2d65-4c47-b743-e214533cde74",
+                "name": "techxplore.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?techxplore\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article-banner,div.article-sidebar-banner"
+                    }
+                }
+            },
+            {
                 "id": "2a177c05-891b-4a26-9d34-44852da77281",
                 "name": "tecmint.com##",
                 "content": {
