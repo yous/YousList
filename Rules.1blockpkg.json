@@ -2856,6 +2856,45 @@
                 }
             },
             {
+                "id": "a795a790-80f0-4e0d-aaa5-ce8aecc7e71a",
+                "name": "##div#spotim-specific div[class*=\"__browserAdOuterContainer___\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#spotim-specific div[class*=\"__browserAdOuterContainer___\"]"
+                    }
+                }
+            },
+            {
+                "id": "877ce4f9-88da-4618-86c6-455fa83d1c28",
+                "name": "##div#spotim-specific div[class^=\"AdChoiceContainer__container--\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#spotim-specific div[class^=\"AdChoiceContainer__container--\"]"
+                    }
+                }
+            },
+            {
+                "id": "d5a734a2-f2cd-478e-9c1e-8fad83016c5c",
+                "name": "##div#spotim-specific div[class^=\"index__adWrapper--\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#spotim-specific div[class^=\"index__adWrapper--\"]"
+                    }
+                }
+            },
+            {
                 "id": "23141b19-4b63-4ec9-beae-a1afa84dcad5",
                 "name": "##div#uniqubeAd_area",
                 "content": {
@@ -35768,7 +35807,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "aside[role=\"banner\"],div#right-ads-rail,div#spotim-specific div[class*=\"__browserAdOuterContainer___\"]"
+                        "selector": "aside[role=\"banner\"],div#right-ads-rail"
                     }
                 }
             },
@@ -37420,6 +37459,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "aside.sidebar>div[style=\"text-align:center;margin-bottom:10px;\"],div.content-column>div[style=\"text-align:center; margin-bottom:5px; width:100%; overflow:hidden;\"],div.post-header>div[style=\"text-align:center;margin-bottom:10px;\"],div.post-related[style=\"height: 280px;\"],div.rightBanner,ins[data-ad-slot=\"I3_대구일보_기사면1_350_350\"],ins[data-ad-slot=\"I3_대구일보_기사면2_300_250\"],ins[data-ad-slot=\"I3_대구일보_모바일기사내상단_300_250\"],ins[data-ad-slot=\"I3_대구일보_모바일기사내중하단_300_250\"],ins[data-ad-slot=\"I_대구일보_기사내_970_90\"],ins[data-ad-slot=\"I_대구일보_기사하단기자이름하단_300_250\"]"
+                    }
+                }
+            },
+            {
+                "id": "69d5562b-0f44-4049-96a7-a7e4303abf00",
+                "name": "iflscience.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?iflscience\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-wrap"
                     }
                 }
             },
