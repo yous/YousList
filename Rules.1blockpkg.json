@@ -20026,15 +20026,16 @@
                 }
             },
             {
-                "id": "8f5eddfc-aaa6-4a9f-8c86-190e802fa234",
-                "name": "image.ruliweb.com/view/view.js$domain=bbs.ruliweb.com|m.ruliweb.com",
+                "id": "6737b5c6-fa98-4d10-a3a4-d0f2ff44550b",
+                "name": "image.ruliweb.com/view/view.js$domain=bbs.ruliweb.com|m.ruliweb.com|ruliweb.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?image\\.ruliweb\\.com/view/view\\.js",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*bbs.ruliweb.com",
-                            "*m.ruliweb.com"
+                            "*m.ruliweb.com",
+                            "*ruliweb.com"
                         ]
                     },
                     "action": {
