@@ -11721,6 +11721,19 @@
                 }
             },
             {
+                "id": "928592a5-27c1-4f1b-be87-8999780c24cb",
+                "name": "ads.vrixon.com/vast/vast_*.vrix",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ads\\.vrixon\\.com/vast/vast_.*\\.vrix",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9f9f2a19-bb95-499b-b2d6-59b0232c8ab6",
                 "name": "ads.yahoo.com",
                 "content": {
@@ -25017,6 +25030,19 @@
                 }
             },
             {
+                "id": "ad5c5e73-3ead-45d4-87cb-0d204f88a177",
+                "name": "mtag.mman.kr/movie.mezzo/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mtag\\.mman\\.kr/movie\\.mezzo/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "abbbe24a-7de5-4b80-b4e8-80bc333c0720",
                 "name": "mtag.mman.kr/sdk.mezzo/",
                 "content": {
@@ -29529,6 +29555,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?srv\\.csavr\\.com/www/delivery/ajs\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9be048f8-7d59-4802-b6ce-f380b3cddad5",
+                "name": "ss.dawin.tv/req",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ss\\.dawin\\.tv/req",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
