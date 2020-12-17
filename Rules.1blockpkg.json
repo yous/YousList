@@ -4,6 +4,22 @@
         "name": "YousList",
         "rules": [
             {
+                "id": "78c214f1-238f-463c-b98f-c2b048838764",
+                "name": "##a[href*=\"//010bts.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*010bts.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//010bts.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "ed050696-9add-4f14-b191-be3026f7e49b",
                 "name": "##a[href*=\"//10x10bet888.com\"]",
                 "content": {
@@ -420,6 +436,22 @@
                 }
             },
             {
+                "id": "1c4ac24e-16ca-41ab-9b7e-a9ecb392093e",
+                "name": "##a[href*=\"//bternba.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*bternba.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//bternba.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "24261061-dce1-4c94-92c7-656f1ec916d7",
                 "name": "##a[href*=\"//btt-948.com\"]",
                 "content": {
@@ -788,6 +820,22 @@
                 }
             },
             {
+                "id": "bf03fa70-4e11-46bc-9db0-d87a1c9e2bdd",
+                "name": "##a[href*=\"//jn-ro.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*jn-ro.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//jn-ro.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "f144b648-0f56-439e-8a71-52991ba72197",
                 "name": "##a[href*=\"//jtv-10.com\"]",
                 "content": {
@@ -1108,6 +1156,22 @@
                 }
             },
             {
+                "id": "58ab708e-ae2c-4389-a7aa-23d918b22384",
+                "name": "##a[href*=\"//mi-cc.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*mi-cc.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//mi-cc.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "0b754aad-49b9-45b6-aea3-625f9a149ac1",
                 "name": "##a[href*=\"//mini-13.com\"]",
                 "content": {
@@ -1120,6 +1184,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//mini-13.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "8a163f7e-d37f-49e9-99dc-3222fe48e2ff",
+                "name": "##a[href*=\"//mini-62.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*mini-62.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//mini-62.com\"]"
                     }
                 }
             },
@@ -1552,6 +1632,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//podo11.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "6a762be7-70a9-4111-b7ae-ff9639acfb05",
+                "name": "##a[href*=\"//prahabet.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*prahabet.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//prahabet.com\"]"
                     }
                 }
             },
@@ -2962,6 +3058,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//메이저벳도메인.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "c016be31-2489-4304-a7ee-8e81a1b46de7",
+                "name": "##a[href*=\"//뱃존.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*xn--mi3b06t.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//뱃존.com\"]"
                     }
                 }
             },
@@ -47095,11 +47207,11 @@
                 }
             },
             {
-                "id": "caa16832-9c1f-44e4-8826-048ddc297c12",
-                "name": "wfwf113.com##",
+                "id": "5a0f4bb4-9031-4b46-b2fd-4a7cda3723b2",
+                "name": "wfwf125.com##",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wfwf113\\.com"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wfwf125\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
