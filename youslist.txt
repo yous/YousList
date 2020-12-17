@@ -441,6 +441,7 @@
 ##iframe[src*="//jtpress.kr/ShareMaxBanner"][src*=".php"]
 ##iframe[src*="//kitweb.tadapi.info/network/adapi.php"]
 ##iframe[src*="//kn.acrosspf.com/delivery.ad"]
+##iframe[src*="//landing.dailyissue.co.kr/adv/3dpop.html"]
 ##iframe[src*="//life.chosun.com/dhtm//rightBner.html"]
 ##iframe[src*="//longkeyone.co.kr/"]
 ##iframe[src*="//m.11st.co.kr/MW/html/allianceAd/"]
@@ -1775,6 +1776,8 @@ yug-ppl.com#@#a[href*="//yug-ppl.com"]
 ||js.bigfineads.com/s/sliderV2.js^
 ||js.gsspcln.jp/sdk/l/geniee_sjv5.js^
 ||js.gumgum.com/services.js^
+||js.hankooki.com/m/ad/ad_page_shoppingbox_s3dpop.htm^$domain=m.hankooki.com
+||js.hankooki.com/m/ad/view_content_ad_*.js^$domain=m.hankooki.com
 ||js.himediads.com/js^
 ||js.hnscom.com/etc/hns/hnsIframe_*.html^
 ||js.hnscom.com/etc/hns/hook_*.js^
@@ -1824,6 +1827,7 @@ yug-ppl.com#@#a[href*="//yug-ppl.com"]
 ||kunkang.co.kr/js/im02.js^$domain=ikunkang.com
 ||kuruc.info/galeriaN/banner/$domain=kuruc.info
 ||l.qq.com/lview^$domain=qq.com
+||landing.dailyissue.co.kr/adv/3dpop.html^
 ||life.chosun.com/dhtm/rightBner.html^
 ||lightad.co.kr/Lightcoms/
 ||lightasp.dmcmedia.co.kr/adixs/
@@ -4713,7 +4717,8 @@ m.hani.co.kr##section.adBox
 m.hankooki.com##div#SHOWUP
 m.hankooki.com##div#ad_img_div
 m.hankooki.com##div#headSlide>ul>li>div.promotion
-m.hankooki.com##div#relSlide>ul>li>dd[style="background:none;height:96px;"]
+m.hankooki.com##div#relSlide>ul>li>dl>dd[style="background:none;height:90px;"]
+m.hankooki.com##div.ad_adpnut
 m.hankooki.com##div.ad_icon_wrap
 m.hankooki.com##div.ad_t1
 m.hankooki.com##div.adpromotion
@@ -4721,6 +4726,9 @@ m.hankooki.com##div.ads_t1
 m.hankooki.com##div.ads_t3
 m.hankooki.com##div.ads_t4
 m.hankooki.com##div.ads_t5
+m.hankooki.com##div.gs_content>div.last>div[style="margin:0;padding:0;text-align:center;width:100%;"]
+m.hankooki.com##iframe[src*="//js.hankooki.com/m/ad/ad_page_shoppingbox_s3dpop.htm"]
+m.hankooki.com##section.content>div.promotion
 m.hankooki.com##section.promotion.ranking li.rank_ad
 m.hankookilbo.com##div.ad-container
 m.hkbs.co.kr##body>div[style="height:60px;"]

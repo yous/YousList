@@ -6261,6 +6261,19 @@
                 }
             },
             {
+                "id": "ca1c4531-8bad-4c12-9269-fc69548eb187",
+                "name": "##iframe[src*=\"//landing.dailyissue.co.kr/adv/3dpop.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//landing.dailyissue.co.kr/adv/3dpop.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "ff78db7b-87de-495d-b89e-c890c045abb8",
                 "name": "##iframe[src*=\"//life.chosun.com/dhtm//rightBner.html\"]",
                 "content": {
@@ -21796,6 +21809,38 @@
                 }
             },
             {
+                "id": "94263c6d-ebc6-47a6-8387-f94c98c64566",
+                "name": "js.hankooki.com/m/ad/ad_page_shoppingbox_s3dpop.htm$domain=m.hankooki.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?js\\.hankooki\\.com/m/ad/ad_page_shoppingbox_s3dpop\\.htm",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.hankooki.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0ce115b3-ac9e-4564-b2a6-7a43960553ce",
+                "name": "js.hankooki.com/m/ad/view_content_ad_*.js$domain=m.hankooki.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?js\\.hankooki\\.com/m/ad/view_content_ad_.*\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.hankooki.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "e2c0ddea-7c62-4716-8ddb-708c9c912992",
                 "name": "js.himediads.com/js",
                 "content": {
@@ -22465,6 +22510,19 @@
                         "if-domain": [
                             "*qq.com"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e7596d2f-9356-4532-929f-61f58d71253e",
+                "name": "landing.dailyissue.co.kr/adv/3dpop.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?landing\\.dailyissue\\.co\\.kr/adv/3dpop\\.html",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
@@ -40272,7 +40330,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#SHOWUP,div#ad_img_div,div#headSlide>ul>li>div.promotion,div#relSlide>ul>li>dd[style=\"background:none;height:96px;\"],div.ad_icon_wrap,div.ad_t1,div.adpromotion,div.ads_t1,div.ads_t3,div.ads_t4,div.ads_t5,section.promotion.ranking li.rank_ad"
+                        "selector": "div#SHOWUP,div#ad_img_div,div#headSlide>ul>li>div.promotion,div#relSlide>ul>li>dl>dd[style=\"background:none;height:90px;\"],div.ad_adpnut,div.ad_icon_wrap,div.ad_t1,div.adpromotion,div.ads_t1,div.ads_t3,div.ads_t4,div.ads_t5,div.gs_content>div.last>div[style=\"margin:0;padding:0;text-align:center;width:100%;\"],iframe[src*=\"//js.hankooki.com/m/ad/ad_page_shoppingbox_s3dpop.htm\"],section.content>div.promotion,section.promotion.ranking li.rank_ad"
                     }
                 }
             },
