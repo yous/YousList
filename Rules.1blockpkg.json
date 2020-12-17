@@ -740,6 +740,22 @@
                 }
             },
             {
+                "id": "86e842a8-7121-4988-bdaf-18adacc8c426",
+                "name": "##a[href*=\"//gos49.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*gos49.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//gos49.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "7cd33d6f-000c-4a0b-9058-2106dcfa072b",
                 "name": "##a[href*=\"//grs-13.com\"]",
                 "content": {
@@ -2164,6 +2180,22 @@
                 }
             },
             {
+                "id": "78eeea51-6a3f-481b-b19d-1cfe73485bc8",
+                "name": "##a[href*=\"//ten-ssatube.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*ten-ssatube.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//ten-ssatube.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "62b48050-f4ea-4b3b-8a29-9314870c116d",
                 "name": "##a[href*=\"//tgh66.com\"]",
                 "content": {
@@ -2434,6 +2466,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//we-ppaa20.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "39d7f03b-20b1-49fb-ab3a-ddff45dbb19a",
+                "name": "##a[href*=\"//win-ssatube.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*win-ssatube.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//win-ssatube.com\"]"
                     }
                 }
             },
@@ -12622,6 +12670,22 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*ani119.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "307d92f4-983f-434d-9dab-341d58f21a41",
+                "name": "ani365.com/assets/images/banner*.gif$domain=ani365.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ani365\\.com/assets/images/banner.*\\.gif",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*ani365.com"
                         ]
                     },
                     "action": {
@@ -33319,6 +33383,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.each_adv_center,iframe[src^=\"http://www.ani119.com/public/adv/\"]"
+                    }
+                }
+            },
+            {
+                "id": "36e768ab-9f19-4c4a-ae43-aead209fd3bb",
+                "name": "ani365.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ani365\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#asdd,div#asdf"
                     }
                 }
             },
