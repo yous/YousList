@@ -26136,6 +26136,22 @@
                 }
             },
             {
+                "id": "082001d4-dde1-4e24-9fca-8073fc435137",
+                "name": "nstatic.dcinside.com/dgn/gallery/js/panda_tv.js$domain=dcinside.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?nstatic\\.dcinside\\.com/dgn/gallery/js/panda_tv\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*dcinside.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ec36fbc6-1b79-4eb1-a9f6-5c2dc39a2605",
                 "name": "nurhdfilfilme.com/bundles/maxicadvertisement/js/advertisment_*.js",
                 "content": {
@@ -35845,7 +35861,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#dgn_content_de>div[style=\"padding-top: 16px;padding-bottom:30px;text-align: center\"],div.ad_top"
+                        "selector": "div#dgn_content_de>div[style=\"padding-top: 16px;padding-bottom:30px;text-align: center\"],div.ad_top,ul.gnb_list>li.linebox"
                     }
                 }
             },
