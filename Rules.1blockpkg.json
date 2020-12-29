@@ -23828,6 +23828,22 @@
                 }
             },
             {
+                "id": "9b68dd27-2bf1-40b3-9f64-c3fb403e7176",
+                "name": "m.theceluv.com/ad/$domain=m.theceluv.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.theceluv\\.com/ad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.theceluv.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "79305560-f354-449e-9ced-842e47fcc79a",
                 "name": "m.torrentkim10.net/js/banner0122.js$domain=m.torrentkim10.net",
                 "content": {
@@ -30603,6 +30619,22 @@
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?thealarm2018\\.cafe24\\.com/banner/.*\\.js",
                         "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "74dc1693-d74e-4231-9cfd-1830f4c13ec1",
+                "name": "theceluv.com/banner/$domain=m.theceluv.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?theceluv\\.com/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.theceluv.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -41413,6 +41445,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#banner,div#mobon5mb_ad,div#waveAd,div#waveP,div.AD_box,div.adbox,div.tbLeft>div[style=\"height:100px; overflow-y:hindden;\"],div.tbRight>div.conBox>div[style=\"width:100%; overflow:hidden;\"],div.tbRight>div.conBox[style=\"padding-bottom:10px\"],div.tbRight>div[style=\"height:250px; position:relative; left:0px; top:0px; \"],div.tbRight>div[style=\"height:84px; position:relative; left:0px; top:0px; \"],iframe[src^=\"/public/\"][src*=\"/ad/iframe/ad_read_content\"][src*=\".html\"],ins[data-ad-slot=\"7064539535/40408_300x250_IDN\"],ins[data-ad-slot=\"7064539535/40409_300x250_IDN\"],span#rectingle_spanTag_ad,ul.twoLineAd"
+                    }
+                }
+            },
+            {
+                "id": "920225f9-e047-4a32-b72b-636332623e42",
+                "name": "m.theceluv.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.theceluv\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "dd.dscr>table[height=\"120\"][width=\"100%\"],div.ad_frame,section.main_bnr"
                     }
                 }
             },
