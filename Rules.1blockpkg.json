@@ -45759,6 +45759,19 @@
                 }
             },
             {
+                "id": "2db99e2e-8461-4a67-82f2-5ce0a42dac88",
+                "name": "thehill.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?thehill\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.dfp-tag-wrapper"
+                    }
+                }
+            },
+            {
                 "id": "6b57c256-96a3-4ca1-9ff9-91f4e480974f",
                 "name": "thenextweb.com##",
                 "content": {
