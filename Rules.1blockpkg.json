@@ -30626,14 +30626,15 @@
                 }
             },
             {
-                "id": "74dc1693-d74e-4231-9cfd-1830f4c13ec1",
-                "name": "theceluv.com/banner/$domain=m.theceluv.com",
+                "id": "29d7e833-a818-46ca-af23-b2b5cee02883",
+                "name": "theceluv.com/banner/$domain=m.theceluv.com|theceluv.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?theceluv\\.com/banner/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
-                            "*m.theceluv.com"
+                            "*m.theceluv.com",
+                            "*theceluv.com"
                         ]
                     },
                     "action": {
@@ -45748,6 +45749,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.commonBanner2,div.indexBannerWrap,div.indexMiddleBanner,div.rightBanner1,div.rightBanner2,div.topBanner,div.viewArticle>div[style=\"margin-bottom:15px\"]"
+                    }
+                }
+            },
+            {
+                "id": "b436b2e0-7e82-4cce-892f-32e4488b5c7e",
+                "name": "theceluv.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?theceluv\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#CmAdContent>table[align=\"left\"][height=\"200\"][style=\"margin-right:10px\"][width=\"200\"],div.ad_box"
                     }
                 }
             },
