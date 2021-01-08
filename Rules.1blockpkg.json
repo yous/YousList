@@ -22776,6 +22776,19 @@
                 }
             },
             {
+                "id": "ed17d33e-76ae-4bc6-b877-e65c97cfacea",
+                "name": "lreprx-server.anyclip.com/?ad=",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?lreprx-server\\.anyclip\\.com/\\?ad=",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9e580f0d-b592-46b6-9593-20acadc49a06",
                 "name": "ltn.hitomi.la/7I90zwIh.js$domain=hitomi.la",
                 "content": {
@@ -32788,6 +32801,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?z\\.moatads\\.com/.*/moatvideo\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ca60f6b5-9a74-497c-b66e-d45e845c037d",
+                "name": "zam.videoplayerhub.com/gallery.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?zam\\.videoplayerhub\\.com/gallery\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
