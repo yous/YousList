@@ -36848,6 +36848,19 @@
                 }
             },
             {
+                "id": "e204c6cc-e9b8-42e3-ad76-e73a6c0ea84d",
+                "name": "flatpanelshd.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?flatpanelshd\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sb-site>div[style=\"clear:both;height:100px;max-width:320px;margin-left:auto;margin-right:auto;\"],div#sb-site>div[style=\"text-align:Center;min-height:180px;width:930px;margin-left:auto;margin-right:auto;\"]"
+                    }
+                }
+            },
+            {
                 "id": "45c4e463-2f16-4603-9a63-b22c73d6f1ad",
                 "name": "fmkorea.com##",
                 "content": {
