@@ -36952,6 +36952,19 @@
                 }
             },
             {
+                "id": "f2bed98c-3c20-4f63-81c7-241094b4dcd7",
+                "name": "foreignpolicy.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?foreignpolicy\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.home-ad-region-1,div.in-article-dynamic-ad"
+                    }
+                }
+            },
+            {
                 "id": "892aea05-3665-4ecb-ab60-945bae2113e5",
                 "name": "fortune.com##",
                 "content": {
