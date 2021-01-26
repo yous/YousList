@@ -36445,6 +36445,19 @@
                 }
             },
             {
+                "id": "36ee370c-5d7c-48ec-83ae-d12b8b396f3c",
+                "name": "egloos.zum.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?egloos\\.zum\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.side_banner"
+                    }
+                }
+            },
+            {
                 "id": "42ada251-990a-4c03-9f00-8a747e3572f5",
                 "name": "elitedaily.com##",
                 "content": {
