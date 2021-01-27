@@ -46052,6 +46052,19 @@
                 }
             },
             {
+                "id": "06b5d8e6-2199-4f50-9e66-75bd9316c096",
+                "name": "threppa.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?threppa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#fixed-top,div.conts>div.ctit"
+                    }
+                }
+            },
+            {
                 "id": "707bb38f-ca40-489e-b6a8-a8f7250d1009",
                 "name": "time.com##",
                 "content": {
