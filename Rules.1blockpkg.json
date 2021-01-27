@@ -12921,6 +12921,32 @@
                 }
             },
             {
+                "id": "8c51dba1-86cf-4bfe-95de-dc98807084da",
+                "name": "api.piclick.kr/common/css/v1/piclick-ad.css",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?api\\.piclick\\.kr/common/css/v1/piclick-ad\\.css",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3b00562a-076b-482f-8fa5-def85b6962b6",
+                "name": "api.piclick.kr/common/js/v1/piclick-ad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?api\\.piclick\\.kr/common/js/v1/piclick-ad\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0a77e0ac-33e5-462d-84d2-2058153296fb",
                 "name": "api.screensharp.kr/ad/get_banner/",
                 "content": {
