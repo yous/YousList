@@ -47430,6 +47430,19 @@
                 }
             },
             {
+                "id": "634937fe-e787-4697-b555-cfeba212d12b",
+                "name": "wago.io##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wago\\.io"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wago-ad-container"
+                    }
+                }
+            },
+            {
                 "id": "b0f3d837-dc0f-4965-b283-3d95861862a0",
                 "name": "washingtonpost.com##",
                 "content": {
