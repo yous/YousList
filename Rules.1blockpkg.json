@@ -47443,6 +47443,19 @@
                 }
             },
             {
+                "id": "f911e00d-1b0b-44d0-ab46-511b494f8921",
+                "name": "warcraftlogs.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?warcraftlogs\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bottom-banner,div#top-banner"
+                    }
+                }
+            },
+            {
                 "id": "b0f3d837-dc0f-4965-b283-3d95861862a0",
                 "name": "washingtonpost.com##",
                 "content": {
