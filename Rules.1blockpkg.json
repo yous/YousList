@@ -44011,6 +44011,19 @@
                 }
             },
             {
+                "id": "ef78cfbb-11df-4ca0-8c3f-811d40efb5b9",
+                "name": "peing.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?peing\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container,div.ad-wrapper"
+                    }
+                }
+            },
+            {
                 "id": "a779e7d8-ff95-4d83-b618-b4bfa5a2e981",
                 "name": "petapixel.com##",
                 "content": {
