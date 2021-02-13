@@ -47820,6 +47820,19 @@
                 }
             },
             {
+                "id": "b5aaba9b-0397-4121-b456-632f4f048543",
+                "name": "wow-professions.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wow-professions\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section#block-wp-theme-block-22,section#block-wp-theme-block-23,section#block-wp-theme-block-24"
+                    }
+                }
+            },
+            {
                 "id": "9e938122-3c22-4a76-bbe0-d9473db3abcd",
                 "name": "wowhead.com##",
                 "content": {
