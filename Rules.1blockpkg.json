@@ -47846,6 +47846,19 @@
                 }
             },
             {
+                "id": "8eb5c6b0-76c1-4235-b3a4-9dfeffb573c1",
+                "name": "wowinterface.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wowinterface\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#header-ad"
+                    }
+                }
+            },
+            {
                 "id": "6fcbc6ae-b797-49af-8829-9de298b90d18",
                 "name": "wowtv.co.kr##",
                 "content": {
