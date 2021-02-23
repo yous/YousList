@@ -47227,6 +47227,19 @@
                 }
             },
             {
+                "id": "68164638-597d-48b9-8dc7-bd787d81df70",
+                "name": "url.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?url\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "article#bo_v+center,div.container>form>div[style=\"text-align: center;\"],div.jbMenu,section#bo_v_atc>div[style=\"text-align: center;\"]"
+                    }
+                }
+            },
+            {
                 "id": "e64ce2d3-0183-4d92-ab78-5d18c4314060",
                 "name": "usatoday.com##",
                 "content": {
