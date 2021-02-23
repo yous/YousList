@@ -15106,6 +15106,22 @@
                 }
             },
             {
+                "id": "a2a71c37-5249-4c6d-a2a5-766372c53d2f",
+                "name": "cdn.bizwatch.co.kr/ads/$domain=news.bizwatch.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.bizwatch\\.co\\.kr/ads/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*news.bizwatch.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2f736df0-7c59-40bc-8a6f-3d0669931bd5",
                 "name": "cdn.blueconic.net/*.js",
                 "content": {
@@ -43151,6 +43167,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#afrc_skin,div[class^=\"ng-ad-container-\"]"
+                    }
+                }
+            },
+            {
+                "id": "e4b46f1c-e407-41f2-9274-16c434170221",
+                "name": "news.bizwatch.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?news\\.bizwatch\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.ad_bizwatch_right"
                     }
                 }
             },
