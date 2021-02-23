@@ -32947,6 +32947,22 @@
                 }
             },
             {
+                "id": "5fe372a1-279c-4ff9-b0fc-b77c5399bb76",
+                "name": "zumads.vrixon.com/zum.vrix$domain=pip-player.zum.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?zumads\\.vrixon\\.com/zum\\.vrix",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*pip-player.zum.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a1e7b142-b863-4134-8cce-3c1568b55294",
                 "name": "101.livere.co.kr##",
                 "content": {
