@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20210222
+! Version: 20210223
 
 ! General element hiding rules
 ##a[href*="//010bts.com"]
@@ -889,6 +889,8 @@ yug-ppl.com#@#a[href*="//yug-ppl.com"]
 ||ad.doubleclick.net^$domain=~thehackernews.com,third-party
 ||ad.doyouad.com/ad/script.js^
 ||ad.doyouad.com/ad/script.real.js^
+||ad.doyouad.com/ad/scriptJs^
+||ad.doyouad.com/ad/scriptRealJs^
 ||ad.doyouad.com/html/iframe.html^
 ||ad.dt.co.kr^
 ||ad.feedbag.co.kr/ads.html^
@@ -1649,7 +1651,7 @@ yug-ppl.com#@#a[href*="//yug-ppl.com"]
 ||ib.adnxs.com/ut/v3/prebid^
 ||ibabynews.com/script/bannerpop.js^$domain=ibabynews.com
 ||ichannela.com/ch/*adpost*
-||iframe.inews24.com/ad/$domain=inews24.com|v1.inews24.com
+||iframe.inews24.com/ad/$domain=inews24.com
 ||iframe.joynews24.com/ad/$domain=joynews24.com
 ||iicdn.com/www/delivery/afr.php^
 ||ikoreadaily.co.kr/script/ikoreadaily_hns.js^$domain=ikoreadaily.co.kr
@@ -4046,10 +4048,11 @@ imore.com##div.adunit-wrap
 imore.com##div.netshelter-ad
 independent.co.uk##div.onscroll-injected-ad
 indi.s58.xrea.com##div#vdbanner
-inews24.com,v1.inews24.com##ad
-inews24.com,v1.inews24.com##container.ad-head
-inews24.com,v1.inews24.com##hr.ad
-inews24.com,v1.inews24.com##iframe[src^="http://iframe.inews24.com/ad/"]
+inews24.com##ad
+inews24.com##article#articleBody>container.h200px
+inews24.com##container.ad-head
+inews24.com##hr.ad
+inews24.com##iframe[src^="http://iframe.inews24.com/ad/"]
 insight.co.kr##div.ad-google-side1
 insight.co.kr##div.ad-google-side2
 insight.co.kr##div.aside-sticky>div[style="display: block;width: 300px;height: 250px;"]

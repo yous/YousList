@@ -9449,6 +9449,32 @@
                 }
             },
             {
+                "id": "c3299055-4870-4191-bad7-a846455c334d",
+                "name": "ad.doyouad.com/ad/scriptJs",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.doyouad\\.com/ad/scriptJs",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2f33c1ea-4056-4e95-ae98-32524a977ac3",
+                "name": "ad.doyouad.com/ad/scriptRealJs",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.doyouad\\.com/ad/scriptRealJs",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0b370216-c1f2-499f-8fe7-3970dcaafc43",
                 "name": "ad.doyouad.com/html/iframe.html",
                 "content": {
@@ -19982,15 +20008,14 @@
                 }
             },
             {
-                "id": "81b3c7a2-c257-4aa8-98b5-018c79ba18c9",
-                "name": "iframe.inews24.com/ad/$domain=inews24.com|v1.inews24.com",
+                "id": "4bae6516-5fe4-4e36-92bc-3f37177fc2ee",
+                "name": "iframe.inews24.com/ad/$domain=inews24.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?iframe\\.inews24\\.com/ad/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
-                            "*inews24.com",
-                            "*v1.inews24.com"
+                            "*inews24.com"
                         ]
                     },
                     "action": {
@@ -38494,20 +38519,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "ad,container.ad-head,hr.ad,iframe[src^=\"http://iframe.inews24.com/ad/\"]"
-                    }
-                }
-            },
-            {
-                "id": "8e4f5edd-5168-436a-9dd7-901c7bfc203d",
-                "name": "v1.inews24.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?v1\\.inews24\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "ad,container.ad-head,hr.ad,iframe[src^=\"http://iframe.inews24.com/ad/\"]"
+                        "selector": "ad,article#articleBody>container.h200px,container.ad-head,hr.ad,iframe[src^=\"http://iframe.inews24.com/ad/\"]"
                     }
                 }
             },
