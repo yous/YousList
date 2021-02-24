@@ -32740,6 +32740,19 @@
                 }
             },
             {
+                "id": "e57ac0d7-3827-4281-9429-3233ae120a2a",
+                "name": "youtube.com/youtubei/v1/player/ad_break",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?youtube\\.com/youtubei/v1/player/ad_break",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "00e60688-80aa-4136-b446-ed70e852b850",
                 "name": "ytn.co.kr/img/ad/",
                 "content": {
