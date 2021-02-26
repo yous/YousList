@@ -43821,6 +43821,19 @@
                 }
             },
             {
+                "id": "918ee8c6-ddb4-4a37-ab50-7462b71f6a8c",
+                "name": "nypost.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?nypost\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.billboard-ad"
+                    }
+                }
+            },
+            {
                 "id": "ae90b7c0-bb42-4a39-9c2d-75c5fc698863",
                 "name": "nytimes.com##",
                 "content": {
