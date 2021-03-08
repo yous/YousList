@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20210302
+! Version: 20210308
 
 ! General element hiding rules
 ##a[href*="//010bts.com"]
@@ -278,6 +278,7 @@
 ##div[id^="div-gpt-ad-"]
 ##div[id^="google_ads_iframe_"]
 ##div[id^="mobonDivBanner_"]
+##div[id^="rcjsload_"] div[id^="rc_cont_"]>div#rc-row-container div.rc-item>div.rc-item-wrapper>a[rel$=" sponsored"]
 ##div[id^="sbaAbout"]
 ##iframe[data-src^="//ssp.realclick.co.kr/"][data-src*="c=iframe"]
 ##iframe[data-src^="http://nw.realssp.co.kr/"]
@@ -1467,6 +1468,7 @@ yug-ppl.com#@#a[href*="//yug-ppl.com"]
 ||delivery.c.switchadhub.com/adserver/sat.js^
 ||deliverys.n2s.co.kr/afm.php^
 ||deloton.com/apu.php^
+||designtaxi.com/js/i-rd.js^$domain=designtaxi.com
 ||dev.ezadsystem.com/static/js/ezad-1.0.js^
 ||dezf3o8j9jdt6.cloudfront.net/js/adop_colleapse_*.min.js^
 ||dezf3o8j9jdt6.cloudfront.net/videoads/js/adop_video_*.min.js^
@@ -3270,6 +3272,10 @@ deezer.com##section#ads_expand
 demilked.com##div.articles>div.adv.article
 demilked.com##div.desktop-ad
 demilked.com##div.mobile-ad
+designtaxi.com##div#news-content>div[style="text-align:center;"]>a[id^="in-news-link-"]
+designtaxi.com##div#news-content>div[style="text-align:center;"]>div#div-center-wrapper
+designtaxi.com##div.news-covers>div.nt
+designtaxi.com##div.news-covers>div.nt-displayboard
 develop.sunshiny.co.kr##div#googleAdBottom
 develop.sunshiny.co.kr##div#googleAdTop1
 develop.sunshiny.co.kr##div#googleAdTop2

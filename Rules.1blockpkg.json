@@ -4163,6 +4163,19 @@
                 }
             },
             {
+                "id": "1c67df1d-c7f9-418c-bca4-cda81ffe1c63",
+                "name": "##div[id^=\"rcjsload_\"] div[id^=\"rc_cont_\"]>div#rc-row-container div.rc-item>div.rc-item-wrapper>a[rel$=\" sponsored\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"rcjsload_\"] div[id^=\"rc_cont_\"]>div#rc-row-container div.rc-item>div.rc-item-wrapper>a[rel$=\" sponsored\"]"
+                    }
+                }
+            },
+            {
                 "id": "7d5da6cd-6ebe-419b-a5ea-1f1cff8d3f9a",
                 "name": "##div[id^=\"sbaAbout\"]",
                 "content": {
@@ -17301,6 +17314,22 @@
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?deloton\\.com/apu\\.php",
                         "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "4e41781e-d576-4efd-a4bb-71941ff0ffe6",
+                "name": "designtaxi.com/js/i-rd.js$domain=designtaxi.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?designtaxi\\.com/js/i-rd\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*designtaxi.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -36236,6 +36265,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.articles>div.adv.article,div.desktop-ad,div.mobile-ad"
+                    }
+                }
+            },
+            {
+                "id": "aa013af8-b6df-4f10-8bcf-ae6724a46bdf",
+                "name": "designtaxi.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?designtaxi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#news-content>div[style=\"text-align:center;\"]>a[id^=\"in-news-link-\"],div#news-content>div[style=\"text-align:center;\"]>div#div-center-wrapper,div.news-covers>div.nt,div.news-covers>div.nt-displayboard"
                     }
                 }
             },
