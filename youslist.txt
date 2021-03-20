@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20210308
+! Version: 20210320
 
 ! General element hiding rules
 ##a[href*="//010bts.com"]
@@ -5662,8 +5662,7 @@ mywatchseries.to##div.sp-leader
 n.news.naver.com##div.ad_box
 naitimp3.ru##div#M306352Composite624079
 namu.wiki##article>h1+p+div.c
-namu.wiki##aside>div:nth-of-type(2)
-namu.wiki##aside>div:nth-of-type(4)
+namu.wiki##aside>div:not([id^="tchika"])>div[id^="tchika"]
 namu.wiki##div.ad
 namu.wiki##div.namuwiki-toc-ad
 namu.wiki##div.test-ad-card
