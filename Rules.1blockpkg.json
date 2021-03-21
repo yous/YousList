@@ -27845,8 +27845,8 @@
                 }
             },
             {
-                "id": "b539397c-46cf-43ab-b17d-17339264c334",
-                "name": "res.heraldm.com/adbanner/$domain=biz.heraldcorp.com|koreaherald.com|mbiz.heraldcorp.com|news.heraldcorp.com",
+                "id": "18250bc2-b50d-443e-bab2-a29c8e729486",
+                "name": "res.heraldm.com/adbanner/$domain=biz.heraldcorp.com|koreaherald.com|mbiz.heraldcorp.com|news.heraldcorp.com|pop.heraldcorp.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?res\\.heraldm\\.com/adbanner/",
@@ -27855,7 +27855,8 @@
                             "*biz.heraldcorp.com",
                             "*koreaherald.com",
                             "*mbiz.heraldcorp.com",
-                            "*news.heraldcorp.com"
+                            "*news.heraldcorp.com",
+                            "*pop.heraldcorp.com"
                         ]
                     },
                     "action": {
@@ -44304,6 +44305,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#news_body_area>div[style=\"clear:both;margin-top:6px;margin-bottom:10px;margin-left:10px;text-align:center;float:right;\"],div.banner_left,div.banner_right,div.com_ban,div.news_con>div>div[style=\"clear:both;margin-top:6px;margin-bottom:10px;margin-left:10px;text-align:center;float:right;max-width:200px;max-height:200px;\"],div.news_con>div>div[style=\"clear:both;margin:0 auto;text-align:center;max-width:336px;max-height:280px;\"],iframe[src^=\"/data/ad/\"]"
+                    }
+                }
+            },
+            {
+                "id": "2d58abb5-37c5-46e8-9046-a971ddc38052",
+                "name": "pop.heraldcorp.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pop\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ADLEFT_UNI,div#aside div.ad.aside,div#content>div[style=\"margin:10px 0 10px 20px; width:300px; height:250px;  float: left; \"],div#content>div[style=\"margin:10px 20px 10px 0; width:300px; height:250px; float: right; \"]"
                     }
                 }
             },
