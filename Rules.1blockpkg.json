@@ -31092,6 +31092,22 @@
                 }
             },
             {
+                "id": "f80c3cab-99ce-4aac-b4fd-1632ec1d878e",
+                "name": "torrentdia3.com/data/zn_bimg/$domain=torrentdia3.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentdia3\\.com/data/zn_bimg/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*torrentdia3.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8a125599-b4ef-484a-9e44-34be22cdb1e9",
                 "name": "torrentmade.com/data/zn_banner/",
                 "content": {
@@ -46873,6 +46889,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href^=\"/to_cheonseo.php\"],a[href^=\"/to_chitos.php\"],a[href^=\"/to_funpick.php\"],a[href^=\"/to_toy.php\"],a[href^=\"/to_yama.php\"],div#LeftAD,div#chitos,div#rb,div#toto,table#file_table>tbody>tr:nth-of-type(1)"
+                    }
+                }
+            },
+            {
+                "id": "051991b8-4764-4555-a97a-012e3b863f1f",
+                "name": "torrentdia3.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentdia3\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.left_banner,div.side_bimg,div.top_bimg"
                     }
                 }
             },
