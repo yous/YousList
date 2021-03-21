@@ -47013,6 +47013,19 @@
                 }
             },
             {
+                "id": "22c65463-98ba-4bc1-89f3-8bc250d1b9d2",
+                "name": "torrentsee48.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentsee48\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mmbannel,div.tads1"
+                    }
+                }
+            },
+            {
                 "id": "1d1f7771-34ef-423c-aee0-401f465a3fed",
                 "name": "torrentwal.com##",
                 "content": {
