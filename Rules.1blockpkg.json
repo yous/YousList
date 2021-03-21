@@ -31179,6 +31179,22 @@
                 }
             },
             {
+                "id": "0f0b5d71-88a6-40af-bfd2-1adbfc32040d",
+                "name": "torrentonly1.com/data/zn_bimg/$domain=torrentonly1.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentonly1\\.com/data/zn_bimg/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*torrentonly1.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "14cb3e0e-55c3-481c-b83c-c6aa3a9a0a38",
                 "name": "tpc.googlesyndication.com/daca_images/simgad/$domain=googleads.g.doubleclick.net|pagead2.googlesyndication.com",
                 "content": {
@@ -46980,6 +46996,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.contents>div.xe_content>div[style=\"padding:0px 0px 0px 0px !important;\"],div.contents>div>center,div.left_widget_wrap,div.rd_ft>b>b>center"
+                    }
+                }
+            },
+            {
+                "id": "5596497d-2906-4f16-a316-940ed8bfa824",
+                "name": "torrentonly1.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentonly1\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.left_bimg,div.sidebanner,section.view_bimg"
                     }
                 }
             },
