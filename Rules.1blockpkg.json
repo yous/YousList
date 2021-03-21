@@ -42787,6 +42787,19 @@
                 }
             },
             {
+                "id": "d577b63c-208c-4b06-85a2-42013fcb38e2",
+                "name": "mpop.heraldcorp.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mpop\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad20160801_1,div#ad20160801_2,div#ad20160801_3,div#newslist1,div.story2,div[id^=\"ad4989_\"],div[id^=\"adintext\"],div[id^=\"adsmnc\"],div[id^=\"mnc_hrdp_\"],span[id^=\"adintext\"],span[id^=\"adsmnc\"],span[id^=\"byline_ad_\"],span[id^=\"mfarm_text\"],ul#adsmnctext"
+                    }
+                }
+            },
+            {
                 "id": "925a13b8-1c63-4ab3-8bb3-4f5005d079b1",
                 "name": "msn.com##",
                 "content": {
