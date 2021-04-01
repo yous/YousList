@@ -33493,6 +33493,19 @@
                 }
             },
             {
+                "id": "2895cc18-00e5-4aba-9dcf-0719aea5cd29",
+                "name": "adweek.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adweek\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.htl-ad,div.htl-ad-wrapper"
+                    }
+                }
+            },
+            {
                 "id": "ed60818e-0c97-493a-a90f-d7cc803ff223",
                 "name": "afbbs.afreecatv.com##",
                 "content": {
