@@ -18328,6 +18328,22 @@
                 }
             },
             {
+                "id": "9e85153c-e577-49ff-aa79-4c721cd4a65f",
+                "name": "egloos.zum.com/frame/pc/send$domain=egloos.zum.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?egloos\\.zum\\.com/frame/pc/send",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*egloos.zum.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d64bceb5-df85-44be-9e5d-a9d012728420",
                 "name": "eimg.donga.com/home2011/js/scrollBanner.js",
                 "content": {
