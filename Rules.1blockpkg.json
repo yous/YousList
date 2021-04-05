@@ -38979,6 +38979,19 @@
                 }
             },
             {
+                "id": "2c2162b8-b901-4306-91b7-1f7bb38b41d0",
+                "name": "jobkorea.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?jobkorea\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
                 "id": "e0f7b191-1af9-4f29-b06c-031e2d347996",
                 "name": "jobplanet.co.kr##",
                 "content": {
