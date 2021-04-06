@@ -43545,6 +43545,19 @@
                 }
             },
             {
+                "id": "abec4fa9-1d10-4b74-abb1-838897d197a2",
+                "name": "newsnack.tv##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newsnack\\.tv"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sm_dfp_ads"
+                    }
+                }
+            },
+            {
                 "id": "8396e56a-a21d-4dc0-856e-cb1f3ce86257",
                 "name": "newsnjoy.or.kr##",
                 "content": {
