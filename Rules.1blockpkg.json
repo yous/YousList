@@ -21203,6 +21203,19 @@
                 }
             },
             {
+                "id": "c74d55e2-1921-410c-9e90-47bd1690a87e",
+                "name": "impr.taboola.com/CreativeDisplayer?adId=",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?impr\\.taboola\\.com/CreativeDisplayer\\?adId=",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "cd4f9629-a678-4c37-8aba-e63409a671b2",
                 "name": "insight.adsrvr.org/enduser/vast/",
                 "content": {
