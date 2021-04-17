@@ -48031,6 +48031,22 @@
                 }
             },
             {
+                "id": "0e2153c9-0c53-42ac-aff6-2732ce262e2d",
+                "name": "@@/script/bannerpop.js$domain=mindpost.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "/script/bannerpop\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*mindpost.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
+                    }
+                }
+            },
+            {
                 "id": "6551b99f-69f8-4071-8fa3-f68ca1ff8e23",
                 "name": "@@ad.smartmediarep.com/NetInsight/$domain=allvod.sbs.co.kr|news.sbs.co.kr|programs.sbs.co.kr|wavve.com",
                 "content": {
