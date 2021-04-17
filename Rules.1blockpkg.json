@@ -48031,22 +48031,6 @@
                 }
             },
             {
-                "id": "0e2153c9-0c53-42ac-aff6-2732ce262e2d",
-                "name": "@@/script/bannerpop.js$domain=mindpost.co.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "/script/bannerpop\\.js",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*mindpost.co.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "ignore-previous-rules"
-                    }
-                }
-            },
-            {
                 "id": "6551b99f-69f8-4071-8fa3-f68ca1ff8e23",
                 "name": "@@ad.smartmediarep.com/NetInsight/$domain=allvod.sbs.co.kr|news.sbs.co.kr|programs.sbs.co.kr|wavve.com",
                 "content": {
@@ -48074,6 +48058,22 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*sportsseoul.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
+                    }
+                }
+            },
+            {
+                "id": "9571aed8-6d9c-40f0-907e-b35710bf1818",
+                "name": "@@mindpost.or.kr/script/bannerpop.js$domain=mindpost.or.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mindpost\\.or\\.kr/script/bannerpop\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*mindpost.or.kr"
                         ]
                     },
                     "action": {
