@@ -113,7 +113,10 @@ class FilterParser:
 
         rule = OrderedDict()
         if url:
-            name = url + '##'
+            if url.startswith('~'):
+                name = '##' + css
+            else:
+                name = url + '##'
         else:
             name = line
         rule['id'] = self._get_rule_id(name)
@@ -121,7 +124,43 @@ class FilterParser:
 
         if url.startswith('~'):
             # Element hiding exception rule
-            raise Exception('Cannot handle this rule: ' + line)
+            url = url[1:]
+            for prev_rule in self.rules:
+                content = prev_rule['content']
+                trigger = content['trigger']
+                action = content['action']
+
+                url_filter = trigger['url-filter']
+                if_domain = trigger.get('if-domain')
+                unless_domain = trigger.get('unless-domain')
+
+                if (action['type'] == 'css-display-none' and
+                        action['selector'] == css and
+                        url_filter == '.*' and
+                        not if_domain):
+                    if unless_domain is None:
+                        unless_domain = ['*' + url]
+                    else:
+                        unless_domain.append('*' + url)
+                    trigger['unless-domain'] = unless_domain
+                    return
+
+            # There is no global hiding rule
+            trigger = OrderedDict()
+            trigger['url-filter'] = '.*'
+            trigger['unless-domain'] = ['*' + url]
+
+            action = OrderedDict()
+            action['type'] = 'css-display-none'
+            action['selector'] = css
+
+            content = OrderedDict()
+            content['trigger'] = trigger
+            content['action'] = action
+            rule['content'] = content
+            self.rules.append(rule)
+            return
+
         trigger = OrderedDict()
         if url:
             trigger['url-filter'] = \
@@ -163,8 +202,7 @@ class FilterParser:
         if url.startswith('~'):
             # Element hiding exception rule
             raise Exception('Cannot handle this rule: ' + line)
-        for i in range(len(self.rules)):
-            rule = self.rules[i]
+        for rule in self.rules:
             content = rule['content']
             trigger = content['trigger']
             action = content['action']
@@ -181,8 +219,7 @@ class FilterParser:
                     unless_domain = ['*' + url]
                 else:
                     unless_domain.append('*' + url)
-                self.rules[i]['content']['trigger']['unless-domain'] = \
-                    unless_domain
+                trigger['unless-domain'] = unless_domain
                 return
         raise Exception('Cannot handle this rule: ' + line)
 
