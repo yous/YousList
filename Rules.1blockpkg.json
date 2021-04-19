@@ -18403,6 +18403,22 @@
                 }
             },
             {
+                "id": "54c0f22c-29d6-4422-809b-a97fa9b7a9d1",
+                "name": "hbr.org/resources/js/components/overlay-intromercial/intromercial_*.js$domain=hbr.org",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hbr\\.org/resources/js/components/overlay-intromercial/intromercial_.*\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*hbr.org"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1eb850ad-b341-4f1c-bb37-ea55e6e20166",
                 "name": "health.chosun.com/js/2015/center_botbanner_2015s.js$domain=health.chosun.com",
                 "content": {
@@ -36595,6 +36611,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "aside.ad,div#admaru_mobile,div#teads_slot,div.ad-bottom,div.ad-top,div.ad_aside01,div.ad_bottom,div.ad_bottom_fix,div.ad_box,div.ad_img,div.ad_list,div.ad_top,div.ad_txt,div.box_related_list>div.rel_ad,div.fltAd,div.hot_today,div.info_time,div.info_today,div.joy_info,div.list_ad,div.wrap_list"
+                    }
+                }
+            },
+            {
+                "id": "6cc810f9-413a-45b0-b588-2e2c0be356cd",
+                "name": "hbr.org##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hbr\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container,div.partner-center__ads-container,li.stream-entry[js-target=\"stream-ad-container\"]"
                     }
                 }
             },

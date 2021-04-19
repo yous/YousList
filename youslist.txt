@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20210418
+! Version: 20210419
 
 ! General element hiding rules
 ##amp-ad
@@ -1346,6 +1346,7 @@
 ||hankyung.com/m/inc/fixed_mobile_ad_area_view.html^
 ||hb.vntsm.com/v2/live/hb.js^
 ||hb.vntsm.com/v3/live/ad-manager.min.js^
+||hbr.org/resources/js/components/overlay-intromercial/intromercial_*.js^$domain=hbr.org
 ||health.chosun.com/js/2015/center_botbanner_2015s.js^$domain=health.chosun.com
 ||health.chosun.com/js/2015/center_mtree_2015s.js^$domain=health.chosun.com
 ||health.chosun.com/js/2015/right_bestdoctor_2015s.js^$domain=health.chosun.com
@@ -3579,6 +3580,9 @@ hankyung.com##div.info_today
 hankyung.com##div.joy_info
 hankyung.com##div.list_ad
 hankyung.com##div.wrap_list
+hbr.org##div.ad-container
+hbr.org##div.partner-center__ads-container
+hbr.org##li.stream-entry[js-target="stream-ad-container"]
 hdblog.it##div.ads
 hdblog.it##div.gad_container
 hdblog.it##div[id^="banner2"]
