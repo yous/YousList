@@ -6767,6 +6767,22 @@
                 }
             },
             {
+                "id": "9122a3c3-cd9e-4bd6-9c25-1826ac7cb261",
+                "name": "/ppss\\.kr/[0-9a-f]+-[0-9a-f]+-[0-9a-f]+-[0-9a-f]+-[0-9a-f]+/$domain=ppss.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ppss\\.kr/[0-9a-f]+-[0-9a-f]+-[0-9a-f]+-[0-9a-f]+-[0-9a-f]+",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*ppss.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2de500ca-e6d7-413c-8715-73d41c2e40ca",
                 "name": "*-ads.openx.net/w/1.0/acj",
                 "content": {
@@ -11549,6 +11565,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?an\\.yandex\\.ru/system/context\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a29287f9-fa5f-4701-a3ad-68aac6e3b4e2",
+                "name": "analytics-script.ad-shield.io/script.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?analytics-script\\.ad-shield\\.io/script\\.min\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -43227,7 +43256,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ppss_ad2,div.ap_container.google-auto-placed,div.userContent>div.dable_placeholder,div.wing_banner,div[data-widget_id=\"KoEGJplB\"],section#custom_html-2"
+                        "selector": "div.userContent>div.dable_placeholder,div.wing_banner,div[data-widget_id=\"KoEGJplB\"],main#genesis-content>span:not([class]):not([id]) div,section#custom_html-2,section#custom_html-3,section#custom_html-7"
                     }
                 }
             },
