@@ -16016,6 +16016,22 @@
                 }
             },
             {
+                "id": "e5c19a13-c87d-4b6d-92c0-2bbb35b19ece",
+                "name": "deapi.afreecatv.com/api/v1/recommend$domain=afreecatv.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?deapi\\.afreecatv\\.com/api/v1/recommend",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*afreecatv.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "86b3e377-dd2a-4913-b9f4-2af45948a106",
                 "name": "delivery.amessagewithabottle.com/www/delivery/ajs.php",
                 "content": {
@@ -32350,6 +32366,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#div_video_ad_banner"
+                    }
+                }
+            },
+            {
+                "id": "e14c6f79-3d3c-4c9b-bfbe-ef20586f7b39",
+                "name": "afreecatv.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?afreecatv\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "button.promotion_area_left,button.promotion_area_right,div.promotion_area"
                     }
                 }
             },
