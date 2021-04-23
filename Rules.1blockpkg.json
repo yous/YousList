@@ -27465,6 +27465,19 @@
                 }
             },
             {
+                "id": "a270823d-0b93-4b35-80a7-31396e7e1de3",
+                "name": "selfishsnake.com/v2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?selfishsnake\\.com/v2",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "27775a03-a5a9-45a0-8328-c4eb1ce86d07",
                 "name": "seoul.co.kr/ad/iconad_seoul_iframe.html$domain=seoul.co.kr",
                 "content": {
@@ -36935,7 +36948,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#div-thetop1,div[id^=\"purch_Y_\"]"
+                        "selector": "div#div-thetop1,div.adslot,div[id^=\"purch_Y_\"]"
                     }
                 }
             },
