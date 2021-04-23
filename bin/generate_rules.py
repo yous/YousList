@@ -256,11 +256,10 @@ class FilterParser:
 
         # * Adblock Plus' filterToRegExp:
         #   https://github.com/adblockplus/adblockpluscore/blob/master/lib/common.js
-        # * uBlock Origin's strToRegex:
+        # * uBlock Origin's restrFromGenericPattern:
         #   https://github.com/gorhill/uBlock/blob/master/src/js/static-net-filtering.js
         url_regex = url
         for search, replace in [[r'\*+', '*'],
-                                [r'\^\|$', '^'],
                                 [r'[.+?${}()|[\]\\]', r'\\\g<0>'],
                                 [r'\*', '.*'],
                                 [r'^\\\|\\\|', self.DOMAIN_PREFIX],
