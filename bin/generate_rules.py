@@ -16,6 +16,12 @@ class FilterParser:
     # For scheme, see Appendix A of http://www.ietf.org/rfc/rfc2396.txt
     # See https://webkit.org/blog/4062/targeting-domains-with-content-blockers/
     DOMAIN_PREFIX = '^[^:]+://+([^:/]+\\.)?'
+    TRIGGER_ORDERED_KEYS = ['url-filter',
+                            'url-filter-is-case-sensitive',
+                            'resource-type',
+                            'load-type',
+                            'if-domain',
+                            'unless-domain']
 
     def __init__(self, name='Generated Package', basepkg=None):
         self.pkg = OrderedDict()
@@ -241,44 +247,60 @@ class FilterParser:
     def _parse_url_filter(self, line):
         """rule['id'], rule['content']['action']['type'] should be set."""
         rule = OrderedDict()
+        rule['id'] = None
+        trigger = {}
+
         splits = line.split('$', 2)
         if len(splits) < 2:
             splits.append('')
         url, options = splits
-        name = self._strip_url(url)
-        url = url.rstrip('^').strip('*')
-        if options:
-            name += '$' + options
-        rule['id'] = None
-        rule['name'] = name
+        if line.startswith('/'):
+            # Regular expression blocking rule
+            regex = url
+            if not regex.endswith('/'):
+                raise Exception('Cannot handle this rule: ' + line)
+            regex = regex[1:-1]
+            regex = re.sub(r'\\/', '/', regex)
 
-        trigger = {}
+            name = '/'
+            if regex.startswith(self.DOMAIN_PREFIX):
+                name += regex[len(self.DOMAIN_PREFIX):]
+            else:
+                name += regex
+            name += '/'
+            if options:
+                name += '$' + options
+            rule['name'] = name
 
-        # * Adblock Plus' filterToRegExp:
-        #   https://github.com/adblockplus/adblockpluscore/blob/master/lib/common.js
-        # * uBlock Origin's restrFromGenericPattern:
-        #   https://github.com/gorhill/uBlock/blob/master/src/js/static-net-filtering.js
-        url_regex = url
-        for search, replace in [[r'\*+', '*'],
-                                [r'[.+?${}()|[\]\\]', r'\\\g<0>'],
-                                [r'\*', '.*'],
-                                [r'^\\\|\\\|', self.DOMAIN_PREFIX],
-                                [r'^\\\|', '^'],
-                                [r'\\\|$', '$']]:
-            url_regex = re.sub(search, replace, url_regex)
-        trigger['url-filter'] = url_regex
+            trigger['url-filter'] = regex
+        else:
+            # General blocking rule
+            name = self._strip_url(url)
+            url = url.rstrip('^').strip('*')
+            if options:
+                name += '$' + options
+            rule['name'] = name
+
+            # * Adblock Plus' filterToRegExp:
+            #   https://github.com/adblockplus/adblockpluscore/blob/master/lib/common.js
+            # * uBlock Origin's restrFromGenericPattern:
+            #   https://github.com/gorhill/uBlock/blob/master/src/js/static-net-filtering.js
+            url_regex = url
+            for search, replace in [[r'\*+', '*'],
+                                    [r'[.+?${}()|[\]\\]', r'\\\g<0>'],
+                                    [r'\*', '.*'],
+                                    [r'^\\\|\\\|', self.DOMAIN_PREFIX],
+                                    [r'^\\\|', '^'],
+                                    [r'\\\|$', '$']]:
+                url_regex = re.sub(search, replace, url_regex)
+            trigger['url-filter'] = url_regex
+
         trigger['url-filter-is-case-sensitive'] = False
 
         opt_dict = self._parse_options(options)
         trigger.update(opt_dict)
-        trigger_ordered_keys = ['url-filter',
-                                'url-filter-is-case-sensitive',
-                                'resource-type',
-                                'load-type',
-                                'if-domain',
-                                'unless-domain']
         trigger_ordered_dict = OrderedDict()
-        for key in trigger_ordered_keys:
+        for key in self.TRIGGER_ORDERED_KEYS:
             if key in trigger:
                 trigger_ordered_dict[key] = trigger[key]
 
