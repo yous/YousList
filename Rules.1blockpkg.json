@@ -32487,6 +32487,19 @@
                 }
             },
             {
+                "id": "0375563a-3945-489b-a9fb-9463f3e6ee56",
+                "name": "anandtech.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?anandtech\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#side_ad,div#side_ad2,div#side_ad3,div.header_ad"
+                    }
+                }
+            },
+            {
                 "id": "26665159-4bcd-43d9-b72d-5f17a9254585",
                 "name": "androidcentral.com##",
                 "content": {
