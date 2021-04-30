@@ -20011,6 +20011,32 @@
                 }
             },
             {
+                "id": "34c3dacf-4c9b-4baa-b8da-3bf33df12f66",
+                "name": "in-page-push.com/400/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?in-page-push\\.com/400/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2d6e0b14-96a9-4f6c-a7b0-ff4f1779176c",
+                "name": "in-page-push.com/500/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?in-page-push\\.com/500/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "cd4f9629-a678-4c37-8aba-e63409a671b2",
                 "name": "insight.adsrvr.org/enduser/vast/",
                 "content": {
@@ -29157,6 +29183,19 @@
                         "if-domain": [
                             "*vidzi.tv"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "27f89b5a-fa6c-49e9-82fa-d4bc639b3a86",
+                "name": "stawhoph.com/apu.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?stawhoph\\.com/apu\\.php",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
