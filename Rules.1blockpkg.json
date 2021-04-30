@@ -45947,6 +45947,19 @@
                 }
             },
             {
+                "id": "20dbae6d-ade7-4a42-a655-70f85a79a6da",
+                "name": "vidcloud.msk.ru##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?vidcloud\\.msk\\.ru"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#overlay-center"
+                    }
+                }
+            },
+            {
                 "id": "cc118975-4cdb-41eb-92f9-3830a5b7c22b",
                 "name": "video.animoe.us##",
                 "content": {
