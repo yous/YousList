@@ -45310,6 +45310,19 @@
                 }
             },
             {
+                "id": "62925fd7-7063-4969-a13e-a39c7bf4492d",
+                "name": "tomshardware.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tomshardware\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-unit,div.dfp-leaderboard-container"
+                    }
+                }
+            },
+            {
                 "id": "815db28c-25fa-4f59-a1e8-18bbe179127c",
                 "name": "toonsarang.tel##",
                 "content": {
