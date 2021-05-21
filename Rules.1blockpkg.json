@@ -21460,6 +21460,22 @@
                 }
             },
             {
+                "id": "149145e4-d475-4243-9386-3d6d790d74e0",
+                "name": "kukinews.com/data/kuk/banner/$domain=kukinews.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kukinews\\.com/data/kuk/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*kukinews.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f9ce1f69-3d8e-4820-bae5-4b5d215c64ed",
                 "name": "kukudas.com/img/banner/$domain=kukudas.com",
                 "content": {
@@ -38454,7 +38470,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.wing_left,div.wing_left_up,div.wing_right"
+                        "selector": "aside.left-header-bnr,aside.right-header-bnr,div#news_body_area>div.in-content[style=\"display: block;text-align: center !important;width: 100%;\"],div.ad_news_footer,div.banner,div.wing_left,div.wing_left_up,div.wing_right,ul[data-bannerkind]"
                     }
                 }
             },
