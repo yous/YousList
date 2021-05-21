@@ -35651,6 +35651,19 @@
                 }
             },
             {
+                "id": "adb36bcc-937a-4894-afac-6cea92aed10b",
+                "name": "entermedia.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?entermedia\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#listingBannerContainer,div.ad-template"
+                    }
+                }
+            },
+            {
                 "id": "6f1bfd81-3700-464c-be80-bb113082f797",
                 "name": "entertain.v.daum.net##",
                 "content": {
