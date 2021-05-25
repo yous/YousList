@@ -14773,32 +14773,6 @@
                 }
             },
             {
-                "id": "5d2e94f0-b6d6-4197-8dd1-ce26765f8e39",
-                "name": "cm*.joins.com",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?cm.*\\.joins\\.com",
-                        "url-filter-is-case-sensitive": false
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "e02d04b9-34f0-46b0-818b-e5cb98eb7628",
-                "name": "cm*.jssearch.net",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?cm.*\\.jssearch\\.net",
-                        "url-filter-is-case-sensitive": false
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "71a36937-1e7e-4183-95e8-3a69d6479482",
                 "name": "cm.interworksmedia.co.kr/adTagRequest.htm",
                 "content": {
@@ -14851,11 +14825,76 @@
                 }
             },
             {
+                "id": "868195f7-5ee9-40df-bd88-312f106a4825",
+                "name": "cm1.joins.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cm1\\.joins\\.com",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a355bd39-c03b-4a71-9a52-76d8de679672",
+                "name": "cm1.jssearch.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cm1\\.jssearch\\.net",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9638756c-cb26-4638-96d8-8a05cd662e95",
                 "name": "cm2.cjmooter.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?cm2\\.cjmooter\\.com",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "35436493-325e-4f13-810f-1368e0c03550",
+                "name": "cm2.joins.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cm2\\.joins\\.com",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "73bae5e5-c314-4bd9-82ef-53479f99c074",
+                "name": "cm2.jssearch.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cm2\\.jssearch\\.net",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "432c3387-f03f-4d62-90a1-6a06aef8ede1",
+                "name": "cm3.jssearch.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cm3\\.jssearch\\.net",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
