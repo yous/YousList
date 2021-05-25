@@ -46405,6 +46405,19 @@
                 }
             },
             {
+                "id": "ee1e6a67-3da0-4a96-8dff-d4eec0d825c9",
+                "name": "whosampled.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?whosampled\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-slot"
+                    }
+                }
+            },
+            {
                 "id": "1157a7bf-65b5-42b7-96b6-1cecc8f21995",
                 "name": "wiki.dcinside.com##",
                 "content": {
