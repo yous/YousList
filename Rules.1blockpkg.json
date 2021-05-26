@@ -40295,6 +40295,19 @@
                 }
             },
             {
+                "id": "91d236d9-42db-4d07-b253-bc108a06dc92",
+                "name": "m.newspic.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.newspic\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#dionAdArea,div#dionAdArea2"
+                    }
+                }
+            },
+            {
                 "id": "8d4f22ec-2f45-4b82-8a64-29391d141d1f",
                 "name": "m.newspim.com##",
                 "content": {
