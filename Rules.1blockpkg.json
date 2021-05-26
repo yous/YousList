@@ -38241,6 +38241,19 @@
                 }
             },
             {
+                "id": "ae6b5b8d-5ece-4f92-a291-b462aa6e4eed",
+                "name": "kick-off.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kick-off\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_box,div.board_view_ad,div.board_view_comment_ad,div.board_view_top_ad,div.contents_right_ad,div.main_ad"
+                    }
+                }
+            },
+            {
                 "id": "11b5022b-e213-4420-a60d-1d538f8e6ec3",
                 "name": "kidd.co.kr##",
                 "content": {
