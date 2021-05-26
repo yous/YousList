@@ -36551,6 +36551,19 @@
                 }
             },
             {
+                "id": "f814a898-1c60-4666-9452-3c108c09310d",
+                "name": "ghacks.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ghacks\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#snhb-snhb_ghacks_bottom-0,div#snhb-snhb_ghacks_bottom-1,div.box-banner,div.column-ad,div.ghacks_ad_code,div.rv-ad,div.wide-ad"
+                    }
+                }
+            },
+            {
                 "id": "34840482-e158-4461-a619-4a70d97081c1",
                 "name": "gidonline.club##",
                 "content": {
