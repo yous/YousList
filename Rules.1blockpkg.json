@@ -43584,6 +43584,19 @@
                 }
             },
             {
+                "id": "1c4282e8-f2c2-473a-9e73-f58bd95bbe64",
+                "name": "quora.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?quora\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad,div.question_page_ad"
+                    }
+                }
+            },
+            {
                 "id": "6efd51c7-f2c1-4176-a257-c498f4e8ebb7",
                 "name": "qz.com##",
                 "content": {
