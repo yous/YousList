@@ -38852,6 +38852,19 @@
                 }
             },
             {
+                "id": "f8536f87-5c99-44cd-b549-a3ccf84d6a03",
+                "name": "m-clien-net.cdn.ampproject.org##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m-clien-net\\.cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.list_bottom_ad,div.list_center_ad,div.view_top_ad"
+                    }
+                }
+            },
+            {
                 "id": "11d0717d-beb9-493c-a01f-09933be71dbb",
                 "name": "m-mediatoday-co-kr.cdn.ampproject.org##",
                 "content": {
