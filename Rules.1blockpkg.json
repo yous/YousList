@@ -43844,6 +43844,19 @@
                 }
             },
             {
+                "id": "65e01085-5162-4a74-9ae2-6e03e9a26b99",
+                "name": "rubyguides.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?rubyguides\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adunitwrapper"
+                    }
+                }
+            },
+            {
                 "id": "eea8a21a-4a33-4d3c-89fe-12a0fb3cb665",
                 "name": "ruliweb.com##",
                 "content": {
