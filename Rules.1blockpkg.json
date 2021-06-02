@@ -42934,6 +42934,19 @@
                 }
             },
             {
+                "id": "061e4223-d44e-4003-b610-2cc04c8034e5",
+                "name": "olympics.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?olympics\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.tk-ad-top"
+                    }
+                }
+            },
+            {
                 "id": "7fd11021-7f19-41b7-9529-21ebd37192e1",
                 "name": "ondemandkorea.com##",
                 "content": {
