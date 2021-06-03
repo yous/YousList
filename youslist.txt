@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20210602
+! Version: 20210603
 
 ! General element hiding rules
 ##amp-ad
@@ -499,7 +499,7 @@
 ~zozola8.com##a[href*="//zozola8.com"]
 
 ! Regular expression URL filters
-/^[^:]+:\/\/+([^:/]+\.)?ppss\.kr/[0-9a-f]+-[0-9a-f]+-[0-9a-f]+-[0-9a-f]+-[0-9a-f]+/$domain=ppss.kr
+/^[^:]+:\/\/+([^:/]+\.)?ppss\.kr\/[0-9a-f]+-[0-9a-f]+-[0-9a-f]+-[0-9a-f]+-[0-9a-f]+/$domain=ppss.kr
 
 ! URL filters
 *-ads.openx.net/w/1.0/acj^
