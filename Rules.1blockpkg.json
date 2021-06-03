@@ -29271,6 +29271,22 @@
                 }
             },
             {
+                "id": "8d8a3657-b978-4f1d-861a-98a776902d41",
+                "name": "stiffgame.com/v2*$domain=boredpanda.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?stiffgame\\.com/v2",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*boredpanda.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "011d604d-f7bd-4d44-9cd8-48fbbf75b544",
                 "name": "stoo.asiae.co.kr/ad/$domain=stoo.asiae.co.kr",
                 "content": {
