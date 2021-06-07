@@ -33278,6 +33278,19 @@
                 }
             },
             {
+                "id": "450e2aac-dcad-4292-a1b1-6b9442e9435c",
+                "name": "bbc.co.uk##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?bbc\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[amp-access=\"toggles.ads.enabled\"],div[data-e2e=\"advertisement\"]"
+                    }
+                }
+            },
+            {
                 "id": "1a20f654-6ed2-4f4e-aec3-b87978026965",
                 "name": "bbs.ruliweb.com##",
                 "content": {
