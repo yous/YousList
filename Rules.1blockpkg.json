@@ -40779,6 +40779,32 @@
                 }
             },
             {
+                "id": "85b8a3b5-a3b3-4b0f-ae0e-8a6dafca2552",
+                "name": "m.star.ytn.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.star\\.ytn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#float_bottom,div.newsview_ad_bnr,div.text_ad_type_1,div.text_ad_type_2,li.ad_area"
+                    }
+                }
+            },
+            {
+                "id": "69317f5c-68fd-4bd6-aa6a-507bed4d5125",
+                "name": "m.ytn.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ytn\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#float_bottom,div.newsview_ad_bnr,div.text_ad_type_1,div.text_ad_type_2,li.ad_area"
+                    }
+                }
+            },
+            {
                 "id": "01be8d2a-b321-41ca-8ec6-6f0dbc18ad49",
                 "name": "m.tf.co.kr##",
                 "content": {
@@ -41061,19 +41087,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#main_banner"
-                    }
-                }
-            },
-            {
-                "id": "69317f5c-68fd-4bd6-aa6a-507bed4d5125",
-                "name": "m.ytn.co.kr##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ytn\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#float_bottom,div.newsview_ad_bnr,div.text_ad_type_1,div.text_ad_type_2,li.ad_area"
                     }
                 }
             },
