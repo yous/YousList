@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20210603
+! Version: 20210607
 
 ! General element hiding rules
 ##amp-ad
@@ -240,6 +240,7 @@
 ##iframe[src*="//js.hnscom.com/etc/hns/hnsIframe_"][src$=".html"]
 ##iframe[src*="//js.newsmobile.co.kr/inbnet_listing_banner.html"]
 ##iframe[src*="//jtpress.kr/ShareMaxBanner"][src*=".php"]
+##iframe[src*="//kitweb.tadapi.info/network/act/bjc.php"]
 ##iframe[src*="//kitweb.tadapi.info/network/adapi.php"]
 ##iframe[src*="//kn.acrosspf.com/delivery.ad"]
 ##iframe[src*="//landing.dailyissue.co.kr/adv/3dpop.html"]
@@ -1556,8 +1557,10 @@
 ||kbench.com/m_article_right_box.php^$domain=m.kbench.com
 ||keyword.ad4989.co.kr^
 ||khan.co.kr/ad/
+||kitweb.tadapi.info/network/act/bjc.php^
 ||kitweb.tadapi.info/network/adapi.php^
 ||kitweb2.tadapi.info/network/adapi.js.php^
+||kitweb2.tadapi.info/network/adapi_ns.js.php^
 ||kmib.co.kr/cp/realclick/
 ||kn.acrosspf.com/delivery.ad^
 ||kodcad.kr/ad/
@@ -6557,6 +6560,7 @@ todayan.com##ins[data-ad-slot="9363616788"]
 todayhumor.co.kr##div.contentContainer>div[style="margin-bottom:10px;text-align:left;;padding-bottom:0px"]
 todayhumor.co.kr##div.under_ad_div
 todayhumor.co.kr##td.list_ad
+todaykorea.co.kr##div.ad-template
 todaykorea.co.kr##div.banner_aside02
 todaykorea.co.kr##iframe[src^="http://www.todaykorea.co.kr/include/adsense.php"]
 togetter.com##div.ad_footer_overlay

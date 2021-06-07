@@ -3046,6 +3046,19 @@
                 }
             },
             {
+                "id": "c0a2aaac-2c5b-4b9b-a4b2-403a65dee0dc",
+                "name": "##iframe[src*=\"//kitweb.tadapi.info/network/act/bjc.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//kitweb.tadapi.info/network/act/bjc.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "be259a61-f9ff-4882-b791-a7d1cd37e602",
                 "name": "##iframe[src*=\"//kitweb.tadapi.info/network/adapi.php\"]",
                 "content": {
@@ -21357,6 +21370,19 @@
                 }
             },
             {
+                "id": "88a4ad03-8d9c-4718-9d42-9026bd21c9f5",
+                "name": "kitweb.tadapi.info/network/act/bjc.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kitweb\\.tadapi\\.info/network/act/bjc\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2ffeb914-9e96-42c7-969a-47080905cf7e",
                 "name": "kitweb.tadapi.info/network/adapi.php",
                 "content": {
@@ -21375,6 +21401,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?kitweb2\\.tadapi\\.info/network/adapi\\.js\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7a8dd0d6-1d2d-408b-84e2-232a59da275c",
+                "name": "kitweb2.tadapi.info/network/adapi_ns.js.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kitweb2\\.tadapi\\.info/network/adapi_ns\\.js\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -45480,7 +45519,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.banner_aside02,iframe[src^=\"http://www.todaykorea.co.kr/include/adsense.php\"]"
+                        "selector": "div.ad-template,div.banner_aside02,iframe[src^=\"http://www.todaykorea.co.kr/include/adsense.php\"]"
                     }
                 }
             },
