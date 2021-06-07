@@ -32511,6 +32511,19 @@
                 }
             },
             {
+                "id": "92269411-ae68-4667-8092-26cc89c951d0",
+                "name": "adtcs-w.tistory.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adtcs-w\\.tistory\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article-view div[style=\"float:right;margin:0 0 10px 10px;width:300px;height:250px\"],div.article-view div[style=\"text-align:center;margin:10px 0 10px 0;clear:both\"]"
+                    }
+                }
+            },
+            {
                 "id": "2895cc18-00e5-4aba-9dcf-0719aea5cd29",
                 "name": "adweek.com##",
                 "content": {
@@ -42100,7 +42113,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.tt_adsense_bottom,div[data-widget_id=\"goP2aklQ\"],ins[data-ad-slot=\"6227358368\"],ins[data-ad-slot=\"8449432364\"],ins[data-ad-slot=\"9338504765\"]"
+                        "selector": "div[data-widget_id=\"goP2aklQ\"],ins[data-ad-slot=\"6227358368\"],ins[data-ad-slot=\"8449432364\"],ins[data-ad-slot=\"9338504765\"]"
                     }
                 }
             },
@@ -45467,7 +45480,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad250,div.ad250_outter"
+                        "selector": "div.ad250,div.ad250_outter,div.tt_adsense_bottom,div.tt_adsense_top"
                     }
                 }
             },
