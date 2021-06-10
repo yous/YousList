@@ -11505,6 +11505,38 @@
                 }
             },
             {
+                "id": "c017f99c-4ad7-452d-a938-5f27b2206fab",
+                "name": "akomnews.com/data/banner/$domain=akomnews.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?akomnews\\.com/data/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*akomnews.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "35c18cfa-0211-43ff-b803-4273cfe1fc2b",
+                "name": "akomnews.com/theme/wide01/include/adsense.php$domain=akomnews.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?akomnews\\.com/theme/wide01/include/adsense\\.php",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*akomnews.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b9911674-42a8-492c-aff9-64e9c71f3133",
                 "name": "alea.adam.ad.daum.net/mobilead",
                 "content": {
@@ -32572,6 +32604,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#articleBody div[style=\"width:250px;height:250px;margin:0 0 10px 10px;float:right;\"],div.asd_ad300250,div.asd_banner,div.atc_tag>div[style=\"text-align:center; margin-bottom:30px;\"],div.atc_todayhot>li[style=\"float:left;list-style:none;text-align:center;width:50%;\"],div.column01_banner,div.content>div[style=\"text-align:center;margin-top:20px;\"],div.stickyCont>div[style=\"margin:20px 0 25px 0;width:100%;height:240px;\"],div.stickyCont>div[style=\"width:690px;height:250px;margin-top: 10px;\"],div.view_banner"
+                    }
+                }
+            },
+            {
+                "id": "e7816c05-071c-45b2-97c0-77fee2f72451",
+                "name": "akomnews.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?akomnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_pos,div.banner_wrap,div.com_ban,div.top_banner,iframe[src^=\"https://www.akomnews.com/theme/wide01/include/adsense.php\"]"
                     }
                 }
             },
