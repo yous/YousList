@@ -45374,6 +45374,19 @@
                 }
             },
             {
+                "id": "9382cb57-85fb-4c8f-b1ac-f3ed10bfc53b",
+                "name": "theregister.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?theregister\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adun"
+                    }
+                }
+            },
+            {
                 "id": "45f8aa8d-c647-418e-a180-2ca21282dbc8",
                 "name": "therightscoop.com##",
                 "content": {
