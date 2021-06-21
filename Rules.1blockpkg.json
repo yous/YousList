@@ -20663,6 +20663,22 @@
                 }
             },
             {
+                "id": "c19b0863-6d26-40e1-8a8e-d6b54f3fed22",
+                "name": "jjang0u.com/banner_wrap$domain=jjang0u.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?jjang0u\\.com/banner_wrap",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*jjang0u.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a6c1c1ea-5874-4e10-ad44-10b4ee1fbb7c",
                 "name": "jjanglive.com/flash/AdShowClient.swf",
                 "content": {
@@ -38177,6 +38193,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#LayerWarp2>div[style=\"z-index:3; float:right;\"],iframe[src^=\"/adNdsoft/adWise\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
+                "id": "320be889-a8be-4456-98fe-c05cb91d7f57",
+                "name": "jjang0u.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?jjang0u\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "article.banner-web,div#footer_floating_banner,iframe[src^=\"/banner_wrap\"]"
                     }
                 }
             },
