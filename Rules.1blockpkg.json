@@ -24429,6 +24429,22 @@
                 }
             },
             {
+                "id": "548ca470-582b-4c7c-8e53-66ab77054185",
+                "name": "nad.tf.co.kr/v/pr/fr/thefact/$domain=tf.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?nad\\.tf\\.co\\.kr/v/pr/fr/thefact/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*tf.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "382467ef-03e3-4e3c-8e25-8521783988b1",
                 "name": "nad1.mklaud.com/ad",
                 "content": {
@@ -45174,7 +45190,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#midAd,div#wrapper>div[style=\"margin:0 auto; width:980px; height:150px; margin-bottom:15px;\"],iframe[src^=\"http://www.tf.co.kr/public/ad/\"]"
+                        "selector": "div#SIDE_LEFT_AD,div#SIDE_LEFT_AD_SCROLL,div#SIDE_RIGHT_AD,div#SIDE_RIGHT_AD_SCROLL,div#midAd,div#wrapper>div[style=\"margin:0 auto; width:980px; height:150px; margin-bottom:30px;\"],div.readLeft>div[style=\"width100%;font-size: 1.2em;border: 2px solid #ececec;margin-bottom: 15px;padding-left: 10px;\"],iframe[id^=\"ADFRAME_\"],iframe[src^=\"http://www.tf.co.kr/public/ad/\"],iframe[src^=\"https://nad.tf.co.kr/v/pr/fr/thefact/\"]"
                     }
                 }
             },
