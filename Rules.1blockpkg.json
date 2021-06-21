@@ -2240,6 +2240,19 @@
                 }
             },
             {
+                "id": "6b152b28-e2c0-4a3f-9f9f-9fa094c0c395",
+                "name": "##iframe[src*=\"//api.adjoin.co.kr/cou/da.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//api.adjoin.co.kr/cou/da.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "4dd1f510-2f3a-4b73-93c5-323f6b28f251",
                 "name": "##iframe[src*=\"//api.adns.contentlink.co.kr/adserver/delivery/iframe.php\"]",
                 "content": {
@@ -11791,6 +11804,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?apex\\.go\\.sonobi\\.com/trinity\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3bb495be-f1d8-423b-9b07-da13c1121ed5",
+                "name": "api.adjoin.co.kr/cou/da.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?api\\.adjoin\\.co\\.kr/cou/da\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -22529,6 +22555,22 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*m.hungryapp.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b699e7ab-9b72-4c80-a15f-0158bc8e67ab",
+                "name": "m.jjang0u.com/banner_wrap$domain=m.jjang0u.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.jjang0u\\.com/banner_wrap",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.jjang0u.com"
                         ]
                     },
                     "action": {
@@ -40110,7 +40152,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#view_middle_ad,div[style=\"padding:10px 0; width:100%; height:100px; clear:both; background-color:#ffffff; border-bottom:1px solid #eeeeee;\"],div[style=\"padding:5px 0; width:100%; height:100px; clear:both; background-color:#e5e5e5;\"],div[style=\"padding:5px 0; width:100%; height:50px; clear:both; background-color:#e5e5e5;\"]"
+                        "selector": "div#view_middle_ad,div.ad_area1,div.ad_area2,div[style=\"padding:10px 0; width:100%; height:100px; clear:both; background-color:#ffffff; border-bottom:1px solid #eeeeee;\"],div[style=\"padding:5px 0; width:100%; height:100px; clear:both; background-color:#e5e5e5;\"],div[style=\"padding:5px 0; width:100%; height:50px; clear:both; background-color:#e5e5e5;\"],iframe[src^=\"/banner_wrap\"]"
                     }
                 }
             },
