@@ -43813,6 +43813,32 @@
                 }
             },
             {
+                "id": "ad46715c-bc59-45a2-bbcd-28890d06eeff",
+                "name": "pullbbang.biz##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pullbbang\\.biz"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pb-video-banner-ad-wrap"
+                    }
+                }
+            },
+            {
+                "id": "6bbdc597-77b1-49cd-99fb-be5bc3a4c1d8",
+                "name": "pullbbang.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pullbbang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pb-video-banner-ad-wrap"
+                    }
+                }
+            },
+            {
                 "id": "3e5e1289-6a99-4884-a4f7-cfba3a82536d",
                 "name": "qq.com##",
                 "content": {
