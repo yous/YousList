@@ -29798,6 +29798,19 @@
                 }
             },
             {
+                "id": "23f9c048-3972-41cf-88c9-62e5f3445c37",
+                "name": "tags.h12-media.com/load2.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tags\\.h12-media\\.com/load2\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "7ab980b2-6730-4e56-ae1f-bce3244e1a9e",
                 "name": "tags.h12-media.com/v2/prebid.js",
                 "content": {
