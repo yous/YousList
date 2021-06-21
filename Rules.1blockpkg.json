@@ -24445,6 +24445,22 @@
                 }
             },
             {
+                "id": "300344c6-3a05-4655-a146-613ed6b41e0c",
+                "name": "nad.tf.co.kr/v/pr/js/thefact/$domain=m.tf.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?nad\\.tf\\.co\\.kr/v/pr/js/thefact/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.tf.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "382467ef-03e3-4e3c-8e25-8521783988b1",
                 "name": "nad1.mklaud.com/ad",
                 "content": {
