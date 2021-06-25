@@ -2565,6 +2565,19 @@
                 }
             },
             {
+                "id": "deeb188b-453b-46da-a614-be9799dc5fe0",
+                "name": "##iframe[src*=\"//coupa.ng/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//coupa.ng/\"]"
+                    }
+                }
+            },
+            {
                 "id": "eaec2a2b-faad-40f6-adc1-299ac4696582",
                 "name": "##iframe[src*=\"//cpv.ad.naver.com/adshow\"]",
                 "content": {
@@ -25968,6 +25981,22 @@
                 }
             },
             {
+                "id": "401f72ab-cf79-4c1b-aa40-9939367c1e86",
+                "name": "partners.coupangcdn.com/widget/product-banner/main-*.js$domain=partners.coupangcdn.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?partners\\.coupangcdn\\.com/widget/product-banner/main-.*\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*partners.coupangcdn.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f042a62d-a33f-4129-acc5-6e81556d914a",
                 "name": "parts.blog.livedoor.jp/ad/$domain=blog.livedoor.jp",
                 "content": {
@@ -45160,7 +45189,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#Promotion2,div#content>table.box1[align=\"center\"][bgcolor=\"#161d25\"][cellpadding=\"0\"][cellspaing=\"0\"][style=\"padding-bottom:5px;margin-bottom:5px;\"][width=\"593\"],div[align=\"center\"]:not([class]):not([id])>table[align=\"center\"][background=\"black.png\"][bgcolor=\"#000000\"][cellpadding=\"0\"][cellspacing=\"0\"][height=\"110\"][width=\"900\"],div[align=\"center\"]:not([class]):not([id])>table[border=\"0\"][cellpadding=\"3\"][cellspacing=\"3\"][height=\"270\"][width=\"900\"]"
+                        "selector": "div#Promotion2,div#bbs>table[align=\"center\"][style=\"min-height:111px;background-color:#0f151f;border-left:10px solid #000;border-right:1px solid #000;border-bottom:1px solid #000;\"],div#content>table.box1[align=\"center\"][bgcolor=\"#161d25\"][cellpadding=\"0\"][cellspaing=\"0\"][style=\"padding-bottom:5px;margin-bottom:5px;\"][width=\"593\"],div#honey>div[style=\"background-color:#0f151f;height:250px;display:block;margin-bottom:15px;border:1px solid #000;width:300px;\"],div[align=\"center\"]:not([class]):not([id])>table[align=\"center\"][background=\"black.png\"][bgcolor=\"#000000\"][cellpadding=\"0\"][cellspacing=\"0\"][height=\"110\"][width=\"900\"],div[align=\"center\"]:not([class]):not([id])>table[border=\"0\"][cellpadding=\"3\"][cellspacing=\"3\"][height=\"270\"][width=\"900\"]"
                     }
                 }
             },
