@@ -44229,6 +44229,19 @@
                 }
             },
             {
+                "id": "19504f85-660f-4237-beb0-9651aca3011f",
+                "name": "scmp.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?scmp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-area,div.advert,div.header-ad-container,div.header-ad-slot"
+                    }
+                }
+            },
+            {
                 "id": "0517ec21-35d3-4082-9352-f72b770f85c3",
                 "name": "search.daum.net##",
                 "content": {
