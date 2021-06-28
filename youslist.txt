@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20210625
+! Version: 20210628
 
 ! General element hiding rules
 ##amp-ad
@@ -502,7 +502,7 @@
 ~zozola8.com##a[href*="//zozola8.com"]
 
 ! Regular expression URL filters
-/^[^:]+:\/\/+([^:/]+\.)?ppss\.kr\/[0-9a-f]+-[0-9a-f]+-[0-9a-f]+-[0-9a-f]+-[0-9a-f]+/$domain=ppss.kr
+/^[^:]+:\/\/+([^:/]+\.)?ppss\.kr\/[0-9A-Za-z]+$/$domain=ppss.kr
 
 ! URL filters
 *-ads.openx.net/w/1.0/acj^
@@ -6027,12 +6027,8 @@ ppomppu.co.kr##div[id^="pp_ban_"]
 ppomppu.co.kr##iframe[id^="if_"][id$="_bn"]
 ppomppu.co.kr##iframe[src^="/banner/_loader_bbs_list_origin.php"]
 ppomppu.co.kr##p.banner_553
-ppss.kr##div.wing_banner
 ppss.kr##div[data-widget_id="KoEGJplB"]
-ppss.kr##main#genesis-content>div:not(.archive-description):not(.archive-pagination):not(.fb-quote):not(.home-top):not(.widget-area):not([id^="dablewidget_"])
-ppss.kr##main#genesis-content>span
 ppss.kr##section#custom_html-2
-ppss.kr##section#custom_html-3
 ppss.kr##section#custom_html-7
 pressian.com##div.ad
 pressian.com##div.aside>div.banner
@@ -7152,4 +7148,5 @@ zum.com##div#wrap_ad_minisite
 @@||ad.smartmediarep.com/NetInsight/$domain=allvod.sbs.co.kr|news.sbs.co.kr|programs.sbs.co.kr|wavve.com
 @@||ads.sportsseoul.com/RealMedia/ads/adstream_sx.ads/www.sportsseoul.com/main@Bottom^$domain=sportsseoul.com
 @@||mindpost.or.kr/script/bannerpop.js^$domain=mindpost.or.kr
+@@||ppss.kr/archives^$domain=ppss.kr
 @@||vads-api.ad.daum.net/xylophone/adrequest/vmap/

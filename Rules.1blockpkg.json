@@ -6806,11 +6806,11 @@
                 }
             },
             {
-                "id": "9122a3c3-cd9e-4bd6-9c25-1826ac7cb261",
-                "name": "/ppss\\.kr/[0-9a-f]+-[0-9a-f]+-[0-9a-f]+-[0-9a-f]+-[0-9a-f]+/$domain=ppss.kr",
+                "id": "74c1ef9c-20ed-48d9-bee8-e51c6a49b9c6",
+                "name": "/ppss\\.kr/[0-9A-Za-z]+$/$domain=ppss.kr",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?ppss\\.kr/[0-9a-f]+-[0-9a-f]+-[0-9a-f]+-[0-9a-f]+-[0-9a-f]+",
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ppss\\.kr/[0-9A-Za-z]+$",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*ppss.kr"
@@ -43785,7 +43785,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.wing_banner,div[data-widget_id=\"KoEGJplB\"],main#genesis-content>div:not(.archive-description):not(.archive-pagination):not(.fb-quote):not(.home-top):not(.widget-area):not([id^=\"dablewidget_\"]),main#genesis-content>span,section#custom_html-2,section#custom_html-3,section#custom_html-7"
+                        "selector": "div[data-widget_id=\"KoEGJplB\"],section#custom_html-2,section#custom_html-7"
                     }
                 }
             },
@@ -47564,6 +47564,22 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*mindpost.or.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
+                    }
+                }
+            },
+            {
+                "id": "0043b0fe-41f6-4218-b9cd-e13d154a3826",
+                "name": "@@ppss.kr/archives$domain=ppss.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ppss\\.kr/archives",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*ppss.kr"
                         ]
                     },
                     "action": {
