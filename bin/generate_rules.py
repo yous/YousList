@@ -109,7 +109,7 @@ class FilterParser:
 
     def _parse_hiding_rule(self, line):
         # Handle rule with multiple URLs
-        urls, css = line.split('##', 2)
+        urls, css = line.split('##', 1)
         if ',' in urls:
             url_list = urls.split(',')
             for url in url_list:
@@ -197,7 +197,7 @@ class FilterParser:
 
     def _parse_hiding_exception_rule(self, line):
         # Handle rule with multiple URLs
-        urls, css = line.split('#@#', 2)
+        urls, css = line.split('#@#', 1)
         if ',' in urls:
             url_list = urls.split(',')
             for url in url_list:
@@ -250,7 +250,7 @@ class FilterParser:
         rule['id'] = None
         trigger = {}
 
-        splits = line.split('$', 2)
+        splits = line.rsplit('$', 1)
         if len(splits) < 2:
             splits.append('')
         url, options = splits
@@ -320,7 +320,7 @@ class FilterParser:
         else:
             options = []
         for option in options:
-            splits = option.split('=', 2)
+            splits = option.split('=', 1)
             if len(splits) < 2:
                 splits.append('')
             opt_key, opt_val = splits
