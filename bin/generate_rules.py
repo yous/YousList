@@ -339,8 +339,10 @@ class FilterParser:
                     opt_dict['if-domain'] = if_domain
                 elif len(unless_domain):
                     opt_dict['unless-domain'] = unless_domain
-            elif opt_key == 'script':
-                opt_dict['resource-type'] = ['script']
+            elif opt_key == 'image' or opt_key == 'script':
+                if 'resource-type' not in opt_dict:
+                    opt_dict['resource-type'] = []
+                opt_dict['resource-type'].append(opt_key)
             elif opt_key == 'third-party':
                 opt_dict['load-type'] = ['third-party']
             elif opt_key == 'match-case':
