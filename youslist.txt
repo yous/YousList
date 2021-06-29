@@ -502,7 +502,9 @@
 ~zozola8.com##a[href*="//zozola8.com"]
 
 ! Regular expression URL filters
-/^[^:]+:\/\/+([^:/]+\.)?ppss\.kr\/[0-9A-Za-z]+$/$domain=ppss.kr
+/^[^:]+:\/\/+([^:/]+\.)?ppss\.kr\/-[0-9A-Za-z]+$/$domain=ppss.kr,image
+/^[^:]+:\/\/+([^:/]+\.)?ppss\.kr\/[0-9A-Za-z]+-$/$domain=ppss.kr,image
+/^[^:]+:\/\/+([^:/]+\.)?ppss\.kr\/[0-9A-Za-z]+-[0-9A-Za-z]+$/$domain=ppss.kr,image
 
 ! URL filters
 *-ads.openx.net/w/1.0/acj^
