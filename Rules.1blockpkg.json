@@ -6806,63 +6806,6 @@
                 }
             },
             {
-                "id": "659db730-b93e-4f9b-a184-8cc62640a70a",
-                "name": "/ppss\\.kr/-[0-9A-Za-z]+$/$domain=ppss.kr,image",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?ppss\\.kr/-[0-9A-Za-z]+$",
-                        "url-filter-is-case-sensitive": false,
-                        "resource-type": [
-                            "image"
-                        ],
-                        "if-domain": [
-                            "*ppss.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "c17f9568-0e3f-4ce2-8d1a-e27dc80863b3",
-                "name": "/ppss\\.kr/[0-9A-Za-z]+-$/$domain=ppss.kr,image",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?ppss\\.kr/[0-9A-Za-z]+-$",
-                        "url-filter-is-case-sensitive": false,
-                        "resource-type": [
-                            "image"
-                        ],
-                        "if-domain": [
-                            "*ppss.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "7af7f821-d13a-45a2-b5ad-9554ce3920ad",
-                "name": "/ppss\\.kr/[0-9A-Za-z]+-[0-9A-Za-z]+$/$domain=ppss.kr,image",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?ppss\\.kr/[0-9A-Za-z]+-[0-9A-Za-z]+$",
-                        "url-filter-is-case-sensitive": false,
-                        "resource-type": [
-                            "image"
-                        ],
-                        "if-domain": [
-                            "*ppss.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "2de500ca-e6d7-413c-8715-73d41c2e40ca",
                 "name": "*-ads.openx.net/w/1.0/acj",
                 "content": {
@@ -47605,22 +47548,6 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*mindpost.or.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "ignore-previous-rules"
-                    }
-                }
-            },
-            {
-                "id": "0043b0fe-41f6-4218-b9cd-e13d154a3826",
-                "name": "@@ppss.kr/archives$domain=ppss.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?ppss\\.kr/archives",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*ppss.kr"
                         ]
                     },
                     "action": {

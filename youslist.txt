@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20210629
+! Version: 20210630
 
 ! General element hiding rules
 ##amp-ad
@@ -502,9 +502,6 @@
 ~zozola8.com##a[href*="//zozola8.com"]
 
 ! Regular expression URL filters
-/^[^:]+:\/\/+([^:/]+\.)?ppss\.kr\/-[0-9A-Za-z]+$/$domain=ppss.kr,image
-/^[^:]+:\/\/+([^:/]+\.)?ppss\.kr\/[0-9A-Za-z]+-$/$domain=ppss.kr,image
-/^[^:]+:\/\/+([^:/]+\.)?ppss\.kr\/[0-9A-Za-z]+-[0-9A-Za-z]+$/$domain=ppss.kr,image
 
 ! URL filters
 *-ads.openx.net/w/1.0/acj^
@@ -7151,5 +7148,4 @@ zum.com##div#wrap_ad_minisite
 @@||ad.smartmediarep.com/NetInsight/$domain=allvod.sbs.co.kr|news.sbs.co.kr|programs.sbs.co.kr|wavve.com
 @@||ads.sportsseoul.com/RealMedia/ads/adstream_sx.ads/www.sportsseoul.com/main@Bottom^$domain=sportsseoul.com
 @@||mindpost.or.kr/script/bannerpop.js^$domain=mindpost.or.kr
-@@||ppss.kr/archives^$domain=ppss.kr
 @@||vads-api.ad.daum.net/xylophone/adrequest/vmap/
