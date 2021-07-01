@@ -46881,6 +46881,19 @@
                 }
             },
             {
+                "id": "03ee07a1-ceda-4dc8-b334-34a90dfffa5d",
+                "name": "wgntv.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wgntv\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.ad-unit"
+                    }
+                }
+            },
+            {
                 "id": "ddcc2558-bf5a-4a8b-bc06-b04cda3af0c6",
                 "name": "whatis.techtarget.com##",
                 "content": {
