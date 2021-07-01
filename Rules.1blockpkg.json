@@ -45061,6 +45061,19 @@
                 }
             },
             {
+                "id": "80760bae-a3ea-4433-992d-abafea29004d",
+                "name": "studytonight.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?studytonight\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.asc-ads,div.center[style=\"min-height: 300px;overflow: auto;\"],div[id^=\"adview\"]"
+                    }
+                }
+            },
+            {
                 "id": "2e241b9d-e233-4de7-8f69-0affac361286",
                 "name": "stuff.co.nz##",
                 "content": {
