@@ -25233,6 +25233,19 @@
                 }
             },
             {
+                "id": "7186b9b0-6d57-4f96-9b2f-6f0208acea8a",
+                "name": "newtoki*.com/tokinbtoki/*.gif",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newtoki.*\\.com/tokinbtoki/.*\\.gif",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d4cd84f0-1c8e-4447-968a-25ccd431b9b5",
                 "name": "newyorker.com/hotzones/esi/the-new-yorker/prebid.min.js$domain=newyorker.com",
                 "content": {
@@ -41460,7 +41473,7 @@
                 }
             },
             {
-                "id": "dbb6de9f-51d5-4f7b-a204-b7fa9422bff6",
+                "id": "9386b38a-c2da-43ad-ab74-2b95410d7fe0",
                 "name": "manatoki95.net##",
                 "content": {
                     "trigger": {
@@ -43020,7 +43033,7 @@
                 }
             },
             {
-                "id": "ffb8416d-4a8f-4171-8bbe-df2f48e08bdc",
+                "id": "0ff8aa54-98f3-4bba-bf6b-5b3df86eb20e",
                 "name": "newtoki95.com##",
                 "content": {
                     "trigger": {
@@ -43028,7 +43041,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "#id_mbv,#main-banner-view,.basic-banner,.board-tail-banner"
+                        "selector": "div#id_mbv>div.col-15.col-md-9.col-sm-9>div.row,div#main-banner-view>div.col-15.col-md-9.col-sm-9>div.row,div.basic-banner,div.board-tail-banner"
                     }
                 }
             },
