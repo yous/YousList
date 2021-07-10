@@ -37868,6 +37868,19 @@
                 }
             },
             {
+                "id": "02bd978c-20d6-4285-bb85-d79d7d6b3c79",
+                "name": "happymoney.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?happymoney\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.memLogIn>div.slideBx"
+                    }
+                }
+            },
+            {
                 "id": "bbee3c3e-bf5d-4c51-91e8-e84fbfbb54bc",
                 "name": "hash.kr##",
                 "content": {
