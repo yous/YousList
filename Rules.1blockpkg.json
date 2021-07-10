@@ -5382,6 +5382,22 @@
                 }
             },
             {
+                "id": "bff347b7-da0b-4791-be3f-1e1b024ded2e",
+                "name": "##a[href*=\"//fair-1295.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*fair-1295.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//fair-1295.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "3616851e-e15d-4a6d-a655-a44fb2306099",
                 "name": "##a[href*=\"//free1.live\"]",
                 "content": {
@@ -5634,6 +5650,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//ja-we.com\"],a[href*=\"//www.ja-we.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "4f5bf41b-4502-4a2e-9368-7f6a8cda2aa4",
+                "name": "##a[href*=\"//jr-666.com\"],a[href*=\"//www.jr-666.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*jr-666.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//jr-666.com\"],a[href*=\"//www.jr-666.com\"]"
                     }
                 }
             },
@@ -6626,6 +6658,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//spoto66.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "1806a22f-c3e8-4b70-aef7-f97595f3999c",
+                "name": "##a[href*=\"//spt27.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*spt27.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//spt27.com\"]"
                     }
                 }
             },
@@ -19479,6 +19527,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?hodu.*\\.com/data/banner/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6853e0ef-eaf3-4d43-8761-f5694640e3a1",
+                "name": "hodu*.net/_book/_Contents/banner/hodu/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hodu.*\\.net/_book/_Contents/banner/hodu/",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -38115,28 +38176,15 @@
                 }
             },
             {
-                "id": "6cb18930-cf85-4a4c-84b8-0566659a4bb1",
-                "name": "hodu229.com##",
+                "id": "2b9875a8-0606-4291-8ccb-3b0a0e2fe4e2",
+                "name": "hodu208.net##",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?hodu229\\.com"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hodu208\\.net"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.banner_wing,div.t_baner_box>ul"
-                    }
-                }
-            },
-            {
-                "id": "fc41166f-1ddd-42d7-ba95-032771a68f30",
-                "name": "hodu68.net##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?hodu68\\.net"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "table#banner_bottom_center"
+                        "selector": "div.sub-contents>section.banner,section.fixed-banner"
                     }
                 }
             },
