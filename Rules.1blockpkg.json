@@ -5526,6 +5526,22 @@
                 }
             },
             {
+                "id": "5b307cd5-b828-4194-b7c3-43d184e9669d",
+                "name": "##a[href*=\"//hncc24.top\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*hncc24.top"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//hncc24.top\"]"
+                    }
+                }
+            },
+            {
                 "id": "4afd3e3b-b2a9-4dac-9e97-03ddc7e0ecc7",
                 "name": "##a[href*=\"//hshsfun.com\"]",
                 "content": {
@@ -6262,6 +6278,22 @@
                 }
             },
             {
+                "id": "07fe41b3-fa88-46cd-b2b2-f0236ac332b4",
+                "name": "##a[href*=\"//pop-lin.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*pop-lin.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//pop-lin.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "8f3fbb25-267e-4041-a62a-c66b6cb5e7e4",
                 "name": "##a[href*=\"//qda86.com\"]",
                 "content": {
@@ -6678,6 +6710,22 @@
                 }
             },
             {
+                "id": "d12aa39e-e38d-4443-b22b-e0c1cec7f4b8",
+                "name": "##a[href*=\"//tohwon55.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*tohwon55.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//tohwon55.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "284e0251-a872-40aa-b50f-c58409631dbe",
                 "name": "##a[href*=\"//tomoney.kro.kr\"]",
                 "content": {
@@ -6690,6 +6738,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//tomoney.kro.kr\"]"
+                    }
+                }
+            },
+            {
+                "id": "f2e44c86-799c-4298-8193-300ce4b64d4d",
+                "name": "##a[href*=\"//top-go7.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*top-go7.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//top-go7.com\"]"
                     }
                 }
             },
@@ -22303,6 +22367,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?lightasp\\.dmcmedia\\.co\\.kr/adixs/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5e1a9fea-4f1f-46d0-822d-f5ebf191f8f2",
+                "name": "linkbom*.net/data/apms/background/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?linkbom.*\\.net/data/apms/background/",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -39537,6 +39614,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.mntl-flexible-ad,div.mntl-gpt-adunit"
+                    }
+                }
+            },
+            {
+                "id": "e1e05f40-8367-4467-b74c-e16e9146781d",
+                "name": "linkbom1.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?linkbom1\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.basic-banner"
                     }
                 }
             },
