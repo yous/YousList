@@ -4870,6 +4870,22 @@
                 }
             },
             {
+                "id": "ed609168-ca34-4ce5-94ce-c2973da89eac",
+                "name": "##a[href*=\"//b-time114.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*b-time114.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//b-time114.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "40abb7b3-0405-497c-a9e7-9aa704e48997",
                 "name": "##a[href*=\"//b365.kro.kr\"]",
                 "content": {
@@ -6022,6 +6038,22 @@
                 }
             },
             {
+                "id": "813d8567-3e9e-4e0d-84b5-4afb6a98b3aa",
+                "name": "##a[href*=\"//mst-777.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*mst-777.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//mst-777.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "01852ce4-1a46-4e8a-b1af-f9b0ac7bdf9e",
                 "name": "##a[href*=\"//mt-police04.com\"],a[href*=\"//www.mt-police04.com\"]",
                 "content": {
@@ -6502,6 +6534,22 @@
                 }
             },
             {
+                "id": "7c298096-ad90-4149-a6bc-5175106a6576",
+                "name": "##a[href*=\"//sm-5678.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*sm-5678.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//sm-5678.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "d46c2a6d-8945-46f9-b49a-cdf01c2454df",
                 "name": "##a[href*=\"//spin589.com\"]",
                 "content": {
@@ -6562,6 +6610,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//spoto117.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "ecd90960-1f6f-40e7-a5db-3025713c474b",
+                "name": "##a[href*=\"//spoto66.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*spoto66.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//spoto66.com\"]"
                     }
                 }
             },
@@ -6642,6 +6706,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//ten-1056.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "e60ab7b5-02e4-47c1-a4a3-b17de47f12be",
+                "name": "##a[href*=\"//ten-1097.com\"],a[href*=\"//www.ten-1097.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*ten-1097.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//ten-1097.com\"],a[href*=\"//www.ten-1097.com\"]"
                     }
                 }
             },
@@ -7202,6 +7282,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//xn--6i4bu7h10l.com\"],a[href*=\"//선파워.com\"]"
+                    }
+                }
+            },
+            {
+                "id": "173e0ff8-f1d4-44f7-af13-3f435caee985",
+                "name": "##a[href*=\"//xn--9l4b9tfgv5t.com\"],a[href*=\"//심슨주소.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*xn--9l4b9tfgv5t.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//xn--9l4b9tfgv5t.com\"],a[href*=\"//심슨주소.com\"]"
                     }
                 }
             },
@@ -13032,11 +13128,24 @@
                 }
             },
             {
-                "id": "369ce44c-2795-4a30-a947-867c5f119093",
-                "name": "bam*co.com/img/banner/",
+                "id": "db437de3-edf8-4335-9997-157fdf212542",
+                "name": "bam*co.com/_book/_Contents/banner/",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?bam.*co\\.com/img/banner/",
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?bam.*co\\.com/_book/_Contents/banner/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1214f6aa-3b1a-4244-966f-2ad91a885f76",
+                "name": "bam*co.com/img/banner/bam/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?bam.*co\\.com/img/banner/bam/",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -34067,15 +34176,15 @@
                 }
             },
             {
-                "id": "9b147e95-f977-41d1-9715-e981aebcbd50",
-                "name": "bam78co.com##",
+                "id": "7e21c6b7-4a9b-41c5-8cf6-8d0f3e97fa25",
+                "name": "bam211co.com##",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?bam78co\\.com"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?bam211co\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#banner_bottom_center"
+                        "selector": "div.sub-contents>section.banner,section.fixed-banner"
                     }
                 }
             },
