@@ -14841,6 +14841,19 @@
                 }
             },
             {
+                "id": "bd22c209-aac0-493a-b22e-74c4265414e8",
+                "name": "cloudaaaa.com/a/*.gif",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cloudaaaa\\.com/a/.*\\.gif",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "71a36937-1e7e-4183-95e8-3a69d6479482",
                 "name": "cm.interworksmedia.co.kr/adTagRequest.htm",
                 "content": {
@@ -34969,6 +34982,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div._pb"
+                    }
+                }
+            },
+            {
+                "id": "ee681246-484d-4092-85f6-841527696315",
+                "name": "copytoon142.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?copytoon142\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_wing,div.w_banner"
                     }
                 }
             },
