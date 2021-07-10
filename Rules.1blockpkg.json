@@ -23284,6 +23284,19 @@
                 }
             },
             {
+                "id": "84152868-35ab-4427-88b4-a0ad10385787",
+                "name": "manatoki*.net/tokinbtoki/*.gif",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?manatoki.*\\.net/tokinbtoki/.*\\.gif",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "108434df-6d14-402d-a705-5015ce50ee23",
                 "name": "mangahub.io/iframe/ra$domain=mangahub.io",
                 "content": {
@@ -41481,7 +41494,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "#id_mbv,#main-banner-view,.basic-banner,.board-tail-banner"
+                        "selector": "div#id_mbv,div#main-banner-view,div.basic-banner,div.board-tail-banner"
                     }
                 }
             },
