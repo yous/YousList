@@ -2058,6 +2058,19 @@
                 }
             },
             {
+                "id": "9238cc73-73db-4233-856a-504e7be3dd6d",
+                "name": "##iframe[src*=\"//adsrv-up.mcrony.com/imp\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//adsrv-up.mcrony.com/imp\"]"
+                    }
+                }
+            },
+            {
                 "id": "38da02dc-b314-49e5-a0e7-cb4200b9d03c",
                 "name": "##iframe[src*=\"//adstract.adk2x.com/imp\"]",
                 "content": {
@@ -11905,6 +11918,19 @@
                 }
             },
             {
+                "id": "5a0e8d41-5284-4021-960e-2a7f7fb8abb0",
+                "name": "adsrv-up.mcrony.com/imp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adsrv-up\\.mcrony\\.com/imp",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a6ba1bbb-9d7b-4094-a2c8-05603758a482",
                 "name": "adsrv.kstarplay.tv",
                 "content": {
@@ -20431,14 +20457,15 @@
                 }
             },
             {
-                "id": "285966be-933b-4db4-adc2-55e3a001a692",
-                "name": "image.munhwa.com/www/banner/$domain=m.munhwa.com",
+                "id": "a52bfa68-9a29-4787-a3c6-bfae44d12e98",
+                "name": "image.munhwa.com/www/banner/$domain=m.munhwa.com|munhwa.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?image\\.munhwa\\.com/www/banner/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
-                            "*m.munhwa.com"
+                            "*m.munhwa.com",
+                            "*munhwa.com"
                         ]
                     },
                     "action": {
