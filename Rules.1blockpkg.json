@@ -34277,6 +34277,19 @@
                 }
             },
             {
+                "id": "17b495b5-ad46-4f08-b9e8-3370af1e167d",
+                "name": "auction.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?auction\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.box__login-ad"
+                    }
+                }
+            },
+            {
                 "id": "0691e2c3-df0e-4afe-8dd3-16c011791a6d",
                 "name": "auto.daum.net##",
                 "content": {
