@@ -4138,6 +4138,19 @@
                 }
             },
             {
+                "id": "caadb90f-78bc-4d15-941a-c8f47d6548a9",
+                "name": "##iframe[src*=\"//wr.catad5959.com/native/wrcatad.t\"][src*=\".native_banner.asp\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//wr.catad5959.com/native/wrcatad.t\"][src*=\".native_banner.asp\"]"
+                    }
+                }
+            },
+            {
                 "id": "4d2210cd-fc00-429a-ad66-29d9bccdfafb",
                 "name": "##iframe[src*=\"//wr.catad5959.com/text/wrcatad.t\"][src*=\".Text_banner.asp\"]",
                 "content": {
@@ -32387,6 +32400,19 @@
                 }
             },
             {
+                "id": "0bd8e461-dc38-4e01-ad96-acec3d906e77",
+                "name": "wr.catad5959.com/native/wrcatad.t*.native_banner.asp",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wr\\.catad5959\\.com/native/wrcatad\\.t.*\\.native_banner\\.asp",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "55f4b42b-d09a-4dd7-b60b-2d3879cba1ba",
                 "name": "wr.catad5959.com/text/wrcatad.t*.Text_banner.asp",
                 "content": {
@@ -46531,7 +46557,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#news_body_area>div[style=\"clear:both;float:right;margin-left:20px;width:300px;height:250px;\"],div.com_ban"
+                        "selector": "div#news_body_area>div[style=\"clear:both;float:right;margin-left:20px;width:300px;height:250px;\"],div.com_ban,div[itemprop=\"articleBody\"]>div[style=\"clear:both;margin:0 auto;margin-bottom:20px;width:336px;height:280px;\"]"
                     }
                 }
             },
