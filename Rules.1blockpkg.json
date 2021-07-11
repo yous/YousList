@@ -43940,6 +43940,19 @@
                 }
             },
             {
+                "id": "de51d15c-824f-46e8-80de-c3f683915418",
+                "name": "news.yahoo.co.jp##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?news\\.yahoo\\.co\\.jp"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adWrap"
+                    }
+                }
+            },
+            {
                 "id": "94daa80d-b3af-4ff2-8347-1084255fd006",
                 "name": "news.zum.com##",
                 "content": {
