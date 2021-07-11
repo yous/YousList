@@ -37826,6 +37826,19 @@
                 }
             },
             {
+                "id": "85d39c49-eb47-4583-bfd4-085fb411f3c5",
+                "name": "gmarket.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?gmarket\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#loginArea>div.banner"
+                    }
+                }
+            },
+            {
                 "id": "4e63a23b-f80b-4b4a-87cc-a68ea75fc59c",
                 "name": "gogoanimes.co##",
                 "content": {
