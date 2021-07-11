@@ -1135,6 +1135,19 @@
                 }
             },
             {
+                "id": "2ccd452a-9898-46ce-b2de-4ff946398df1",
+                "name": "##iframe[src*=\"//ad.3dpop.kr/web_ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//ad.3dpop.kr/web_ad/\"]"
+                    }
+                }
+            },
+            {
                 "id": "182dc5dd-4b4f-403c-816a-7b73c2226eda",
                 "name": "##iframe[src*=\"//ad.about.co.kr/\"]",
                 "content": {
@@ -8883,6 +8896,19 @@
                 }
             },
             {
+                "id": "7fc0573d-7418-4ae3-b072-eb103ccb251b",
+                "name": "ad.3dpop.kr/web_ad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.3dpop\\.kr/web_ad/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1741b3b1-f6cc-41c9-9748-553735851ecd",
                 "name": "ad.about.co.kr",
                 "content": {
@@ -10431,6 +10457,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?adimage\\.hankookilbo\\.com",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6416fd94-c14e-4a51-bef8-1e09c3bd1aa1",
+                "name": "adimg-up.mcrony.com/*/mbf.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adimg-up\\.mcrony\\.com/.*/mbf\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -20385,6 +20424,22 @@
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?image\\.melon\\.com/svc/images/main/floatingBanner/floatingBanner_.*\\.swf",
                         "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "285966be-933b-4db4-adc2-55e3a001a692",
+                "name": "image.munhwa.com/www/banner/$domain=m.munhwa.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?image\\.munhwa\\.com/www/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.munhwa.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -41578,7 +41633,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#news_content div[style=\"border: 0px dashed #BDBDBD; width: 205px; height: 200px; float:right;padding-left:5px;\"],div.article_ad1,div.centerBanner_google,ul.List_link_ad_txt_2"
+                        "selector": "div#news_content div[style=\"border: 0px dashed #BDBDBD; width: 205px; height: 200px; float:right;padding-left:5px;\"],div.article_ad1,div.centerBanner_google,div.google_center,ul.List_link_ad_txt_2"
                     }
                 }
             },
