@@ -40972,6 +40972,19 @@
                 }
             },
             {
+                "id": "38bb93e9-ce63-4ff8-b7a2-b09194293255",
+                "name": "m.happymoney.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.happymoney\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#loginWrap>section.banner"
+                    }
+                }
+            },
+            {
                 "id": "63fd15a1-fb20-47fd-a940-f35ca356a0a8",
                 "name": "m.hkbs.co.kr##",
                 "content": {
