@@ -2162,6 +2162,19 @@
                 }
             },
             {
+                "id": "f3d879f6-9204-484e-beaa-44610a95a0d4",
+                "name": "##iframe[src*=\"//adweb.pinoot.com/plugin.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//adweb.pinoot.com/plugin.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "b337f18c-e123-4aff-9489-321cc6324ecd",
                 "name": "##iframe[src*=\"//adx-exchange.toast.com/a_request\"]",
                 "content": {
@@ -12262,6 +12275,19 @@
                 }
             },
             {
+                "id": "f4dfc032-d138-42cc-ab0a-84f5ccb08894",
+                "name": "adweb.pinoot.com/plugin.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adweb\\.pinoot\\.com/plugin\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "42651258-7301-4d4f-b63f-ff0fbf970909",
                 "name": "adx-exchange.toast.com/a_request",
                 "content": {
@@ -12769,6 +12795,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?api\\.adjoin\\.co\\.kr/cou/da\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fe3ad319-4693-4dc3-b180-163777f627cf",
+                "name": "api.adjoin.co.kr/cou/sa.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?api\\.adjoin\\.co\\.kr/cou/sa\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
