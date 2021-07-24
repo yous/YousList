@@ -39403,6 +39403,19 @@
                 }
             },
             {
+                "id": "735f7b3f-82e1-49b3-91f1-0eec2b2abadf",
+                "name": "jiskha.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?jiskha\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-728x90,div.ad-970x250,li.ad-728x90"
+                    }
+                }
+            },
+            {
                 "id": "ba7bfeb1-52a4-4045-87ff-86e9eded8bf7",
                 "name": "jjan.kr##",
                 "content": {
