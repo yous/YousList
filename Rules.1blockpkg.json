@@ -9026,6 +9026,19 @@
                 }
             },
             {
+                "id": "c8a73893-9109-4a15-a43d-40f8834cc0d8",
+                "name": "ad.adjw.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.adjw\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "35643590-f0dc-49e6-bf5f-4e0c1fea94ec",
                 "name": "ad.adkova.com/media/",
                 "content": {
@@ -40909,7 +40922,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ad_banner_01,div#ed_banner_02,div#ed_banner_03,div.ad_300x250,div.ad_img_box_01,div.ad_list_01,div.ad_text_01,div.view_ad01"
+                        "selector": "div#ad_banner_01,div#ed_banner_02,div#ed_banner_03,div#show_banner_01,div#show_text_01,div.ad_300x250,div.ad_img_box_01,div.ad_list_01,div.ad_text_01,div.article_body>div[id^=\"innorame\"],div.article_body>div[style=\"padding: 20px 0px 20px 0px;width: 376px;margin: 0 auto;\"],div.m_shows,div.newsdetail>div[style=\"margin-bottom:30px;max-width:640px;overflow:hidden;\"],div.view_ad01,div.view_show01"
                     }
                 }
             },
