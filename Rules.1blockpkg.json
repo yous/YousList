@@ -41122,6 +41122,32 @@
                 }
             },
             {
+                "id": "250d74e2-1928-4ce0-8a92-7bc00bb40ece",
+                "name": "m.go.seoul.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.go\\.seoul\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#Article>div[style=\"padding:20px 15px;text-align:center;\"],div#Article>div[style=\"width:100%;margin:15px 0px;text-align:center;\"],div#contentsBodyDiv>div[style=\"width:100%;margin-bottom:15px\"],div#contentsBodyDiv>div[style=\"width:100%;margin-top:15px;margin-bottom:15px\"],div#contentsBodyDiv>table[align=\"left\"][width=\"100%\"]>tbody>tr>td[style=\"height:300px;text-align:center;\"],div#contentsBodyDiv>table[align=\"right\"][style=\"margin-left:5px;\"][width=\"200px\"],div#popAdDiv,div#rollingAdDiv"
+                    }
+                }
+            },
+            {
+                "id": "75b42230-a32a-464c-8dc1-5e27556897ba",
+                "name": "m.seoul.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.seoul\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#Article>div[style=\"padding:20px 15px;text-align:center;\"],div#Article>div[style=\"width:100%;margin:15px 0px;text-align:center;\"],div#contentsBodyDiv>div[style=\"width:100%;margin-bottom:15px\"],div#contentsBodyDiv>div[style=\"width:100%;margin-top:15px;margin-bottom:15px\"],div#contentsBodyDiv>table[align=\"left\"][width=\"100%\"]>tbody>tr>td[style=\"height:300px;text-align:center;\"],div#contentsBodyDiv>table[align=\"right\"][style=\"margin-left:5px;\"][width=\"200px\"],div#popAdDiv,div#rollingAdDiv"
+                    }
+                }
+            },
+            {
                 "id": "7bb70c10-4209-4a27-bfa9-0808de827996",
                 "name": "m.gokorea.kr##",
                 "content": {
@@ -42080,19 +42106,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#textbanner,div#wide_wrap>div[style=\"float:left; width:100%; height:50px; clear:both; margin:-9px -9px 0 -9px; padding:0; text-align:center; background-color:#E7E7E7;\"],div.subAdinfo,div.subAdnoline,section.tab.tab_reco"
-                    }
-                }
-            },
-            {
-                "id": "75b42230-a32a-464c-8dc1-5e27556897ba",
-                "name": "m.seoul.co.kr##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.seoul\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#contentsBodyDiv>div[style=\"width:100%;margin-bottom:15px\"],div#contentsBodyDiv>div[style=\"width:100%;margin-top:15px;margin-bottom:15px\"],div#contentsBodyDiv>table[align=\"left\"][width=\"100%\"]>tbody>tr>td[style=\"height:300px;text-align:center;\"],div#contentsBodyDiv>table[align=\"right\"][style=\"margin-left:5px;\"][width=\"200px\"],div#popAdDiv,div#rollingAdDiv,div.Acon>div[style=\"width:100%;margin-top:15px;margin-bottom:15px\"],div.Acon>table[align=\"right\"][style=\"margin-left:5px;\"][width=\"200px\"],div.react_left_v>div[style=\"clear:both; float:left; padding:10px 8px 23px 8px;\"],div.react_left_v>div[style=\"clear:both; float:left; padding:23px 8px;\"],div.react_left_v>div[style=\"margin-bottom:20px;float:left;\"],div.react_left_v>div[style=\"width:100%;margin-bottom:20px;float:left;padding-bottom:8px;background-color:#eeeeee;\"],div.react_right_v>div[style=\"float:left;width:100%;text-align:center;\"],div.react_right_v>div[style=\"width:100%;margin-bottom:10px;float:left;\"]:not([alt]):not([class]),div.react_right_v>div[style=\"width:100%;margin-bottom:10px;float:left;overflow-x:hidden;\"]:not([alt]):not([class]),div.react_right_v>div[style=\"width:100%;margin-bottom:20px;float:left;\"]:not([alt]):not([class]),div.react_right_v>div[style=\"width:100%;margin-bottom:20px;float:left;overflow-x:hidden;\"]:not([alt]):not([class]),div.react_right_v>div[style=\"width:100%;margin-bottom:20px;float:left;text-align:center;\"]:not([alt]):not([class]),div.react_right_v>div[style=\"width:100%;margin-bottom:50px;float:left;text-align:center;\"]:not([alt]):not([class]),div.react_right_v>div[style=\"width:100%;margin:25px 0 20px;float:left;text-align:center;\"]:not([alt]):not([class])"
                     }
                 }
             },
