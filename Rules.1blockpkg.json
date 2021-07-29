@@ -45009,6 +45009,19 @@
                 }
             },
             {
+                "id": "a895372a-e2ae-41af-8740-5d1cce908145",
+                "name": "popcornnews.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?popcornnews\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_link_read,div#tree_line_9,div#wrap>div[align=\"center\"][style=\"margin:10px 0 10px 0;\"],div.banner_bottom,div.banner_top,div.bn_wing,div.center_bn,td.td_sub_read_contents>div[style=\"width:752px; height:250px; margin-bottom:20px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "1cafe6b3-0293-423b-8ef6-4c3ab11ff821",
                 "name": "popit.kr##",
                 "content": {
