@@ -43683,6 +43683,19 @@
                 }
             },
             {
+                "id": "b05d8f2f-3909-48ff-8a35-415cd7e64e6f",
+                "name": "nature.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?nature\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.c-ad,div.c-ad,div.u-lazy-ad-wrapper"
+                    }
+                }
+            },
+            {
                 "id": "0f8c878c-a1c9-44b2-86c7-9838d44b4031",
                 "name": "naver.com##",
                 "content": {
