@@ -485,6 +485,19 @@
                 }
             },
             {
+                "id": "244898a0-0f9e-40db-b8c8-0dd9e7c2b299",
+                "name": "##div.ob-widget>div.ob-widget-items-container>div.ob-p",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ob-widget>div.ob-widget-items-container>div.ob-p"
+                    }
+                }
+            },
+            {
                 "id": "0494b0f5-c409-4fa7-926b-142f05b53b42",
                 "name": "##div.ob_box_cont>ul>li.ob-p",
                 "content": {
@@ -43679,6 +43692,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#adContainer,div#shopLoading,div[class^=\"area_ad\"],div[id^=\"ad_layer\"],iframe#ifrShopping"
+                    }
+                }
+            },
+            {
+                "id": "3544ab42-6aca-457b-a9e1-e21840e3d908",
+                "name": "nationalinterest.org##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?nationalinterest\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad,div.ad--leaderboard,div.proper-ad-unit"
                     }
                 }
             },
