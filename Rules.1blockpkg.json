@@ -48103,6 +48103,19 @@
                 }
             },
             {
+                "id": "0ccfc91f-d77e-4545-97c5-48d3fbd45a26",
+                "name": "wbur.org##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wbur\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.section--uw"
+                    }
+                }
+            },
+            {
                 "id": "0a9fd9a2-1a2e-40a1-aea3-6555b74328fa",
                 "name": "wccftech.com##",
                 "content": {
