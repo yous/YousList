@@ -24567,6 +24567,19 @@
                 }
             },
             {
+                "id": "2112311f-f57b-40d1-86df-8db82ad1f213",
+                "name": "mediacategory.com/js/common/HawkEyesMaker.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mediacategory\\.com/js/common/HawkEyesMaker\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "fcfab877-113d-405b-847c-bf4d7dc1d80e",
                 "name": "mediacategory.com/playLinkAd/js/mMobonPlayLink.js",
                 "content": {
@@ -45083,6 +45096,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ap_middle_billboard,div.ap_side1,div.ap_side2,div.ap_top,div.ap_top_mobile"
+                    }
+                }
+            },
+            {
+                "id": "4efefbae-b1f8-417a-9a1d-050c8e2edd88",
+                "name": "postshare.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?postshare\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"position:fixed;bottom:0;left:0;width:100%;height:90px;text-align:center;z-index:9999999;background:rgba(0,0,0,.3);\"],div.addot-wrapper"
                     }
                 }
             },
