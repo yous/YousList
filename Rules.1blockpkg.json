@@ -43436,6 +43436,19 @@
                 }
             },
             {
+                "id": "607bbea2-e37a-469c-87a5-334b15a842f7",
+                "name": "motorbiscuit.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?motorbiscuit\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.has-ad,div.spt-footer-ad,div.sticky-ad"
+                    }
+                }
+            },
+            {
                 "id": "4b0b5a5e-3a28-43f9-9f8d-865f3d2840fe",
                 "name": "moviedang.com##",
                 "content": {
