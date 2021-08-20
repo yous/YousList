@@ -46725,6 +46725,19 @@
                 }
             },
             {
+                "id": "8ffaece3-924a-4d90-9845-4e3110382459",
+                "name": "tenforums.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tenforums\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adunit"
+                    }
+                }
+            },
+            {
                 "id": "a481b58f-4a3f-4b3f-8c60-04b001c9af28",
                 "name": "tf.co.kr##",
                 "content": {
