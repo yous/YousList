@@ -15458,6 +15458,19 @@
                 }
             },
             {
+                "id": "87475703-dc6b-4ee4-9c2b-422cce58ca6a",
+                "name": "cdn.ppomppu.co.kr/zboard/data*/banner/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.ppomppu\\.co\\.kr/zboard/data.*/banner/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "05fa2b8f-c427-418e-95c7-409cad97a92a",
                 "name": "cdn.rmprepusb.com/detroitchicago/edmonton.webp$domain=rmprepusb.com",
                 "content": {
@@ -42027,7 +42040,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#wrap>div[style=\"padding-top:10px; text-align:center; overflow:hidden;\"],iframe[src*=\"//m.ppomppu.co.kr/banner/google_ad.html\"]"
+                        "selector": "#bbs_inform li[class^=\"bbs_ad\"],div#wrap>div[style=\"padding-top:10px; text-align:center; overflow:hidden;\"],iframe[src*=\"//m.ppomppu.co.kr/banner/google_ad.html\"]"
                     }
                 }
             },
@@ -45134,7 +45147,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#emart_banner,div#result_box>div.power-link,div#result_box>div.section:not([id]),div#shoppingbox,div.ad,div.ad-banner,div.banner,div.banner_336,div.container>div.power-link,div.ebay-ad,div.floating-banner-sm,div[id^=\"pp_ban_\"],iframe[id^=\"if_\"][id$=\"_bn\"],iframe[src^=\"/banner/_loader_bbs_list_origin.php\"],p.banner_553"
+                        "selector": "a[href^=\"https://s.ppomppu.co.kr/\"],div#emart_banner,div#result_box>div.power-link,div#result_box>div.section:not([id]),div#shoppingbox,div.ad,div.ad-banner,div.banner,div.banner_336,div.container>div.power-link,div.ebay-ad,div.floating-banner-sm,div[id^=\"pp_ban_\"],iframe[id^=\"if_\"][id$=\"_bn\"],iframe[src^=\"/banner/_loader_bbs_list_origin.php\"],p.banner_553"
                     }
                 }
             },
