@@ -24952,12 +24952,15 @@
                 }
             },
             {
-                "id": "863a4dea-2ec9-4640-a262-f77da001e443",
-                "name": "meeco.kr/images/custom_ads/",
+                "id": "0b91341c-9f11-42c8-a599-a369a554665b",
+                "name": "meeco.kr/images/custom_ads/$domain=meeco.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?meeco\\.kr/images/custom_ads/",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*meeco.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
