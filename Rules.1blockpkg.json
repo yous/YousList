@@ -15458,12 +15458,15 @@
                 }
             },
             {
-                "id": "87475703-dc6b-4ee4-9c2b-422cce58ca6a",
-                "name": "cdn.ppomppu.co.kr/zboard/data*/banner/",
+                "id": "ce8dea66-62a5-4cca-bf62-eadef084849d",
+                "name": "cdn.ppomppu.co.kr/zboard/data*/banner/$domain=ppomppu.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.ppomppu\\.co\\.kr/zboard/data.*/banner/",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*ppomppu.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -45147,7 +45150,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "a[href^=\"https://s.ppomppu.co.kr/\"],div#emart_banner,div#result_box>div.power-link,div#result_box>div.section:not([id]),div#shoppingbox,div.ad,div.ad-banner,div.banner,div.banner_336,div.container>div.power-link,div.ebay-ad,div.floating-banner-sm,div[id^=\"pp_ban_\"],iframe[id^=\"if_\"][id$=\"_bn\"],iframe[src^=\"/banner/_loader_bbs_list_origin.php\"],p.banner_553"
+                        "selector": "a[href^=\"https://s.ppomppu.co.kr/?idno=\"],div#emart_banner,div#result_box>div.power-link,div#result_box>div.section:not([id]),div#shoppingbox,div.ad,div.ad-banner,div.banner,div.banner_336,div.container>div.power-link,div.ebay-ad,div.floating-banner-sm,div[id^=\"pp_ban_\"],iframe[id^=\"if_\"][id$=\"_bn\"],iframe[src^=\"/banner/_loader_bbs_list_origin.php\"],p.banner_553,table#revolution_main_table>tbody>tr.list-alarm-tr.list-notice-alarm-sponsor-tr.list_notice:not([id])"
                     }
                 }
             },
