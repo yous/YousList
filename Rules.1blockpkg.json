@@ -45808,6 +45808,19 @@
                 }
             },
             {
+                "id": "62fa3582-4818-47bd-abc2-4e7dbb07e6ae",
+                "name": "sevenforums.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sevenforums\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adunit"
+                    }
+                }
+            },
+            {
                 "id": "deca38cc-4a8c-4f00-8d8d-fb8105d31d4b",
                 "name": "share.notizie.it##",
                 "content": {
