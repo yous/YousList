@@ -37618,6 +37618,19 @@
                 }
             },
             {
+                "id": "3f6c817f-381b-4480-9f6d-eacfef9998a2",
+                "name": "forums.tomshardware.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?forums\\.tomshardware\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#footer_leaderboard,div#header_leaderboard,div#rightcol_bottom,div#rightcol_top"
+                    }
+                }
+            },
+            {
                 "id": "9800ae50-5c67-446b-af83-c10921e0a6f6",
                 "name": "forums.watchuseek.com##",
                 "content": {
