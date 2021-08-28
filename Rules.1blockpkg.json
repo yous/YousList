@@ -37332,6 +37332,19 @@
                 }
             },
             {
+                "id": "99db0a81-a8c9-41d0-8c6c-9e46600cdc44",
+                "name": "fandom.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?fandom\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-slot-placeholder,div.top-ads-container"
+                    }
+                }
+            },
+            {
                 "id": "512a4bc6-52d2-47bc-be45-ada320d57cb2",
                 "name": "fastcodesign.com##",
                 "content": {
