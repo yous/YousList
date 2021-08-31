@@ -39646,6 +39646,19 @@
                 }
             },
             {
+                "id": "84927139-cacb-48d1-a9e0-33f82e99c599",
+                "name": "joongang.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?joongang\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_wrap"
+                    }
+                }
+            },
+            {
                 "id": "7d11c43f-5648-473d-ac9b-c41e77ec3aae",
                 "name": "joongang.joins.com##",
                 "content": {
