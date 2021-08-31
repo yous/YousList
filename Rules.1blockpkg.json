@@ -9539,15 +9539,14 @@
                 }
             },
             {
-                "id": "9add5f6a-e86e-422c-a318-f02e5169a6c9",
-                "name": "ad.imp.joins.com/html/$domain=mnews.jtbc.joins.com|news.joins.com",
+                "id": "60880faa-c21b-4766-91d6-a925df8b43be",
+                "name": "ad.imp.joins.com/html/$domain=mnews.jtbc.joins.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.imp\\.joins\\.com/html/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
-                            "*mnews.jtbc.joins.com",
-                            "*news.joins.com"
+                            "*mnews.jtbc.joins.com"
                         ]
                     },
                     "action": {
@@ -14749,15 +14748,14 @@
                 }
             },
             {
-                "id": "53d2887f-4858-495b-ac7d-3367e621b6e3",
-                "name": "cast.imp.joins.com/bid/$domain=ooyala.com|news.joins.com|news.jtbc.joins.com|vod.jtbc.joins.com",
+                "id": "a1f0c721-471d-45ce-82e9-bd2a1077a309",
+                "name": "cast.imp.joins.com/bid/$domain=ooyala.com|news.jtbc.joins.com|vod.jtbc.joins.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?cast\\.imp\\.joins\\.com/bid/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*ooyala.com",
-                            "*news.joins.com",
                             "*news.jtbc.joins.com",
                             "*vod.jtbc.joins.com"
                         ]
@@ -14768,8 +14766,8 @@
                 }
             },
             {
-                "id": "db71f253-033b-454d-98ea-30b5f67cf074",
-                "name": "cast.imp.joins.com/body/$domain=m.isplus.joins.com|mnews.jtbc.joins.com|news.joins.com|vod.jtbc.joins.com",
+                "id": "196cd041-b001-46c2-b360-7569916bb88b",
+                "name": "cast.imp.joins.com/body/$domain=m.isplus.joins.com|mnews.jtbc.joins.com|vod.jtbc.joins.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?cast\\.imp\\.joins\\.com/body/",
@@ -14777,7 +14775,6 @@
                         "if-domain": [
                             "*m.isplus.joins.com",
                             "*mnews.jtbc.joins.com",
-                            "*news.joins.com",
                             "*vod.jtbc.joins.com"
                         ]
                     },
@@ -14787,8 +14784,8 @@
                 }
             },
             {
-                "id": "27056938-0664-44c7-a109-cb6a66730f90",
-                "name": "cast.imp.joins.com/persona.js$domain=m.isplus.joins.com|mnews.jtbc.joins.com|news.joins.com|vod.jtbc.joins.com",
+                "id": "a4ada8f5-c820-490c-a30d-0894e5499982",
+                "name": "cast.imp.joins.com/persona.js$domain=m.isplus.joins.com|mnews.jtbc.joins.com|vod.jtbc.joins.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?cast\\.imp\\.joins\\.com/persona\\.js",
@@ -14796,7 +14793,6 @@
                         "if-domain": [
                             "*m.isplus.joins.com",
                             "*mnews.jtbc.joins.com",
-                            "*news.joins.com",
                             "*vod.jtbc.joins.com"
                         ]
                     },
@@ -30372,22 +30368,6 @@
                 }
             },
             {
-                "id": "5bec5535-2674-4bd7-ba22-77ec2340661f",
-                "name": "static.joins.com/common/ui/ad/$domain=news.joins.com",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?static\\.joins\\.com/common/ui/ad/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*news.joins.com"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "6554d5e0-7ba9-4c4f-86b9-f7bab1ef6088",
                 "name": "static.joins.com/isplus/ui/ad/",
                 "content": {
@@ -43260,19 +43240,6 @@
                 }
             },
             {
-                "id": "1d762e6d-7d17-4f03-8dba-9d1e9fd68d1e",
-                "name": "mnews.joins.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?mnews\\.joins\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#admaru_tag,div.ad,div.ad_h100,div.ad_template,div.adlink,div.shopping_box"
-                    }
-                }
-            },
-            {
                 "id": "eebe791e-f59f-4deb-a317-8ac465abec29",
                 "name": "mnews.jtbc.joins.com##",
                 "content": {
@@ -43971,19 +43938,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#DrBox,div#SponsorLink,div#TodayPopInfo,div#bnn_26080,div#keyword_link,div[id^=\"Ad\"],div[id^=\"adText\"]"
-                    }
-                }
-            },
-            {
-                "id": "d346c303-e79a-4f93-b907-5fdbc70271b7",
-                "name": "news.joins.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?news\\.joins\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#body>span>div[style=\"position: absolute; top: 302px; left: 333px; z-index: 11;\"],div#criteo_network,div.ab_adtxt_wrap,div.ad,div.ad_text,div.ad_top,div.advertising,div.shpping_life,div[data-widget-type=\"Ad\"],div[id^=\"imp_ad_\"],embed[src^=\"//static.joins.com/common/ui/ad/\"],iframe[src^=\"//ad.imp.joins.com/html/\"]"
                     }
                 }
             },
