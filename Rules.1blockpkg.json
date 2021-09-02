@@ -10542,6 +10542,19 @@
                 }
             },
             {
+                "id": "b4c5d8d4-a221-46f7-99ad-4497fc3eda68",
+                "name": "adimg.nate.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adimg\\.nate\\.com",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9d22541f-be4e-41e5-8191-aebeda7d9ed2",
                 "name": "adimg.nateimg.co.kr",
                 "content": {
@@ -41883,7 +41896,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.adbox,div.adtive,div.adtive_box,iframe[name=\"adtive\"],iframe[src^=\"http://networkad.nate.com/nate/mobile_news.html\"]"
+                        "selector": "div.adbox,div.adtive,div.adtive_box,div.adv,div.float-adv-wrap,iframe[name=\"adtive\"],iframe[src^=\"http://networkad.nate.com/nate/mobile_news.html\"]"
                     }
                 }
             },

@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20210831
+! Version: 20210902
 
 ! General element hiding rules
 ##amp-ad
@@ -776,6 +776,7 @@
 ||adimage.hankookilbo.com^
 ||adimg-up.mcrony.com/*/mbf.js^
 ||adimg.kstarplay.tv/js/kstar_*.js^
+||adimg.nate.com^
 ||adimg.nateimg.co.kr^
 ||adimg.wisenut.co.kr/common/js/amc/wiseAdSvc.pj^
 ||adimg.wisenut.co.kr/wrappingfor*.php^
@@ -4941,6 +4942,8 @@ m.naver.com##div[data-da]
 m.news.nate.com##div.adbox
 m.news.nate.com##div.adtive
 m.news.nate.com##div.adtive_box
+m.news.nate.com##div.adv
+m.news.nate.com##div.float-adv-wrap
 m.news.nate.com##iframe[name="adtive"]
 m.news.nate.com##iframe[src^="http://networkad.nate.com/nate/mobile_news.html"]
 m.news.naver.com##div.ad_area
