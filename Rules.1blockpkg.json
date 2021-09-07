@@ -46415,6 +46415,19 @@
                 }
             },
             {
+                "id": "4ca8746c-3a93-4f8c-bd8f-9ef5b60c8a11",
+                "name": "starinnews.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?starinnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#layer-popups"
+                    }
+                }
+            },
+            {
                 "id": "adae1398-5924-473e-9314-72a0617f5d71",
                 "name": "steptohealth-co-kr.cdn.ampproject.org##",
                 "content": {
