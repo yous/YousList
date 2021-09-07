@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20210902
+! Version: 20210908
 
 ! General element hiding rules
 ##amp-ad
@@ -1892,6 +1892,7 @@
 ||newscomm.nate.com/Etc/SocialAD^
 ||newsis.com/ad/view_banner.html^$domain=newsis.com
 ||newsis.com/ad/viewad/*.html^$domain=newsis.com
+||newsis.com/view/ad/proc_iframe_*.html^$domain=newsis.com
 ||newspic.kr/inc/js/facebookAd.js^$domain=newspic.kr
 ||newsprime.co.kr/data/banner/$domain=newsprime.co.kr
 ||newswave.kr/ad/
@@ -5836,10 +5837,12 @@ newsis.com##div[class^="banner_1024_1024_"]
 newsis.com##div[data-widget_id="goPGerXQ"]
 newsis.com##iframe[src^="/ad/view_banner.html"]
 newsis.com##iframe[src^="/ad/viewad/"][src*=".html"]
+newsis.com##iframe[src^="/view/ad/proc_iframe_"][src*=".html"]
 newsis.com##li#detail2-11
 newsis.com##span.banner1
 newsis.com##span.banner2
 newsis.com##table.article_photo.right:not([id])
+newsis.com##table.viewerAd
 newsnack.tv##div.sm_dfp_ads
 newsnjoy.or.kr##div#veritasaApp
 newsnjoy.or.kr##div.ad-template
