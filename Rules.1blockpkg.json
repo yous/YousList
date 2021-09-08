@@ -48677,6 +48677,19 @@
                 }
             },
             {
+                "id": "db07143e-4db5-4662-bbce-fd4580643153",
+                "name": "xda-developers.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?xda-developers\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-freestar-ad]"
+                    }
+                }
+            },
+            {
                 "id": "edf85d97-307b-43cf-8484-9f766155bbce",
                 "name": "xportsnews.com##",
                 "content": {
