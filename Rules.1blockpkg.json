@@ -4662,7 +4662,10 @@
                 "name": "##iframe[src*=\"/NetInsight/\"]",
                 "content": {
                     "trigger": {
-                        "url-filter": ".*"
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*cgv.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "css-display-none",
@@ -35794,6 +35797,19 @@
                 }
             },
             {
+                "id": "15cdf35c-e34d-4aa5-ac6b-8cab646df3ce",
+                "name": "cgv.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cgv\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#cgv_main_ad,div.chart-ad,div.col-collage,div.sect-ad,iframe#C_Rectangle"
+                    }
+                }
+            },
+            {
                 "id": "0794ec89-2ed0-40f9-8ead-a624c0e857ac",
                 "name": "chefkoch.de##",
                 "content": {
@@ -49011,6 +49027,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a#d_lefttop_banner_default,div#adx_zum_main_leftwing,div#adx_zum_main_rightwing,div#wrap_ad_main,div#wrap_ad_minisite"
+                    }
+                }
+            },
+            {
+                "id": "2d438b9b-940f-406c-8018-746ddff753e4",
+                "name": "@@ad.cgv.co.kr/NetInsight/$domain=cgv.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.cgv\\.co\\.kr/NetInsight/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*cgv.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
                     }
                 }
             },
