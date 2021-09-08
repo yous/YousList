@@ -40763,6 +40763,19 @@
                 }
             },
             {
+                "id": "fe2bff5a-9c67-49d1-83fe-43c542bcaa4c",
+                "name": "m.cgv.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.cgv\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.popup_container>div.container_content>a.btn_adEvent"
+                    }
+                }
+            },
+            {
                 "id": "15f4c01d-f03a-4336-b1f2-26304fd54fba",
                 "name": "m.chosun.com##",
                 "content": {
