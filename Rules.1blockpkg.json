@@ -46106,6 +46106,19 @@
                 }
             },
             {
+                "id": "7f501a06-732c-471d-a89f-cf812f094658",
+                "name": "softpedia.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?softpedia\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
                 "id": "42ea9f39-9b1e-48ab-849a-14c1f6799a38",
                 "name": "soranews24.com##",
                 "content": {
