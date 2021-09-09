@@ -40308,6 +40308,19 @@
                 }
             },
             {
+                "id": "b40f6cb4-0a5c-4a95-aa92-7678cb2e8db2",
+                "name": "linuxhint.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?linuxhint\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adthrive,div.adthrive-ad"
+                    }
+                }
+            },
+            {
                 "id": "30a29789-bc54-4fde-bc09-1bbf50973c78",
                 "name": "linuxquestions.org##",
                 "content": {
