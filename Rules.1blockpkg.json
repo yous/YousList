@@ -44598,6 +44598,19 @@
                 }
             },
             {
+                "id": "c1bb5fa6-1d12-4f5c-9db2-ac4a3105d386",
+                "name": "odysee.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?odysee\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ads__claim-item"
+                    }
+                }
+            },
+            {
                 "id": "6a527996-e67d-45a1-a135-f100ae38a666",
                 "name": "ohmynews.com##",
                 "content": {
