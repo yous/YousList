@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20210909
+! Version: 20210913
 
 ! General element hiding rules
 ##amp-ad
@@ -2238,6 +2238,7 @@
 ||tags.h12-media.com/v2/tags.js^
 ||tags.mathtag.com/notify/js^
 ||tcorea.com/img/banner/$domain=tcorea.com
+||techsolutions.support.com/app/ads/$domain=techsolutions.support.com
 ||telegraph.co.uk/template/ver1-0/js/commWidget.js^$domain=telegraph.co.uk
 ||tempest.services.disqus.com/ads-iframe/adsnative/
 ||tempest.services.disqus.com/ads-iframe/google/
@@ -6601,6 +6602,7 @@ techradar.com##div.sponsored-post
 techradar.com##div[class^="slot-mpu"]
 techradar.com##div[class^="slot-single-height-"]
 techradar.com##div[style^="position: relative; box-sizing: border-box; height: auto; margin: "][style*=" text-align: center; display: block; pointer-events: none; transform: none; "]
+techsolutions.support.com##iframe[src^="/app/ads/"]
 techspot.com##div#insert-ad-dos
 techspot.com##div#insert-ad-uno
 techspot.com##div.adContainerSide

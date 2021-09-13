@@ -31067,6 +31067,22 @@
                 }
             },
             {
+                "id": "3fc29ab9-5f42-4595-9fd4-3e6bb1aa7287",
+                "name": "techsolutions.support.com/app/ads/$domain=techsolutions.support.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?techsolutions\\.support\\.com/app/ads/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*techsolutions.support.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4aeecc5a-82d7-4e8e-a6de-2e9b9e415108",
                 "name": "telegraph.co.uk/template/ver1-0/js/commWidget.js$domain=telegraph.co.uk",
                 "content": {
@@ -46778,6 +46794,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.sponsored-post,div[class^=\"slot-mpu\"],div[class^=\"slot-single-height-\"],div[style^=\"position: relative; box-sizing: border-box; height: auto; margin: \"][style*=\" text-align: center; display: block; pointer-events: none; transform: none; \"]"
+                    }
+                }
+            },
+            {
+                "id": "c7204ad4-ad7d-4edb-a34b-4da0b490f941",
+                "name": "techsolutions.support.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?techsolutions\\.support\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src^=\"/app/ads/\"]"
                     }
                 }
             },
