@@ -36446,6 +36446,19 @@
                 }
             },
             {
+                "id": "07571374-d812-465e-9783-9f89ace700bc",
+                "name": "dailymedi.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailymedi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "img[src^=\"banner_view.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "2cd788ca-a798-4e9d-8e51-9775d6ab7f04",
                 "name": "dailymotion.com##",
                 "content": {
