@@ -47106,6 +47106,19 @@
                 }
             },
             {
+                "id": "320c4350-2203-44a8-8233-1647e6eef658",
+                "name": "thefastcode.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?thefastcode\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"placeholder_\"]"
+                    }
+                }
+            },
+            {
                 "id": "3481e158-f2f6-45fb-b0a8-adf84f811df8",
                 "name": "theguardian.com##",
                 "content": {
