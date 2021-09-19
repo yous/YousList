@@ -48101,6 +48101,19 @@
                 }
             },
             {
+                "id": "4eafcc67-463d-4b4a-a95e-f6c6e0446420",
+                "name": "videohelp.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?videohelp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#mobilebanner"
+                    }
+                }
+            },
+            {
                 "id": "5073a122-cb43-4d94-872e-8ad4f720a748",
                 "name": "vidzi.tv##",
                 "content": {
