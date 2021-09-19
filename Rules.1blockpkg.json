@@ -29327,6 +29327,22 @@
                 }
             },
             {
+                "id": "20b25c86-d61e-433a-b588-87c9ee6fb8d6",
+                "name": "sir.kr/img/bn/$domain=sir.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sir\\.kr/img/bn/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*sir.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c54d45d5-ec00-4245-be6a-5c838a04cbbd",
                 "name": "sisainlive.com/script/ad_flow2.js$domain=sisainlive.com",
                 "content": {
@@ -45923,6 +45939,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#article-view-content-div>div.auto-padbtm-15.auto-padright-15.auto-padtop-10.float-left,ins[data-ad-slot=\"I_siminsori_Marticle5after_300_250\"],ins[data-ad-slot=\"I_siminsori_Mbottom_580_400\"],ins[data-ad-slot=\"I_siminsori_Mbylinebottom_300_250\"],ins[data-ad-slot=\"I_siminsori_Mcommentstop_336_280\"],ins[data-ad-slot=\"I_siminsori_Mlatestnewstop_336_280\"],ins[data-ad-slot=\"I_siminsori_bottom_580_400\"],ins[data-ad-slot=\"I_siminsori_commentstop1_300_250\"],ins[data-ad-slot=\"I_siminsori_commentstop2_300_250\"],ins[data-ad-slot=\"I_siminsori_middletop_970_90\"],ins[data-ad-slot=\"I_siminsori_rightbottom_300_600\"],ins[data-ad-slot=\"I_siminsori_rightmiddle_300_250\"],ins[data-ad-slot=\"I_siminsori_righttop_300_600\"],ins[data-ad-slot=\"I_siminsori_within_300_250\"],ins[data-ad-slot=\"I_시민의소리_모바일2단락밑_300_250\"],ins[data-ad-slot=\"I_시민의소리_바이라인하단1_300_250\"],ins[data-ad-slot=\"I_시민의소리_바이라인하단2_300_250\"]"
+                    }
+                }
+            },
+            {
+                "id": "260efaef-76ae-403d-ad9d-71bc09501a1b",
+                "name": "sir.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sir\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adsense_view,div#side-adsense,div.idx-ads-wr"
                     }
                 }
             },
