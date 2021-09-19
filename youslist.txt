@@ -562,6 +562,8 @@
 ~zozola8.com##a[href*="//zozola8.com"]
 
 ! Regular expression URL filters
+/^[^:]+:\/\/+([^:\/]+\.)?\x70\x70\x73\x73\x2e\x6b\x72\/([\x61-\x7a_\/]*[\x41-\x5a]+)+[\x61-\x7a_\/]*\.[0-9\x61-\x7a]+$/$image,match-case
+/^[^:]+:\/\/+([^:\/]+\.)?\x79\x67\x6f\x73\x75\x2e\x63\x6f\x6d\/([\x61-\x7a_\/]*[\x41-\x5a]+)+[\x61-\x7a_\/]*\.[0-9\x61-\x7a]+$/$image,match-case
 
 ! URL filters
 *-ads.openx.net/w/1.0/acj^
@@ -1956,6 +1958,7 @@
 ||p.udn.com.tw/upf/2014_banners/$domain=udn.com
 ||pagead2.googlesyndication.com/bg/*.js^
 ||pagead2.googlesyndication.com/pagead/js/*/osd.js^
+||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/reactive_library_*.js^
 ||partner.googleadservices.com/gpt/pubads_impl_*.js^
 ||partners.coupangcdn.com/widget/product-banner/main-*.js^$domain=partners.coupangcdn.com
 ||parts.blog.livedoor.jp/ad/$domain=blog.livedoor.jp
@@ -6795,6 +6798,9 @@ touch.pixiv.net##div.ad-container
 touch.pixiv.net##div.ad-topmost-header
 tr.investing.com##div.midHeader
 travel.chosun.com##iframe[src^="http://travel.chosun.com/common/r_banner/index.html"]
+trends24.in##div.footer__advert
+trends24.in##div.page-content__advert
+trends24.in##div.trend-card-advert
 trustedreviews.com##div.advert
 trustedreviews.com##div.header-advert-wrapper
 trustpost.kr##div#container>div[style="margin:0 auto;padding:0 auto;max-width:800px;"]
