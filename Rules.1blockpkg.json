@@ -17120,6 +17120,22 @@
                 }
             },
             {
+                "id": "bce60cf9-7d52-4070-b854-d9c9b6e6ca9c",
+                "name": "dailymedi.com/banner_view.php$domain=dailymedi.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailymedi\\.com/banner_view\\.php",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*dailymedi.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "31097829-db63-4a33-bdc3-8677259d6bd3",
                 "name": "danawa.com/NBP/powerLink.php$domain=prod.danawa.com",
                 "content": {
