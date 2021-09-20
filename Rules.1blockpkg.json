@@ -45507,6 +45507,19 @@
                 }
             },
             {
+                "id": "ecc718ca-e867-4249-82e4-573955ad5697",
+                "name": "radiotimes.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?radiotimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-banner-container,div.dfp-ad,div.sidebar__item-spacer--advert-top,div.template-article__advert"
+                    }
+                }
+            },
+            {
                 "id": "96a0b506-e1de-4c1a-8113-c8c7a04265e8",
                 "name": "raider.io##",
                 "content": {
