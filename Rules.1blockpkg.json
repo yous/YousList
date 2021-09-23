@@ -35656,6 +35656,19 @@
                 }
             },
             {
+                "id": "b9171496-a3ea-4f95-8580-f6ec2bb1e5cc",
+                "name": "cboard.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cboard\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#left-ba,div#right-ba,div.view_top_ad"
+                    }
+                }
+            },
+            {
                 "id": "dafaf538-42fe-4d61-b76c-e20c0318cfcb",
                 "name": "cdmanii.com##",
                 "content": {
