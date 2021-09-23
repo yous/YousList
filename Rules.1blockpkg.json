@@ -35656,6 +35656,19 @@
                 }
             },
             {
+                "id": "ddea5eeb-9147-45f2-b91b-bb2d9dd1ca10",
+                "name": "cboard-net.cdn.ampproject.org##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cboard-net\\.cdn\\.ampproject\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view_top_ad"
+                    }
+                }
+            },
+            {
                 "id": "b9171496-a3ea-4f95-8580-f6ec2bb1e5cc",
                 "name": "cboard.net##",
                 "content": {
