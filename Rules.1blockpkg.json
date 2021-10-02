@@ -48461,6 +48461,19 @@
                 }
             },
             {
+                "id": "8b0e3688-2cbd-403b-aa81-ff381513afb3",
+                "name": "whatismybrowser.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?whatismybrowser\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.fun-adsense"
+                    }
+                }
+            },
+            {
                 "id": "ee1e6a67-3da0-4a96-8dff-d4eec0d825c9",
                 "name": "whosampled.com##",
                 "content": {
