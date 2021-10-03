@@ -3280,6 +3280,19 @@
                 }
             },
             {
+                "id": "d49b2273-21fe-49e5-86cc-0658837b19c3",
+                "name": "##iframe[src*=\"//minishop.linkprice.com/productbox_realhotdeal.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//minishop.linkprice.com/productbox_realhotdeal.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "b91b83ed-60cb-491b-a22c-4a2451c39363",
                 "name": "##iframe[src*=\"//mktag.mt.co.kr/code.ems/\"]",
                 "content": {
@@ -25111,6 +25124,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?minishop\\.linkprice\\.com/minishop.*\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "20633e97-3681-42d0-9da3-0ee0aa163273",
+                "name": "minishop.linkprice.com/productbox_realhotdeal.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?minishop\\.linkprice\\.com/productbox_realhotdeal\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
