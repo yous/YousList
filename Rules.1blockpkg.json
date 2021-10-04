@@ -18607,6 +18607,22 @@
                 }
             },
             {
+                "id": "f2343550-2976-4ea6-9919-416849555f14",
+                "name": "etoland.co.kr/plugin/naver_power/power.php$domain=etoland.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?etoland\\.co\\.kr/plugin/naver_power/power\\.php",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*etoland.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "3effa13c-fc3c-49be-8ef4-84c41a30ac04",
                 "name": "event.mtoon.com/banner/*.gif",
                 "content": {
@@ -37250,7 +37266,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "aside.back_aside1,aside.back_aside2,div#container>div.right>div[style=\"clear:both;margin-top:10px;padding:10px 0 10px 0;width:100%;text-align:center;\"],div#container>div.right>div[style=\"width:300px;padding-left:10px;float:left;\"],div#main_bn,div#mw_basic>center,div#mw_mobile>center,div#text_banner_td,div.middleAds,div.topAds,img[src^=\"../../img/banner/\"],img[src^=\"/img/net/banner/\"]"
+                        "selector": "aside.back_aside1,aside.back_aside2,div#container>div.right>div[style=\"clear:both;margin-top:10px;padding:10px 0 10px 0;width:100%;text-align:center;\"],div#container>div.right>div[style=\"width:300px;padding-left:10px;float:left;\"],div#main_bn,div#mw_basic>center,div#mw_mobile>center,div#text_banner_td,div.middleAds,div.topAds,form#ch4_form+div[id][style=\"min-height: 100px; display: block;\"],form#ch4_form+div[id][style=\"min-height: 100px;\"],img[src^=\"../../img/banner/\"],img[src^=\"/img/net/banner/\"]"
                     }
                 }
             },
