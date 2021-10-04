@@ -42907,6 +42907,19 @@
                 }
             },
             {
+                "id": "938a8a57-26f1-4673-b332-936970cad30f",
+                "name": "mania.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mania\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_comment_bottom,div#ad_list_right1,div#ad_mobile_top_div,div.view_bottom_ad"
+                    }
+                }
+            },
+            {
                 "id": "4bfcf1df-eeaf-4969-81c8-b9c91947313a",
                 "name": "manpeace.net##",
                 "content": {
@@ -43800,19 +43813,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#NM_MID_BANNER,div#NM_TOP_BANNER,div#promotion1,div#promotion2,div#promotion6,div#veta_branding,div#veta_time2,div#veta_top,div.section_rbn,iframe[src^=\"http://nv.veta.naver.com/fxshow\"]"
-                    }
-                }
-            },
-            {
-                "id": "7d7ccfac-5054-4e07-b4c0-e032e7e4d4b9",
-                "name": "nbamania.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?nbamania\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#ad_comment_bottom,div#ad_view_right1,div#cto_async_content,div.mobile_responsive_1_div"
                     }
                 }
             },
@@ -48831,19 +48831,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.banner"
-                    }
-                }
-            },
-            {
-                "id": "714ebb77-ef58-4072-ba5b-ec0d50654a4e",
-                "name": "yagumania.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?yagumania\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#ad_comment_bottom,div#ad_view_right1,div#cto_async_content,div.mobile_responsive_1_div"
                     }
                 }
             },
