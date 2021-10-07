@@ -24601,6 +24601,22 @@
                 }
             },
             {
+                "id": "ee50051f-6fcd-4326-bf38-241f3a27db55",
+                "name": "mdtoday.co.kr/support/_updata/banner2/$domain=mdtoday.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mdtoday\\.co\\.kr/support/_updata/banner2/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*mdtoday.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4cb366b8-1171-4a80-9961-2e32d61ed0d6",
                 "name": "media.adrcdn.com/scripts/w-display/screenad_core_*_scrambled.js",
                 "content": {
@@ -43033,6 +43049,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#bottom_ad,div#newsViewArea>div[style=\"padding-right:15px; text-align:left; float:left; margin-right:5px; margin-bottom:10px\"],div#right_info_2018,div#right_today_info_2018,div#right_top_banner,div.ad1,div.relation_ad"
+                    }
+                }
+            },
+            {
+                "id": "946277c9-66df-40e7-8a68-7eaeff901058",
+                "name": "mdtoday.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mdtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adlink"
                     }
                 }
             },
