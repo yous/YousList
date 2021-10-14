@@ -19796,6 +19796,19 @@
                 }
             },
             {
+                "id": "26055052-ddc3-4894-8821-ac1e6ad837f8",
+                "name": "heartilyfootindebted.com/*/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?heartilyfootindebted\\.com/.*/.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "21eed1b5-b8cf-477f-901d-241688737b38",
                 "name": "hei.hankyung.com/js/ad/iconad_hankyung_heien.js$domain=hei.hankyung.com",
                 "content": {
