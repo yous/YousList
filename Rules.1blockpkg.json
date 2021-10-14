@@ -16450,6 +16450,19 @@
                 }
             },
             {
+                "id": "7b232216-d062-4741-a84a-da31440a6b41",
+                "name": "cuterbond.com/*/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cuterbond\\.com/.*/.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b7d694e1-ef3b-4f4e-a7c7-c77c600dbe83",
                 "name": "cwdata.itplay.co.kr/ol/",
                 "content": {
