@@ -27626,6 +27626,19 @@
                 }
             },
             {
+                "id": "99a60134-12a1-41eb-b948-5792c6619fcf",
+                "name": "pl*.revenuecpmnetwork.com/*/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pl.*\\.revenuecpmnetwork\\.com/.*/.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "83953fa5-84f0-4873-b8ff-aaeeb39bf265",
                 "name": "player.anyclip.com/anyclip-widget/lre-widget/prod/v1/src/lre.js",
                 "content": {
