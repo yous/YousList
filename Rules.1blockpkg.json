@@ -8854,6 +8854,22 @@
                 }
             },
             {
+                "id": "7c1fa3e5-5924-4bb7-b7cf-4b950be960ff",
+                "name": "ad-api.enuri.info/vimp/$domain=enuri.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad-api\\.enuri\\.info/vimp/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*enuri.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9793836d-20ab-429b-b775-60e680efb1a5",
                 "name": "ad-cdn.technoratimedia.com",
                 "content": {
@@ -37211,7 +37227,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad_powerlink,div.ad_powershopping"
+                        "selector": "div#cpcCoupangRwBottom,div#cpcCoupangRwTop,div.ad_powerlink,div.ad_powershopping,div.bnr__band,div.bnrbox,div.header-ad,div.header-top-over,div.mid__bnr__band"
                     }
                 }
             },
