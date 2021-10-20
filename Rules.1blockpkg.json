@@ -26831,6 +26831,19 @@
                 }
             },
             {
+                "id": "df6194c2-1d8d-4796-9681-03fd83a762e0",
+                "name": "odb.outbrain.com/utils/platforms?*&format=vast&*",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?odb\\.outbrain\\.com/utils/platforms\\?.*&format=vast&",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "04018a90-8c10-441b-819c-95678966566d",
                 "name": "ojsfile.ohmynews.com/AD_FILE/",
                 "content": {
@@ -29614,8 +29627,8 @@
                 }
             },
             {
-                "id": "8a420721-2172-46a1-ba3c-1a3f1b1e4b9e",
-                "name": "smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~allvod.sbs.co.kr|~imnews.imbc.com|~news.sbs.co.kr|~news.tvchosun.com|~onair.imbc.com|~play-tv.kakao.com|~programs.sbs.co.kr|~wavve.com",
+                "id": "75b2cc17-fa43-4f92-9232-f2be604f702d",
+                "name": "smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~allvod.sbs.co.kr|~imnews.imbc.com|~mbcsportsplus.com|~news.sbs.co.kr|~news.tvchosun.com|~onair.imbc.com|~play-tv.kakao.com|~programs.sbs.co.kr|~wavve.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?smrmembers-smr\\.smartmediarep\\.com/smc/smrmembers/",
@@ -29623,6 +29636,7 @@
                         "unless-domain": [
                             "*allvod.sbs.co.kr",
                             "*imnews.imbc.com",
+                            "*mbcsportsplus.com",
                             "*news.sbs.co.kr",
                             "*news.tvchosun.com",
                             "*onair.imbc.com",
@@ -31105,6 +31119,19 @@
                 }
             },
             {
+                "id": "66f6d738-5edc-4bec-b3ff-7388153ee384",
+                "name": "tag.targeting.unrulymedia.com/rmp/*/*/vast2",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tag\\.targeting\\.unrulymedia\\.com/rmp/.*/.*/vast2",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "3a9c2b63-44cc-4ef1-bf20-6aa66c7e0289",
                 "name": "tag.vlitag.com/passback/",
                 "content": {
@@ -32128,6 +32155,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?vast\\.mathtag\\.com/\\?.*&adverid=",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5ad9184c-c0f4-4f71-a163-4b4d362a5f01",
+                "name": "vast.revcontent.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?vast\\.revcontent\\.com",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -49208,14 +49248,15 @@
                 }
             },
             {
-                "id": "6551b99f-69f8-4071-8fa3-f68ca1ff8e23",
-                "name": "@@ad.smartmediarep.com/NetInsight/$domain=allvod.sbs.co.kr|news.sbs.co.kr|programs.sbs.co.kr|wavve.com",
+                "id": "a06068a7-8e86-4d22-b0f6-cd594b77cd3f",
+                "name": "@@ad.smartmediarep.com/NetInsight/$domain=allvod.sbs.co.kr|mbcsportsplus.com|news.sbs.co.kr|programs.sbs.co.kr|wavve.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.smartmediarep\\.com/NetInsight/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*allvod.sbs.co.kr",
+                            "*mbcsportsplus.com",
                             "*news.sbs.co.kr",
                             "*programs.sbs.co.kr",
                             "*wavve.com"

@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20211018
+! Version: 20211020
 
 ! General element hiding rules
 ##amp-ad
@@ -1931,6 +1931,7 @@
 ||nws.lumieyes.com/show*/media/
 ||nzkoreapost.com/banners/$domain=nzkoreapost.com
 ||o.aolcdn.com/ads/adsWrapper.js^
+||odb.outbrain.com/utils/platforms?*&format=vast&*
 ||ojsfile.ohmynews.com/AD_FILE/
 ||ojsimg.ohmynews.com/*_ad_rolling.htm^
 ||oload.cloud/assets/js/video-js/vast4/videojs_5.vast.vpaid.min.js^
@@ -2133,7 +2134,7 @@
 ||smartadserver.com/h/nshow^
 ||smartposting.net/keyword/api/
 ||smpeople.net/mappy/ad/$domain=smpeople.net
-||smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~allvod.sbs.co.kr|~imnews.imbc.com|~news.sbs.co.kr|~news.tvchosun.com|~onair.imbc.com|~play-tv.kakao.com|~programs.sbs.co.kr|~wavve.com
+||smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~allvod.sbs.co.kr|~imnews.imbc.com|~mbcsportsplus.com|~news.sbs.co.kr|~news.tvchosun.com|~onair.imbc.com|~play-tv.kakao.com|~programs.sbs.co.kr|~wavve.com
 ||smrmembers-smr.smartmediarep.com:8443/smc/smrmembers/$domain=~allvod.sbs.co.kr|~news.sbs.co.kr|~news.tvchosun.com|~onair.imbc.com|~play-tv.kakao.com|~programs.sbs.co.kr|~wavve.com
 ||sndkorea.nowcdn.co.kr/emart/
 ||sndkorea.nowcdn.co.kr/media/
@@ -2240,6 +2241,7 @@
 ||t1.daumcdn.net/adfit/static/ad.min.js^$domain=~gallery.v.daum.net
 ||tab.clickmon.co.kr/ad_img/
 ||tab2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html^
+||tag.targeting.unrulymedia.com/rmp/*/*/vast2^
 ||tag.vlitag.com/passback/
 ||tag.vlitag.com/v3/
 ||tagan.adlightning.com/leeenterprises/*.js^
@@ -2312,6 +2314,7 @@
 ||v.24liveblog.com/iframe/ad*.php^$domain=v.24liveblog.com
 ||v5.actionteaser.ru/news.php^
 ||vast.mathtag.com/?*&adverid=
+||vast.revcontent.com^
 ||veritas-a.com/banner/$domain=veritas-a.com
 ||veta.naver.com/fxshow^
 ||vhldwuv6om.com/*.js^
@@ -7324,7 +7327,7 @@ zum.com##div#wrap_ad_minisite
 
 ! Exceptions
 @@||ad.cgv.co.kr/NetInsight/$domain=cgv.co.kr
-@@||ad.smartmediarep.com/NetInsight/$domain=allvod.sbs.co.kr|news.sbs.co.kr|programs.sbs.co.kr|wavve.com
+@@||ad.smartmediarep.com/NetInsight/$domain=allvod.sbs.co.kr|mbcsportsplus.com|news.sbs.co.kr|programs.sbs.co.kr|wavve.com
 @@||ads.sportsseoul.com/RealMedia/ads/adstream_sx.ads/www.sportsseoul.com/main@Bottom^$domain=sportsseoul.com
 @@||mindpost.or.kr/script/bannerpop.js^$domain=mindpost.or.kr
 @@||vads-api.ad.daum.net/xylophone/adrequest/vmap/
