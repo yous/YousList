@@ -39352,6 +39352,19 @@
                 }
             },
             {
+                "id": "5e9e4834-2f3d-4a2e-aa4d-131d0b0d5275",
+                "name": "irishcentral.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?irishcentral\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-container,div[data-ad-unit-name],div[data-label-text=\"AD\"]"
+                    }
+                }
+            },
+            {
                 "id": "699a70b3-dec1-4751-b54c-1ca9b8c56a2e",
                 "name": "isplus.joins.com##",
                 "content": {
