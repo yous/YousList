@@ -37571,6 +37571,19 @@
                 }
             },
             {
+                "id": "d10831b7-50d4-4900-aaa5-6e8b49cf8e6e",
+                "name": "fntimes.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?fntimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//www.fntimes.com/extcont/adclick.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "5c47dbeb-9285-417b-ac48-dcdb82d4bde0",
                 "name": "focus.kr##",
                 "content": {
