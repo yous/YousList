@@ -41250,6 +41250,19 @@
                 }
             },
             {
+                "id": "e0c2d545-8700-4cb5-86ef-142a902c9454",
+                "name": "m.fntimes.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.fntimes\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//m.fntimes.com/extcont/adclick.php\"],body>div[style=\"width:100%;position:fixed;bottom:0;background:#fff;height:50px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "11f87e3c-75db-4b14-adeb-5dd26190e3b4",
                 "name": "m.focus.kr##",
                 "content": {
