@@ -47126,6 +47126,19 @@
                 }
             },
             {
+                "id": "1b9fcabd-d7b8-49be-bbc7-59e2e9236399",
+                "name": "thedrive.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?thedrive\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#articleBody2"
+                    }
+                }
+            },
+            {
                 "id": "320c4350-2203-44a8-8233-1647e6eef658",
                 "name": "thefastcode.com##",
                 "content": {
