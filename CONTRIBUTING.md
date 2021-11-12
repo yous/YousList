@@ -45,12 +45,12 @@ Check whether every entry is ordered alphabetically.
 python bin/check_sorted.py youslist.txt
 ```
 
-### `bin/checked_sorted_hosts.py`
+### `bin/check_sorted_hosts.py`
 
 Check whether every host is ordered alphabetically.
 
 ``` sh
-python bin/checked_sorted_hosts.py hosts.txt
+python bin/check_sorted_hosts.py hosts.txt
 ```
 
 ### `bin/generate_rules.py`
