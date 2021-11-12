@@ -9,7 +9,7 @@
 ## Pull requests
 
 - Make sure that every entry follows [Adblock Plus filter rules](https://adblockplus.org/en/filters).
-- Update the version with the format `yyyyMMdd`.
+- Keep the version as is.
 - Alphabetically order every entry.
 - Do not add extra empty line.
 - Build `Rules.1blockpkg.json` and `Rules.1blockpkg` from `youslist.txt` with `bin/release`.
