@@ -18798,6 +18798,19 @@
                 }
             },
             {
+                "id": "c3e2486d-58ad-43dd-bbfd-d88cf6f5c659",
+                "name": "fin.rainbownine.net/js/adn_tags_*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?fin\\.rainbownine\\.net/js/adn_tags_.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ae803a39-4a71-4ada-a19e-586489cac098",
                 "name": "finead.o00.kr",
                 "content": {
