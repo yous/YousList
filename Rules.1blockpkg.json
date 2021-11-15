@@ -11660,6 +11660,32 @@
                 }
             },
             {
+                "id": "6ecda297-2357-434c-84a9-b88864df67a7",
+                "name": "ads.themoneytizer.com/s/gen.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ads\\.themoneytizer\\.com/s/gen\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7b8421ff-3ddf-4c37-b31f-8b572f59e9a1",
+                "name": "ads.themoneytizer.com/s/requestform.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ads\\.themoneytizer\\.com/s/requestform\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "7d73f3d8-e9db-4e32-a82e-b09d592df983",
                 "name": "ads.theporndb.com/www/delivery/afr.php",
                 "content": {
@@ -22506,6 +22532,19 @@
                 }
             },
             {
+                "id": "7ab2774f-a0a7-4cb5-8cd6-90e117ab42db",
+                "name": "jsc.adskeeper.com/*/*/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?jsc\\.adskeeper\\.com/.*/.*/.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4944cbb3-e6dc-4822-846e-e168405473f7",
                 "name": "jsc.marketgid.com/*/*/*.js",
                 "content": {
@@ -27798,6 +27837,19 @@
                 }
             },
             {
+                "id": "0e3ad70f-f837-41f7-94d3-66b8b1498764",
+                "name": "pointsconcedecasual.com/*/*/*/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pointsconcedecasual\\.com/.*/.*/.*/.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f2e47da1-8549-4086-b1ce-4006e01d1fed",
                 "name": "polinews.co.kr/data/ad/$domain=polinews.co.kr",
                 "content": {
@@ -28118,6 +28170,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?qcma\\.qrobo\\.com/QCMA/common/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "62914013-95bb-4b6c-bbdf-3df188ebacb0",
+                "name": "quantcast.mgr.consensu.org/choice/*/choice.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?quantcast\\.mgr\\.consensu\\.org/choice/.*/choice\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -48084,6 +48149,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "article#bo_v+center,div.container>form>div[style=\"text-align: center;\"],div.jbMenu,section#bo_v_atc>div[style=\"text-align: center;\"]"
+                    }
+                }
+            },
+            {
+                "id": "64fb7972-ee2f-4f9d-b136-00532ca73e60",
+                "name": "urlebird.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?urlebird\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#thumbs>div.h12-250.text-center"
                     }
                 }
             },
