@@ -44136,6 +44136,19 @@
                 }
             },
             {
+                "id": "30c6e5a3-1d87-44a0-a058-2629e90b0041",
+                "name": "news.amomama.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?news\\.amomama\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.Ad-Container"
+                    }
+                }
+            },
+            {
                 "id": "e4b46f1c-e407-41f2-9274-16c434170221",
                 "name": "news.bizwatch.co.kr##",
                 "content": {
