@@ -44721,6 +44721,19 @@
                 }
             },
             {
+                "id": "99ce2ed1-edc8-4dd1-9eec-f2ad1a338245",
+                "name": "nme.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?nme\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.billboard-ad,div.td-a-ad"
+                    }
+                }
+            },
+            {
                 "id": "09b77044-b4fe-4f50-81bc-25a687f18fa8",
                 "name": "noblesse.com##",
                 "content": {
