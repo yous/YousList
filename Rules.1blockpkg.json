@@ -46013,6 +46013,19 @@
                 }
             },
             {
+                "id": "92108990-9eb4-4d10-96ce-958d8e89303a",
+                "name": "prevention.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?prevention\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#gpt-leaderboard-ad,div.breaker-ad,div.gpt-breaker-container,div.leaderboard-ad,div.oop-ad,div.right-rail-ad,div.transporter-ad,div.vertical-ad"
+                    }
+                }
+            },
+            {
                 "id": "0e7532f0-3a03-48d6-b261-bd12e152bfaf",
                 "name": "pri.org##",
                 "content": {
