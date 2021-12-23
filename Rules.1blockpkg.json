@@ -31871,6 +31871,22 @@
                 }
             },
             {
+                "id": "e77c93c3-0326-4a45-973e-50f39d8d5f54",
+                "name": "techworld.speedgabia.com/epnc.co.kr/ad/$domain=epnc.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?techworld\\.speedgabia\\.com/epnc\\.co\\.kr/ad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*epnc.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4aeecc5a-82d7-4e8e-a6de-2e9b9e415108",
                 "name": "telegraph.co.uk/template/ver1-0/js/commWidget.js$domain=telegraph.co.uk",
                 "content": {
@@ -37884,6 +37900,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "main#main div.col-md-9 center>div[style=\"border:1px solid #dedede; text-align:center; padding-top:15px; padding-bottom:15px; background-color: white;\"],main#main div.col-md-9 center>div[style=\"border:1px solid #dedede; text-align:center; padding-top:15px; padding-bottom:15px; background: #fff;\"]"
+                    }
+                }
+            },
+            {
+                "id": "9cdb0787-07ca-4d06-afb7-c89c02d4db25",
+                "name": "epnc.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?epnc\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#floating_banner_left,div#floating_banner_right,div#top_banner,div#wingBanner,ins.dcmads"
                     }
                 }
             },
