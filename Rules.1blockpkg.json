@@ -49474,6 +49474,19 @@
                 }
             },
             {
+                "id": "e7143fda-e6b0-46d9-bcd9-2ad2dedaf122",
+                "name": "wolyo.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wolyo\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-template"
+                    }
+                }
+            },
+            {
                 "id": "9388351f-ddc2-4cc6-9c80-c6e38cba3a7a",
                 "name": "womad.me##",
                 "content": {
