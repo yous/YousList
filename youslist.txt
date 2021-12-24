@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20211223
+! Version: 20211224
 
 ! General element hiding rules
 ##amp-ad
@@ -189,6 +189,7 @@
 ##iframe[src*="//apis.piclick.me/v1/publish/banner/iframe"]
 ##iframe[src*="//apis.piclick.me/v2/publish/banner/iframe"]
 ##iframe[src*="//ax-d.pixfuture.net/w/1.0/afr"]
+##iframe[src*="//b.bestcontentfood.top/loader"]
 ##iframe[src*="//b.bestcontentitem.top/loader"]
 ##iframe[src*="//b.bestcontentwork.top/loader"]
 ##iframe[src*="//bayabar.com/adworking/"]
@@ -412,6 +413,7 @@
 ~btq-777.com##a[href*="//btq-777.com"]
 ~bun-go5.com##a[href*="//bun-go5.com"]
 ~c365.kro.kr##a[href*="//c365.kro.kr"]
+~callgirl222.com##a[href*="//callgirl222.com"]
 ~cat-123.com##a[href*="//cat-123.com"]
 ~chaturbate.com##a[href*="//chaturbate.com/in/?"][href*="campaign="]
 ~chaturbate.com##iframe[src*="//chaturbate.com/in/?"][src*="campaign="]
@@ -512,6 +514,7 @@
 ~rr-2222.com##a[href*="//rr-2222.com"]
 ~run88bet.com##a[href*="//run88bet.com"],a[href*="//www.run88bet.com"]
 ~safe365.kro.kr##a[href*="//safe365.kro.kr"]
+~seda11.bet##a[href*="//seda11.bet"]
 ~seda9.bet##a[href*="//seda9.bet"]
 ~shieldman1.net##a[href*="//shieldman1.net"]
 ~show365.kro.kr##a[href*="//show365.kro.kr"]
@@ -644,6 +647,7 @@
 ||a.exosrv.com/iframe.php^
 ||a.komoona.com/tag/*.js^
 ||a.ligatus.com/?*t=js
+||a.realsrv.com/ad-provider.js^
 ||a.realsrv.com/iframe.php^
 ||a.realsrv.com/nativeads.js^
 ||a.realsrv.com/popunder1000.js^
@@ -978,6 +982,7 @@
 ||ani365.org/assets/images/banner*.gif^$domain=ani365.org
 ||animefreak.tv/sites/all/modules/custom/anime/ads/
 ||animefreak.tv/sites/all/modules/custom/anime/yanone.html^
+||aniweek.com/img/2021/*.gif^$domain=aniweek.com
 ||aos-creative.prf.hn/creative/
 ||ap.lijit.com/rtb/bid^
 ||ap.lijit.com/www/delivery/fpi.js^
@@ -1028,6 +1033,7 @@
 ||autoview.co.kr/auto_ad/ad_top.asp^$domain=autoview.co.kr
 ||ax-d.pixfuture.net/w/1.0/afr^
 ||b.a2gw.com/b/*.js^
+||b.bestcontentfood.top/loader^
 ||b.bestcontentitem.top/loader^
 ||b.bestcontentitem.top/warp/
 ||b.bestcontentwork.top/loader^
@@ -2550,6 +2556,9 @@ animeid.tv##div.a728x90
 animeid.tv##div.ads728x90
 animeid.tv##iframe[src^="//static.animeid.tv/ads/"]
 animoe.me##div#hd_pop
+aniweek.com##div#exoall
+aniweek.com##div#exon
+aniweek.com##div.insty
 answers.com##div.ad_unit
 answers.com##div.adhesion_dom
 api.dable.io##div.item-promotion

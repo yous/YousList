@@ -2383,6 +2383,19 @@
                 }
             },
             {
+                "id": "9a3c72de-f7c3-4952-95d6-70475cf04e81",
+                "name": "##iframe[src*=\"//b.bestcontentfood.top/loader\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//b.bestcontentfood.top/loader\"]"
+                    }
+                }
+            },
+            {
                 "id": "8910ff30-d9fb-458c-9b4c-9ee01e8af0bd",
                 "name": "##iframe[src*=\"//b.bestcontentitem.top/loader\"]",
                 "content": {
@@ -5380,6 +5393,22 @@
                 }
             },
             {
+                "id": "7ca56133-eb8d-45bf-a8f8-2a0a013d6edc",
+                "name": "##a[href*=\"//callgirl222.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*callgirl222.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//callgirl222.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "c458525b-a930-4c7c-90f3-a7ab540ee22c",
                 "name": "##a[href*=\"//cat-123.com\"]",
                 "content": {
@@ -6976,6 +7005,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//safe365.kro.kr\"]"
+                    }
+                }
+            },
+            {
+                "id": "56c69b1e-4bbc-458b-9ff1-c2a92769dc76",
+                "name": "##a[href*=\"//seda11.bet\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*seda11.bet"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//seda11.bet\"]"
                     }
                 }
             },
@@ -8884,6 +8929,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?a\\.ligatus\\.com/\\?.*t=js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ef842bde-d73a-4cef-803f-89923f7d800d",
+                "name": "a.realsrv.com/ad-provider.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?a\\.realsrv\\.com/ad-provider\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -13317,6 +13375,22 @@
                 }
             },
             {
+                "id": "d1e61e33-197f-46f1-9dba-ac56f27cea07",
+                "name": "aniweek.com/img/2021/*.gif$domain=aniweek.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?aniweek\\.com/img/2021/.*\\.gif",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*aniweek.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "fad5e23b-9a92-4b16-ac5e-e69e7cb5806a",
                 "name": "aos-creative.prf.hn/creative/",
                 "content": {
@@ -14008,6 +14082,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?b\\.a2gw\\.com/b/.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e16f57f1-0cb8-4888-8bb6-feb0711eba99",
+                "name": "b.bestcontentfood.top/loader",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?b\\.bestcontentfood\\.top/loader",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -34780,6 +34867,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#hd_pop"
+                    }
+                }
+            },
+            {
+                "id": "93fb904a-0729-487f-854c-baa77b9d1c74",
+                "name": "aniweek.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?aniweek\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#exoall,div#exon,div.insty"
                     }
                 }
             },
