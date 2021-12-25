@@ -2279,6 +2279,19 @@
                 }
             },
             {
+                "id": "dfdb6c38-9f6e-4e40-b681-01e9d983dd79",
+                "name": "##iframe[src*=\"//ai.onepx.kr/adReq/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//ai.onepx.kr/adReq/\"]"
+                    }
+                }
+            },
+            {
                 "id": "3848e3db-fa65-4d38-a6a2-0bd787eb9977",
                 "name": "##iframe[src*=\"//aitg.widerplanet.com/\"]",
                 "content": {
@@ -13211,6 +13224,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?agate\\.opap\\.co\\.kr/html/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c77e6c36-ea2a-4a36-9d87-83788dfabc6c",
+                "name": "ai.onepx.kr/adReq/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ai\\.onepx\\.kr/adReq/",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -47693,6 +47719,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#right,div#s_ts_adsense"
+                    }
+                }
+            },
+            {
+                "id": "109d1c28-55b5-4ec6-aa16-4493b6f2668b",
+                "name": "taptalk.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?taptalk\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "center.x_adcon_2,div.s_ad_con"
                     }
                 }
             },
