@@ -47177,6 +47177,19 @@
                 }
             },
             {
+                "id": "660aed31-4d25-4d0b-a544-54b85277f54c",
+                "name": "sms24.me##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sms24\\.me"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"width: 100%; position: fixed; bottom: 0px; z-index: 1001; text-align: center; height: 90px;\"],div[id^=\"div-ado-ad-\"]"
+                    }
+                }
+            },
+            {
                 "id": "86e773a9-ccc1-4f9e-a2e4-54d4801fe9ce",
                 "name": "snopes.com##",
                 "content": {
