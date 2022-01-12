@@ -368,32 +368,6 @@
                 }
             },
             {
-                "id": "de0572f4-b5a1-4724-b4f6-9b9871640268",
-                "name": "##div.coupang-ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.coupang-ad"
-                    }
-                }
-            },
-            {
-                "id": "0588e99f-7736-4db5-9cb2-fbf8bdd4ecc6",
-                "name": "##div.coupang_ad",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.coupang_ad"
-                    }
-                }
-            },
-            {
                 "id": "fff4fdb1-866b-4766-98e6-55b2b5951e77",
                 "name": "##div.ezAdsense",
                 "content": {
@@ -16683,6 +16657,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?click\\.realclick\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "864beaf2-57f9-440f-9f33-27880a9dba5a",
+                "name": "clien.net/service/api/coupang/ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?clien\\.net/service/api/coupang/ad",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f9be4fc0-f2d7-496b-89a0-1165d1bdab10",
+                "name": "clien.net/service/js/common/clien.naver.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?clien\\.net/service/js/common/clien\\.naver\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -36941,7 +36941,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#hongboInfoList,div#naverAd,div.ad_fix,div.footer_ad,div.list_bottom_ad,div.list_center_ad,div.list_top_ad,div.main_center_ad,div.main_top_ad,div.naver_ad,div.side_ad,div.view_bottom_ad,div.view_center_ad,div.view_top_ad"
+                        "selector": "div#coupangAd,div#hongboInfoList,div#naverAd,div.ad_fix,div.footer_ad,div.list_bottom_ad,div.list_center_ad,div.list_top_ad,div.main_center_ad,div.main_top_ad,div.naver_ad,div.side_ad,div.view_bottom_ad,div.view_center_ad,div.view_top_ad"
                     }
                 }
             },
@@ -41842,7 +41842,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#comment_naverAd,div#naverAd2,div.shop_naver"
+                        "selector": "div#comment_naverAd,div#naverAd2,div.search_list_ad,div.shop_naver"
                     }
                 }
             },
