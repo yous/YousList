@@ -16665,6 +16665,32 @@
                 }
             },
             {
+                "id": "864beaf2-57f9-440f-9f33-27880a9dba5a",
+                "name": "clien.net/service/api/coupang/ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?clien\\.net/service/api/coupang/ad",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f9be4fc0-f2d7-496b-89a0-1165d1bdab10",
+                "name": "clien.net/service/js/common/clien.naver.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?clien\\.net/service/js/common/clien\\.naver\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ca828180-7385-45d9-972e-33a584f46d9a",
                 "name": "clkads.com",
                 "content": {
@@ -36915,7 +36941,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#hongboInfoList,div#naverAd,div.ad_fix,div.footer_ad,div.list_bottom_ad,div.list_center_ad,div.list_top_ad,div.main_center_ad,div.main_top_ad,div.naver_ad,div.side_ad,div.view_bottom_ad,div.view_center_ad,div.view_top_ad"
+                        "selector": "div#coupangAd,div#hongboInfoList,div#naverAd,div.ad_fix,div.footer_ad,div.list_bottom_ad,div.list_center_ad,div.list_top_ad,div.main_center_ad,div.main_top_ad,div.naver_ad,div.side_ad,div.view_bottom_ad,div.view_center_ad,div.view_top_ad"
                     }
                 }
             },
@@ -41816,7 +41842,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#comment_naverAd,div#naverAd2,div.shop_naver"
+                        "selector": "div#comment_naverAd,div#naverAd2,div.search_list_ad,div.shop_naver"
                     }
                 }
             },
