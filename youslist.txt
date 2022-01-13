@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20220106
+! Version: 20220113
 
 ! General element hiding rules
 ##amp-ad
@@ -348,6 +348,8 @@
 ##iframe[src*="//www.dreamsearch.or.kr/servlet/adPlayLinkServlet"]
 ##iframe[src*="//www.dreamsearch.or.kr/servlet/adbnMobileBanner"]
 ##iframe[src*="//www.dreamsearch.or.kr/servlet/iadbn"]
+##iframe[src*="//www.google.com/afs/ads/i/iframe.html"]
+##iframe[src*="//www.google.com/afs/ads?"]
 ##iframe[src*="//www.inven.co.kr/ad/"]
 ##iframe[src*="//www.jjan.kr/banner/ad_banner_"][src$=".html"]
 ##iframe[src*="//www.kmib.co.kr/cp/realclick/"]
@@ -1467,6 +1469,8 @@
 ||go.pub2srv.com/apu.php^
 ||google.co.*/adsense/search/async-ads.js^
 ||google.com/adsense/search/async-ads.js^
+||google.com/afs/ads/i/iframe.html^
+||google.com/afs/ads^
 ||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
 ||googleads.g.doubleclick.net/dbm/ad^
 ||googleads.g.doubleclick.net/mads/gma^
@@ -5698,8 +5702,10 @@ n.news.naver.com##div.ad_box
 naitimp3.ru##div#M306352Composite624079
 namu.wiki##article>h1+p+div.c
 namu.wiki##aside>div[id^="tchika"]>div[id^="tchika"]:first-child
+namu.wiki##div#search-ad
 namu.wiki##div.ad
 namu.wiki##div.namuwiki-toc-ad
+namu.wiki##div.pl
 namu.wiki##div.test-ad-card
 namu.wiki##iframe[src^="//arca.live/static/ad/"]
 namu.wiki##iframe[src^="//minor.town/static/ad/"]

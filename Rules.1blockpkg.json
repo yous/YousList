@@ -4450,6 +4450,32 @@
                 }
             },
             {
+                "id": "8db897a3-98ff-4bda-b580-a2ff28294bc7",
+                "name": "##iframe[src*=\"//www.google.com/afs/ads/i/iframe.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//www.google.com/afs/ads/i/iframe.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "e372a0a5-7394-4503-9fdd-a24f72b2a87e",
+                "name": "##iframe[src*=\"//www.google.com/afs/ads?\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//www.google.com/afs/ads?\"]"
+                    }
+                }
+            },
+            {
                 "id": "b5a7d220-f960-414b-b510-21820653750c",
                 "name": "##iframe[src*=\"//www.inven.co.kr/ad/\"]",
                 "content": {
@@ -20232,6 +20258,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?google\\.com/adsense/search/async-ads\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d72137a8-226d-48d2-92bd-26f3da5962e8",
+                "name": "google.com/afs/ads/i/iframe.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?google\\.com/afs/ads/i/iframe\\.html",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "4f3eb74d-7339-44c8-8865-610f4a92f724",
+                "name": "google.com/afs/ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?google\\.com/afs/ads",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -44845,7 +44897,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "article>h1+p+div.c,aside>div[id^=\"tchika\"]>div[id^=\"tchika\"]:first-child,div.ad,div.namuwiki-toc-ad,div.test-ad-card,iframe[src^=\"//arca.live/static/ad/\"],iframe[src^=\"//minor.town/static/ad/\"],iframe[src^=\"//namu.live/static/ad/\"]"
+                        "selector": "article>h1+p+div.c,aside>div[id^=\"tchika\"]>div[id^=\"tchika\"]:first-child,div#search-ad,div.ad,div.namuwiki-toc-ad,div.pl,div.test-ad-card,iframe[src^=\"//arca.live/static/ad/\"],iframe[src^=\"//minor.town/static/ad/\"],iframe[src^=\"//namu.live/static/ad/\"]"
                     }
                 }
             },
