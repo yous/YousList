@@ -21568,6 +21568,22 @@
                 }
             },
             {
+                "id": "b3e815dc-8208-4453-98ec-ff11c734237c",
+                "name": "image.thebell.co.kr/banner/$domain=thebell.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?image\\.thebell\\.co\\.kr/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*thebell.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2885d7e2-f819-4d30-9603-5fa1c6456683",
                 "name": "image.tvdaily.co.kr/banner/$domain=tvdaily.asiae.co.kr",
                 "content": {
@@ -48148,6 +48164,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.c-ad,gpt-ad"
+                    }
+                }
+            },
+            {
+                "id": "54dd80b2-0ef5-4a7e-b03e-cc4b12f2ed39",
+                "name": "thebell.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?thebell\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.FLOAT_AD10,div.FLOAT_AD11,div.adArea,div.article_content_banner,div.headadBanner,div.newsADBox,div.topBanner"
                     }
                 }
             },
