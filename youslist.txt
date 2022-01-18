@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20220117
+! Version: 20220118
 
 ! General element hiding rules
 ##amp-ad
@@ -6364,21 +6364,7 @@ redstate.com##div.ad-300x250
 redstate.com##div.banner-ad
 redstate.com##div.row>div.ad.col-xs-4
 redstate.com##div.row>div.ad.col-xs-6
-reuters.com##div.ArticlePage_ad-wrap
-reuters.com##div.CanvasAd_container
-reuters.com##div.DPSlot_container
-reuters.com##div.StandardArticleBody_container>div[class][id]:not(.StandardArticleBody_body)
-reuters.com##div.StandardArticleBody_trustBadgeContainer>div[class]
-reuters.com##div.StandardArticleBody_trustBadgeContainer>div[id]
-reuters.com##div.StandardArticle_content>div[class]:not(.TwoColumnLayout_column)
-reuters.com##div.StandardArticle_content>div[id]:not(.TwoColumnLayout_column)
-reuters.com##div.TwoColumnLayout_column>div[class]:not(.ArticleHeader_content-container):not(.StandardArticleBody_container)
-reuters.com##div.TwoColumnLayout_column>div[id]:not(.ArticleHeader_content-container):not(.StandardArticleBody_container)
-reuters.com##div[data-template="article_list"]>div[class]:not([data-reactroot])
-reuters.com##div[data-template="article_list"]>div[data-reactroot]>div[class]:not(.ArticlePage_container):not(.BreakpointDetector_container)
-reuters.com##div[data-template="article_list"]>div[data-reactroot]>div[id]:not(.ArticlePage_container):not(.BreakpointDetector_container)
-reuters.com##div[data-template="article_list"]>div[id]:not([data-reactroot])
-reuters.com##section.ad-horizontal
+reuters.com##div[class^="ad-slot__container___"]
 reviewstar.hankooki.com##li.ad_plex_a250
 rizonesoft.com##div.rizon-before-posts
 rockpapershotgun.com##div#comments-mpu-first
