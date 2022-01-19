@@ -1924,6 +1924,7 @@
 ||nads.lumieyes.com/show/media/
 ||namu.live/api/ads^$domain=namu.live
 ||namu.live/static/ad/$domain=namu.wiki
+||namu.wiki/i/*?r=*&m=*$domain=namu.wiki
 ||nanumnews.com/data/nanumnews_com/banner/201111264931247.jpg^
 ||nanumnews.com/data/nanumnews_com/banner/2011121335056118.gif^
 ||nanumnews.com/data/nanumnews_com/banner/2011121337586078.gif^
@@ -5704,7 +5705,7 @@ n.news.naver.com##div.ad_box
 naitimp3.ru##div#M306352Composite624079
 namu.wiki##article>div[id]:not([class])~div[class]:not([id])
 namu.wiki##article>h1+p+div[class][id]
-namu.wiki##aside>div[id^="tchika"]>div[id^="tchika"]:first-child
+namu.wiki##aside>div[id]>div[id]:first-child
 namu.wiki##div#search-ad
 namu.wiki##div.ad
 namu.wiki##div.namuwiki-toc-ad

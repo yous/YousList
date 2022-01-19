@@ -26816,6 +26816,22 @@
                 }
             },
             {
+                "id": "be44c385-4897-4eee-9d15-67b97bed4102",
+                "name": "namu.wiki/i/*?r=*&m=*$domain=namu.wiki",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.wiki/i/.*\\?r=.*&m=",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*namu.wiki"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "037a5cf9-7710-4527-96bb-506549d7bdc6",
                 "name": "nanumnews.com/data/nanumnews_com/banner/201111264931247.jpg",
                 "content": {
@@ -44929,7 +44945,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "article>div[id]:not([class])~div[class]:not([id]),article>h1+p+div[class][id],aside>div[id^=\"tchika\"]>div[id^=\"tchika\"]:first-child,div#search-ad,div.ad,div.namuwiki-toc-ad,div.test-ad-card,iframe[src^=\"//arca.live/static/ad/\"],iframe[src^=\"//minor.town/static/ad/\"],iframe[src^=\"//namu.live/static/ad/\"]"
+                        "selector": "article>div[id]:not([class])~div[class]:not([id]),article>h1+p+div[class][id],aside>div[id]>div[id]:first-child,div#search-ad,div.ad,div.namuwiki-toc-ad,div.test-ad-card,iframe[src^=\"//arca.live/static/ad/\"],iframe[src^=\"//minor.town/static/ad/\"],iframe[src^=\"//namu.live/static/ad/\"]"
                     }
                 }
             },
