@@ -26816,22 +26816,6 @@
                 }
             },
             {
-                "id": "ef1adfe0-f397-4c6b-973d-f7ee96ddae72",
-                "name": "namu.wiki/i/*$domain=namu.wiki",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.wiki/i/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*namu.wiki"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "037a5cf9-7710-4527-96bb-506549d7bdc6",
                 "name": "nanumnews.com/data/nanumnews_com/banner/201111264931247.jpg",
                 "content": {
@@ -50525,22 +50509,6 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*mindpost.or.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "ignore-previous-rules"
-                    }
-                }
-            },
-            {
-                "id": "f523c3ac-7546-40fc-a7c0-24b4a5ecd4cd",
-                "name": "@@namu.wiki/i/*?type=news*$domain=namu.wiki",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.wiki/i/.*\\?type=news",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*namu.wiki"
                         ]
                     },
                     "action": {
