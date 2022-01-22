@@ -99,7 +99,7 @@ class FilterParser:
             self._parse_hiding_exception_rule(line)
         elif '#?#' in line:
             # Adblock Plus specific extended CSS selectors
-            raise Exception('Cannot handle this rule: ' + line)
+            pass
         elif line.startswith('@@'):
             # Exception rule
             self._parse_exception_rule(line)
