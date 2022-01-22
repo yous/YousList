@@ -39126,6 +39126,19 @@
                 }
             },
             {
+                "id": "aee57404-66da-44de-ba90-d378a1e20c53",
+                "name": "genius.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?genius\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"DfpAd__Container-sc-\"],div[class^=\"LeaderboardOrMarquee__Sticky-\"],div[class^=\"StickyBannerAd__Container-\"],div[class^=\"TopContentdesktop__PromoContainer-\"]"
+                    }
+                }
+            },
+            {
                 "id": "afa98294-d33c-496d-a900-8e4f63dcd102",
                 "name": "genomeweb.com##",
                 "content": {
