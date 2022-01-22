@@ -26816,11 +26816,11 @@
                 }
             },
             {
-                "id": "be44c385-4897-4eee-9d15-67b97bed4102",
-                "name": "namu.wiki/i/*?r=*&m=*$domain=namu.wiki",
+                "id": "ef1adfe0-f397-4c6b-973d-f7ee96ddae72",
+                "name": "namu.wiki/i/*$domain=namu.wiki",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.wiki/i/.*\\?r=.*&m=",
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.wiki/i/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*namu.wiki"
@@ -29969,6 +29969,22 @@
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?search2\\.nuriclick\\.co\\.kr/search\\.php",
                         "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5c57f996-7ea2-4e39-a43c-83046c5c05b1",
+                "name": "searchad-phinf.pstatic.net$domain=namu.wiki",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?searchad-phinf\\.pstatic\\.net",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*namu.wiki"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -44958,7 +44974,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "article>div[id]:not([class])~div[class]:not([id]),article>h1+p+div[class][id],aside>div[id]>div[id]:first-child,div#search-ad,div.ad,div.namuwiki-toc-ad,div.test-ad-card,iframe[src^=\"//arca.live/static/ad/\"],iframe[src^=\"//minor.town/static/ad/\"],iframe[src^=\"//namu.live/static/ad/\"]"
+                        "selector": "article>div[id]:not([class])~div[class]:not([id]),article>h1+p+div>div>div>div>div[class][id],aside>div[id]>div[id]:first-child,div#search-ad,div.ad,div.namuwiki-toc-ad,div.test-ad-card,iframe[src^=\"//arca.live/static/ad/\"],iframe[src^=\"//minor.town/static/ad/\"],iframe[src^=\"//namu.live/static/ad/\"]"
                     }
                 }
             },
@@ -50509,6 +50525,22 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*mindpost.or.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
+                    }
+                }
+            },
+            {
+                "id": "f523c3ac-7546-40fc-a7c0-24b4a5ecd4cd",
+                "name": "@@namu.wiki/i/*?type=news*$domain=namu.wiki",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?namu\\.wiki/i/.*\\?type=news",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*namu.wiki"
                         ]
                     },
                     "action": {
