@@ -7434,8 +7434,8 @@ zum.com##div#wrap_ad_main
 zum.com##div#wrap_ad_minisite
 
 ! Extended selectors
-namu.wiki##:xpath(//article//div[div[count(.//div/img[starts-with(@src,'//w.namu.la/s/')])>2]/following-sibling::div[count(.//div[2]/span[starts-with(text(),'http')])=3]])
-namu.wiki##:xpath(//article/h1/following-sibling::p[1]/following-sibling::div[1]//div[1][@class][@id][not(./ancestor::div[@id]/ancestor::article)])
+namu.wiki##:xpath(//article//div[count(div)=2][count(div[1]//img[starts-with(@src,'//w.namu.la/s/')])>2][count(div[2]//div[starts-with(text(),'http')])=3])
+namu.wiki##:xpath(//article/h1/following-sibling::p[1]/following-sibling::div[1]//div[1][@class][@id][not(ancestor::div[@id]/ancestor::article)])
 
 ! Workarounds for EasyList
 #@#.adsBox
