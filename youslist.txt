@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20220122
+! Version: 20220124
 
 ! General element hiding rules
 ##amp-ad
@@ -2153,7 +2153,6 @@
 ||search.supplyframe.com/partner/
 ||search2.nuriclick.co.kr/banner.php^
 ||search2.nuriclick.co.kr/search.php^
-||searchad-phinf.pstatic.net^$domain=namu.wiki
 ||searchmaster.pro/b.php^
 ||secure-ads.pictela.net/rm/marketplace/pubtaglib/0_4_0/pubtaglib_0_4_0.js^
 ||secure.adnxs.com/jpt^
@@ -5709,7 +5708,6 @@ mywatchseries.to##div.sp-leader
 n.news.naver.com##div.ad_box
 naitimp3.ru##div#M306352Composite624079
 namu.wiki##article>div[id]:not([class])~div[class]:not([id])
-namu.wiki##article>h1+p+div>div>div>div>div[class][id]
 namu.wiki##aside>div[id]>div[id]:first-child
 namu.wiki##div#search-ad
 namu.wiki##div.ad
@@ -7436,7 +7434,8 @@ zum.com##div#wrap_ad_main
 zum.com##div#wrap_ad_minisite
 
 ! Extended selectors
-namu.wiki#?#article div[id]:-abp-has(img[src*="//searchad-phinf.pstatic.net/"])
+namu.wiki##:xpath(//article//div[div[count(.//div/img[starts-with(@src,'//w.namu.la/s/')])>2]/following-sibling::div[count(.//div[2]/span[starts-with(text(),'http')])=3]])
+namu.wiki##:xpath(//article/h1/following-sibling::p[1]/following-sibling::div[1]//div[1][@class][@id][not(./ancestor::div[@id]/ancestor::article)])
 
 ! Workarounds for EasyList
 #@#.adsBox
