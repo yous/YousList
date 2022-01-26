@@ -48249,6 +48249,19 @@
                 }
             },
             {
+                "id": "c7d495d4-bc1a-4179-9e4a-f97223145e1c",
+                "name": "thedailybeast.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?thedailybeast\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.AdSlot,aside.SimpleAd,div.AdModule,div.ConnatixAd,div.ExtraSidebarAd,div.FooterAd,div.PageTopAd,div.Sizer[data-pos2^=\"body_300x250_\"],div.Sizer[data-pos2^=\"body_320x50_\"]"
+                    }
+                }
+            },
+            {
                 "id": "1b9fcabd-d7b8-49be-bbc7-59e2e9236399",
                 "name": "thedrive.co.kr##",
                 "content": {
