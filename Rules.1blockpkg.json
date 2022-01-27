@@ -48795,6 +48795,19 @@
                 }
             },
             {
+                "id": "d83d5769-8470-4493-aa0a-b00b439c8b71",
+                "name": "trees.gamemeca.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?trees\\.gamemeca\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div.gm_mobile_only:first-child,div.gm_head_ads,div.google_ad,div.main_box_banner"
+                    }
+                }
+            },
+            {
                 "id": "37b15861-91e3-4739-83a1-31322a7c0d42",
                 "name": "trends24.in##",
                 "content": {
