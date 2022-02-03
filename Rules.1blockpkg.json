@@ -37589,6 +37589,19 @@
                 }
             },
             {
+                "id": "4593c4f2-709e-4fe5-b90c-afd9b534734f",
+                "name": "deadline.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?deadline\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#skin-ad-section,div.admz,div.markplace-ads"
+                    }
+                }
+            },
+            {
                 "id": "d9e8dfc0-3dfc-41bd-82b9-b65696960b2e",
                 "name": "deal.11st.co.kr##",
                 "content": {
