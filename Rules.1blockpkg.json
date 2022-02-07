@@ -3995,6 +3995,19 @@
                 }
             },
             {
+                "id": "7634dfd2-1929-45d6-921e-8ee4cc6b500d",
+                "name": "##iframe[src*=\"//syndication.realsrv.com/ads-iframe-display.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//syndication.realsrv.com/ads-iframe-display.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "7f7ba2cc-63df-45a5-8511-e130fe7b1901",
                 "name": "##iframe[src*=\"//syndication.traffichaus.com/adserve/index.php\"]",
                 "content": {
@@ -5256,6 +5269,22 @@
                 }
             },
             {
+                "id": "e126de23-63f3-46e6-a889-60a89518b6eb",
+                "name": "##a[href*=\"//betend.me/affiliates/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*betend.me"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//betend.me/affiliates/\"]"
+                    }
+                }
+            },
+            {
                 "id": "eb39265e-db3b-4d0b-ac18-89f0ea00f108",
                 "name": "##a[href*=\"//betkorea.kro.kr\"]",
                 "content": {
@@ -6392,6 +6421,22 @@
                 }
             },
             {
+                "id": "6e6f823e-94ee-4ba9-b07a-1a78d4efeb4e",
+                "name": "##a[href*=\"//m-mber0.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*m-mber0.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//m-mber0.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "dfd63a86-f519-4a9b-a9ad-e0795429c612",
                 "name": "##a[href*=\"//margin11.com\"]",
                 "content": {
@@ -6712,6 +6757,22 @@
                 }
             },
             {
+                "id": "41f6492b-73b2-4315-b3f4-af265033d4d2",
+                "name": "##a[href$=\"//bit.ly/188BETANI24\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*my188baseball.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href$=\"//bit.ly/188BETANI24\"]"
+                    }
+                }
+            },
+            {
                 "id": "18ebb3cb-6a1c-4a02-8858-512066ac1adc",
                 "name": "##a[href*=\"//nb-fo.com\"]",
                 "content": {
@@ -6968,6 +7029,22 @@
                 }
             },
             {
+                "id": "3f1fae89-5c31-4443-bf83-f5041a4ffc5a",
+                "name": "##a[href*=\"//www.pt12-m.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*pt12-m.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//www.pt12-m.com\"]"
+                    }
+                }
+            },
+            {
                 "id": "8f3fbb25-267e-4041-a62a-c66b6cb5e7e4",
                 "name": "##a[href*=\"//qda86.com\"]",
                 "content": {
@@ -7140,6 +7217,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//seda11.bet\"]"
+                    }
+                }
+            },
+            {
+                "id": "49727bd7-0d75-44ad-b028-38ad9a14ea4e",
+                "name": "##a[href*=\"//seda21.bet\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*seda21.bet"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//seda21.bet\"]"
                     }
                 }
             },
@@ -7588,6 +7681,22 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href*=\"//tentenb.com/affiliates/\"],a[href*=\"//www.tentenb.com/affiliates/\"]"
+                    }
+                }
+            },
+            {
+                "id": "d42c98a6-b25d-495c-8a48-673cbd379479",
+                "name": "##a[href*=\"//www.tenxtenb.com\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*tenxtenb.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"//www.tenxtenb.com\"]"
                     }
                 }
             },
@@ -9093,6 +9202,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?a\\.realsrv\\.com/ad-provider\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5420c556-1a37-444a-a0f0-d1bb668a9f38",
+                "name": "a.realsrv.com/ads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?a\\.realsrv\\.com/ads\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -45814,6 +45936,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ads__claim-item"
+                    }
+                }
+            },
+            {
+                "id": "9318956a-b131-43f1-82da-bd02216278f6",
+                "name": "ohli24.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ohli24\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#exoall,div#exon,div.insty"
                     }
                 }
             },
