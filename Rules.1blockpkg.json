@@ -37815,6 +37815,19 @@
                 }
             },
             {
+                "id": "888c0999-a506-4241-a192-4348d0706819",
+                "name": "dict.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dict\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div._ad_area"
+                    }
+                }
+            },
+            {
                 "id": "a9e2309e-4b04-40ac-abc3-2c9d9c136818",
                 "name": "dictionary.cambridge.org##",
                 "content": {
