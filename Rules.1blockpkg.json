@@ -31830,6 +31830,38 @@
                 }
             },
             {
+                "id": "dfd29cf2-8b81-4d7f-901e-f4ed1de69f6f",
+                "name": "static.twitchcdn.net/assets/features.video-player.components.video-ads.audio-ad-overlay.component-*.js$domain=twitch.tv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?static\\.twitchcdn\\.net/assets/features\\.video-player\\.components\\.video-ads\\.audio-ad-overlay\\.component-.*\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*twitch.tv"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8f6920ac-9315-4596-bd95-6b1c10a7a3e3",
+                "name": "static.twitchcdn.net/assets/features.video-player.components.video-ads.video-ad-poll.container-*.js$domain=twitch.tv",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?static\\.twitchcdn\\.net/assets/features\\.video-player\\.components\\.video-ads\\.video-ad-poll\\.container-.*\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*twitch.tv"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "db6f33cd-ab7b-41e6-ba75-012e5f0812b9",
                 "name": "static.vidzi.tv/static/ads.js$domain=vidzi.tv",
                 "content": {
