@@ -23718,6 +23718,19 @@
                 }
             },
             {
+                "id": "1911d1d8-3068-4e7c-ac9d-07cf10523535",
+                "name": "kitweb.tadapi.info/network/adapi.*.js.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kitweb\\.tadapi\\.info/network/adapi\\..*\\.js\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2ffeb914-9e96-42c7-969a-47080905cf7e",
                 "name": "kitweb.tadapi.info/network/adapi.php",
                 "content": {
