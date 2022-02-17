@@ -16138,6 +16138,19 @@
                 }
             },
             {
+                "id": "d0386cce-a971-43bb-9d6b-fed2f531dbc7",
+                "name": "cdn.cresendo.net/Track.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.cresendo\\.net/Track\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "510a8f73-6665-4539-9243-de7c6359fa16",
                 "name": "cdn.cxense.com/cx.js",
                 "content": {
@@ -16818,6 +16831,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?click\\.realclick\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1f3b0388-5315-41f4-b9ad-6b1948f7e49a",
+                "name": "clickstream.cresendo.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?clickstream\\.cresendo\\.net",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
