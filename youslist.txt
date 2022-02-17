@@ -259,6 +259,7 @@
 ##iframe[src*="//m.hankooki.com/ad/"]
 ##iframe[src*="//m.kmib.co.kr/banner/"]
 ##iframe[src*="//m.ytn.co.kr/ad/ad_"][src$=".html"]
+##iframe[src*="//mediaindex.co.kr/DABanner.php"]
 ##iframe[src*="//mienisa.co.kr/api/bn1"]
 ##iframe[src*="//minishop.linkprice.com/productbox_realhotdeal.php"]
 ##iframe[src*="//mktag.mt.co.kr/code.ems/"]
@@ -1868,6 +1869,8 @@
 ||mediacategory.com/servlet/sadbn^
 ||mediacategory.com/servlet/shortCut^
 ||mediafire.com/templates/linkto/ads.php^$domain=mediafire.com
+||mediaindex.co.kr/DABanner.php^
+||mediaindex.co.kr/daads.js^
 ||mediamixad.com/ad/liveAd^
 ||mediamixad.com/ad/webad^
 ||mediapen.com/banners/$domain=mediapen.com
@@ -2438,6 +2441,7 @@
 ||wikitree.co.kr/ad/
 ||wizard2.sbs.co.kr/w3/common/common_ad.jsp^
 ||wlog.ifdo.co.kr^
+||wooriclass.co.kr/wp-content/themes/matata/template-parts/ad_contentback_cica.js^$domain=wooriclass.co.kr
 ||wowtv.co.kr/AD/
 ||wr.catad5959.com/banner/ad*.control.js^
 ||wr.catad5959.com/banner/wrcatad.t*.banner_v*.asp^
@@ -7277,6 +7281,9 @@ woman.chosun.com##div.AD_link
 woman.chosun.com##div.banner
 woman.chosun.com##div.main_banner
 womennews.co.kr##iframe[src^="/news/sidebar_banner_realclick01.html"]
+wooriclass.co.kr##div#crpifpop
+wooriclass.co.kr##div#hd_pop>div[style="position: absolute;left:310px;top:1170px;z-index:99999;"]
+wooriclass.co.kr##div#ps_eventpop
 wordpress.com##div.compound-ad-unit
 wordpress.com##div[id^="atatags-"]
 wordpress.com##p.inline-ad-slot

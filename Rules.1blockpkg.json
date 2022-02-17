@@ -3293,6 +3293,19 @@
                 }
             },
             {
+                "id": "ce61418b-a834-4865-b5b3-814871b84690",
+                "name": "##iframe[src*=\"//mediaindex.co.kr/DABanner.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//mediaindex.co.kr/DABanner.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "b4d7d655-504a-44fd-b9c8-f0a0437e19af",
                 "name": "##iframe[src*=\"//mienisa.co.kr/api/bn1\"]",
                 "content": {
@@ -26034,6 +26047,32 @@
                 }
             },
             {
+                "id": "7f943e01-0ada-461a-8542-4bd908d5054e",
+                "name": "mediaindex.co.kr/DABanner.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mediaindex\\.co\\.kr/DABanner\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "eaaa840c-280d-45fe-9aaf-359765e183da",
+                "name": "mediaindex.co.kr/daads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mediaindex\\.co\\.kr/daads\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "25f50f08-fe8f-418a-a53b-10c59e9115c6",
                 "name": "mediamixad.com/ad/liveAd",
                 "content": {
@@ -33987,6 +34026,22 @@
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?wlog\\.ifdo\\.co\\.kr",
                         "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0fdcf8c4-7ae7-44dc-9d3d-81369e5b59e1",
+                "name": "wooriclass.co.kr/wp-content/themes/matata/template-parts/ad_contentback_cica.js$domain=wooriclass.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wooriclass\\.co\\.kr/wp-content/themes/matata/template-parts/ad_contentback_cica\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*wooriclass.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -50232,6 +50287,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src^=\"/news/sidebar_banner_realclick01.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "b0a0e48f-bfde-4797-9f21-2bf0519e44a5",
+                "name": "wooriclass.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wooriclass\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#crpifpop,div#hd_pop>div[style=\"position: absolute;left:310px;top:1170px;z-index:99999;\"],div#ps_eventpop"
                     }
                 }
             },
