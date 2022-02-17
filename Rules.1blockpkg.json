@@ -16826,6 +16826,19 @@
                 }
             },
             {
+                "id": "1f3b0388-5315-41f4-b9ad-6b1948f7e49a",
+                "name": "clickstream.cresendo.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?clickstream\\.cresendo\\.net",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "864beaf2-57f9-440f-9f33-27880a9dba5a",
                 "name": "clien.net/service/api/coupang/ad",
                 "content": {
