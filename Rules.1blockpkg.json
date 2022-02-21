@@ -40463,6 +40463,19 @@
                 }
             },
             {
+                "id": "ccd361b3-6661-478e-baab-dbdc76760328",
+                "name": "imdb.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?imdb\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#promoted-partner-bar,div.cornerstone_slot"
+                    }
+                }
+            },
+            {
                 "id": "9726b39f-2ae6-4bde-9299-a74850698e22",
                 "name": "imgur.com##",
                 "content": {
