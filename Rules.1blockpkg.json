@@ -39475,6 +39475,19 @@
                 }
             },
             {
+                "id": "26609a3e-6c36-403c-b593-d3e3aea84de2",
+                "name": "ggoorr.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ggoorr\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#content>div:first-of-type:not([class]),div.bd>center,div.bd>div[style=\"padding:0 0 10px 0\"],div.bd_lst_wrp>center,div.content>div:first-of-type:not([class]),div.left_banner_div,div.rd>center,div.rd_body>center,div.rd_ft>center,div.rd_hd>center,div.right_banner_div,div.side>div.widget_div:nth-of-type(2)"
+                    }
+                }
+            },
+            {
                 "id": "f814a898-1c60-4666-9452-3c108c09310d",
                 "name": "ghacks.net##",
                 "content": {
