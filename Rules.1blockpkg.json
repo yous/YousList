@@ -48744,6 +48744,19 @@
                 }
             },
             {
+                "id": "3a5ee3a2-b664-479b-b8f1-745a6c657e79",
+                "name": "thetimes.co.uk##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?thetimes\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "article#article-main>div[class^=\"responsive-sc-\"],div#ad-header,div#sticky-ad-header,div.AD,div[class*=\" responsive__NativeAd-sc-\"],div[class^=\"responsive__InlineAdWrapper-sc-\"]"
+                    }
+                }
+            },
+            {
                 "id": "746c31fd-ccc2-4109-87b4-8939c5d2399b",
                 "name": "thevaluenews.co.kr##",
                 "content": {
