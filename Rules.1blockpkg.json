@@ -35978,6 +35978,19 @@
                 }
             },
             {
+                "id": "0c0c1121-ed21-41f0-9190-49ff0ca2db48",
+                "name": "befonts.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?befonts\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_header_banner_desktop,ins.dcmads"
+                    }
+                }
+            },
+            {
                 "id": "4a2c2d5a-0f21-41cd-a1f3-2ea13b396cdb",
                 "name": "below.co.kr##",
                 "content": {
