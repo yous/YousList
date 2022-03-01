@@ -31493,6 +31493,22 @@
                 }
             },
             {
+                "id": "5a79a52c-2f7a-4cc7-ae3e-2dc4f8c9581c",
+                "name": "ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js$domain=naver.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ssl\\.pstatic\\.net/tveta/libs/glad/prod/gfp-core\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*naver.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a72bb64d-16cd-4a73-a07e-f2fe023acc24",
                 "name": "ssl.pstatic.net/tveta/libs/glad_admute/prod/glad-admute.js$domain=naver.com",
                 "content": {
