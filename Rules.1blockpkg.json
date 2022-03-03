@@ -45971,6 +45971,19 @@
                 }
             },
             {
+                "id": "74073159-4c7d-4a0c-8fe7-dd6c68845958",
+                "name": "newsweek.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newsweek\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#right1ad,div#topad,div.block-fusion-ads,div.dfp-tag-wrapper"
+                    }
+                }
+            },
+            {
                 "id": "e5cbe19b-dbd9-488c-b2c4-f455d90d2146",
                 "name": "newsworker.co.kr##",
                 "content": {
