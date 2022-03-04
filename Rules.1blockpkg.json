@@ -9012,6 +9012,22 @@
                 }
             },
             {
+                "id": "ff943f9c-60f8-408b-933e-fa2091bfbb7a",
+                "name": "1412.rest/addons/sejin7940_content_hide/adblockDetector.js$domain=1412.rest",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?1412\\.rest/addons/sejin7940_content_hide/adblockDetector\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*1412.rest"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f36c4aab-3764-47ef-9888-91b638074e19",
                 "name": "178.175.132.130/script/ad.js",
                 "content": {
