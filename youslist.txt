@@ -5767,6 +5767,7 @@ namu.wiki##article>div[id]:not([class])~div[class]:not([id])
 namu.wiki##aside>div[id]>div[id]:first-child
 namu.wiki##div#search-ad
 namu.wiki##div.ad
+namu.wiki##div.app article > p + div div[id]:has(div[id]:has(ul > li, div > a[href*="/w/%EB%B6%84%EB%A5%98:"])) ~ *:has(img[src*="namu"])
 namu.wiki##div.namuwiki-toc-ad
 namu.wiki##div.test-ad-card
 namu.wiki##iframe[src^="//arca.live/static/ad/"]
