@@ -88,7 +88,7 @@ class FilterParser:
         if (not line or line.startswith('!') or
                 re.match(r'\[Adblock.*\]', line)):
             return
-        if '##:' in line:
+        if '##:' in line or ':has(' in line:
             # Procedural cosmetic filters
             pass
         elif '##' in line:
