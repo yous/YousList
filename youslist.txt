@@ -5767,7 +5767,6 @@ namu.wiki##article>div[id]:not([class])~div[class]:not([id])
 namu.wiki##aside>div[id]>div[id]:first-child
 namu.wiki##div#search-ad
 namu.wiki##div.ad
-namu.wiki##div.app article > p + div div[id]:has(div[id]:has(ul > li, div > a[href*="/w/%EB%B6%84%EB%A5%98:"])) ~ *:has(img[src*="namu"])
 namu.wiki##div.namuwiki-toc-ad
 namu.wiki##div.test-ad-card
 namu.wiki##iframe[src^="//arca.live/static/ad/"]
@@ -7523,9 +7522,8 @@ zum.com##div#wrap_ad_main
 zum.com##div#wrap_ad_minisite
 
 ! Extended selectors
-namu.wiki##:xpath(//article//div[count(div[*[*[*]]])=2][count(div[*[*[*]]][1]//img[starts-with(@src,'//w.namu.la/s/')])>2][div[*[*[*]]][2][count(div[@class]/div[last()][count(div[count(div)>0 and count(div)<=2])=3])>=2]])
-namu.wiki##:xpath(//article//div[count(div[*[*[*]]])=2][count(div[*[*[*]]][1]//img[starts-with(@src,'data:image/png;base64,')])>2][div[*[*[*]]][2][count(div[@class]/div[last()][count(div[count(div)>0 and count(div)<=2)=3])>=2]])
 namu.wiki##:xpath(//article/h1/following-sibling::p[1]/following-sibling::div[1]//div[1][@class][@id][not(ancestor::div[@id]/ancestor::article)])
+namu.wiki##div.app article > p + div div[id]:has(div[id]:has(ul > li, div > a[href*="/w/%EB%B6%84%EB%A5%98:"])) ~ *:has(img[src*="namu"])
 
 ! Workarounds for EasyList
 #@#.adsBox
