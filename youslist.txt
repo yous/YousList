@@ -7526,7 +7526,7 @@ zum.com##div#wrap_ad_minisite
 
 ! Extended selectors
 namu.wiki##:xpath(//article/h1/following-sibling::p[1]/following-sibling::div[1]//div[1][@class][@id][not(ancestor::div[@id]/ancestor::article)])
-namu.wiki##article>p+div div[id]:has(div[id]:has(div[id]>ul>li,div>a[href*="/w/%EB%B6%84%EB%A5%98:"]))~div:has(img[src*="//w.namu.la/s/"],img[src^="data:image/png;base64,"])
+namu.wiki##article>p+div div[id]:has(div[id]:has(div>ul>li,div>a[href*="/w/%EB%B6%84%EB%A5%98:"]))~div:has(img[src*="//w.namu.la/s/"],img[src^="data:image/png;base64,"])
 
 ! Workarounds for EasyList
 #@#.adsBox
