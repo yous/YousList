@@ -47209,6 +47209,19 @@
                 }
             },
             {
+                "id": "f4a9145a-66d4-424a-a809-0700c020506a",
+                "name": "reviewgeek.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?reviewgeek\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adslot"
+                    }
+                }
+            },
+            {
                 "id": "4d90e5e4-4da4-46a7-ba5c-9c016402aec0",
                 "name": "reviewstar.hankooki.com##",
                 "content": {
