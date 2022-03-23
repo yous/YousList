@@ -7526,7 +7526,7 @@ zum.com##div#wrap_ad_main
 zum.com##div#wrap_ad_minisite
 
 ! Extended selectors
-namu.wiki##:xpath(//article/h1/following-sibling::div[1]/following-sibling::div[1]//div[count(*)>1]//div[count(*)>1][not(ancestor::div[count(*)>1]/ancestor::div[count(*)>1]/ancestor::article)]/div[.//div/ul/li|.//a[contains(@href,'/w/%EB%B6%84%EB%A5%98:')]]/following-sibling::div[.//div[contains(concat(' ',normalize-space(@class),' '),' wiki-paragraph ')]]/following-sibling::div[.//img[starts-with(@src,'//w.namu.la/s/')]|.//img[starts-with(@src,'//ww.namu.la/s/')]|.//img[starts-with(@src,'data:image/png;base64,')]][count(.//div[count(img[starts-with(@src,'//w.namu.la/s/')]|img[starts-with(@src,'//ww.namu.la/s/')]|img[starts-with(@src,'data:image/png;base64,')])>1])>1][not(following-sibling::div[.//div[contains(concat(' ',normalize-space(@class),' '),' wiki-paragraph ')]])])
+namu.wiki##:xpath(//article/h1/following-sibling::div[1]/following-sibling::div[1]//div[count(*)>1]//div[count(*)>1][not(ancestor::div[count(*)>1]/ancestor::div[count(*)>1]/ancestor::article)]/div[.//ul/li|.//a[contains(@href,'/w/%EB%B6%84%EB%A5%98:')]]/following-sibling::div[.//div[contains(concat(' ',normalize-space(@class),' '),' namuwiki-toc-ad ')]|.//div[contains(concat(' ',normalize-space(@class),' '),' wiki-paragraph ')]]/following-sibling::div[count(.//div[count(img[starts-with(@src,'//w.namu.la/s/')]|img[starts-with(@src,'//ww.namu.la/s/')]|img[starts-with(@src,'data:image/png;base64,')])>1])>1])
 namu.wiki##:xpath(//article/h1/following-sibling::div[1]/following-sibling::div[1]//div[count(*)>1][not(ancestor::div[count(*)>1]/ancestor::article)]/div[1])
 
 ! Workarounds for EasyList
