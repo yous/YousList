@@ -31808,6 +31808,19 @@
                 }
             },
             {
+                "id": "7a8a4917-91f6-45e8-8761-e97728b10d67",
+                "name": "static.fastview.co.kr/fav-ad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?static\\.fastview\\.co\\.kr/fav-ad\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1c671835-9515-424b-a85f-eacddfeef623",
                 "name": "static.hankyung.com/ext/powerlink/powerlink.m.js$domain=hankyung.com",
                 "content": {
@@ -35935,6 +35948,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad,div.ad160x600,div.ad300x250,div.ad300x600,div.ad970x90"
+                    }
+                }
+            },
+            {
+                "id": "b5683496-5723-42ae-aa1c-d7645a943f82",
+                "name": "autopostkorea.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?autopostkorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.fastview_floating_ad"
                     }
                 }
             },
