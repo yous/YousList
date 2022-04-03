@@ -20583,6 +20583,19 @@
                 }
             },
             {
+                "id": "58e5b016-9f11-44c5-9138-a10bed5a3416",
+                "name": "googleads.g.doubleclick.net/pagead/ads",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?googleads\\.g\\.doubleclick\\.net/pagead/ads",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "39d6d57b-9a4d-4aa4-aaa4-452552c896ba",
                 "name": "googleads.g.doubleclick.net/pagead/adview",
                 "content": {
@@ -51051,6 +51064,19 @@
                         "if-domain": [
                             "*sportsseoul.com"
                         ]
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
+                    }
+                }
+            },
+            {
+                "id": "768c80b7-0da0-43eb-a11f-6c09c6419ff3",
+                "name": "@@googleads.g.doubleclick.net/pagead/ads?*&crui=*",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?googleads\\.g\\.doubleclick\\.net/pagead/ads\\?.*&crui=",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "ignore-previous-rules"

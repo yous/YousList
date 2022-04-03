@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20220326
+! Version: 20220403
 
 ! General element hiding rules
 ##amp-ad
@@ -1491,6 +1491,7 @@
 ||googleads.g.doubleclick.net/dbm/ad^
 ||googleads.g.doubleclick.net/mads/gma^
 ||googleads.g.doubleclick.net/mads/static/mad/
+||googleads.g.doubleclick.net/pagead/ads^
 ||googleads.g.doubleclick.net/pagead/adview^
 ||gsad.gameshot.net^
 ||gstatic.com/swiffy/v*/runtime.js^
@@ -7548,5 +7549,6 @@ namu.wiki##:xpath(//article/h1/following-sibling::div[1]/following-sibling::div/
 @@||ad.cgv.co.kr/NetInsight/$domain=cgv.co.kr
 @@||ad.smartmediarep.com/NetInsight/$domain=allvod.sbs.co.kr|mbcsportsplus.com|news.sbs.co.kr|programs.sbs.co.kr|wavve.com
 @@||ads.sportsseoul.com/RealMedia/ads/adstream_sx.ads/www.sportsseoul.com/main@Bottom^$domain=sportsseoul.com
+@@||googleads.g.doubleclick.net/pagead/ads?*&crui=*
 @@||mindpost.or.kr/script/bannerpop.js^$domain=mindpost.or.kr
 @@||vads-api.ad.daum.net/xylophone/adrequest/vmap/
