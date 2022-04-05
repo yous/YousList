@@ -29119,6 +29119,38 @@
                 }
             },
             {
+                "id": "5055f106-e8d8-4f98-b61e-546435f3a78c",
+                "name": "ppss.kr/wp-content/uploads/2021/09/ktx_*.png$domain=ppss.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ppss\\.kr/wp-content/uploads/2021/09/ktx_.*\\.png",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*ppss.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "771585a1-3530-4796-9727-10b6826172bc",
+                "name": "ppss.kr/wp-content/uploads/2022/02/cartax-*.jpg$domain=ppss.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ppss\\.kr/wp-content/uploads/2022/02/cartax-.*\\.jpg",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*ppss.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "959fd2df-42b7-4ef3-86cf-bba9d01fbb28",
                 "name": "pq-direct.revsci.net/pql",
                 "content": {
@@ -46933,7 +46965,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ppss-title-banner,div.wing_banner,div[data-widget_id=\"KoEGJplB\"],section#custom_html-2,section#custom_html-7"
+                        "selector": "div[data-widget_id=\"KoEGJplB\"],section#custom_html-2,section#custom_html-7"
                     }
                 }
             },
