@@ -10201,8 +10201,8 @@
                 }
             },
             {
-                "id": "04a038b1-e440-49af-8588-c704d0bbbc86",
-                "name": "ad.doubleclick.net$domain=~thehackernews.com,third-party",
+                "id": "983403c1-a532-4917-b12e-f12ccf5e627d",
+                "name": "ad.doubleclick.net$domain=~ppss.kr|~thehackernews.com,third-party",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.doubleclick\\.net",
@@ -10211,6 +10211,7 @@
                             "third-party"
                         ],
                         "unless-domain": [
+                            "*ppss.kr",
                             "*thehackernews.com"
                         ]
                     },
@@ -46932,7 +46933,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div[data-widget_id=\"KoEGJplB\"],section#custom_html-2,section#custom_html-7"
+                        "selector": "div.ppss-title-banner,div.wing_banner,div[data-widget_id=\"KoEGJplB\"],section#custom_html-2,section#custom_html-7"
                     }
                 }
             },
