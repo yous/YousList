@@ -13971,6 +13971,19 @@
                 }
             },
             {
+                "id": "aa5e3ce0-f07e-4907-8b2d-cbb7f1c64130",
+                "name": "api.linkmine.co.kr/ck.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?api\\.linkmine\\.co\\.kr/ck\\.html",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4b9168b0-e0c5-47bf-ba1f-299e8fede69f",
                 "name": "api.nicoad.nicovideo.jp/v1/instream/vast$domain=nicovideo.jp",
                 "content": {
@@ -27260,6 +27273,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?native\\.mediacategory\\.com/servlet/adContentsBox",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7c2d740e-8ef6-4a0f-9bdd-8854382fdd18",
+                "name": "nefing.com/cps/click.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?nefing\\.com/cps/click\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
