@@ -1122,6 +1122,19 @@
                 }
             },
             {
+                "id": "e5703855-2338-4f2a-8e4e-cbcdb932c863",
+                "name": "##iframe[src*=\"//acceptable.a-ads.com/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//acceptable.a-ads.com/\"]"
+                    }
+                }
+            },
+            {
                 "id": "60efbeb8-ec1e-4a5d-a54d-467e5e410fe7",
                 "name": "##iframe[src*=\"//acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html\"]",
                 "content": {
@@ -1157,6 +1170,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src*=\"//ad.3dpop.kr/web_ad/\"]"
+                    }
+                }
+            },
+            {
+                "id": "f826586c-459c-4137-a072-3a2af202458e",
+                "name": "##iframe[src*=\"//ad.a-ads.com/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//ad.a-ads.com/\"]"
                     }
                 }
             },
@@ -9643,6 +9669,19 @@
                 }
             },
             {
+                "id": "40f68fb2-30e7-4739-97f3-857dc0cecf5d",
+                "name": "acceptable.a-ads.com/*",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?acceptable\\.a-ads\\.com/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ec6c9862-2e2c-4e9e-8cec-a1b5a5e5e68d",
                 "name": "acdn.adnxs.com/ast/ast.js",
                 "content": {
@@ -9829,6 +9868,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.3dpop\\.kr/web_ad/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cf89e097-64f4-4821-bca1-744f5e43df9b",
+                "name": "ad.a-ads.com/*",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.a-ads\\.com/",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -32389,6 +32441,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?syndication\\.realsrv\\.com/ads-priv\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6c817c0f-81ad-47c4-96b7-f8a5cfbe69f0",
+                "name": "syndication.realsrv.com/splash.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?syndication\\.realsrv\\.com/splash\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {

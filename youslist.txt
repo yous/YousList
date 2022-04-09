@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20220405
+! Version: 20220409
 
 ! General element hiding rules
 ##amp-ad
@@ -92,9 +92,11 @@
 ##iframe[src*="//a.t.webtracker.jp/res/"]
 ##iframe[src*="//a.wyzmob.com/"]
 ##iframe[src*="//a1.dp25.kr/"]
+##iframe[src*="//acceptable.a-ads.com/"]
 ##iframe[src*="//acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html"]
 ##iframe[src*="//acdn.adnxs.com/ib/static/usersync/v4/async_usersync.html"]
 ##iframe[src*="//ad.3dpop.kr/web_ad/"]
+##iframe[src*="//ad.a-ads.com/"]
 ##iframe[src*="//ad.about.co.kr/"]
 ##iframe[src*="//ad.ad4989.co.kr/"]
 ##iframe[src*="//ad.adenc.co.kr/media/"]
@@ -698,6 +700,7 @@
 ||aax-*.amazon-adsystem.com/e/xsp/getAd^
 ||aax-*.amazon-adsystem.com/e/xsp/getAdj^
 ||aax-*.amazon-adsystem.com/x/getad^
+||acceptable.a-ads.com/*
 ||acdn.adnxs.com/ast/ast.js^
 ||acdn.adnxs.com/ib/static/usersync/v3/async_usersync.html^
 ||acdn.adnxs.com/ib/static/usersync/v4/async_usersync.html^
@@ -712,6 +715,7 @@
 ||ad-unpack.com/adserver/www/delivery/asyncjs.php^
 ||ad.3dpop.kr/web/gate.pop^
 ||ad.3dpop.kr/web_ad/
+||ad.a-ads.com/*
 ||ad.about.co.kr^
 ||ad.ad-stir.com/ad^
 ||ad.ad-ya.net^
@@ -2326,6 +2330,7 @@
 ||syndication.exosrv.com/ads-priv.php^
 ||syndication.exosrv.com/splash.php^
 ||syndication.realsrv.com/ads-priv.php^
+||syndication.realsrv.com/splash.php^
 ||syndication.traffichaus.com/adserve/index.php^
 ||t.mdn2015x1.com/build/
 ||t.tmdn2015x9.com/build/*/v1/
