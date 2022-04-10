@@ -37493,6 +37493,19 @@
                 }
             },
             {
+                "id": "817641d5-7267-46d9-90ff-a7d267f43f3b",
+                "name": "chron.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?chron\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adBanner,div.adModule,div.belowMastheadWrapper"
+                    }
+                }
+            },
+            {
                 "id": "ebab5bf7-bdc6-4b92-9261-3cf436bfbf20",
                 "name": "cine21.com##",
                 "content": {
