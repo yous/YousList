@@ -22168,6 +22168,22 @@
                 }
             },
             {
+                "id": "d35f0c73-a13b-4073-9e57-9d030f9c6ad1",
+                "name": "img.knowledgepower.co.kr/uploads/cpcbanner/$domain=knowledgepower.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.knowledgepower\\.co\\.kr/uploads/cpcbanner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*knowledgepower.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2f1230f9-dd71-4d4a-83d1-bca80e0cf2fc",
                 "name": "img.kormedi.com/healthgift/ad/ad*.html$domain=m.kormedi.com",
                 "content": {
@@ -41766,6 +41782,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.kip-advertisement,div.kip-advertisement-fixed,div.kip-banner,section.kip-advertisement"
+                    }
+                }
+            },
+            {
+                "id": "e70a29f6-4619-4665-ae36-41fd4702c68b",
+                "name": "knowledgepower.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?knowledgepower\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#crpifpop"
                     }
                 }
             },
