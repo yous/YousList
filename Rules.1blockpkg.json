@@ -22152,14 +22152,15 @@
                 }
             },
             {
-                "id": "9573e47a-7c9e-410f-821b-3c39cabe9827",
-                "name": "img.entertainpost.com/uploads/someblossom/$domain=entertainpost.com",
+                "id": "019f64ed-2496-4330-a4db-90818e9f358d",
+                "name": "img.entertainpost.com/uploads/someblossom/$domain=entertainpost.com|postshare.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.entertainpost\\.com/uploads/someblossom/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
-                            "*entertainpost.com"
+                            "*entertainpost.com",
+                            "*postshare.co.kr"
                         ]
                     },
                     "action": {
@@ -22184,15 +22185,16 @@
                 }
             },
             {
-                "id": "c5e81154-cbb7-4322-8bba-78796d89122a",
-                "name": "img.knowledgepower.co.kr/uploads/cpcbanner/$domain=entertainpost.com|knowledgepower.co.kr",
+                "id": "d658c94d-d58c-40e1-b97e-f2d2b1db6823",
+                "name": "img.knowledgepower.co.kr/uploads/cpcbanner/$domain=entertainpost.com|knowledgepower.co.kr|postshare.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.knowledgepower\\.co\\.kr/uploads/cpcbanner/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*entertainpost.com",
-                            "*knowledgepower.co.kr"
+                            "*knowledgepower.co.kr",
+                            "*postshare.co.kr"
                         ]
                     },
                     "action": {
@@ -22293,6 +22295,22 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*newspim.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0de967b1-1d12-4435-b1dc-3eea2d3369b0",
+                "name": "img.postshare.co.kr/images/banner/$domain=postshare.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.postshare\\.co\\.kr/images/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*postshare.co.kr"
                         ]
                     },
                     "action": {
@@ -47258,7 +47276,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "body>div[style=\"position:fixed;bottom:0;left:0;width:100%;height:90px;text-align:center;z-index:9999999;background:rgba(0,0,0,.3);\"],div.addot-wrapper"
+                        "selector": "body>div[style=\"position:fixed;bottom:0;left:0;width:100%;height:90px;text-align:center;z-index:9999999;background:rgba(0,0,0,.3);\"],div#crpifpopff,div#hd_pop,div.addot-wrapper,div.news_con>pre>div[style=\"border-bottom:0px solid #00000;height: 300px;padding-top:25px;white-space: normal;\"]"
                     }
                 }
             },
