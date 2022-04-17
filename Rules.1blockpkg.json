@@ -2916,6 +2916,19 @@
                 }
             },
             {
+                "id": "8d707493-12d8-4474-bdb5-33fce17996d9",
+                "name": "##iframe[src*=\"//go.xlviiirdr.com/smartpop/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//go.xlviiirdr.com/smartpop/\"]"
+                    }
+                }
+            },
+            {
                 "id": "b46de877-e62c-4e1f-9786-67c64527376d",
                 "name": "##iframe[src*=\"//googleads.g.doubleclick.net/pagead/ads\"]:not([src*=\"&crui=\"])",
                 "content": {
@@ -9214,6 +9227,19 @@
                 }
             },
             {
+                "id": "601ce99f-32ca-4cd4-b84f-9a283081cb82",
+                "name": "a.exosrv.com/ads.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?a\\.exosrv\\.com/ads\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "17d1cb8b-beed-4b41-8e5e-e8bd37093f96",
                 "name": "a.exosrv.com/iframe.php",
                 "content": {
@@ -14602,6 +14628,19 @@
                 }
             },
             {
+                "id": "c54ec086-d778-4df3-8726-4bad81221337",
+                "name": "berchsoda.com/*/*/*/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?berchsoda\\.com/.*/.*/.*/.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "df16cdd3-09bf-4656-80af-8a97315d969e",
                 "name": "biz.chosun.com/ad/$domain=biz.chosun.com",
                 "content": {
@@ -16445,6 +16484,19 @@
                 }
             },
             {
+                "id": "75e4afc4-0449-4fd1-b59e-bb5563ade453",
+                "name": "cdn.itskiddoan.club/apu.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.itskiddoan\\.club/apu\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4df89ad9-39a0-46d8-9571-65f66fa1e7ff",
                 "name": "cdn.kixer.com/ad/load.js",
                 "content": {
@@ -17505,6 +17557,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?cse\\.google\\.com/adsense/search/async-ads\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "72d89229-1636-4e42-be91-54c5ce2d63d4",
+                "name": "cst.cstwpush.com/static/adManager.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cst\\.cstwpush\\.com/static/adManager\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1977bbe0-b0fd-4ccd-8c68-0700a596fb7a",
+                "name": "cst.wpu.sh/static/adManager.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cst\\.wpu\\.sh/static/adManager\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -20539,6 +20617,19 @@
                 }
             },
             {
+                "id": "1651eeeb-3581-46b6-a7f9-3d8ec083e305",
+                "name": "go.xlviiirdr.com/smartpop/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?go\\.xlviiirdr\\.com/smartpop/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c06312f4-306f-4c5f-85af-174548ba57ca",
                 "name": "google.co.*/adsense/search/async-ads.js",
                 "content": {
@@ -22556,6 +22647,32 @@
                 }
             },
             {
+                "id": "705462c7-b4c5-4fff-b10f-76ada6a49171",
+                "name": "inrhyhorntor.com/400/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?inrhyhorntor\\.com/400/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "063698e8-6b3e-460a-8260-62fb4b891660",
+                "name": "inrhyhorntor.com/500/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?inrhyhorntor\\.com/500/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "cd4f9629-a678-4c37-8aba-e63409a671b2",
                 "name": "insight.adsrvr.org/enduser/vast/",
                 "content": {
@@ -24423,6 +24540,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?lorybnfh\\.com/.*/.*/.*/.*/.*/brt\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3cc5e0df-5939-4df6-827e-3400b93f62cc",
+                "name": "lotteryhibernateauthorized.com/*/*/*/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?lotteryhibernateauthorized\\.com/.*/.*/.*/.*\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -34287,6 +34417,19 @@
                 }
             },
             {
+                "id": "73994391-f32e-4af1-8d9d-c4929f12c373",
+                "name": "wonderhsjnsd.com/get/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?wonderhsjnsd\\.com/get/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0fdcf8c4-7ae7-44dc-9d3d-81369e5b59e1",
                 "name": "wooriclass.co.kr/wp-content/themes/matata/template-parts/ad_contentback_cica.js$domain=wooriclass.co.kr",
                 "content": {
@@ -34761,6 +34904,19 @@
                         "if-domain": [
                             "*yepan.net"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9c834850-faba-48d8-ad9b-10f634a8f013",
+                "name": "yfetyg.com/wnload",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yfetyg\\.com/wnload",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
