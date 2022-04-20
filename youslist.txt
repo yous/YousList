@@ -1559,6 +1559,7 @@
 ||ibabynews.com/script/bannerpop.js^$domain=ibabynews.com
 ||ichannela.com/ch/*adpost*
 ||iframe.inews24.com/ad/$domain=inews24.com
+||iframe.inews24.com/adm/$domain=inews24.com
 ||iframe.joynews24.com/ad/$domain=joynews24.com
 ||iframe.joynews24.com/adm/$domain=joynews24.com
 ||iicdn.com/www/delivery/afr.php^
@@ -4145,9 +4146,12 @@ independent.co.uk##div.onscroll-injected-ad
 indi.s58.xrea.com##div#vdbanner
 inews24.com##ad
 inews24.com##article#articleBody>container.h200px
+inews24.com##article#articleBody>div[style="text-align:center;height:280px;margin:35px 0px;overflow:hidden;"]
+inews24.com##body>container>div[style="text-align:center;height:280px;overflow:hidden;"]
 inews24.com##container.ad-head
 inews24.com##hr.ad
-inews24.com##iframe[src^="http://iframe.inews24.com/ad/"]
+inews24.com##iframe[src*="//iframe.inews24.com/ad/"]
+inews24.com##iframe[src*="//iframe.inews24.com/adm/"]
 insight.co.kr##div.ad-google-side1
 insight.co.kr##div.ad-google-side2
 insight.co.kr##div.aside-sticky>div[style="display: block;width: 300px;height: 250px;"]
