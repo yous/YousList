@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20220417
+! Version: 20220420
 
 ! General element hiding rules
 ##amp-ad
@@ -1560,6 +1560,7 @@
 ||ichannela.com/ch/*adpost*
 ||iframe.inews24.com/ad/$domain=inews24.com
 ||iframe.joynews24.com/ad/$domain=joynews24.com
+||iframe.joynews24.com/adm/$domain=joynews24.com
 ||iicdn.com/www/delivery/afr.php^
 ||ikoreadaily.co.kr/script/ikoreadaily_hns.js^$domain=ikoreadaily.co.kr
 ||ikunkang.com/bannerManager/upload/$domain=ikunkang.com
@@ -4335,9 +4336,11 @@ joinsmsn.com##div[class$="ad_link_area"]
 joongang.co.kr##div.ad_wrap
 joongdo.co.kr##div#id_header_R
 joynews24.com##ad
+joynews24.com##body>container>div[style="text-align:center;height:280px;overflow:hidden;"]
 joynews24.com##container.ad-head
 joynews24.com##hr.ad
-joynews24.com##iframe[src^="http://iframe.joynews24.com/ad/"]
+joynews24.com##iframe[src*="//iframe.joynews24.com/ad/"]
+joynews24.com##iframe[src*="//iframe.joynews24.com/adm/"]
 jr.naver.com##div.bigBanner
 jr.naver.com##div.top_banner
 justwatch.com##div.ad-unit
