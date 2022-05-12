@@ -36900,6 +36900,19 @@
                 }
             },
             {
+                "id": "12edc136-7908-4465-a32a-090e7e7c0a01",
+                "name": "board.rhythmer.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?board\\.rhythmer\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.topBanner"
+                    }
+                }
+            },
+            {
                 "id": "29b37a0c-7d44-4947-8075-49f04aaf6059",
                 "name": "boards.net##",
                 "content": {
