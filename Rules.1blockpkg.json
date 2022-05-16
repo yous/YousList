@@ -47092,6 +47092,19 @@
                 }
             },
             {
+                "id": "e81858b0-d149-455d-a870-9d3b78c91ead",
+                "name": "pcmag.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pcmag\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.zmgad-full-width,aside.zmgad-right-rail,ins.zmgad-full-width"
+                    }
+                }
+            },
+            {
                 "id": "428259b2-2c8b-4c54-9d3d-0c6a0dd10bdc",
                 "name": "pcwelt.de##",
                 "content": {
