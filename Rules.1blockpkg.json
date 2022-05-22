@@ -49302,6 +49302,19 @@
                 }
             },
             {
+                "id": "ec41b399-d6b3-4761-98ef-8598e4f587e8",
+                "name": "thecall.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?thecall\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adsense-responsive-top,div.adsense-responsive-view-middle,section.adsense-responsive-aside"
+                    }
+                }
+            },
+            {
                 "id": "b436b2e0-7e82-4cce-892f-32e4488b5c7e",
                 "name": "theceluv.com##",
                 "content": {
