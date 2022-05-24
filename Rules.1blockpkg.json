@@ -37901,6 +37901,19 @@
                 }
             },
             {
+                "id": "baa742f0-40f7-4997-b45b-0bd39aa75b83",
+                "name": "cnbc.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cnbc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.BoxRail-ad,div.TopBanner-container"
+                    }
+                }
+            },
+            {
                 "id": "3b7b499b-e11c-433c-9471-00c806e15ca7",
                 "name": "cnet.com##",
                 "content": {
