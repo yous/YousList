@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20220524
+! Version: 20220527
 
 ! General element hiding rules
 ##amp-ad
@@ -7595,6 +7595,14 @@ zum.com##div#wrap_ad_minisite
 namu.wiki##:xpath(//article/h1/following-sibling::div[1]/following-sibling::div//div[count(*)>1]//div[count(*)>1][not(ancestor::div[count(*)>1]/ancestor::div[count(*)>1]/ancestor::article)]/div[.//ul/li|.//a[contains(@href,'/w/%EB%B6%84%EB%A5%98:')]]/following-sibling::div[.//div[contains(concat(' ',normalize-space(@class),' '),' namuwiki-toc-ad ')]|.//div[contains(concat(' ',normalize-space(@class),' '),' wiki-paragraph ')]]/following-sibling::div[count(.//*[count(img[starts-with(@src,'//w.namu.la/s/')]|img[starts-with(@src,'//ww.namu.la/s/')]|img[starts-with(@src,'data:image/png;base64,')])>1])>1])
 namu.wiki##:xpath(//article/h1/following-sibling::div[1]/following-sibling::div//div[count(*)>1][not(ancestor::div[count(*)>1]/ancestor::article)]/div[1])
 
+! Exceptions
+@@||ad.cgv.co.kr/NetInsight/$domain=cgv.co.kr
+@@||ad.smartmediarep.com/NetInsight/$domain=allvod.sbs.co.kr|mbcsportsplus.com|news.sbs.co.kr|programs.sbs.co.kr|wavve.com
+@@||ads.sportsseoul.com/RealMedia/ads/adstream_sx.ads/www.sportsseoul.com/main@Bottom^$domain=sportsseoul.com
+@@||googleads.g.doubleclick.net/pagead/ads?*&crui=*
+@@||mindpost.or.kr/script/bannerpop.js^$domain=mindpost.or.kr
+@@||vads-api.ad.daum.net/xylophone/adrequest/vmap/
+
 ! Workarounds for EasyList
 #@#.adsBox
 #@#.pub_300x250
@@ -7606,11 +7614,3 @@ namu.wiki##:xpath(//article/h1/following-sibling::div[1]/following-sibling::div/
 #@#.textAd
 #@#.text_ad
 #@#.text_ads
-
-! Exceptions
-@@||ad.cgv.co.kr/NetInsight/$domain=cgv.co.kr
-@@||ad.smartmediarep.com/NetInsight/$domain=allvod.sbs.co.kr|mbcsportsplus.com|news.sbs.co.kr|programs.sbs.co.kr|wavve.com
-@@||ads.sportsseoul.com/RealMedia/ads/adstream_sx.ads/www.sportsseoul.com/main@Bottom^$domain=sportsseoul.com
-@@||googleads.g.doubleclick.net/pagead/ads?*&crui=*
-@@||mindpost.or.kr/script/bannerpop.js^$domain=mindpost.or.kr
-@@||vads-api.ad.daum.net/xylophone/adrequest/vmap/

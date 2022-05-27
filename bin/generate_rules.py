@@ -49,6 +49,8 @@ class FilterParser:
         # Windows consoles does not use 'utf-8' by default.
         with io.open(sys.argv[1], encoding='utf-8') as f:
             for line in f.readlines():
+                if line.startswith('! Workarounds'):
+                    break
                 self._parse_rule(line)
         self.pkg['rules'] = self.rules
         json_string = json.dumps([self.pkg], ensure_ascii=False,
@@ -96,7 +98,7 @@ class FilterParser:
             self._parse_hiding_rule(line)
         elif line.startswith('#@#'):
             # Skip global element hiding exception rule
-            return
+            raise Exception('Cannot handle this rule: ' + line)
         elif '#@#' in line:
             # Element hiding exception rule
             self._parse_hiding_exception_rule(line)
