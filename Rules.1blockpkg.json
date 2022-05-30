@@ -47053,6 +47053,19 @@
                 }
             },
             {
+                "id": "9e86c479-8f96-4c92-baac-adaf5d25aaa3",
+                "name": "outsideonline.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?outsideonline\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.o-ad,div.o-ad-footer,div.o-ad-wrap"
+                    }
+                }
+            },
+            {
                 "id": "1f597b92-34ff-49af-a123-747b4ea533e2",
                 "name": "pandora.tv##",
                 "content": {
