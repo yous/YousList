@@ -25225,6 +25225,22 @@
                 }
             },
             {
+                "id": "fc05a6dd-b2be-4722-b1c6-0224b5bacc0b",
+                "name": "m.humoruniv.com/js/adpost.kakao.ad.js$domain=m.humoruniv.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.humoruniv\\.com/js/adpost\\.kakao\\.ad\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.humoruniv.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "fef733b9-ed2e-4d5c-9f62-a2a70e92819f",
                 "name": "m.humoruniv.com/js/adpost_adsense.js$domain=m.humoruniv.com",
                 "content": {
