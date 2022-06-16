@@ -40319,6 +40319,19 @@
                 }
             },
             {
+                "id": "9aa0c6d3-c1a2-4a7e-8fe6-556c57129456",
+                "name": "groovypost.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?groovypost\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.groov-after-content-desktop,div[class^=\"groov-adsense-\"]"
+                    }
+                }
+            },
+            {
                 "id": "66861bd4-3902-4399-9975-56327cdd7a67",
                 "name": "guitarworld.com##",
                 "content": {
