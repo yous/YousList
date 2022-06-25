@@ -25161,6 +25161,22 @@
                 }
             },
             {
+                "id": "a1e361fe-bcf2-4e0c-9341-6f0ba3684bac",
+                "name": "m.humoruniv.com/board/boardexp/z.html$domain=m.humoruniv.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.humoruniv\\.com/board/boardexp/z\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.humoruniv.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f2abbc2d-40d6-496d-bc63-5effcebc5140",
                 "name": "m.humoruniv.com/cauly_iframe.html$domain=m.humoruniv.com",
                 "content": {
@@ -32817,6 +32833,19 @@
                         "unless-domain": [
                             "*gallery.v.daum.net"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "4a9007c8-89ed-4b11-9555-72f09ef55ebd",
+                "name": "t1.daumcdn.net/kas/static/ba.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?t1\\.daumcdn\\.net/kas/static/ba\\.min\\.js",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
@@ -43606,7 +43635,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "body>div[style=\"margin:10px 0 10px 0;\"]:not([class]):not([id]),body>table[style=\"height:250px;padding:0px 0 0px 0;margin:0 0 10px 0;background:#f2f2f2;\"],div#comment>ul>table[style=\"height:250px;padding:0px 0 0px 0;margin:0;background:#f2f2f2;\"],div#ddn_ad_128,div#list_ad_300_250,div#mobile>div[style=\"margin:10px 0 10px 0;\"],div#naver_adpost_wrap_fix,div#read>div[id$=\"_wrap\"],div#tsad_iframe,div.ad_bb,div.comment_best_wrap+div[style=\"min-height:100px;\"],form#ch2_form+div[id][style=\"min-height: 100px; display: block;\"],form#ch2_form+div[id][style=\"min-height: 100px;\"],iframe[src^=\"/banner/\"],table.ad_bd,table.ad_bt"
+                        "selector": "body>div[style=\"margin:10px 0 10px 0;\"]:not([class]):not([id]),body>table[style=\"height:250px;padding:0px 0 0px 0;margin:0 0 10px 0;background:#f2f2f2;\"],div#comment>ul>table[style=\"height:250px;padding:0px 0 0px 0;margin:0;background:#f2f2f2;\"],div#ddn_ad_128,div#list_ad_300_250,div#mobile>div[style=\"margin:10px 0 10px 0;\"],div#naver_adpost_wrap_fix,div#read>div[id$=\"_wrap\"],div#tsad_iframe,div.ad_bb,div.comment_best_wrap+div[style=\"min-height:100px;\"],form#ch2_form+div[id][style=\"min-height: 100px; display: block;\"],form#ch2_form+div[id][style=\"min-height: 100px;\"],iframe[src^=\"/banner/\"],table.ad_bd,table.ad_bri,table.ad_bt"
                     }
                 }
             },

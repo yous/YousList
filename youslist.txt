@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20220624
+! Version: 20220625
 
 ! General element hiding rules
 ##amp-ad
@@ -1810,6 +1810,7 @@
 ||m.hankooki.com/ad/
 ||m.humoruniv.com/banner/*.html^$domain=m.humoruniv.com
 ||m.humoruniv.com/board/boardexp/run.html^$domain=m.humoruniv.com
+||m.humoruniv.com/board/boardexp/z.html^$domain=m.humoruniv.com
 ||m.humoruniv.com/cauly_iframe.html^$domain=m.humoruniv.com
 ||m.humoruniv.com/ddn_300x250.html^$domain=m.humoruniv.com
 ||m.humoruniv.com/facebook_iframe.html^$domain=m.humoruniv.com
@@ -2356,6 +2357,7 @@
 ||t.mdn2015x1.com/build/
 ||t.tmdn2015x9.com/build/*/v1/
 ||t1.daumcdn.net/adfit/static/ad.min.js^$domain=~gallery.v.daum.net
+||t1.daumcdn.net/kas/static/ba.min.js^
 ||tab.clickmon.co.kr/ad_img/
 ||tab2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html^
 ||tag.targeting.unrulymedia.com/rmp/*/*/vast2^
@@ -4957,6 +4959,7 @@ m.humoruniv.com##form#ch2_form+div[id][style="min-height: 100px; display: block;
 m.humoruniv.com##form#ch2_form+div[id][style="min-height: 100px;"]
 m.humoruniv.com##iframe[src^="/banner/"]
 m.humoruniv.com##table.ad_bd
+m.humoruniv.com##table.ad_bri
 m.humoruniv.com##table.ad_bt
 m.hungryapp.co.kr##body>div[style^="display:block;overflow:hidden;width:100%;height:85px;text-align:center;background:#"]
 m.hungryapp.co.kr##div#Mha15_header>div[style^="display:block;overflow:hidden;width:100%;height:85px;text-align:center;background:#"]
