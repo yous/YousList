@@ -40377,6 +40377,19 @@
                 }
             },
             {
+                "id": "987450a0-6a47-4c86-86ff-242ed96e25cd",
+                "name": "gsmarena.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?gsmarena\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#topAdv,div.adv,div.pgAdWrapper"
+                    }
+                }
+            },
+            {
                 "id": "66861bd4-3902-4399-9975-56327cdd7a67",
                 "name": "guitarworld.com##",
                 "content": {
