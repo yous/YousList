@@ -36503,6 +36503,19 @@
                 }
             },
             {
+                "id": "a59896d2-f2dd-4cb2-b82e-124131d92c73",
+                "name": "axios.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?axios\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adBox,div.adunitContainer,div[data-vars-category=\"ad\"]"
+                    }
+                }
+            },
+            {
                 "id": "b59c7af9-bec3-455c-bb06-d4ca978aa6bc",
                 "name": "b.hatena.ne.jp##",
                 "content": {
