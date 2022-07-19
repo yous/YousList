@@ -40403,6 +40403,19 @@
                 }
             },
             {
+                "id": "34734db9-729d-41a8-9347-badb39d20609",
+                "name": "guitar.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?guitar\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.billboard-ad,div.td-a-ad,div.td-a-rec-id-custom_ad_1,div.td-a-rec-id-header,div.td-a-rec-id-sidebar"
+                    }
+                }
+            },
+            {
                 "id": "66861bd4-3902-4399-9975-56327cdd7a67",
                 "name": "guitarworld.com##",
                 "content": {
