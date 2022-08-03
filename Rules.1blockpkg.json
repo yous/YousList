@@ -2903,6 +2903,19 @@
                 }
             },
             {
+                "id": "b8f46a1b-6f34-4941-919a-56343bdda9c2",
+                "name": "##iframe[src*=\"//fs.jtbc.co.kr/common/ui/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//fs.jtbc.co.kr/common/ui/ad/\"]"
+                    }
+                }
+            },
+            {
                 "id": "4aaa7cc0-43d4-4485-b3df-77efabb490c7",
                 "name": "##iframe[src*=\"//fs.jtbc.joins.com/common/ui/ad/\"]",
                 "content": {
@@ -10534,14 +10547,15 @@
                 }
             },
             {
-                "id": "60880faa-c21b-4766-91d6-a925df8b43be",
-                "name": "ad.imp.joins.com/html/$domain=mnews.jtbc.joins.com",
+                "id": "35d67b47-18ad-40a9-b348-24da29346ede",
+                "name": "ad.imp.joins.com/html/$domain=mnews.jtbc.co.kr|news.jtbc.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.imp\\.joins\\.com/html/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
-                            "*mnews.jtbc.joins.com"
+                            "*mnews.jtbc.co.kr",
+                            "*news.jtbc.co.kr"
                         ]
                     },
                     "action": {
@@ -15876,16 +15890,16 @@
                 }
             },
             {
-                "id": "a1f0c721-471d-45ce-82e9-bd2a1077a309",
-                "name": "cast.imp.joins.com/bid/$domain=ooyala.com|news.jtbc.joins.com|vod.jtbc.joins.com",
+                "id": "ca56e3da-a023-4f79-9bc3-7bdfc6bfd233",
+                "name": "cast.imp.joins.com/bid/$domain=ooyala.com|news.jtbc.co.kr|vod.jtbc.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?cast\\.imp\\.joins\\.com/bid/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*ooyala.com",
-                            "*news.jtbc.joins.com",
-                            "*vod.jtbc.joins.com"
+                            "*news.jtbc.co.kr",
+                            "*vod.jtbc.co.kr"
                         ]
                     },
                     "action": {
@@ -15894,16 +15908,16 @@
                 }
             },
             {
-                "id": "196cd041-b001-46c2-b360-7569916bb88b",
-                "name": "cast.imp.joins.com/body/$domain=m.isplus.joins.com|mnews.jtbc.joins.com|vod.jtbc.joins.com",
+                "id": "d4813038-5fe9-4223-89c0-c4d9ce1c9edc",
+                "name": "cast.imp.joins.com/body/$domain=m.isplus.joins.com|mnews.jtbc.co.kr|vod.jtbc.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?cast\\.imp\\.joins\\.com/body/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*m.isplus.joins.com",
-                            "*mnews.jtbc.joins.com",
-                            "*vod.jtbc.joins.com"
+                            "*mnews.jtbc.co.kr",
+                            "*vod.jtbc.co.kr"
                         ]
                     },
                     "action": {
@@ -15912,16 +15926,16 @@
                 }
             },
             {
-                "id": "a4ada8f5-c820-490c-a30d-0894e5499982",
-                "name": "cast.imp.joins.com/persona.js$domain=m.isplus.joins.com|mnews.jtbc.joins.com|vod.jtbc.joins.com",
+                "id": "41c687f0-fd5a-4db2-b4d9-0c9dc3860650",
+                "name": "cast.imp.joins.com/persona.js$domain=m.isplus.joins.com|mnews.jtbc.co.kr|vod.jtbc.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?cast\\.imp\\.joins\\.com/persona\\.js",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*m.isplus.joins.com",
-                            "*mnews.jtbc.joins.com",
-                            "*vod.jtbc.joins.com"
+                            "*mnews.jtbc.co.kr",
+                            "*vod.jtbc.co.kr"
                         ]
                     },
                     "action": {
@@ -20166,6 +20180,22 @@
                 }
             },
             {
+                "id": "a480fed4-c5bb-49d6-9ba3-3cff8ec52342",
+                "name": "fs.jtbc.co.kr/home/img/banner/$domain=news.jtbc.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?fs\\.jtbc\\.co\\.kr/home/img/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*news.jtbc.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f6fd1bb9-2f00-4910-ad89-87336a2b9c24",
                 "name": "fs.jtbc.joins.com/common/ui/ad/",
                 "content": {
@@ -20179,14 +20209,14 @@
                 }
             },
             {
-                "id": "65b1b45a-53a3-4a37-b6ac-42db4c32a3c8",
-                "name": "fs.jtbc.joins.com/home/img/banner/$domain=news.jtbc.joins.com",
+                "id": "5380e73a-957c-4bbf-bd5d-c764aef9e28b",
+                "name": "fs.jtbc.joins.com/home/img/banner/$domain=news.jtbc.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?fs\\.jtbc\\.joins\\.com/home/img/banner/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
-                            "*news.jtbc.joins.com"
+                            "*news.jtbc.co.kr"
                         ]
                     },
                     "action": {
@@ -23983,11 +24013,11 @@
                 }
             },
             {
-                "id": "d4ccaf3d-fb22-4cda-8585-554b3b52b662",
-                "name": "jtbc.joins.com/common/json2XMLvast.aspx",
+                "id": "c5c78614-e4fb-45ae-9238-43ca8f45a2b9",
+                "name": "jtbc.co.kr/common/json2XMLvast.aspx",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?jtbc\\.joins\\.com/common/json2XMLvast\\.aspx",
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?jtbc\\.co\\.kr/common/json2XMLvast\\.aspx",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -45591,11 +45621,11 @@
                 }
             },
             {
-                "id": "eebe791e-f59f-4deb-a317-8ac465abec29",
-                "name": "mnews.jtbc.joins.com##",
+                "id": "45c54ae3-6fed-4bc2-af19-52b595ffc7d8",
+                "name": "mnews.jtbc.co.kr##",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?mnews\\.jtbc\\.joins\\.com"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mnews\\.jtbc\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -46293,15 +46323,15 @@
                 }
             },
             {
-                "id": "3a63aa35-e4ca-446a-85db-43860386b268",
-                "name": "news.jtbc.joins.com##",
+                "id": "985fd7ee-c97b-47c1-af21-32b3ee0ed7fa",
+                "name": "news.jtbc.co.kr##",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?news\\.jtbc\\.joins\\.com"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?news\\.jtbc\\.co\\.kr"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#article_banner,div.ad_banner_250x250,div.ad_v2,div.area2>div.secondary,div.article_list_in_ad,div.article_list_wrap,div.articleadnetworkbanner,div.bottom_area_650,div.netizen_link_area,div.right_banner250_area,div.sponsor_link_combine,div.wing_wrap"
+                        "selector": "div#article_banner,div.ad_banner_250x250,div.ad_v2,div.area2>div.secondary,div.article_list_in_ad,div.article_list_wrap,div.articleadnetworkbanner,div.bottom_area_650,div.netizen_link_area,div.right_banner250_area,div.sponsor_link_combine,div.wing_wrap,iframe[src*=\"//ad.imp.joins.com/html/\"]"
                     }
                 }
             },

@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20220802
+! Version: 20220803
 
 ! General element hiding rules
 ##amp-ad
@@ -229,6 +229,7 @@
 ##iframe[src*="//etc.gamechosun.co.kr/banner/"]
 ##iframe[src*="//file.osen.co.kr/web2/html/realclick_ad.html"]
 ##iframe[src*="//finead.o00.kr/"]
+##iframe[src*="//fs.jtbc.co.kr/common/ui/ad/"]
 ##iframe[src*="//fs.jtbc.joins.com/common/ui/ad/"]
 ##iframe[src*="//go.xlviiirdr.com/smartpop/"]
 ##iframe[src*="//googleads.g.doubleclick.net/pagead/ads"]:not([src*="&crui="])
@@ -765,7 +766,7 @@
 ||ad.ilbe.com/files2/ad/
 ||ad.ilikesponsorad.co.kr^
 ||ad.ilikesponsorad.com^
-||ad.imp.joins.com/html/$domain=mnews.jtbc.joins.com
+||ad.imp.joins.com/html/$domain=mnews.jtbc.co.kr|news.jtbc.co.kr
 ||ad.ingfac.co.kr^
 ||ad.jjang0u.com:8080/js.kti/jjang0u/$domain=m.jjang0u.com
 ||ad.kmib.co.kr^
@@ -1155,9 +1156,9 @@
 ||car.chosun.com/common/right/banner/index.html^$domain=car.chosun.com
 ||care-health.co.kr^
 ||cas.criteo.com/delivery/ajs.php^
-||cast.imp.joins.com/bid/$domain=ooyala.com|news.jtbc.joins.com|vod.jtbc.joins.com
-||cast.imp.joins.com/body/$domain=m.isplus.joins.com|mnews.jtbc.joins.com|vod.jtbc.joins.com
-||cast.imp.joins.com/persona.js^$domain=m.isplus.joins.com|mnews.jtbc.joins.com|vod.jtbc.joins.com
+||cast.imp.joins.com/bid/$domain=ooyala.com|news.jtbc.co.kr|vod.jtbc.co.kr
+||cast.imp.joins.com/body/$domain=m.isplus.joins.com|mnews.jtbc.co.kr|vod.jtbc.co.kr
+||cast.imp.joins.com/persona.js^$domain=m.isplus.joins.com|mnews.jtbc.co.kr|vod.jtbc.co.kr
 ||castbox.shopping.naver.com/index.nhn^
 ||cdn-a.yieldlove.com/yieldlove-bidder-stroeer.js^
 ||cdn-aitg.widerplanet.com/js/adr.js^
@@ -1462,8 +1463,9 @@
 ||franecki.net/js/lib.js^
 ||frtoon*.com/data/by_banner/
 ||fs.jtbc.co.kr/common/ui/ad/
+||fs.jtbc.co.kr/home/img/banner/$domain=news.jtbc.co.kr
 ||fs.jtbc.joins.com/common/ui/ad/
-||fs.jtbc.joins.com/home/img/banner/$domain=news.jtbc.joins.com
+||fs.jtbc.joins.com/home/img/banner/$domain=news.jtbc.co.kr
 ||funbe.*/images/
 ||g.163.com/r^$domain=163.com
 ||g.163.com/ur^$domain=163.com
@@ -1731,7 +1733,7 @@
 ||jshoppingbox.joinsmsn.com^
 ||jsn.dt00.net/*/*/*.*.js^
 ||json2.dcinside.com/json1/comment_boy_v*.php^$domain=m.dcinside.com
-||jtbc.joins.com/common/json2XMLvast.aspx^
+||jtbc.co.kr/common/json2XMLvast.aspx^
 ||k77hof1z7k.com/*.js^
 ||kbench.com/article_right_box.php^$domain=kbench.com
 ||kbench.com/m_article_right_box.php^$domain=m.kbench.com
@@ -5675,16 +5677,16 @@ mnc.asiae.co.kr##div.adtop_ins
 mnc.asiae.co.kr##div[data-widget_id="37JGbxlN"]
 mnc.asiae.co.kr##div[data-widget_id="jobrVdoW"]
 mnc.asiae.co.kr##div[data-widget_id="xXA8ARlG"]
-mnews.jtbc.joins.com##div#player_bottom_ad
-mnews.jtbc.joins.com##div.ad_highlight_270
-mnews.jtbc.joins.com##div.ad_text_2line
-mnews.jtbc.joins.com##div.footer_ad
-mnews.jtbc.joins.com##div.footer_google
-mnews.jtbc.joins.com##div.text_ad
-mnews.jtbc.joins.com##iframe[src^="//ad.imp.joins.com/html/"]
-mnews.jtbc.joins.com##section#article_content_area>div[style="text-align:center;margin-top: 30px;"]
-mnews.jtbc.joins.com##section.shopping.right
-mnews.jtbc.joins.com##section.shopping_box
+mnews.jtbc.co.kr##div#player_bottom_ad
+mnews.jtbc.co.kr##div.ad_highlight_270
+mnews.jtbc.co.kr##div.ad_text_2line
+mnews.jtbc.co.kr##div.footer_ad
+mnews.jtbc.co.kr##div.footer_google
+mnews.jtbc.co.kr##div.text_ad
+mnews.jtbc.co.kr##iframe[src^="//ad.imp.joins.com/html/"]
+mnews.jtbc.co.kr##section#article_content_area>div[style="text-align:center;margin-top: 30px;"]
+mnews.jtbc.co.kr##section.shopping.right
+mnews.jtbc.co.kr##section.shopping_box
 mnews.sbs.co.kr##div#ggadsense1
 mnews.sbs.co.kr##div#ggadsense2
 mnews.sbs.co.kr##div#sbsMobileAdArea
@@ -5924,18 +5926,19 @@ news.hankooki.com##div#bnn_26080
 news.hankooki.com##div#keyword_link
 news.hankooki.com##div[id^="Ad"]
 news.hankooki.com##div[id^="adText"]
-news.jtbc.joins.com##div#article_banner
-news.jtbc.joins.com##div.ad_banner_250x250
-news.jtbc.joins.com##div.ad_v2
-news.jtbc.joins.com##div.area2>div.secondary
-news.jtbc.joins.com##div.article_list_in_ad
-news.jtbc.joins.com##div.article_list_wrap
-news.jtbc.joins.com##div.articleadnetworkbanner
-news.jtbc.joins.com##div.bottom_area_650
-news.jtbc.joins.com##div.netizen_link_area
-news.jtbc.joins.com##div.right_banner250_area
-news.jtbc.joins.com##div.sponsor_link_combine
-news.jtbc.joins.com##div.wing_wrap
+news.jtbc.co.kr##div#article_banner
+news.jtbc.co.kr##div.ad_banner_250x250
+news.jtbc.co.kr##div.ad_v2
+news.jtbc.co.kr##div.area2>div.secondary
+news.jtbc.co.kr##div.article_list_in_ad
+news.jtbc.co.kr##div.article_list_wrap
+news.jtbc.co.kr##div.articleadnetworkbanner
+news.jtbc.co.kr##div.bottom_area_650
+news.jtbc.co.kr##div.netizen_link_area
+news.jtbc.co.kr##div.right_banner250_area
+news.jtbc.co.kr##div.sponsor_link_combine
+news.jtbc.co.kr##div.wing_wrap
+news.jtbc.co.kr##iframe[src*="//ad.imp.joins.com/html/"]
 news.khan.co.kr##div[data-widget_id="goBADMXe"]
 news.khan.co.kr##div[data-widget_id="goBAJqXe"]
 news.kmib.co.kr##div#container>div[style="text-align:center;margin-bottom:96px;"]
