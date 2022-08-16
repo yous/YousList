@@ -30775,12 +30775,15 @@
                 }
             },
             {
-                "id": "80b96d72-8326-4bd6-b8b6-072c5abe1a4e",
-                "name": "securepubads.g.doubleclick.net/gpt/pubads_impl_*.js",
+                "id": "b6ee9a38-191d-4d27-81be-649c573b19dd",
+                "name": "securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=~bbc.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?securepubads\\.g\\.doubleclick\\.net/gpt/pubads_impl_.*\\.js",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "unless-domain": [
+                            "*bbc.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -36595,6 +36598,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[amp-access=\"toggles.ads.enabled\"],div[data-e2e=\"advertisement\"]"
+                    }
+                }
+            },
+            {
+                "id": "2f80a524-beff-429e-9c7a-02ca9a80b573",
+                "name": "bbc.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?bbc\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article__side-mpu"
                     }
                 }
             },
