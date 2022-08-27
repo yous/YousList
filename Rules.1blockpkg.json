@@ -32887,6 +32887,22 @@
                 }
             },
             {
+                "id": "90c20581-4503-4815-946d-12576873a041",
+                "name": "t1.daumcdn.net/midas/rt/dk_bt/roosevelt_dk_bt.js$domain=tistory.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?t1\\.daumcdn\\.net/midas/rt/dk_bt/roosevelt_dk_bt\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*tistory.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "409fc473-25ea-4ce0-9a15-3adc2a196875",
                 "name": "tab.clickmon.co.kr/ad_img/",
                 "content": {
