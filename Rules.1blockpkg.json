@@ -42650,6 +42650,19 @@
                 }
             },
             {
+                "id": "0bfc54fb-15d8-4663-b56a-dadcbbdd5dc9",
+                "name": "loawa.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?loawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-bottom-m"
+                    }
+                }
+            },
+            {
                 "id": "945dc2ff-92be-4d36-a240-d5465789e5e1",
                 "name": "login.daum.net##",
                 "content": {
