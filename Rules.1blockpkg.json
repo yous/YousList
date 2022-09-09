@@ -42471,6 +42471,19 @@
                 }
             },
             {
+                "id": "b576e0ef-a83c-4cfc-8c86-0ed195c20515",
+                "name": "lawtalknews.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?lawtalknews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.tdn-inventory"
+                    }
+                }
+            },
+            {
                 "id": "07b8ec06-2c32-4ac9-a6bc-36dcc2425340",
                 "name": "lazyportfolioetf.com##",
                 "content": {
