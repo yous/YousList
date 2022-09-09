@@ -24593,6 +24593,22 @@
                 }
             },
             {
+                "id": "3e11ccf1-8038-4708-87b0-fd5f2a3958dc",
+                "name": "loader.fmkorea.com/_loader/iframeM1main.php$domain=m.fmkorea.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?loader\\.fmkorea\\.com/_loader/iframeM1main\\.php",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.fmkorea.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f98f73d3-4b2e-4573-8714-9c2d9c2c8f3c",
                 "name": "loader.fmkorea.com/_loader/loader.php$domain=fmkorea.com|m.fmkorea.com",
                 "content": {
@@ -39603,7 +39619,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#adpost,div#banner3,iframe[src^=\"//loader.fmkorea.com/_loader/loader.php\"],iframe[src^=\"//www.fmkorea.com/_loader/loader.php\"],iframe[src^=\"/_adpage/\"]"
+                        "selector": "div#adpost,div#banner3,iframe[src*=\"//loader.fmkorea.com/_loader/loader.php\"],iframe[src^=\"//www.fmkorea.com/_loader/loader.php\"],iframe[src^=\"/_adpage/\"]"
                     }
                 }
             },
@@ -43490,7 +43506,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.adpost,iframe[src^=\"//loader.fmkorea.com/_loader/loader.php\"],iframe[src^=\"/_adpage/\"]"
+                        "selector": "div.adpost,div.fm_google_a,iframe[src*=\"//loader.fmkorea.com//_loader/loader.php\"],iframe[src*=\"//loader.fmkorea.com/_loader/iframeM1main.php\"],iframe[src*=\"//loader.fmkorea.com/_loader/loader.php\"],iframe[src^=\"/_adpage/\"]"
                     }
                 }
             },

@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20220830
+! Version: 20220909
 
 ! General element hiding rules
 ##amp-ad
@@ -1773,6 +1773,7 @@
 ||livecodi.com/data/file/mains/$domain=livecodi.com
 ||livecodi.com/data/file/top_01/$domain=livecodi.com
 ||lkp.news/data/banner/$domain=lkp.news
+||loader.fmkorea.com/_loader/iframeM1main.php^$domain=m.fmkorea.com
 ||loader.fmkorea.com/_loader/loader.php^$domain=fmkorea.com|m.fmkorea.com
 ||log.adtive.com/noticead/adinfo/js/notice.js^
 ||loginside.co.kr^
@@ -3660,7 +3661,7 @@ flatpanelshd.com##div#sb-site>div[style="clear:both;height:100px;max-width:320px
 flatpanelshd.com##div#sb-site>div[style="text-align:Center;min-height:180px;width:930px;margin-left:auto;margin-right:auto;"]
 fmkorea.com##div#adpost
 fmkorea.com##div#banner3
-fmkorea.com##iframe[src^="//loader.fmkorea.com/_loader/loader.php"]
+fmkorea.com##iframe[src*="//loader.fmkorea.com/_loader/loader.php"]
 fmkorea.com##iframe[src^="//www.fmkorea.com/_loader/loader.php"]
 fmkorea.com##iframe[src^="/_adpage/"]
 fnnews.com##div#ad_body
@@ -4889,7 +4890,10 @@ m.ezday.co.kr##div.m_2016_view>div[style="margin: 0px;padding: 15px"]
 m.ezday.co.kr##div.m_2016_view>div[style="width:100%;text-align:center;margin-top:10px;"]
 m.ezday.co.kr##div.m_2016_view>div[style="width:100%;text-align:center;margin:5px;"]
 m.fmkorea.com##div.adpost
-m.fmkorea.com##iframe[src^="//loader.fmkorea.com/_loader/loader.php"]
+m.fmkorea.com##div.fm_google_a
+m.fmkorea.com##iframe[src*="//loader.fmkorea.com//_loader/loader.php"]
+m.fmkorea.com##iframe[src*="//loader.fmkorea.com/_loader/iframeM1main.php"]
+m.fmkorea.com##iframe[src*="//loader.fmkorea.com/_loader/loader.php"]
 m.fmkorea.com##iframe[src^="/_adpage/"]
 m.fnnews.com##div.bot_add_banner
 m.fnnews.com##div.box_n[style="height: 290px !important;"]
