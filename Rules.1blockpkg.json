@@ -38259,6 +38259,19 @@
                 }
             },
             {
+                "id": "edd83ff9-d69b-4692-bab2-46d6bac6bfa5",
+                "name": "cpubenchmark.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cpubenchmark\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mobileadunit"
+                    }
+                }
+            },
+            {
                 "id": "6800a8ab-06c6-4d80-886a-29d23af938e5",
                 "name": "crunchyroll.com##",
                 "content": {
