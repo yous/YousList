@@ -26697,6 +26697,22 @@
                 }
             },
             {
+                "id": "68ec4d12-c947-4136-b66c-e05c0dae3ac4",
+                "name": "medigatenews.com/file/banner/$domain=medigatenews.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?medigatenews\\.com/file/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*medigatenews.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0b91341c-9f11-42c8-a599-a369a554665b",
                 "name": "meeco.kr/images/custom_ads/$domain=meeco.kr",
                 "content": {
@@ -45587,6 +45603,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a[href^=\"/Users/ADManager2018/ADMamagerCountStat.html\"],div.ad,div.footerAD,div.newsBody>div[style=\"margin:10px 15px; padding:15px;\"],div.newsTxt>div[style=\"padding-top: 15px;\"],div.thirdSection>div[style=\"background-color: #f2f2f2;border: 1px solid #cccccc;box-sizing: border-box;margin-bottom: 15px;text-align:center;padding:32px 0px\"],div.thirdSection>div[style=\"padding-bottom:10px\"],nav>div:not([class]):not([id])>ul[style=\"padding-top:10px;margin:0px auto;width:1200px;text-align:right;\"]"
+                    }
+                }
+            },
+            {
+                "id": "530e2d42-7b73-45b2-a59f-df4701ef8875",
+                "name": "medigatenews.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?medigatenews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ads"
                     }
                 }
             },
