@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20220929
+! Version: 20221005
 
 ! General element hiding rules
 ##amp-ad
@@ -3064,18 +3064,19 @@ class.orbi.kr##li.listAd
 clien.net##div#coupangAd
 clien.net##div#hongboInfoList
 clien.net##div#naverAd
+clien.net##div#side_clien
 clien.net##div.ad_fix
 clien.net##div.footer_ad
-clien.net##div.list_bottom_ad
-clien.net##div.list_center_ad
-clien.net##div.list_top_ad
-clien.net##div.main_center_ad
-clien.net##div.main_top_ad
 clien.net##div.naver_ad
 clien.net##div.side_ad
 clien.net##div.view_bottom_ad
-clien.net##div.view_center_ad
-clien.net##div.view_top_ad
+clien.net##div[class^="list_bottom_"]
+clien.net##div[class^="list_center_"]
+clien.net##div[class^="list_top_"]
+clien.net##div[class^="main_center_"]
+clien.net##div[class^="main_top_"]
+clien.net##div[class^="view_center_"]
+clien.net##div[class^="view_top_"]
 cm.asiae.co.kr##div.adsv_banner
 cm.asiae.co.kr##div.con_ad_module
 cm.asiae.co.kr##div.fortune_module01
