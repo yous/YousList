@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20221005
+! Version: 20221013
 
 ! General element hiding rules
 ##amp-ad
@@ -1083,6 +1083,11 @@
 ||blockadsnot.com/vast-client.min.js^
 ||bnhtml.com/invoke.js^
 ||bntnews.hankyung.com/bntdata/images/ad/$domain=bntnews.hankyung.com
+||boannews.com/images/banner/$domain=boannews.com
+||boannews.com/main_contents/main_banner_B1.asp^$domain=boannews.com
+||boannews.com/main_contents/main_banner_B2.asp^$domain=boannews.com
+||boannews.com/main_contents/main_banner_B3.asp^$domain=boannews.com
+||boannews.com/media/include/media_view_banner.asp^$domain=boannews.com
 ||bodnara.co.kr/09shop/article_right_box.php^$domain=bodnara.co.kr
 ||bodnara.co.kr/advert/advert.php^
 ||bohumlife.edaily.co.kr/iframe_starin.html^
@@ -2875,6 +2880,7 @@ bloter.net##section.home-ad__fullwidth
 bntnews.hankyung.com##a#a_randBanner
 bntnews.hankyung.com##div#_BNT_NEWS_BODY_AD_
 bntnews.hankyung.com##div.bnt_healthInfo
+boannews.com##article.main_banner
 boannews.com##div#bottom_box_banner
 boannews.com##div#media_right_bn_area
 boannews.com##div#powerbiz

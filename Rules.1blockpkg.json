@@ -14801,6 +14801,86 @@
                 }
             },
             {
+                "id": "f10db01b-0ef4-4369-96ac-f2c79167cd60",
+                "name": "boannews.com/images/banner/$domain=boannews.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?boannews\\.com/images/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*boannews.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "74e7f657-a16c-4a9f-b8e6-a340fd9e4604",
+                "name": "boannews.com/main_contents/main_banner_B1.asp$domain=boannews.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?boannews\\.com/main_contents/main_banner_B1\\.asp",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*boannews.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b09b92a9-47fd-4879-ab4a-9521be82c2bb",
+                "name": "boannews.com/main_contents/main_banner_B2.asp$domain=boannews.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?boannews\\.com/main_contents/main_banner_B2\\.asp",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*boannews.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1134901e-a205-42ac-a63c-eccdc2a97858",
+                "name": "boannews.com/main_contents/main_banner_B3.asp$domain=boannews.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?boannews\\.com/main_contents/main_banner_B3\\.asp",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*boannews.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "97cfcf85-6da4-4326-9080-d4d6b9a4225f",
+                "name": "boannews.com/media/include/media_view_banner.asp$domain=boannews.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?boannews\\.com/media/include/media_view_banner\\.asp",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*boannews.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b007719a-cf88-4902-b6b7-2175d886d1ae",
                 "name": "bodnara.co.kr/09shop/article_right_box.php$domain=bodnara.co.kr",
                 "content": {
@@ -37048,7 +37128,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#bottom_box_banner,div#media_right_bn_area,div#powerbiz,div#powerbiz_area,div#right_top_banner,div#scroll_banner1,div#scroll_banner2,iframe#bottom_banner,iframe#main_banner_A,iframe#main_banner_B"
+                        "selector": "article.main_banner,div#bottom_box_banner,div#media_right_bn_area,div#powerbiz,div#powerbiz_area,div#right_top_banner,div#scroll_banner1,div#scroll_banner2,iframe#bottom_banner,iframe#main_banner_A,iframe#main_banner_B"
                     }
                 }
             },
