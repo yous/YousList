@@ -10254,6 +10254,32 @@
                 }
             },
             {
+                "id": "4beccf1f-88f2-42b7-aa1c-e86fc8ee2a18",
+                "name": "ad.bidrich.com/ron/html/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.bidrich\\.com/ron/html/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "ad4eb774-ed88-411e-a528-c18a94b9c23e",
+                "name": "ad.bidrich.com/ron/rv/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.bidrich\\.com/ron/rv/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "38c0ac49-e197-4dbd-a952-3b3076eaa236",
                 "name": "ad.cauly.co.kr/caulyImpress",
                 "content": {
@@ -20869,6 +20895,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?googleads\\.g\\.doubleclick\\.net/pagead/adview",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2498d5a2-eeb4-412e-89fd-c06da9a09713",
+                "name": "gougoi.contentcave.co.kr/bidrich.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?gougoi\\.contentcave\\.co\\.kr/bidrich\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -47986,7 +48025,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "aside.logo-area,div.banner-area"
+                        "selector": "aside.logo-area,div.banner-area,div.banner-wrap"
                     }
                 }
             },
