@@ -43841,6 +43841,19 @@
                 }
             },
             {
+                "id": "caca47ab-cbeb-456a-a1eb-85df98daffea",
+                "name": "m.health.chosun.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.health\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sub_article>div[style=\"min-width: 382px; min-height: 101px; margin:auto 0; text-align:center; padding: 10px 10px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "63fd15a1-fb20-47fd-a940-f35ca356a0a8",
                 "name": "m.hkbs.co.kr##",
                 "content": {
