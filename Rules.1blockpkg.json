@@ -21206,6 +21206,22 @@
                 }
             },
             {
+                "id": "ee5ea457-e922-47f3-96f2-03e9c032741b",
+                "name": "health.chosun.com/js/2020/main_right_google_banner.js$domain=health.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?health\\.chosun\\.com/js/2020/main_right_google_banner\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*health.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "26055052-ddc3-4894-8821-ac1e6ad837f8",
                 "name": "heartilyfootindebted.com/*/*.js",
                 "content": {
