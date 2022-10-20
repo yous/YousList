@@ -38410,6 +38410,19 @@
                 }
             },
             {
+                "id": "fb012c78-5f60-482d-8ebf-9ef0f8cd8557",
+                "name": "coupang.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?coupang\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "[data-adsplatform],[data-srp-log-impression],[data-wow-status]"
+                    }
+                }
+            },
+            {
                 "id": "edd83ff9-d69b-4692-bab2-46d6bac6bfa5",
                 "name": "cpubenchmark.net##",
                 "content": {
