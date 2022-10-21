@@ -41335,6 +41335,19 @@
                 }
             },
             {
+                "id": "2d859480-5d32-4f3b-a827-188ebdb2ca28",
+                "name": "idownloadblog.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?idownloadblog\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adthrive-ad"
+                    }
+                }
+            },
+            {
                 "id": "69d5562b-0f44-4049-96a7-a7e4303abf00",
                 "name": "iflscience.com##",
                 "content": {
