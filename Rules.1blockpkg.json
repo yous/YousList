@@ -31430,6 +31430,19 @@
                 }
             },
             {
+                "id": "eded7814-4eff-4a15-9560-f3f804fe6ff9",
+                "name": "sm1.selectmedia.asia/cdn/tags/tag_*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sm1\\.selectmedia\\.asia/cdn/tags/tag_.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c55dd2aa-0335-4905-bbb6-41c7e1889652",
                 "name": "smartadserver.com/ac",
                 "content": {
