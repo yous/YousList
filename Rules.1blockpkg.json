@@ -24413,6 +24413,22 @@
                 }
             },
             {
+                "id": "bc9174ee-9af6-4830-b5d5-6eb784ac3d9a",
+                "name": "kpenews.com/images/main/banner/$domain=kpenews.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kpenews\\.com/images/main/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*kpenews.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "149145e4-d475-4243-9386-3d6d790d74e0",
                 "name": "kukinews.com/data/kuk/banner/$domain=kukinews.com",
                 "content": {
@@ -42475,6 +42491,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-container,div.ad-non-sticky,div.ad-wide,div.ad-wrapper,div.contained-ad-container,div.contained-ad-shaft,div.js_ad-dynamic,section.contained-ad-container"
+                    }
+                }
+            },
+            {
+                "id": "2d23a4ae-acc1-46ae-a1d1-d69653aeb366",
+                "name": "kpenews.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kpenews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#divBanner,div#divBannerInnerBoxRightKPENEWS,div#divRightBannerKPENEWS"
                     }
                 }
             },

@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20221104
+! Version: 20221109
 
 ! General element hiding rules
 ##amp-ad
@@ -1761,6 +1761,7 @@
 ||koreadaily.com/_ui/ad/$domain=koreadaily.com
 ||kormedi.com/wp-content/uploads/ads/^$domain=kormedi.com
 ||kotaku.xyz/public/upload/images/ads/
+||kpenews.com/images/main/banner/$domain=kpenews.com
 ||kukinews.com/data/kuk/banner/$domain=kukinews.com
 ||kukudas.com/img/banner/$domain=kukudas.com
 ||kukudas.com/img/freebody/$domain=kukudas.com
@@ -4552,6 +4553,9 @@ kotaku.com##div.contained-ad-container
 kotaku.com##div.contained-ad-shaft
 kotaku.com##div.js_ad-dynamic
 kotaku.com##section.contained-ad-container
+kpenews.com##div#divBanner
+kpenews.com##div#divBannerInnerBoxRightKPENEWS
+kpenews.com##div#divRightBannerKPENEWS
 kqed.org##div.components-Ad-___Ad__ad
 kr.celeb.yahoo.com##div#leftClickButton
 kr.celeb.yahoo.com##div#rightClickButton
