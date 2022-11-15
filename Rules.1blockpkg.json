@@ -20628,6 +20628,19 @@
                 }
             },
             {
+                "id": "cfd80254-6f5d-4727-b59b-caef5a93f9c9",
+                "name": "gfp.veta.naver.com/call",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?gfp\\.veta\\.naver\\.com/call",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "3df7ab0f-3734-44a0-854c-4b93bb44dfe3",
                 "name": "ggilbo.com/banner/banner_roll_msidebtm.html$domain=ggilbo.com",
                 "content": {
