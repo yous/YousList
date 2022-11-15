@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20221109
+! Version: 20221115
 
 ! General element hiding rules
 ##amp-ad
@@ -1630,6 +1630,7 @@
 ||img.scupio.com/html/ad.html^
 ||img.scupio.com/js/ad.js^
 ||img.scupio.com/js/config/*.js^
+||img.side.mythiell.com/scroll/*/*.js^
 ||img.sportsseoul.com/ad/
 ||img.tvchosun.com/test/ad/$domain=news.tvchosun.com
 ||img.tvchosun.com/upload_img/n2017/ad/$domain=m.tvchosun.com|news.tvchosun.com|vod.tvchosun.com
@@ -4868,6 +4869,7 @@ m.ebn.co.kr##ins[data-ad-slot="MT_ebn_Mbyline1st_300_250"]
 m.econovill.com##body>div[style="height:100px;"]
 m.econovill.com##div.adView
 m.econovill.com##section.advertisment
+m.edaily.co.kr##div#show_banner_01
 m.edaily.co.kr##div.ad_300x250
 m.edaily.co.kr##div.ad_img_box_01
 m.edaily.co.kr##div.ad_list_00
@@ -4879,6 +4881,7 @@ m.edaily.co.kr##div.m_banners
 m.edaily.co.kr##div.m_shows
 m.edaily.co.kr##div.show_text_01
 m.edaily.co.kr##div.view_show01
+m.edaily.co.kr##div[class^="adTarget"]
 m.en.seoul.co.kr,m.eye.seoul.co.kr,m.go.seoul.co.kr,m.nownews.seoul.co.kr,m.seoul.co.kr,m.stv.seoul.co.kr##div#Article>div.View_btn~div[style]:not([class]):not([id])
 m.en.seoul.co.kr,m.eye.seoul.co.kr,m.go.seoul.co.kr,m.nownews.seoul.co.kr,m.seoul.co.kr,m.stv.seoul.co.kr##div#contentsBodyDiv>div[style="width:100%;margin-bottom:15px"]
 m.en.seoul.co.kr,m.eye.seoul.co.kr,m.go.seoul.co.kr,m.nownews.seoul.co.kr,m.seoul.co.kr,m.stv.seoul.co.kr##div#contentsBodyDiv>table[align="left"][width="100%"]>tbody>tr>td[style="height:300px;text-align:center;"]

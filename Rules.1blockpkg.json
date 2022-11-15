@@ -22585,6 +22585,19 @@
                 }
             },
             {
+                "id": "feabb45d-42b7-4ab0-9827-e035067d1384",
+                "name": "img.side.mythiell.com/scroll/*/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.side\\.mythiell\\.com/scroll/.*/.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a054c147-569e-44ff-b401-9f517c4d581d",
                 "name": "img.sportsseoul.com/ad/",
                 "content": {
@@ -43582,7 +43595,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad_300x250,div.ad_img_box_01,div.ad_list_00,div.ad_list_01,div.article_body>div[id^=\"innorame\"],div.article_body>div[style=\"padding: 20px 0px 20px 0px;width: 376px;margin: 0 auto;\"],div.banner_600x100,div.m_banners,div.m_shows,div.show_text_01,div.view_show01"
+                        "selector": "div#show_banner_01,div.ad_300x250,div.ad_img_box_01,div.ad_list_00,div.ad_list_01,div.article_body>div[id^=\"innorame\"],div.article_body>div[style=\"padding: 20px 0px 20px 0px;width: 376px;margin: 0 auto;\"],div.banner_600x100,div.m_banners,div.m_shows,div.show_text_01,div.view_show01,div[class^=\"adTarget\"]"
                     }
                 }
             },
