@@ -41754,6 +41754,19 @@
                 }
             },
             {
+                "id": "14a2e979-2d59-411d-8559-76caf757fbe5",
+                "name": "inverse.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?inverse\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adWrapper"
+                    }
+                }
+            },
+            {
                 "id": "2e93fa27-739a-471d-97d8-9ea45a2450a0",
                 "name": "iphone-apps-ipa.com##",
                 "content": {
