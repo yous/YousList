@@ -14798,6 +14798,22 @@
                 }
             },
             {
+                "id": "03320b82-b5d5-418b-b3db-6f2f6ba97642",
+                "name": "bloter.net/data/blt/banner/$domain=bloter.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?bloter\\.net/data/blt/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*bloter.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "e5fcd652-72cd-4a12-92c6-85fd701d4487",
                 "name": "bnhtml.com/invoke.js",
                 "content": {
@@ -37212,7 +37228,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ads-module,div.article--content-ad,div.bloter-plus__container,div.network-ad__wrapper,div.plus-position-bloter-bottom-ad--container,section.article-ad--mobile,section.article-ad__container,section.home-ad__fullwidth"
+                        "selector": "div.banner"
                     }
                 }
             },
