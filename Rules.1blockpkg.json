@@ -40244,7 +40244,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#sliding_adop,div#sliding_adopP,div.daisy,div.detailCont>div[style=\"float:right;margin:0px 0px 10px 10px;\"],div.lbanner,div.rbanner,div.v_ad01,div.v_ad02,div.vcon_wrap>div.vcon>div>div[style=\"padding-left:10px;text-align:left;font-size:16px;line-height:25px;margin-bottom:10px;margin-top:10px;\"],div.vcon_wrap>div.vcon>div[style=\"margin:20px 10px;height:250px;clear:both\"]"
+                        "selector": "a[href^=\"/extcont/adclick.php\"],div.mad,div.vbotcombCls"
                     }
                 }
             },
@@ -51828,6 +51828,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-even,div.ad-odd,div.ad-zone,div.ad-zone-container"
+                    }
+                }
+            },
+            {
+                "id": "4d8ca907-a315-4755-9838-8718a7d4d2ad",
+                "name": "www002.commutil.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?www002\\.commutil\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mdsns_reply>div[style=\"margin-bottom:10px;text-align:center;\"]"
                     }
                 }
             },
