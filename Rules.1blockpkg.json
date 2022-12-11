@@ -38260,6 +38260,19 @@
                 }
             },
             {
+                "id": "94061470-817e-428f-9489-0dcc080ced92",
+                "name": "cmobile.g-enews.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cmobile\\.g-enews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bottomFixID,div.mwrap>div[style=\"padding:10px 0;text-align:center;\"],div.mwrap>div[style=\"padding:13px 0 3px;text-align:center;\"],div[class^=\"clsAD\"],div[class^=\"clsCombiAd\"]"
+                    }
+                }
+            },
+            {
                 "id": "baa742f0-40f7-4997-b45b-0bd39aa75b83",
                 "name": "cnbc.com##",
                 "content": {
