@@ -38268,7 +38268,20 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#bottomFixID,div.mwrap>div[style=\"padding:10px 0;text-align:center;\"],div.mwrap>div[style=\"padding:13px 0 3px;text-align:center;\"],div[class^=\"clsAD\"],div[class^=\"clsCombiAd\"]"
+                        "selector": "body>div[style=\"text-align:center;margin:10px 0px;\"],div#bottomFixID,div.mwrap>div[style=\"padding:10px 0;text-align:center;\"],div.mwrap>div[style=\"padding:13px 0 3px;text-align:center;\"],div[class^=\"clsAD\"],div[class^=\"clsCombiAd\"]"
+                    }
+                }
+            },
+            {
+                "id": "40c12c1e-604d-46b0-92ef-d5184aeb2f0c",
+                "name": "m.g-enews.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.g-enews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"text-align:center;margin:10px 0px;\"],div#bottomFixID,div.mwrap>div[style=\"padding:10px 0;text-align:center;\"],div.mwrap>div[style=\"padding:13px 0 3px;text-align:center;\"],div[class^=\"clsAD\"],div[class^=\"clsCombiAd\"]"
                     }
                 }
             },
@@ -43872,19 +43885,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#articleBody>div.newsBanner,div.bannerBottom,div.body>div[style=\"width: 150px; height: 150px;  display: inline-block; float: right; margin: 10px; text-align:right;\"],section.advertisment"
-                    }
-                }
-            },
-            {
-                "id": "40c12c1e-604d-46b0-92ef-d5184aeb2f0c",
-                "name": "m.g-enews.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.g-enews\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "a[href^=\"/extcont/adclick.php\"],div.ad1d,div.ad2d"
                     }
                 }
             },
