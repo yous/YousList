@@ -31636,6 +31636,19 @@
                 }
             },
             {
+                "id": "dfd1e899-f8b2-418e-b355-49ed20fe9047",
+                "name": "alternativeto.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?alternativeto\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class*=\" AdsenseAd_\"],div[class^=\"AdsenseAd_\"]"
+                    }
+                }
+            },
+            {
                 "id": "a98d77a9-d849-443b-8c08-f5fccd643571",
                 "name": "amazon.co.jp##",
                 "content": {
