@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20221215
+! Version: 20221220
 
 ! General element hiding rules
 ##amp-ad
@@ -208,6 +208,7 @@
 ##iframe[src*="//img.scupio.com/html/ad.html"]
 ##iframe[src*="//imp.sndkorea.co.kr/php/m.php"]
 ##iframe[src*="//imp.valuepotion.com/mimp"]
+##iframe[src*="//io.smartmyd.com/adReq"]
 ##iframe[src*="//io1.innorame.com/imp/"][src*=".iframe"]
 ##iframe[src*="//j.qiqivv.com:4433/blog/view_p"][src*=".php"]
 ##iframe[src*="//js.hnscom.com/etc/hns/hnsIframe_"][src$=".html"]
@@ -252,6 +253,7 @@
 ##iframe[src*="//ssp.igaw.io/i/"][src*=".html"]
 ##iframe[src*="//ssp.realclick.co.kr/"][src*="c=iframe"]
 ##iframe[src*="//static.joins.com/isplus/ui/ad/"]
+##iframe[src*="//stt.pltapad.com/contain.php"]
 ##iframe[src*="//syndication.exdynsrv.com/ads-iframe-display.php"]
 ##iframe[src*="//syndication.exoclick.com/ads-iframe-display.php"]
 ##iframe[src*="//syndication.exosrv.com/ads-iframe-display.php"]
@@ -1318,6 +1320,7 @@
 ||hankooki.com/common/mobilelink/mobile_sk.htm^
 ||hankookilbo.com/newsad*.html^$domain=hankookilbo.com
 ||hankyung.com/m/inc/fixed_mobile_ad_area_view.html^
+||hankyung.com/resource/js/m/view.ads.js^$domain=hankyung.com
 ||hb.vntsm.com/v2/live/hb.js^
 ||hb.vntsm.com/v3/live/ad-manager.min.js^
 ||hbr.org/resources/js/components/overlay-intromercial/intromercial_*.js^$domain=hbr.org
@@ -1440,6 +1443,7 @@
 ||inven.co.kr/common/lib/js/ad.slot.js^$domain=inven.co.kr
 ||inven.co.kr/common/lib/js/adns.js^$domain=inven.co.kr
 ||inven.co.kr/common/lib/style/a1ad.min.css^$domain=inven.co.kr
+||io.smartmyd.com/adReq^
 ||io1.innorame.com/imp/*.iframe^
 ||ir-*.amazon-adsystem.com/s/ads-common.js^
 ||it.chosun.com/dhtm/js/it_ad_referrer.js^$domain=it.chosun.com
@@ -2046,6 +2050,7 @@
 ||stawhoph.com/apu.php^
 ||sticker.yadro.ru/ad/slider.js^
 ||stiffgame.com/v2*$domain=boredpanda.com
+||stt.pltapad.com/contain.php^
 ||sunnyworks.co.kr/data/SW*.html^
 ||sunnyworks.co.kr/data/js/
 ||surgeprice.com/display/async/*/*/ariel.js^
@@ -2081,6 +2086,7 @@
 ||tempest.services.disqus.com/ads-iframe/adsnative/
 ||tempest.services.disqus.com/ads-iframe/google/
 ||tf.co.kr/public/ad/^$domain=tf.co.kr
+||tg1.aniview.com/api/adserver/spt^
 ||theceluv.com/banner/$domain=m.theceluv.com|theceluv.com
 ||theguru.co.kr/data/banner/$domain=theguru.co.kr
 ||thepiratebay.bid/static/ads/$domain=thepiratebay.bid
@@ -3588,27 +3594,11 @@ hankookilbo.com##div.article-header-banner
 hankookilbo.com##div.banner-right
 hankookilbo.com##div.end-ad-container
 hankookilbo.com##div.story-ad-half
-hankyung.com##aside.ad
-hankyung.com##div#admaru_mobile
-hankyung.com##div#teads_slot
 hankyung.com##div.ad-bottom
 hankyung.com##div.ad-top
-hankyung.com##div.ad_aside01
-hankyung.com##div.ad_bottom
+hankyung.com##div.ad-wrap
+hankyung.com##div.ad_area:not(.trc_related_container)
 hankyung.com##div.ad_bottom_fix
-hankyung.com##div.ad_box
-hankyung.com##div.ad_img
-hankyung.com##div.ad_list
-hankyung.com##div.ad_top
-hankyung.com##div.ad_txt
-hankyung.com##div.box_related_list>div.rel_ad
-hankyung.com##div.fltAd
-hankyung.com##div.hot_today
-hankyung.com##div.info_time
-hankyung.com##div.info_today
-hankyung.com##div.joy_info
-hankyung.com##div.list_ad
-hankyung.com##div.wrap_list
 happymoney.co.kr##div.memLogIn>div.slideBx
 hash.kr##div.bann_lbk
 hash.kr##div.bann_nbk

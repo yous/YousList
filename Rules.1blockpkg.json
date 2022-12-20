@@ -2630,6 +2630,19 @@
                 }
             },
             {
+                "id": "be123988-14d5-4c9a-bacc-05d6bcf546e1",
+                "name": "##iframe[src*=\"//io.smartmyd.com/adReq\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//io.smartmyd.com/adReq\"]"
+                    }
+                }
+            },
+            {
                 "id": "a7496ee1-7fd7-4f58-9956-874b67c8102d",
                 "name": "##iframe[src*=\"//io1.innorame.com/imp/\"][src*=\".iframe\"]",
                 "content": {
@@ -3198,6 +3211,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src*=\"//static.joins.com/isplus/ui/ad/\"]"
+                    }
+                }
+            },
+            {
+                "id": "db5ccc9b-c595-451f-bee5-8bb23bace243",
+                "name": "##iframe[src*=\"//stt.pltapad.com/contain.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//stt.pltapad.com/contain.php\"]"
                     }
                 }
             },
@@ -18327,6 +18353,22 @@
                 }
             },
             {
+                "id": "b5963c10-10fc-4d9f-b799-805fa454803f",
+                "name": "hankyung.com/resource/js/m/view.ads.js$domain=hankyung.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hankyung\\.com/resource/js/m/view\\.ads\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*hankyung.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "932b239e-b1bc-4ef6-ae5e-b08608ba68e2",
                 "name": "hb.vntsm.com/v2/live/hb.js",
                 "content": {
@@ -20101,6 +20143,19 @@
                         "if-domain": [
                             "*inven.co.kr"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6e31cf38-444f-4016-adeb-f31a342a98a4",
+                "name": "io.smartmyd.com/adReq",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?io\\.smartmyd\\.com/adReq",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
@@ -28720,6 +28775,19 @@
                 }
             },
             {
+                "id": "df52a94b-bd43-4182-9aca-3d135282f288",
+                "name": "stt.pltapad.com/contain.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?stt\\.pltapad\\.com/contain\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f0a88447-19c3-49fd-837f-c55ef32c13b1",
                 "name": "sunnyworks.co.kr/data/SW*.html",
                 "content": {
@@ -29189,6 +29257,19 @@
                         "if-domain": [
                             "*tf.co.kr"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fcea6747-e754-400f-b2d3-b84a3ad532cb",
+                "name": "tg1.aniview.com/api/adserver/spt",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tg1\\.aniview\\.com/api/adserver/spt",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
@@ -36298,7 +36379,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "aside.ad,div#admaru_mobile,div#teads_slot,div.ad-bottom,div.ad-top,div.ad_aside01,div.ad_bottom,div.ad_bottom_fix,div.ad_box,div.ad_img,div.ad_list,div.ad_top,div.ad_txt,div.box_related_list>div.rel_ad,div.fltAd,div.hot_today,div.info_time,div.info_today,div.joy_info,div.list_ad,div.wrap_list"
+                        "selector": "div.ad-bottom,div.ad-top,div.ad-wrap,div.ad_area:not(.trc_related_container),div.ad_bottom_fix"
                     }
                 }
             },
