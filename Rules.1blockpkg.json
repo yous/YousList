@@ -35981,6 +35981,19 @@
                 }
             },
             {
+                "id": "74e9ebc2-f404-4cac-80ef-c7eda9f51d1e",
+                "name": "gearpatrol.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?gearpatrol\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.breaker-ad,div.leaderboard-ad,div.oop-ad,div.vertical-ad"
+                    }
+                }
+            },
+            {
                 "id": "19a08277-3fa8-4006-b5f1-d74fe07f3143",
                 "name": "geeksforgeeks.org##",
                 "content": {
