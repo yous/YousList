@@ -36098,6 +36098,19 @@
                 }
             },
             {
+                "id": "1b4c6fb9-248f-45a4-bede-106a6c392a75",
+                "name": "gigazine.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?gigazine\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#LB,div#LT,div.sbn,ul#ad"
+                    }
+                }
+            },
+            {
                 "id": "13d3d656-3581-4dd5-9d13-5b8b258fa0ff",
                 "name": "gigglehd.com##",
                 "content": {
