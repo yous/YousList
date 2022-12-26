@@ -47226,6 +47226,19 @@
                 }
             },
             {
+                "id": "5cafca33-1656-4c5f-90a4-cbc96b72fd80",
+                "name": "yourdictionary.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?yourdictionary\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.definitions-group>div.advertising-container"
+                    }
+                }
+            },
+            {
                 "id": "318cb83b-f60d-48a4-9a81-2ea46b399299",
                 "name": "youtube.com##",
                 "content": {
