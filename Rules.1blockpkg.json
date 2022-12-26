@@ -36293,6 +36293,19 @@
                 }
             },
             {
+                "id": "591328c5-25f0-4636-b8b0-f4b942d35314",
+                "name": "grammar.yourdictionary.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?grammar\\.yourdictionary\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ui-advertisement,div[data-openweb-ad]"
+                    }
+                }
+            },
+            {
                 "id": "9aa0c6d3-c1a2-4a7e-8fe6-556c57129456",
                 "name": "groovypost.com##",
                 "content": {
