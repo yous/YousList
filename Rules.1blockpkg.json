@@ -14561,6 +14561,19 @@
                 }
             },
             {
+                "id": "b1c6d306-4168-428b-9e00-1ee666f1c0d3",
+                "name": "cdn.targetpush.co.kr/adtivessp/d.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.targetpush\\.co\\.kr/adtivessp/d\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9b27309a-f075-4ba1-8d6f-d7951d2c3f1c",
                 "name": "cdn.targetpush.co.kr/js/targetpushad.js",
                 "content": {
