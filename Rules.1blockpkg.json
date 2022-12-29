@@ -32445,6 +32445,19 @@
                 }
             },
             {
+                "id": "4fc1b3bf-8297-4ddb-81f0-569724260d6e",
+                "name": "baeldung.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?baeldung\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[data-freestar-ad]"
+                    }
+                }
+            },
+            {
                 "id": "96578e25-ab6b-4118-8fdd-e24d1541e3c1",
                 "name": "bam295co.com##",
                 "content": {
