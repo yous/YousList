@@ -35123,6 +35123,19 @@
                 }
             },
             {
+                "id": "536c7c6b-225a-4eb1-b4b1-63fe51037be8",
+                "name": "ent.sbs.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ent\\.sbs\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.w_ctm_ad,div.w_news_ad"
+                    }
+                }
+            },
+            {
                 "id": "adb36bcc-937a-4894-afac-6cea92aed10b",
                 "name": "entermedia.co.kr##",
                 "content": {
