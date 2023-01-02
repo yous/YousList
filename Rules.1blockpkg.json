@@ -28588,6 +28588,19 @@
                 }
             },
             {
+                "id": "3bcdbc45-707f-440c-b41c-4f9dc0352045",
+                "name": "static.sellermill.com/sellermill-ad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?static\\.sellermill\\.com/sellermill-ad\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6f2106e0-2144-417c-abb0-d783891feab0",
                 "name": "static.tpmn.co.kr/sb/connector_ad.js",
                 "content": {
@@ -41475,7 +41488,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#center_ad01,div#center_ad02,div#left_ad,div#left_ad_bottom,div#right_ad,div.ad_con01,div.left_cont>div.naver,div.left_cont>div[style=\"width:670px; margin:10px 0;background:#fff; padding:10px 20px 0 20px;overflow:hidden;border:1px solid #dbdbdb;\"],div.left_cont>div[style=\"width:670px; margin:10px 0;background:#fff; padding:10px 20px 0 20px;overflow:hidden;border:1px solid #dbdbdb;}\"],div.naver_power,div.top_ad"
+                        "selector": "div#advertise_naver,div.ad_con01,div.left_cont>div[style=\"width:670px; margin:10px 0;background:#fff; padding:10px 20px 0 20px;overflow:hidden;border:1px solid #dbdbdb;\"],div.left_cont>div[style=\"width:670px; margin:10px 0;background:#fff; padding:10px 20px 0 20px;overflow:hidden;border:1px solid #dbdbdb;}\"],div.naver_power,div.naver_power01,div.view_adtop,ins#sellermill"
                     }
                 }
             },
