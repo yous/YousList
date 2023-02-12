@@ -44184,6 +44184,19 @@
                 }
             },
             {
+                "id": "289fddd2-2018-4dc3-a78f-31f5ed5d6c3d",
+                "name": "slate.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?slate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.slate-ad,section.bottom-ad,section.top-ad"
+                    }
+                }
+            },
+            {
                 "id": "420bf83c-681f-4737-b3f4-3f8980418674",
                 "name": "slds2.tistory.com##",
                 "content": {
