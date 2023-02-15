@@ -46186,6 +46186,19 @@
                 }
             },
             {
+                "id": "1ccb4e53-aef7-4e27-bd6e-0b391fe06369",
+                "name": "v.daum.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?v\\.daum\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_body2,div.ad_wrap,ins[data-ad-unit]"
+                    }
+                }
+            },
+            {
                 "id": "9253f147-7231-44da-9af5-d0fe350b7bf4",
                 "name": "v.entertain.media.daum.net##",
                 "content": {
