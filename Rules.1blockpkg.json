@@ -32640,6 +32640,19 @@
                 }
             },
             {
+                "id": "5ec92411-68d2-4b1c-bdb3-70c6ba97d9c1",
+                "name": "bing.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?bing\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "li.b_ad"
+                    }
+                }
+            },
+            {
                 "id": "e81ad8e6-d6eb-4e67-82aa-08503cc56681",
                 "name": "biz.chosun.com##",
                 "content": {
