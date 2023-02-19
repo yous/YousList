@@ -22309,6 +22309,22 @@
                 }
             },
             {
+                "id": "85e9ef32-2d99-40df-92d9-413d8a6b084c",
+                "name": "m.humoruniv.com/board/boardexp/goods.html$domain=m.humoruniv.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.humoruniv\\.com/board/boardexp/goods\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.humoruniv.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "35254101-e955-4dfa-a372-5765b6f6adc3",
                 "name": "m.humoruniv.com/board/boardexp/run.html$domain=m.humoruniv.com",
                 "content": {
@@ -39629,7 +39645,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "body>div[style=\"margin:10px 0 10px 0;\"]:not([class]):not([id]),body>table[style=\"height:250px;padding:0px 0 0px 0;margin:0 0 10px 0;background:#f2f2f2;\"],div#comment>ul>table[style=\"height:250px;padding:0px 0 0px 0;margin:0;background:#f2f2f2;\"],div#ddn_ad_128,div#list_ad_300_250,div#mobile>div[style=\"margin:10px 0 10px 0;\"],div#naver_adpost_wrap_fix,div#read>div[id$=\"_wrap\"],div#tsad_iframe,div.ad_bb,div.comment_best_wrap+div[style=\"min-height:100px;\"],form#ch2_form+div[id][style=\"min-height: 100px; display: block;\"],form#ch2_form+div[id][style=\"min-height: 100px;\"],iframe[src^=\"/banner/\"],table.ad_bd,table.ad_bri,table.ad_bt"
+                        "selector": "body>div[style=\"margin:10px 0 10px 0;\"]:not([class]):not([id]),body>table[style=\"height:250px;padding:0px 0 0px 0;margin:0 0 10px 0;background:#f2f2f2;\"],dd#d3,div#comment>ul>table[style=\"height:250px;padding:0px 0 0px 0;margin:0;background:#f2f2f2;\"],div#ddn_ad_128,div#list_ad_300_250,div#mobile>div[style=\"margin:10px 0 10px 0;\"],div#naver_adpost_wrap_fix,div#read>div[id$=\"_wrap\"],div#tsad_iframe,div.ad_bb,div.adsbygoogle,div.comment_best_wrap+div[style=\"min-height:100px;\"],div.kakao_ad_area,form#ch2_form+div[id][style=\"min-height: 100px; display: block;\"],form#ch2_form+div[id][style=\"min-height: 100px;\"],iframe[src^=\"/banner/\"],table.ad_bd,table.ad_bri,table.ad_bt"
                     }
                 }
             },
