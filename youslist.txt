@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20230221
+! Version: 20230305
 
 ! General element hiding rules
 ##amp-ad
@@ -648,6 +648,7 @@
 ||ad.afy11.net/ad^
 ||ad.afy11.net/cdsad.js^
 ||ad.altervista.org/js*.ad/
+||ad.api.stax.kr/static/js/banner/showBanner.js^
 ||ad.api.stax.kr/static/js/wiseview/showWiseView.js^
 ||ad.api.stax.kr/static/js/wiseview/show_ads.js^
 ||ad.applead.co.kr^
@@ -1406,7 +1407,8 @@
 ||img.mobon.net/js/elpBackUnder.js^
 ||img.mobon.net/mediaCategory/newAd/adbn_*.js^
 ||img.mrep.kr/slot/*.html^
-||img.newspim.com/banner/$domain=newspim.com
+||img.newspim.com/ad/$domain=m.newspim.com|newspim.com
+||img.newspim.com/banner/$domain=m.newspim.com|newspim.com
 ||img.postshare.co.kr/images/banner/$domain=postshare.co.kr
 ||img.sbs.co.kr/news/ad/delay_redirect.html^$domain=news.sbs.co.kr
 ||img.sbs.co.kr/news/ad/delay_redirect_mobile.html^
@@ -4840,15 +4842,10 @@ m.news1.kr##ul.text_ad_list
 m.newspic.kr##div#dionAdArea
 m.newspic.kr##div#dionAdArea2
 m.newspic.kr##div#naver-shoppingbox-div
-m.newspim.com##div#container>div[style="text-align: center; margin-top:10px; margin-bottom:20px"]
-m.newspim.com##div#container>div[style="text-align: center; margin-top:10px; margin-bottom:20px; z-index: "]
-m.newspim.com##div#container>div[style="width: 100%; height: 250px; overflow:  hidden; margin-top: 20px"]
-m.newspim.com##div#container>div[style="width: 300px; margin:auto"]
-m.newspim.com##div#slideshow
-m.newspim.com##div.ad_box
-m.newspim.com##div.bodyview>div:not([class])>div[style="width: 100%; height: 265px; overflow:  hidden; margin-bottom: 20px; text-align: center;"]
-m.newspim.com##div.viewcontents>div[style="width: 100%; height: 180px; overflow: hidden"]
-m.newspim.com##div.viewcontents>div[style="width: 100%; height: 250px; overflow:  hidden; margin-bottom: 20px; text-align: center;"]
+m.newspim.com##div.viewcontents div[style="overflow:hidden; text-align:center; width:100%; height:250px; margin:10px 0px 10px 0px !important;"]
+m.newspim.com##section#slideshow
+m.newspim.com##section.ad-box
+m.newspim.com##section.banbox_out
 m.newswave.kr##div#bottom_src
 m.newswave.kr##div#top_src
 m.newsway.co.kr##div.ad_area

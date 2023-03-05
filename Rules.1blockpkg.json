@@ -9003,6 +9003,19 @@
                 }
             },
             {
+                "id": "a2f13afc-6419-4f81-912a-3770e30783b2",
+                "name": "ad.api.stax.kr/static/js/banner/showBanner.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.api\\.stax\\.kr/static/js/banner/showBanner\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a182f5d3-312b-4acb-8dda-b948954ebe02",
                 "name": "ad.api.stax.kr/static/js/wiseview/showWiseView.js",
                 "content": {
@@ -19610,13 +19623,31 @@
                 }
             },
             {
-                "id": "8b707b39-0bd7-4fda-b504-d90650ff30fe",
-                "name": "img.newspim.com/banner/$domain=newspim.com",
+                "id": "3268b23d-1bed-41d7-87b3-46895c460e8f",
+                "name": "img.newspim.com/ad/$domain=m.newspim.com|newspim.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.newspim\\.com/ad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.newspim.com",
+                            "*newspim.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7a1df851-8814-4f9b-be43-dadc9bffa955",
+                "name": "img.newspim.com/banner/$domain=m.newspim.com|newspim.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.newspim\\.com/banner/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
+                            "*m.newspim.com",
                             "*newspim.com"
                         ]
                     },
@@ -40230,7 +40261,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#container>div[style=\"text-align: center; margin-top:10px; margin-bottom:20px\"],div#container>div[style=\"text-align: center; margin-top:10px; margin-bottom:20px; z-index: \"],div#container>div[style=\"width: 100%; height: 250px; overflow:  hidden; margin-top: 20px\"],div#container>div[style=\"width: 300px; margin:auto\"],div#slideshow,div.ad_box,div.bodyview>div:not([class])>div[style=\"width: 100%; height: 265px; overflow:  hidden; margin-bottom: 20px; text-align: center;\"],div.viewcontents>div[style=\"width: 100%; height: 180px; overflow: hidden\"],div.viewcontents>div[style=\"width: 100%; height: 250px; overflow:  hidden; margin-bottom: 20px; text-align: center;\"]"
+                        "selector": "div.viewcontents div[style=\"overflow:hidden; text-align:center; width:100%; height:250px; margin:10px 0px 10px 0px !important;\"],section#slideshow,section.ad-box,section.banbox_out"
                     }
                 }
             },
