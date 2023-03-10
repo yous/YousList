@@ -43958,6 +43958,19 @@
                 }
             },
             {
+                "id": "5817b06b-934f-49fb-b2f3-417e42082248",
+                "name": "search.shopping.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?search\\.shopping\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.list_basis>div>div>div.ad"
+                    }
+                }
+            },
+            {
                 "id": "53f0377b-f00d-4374-917d-91e099525030",
                 "name": "search.zum.com##",
                 "content": {
