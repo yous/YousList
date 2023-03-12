@@ -15357,6 +15357,22 @@
                 }
             },
             {
+                "id": "a230a4e6-f93b-4a9e-940e-c123f969c942",
+                "name": "cyad1.nate.com/js.kti/mnate/main@mid_Top3$domain=m.nate.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cyad1\\.nate\\.com/js\\.kti/mnate/main@mid_Top3",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.nate.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b1d9bfbc-56cf-4752-aca2-1b4fb7d56380",
                 "name": "cyad1.nate.com/js.kti/mnate/mob@pannback_Top3$domain=m.pann.nate.com",
                 "content": {
@@ -22633,6 +22649,22 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*m.mydaily.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "5bacaedd-58f3-40e8-8ed2-2f4378c80437",
+                "name": "m.nate.com/include4/adscript.html$domain=m.nate.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.nate\\.com/include4/adscript\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.nate.com"
                         ]
                     },
                     "action": {
@@ -40183,7 +40215,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.mainBnFull,div.new_ad"
+                        "selector": "div.mainBn,div.mainBnFull,div.new_ad,iframe[src*=\"//m.nate.com/include4/adscript.html\"]"
                     }
                 }
             },

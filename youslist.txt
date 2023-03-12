@@ -1111,6 +1111,7 @@
 ||cuterbond.com/*/*.js^
 ||cwdata.itsearch.co.kr^
 ||cwstatic.heraldm.com/adcont/
+||cyad1.nate.com/js.kti/mnate/main@mid_Top3^$domain=m.nate.com
 ||cyad1.nate.com/js.kti/mnate/mob@pannback_Top3^$domain=m.pann.nate.com
 ||cyad1.nate.com/js.kti/mnate/pann@rt_Middle1^$domain=m.pann.nate.com
 ||cyad1.nate.com/js.kti/mnate/pann@spsbt_Top3^$domain=m.pann.nate.com
@@ -1614,6 +1615,7 @@
 ||m.metroseoul.co.kr/common/js/custom/script_*_ad.js^$domain=m.metroseoul.co.kr
 ||m.mk.co.kr/index_ad.mk^$domain=m.mk.co.kr
 ||m.mydaily.co.kr/ad/ad_*.php^$domain=m.mydaily.co.kr
+||m.nate.com/include4/adscript.html^$domain=m.nate.com
 ||m.news1.kr/template/ads/$domain=m.news1.kr
 ||m.nocutnews.co.kr/ad/adnca.html^$domain=m.nocutnews.co.kr
 ||m.pann.nate.com/da/AdBandBanner^$domain=m.pann.nate.com
@@ -4803,8 +4805,10 @@ m.mydaily.co.kr##div.read_wrap>div[style="margin-top:3px; margin-left:10px;"]
 m.mydaily.co.kr##div.read_wrap>div[style="text-align:left; margin-top:-3px;"]
 m.mydaily.co.kr##iframe[src^="../ad/ad_"][src*=".php"]
 m.mydaily.co.kr##p.mobitree
+m.nate.com##div.mainBn
 m.nate.com##div.mainBnFull
 m.nate.com##div.new_ad
+m.nate.com##iframe[src*="//m.nate.com/include4/adscript.html"]
 m.naver.com##div#HOME_AD
 m.naver.com##div.grid_ad
 m.naver.com##div.id_uio_cd_fbanner
