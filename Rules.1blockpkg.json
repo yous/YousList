@@ -43145,6 +43145,19 @@
                 }
             },
             {
+                "id": "b469e078-7b6c-4a17-af1b-befd7afdc463",
+                "name": "pennmike.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pennmike\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"display_admixer_\"]"
+                    }
+                }
+            },
+            {
                 "id": "a779e7d8-ff95-4d83-b618-b4bfa5a2e981",
                 "name": "petapixel.com##",
                 "content": {
