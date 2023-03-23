@@ -10083,12 +10083,15 @@
                 }
             },
             {
-                "id": "b4c5d8d4-a221-46f7-99ad-4497fc3eda68",
-                "name": "adimg.nate.com",
+                "id": "287002b9-11cb-4189-ac75-51f7875dca14",
+                "name": "adimg.nate.com$domain=~m.tv.nate.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?adimg\\.nate\\.com",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "unless-domain": [
+                            "*m.tv.nate.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -23029,6 +23032,38 @@
                 }
             },
             {
+                "id": "fb2b26fd-6852-4429-b7c1-709f283da37d",
+                "name": "m.tv.nate.com/adv/m_rt_Middle1.html$domain=m.tv.nate.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.tv\\.nate\\.com/adv/m_rt_Middle1\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.tv.nate.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c8ac6240-c2a4-4d9f-b39c-75b17ee4e153",
+                "name": "m.tv.nate.com/adv/m_spsbt_Top3.html$domain=m.tv.nate.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.tv\\.nate\\.com/adv/m_spsbt_Top3\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.tv.nate.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0c5d49c7-e92b-4843-a5c3-0fc4eb1d8eb5",
                 "name": "m.vop.co.kr/templates/js_2016/enliple_blandlink.js$domain=m.vop.co.kr|vop.co.kr",
                 "content": {
@@ -27658,8 +27693,8 @@
                 }
             },
             {
-                "id": "75b2cc17-fa43-4f92-9232-f2be604f702d",
-                "name": "smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~allvod.sbs.co.kr|~imnews.imbc.com|~mbcsportsplus.com|~news.sbs.co.kr|~news.tvchosun.com|~onair.imbc.com|~play-tv.kakao.com|~programs.sbs.co.kr|~wavve.com",
+                "id": "8d0bf45a-4838-4360-b7eb-0ea1fff52104",
+                "name": "smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~allvod.sbs.co.kr|~imnews.imbc.com|~m.tv.nate.com|~mbcsportsplus.com|~news.sbs.co.kr|~news.tvchosun.com|~onair.imbc.com|~play-tv.kakao.com|~programs.sbs.co.kr|~wavve.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?smrmembers-smr\\.smartmediarep\\.com/smc/smrmembers/",
@@ -27667,6 +27702,7 @@
                         "unless-domain": [
                             "*allvod.sbs.co.kr",
                             "*imnews.imbc.com",
+                            "*m.tv.nate.com",
                             "*mbcsportsplus.com",
                             "*news.sbs.co.kr",
                             "*news.tvchosun.com",
@@ -40788,6 +40824,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.adDrawer"
+                    }
+                }
+            },
+            {
+                "id": "8e418b44-e27f-47d8-ba1e-7e2dc16d719b",
+                "name": "m.tv.nate.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.tv\\.nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.m_rt_Middle1,div.m_spsbt_Top3,iframe[src^=\"/adv/m_rt_Middle1.html\"],iframe[src^=\"/adv/m_spsbt_Top3.html\"],ul.m_ad_bottom"
                     }
                 }
             },

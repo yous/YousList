@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20230319
+! Version: 20230323
 
 ! General element hiding rules
 ##amp-ad
@@ -730,7 +730,7 @@
 ||adget.co.kr^
 ||adimage.hankookilbo.com^
 ||adimg-up.mcrony.com/*/mbf.js^
-||adimg.nate.com^
+||adimg.nate.com^$domain=~m.tv.nate.com
 ||adimg.nateimg.co.kr^
 ||adimg.wisenut.co.kr/common/js/amc/wiseAdSvc.pj^
 ||adimg.wisenut.co.kr/wrappingfor*.php^
@@ -1639,6 +1639,8 @@
 ||m.tf.co.kr/public/*/ad/ad_read_content*.html^
 ||m.tf.co.kr/public/*/ad/iframe/ad_read_content*.html^
 ||m.theceluv.com/ad/$domain=m.theceluv.com
+||m.tv.nate.com/adv/m_rt_Middle1.html^$domain=m.tv.nate.com
+||m.tv.nate.com/adv/m_spsbt_Top3.html^$domain=m.tv.nate.com
 ||m.vop.co.kr/templates/js_2016/enliple_blandlink.js^$domain=m.vop.co.kr|vop.co.kr
 ||m.yakup.com/ad/img/$domain=m.yakup.com
 ||m.ytn.co.kr/ad/ad_*.html^
@@ -1971,7 +1973,7 @@
 ||smartadserver.com/h/nshow^
 ||smartposting.net/keyword/api/
 ||smpeople.net/mappy/ad/$domain=smpeople.net
-||smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~allvod.sbs.co.kr|~imnews.imbc.com|~mbcsportsplus.com|~news.sbs.co.kr|~news.tvchosun.com|~onair.imbc.com|~play-tv.kakao.com|~programs.sbs.co.kr|~wavve.com
+||smrmembers-smr.smartmediarep.com/smc/smrmembers/$domain=~allvod.sbs.co.kr|~imnews.imbc.com|~m.tv.nate.com|~mbcsportsplus.com|~news.sbs.co.kr|~news.tvchosun.com|~onair.imbc.com|~play-tv.kakao.com|~programs.sbs.co.kr|~wavve.com
 ||smrmembers-smr.smartmediarep.com:8443/smc/smrmembers/$domain=~allvod.sbs.co.kr|~news.sbs.co.kr|~news.tvchosun.com|~onair.imbc.com|~play-tv.kakao.com|~programs.sbs.co.kr|~wavve.com
 ||sndkorea.nowcdn.co.kr/emart/
 ||sndkorea.nowcdn.co.kr/media/
@@ -5043,6 +5045,11 @@ m.todayhumor.co.kr##body>div[style="text-align: center;padding:20px 0;background
 m.todayhumor.co.kr##body>div[style="text-align:center;padding:15px 0;background-color:#e5e5e5"]
 m.todayhumor.co.kr##div.ad_box_div
 m.tr.investing.com##div.adDrawer
+m.tv.nate.com##div.m_rt_Middle1
+m.tv.nate.com##div.m_spsbt_Top3
+m.tv.nate.com##iframe[src^="/adv/m_rt_Middle1.html"]
+m.tv.nate.com##iframe[src^="/adv/m_spsbt_Top3.html"]
+m.tv.nate.com##ul.m_ad_bottom
 m.tvchosun.com##div.bottom-controller
 m.tvchosun.com##div.ft_banner
 m.typemoon.net##div#ad_resp
