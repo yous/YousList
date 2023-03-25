@@ -38553,6 +38553,19 @@
                 }
             },
             {
+                "id": "1447e61b-35a3-4306-8461-646e8d7e2d7b",
+                "name": "link.springer.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?link\\.springer\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.c-ad"
+                    }
+                }
+            },
+            {
                 "id": "e1e05f40-8367-4467-b74c-e16e9146781d",
                 "name": "linkbom1.net##",
                 "content": {
