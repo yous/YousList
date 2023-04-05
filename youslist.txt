@@ -1617,6 +1617,7 @@
 ||m.mk.co.kr/index_ad.mk^$domain=m.mk.co.kr
 ||m.mydaily.co.kr/ad/ad_*.php^$domain=m.mydaily.co.kr
 ||m.nate.com/include4/adscript.html^$domain=m.nate.com
+||m.news.nate.com/etc/AdTop^$domain=m.news.nate.com
 ||m.news1.kr/template/ads/$domain=m.news1.kr
 ||m.nocutnews.co.kr/ad/adnca.html^$domain=m.nocutnews.co.kr
 ||m.pann.nate.com/da/AdBandBanner^$domain=m.pann.nate.com
@@ -4820,13 +4821,18 @@ m.naver.com##div#HOME_AD
 m.naver.com##div.grid_ad
 m.naver.com##div.id_uio_cd_fbanner
 m.naver.com##div[data-da]
+m.news.nate.com##div#big_banner
+m.news.nate.com##div.ad_banner
 m.news.nate.com##div.adbox
 m.news.nate.com##div.adtive
 m.news.nate.com##div.adtive_box
 m.news.nate.com##div.adv
 m.news.nate.com##div.float-adv-wrap
+m.news.nate.com##iframe[name="ad_big"]
 m.news.nate.com##iframe[name="adtive"]
+m.news.nate.com##iframe[src*="//m.news.nate.com/etc/AdTop"]
 m.news.nate.com##iframe[src^="http://networkad.nate.com/nate/mobile_news.html"]
+m.news.nate.com##ol.rk_list>li.banner
 m.news.naver.com##div.ad_area
 m.news.naver.com##div.ad_box
 m.news1.kr##div.ad_wrap_sw
