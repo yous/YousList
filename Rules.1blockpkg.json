@@ -40100,6 +40100,19 @@
                 }
             },
             {
+                "id": "f740dc68-f84f-4ceb-a148-f49ae1f10bc1",
+                "name": "m.mail.daum.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.mail\\.daum\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_comm"
+                    }
+                }
+            },
+            {
                 "id": "2d8dfa70-fe0a-4409-83b3-988a318073f1",
                 "name": "m.mbn.co.kr##",
                 "content": {
