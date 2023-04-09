@@ -41612,6 +41612,19 @@
                 }
             },
             {
+                "id": "6a35ef00-d737-4cda-9b08-4c13bbc97ae9",
+                "name": "meeco.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?meeco\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ldd.list_d>ul>li:not([class]),ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])>div"
+                    }
+                }
+            },
+            {
                 "id": "23808a21-afd7-40a7-a567-ba2051eefdfa",
                 "name": "merriam-webster.com##",
                 "content": {
