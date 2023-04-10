@@ -18220,12 +18220,15 @@
                 }
             },
             {
-                "id": "58e5b016-9f11-44c5-9138-a10bed5a3416",
-                "name": "googleads.g.doubleclick.net/pagead/ads",
+                "id": "f6ac5eea-40fe-4502-b45c-854c4c88c2cf",
+                "name": "googleads.g.doubleclick.net/pagead/ads$domain=~filecr.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?googleads\\.g\\.doubleclick\\.net/pagead/ads",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "unless-domain": [
+                            "*filecr.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -25664,12 +25667,15 @@
                 }
             },
             {
-                "id": "9e3541a1-e57c-4f4d-8a7f-8b559d6d241e",
-                "name": "pagead2.googlesyndication.com/pagead/managed/js/adsense/*/reactive_library_*.js",
+                "id": "d8fbaee1-8318-47e6-9333-7688f2484007",
+                "name": "pagead2.googlesyndication.com/pagead/managed/js/adsense/*/reactive_library_*.js$domain=~filecr.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?pagead2\\.googlesyndication\\.com/pagead/managed/js/adsense/.*/reactive_library_.*\\.js",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "unless-domain": [
+                            "*filecr.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
