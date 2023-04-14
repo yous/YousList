@@ -3969,6 +3969,7 @@
                         "url-filter": ".*",
                         "unless-domain": [
                             "*ff14angler.com",
+                            "*filecr.com",
                             "*meeco.kr",
                             "*rp5.ru"
                         ]
@@ -18220,15 +18221,12 @@
                 }
             },
             {
-                "id": "f6ac5eea-40fe-4502-b45c-854c4c88c2cf",
-                "name": "googleads.g.doubleclick.net/pagead/ads$domain=~filecr.com",
+                "id": "e91cab04-fb6e-4d08-9ab6-c599d29c33a1",
+                "name": "googleads.g.doubleclick.net/pagead/ads",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?googleads\\.g\\.doubleclick\\.net/pagead/ads",
-                        "url-filter-is-case-sensitive": false,
-                        "unless-domain": [
-                            "*filecr.com"
-                        ]
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
@@ -25667,15 +25665,12 @@
                 }
             },
             {
-                "id": "d8fbaee1-8318-47e6-9333-7688f2484007",
-                "name": "pagead2.googlesyndication.com/pagead/managed/js/adsense/*/reactive_library_*.js$domain=~filecr.com",
+                "id": "75cf979e-772b-4b01-898a-615551cbc4ff",
+                "name": "pagead2.googlesyndication.com/pagead/managed/js/adsense/*/reactive_library_*.js",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?pagead2\\.googlesyndication\\.com/pagead/managed/js/adsense/.*/reactive_library_.*\\.js",
-                        "url-filter-is-case-sensitive": false,
-                        "unless-domain": [
-                            "*filecr.com"
-                        ]
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
@@ -35595,6 +35590,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#text-10,iframe[src^=\"http://fenglin.to/8drama_yamoo/\"]"
+                    }
+                }
+            },
+            {
+                "id": "a029597e-a0d8-4f56-acdd-004fdc9a406c",
+                "name": "filecr.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?filecr\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"aswift_\"]"
                     }
                 }
             },

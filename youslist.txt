@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20230409
+! Version: 20230415
 
 ! General element hiding rules
 ##amp-ad
@@ -1310,7 +1310,7 @@
 ||googleads.g.doubleclick.net/dbm/ad^
 ||googleads.g.doubleclick.net/mads/gma^
 ||googleads.g.doubleclick.net/mads/static/mad/
-||googleads.g.doubleclick.net/pagead/ads^$domain=~filecr.com
+||googleads.g.doubleclick.net/pagead/ads^
 ||googleads.g.doubleclick.net/pagead/adview^
 ||gougoi.contentcave.co.kr/bidrich.js^
 ||gsad.gameshot.net^
@@ -1827,7 +1827,7 @@
 ||p.udn.com.tw/upf/2014_banners/$domain=udn.com
 ||pagead2.googlesyndication.com/bg/*.js^
 ||pagead2.googlesyndication.com/pagead/js/*/osd.js^
-||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/reactive_library_*.js^$domain=~filecr.com
+||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/reactive_library_*.js
 ||partner.googleadservices.com/gpt/pubads_impl_*.js^
 ||partners.coupangcdn.com/widget/product-banner/main-*.js^$domain=partners.coupangcdn.com
 ||parts.blog.livedoor.jp/ad/$domain=blog.livedoor.jp
@@ -3301,6 +3301,8 @@ feedly.com##div.list-entries>div.EntryList__chunk>div.entry:not([data-inlineentr
 fenglin.to##div#text-10
 fenglin.to##iframe[src^="http://fenglin.to/8drama_yamoo/"]
 ff14angler.com#@#ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])
+filecr.com##div[id^="aswift_"]
+filecr.com#@#ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])
 filmix.me##div#main>div>div.container[style="padding: 0px; height: 0px; transition: 0ms;"]
 filmix.me##div.aside-wrap>noindex
 filmix.me##div.info-a
