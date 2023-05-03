@@ -34291,6 +34291,19 @@
                 }
             },
             {
+                "id": "ce83e14a-04ad-481d-8b97-c2090adfddd6",
+                "name": "cplusplus.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cplusplus\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.C_bn,div.bsa_fixed-leaderboard,div[id^=\"bsa-zone_\"]"
+                    }
+                }
+            },
+            {
                 "id": "edd83ff9-d69b-4692-bab2-46d6bac6bfa5",
                 "name": "cpubenchmark.net##",
                 "content": {
