@@ -8186,6 +8186,19 @@
                 }
             },
             {
+                "id": "07658ed6-d6d7-435d-b5b2-4de183489838",
+                "name": "a*.smlog.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?a.*\\.smlog\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "374e745f-8586-4b0f-8265-2f574b75bd7e",
                 "name": "a.adtng.com/get/",
                 "content": {
@@ -14578,6 +14591,19 @@
                 }
             },
             {
+                "id": "9e69458f-feab-4f49-b791-e2da202e34f3",
+                "name": "cdn.smlog.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.smlog\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8951d134-0c60-4141-a3fb-b1f8fefd56eb",
                 "name": "cdn.stickyadstv.com/mustang/vpaid-adapter.min.js",
                 "content": {
@@ -15011,6 +15037,19 @@
                 }
             },
             {
+                "id": "491232a1-ccfb-42ad-a4c9-fb9066e5bf14",
+                "name": "collector-statistics.nhn-commerce.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?collector-statistics\\.nhn-commerce\\.com",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8e643d8e-c4ad-481f-9dc4-2925f1b9022f",
                 "name": "comm.news.nate.com/Etc/ViewADThumb$domain=news.nate.com",
                 "content": {
@@ -15188,6 +15227,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?cpv\\.ad\\.naver\\.com/adshow",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "4aa01394-caf5-4548-9f30-b8c095e5ce8b",
+                "name": "cr.acecounter.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cr\\.acecounter\\.com",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -15747,6 +15799,19 @@
                 }
             },
             {
+                "id": "6e23ce96-58d4-4e21-a4eb-b26319a01e37",
+                "name": "dadispapi.gmarket.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dadispapi\\.gmarket\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1d92b08b-b6a3-4ac3-8c6a-4d82c19cdaf6",
                 "name": "dailian.co.kr/ad_article_center.php$domain=dailian.co.kr",
                 "content": {
@@ -15955,6 +16020,19 @@
                         "if-domain": [
                             "*danmee.chosun.com"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "de189e8f-5d9e-42f2-b21c-5a5ce86e333c",
+                "name": "data-logdelivery.wconcept.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?data-logdelivery\\.wconcept\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
@@ -21240,6 +21318,19 @@
                 }
             },
             {
+                "id": "349510f5-fff7-4785-b75a-c5fc5e93bc42",
+                "name": "jslog.coupang.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?jslog\\.coupang\\.com",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6ef14317-45e6-4b91-9cfe-ef474656e468",
                 "name": "json2.dcinside.com/json1/comment_boy_v*.php$domain=m.dcinside.com",
                 "content": {
@@ -21636,6 +21727,19 @@
                 }
             },
             {
+                "id": "0c0a75a4-6220-40bc-b3a5-d194664d0b83",
+                "name": "las.danawa.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?las\\.danawa\\.com",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4e3921ae-63ed-4224-b395-2a410e5cfbfc",
                 "name": "life.chosun.com/dhtm/rightBner.html",
                 "content": {
@@ -21790,6 +21894,19 @@
                         "if-domain": [
                             "*livecodi.com"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "97ecb51f-18d5-40bb-8144-61af4592ebae",
+                "name": "ljc.coupang.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ljc\\.coupang\\.com",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
@@ -26405,6 +26522,19 @@
                 }
             },
             {
+                "id": "e5eb22c0-9dbc-4590-aa81-07a3539c09e0",
+                "name": "pxl.retaku.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pxl\\.retaku\\.net",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "62914013-95bb-4b6c-bbdf-3df188ebacb0",
                 "name": "quantcast.mgr.consensu.org/choice/*/choice.js",
                 "content": {
@@ -27007,6 +27137,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?scr\\.nsmartad\\.com/admixer/admixer\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8dba4d10-f1a9-458b-a4ea-cfffea5491a6",
+                "name": "script.ifdo.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?script\\.ifdo\\.co\\.kr",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
