@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20230503
+! Version: 20230511
 
 ! General element hiding rules
 ##amp-ad
@@ -190,6 +190,7 @@
 ##iframe[src*="//display.ad.daum.net/imp"]
 ##iframe[src*="//disqusads.com/ads-iframe/adsnative/"]
 ##iframe[src*="//disqusads.com/ads-iframe/prebid/"]
+##iframe[src*="//doubleclicks.co.kr/coupang.php"]
 ##iframe[src*="//dspserver.adpnut.com/ron/html/"]
 ##iframe[src*="//etc.gamechosun.co.kr/banner/"]
 ##iframe[src*="//file.osen.co.kr/web2/html/realclick_ad.html"]
@@ -999,6 +1000,7 @@
 ||cad.donga.com/sports_view_top_right_*.js^$domain=sports.donga.com
 ||cad.donga.com/sports_view_topright_reople_*.js^$domain=sports.donga.com
 ||cadvv.heraldm.com/hb/imad/
+||candyjelly.com/ad/*.js^
 ||car.chosun.com/common/right/banner/index.html^$domain=car.chosun.com
 ||cas.criteo.com/delivery/ajs.php^
 ||cast.imp.joins.com/bid/$domain=ooyala.com|news.jtbc.co.kr|vod.jtbc.co.kr
@@ -1196,6 +1198,7 @@
 ||dogzoa.com/img/new/$domain=dogzoa.com
 ||dotcomconsultancy.advertserve.com/servlet/view/banner/javascript/ajax/crossdomain/zone^
 ||dothome.co.kr/advertisement/
+||doubleclicks.co.kr/coupang.php^
 ||dreamsearch.or.kr/ad/
 ||dreamsearch.or.kr/adnet/
 ||dreamsearch.or.kr/playLinkAd/js/mMobonPlayLink.js^
