@@ -35149,6 +35149,19 @@
                 }
             },
             {
+                "id": "c3ca52f8-73c0-45dc-abbd-f30b252679fe",
+                "name": "economist.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?economist\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner,div.bottom-banner"
+                    }
+                }
+            },
+            {
                 "id": "426c45b3-6e08-4cff-861c-2bc1216a1113",
                 "name": "economist.com##",
                 "content": {
