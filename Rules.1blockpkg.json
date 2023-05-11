@@ -20509,6 +20509,32 @@
                 }
             },
             {
+                "id": "02a82bec-ba6d-4f06-91ee-13cf200d40be",
+                "name": "jdsports.co.kr/analysisTag.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?jdsports\\.co\\.kr/analysisTag\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f5e130d4-9271-4043-b9ac-6823f642d5a3",
+                "name": "jdsports.co.kr/collect.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?jdsports\\.co\\.kr/collect\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "46e7f72d-8423-4edc-83e8-3b345df00bea",
                 "name": "jhealthmedia.joins.com/js/ban/ban.common.top.*.js$domain=jhealthmedia.joins.com",
                 "content": {
@@ -29905,6 +29931,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?tracker\\.nodojs\\.nl",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9918795c-7fe2-47e9-82ab-8ea0eb302d21",
+                "name": "tracking.adweb.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tracking\\.adweb\\.co\\.kr",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
