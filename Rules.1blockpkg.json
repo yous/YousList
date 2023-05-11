@@ -2396,6 +2396,19 @@
                 }
             },
             {
+                "id": "108745b9-35f6-4cf6-bc77-19efbb99d745",
+                "name": "##iframe[src*=\"//doubleclicks.co.kr/coupang.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//doubleclicks.co.kr/coupang.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "dc76712a-0ff4-4ad3-9d62-785bf7e284cc",
                 "name": "##iframe[src*=\"//dspserver.adpnut.com/ron/html/\"]",
                 "content": {
@@ -13853,6 +13866,19 @@
                 }
             },
             {
+                "id": "7753f84c-a232-4f37-98a9-b385916eec7a",
+                "name": "candyjelly.com/ad/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?candyjelly\\.com/ad/.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f431a392-f06f-49d7-9348-fdf9fdddca03",
                 "name": "car.chosun.com/common/right/banner/index.html$domain=car.chosun.com",
                 "content": {
@@ -16689,6 +16715,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?dothome\\.co\\.kr/advertisement/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "6a53a8e7-4453-48c0-9a44-49123164a7b5",
+                "name": "doubleclicks.co.kr/coupang.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?doubleclicks\\.co\\.kr/coupang\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -35301,6 +35340,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.bn320x200,div.bn615x115,div[itemprop=\"articleBody\"]>div[style=\"float:right; width:300px; margin-left:5px;\"],iframe[src^=\"/ad_article_center.php\"],iframe[src^=\"/ad_article_top.php\"],ins[data-ad-slot=\"MT_ebn_right2nd_300_250\"]"
+                    }
+                }
+            },
+            {
+                "id": "c3ca52f8-73c0-45dc-abbd-f30b252679fe",
+                "name": "economist.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?economist\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner,div.bottom-banner"
                     }
                 }
             },
