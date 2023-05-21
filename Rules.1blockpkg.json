@@ -3436,19 +3436,6 @@
                 }
             },
             {
-                "id": "bdee4525-3008-4c8e-a874-a3721a391bd9",
-                "name": "##iframe[src*=\"//veta.naver.com/fxshow\"]",
-                "content": {
-                    "trigger": {
-                        "url-filter": ".*"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "iframe[src*=\"//veta.naver.com/fxshow\"]"
-                    }
-                }
-            },
-            {
                 "id": "fe1d7f78-059e-4ef6-bb0e-c26fa547a4dc",
                 "name": "##iframe[src*=\"//vod.shoppingcall.me/ad_shoppingCallme.php\"]",
                 "content": {
@@ -30420,19 +30407,6 @@
                 }
             },
             {
-                "id": "ce1addac-2296-4d0b-a4a7-07c5eaa2d61b",
-                "name": "veta.naver.com/fxshow",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?veta\\.naver\\.com/fxshow",
-                        "url-filter-is-case-sensitive": false
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "f7e7718f-1879-4402-b469-2d3004bd2ab1",
                 "name": "view.asiae.co.kr/common/ad/",
                 "content": {
@@ -42463,7 +42437,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#NM_MID_BANNER,div#NM_TOP_BANNER,div#promotion1,div#promotion2,div#promotion6,div#veta_branding,div#veta_time2,div#veta_top,div.section_rbn,iframe[src^=\"http://nv.veta.naver.com/fxshow\"]"
+                        "selector": "div#NM_MID_BANNER,div#NM_TOP_BANNER,div#promotion1,div#promotion2,div#promotion6,div#veta_branding,div#veta_time2,div#veta_top,div.section_rbn,div[class^=\"Layout-module__banner_area_\"],iframe[src^=\"http://nv.veta.naver.com/fxshow\"]"
                     }
                 }
             },
