@@ -44382,6 +44382,19 @@
                 }
             },
             {
+                "id": "09ebef7e-de5f-455a-899e-c9a3ce084bf6",
+                "name": "search.danawa.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?search\\.danawa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#powerClickListArea,div#powerLinkArea,div.ad_section"
+                    }
+                }
+            },
+            {
                 "id": "0517ec21-35d3-4082-9352-f72b770f85c3",
                 "name": "search.daum.net##",
                 "content": {
