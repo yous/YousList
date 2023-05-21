@@ -8848,6 +8848,19 @@
                 }
             },
             {
+                "id": "c51101ee-c64e-4475-8316-222d0f6333d0",
+                "name": "ad.abchub.site",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.abchub\\.site",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1741b3b1-f6cc-41c9-9748-553735851ecd",
                 "name": "ad.about.co.kr",
                 "content": {
@@ -9462,6 +9475,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.linkprice\\.com/cpc/cpc_wrapper2\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3dda15bf-c99c-4bd3-b4f2-526a398ae948",
+                "name": "ad.linkprice.com/cpc/cpc_wrapper3.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.linkprice\\.com/cpc/cpc_wrapper3\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -17569,6 +17595,22 @@
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?file\\.thisisgame\\.com/inc/PBPage.*\\.js",
                         "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "02caf855-feb0-49f9-95c7-84e6b9a77715",
+                "name": "filetender.com/mobon*.html$domain=filetender.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?filetender\\.com/mobon.*\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*filetender.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -35821,6 +35863,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[id^=\"aswift_\"]"
+                    }
+                }
+            },
+            {
+                "id": "6adb93f7-6da0-4940-a80c-abec9d9ad023",
+                "name": "filetender.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?filetender\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#footer2,div#sidebar,div#sidebarl,iframe[src*=\"//filetender.com/mobon\"][src$=\".html\"]"
                     }
                 }
             },

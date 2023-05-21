@@ -636,6 +636,7 @@
 ||ad.3dpop.kr/web/gate.pop^
 ||ad.3dpop.kr/web_ad/
 ||ad.a-ads.com/*
+||ad.abchub.site^
 ||ad.about.co.kr^
 ||ad.ad-stir.com/ad^
 ||ad.ad4989.co.kr^
@@ -683,6 +684,7 @@
 ||ad.kmib.co.kr^
 ||ad.koreadaily.com^
 ||ad.linkprice.com/cpc/cpc_wrapper2.php^
+||ad.linkprice.com/cpc/cpc_wrapper3.php^
 ||ad.linkprice.com/stlink.php^
 ||ad.luxnet.ua/dfp/spot.html^
 ||ad.mediafarm.co.kr/mad/
@@ -1265,6 +1267,7 @@
 ||fenglin.to/8drama_yahoo/$domain=fenglin.to
 ||file.osen.co.kr/web2/html/realclick_ad.html^
 ||file.thisisgame.com/inc/PBPage*.js^
+||filetender.com/mobon*.html^$domain=filetender.com
 ||filmix.me/templates/Filmix/media/public/js/*_info.js^$domain=filmix.me
 ||fin.rainbownine.net/js/adn_tags_*.js^
 ||finead.o00.kr^
@@ -3322,6 +3325,10 @@ fenglin.to##iframe[src^="http://fenglin.to/8drama_yamoo/"]
 ff14angler.com#@#ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])
 filecr.com##div[id^="aswift_"]
 filecr.com#@#ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])
+filetender.com##div#footer2
+filetender.com##div#sidebar
+filetender.com##div#sidebarl
+filetender.com##iframe[src*="//filetender.com/mobon"][src$=".html"]
 filmix.me##div#main>div>div.container[style="padding: 0px; height: 0px; transition: 0ms;"]
 filmix.me##div.aside-wrap>noindex
 filmix.me##div.info-a
