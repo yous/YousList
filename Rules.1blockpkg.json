@@ -3924,10 +3924,7 @@
                 "name": "##iframe[src*=\"/RealMedia/ads/\"]",
                 "content": {
                     "trigger": {
-                        "url-filter": ".*",
-                        "unless-domain": [
-                            "*sportsseoul.com"
-                        ]
+                        "url-filter": ".*"
                     },
                     "action": {
                         "type": "css-display-none",
@@ -45092,7 +45089,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#SS_slides,div#VIEW_LEFT1,div#VIEW_RIGHT1,div#ad_read_top,div#article_viewWrap>div[id^=\"ad_\"],div#article_viewWrap>div[style=\"width:100%;height:30px;\"],div#article_viewWrap>div[style=\"width:100%;height:50px;\"],div#aside>div[id^=\"ad_\"],div#pop_ad,div#vod_banner,div.article_newsWrap>div[style=\"position: relative; height: 90px; overflow: hidden; display: block;\"],div.article_newsWrap>div[style=\"position: relative; height: 90px; overflow: hidden;\"],iframe[src*=\"/RealMedia/ads/\"]:not([src*=\"/RealMedia/ads/adstream_sx.ads/www.sportsseoul.com/main@Bottom\"])"
+                        "selector": "div.ad-float-right,div.article-ad,div.article-ad__content-bottom,div.country-ad-left,div.country-ad-right,div.sub-ad-left"
                     }
                 }
             },
