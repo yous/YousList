@@ -537,6 +537,19 @@
                 }
             },
             {
+                "id": "3b58dfbb-ab5a-4780-9400-b2490ab12215",
+                "name": "##div.realssp_dv",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.realssp_dv"
+                    }
+                }
+            },
+            {
                 "id": "c06964cc-49d2-4a3d-916f-f2054a6045de",
                 "name": "##div.targetpushAd_banner_wrap",
                 "content": {
@@ -28299,12 +28312,15 @@
                 }
             },
             {
-                "id": "736fcd2b-5d85-425d-b6fe-614eceb152dd",
-                "name": "sports.chosun.com/ad/",
+                "id": "5a1bbe7b-7291-49c7-ae9d-014564fa3b19",
+                "name": "sports.chosun.com/ad/$domain=sports.chosun.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.chosun\\.com/ad/",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*sports.chosun.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -28312,12 +28328,15 @@
                 }
             },
             {
-                "id": "e985e044-9ddc-469a-985c-cd0d1cae3f4e",
-                "name": "sports.chosun.com/ads/",
+                "id": "69ccafc1-e15f-4730-8d7b-02ef83a02da0",
+                "name": "sports.chosun.com/ads/$domain=sports.chosun.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.chosun\\.com/ads/",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*sports.chosun.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -28325,12 +28344,15 @@
                 }
             },
             {
-                "id": "9f632c6d-1b14-422f-b25f-3f87b735c81f",
-                "name": "sports.chosun.com/banner/240_140_100208.swf",
+                "id": "6332b1aa-d09d-4b9b-9775-8d7f9be4b760",
+                "name": "sports.chosun.com/banner/240_140_100208.swf$domain=sports.chosun.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.chosun\\.com/banner/240_140_100208\\.swf",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*sports.chosun.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -28338,12 +28360,15 @@
                 }
             },
             {
-                "id": "ac602a6d-6949-4804-831c-e52ddbfcc253",
-                "name": "sports.chosun.com/banner/subr/nson_*.html",
+                "id": "3d1e0d29-ebf0-4e39-ab2d-881e8e59db62",
+                "name": "sports.chosun.com/banner/subr/nson_*.html$domain=sports.chosun.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.chosun\\.com/banner/subr/nson_.*\\.html",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*sports.chosun.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -28351,12 +28376,15 @@
                 }
             },
             {
-                "id": "cedd06a2-dfd6-4a7c-9cef-72916b9d120d",
-                "name": "sports.chosun.com/banner/subr/r_baseball.htm",
+                "id": "5abfd1b0-98b9-4f69-b9e4-25e90229b6be",
+                "name": "sports.chosun.com/banner/subr/r_baseball.htm$domain=sports.chosun.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.chosun\\.com/banner/subr/r_baseball\\.htm",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*sports.chosun.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -28364,12 +28392,15 @@
                 }
             },
             {
-                "id": "b9b4421f-b7c7-4e80-b94a-84498496016f",
-                "name": "sports.chosun.com/banner/subr/r_osearch.htm",
+                "id": "897a588f-292d-487c-b146-39928ac06f3e",
+                "name": "sports.chosun.com/banner/subr/r_osearch.htm$domain=sports.chosun.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.chosun\\.com/banner/subr/r_osearch\\.htm",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*sports.chosun.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -28377,12 +28408,15 @@
                 }
             },
             {
-                "id": "2d56ebec-9f13-4ee0-9446-005b4027c7fa",
-                "name": "sports.chosun.com/banner/subr/r_tv.htm",
+                "id": "f30a4c8e-6237-4ede-9bab-6eea5483b0b5",
+                "name": "sports.chosun.com/banner/subr/r_tv.htm$domain=sports.chosun.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.chosun\\.com/banner/subr/r_tv\\.htm",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*sports.chosun.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -28390,12 +28424,15 @@
                 }
             },
             {
-                "id": "19e9e7e0-85ea-4570-8916-f01ab0b10f41",
-                "name": "sports.chosun.com/js/scrollBanner*.js",
+                "id": "c6179e40-d561-4edb-9ad3-bf1f0559ed95",
+                "name": "sports.chosun.com/js/scrollBanner*.js$domain=sports.chosun.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.chosun\\.com/js/scrollBanner.*\\.js",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*sports.chosun.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -28403,12 +28440,15 @@
                 }
             },
             {
-                "id": "712d6c69-a449-4400-ada1-2c459704544c",
-                "name": "sports.chosun.com/js2/popup_ad.js",
+                "id": "c9e3e19f-999f-454f-b180-2a5825f9b162",
+                "name": "sports.chosun.com/js2/popup_ad.js$domain=sports.chosun.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.chosun\\.com/js2/popup_ad\\.js",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*sports.chosun.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -28416,12 +28456,15 @@
                 }
             },
             {
-                "id": "cd5b3f5a-1379-4bd9-8606-92f6bd10e5af",
-                "name": "sports.chosun.com/lphoto3.htm",
+                "id": "9656621d-1a79-4ac8-92ff-b380a4dbb51b",
+                "name": "sports.chosun.com/lphoto3.htm$domain=sports.chosun.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.chosun\\.com/lphoto3\\.htm",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*sports.chosun.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -28429,12 +28472,15 @@
                 }
             },
             {
-                "id": "0e491fbd-4b27-4d88-bec9-87d018ffb4a7",
-                "name": "sports.chosun.com/news/sports_chosun_hns.js",
+                "id": "b3952584-f8c9-47a3-b4b1-d88ea4981367",
+                "name": "sports.chosun.com/news/sports_chosun_hns.js$domain=sports.chosun.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.chosun\\.com/news/sports_chosun_hns\\.js",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*sports.chosun.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -42713,7 +42759,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#PrismDisplayBox,div#taboola-below-article-thumbnails,div.readAd,div.realssp_dv,span#rectingle_spanTag_ad"
+                        "selector": "div#PrismDisplayBox,div#taboola-below-article-thumbnails,div.readAd,span#rectingle_spanTag_ad"
                     }
                 }
             },
@@ -44884,7 +44930,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ad-new,div#banner_left,div#banner_left_160x600,div#banner_right,div#bodyWrapper>div[style=\"width:120px; height:600px; position:absolute; left:50%; margin-left:508px; top:102px;\"],div#bodyWrapper>table:nth-of-type(2)>tbody>tr:nth-of-type(2),div.banner_ad_220,div.realssp_dv"
+                        "selector": "div#ad-new,div#banner_left,div#banner_left_160x600,div#banner_right,div#bodyWrapper>div[style=\"width:120px; height:600px; position:absolute; left:50%; margin-left:508px; top:102px;\"],div#bodyWrapper>table:nth-of-type(2)>tbody>tr:nth-of-type(2),div.banner_ad_220"
                     }
                 }
             },
@@ -44936,7 +44982,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "a.gisa_banner,div#rad,div.adBox,div.ad_box2014,div.bn,div.f_ad2,div.f_ad3,div.fly_ad02,div.gisa_banner,div.lott_ad,div.right_ad,div.sc_floating,div.thum8_box,div.top_banner,p.ad,p.m_btn"
+                        "selector": "a.gisa_banner,div#rad,div.adBox,div.ad_box2014,div.bn,div.f_ad2,div.f_ad3,div.fly_ad02,div.gisa_banner,div.lott_ad,div.right_ad,div.sc_floating,div.thum8_box,div.top-header-content>div.col-3>div.breaking-news-area,div.top_banner,p.ad,p.m_btn"
                     }
                 }
             },
@@ -47861,7 +47907,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#iwm_fsa_wrap,div.realssp_dv,iframe[src^=\"/2015/banner/ad_real_\"]"
+                        "selector": "div#iwm_fsa_wrap,iframe[src^=\"/2015/banner/ad_real_\"]"
                     }
                 }
             },
