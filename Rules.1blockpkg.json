@@ -24506,51 +24506,15 @@
                 }
             },
             {
-                "id": "8a828108-00a8-4ea2-b942-1ba6e0052670",
-                "name": "mydaily.co.kr/ad/ad_*.php",
+                "id": "72261d9e-59f4-4e74-a6c9-8ff2ea30e4b8",
+                "name": "mydaily.co.kr/ad/adimage/$domain=mydaily.co.kr",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?mydaily\\.co\\.kr/ad/ad_.*\\.php",
-                        "url-filter-is-case-sensitive": false
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "5f3f498e-e712-4bcf-ab8b-1abaf7700d45",
-                "name": "mydaily.co.kr/ad/center_ad*.php",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?mydaily\\.co\\.kr/ad/center_ad.*\\.php",
-                        "url-filter-is-case-sensitive": false
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "68c7e095-7284-4783-90b6-88ee71daa056",
-                "name": "mydaily.co.kr/ad/right_ad*.php",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?mydaily\\.co\\.kr/ad/right_ad.*\\.php",
-                        "url-filter-is-case-sensitive": false
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "cf8fa99a-e6e2-4bd8-a74b-070b5a93b25e",
-                "name": "mydaily.co.kr/news/ad_news*.htm",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?mydaily\\.co\\.kr/news/ad_news.*\\.htm",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mydaily\\.co\\.kr/ad/adimage/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*mydaily.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -42372,7 +42336,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "body>div[style=\"position:absolute; left:1px; top:314px;\"],div#ad_left,div#ad_left_wing,div#ad_right,div#read_left>div[style=\"margin-bottom:-10px;\"],div#read_left>div[style=\"margin-bottom:10px;\"],div#read_left>div[style=\"width:680px; border:1px solid #dddddd; background:#ffffff; /**/overflow:hidden; margin-bottom:10px; padding:10px 13px;\"],div#read_left>div[style=\"width:706px; /**/overflow:hidden; margin-bottom:-20px; margin-top:-20px; padding:10px 0;\"],div#read_left>div[style=\"width:706px; border:1px solid #dddddd; background:#f6f6f6; /**/overflow:hidden; margin:10px 0; \"],div#wrap>div[style=\"width:160px; height:600px; position:absolute; top:1420px; left:50%; margin-left:520px; color:#e6e6e6\"],div#wrap>div[style=\"width:160px; height:600px; position:absolute; top:2420px; left:50%; margin-left:520px; color:#e6e6e6\"],div#wrap>div[style=\"width:160px; height:600px; position:absolute; top:425px; left:50%; margin-left:520px;\"],div.hotnews_pic,div.read_right_ad,div.read_view_text>div[style=\"float:right; width:250px; margin-left:5px;\"],div.read_view_wrap>div[style=\"margin-left:10px; margin-bottom:10px; width:400px; float:left;\"],div.read_view_wrap>div[style=\"margin-left:470px; margin-bottom:20px;\"],div.read_view_wrap>div[style=\"margin-left:52px;\"],div[class^=\"banner_1024_1024_\"],iframe[src^=\"../../ad/ad_\"][src*=\".php\"],iframe[src^=\"../../ad/center_ad\"][src*=\".php\"]"
+                        "selector": "div#ad_left"
                     }
                 }
             },
