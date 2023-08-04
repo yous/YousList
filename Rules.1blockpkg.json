@@ -2175,6 +2175,19 @@
                 }
             },
             {
+                "id": "96fbc6c8-ecc2-456f-a523-e33a896311ba",
+                "name": "##iframe[src*=\"//burgeon.co.kr/mad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//burgeon.co.kr/mad/\"]"
+                    }
+                }
+            },
+            {
                 "id": "9684b67a-835e-4195-b737-69d1d456ae00",
                 "name": "##iframe[src*=\"//cadvv.heraldm.com/nbiz/\"]",
                 "content": {
@@ -13028,6 +13041,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?bullseye\\.backbeatmedia\\.com/bullseye/adserver/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "48c62d8e-5422-4d5f-a27b-3f43f43cbb7b",
+                "name": "burgeon.co.kr/mad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?burgeon\\.co\\.kr/mad/",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
