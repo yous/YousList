@@ -42270,6 +42270,19 @@
                 }
             },
             {
+                "id": "69034774-5976-4ec5-ba5b-7838baf85841",
+                "name": "mrealfoods.heraldcorp.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mrealfoods\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wrap>div[style=\"width:100%; position:fixed; bottom:0; height: 50px; text-align:center; background-color:#FFF; z-index: 3;\"],div[id^=\"AD_MOBILE_VIEW\"]"
+                    }
+                }
+            },
+            {
                 "id": "925a13b8-1c63-4ab3-8bb3-4f5005d079b1",
                 "name": "msn.com##",
                 "content": {
