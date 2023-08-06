@@ -28859,6 +28859,19 @@
                 }
             },
             {
+                "id": "23a53f2d-d16b-4bc1-a707-8f041b9a1da6",
+                "name": "static.airbridge.io/sdk/latest/airbridge.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?static\\.airbridge\\.io/sdk/latest/airbridge\\.min\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "38d169a9-2214-4694-82aa-c54875a20dd5",
                 "name": "static.animeid.tv/ads/$domain=animeid.tv",
                 "content": {
