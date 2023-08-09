@@ -14705,6 +14705,22 @@
                 }
             },
             {
+                "id": "3032ca25-9b52-4236-a10e-ca7ed046ffa7",
+                "name": "cdn.sports-g.com/adManager/js/lab.js$domain=sports-g.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.sports-g\\.com/adManager/js/lab\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*sports-g.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8951d134-0c60-4141-a3fb-b1f8fefd56eb",
                 "name": "cdn.stickyadstv.com/mustang/vpaid-adapter.min.js",
                 "content": {
@@ -19843,6 +19859,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.mobon\\.net/mediaCategory/newAd/adbn_.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "23bb79e1-54b0-4719-ac01-db85659efe7f",
+                "name": "img.mobwithad.com/ad/imgfile/mobwith.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.mobwithad\\.com/ad/imgfile/mobwith\\.min\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -45048,6 +45077,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#topAdBox,p.ad_240"
+                    }
+                }
+            },
+            {
+                "id": "5b639873-8a72-4a24-888c-9e04dcecde6f",
+                "name": "sports-g.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sports-g\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-template"
                     }
                 }
             },

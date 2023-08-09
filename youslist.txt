@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20230806
+! Version: 20230809
 
 ! General element hiding rules
 ##amp-ad
@@ -1063,6 +1063,7 @@
 ||cdn.run-syndicate.com/sdk/v1/n.js^
 ||cdn.scrollads.co.kr/scrollads.*.js^
 ||cdn.smlog.co.kr^
+||cdn.sports-g.com/adManager/js/lab.js^$domain=sports-g.com
 ||cdn.stickyadstv.com/mustang/vpaid-adapter.min.js^
 ||cdn.targetpush.co.kr/adtivessp/d.js^
 ||cdn.targetpush.co.kr/js/targetpushad.js^
@@ -1424,6 +1425,7 @@
 ||img.mobon.net/ad/imgfile/
 ||img.mobon.net/js/elpBackUnder.js^
 ||img.mobon.net/mediaCategory/newAd/adbn_*.js^
+||img.mobwithad.com/ad/imgfile/mobwith.min.js^
 ||img.mrep.kr/slot/*.html^
 ||img.newspim.com/ad/$domain=m.newspim.com|newspim.com
 ||img.newspim.com/banner/$domain=m.newspim.com|newspim.com
@@ -6285,6 +6287,7 @@ sport.es##div.following-ad-container.minHeightLong
 sport.es##div[data-actas="following-ad"]
 sportalkorea.com##div#topAdBox
 sportalkorea.com##p.ad_240
+sports-g.com##div.ad-template
 sports.chosun.com##a.gisa_banner
 sports.chosun.com##div#rad
 sports.chosun.com##div.adBox
