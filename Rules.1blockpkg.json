@@ -16631,6 +16631,22 @@
                 }
             },
             {
+                "id": "19e1b2b4-a5c3-453b-9913-070f753953df",
+                "name": "dn0qt3r0xannq.cloudfront.net/venturebeat-*/venturebeat-longform/prebid-wrapper.js$domain=venturebeat.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dn0qt3r0xannq\\.cloudfront\\.net/venturebeat-.*/venturebeat-longform/prebid-wrapper\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*venturebeat.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "01b7d320-9ef3-40e8-be85-019384ea1775",
                 "name": "dnhfi5nn2dt67.cloudfront.net/hls.min.js",
                 "content": {
@@ -46910,6 +46926,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.test_block"
+                    }
+                }
+            },
+            {
+                "id": "6f3c050a-9120-4926-b39d-9630a82e82c2",
+                "name": "venturebeat.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?venturebeat\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adslot"
                     }
                 }
             },
