@@ -42133,6 +42133,19 @@
                 }
             },
             {
+                "id": "23f20ea5-acc2-417c-9b3b-993b90ee3836",
+                "name": "mnews.imaeil.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mnews\\.imaeil\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bottom-sticky,div.art_mid_ad,ins.adsbyaiinad"
+                    }
+                }
+            },
+            {
                 "id": "45c54ae3-6fed-4bc2-af19-52b595ffc7d8",
                 "name": "mnews.jtbc.co.kr##",
                 "content": {
