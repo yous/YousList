@@ -15575,6 +15575,22 @@
                 }
             },
             {
+                "id": "263d9a5c-9db7-4bd9-89e6-0626d44fd61a",
+                "name": "cyad1.nate.com/js.kti/mnate/news@view_middle3$domain=m.news.nate.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cyad1\\.nate\\.com/js\\.kti/mnate/news@view_middle3",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.news.nate.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "005e4b19-506f-4deb-9b13-f8fe1043bc26",
                 "name": "cyad1.nate.com/js.kti/mnate/pann@rt_Middle1$domain=m.pann.nate.com",
                 "content": {
@@ -39567,7 +39583,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "iframe[name=\"ad_big\"],iframe[src*=\"//m.news.nate.com/etc/AdTop\"],div#big_banner,div.ad_banner,div.adbox,div.adtive,div.adtive_box,div.adv,div.float-adv-wrap,iframe[name=\"adtive\"],iframe[src^=\"http://networkad.nate.com/nate/mobile_news.html\"],ol.rk_list>li.banner"
+                        "selector": "iframe[name=\"ad_big\"],iframe[src*=\"//m.news.nate.com/etc/AdTop\"],div#ad_innerView,div#big_banner,div.ad_banner,div.adbox,div.adtive,div.adtive_box,div.adv,div.float-adv-wrap,iframe[name=\"adtive\"],iframe[src^=\"http://networkad.nate.com/nate/mobile_news.html\"],ol.rk_list>li.banner"
                     }
                 }
             },
