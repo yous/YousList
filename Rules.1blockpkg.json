@@ -24228,6 +24228,22 @@
                 }
             },
             {
+                "id": "91784dc0-06b4-4f7c-86ef-2a83e11b5dde",
+                "name": "medipana.com/upload/banner/$domain=medipana.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?medipana\\.com/upload/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*medipana.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0b91341c-9f11-42c8-a599-a369a554665b",
                 "name": "meeco.kr/images/custom_ads/$domain=meeco.kr",
                 "content": {
@@ -42015,6 +42031,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ads"
+                    }
+                }
+            },
+            {
+                "id": "24c9250f-4db7-4d7d-ad36-0c1dca66cbad",
+                "name": "medipana.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?medipana\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.artc_ad"
                     }
                 }
             },
