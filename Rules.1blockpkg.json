@@ -36689,6 +36689,19 @@
                 }
             },
             {
+                "id": "5255c389-5d40-405b-9d04-7b0967921019",
+                "name": "getnews.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?getnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-template"
+                    }
+                }
+            },
+            {
                 "id": "b04af37a-9e31-4764-826d-d118e4b28803",
                 "name": "ggilbo.com##",
                 "content": {
