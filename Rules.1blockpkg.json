@@ -23041,6 +23041,22 @@
                 }
             },
             {
+                "id": "dadce98c-2f14-4e19-9f00-023e5246dd89",
+                "name": "m.news.nate.com/hangzhou/AD$domain=m.news.nate.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.news\\.nate\\.com/hangzhou/AD",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.news.nate.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a8e40d59-6092-43c3-a325-a4bc4860c09e",
                 "name": "m.news1.kr/template/ads/$domain=m.news1.kr",
                 "content": {
@@ -39596,7 +39612,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "iframe[name=\"ad_big\"],iframe[src*=\"//m.news.nate.com/etc/AdTop\"],div#ad_innerView,div#big_banner,div.ad_banner,div.adbox,div.adtive,div.adtive_box,div.adv,div.float-adv-wrap,iframe[name=\"adtive\"],iframe[src^=\"http://networkad.nate.com/nate/mobile_news.html\"],ol.rk_list>li.banner"
+                        "selector": "iframe[name=\"ad_big\"],iframe[src*=\"//m.news.nate.com/etc/AdTop\"],div#ad_innerView,div#big_banner,div.ad_banner,div.adbox,div.adtive,div.adtive_box,div.adv,div.float-adv-wrap,div[id^=\"sec_hangzhou_ad\"],iframe[name=\"adtive\"],iframe[src^=\"http://networkad.nate.com/nate/mobile_news.html\"],ol.rk_list>li.banner"
                     }
                 }
             },
