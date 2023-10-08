@@ -41096,6 +41096,19 @@
                 }
             },
             {
+                "id": "f1b4baa6-9000-40ba-ae7b-cf14a1b1c2d5",
+                "name": "m.sports.chosun.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.sports\\.chosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#adBottomAdbnMobile,div#caulyad,div#wrap>div[style=\"position: fixed; width: 100%; height: 100px; text-align: center; margin: auto; top: 0; background: #fff; z-index: 9999;\"],div.top_ad"
+                    }
+                }
+            },
+            {
                 "id": "e172054d-7028-4b69-a3ec-764df2fc4d72",
                 "name": "m.sports.media.daum.net##",
                 "content": {
