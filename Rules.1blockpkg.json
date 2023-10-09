@@ -17439,6 +17439,22 @@
                 }
             },
             {
+                "id": "93492b3c-b3cf-4e32-ace8-f958da7b2938",
+                "name": "etfcheck.co.kr/assets/img/banner/$domain=etfcheck.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?etfcheck\\.co\\.kr/assets/img/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*etfcheck.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d2d900de-c809-4f51-a5ba-23772a733a0a",
                 "name": "etnews.com/tools/etnews_hns.js$domain=etnews.com",
                 "content": {
@@ -35847,6 +35863,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#talklink_chatAd,div#wrap>div[style=\"clear:both;width: 900px;margin: 10px auto;\"],div.banner_1024_1024,div.header>div[style=\"position: absolute;margin-top: -64px;margin-left: 167px;\"],div.sub_rightbox>div[style=\"margin:0px auto;width:290px;\"],div.sub_rightbox>div[style=\"margin:0px auto;width:290px;padding-top:15px;\"],iframe[src^=\"/comment/ad_readclick.php\"],iframe[src^=\"http://www.dailygame.co.kr/ad/dispad_bot.html\"],iframe[src^=\"http://www.dailygame.co.kr/ad/dispad_right.html\"],iframe[src^=\"http://www.dailygame.co.kr/ad/dispad_top.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "1308e1b1-4c01-491b-a535-2896230775a2",
+                "name": "etfcheck.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?etfcheck\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sangse_roll_banner"
                     }
                 }
             },
