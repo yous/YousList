@@ -16608,6 +16608,22 @@
                 }
             },
             {
+                "id": "d600e184-8d9d-49c3-837b-4fefafc4b176",
+                "name": "displayad.zum.com$domain=m.zum.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?displayad\\.zum\\.com",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.zum.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "92960aa0-4d3c-4c3f-a350-6611e950be04",
                 "name": "disqusads.com/ads-iframe/adsnative/",
                 "content": {
@@ -41550,6 +41566,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "body>div[style=\"padding:50px 0px 0px 0px;\"],div#ad_div_bottom,div#lumi_ad,div.sub_container>div[style=\"text-align:center;\"],div.sub_view_cont>div[style=\"top:0px; position:relative; float:right; width:200px; height:200px; padding:0 0 10px 10px;\"],div.view_ad_1,iframe[src^=\"/template/ads.asp\"]"
+                    }
+                }
+            },
+            {
+                "id": "2bc2438b-29f0-47f6-b5e5-5e20dbaaddb0",
+                "name": "m.zum.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.zum\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.wrap-ad,iframe[src*=\"//displayad.zum.com/\"]"
                     }
                 }
             },

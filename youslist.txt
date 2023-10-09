@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20231008
+! Version: 20231009
 
 ! General element hiding rules
 ##amp-ad
@@ -1197,6 +1197,7 @@
 ||dispatch.co.kr/ad/bottomAD.html^$domain=dispatch.co.kr
 ||dispatch.co.kr/ad/innerNewsAD.html^$domain=dispatch.co.kr
 ||display.ad.daum.net/imp^
+||displayad.zum.com^$domain=m.zum.com
 ||disqusads.com/ads-iframe/adsnative/
 ||disqusads.com/ads-iframe/prebid/
 ||dlv.hooniad.com^
@@ -5162,6 +5163,8 @@ m.zdnet.co.kr##div.sub_container>div[style="text-align:center;"]
 m.zdnet.co.kr##div.sub_view_cont>div[style="top:0px; position:relative; float:right; width:200px; height:200px; padding:0 0 10px 10px;"]
 m.zdnet.co.kr##div.view_ad_1
 m.zdnet.co.kr##iframe[src^="/template/ads.asp"]
+m.zum.com##div.wrap-ad
+m.zum.com##iframe[src*="//displayad.zum.com/"]
 macnn.com##div.ad-slot
 macrumors.com##div#adUnder_mobile
 macrumors.com##div#contentAd
