@@ -36891,6 +36891,19 @@
                 }
             },
             {
+                "id": "6510bc88-8509-4bd0-9412-6f38f5f3c5ee",
+                "name": "goodgag.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?goodgag\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.aside_ad,div.inventoryAd,div.inventory_ad"
+                    }
+                }
+            },
+            {
                 "id": "3008df83-ae3b-4098-b8cf-d09112648f8c",
                 "name": "goodmorningcc.com##",
                 "content": {
