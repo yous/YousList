@@ -16608,13 +16608,14 @@
                 }
             },
             {
-                "id": "d600e184-8d9d-49c3-837b-4fefafc4b176",
-                "name": "displayad.zum.com$domain=m.zum.com",
+                "id": "882053f9-38eb-4254-ab51-87afe239354e",
+                "name": "displayad.zum.com$domain=m.news.zum.com|m.zum.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?displayad\\.zum\\.com",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
+                            "*m.news.zum.com",
                             "*m.zum.com"
                         ]
                     },
@@ -40799,6 +40800,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_area,div.ad_box"
+                    }
+                }
+            },
+            {
+                "id": "26c86c7e-bcdc-4c2e-b4e2-066f8aaf2be4",
+                "name": "m.news.zum.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.news\\.zum\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_slot,div.article_top_banner,div.bn_wrap,div.da_banner"
                     }
                 }
             },
