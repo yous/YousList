@@ -40453,6 +40453,19 @@
                 }
             },
             {
+                "id": "b61e6ab9-b925-4e12-9ddd-e002e831e15f",
+                "name": "m.invest.zum.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.invest\\.zum\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.article_container>div>div[style=\"margin: 16px -16px 0px;\"],div.wrap-ad"
+                    }
+                }
+            },
+            {
                 "id": "df390a03-5457-4068-a81d-a47e8b01780e",
                 "name": "m.isplus.joins.com##",
                 "content": {
