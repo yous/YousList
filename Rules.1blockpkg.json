@@ -24697,6 +24697,22 @@
                 }
             },
             {
+                "id": "89266abd-1196-4163-a2ef-a44bf3cf4fb6",
+                "name": "mydaily.co.kr/upload/ads/$domain=mydaily.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mydaily\\.co\\.kr/upload/ads/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*mydaily.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "aa4070ca-41ea-4627-ac9c-dfb25f7dd340",
                 "name": "n*.nsmartad.com/click",
                 "content": {
@@ -42687,7 +42703,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ad_left"
+                        "selector": "div.wcms_banner"
                     }
                 }
             },
