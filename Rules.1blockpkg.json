@@ -2318,6 +2318,19 @@
                 }
             },
             {
+                "id": "d8e57b78-2d59-42d9-bf08-a66e43ef60d9",
+                "name": "##iframe[src*=\"//cp.edl.co.kr/cou/iframe.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//cp.edl.co.kr/cou/iframe.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "eaec2a2b-faad-40f6-adc1-299ac4696582",
                 "name": "##iframe[src*=\"//cpv.ad.naver.com/adshow\"]",
                 "content": {
@@ -15339,6 +15352,32 @@
                 }
             },
             {
+                "id": "631c4c86-f374-4f9f-a65b-bc7fbf73dc06",
+                "name": "cp.edl.co.kr/cou/iframe.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cp\\.edl\\.co\\.kr/cou/iframe\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0f866633-52cc-40dd-a055-40921514d0d5",
+                "name": "cp.edl.co.kr/cou/js.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cp\\.edl\\.co\\.kr/cou/js\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f0e944df-ff5b-4558-836f-0c75fae5f122",
                 "name": "cperformmedia-a.akamaihd.net/dpfm.js",
                 "content": {
@@ -23404,6 +23443,22 @@
                 }
             },
             {
+                "id": "8a530322-e1ab-4bf3-bb9d-b17341d0c5bd",
+                "name": "m.tenbizt.com/wp-content/plugins/advanced-ads/public/assets/js/advanced.min.js$domain=m.tenbizt.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.tenbizt\\.com/wp-content/plugins/advanced-ads/public/assets/js/advanced\\.min\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.tenbizt.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6b9831d1-89b9-4f78-a053-9ecc2ab40455",
                 "name": "m.tf.co.kr/public/*/ad/ad_read_content*.html",
                 "content": {
@@ -29912,6 +29967,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?tg1\\.aniview\\.com/api/adserver/spt",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "68b58a3b-d91f-4d68-8d91-e5cb7d0e7265",
+                "name": "tg1.premiumimpression.com/api/adserver/spt",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tg1\\.premiumimpression\\.com/api/adserver/spt",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -41378,6 +41446,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_iframe,div.adbox,div[id^=\"ad-slot\"]"
+                    }
+                }
+            },
+            {
+                "id": "d6b51807-08a1-4413-8e01-96962b446c40",
+                "name": "m.tenbizt.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.tenbizt\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.footer-floating-ad,div[class^=\"tenbizt-adsense-\"]"
                     }
                 }
             },

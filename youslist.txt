@@ -184,6 +184,7 @@
 ##iframe[src*="//cm.interworksmedia.co.kr/adTagRequest.htm"]
 ##iframe[src*="//compass.adop.cc/RD/"]
 ##iframe[src*="//coupa.ng/"]
+##iframe[src*="//cp.edl.co.kr/cou/iframe.php"]
 ##iframe[src*="//cpv.ad.naver.com/adshow"]
 ##iframe[src*="//creative.wwwpromoter.com/"]
 ##iframe[src*="//d3u5zn5k9864p0.cloudfront.net/br"]
@@ -1110,6 +1111,8 @@
 ||contextual.media.net/bidexchange.js^
 ||contextual.media.net/nmedianet.js^
 ||coolsoft.altervista.org/sites/all/themes/coolsoft/js/coolsoft.js^
+||cp.edl.co.kr/cou/iframe.php^
+||cp.edl.co.kr/cou/js.php^
 ||cperformmedia-a.akamaihd.net/dpfm.js^
 ||cpv.ad.naver.com/adshow^
 ||cr.acecounter.com^
@@ -1666,6 +1669,7 @@
 ||m.skyedaily.com/ad/$domain=m.skyedaily.com
 ||m.sportschosun.com/news_text_ad01.htm^$domain=m.sportschosun.com
 ||m.sportsseoul.com/application/views/ad/*.html^
+||m.tenbizt.com/wp-content/plugins/advanced-ads/public/assets/js/advanced.min.js^$domain=m.tenbizt.com
 ||m.tf.co.kr/public/*/ad/ad_read_content*.html^
 ||m.tf.co.kr/public/*/ad/iframe/ad_read_content*.html^
 ||m.theceluv.com/ad/$domain=m.theceluv.com
@@ -2130,6 +2134,7 @@
 ||tempest.services.disqus.com/ads-iframe/google/
 ||tf.co.kr/public/ad/^$domain=tf.co.kr
 ||tg1.aniview.com/api/adserver/spt^
+||tg1.premiumimpression.com/api/adserver/spt^
 ||theceluv.com/banner/$domain=m.theceluv.com|theceluv.com
 ||theguru.co.kr/data/banner/$domain=theguru.co.kr
 ||thepiratebay.bid/static/ads/$domain=thepiratebay.bid
@@ -5073,6 +5078,8 @@ m.star.ytn.co.kr,m.ytn.co.kr##li.ad_area
 m.starnewskorea.com##div.ad_iframe
 m.starnewskorea.com##div.adbox
 m.starnewskorea.com##div[id^="ad-slot"]
+m.tenbizt.com##div.footer-floating-ad
+m.tenbizt.com##div[class^="tenbizt-adsense-"]
 m.tf.co.kr##div#banner
 m.tf.co.kr##div#mobon5mb_ad
 m.tf.co.kr##div#waveAd
