@@ -24361,6 +24361,22 @@
                 }
             },
             {
+                "id": "133ae9d6-2644-4c5f-b583-5e986a980d19",
+                "name": "mememedia.co.kr/wp-content/plugins/advanced-ads/public/assets/js/advanced.min.js$domain=mememedia.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mememedia\\.co\\.kr/wp-content/plugins/advanced-ads/public/assets/js/advanced\\.min\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*mememedia.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "a038b73e-b35b-4678-ad5c-f517966e47d4",
                 "name": "menu.mt.co.kr/banner/adPlayer.swf",
                 "content": {
@@ -42343,6 +42359,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ldd.list_d>ul>li:not([class]),div.sidebar1-ex>a[href*=\"//linkmoa.kr/click.php\"],div.xe_content.xe-widget-wrapper[style*=\"height: auto !important\"],ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])>div"
+                    }
+                }
+            },
+            {
+                "id": "f826b330-ddbf-4b71-bc37-8a46c6218f2a",
+                "name": "mememedia.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mememedia\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.footer-floating-ad,div.mememedia-adsense-content,div.mememedia-gsm-video-ad"
                     }
                 }
             },
