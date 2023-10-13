@@ -41330,6 +41330,19 @@
                 }
             },
             {
+                "id": "6d77f250-38fe-463c-bc42-feb45967cf94",
+                "name": "m.starnewskorea.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.starnewskorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_iframe,div.adbox,div[id^=\"ad-slot\"]"
+                    }
+                }
+            },
+            {
                 "id": "01be8d2a-b321-41ca-8ec6-6f0dbc18ad49",
                 "name": "m.tf.co.kr##",
                 "content": {
