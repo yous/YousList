@@ -2981,6 +2981,19 @@
                 }
             },
             {
+                "id": "1842fc98-671d-4794-8590-006c2b289a79",
+                "name": "##iframe[src*=\"//planmix.co.kr/ad/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//planmix.co.kr/ad/\"]"
+                    }
+                }
+            },
+            {
                 "id": "731af047-62f9-4ea4-91a8-56b12552abb7",
                 "name": "##iframe[src*=\"//plugin.2beon.co.kr/\"]",
                 "content": {
@@ -26408,6 +26421,19 @@
                 }
             },
             {
+                "id": "cc61b98d-ffc2-40ae-9113-d3b820fce860",
+                "name": "planmix.co.kr/ad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?planmix\\.co\\.kr/ad/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "83953fa5-84f0-4873-b8ff-aaeeb39bf265",
                 "name": "player.anyclip.com/anyclip-widget/lre-widget/prod/v1/src/lre.js",
                 "content": {
@@ -26426,6 +26452,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?player\\.ex\\.co/player/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "68b5c27d-befe-47b3-9c10-9e1a091440d7",
+                "name": "player.globalsun.io/player/videojs-contrib-ads/dist/videojs.ads.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?player\\.globalsun\\.io/player/videojs-contrib-ads/dist/videojs\\.ads\\.min\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -46759,7 +46798,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "body>div[style=\"position:absolute;;top:0px;right:80px\"],div#CmAdContent div[style=\"text-align:center;width:320px;margin:10px 0 0 -10px\"],div#CmAdContent>div[style=\"float: right; margin-top: 27px;\"],div#iwmads,div.advertise_02,div.iwm_ba,div[id^=\"adMall_popup_\"],iframe[src^=\"//ad.tvreport.co.kr/\"][src*=\"?m=i\"]"
+                        "selector": "body>div[style=\"position:absolute;;top:0px;right:80px\"],div#CmAdContent div[style=\"text-align:center;width:320px;margin:10px 0 0 -10px\"],div#CmAdContent>div[style=\"float: right; margin-top: 27px;\"],div#iwmads,div#video-ad,div.advertise_02,div.footer-floating-ad,div.iwm_ba,div.tvreport-\\%ed\\%94\\%bd\\%ed\\%81\\%b4\\%eb\\%a6\\%ad-\\%ec\\%95\\%b5\\%ec\\%bb\\%a4\\%ea\\%b4\\%91\\%ea\\%b3\\%a0,div[class^=\"tvreport-adsense-\"],div[class^=\"tvreport-adtive-\"],div[id^=\"adMall_popup_\"],iframe[src^=\"//ad.tvreport.co.kr/\"][src*=\"?m=i\"]"
                     }
                 }
             },

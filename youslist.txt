@@ -235,6 +235,7 @@
 ##iframe[src*="//news.nate.com/etc/AD"]
 ##iframe[src*="//nvapi.feeldmc.com/ad/"]
 ##iframe[src*="//ojsfile.ohmynews.com/AD_FILE/"]
+##iframe[src*="//planmix.co.kr/ad/"]
 ##iframe[src*="//plugin.2beon.co.kr/"]
 ##iframe[src*="//plugin.adplex.co.kr/iframe/"][src*=".html"]
 ##iframe[src*="//pub.adpnut.com/"]
@@ -1878,8 +1879,10 @@
 ||pixon.ads-pixiv.net/show^$domain=pixiv.net
 ||pl*.puhtml.com^
 ||pl*.revenuecpmnetwork.com/*/*.js^
+||planmix.co.kr/ad/
 ||player.anyclip.com/anyclip-widget/lre-widget/prod/v1/src/lre.js^
 ||player.ex.co/player/
+||player.globalsun.io/player/videojs-contrib-ads/dist/videojs.ads.min.js^
 ||plug.plufdsb.com/wdgt/
 ||plugin.2beon.co.kr^
 ||plugin.adplex.co.kr/iframe/*.html^
@@ -6761,8 +6764,13 @@ tvreport.co.kr##body>div[style="position:absolute;;top:0px;right:80px"]
 tvreport.co.kr##div#CmAdContent div[style="text-align:center;width:320px;margin:10px 0 0 -10px"]
 tvreport.co.kr##div#CmAdContent>div[style="float: right; margin-top: 27px;"]
 tvreport.co.kr##div#iwmads
+tvreport.co.kr##div#video-ad
 tvreport.co.kr##div.advertise_02
+tvreport.co.kr##div.footer-floating-ad
 tvreport.co.kr##div.iwm_ba
+tvreport.co.kr##div.tvreport-\%ed\%94\%bd\%ed\%81\%b4\%eb\%a6\%ad-\%ec\%95\%b5\%ec\%bb\%a4\%ea\%b4\%91\%ea\%b3\%a0
+tvreport.co.kr##div[class^="tvreport-adsense-"]
+tvreport.co.kr##div[class^="tvreport-adtive-"]
 tvreport.co.kr##div[id^="adMall_popup_"]
 tvreport.co.kr##iframe[src^="//ad.tvreport.co.kr/"][src*="?m=i"]
 tvseoul.kr##div#news_body_area>div[style="clear:both;margin-bottom:10px;margin-top:10px;margin-left:10px;text-align:center;float:right;width:336px;height:280px;"]
