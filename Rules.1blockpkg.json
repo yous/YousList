@@ -42903,6 +42903,19 @@
                 }
             },
             {
+                "id": "3196d035-4a05-4d51-9d9a-08e03744b599",
+                "name": "newautopost.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newautopost\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.footer-floating-ad,div.newautopost-gsm-video-ad,div[class^=\"newautopost-adsense-\"]"
+                    }
+                }
+            },
+            {
                 "id": "bde97a27-cd18-4b54-8b3f-0facdee4b075",
                 "name": "newdaily.co.kr##",
                 "content": {
