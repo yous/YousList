@@ -42584,6 +42584,19 @@
                 }
             },
             {
+                "id": "48127482-fd6d-4e3f-a5a3-3d7a70ccfe09",
+                "name": "mobilitytv.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mobilitytv\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.footer-floating-ad,div.mobilitytv-gsm-video-ad,div[class^=\"mobilitytv-adsense-\"]"
+                    }
+                }
+            },
+            {
                 "id": "7861e2b9-eba7-497a-b1ad-487da2edeb70",
                 "name": "modoocode.com##",
                 "content": {
