@@ -13267,6 +13267,19 @@
                 }
             },
             {
+                "id": "e416bdd4-952c-447c-a456-8247d7ae34f1",
+                "name": "ca-api.cafe24data.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ca-api\\.cafe24data\\.com",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d30fba96-fe6b-40dd-a473-628b5e230ec8",
                 "name": "cache.ssend.microad.jp/js/adfunnel-sp-load.js",
                 "content": {
