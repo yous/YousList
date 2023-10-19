@@ -30483,6 +30483,22 @@
                 }
             },
             {
+                "id": "3b7a8d0e-1892-4165-a117-dcbc814f889d",
+                "name": "tvhot.cc/b/$domain=tvhot.cc",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tvhot\\.cc/b/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*tvhot.cc"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0548874f-3d69-4053-b8f4-958b849cd19e",
                 "name": "tvple.com/ab/MW-B-*$domain=tvple.com",
                 "content": {
@@ -46896,6 +46912,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "aside.tbcms_ad-block,div.tbcms_ad-block"
+                    }
+                }
+            },
+            {
+                "id": "dae7575f-d0fd-4c02-a49c-2a276685e1ab",
+                "name": "tvhot.cc##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tvhot\\.cc"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"/b.php\"]"
                     }
                 }
             },
