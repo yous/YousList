@@ -12824,6 +12824,19 @@
                 }
             },
             {
+                "id": "2c14566f-9ce4-4b1b-8e93-d735ed41be4f",
+                "name": "blacktoon*.com/poster_js/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?blacktoon.*\\.com/poster_js/.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "59403a5f-5178-421c-b9f0-0eccf88c9cac",
                 "name": "blockadsnot.com/*.aspx",
                 "content": {
@@ -33509,6 +33522,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_below_bottom_breadcrumb,div.ad_below_top_breadcrumb,div.ad_header,div.ad_message_below_first,div.ad_message_below_last,div.ad_sidebar_bottom"
+                    }
+                }
+            },
+            {
+                "id": "370a8abe-7a43-4112-9716-d44477ecebe4",
+                "name": "blacktoon262.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?blacktoon262\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top-ad-padding"
                     }
                 }
             },
