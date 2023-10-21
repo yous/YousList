@@ -23469,6 +23469,22 @@
                 }
             },
             {
+                "id": "e4a08d8b-5d9b-472a-9d5a-b95e59b45ea1",
+                "name": "m.tenbizt.com/wp-content/plugins/advanced-ads-pro/assets/js/advanced-ads-pro.min.js$domain=m.tenbizt.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.tenbizt\\.com/wp-content/plugins/advanced-ads-pro/assets/js/advanced-ads-pro\\.min\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.tenbizt.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8a530322-e1ab-4bf3-bb9d-b17341d0c5bd",
                 "name": "m.tenbizt.com/wp-content/plugins/advanced-ads/public/assets/js/advanced.min.js$domain=m.tenbizt.com",
                 "content": {
@@ -41555,7 +41571,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.footer-floating-ad,div[class^=\"tenbizt-adsense-\"]"
+                        "selector": "div.floating-150-ad,div.footer-floating-ad,div[class^=\"tenbizt-adsense-\"]"
                     }
                 }
             },
