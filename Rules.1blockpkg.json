@@ -30477,6 +30477,32 @@
                 }
             },
             {
+                "id": "8e5a422a-49d2-4e1d-bb62-8da2d47dd676",
+                "name": "tvchak*.com/img/banner*.gif",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tvchak.*\\.com/img/banner.*\\.gif",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "dd4e7f46-0a17-482d-ad03-527b4d357a69",
+                "name": "tvchak*.com/img/bbnn*.gif",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tvchak.*\\.com/img/bbnn.*\\.gif",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "81646359-0092-425f-ad54-c939149c7a93",
                 "name": "tvchosun.com/front/ad/$domain=news.tvchosun.com",
                 "content": {
@@ -46951,6 +46977,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "aside.tbcms_ad-block,div.tbcms_ad-block"
+                    }
+                }
+            },
+            {
+                "id": "658121a6-8c94-4468-a48b-32d6621fa07a",
+                "name": "tvchak61.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tvchak61\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-box,div.left_ban,div.right_ban"
                     }
                 }
             },
