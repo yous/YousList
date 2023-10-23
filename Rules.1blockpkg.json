@@ -11300,6 +11300,54 @@
                 }
             },
             {
+                "id": "0a0ecaa9-3092-4227-9d8b-6a94b2932fb2",
+                "name": "adserver.joseilbo.com/openads/adframe.php$domain=joseilbo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adserver\\.joseilbo\\.com/openads/adframe\\.php",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*joseilbo.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "bfc9e3b7-6a16-403d-9ed5-c7966967a708",
+                "name": "adserver.joseilbo.com/openads/adjs.php$domain=joseilbo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adserver\\.joseilbo\\.com/openads/adjs\\.php",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*joseilbo.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c9f4ff1a-9ee3-4d92-a106-891d415c1a5e",
+                "name": "adserver.joseilbo.com/openads/adx.js$domain=joseilbo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adserver\\.joseilbo\\.com/openads/adx\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*joseilbo.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "abdac13e-4bba-4a55-baaa-b4eadec16bf6",
                 "name": "adserver.juicyads.com/adshow.php",
                 "content": {
@@ -38777,6 +38825,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#id_header_R"
+                    }
+                }
+            },
+            {
+                "id": "9e392ff3-6c0a-47f3-85ac-ac561fff427a",
+                "name": "joseilbo.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?joseilbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class$=\"_banner\"],div[class^=\"R_cnt_bn_\"],iframe[src*=\"//adserver.joseilbo.com/openads/adframe.php\"]"
                     }
                 }
             },
