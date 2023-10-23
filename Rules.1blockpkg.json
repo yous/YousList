@@ -46893,6 +46893,19 @@
                 }
             },
             {
+                "id": "980c25a0-f605-496e-830a-6cc9cef9f765",
+                "name": "torrentreel51.site##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentreel51\\.site"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#container>div.content-left>a[style=\"padding-bottom: 5px;\"][target=\"_blank\"],div#container>div.content-right>div.sub-cont>div[style=\"text-align:center;\"],div#container>div.content-right>div[style=\"margin: 10px; text-align:center;\"],div#container>div[style=\"margin: 10px; text-align:center;\"],div.ad-cont-box"
+                    }
+                }
+            },
+            {
                 "id": "22c65463-98ba-4bc1-89f3-8bc250d1b9d2",
                 "name": "torrentsee48.com##",
                 "content": {
