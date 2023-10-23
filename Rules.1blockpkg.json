@@ -39349,6 +39349,19 @@
                 }
             },
             {
+                "id": "f75c4a35-cb5a-4cb0-b6e9-07c4490b0df1",
+                "name": "kyeonggi.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kyeonggi\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.top_banner_box,div[class^=\"btm_ad_box\"],div[class^=\"center_ad_box\"],div[class^=\"middle_ad\"],div[class^=\"side_ad\"]"
+                    }
+                }
+            },
+            {
                 "id": "3f1dc2cf-7f96-4e17-923b-7c1bb04718c0",
                 "name": "kyeongin.com##",
                 "content": {
