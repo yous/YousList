@@ -30298,6 +30298,19 @@
                 }
             },
             {
+                "id": "3be358eb-c543-46a4-b3b0-4f6c785473c4",
+                "name": "torrentsee*.com/js/jquery.ksad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentsee.*\\.com/js/jquery\\.ksad\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "14cb3e0e-55c3-481c-b83c-c6aa3a9a0a38",
                 "name": "tpc.googlesyndication.com/daca_images/simgad/$domain=googleads.g.doubleclick.net|pagead2.googlesyndication.com",
                 "content": {
@@ -46906,15 +46919,15 @@
                 }
             },
             {
-                "id": "22c65463-98ba-4bc1-89f3-8bc250d1b9d2",
-                "name": "torrentsee48.com##",
+                "id": "66ba0f86-7d98-489f-beb5-f1b4d692cf60",
+                "name": "torrentsee189.com##",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentsee48\\.com"
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentsee189\\.com"
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.mmbannel,div.tads1"
+                        "selector": "div.adver-list,div.mmbannel,div.tads1,div[id^=\"ad_\"]"
                     }
                 }
             },
