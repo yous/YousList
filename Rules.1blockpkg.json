@@ -10146,6 +10146,19 @@
                 }
             },
             {
+                "id": "fde24abf-f53b-46ea-a2b0-d0a435629206",
+                "name": "adfork.co.kr/ad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adfork\\.co\\.kr/ad/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6b45e054-1e5e-4fc2-8c13-6e39f71e6cf9",
                 "name": "adget.co.kr",
                 "content": {
@@ -40831,6 +40844,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.view_box>div.bm_box>div[style=\"width:360px; height:65px; margin:5px 0px 5px 0px;\"]"
+                    }
+                }
+            },
+            {
+                "id": "2ae20e8c-15e8-47bb-9959-b8b85d34dc63",
+                "name": "m.joseilbo.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.joseilbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mb_banner"
                     }
                 }
             },
