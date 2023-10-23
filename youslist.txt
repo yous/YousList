@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20231021
+! Version: 20231023
 
 ! General element hiding rules
 ##amp-ad
@@ -1375,6 +1375,8 @@
 ||hungryapp.co.kr/banner/banner_*.php^$domain=hungryapp.co.kr
 ||hygall.com/box/kakao_scroll50.html^$domain=hygall.com
 ||i.011st.com/ui_img/adoffice/creative/js/adcreative.min.js^
+||i.keezip.com/ad/
+||i.keezip.com/images/
 ||i.ligatus.com/angular_front/tags/it/notizie/tags/angular-tag.js^
 ||i.mediatraffic.com.ua/js/uho/mt20_3.js^
 ||i.socdm.com/sdk/js/adg-script-loader.js^
@@ -2137,6 +2139,7 @@
 ||tempest.services.disqus.com/ads-iframe/adsnative/
 ||tempest.services.disqus.com/ads-iframe/google/
 ||tf.co.kr/public/ad/^$domain=tf.co.kr
+||tfreeca*.com/ad/
 ||tg1.aniview.com/api/adserver/spt^
 ||tg1.premiumimpression.com/api/adserver/spt^
 ||theceluv.com/banner/$domain=m.theceluv.com|theceluv.com
@@ -6588,6 +6591,8 @@ tf.co.kr##iframe[src^="https://nad.tf.co.kr/v/pr/fr/thefact/"]
 tfnews.co.kr##div.banner_wrap
 tfnews.co.kr##div.com_ban
 tfnews.co.kr##div.top_banner
+tfreeca22.com##body>table:first-of-type>tbody>tr:first-of-type>td:nth-of-type(2)>div[style="padding-bottom:5px"]
+tfreeca22.com##div#container>p[style="padding:2px; text-align: center"]
 tgd.kr##body>div[style="background: #efefef;padding:0;"]
 tgd.kr##div#article-list>div[style="background: #efefef;padding:10px 8px;"]
 tgd.kr##div#article-list>div[style="background:#efefef;padding:10px 8px;"]

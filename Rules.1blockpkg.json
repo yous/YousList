@@ -19139,6 +19139,32 @@
                 }
             },
             {
+                "id": "6a7eb4fb-e7fa-41f5-8ea6-718de29309f6",
+                "name": "i.keezip.com/ad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?i\\.keezip\\.com/ad/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2f367e36-3e52-412e-a464-1f757a7fb3ff",
+                "name": "i.keezip.com/images/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?i\\.keezip\\.com/images/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "26dc77e6-1d35-499d-8a76-1f08da4a8818",
                 "name": "i.ligatus.com/angular_front/tags/it/notizie/tags/angular-tag.js",
                 "content": {
@@ -30013,6 +30039,19 @@
                         "if-domain": [
                             "*tf.co.kr"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "dae9b834-9c9c-475e-918a-4bdf66626fdd",
+                "name": "tfreeca*.com/ad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tfreeca.*\\.com/ad/",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
@@ -46239,6 +46278,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.banner_wrap,div.com_ban,div.top_banner"
+                    }
+                }
+            },
+            {
+                "id": "375a8d8e-820f-4f3c-8bdd-e0c0398c1ab0",
+                "name": "tfreeca22.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tfreeca22\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>table:first-of-type>tbody>tr:first-of-type>td:nth-of-type(2)>div[style=\"padding-bottom:5px\"],div#container>p[style=\"padding:2px; text-align: center\"]"
                     }
                 }
             },
