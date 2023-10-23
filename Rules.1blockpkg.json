@@ -30372,6 +30372,32 @@
                 }
             },
             {
+                "id": "6aafb1ec-b980-4fb1-9aae-0f524e422be1",
+                "name": "torrentpi*.com/data/file/ad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentpi.*\\.com/data/file/ad/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "3a100aa9-730f-4c0d-bb4a-9bed3b37249a",
+                "name": "torrentpi*.com/data/file/ads/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentpi.*\\.com/data/file/ads/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "3be358eb-c543-46a4-b3b0-4f6c785473c4",
                 "name": "torrentsee*.com/js/jquery.ksad.js",
                 "content": {
@@ -46989,6 +47015,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.left_banner,div.side_bimg,div.top_bimg"
+                    }
+                }
+            },
+            {
+                "id": "a58aec68-66f1-4a1e-ac9a-5b87fd997c1b",
+                "name": "torrentpi88.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentpi88\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.hd_pops,div.widget-box>div.basic-post-gallery"
                     }
                 }
             },
