@@ -2994,6 +2994,19 @@
                 }
             },
             {
+                "id": "f6acb3f5-9cb0-4545-acd4-f0fe62f28037",
+                "name": "##iframe[src*=\"//optbeacon.net/beat.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//optbeacon.net/beat.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "1842fc98-671d-4794-8590-006c2b289a79",
                 "name": "##iframe[src*=\"//planmix.co.kr/ad/\"]",
                 "content": {
@@ -36510,7 +36523,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ad_body,div#add_view_03,div#add_view_06,div#add_view_upHot,div#fn_addFooter,div#fn_addFooter2,div#madd06,div#madd07,div#mlist_add,div.ad_banner_leftWing,div.ad_banner_rightWing,ul#lineAdList"
+                        "selector": "div#ad_body,div#ad_right_view_top,div#add_view_03,div#add_view_06,div#add_view_upHot,div#fn_addFooter,div#fn_addFooter2,div#madd06,div#madd07,div#mlist_add,div#pltapad,div.ad_banner_leftWing,div.ad_banner_rightWing,ul#lineAdList"
                     }
                 }
             },
