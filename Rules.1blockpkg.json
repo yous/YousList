@@ -44393,6 +44393,19 @@
                 }
             },
             {
+                "id": "621e5743-2656-4ee7-be71-1d47d573214b",
+                "name": "phoronix.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?phoronix\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#fs-sticky-footer,div#main>div[style=\"text-align: center; overflow: hidden; margin-bottom: 30px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "b7e92f31-4e90-4b09-8326-66f6c256cf78",
                 "name": "photo.heraldcorp.com##",
                 "content": {
