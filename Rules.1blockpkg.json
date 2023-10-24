@@ -37828,6 +37828,19 @@
                 }
             },
             {
+                "id": "5e6469ae-b773-42d2-a432-b205fcbb4c9e",
+                "name": "how2shout.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?how2shout\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside#custom_html-18,aside#custom_html-19,aside#custom_html-20,div.ads-line,div.adsbyvli"
+                    }
+                }
+            },
+            {
                 "id": "4a9a4ba5-cb84-46d5-ab51-c422790fdc86",
                 "name": "howtoforge.com##",
                 "content": {
@@ -39527,6 +39540,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.scban_wrap,div.scban_wrap2,div[id^=\"xe_popup\"]"
+                    }
+                }
+            },
+            {
+                "id": "733de073-d13b-47ba-8d05-9e8eacc78df6",
+                "name": "linux.how2shout.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?linux\\.how2shout\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside#custom_html-10,aside#custom_html-24,aside#custom_html-25"
                     }
                 }
             },
