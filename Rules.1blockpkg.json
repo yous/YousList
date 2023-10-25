@@ -25726,6 +25726,38 @@
                 }
             },
             {
+                "id": "96a4424f-606a-4095-8cd0-0b9d8f2a36da",
+                "name": "nongimn.com/-/raw/srv-nongmin/data1/srv-nongmin/resources/banner/$domain=nongmin.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?nongimn\\.com/-/raw/srv-nongmin/data1/srv-nongmin/resources/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*nongmin.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "88a3d147-6e60-454e-ae3d-ea84a99012b3",
+                "name": "nongmin.com/wps/engine/rest/bannerGroup$domain=nongmin.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?nongmin\\.com/wps/engine/rest/bannerGroup",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*nongmin.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "e6f2feb3-d97a-4353-b2ab-6935531a5314",
                 "name": "npian.com/nbox/ad*.swf",
                 "content": {
@@ -43960,6 +43992,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad1,div.ad_sky,div.ad_sky2,div.ad_top1,div.ad_view,div.head_adl,div.head_adr2,div.view_ban"
+                    }
+                }
+            },
+            {
+                "id": "62f91bcd-d78b-4e3a-b26b-fca0e20248cb",
+                "name": "nongmin.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?nongmin\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_render,div.hd_bnr,div.main_hd_bnr,div.main_right_slide,div.right_top_bnr"
                     }
                 }
             },
