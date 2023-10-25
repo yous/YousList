@@ -37727,6 +37727,19 @@
                 }
             },
             {
+                "id": "54fe89fa-52d4-46e5-bbf2-c7cf69ed7d81",
+                "name": "healtho.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?healtho\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner,div.doc03"
+                    }
+                }
+            },
+            {
                 "id": "ba9a62bf-a12e-4c75-b109-1bdd4ed1b433",
                 "name": "hellodd.com##",
                 "content": {
