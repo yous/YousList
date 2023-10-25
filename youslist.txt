@@ -1882,6 +1882,7 @@
 ||pcwelt.de/js/adserver_footer.js^$domain=pcwelt.de
 ||pd4-imp.revsci.net/rtbads/pq^
 ||pds.dailypharm.com/ADManager_2017/$domain=dailypharm.com|m.dailypharm.com
+||pds.medicaltimes.com/Banner/$domain=medicaltimes.com
 ||ph.kado.net/adcontent/script/*.js^$domain=kado.net
 ||ph.sisain.co.kr/adcontent/script/*.js^$domain=sisain.co.kr
 ||ph.spotvnews.co.kr/adcontent/script/*.js^$domain=m.spotvnews.co.kr|spotvnews.co.kr
@@ -5365,13 +5366,12 @@ mediatoday.co.kr##iframe[src*="/adItem/"]
 mediaus.co.kr##iframe[src^="/banner/"]
 mediaus.co.kr##iframe[src^="http://www.mediaus.co.kr/banner/"]
 medicaltimes.com##a[href^="/Users/ADManager2018/ADMamagerCountStat.html"]
-medicaltimes.com##div.ad
-medicaltimes.com##div.footerAD
-medicaltimes.com##div.newsBody>div[style="margin:10px 15px; padding:15px;"]
-medicaltimes.com##div.newsTxt>div[style="padding-top: 15px;"]
-medicaltimes.com##div.thirdSection>div[style="background-color: #f2f2f2;border: 1px solid #cccccc;box-sizing: border-box;margin-bottom: 15px;text-align:center;padding:32px 0px"]
-medicaltimes.com##div.thirdSection>div[style="padding-bottom:10px"]
-medicaltimes.com##nav>div:not([class]):not([id])>ul[style="padding-top:10px;margin:0px auto;width:1200px;text-align:right;"]
+medicaltimes.com##div.centerAD
+medicaltimes.com##div.headerTop_ad
+medicaltimes.com##div.header_ad
+medicaltimes.com##div.sideBigAD
+medicaltimes.com##div.sideTopAD
+medicaltimes.com##div.viewCont_AD
 medigatenews.com##div.ads
 medipana.com##div.artc_ad:not(h1+div)
 meeco.kr##div.ldd.list_d>ul>li:not([class])

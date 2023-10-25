@@ -26451,6 +26451,22 @@
                 }
             },
             {
+                "id": "7ba59803-ef02-4be4-833a-cdcf12e64b3c",
+                "name": "pds.medicaltimes.com/Banner/$domain=medicaltimes.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pds\\.medicaltimes\\.com/Banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*medicaltimes.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d8d00c63-0ace-4f98-b26f-6b4986720a2e",
                 "name": "ph.kado.net/adcontent/script/*.js$domain=kado.net",
                 "content": {
@@ -42685,7 +42701,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "a[href^=\"/Users/ADManager2018/ADMamagerCountStat.html\"],div.ad,div.footerAD,div.newsBody>div[style=\"margin:10px 15px; padding:15px;\"],div.newsTxt>div[style=\"padding-top: 15px;\"],div.thirdSection>div[style=\"background-color: #f2f2f2;border: 1px solid #cccccc;box-sizing: border-box;margin-bottom: 15px;text-align:center;padding:32px 0px\"],div.thirdSection>div[style=\"padding-bottom:10px\"],nav>div:not([class]):not([id])>ul[style=\"padding-top:10px;margin:0px auto;width:1200px;text-align:right;\"]"
+                        "selector": "a[href^=\"/Users/ADManager2018/ADMamagerCountStat.html\"],div.centerAD,div.headerTop_ad,div.header_ad,div.sideBigAD,div.sideTopAD,div.viewCont_AD"
                     }
                 }
             },
