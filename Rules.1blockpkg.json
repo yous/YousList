@@ -47116,6 +47116,19 @@
                 }
             },
             {
+                "id": "82f0fe2c-4a02-47d8-9096-8e187fb77e7d",
+                "name": "torrentpi89.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentpi89\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.hd_pops,div.widget-box>div.basic-post-gallery"
+                    }
+                }
+            },
+            {
                 "id": "7048efc2-2fd1-444e-8132-4df1b59be3a5",
                 "name": "torrentqq279.com##",
                 "content": {
