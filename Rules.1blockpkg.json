@@ -27065,6 +27065,23 @@
                 }
             },
             {
+                "id": "5a8fbf87-ce2a-4b7d-aa05-756708dd3f5c",
+                "name": "pv.humoruniv.com/pv/pv_iframe.html$domain=m.humoruniv.com|web.humoruniv.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pv\\.humoruniv\\.com/pv/pv_iframe\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.humoruniv.com",
+                            "*web.humoruniv.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "e5eb22c0-9dbc-4590-aa81-07a3539c09e0",
                 "name": "pxl.retaku.net",
                 "content": {
