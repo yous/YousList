@@ -18413,6 +18413,22 @@
                 }
             },
             {
+                "id": "1e7d4996-b9b0-4afd-b449-804265777201",
+                "name": "ggeal.com/pv/html$domain=ggeal.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ggeal\\.com/pv/html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*ggeal.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "3df7ab0f-3734-44a0-854c-4b93bb44dfe3",
                 "name": "ggilbo.com/banner/banner_roll_msidebtm.html$domain=ggilbo.com",
                 "content": {
