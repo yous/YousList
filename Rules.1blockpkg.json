@@ -47230,6 +47230,19 @@
                 }
             },
             {
+                "id": "8be16398-6bf7-41e7-bbce-986868de2885",
+                "name": "torrentsee190.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?torrentsee190\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adver-list,div.mmbannel,div.tads1,div[id^=\"ad_\"]"
+                    }
+                }
+            },
+            {
                 "id": "bc935932-afc7-4156-818d-76219baad146",
                 "name": "touch.pixiv.net##",
                 "content": {
