@@ -24858,19 +24858,6 @@
                 }
             },
             {
-                "id": "33d0f471-88bb-46b6-a9f4-d39fc7e8d49a",
-                "name": "munhwa.com/skin/inc_right/inc_denta_ad_iframe.html",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?munhwa\\.com/skin/inc_right/inc_denta_ad_iframe\\.html",
-                        "url-filter-is-case-sensitive": false
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "5ef38dca-ddce-4b4a-ae5c-b4bc407fa953",
                 "name": "mv.ad.naver.com/adshow",
                 "content": {
@@ -43260,7 +43247,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#divScroll,div#left_skyWingBanner,div#right_skyWingBanner,iframe[name=\"denta_adv\"]"
+                        "selector": "div.article_item.ad,div.aside_ad,section.main_section_ad,ul.footer_promotion"
                     }
                 }
             },
