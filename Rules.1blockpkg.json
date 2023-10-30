@@ -40795,6 +40795,32 @@
                 }
             },
             {
+                "id": "86b2115c-8a85-4468-b0a0-00c6dcc3c97e",
+                "name": "m.heraldpop.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.heraldpop\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[class^=\"ad_\"],div[class^=\"ad_\"]"
+                    }
+                }
+            },
+            {
+                "id": "d577b63c-208c-4b06-85a2-42013fcb38e2",
+                "name": "mpop.heraldcorp.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mpop\\.heraldcorp\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[class^=\"ad_\"],div[class^=\"ad_\"]"
+                    }
+                }
+            },
+            {
                 "id": "63fd15a1-fb20-47fd-a940-f35ca356a0a8",
                 "name": "m.hkbs.co.kr##",
                 "content": {
@@ -43144,19 +43170,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#popup,div#side_ads,div#side_ads_bottom_right"
-                    }
-                }
-            },
-            {
-                "id": "d577b63c-208c-4b06-85a2-42013fcb38e2",
-                "name": "mpop.heraldcorp.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?mpop\\.heraldcorp\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#ad20160801_1,div#ad20160801_2,div#ad20160801_3,div#newslist1,div.story2,div[id^=\"ad4989_\"],div[id^=\"adintext\"],div[id^=\"adsmnc\"],div[id^=\"mnc_hrdp_\"],span[id^=\"adintext\"],span[id^=\"adsmnc\"],span[id^=\"byline_ad_\"],span[id^=\"mfarm_text\"],ul#adsmnctext"
                     }
                 }
             },
