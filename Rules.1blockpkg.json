@@ -31019,6 +31019,19 @@
                 }
             },
             {
+                "id": "c403a29c-344a-4264-a6ea-308ac8595d8e",
+                "name": "v1.oddsserve.com/*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?v1\\.oddsserve\\.com/.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "fe20d74a-13db-413e-8af5-16fb0b29aa0e",
                 "name": "v5.actionteaser.ru/news.php",
                 "content": {
@@ -37333,6 +37346,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#loginArea>div.banner"
+                    }
+                }
+            },
+            {
+                "id": "8a00e1e3-9b75-4a09-a095-225d509313e3",
+                "name": "goal.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?goal\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.component-ad,div[id^=\"adPlaceholder-\"],li[data-type=\"AdComponent\"]"
                     }
                 }
             },
