@@ -49076,6 +49076,22 @@
                 }
             },
             {
+                "id": "12753b43-8da5-45a2-8edb-fe92e174b817",
+                "name": "@@besteleven.com/bannerpop/uploads/image/$domain=besteleven.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?besteleven\\.com/bannerpop/uploads/image/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*besteleven.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
+                    }
+                }
+            },
+            {
                 "id": "768c80b7-0da0-43eb-a11f-6c09c6419ff3",
                 "name": "@@googleads.g.doubleclick.net/pagead/ads?*&crui=*",
                 "content": {
