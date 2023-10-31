@@ -39121,19 +39121,6 @@
                 }
             },
             {
-                "id": "88b9582b-fc6f-482e-8e5a-4763d648260b",
-                "name": "kernelnewbies.kernelnewbies.narkive.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?kernelnewbies\\.kernelnewbies\\.narkive\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#thread_container>div[style=\"margin-top: 10px; margin-bottom: 10px; height: 410px;\"],div.ads_post_bit"
-                    }
-                }
-            },
-            {
                 "id": "0bdf309b-d0ed-4d65-988b-b3dae546d1f6",
                 "name": "keybr.com##",
                 "content": {
@@ -43420,6 +43407,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "body>div:nth-of-type(2)>table:nth-of-type(2)>tbody>tr>td:nth-of-type(4)>table:nth-of-type(2)>tbody>tr>td>table:nth-of-type(2),body>div:nth-of-type(2)>table:nth-of-type(2)>tbody>tr>td:nth-of-type(4)>table:nth-of-type(2)>tbody>tr>td>table:nth-of-type(3),body>div:nth-of-type(2)>table:nth-of-type(2)>tbody>tr>td:nth-of-type(4)>table:nth-of-type(2)>tbody>tr>td>table:nth-of-type(4)"
+                    }
+                }
+            },
+            {
+                "id": "de981541-4bf7-4c47-b1ed-cd4fa4f94be6",
+                "name": "narkive.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?narkive\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sidebar_banner_right,div#thread_container>div[style=\"width: 550px; margin-left: 12px\"]"
                     }
                 }
             },
