@@ -42358,6 +42358,19 @@
                 }
             },
             {
+                "id": "e8a79637-d024-48b6-aa2c-d97d8bb11acc",
+                "name": "mail.daum.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mail\\.daum\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#daBannerWrapper"
+                    }
+                }
+            },
+            {
                 "id": "57c8bea8-4322-427a-94bb-9a945d77c831",
                 "name": "mail.google.com##",
                 "content": {
