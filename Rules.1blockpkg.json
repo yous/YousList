@@ -2123,6 +2123,19 @@
                 }
             },
             {
+                "id": "8c84bf40-54a0-48e2-af8f-271f990fc2cc",
+                "name": "##iframe[src*=\"//authanalysis.com/CLad.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//authanalysis.com/CLad.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "9a3c72de-f7c3-4952-95d6-70475cf04e81",
                 "name": "##iframe[src*=\"//b.bestcontentfood.top/loader\"]",
                 "content": {
@@ -12654,6 +12667,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?at\\.atwola\\.com/addyn/3\\.0/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "471d5deb-e175-4a13-8f36-cace853e1a9a",
+                "name": "authanalysis.com/CLad.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?authanalysis\\.com/CLad\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -41820,7 +41846,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "aticle#cont>div[style=\"padding:20px 10px;\"],body>div[style=\"height:48px;width:100%;background-color:#f6f6f6;z-index:10;\"],body>div[style=\"text-align:center; margin: 25px 0;\"],div#adBottomAdbnMobile,div#caulyad,div#photo_area~div[align=\"center\"][style=\"width: 100%; height: 100px; overflow: hidden;\"],div#wrap>div[style=\"position: fixed; width: 100%; height: 100px; text-align: center; margin: auto; top: 0; background: #fff; z-index: 99999;\"],div#wrap>div[style=\"position: fixed; width: 100%; height: 100px; text-align: center; margin: auto; top: 0; background: #fff; z-index: 9999;\"],div.ad2013,div.top_ad,div[id^=\"absdiv\"],div[itemprop=\"articleBody\"]>div[style=\"width:210px;height:205px;float:right;padding-left:10px;padding-bottom:5px;\"]"
+                        "selector": "aticle#cont>div[style=\"padding:20px 10px;\"],body>div[style=\"height:48px;width:100%;background-color:#f6f6f6;z-index:10;\"],body>div[style=\"text-align:center; margin: 25px 0;\"],div#adBottomAdbnMobile,div#caulyad,div#footer_container>div.ap_box,div#photo_area~div[align=\"center\"][style=\"width: 100%; height: 100px; overflow: hidden;\"],div#wrap>div[style=\"position: fixed; width: 100%; height: 100px; text-align: center; margin: auto; top: 0; background: #fff; z-index: 99999;\"],div#wrap>div[style=\"position: fixed; width: 100%; height: 100px; text-align: center; margin: auto; top: 0; background: #fff; z-index: 9999;\"],div.ad2013,div.top_ad,div[id^=\"absdiv\"],div[itemprop=\"articleBody\"]>div[style=\"width:210px;height:205px;float:right;padding-left:10px;padding-bottom:5px;\"]"
                     }
                 }
             },
