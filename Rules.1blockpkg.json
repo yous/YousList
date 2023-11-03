@@ -48312,6 +48312,19 @@
                 }
             },
             {
+                "id": "c22156ee-c9b3-4373-ad2c-656e6d019354",
+                "name": "webins.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?webins\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.container>div>a[href^=\"/AD/WIADNO/\"]"
+                    }
+                }
+            },
+            {
                 "id": "78b2088b-0c84-4b83-880e-8e07bbf35e9c",
                 "name": "webpagetest.org##",
                 "content": {
