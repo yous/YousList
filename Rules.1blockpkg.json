@@ -1603,6 +1603,19 @@
                 }
             },
             {
+                "id": "5b5a5216-c5d4-4aae-a156-1676f0b275f1",
+                "name": "##iframe[src*=\"//adraction.co.kr/dract.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//adraction.co.kr/dract.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "9b060680-238f-4087-8704-8d87cf4c1871",
                 "name": "##iframe[src*=\"//ads-optima.com/www/delivery/afr.php\"]",
                 "content": {
@@ -10430,6 +10443,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?adpick\\.co\\.kr/nativeAD/script\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2b69289d-8ee8-45b4-aa9a-37c0b3aa3b6f",
+                "name": "adraction.co.kr/dract.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adraction\\.co\\.kr/dract\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -20022,12 +20048,32 @@
                 }
             },
             {
-                "id": "f263e4ee-610e-41a8-a492-fe3ff98e3e8a",
-                "name": "img.asiatoday.co.kr/adver/",
+                "id": "5652dfb5-11e4-4018-92b1-658810255e1c",
+                "name": "img.asiatoday.co.kr/a2img/mobile/banner/$domain=m.asiatoday.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.asiatoday\\.co\\.kr/a2img/mobile/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.asiatoday.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f4e11b65-6d34-4365-aa5e-e7cd6febb7ca",
+                "name": "img.asiatoday.co.kr/adver/$domain=asiatoday.co.kr|m.asiatoday.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.asiatoday\\.co\\.kr/adver/",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*asiatoday.co.kr",
+                            "*m.asiatoday.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -40013,7 +40059,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#btm,div.a5>div.bbs_d.bbw_thin.bts_d.btw_thin.pb_2.pt_5,div.ad10,div.ad14,div.ad15,div.ad7,div.ad8,div.ad9,div.news_bm>table[style=\"width:218px !important; height:218px; float:right !important; margin:2px 0 0 0;\"],div[id^=\"div-lumi_\"][style=\"height:80px;margin-top:15px\"],iframe[src^=\"/kn/ad/\"],iframe[src^=\"inbnet.html\"]"
+                        "selector": "div#ad_ex1,div#btm,div.a5>div.bbs_d.bbw_thin.bts_d.btw_thin.pb_2.pt_5,div.ad02,div.ad10,div.ad14,div.ad15,div.ad7,div.ad8,div.ad9,div.atoomall_ad_wrap,div.container>div[style=\"width:100%;height:auto;text-align:center;display:block\"],div.news_bm>table[style=\"width:218px !important; height:218px; float:right !important; margin:2px 0 0 0;\"],div[id^=\"div-lumi_\"][style=\"height:80px;margin-top:15px\"],iframe[src^=\"/kn/ad/\"],iframe[src^=\"inbnet.html\"]"
                     }
                 }
             },

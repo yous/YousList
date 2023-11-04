@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20231103
+! Version: 20231104
 
 ! General element hiding rules
 ##amp-ad
@@ -129,6 +129,7 @@
 ##iframe[src*="//adimg.wisenut.co.kr/wrappingfor"][src*=".php"]
 ##iframe[src*="//adn.inven.co.kr/"]
 ##iframe[src*="//adpick.co.kr/nativeAD/ad.php"]
+##iframe[src*="//adraction.co.kr/dract.php"]
 ##iframe[src*="//ads-optima.com/www/delivery/afr.php"]
 ##iframe[src*="//ads-partners.coupang.com/widgets.html"]
 ##iframe[src*="//ads.acrosspf.com/adinfo.ad"]
@@ -757,6 +758,7 @@
 ||adnext.fr/richmedia.adv^
 ||adpick.co.kr/nativeAD/ad.php^
 ||adpick.co.kr/nativeAD/script.js^
+||adraction.co.kr/dract.php^
 ||adrequisitor-af.lp.uol.com.br/uolaf.js^
 ||ads-by.yieldselect.com^
 ||ads-optima.com/www/delivery/afr.php^
@@ -1436,7 +1438,8 @@
 ||img.ak.impact-ad.jp/ic/pone/commonjs/yone_viewable_iframe_min.js^
 ||img.ak.impact-ad.jp/ic/pone/tags/*/*.js^
 ||img.appstory.co.kr/@files/human_banner/
-||img.asiatoday.co.kr/adver/
+||img.asiatoday.co.kr/a2img/mobile/banner/$domain=m.asiatoday.co.kr
+||img.asiatoday.co.kr/adver/$domain=asiatoday.co.kr|m.asiatoday.co.kr
 ||img.bntnews.hankyung.com/bntdata/images/ad/$domain=m.bntnews.hankyung.com
 ||img.dt.co.kr/unse/
 ||img.entertainpost.com/uploads/someblossom/$domain=entertainpost.com|postshare.co.kr
@@ -4371,14 +4374,18 @@ m.asiae.co.kr##div.add_32050
 m.asiae.co.kr##div.photo_slide2
 m.asiae.co.kr##div.shop_wrap2
 m.asiae.co.kr##div[class^="ad_"]
+m.asiatoday.co.kr##div#ad_ex1
 m.asiatoday.co.kr##div#btm
 m.asiatoday.co.kr##div.a5>div.bbs_d.bbw_thin.bts_d.btw_thin.pb_2.pt_5
+m.asiatoday.co.kr##div.ad02
 m.asiatoday.co.kr##div.ad10
 m.asiatoday.co.kr##div.ad14
 m.asiatoday.co.kr##div.ad15
 m.asiatoday.co.kr##div.ad7
 m.asiatoday.co.kr##div.ad8
 m.asiatoday.co.kr##div.ad9
+m.asiatoday.co.kr##div.atoomall_ad_wrap
+m.asiatoday.co.kr##div.container>div[style="width:100%;height:auto;text-align:center;display:block"]
 m.asiatoday.co.kr##div.news_bm>table[style="width:218px !important; height:218px; float:right !important; margin:2px 0 0 0;"]
 m.asiatoday.co.kr##div[id^="div-lumi_"][style="height:80px;margin-top:15px"]
 m.asiatoday.co.kr##iframe[src^="/kn/ad/"]
