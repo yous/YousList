@@ -14585,6 +14585,22 @@
                 }
             },
             {
+                "id": "20940242-e6c0-4629-ae23-4bbc2dad77f3",
+                "name": "cdn.daejonilbo.com/adManager/js/lab.js$domain=daejonilbo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.daejonilbo\\.com/adManager/js/lab\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*daejonilbo.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4801236d-356a-4988-aa9c-23d1a6438fa5",
                 "name": "cdn.doyouad.com/html/iframe.html",
                 "content": {
@@ -35434,7 +35450,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#banner_main_right180,div#main_news1>div[style=\"width:630px; height:70px;\"],ins[data-ad-slot=\"5132220463\"]"
+                        "selector": "div.ad-template"
                     }
                 }
             },
