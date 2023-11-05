@@ -22214,6 +22214,22 @@
                 }
             },
             {
+                "id": "de432004-fc86-4138-b4f2-a7083834a255",
+                "name": "kwnews.co.kr/wcms_ad.php$domain=kwnews.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kwnews\\.co\\.kr/wcms_ad\\.php",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*kwnews.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "07ea52e3-41c6-4b1f-a80e-5426d99827c3",
                 "name": "l.qq.com/lview$domain=qq.com",
                 "content": {
@@ -39592,6 +39608,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.adzone1,div.adzone2"
+                    }
+                }
+            },
+            {
+                "id": "611202a0-5a0c-446d-8473-932b25380ac8",
+                "name": "kwnews.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kwnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href^=\"/wcms_ad.php\"],div.art_mid_ad,div.left_banner,div.right_banner,div.wcms_banner,div.wing_banner"
                     }
                 }
             },
