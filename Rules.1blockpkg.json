@@ -41338,6 +41338,19 @@
                 }
             },
             {
+                "id": "3ca99945-7310-4417-b51c-5005f94665e4",
+                "name": "m.kwnews.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.kwnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_mid_ad,div.bottom_banner,ul.local_ad"
+                    }
+                }
+            },
+            {
                 "id": "9329e9e4-36a1-487d-bda4-161d96cfd2f8",
                 "name": "m.kyeongin.com##",
                 "content": {
