@@ -36125,6 +36125,19 @@
                 }
             },
             {
+                "id": "8fdd5f4f-3a51-4e90-8148-29edce4fdae7",
+                "name": "dtoday.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dtoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"position: fixed; bottom:70px; left:10px; z-index:99999999999;\"],body>div[style=\"text-align: center; position: fixed; bottom:0; width:100%; height:50px; z-index:999999999999; background-color: #FFF\"]"
+                    }
+                }
+            },
+            {
                 "id": "ef595421-c32a-40d2-857b-d3539835a577",
                 "name": "ebn.co.kr##",
                 "content": {
