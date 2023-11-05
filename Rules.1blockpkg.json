@@ -41864,6 +41864,19 @@
                 }
             },
             {
+                "id": "869efc49-586c-4222-908d-0bc13e86c7c0",
+                "name": "m.richgo.ai##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.richgo\\.ai"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"AdBannerWithApi__AdBannerBottomWrapper\"],div[class^=\"UISet_RichgoMap_ItemList__SD_Root-\"]>a[class^=\"AdBannerWithApi__\"],div[class^=\"UISet_RichgoMap_Pc__SD_BR_Container-\"]>div[style=\"width: 335px; overflow: hidden; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px; pointer-events: painted;\"]"
+                    }
+                }
+            },
+            {
                 "id": "de1da4b8-92b5-44ac-b705-4e012e0b6485",
                 "name": "m.ruliweb.com##",
                 "content": {
