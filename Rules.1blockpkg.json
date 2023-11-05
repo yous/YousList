@@ -33395,6 +33395,19 @@
                 }
             },
             {
+                "id": "2c2dcaf8-26e1-427d-9c2d-19b9c0442f12",
+                "name": "asiatime.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?asiatime\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_background,div[class^=\"article_rightAD_\"],div[class^=\"article_under_banner\"],div[class^=\"m_article_ad_\"],div[class^=\"pc_article_ad_\"],div[class^=\"under_ad\"],div[id^=\"pc_main_ad_banner\"],table[class^=\"articlePcAd_\"]"
+                    }
+                }
+            },
+            {
                 "id": "9507bde1-1112-4085-ab9e-2c237ed7dac3",
                 "name": "asiatoday.co.kr##",
                 "content": {
