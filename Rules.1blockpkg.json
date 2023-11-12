@@ -37743,6 +37743,19 @@
                 }
             },
             {
+                "id": "76dde8f2-1aed-40ee-b7bc-e265a99a05c6",
+                "name": "gukjenews.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?gukjenews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bottom-sticky,div.ad-template"
+                    }
+                }
+            },
+            {
                 "id": "2cb939f9-57b0-4489-8dbe-6c0cdd65fc17",
                 "name": "gyunggijh.co.kr##",
                 "content": {
