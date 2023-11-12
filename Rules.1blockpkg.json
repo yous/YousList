@@ -21976,6 +21976,19 @@
                 }
             },
             {
+                "id": "ba2b1577-98f8-48f1-bbd4-39c23048f131",
+                "name": "kitweb.tadapi.info/network/adapi_ns.js.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kitweb\\.tadapi\\.info/network/adapi_ns\\.js\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2985c709-49c2-4473-b88d-7d3171677827",
                 "name": "kitweb2.tadapi.info/network/adapi.js.php",
                 "content": {
@@ -33929,7 +33942,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.banner,div.bannerWrap,div[class^=\"pcaddNew\"]"
+                        "selector": "div.banner,div.bannerWrap,div.wrap>div[style=\"position: fixed; bottom:70px; left:10px; z-index: 99999999999;\"],div[class^=\"pcaddNew\"]"
                     }
                 }
             },
