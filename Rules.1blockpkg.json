@@ -23035,6 +23035,22 @@
                 }
             },
             {
+                "id": "7bed8fca-8139-4d60-8920-325a589f379e",
+                "name": "m.health.chosun.com/js/2023/article_bt_banner*.js$domain=m.health.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.health\\.chosun\\.com/js/2023/article_bt_banner.*\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.health.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "3ae6e51c-b096-4e8c-b97f-aa3a43d91836",
                 "name": "m.humoruniv.com/banner/*.html$domain=m.humoruniv.com",
                 "content": {
@@ -41001,7 +41017,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.sub_article>div[style=\"min-width: 382px; min-height: 101px; margin:auto 0; text-align:center; padding: 10px 10px;\"]"
+                        "selector": "div.edit_bottom>ul>li>a div.ed_content>p.li_ad,div.sub_article>div[style=\"min-width: 382px; min-height: 101px; margin:auto 0; text-align:center; padding: 10px 10px;\"]"
                     }
                 }
             },
