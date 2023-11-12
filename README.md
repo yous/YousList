@@ -44,6 +44,12 @@ https://raw.githubusercontent.com/yous/YousList/master/hosts.txt
 
 Enable YousList on the filter list.
 
+The following is the DNS filter:
+
+```
+https://cdn.jsdelivr.net/gh/adguardteam/HostlistsRegistry@main/assets/filter_15.txt
+```
+
 ## Testing
 
 For the tests of your filter, make a temporary subscription served by your local machine by:
