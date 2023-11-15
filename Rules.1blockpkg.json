@@ -40008,6 +40008,19 @@
                 }
             },
             {
+                "id": "78284f11-4892-440d-8d22-8621eadddf46",
+                "name": "lolchess.gg##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?lolchess\\.gg"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner-gnb"
+                    }
+                }
+            },
+            {
                 "id": "13673cd9-918c-44dd-86c2-ba8902a0922c",
                 "name": "looah.com##",
                 "content": {
