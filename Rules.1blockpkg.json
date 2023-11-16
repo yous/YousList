@@ -49368,6 +49368,22 @@
                 }
             },
             {
+                "id": "606a05d2-35e2-42c6-83a5-b991f5d33f70",
+                "name": "@@aitimes.com/bannerpop/uploads/image/$domain=aitimes.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?aitimes\\.com/bannerpop/uploads/image/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*aitimes.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
+                    }
+                }
+            },
+            {
                 "id": "12753b43-8da5-45a2-8edb-fe92e174b817",
                 "name": "@@besteleven.com/bannerpop/uploads/image/$domain=besteleven.com",
                 "content": {
