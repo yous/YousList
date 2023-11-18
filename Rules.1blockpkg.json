@@ -2071,6 +2071,19 @@
                 }
             },
             {
+                "id": "4aea6564-a585-4005-ba8b-58a51721fce4",
+                "name": "##iframe[src*=\"//api.adiostech.com/cou/iframe.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//api.adiostech.com/cou/iframe.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "6b152b28-e2c0-4a3f-9f9f-9fa094c0c395",
                 "name": "##iframe[src*=\"//api.adjoin.co.kr/cou/da.php\"]",
                 "content": {
@@ -12218,6 +12231,32 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?apex\\.go\\.sonobi\\.com/trinity\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "701ec2ec-4512-428f-924d-094c1b022a0c",
+                "name": "api.adiostech.com/cou/iframe.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?api\\.adiostech\\.com/cou/iframe\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7aa4bc9b-bea8-4246-8870-875a3a6786ce",
+                "name": "api.adiostech.com/cou/js.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?api\\.adiostech\\.com/cou/js\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
