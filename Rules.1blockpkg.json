@@ -12873,6 +12873,22 @@
                 }
             },
             {
+                "id": "72c8a805-9a5d-494a-8bd1-9df5f82a1f92",
+                "name": "basketkorea.com/support/_updata/banner2/$domain=m.basketkorea.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?basketkorea\\.com/support/_updata/banner2/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.basketkorea.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0a8180cf-a3f8-4e70-8d9b-26d1ffb91e16",
                 "name": "bayabar.com/adworking/",
                 "content": {
@@ -40238,6 +40254,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#ad_ex1,div#btm,div.a5>div.bbs_d.bbw_thin.bts_d.btw_thin.pb_2.pt_5,div.ad02,div.ad10,div.ad14,div.ad15,div.ad7,div.ad8,div.ad9,div.atoomall_ad_wrap,div.container>div[style=\"width:100%;height:auto;text-align:center;display:block\"],div.news_bm>table[style=\"width:218px !important; height:218px; float:right !important; margin:2px 0 0 0;\"],div[id^=\"div-lumi_\"][style=\"height:80px;margin-top:15px\"],iframe[src^=\"/kn/ad/\"],iframe[src^=\"inbnet.html\"]"
+                    }
+                }
+            },
+            {
+                "id": "be9a7102-5aa1-407a-8588-ab87a011c4ff",
+                "name": "m.basketkorea.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.basketkorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adlink,ul.adulli"
                     }
                 }
             },
