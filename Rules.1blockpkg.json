@@ -37321,6 +37321,19 @@
                 }
             },
             {
+                "id": "04ae643e-f85b-4ce9-ad53-b9bf9cb6a983",
+                "name": "game.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?game\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"community_banner__\"],div[class^=\"styles_BannerAside__\"],div[class^=\"styles_Banner__\"],div[class^=\"styles_banner__\"]"
+                    }
+                }
+            },
+            {
                 "id": "ec6858a8-1887-481d-88b3-de4d6b5c76c5",
                 "name": "game.xportsnews.com##",
                 "content": {
