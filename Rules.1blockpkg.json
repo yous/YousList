@@ -12873,13 +12873,14 @@
                 }
             },
             {
-                "id": "72c8a805-9a5d-494a-8bd1-9df5f82a1f92",
-                "name": "basketkorea.com/support/_updata/banner2/$domain=m.basketkorea.com",
+                "id": "5048b2fe-3956-4dd5-ae4c-e3ba1009dbd4",
+                "name": "basketkorea.com/support/_updata/banner2/$domain=basketkorea.com|m.basketkorea.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?basketkorea\\.com/support/_updata/banner2/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
+                            "*basketkorea.com",
                             "*m.basketkorea.com"
                         ]
                     },
@@ -33741,6 +33742,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.sub-contents>section.banner,section.fixed-banner"
+                    }
+                }
+            },
+            {
+                "id": "a68f66cf-80ab-4b0c-a30e-d3fc07f7711f",
+                "name": "basketkorea.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?basketkorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adlink,ul.adgrp1"
                     }
                 }
             },
