@@ -3176,6 +3176,19 @@
                 }
             },
             {
+                "id": "26441198-cc0f-42a8-8518-40363ee4597e",
+                "name": "##iframe[src*=\"//scr.nsmartad.com/nbridge/creative/iframe/dynamic.html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//scr.nsmartad.com/nbridge/creative/iframe/dynamic.html\"]"
+                    }
+                }
+            },
+            {
                 "id": "7431292f-8040-40a9-b226-6e14c5e9acfb",
                 "name": "##iframe[src*=\"//search.supplyframe.com/partner/\"]",
                 "content": {
@@ -27899,6 +27912,19 @@
                 }
             },
             {
+                "id": "a5af59df-c238-4591-85b4-a7ec1c8b3950",
+                "name": "scr.nsmartad.com/nbridge/creative/iframe/dynamic.html",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?scr\\.nsmartad\\.com/nbridge/creative/iframe/dynamic\\.html",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8dba4d10-f1a9-458b-a4ea-cfffea5491a6",
                 "name": "script.ifdo.co.kr",
                 "content": {
@@ -41837,6 +41863,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "article.article_body>div[style=\"width:100%; text-align:center; overflow:hidden; position:relative;\"],div#adDaum,div#adDaum_top,div#ad_box,div.ad_box_outline,main>div.ad:not([id])"
+                    }
+                }
+            },
+            {
+                "id": "785ff01a-90d5-4435-a27d-4906a09ab668",
+                "name": "m.osen.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.osen\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"ad_area_\"]"
                     }
                 }
             },

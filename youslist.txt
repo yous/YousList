@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20231118
+! Version: 20231120
 
 ! General element hiding rules
 ##amp-ad
@@ -250,6 +250,7 @@
 ##iframe[src*="//res.heraldm.com/iframe/"]
 ##iframe[src*="//s.dolphincdn.xyz/adx/"][src*=".html"]
 ##iframe[src*="//s.yimg.jp/images/listing/tool/yads/yads-iframe.html"]
+##iframe[src*="//scr.nsmartad.com/nbridge/creative/iframe/dynamic.html"]
 ##iframe[src*="//search.supplyframe.com/partner/"]
 ##iframe[src*="//search2.nuriclick.co.kr/banner.php"]
 ##iframe[src*="//searchmaster.pro/b.php"]
@@ -1985,6 +1986,7 @@
 ||sba.about.co.kr/dbaExpose.aspx^
 ||scdn.cxense.com/cx.js^
 ||scr.nsmartad.com/admixer/admixer.js^
+||scr.nsmartad.com/nbridge/creative/iframe/dynamic.html^
 ||script.ifdo.co.kr^
 ||script.theprimead.co.kr/js/primeBridge.js^
 ||scripts.adrcdn.com/scripts/w-display/screenad_core_*_scrambled.js^
@@ -5036,6 +5038,7 @@ m.ohmynews.com##div#adDaum_top
 m.ohmynews.com##div#ad_box
 m.ohmynews.com##div.ad_box_outline
 m.ohmynews.com##main>div.ad:not([id])
+m.osen.co.kr##div[id^="ad_area_"]
 m.pann.nate.com##div.ad_area
 m.pann.nate.com##div.ad_banner
 m.pann.nate.com##div.ad_box_text
