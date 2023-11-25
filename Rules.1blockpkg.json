@@ -32732,6 +32732,19 @@
                 }
             },
             {
+                "id": "7c3f14bd-bf7d-43e2-8ec8-b7134ae58a65",
+                "name": "2cpu.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?2cpu\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[href*=\"bbs/banner_link.php?bg_id=\"],div.navbar-header.pull-left+div.hidden-xs.hidden-sm>div:not(div:nth-child(1))"
+                    }
+                }
+            },
+            {
                 "id": "21e81009-57f1-4816-9e9e-9edc738f76f1",
                 "name": "47news.jp##",
                 "content": {
