@@ -18758,25 +18758,6 @@
                 }
             },
             {
-                "id": "b5e64fff-152f-4367-ab43-d8f455ab408e",
-                "name": "google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?google\\.com/jsapi\\?autoload=.*%22ads%22",
-                        "url-filter-is-case-sensitive": false,
-                        "resource-type": [
-                            "script"
-                        ],
-                        "if-domain": [
-                            "*youtube.com"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "c5fcbac9-efc8-4a06-bd67-4f275e544810",
                 "name": "googleads.g.doubleclick.net/dbm/ad",
                 "content": {

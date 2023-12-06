@@ -1349,7 +1349,6 @@
 ||google.com/adsense/search/async-ads.js^
 ||google.com/afs/ads/i/iframe.html^
 ||google.com/afs/ads^
-||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
 ||googleads.g.doubleclick.net/dbm/ad^
 ||googleads.g.doubleclick.net/mads/gma^
 ||googleads.g.doubleclick.net/mads/static/mad/
@@ -7396,6 +7395,7 @@ namu.wiki##:xpath(//div/h1[not(./small)]/following-sibling::div[1]/following-sib
 @@||videoads.kakao.com/adserver/api/v2/vmap^$domain=kakaotv.daum.net|play-tv.kakao.com|tv.kakao.com
 
 ! Temporarily disable youtube.com rules
+!||google.com/jsapi?autoload=*%22ads%22$script,domain=youtube.com
 !||youtube.com/get_midroll_info^
 !||youtube.com/get_video_info?*el=adunit
 !||youtube.com/youtubei/v1/player/ad_break^
