@@ -28478,6 +28478,22 @@
                 }
             },
             {
+                "id": "5c623287-9b7d-4d43-a2d0-f811683cb5c5",
+                "name": "shoppingbox.zum.com/nativeadnews$domain=news.zum.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?shoppingbox\\.zum\\.com/nativeadnews",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*news.zum.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d7cf5c05-054f-428d-a1e4-10451a668fb1",
                 "name": "simg.imadrep.co.kr/js/sv.min-*.js",
                 "content": {
@@ -44113,7 +44129,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.banner_big"
+                        "selector": "div#right_ad_wrap,div.ad_banner_wrap,div.native_ad_wrap,div.right_ad_banner,iframe[src*=\"//shoppingbox.zum.com/nativeadnews\"]"
                     }
                 }
             },
