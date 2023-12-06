@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 4 days
-! Version: 20231201
+! Version: 20231206
 
 ! General element hiding rules
 ##amp-ad
@@ -2301,9 +2301,6 @@
 ||yepannet.diskn.com/bn/$domain=yepan.net
 ||yfetyg.com/wnload^
 ||yonhapnews.co.kr/bithumb/banner.html^$domain=yonhapnews.co.kr
-||youtube.com/get_midroll_info^
-||youtube.com/get_video_info?*el=adunit
-||youtube.com/youtubei/v1/player/ad_break^
 ||ytn.co.kr/img/ad/
 ||ytn.co.kr/inc_banner/AdServerChange.php^
 ||ytn.co.kr/inc_banner/Ad_TI.js^$domain=ytn.co.kr
@@ -7334,21 +7331,6 @@ yna.co.kr,yonhapnews.co.kr##iframe[src^="http://m.joyninfo.com/yna/yna_w2.asp"]
 yna.co.kr,yonhapnews.co.kr##iframe[src^="http://www.yonhapnews.co.kr/bithumb/banner.html"]
 yonhapnewstv.co.kr##div.ad
 yourdictionary.com##div.definitions-group>div.advertising-container
-youtube.com##div#feed-pyv-container
-youtube.com##div#footer-ads
-youtube.com##div#masthead-ad
-youtube.com##div#player-ads
-youtube.com##div#video-masthead
-youtube.com##div.ad-div
-youtube.com##div.ytp-ad-action-interstitial-background-container
-youtube.com##div.ytp-ad-action-interstitial-slot
-youtube.com##ytd-ad-slot-renderer
-youtube.com##ytd-compact-promoted-video-renderer
-youtube.com##ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer
-youtube.com##ytd-display-ad-renderer
-youtube.com##ytd-promoted-sparkles-web-renderer
-youtube.com##ytd-search-pyv-renderer
-youtube.com##ytd-video-masthead-ad-renderer
 ytn.co.kr##div#leftWingBanner
 ytn.co.kr##div#rightWingBanner
 ytn.co.kr##div.ad
@@ -7412,6 +7394,26 @@ namu.wiki##:xpath(//div/h1[not(./small)]/following-sibling::div[1]/following-sib
 ! Workarounds for EasyList
 @@||videoads.kakao.com/adserver/api/v2/vast^$domain=kakaotv.daum.net|play-tv.kakao.com|tv.kakao.com
 @@||videoads.kakao.com/adserver/api/v2/vmap^$domain=kakaotv.daum.net|play-tv.kakao.com|tv.kakao.com
+
+! Temporarily disable youtube.com rules
+!||youtube.com/get_midroll_info^
+!||youtube.com/get_video_info?*el=adunit
+!||youtube.com/youtubei/v1/player/ad_break^
+!youtube.com##div#feed-pyv-container
+!youtube.com##div#footer-ads
+!youtube.com##div#masthead-ad
+!youtube.com##div#player-ads
+!youtube.com##div#video-masthead
+!youtube.com##div.ad-div
+!youtube.com##div.ytp-ad-action-interstitial-background-container
+!youtube.com##div.ytp-ad-action-interstitial-slot
+!youtube.com##ytd-ad-slot-renderer
+!youtube.com##ytd-compact-promoted-video-renderer
+!youtube.com##ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer
+!youtube.com##ytd-display-ad-renderer
+!youtube.com##ytd-promoted-sparkles-web-renderer
+!youtube.com##ytd-search-pyv-renderer
+!youtube.com##ytd-video-masthead-ad-renderer
 
 #@#.adsBox
 #@#.pub_300x250

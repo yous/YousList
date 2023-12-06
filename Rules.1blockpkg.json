@@ -32390,45 +32390,6 @@
                 }
             },
             {
-                "id": "26c7b52b-75a0-4104-89ee-f87908251a64",
-                "name": "youtube.com/get_midroll_info",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?youtube\\.com/get_midroll_info",
-                        "url-filter-is-case-sensitive": false
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "9b91d261-6efd-4675-af72-0ac1233e4778",
-                "name": "youtube.com/get_video_info?*el=adunit",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?youtube\\.com/get_video_info\\?.*el=adunit",
-                        "url-filter-is-case-sensitive": false
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "e57ac0d7-3827-4281-9429-3233ae120a2a",
-                "name": "youtube.com/youtubei/v1/player/ad_break",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?youtube\\.com/youtubei/v1/player/ad_break",
-                        "url-filter-is-case-sensitive": false
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "00e60688-80aa-4136-b446-ed70e852b850",
                 "name": "ytn.co.kr/img/ad/",
                 "content": {
@@ -49343,19 +49304,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.definitions-group>div.advertising-container"
-                    }
-                }
-            },
-            {
-                "id": "318cb83b-f60d-48a4-9a81-2ea46b399299",
-                "name": "youtube.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?youtube\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#feed-pyv-container,div#footer-ads,div#masthead-ad,div#player-ads,div#video-masthead,div.ad-div,div.ytp-ad-action-interstitial-background-container,div.ytp-ad-action-interstitial-slot,ytd-ad-slot-renderer,ytd-compact-promoted-video-renderer,ytd-companion-slot-renderer.ytd-player-legacy-desktop-watch-ads-renderer,ytd-display-ad-renderer,ytd-promoted-sparkles-web-renderer,ytd-search-pyv-renderer,ytd-video-masthead-ad-renderer"
                     }
                 }
             },
