@@ -24745,6 +24745,22 @@
                 }
             },
             {
+                "id": "f4e13af0-b4db-4a17-bbb9-3874aea72488",
+                "name": "menu.mt.co.kr/starnews/images/banner/$domain=starnewskorea.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?menu\\.mt\\.co\\.kr/starnews/images/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*starnewskorea.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "0bb2bcc1-1499-47cc-b2f4-9f2b0bbaf993",
                 "name": "mg.dt00.net/gjs/*/*/*.*.js",
                 "content": {
@@ -46529,6 +46545,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#layer-popups"
+                    }
+                }
+            },
+            {
+                "id": "9d9e3c24-48f1-454d-aac5-cd5aae909f39",
+                "name": "starnewskorea.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?starnewskorea\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#textBody>div[style=\"float:right; margin:0 0 10px 15px; overflow:hidden; width:300px; height:250px;\"],div#wrap>div[style=\"overflow:hidden; margin:15px auto 0; width:728px; height:90px; background:#ddd;\"],div.ad,div.bxcn>div[style=\"position:absolute; top:0; right:0; overflow:hidden; width:200px; height:200px;\"],div.iwm_bip,img[src*=\"//menu.mt.co.kr/starnews/images/banner/\"]"
                     }
                 }
             },
