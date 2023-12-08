@@ -47140,6 +47140,19 @@
                 }
             },
             {
+                "id": "d92718da-571d-48af-9b62-618c3bd1a74d",
+                "name": "thefilibusterblog.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?thefilibusterblog\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad"
+                    }
+                }
+            },
+            {
                 "id": "3481e158-f2f6-45fb-b0a8-adf84f811df8",
                 "name": "theguardian.com##",
                 "content": {
