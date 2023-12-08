@@ -866,7 +866,10 @@
                 "name": "##div[id^=\"google_ads_iframe_\"]",
                 "content": {
                     "trigger": {
-                        "url-filter": ".*"
+                        "url-filter": ".*",
+                        "unless-domain": [
+                            "*uniforumtz.com"
+                        ]
                     },
                     "action": {
                         "type": "css-display-none",
@@ -47978,6 +47981,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#adriver_190x180_ukrnet,div#adriver_300x100_ukrnet,div#adriver_728x90_ukrnet,div[data-side=\"left\"][id^=\"ecbr-\"],div[data-side=\"right\"][id^=\"ecbr-\"],section.commercial-left-block,section.commercial-right-block"
+                    }
+                }
+            },
+            {
+                "id": "e8e6b8ea-0f16-4e51-bcf3-046c8b8f1736",
+                "name": "uniforumtz.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?uniforumtz\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-wrap,div.inline-single-ad,div[id^=\"widget-ad-script-\"]"
                     }
                 }
             },
