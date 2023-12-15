@@ -2308,6 +2308,19 @@
                 }
             },
             {
+                "id": "9bab5b09-d5ca-415b-b433-9fee0d4120ef",
+                "name": "##iframe[src*=\"//cdn.targetpush.co.kr/adtivessp/iframe/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//cdn.targetpush.co.kr/adtivessp/iframe/\"]"
+                    }
+                }
+            },
+            {
                 "id": "9fab65f0-f837-4072-a136-1b2679dad612",
                 "name": "##iframe[src*=\"//chie8oo.com/afr.php\"]",
                 "content": {
