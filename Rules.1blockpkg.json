@@ -29621,6 +29621,22 @@
                 }
             },
             {
+                "id": "298ed76e-3d67-4edb-8879-96026eb15d5f",
+                "name": "static.fmkorea.com/modules/fmad/tpl/js/naver_power_link.js$domain=m.fmkorea.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?static\\.fmkorea\\.com/modules/fmad/tpl/js/naver_power_link\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.fmkorea.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1c671835-9515-424b-a85f-eacddfeef623",
                 "name": "static.hankyung.com/ext/powerlink/powerlink.m.js$domain=hankyung.com",
                 "content": {
@@ -40934,7 +40950,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.adpost,div.fm_google_a,iframe[src*=\"//loader.fmkorea.com//_loader/loader.php\"],iframe[src*=\"//loader.fmkorea.com/_loader/iframeM1main.php\"],iframe[src*=\"//loader.fmkorea.com/_loader/loader.php\"],iframe[src^=\"/_adpage/\"]"
+                        "selector": "div.adpost,div.fm_google_a,iframe[src*=\"//loader.fmkorea.com//_loader/iframeM1main.php\"],iframe[src*=\"//loader.fmkorea.com//_loader/loader.php\"],iframe[src*=\"//loader.fmkorea.com/_loader/iframeM1main.php\"],iframe[src*=\"//loader.fmkorea.com/_loader/loader.php\"],iframe[src^=\"/_adpage/\"]"
                     }
                 }
             },
