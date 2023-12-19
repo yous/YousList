@@ -33506,6 +33506,19 @@
                 }
             },
             {
+                "id": "43e10623-88dd-4b1f-b7f9-c6aa5fe1c5b8",
+                "name": "asciitable.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?asciitable\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ezo_ad,span[id^=\"ezoic-pub-ad-placeholder-\"]+span[data-ez-ph-id]"
+                    }
+                }
+            },
+            {
                 "id": "fe65554d-2189-4ce3-96c2-8d317610639c",
                 "name": "asiae.co.kr##",
                 "content": {
