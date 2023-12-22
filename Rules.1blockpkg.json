@@ -30743,6 +30743,22 @@
                 }
             },
             {
+                "id": "aae1e70e-1477-4f64-9036-29623ef89749",
+                "name": "toss.im/pages/ekdil/tragoudo$domain=toss.im",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?toss\\.im/pages/ekdil/tragoudo",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*toss.im"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "14cb3e0e-55c3-481c-b83c-c6aa3a9a0a38",
                 "name": "tpc.googlesyndication.com/daca_images/simgad/$domain=googleads.g.doubleclick.net|pagead2.googlesyndication.com",
                 "content": {
