@@ -30145,6 +30145,19 @@
                 }
             },
             {
+                "id": "74d7a54c-4a43-4f8b-b35d-c4b04dc2646a",
+                "name": "t.arcade.show",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?t\\.arcade\\.show",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "14059d10-f275-42a6-a9cd-f5774b737157",
                 "name": "t.tmdn2015x9.com/build/*/v1/",
                 "content": {
