@@ -30743,12 +30743,15 @@
                 }
             },
             {
-                "id": "4184b5e9-001d-49b6-9f57-229062aae46a",
-                "name": "toss.im/pages/ekdil/tragoudo",
+                "id": "aae1e70e-1477-4f64-9036-29623ef89749",
+                "name": "toss.im/pages/ekdil/tragoudo$domain=toss.im",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?toss\\.im/pages/ekdil/tragoudo",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*toss.im"
+                        ]
                     },
                     "action": {
                         "type": "block"
