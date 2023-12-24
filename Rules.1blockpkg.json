@@ -30598,6 +30598,22 @@
                 }
             },
             {
+                "id": "7a9dba5b-a7b6-45a3-844e-6b8dad395d84",
+                "name": "tinnews.co.kr/data/tinnews_co_kr/banner/$domain=m.tinnews.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tinnews\\.co\\.kr/data/tinnews_co_kr/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.tinnews.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "ce302d6c-3783-4b89-b41d-2fb4b4f9408d",
                 "name": "tl.mmnneo.com/neovcm.js",
                 "content": {
@@ -42397,6 +42413,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#ad_new_bottom,div.article-content>div[style=\"text-align: center;margin:10px auto 0 auto;width:350px;height:120px;\"],div.google-ad-part,div[id^=\"ad_layer\"]"
+                    }
+                }
+            },
+            {
+                "id": "cbe41282-8c36-4c1a-a73d-649b683d739b",
+                "name": "m.tinnews.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.tinnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bn"
                     }
                 }
             },
