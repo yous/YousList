@@ -16621,6 +16621,22 @@
                 }
             },
             {
+                "id": "c558b216-1a3d-479f-858d-2789c2a96998",
+                "name": "dentalnews.or.kr/data/banner/$domain=dentalnews.or.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dentalnews\\.or\\.kr/data/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*dentalnews.or.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4e41781e-d576-4efd-a4bb-71941ff0ffe6",
                 "name": "designtaxi.com/js/i-rd.js$domain=designtaxi.com",
                 "content": {
@@ -35952,6 +35968,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.articles>div.adv.article,div.desktop-ad,div.mobile-ad"
+                    }
+                }
+            },
+            {
+                "id": "26816c49-cffb-444e-aca4-c74a15b02a1d",
+                "name": "dentalnews.or.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dentalnews\\.or\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_slide"
                     }
                 }
             },
