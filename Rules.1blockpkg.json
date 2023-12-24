@@ -22384,6 +22384,19 @@
                 }
             },
             {
+                "id": "caabbbb5-a1e7-4dc9-8806-64096bfb8a31",
+                "name": "lib.wtg-ads.com/publisher/humorpick.com/lib.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?lib\\.wtg-ads\\.com/publisher/humorpick\\.com/lib\\.min\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4e3921ae-63ed-4224-b395-2a410e5cfbfc",
                 "name": "life.chosun.com/dhtm/rightBner.html",
                 "content": {
@@ -38503,6 +38516,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.area_view>div[style=\"float:right;margin:0 0 10px 10px;width:336px;height:280px\"]"
+                    }
+                }
+            },
+            {
+                "id": "a872977f-ecbd-4789-829a-c6bcb97a75cc",
+                "name": "humorpick.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?humorpick\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view-wrap>div.margin-b10,div.view-wrap>div.margin-b20,div.zone-center>div.center.margin-b10,div.zone-center>div.center.margin-b20,li.list-item-ad"
                     }
                 }
             },
