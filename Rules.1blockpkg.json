@@ -47526,6 +47526,19 @@
                 }
             },
             {
+                "id": "b87f4e49-105c-48b6-98e0-f04611d2dae1",
+                "name": "tinnews.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tinnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_link_read,div#news_photo_box+div.bn,div.center_bn,div.top_bn_left"
+                    }
+                }
+            },
+            {
                 "id": "83737fc7-593c-4bce-983b-4d3493ade465",
                 "name": "tistory.com##",
                 "content": {
