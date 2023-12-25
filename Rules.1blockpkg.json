@@ -9955,6 +9955,22 @@
                 }
             },
             {
+                "id": "2c97e1e0-f694-4bba-835c-e1cd6051ca7e",
+                "name": "ad1.missyusa.com:448$domain=mobile.missyusa.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad1\\.missyusa\\.com:448",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*mobile.missyusa.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "75abcb3f-e8df-4f05-b546-78033e7e2d5c",
                 "name": "ad1.sportschosun.com",
                 "content": {
@@ -43521,6 +43537,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#layer_hmBanner,div#layer_lgUBanner"
+                    }
+                }
+            },
+            {
+                "id": "f3e7a73a-7db9-4dc8-9db3-b6298a1c6c4a",
+                "name": "mobile.missyusa.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mobile\\.missyusa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.div_banner,iframe[src*=\"//ad1.missyusa.com:448/\"]"
                     }
                 }
             },
