@@ -31155,6 +31155,22 @@
                 }
             },
             {
+                "id": "e006f378-b3fe-4f5c-bea9-a79def21effb",
+                "name": "tvdaily.co.kr/banner/$domain=tvdaily.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tvdaily\\.co\\.kr/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*tvdaily.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "3b7a8d0e-1892-4165-a117-dcbc814f889d",
                 "name": "tvhot.cc/b/$domain=tvhot.cc",
                 "content": {
@@ -48091,6 +48107,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.banner-box,div.left_ban,div.right_ban"
+                    }
+                }
+            },
+            {
+                "id": "dbd21b75-4b43-489b-85f1-1e0abe11bd5c",
+                "name": "tvdaily.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tvdaily\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#readtopad,img[src^=\"/banner/\"]"
                     }
                 }
             },
