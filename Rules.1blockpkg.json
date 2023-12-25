@@ -9955,13 +9955,14 @@
                 }
             },
             {
-                "id": "2c97e1e0-f694-4bba-835c-e1cd6051ca7e",
-                "name": "ad1.missyusa.com:448$domain=mobile.missyusa.com",
+                "id": "97f33d62-4bbb-48f5-9cd7-9ede943a3558",
+                "name": "ad1.missyusa.com:448$domain=missyusa.com|mobile.missyusa.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?ad1\\.missyusa\\.com:448",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
+                            "*missyusa.com",
                             "*mobile.missyusa.com"
                         ]
                     },
@@ -12064,6 +12065,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?am15\\.net/ssp/banner",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f159adb4-7863-4644-a920-18933bbd3fb4",
+                "name": "amgs5.com/AS/www/delivery/al.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?amgs5\\.com/AS/www/delivery/al\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -43433,6 +43447,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.fixed-top,div.g_banner,div.m_banner,div.n_banner,div.s_banner"
+                    }
+                }
+            },
+            {
+                "id": "2e76ab30-d1b5-44ca-878b-bb9d992be7e6",
+                "name": "missyusa.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?missyusa\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//ad1.missyusa.com:448/\"]"
                     }
                 }
             },
