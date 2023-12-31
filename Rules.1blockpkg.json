@@ -36008,6 +36008,19 @@
                 }
             },
             {
+                "id": "daca1ead-4947-4c00-bd9a-91d567d9487b",
+                "name": "dealsite.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dealsite\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a.hm-l-banner,a.hm-r-banner,a[class^=\"main-banner\"],div.ad-main-bottom,div[class^=\"ad-article-\"]"
+                    }
+                }
+            },
+            {
                 "id": "0a77c882-6473-4012-a4d1-dfc2626ce789",
                 "name": "deepdive.zum.com##",
                 "content": {
