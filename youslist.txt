@@ -1649,6 +1649,7 @@
 ||m.edaily.co.kr/html/ad/ad_*.html^$domain=m.edaily.co.kr
 ||m.edaily.co.kr/html/ad/edailyTouch.js^$domain=m.edaily.co.kr
 ||m.encar.com/ad/banner.js^$domain=m.encar.com
+||m.enter.etoday.co.kr/images/ad/$domain=m.enter.etoday.co.kr
 ||m.etnews.com/tools/refresh_script.html^$domain=m.etnews.com
 ||m.fmkorea.com/_adpage/$domain=m.fmkorea.com
 ||m.gamemeca.com/public/mezzo_ad.php^$domain=m.gamemeca.com
@@ -4652,12 +4653,14 @@ m.en.seoul.co.kr,m.eye.seoul.co.kr,m.go.seoul.co.kr,m.nownews.seoul.co.kr,m.seou
 m.en.seoul.co.kr,m.eye.seoul.co.kr,m.go.seoul.co.kr,m.nownews.seoul.co.kr,m.seoul.co.kr,m.stv.seoul.co.kr##iframe[src*="/ad/googleAd_view.html"]
 m.encar.com##div#ads
 m.encar.com##div.encar_ad
+m.enter.etoday.co.kr##article.row.banner
 m.enter.etoday.co.kr##div#\33 20_50_ad
-m.enter.etoday.co.kr##div#main_wrap_R>div.box[align="center"][style="wdith: 100%;padding: 10px 0 10px 0;background-color: #fff"]
-m.enter.etoday.co.kr##div#main_wrap_R>div.box[align="center"][style="wdith: 100%;padding: 10px 0 10px 0;text-align:center;background-color: #fff"]
-m.enter.etoday.co.kr##div#view_txt_w>div[style="float:right;width:200px;height:200px;margin:5px 0 5px 15px"]
+m.enter.etoday.co.kr##div#main_wrap_L>div.box[align="center"][style="padding: 10px 0 0 0;padding-bottom:5px"]
+m.enter.etoday.co.kr##div#main_wrap_R>div[style="background-color:#fff;text-align:center;padding:5px;"]
+m.enter.etoday.co.kr##div#view_txt_w>div[style="float:right;width:200px;height:200px;margin:5px 0 5px 15px;"]
+m.enter.etoday.co.kr##div#view_txt_w>div[style="width:100%;height:250px;text-align:center;margin-bottom:25px;overflow:hidden;"]
 m.enter.etoday.co.kr##div.\33 20_ad
-m.enter.etoday.co.kr##div.ad_text_dot
+m.enter.etoday.co.kr##div[id^="bnr_rdm_"]
 m.esports.dailygame.co.kr##div.banner-wrap
 m.etnews.com##div#bottomBigBanner
 m.etnews.com##div#boxContent>div[style="margin-top:20px;border:0;"]
