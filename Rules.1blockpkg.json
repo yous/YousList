@@ -37022,6 +37022,19 @@
                 }
             },
             {
+                "id": "6f26cd8d-3250-46e5-b7c8-8f707ac917e1",
+                "name": "finance.yahoo.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?finance\\.yahoo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#sda-LDRB-frame,div#sda-LREC,div#sda-WFPAD-iframe,div#viewer-LDRB,div.ad-lrec,div.caas-da,div.gemini-ad,div[id^=\"defaultLREC\"][id$=\"-sizer\"],div[id^=\"sda-LREC\"][id$=\"-iframe\"]"
+                    }
+                }
+            },
+            {
                 "id": "bd358e9e-c9b8-484e-9a52-99ac8e243f78",
                 "name": "fivethirtyeight.com##",
                 "content": {
