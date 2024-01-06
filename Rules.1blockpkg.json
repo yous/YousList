@@ -46434,6 +46434,19 @@
                 }
             },
             {
+                "id": "d4525169-a7a8-4ad4-973a-29ec934a63ae",
+                "name": "soccerline.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?soccerline\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.midBann,aside.rightBann,div#container>div>section[style=\"width: 320px; max-height: 410px; margin: 0px auto;\"],div#wrap>div>div.mobile[style=\"width: 320px; height: 250px; margin: 0px auto;\"],div.bottBann,div.soccerlineAds,div.topBann"
+                    }
+                }
+            },
+            {
                 "id": "0c667a4f-1b95-4af4-a27c-fdf0dda56bf0",
                 "name": "socialcompare.com##",
                 "content": {
