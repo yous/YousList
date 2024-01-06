@@ -38096,7 +38096,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#a-left-scroll-in>div[style=\"text-align:center; padding: 0 0 25px\"],div#laAdArea,div.ad-300x180-area,div.ad-banner,div.ad_box01_area,div.ad_box04_area,div.ad_top,div.article-text-font-size>div.text>div[style=\"width:300px;height:250px;float:left;clear:both;margin:20px 20px 0px 0px;\"],div.text-ad2,div.visual-ad1,div.visual-ad2,iframe[src^=\"/section-adv/\"]"
+                        "selector": "div[class^=\"ArticleDetail_adGroup__\"],div[class^=\"BaseAd_adWrapper__\"],div[class^=\"article_bottomAdWrap__\"],div[class^=\"article_leftAd__\"]"
                     }
                 }
             },
@@ -41282,19 +41282,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#fixed_bnr"
-                    }
-                }
-            },
-            {
-                "id": "7b2045f6-e056-492e-90cd-6c9a13ca235c",
-                "name": "m.hani.co.kr##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.hani\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.news-box-ad,div.news-box-ad1,div.news-box-ad2,section.adBox"
                     }
                 }
             },
