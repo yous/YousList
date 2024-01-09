@@ -31967,14 +31967,15 @@
                 }
             },
             {
-                "id": "46cee1c0-4004-4bc1-a2da-6aa9dc5d85f4",
-                "name": "whosaeng.com/data/whosaeng_com/upload/banner/$domain=m.whosaeng.com",
+                "id": "617492b9-8b5f-4016-845d-446b8ddb816a",
+                "name": "whosaeng.com/data/whosaeng_com/upload/banner/$domain=m.whosaeng.com|whosaeng.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?whosaeng\\.com/data/whosaeng_com/upload/banner/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
-                            "*m.whosaeng.com"
+                            "*m.whosaeng.com",
+                            "*whosaeng.com"
                         ]
                     },
                     "action": {
@@ -49140,6 +49141,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.fun-adsense"
+                    }
+                }
+            },
+            {
+                "id": "b30e25a4-5ef8-4679-a225-a310dc075d07",
+                "name": "whosaeng.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?whosaeng\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bn,div.bn_wing_le,div.bn_wing_ri"
                     }
                 }
             },
