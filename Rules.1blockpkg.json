@@ -42710,6 +42710,19 @@
                 }
             },
             {
+                "id": "0a93f232-9d37-413d-9368-9c8112c0ba46",
+                "name": "m.view.nate.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.view\\.nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-slot-wrap,div[class^=\"nateview-ad-\"]"
+                    }
+                }
+            },
+            {
                 "id": "2d4195d6-9b25-4950-a1ae-53cbffc7a772",
                 "name": "m.viva100.com##",
                 "content": {
