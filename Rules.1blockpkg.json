@@ -13275,6 +13275,22 @@
                 }
             },
             {
+                "id": "743f7021-8150-465c-8461-07ffd3243f69",
+                "name": "box2.betanews.net/banner.html$domain=m.betanews.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?box2\\.betanews\\.net/banner\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.betanews.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9d9125ba-eca0-4b30-aae5-28766c724763",
                 "name": "brightadnetwork.com/a/display.php",
                 "content": {
@@ -40548,6 +40564,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.adlink,ul.adulli"
+                    }
+                }
+            },
+            {
+                "id": "bb1c541d-c9c5-4aee-b12a-909b58382471",
+                "name": "m.betanews.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.betanews\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div.wrap>center>div[style=\"position:relative;width:320px;height:50px;margin:5px auto;\"],iframe[src*=\"//box2.betanews.net/banner.html\"]"
                     }
                 }
             },
