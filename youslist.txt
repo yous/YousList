@@ -2,8 +2,8 @@
 ! Homepage: https://github.com/yous/YousList
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
-! Expires: 4 days
-! Version: 20240109
+! Expires: 1 days
+! Version: 20240110
 
 ! General element hiding rules
 ##amp-ad
@@ -4796,7 +4796,7 @@ m.humoruniv.com##div#ddn_ad_128
 m.humoruniv.com##div#list_ad_300_250
 m.humoruniv.com##div#list_body+li[id^="li_chk"]+div[id]
 m.humoruniv.com##div#mobile+style+div[id]+div[id]>div[id$="_div"]
-m.humoruniv.com##div#mobile>div[id]>div.bg0[id$="_div"]
+m.humoruniv.com##div#mobile>div[id]:not([id="read"])>div.bg0[id$="_div"]
 m.humoruniv.com##div#mobile>div[style="margin:10px 0 10px 0;"]
 m.humoruniv.com##div#naver_adpost_wrap_fix
 m.humoruniv.com##div#profile~div[id][style="clear:both;"]+div[id]>div[id$="_div"]
