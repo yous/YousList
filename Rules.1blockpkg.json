@@ -13419,6 +13419,23 @@
                 }
             },
             {
+                "id": "3103f13e-d630-49ce-8d61-218b929c3beb",
+                "name": "businesspost.co.kr/images/banner/$domain=businesspost.co.kr|m.businesspost.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?businesspost\\.co\\.kr/images/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*businesspost.co.kr",
+                            "*m.businesspost.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "9e6d4af4-e4aa-4c13-b24d-5da3eca1f45a",
                 "name": "busygirlblog.com/adserver/$domain=busygirlblog.com",
                 "content": {
@@ -35040,6 +35057,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad,div.l-ad,section#right-rail-2"
+                    }
+                }
+            },
+            {
+                "id": "e24a79c2-a58a-48ed-9ed9-c409df24b781",
+                "name": "businesspost.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?businesspost\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "article.detailwrapper>div[style=\"text-align:center; padding-top:10px; margin-bottom:30px;\"],div#detail>div[style=\"text-align:center; padding-top:20px; background-color:#f9f9f9;\"],div.banner,div.container>div[style=\"text-align: center; margin-bottom:60px; margin-top:-30px;\"],div.side_banner"
                     }
                 }
             },
