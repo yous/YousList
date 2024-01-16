@@ -39858,6 +39858,19 @@
                 }
             },
             {
+                "id": "8b860331-c976-44e9-9d42-32c61cb9dd69",
+                "name": "knn.pe.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?knn\\.pe\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#ad_link_read,div.banner_bottom,div.banner_top"
+                    }
+                }
+            },
+            {
                 "id": "e70a29f6-4619-4665-ae36-41fd4702c68b",
                 "name": "knowledgepower.co.kr##",
                 "content": {
