@@ -41886,6 +41886,19 @@
                 }
             },
             {
+                "id": "1611998d-fe4b-4dc4-9fc9-4462914c3030",
+                "name": "m.knn.pe.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.knn\\.pe\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bn"
+                    }
+                }
+            },
+            {
                 "id": "68cf4856-c8a4-40ab-8ac5-c46f657e5958",
                 "name": "m.kormedi.com##",
                 "content": {
