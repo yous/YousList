@@ -1567,6 +1567,19 @@
                 }
             },
             {
+                "id": "eae00c40-4551-4989-b4ed-19032f652698",
+                "name": "##iframe[src*=\"//adfork.co.kr/ads/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//adfork.co.kr/ads/\"]"
+                    }
+                }
+            },
+            {
                 "id": "bcbf2156-f600-40e4-87c7-427c92ae6366",
                 "name": "##iframe[src*=\"//adimg.wisenut.co.kr/wrappingfor\"][src*=\".php\"]",
                 "content": {
@@ -3383,6 +3396,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src*=\"//stt.pltapad.com/contain.php\"]"
+                    }
+                }
+            },
+            {
+                "id": "866eb44f-1885-4cd6-b15e-cba92f98b1b4",
+                "name": "##iframe[src*=\"//sv.govkorea24.com/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//sv.govkorea24.com/\"]"
                     }
                 }
             },
@@ -10250,6 +10276,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?adfork\\.co\\.kr/ad/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1f8f5ca6-fe97-4a1c-8c4b-931da5140bf9",
+                "name": "adfork.co.kr/ads/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adfork\\.co\\.kr/ads/",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -26041,6 +26080,19 @@
                 }
             },
             {
+                "id": "089b6f08-0d57-442b-ace2-ab146222b42a",
+                "name": "next.adfork.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?next\\.adfork\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "31f82473-bac5-4dfa-83cc-a2851e0ce4eb",
                 "name": "nicovideo.cdn.nimg.jp/web/js/ads.js$domain=nicovideo.jp",
                 "content": {
@@ -30132,6 +30184,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?surgeprice\\.com/display/async/.*/.*/ariel\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "69342a80-2dbf-405b-9c3b-d9719304c5fc",
+                "name": "sv.govkorea24.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sv\\.govkorea24\\.com",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -48017,7 +48082,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "article.article-veiw-body>div.clearfix>center>div[style=\"width:320px;height:50px;margin:0;padding:0\"],iframe[src^=\"http://www.topstarnews.net/html/default/html_tpl_mobile/ad/\"]"
+                        "selector": "article.article-veiw-body>div.clearfix>center>div[style=\"width:320px;height:50px;margin:0;padding:0\"],div.ad-template,div.article-view-page>div[style=\"float: right; padding: 10px 0px 15px 15px;\"],div.article-view-page>div[style=\"float:right; padding:10px 0 15px 15px;\"],iframe[src^=\"http://www.topstarnews.net/html/default/html_tpl_mobile/ad/\"]"
                     }
                 }
             },
