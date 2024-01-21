@@ -39797,6 +39797,19 @@
                 }
             },
             {
+                "id": "48f5b59a-0393-4ee3-9cc0-44dbaf9ff2cf",
+                "name": "kbmaeil.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?kbmaeil\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.sticky-container>div>div.banner_box"
+                    }
+                }
+            },
+            {
                 "id": "0bdf309b-d0ed-4d65-988b-b3dae546d1f6",
                 "name": "keybr.com##",
                 "content": {
@@ -50117,6 +50130,38 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*besteleven.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
+                    }
+                }
+            },
+            {
+                "id": "4cfe4aef-af74-4bb6-98e9-88d116387056",
+                "name": "@@cdn.kbmaeil.com/bannerpop/uploads/image/$domain=kbmaeil.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.kbmaeil\\.com/bannerpop/uploads/image/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*kbmaeil.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
+                    }
+                }
+            },
+            {
+                "id": "3d9d0da0-ae70-42b2-a088-0e6bbf3e9e14",
+                "name": "@@cdn.kbmaeil.com/bannerpop/uploads/js/*.js$domain=kbmaeil.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.kbmaeil\\.com/bannerpop/uploads/js/.*\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*kbmaeil.com"
                         ]
                     },
                     "action": {

@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 1 days
-! Version: 20240118
+! Version: 20240121
 
 ! General element hiding rules
 ##amp-ad
@@ -4182,6 +4182,7 @@ kat.cr##div.spareBlock
 kbench.com##iframe[name="ifmadver"]
 kbench.com##iframe[src^="//www.kbench.com/article_right_box.php"]
 kbench.com##iframe[src^="https://shop.kbench.com/09shop/article_right_box.php"]
+kbmaeil.com##div.sticky-container>div>div.banner_box
 keybr.com##div.Supporter
 khan.co.kr##div.adBanner
 khan.co.kr##div.ad_highlight_tf
@@ -7484,6 +7485,8 @@ namu.wiki##:xpath(//div/h1[not(./small)]/following-sibling::div[1]/following-sib
 @@||ads.sportsseoul.com/RealMedia/ads/adstream_sx.ads/www.sportsseoul.com/main@Bottom^$domain=sportsseoul.com
 @@||aitimes.com/bannerpop/uploads/image/$domain=aitimes.com
 @@||besteleven.com/bannerpop/uploads/image/$domain=besteleven.com
+@@||cdn.kbmaeil.com/bannerpop/uploads/image/$domain=kbmaeil.com
+@@||cdn.kbmaeil.com/bannerpop/uploads/js/*.js^$domain=kbmaeil.com
 @@||googleads.g.doubleclick.net/pagead/ads?*&crui=*
 @@||mindpost.or.kr/script/bannerpop.js^$domain=mindpost.or.kr
 @@||vads-api.ad.daum.net/xylophone/adrequest/vmap/
