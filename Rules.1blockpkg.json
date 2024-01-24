@@ -18144,6 +18144,22 @@
                 }
             },
             {
+                "id": "aa20ce80-08d7-4a1e-8e41-3ad4edf7e089",
+                "name": "file.mk.co.kr/sports/AD/$domain=mksports.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?file\\.mk\\.co\\.kr/sports/AD/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*mksports.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6a258cba-7e67-4766-bd01-b8cbdc1aeeeb",
                 "name": "file.osen.co.kr/web2/html/realclick_ad.html",
                 "content": {
@@ -43826,6 +43842,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_footer,div.ad_rightbottom,div.ad_rightview,div.ad_viewad_box,div.art_txt>div[style=\"padding:15px 15px 15px 0; text-align:left; float:left; margin-right:5px; margin-bottom:15px;\"],div.art_txt>div[style=\"text-align:center; border:0; width:100%; margin:0 auto\"],div.bn_sec,div.read_txt>div[style=\"padding:15px 15px 15px 0; text-align:left; float:left; margin-right:5px; margin-bottom:15px;\"],div.read_txt>div[style=\"text-align:center; border:0; width:100%; margin:0 auto\"],div.view_txt>div[style=\"padding:15px 15px 15px 0; text-align:left; float:left; margin-right:5px; margin-bottom:15px;\"],div.view_txt>div[style=\"text-align:center; border:0; width:100%; margin:0 auto\"]"
+                    }
+                }
+            },
+            {
+                "id": "8cf9dc7a-bab7-43cf-925a-16ec47791b5e",
+                "name": "mksports.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mksports\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[id^=\"slot\"]"
                     }
                 }
             },
