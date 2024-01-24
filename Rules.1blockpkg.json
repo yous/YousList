@@ -29528,14 +29528,15 @@
                 }
             },
             {
-                "id": "0d245752-1f66-4e23-a935-8c7bc1de43d7",
-                "name": "sportsw.kr/support/_updata/banner2/$domain=m.sportsw.kr",
+                "id": "17e9f596-def7-486a-accc-b2b48181a372",
+                "name": "sportsw.kr/support/_updata/banner2/$domain=m.sportsw.kr|sportsw.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?sportsw\\.kr/support/_updata/banner2/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
-                            "*m.sportsw.kr"
+                            "*m.sportsw.kr",
+                            "*sportsw.kr"
                         ]
                     },
                     "action": {
@@ -47095,6 +47096,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-float-right,div.article-ad,div.article-ad__content-bottom,div.country-ad-left,div.country-ad-right,div.sub-ad-left"
+                    }
+                }
+            },
+            {
+                "id": "9035cd63-8764-47f5-aee1-e5f0c1ddd2c9",
+                "name": "sportsw.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sportsw\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#subCtsRight>div[id^=\"banner\"],div.adlink,ul.ADulli>li>a[target=\"_blank\"],ul.ADulli>li>span.ad"
                     }
                 }
             },
