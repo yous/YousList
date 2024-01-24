@@ -41763,6 +41763,19 @@
                 }
             },
             {
+                "id": "72d3883e-59eb-4179-aa72-7264e8afe6c8",
+                "name": "m.imaeil.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.imaeil\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.art_mid_ad"
+                    }
+                }
+            },
+            {
                 "id": "884f363e-bc71-480d-b383-5e7e1246664f",
                 "name": "m.imnews.busan.com##",
                 "content": {
@@ -43839,19 +43852,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.banner"
-                    }
-                }
-            },
-            {
-                "id": "23f20ea5-acc2-417c-9b3b-993b90ee3836",
-                "name": "mnews.imaeil.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?mnews\\.imaeil\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#bottom-sticky,div.art_mid_ad,ins.adsbyaiinad"
                     }
                 }
             },
