@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 1 days
-! Version: 20240121
+! Version: 20240124
 
 ! General element hiding rules
 ##amp-ad
@@ -1425,8 +1425,7 @@
 ||ilbe.com/m.layouts/default_modify/mobileTopAd.js^$domain=ilbe.com
 ||ilbe.com/myads/openX_passback*.html^$domain=ilbe.com
 ||ilikeview.com/aclk^
-||imaeil.com/image/banner/ad*.swf^
-||imaeil.com/wec/
+||imaeil.com/upload/ads/$domain=imaeil.com
 ||image.ajunews.com/content/ads/$domain=ajunews.com|m.ajunews.com
 ||image.cauly.co.kr/websdk/common/lasted/ads.js^
 ||image.cauly.co.kr/websdk/multi_mini_ads/ads.js^
@@ -3948,6 +3947,9 @@ ilyo.co.kr##div.ad_topArea
 ilyo.co.kr##div.eventBnr
 ilyo.co.kr##div[class^="ad_skyscraper_"]
 ilyo.co.kr##div[data-widget_id="57wBw1o8"]
+imaeil.com##div.inner>div[style="height:250px; text-align: center;"]
+imaeil.com##div.wb_left
+imaeil.com##div.wcms_banner
 imdb.com##div#promoted-partner-bar
 imdb.com##div.cornerstone_slot
 imgur.com##div.ad-slot

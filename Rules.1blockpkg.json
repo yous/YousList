@@ -19857,25 +19857,15 @@
                 }
             },
             {
-                "id": "b93c4dcf-c4e4-4b39-b868-58f4778eef60",
-                "name": "imaeil.com/image/banner/ad*.swf",
+                "id": "54cf604e-3bb5-4f7d-8787-a1d7bc7157e9",
+                "name": "imaeil.com/upload/ads/$domain=imaeil.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?imaeil\\.com/image/banner/ad.*\\.swf",
-                        "url-filter-is-case-sensitive": false
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "5a6c4d89-3327-4524-a5d4-755a1260889c",
-                "name": "imaeil.com/wec/",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?imaeil\\.com/wec/",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?imaeil\\.com/upload/ads/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*imaeil.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -39065,6 +39055,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_asideArea,div.ad_direct_warp,div.ad_topArea,div.eventBnr,div[class^=\"ad_skyscraper_\"],div[data-widget_id=\"57wBw1o8\"]"
+                    }
+                }
+            },
+            {
+                "id": "b6685a46-d898-4776-9b83-5f2700144367",
+                "name": "imaeil.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?imaeil\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.inner>div[style=\"height:250px; text-align: center;\"],div.wb_left,div.wcms_banner"
                     }
                 }
             },
