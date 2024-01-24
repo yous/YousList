@@ -29528,6 +29528,22 @@
                 }
             },
             {
+                "id": "0d245752-1f66-4e23-a935-8c7bc1de43d7",
+                "name": "sportsw.kr/support/_updata/banner2/$domain=m.sportsw.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sportsw\\.kr/support/_updata/banner2/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.sportsw.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "58646556-654f-4351-acef-34a66af6d702",
                 "name": "srv.bebi.com/public/js/bebi_v1.js",
                 "content": {
@@ -42724,6 +42740,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-center,div.ad-float-right,div.article-ad-center,div.top-ad"
+                    }
+                }
+            },
+            {
+                "id": "3fce2ccb-8f3f-4f2c-8db0-49c1082ba2f6",
+                "name": "m.sportsw.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.sportsw\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#articleBody1,div#articleBody2,div.adlink,div.media_s_right>div[id^=\"banner\"],ul.ADulli>li>a.adt,ul.ADulli>li>span.ad"
                     }
                 }
             },
