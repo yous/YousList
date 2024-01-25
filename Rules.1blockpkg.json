@@ -25154,6 +25154,19 @@
                 }
             },
             {
+                "id": "c3cb2c6a-2d2c-4771-9d90-b5f6d059379c",
+                "name": "montelena-rcv.gmarket.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?montelena-rcv\\.gmarket\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "93e4d23d-1134-43ca-9ab3-ae1c97817e86",
                 "name": "mp.mmnneo.com",
                 "content": {
@@ -31564,6 +31577,19 @@
                         "if-domain": [
                             "*simply-hentai.com"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "41e90b36-513f-4a58-8a6f-7730d93caa2c",
+                "name": "uts.gmarket.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?uts\\.gmarket\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
@@ -50280,6 +50306,32 @@
                         "if-domain": [
                             "*mindpost.or.kr"
                         ]
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
+                    }
+                }
+            },
+            {
+                "id": "5a30433b-0a3c-4f75-bc28-028636383d08",
+                "name": "@@script.gmarket.co.kr/js/common/pds_gmkt.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?script\\.gmarket\\.co\\.kr/js/common/pds_gmkt\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
+                    }
+                }
+            },
+            {
+                "id": "fd06a23e-247b-404a-8742-f91c1e7c5cce",
+                "name": "@@script.gmarket.co.kr/js/header/statsna.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?script\\.gmarket\\.co\\.kr/js/header/statsna\\.js",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "ignore-previous-rules"
