@@ -50397,12 +50397,15 @@
                 }
             },
             {
-                "id": "5a30433b-0a3c-4f75-bc28-028636383d08",
-                "name": "@@script.gmarket.co.kr/js/common/pds_gmkt.js",
+                "id": "ee94c54c-34bb-4926-b201-431f4a83893f",
+                "name": "@@script.gmarket.co.kr/js/common/pds_gmkt.js$domain=gmarket.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?script\\.gmarket\\.co\\.kr/js/common/pds_gmkt\\.js",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*gmarket.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "ignore-previous-rules"
@@ -50410,12 +50413,15 @@
                 }
             },
             {
-                "id": "fd06a23e-247b-404a-8742-f91c1e7c5cce",
-                "name": "@@script.gmarket.co.kr/js/header/statsna.js",
+                "id": "2018cc46-aaf2-4207-be12-a8814988c000",
+                "name": "@@script.gmarket.co.kr/js/header/statsna.js$domain=gmarket.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?script\\.gmarket\\.co\\.kr/js/header/statsna\\.js",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*gmarket.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "ignore-previous-rules"
