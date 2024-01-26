@@ -12852,6 +12852,22 @@
                 }
             },
             {
+                "id": "b6d45b95-1140-4eff-9170-3735e9e93277",
+                "name": "ats.auction.co.kr$domain=auction.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ats\\.auction\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*auction.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "471d5deb-e175-4a13-8f36-cace853e1a9a",
                 "name": "authanalysis.com/CLad.php",
                 "content": {
@@ -25154,6 +25170,38 @@
                 }
             },
             {
+                "id": "cadfb8f2-24b4-434b-9b5e-fdbbd47689e8",
+                "name": "montelena-rcv.gmarket.co.kr$domain=gmarket.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?montelena-rcv\\.gmarket\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*gmarket.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c7b656a7-45d2-48f5-9e0c-21bf6e94051a",
+                "name": "montelena.auction.co.kr$domain=auction.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?montelena\\.auction\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*auction.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "93e4d23d-1134-43ca-9ab3-ae1c97817e86",
                 "name": "mp.mmnneo.com",
                 "content": {
@@ -26850,6 +26898,22 @@
                 }
             },
             {
+                "id": "325bb95f-f166-4725-a08b-5f72b60a30cd",
+                "name": "pds.auction.co.kr$domain=auction.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pds\\.auction\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*auction.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8d456a69-9cbd-4f89-a94a-ed492e0d2df6",
                 "name": "pds.dailypharm.com/ADManager_2017/$domain=dailypharm.com|m.dailypharm.com",
                 "content": {
@@ -26958,6 +27022,38 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*physicsworld.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "54691c5c-0563-429e-8973-a87b35b219c1",
+                "name": "pics.auction.co.kr/common/blank.gif$domain=auction.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pics\\.auction\\.co\\.kr/common/blank\\.gif",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*auction.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "c29ef24a-ac38-43a5-82b2-fa90a3a4a6c4",
+                "name": "pics1.iacstatic.co.kr/common/blank.gif$domain=auction.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pics1\\.iacstatic\\.co\\.kr/common/blank\\.gif",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*auction.co.kr"
                         ]
                     },
                     "action": {
@@ -31563,6 +31659,38 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*simply-hentai.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "8e19d8ac-4058-480f-ae5f-c551ccacd338",
+                "name": "uts.gmarket.co.kr$domain=gmarket.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?uts\\.gmarket\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*gmarket.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "b8bd9f77-632c-44a0-9704-bf0ae2aa61a1",
+                "name": "utsgw.auction.co.kr$domain=auction.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?utsgw\\.auction\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*auction.co.kr"
                         ]
                     },
                     "action": {
@@ -50279,6 +50407,38 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*mindpost.or.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
+                    }
+                }
+            },
+            {
+                "id": "ee94c54c-34bb-4926-b201-431f4a83893f",
+                "name": "@@script.gmarket.co.kr/js/common/pds_gmkt.js$domain=gmarket.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?script\\.gmarket\\.co\\.kr/js/common/pds_gmkt\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*gmarket.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
+                    }
+                }
+            },
+            {
+                "id": "2018cc46-aaf2-4207-be12-a8814988c000",
+                "name": "@@script.gmarket.co.kr/js/header/statsna.js$domain=gmarket.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?script\\.gmarket\\.co\\.kr/js/header/statsna\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*gmarket.co.kr"
                         ]
                     },
                     "action": {
