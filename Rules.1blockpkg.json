@@ -12852,12 +12852,15 @@
                 }
             },
             {
-                "id": "24769906-5b8e-41ca-a1a6-4ab2aa283b2e",
-                "name": "ats.auction.co.kr^domain=auction.co.kr",
+                "id": "b6d45b95-1140-4eff-9170-3735e9e93277",
+                "name": "ats.auction.co.kr$domain=auction.co.kr",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?ats\\.auction\\.co\\.kr^domain=auction\\.co\\.kr",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ats\\.auction\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*auction.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -25167,12 +25170,15 @@
                 }
             },
             {
-                "id": "c3cb2c6a-2d2c-4771-9d90-b5f6d059379c",
-                "name": "montelena-rcv.gmarket.co.kr",
+                "id": "cadfb8f2-24b4-434b-9b5e-fdbbd47689e8",
+                "name": "montelena-rcv.gmarket.co.kr$domain=gmarket.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?montelena-rcv\\.gmarket\\.co\\.kr",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*gmarket.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -25180,12 +25186,15 @@
                 }
             },
             {
-                "id": "770e34e2-7cc5-4a30-9484-79eca33c4243",
-                "name": "montelena.auction.co.kr^domain=auction.co.kr",
+                "id": "c7b656a7-45d2-48f5-9e0c-21bf6e94051a",
+                "name": "montelena.auction.co.kr$domain=auction.co.kr",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?montelena\\.auction\\.co\\.kr^domain=auction\\.co\\.kr",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?montelena\\.auction\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*auction.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -26889,12 +26898,15 @@
                 }
             },
             {
-                "id": "01c3c214-a16e-4947-9705-6d5bacaa8ab2",
-                "name": "pds.auction.co.kr^domain=auction.co.kr",
+                "id": "325bb95f-f166-4725-a08b-5f72b60a30cd",
+                "name": "pds.auction.co.kr$domain=auction.co.kr",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?pds\\.auction\\.co\\.kr^domain=auction\\.co\\.kr",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?pds\\.auction\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*auction.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -31655,12 +31667,15 @@
                 }
             },
             {
-                "id": "41e90b36-513f-4a58-8a6f-7730d93caa2c",
-                "name": "uts.gmarket.co.kr",
+                "id": "8e19d8ac-4058-480f-ae5f-c551ccacd338",
+                "name": "uts.gmarket.co.kr$domain=gmarket.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?uts\\.gmarket\\.co\\.kr",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*gmarket.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -31668,12 +31683,15 @@
                 }
             },
             {
-                "id": "37a569d2-3b65-46f4-8e26-2dcc3178cc5e",
-                "name": "utsgw.auction.co.kr^domain=auction.co.kr",
+                "id": "b8bd9f77-632c-44a0-9704-bf0ae2aa61a1",
+                "name": "utsgw.auction.co.kr$domain=auction.co.kr",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?utsgw\\.auction\\.co\\.kr^domain=auction\\.co\\.kr",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?utsgw\\.auction\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*auction.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
