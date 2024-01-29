@@ -43640,6 +43640,19 @@
                 }
             },
             {
+                "id": "ff19533b-114b-4b38-b0b9-007f18e5a1b3",
+                "name": "map.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?map\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.promotion_wrap"
+                    }
+                }
+            },
+            {
                 "id": "f3c47488-b8ea-40f5-9d22-301e8c9dde3b",
                 "name": "marshmallow-qa.com##",
                 "content": {
@@ -44598,6 +44611,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.banner,div.banner_adsense"
+                    }
+                }
+            },
+            {
+                "id": "91d8d42e-7aae-433c-b792-575d68cd228a",
+                "name": "new-m.pay.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?new-m\\.pay\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"BottomAds_article\"]"
                     }
                 }
             },
