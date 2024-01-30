@@ -26132,6 +26132,22 @@
                 }
             },
             {
+                "id": "4f73c5be-0945-404f-ad93-c6e30eeb1ccb",
+                "name": "newtoki.help/banner/$domain=newtoki.help",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newtoki\\.help/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*newtoki.help"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d4cd84f0-1c8e-4447-968a-25ccd431b9b5",
                 "name": "newyorker.com/hotzones/esi/the-new-yorker/prebid.min.js$domain=newyorker.com",
                 "content": {
@@ -45157,6 +45173,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#ad_scrollB,div#floating_banner_body,div.ad-template"
+                    }
+                }
+            },
+            {
+                "id": "82919a01-74ed-4bb2-ba83-ea00234dbe55",
+                "name": "newtoki.help##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newtoki\\.help"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner2,div.bo_v_banner,ul.ba_test,ul.banner3"
                     }
                 }
             },
