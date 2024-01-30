@@ -30542,6 +30542,19 @@
                 }
             },
             {
+                "id": "1a2ab455-ff9f-4538-93bc-ae8e5f772c63",
+                "name": "t1.daumcdn.net/adfit/static/kp.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?t1\\.daumcdn\\.net/adfit/static/kp\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4a9007c8-89ed-4b11-9555-72f09ef55ebd",
                 "name": "t1.daumcdn.net/kas/static/ba.min.js",
                 "content": {
