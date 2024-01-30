@@ -41105,6 +41105,19 @@
                 }
             },
             {
+                "id": "19db2c3c-7fdb-46ad-8ee0-911922311bbd",
+                "name": "m.cafe.daum.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.cafe\\.daum\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bizBoardAd,li.nativead-placeholder"
+                    }
+                }
+            },
+            {
                 "id": "17a39256-bfec-430c-8417-87ca2f9820d5",
                 "name": "m.cafe.naver.com##",
                 "content": {
