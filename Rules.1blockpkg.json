@@ -30542,6 +30542,22 @@
                 }
             },
             {
+                "id": "98e089ab-21ae-4da0-9cb2-19c7d96068bb",
+                "name": "t1.daumcdn.net/adfit/static/kp.js$third-party",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?t1\\.daumcdn\\.net/adfit/static/kp\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "load-type": [
+                            "third-party"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "4a9007c8-89ed-4b11-9555-72f09ef55ebd",
                 "name": "t1.daumcdn.net/kas/static/ba.min.js",
                 "content": {
