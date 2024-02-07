@@ -1372,6 +1372,19 @@
                 }
             },
             {
+                "id": "424e7fdc-71fd-45eb-8b3a-e35103ac7104",
+                "name": "##iframe[src*=\"//ad.planbplus.co.kr/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//ad.planbplus.co.kr/\"]"
+                    }
+                }
+            },
+            {
                 "id": "fef2041b-4b32-4b55-93b8-a23a5c3c884e",
                 "name": "##iframe[src*=\"//ad.priel.co.kr/\"]",
                 "content": {
@@ -36648,6 +36661,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-gpt-breaker,div.ad-gpt-breaker-container,div.ad-gpt-main,div.landing-feed--ad-vertical,div.leaderboard"
+                    }
+                }
+            },
+            {
+                "id": "dcc454ba-f2de-4b51-8125-1401b71d88b0",
+                "name": "digitaltoday.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?digitaltoday\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-template"
                     }
                 }
             },
