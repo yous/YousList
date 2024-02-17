@@ -16637,6 +16637,19 @@
                 }
             },
             {
+                "id": "439438bf-0074-4cf6-8118-9f812d68e58b",
+                "name": "data-beacons.s-onetag.com/dataBeacons.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?data-beacons\\.s-onetag\\.com/dataBeacons\\.min\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "de189e8f-5d9e-42f2-b21c-5a5ce86e333c",
                 "name": "data-logdelivery.wconcept.co.kr",
                 "content": {
@@ -37336,7 +37349,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "article#bottom-big-banner,article.main-top-banner,article[class^=\"etoad-\"][class$=\"-container\"],aside.main_right>article.youtube-container,div#coupang_ad_box,div#coupang_cover_box,div#main_bn,div#mw_mobile>center,div#mw_mobile>div[style=\"margin-bottom:10px;\"],div#mw_mobile>section[style=\"margin:5px 0 -5px; text-align: center;\"]>a,div#mw_mobile_head5>center,div.board_new2_wrap+a,div.g_banner,div.hit_list_banner_wrap,div.main_left_ad,div.main_right_ad,div.main_right_side_wrap,div.right>div.img_latest_wrap,div.right>div[style=\"margin-bottom:10px;\"],div[class^=\"power_link\"][class$=\"-power_link_top_wrap\"],li.list.ad_list,li.subject.ad_subject,section#m_main_attendance_wrap+a,section#m_main_top_banner,section#main_bottom_super_banner"
+                        "selector": "article#bottom-big-banner,article.main-top-banner,article[class^=\"etoad-\"][class$=\"-container\"],aside.main_right>article.youtube-container,div#coupang_ad_box,div#coupang_cover_box,div#main_bn,div#mw_mobile>center,div#mw_mobile>div[style=\"margin-bottom:10px;\"],div#mw_mobile>section[style=\"height:100px; margin:5px 0 -5px; text-align: center;\"],div#mw_mobile>section[style=\"margin:5px 0 -5px; text-align: center;\"]>a,div#mw_mobile_head5>center,div.board_new2_wrap+a,div.g_banner,div.hit_list_banner_wrap,div.main_left_ad,div.main_right_ad,div.main_right_side_wrap,div.right>div.img_latest_wrap,div.right>div[style=\"margin-bottom:10px;\"],div[class^=\"power_link\"][class$=\"-power_link_top_wrap\"],li.list.ad_list,li.subject.ad_subject,section#m_main_attendance_wrap+a,section#m_main_top_banner,section#main_bottom_super_banner"
                     }
                 }
             },
