@@ -10246,12 +10246,15 @@
                 }
             },
             {
-                "id": "09a65ba3-c232-42a6-8cd4-a43fa792d859",
-                "name": "adex.ednplus.com",
+                "id": "7b00b56f-43a4-48f5-bc44-211871812b48",
+                "name": "adex.ednplus.com$domain=~m.unsin.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?adex\\.ednplus\\.com",
-                        "url-filter-is-case-sensitive": false
+                        "url-filter-is-case-sensitive": false,
+                        "unless-domain": [
+                            "*m.unsin.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
