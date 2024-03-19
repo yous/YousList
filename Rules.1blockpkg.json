@@ -8315,6 +8315,22 @@
                 }
             },
             {
+                "id": "80847da2-4f30-476b-80db-fd11bbbf9c53",
+                "name": "100news.kr/data/100news_kr/banner/$domain=m.100news.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?100news\\.kr/data/100news_kr/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.100news.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "42896d9f-c178-4a1d-ae6b-24335aef2ca6",
                 "name": "101.livere.co.kr/coinone-ad/coinone-ad-widget.html",
                 "content": {
@@ -41003,6 +41019,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.wh_ad"
+                    }
+                }
+            },
+            {
+                "id": "dbe6d4c0-794a-4bf3-ba5f-f433b019cd84",
+                "name": "m.100news.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.100news\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bn"
                     }
                 }
             },
