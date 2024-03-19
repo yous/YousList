@@ -39642,6 +39642,19 @@
                 }
             },
             {
+                "id": "283d4b41-c93b-491d-a4bc-46120617b72f",
+                "name": "issuelink.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?issuelink\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ibox-content>table.table>tbody>tr>td.text-center"
+                    }
+                }
+            },
+            {
                 "id": "13863f84-3673-4497-8da3-b863a1190ba1",
                 "name": "issuu.com##",
                 "content": {
