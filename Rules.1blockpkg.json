@@ -33249,6 +33249,19 @@
                 }
             },
             {
+                "id": "ebd8158b-bbd2-472b-9056-e0b9c911e1ca",
+                "name": "100news.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?100news\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bn"
+                    }
+                }
+            },
+            {
                 "id": "a1e7b142-b863-4134-8cce-3c1568b55294",
                 "name": "101.livere.co.kr##",
                 "content": {
