@@ -29032,6 +29032,22 @@
                 }
             },
             {
+                "id": "26381a99-f09f-4ac1-8cb4-ff405afc28d3",
+                "name": "slrclub.com/js/bbs_viewvan.js$domain=m.slrclub.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?slrclub\\.com/js/bbs_viewvan\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.slrclub.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "eded7814-4eff-4a15-9560-f3f804fe6ff9",
                 "name": "sm1.selectmedia.asia/cdn/tags/tag_*.js",
                 "content": {
@@ -42995,6 +43011,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "aside.menuBanner"
+                    }
+                }
+            },
+            {
+                "id": "8497eb8d-3c56-4028-84db-7aedc1bdd209",
+                "name": "m.slrclub.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.slrclub\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ul.list>div[style=\"width: 340px; height: 290px; margin: 1rem auto;\"]"
                     }
                 }
             },
