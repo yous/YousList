@@ -47718,6 +47718,19 @@
                 }
             },
             {
+                "id": "82be9ac2-7b62-4ddd-bd84-5f56a9869790",
+                "name": "talk-cargo.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?talk-cargo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "section.basic-body-main div[class^=\"eb-slider-basic-wrap-\"]"
+                    }
+                }
+            },
+            {
                 "id": "109d1c28-55b5-4ec6-aa16-4493b6f2668b",
                 "name": "taptalk.net##",
                 "content": {
