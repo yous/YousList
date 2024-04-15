@@ -25997,6 +25997,22 @@
                 }
             },
             {
+                "id": "a1502637-084b-428a-9df9-b93f5ef8b896",
+                "name": "news1.kr/ads/iframe/$domain=news1.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?news1\\.kr/ads/iframe/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*news1.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b2a6cc4e-d6ad-4d48-841a-c22d1167b616",
                 "name": "newscomm.nate.com/Etc/SocialAD",
                 "content": {
@@ -45113,7 +45129,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.adBlock,div.ad_content,div.ad_txt_article,div.ad_wing_l,div.ad_wing_r,div.link_news>ul>div,div.top_area>div.wrap_sl_item,div.txt_crypto,section.side_banner_area"
+                        "selector": "div#articles_detail>div[style=\"margin-top: 10px; margin-bottom: 10px;\"],div.adBlock,div.ad_content,div.ad_txt_article,div.ad_wing_l,div.ad_wing_r,div.link_news>ul>div,div.top_area>div.wrap_sl_item,div.txt_crypto,iframe[src^=\"/ads/iframe/\"],section.side_banner_area"
                     }
                 }
             },
