@@ -9920,11 +9920,24 @@
                 }
             },
             {
-                "id": "d8c8c9bb-5a55-42a0-bc0f-854a1f008d7f",
-                "name": "ad.tpmn.co.kr/adReqSb.tpmn",
+                "id": "a1cb7804-e95a-4a27-9af0-0649f27852cf",
+                "name": "ad.tpmn.co.kr",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.tpmn\\.co\\.kr/adReqSb\\.tpmn",
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.tpmn\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "d9a096b4-19a8-4e93-9d20-de1467bc1154",
+                "name": "ad.tpmn.io",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ad\\.tpmn\\.io",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -12645,6 +12658,22 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*pooq.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "03f677b0-fdd2-4325-b48a-fc1a79104276",
+                "name": "applog.ssgdfs.com$domain=ssgdfs.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?applog\\.ssgdfs\\.com",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*ssgdfs.com"
                         ]
                     },
                     "action": {
@@ -22856,6 +22885,22 @@
                 }
             },
             {
+                "id": "8ec97e27-e985-4ac8-8e82-d4bfe1ebe994",
+                "name": "logc.shilladfs.com$domain=shilladfs.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?logc\\.shilladfs\\.com",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*shilladfs.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b3a89b60-b2f8-44a0-b71a-6a15ebdc6938",
                 "name": "loginside.co.kr",
                 "content": {
@@ -28829,6 +28874,22 @@
                 }
             },
             {
+                "id": "e826d8ae-f57f-4fd2-93ba-a5c47dbef862",
+                "name": "shinsegae.com/topNPopup.do$domain=shinsegae.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?shinsegae\\.com/topNPopup\\.do",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*shinsegae.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "8080f10b-43ed-4035-bbbf-0df32b33a90b",
                 "name": "shop.kbench.com/09shop/article_right_box.php$domain=kbench.com",
                 "content": {
@@ -29786,6 +29847,22 @@
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?ss\\.dawin\\.tv/req",
                         "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "a36c89f5-8546-4705-88ae-ceb76b957a0c",
+                "name": "ssgdfs.com/kr/common/getPageIcfCd$domain=ssgdfs.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ssgdfs\\.com/kr/common/getPageIcfCd",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*ssgdfs.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -31399,6 +31476,22 @@
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?tracking\\.adweb\\.co\\.kr",
                         "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "4df71167-19b0-45d5-abed-3897dda609e4",
+                "name": "traders.co.kr/common/js/makePCookie.js$domain=traders.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?traders\\.co\\.kr/common/js/makePCookie\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*traders.co.kr"
+                        ]
                     },
                     "action": {
                         "type": "block"
