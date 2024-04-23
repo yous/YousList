@@ -44697,6 +44697,19 @@
                 }
             },
             {
+                "id": "51d9abbb-fd35-4876-ac45-82c45629919a",
+                "name": "moneys.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?moneys\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-area"
+                    }
+                }
+            },
+            {
                 "id": "65851459-d491-4ee2-84b5-a55ad3c70c1b",
                 "name": "moneys.mt.co.kr##",
                 "content": {
