@@ -46800,6 +46800,19 @@
                 }
             },
             {
+                "id": "8b15b62e-59c9-4530-b3f3-b37ba13f8623",
+                "name": "sciencealert.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sciencealert\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-slot,div.ad-slot--container"
+                    }
+                }
+            },
+            {
                 "id": "daf6ae60-a5c1-44ba-8e07-398709185564",
                 "name": "sciencemag.org##",
                 "content": {
