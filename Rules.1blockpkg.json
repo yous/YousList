@@ -13712,6 +13712,22 @@
                 }
             },
             {
+                "id": "315b1e3f-f4f7-4176-b520-4ced00e37bd1",
+                "name": "cache.ggeal.com/banner/*.html$domain=web.humoruniv.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cache\\.ggeal\\.com/banner/.*\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*web.humoruniv.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d30fba96-fe6b-40dd-a473-628b5e230ec8",
                 "name": "cache.ssend.microad.jp/js/adfunnel-sp-load.js",
                 "content": {
@@ -49837,7 +49853,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "a[onmouseover=\"ad_choo_over();\"],body#body>div[style=\"clear:both;width:162px;background:#f2f2f2;border:1px solid #fafafa;\"],div#CmAdView2,div#ad_240,div#ad_700,div#ad_adture,div#choo_web_read_top_wrap,div#wrap_cnts>div.box[style=\"width:896px;margin:10px 0 0 0;background:#f5f8f9;border:1px solid #f0f2f3;\"],div.ad_div,iframe[src^=\"http://web.humoruniv.com/banner/ddn_banner_\"][src*=\".html\"],table#choo"
+                        "selector": "a[onmouseover=\"ad_choo_over();\"],body#body>div[style=\"clear:both;width:162px;background:#f2f2f2;border:1px solid #fafafa;\"],div#CmAdView2,div#ad_240,div#ad_700,div#ad_adture,div#choo_web_read_top_wrap,div#wrap_cnts>div[style=\"margin:20px 0 5px 0;\"],div#wrap_cnts>div[style=\"width:728px;min-height:90px;height:90px;clear:both;margin:10px auto;padding:0px;overflow:hidden;background:#f2f5f7;border:1px solid #ddd;\"],div.ad_div,iframe[src*=\"//cache.ggeal.com/banner/\"][src*=\".html\"],iframe[src^=\"http://web.humoruniv.com/banner/ddn_banner_\"][src*=\".html\"],table#choo"
                     }
                 }
             },
