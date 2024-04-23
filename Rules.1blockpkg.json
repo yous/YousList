@@ -30554,6 +30554,38 @@
                 }
             },
             {
+                "id": "92ad8f63-6e25-4404-8847-2d3eb05ef1f7",
+                "name": "stoo.com/ad/$domain=stoo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?stoo\\.com/ad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*stoo.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e23b725c-3a9f-43e3-8788-248ee2dad1fe",
+                "name": "stoo.com/banner/$domain=stoo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?stoo\\.com/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*stoo.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "df52a94b-bd43-4182-9aca-3d135282f288",
                 "name": "stt.pltapad.com/contain.php",
                 "content": {
@@ -47833,6 +47865,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "amp-layout.ad-space"
+                    }
+                }
+            },
+            {
+                "id": "8b817e59-4a44-457f-a949-9464051fdeb4",
+                "name": "stoo.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?stoo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_300x250,div.ad_shoopng"
                     }
                 }
             },
