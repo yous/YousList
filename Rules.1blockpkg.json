@@ -25549,6 +25549,19 @@
                 }
             },
             {
+                "id": "8796f12b-0e16-40ca-b52c-6b3908a4790d",
+                "name": "my.newscover.co.kr/common/c/js/sidecover.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?my\\.newscover\\.co\\.kr/common/c/js/sidecover\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "dc2937b5-c8bd-43a2-888d-8f952320558e",
                 "name": "mycdn.co/adServe/imgBanner*/*_image-banner.cib",
                 "content": {
@@ -42756,6 +42769,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_2016,div.ct_move>center,div.new_ad,div.new_ad2,div.new_ad3,div[id^=\"slot\"],iframe[src^=\"./index_ad.mk\"]"
+                    }
+                }
+            },
+            {
+                "id": "427428d0-b1f8-4a99-ad3a-76b48dd1ca96",
+                "name": "m.moneys.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.moneys\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-area"
                     }
                 }
             },
