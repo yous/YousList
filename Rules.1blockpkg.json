@@ -45617,6 +45617,19 @@
                 }
             },
             {
+                "id": "5689b4ce-4025-46c2-b95e-cf71c02791c2",
+                "name": "nunting.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?nunting\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#site-list>a[target=\"_blank\"]"
+                    }
+                }
+            },
+            {
                 "id": "918ee8c6-ddb4-4a37-ab50-7462b71f6a8c",
                 "name": "nypost.com##",
                 "content": {
