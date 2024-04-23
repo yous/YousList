@@ -11892,6 +11892,19 @@
                 }
             },
             {
+                "id": "9e89c6ea-ca65-4244-a964-5cd5fc7e7249",
+                "name": "advimg.ad-mapps.com/sdk/js/ver/3.0.0/ad_script.min.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?advimg\\.ad-mapps\\.com/sdk/js/ver/3\\.0\\.0/ad_script\\.min\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f7aea94c-2a51-4e24-be04-67f7b41bf87e",
                 "name": "advintage.net/adserver/www/delivery/ajs.php",
                 "content": {
@@ -24121,6 +24134,38 @@
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.sportsseoul\\.com/application/views/ad/.*\\.html",
                         "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "706e63ee-5088-402f-bf11-60d67356ee73",
+                "name": "m.stoo.com/ad/$domain=m.stoo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.stoo\\.com/ad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.stoo.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "4898e4f4-6277-4f7d-a21a-245d2850f420",
+                "name": "m.stoo.com/banner/$domain=m.stoo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.stoo\\.com/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.stoo.com"
+                        ]
                     },
                     "action": {
                         "type": "block"
@@ -43303,6 +43348,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad_iframe,div.adbox,div[id^=\"ad-slot\"]"
+                    }
+                }
+            },
+            {
+                "id": "ba9451c3-17cf-45ff-8cdd-5b7466072bad",
+                "name": "m.stoo.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.stoo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#wrap>div[style=\"text-align:center;height:65px\"]"
                     }
                 }
             },
