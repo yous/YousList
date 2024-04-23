@@ -13712,13 +13712,14 @@
                 }
             },
             {
-                "id": "315b1e3f-f4f7-4176-b520-4ced00e37bd1",
-                "name": "cache.ggeal.com/banner/*.html$domain=web.humoruniv.com",
+                "id": "76d41d9e-37b0-49d6-9b53-50eadb468485",
+                "name": "cache.ggeal.com/banner/*.html$domain=ggeal.com|web.humoruniv.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?cache\\.ggeal\\.com/banner/.*\\.html",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
+                            "*ggeal.com",
                             "*web.humoruniv.com"
                         ]
                     },
@@ -38349,6 +38350,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-template"
+                    }
+                }
+            },
+            {
+                "id": "610c8cba-ccc1-4189-b17d-cf5432105380",
+                "name": "ggeal.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ggeal\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#body_read>div[style=\"margin:20px 0 5px 0;\"],iframe[src^=\"/banner/\"][src*=\".html\"]"
                     }
                 }
             },
