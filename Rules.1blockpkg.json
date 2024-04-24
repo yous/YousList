@@ -47128,6 +47128,19 @@
                 }
             },
             {
+                "id": "22032803-6326-4492-8616-12766a23b1a9",
+                "name": "sejonghub.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sejonghub\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.mb-3.mb-sm-4>div.carousel.carousel-fade[id^=\"carousel_\"],div.mb-3.mb-sm-4>div.carousel.carousel-fade[id^=\"carousel_\"]+div.shadow-line"
+                    }
+                }
+            },
+            {
                 "id": "aa08fe3e-5f69-4edb-8b67-c3baf2f36457",
                 "name": "seoul.co.kr##",
                 "content": {
