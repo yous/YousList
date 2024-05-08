@@ -16668,6 +16668,22 @@
                 }
             },
             {
+                "id": "99ba851f-e606-41ec-b3de-c78cc6dbe46c",
+                "name": "damoang.net/data/file/banners/$domain=damoang.net",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?damoang\\.net/data/file/banners/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*damoang.net"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "31097829-db63-4a33-bdc3-8677259d6bd3",
                 "name": "danawa.com/NBP/powerLink.php$domain=prod.danawa.com",
                 "content": {
@@ -36568,6 +36584,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad-template,div.banner_box"
+                    }
+                }
+            },
+            {
+                "id": "cace5384-317c-49ee-899e-36e9c0b0ac26",
+                "name": "damoang.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?damoang\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "a[data-dd-action-name=\"Boards Ads Banner\"]"
                     }
                 }
             },
