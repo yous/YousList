@@ -42074,6 +42074,19 @@
                 }
             },
             {
+                "id": "5a62eecc-03a7-4119-93d7-414f753cbd74",
+                "name": "m.fomos.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.fomos\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_rib"
+                    }
+                }
+            },
+            {
                 "id": "30cb0fb7-8cc1-4947-996f-b8aab8c111fe",
                 "name": "m.footballist.co.kr##",
                 "content": {
