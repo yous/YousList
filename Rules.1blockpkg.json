@@ -24806,6 +24806,19 @@
                 }
             },
             {
+                "id": "c99484c5-ee6c-439f-bb79-1a1f1e53b8c9",
+                "name": "mediacategory.com/servlet/adMediation",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mediacategory\\.com/servlet/adMediation",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b429d0ef-4ab2-4396-8943-0ad936324714",
                 "name": "mediacategory.com/servlet/adNative",
                 "content": {
@@ -33441,6 +33454,22 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?zdnet\\.co\\.kr/ads/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*zdnet.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "749b5d4f-a0e3-4e8c-99ce-cf28748543f9",
+                "name": "zdnet.co.kr/js_mobile/a1medv3.js$domain=zdnet.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?zdnet\\.co\\.kr/js_mobile/a1medv3\\.js",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*zdnet.co.kr"
@@ -50860,7 +50889,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#main_right_Floating_banner,div.ad,div.ad_tag,div.ad_tag_line,div.ad_txt,div.adbody,div.bn_box,div.con_bn_box,div.cont_ad_box,div.hide_bk,div.hide_bt,div.iwm_ba,div.news_12,div.power_center,div.top_bn_zone,div.view_ad_1,div.zdnetkor-scroll>div[style=\"width:700px; height:20px; padding:10px 15px; background-color:#e9eef1; margin-bottom:30px;\"],div[class^=\"right_bn\"],iframe[src^=\"/ads/\"],iframe[src^=\"/template_ad/\"],ul.ad_list"
+                        "selector": "div#main_right_Floating_banner,div.A1_300250,div.ad,div.ad_tag,div.ad_tag_line,div.ad_txt,div.adbody,div.bn_box,div.con_bn_box,div.cont_ad_box,div.hide_bk,div.hide_bt,div.iwm_ba,div.news_12,div.power_center,div.top_bn_zone,div.view_ad_1,div.zdnetkor-scroll>div[style=\"width:700px; height:20px; padding:10px 15px; background-color:#e9eef1; margin-bottom:30px;\"],div[class^=\"right_bn\"],iframe[src^=\"/ads/\"],iframe[src^=\"/template_ad/\"],ul.ad_list"
                     }
                 }
             },
