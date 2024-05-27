@@ -15209,6 +15209,22 @@
                 }
             },
             {
+                "id": "176c3ec6-4264-4af1-b4c1-9612bff07c0c",
+                "name": "cdn.salgoonews.com/adManager/js/lab.js$domain=salgoonews.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.salgoonews\\.com/adManager/js/lab\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*salgoonews.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6d677546-ba7d-4ce8-a3e8-c2f3c21babdf",
                 "name": "cdn.scrollads.co.kr/scrollads.*.js",
                 "content": {
