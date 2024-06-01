@@ -21851,6 +21851,19 @@
                 }
             },
             {
+                "id": "9f296cc7-e928-4c43-bb52-e357ad3d7a39",
+                "name": "js.admaru.com/admaru.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?js\\.admaru\\.com/admaru\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "603c0a5b-5f50-4a93-a57b-cf8cf30bb3b9",
                 "name": "js.gsspcln.jp/sdk/l/geniee_sjv5.js",
                 "content": {
@@ -37915,7 +37928,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ad_body,div#ad_right_view_top,div#add_view_03,div#add_view_06,div#add_view_upHot,div#fn_addFooter,div#fn_addFooter2,div#madd06,div#madd07,div#mlist_add,div#pltapad,div.ad_banner_leftWing,div.ad_banner_rightWing,ul#lineAdList"
+                        "selector": "div#ad_body,div#ad_right_view_top,div#add_view_03,div#add_view_06,div#add_view_upHot,div#fn_addFooter,div#fn_addFooter2,div#madd06,div#madd07,div#mlist_add,div#pltapad,div#top_ad_wrap,div.ad_banner_leftWing,div.ad_banner_rightWing,div.ad_center,div.view>div[style=\"width: 100%;height:290px;text-align: center;\"],ul#lineAdList"
                     }
                 }
             },
