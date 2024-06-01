@@ -36048,6 +36048,19 @@
                 }
             },
             {
+                "id": "2126e9cf-26e6-489b-bff3-f19792bb35d5",
+                "name": "chzzk.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?chzzk\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#live_end_banner,div[class^=\"live_end_banner_container__\"]"
+                    }
+                }
+            },
+            {
                 "id": "ebab5bf7-bdc6-4b92-9261-3cf436bfbf20",
                 "name": "cine21.com##",
                 "content": {
