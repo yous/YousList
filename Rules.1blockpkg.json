@@ -48615,6 +48615,19 @@
                 }
             },
             {
+                "id": "43eea16d-fcbd-45f7-885e-5d1570739f26",
+                "name": "thebigdata.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?thebigdata\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_roll_bottom,div[class^=\"pcbview\"]"
+                    }
+                }
+            },
+            {
                 "id": "9533e735-6201-4a43-9378-b28ee4f51761",
                 "name": "theblockchain.kr##",
                 "content": {
