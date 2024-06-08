@@ -40981,6 +40981,19 @@
                 }
             },
             {
+                "id": "543a385d-9d90-4256-931a-87d0823d0079",
+                "name": "land.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?land\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#_home_smart_banner"
+                    }
+                }
+            },
+            {
                 "id": "6149dfb8-ed6d-4ee9-b360-b0ebb4ede742",
                 "name": "laptopmag.com##",
                 "content": {
