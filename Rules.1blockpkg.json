@@ -47201,6 +47201,19 @@
                 }
             },
             {
+                "id": "affb8a26-d62c-42ee-875e-93686db380f6",
+                "name": "salgoonews.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?salgoonews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#tbl-next-up"
+                    }
+                }
+            },
+            {
                 "id": "299b1e36-ef0b-4032-8e9e-26b6b9b0065d",
                 "name": "sbs.co.kr##",
                 "content": {
