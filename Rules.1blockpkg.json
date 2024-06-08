@@ -43649,6 +43649,19 @@
                 }
             },
             {
+                "id": "56cb2ed0-1dc5-4611-b1e3-1578a5558888",
+                "name": "m.thebigdata.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.thebigdata\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"max-width: 640px;width: 100%;margin: 0 auto;position:fixed;bottom:0;min-height:50px;text-align: center;background:#fff;\"],div.wrap>div[class*=\" mobview\"],div.wrap>div[class^=\"mobview\"]"
+                    }
+                }
+            },
+            {
                 "id": "920225f9-e047-4a32-b72b-636332623e42",
                 "name": "m.theceluv.com##",
                 "content": {
