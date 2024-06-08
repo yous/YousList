@@ -18520,6 +18520,22 @@
                 }
             },
             {
+                "id": "11cf4ecf-a90a-4e1d-bc8e-342bd3a0fe84",
+                "name": "foeconomy.co.kr/data/banner/$domain=foeconomy.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?foeconomy\\.co\\.kr/data/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*foeconomy.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "7b67c7be-c507-4f3d-a2c9-5fc789f0bf26",
                 "name": "footballist.co.kr/bannerManager/upload/$domain=m.footballist.co.kr",
                 "content": {
@@ -38003,6 +38019,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.g_area>div[style=\"display:block;width:314px;height:258px;background-color:white;text-align:center;padding-top:7px;margin-bottom:25px;\"],div.g_area>div[style=\"width: 314px; height: 258px; text-align: center; padding-top: 7px; margin-bottom: 25px; background-color: white;\"],div.g_area>div[style=\"width:314px;height:188px;background-color:white;text-align:center;padding-top:7px;margin-bottom:25px;\"],div.g_area>div[style=\"width:314px;height:258px;background-color:white;text-align:center;padding-top:7px;margin-bottom:25px;\"],div.header>div.wrap>div[style=\"position:absolute;right: 0px;bottom: 16px;width: 270px;height: 77px;background-color: white;z-index:10000\"]"
+                    }
+                }
+            },
+            {
+                "id": "65ab65b3-3ab4-4829-a076-c2b083f0eded",
+                "name": "foeconomy.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?foeconomy\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ads_box,div.banner_con"
                     }
                 }
             },
