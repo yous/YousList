@@ -22302,6 +22302,22 @@
                 }
             },
             {
+                "id": "9e612b68-20d1-4a85-9845-9786ff942424",
+                "name": "junggi.co.kr/data/__banner/$domain=junggi.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?junggi\\.co\\.kr/data/__banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*junggi.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "212f712f-0556-418b-b96e-c41426edce1f",
                 "name": "kbench.com/article_right_box.php$domain=kbench.com",
                 "content": {
@@ -40444,6 +40460,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.bigBanner,div.top_banner"
+                    }
+                }
+            },
+            {
+                "id": "0240e8ca-f1e0-41e9-a346-9d250065a587",
+                "name": "junggi.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?junggi\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.junggi-bottom_fixed,div.jungiad_list>div.banner_wrap"
                     }
                 }
             },
