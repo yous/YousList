@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 1 days
-! Version: 20240601
+! Version: 20240608
 
 ! General element hiding rules
 ##amp-ad
@@ -2131,8 +2131,10 @@
 ||ss.dawin.tv/req^
 ||ssgdfs.com/kr/common/getPageIcfCd^$domain=ssgdfs.com
 ||ssl.pstatic.net/adimg3.search/adpost/js/adpost_show_ads_v2.min.js^$domain=~m.clien.net|~m.danawa.com|~search.danawa.com
+||ssl.pstatic.net/static/sportsdev/js/ArticleAd.js^$domain=m.sports.naver.com
 ||ssl.pstatic.net/t.static.blog/mylog/versioning//js/post/ssp/SspAdPostCallerForPC-*_https.js^$domain=blog.naver.com
 ||ssl.pstatic.net/tveta/libs/glad/glad-bridge.min.js^$domain=naver.com
+||ssl.pstatic.net/tveta/libs/glad/prod/*/sf-ext.js^$domain=naver.com
 ||ssl.pstatic.net/tveta/libs/glad_admute/prod/glad-admute.js^$domain=naver.com
 ||ssp.adpies.com/ssp/request^
 ||ssp.igaw.io/i/*.html^
@@ -4762,6 +4764,8 @@ m.enter.etoday.co.kr##div#view_txt_w>div[style="float:right;width:200px;height:2
 m.enter.etoday.co.kr##div#view_txt_w>div[style="width:100%;height:250px;text-align:center;margin-bottom:25px;overflow:hidden;"]
 m.enter.etoday.co.kr##div.\33 20_ad
 m.enter.etoday.co.kr##div[id^="bnr_rdm_"]
+m.entertain.naver.com,m.sports.naver.com##div#section_end_right_banner
+m.entertain.naver.com,m.sports.naver.com##div.article_bottom_ad
 m.esports.dailygame.co.kr##div.banner-wrap
 m.etnews.com##div#bottomBigBanner
 m.etnews.com##div#boxContent>div[style="margin-top:20px;border:0;"]
@@ -6758,8 +6762,6 @@ sports.news.nate.com##div.googleAd_wrap
 sports.news.nate.com##div.spaceBanner
 sports.news.nate.com##iframe[src^="//sports.news.nate.com/Etc/ViewADThumb"]
 sports.news.nate.com##iframe[src^="http://news.nate.com/etc/viewTopBannerAD"]
-sports.news.naver.com##div#section_end_right_banner
-sports.news.naver.com##div.cms_side_banner
 sports.orange.fr##div#commercial-links
 sports.orange.fr##div.pave_pub
 sportsseoul.com##div.ad-float-right

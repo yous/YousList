@@ -30021,6 +30021,22 @@
                 }
             },
             {
+                "id": "1a0962db-0e44-4736-80db-212938dd7c54",
+                "name": "ssl.pstatic.net/static/sportsdev/js/ArticleAd.js$domain=m.sports.naver.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ssl\\.pstatic\\.net/static/sportsdev/js/ArticleAd\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.sports.naver.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "53b355cf-c036-4625-95ab-0317743f42a2",
                 "name": "ssl.pstatic.net/t.static.blog/mylog/versioning//js/post/ssp/SspAdPostCallerForPC-*_https.js$domain=blog.naver.com",
                 "content": {
@@ -30042,6 +30058,22 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?ssl\\.pstatic\\.net/tveta/libs/glad/glad-bridge\\.min\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*naver.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7bf9f57e-7423-4431-a931-4bc487fe6d2e",
+                "name": "ssl.pstatic.net/tveta/libs/glad/prod/*/sf-ext.js$domain=naver.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ssl\\.pstatic\\.net/tveta/libs/glad/prod/.*/sf-ext\\.js",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*naver.com"
@@ -42041,6 +42073,32 @@
                 }
             },
             {
+                "id": "042ca243-12e3-427b-8bbe-f4be0eac24fc",
+                "name": "m.entertain.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.entertain\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#section_end_right_banner,div.article_bottom_ad"
+                    }
+                }
+            },
+            {
+                "id": "35853084-8c5c-450f-91a9-e8b2a1389c3a",
+                "name": "m.sports.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.sports\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#section_end_right_banner,div.article_bottom_ad,div.home_ad_group,div.main_grid_item>div[class*=\" HeadlineNews_comp_headline__\"][class*=\" HeadlineNews_type_manual__\"],div[class*=\" BrandTrendStory_\"],div[class*=\" InlineBanner_comp_promotion__\"]"
+                    }
+                }
+            },
+            {
                 "id": "4a87ba29-b132-4b11-868b-33dcd55b9128",
                 "name": "m.esports.dailygame.co.kr##",
                 "content": {
@@ -43402,19 +43460,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "a.link_bnr,div.wrap_bnr"
-                    }
-                }
-            },
-            {
-                "id": "35853084-8c5c-450f-91a9-e8b2a1389c3a",
-                "name": "m.sports.naver.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.sports\\.naver\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.home_ad_group,div.main_grid_item>div[class*=\" HeadlineNews_comp_headline__\"][class*=\" HeadlineNews_type_manual__\"],div[class*=\" BrandTrendStory_\"],div[class*=\" InlineBanner_comp_promotion__\"]"
                     }
                 }
             },
@@ -47848,19 +47893,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#cntArea>div[style=\"margin: 15px 0 40px 0;font-size: 0\"],div.ad260x330,div.googleAd_wrap,div.spaceBanner,iframe[src^=\"//sports.news.nate.com/Etc/ViewADThumb\"],iframe[src^=\"http://news.nate.com/etc/viewTopBannerAD\"]"
-                    }
-                }
-            },
-            {
-                "id": "64bf2447-b205-4714-9200-75f3f43abcab",
-                "name": "sports.news.naver.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.news\\.naver\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#section_end_right_banner,div.cms_side_banner"
                     }
                 }
             },
