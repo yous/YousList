@@ -42703,6 +42703,19 @@
                 }
             },
             {
+                "id": "eb9cb9a7-64a8-4c0d-9fe0-d6c3b4462117",
+                "name": "m.instiz.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.instiz\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>div[style=\"min-height: 250px;\"],body>div[style=\"min-height:250px;\"]"
+                    }
+                }
+            },
+            {
                 "id": "fd8f3db7-6374-4583-8221-eb95be03fadf",
                 "name": "m.inven.co.kr##",
                 "content": {
