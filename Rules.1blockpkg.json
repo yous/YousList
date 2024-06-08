@@ -39916,7 +39916,20 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "ad,article#articleBody>container.h200px,article#articleBody>div[style=\"text-align:center;height:280px;margin:35px 0px;overflow:hidden;\"],body>container>div[style=\"text-align:center;height:280px;overflow:hidden;\"],container.ad-head,hr.ad,iframe[src*=\"//iframe.inews24.com/ad/\"],iframe[src*=\"//iframe.inews24.com/adm/\"]"
+                        "selector": "iframe[src*=\"//iframe.inews24.com/ad/\"],iframe[src*=\"//iframe.inews24.com/adm/\"],ad,article.view>div[style=\"text-align:right;margin-left:-80px;height:250px;overflow:hidden;\"],container.ad,container.ad-head,container.view>div[style=\"position:sticky;top:10px;width:299px;height:600px;display:flex;padding-bottom:100px;\"],hr.ad"
+                    }
+                }
+            },
+            {
+                "id": "f8ad8fc7-7749-40d1-b9b2-6a72699958d4",
+                "name": "joynews24.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?joynews24\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "ad,article.view>div[style=\"text-align:right;margin-left:-80px;height:250px;overflow:hidden;\"],container.ad,container.ad-head,container.view>div[style=\"position:sticky;top:10px;width:299px;height:600px;display:flex;padding-bottom:100px;\"],hr.ad,iframe[src*=\"//iframe.joynews24.com/ad/\"],iframe[src*=\"//iframe.joynews24.com/adm/\"]"
                     }
                 }
             },
@@ -40463,19 +40476,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div[class$=\"_banner\"],div[class^=\"R_cnt_bn_\"],iframe[src*=\"//adserver.joseilbo.com/openads/adframe.php\"]"
-                    }
-                }
-            },
-            {
-                "id": "f8ad8fc7-7749-40d1-b9b2-6a72699958d4",
-                "name": "joynews24.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?joynews24\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "ad,body>container>div[style=\"text-align:center;height:280px;overflow:hidden;\"],container.ad,container.ad-head,hr.ad,iframe[src*=\"//iframe.joynews24.com/ad/\"],iframe[src*=\"//iframe.joynews24.com/adm/\"]"
                     }
                 }
             },
