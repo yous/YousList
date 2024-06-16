@@ -30308,6 +30308,22 @@
                 }
             },
             {
+                "id": "f2b60f13-e1fe-452e-ab0d-fba7e14963a9",
+                "name": "starjn.com/data/starjn_com/banner/$domain=m.starjn.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?starjn\\.com/data/starjn_com/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.starjn.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "51a39397-5381-4147-a98e-b20d69e2ad68",
                 "name": "static.adxadserv.com/js/adp.js",
                 "content": {
@@ -43709,6 +43725,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#float_bottom,div.newsview_ad_bnr,div.text_ad_type_1,div.text_ad_type_2,li.ad_area"
+                    }
+                }
+            },
+            {
+                "id": "76e2c82f-e093-4adc-ae92-04e8e956022c",
+                "name": "m.starjn.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.starjn\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bn"
                     }
                 }
             },
