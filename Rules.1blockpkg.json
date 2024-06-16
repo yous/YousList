@@ -39154,6 +39154,19 @@
                 }
             },
             {
+                "id": "347dc972-c931-45e5-8297-eae5880b0e54",
+                "name": "hellot.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?hellot\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#news_body_area>div[style=\"clear:both;float:left;margin-right:20px;\"],div.art_inner_ban,div.art_inner_slide"
+                    }
+                }
+            },
+            {
                 "id": "c673a209-bb10-4d08-bfd2-730a42476673",
                 "name": "hellven.net##",
                 "content": {
