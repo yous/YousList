@@ -39959,6 +39959,19 @@
                 }
             },
             {
+                "id": "eece222a-4a53-4614-af5c-82c46f9af185",
+                "name": "incheonilbo.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?incheonilbo\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "header#nav-header>div.user-banner>div.banner_box"
+                    }
+                }
+            },
+            {
                 "id": "b36d7790-7680-46d7-8a6b-2a3d78d3d530",
                 "name": "independent.co.uk##",
                 "content": {
@@ -51326,6 +51339,54 @@
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?googleads\\.g\\.doubleclick\\.net/pagead/ads\\?.*&crui=",
                         "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
+                    }
+                }
+            },
+            {
+                "id": "eff8419d-6629-4164-a4ae-e7ef7fca900d",
+                "name": "@@incheonilbo.com/bannerpop/uploads/image/$domain=incheonilbo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?incheonilbo\\.com/bannerpop/uploads/image/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*incheonilbo.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
+                    }
+                }
+            },
+            {
+                "id": "eb4a25e1-abfb-4c9b-9521-c809b550a195",
+                "name": "@@incheonilbo.com/bannerpop/uploads/js/*.js$domain=incheonilbo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?incheonilbo\\.com/bannerpop/uploads/js/.*\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*incheonilbo.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "ignore-previous-rules"
+                    }
+                }
+            },
+            {
+                "id": "e995bbbb-2771-480b-beb1-cc97d62add22",
+                "name": "@@incheonilbo.com/script/bannerpop.js$domain=incheonilbo.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?incheonilbo\\.com/script/bannerpop\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*incheonilbo.com"
+                        ]
                     },
                     "action": {
                         "type": "ignore-previous-rules"
