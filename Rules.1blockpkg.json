@@ -20598,6 +20598,22 @@
                 }
             },
             {
+                "id": "3725315c-fcda-4a46-a2e9-550827b839f5",
+                "name": "img.investchosun.com/invbanner/$domain=investchosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.investchosun\\.com/invbanner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*investchosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "2f1230f9-dd71-4d4a-83d1-bca80e0cf2fc",
                 "name": "img.kormedi.com/healthgift/ad/ad*.html$domain=m.kormedi.com",
                 "content": {
@@ -40034,6 +40050,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.adWrapper"
+                    }
+                }
+            },
+            {
+                "id": "ba784aee-a03f-4544-b258-5918482c7cc7",
+                "name": "investchosun.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?investchosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_article_bottom,div.ad_article_bottom1"
                     }
                 }
             },
