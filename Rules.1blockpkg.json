@@ -48007,6 +48007,19 @@
                 }
             },
             {
+                "id": "5504f8b9-2d9a-4033-994e-10d743a07536",
+                "name": "sports.news.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sports\\.news\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.cms_side_banner"
+                    }
+                }
+            },
+            {
                 "id": "bdddd0c6-f582-4cf7-9f2f-5f6f848db519",
                 "name": "sports.orange.fr##",
                 "content": {
