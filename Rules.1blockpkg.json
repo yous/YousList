@@ -31812,6 +31812,38 @@
                 }
             },
             {
+                "id": "e10b54d3-f46c-41e2-8803-6f35b2dea1e4",
+                "name": "trendjournal.co.kr/data/banner/$domain=trendjournal.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?trendjournal\\.co\\.kr/data/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*trendjournal.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "358306a4-e21c-48a2-a488-07b7cb238ae0",
+                "name": "trendjournal.co.kr/theme/wide01/include/adsense.php$domain=trendjournal.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?trendjournal\\.co\\.kr/theme/wide01/include/adsense\\.php",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*trendjournal.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "82b59a6d-2d87-4473-9575-85f008c49279",
                 "name": "ts.2beon.co.kr/nad/media/",
                 "content": {
@@ -49358,6 +49390,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "body>div.gm_mobile_only:first-child,div.gm_head_ads,div.google_ad,div.main_box_banner"
+                    }
+                }
+            },
+            {
+                "id": "d7a12368-adc9-41ed-9646-b1b2e5bf08bd",
+                "name": "trendjournal.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?trendjournal\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_banner,div.m_banner01,iframe[src*=\"//www.trendjournal.co.kr/theme/wide01/include/adsense.php\"]"
                     }
                 }
             },
