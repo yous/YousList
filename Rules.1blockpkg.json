@@ -186,6 +186,19 @@
                 }
             },
             {
+                "id": "beb2009f-83e7-4ab8-8da5-6cdfa5aeb577",
+                "name": "##div#tbl-next-up",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#tbl-next-up"
+                    }
+                }
+            },
+            {
                 "id": "23141b19-4b63-4ec9-beae-a1afa84dcad5",
                 "name": "##div#uniqubeAd_area",
                 "content": {
@@ -351,6 +364,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div._taxel_recommend_container div[class^=\"_taxel_ad_article_\"]"
+                    }
+                }
+            },
+            {
+                "id": "bc00d8eb-42fc-4147-8190-96f5a2c16bc3",
+                "name": "##div.ad-template",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-template"
                     }
                 }
             },
@@ -36016,7 +36042,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#header-wrapper>div[style=\"width:100%; height:90px; background:#f2f2f2; margin: 0 auto\"],div.ad-template,div.tbl-taboola-reminder"
+                        "selector": "div#header-wrapper>div[style=\"width:100%; height:90px; background:#f2f2f2; margin: 0 auto\"],div.tbl-taboola-reminder"
                     }
                 }
             },
@@ -36567,19 +36593,6 @@
                 }
             },
             {
-                "id": "f0065067-f431-4a67-bb4d-14ffdac52895",
-                "name": "daejonilbo.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?daejonilbo\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad-template"
-                    }
-                }
-            },
-            {
                 "id": "5945f098-0d58-40a4-8c99-4b5cd6f6dfd3",
                 "name": "dailian.co.kr##",
                 "content": {
@@ -36718,7 +36731,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad-template,div.banner_box"
+                        "selector": "div.banner_box"
                     }
                 }
             },
@@ -37074,19 +37087,6 @@
                 }
             },
             {
-                "id": "dcc454ba-f2de-4b51-8125-1401b71d88b0",
-                "name": "digitaltoday.co.kr##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?digitaltoday\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad-template"
-                    }
-                }
-            },
-            {
                 "id": "0e4c1cad-677f-4b37-bc7b-859f453d954b",
                 "name": "digitaltrends.com##",
                 "content": {
@@ -37407,7 +37407,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "article#article-view-content-div>center[style=\"margin:15px 0;\"],article#article-view-content-div>center[style=\"padding-top:10px\"],body>div[style=\"position: fixed; bottom:80px; left:10px; z-index:999999999999;\"],div#adshow,div.ad-template,td#articleBody>div[style=\"float:right; margin-left: 10px; margin-bottom: 5px;\"],ul#floating_banner_left,ul#floating_banner_right"
+                        "selector": "article#article-view-content-div>center[style=\"margin:15px 0;\"],article#article-view-content-div>center[style=\"padding-top:10px\"],body>div[style=\"position: fixed; bottom:80px; left:10px; z-index:999999999999;\"],div#adshow,td#articleBody>div[style=\"float:right; margin-left: 10px; margin-bottom: 5px;\"],ul#floating_banner_left,ul#floating_banner_right"
                     }
                 }
             },
@@ -37602,7 +37602,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#listingBannerContainer,div.ad-template"
+                        "selector": "div#listingBannerContainer"
                     }
                 }
             },
@@ -38608,19 +38608,6 @@
                 }
             },
             {
-                "id": "5255c389-5d40-405b-9d04-7b0967921019",
-                "name": "getnews.co.kr##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?getnews\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad-template"
-                    }
-                }
-            },
-            {
                 "id": "610c8cba-ccc1-4189-b17d-cf5432105380",
                 "name": "ggeal.com##",
                 "content": {
@@ -38980,7 +38967,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#bottom-sticky,div.ad-template"
+                        "selector": "div#bottom-sticky"
                     }
                 }
             },
@@ -39578,7 +39565,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#PrismDisplayBox,div#id_left_bar_ad_1,div#id_right_criteo_ad,div#right_view_01_1,div#tbl-next-up,div#wikicon>div.mt30,div.ad_left_banner_criteo_ad,div.wikitree_ad:not([ad_id=\"261\"]):not([ad_id=\"266\"]),div[id^=\"wikitree_v_our_inr_640x360-\"]"
+                        "selector": "div#PrismDisplayBox,div#id_left_bar_ad_1,div#id_right_criteo_ad,div#right_view_01_1,div#wikicon>div.mt30,div.ad_left_banner_criteo_ad,div.wikitree_ad:not([ad_id=\"261\"]):not([ad_id=\"266\"]),div[id^=\"wikitree_v_our_inr_640x360-\"]"
                     }
                 }
             },
@@ -39591,7 +39578,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#PrismDisplayBox,div#id_left_bar_ad_1,div#id_right_criteo_ad,div#right_view_01_1,div#tbl-next-up,div#wikicon>div.mt30,div.ad_left_banner_criteo_ad,div.wikitree_ad:not([ad_id=\"261\"]):not([ad_id=\"266\"]),div[id^=\"wikitree_v_our_inr_640x360-\"]"
+                        "selector": "div#PrismDisplayBox,div#id_left_bar_ad_1,div#id_right_criteo_ad,div#right_view_01_1,div#wikicon>div.mt30,div.ad_left_banner_criteo_ad,div.wikitree_ad:not([ad_id=\"261\"]):not([ad_id=\"266\"]),div[id^=\"wikitree_v_our_inr_640x360-\"]"
                     }
                 }
             },
@@ -39942,7 +39929,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#tbl-next-up,div.ad-google-side1,div.ad-google-side2,div.aside-sticky>div[style=\"display: block;width: 300px;height: 250px;\"],div.fixed-bottom-ad,div.news-article-memo>div[style=\"float: right;display: block;margin: 0 0 10px 10px;width:300px;height:250px\"],div.news__view__article>ul[style=\"float:right; margin:0 0 10px 10px;\"],div.news__view__article__advertise,div[class^=\"aside-google-\"],div[class^=\"google-ad-slot-\"],ul.aside-popular-wrap>li>div[style=\"display: block;width: 300px;height: 250px;\"]"
+                        "selector": "div.ad-google-side1,div.ad-google-side2,div.aside-sticky>div[style=\"display: block;width: 300px;height: 250px;\"],div.fixed-bottom-ad,div.news-article-memo>div[style=\"float: right;display: block;margin: 0 0 10px 10px;width:300px;height:250px\"],div.news__view__article>ul[style=\"float:right; margin:0 0 10px 10px;\"],div.news__view__article__advertise,div[class^=\"aside-google-\"],div[class^=\"google-ad-slot-\"],ul.aside-popular-wrap>li>div[style=\"display: block;width: 300px;height: 250px;\"]"
                     }
                 }
             },
@@ -41021,7 +41008,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad-template,ins[data-ad-slot=\"I_kyongbuk_bylineleft_300_250\"],ins[data-ad-slot=\"I_kyongbuk_bylineright_300_250\"],ins[data-ad-slot=\"I_kyongbuk_middlebottom_580_400\"],ins[data-ad-slot=\"I_kyongbuk_middletop_970_90\"],ins[data-ad-slot=\"I_kyongbuk_rightmiddle_300_600\"],ins[data-ad-slot=\"I_kyongbuk_righttop_300_600\"]"
+                        "selector": "ins[data-ad-slot=\"I_kyongbuk_bylineleft_300_250\"],ins[data-ad-slot=\"I_kyongbuk_bylineright_300_250\"],ins[data-ad-slot=\"I_kyongbuk_middlebottom_580_400\"],ins[data-ad-slot=\"I_kyongbuk_middletop_970_90\"],ins[data-ad-slot=\"I_kyongbuk_rightmiddle_300_600\"],ins[data-ad-slot=\"I_kyongbuk_righttop_300_600\"]"
                     }
                 }
             },
@@ -44570,7 +44557,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ad_www_left1,div#ad_www_left2,div#ad_www_normal_24,div#ad_www_normal_25,div#ad_www_normal_26,div#ad_www_right1,div#article-view-content-div>div[style=\"float:left;position:relative;margin:.3em 1em .2em 0;width:200px;height:200px;background-color:#f4f4f4\"],div#banner_header_wide,div#talklink_contents>div.not_print[style=\"float:right;margin:0 0 15px 15px;width:300px;height:250px;\"],div.ad-template,div.banner_box,iframe[src*=\"/adItem/\"]"
+                        "selector": "div#ad_www_left1,div#ad_www_left2,div#ad_www_normal_24,div#ad_www_normal_25,div#ad_www_normal_26,div#ad_www_right1,div#article-view-content-div>div[style=\"float:left;position:relative;margin:.3em 1em .2em 0;width:200px;height:200px;background-color:#f4f4f4\"],div#banner_header_wide,div#talklink_contents>div.not_print[style=\"float:right;margin:0 0 15px 15px;width:300px;height:250px;\"],div.banner_box,iframe[src*=\"/adItem/\"]"
                     }
                 }
             },
@@ -45753,7 +45740,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#veritasaApp,div.ad-template"
+                        "selector": "div#veritasaApp"
                     }
                 }
             },
@@ -45870,7 +45857,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#ad_scrollB,div#floating_banner_body,div.ad-template"
+                        "selector": "div#ad_scrollB,div#floating_banner_body"
                     }
                 }
             },
@@ -46655,19 +46642,6 @@
                 }
             },
             {
-                "id": "e8b45ef0-d6d0-40f1-b21b-2441bc1cc05b",
-                "name": "pointe.co.kr##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?pointe\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad-template"
-                    }
-                }
-            },
-            {
                 "id": "27fca0dc-b1c6-4387-8788-4da507c8de1f",
                 "name": "poipiku.com##",
                 "content": {
@@ -47214,19 +47188,6 @@
                 }
             },
             {
-                "id": "affb8a26-d62c-42ee-875e-93686db380f6",
-                "name": "salgoonews.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?salgoonews\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div#tbl-next-up"
-                    }
-                }
-            },
-            {
                 "id": "299b1e36-ef0b-4032-8e9e-26b6b9b0065d",
                 "name": "sbs.co.kr##",
                 "content": {
@@ -47521,7 +47482,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#sliding_adop,div#sliding_adopP,div.ad-template,div.edit_inner_content>div.banner_box,div.float_banner,div.m-topbanner"
+                        "selector": "div#sliding_adop,div#sliding_adopP,div.edit_inner_content>div.banner_box,div.float_banner,div.m-topbanner"
                     }
                 }
             },
@@ -47903,19 +47864,6 @@
                 }
             },
             {
-                "id": "5b639873-8a72-4a24-888c-9e04dcecde6f",
-                "name": "sports-g.com##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?sports-g\\.com"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad-template"
-                    }
-                }
-            },
-            {
                 "id": "0d18e2a8-dd19-4c42-832e-1b3d9548b39a",
                 "name": "sports.chosun.com##",
                 "content": {
@@ -48067,7 +48015,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad-template,p.adcontrol41_box"
+                        "selector": "p.adcontrol41_box"
                     }
                 }
             },
@@ -49159,7 +49107,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad-template,div.banner_aside02,iframe[src^=\"http://www.todaykorea.co.kr/include/adsense.php\"]"
+                        "selector": "div.banner_aside02,iframe[src^=\"http://www.todaykorea.co.kr/include/adsense.php\"]"
                     }
                 }
             },
@@ -49237,7 +49185,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "article.article-veiw-body>div.clearfix>center>div[style=\"width:320px;height:50px;margin:0;padding:0\"],div.ad-template,div.article-view-page>div[style=\"float: right; padding: 10px 0px 15px 15px;\"],div.article-view-page>div[style=\"float:right; padding:10px 0 15px 15px;\"],iframe[src^=\"http://www.topstarnews.net/html/default/html_tpl_mobile/ad/\"]"
+                        "selector": "article.article-veiw-body>div.clearfix>center>div[style=\"width:320px;height:50px;margin:0;padding:0\"],div.article-view-page>div[style=\"float: right; padding: 10px 0px 15px 15px;\"],div.article-view-page>div[style=\"float:right; padding:10px 0 15px 15px;\"],iframe[src^=\"http://www.topstarnews.net/html/default/html_tpl_mobile/ad/\"]"
                     }
                 }
             },
@@ -50577,19 +50525,6 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.ad,div.advertisement__leaderboard,div.full-bleed-ad,div.mid-banner-wrap"
-                    }
-                }
-            },
-            {
-                "id": "e7143fda-e6b0-46d9-bcd9-2ad2dedaf122",
-                "name": "wolyo.co.kr##",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?wolyo\\.co\\.kr"
-                    },
-                    "action": {
-                        "type": "css-display-none",
-                        "selector": "div.ad-template"
                     }
                 }
             },
