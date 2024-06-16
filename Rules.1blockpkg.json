@@ -37376,6 +37376,19 @@
                 }
             },
             {
+                "id": "faa24d9c-7173-45ae-96ed-81e183c5d380",
+                "name": "ecomedia.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?ecomedia\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adlink,div.xbanner"
+                    }
+                }
+            },
+            {
                 "id": "c3ca52f8-73c0-45dc-abbd-f30b252679fe",
                 "name": "economist.co.kr##",
                 "content": {
