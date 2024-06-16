@@ -48227,6 +48227,19 @@
                 }
             },
             {
+                "id": "003d22b9-c836-4377-a5c1-6f857eb629f2",
+                "name": "starjn.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?starjn\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bn"
+                    }
+                }
+            },
+            {
                 "id": "9d9e3c24-48f1-454d-aac5-cd5aae909f39",
                 "name": "starnewskorea.com##",
                 "content": {
