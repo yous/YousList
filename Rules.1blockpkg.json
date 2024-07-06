@@ -33930,6 +33930,19 @@
                 }
             },
             {
+                "id": "89b1c1e7-97aa-425a-9e31-2ddf81b17192",
+                "name": "academy.prompie.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?academy\\.prompie\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[onclick^=\"location.href='https://academy.prompie.com/banners/\"]"
+                    }
+                }
+            },
+            {
                 "id": "c7829bdf-48af-44c3-8acd-7875b7b9ae12",
                 "name": "accessonline.com##",
                 "content": {
