@@ -17824,6 +17824,22 @@
                 }
             },
             {
+                "id": "3e6704bd-8286-4e16-9d0a-7bccd85da9dc",
+                "name": "dt.co.kr/ad.html$domain=dt.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dt\\.co\\.kr/ad\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*dt.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "f18d930f-b3d5-46fc-bf36-b5c125eccd55",
                 "name": "dt.co.kr/js/top_ad.js",
                 "content": {
@@ -37452,7 +37468,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#gisa>table,div#left_skyWingBanner,div#right_skyWingBanner,div#side_content>div[style=\"margin-top:10px;\"],div#side_content>div[style=\"margin-top:20px;\"],div#top_ad,div#topad,div.ad_view04,div.cntWrap>div[style=\"margin-top:10px;\"],div.cntWrap>div[style=\"padding-top:10px \"],div.cntWrap>div[style=\"padding-top:10px;\"],div.cntWrap>div[style=\"text-align:left;margin-left:5px;\"]"
+                        "selector": "div#gisa>table,div#left_skyWingBanner,div#right_skyWingBanner,div#side_content>div[style=\"margin-top:10px;\"],div#side_content>div[style=\"margin-top:20px;\"],div#top_ad,div#topad,div.ad_view04,div.cntWrap>div[style=\"margin-top:10px;\"],div.cntWrap>div[style=\"padding-top:10px \"],div.cntWrap>div[style=\"padding-top:10px;\"],div.cntWrap>div[style=\"text-align:left;margin-left:5px;\"],iframe[src*=\"//www.dt.co.kr/ad.html\"]"
                     }
                 }
             },
