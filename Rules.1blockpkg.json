@@ -25339,6 +25339,22 @@
                 }
             },
             {
+                "id": "a968ac50-7380-4e58-a6ec-ec3dc02c97b1",
+                "name": "mininote.co.kr/wp-content/plugins/revslider_n/public/assets/js/rs6.min.js$domain=mininote.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mininote\\.co\\.kr/wp-content/plugins/revslider_n/public/assets/js/rs6\\.min\\.js",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*mininote.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "d998b1e9-298a-497d-a9a2-a187c7bce0b8",
                 "name": "minishop.linkprice.com/minishop*.php",
                 "content": {
@@ -44843,6 +44859,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#toast,div.board_view_pwlink,div.subTopBanner,div.view_list_add"
+                    }
+                }
+            },
+            {
+                "id": "7b8aafd4-e8c2-4f08-bfc3-6ab5c1dc7edd",
+                "name": "mininote.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mininote\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "rs-module-wrap"
                     }
                 }
             },
