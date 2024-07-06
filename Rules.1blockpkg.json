@@ -28205,6 +28205,22 @@
                 }
             },
             {
+                "id": "7405707e-a5f9-42fd-a920-01b54858f0e9",
+                "name": "res.heraldm.com/HeraldResource/doubleuad/$domain=realfoods.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?res\\.heraldm\\.com/HeraldResource/doubleuad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*realfoods.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "98e6a090-fa57-4005-8487-b6e1399b4d61",
                 "name": "res.heraldm.com/adbanner/$domain=biz.heraldcorp.com|heraldcorp.com|jj.heraldcorp.com|koreaherald.com|mbiz.heraldcorp.com|news.heraldcorp.com|pop.heraldcorp.com|viewers.heraldcorp.com",
                 "content": {
@@ -47186,6 +47202,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "phx-advertisement"
+                    }
+                }
+            },
+            {
+                "id": "44112cb2-9d8d-4ba2-a1dd-cf1043fd3066",
+                "name": "realfoods.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?realfoods\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.banner_1,div.banner_2,img[src*=\"//res.heraldm.com/HeraldResource/doubleuad/\"]"
                     }
                 }
             },
