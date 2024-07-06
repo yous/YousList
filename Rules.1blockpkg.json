@@ -43781,6 +43781,19 @@
                 }
             },
             {
+                "id": "aa3373a1-6ac8-452e-bc89-9abacc700837",
+                "name": "m.stock.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.stock\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"BnrImage_article__\"]"
+                    }
+                }
+            },
+            {
                 "id": "ba9451c3-17cf-45ff-8cdd-5b7466072bad",
                 "name": "m.stoo.com##",
                 "content": {
