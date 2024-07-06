@@ -28205,13 +28205,14 @@
                 }
             },
             {
-                "id": "7405707e-a5f9-42fd-a920-01b54858f0e9",
-                "name": "res.heraldm.com/HeraldResource/doubleuad/$domain=realfoods.co.kr",
+                "id": "fd57d04c-e145-4ee2-90ec-475768bb3e8a",
+                "name": "res.heraldm.com/HeraldResource/doubleuad/$domain=mrealfoods.heraldcorp.com|realfoods.co.kr",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?res\\.heraldm\\.com/HeraldResource/doubleuad/",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
+                            "*mrealfoods.heraldcorp.com",
                             "*realfoods.co.kr"
                         ]
                     },
@@ -45277,7 +45278,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.wrap>div[style=\"width:100%; position:fixed; bottom:0; height: 50px; text-align:center; background-color:#FFF; z-index: 3;\"],div[id^=\"AD_MOBILE_VIEW\"]"
+                        "selector": "div.ad_google,div.wrap>div[style=\"width:100%; position:fixed; bottom:0; height: 50px; text-align:center; background-color:#FFF; z-index: 3;\"],div[id^=\"AD_MOBILE_VIEW\"],img[src*=\"//res.heraldm.com/HeraldResource/doubleuad/\"]"
                     }
                 }
             },
