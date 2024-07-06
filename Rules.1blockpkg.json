@@ -2490,6 +2490,19 @@
                 }
             },
             {
+                "id": "f81b8743-30de-49fb-b1bc-8d28ac340514",
+                "name": "##iframe[src*=\"//delivery.pryzmads.com/delivery/ad\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//delivery.pryzmads.com/delivery/ad\"]"
+                    }
+                }
+            },
+            {
                 "id": "fd2c430e-22e5-4107-91e5-fbb0a37ebdfd",
                 "name": "##iframe[src*=\"//deliverys.n2s.co.kr/afm.php\"]",
                 "content": {
@@ -16908,6 +16921,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?delivery\\.c\\.switchadhub\\.com/adserver/sat\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "f25a0e7d-f9d5-4d46-aab7-030c41152845",
+                "name": "delivery.pryzmads.com/delivery/ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?delivery\\.pryzmads\\.com/delivery/ad",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
@@ -44654,7 +44680,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#contad4,div[class^=\"ad_\"],p#contad3"
+                        "selector": "body>div>center>div[style=\"width:320px; height: 250px;\"],div#contad4,div[class^=\"ad_\"],p#contad3"
                     }
                 }
             },
