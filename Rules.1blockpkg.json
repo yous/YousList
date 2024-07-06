@@ -42445,6 +42445,19 @@
                 }
             },
             {
+                "id": "7d3d7243-1598-4bb2-8780-0d162c64e026",
+                "name": "m.game.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.game\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"detail_banner__\"]"
+                    }
+                }
+            },
+            {
                 "id": "87f4c990-bc11-4123-b5aa-b9beda37e7cc",
                 "name": "m.game.xportsnews.com##",
                 "content": {
