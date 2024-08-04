@@ -12540,6 +12540,19 @@
                 }
             },
             {
+                "id": "a37877a1-f4d3-45f7-8100-3ce7807db095",
+                "name": "api.aedi.ai/common/js/v1/aedi-ad.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?api\\.aedi\\.ai/common/js/v1/aedi-ad\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "808b6b09-f35f-462b-b69f-77c66b34d480",
                 "name": "api.ficm.contentlink.co.kr/api/ficm_result.php",
                 "content": {
