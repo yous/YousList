@@ -2165,6 +2165,19 @@
                 }
             },
             {
+                "id": "ccab5a3a-5fab-4f7c-af6f-01406741f100",
+                "name": "##iframe[src*=\"//api.ootoo.co.kr/cou/iframe/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//api.ootoo.co.kr/cou/iframe/\"]"
+                    }
+                }
+            },
+            {
                 "id": "a573946c-4f1b-4f14-8665-af740bd78a6c",
                 "name": "##iframe[src*=\"//api.screensharp.kr/ad/get_banner/\"]",
                 "content": {
@@ -3344,6 +3357,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "iframe[src*=\"//server.cpmstar.com/view.aspx\"]"
+                    }
+                }
+            },
+            {
+                "id": "d2420290-6a57-45b2-bbc8-8082922b3aa2",
+                "name": "##iframe[src*=\"//sga.planad.net/t/\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//sga.planad.net/t/\"]"
                     }
                 }
             },
@@ -12617,6 +12643,32 @@
                         "if-domain": [
                             "*nicovideo.jp"
                         ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "0ef2d70b-ea2f-439e-876e-e0287e3a5421",
+                "name": "api.ootoo.co.kr/cou/api_reco.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?api\\.ootoo\\.co\\.kr/cou/api_reco\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "cb93ec2b-5cad-4ad6-8792-e0fc31bbd75c",
+                "name": "api.ootoo.co.kr/cou/iframe/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?api\\.ootoo\\.co\\.kr/cou/iframe/",
+                        "url-filter-is-case-sensitive": false
                     },
                     "action": {
                         "type": "block"
@@ -29148,6 +29200,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?serving\\.adbetclickin\\.pink/js/libcode3\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "7a85904c-934a-42b4-b3a3-cf5aad38b25a",
+                "name": "sga.planad.net/t/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sga\\.planad\\.net/t/",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
