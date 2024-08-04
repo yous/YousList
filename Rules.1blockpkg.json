@@ -27708,6 +27708,19 @@
                 }
             },
             {
+                "id": "db65cb5c-6a05-4b19-9944-8efb40b7b635",
+                "name": "player.deepdivead.com/delivery-js/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?player\\.deepdivead\\.com/delivery-js/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "996bfcb0-8f43-473d-8ec0-3c522f1adb92",
                 "name": "player.ex.co/player/",
                 "content": {
@@ -45957,7 +45970,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#globalsun,div#right_ad_wrap,div.ad_banner_wrap,div.native_ad_wrap,div.right_ad_banner,iframe[src*=\"//shoppingbox.zum.com/nativeadnews\"]"
+                        "selector": "div#deepdive,div#right_ad_wrap,div.ad_banner_wrap,div.ad_slot,div.native_ad_wrap,div.right_ad_banner,iframe[src*=\"//shoppingbox.zum.com/nativeadnews\"]"
                     }
                 }
             },
