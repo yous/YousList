@@ -37694,6 +37694,19 @@
                 }
             },
             {
+                "id": "32376606-3321-4882-9c11-436eee32b58f",
+                "name": "edition.cnn.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?edition\\.cnn\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-slot,div.ad-slot-header__wrapper,div.ad-slot-rail,div.container__ads"
+                    }
+                }
+            },
+            {
                 "id": "bf9f4af7-032a-448a-a134-d39f9882e1ce",
                 "name": "eetimes.com##",
                 "content": {
