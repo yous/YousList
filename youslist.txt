@@ -1876,6 +1876,7 @@
 ||news.smi2.ru/data/js/*.js^
 ||news.tf.co.kr/public/ad/*/read/*.html^
 ||news1.kr/ads/iframe/$domain=news1.kr
+||news1.kr/ads/mobile/$domain=news1.kr
 ||newscomm.nate.com/Etc/SocialAD^
 ||newsis.com/ad/view_banner.html^$domain=newsis.com
 ||newsis.com/ad/viewad/*.html^$domain=newsis.com
@@ -6060,17 +6061,11 @@ news.zum.com##div.ad_slot
 news.zum.com##div.native_ad_wrap
 news.zum.com##div.right_ad_banner
 news.zum.com##iframe[src*="//shoppingbox.zum.com/nativeadnews"]
-news1.kr##div#articles_detail>div[style="margin-top: 10px; margin-bottom: 10px;"]
-news1.kr##div.adBlock
-news1.kr##div.ad_content
-news1.kr##div.ad_txt_article
-news1.kr##div.ad_wing_l
-news1.kr##div.ad_wing_r
-news1.kr##div.link_news>ul>div
-news1.kr##div.top_area>div.wrap_sl_item
-news1.kr##div.txt_crypto
+news1.kr##div.ad-iframe
+news1.kr##div.ads-article-warp
+news1.kr##div.ads-article-warp-bg-none
 news1.kr##iframe[src^="/ads/iframe/"]
-news1.kr##section.side_banner_area
+news1.kr##iframe[src^="/ads/mobile/"]
 news20.busan.com##div#s-content>div[style="position:relative; overflow:hidden;"]
 news20.busan.com##div.ad-box
 news20.busan.com##div.artic_ad
