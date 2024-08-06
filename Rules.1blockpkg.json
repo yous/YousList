@@ -34275,6 +34275,19 @@
                 }
             },
             {
+                "id": "ebec06d3-a966-4fc0-9f10-b741a2468b7d",
+                "name": "amp.cnn.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?amp\\.cnn\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad-slot__ad-wrapper"
+                    }
+                }
+            },
+            {
                 "id": "3268109d-3598-4af2-aa27-d3ef39875a86",
                 "name": "amp.theguardian.com##",
                 "content": {
