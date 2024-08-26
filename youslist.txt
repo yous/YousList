@@ -1816,9 +1816,6 @@
 ||minitoon.net/js/adblockblock.js^
 ||minor.town/api/ads^$domain=minor.town
 ||minor.town/static/ad/^$domain=namu.wiki
-||mobile.newsis.com/ad_list/ad.html^$domain=mobile.newsis.com
-||mobile.newsis.com/ad_list/ad_*.html^$domain=mobile.newsis.com
-||mobile.newsis.com/direct_copy2.html^$domain=mobile.newsis.com
 ||moeni.org/img/sponsor/$domain=moeni.org
 ||moja-ostroleka.pl/uploads/banery/$domain=moja-ostroleka.pl
 ||montelena-rcv.gmarket.co.kr^$domain=gmarket.co.kr
@@ -1836,6 +1833,7 @@
 ||mxttrf.com/ads^
 ||mxttrf.com/js/show_ads_mxttrf.js^
 ||my.newscover.co.kr/common/c/js/sidecover.js^
+||my.newscover.co.kr/common/c/js/sidecover2.js^
 ||mycdn.co/adServe/imgBanner*/*_image-banner.cib^
 ||mydaily.co.kr/ad/adimage/$domain=mydaily.co.kr
 ||mydaily.co.kr/upload/ads/$domain=mydaily.co.kr
@@ -5769,17 +5767,10 @@ mobile.gmarket.co.kr##div#layer_hmBanner
 mobile.gmarket.co.kr##div#layer_lgUBanner
 mobile.missyusa.com##div.div_banner
 mobile.missyusa.com##iframe[src*="//ad1.missyusa.com:448/"]
-mobile.newsis.com##body>div[style="position:fixed;bottom:0px;width:100%;z-index:2001;margin: auto; text-align: center;"]
-mobile.newsis.com##div#btm_layer
-mobile.newsis.com##div#cont>div.bxcn[style="width: 100%; height: 250px; padding: 0px; border: 0px solid; text-align:center; margin: 0 auto;"]
-mobile.newsis.com##div.article>div[style="padding:10px 0 0 10px;"]
-mobile.newsis.com##div.article>div[style="text-align: center;"]
+mobile.newsis.com##div.adPos.listStyle04
+mobile.newsis.com##div.bannerGroup
 mobile.newsis.com##div.bxcn
-mobile.newsis.com##div.con_area>div[style="width: 320px; height: 250px; padding: 0px; border: 0px solid; text-align:center; margin: 0 auto;"]
 mobile.newsis.com##div.con_area_ad1
-mobile.newsis.com##div[class~="adPos"][class~="listStyle04"]
-mobile.newsis.com##iframe[src^="/ad_list/ad.html"]
-mobile.newsis.com##iframe[src^="/ad_list/ad_"][src*=".html"]
 mobile.nytimes.com##div[class^="ResponsiveAd-"]
 mobile.reuters.com##div.amp-ad-container
 mobile.reuters.com##div.mpu_ad
