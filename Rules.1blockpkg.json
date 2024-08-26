@@ -20451,6 +20451,22 @@
                 }
             },
             {
+                "id": "1d71d401-5317-4563-8884-c1f1030bd6a5",
+                "name": "image.newsis.com/h_www/advertise/$domain=newsis.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?image\\.newsis\\.com/h_www/advertise/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*newsis.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "6737b5c6-fa98-4d10-a3a4-d0f2ff44550b",
                 "name": "image.ruliweb.com/view/view.js$domain=bbs.ruliweb.com|m.ruliweb.com|ruliweb.com",
                 "content": {
@@ -26418,43 +26434,27 @@
                 }
             },
             {
-                "id": "1dab15cb-13b5-4cc9-8016-020f59799b87",
-                "name": "newsis.com/ad/view_banner.html$domain=newsis.com",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?newsis\\.com/ad/view_banner\\.html",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*newsis.com"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "83760599-7acc-4011-be07-13f51a75fa07",
-                "name": "newsis.com/ad/viewad/*.html$domain=newsis.com",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?newsis\\.com/ad/viewad/.*\\.html",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*newsis.com"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "32ab8966-0e1c-44cd-bcd4-6bfbc6661d8c",
                 "name": "newsis.com/view/ad/proc_iframe_*.html$domain=newsis.com",
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?newsis\\.com/view/ad/proc_iframe_.*\\.html",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*newsis.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "fa79d427-ff00-40c0-9aa2-33ede9bc8b57",
+                "name": "newsis.com/view/ad/proc_view_body*.html$domain=newsis.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newsis\\.com/view/ad/proc_view_body.*\\.html",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*newsis.com"
@@ -46156,7 +46156,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#detail1-1,div#detail3-1,div#detail3-2,div#detail3-3,div#shuffle,div#view_ad,div.ad_border_bottom,div.ad_border_in,div.ad_border_top,div[class^=\"banner_1024_1024_\"],div[data-widget_id=\"goPGerXQ\"],iframe[src^=\"/ad/view_banner.html\"],iframe[src^=\"/ad/viewad/\"][src*=\".html\"],iframe[src^=\"/view/ad/proc_iframe_\"][src*=\".html\"],li#detail2-11,span.banner1,span.banner2,table.article_photo.right:not([id]),table.viewerAd"
+                        "selector": "div#banner1,div#banner2,div#shuffle,div#view_ad,div.adBox,div.adBox4,div.banner300,iframe[src^=\"/view/ad/proc_iframe_\"][src*=\".html\"],iframe[src^=\"/view/ad/proc_view_body\"][src*=\".html\"]"
                     }
                 }
             },
