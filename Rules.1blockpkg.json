@@ -49974,6 +49974,19 @@
                 }
             },
             {
+                "id": "37d4dcda-a804-408c-8eb2-52cf754ca992",
+                "name": "twitch.tv##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?twitch\\.tv"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#directory-banner,div#directory-rectangle"
+                    }
+                }
+            },
+            {
                 "id": "f9a8bf2e-85eb-4de3-8736-d2b67fe52025",
                 "name": "twitter.com##",
                 "content": {
