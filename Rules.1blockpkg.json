@@ -49103,6 +49103,19 @@
                 }
             },
             {
+                "id": "0829b196-62c7-4036-9cbf-2f6e9b4af8e1",
+                "name": "thebestnews.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?thebestnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_banner,div.ba_img,div.box_lebanner_div,div.com_ban,div.m_banner01"
+                    }
+                }
+            },
+            {
                 "id": "43eea16d-fcbd-45f7-885e-5d1570739f26",
                 "name": "thebigdata.co.kr##",
                 "content": {
