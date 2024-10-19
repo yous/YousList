@@ -20408,22 +20408,6 @@
                 }
             },
             {
-                "id": "56667071-0f0e-4c14-9c97-14b9c5b83270",
-                "name": "image.lawtimes.co.kr/ContentsImgs/$domain=lawtimes.co.kr",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?image\\.lawtimes\\.co\\.kr/ContentsImgs/",
-                        "url-filter-is-case-sensitive": false,
-                        "if-domain": [
-                            "*lawtimes.co.kr"
-                        ]
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
                 "id": "6ce2600c-cbd5-4fa6-8818-a6d948902ffc",
                 "name": "image.lottorich.co.kr/lottorich/partnership/",
                 "content": {
@@ -41470,7 +41454,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "img[src*=\"//image.lawtimes.co.kr/ContentsImgs/\"]"
+                        "selector": "a[target=\"_parent\"] img[src*=\"//image.lawtimes.co.kr/ContentsImgs/\"]"
                     }
                 }
             },
