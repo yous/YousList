@@ -49584,6 +49584,19 @@
                 }
             },
             {
+                "id": "f37bda7a-1233-4b0f-b0be-78b694d2e7cc",
+                "name": "tokenpost.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?tokenpost\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.cmsBanner,div.news_flash_top_banner"
+                    }
+                }
+            },
+            {
                 "id": "62925fd7-7063-4969-a13e-a39c7bf4492d",
                 "name": "tomshardware.com##",
                 "content": {
