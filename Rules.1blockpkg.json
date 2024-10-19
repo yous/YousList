@@ -42408,6 +42408,19 @@
                 }
             },
             {
+                "id": "5019c793-06f8-43ae-948c-d7748f991ebd",
+                "name": "m.ekn.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.ekn\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.view-read>div[style=\"float:right; margin-left:15px;\"],div.view_bottom_ad"
+                    }
+                }
+            },
+            {
                 "id": "c44ea4ea-b3fc-4aaf-8fcf-f1bfecec7c0e",
                 "name": "m.en.seoul.co.kr##",
                 "content": {
