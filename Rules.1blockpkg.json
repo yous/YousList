@@ -20052,13 +20052,14 @@
                 }
             },
             {
-                "id": "3409b0de-964a-4cf8-87eb-6e68e806bb2a",
-                "name": "iframe-cp.inews24.com/coupang/bestCoupang.php$domain=joynews24.com",
+                "id": "57ec8756-5e4e-468e-91f1-5768d17822dc",
+                "name": "iframe-cp.inews24.com/coupang/*.php$domain=inews24.com|joynews24.com",
                 "content": {
                     "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?iframe-cp\\.inews24\\.com/coupang/bestCoupang\\.php",
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?iframe-cp\\.inews24\\.com/coupang/.*\\.php",
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
+                            "*inews24.com",
                             "*joynews24.com"
                         ]
                     },
@@ -40287,7 +40288,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "iframe[src*=\"//iframe.inews24.com/ad/\"],iframe[src*=\"//iframe.inews24.com/adm/\"],ad,article.view>div[style=\"text-align:right;margin-left:-80px;height:250px;overflow:hidden;\"],container.ad,container.ad-head,container.view>div[style=\"position:sticky;top:10px;width:299px;height:600px;display:flex;padding-bottom:100px;\"],hr.ad"
+                        "selector": "iframe[src*=\"//iframe.inews24.com/ad/\"],iframe[src*=\"//iframe.inews24.com/adm/\"],ad,article.view>div[style=\"text-align:right;margin-left:-80px;height:250px;overflow:hidden;\"],container.ad,container.ad-head,container.view>div[style=\"position:sticky;top:10px;width:299px;height:600px;display:flex;padding-bottom:100px;\"],hr.ad,iframe[src*=\"//iframe-cp.inews24.com/coupang/\"][src*=\".php\"]"
                     }
                 }
             },
@@ -40300,7 +40301,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "ad,article.view>div[style=\"text-align:right;margin-left:-80px;height:250px;overflow:hidden;\"],container.ad,container.ad-head,container.view>div[style=\"position:sticky;top:10px;width:299px;height:600px;display:flex;padding-bottom:100px;\"],hr.ad,iframe[src*=\"//iframe-cp.inews24.com/coupang/bestCoupang.php\"],iframe[src*=\"//iframe.joynews24.com/ad/\"],iframe[src*=\"//iframe.joynews24.com/adm/\"]"
+                        "selector": "ad,article.view>div[style=\"text-align:right;margin-left:-80px;height:250px;overflow:hidden;\"],container.ad,container.ad-head,container.view>div[style=\"position:sticky;top:10px;width:299px;height:600px;display:flex;padding-bottom:100px;\"],hr.ad,iframe[src*=\"//iframe-cp.inews24.com/coupang/\"][src*=\".php\"],iframe[src*=\"//iframe.joynews24.com/ad/\"],iframe[src*=\"//iframe.joynews24.com/adm/\"]"
                     }
                 }
             },

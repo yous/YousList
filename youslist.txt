@@ -1440,7 +1440,7 @@
 ||ib.adnxs.com/ut/v3/prebid^
 ||ibabynews.com/script/bannerpop.js^$domain=ibabynews.com
 ||ichannela.com/ch/*adpost*
-||iframe-cp.inews24.com/coupang/bestCoupang.php^$domain=joynews24.com
+||iframe-cp.inews24.com/coupang/*.php^$domain=inews24.com|joynews24.com
 ||iframe.inews24.com/ad/$domain=inews24.com
 ||iframe.inews24.com/adm/$domain=inews24.com
 ||iframe.joynews24.com/ad/$domain=joynews24.com
@@ -4100,6 +4100,7 @@ inews24.com,joynews24.com##container.ad
 inews24.com,joynews24.com##container.ad-head
 inews24.com,joynews24.com##container.view>div[style="position:sticky;top:10px;width:299px;height:600px;display:flex;padding-bottom:100px;"]
 inews24.com,joynews24.com##hr.ad
+inews24.com,joynews24.com##iframe[src*="//iframe-cp.inews24.com/coupang/"][src*=".php"]
 insight.co.kr##div.ad-google-side1
 insight.co.kr##div.ad-google-side2
 insight.co.kr##div.aside-sticky>div[style="display: block;width: 300px;height: 250px;"]
@@ -4290,7 +4291,6 @@ joongdo.co.kr##div#id_header_R
 joseilbo.com##div[class$="_banner"]
 joseilbo.com##div[class^="R_cnt_bn_"]
 joseilbo.com##iframe[src*="//adserver.joseilbo.com/openads/adframe.php"]
-joynews24.com##iframe[src*="//iframe-cp.inews24.com/coupang/bestCoupang.php"]
 joynews24.com##iframe[src*="//iframe.joynews24.com/ad/"]
 joynews24.com##iframe[src*="//iframe.joynews24.com/adm/"]
 jr.naver.com##div.bigBanner
