@@ -3725,6 +3725,19 @@
                 }
             },
             {
+                "id": "d6b31b65-e445-4153-9475-62c903362e65",
+                "name": "##iframe[src*=\"//webmetic.net/CLad.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//webmetic.net/CLad.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "373f5f6c-0699-4005-91ff-6f7c58156a85",
                 "name": "##iframe[src*=\"//widget.barnebys.com/widget.php\"]",
                 "content": {
@@ -32912,6 +32925,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?web\\.n2s\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "2c624acd-a44d-4dfa-91f1-9ea57c0ede6d",
+                "name": "webmetic.net/CLad.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?webmetic\\.net/CLad\\.php",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
