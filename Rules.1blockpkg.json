@@ -20810,6 +20810,19 @@
                 }
             },
             {
+                "id": "bdd8a945-85e1-41ff-bda5-3dfaf592a0ff",
+                "name": "img.mobon.net/js/common/HawkEyesMaker.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.mobon\\.net/js/common/HawkEyesMaker\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "bce91787-17be-4d05-a380-2bfc2fc7e6f2",
                 "name": "img.mobon.net/js/elpBackUnder.js",
                 "content": {
@@ -26682,6 +26695,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?next\\.adfork\\.co\\.kr",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "bb61f490-7b46-46a1-b1a6-c791a2e138e3",
+                "name": "nhnace.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?nhnace\\.com",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
