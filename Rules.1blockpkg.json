@@ -15285,6 +15285,19 @@
                 }
             },
             {
+                "id": "48683f5c-2627-45a1-8645-9f1dec41c0a9",
+                "name": "cdn.nhnace.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.nhnace\\.com",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b145a88a-c19f-4d99-9411-6c61806c8d66",
                 "name": "cdn.optmd.com/V2/PSA/",
                 "content": {
@@ -26695,19 +26708,6 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?next\\.adfork\\.co\\.kr",
-                        "url-filter-is-case-sensitive": false
-                    },
-                    "action": {
-                        "type": "block"
-                    }
-                }
-            },
-            {
-                "id": "bb61f490-7b46-46a1-b1a6-c791a2e138e3",
-                "name": "nhnace.com",
-                "content": {
-                    "trigger": {
-                        "url-filter": "^[^:]+://+([^:/]+\\.)?nhnace\\.com",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
