@@ -15285,6 +15285,19 @@
                 }
             },
             {
+                "id": "d8b366f7-cd59-4a48-b87f-1f20126f4e3e",
+                "name": "cdn.nhnace.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.nhnace\\.com",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "b145a88a-c19f-4d99-9411-6c61806c8d66",
                 "name": "cdn.optmd.com/V2/PSA/",
                 "content": {
@@ -20802,6 +20815,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.mobon\\.net/ad/imgfile/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "84e09f65-4062-4e75-8215-979be51768c0",
+                "name": "img.mobon.net/js/common/HawkEyesMaker.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.mobon\\.net/js/common/HawkEyesMaker\\.js",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
