@@ -14906,6 +14906,19 @@
                 }
             },
             {
+                "id": "012335bd-4427-4a7d-a9ae-e7b2384b1842",
+                "name": "cdn.adshub.kr/sdk/inventory_*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.adshub\\.kr/sdk/inventory_.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "20e6acc7-0c4d-4a86-88ee-612276bd06d9",
                 "name": "cdn.adsolutions.nl/tagman/WAIT/lib.js",
                 "content": {
@@ -43863,7 +43876,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#m_art_top_ad,div#mflick>div[style=\"clear:both; width:100%;background-color:#fff; padding:10px 0;\"],div#mflick>div[style=\"clear:both; width:100%;background-color:#fff; padding:8px 0;\"],div.flick-container>div[style=\"clear:both; width:100%;background-color:#fff; margin: 0px 0px 10px 0px;\"],div.flick-container>div[style=\"padding-bottom:10px;text-align:center;\"],div.m01_arvM02>div[style=\"margin:10px 0px;\"],div.m01_arvM02>div[style=\"text-align: center;\"],div.news_body_area>div[style=\"float:right; margin-left:10px; margin-top:7px;\"],div.news_body_area>div[style=\"margin:10px auto; width:310px;\"]"
+                        "selector": "div#m_art_top_ad,div#mflick>div[style=\"clear:both; width:100%;background-color:#fff; padding:10px 0;\"],div#mflick>div[style=\"clear:both; width:100%;background-color:#fff; padding:8px 0;\"],div.adv_p,div.article_ad,div.article_ad2,div.flick-container>div[style=\"clear:both; width:100%;background-color:#fff; margin: 0px 0px 10px 0px;\"],div.flick-container>div[style=\"padding-bottom:10px;text-align:center;\"],div.m01_arvM02>div[style=\"margin:10px 0px;\"],div.m01_arvM02>div[style=\"text-align: center;\"],div.news_body_area>div[style=\"float:right; margin-left:10px; margin-top:7px;\"],div.news_body_area>div[style=\"margin:10px auto; width:310px;\"]"
                     }
                 }
             },
