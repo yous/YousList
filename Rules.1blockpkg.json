@@ -35509,6 +35509,19 @@
                 }
             },
             {
+                "id": "95856c5a-5e09-46f5-bf2e-19da737713e3",
+                "name": "bntnews.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?bntnews\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "header>div.banner,main>div.banner"
+                    }
+                }
+            },
+            {
                 "id": "45de8c62-a89e-4321-ad63-9a51f6a73784",
                 "name": "bntnews.hankyung.com##",
                 "content": {
