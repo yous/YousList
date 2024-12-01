@@ -48197,6 +48197,19 @@
                 }
             },
             {
+                "id": "992b9c71-6c17-40d8-b909-27c52e3b03aa",
+                "name": "slashdot.org##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?slashdot\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adwrap,div.banner-wrapper,div.railad"
+                    }
+                }
+            },
+            {
                 "id": "289fddd2-2018-4dc3-a78f-31f5ed5d6c3d",
                 "name": "slate.com##",
                 "content": {
