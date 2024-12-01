@@ -44024,6 +44024,19 @@
                 }
             },
             {
+                "id": "b7e4ac95-313a-410e-9199-97d88d750943",
+                "name": "m.slashdot.org##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.slashdot\\.org"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#river_bottom,div#river_top,div.google_ad"
+                    }
+                }
+            },
+            {
                 "id": "8497eb8d-3c56-4028-84db-7aedc1bdd209",
                 "name": "m.slrclub.com##",
                 "content": {
