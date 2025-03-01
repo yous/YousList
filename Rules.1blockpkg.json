@@ -48795,6 +48795,19 @@
                 }
             },
             {
+                "id": "cd4e25da-f70e-4c0b-9eff-d0cb21728060",
+                "name": "talks.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?talks\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"layout-page_wrap__\"]>a[class^=\"banner-ad_wrap__\"]"
+                    }
+                }
+            },
+            {
                 "id": "109d1c28-55b5-4ec6-aa16-4493b6f2668b",
                 "name": "taptalk.net##",
                 "content": {
