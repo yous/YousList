@@ -34905,6 +34905,19 @@
                 }
             },
             {
+                "id": "2338a5fc-8fd6-4ba0-a13b-8c33c54a7f44",
+                "name": "autocar.co.uk##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?autocar\\.co\\.uk"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad--block,div.top-ads-render-area"
+                    }
+                }
+            },
+            {
                 "id": "fd749cbc-5e2f-4d66-a9aa-ae15501463d7",
                 "name": "autoevolution.com##",
                 "content": {
