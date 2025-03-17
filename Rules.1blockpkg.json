@@ -16854,6 +16854,22 @@
                 }
             },
             {
+                "id": "7bfc4221-6cd4-48c5-a136-2b27efc5f444",
+                "name": "dailymedi.com/data/banner/$domain=dailymedi.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?dailymedi\\.com/data/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*dailymedi.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "99ba851f-e606-41ec-b3de-c78cc6dbe46c",
                 "name": "damoang.net/data/file/banners/$domain=damoang.net",
                 "content": {
@@ -37006,7 +37022,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "img[src^=\"banner_view.php\"]"
+                        "selector": "div#viewBanner,div.ad_banner"
                     }
                 }
             },
