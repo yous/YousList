@@ -2438,6 +2438,19 @@
                 }
             },
             {
+                "id": "89a5b103-f963-4227-87c1-324fe4f86949",
+                "name": "##iframe[src*=\"//cp.edl.co.kr/cou/dynamic_iframe.php\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//cp.edl.co.kr/cou/dynamic_iframe.php\"]"
+                    }
+                }
+            },
+            {
                 "id": "d8e57b78-2d59-42d9-bf08-a66e43ef60d9",
                 "name": "##iframe[src*=\"//cp.edl.co.kr/cou/iframe.php\"]",
                 "content": {
@@ -16042,6 +16055,45 @@
                 }
             },
             {
+                "id": "819dd059-be31-42ca-9bd4-f3ae6b2a4566",
+                "name": "cp.edl.co.kr/cou/dynamic_ad_loader.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cp\\.edl\\.co\\.kr/cou/dynamic_ad_loader\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "9cca8de2-c8d2-46e8-b6e8-68c4db9f44f9",
+                "name": "cp.edl.co.kr/cou/dynamic_iframe.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cp\\.edl\\.co\\.kr/cou/dynamic_iframe\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "bc5cae49-3a08-4856-ad39-1f7236b3bf8d",
+                "name": "cp.edl.co.kr/cou/dynamic_js.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cp\\.edl\\.co\\.kr/cou/dynamic_js\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "631c4c86-f374-4f9f-a65b-bc7fbf73dc06",
                 "name": "cp.edl.co.kr/cou/iframe.php",
                 "content": {
@@ -23487,6 +23539,22 @@
                         "url-filter-is-case-sensitive": false,
                         "if-domain": [
                             "*m.asiatoday.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "1a152cb5-b30d-4b35-ada2-eadcf1e16a06",
+                "name": "m.celuvmedia.com/ad/$domain=m.celuvmedia.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.celuvmedia\\.com/ad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.celuvmedia.com"
                         ]
                     },
                     "action": {
@@ -42223,6 +42291,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.area_sa,div.plug_game_ad,div.reserve_banner,li.ad_wrap"
+                    }
+                }
+            },
+            {
+                "id": "2ea1d0f1-227d-4adb-954d-6ae9ccdf5f52",
+                "name": "m.celuvmedia.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.celuvmedia\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.ad_frame,img[src^=\"/ad/\"],section.main_bnr"
                     }
                 }
             },

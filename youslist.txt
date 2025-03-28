@@ -193,6 +193,7 @@
 ##iframe[src*="//cm.interworksmedia.co.kr/adTagRequest.htm"]
 ##iframe[src*="//compass.adop.cc/RD/"]
 ##iframe[src*="//coupa.ng/"]
+##iframe[src*="//cp.edl.co.kr/cou/dynamic_iframe.php"]
 ##iframe[src*="//cp.edl.co.kr/cou/iframe.php"]
 ##iframe[src*="//cpv.ad.naver.com/adshow"]
 ##iframe[src*="//creative.wwwpromoter.com/"]
@@ -1160,6 +1161,9 @@
 ||contextual.media.net/bidexchange.js^
 ||contextual.media.net/nmedianet.js^
 ||coolsoft.altervista.org/sites/all/themes/coolsoft/js/coolsoft.js^
+||cp.edl.co.kr/cou/dynamic_ad_loader.php^
+||cp.edl.co.kr/cou/dynamic_iframe.php^
+||cp.edl.co.kr/cou/dynamic_js.php^
 ||cp.edl.co.kr/cou/iframe.php^
 ||cp.edl.co.kr/cou/js.php^
 ||cperformmedia-a.akamaihd.net/dpfm.js^
@@ -1679,6 +1683,7 @@
 ||m.asiatoday.co.kr/kn/ad/$domain=m.asiatoday.co.kr
 ||m.asiatoday.co.kr/kn/adop2.js^$domain=m.asiatoday.co.kr
 ||m.asiatoday.co.kr/kn/inbnet.html^$domain=m.asiatoday.co.kr
+||m.celuvmedia.com/ad/$domain=m.celuvmedia.com
 ||m.chosun.com/200.html^$domain=m.chosun.com
 ||m.chosun.com/biz_spo.html^$domain=m.biz.chosun.com
 ||m.chosun.com/gnc1.html^$domain=m.chosun.com
@@ -4679,6 +4684,9 @@ m.cafe.naver.com##div.area_sa
 m.cafe.naver.com##div.plug_game_ad
 m.cafe.naver.com##div.reserve_banner
 m.cafe.naver.com##li.ad_wrap
+m.celuvmedia.com##div.ad_frame
+m.celuvmedia.com##img[src^="/ad/"]
+m.celuvmedia.com##section.main_bnr
 m.cgv.co.kr##div.popup_container>div.container_content>a.btn_adEvent
 m.chosun.com##div#_popIn_recommend_300x250
 m.chosun.com##div#adalign
