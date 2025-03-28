@@ -38301,6 +38301,19 @@
                 }
             },
             {
+                "id": "1e7fcd4e-f104-4372-9116-08e77ceb30ef",
+                "name": "financialpost.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?financialpost\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#bottom-sticky"
+                    }
+                }
+            },
+            {
                 "id": "bd358e9e-c9b8-484e-9a52-99ac8e243f78",
                 "name": "fivethirtyeight.com##",
                 "content": {
