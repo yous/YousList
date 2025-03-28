@@ -45880,6 +45880,19 @@
                 }
             },
             {
+                "id": "e10ae924-b853-491e-99ef-2647fc4c492b",
+                "name": "newduck.net##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newduck\\.net"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "aside.custom-banner,aside.custom-banner+p[style=\"text-align: center;\"],div#ad-container,div#plusad_widget_wrap,div#powerLink1,div.pc_top_ad"
+                    }
+                }
+            },
+            {
                 "id": "50075281-4f98-44a0-82ac-2528218d0c38",
                 "name": "newgrounds.com##",
                 "content": {
