@@ -20885,6 +20885,22 @@
                 }
             },
             {
+                "id": "00183161-fdb6-4932-af67-1fed813d7dd8",
+                "name": "img.ikbc.co.kr/data/kbc/upload/save/banner/$domain=news.ikbc.co.kr",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?img\\.ikbc\\.co\\.kr/data/kbc/upload/save/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*news.ikbc.co.kr"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "3725315c-fcda-4a46-a2e9-550827b839f5",
                 "name": "img.investchosun.com/invbanner/$domain=investchosun.com",
                 "content": {
@@ -46100,6 +46116,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.banner-box,div.user-ad-box,ul.banner-3"
+                    }
+                }
+            },
+            {
+                "id": "b0fee7bf-aae2-4238-af37-902a7a7b73af",
+                "name": "news.ikbc.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?news\\.ikbc\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.content_banner,div.topBanner,main>div.banner"
                     }
                 }
             },
