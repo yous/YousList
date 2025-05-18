@@ -48639,6 +48639,19 @@
                 }
             },
             {
+                "id": "bf7d6bb4-4fdc-4389-8151-278f823630a9",
+                "name": "sportschosun.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sportschosun\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "body>section div.mobile-ad[style]:not([id]),div#caulyad,div.news_text div.mobile-ad"
+                    }
+                }
+            },
+            {
                 "id": "b31e0e52-6ef8-4240-aa1c-a7395fdc6cbf",
                 "name": "sportsseoul.com##",
                 "content": {
