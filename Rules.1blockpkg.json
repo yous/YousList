@@ -15026,6 +15026,19 @@
                 }
             },
             {
+                "id": "15d9a60d-7d4e-443d-9212-135fdfd153f9",
+                "name": "cdn.bridgelabs.kr/sbp/j.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cdn\\.bridgelabs\\.kr/sbp/j\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "81045fa4-4621-453d-b2dc-c354256c8eca",
                 "name": "cdn.caprofitx.com/media/*/pfx.js",
                 "content": {
