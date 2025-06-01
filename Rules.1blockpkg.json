@@ -23576,6 +23576,22 @@
                 }
             },
             {
+                "id": "52b098ed-7b30-41c5-b53c-3886bed59649",
+                "name": "m.cartech.nate.com/images/banner/$domain=m.cartech.nate.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.cartech\\.nate\\.com/images/banner/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*m.cartech.nate.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1a152cb5-b30d-4b35-ada2-eadcf1e16a06",
                 "name": "m.celuvmedia.com/ad/$domain=m.celuvmedia.com",
                 "content": {
@@ -42346,6 +42362,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div.area_sa,div.plug_game_ad,div.reserve_banner,li.ad_wrap"
+                    }
+                }
+            },
+            {
+                "id": "9845b170-4e15-48fc-8b21-506f4bc6db55",
+                "name": "m.cartech.nate.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.cartech\\.nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div[class^=\"page_content-ad-box__\"],img[src^=\"/images/banner/\"]"
                     }
                 }
             },
