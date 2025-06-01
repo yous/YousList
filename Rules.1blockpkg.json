@@ -44846,6 +44846,19 @@
                 }
             },
             {
+                "id": "0c0c539c-524b-4b22-b534-47eb774b85cf",
+                "name": "mail.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?mail\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#content>div.smart_channel"
+                    }
+                }
+            },
+            {
                 "id": "51ccd573-550a-4c19-9a43-637d61272af5",
                 "name": "mainichi.jp##",
                 "content": {
