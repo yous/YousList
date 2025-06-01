@@ -46003,6 +46003,19 @@
                 }
             },
             {
+                "id": "e660a2f5-2c77-4b37-91ec-ea7f4b8b8730",
+                "name": "new-m.pay.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?new-m\\.pay\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#p_pay_paid"
+                    }
+                }
+            },
+            {
                 "id": "3196d035-4a05-4d51-9d9a-08e03744b599",
                 "name": "newautopost.co.kr##",
                 "content": {
