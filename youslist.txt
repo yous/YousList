@@ -1464,6 +1464,7 @@
 ||ilbe.com/myads/openX_passback*.html^$domain=ilbe.com
 ||ilikeview.com/aclk^
 ||imaeil.com/upload/ads/$domain=imaeil.com
+||image.ajunews.com/content/ads/$domain=ajunews.com
 ||image.cauly.co.kr/websdk/common/lasted/ads.js^
 ||image.cauly.co.kr/websdk/multi_mini_ads/ads.js^
 ||image.cauly.co.kr:15151/richad/partnerApp/
@@ -2455,10 +2456,12 @@ afbbs.afreecatv.com##div#div_video_ad_banner
 afreecatv.com##button.promotion_area_left
 afreecatv.com##button.promotion_area_right
 afreecatv.com##div.promotion_area
-ajunews.com##article.art_ad
-ajunews.com##article.art_ad_banner
-ajunews.com##div.asd_banner
-ajunews.com##div.banner_con
+ajunews.com##article[class^="atc_ad_"]
+ajunews.com##div#articleBody>div[style="height: 260px; margin: 10px 0px;"]
+ajunews.com##div#articleBody>div[style="height:260px;margin:10px 0 10px 0;;"]
+ajunews.com##div#articleBody>div[style="width:100%;height:480px;"]
+ajunews.com##div.view_banner
+ajunews.com##div[class^="atc_ad_"]
 akomnews.com##div.ad_pos
 akomnews.com##div.banner_wrap
 akomnews.com##div.com_ban

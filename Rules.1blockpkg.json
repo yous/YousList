@@ -20407,6 +20407,22 @@
                 }
             },
             {
+                "id": "0cfbed0c-0b4e-41d3-8b5d-3942ac9fdeb7",
+                "name": "image.ajunews.com/content/ads/$domain=ajunews.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?image\\.ajunews\\.com/content/ads/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*ajunews.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c2c30a92-7235-4a24-9e6c-31537cad58d8",
                 "name": "image.cauly.co.kr/websdk/common/lasted/ads.js",
                 "content": {
@@ -34340,7 +34356,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "article.art_ad,article.art_ad_banner,div.asd_banner,div.banner_con"
+                        "selector": "article[class^=\"atc_ad_\"],div#articleBody>div[style=\"height: 260px; margin: 10px 0px;\"],div#articleBody>div[style=\"height:260px;margin:10px 0 10px 0;;\"],div#articleBody>div[style=\"width:100%;height:480px;\"],div.view_banner,div[class^=\"atc_ad_\"]"
                     }
                 }
             },
