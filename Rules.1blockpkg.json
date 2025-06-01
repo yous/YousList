@@ -46016,6 +46016,19 @@
                 }
             },
             {
+                "id": "68537dd3-7595-4130-8c78-177fd477da4f",
+                "name": "new.land.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?new\\.land\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#land_panel_da"
+                    }
+                }
+            },
+            {
                 "id": "3196d035-4a05-4d51-9d9a-08e03744b599",
                 "name": "newautopost.co.kr##",
                 "content": {
