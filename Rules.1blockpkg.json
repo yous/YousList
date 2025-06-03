@@ -36389,6 +36389,19 @@
                 }
             },
             {
+                "id": "f6b259a1-1588-4f73-91a2-8c8d5ffe113c",
+                "name": "cartech.nate.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?cartech\\.nate\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.body-ad,div.body-middle-ad"
+                    }
+                }
+            },
+            {
                 "id": "08e88b29-25d1-44ee-aa0b-a58fc240d25c",
                 "name": "castbox.shopping.naver.com##",
                 "content": {
