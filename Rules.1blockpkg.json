@@ -12528,6 +12528,22 @@
                 }
             },
             {
+                "id": "041243cb-a152-4cab-9345-b35681e36183",
+                "name": "api-gw.sports.naver.com/cms/contents/adContents/$domain=sports.naver.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?api-gw\\.sports\\.naver\\.com/cms/contents/adContents/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*sports.naver.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "701ec2ec-4512-428f-924d-094c1b022a0c",
                 "name": "api.adiostech.com/cou/iframe.php",
                 "content": {
