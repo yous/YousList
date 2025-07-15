@@ -35313,6 +35313,19 @@
                 }
             },
             {
+                "id": "a5aa7451-55cf-454c-9cdd-3e806e4c374e",
+                "name": "besteleven.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?besteleven\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#floating_banner_left,div#floating_banner_right"
+                    }
+                }
+            },
+            {
                 "id": "82dde59e-3969-4d89-8607-20e2c351bc28",
                 "name": "betanews.com##",
                 "content": {
