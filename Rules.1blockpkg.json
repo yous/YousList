@@ -38517,6 +38517,19 @@
                 }
             },
             {
+                "id": "1c570107-ecd9-497c-b8fc-2871af09357e",
+                "name": "finance.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?finance\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#_SmartChannelTopBanner,div.ad,div.banner_smart"
+                    }
+                }
+            },
+            {
                 "id": "6f26cd8d-3250-46e5-b7c8-8f707ac917e1",
                 "name": "finance.yahoo.com##",
                 "content": {
