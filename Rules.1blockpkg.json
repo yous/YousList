@@ -51166,6 +51166,19 @@
                 }
             },
             {
+                "id": "61b3a7df-908f-4450-95f9-0aea85b4969b",
+                "name": "weather.naver.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?weather\\.naver\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div._cnDisplayAd"
+                    }
+                }
+            },
+            {
                 "id": "7f4e5b68-6f2c-42c9-866d-51ac5d9682b7",
                 "name": "web.humoruniv.com##",
                 "content": {
