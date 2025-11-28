@@ -34253,6 +34253,19 @@
                 }
             },
             {
+                "id": "55cc8404-48f3-4385-8305-ee7e5b31e3ca",
+                "name": "82cook.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?82cook\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.bbs_list_header>div[style=\"width:332px;top:0px;right:0px;position:absolute;\"]"
+                    }
+                }
+            },
+            {
                 "id": "5f432a23-b3d2-49f0-bc2e-a77999bee97c",
                 "name": "9gag.com##",
                 "content": {
