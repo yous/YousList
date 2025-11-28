@@ -3166,6 +3166,19 @@
                 }
             },
             {
+                "id": "a45eb417-e5db-4b3b-bd62-62d3e8c2120f",
+                "name": "##iframe[src*=\"//playreport.kr/ad\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//playreport.kr/ad\"]"
+                    }
+                }
+            },
+            {
                 "id": "731af047-62f9-4ea4-91a8-56b12552abb7",
                 "name": "##iframe[src*=\"//plugin.2beon.co.kr/\"]",
                 "content": {
@@ -27977,6 +27990,19 @@
                 "content": {
                     "trigger": {
                         "url-filter": "^[^:]+://+([^:/]+\\.)?player\\.globalsun\\.io/player/videojs-contrib-ads/dist/videojs\\.ads\\.min\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
+                "id": "e76f25a2-e1d2-436d-80a8-5aedd8673f31",
+                "name": "playreport.kr/ad",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?playreport\\.kr/ad",
                         "url-filter-is-case-sensitive": false
                     },
                     "action": {
