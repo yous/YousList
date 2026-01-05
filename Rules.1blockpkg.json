@@ -26068,6 +26068,19 @@
                 }
             },
             {
+                "id": "11acecf8-4037-465c-af69-3866745fe845",
+                "name": "my.newscover.co.kr/common/c/js/sidecover_*.js",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?my\\.newscover\\.co\\.kr/common/c/js/sidecover_.*\\.js",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "dc2937b5-c8bd-43a2-888d-8f952320558e",
                 "name": "mycdn.co/adServe/imgBanner*/*_image-banner.cib",
                 "content": {
@@ -45974,7 +45987,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#art_ad_top1,div#main-middle01-scroll-in>div[style=\"overflow:hidden; margin:10px 0 12px; width:398px; height:64px; text-align:center; \"],div#news_banner1,div#news_banner2,ul.related_ad"
+                        "selector": "div.ad-tag,div.dynamic-ad,p.ad-tag"
                     }
                 }
             },
