@@ -51000,6 +51000,19 @@
                 }
             },
             {
+                "id": "dee31485-c2bb-4051-a692-a7605c080989",
+                "name": "villain.city##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?villain\\.city"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div#right-profile~div:not([class]):not([id]),div.content-default-right>div.grid-cols-2>div.aspect-1\\/2,div.google-ads,div.place-content-start>div:first-of-type:not([class]):not([id])"
+                    }
+                }
+            },
+            {
                 "id": "6a686e2a-515f-4a38-9ec7-e7d2c7b00606",
                 "name": "viralised.com##",
                 "content": {
