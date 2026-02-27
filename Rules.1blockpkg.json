@@ -44461,6 +44461,19 @@
                 }
             },
             {
+                "id": "4d8d5a2d-f88d-402d-9eeb-f0f1ab8c5004",
+                "name": "m.sstpnews.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?m\\.sstpnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adlink"
+                    }
+                }
+            },
+            {
                 "id": "1b11ba84-a9c6-4214-9f99-4d0f4f48a280",
                 "name": "m.star.mt.co.kr##",
                 "content": {
