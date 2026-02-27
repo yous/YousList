@@ -10250,6 +10250,19 @@
                 }
             },
             {
+                "id": "17141440-db8f-48aa-959d-0f5f50aa6877",
+                "name": "adapi.feeldmc.com/ad/",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?adapi\\.feeldmc\\.com/ad/",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "374a832c-0c7f-4b20-b88d-aada2640ae69",
                 "name": "adapi.inlcorp.com/dfp/",
                 "content": {
@@ -44508,7 +44521,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#float_bottom,div.newsview_ad_bnr,div.text_ad_type_1,div.text_ad_type_2,li.ad_area"
+                        "selector": "div#float_bottom,div.newsview_ad_bnr,div.text_ad_type_1,div.text_ad_type_2,li.ad_area,div.bx_ad,div.iwm_ba"
                     }
                 }
             },
