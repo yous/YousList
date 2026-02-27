@@ -21669,6 +21669,19 @@
                 }
             },
             {
+                "id": "2bbd188e-5c19-4045-8eee-3b069ef7cb5b",
+                "name": "io1.innorame.com/imp/*.script",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?io1\\.innorame\\.com/imp/.*\\.script",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "018a3f64-12a1-4ac4-b411-9a421f45890b",
                 "name": "ir-*.amazon-adsystem.com/s/ads-common.js",
                 "content": {
@@ -44274,7 +44287,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div#M_view_line,div#ad_kakao,div.ad_banner4,div.ad_banner5,div.ad_banner6,div.ad_banner7,div.main_wid_banner"
+                        "selector": "div.common-bottom-ad,div[id^=\"svcad_\"]"
                     }
                 }
             },
