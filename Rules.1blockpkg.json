@@ -48972,6 +48972,19 @@
                 }
             },
             {
+                "id": "d1c67a85-e900-426c-a62a-1dad41668778",
+                "name": "sstpnews.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?sstpnews\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.adlink"
+                    }
+                }
+            },
+            {
                 "id": "ea7eaa81-d1ff-4ec8-b301-d1568193c38a",
                 "name": "stackabuse.com##",
                 "content": {
