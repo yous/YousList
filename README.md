@@ -14,14 +14,14 @@ Block filter for advertisements, mainly on Korean sites. This works with
 ## Usage
 
 ```
-https://github.com/yous/YousList/raw/master/youslist.txt
+https://cdn.jsdelivr.net/gh/yous/YousList@latest/youslist.txt
 ```
 
-### Adblock Plus ([Subscribe](https://subscribe.adblockplus.org/?location=https://github.com/yous/YousList/raw/master/youslist.txt&title=YousList))
+### Adblock Plus ([Subscribe](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/yous/YousList@latest/youslist.txt&title=YousList))
 
 Install the browser plugin of Adblock Plus and add a subscription as 'YousList' with the above URL.
 
-### uBlock Origin ([Subscribe](https://subscribe.adblockplus.org/?location=https://github.com/yous/YousList/raw/master/youslist.txt&title=YousList))
+### uBlock Origin ([Subscribe](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/yous/YousList@latest/youslist.txt&title=YousList))
 
 Install the browser plugin of uBlock Origin and enable 'KOR: YousList' by checking it.
 
@@ -37,10 +37,10 @@ then import the new rules.
 Add the following URL as a host source.
 
 ```
-https://raw.githubusercontent.com/yous/YousList/master/hosts.txt
+https://cdn.jsdelivr.net/gh/yous/YousList@latest/hosts.txt
 ```
 
-### AdGuard ([Subscribe](https://subscribe.adblockplus.org/?location=https://github.com/yous/YousList/raw/master/youslist.txt&title=YousList))
+### AdGuard ([Subscribe](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/yous/YousList@latest/youslist.txt&title=YousList))
 
 Enable YousList on the filter list.
 
