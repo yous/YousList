@@ -46649,6 +46649,19 @@
                 }
             },
             {
+                "id": "f0c59ba2-bfbd-4ce3-babd-4bfcc7ddaae2",
+                "name": "newsbell.co.kr##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?newsbell\\.co\\.kr"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.pc-post-ad-header"
+                    }
+                }
+            },
+            {
                 "id": "84bfcdb8-9b4e-4172-adce-2eabaa2dc752",
                 "name": "newscientist.com##",
                 "content": {
