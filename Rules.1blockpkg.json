@@ -3478,6 +3478,19 @@
                 }
             },
             {
+                "id": "51bacb51-6d96-4fb9-8e3b-93badd1cfe1d",
+                "name": "##iframe[src*=\"//static.dable.io/ad/adm-builder-base-\"][src$=\".html\"]",
+                "content": {
+                    "trigger": {
+                        "url-filter": ".*"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "iframe[src*=\"//static.dable.io/ad/adm-builder-base-\"][src$=\".html\"]"
+                    }
+                }
+            },
+            {
                 "id": "d71a8b58-6ca6-4494-8ac5-950017cc8a73",
                 "name": "##iframe[src*=\"//static.joins.com/isplus/ui/ad/\"]",
                 "content": {
@@ -40847,6 +40860,19 @@
                     "action": {
                         "type": "css-display-none",
                         "selector": "div#container>div.center_1024.bg_999.py_40.mt_40,div.center_banner,div[id^=\"contentAD\"]"
+                    }
+                }
+            },
+            {
+                "id": "ba09322f-8c12-4d7f-bec9-058586fbaf58",
+                "name": "issuefeed.dcinside.com##",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?issuefeed\\.dcinside\\.com"
+                    },
+                    "action": {
+                        "type": "css-display-none",
+                        "selector": "div.body-ad,div[class*=\" page_content-sticky-bottom__\"],div[class^=\"page_content-ad-box__\"]"
                     }
                 }
             },

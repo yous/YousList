@@ -3,7 +3,7 @@
 ! License: https://github.com/yous/YousList#license
 ! Title: YousList
 ! Expires: 1 days
-! Version: 20260511
+! Version: 20260625
 
 ! General element hiding rules
 ##amp-ad
@@ -273,6 +273,7 @@
 ##iframe[src*="//ssp.adpies.com/ssp/request"]
 ##iframe[src*="//ssp.igaw.io/i/"][src*=".html"]
 ##iframe[src*="//ssp.realclick.co.kr/"][src*="c=iframe"]
+##iframe[src*="//static.dable.io/ad/adm-builder-base-"][src$=".html"]
 ##iframe[src*="//static.joins.com/isplus/ui/ad/"]
 ##iframe[src*="//stt.pltapad.com/contain.php"]
 ##iframe[src*="//sv.govkorea24.com/"]
@@ -4231,6 +4232,9 @@ irishcentral.com##div[data-label-text="AD"]
 isplus.com##div#container>div.center_1024.bg_999.py_40.mt_40
 isplus.com##div.center_banner
 isplus.com##div[id^="contentAD"]
+issuefeed.dcinside.com##div.body-ad
+issuefeed.dcinside.com##div[class*=" page_content-sticky-bottom__"]
+issuefeed.dcinside.com##div[class^="page_content-ad-box__"]
 issuelink.co.kr##div.ibox-content>table.table>tbody>tr>td.text-center
 issuu.com##div[class^="Ads__"]
 issuu.com##div[class^="DocumentInfo__adContainer--"]
