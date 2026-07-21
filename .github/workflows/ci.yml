@@ -12,10 +12,11 @@ jobs:
         uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
         with:
           python-version: ${{ matrix.python-version }}
-          pip-install: flake8
-      - name: Lint with flake8
-        run: |
-          flake8 bin/
+      - uses: astral-sh/ruff-action@278981a28ce3188b1e39527901f38254bf3aac89 # v4.1.0
+        with:
+          src: bin/
+      - run: ruff check
+      - run: ruff format --check --diff
       - name: Lint with shellcheck
         uses: ludeeus/action-shellcheck@00cae500b08a931fb5698e11e79bfbd38e612a38 # v2.0.0
         with:
