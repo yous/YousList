@@ -1,6 +1,4 @@
-# -*- coding=utf-8 -*-
 import codecs
-import io
 import json
 import os
 import re
@@ -30,7 +28,7 @@ class FilterParser:
         if basepkg:
             try:
                 # For cross-platform development, expecially for Windows
-                f = io.open(basepkg)
+                f = open(basepkg)
                 obj = json.load(f, object_pairs_hook=OrderedDict)
                 orig_pkg = obj[0]
                 self.pkg['id'] = orig_pkg['id']
@@ -47,7 +45,7 @@ class FilterParser:
     def parse(self):
         # For the purpose of a cross-platform expecially for Windows
         # Windows consoles does not use 'utf-8' by default.
-        with io.open(sys.argv[1], encoding='utf-8') as f:
+        with open(sys.argv[1], encoding='utf-8') as f:
             for line in f.readlines():
                 if line.startswith('! Workarounds'):
                     break
