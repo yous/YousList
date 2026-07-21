@@ -1,4 +1,3 @@
-import codecs
 import json
 import os
 import re
@@ -71,17 +70,7 @@ class FilterParser:
 
         # Otherwise,
         else:
-            # Python 3
-            if sys.version_info.major >= 3:
-                sys.stdout.buffer.write(bytes(line.encode('utf-8')))
-
-            # Python 2
-            else:
-                # On Windows, the output ends with CRLF.
-                if sys.platform == "win32":
-                    import msvcrt
-                    msvcrt.setmode(sys.stdout.fileno(), os.O_BINARY)
-                codecs.getwriter('utf-8')(sys.stdout).write(line)
+            sys.stdout.buffer.write(bytes(line.encode('utf-8')))
 
     def _parse_rule(self, line):
         line = line.strip()
