@@ -16,6 +16,7 @@ jobs:
         with:
           args: "--version"
           src: bin/
+          version: ">=0.16.0"
       - run: ruff check
       - run: ruff format --check --diff
       - name: Lint with shellcheck
