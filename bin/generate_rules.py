@@ -9,45 +9,43 @@ pwd = os.path.dirname(os.path.abspath(__file__))
 root = os.path.dirname(pwd)
 
 
+class RuleError(Exception):
+    pass
+
+
 class FilterParser:
     # For scheme, see Appendix A of http://www.ietf.org/rfc/rfc2396.txt
     # See https://webkit.org/blog/4062/targeting-domains-with-content-blockers/
     DOMAIN_PREFIX = "^[^:]+://+([^:/]+\\.)?"
-    TRIGGER_ORDERED_KEYS = [
+    TRIGGER_ORDERED_KEYS = (
         "url-filter",
         "url-filter-is-case-sensitive",
         "resource-type",
         "load-type",
         "if-domain",
         "unless-domain",
-    ]
+    )
 
     def __init__(self, name="Generated Package", basepkg=None):
         self.pkg = OrderedDict()
         self.id_dict = {}
         self.rules = []
         if basepkg:
-            try:
-                # For cross-platform development, expecially for Windows
-                f = open(basepkg)
+            with open(basepkg, encoding="utf-8") as f:
                 obj = json.load(f, object_pairs_hook=OrderedDict)
                 orig_pkg = obj[0]
                 self.pkg["id"] = orig_pkg["id"]
                 self.pkg["name"] = orig_pkg["name"]
                 for rule in orig_pkg["rules"]:
                     self.id_dict[rule["name"]] = rule["id"]
-            finally:
-                f.close()
         if "id" not in self.pkg:
             self.pkg["id"] = str(uuid.uuid4())
         if "name" not in self.pkg:
             self.pkg["name"] = name
 
     def parse(self):
-        # For the purpose of a cross-platform expecially for Windows
-        # Windows consoles does not use 'utf-8' by default.
         with open(sys.argv[1], encoding="utf-8") as f:
-            for line in f.readlines():
+            for line in f:
                 if line.startswith("! Workarounds"):
                     break
                 self._parse_rule(line)
@@ -87,7 +85,7 @@ class FilterParser:
             self._parse_hiding_rule(line)
         elif line.startswith("#@#"):
             # Skip global element hiding exception rule
-            raise Exception("Cannot handle this rule: " + line)
+            raise RuleError("Cannot handle this rule: " + line)
         elif "#@#" in line:
             # Element hiding exception rule
             self._parse_hiding_exception_rule(line)
@@ -204,7 +202,7 @@ class FilterParser:
 
         if url.startswith("~"):
             # Element hiding exception rule
-            raise Exception("Cannot handle this rule: " + line)
+            raise RuleError("Cannot handle this rule: " + line)
         for rule in self.rules:
             content = rule["content"]
             trigger = content["trigger"]
@@ -226,7 +224,7 @@ class FilterParser:
                     unless_domain.append("*" + url)
                 trigger["unless-domain"] = unless_domain
                 return
-        raise Exception("Cannot handle this rule: " + line)
+        raise RuleError("Cannot handle this rule: " + line)
 
     def _parse_exception_rule(self, line):
         rule = self._parse_url_filter(line[2:])
@@ -257,7 +255,7 @@ class FilterParser:
             # Regular expression blocking rule
             regex = url
             if not regex.endswith("/"):
-                raise Exception("Cannot handle this rule: " + line)
+                raise RuleError("Cannot handle this rule: " + line)
             regex = regex[1:-1]
             regex = re.sub(r"\\/", "/", regex)
 
@@ -335,7 +333,7 @@ class FilterParser:
                     else:
                         if_domain.append("*" + domain)
                 if len(if_domain) and len(unless_domain):
-                    raise Exception("Cannot handle these domains: " + opt_val)
+                    raise RuleError("Cannot handle these domains: " + opt_val)
                 elif len(if_domain):
                     opt_dict["if-domain"] = if_domain
                 elif len(unless_domain):
@@ -349,7 +347,7 @@ class FilterParser:
             elif opt_key == "match-case":
                 opt_dict["url-filter-is-case-sensitive"] = True
             else:
-                raise Exception("Cannot handle this option: " + opt_key)
+                raise RuleError("Cannot handle this option: " + opt_key)
         return opt_dict
 
     def _get_rule_id(self, name):

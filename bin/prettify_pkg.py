@@ -4,13 +4,7 @@ from collections import OrderedDict
 
 pwd = os.path.dirname(os.path.abspath(__file__))
 root = os.path.dirname(pwd)
-try:
-    f = open(os.path.join(root, "Rules.1blockpkg"), encoding="utf-8")
+with open(os.path.join(root, "Rules.1blockpkg"), encoding="utf-8") as f:
     obj = json.load(f, object_pairs_hook=OrderedDict)
-    try:
-        json_file = open(os.path.join(root, "Rules.1blockpkg.json"), "w")
+    with open(os.path.join(root, "Rules.1blockpkg.json"), "w") as json_file:
         json.dump(obj, json_file, indent=4, separators=(",", ": "))
-    finally:
-        json_file.close()
-finally:
-    f.close()
