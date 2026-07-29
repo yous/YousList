@@ -13345,6 +13345,22 @@
                 }
             },
             {
+                "id": "d586b42b-34d4-4c65-8abd-4ab8f4ee9013",
+                "name": "bemil.chosun.com/bemil/resources/js/ad/$domain=bemil.chosun.com",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?bemil\\.chosun\\.com/bemil/resources/js/ad/",
+                        "url-filter-is-case-sensitive": false,
+                        "if-domain": [
+                            "*bemil.chosun.com"
+                        ]
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "c54ec086-d778-4df3-8726-4bad81221337",
                 "name": "berchsoda.com/*/*/*/*.js",
                 "content": {
@@ -35438,7 +35454,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.ad_fix_bottom,div.bannerBox,div.view_bottom_ad,iframe[src^=\"http://news.chosun.com/google_tag/google_tag_bemil_2015.html\"]"
+                        "selector": "div.AD,div.AD2,div.ADWide,div.MainAD,div.ad_fix_bottom,iframe[src*=\"//bemil.chosun.com/bemil/resources/js/ad/\"]"
                     }
                 }
             },
