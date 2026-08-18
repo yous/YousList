@@ -23299,6 +23299,19 @@
                 }
             },
             {
+                "id": "87cb5e6a-9eb0-42a6-83ec-7710b8dd4db3",
+                "name": "live.primis.tech/live/liveView.php",
+                "content": {
+                    "trigger": {
+                        "url-filter": "^[^:]+://+([^:/]+\\.)?live\\.primis\\.tech/live/liveView\\.php",
+                        "url-filter-is-case-sensitive": false
+                    },
+                    "action": {
+                        "type": "block"
+                    }
+                }
+            },
+            {
                 "id": "1ad2d252-e00e-479c-88b4-5b4ccf8c2666",
                 "name": "live.sekindo.com/live/liveView.php",
                 "content": {
@@ -41395,7 +41408,7 @@
                     },
                     "action": {
                         "type": "css-display-none",
-                        "selector": "div.Supporter"
+                        "selector": "div#fs-sticky-footer"
                     }
                 }
             },
